@@ -1,0 +1,15 @@
+{
+  "Id": 100663363,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "BanLimit",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "0"
+  }
+}

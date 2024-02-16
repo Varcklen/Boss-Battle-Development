@@ -1,0 +1,11 @@
+{
+  "Id": 50332726,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Hnum_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A164'\r\nendfunction\r\n\r\nfunction Trig_Hnum_Actions takes nothing returns nothing\r\n    local integer cyclA = 1\r\n    local integer x\r\n    local integer id\r\n    local unit caster\r\n    local group g = CreateGroup()\r\n    local unit u\r\n    local integer k = 0\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        call textst( udg_string[0] + GetObjectName('A164'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n    endif\r\n\r\n    set x = eyest( caster )\r\n    call DestroyEffect( AddSpecialEffect( \"Abilities\\\\Spells\\\\Human\\\\Polymorph\\\\PolyMorphDoneGround.mdl\", GetUnitX( caster ), GetUnitY( caster ) ) )\r\n    \r\n    set bj_livingPlayerUnitsTypeId = ID_SHEEP\r\n    call GroupEnumUnitsOfPlayer(g, GetOwningPlayer( caster ), filterLivingPlayerUnitsOfTypeId)\r\n    loop\r\n        set u = FirstOfGroup(g)\r\n        exitwhen u == null or k >= 30\r\n        set k = k + 1\r\n        call ReplaceUnitBJ( u, udg_Database_RandomUnit[GetRandomInt(1, udg_Database_NumberItems[5])], bj_UNIT_STATE_METHOD_RELATIVE )\r\n        call UnitApplyTimedLife( bj_lastReplacedUnit, 'BTLF', 15)\r\n        call DestroyEffect( AddSpecialEffect( \"Abilities\\\\Spells\\\\Human\\\\Polymorph\\\\PolyMorphDoneGround.mdl\", GetUnitX( bj_lastReplacedUnit ), GetUnitY( bj_lastReplacedUnit ) ) )\r\n        call GroupRemoveUnit(g,u)\r\n    endloop\r\n\r\n    call GroupClear( g )\r\n    call DestroyGroup( g )\r\n    set u = null\r\n    set g = null\r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Hnum takes nothing returns nothing\r\n    set gg_trg_Hnum = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Hnum, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Hnum, Condition( function Trig_Hnum_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Hnum, function Trig_Hnum_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

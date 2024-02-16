@@ -1,0 +1,11 @@
+{
+  "Id": 50332538,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Totem_of_Exchange_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A17S' and combat( GetSpellAbilityUnit(), true, GetSpellAbilityId() )\r\nendfunction\r\n\r\nfunction Trig_Totem_of_Exchange_Actions takes nothing returns nothing\r\n    local integer cyclA = 1\r\n    local integer cyclAEnd \r\n    local unit caster\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        call textst( udg_string[0] + GetObjectName('A17S'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n    endif \r\n    \r\n    call DestroyEffect( AddSpecialEffectTarget( \"Blood Explosion.mdx\", caster, \"origin\" ) )\r\n    set cyclAEnd  = eyest( caster )\r\n    loop\r\n        exitwhen cyclA > cyclAEnd\r\n        if BlzGetUnitIntegerField(caster,UNIT_IF_PRIMARY_ATTRIBUTE) == 1 and GetHeroStr( caster, false) > 2 then\r\n            call statst( caster, -2, 2, 2, 0, true )\r\n        elseif BlzGetUnitIntegerField(caster,UNIT_IF_PRIMARY_ATTRIBUTE) == 2 and GetHeroInt( caster, false) > 2 then\r\n            call statst( caster, 2, 2, -2, 0, true )\r\n        elseif BlzGetUnitIntegerField(caster,UNIT_IF_PRIMARY_ATTRIBUTE) == 3 and GetHeroAgi( caster, false) > 2 then\r\n            call statst( caster, 2, -2, 2, 0, true )\r\n        endif\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    \r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Totem_of_Exchange takes nothing returns nothing\r\n    set gg_trg_Totem_of_Exchange = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Totem_of_Exchange, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Totem_of_Exchange, Condition( function Trig_Totem_of_Exchange_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Totem_of_Exchange, function Trig_Totem_of_Exchange_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

@@ -1,0 +1,11 @@
+{
+  "Id": 50332577,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Contract_Conditions takes nothing returns boolean\r\n    return GetItemTypeId(GetManipulatedItem()) == 'I0BB'\r\nendfunction\r\n\r\nfunction Trig_Contract_Actions takes nothing returns nothing\r\n    local integer i = 0\r\n    local integer cyclA = 0\r\n    \r\n    call stazisst( GetManipulatingUnit(), GetManipulatedItem() )\r\n    \r\n    loop\r\n        exitwhen cyclA > 5\r\n        if UnitHasItem(GetManipulatingUnit(), UnitItemInSlot(GetManipulatingUnit(), cyclA)) and GetItemType(UnitItemInSlot(GetManipulatingUnit(), cyclA)) != ITEM_TYPE_POWERUP and GetItemType(UnitItemInSlot(GetManipulatingUnit(), cyclA)) != ITEM_TYPE_PURCHASABLE  then\r\n            set i = i + 1\r\n        endif\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    \r\n    if i >= 5 then\r\n        set cyclA = 0\r\n        loop\r\n            exitwhen cyclA > 5\r\n            call RemoveItem( UnitItemInSlot( GetManipulatingUnit(), cyclA ) )\r\n            set cyclA = cyclA + 1\r\n        endloop\r\n        call SetHeroLevel( GetManipulatingUnit(), GetHeroLevel(GetManipulatingUnit()) + 6, true )\r\n    endif\r\n    \r\n    call DestroyEffect( AddSpecialEffectTarget(\"Abilities\\\\Spells\\\\Human\\\\Polymorph\\\\PolyMorphDoneGround.mdl\", GetManipulatingUnit(), \"origin\" ) )\r\n    call statst( GetManipulatingUnit(), 1, 1, 1, 0, true )\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Contract takes nothing returns nothing\r\n    set gg_trg_Contract = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Contract, EVENT_PLAYER_UNIT_USE_ITEM )\r\n    call TriggerAddCondition( gg_trg_Contract, Condition( function Trig_Contract_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Contract, function Trig_Contract_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

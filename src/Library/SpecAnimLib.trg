@@ -1,0 +1,11 @@
+{
+  "Id": 50332101,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "library SpecAnimLib\r\n\r\n    function spectimeend takes nothing returns nothing\r\n        local integer id = GetHandleId( GetExpiredTimer() )\r\n        local effect e = LoadEffectHandle( udg_hash, id, StringHash( \"anim\" ) )\r\n\r\n        call DestroyEffect( e )\r\n        call FlushChildHashtable( udg_hash, id )\r\n        \r\n        set e = null\r\n    endfunction\r\n\r\n    function spectimeunit takes unit u, string what, string where, real t returns nothing\r\n        local integer id\r\n\r\n        set bj_lastCreatedEffect = AddSpecialEffectTarget(what, u, where)\r\n        \r\n        set id = GetHandleId(bj_lastCreatedEffect)\r\n        if LoadTimerHandle( udg_hash, id, StringHash( \"anim\" ) ) == null  then\r\n            call SaveTimerHandle( udg_hash, id, StringHash( \"anim\" ), CreateTimer() )\r\n        endif\r\n        set id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"anim\" ) ) ) \r\n        call SaveEffectHandle( udg_hash, id, StringHash( \"anim\" ), bj_lastCreatedEffect )\r\n        call TimerStart( LoadTimerHandle( udg_hash, GetHandleId( bj_lastCreatedEffect ), StringHash( \"anim\" ) ), t, false, function spectimeend )\r\n        \r\n        set u = null\r\n    endfunction\r\n\r\n    function spectime takes string what, real x, real y, real t returns nothing\r\n        local integer id\r\n\r\n        set bj_lastCreatedEffect = AddSpecialEffect(what, x, y)\r\n        \r\n        set id = GetHandleId(bj_lastCreatedEffect)\r\n        if LoadTimerHandle( udg_hash, id, StringHash( \"anim\" ) ) == null  then\r\n            call SaveTimerHandle( udg_hash, id, StringHash( \"anim\" ), CreateTimer() )\r\n        endif\r\n        set id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"anim\" ) ) ) \r\n        call SaveEffectHandle( udg_hash, id, StringHash( \"anim\" ), bj_lastCreatedEffect )\r\n        call TimerStart( LoadTimerHandle( udg_hash, GetHandleId( bj_lastCreatedEffect ), StringHash( \"anim\" ) ), t, false, function spectimeend )\r\n    endfunction\r\n\r\nendlibrary\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

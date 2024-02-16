@@ -1,0 +1,14 @@
+{
+  "Id": 100663460,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Dublicate",
+  "Type": "boolean",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

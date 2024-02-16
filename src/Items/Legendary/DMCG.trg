@@ -1,0 +1,11 @@
+{
+  "Id": 50332763,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_DMCG_Conditions takes nothing returns boolean\r\n    return inv( udg_Event_PlayerMinionSummon_Hero, 'I095' ) > 0 and GetUnitState( udg_Event_PlayerMinionSummon_Hero, UNIT_STATE_LIFE) > 0.405 and combat( udg_Event_PlayerMinionSummon_Hero, false, 0 ) and not( udg_fightmod[3] )\r\nendfunction\r\n\r\nfunction Trig_DMCG_Actions takes nothing returns nothing\r\n    local integer i = GetPlayerId(GetOwningPlayer(udg_Event_PlayerMinionSummon_Unit)) + 1\r\n    local integer id = GetHandleId( udg_Event_PlayerMinionSummon_Hero )\r\n    local integer s = LoadInteger( udg_hash, id, StringHash( udg_QuestItemCode[4] ) ) + 1\r\n    \r\n    call SaveInteger( udg_hash, id, StringHash( udg_QuestItemCode[4] ), s )\r\n\r\n    if s >= udg_QuestNum[4] then\r\n        call RemoveItem(GetItemOfTypeFromUnitBJ(udg_Event_PlayerMinionSummon_Hero, 'I095'))\r\n        set bj_lastCreatedItem = CreateItem( 'I03D', GetUnitX(udg_Event_PlayerMinionSummon_Hero), GetUnitY(udg_Event_PlayerMinionSummon_Hero))\r\n        call UnitAddItem(udg_Event_PlayerMinionSummon_Hero, bj_lastCreatedItem)\r\n        call textst( \"|c00ffffff General fee done!\", udg_Event_PlayerMinionSummon_Hero, 64, GetRandomReal( 45, 135 ), 12, 1.5 )\r\n        call DestroyEffect( AddSpecialEffect( \"Abilities\\\\Spells\\\\Human\\\\ReviveHuman\\\\ReviveHuman.mdl\", GetUnitX(udg_Event_PlayerMinionSummon_Hero), GetUnitY(udg_Event_PlayerMinionSummon_Hero) ) )\r\n        set udg_QuestDone[i] = true\r\n    else\r\n        call QuestDiscription( udg_Event_PlayerMinionSummon_Hero, 'I095', s, udg_QuestNum[4] )\r\n    endif\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_DMCG takes nothing returns nothing\r\n    set gg_trg_DMCG = CreateTrigger(  )\r\n    call TriggerRegisterVariableEvent( gg_trg_DMCG, \"udg_Event_PlayerMinionSummon_Real\", EQUAL, 1.00 )\r\n    call TriggerAddCondition( gg_trg_DMCG, Condition( function Trig_DMCG_Conditions ) )\r\n    call TriggerAddAction( gg_trg_DMCG, function Trig_DMCG_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

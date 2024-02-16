@@ -1,0 +1,11 @@
+{
+  "Id": 50332174,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Item_Conditions takes nothing returns boolean\r\n    return SubString(GetEventPlayerChatString(), 0, 5) == \"-item\" \r\nendfunction\r\n\r\nfunction Trig_Item_Actions takes nothing returns nothing\r\n    local integer g = GetPlayerId(GetTriggerPlayer()) + 1\r\n    local string i = SubString(GetEventPlayerChatString(), 6, 7)\r\n    local string p = SubString(GetEventPlayerChatString(), 8, 9)\r\n    local integer a = S2I(i)-1\r\n    local integer b = S2I(p)-1\r\n    local item it\r\n    local item ir\r\n    \r\n    set udg_logic[36] = true\r\n    if S2I(i) > 0 and S2I(i) <= 6 and S2I(p) > 0 and S2I(p) <= 6 and GetUnitState(udg_hero[g], UNIT_STATE_LIFE) > 0.405 then\r\n        set it = UnitItemInSlot(udg_hero[g], a )\r\n        set ir = UnitItemInSlot(udg_hero[g], b )\r\n        call UnitRemoveItem(udg_hero[g], it)\r\n        call UnitRemoveItem(udg_hero[g], ir)\r\n        call UnitAddItem(udg_hero[g], it)\r\n        if UnitItemInSlot( udg_hero[g], b ) != it then\r\n            call UnitDropItemSlot(udg_hero[g], it, b)\r\n        endif\r\n        call UnitAddItem(udg_hero[g], ir)\r\n        if UnitItemInSlot( udg_hero[g], a ) != ir then\r\n            call UnitDropItemSlot(udg_hero[g], ir, a)\r\n        endif\r\n    endif\r\n    set udg_logic[36] = false\r\n    set it = null\r\n    set ir = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Item takes nothing returns nothing\r\n    local integer cyclA = 0\r\n    set gg_trg_Item = CreateTrigger()\r\n    loop\r\n        exitwhen cyclA > 3\r\n        call TriggerRegisterPlayerChatEvent( gg_trg_Item, Player(cyclA), \"-item \", false )\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    call TriggerAddCondition( gg_trg_Item, Condition( function Trig_Item_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Item, function Trig_Item_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

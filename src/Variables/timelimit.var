@@ -1,0 +1,15 @@
+{
+  "Id": 100663543,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "timelimit",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "300"
+  }
+}

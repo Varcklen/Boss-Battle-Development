@@ -1,0 +1,14 @@
+{
+  "Id": 100663476,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Set_Cristall_Number",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

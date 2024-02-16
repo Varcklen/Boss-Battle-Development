@@ -1,0 +1,11 @@
+{
+  "Id": 50332908,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Arcanology_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A19U' and combat( GetSpellAbilityUnit(), true, GetSpellAbilityId() ) and not(udg_fightmod[3])\r\nendfunction\r\n\r\nfunction Trig_Arcanology_Actions takes nothing returns nothing\r\n    local unit caster\r\n    local item newItem\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        call textst( udg_string[0] + GetObjectName('A19U'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n    endif\r\n\r\n    call DestroyEffect( AddSpecialEffect( \"Abilities\\\\Spells\\\\Human\\\\Polymorph\\\\PolyMorphDoneGround.mdl\", GetUnitX( caster ), GetUnitY( caster ) ) )\r\n    if UnitInventoryCount(caster) < 6 then\r\n        set newItem = CreateItem( udg_DB_Item_Activate[GetRandomInt(1,udg_Database_NumberItems[31])], GetUnitX(caster), GetUnitY(caster) )\r\n        call UnitAddItem( caster, newItem )\r\n        call BlzSetItemExtendedTooltip( newItem, \"|cffC71585Cursed|r|n\" + BlzGetItemExtendedTooltip(newItem) ) // sadtwig\r\n        //call BlzSetItemIconPath( newItem, \"|cffC71585Cursed|r|n\" + BlzGetItemExtendedTooltip(newItem) )\r\n    endif\r\n    \r\n    set newItem = null\r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Arcanology takes nothing returns nothing\r\n    set gg_trg_Arcanology = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Arcanology, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Arcanology, Condition( function Trig_Arcanology_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Arcanology, function Trig_Arcanology_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

@@ -1,0 +1,11 @@
+{
+  "Id": 50332239,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "scope Confusion initializer init\r\n\r\n    globals\r\n        private constant integer DURATION = 10\r\n        private constant string ANIMATION = \"Abilities\\\\Spells\\\\Undead\\\\DeathPact\\\\DeathPactTarget.mdl\"\r\n    endglobals\r\n    \r\n    private function FightStart_Conditions takes nothing returns boolean\r\n        return udg_modbad[31]\r\n    endfunction\r\n\r\n    private function ReturnMana takes nothing returns nothing\r\n        local integer id = GetHandleId( GetExpiredTimer( ) )\r\n        local unit hero = LoadUnitHandle(udg_hash, id, StringHash(\"mdb31\") )\r\n        local real manaStealed = LoadReal(udg_hash, id, StringHash(\"mdb31\") )\r\n        \r\n        call PlaySpecialEffect(ANIMATION, hero)\r\n        call SetUnitState( hero, UNIT_STATE_MANA, GetUnitState( hero, UNIT_STATE_MANA ) + manaStealed )\r\n        call FlushChildHashtable( udg_hash, id )\r\n        \r\n        set hero = null\r\n    endfunction\r\n\r\n    private function FightStart takes nothing returns nothing\r\n        local unit hero = udg_FightStart_Unit\r\n        local real manaStealed = 0.5*GetUnitState( hero, UNIT_STATE_MANA)\r\n        local integer id\r\n        \r\n        call PlaySpecialEffect(ANIMATION, hero)\r\n        call SetUnitState( hero, UNIT_STATE_MANA, GetUnitState( hero, UNIT_STATE_MANA ) - manaStealed )\r\n        set id = InvokeTimerWithUnit(hero, \"mdb31\", DURATION, false, function ReturnMana )\r\n        call SaveReal(udg_hash, id, StringHash(\"mdb31\"), manaStealed )\r\n        \r\n        set hero = null\r\n    endfunction\r\n\r\n    //===========================================================================\r\n    private function init takes nothing returns nothing\r\n        call CreateEventTrigger( \"udg_FightStart_Real\", function FightStart, function FightStart_Conditions )\r\n    endfunction\r\n\r\nendscope\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

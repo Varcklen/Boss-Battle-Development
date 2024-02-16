@@ -1,0 +1,11 @@
+{
+  "Id": 50332626,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Manashtorm_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A14H'\r\nendfunction\r\n\r\nfunction Trig_Manashtorm_Actions takes nothing returns nothing\r\n    local integer cyclA = 1\r\n    local integer cyclAEnd\r\n    local integer id\r\n    local unit caster\r\n    local unit target\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n        set target = udg_Target\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        set target = randomtarget( caster, 900, \"ally\", \"pris\", \"\", \"\", \"\" )\r\n        call textst( udg_string[0] + GetObjectName('A0KJ'), caster, 64, 90, 10, 1.5 )\r\n        if target == null then\r\n            set caster = null\r\n            return\r\n        endif\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n        set target = GetSpellTargetUnit()\r\n    endif\r\n\r\n    set cyclAEnd = eyest( caster )\r\n    set id = GetHandleId( caster )\r\n\r\n    call DestroyEffect( AddSpecialEffect( \"Objects\\\\Spawnmodels\\\\Naga\\\\NagaDeath\\\\NagaDeath.mdl\", GetUnitX( target ), GetUnitY( target ) ) )\r\n    loop\r\n        exitwhen cyclA > cyclAEnd\r\n        call KillUnit( target )\r\n        call manast( caster, null, GetUnitState( caster, UNIT_STATE_MAX_MANA ) * 0.05 )\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    \r\n    set caster = null\r\n    set target = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Manashtorm takes nothing returns nothing\r\n    set gg_trg_Manashtorm = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Manashtorm, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Manashtorm, Condition( function Trig_Manashtorm_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Manashtorm, function Trig_Manashtorm_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

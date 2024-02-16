@@ -1,0 +1,14 @@
+{
+  "Id": 100663535,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "dmgboss",
+  "Type": "real",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

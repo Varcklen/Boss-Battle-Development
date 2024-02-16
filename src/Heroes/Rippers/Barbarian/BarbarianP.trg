@@ -1,0 +1,11 @@
+{
+  "Id": 50333053,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "scope BarbarianE initializer init\r\n\r\n    globals\r\n        private constant integer ID_ABILITY = 'A08F'\r\n        private constant real RESOURCE_BONUS_FIRST_LEVEL = 0\r\n        private constant real RESOURCE_BONUS_LEVEL_BONUS = 0.01\r\n        private constant integer MINIMUM_RESOURCE_ADDED = 1\r\n        \r\n        private constant string ANIMATION_HEALTH = \"Abilities\\\\Spells\\\\Human\\\\Heal\\\\HealTarget.mdl\"\r\n        private constant string ANIMATION_MANA = \"Abilities\\\\Spells\\\\Undead\\\\ReplenishMana\\\\ReplenishManaCaster.mdl\"\r\n    endglobals\r\n\r\n    private function Trig_BarbarianE_Conditions takes nothing returns boolean\r\n         return udg_IsDamageSpell == false and IsUnitHasAbility( udg_DamageEventSource, ID_ABILITY) and IsUnitEnemy(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget))\r\n    endfunction\r\n    \r\n    private function Trig_BarbarianE_Actions takes nothing returns nothing\r\n        local real percent = RESOURCE_BONUS_FIRST_LEVEL + ( GetUnitAbilityLevel( udg_DamageEventSource, ID_ABILITY) * RESOURCE_BONUS_LEVEL_BONUS )\r\n        local real heal \r\n        \r\n        if IsUnitManaIsFull( udg_DamageEventSource ) then\r\n            set heal = RMaxBJ(MINIMUM_RESOURCE_ADDED, GetUnitState( udg_DamageEventSource, UNIT_STATE_MAX_LIFE) * percent )\r\n            call healst( udg_DamageEventSource, null, heal )\r\n            call spectimeunit( udg_DamageEventSource, ANIMATION_HEALTH, \"origin\", 2 )\r\n        else\r\n            set heal = RMaxBJ(MINIMUM_RESOURCE_ADDED, GetUnitState( udg_DamageEventSource, UNIT_STATE_MAX_MANA) * percent )\r\n            call manast( udg_DamageEventSource, null, heal )\r\n            call spectimeunit( udg_DamageEventSource, ANIMATION_MANA, \"origin\", 2 )\r\n        endif\r\n    endfunction\r\n\r\n    //===========================================================================\r\n    private function init takes nothing returns nothing\r\n         call CreateEventTrigger( \"udg_AfterDamageEvent\", function Trig_BarbarianE_Actions, function Trig_BarbarianE_Conditions )\r\n    endfunction\r\nendscope",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

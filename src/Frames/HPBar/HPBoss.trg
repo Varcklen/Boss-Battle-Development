@@ -1,0 +1,11 @@
+{
+  "Id": 50332280,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_HPBoss_Actions takes nothing returns nothing\r\n     call BlzLoadTOCFile(\"war3mapImported\\\\myBar.toc\")//keep?\r\n\r\n    //First Bar\r\n    set hpbar1 = BlzCreateSimpleFrame(\"MyBarEx\", BlzGetOriginFrame(ORIGIN_FRAME_GAME_UI, 0), 1)\r\n    call BlzFrameSetAbsPoint(hpbar1, FRAMEPOINT_CENTER, 0.4, 0.54)\r\n    call BlzFrameSetText(BlzGetFrameByName(\"MyBarExText\",1), \"\")\r\n    call BlzFrameSetSize(hpbar1, 0.3, 0.02)\r\n    call BlzFrameSetTexture(hpbar1, \"Replaceabletextures\\\\Teamcolor\\\\Teamcolor22.blp\", 0, true)\r\n    call BlzFrameSetVisible( hpbar1, false )\r\n    \r\n    set hpPerc1 = BlzCreateFrameByType(\"TEXT\", \"\", BlzGetOriginFrame(ORIGIN_FRAME_GAME_UI, 0), \"StandartFrameTemplate\", 0)\r\n\tcall BlzFrameSetSize( hpPerc1, 0.1, 0.04 ) \r\n    call BlzFrameSetAbsPoint(hpPerc1, FRAMEPOINT_CENTER, 0.573, 0.525)\r\n\tcall BlzFrameSetText( hpPerc1, \"|cffbababc100%|r\" )\r\n    call BlzFrameSetVisible( hpPerc1, false )\r\n    \r\n    //Second Bar\r\n    set hpbar2 = BlzCreateSimpleFrame(\"MyBarEx\", BlzGetOriginFrame(ORIGIN_FRAME_GAME_UI, 0), 2)\r\n    call BlzFrameSetAbsPoint(hpbar2, FRAMEPOINT_CENTER, 0.4, 0.518)\r\n    call BlzFrameSetText(BlzGetFrameByName(\"MyBarExText\",2), \"\")\r\n    call BlzFrameSetSize(hpbar2, 0.3, 0.02)\r\n    call BlzFrameSetTexture(hpbar2, \"Replaceabletextures\\\\Teamcolor\\\\Teamcolor22.blp\", 0, true)\r\n    call BlzFrameSetVisible( hpbar2, false )\r\n    \r\n    set hpPerc2 = BlzCreateFrameByType(\"TEXT\", \"\", BlzGetOriginFrame(ORIGIN_FRAME_GAME_UI, 0), \"StandartFrameTemplate\", 0)\r\n\tcall BlzFrameSetSize( hpPerc2, 0.1, 0.04 )\r\n    call BlzFrameSetAbsPoint(hpPerc2, FRAMEPOINT_CENTER, 0.573, 0.503)\r\n\tcall BlzFrameSetText( hpPerc2, \"|cffbababc100%|r\" )\r\n    call BlzFrameSetVisible( hpPerc2, false )\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_HPBoss takes nothing returns nothing\r\n    set gg_trg_HPBoss = CreateTrigger(  )\r\n    call TriggerRegisterTimerExpireEvent( gg_trg_HPBoss, udg_StartTimer )\r\n    call TriggerAddAction( gg_trg_HPBoss, function Trig_HPBoss_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

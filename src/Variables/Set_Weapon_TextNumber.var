@@ -1,0 +1,14 @@
+{
+  "Id": 100663637,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Set_Weapon_TextNumber",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

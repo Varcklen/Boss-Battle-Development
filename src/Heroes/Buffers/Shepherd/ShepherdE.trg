@@ -1,0 +1,11 @@
+{
+  "Id": 50333061,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "scope ShepherdE initializer init\r\n\r\n    globals\r\n        private constant integer ID_ABILITY = 'A1DV'\r\n        private group g = CreateGroup()\r\n    endglobals\r\n\r\n    private function is_allied_idle_summon takes nothing returns boolean\r\n        local unit filtered\r\n        local unit caster\r\n        local boolean b\r\n        \r\n        set filtered = GetFilterUnit()\r\n        set caster = GetSpellAbilityUnit()\r\n        set b = unitst( filtered, caster, \"ally\" ) and not( IsUnitType( filtered, UNIT_TYPE_HERO ) ) and not( IsUnitType( filtered, UNIT_TYPE_ANCIENT ) ) and  GetUnitAbilityLevel( filtered, 'Avul') == 0 and GetUnitCurrentOrder(filtered) == 0\r\n        set filtered = null\r\n        set caster = null\r\n        return b\r\n    endfunction\r\n\r\n    function Trig_ShepherdE_Conditions takes nothing returns boolean\r\n        return GetSpellAbilityId() == ID_ABILITY\r\n    endfunction\r\n\r\n    function Trig_ShepherdE_Actions takes nothing returns nothing\r\n        local unit u\r\n\r\n        call GroupEnumUnitsInRect( g, GetEntireMapRect(), Condition( function is_allied_idle_summon ) )\r\n        loop\r\n            set u = FirstOfGroup(g)\r\n            exitwhen u == null\r\n            //\r\n            call IssueTargetOrder( u, \"attack\", GetSpellTargetUnit() )\r\n            //\r\n            call GroupRemoveUnit(g,u)\r\n            set u = FirstOfGroup(g)\r\n        endloop\r\n    endfunction\r\n\r\n    //===========================================================================\r\n    function init takes nothing returns nothing\r\n        set gg_trg_ShepherdE = CreateTrigger(  )\r\n        call TriggerRegisterAnyUnitEventBJ( gg_trg_ShepherdE, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n        call TriggerAddCondition( gg_trg_ShepherdE, Condition( function Trig_ShepherdE_Conditions ) )\r\n        call TriggerAddAction( gg_trg_ShepherdE, function Trig_ShepherdE_Actions )\r\n    endfunction\r\n\r\nendscope",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

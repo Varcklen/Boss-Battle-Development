@@ -1,0 +1,11 @@
+{
+  "Id": 50332750,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Runestone_Kusa_Conditions takes nothing returns boolean\r\n    return inv( GetSpellAbilityUnit(), 'I02H' ) > 0 and not(udg_logic[GetUnitUserData(GetSpellAbilityUnit()) + 26])\r\nendfunction\r\n\r\nfunction Runestone_KusaCast takes nothing returns nothing\r\n    local integer id = GetHandleId( GetExpiredTimer( ) )\r\n    local unit caster = LoadUnitHandle( udg_hash, id, StringHash( \"kusa\" ) )\r\n    \r\n    set bj_lastCreatedUnit = CreateUnit( Player(PLAYER_NEUTRAL_AGGRESSIVE), 'u000', GetUnitX( caster ), GetUnitY( caster ), 270 )\r\n    call UnitAddAbility( bj_lastCreatedUnit, 'A014')\r\n    call UnitApplyTimedLife( bj_lastCreatedUnit, 'BTLF', 1)\r\n    call IssuePointOrder( bj_lastCreatedUnit, \"silence\", GetUnitX( bj_lastCreatedUnit ), GetUnitY( bj_lastCreatedUnit ) )\r\n    \r\n    call FlushChildHashtable( udg_hash, id )\r\n    \r\n    set caster = null\r\nendfunction\r\n\r\nfunction Trig_Runestone_Kusa_Actions takes nothing returns nothing\r\n    local integer id = GetHandleId( GetSpellAbilityUnit() )\r\n    \r\n    if LoadTimerHandle( udg_hash, id, StringHash( \"kusa\" ) ) == null then\r\n        call SaveTimerHandle( udg_hash, id, StringHash( \"kusa\" ), CreateTimer() )\r\n    endif\r\n\tset id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"kusa\" ) ) ) \r\n    call SaveUnitHandle( udg_hash, id, StringHash( \"kusa\" ), GetSpellAbilityUnit() )\r\n\tcall TimerStart( LoadTimerHandle( udg_hash, GetHandleId( GetSpellAbilityUnit() ), StringHash( \"kusa\" ) ), 0.01, false, function Runestone_KusaCast )\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Runestone_Kusa takes nothing returns nothing\r\n    set gg_trg_Runestone_Kusa = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Runestone_Kusa, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Runestone_Kusa, Condition( function Trig_Runestone_Kusa_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Runestone_Kusa, function Trig_Runestone_Kusa_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

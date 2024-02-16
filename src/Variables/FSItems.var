@@ -1,0 +1,14 @@
+{
+  "Id": 100663599,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "FSItems",
+  "Type": "itemcode",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

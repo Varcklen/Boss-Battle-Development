@@ -1,0 +1,14 @@
+{
+  "Id": 100663311,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Event_PlayerMinionSummon_Real",
+  "Type": "real",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

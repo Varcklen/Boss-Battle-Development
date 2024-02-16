@@ -1,0 +1,14 @@
+{
+  "Id": 100663589,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Database_Item_Potion",
+  "Type": "itemcode",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

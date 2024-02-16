@@ -1,0 +1,11 @@
+{
+  "Id": 50332875,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_RingL_Conditions takes nothing returns boolean\r\n    if udg_logic[36] then\r\n        return false\r\n    endif\r\n    if not( Ring_Logic(GetManipulatedItem()) ) then\r\n        return false\r\n    endif\r\n    return true\r\nendfunction\r\n\r\nfunction Trig_RingL_Actions takes nothing returns nothing\r\n    local unit u = GetManipulatingUnit()//udg_hero[GetPlayerId(GetOwningPlayer(GetManipulatingUnit())) + 1]\r\n    local integer i = CorrectPlayer(u)//GetPlayerId(GetOwningPlayer(n)) + 1\r\n    local boolean l = LoadBoolean( udg_hash, GetHandleId( u ), StringHash( \"pkblt\" ) )\r\n    local boolean k = LoadBoolean( udg_hash, GetHandleId( u ), StringHash( \"pkbl\" ) )\r\n    \r\n    if l then\r\n        set udg_logic[i + 62] = false\r\n        call skillst( i, -1 )\r\n        call iconoff( i, \"Кольцо\" )\r\n    else\r\n        set udg_Set_Ring_Number[i] = udg_Set_Ring_Number[i] - 1\r\n        if udg_logic[i + 62] and udg_Set_Ring_Number[i] < 3 then\r\n            if not( k ) then\r\n                set udg_logic[i + 62] = false\r\n                \r\n            \tcall skillst( i, -1 )\r\n            endif\r\n            call DisplayTimedTextToPlayer( GetOwningPlayer( u ), 0, 0, 5, \"Set |cff9001fdRing|r is now disassembled!\" )\r\n            call iconoff( i, \"Кольцо\" )\r\n        endif\r\n    endif\r\n    \r\n    //call AllSetRing( GetManipulatingUnit(), 8, GetManipulatedItem() )\r\n    \r\n    set u = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_RingL takes nothing returns nothing\r\n    set gg_trg_RingL = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_RingL, EVENT_PLAYER_UNIT_DROP_ITEM )\r\n    call TriggerAddCondition( gg_trg_RingL, Condition( function Trig_RingL_Conditions ) )\r\n    call TriggerAddAction( gg_trg_RingL, function Trig_RingL_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

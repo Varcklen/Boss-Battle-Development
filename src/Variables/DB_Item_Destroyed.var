@@ -1,0 +1,14 @@
+{
+  "Id": 100663536,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_Item_Destroyed",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

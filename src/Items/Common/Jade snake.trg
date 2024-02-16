@@ -1,0 +1,11 @@
+{
+  "Id": 50332454,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Jade_snake_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A023' and combat( GetSpellAbilityUnit(), true, GetSpellAbilityId() ) and not( udg_fightmod[3] )\r\nendfunction\r\n\r\nfunction Trig_Jade_snake_Actions takes nothing returns nothing\r\n    local unit caster\r\n    local integer cyclA = 1\r\n    local integer x\r\n    local integer i\r\n    local integer k\r\n    local integer rand \r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Target\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        call textst( udg_string[0] + GetObjectName('A023'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n    endif\r\n    set x = eyest( caster )\r\n    set i = GetPlayerId( GetOwningPlayer( caster ) ) + 1\r\n    set k = GetPlayerId( GetOwningPlayer( udg_hero[i] ) ) + 1\r\n    \r\n    call spectimeunit( caster, \"Abilities\\\\Spells\\\\Human\\\\MarkOfChaos\\\\MarkOfChaosDone.mdl\", \"origin\", 2 )\r\n    loop\r\n        exitwhen cyclA > 1\r\n        set rand = GetRandomInt( 1, udg_Database_NumberItems[13] )\r\n        if udg_DB_Hero_SpecAb[rand] != udg_Ability_Uniq[k] and udg_DB_Hero_SpecAbPlus[rand] != udg_Ability_Uniq[k] then\r\n            call NewUniques( caster, udg_DB_Hero_SpecAb[rand] )\r\n        else\r\n            set cyclA = cyclA - 1\r\n        endif\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n\r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Jade_snake takes nothing returns nothing\r\n    set gg_trg_Jade_snake = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Jade_snake, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Jade_snake, Condition( function Trig_Jade_snake_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Jade_snake, function Trig_Jade_snake_Actions )\r\nendfunction",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

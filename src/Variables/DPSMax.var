@@ -1,0 +1,14 @@
+{
+  "Id": 100663598,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DPSMax",
+  "Type": "real",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

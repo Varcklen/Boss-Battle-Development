@@ -1,0 +1,15 @@
+{
+  "Id": 632476298,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "UNIT_ARTIFACT_CIRCLE_PURPLE",
+  "Type": "unit",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "ncp3_0064"
+  }
+}

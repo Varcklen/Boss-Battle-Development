@@ -1,0 +1,14 @@
+{
+  "Id": 100663552,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "SaveLoadBlockSize",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

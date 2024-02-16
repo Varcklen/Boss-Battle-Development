@@ -1,0 +1,15 @@
+{
+  "Id": 1821864287,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DEST_GATE",
+  "Type": "destructable",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "DTg7_0088"
+  }
+}

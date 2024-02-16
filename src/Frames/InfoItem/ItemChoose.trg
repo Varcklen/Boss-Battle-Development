@@ -1,0 +1,11 @@
+{
+  "Id": 50332297,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_ItemChoose_Conditions takes nothing returns boolean\r\n    return not(udg_fightmod[0]) and not(udg_fightmod[3])// and not(BlzFrameIsVisible(bgfrgfon[1]))\r\nendfunction\r\n\r\nfunction Trig_ItemChoose_Actions takes nothing returns nothing\r\n    local real x = BlzGetTriggerPlayerMouseX()\r\n    local real y = BlzGetTriggerPlayerMouseY()\r\n\tlocal integer k\r\n    local string text\r\n    local item itemtarget = RandomItemInRectSimpleBJ(RectFromCenterSizeBJ(Location(x, y), 200, 200))\r\n\r\n    if itemtarget != null and GetItemType(itemtarget) != ITEM_TYPE_POWERUP then\r\n        set text = BlzGetItemDescription(itemtarget)\r\n        set k = StringLength(text)\r\n        if GetLocalPlayer() == GetTriggerPlayer() then\r\n            call BlzFrameSetVisible(unitfon, false)\r\n            call BlzFrameSetVisible(itemfon, true)\r\n            call BlzFrameSetTexture( itemicon, BlzGetItemIconPath(itemtarget), 0, true )\r\n            call BlzFrameSetText( itemname, GetItemName(itemtarget) )\r\n            call BlzFrameSetAbsPoint(itemfon, FRAMEPOINT_TOP, 0.125, 0.55-bnspos)\r\n    \r\n            call BlzFrameSetText( itemtool, text )\r\n            call BlzFrameSetSize(itemfon, 0.25, 0.08+(0.0003*k))\r\n            call BlzFrameSetSize(itemtool, 0.23, 0.02+(0.0003*k))\r\n        endif\r\n    else\r\n        if GetLocalPlayer() == GetTriggerPlayer() then\r\n            call BlzFrameSetVisible(itemfon, false)\r\n        endif\r\n    endif\r\n    \r\n    set itemtarget = null\r\nendfunction\r\n\r\nfunction InitTrig_ItemChoose takes nothing returns nothing\r\n    local integer i = 0\r\n    set gg_trg_ItemChoose = CreateTrigger(  )\r\n    loop\r\n        exitwhen i > 3\r\n        //call TriggerRegisterPlayerMouseEventBJ( gg_trg_ItemChoose, Player(i), bj_MOUSEEVENTTYPE_UP )\r\n        call TriggerRegisterPlayerEvent(gg_trg_ItemChoose, Player(i), EVENT_PLAYER_MOUSE_UP)\r\n        set i = i + 1\r\n    endloop\r\n    call TriggerAddCondition( gg_trg_ItemChoose, Condition( function Trig_ItemChoose_Conditions ) )\r\n    call TriggerAddAction( gg_trg_ItemChoose, function Trig_ItemChoose_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

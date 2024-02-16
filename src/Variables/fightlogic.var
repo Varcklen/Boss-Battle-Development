@@ -1,0 +1,14 @@
+{
+  "Id": 100663660,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "fightlogic",
+  "Type": "boolean",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

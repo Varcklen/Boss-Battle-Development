@@ -1,0 +1,14 @@
+{
+  "Id": 100663559,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_BS_String",
+  "Type": "string",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

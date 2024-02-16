@@ -1,0 +1,14 @@
+{
+  "Id": 100663417,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "SaveLoadEncryptionNumbers",
+  "Type": "string",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

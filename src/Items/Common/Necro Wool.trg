@@ -1,0 +1,11 @@
+{
+  "Id": 50332481,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Necro_Wool_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A0YM'\r\nendfunction\r\n\r\nfunction Trig_Necro_Wool_Actions takes nothing returns nothing\r\n    local group g = CreateGroup()\r\n    local unit u\r\n    local integer cyclA = 1\r\n    local integer cyclAEnd \r\n    local unit caster\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        call textst( udg_string[0] + GetObjectName('A0YM'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n    endif\r\n    \r\n    set cyclAEnd = eyest( caster )\r\n  \r\n    call DestroyEffect( AddSpecialEffectTarget( \"Abilities\\\\Spells\\\\Human\\\\Polymorph\\\\PolyMorphDoneGround.mdl\", caster, \"origin\" ) )\r\n     loop\r\n        exitwhen cyclA > cyclAEnd\r\n        call GroupEnumUnitsInRange( g, GetUnitX( caster ), GetUnitY( caster ), 600, null )\r\n        loop\r\n            set u = FirstOfGroup(g)\r\n            exitwhen u == null\r\n            if IsUnitAlly( u, GetOwningPlayer( caster ) ) and not( IsUnitType( u, UNIT_TYPE_HERO) ) and not( IsUnitType( u, UNIT_TYPE_ANCIENT) ) and GetUnitAbilityLevel( u, 'Avul') == 0 then\r\n                call UnitAddAbility( u, 'A0YO')\r\n                call GroupAddUnit( udg_NecroWool, u )\r\n            endif\r\n            call GroupRemoveUnit(g,u)\r\n            set u = FirstOfGroup(g)\r\n        endloop\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    \r\n    set u = null\r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Necro_Wool takes nothing returns nothing\r\n    set gg_trg_Necro_Wool = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Necro_Wool, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Necro_Wool, Condition( function Trig_Necro_Wool_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Necro_Wool, function Trig_Necro_Wool_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

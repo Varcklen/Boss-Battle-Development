@@ -1,0 +1,15 @@
+{
+  "Id": 216400827,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "UNIT_HUKSTER",
+  "Type": "unit",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "h00G_0063"
+  }
+}

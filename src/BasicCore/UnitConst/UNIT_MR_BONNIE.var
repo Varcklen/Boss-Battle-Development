@@ -1,0 +1,15 @@
+{
+  "Id": 1234595381,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "UNIT_MR_BONNIE",
+  "Type": "unit",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "h00F_0062"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Id": 50333146,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_AdmiralQ_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A0RV'\r\nendfunction\r\n\r\nfunction Trig_AdmiralQ_Actions takes nothing returns nothing\r\n    local unit caster\r\n    local unit target\r\n    local integer lvl\r\n    local real dmg \r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n        set target = udg_Target\r\n        set lvl = udg_Level\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        set target = randomtarget( caster, 300, \"enemy\", \"\", \"\", \"\", \"\" )\r\n        set lvl = udg_Level\r\n        call textst( udg_string[0] + GetObjectName('A0RV'), caster, 64, 90, 10, 1.5 )\r\n        if target == null then\r\n            set caster = null\r\n            return\r\n        endif\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n        set target = GetSpellTargetUnit()\r\n        set lvl = GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())\r\n    endif\r\n    \r\n    set dmg = (75+(25*lvl))+ ( GetPlayerState(GetOwningPlayer( caster ), PLAYER_STATE_RESOURCE_GOLD) * ( 0.15 + ( 0.05 * lvl ) ) )\r\n\r\n    call dummyspawn( caster, 1, 0, 0, 0 )\r\n    call UnitDamageTarget( bj_lastCreatedUnit, target, dmg, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)\r\n    call DestroyEffect(AddSpecialEffect( \"Abilities\\\\Spells\\\\Other\\\\Stampede\\\\StampedeMissileDeath.mdl\", GetUnitX( target ), GetUnitY( target ) ) )\r\n\r\n    set caster = null\r\n    set target = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_AdmiralQ takes nothing returns nothing\r\n    set gg_trg_AdmiralQ = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_AdmiralQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_AdmiralQ, Condition( function Trig_AdmiralQ_Conditions ) )\r\n    call TriggerAddAction( gg_trg_AdmiralQ, function Trig_AdmiralQ_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

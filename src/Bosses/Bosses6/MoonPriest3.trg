@@ -1,0 +1,11 @@
+{
+  "Id": 50333547,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_MoonPriest3_Conditions takes nothing returns boolean\r\n    return GetUnitTypeId( udg_DamageEventTarget ) == 'e005' and GetUnitLifePercent(udg_DamageEventTarget) <= 40\r\nendfunction\r\n\r\nfunction Trig_MoonPriest3_Actions takes nothing returns nothing\r\n    local group g = CreateGroup()\r\n    local unit u\r\n    \r\n    call DisableTrigger( GetTriggeringTrigger() )\r\n    call UnitAddAbility( udg_DamageEventTarget, 'A021')\r\n    call DestroyEffect( AddSpecialEffectTarget(\"Abilities\\\\Spells\\\\Human\\\\ControlMagic\\\\ControlMagicTarget.mdl\", udg_DamageEventTarget, \"overhead\") )\r\n    \r\n    set bj_livingPlayerUnitsTypeId = 'e00I'\r\n    call GroupEnumUnitsOfPlayer(g, GetOwningPlayer( udg_DamageEventTarget ), filterLivingPlayerUnitsOfTypeId)\r\n    loop\r\n        set u = FirstOfGroup(g)\r\n        exitwhen u == null\r\n        if GetUnitState( u, UNIT_STATE_LIFE) > 0.405 then\r\n            call UnitAddAbility( u, 'A021')\r\n            call DestroyEffect( AddSpecialEffectTarget(\"Abilities\\\\Spells\\\\Human\\\\ControlMagic\\\\ControlMagicTarget.mdl\", u, \"overhead\") )\r\n        endif\r\n        call GroupRemoveUnit(g,u)\r\n    endloop\r\n    \r\n    call GroupClear( g )\r\n    call DestroyGroup( g )\r\n    set g = null\r\n    set u = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_MoonPriest3 takes nothing returns nothing\r\n    set gg_trg_MoonPriest3 = CreateTrigger(  )\r\n    call DisableTrigger( gg_trg_MoonPriest3 )\r\n    call TriggerRegisterVariableEvent( gg_trg_MoonPriest3, \"udg_AfterDamageEvent\", EQUAL, 1.00 )\r\n    call TriggerAddCondition( gg_trg_MoonPriest3, Condition( function Trig_MoonPriest3_Conditions ) )\r\n    call TriggerAddAction( gg_trg_MoonPriest3, function Trig_MoonPriest3_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

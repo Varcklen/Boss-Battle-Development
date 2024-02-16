@@ -1,0 +1,11 @@
+{
+  "Id": 50332876,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_CristallG_Conditions takes nothing returns boolean\r\n    if udg_logic[36] then\r\n        return false\r\n    endif\r\n    if not( CristallLogic(GetManipulatedItem()) ) then\r\n        return false\r\n    endif\r\n    return true\r\nendfunction\r\n\r\nfunction Trig_CristallG_Actions takes nothing returns nothing\r\n    local unit n = GetManipulatingUnit()//udg_hero[GetPlayerId(GetOwningPlayer(GetManipulatingUnit())) + 1]\r\n    local integer i = CorrectPlayer(n)//GetPlayerId(GetOwningPlayer(n)) + 1\r\n    local boolean l = LoadBoolean( udg_hash, GetHandleId( n ), StringHash( \"pkblt\" ) )\r\n    \r\n    if l and inv(n, 'I03I') > 0 then\r\n        set udg_logic[i + 80] = true\r\n    else\r\n        set udg_Set_Cristall_Number[i] = udg_Set_Cristall_Number[i] + 1\r\n        if not( udg_logic[i + 80] ) and udg_Set_Cristall_Number[i] >= 3 and Multiboard_Condition(i) then\r\n            set udg_logic[i + 80] = true\r\n            call UnitAddAbility( n, 'A03Y' )\r\n            call DisplayTimedTextToForce( bj_FORCE_ALL_PLAYERS, 5., udg_Player_Color[i] + ( GetPlayerName(GetOwningPlayer(n)) + \"|r assembled set |cff00cceeCrystal|r!\" ) )\r\n            call DestroyEffect( AddSpecialEffect( \"war3mapImported\\\\WhiteChakraExplosion.mdx\", GetUnitX( n ), GetUnitY( n ) ) )\r\n            call iconon( i,  \"Кристалл\", \"war3mapImported\\\\PASINV_Jewelcrafting_StarOfElune_02.blp\" )\r\n        endif\r\n    endif\r\n    \r\n    //call AllSetRing( n, 9, GetManipulatedItem() )\r\n    \r\n    set n = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_CristallG takes nothing returns nothing\r\n    set gg_trg_CristallG = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_CristallG, EVENT_PLAYER_UNIT_PICKUP_ITEM )\r\n    call TriggerAddCondition( gg_trg_CristallG, Condition( function Trig_CristallG_Conditions ) )\r\n    call TriggerAddAction( gg_trg_CristallG, function Trig_CristallG_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

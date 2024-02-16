@@ -1,0 +1,14 @@
+{
+  "Id": 100663318,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "FightEndGlobal_Real",
+  "Type": "real",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

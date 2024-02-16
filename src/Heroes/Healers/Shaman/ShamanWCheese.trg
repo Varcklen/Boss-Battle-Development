@@ -1,0 +1,11 @@
+{
+  "Id": 50333060,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "scope ShamanWCheese initializer init\r\n\r\n    globals\r\n        private constant integer ID_UNIT = 'h01V'\r\n        private constant integer CHANCE = 20\r\n        private constant real HEAL_SCALE = 2.5\r\n        \r\n        private constant string ANIMATION = \"Abilities\\\\Spells\\\\Undead\\\\VampiricAura\\\\VampiricAuraTarget.mdl\"\r\n    endglobals\r\n\r\n    private function AfterDamageEvent_Conditions takes nothing returns boolean\r\n        return GetUnitTypeId(udg_DamageEventTarget) == 'h01V' and IsUnitType( udg_DamageEventSource, UNIT_TYPE_HERO)\r\n    endfunction\r\n\r\n    private function AfterDamageEvent takes nothing returns nothing\r\n        local integer cheeseId = GetHandleId(udg_DamageEventTarget)\r\n        local unit caster = LoadUnitHandle( udg_hash, cheeseId, StringHash( \"ches\" ) )\r\n        local unit cheese = udg_DamageEventTarget\r\n        local unit dealer = udg_DamageEventSource\r\n        local real heal = HEAL_SCALE * udg_DamageEventAmount\r\n    \r\n        call healst( caster, dealer, heal )\r\n        call PlaySpecialEffect( ANIMATION, dealer )\r\n\t\tif LuckChance( caster, CHANCE ) then\r\n\t\t\tset bj_lastCreatedUnit = CreateUnit( GetOwningPlayer( caster ), 'u015', GetUnitX( cheese ), GetUnitY( cheese ), GetRandomReal( 0, 360 ) )\r\n            call UnitApplyTimedLife(bj_lastCreatedUnit, 'BTLF', 20 )\r\n            call SetUnitVertexColor( bj_lastCreatedUnit, 255, 255, 255, 200 )\r\n            call BlzSetUnitBaseDamage( bj_lastCreatedUnit, LoadInteger( udg_hash, cheeseId, StringHash( \"ches\" ) ), 0 )\r\n            call spectimeunit( bj_lastCreatedUnit, \"Abilities\\\\Spells\\\\Human\\\\Banish\\\\BanishTarget.mdl\", \"origin\", 20 )\r\n\t\tendif\r\n        \r\n        set caster = null\r\n        set dealer = null\r\n        set cheese = null\r\n    endfunction\r\n\r\n    //===========================================================================\r\n    private function init takes nothing returns nothing\r\n        call CreateEventTrigger( \"udg_AfterDamageEvent\", function AfterDamageEvent, function AfterDamageEvent_Conditions )\r\n    endfunction\r\n    \r\nendscope",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

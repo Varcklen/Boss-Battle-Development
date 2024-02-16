@@ -1,0 +1,11 @@
+{
+  "Id": 50332897,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Mixology_Conditions takes nothing returns boolean\r\n    return (GetSpellAbilityId() == 'A13I' or GetSpellAbilityId() == 'A13J' ) and combat( GetSpellAbilityUnit(), true, GetSpellAbilityId() ) and not( udg_fightmod[3] )\r\nendfunction\r\n\r\nfunction Trig_Mixology_Actions takes nothing returns nothing\r\n    local unit caster\r\n    local integer cyclA = 1\r\n    local integer cyclAEnd = 1\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        set udg_logic[32] = true\r\n        call textst( udg_string[0] + GetObjectName('A13I'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n    endif\r\n\r\n    if IsUniqueUpgraded(caster) then\r\n        set cyclAEnd = 2\r\n    endif\r\n    \r\n    call DestroyEffect( AddSpecialEffectTarget( \"Abilities\\\\Spells\\\\Human\\\\Polymorph\\\\PolyMorphTarget.mdl\", caster, \"origin\" ) )\r\n    loop\r\n        exitwhen cyclA > cyclAEnd\r\n        if UnitInventoryCount(caster) < 6 and IsUnitType( caster, UNIT_TYPE_HERO) then\r\n            set bj_lastCreatedItem = CreateItem( udg_Database_Item_Potion[GetRandomInt(1, udg_Database_NumberItems[9])], GetUnitX( caster ), GetUnitY(caster))\r\n            call UnitAddItem(caster, bj_lastCreatedItem )\r\n        endif\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n\r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Mixology takes nothing returns nothing\r\n    set gg_trg_Mixology = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Mixology, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Mixology, Condition( function Trig_Mixology_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Mixology, function Trig_Mixology_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

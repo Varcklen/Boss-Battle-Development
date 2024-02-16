@@ -1,0 +1,53 @@
+String "ExpBarTextTemplate" { 
+	//FontColor 0.99 0.427 0.0705 1.0,
+	FontColor 1.0 1.0 1.0 1.0,
+	FontShadowColor 0.0 0.0 0.0 0.9,
+	FontShadowOffset 0.001 -0.001,
+	Font "MasterFont", 0.01, 
+}
+Frame "SIMPLESTATUSBAR" "ExpBarEx" {
+	Width 0.7, 
+	Height 0.012,
+	BarTexture "Replaceabletextures\Teamcolor\Teamcolor00.blp", 
+	Layer "BACKGROUND" { 
+		Texture "ExpBarExBackground"{ 
+			File "Replaceabletextures\Teamcolor\Teamcolor27.blp", 
+		}
+	}
+	Frame "SIMPLEFRAME" "ExpBarExFrame" { 
+		DecorateFileNames,
+		SetAllPoints,
+		Layer "ARTWORK" {
+			Texture "ExpBarExBorder" {
+				File "SimpleXpBarBorder", 
+			}
+			String "ExpBarExText" INHERITS "ExpBarTextTemplate" {
+				Text "ExpBarEx", 
+			}
+		}
+	}
+}
+
+Frame "SIMPLESTATUSBAR" "ExpBar" {
+	Width 0.7,
+	Height 0.012,
+	BarTexture "Replaceabletextures\Teamcolor\Teamcolor00.blp",
+	Layer "BACKGROUND" {
+		Texture "MyBarBackground" {
+			File "Replaceabletextures\Teamcolor\Teamcolor27.blp",
+		}
+	}
+	Frame "SIMPLEFRAME" "ExpBarFrame" {
+		SetAllPoints,
+		DecorateFileNames,
+		Layer "ARTWORK" {
+			String "ExpBarText" INHERITS "ExpBarTextTemplate" {
+				Text "ExpBar",
+			}
+		}
+	}
+}
+Frame "SIMPLESTATUSBAR" "ExpSimpleBar" {
+	Width 0.7,
+	Height 0.012,
+}

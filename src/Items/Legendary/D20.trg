@@ -1,0 +1,11 @@
+{
+  "Id": 50332745,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_D20_Conditions takes nothing returns boolean\r\n    return GetItemTypeId(GetManipulatedItem()) == 'I0FB' and combat( GetManipulatingUnit(), false, 0 ) and not(udg_fightmod[3])\r\nendfunction\r\n\r\nfunction Trig_D20_Actions takes nothing returns nothing\r\n    local unit u = GetManipulatingUnit()\r\n    local integer cyclA = 0\r\n    local item it\r\n    local integer i\r\n    local integer h = eyest( u )\r\n    local string rarity = null\r\n    \r\n    loop\r\n        exitwhen cyclA > 5\r\n        set it = UnitItemInSlot( u, cyclA )\r\n        set i = 0\r\n        if it != null and GetItemTypeId(it) != 'I0FB' then\r\n            if GetItemType(it) == ITEM_TYPE_ARTIFACT then\r\n                set i = 1\r\n            elseif GetItemType(it) == ITEM_TYPE_CAMPAIGN then\r\n                set i = 2\r\n            elseif GetItemType(it) == ITEM_TYPE_PERMANENT then\r\n                set i = 3\r\n            endif\r\n            if i != 0 then\r\n                if i == 1 then\r\n                    set rarity = \"legendary\"\r\n                elseif i == 2 then\r\n                    set rarity = \"rare\"\r\n                elseif i == 3 then\r\n                    set rarity = \"common\"\r\n                endif\r\n                call Inventory_ReplaceItemByNew(u, it, ItemRandomizerItemId( u, rarity ))\r\n            endif\r\n        endif\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    call DestroyEffect( AddSpecialEffect( \"Abilities\\\\Spells\\\\Human\\\\Polymorph\\\\PolyMorphDoneGround.mdl\", GetUnitX( GetManipulatingUnit() ), GetUnitY( GetManipulatingUnit() ) ) )\r\n    \r\n    set u = null\r\n    set it = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_D20 takes nothing returns nothing\r\n    set gg_trg_D20 = CreateTrigger()\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_D20, EVENT_PLAYER_UNIT_USE_ITEM )\r\n    call TriggerAddCondition( gg_trg_D20, Condition( function Trig_D20_Conditions ) )\r\n    call TriggerAddAction( gg_trg_D20, function Trig_D20_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

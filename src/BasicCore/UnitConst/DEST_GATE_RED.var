@@ -1,0 +1,15 @@
+{
+  "Id": 1411428417,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DEST_GATE_RED",
+  "Type": "destructable",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "LTg1_0180"
+  }
+}

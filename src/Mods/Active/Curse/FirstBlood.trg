@@ -1,0 +1,11 @@
+{
+  "Id": 50332238,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "scope FirstBlood initializer init\r\n\r\n    globals\r\n        private constant integer EFFECT = 'A1D0'\r\n        private constant integer BUFF = 'B0AA'\r\n    endglobals\r\n\r\n    private function FightStart_Conditions takes nothing returns boolean\r\n        return udg_modbad[30]\r\n    endfunction\r\n\r\n    private function FightStart takes nothing returns nothing\r\n        call UnitAddAbility(udg_FightStart_Unit, EFFECT)\r\n    endfunction\r\n    \r\n    \r\n    private function FightEnd_Conditions takes nothing returns boolean\r\n        return IsUnitHasAbility(udg_FightEnd_Unit, EFFECT)\r\n    endfunction\r\n    \r\n    private function FightEnd takes nothing returns nothing\r\n        call UnitRemoveAbility(udg_FightEnd_Unit, EFFECT)\r\n    endfunction\r\n    \r\n    \r\n    private function AfterHealChange_Conditions takes nothing returns boolean\r\n        return IsUnitHasAbility(Event_AfterHealChange_Target, EFFECT) and Event_AfterHealChange_Heal > 0 and IsUnitHealthIsFull(Event_AfterHealChange_Target) == false\r\n    endfunction\r\n    \r\n    private function AfterHealChange takes nothing returns nothing\r\n        set Event_AfterHealChange_Heal = 0\r\n        call UnitRemoveAbility(Event_AfterHealChange_Target, EFFECT)\r\n        call UnitRemoveAbility(Event_AfterHealChange_Target, BUFF)\r\n    endfunction\r\n\r\n    //===========================================================================\r\n    private function init takes nothing returns nothing\r\n        call CreateEventTrigger( \"udg_FightStart_Real\", function FightStart, function FightStart_Conditions )\r\n        call CreateEventTrigger( \"udg_FightEnd_Real\", function FightEnd, function FightEnd_Conditions )\r\n        call CreateEventTrigger( \"Event_AfterHealChange_Real\", function AfterHealChange, function AfterHealChange_Conditions )\r\n    endfunction\r\n\r\nendscope\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

@@ -1,0 +1,11 @@
+{
+  "Id": 50332856,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_BloodL_Conditions takes nothing returns boolean\r\n    if udg_logic[36] then\r\n        return false\r\n    endif\r\n    if not( BloodLogic(GetManipulatedItem()) ) then\r\n        return false\r\n    endif\r\n    return true\r\nendfunction\r\n\r\nfunction Trig_BloodL_Actions takes nothing returns nothing\r\n    local unit n = GetManipulatingUnit()//udg_hero[GetPlayerId(GetOwningPlayer(GetManipulatingUnit())) + 1]\r\n    local integer i = CorrectPlayer(n)//GetPlayerId(GetOwningPlayer(n)) + 1\r\n    local boolean l = LoadBoolean( udg_hash, GetHandleId( n ), StringHash( \"pkblt\" ) )\r\n    local boolean k = LoadBoolean( udg_hash, GetHandleId( n ), StringHash( \"pkbl\" ) )\r\n    \r\n    if l then\r\n        set udg_logic[i + 14] = false\r\n        call iconoff( i, \"Кровь\" )\r\n    else\r\n        set udg_Set_Blood_Number[i] = udg_Set_Blood_Number[i] - 1\r\n        if udg_logic[i + 14] and udg_Set_Blood_Number[i] < 3 then\r\n            if not( k ) then\r\n                set udg_logic[i + 14] = false\r\n                call UnitRemoveAbility( n, 'A03T' )\r\n                call UnitRemoveAbility( n, 'B08U' )\r\n            endif\r\n            call DisplayTimedTextToPlayer( GetOwningPlayer(n), 0, 0, 5., \"Set |cffb40431Blood|r is now disassembled!\")\r\n            call iconoff( i, \"Кровь\" )\r\n        endif\r\n    endif\r\n    \r\n    //call AllSetRing( n, 2, GetManipulatedItem() )\r\n    \r\n    set n = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_BloodL takes nothing returns nothing\r\n    set gg_trg_BloodL = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_BloodL, EVENT_PLAYER_UNIT_DROP_ITEM )\r\n    call TriggerAddCondition( gg_trg_BloodL, Condition( function Trig_BloodL_Conditions ) )\r\n    call TriggerAddAction( gg_trg_BloodL, function Trig_BloodL_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

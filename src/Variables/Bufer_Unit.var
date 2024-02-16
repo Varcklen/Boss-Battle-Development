@@ -1,0 +1,14 @@
+{
+  "Id": 100663609,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Bufer_Unit",
+  "Type": "unit",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

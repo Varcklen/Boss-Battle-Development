@@ -1,0 +1,11 @@
+{
+  "Id": 50333600,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Woodo2_Conditions takes nothing returns boolean\r\n    return GetUnitTypeId(GetEnteringUnit()) == 'o005'\r\nendfunction\r\n\r\nfunction WDTotemCast takes nothing returns nothing\r\n    local integer id = GetHandleId( GetExpiredTimer() )\r\n    local unit totem = LoadUnitHandle( udg_hash, id, StringHash( \"bswdmt\" ) )\r\n    local unit target = GroupPickRandomUnit(udg_otryad)\r\n\r\n    if GetUnitState( totem, UNIT_STATE_LIFE) <= 0.405 or not( udg_fightmod[0] ) then\r\n        call DestroyTimer( GetExpiredTimer() )\r\n        call FlushChildHashtable( udg_hash, id )\r\n    else\r\n        call UnitPoly( totem, target, 'n02M', 3 )\r\n    endif\r\n    \r\n    set totem = null\r\n    set target = null\r\nendfunction\r\n    \r\nfunction Trig_Woodo2_Actions takes nothing returns nothing\r\n    local integer id = GetHandleId( GetEnteringUnit() )\r\n\r\n    if LoadTimerHandle( udg_hash, id, StringHash( \"bswdmt\" ) ) == null  then\r\n        call SaveTimerHandle( udg_hash, id, StringHash( \"bswdmt\" ), CreateTimer() )\r\n    endif\r\n\tset id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"bswdmt\" ) ) ) \r\n    call SaveUnitHandle( udg_hash, id, StringHash( \"bswdmt\" ), GetEnteringUnit() )\r\n\tcall TimerStart( LoadTimerHandle( udg_hash, GetHandleId( GetEnteringUnit() ), StringHash( \"bswdmt\" ) ), bosscast(8), true, function WDTotemCast )\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Woodo2 takes nothing returns nothing\r\n    set gg_trg_Woodo2 = CreateTrigger(  )\r\n    call DisableTrigger( gg_trg_Woodo2 )\r\n    call TriggerRegisterEnterRectSimple( gg_trg_Woodo2, gg_rct_ArenaBoss )\r\n    call TriggerAddCondition( gg_trg_Woodo2, Condition( function Trig_Woodo2_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Woodo2, function Trig_Woodo2_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

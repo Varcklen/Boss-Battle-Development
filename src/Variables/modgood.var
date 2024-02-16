@@ -1,0 +1,14 @@
+{
+  "Id": 100663567,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "modgood",
+  "Type": "boolean",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

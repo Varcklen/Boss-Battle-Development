@@ -1,0 +1,14 @@
+{
+  "Id": 100663465,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Host",
+  "Type": "player",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

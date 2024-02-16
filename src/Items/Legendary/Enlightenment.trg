@@ -1,0 +1,11 @@
+{
+  "Id": 50332783,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "globals\r\n    integer array Enlightenment_SpellPower[5]\r\n    \r\n    constant integer ENLIGMENT_SPELL_POWER_BONUS = 3\r\nendglobals\r\n\r\nfunction Trig_Enlightenment_Conditions takes nothing returns boolean\r\n    return IsHeroHasItem( GetSpellAbilityUnit(), 'I0GQ' ) and combat(GetSpellAbilityUnit(), false, 0)\r\nendfunction\r\n\r\nfunction Trig_Enlightenment_Actions takes nothing returns nothing\r\n    local integer index = GetUnitUserData(GetSpellAbilityUnit())\r\n    \r\n    call spdst( GetSpellAbilityUnit(), ENLIGMENT_SPELL_POWER_BONUS )\r\n    set Enlightenment_SpellPower[index] = Enlightenment_SpellPower[index] + ENLIGMENT_SPELL_POWER_BONUS\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Enlightenment takes nothing returns nothing\r\n    set gg_trg_Enlightenment = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Enlightenment, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Enlightenment, Condition( function Trig_Enlightenment_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Enlightenment, function Trig_Enlightenment_Actions )\r\nendfunction\r\n\r\nscope Enlightenment initializer init\r\n    private function Func_Condition takes nothing returns boolean\r\n        return Enlightenment_SpellPower[GetUnitUserData(udg_FightEnd_Unit)] > 0\r\n    endfunction\r\n    \r\n    private function Action takes nothing returns nothing\r\n        local unit hero = udg_FightEnd_Unit\r\n        local integer index = GetUnitUserData(hero)\r\n\r\n        call spdst( hero, -Enlightenment_SpellPower[index] )\r\n        set Enlightenment_SpellPower[index] = 0\r\n        \r\n        set hero = null\r\n    endfunction\r\n\r\n    private function init takes nothing returns nothing\r\n        local integer i = 1\r\n        loop\r\n            exitwhen i > 4\r\n            set Enlightenment_SpellPower[i] = 0\r\n            set i = i + 1\r\n        endloop\r\n        call CreateEventTrigger( \"udg_FightEnd_Real\", function Action, function Func_Condition )\r\n    endfunction\r\nendscope",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

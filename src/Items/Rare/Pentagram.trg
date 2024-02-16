@@ -1,0 +1,11 @@
+{
+  "Id": 50332653,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Pentagram_Conditions takes nothing returns boolean\r\n    return GetUnitState( udg_Event_PlayerMinionSummon_Hero, UNIT_STATE_LIFE) > 0.405 and inv( udg_Event_PlayerMinionSummon_Hero, 'I0DL' ) > 0\r\nendfunction\r\n\r\nfunction Trig_Pentagram_Actions takes nothing returns nothing\r\n\tlocal real hp = BlzGetUnitMaxHP(udg_Event_PlayerMinionSummon_Unit)\r\n    local item it = GetItemOfTypeFromUnitBJ( udg_Event_PlayerMinionSummon_Hero, 'I0DL')\r\n\tlocal integer id = GetHandleId( it )\r\n    local integer s = LoadInteger( udg_hash, id, StringHash( \"pent\" ) ) + 1\r\n    \r\n    if s >= 4 then\r\n        call SaveInteger( udg_hash, id, StringHash( \"pent\" ), 0 )\r\n\r\n    \tcall BlzSetUnitMaxHP( udg_Event_PlayerMinionSummon_Unit, R2I(BlzGetUnitMaxHP(udg_Event_PlayerMinionSummon_Unit) + hp ) )\r\n        call SetUnitLifeBJ( udg_Event_PlayerMinionSummon_Unit, GetUnitStateSwap(UNIT_STATE_LIFE, udg_Event_PlayerMinionSummon_Unit) + R2I(hp) )\r\n    \tcall BlzSetUnitBaseDamage( udg_Event_PlayerMinionSummon_Unit, R2I(GetUnitDamage(udg_Event_PlayerMinionSummon_Unit) * 2) - GetUnitAvgDiceDamage(udg_Event_PlayerMinionSummon_Unit), 0 )\r\n    \tcall DestroyEffect( AddSpecialEffectTarget(\"Abilities\\\\Spells\\\\NightElf\\\\BattleRoar\\\\RoarCaster.mdl\", udg_Event_PlayerMinionSummon_Unit, \"origin\" ) )\r\n    else\r\n        call SaveInteger( udg_hash, id, StringHash( \"pent\" ), s )\r\n        call textst( \"|c005050FF \" + I2S( s ) + \"/4\", udg_Event_PlayerMinionSummon_Hero, 64, GetRandomReal( 0, 360 ), 7, 1.5 )\r\n    endif\r\n    \r\n    set it = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Pentagram takes nothing returns nothing\r\n    set gg_trg_Pentagram = CreateTrigger(  )\r\n    call TriggerRegisterVariableEvent( gg_trg_Pentagram, \"udg_Event_PlayerMinionSummon_Real\", EQUAL, 1.00 )\r\n    call TriggerAddCondition( gg_trg_Pentagram, Condition( function Trig_Pentagram_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Pentagram, function Trig_Pentagram_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

@@ -1,0 +1,11 @@
+{
+  "Id": 50332547,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "globals\r\n    constant real TWILIGHT_PHOENIX_TIME_REDUCTION = 0.5\r\n    constant integer TWILIGHT_PHOENIX_TICK = 1\r\nendglobals\r\n\r\nfunction Trig_Twilight_Phoenix_Conditions takes nothing returns boolean \r\n\treturn GetItemTypeId(GetManipulatedItem()) == 'I07M'\r\nendfunction \r\n\r\nfunction Twilight_PhoenixCast takes nothing returns nothing\r\n    local integer id = GetHandleId( GetExpiredTimer() )\r\n    local unit caster = LoadUnitHandle( udg_hash, id, StringHash( \"twphu\" ) )\r\n    local item it = LoadItemHandle( udg_hash, id, StringHash( \"twph\" ) )\r\n    \r\n    if not(UnitHasItem(caster,it )) then\r\n        call FlushChildHashtable( udg_hash, id )\r\n        call DestroyTimer( GetExpiredTimer() )\r\n    elseif IsUnitAlive(caster) and IsUnitInvisible( caster, Player(PLAYER_NEUTRAL_AGGRESSIVE)) then\r\n        call UnitReduceCooldown(caster, TWILIGHT_PHOENIX_TIME_REDUCTION )\r\n    endif\r\n    \r\n    set caster = null\r\n    set it = null\r\nendfunction\r\n\r\nfunction Trig_Twilight_Phoenix_Actions takes nothing returns nothing\r\n    local integer id \r\n    \r\n    set id = InvokeTimerWithItem( GetManipulatedItem(), \"twph\", TWILIGHT_PHOENIX_TICK, true, function Twilight_PhoenixCast )\r\n    call SaveUnitHandle( udg_hash, id, StringHash( \"twphu\" ), GetManipulatingUnit() ) \r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Twilight_Phoenix takes nothing returns nothing\r\n    set gg_trg_Twilight_Phoenix = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Twilight_Phoenix, EVENT_PLAYER_UNIT_PICKUP_ITEM ) \r\n\tcall TriggerAddCondition( gg_trg_Twilight_Phoenix, Condition( function Trig_Twilight_Phoenix_Conditions ) ) \r\n    call TriggerAddAction( gg_trg_Twilight_Phoenix, function Trig_Twilight_Phoenix_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

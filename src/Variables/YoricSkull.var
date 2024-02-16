@@ -1,0 +1,14 @@
+{
+  "Id": 100663606,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "YoricSkull",
+  "Type": "group",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

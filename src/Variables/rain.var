@@ -1,0 +1,14 @@
+{
+  "Id": 100663357,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "rain",
+  "Type": "weathereffect",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

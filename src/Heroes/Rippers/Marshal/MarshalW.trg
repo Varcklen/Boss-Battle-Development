@@ -1,0 +1,11 @@
+{
+  "Id": 50333073,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "globals\r\n    constant real MARSHAL_W_DURATION = 15\r\n    constant real MARSHAL_W_LIFETIME = 15\r\nendglobals\r\n\r\nfunction Trig_MarshalW_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A0EL'\r\nendfunction\r\n\r\nfunction Trig_MarshalW_Actions takes nothing returns nothing\r\n    local integer lvl\r\n    local unit caster\r\n  \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n        set lvl = udg_Level\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        set lvl = udg_Level\r\n        call textst( udg_string[0] + GetObjectName('A0EL'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n        set lvl = GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())\r\n    endif\r\n    \r\n    set bj_lastCreatedUnit = CreateUnit( GetOwningPlayer( caster ), 'n015', GetUnitX( caster ) + GetRandomReal( -128, 128 ), GetUnitY( caster ) + GetRandomReal( -128, 128 ), GetRandomReal( 0, 360 ) )\r\n    call DestroyEffect( AddSpecialEffectTarget( \"Abilities\\\\Spells\\\\Orc\\\\FeralSpirit\\\\feralspirittarget.mdl\", bj_lastCreatedUnit, \"origin\" ) )\r\n    call UnitApplyTimedLife( bj_lastCreatedUnit, 'BTLF', MARSHAL_W_LIFETIME)\r\n    call SaveInteger( udg_hash, GetHandleId( bj_lastCreatedUnit ), StringHash( \"mrswe\" ), lvl )\r\n\r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_MarshalW takes nothing returns nothing\r\n    set gg_trg_MarshalW = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_MarshalW, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_MarshalW, Condition( function Trig_MarshalW_Conditions ) )\r\n    call TriggerAddAction( gg_trg_MarshalW, function Trig_MarshalW_Actions )\r\nendfunction",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

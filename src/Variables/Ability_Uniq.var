@@ -1,0 +1,14 @@
+{
+  "Id": 100663608,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Ability_Uniq",
+  "Type": "abilcode",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

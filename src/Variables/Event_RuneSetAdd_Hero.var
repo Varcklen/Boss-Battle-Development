@@ -1,0 +1,14 @@
+{
+  "Id": 100663307,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Event_RuneSetAdd_Hero",
+  "Type": "unit",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

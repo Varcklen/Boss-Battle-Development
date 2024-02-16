@@ -1,0 +1,14 @@
+{
+  "Id": 100663644,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Info_Effect",
+  "Type": "effect",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

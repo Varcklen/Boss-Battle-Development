@@ -1,0 +1,11 @@
+{
+  "Id": 50332757,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "scope ChameleonEye initializer init\r\n\r\n    globals\r\n        private constant integer ID_ITEM = 'I0FI'\r\n    \r\n        private constant string ANIMATION = \"Abilities\\\\Spells\\\\Human\\\\MarkOfChaos\\\\MarkOfChaosDone.mdl\"\r\n    endglobals\r\n\r\n    function Trig_Chameleon_Eye_Conditions takes nothing returns boolean\r\n        return IsHeroHasItem( GetSpellAbilityUnit(), ID_ITEM ) and combat( GetSpellAbilityUnit(), false, 0 ) and Uniques_Logic(GetSpellAbilityId())\r\n    endfunction\r\n    \r\n    private function Replace takes nothing returns nothing\r\n        local integer id = GetHandleId( GetExpiredTimer() )\r\n        local unit hero = LoadUnitHandle( udg_hash, id, StringHash( \"chml\" ) )\r\n        local real time = BlzGetUnitAbilityCooldownRemaining( hero, udg_Ability_Uniq[GetUnitUserData(hero)])\r\n        local integer newUniq\r\n\r\n        call PlaySpecialEffect(ANIMATION, hero )\r\n        set newUniq = NewUniques( hero, udg_DB_Hero_SpecAbAkt[GetRandomInt( 1, udg_Database_NumberItems[24] )] )\r\n        call BlzStartUnitAbilityCooldown( hero, newUniq, time )\r\n        \r\n        set hero = null\r\n    endfunction\r\n\r\n    function Trig_Chameleon_Eye_Actions takes nothing returns nothing\r\n        call InvokeTimerWithUnit(GetSpellAbilityUnit(), \"chml\", 0.01, false, function Replace )\r\n    endfunction\r\n\r\n    //===========================================================================\r\n    private function init takes nothing returns nothing\r\n        set gg_trg_Chameleon_Eye = CreateTrigger(  )\r\n        call TriggerRegisterAnyUnitEventBJ( gg_trg_Chameleon_Eye, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n        call TriggerAddCondition( gg_trg_Chameleon_Eye, Condition( function Trig_Chameleon_Eye_Conditions ) )\r\n        call TriggerAddAction( gg_trg_Chameleon_Eye, function Trig_Chameleon_Eye_Actions )\r\n    endfunction\r\nendscope\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

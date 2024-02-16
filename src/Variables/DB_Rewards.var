@@ -1,0 +1,14 @@
+{
+  "Id": 100663358,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_Rewards",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

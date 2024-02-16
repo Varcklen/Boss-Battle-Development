@@ -1,0 +1,11 @@
+{
+  "Id": 50332262,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Stroke_Conditions takes nothing returns boolean\r\n    return GetUnitTypeId(GetSoldUnit()) == 'n03E'\r\nendfunction\r\n\r\nfunction StrokeCast takes nothing returns nothing\r\n    local integer id = GetHandleId( GetExpiredTimer() )\r\n    call UnitRemoveAbility( LoadUnitHandle( udg_hash, id, StringHash( \"strk\" ) ), 'A0F6' )\r\n    call UnitRemoveAbility( LoadUnitHandle( udg_hash, id, StringHash( \"strk\" ) ), 'B02D' )\r\n    call FlushChildHashtable( udg_hash, id )\r\nendfunction\r\n\r\nfunction Trig_Stroke_Actions takes nothing returns nothing\r\n    local integer id = GetHandleId( GetBuyingUnit() )\r\n\r\n    call RemoveUnit( GetSoldUnit() )\r\n    if ( GetUnitTypeId(GetBuyingUnit() ) == 'O01Z' ) then\r\n        return\r\n    endif\r\n    call UnitAddAbility( GetBuyingUnit(), 'A0F6' )\r\n    call DestroyEffect( AddSpecialEffectTarget(\"Abilities\\\\Spells\\\\Human\\\\Resurrect\\\\ResurrectTarget.mdl\", GetBuyingUnit(), \"origin\" ) )\r\n    \r\n    if LoadTimerHandle( udg_hash, id, StringHash( \"strk\" ) ) == null then \r\n        call SaveTimerHandle( udg_hash, id, StringHash( \"strk\" ), CreateTimer() )\r\n    endif\r\n\tset id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"strk\" ) ) ) \r\n\tcall SaveUnitHandle( udg_hash, id, StringHash( \"strk\" ), GetBuyingUnit() )\r\n\tcall TimerStart( LoadTimerHandle( udg_hash, GetHandleId( GetBuyingUnit() ), StringHash( \"strk\" ) ), 30, false, function StrokeCast )\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Stroke takes nothing returns nothing\r\n    set gg_trg_Stroke = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Stroke, EVENT_PLAYER_UNIT_SELL )\r\n    call TriggerAddCondition( gg_trg_Stroke, Condition( function Trig_Stroke_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Stroke, function Trig_Stroke_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

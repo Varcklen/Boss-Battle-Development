@@ -1,0 +1,11 @@
+{
+  "Id": 50333595,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Ent2_Conditions takes nothing returns boolean\r\n    return GetUnitTypeId(udg_DamageEventTarget) == 'e006' and GetUnitLifePercent(udg_DamageEventTarget) <= 50\r\nendfunction\r\n\r\nfunction Trig_Ent2_Actions takes nothing returns nothing\r\n    local group g = CreateGroup()\r\n    local unit u\r\n    local real r\r\n    \r\n    call DisableTrigger( GetTriggeringTrigger() )\r\n    set bj_livingPlayerUnitsTypeId = 'o00O'\r\n    call GroupEnumUnitsOfPlayer(g, GetOwningPlayer( udg_DamageEventTarget ), filterLivingPlayerUnitsOfTypeId)\r\n    loop\r\n        set u = FirstOfGroup(g)\r\n        exitwhen u == null\r\n        if GetUnitState( u, UNIT_STATE_LIFE) > 0.405 then\r\n            set r = GetUnitLifePercent( u )\r\n            call KillUnit( u )\r\n            set bj_lastCreatedUnit = CreateUnit( GetOwningPlayer( u ), 'e007', GetUnitX( u ), GetUnitY( u ), GetRandomReal( 0, 360 ) )\r\n            call SetUnitState(bj_lastCreatedUnit, UNIT_STATE_LIFE, GetUnitState(bj_lastCreatedUnit, UNIT_STATE_MAX_LIFE) * r * 0.01)\r\n            call DestroyEffect( AddSpecialEffectTarget(\"Objects\\\\Spawnmodels\\\\NightElf\\\\EntBirthTarget\\\\EntBirthTarget.mdl\", bj_lastCreatedUnit, \"origin\" ) )\r\n        endif\r\n        call GroupRemoveUnit(g,u)\r\n        set u = FirstOfGroup(g)\r\n    endloop\r\n    \r\n    call GroupClear( g )\r\n    call DestroyGroup( g )\r\n    set u = null\r\n    set g = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Ent2 takes nothing returns nothing\r\n    set gg_trg_Ent2 = CreateTrigger(  )\r\n    call DisableTrigger( gg_trg_Ent2 )\r\n    call TriggerRegisterVariableEvent( gg_trg_Ent2, \"udg_AfterDamageEvent\", EQUAL, 1.00 )\r\n    call TriggerAddCondition( gg_trg_Ent2, Condition( function Trig_Ent2_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Ent2, function Trig_Ent2_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

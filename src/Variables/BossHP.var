@@ -1,0 +1,15 @@
+{
+  "Id": 100663532,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "BossHP",
+  "Type": "real",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "1.00"
+  }
+}

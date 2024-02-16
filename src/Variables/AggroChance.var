@@ -1,0 +1,14 @@
+{
+  "Id": 100663298,
+  "ArraySize": [
+    5,
+    1
+  ],
+  "Name": "AggroChance",
+  "Type": "real",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

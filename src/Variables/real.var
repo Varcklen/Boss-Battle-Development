@@ -1,0 +1,14 @@
+{
+  "Id": 100663649,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "real",
+  "Type": "real",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

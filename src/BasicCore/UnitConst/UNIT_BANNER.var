@@ -1,0 +1,15 @@
+{
+  "Id": 1135437675,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "UNIT_BANNER",
+  "Type": "unit",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "h01Q_0273"
+  }
+}

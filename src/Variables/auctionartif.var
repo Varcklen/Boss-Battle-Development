@@ -1,0 +1,14 @@
+{
+  "Id": 100663669,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "auctionartif",
+  "Type": "item",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

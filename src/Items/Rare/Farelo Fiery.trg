@@ -1,0 +1,11 @@
+{
+  "Id": 50332601,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Farelo_Fiery_Conditions takes nothing returns boolean\r\n    return inv( GetSpellAbilityUnit(), 'I0BI') > 0\r\nendfunction\r\n\r\nfunction Trig_Farelo_Fiery_Actions takes nothing returns nothing\r\n    local integer i = GetPlayerId(GetOwningPlayer(GetSpellAbilityUnit())) + 1\r\n    local integer ab = Database_Hero_Abilities[1][udg_HeroNum[i]]\r\n    local integer ac = Database_Hero_Abilities[2][udg_HeroNum[i]]\r\n    local integer ad = Database_Hero_Abilities[3][udg_HeroNum[i]]\r\n    local integer ae = Database_Hero_Abilities[4][udg_HeroNum[i]]\r\n\r\n    if BlzGetUnitAbilityCooldownRemaining(GetSpellAbilityUnit(),ab) > 1 then\r\n        call BlzStartUnitAbilityCooldown( GetSpellAbilityUnit(), ab, RMaxBJ( 1.1,BlzGetUnitAbilityCooldownRemaining(GetSpellAbilityUnit(), ab) - 0.75) )\r\n    endif\r\n    if BlzGetUnitAbilityCooldownRemaining(GetSpellAbilityUnit(),ac) > 1 then\r\n        call BlzStartUnitAbilityCooldown( GetSpellAbilityUnit(), ac, RMaxBJ( 1.1,BlzGetUnitAbilityCooldownRemaining(GetSpellAbilityUnit(), ac) - 0.75) )\r\n    endif\r\n    if BlzGetUnitAbilityCooldownRemaining(GetSpellAbilityUnit(),ad) > 1 then\r\n        call BlzStartUnitAbilityCooldown( GetSpellAbilityUnit(), ad, RMaxBJ( 1.1,BlzGetUnitAbilityCooldownRemaining(GetSpellAbilityUnit(), ad) - 0.75) )\r\n    endif\r\n    if BlzGetUnitAbilityCooldownRemaining(GetSpellAbilityUnit(),ae) > 1 then\r\n        call BlzStartUnitAbilityCooldown( GetSpellAbilityUnit(), ae, RMaxBJ( 1.1,BlzGetUnitAbilityCooldownRemaining(GetSpellAbilityUnit(), ae) - 0.75) )\r\n    endif\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Farelo_Fiery takes nothing returns nothing\r\n    set gg_trg_Farelo_Fiery = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Farelo_Fiery, EVENT_PLAYER_UNIT_SPELL_FINISH )\r\n    call TriggerAddCondition( gg_trg_Farelo_Fiery, Condition( function Trig_Farelo_Fiery_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Farelo_Fiery, function Trig_Farelo_Fiery_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

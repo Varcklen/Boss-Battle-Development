@@ -1,0 +1,14 @@
+{
+  "Id": 100663473,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Captions",
+  "Type": "string",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Id": 50332464,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_ManaGive_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A14K'\r\nendfunction\r\n\r\nfunction Trig_ManaGive_Actions takes nothing returns nothing\r\n    local unit caster\r\n    local unit target\r\n    local integer cyclA = 1\r\n    local integer cyclAEnd\r\n    local real heal\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n        set target = udg_Target\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        set target = randomtarget( caster, 900, \"ally\", \"hero\", \"notcaster\", \"\", \"\" )\r\n        call textst( udg_string[0] + GetObjectName('A14K'), caster, 64, 90, 10, 1.5 )\r\n        if target == null then\r\n            set caster = null\r\n            return\r\n        endif\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n        set target = GetSpellTargetUnit()\r\n    endif\r\n    \r\n    set heal = 50. + ( 25. * ( SetCount_GetPieces(caster, SET_MECH) - 1 ) )\r\n    \r\n    set cyclAEnd = eyest( caster )\r\n    call DestroyEffect( AddSpecialEffectTarget( \"Abilities\\\\Spells\\\\Other\\\\Charm\\\\CharmTarget.mdl\", target, \"origin\") )\r\n    loop\r\n        exitwhen cyclA > cyclAEnd\r\n        call manast( caster, target, heal )\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    \r\n    set caster = null\r\n    set target = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_ManaGive takes nothing returns nothing\r\n    set gg_trg_ManaGive = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_ManaGive, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_ManaGive, Condition( function Trig_ManaGive_Conditions ) )\r\n    call TriggerAddAction( gg_trg_ManaGive, function Trig_ManaGive_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

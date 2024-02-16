@@ -1,0 +1,14 @@
+{
+  "Id": 100663449,
+  "ArraySize": [
+    12,
+    1
+  ],
+  "Name": "SantaItem",
+  "Type": "item",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

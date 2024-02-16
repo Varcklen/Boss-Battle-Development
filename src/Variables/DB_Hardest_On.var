@@ -1,0 +1,14 @@
+{
+  "Id": 100663471,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_Hardest_On",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

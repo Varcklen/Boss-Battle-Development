@@ -1,0 +1,14 @@
+{
+  "Id": 100663610,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "CastLogic",
+  "Type": "boolean",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

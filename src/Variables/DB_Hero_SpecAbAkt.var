@@ -1,0 +1,14 @@
+{
+  "Id": 100663555,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_Hero_SpecAbAkt",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

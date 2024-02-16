@@ -1,0 +1,14 @@
+{
+  "Id": 100663491,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Visible",
+  "Type": "fogmodifier",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Id": 100663490,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_HeroFrame_Ability",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

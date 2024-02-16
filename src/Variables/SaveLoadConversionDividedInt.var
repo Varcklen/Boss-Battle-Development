@@ -1,0 +1,14 @@
+{
+  "Id": 100663414,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "SaveLoadConversionDividedInt",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

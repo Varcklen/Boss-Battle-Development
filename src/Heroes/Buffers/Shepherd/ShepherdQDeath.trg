@@ -1,0 +1,11 @@
+{
+  "Id": 50333066,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "scope ShepherdQDeath initializer init\r\n\r\n    globals\r\n            private constant integer ID_BUFF_DUMMY = 'A1DT'\r\n            private constant integer ID_BUFF = 'B0AF'\r\n            private constant integer ID_ABILITY_GHOST = 'A1DU'\r\n            private constant string ID_HASH_END_TIMER = \"journey_end_timer\"\r\n            private constant string ID_HASH_AP = \"journey_attack_power\"\r\n    endglobals\r\n    \r\n    function Trig_ShepherdQDeath_Conditions takes nothing returns boolean\r\n        return GetUnitAbilityLevel( GetDyingUnit(), ID_BUFF_DUMMY ) > 0\r\n    endfunction\r\n\r\n    function Trig_ShepherdQDeath_Actions takes nothing returns nothing\r\n        local unit u = GetDyingUnit()\r\n        local integer ap\r\n        \r\n        if not( LoadTimerHandle( udg_hash, GetHandleId( u ), StringHash( ID_HASH_END_TIMER ) ) == null ) then\r\n            call ShepherdQCancel( u )\r\n        endif\r\n        call UnitRemoveAbility(u, ID_BUFF_DUMMY)\r\n        call UnitRemoveAbility(u, ID_ABILITY_GHOST)\r\n        call UnitRemoveBuffBJ(ID_BUFF, u)\r\n        set ap = LoadInteger( udg_hash, GetHandleId( u ), StringHash( ID_HASH_AP ))\r\n        if ap > 0 then\r\n            call BlzSetUnitBaseDamage( u, BlzGetUnitBaseDamage(u, 0) - ap, 0 )\r\n        endif\r\n        call RemoveSavedInteger( udg_hash, GetHandleId( u ), StringHash( ID_HASH_AP ) )\r\n        \r\n        set u = null\r\n    endfunction\r\n\r\n    //===========================================================================\r\n    private function init takes nothing returns nothing\r\n        set gg_trg_ShepherdQDeath = CreateTrigger( )\r\n        call TriggerRegisterAnyUnitEventBJ( gg_trg_ShepherdQDeath, EVENT_PLAYER_UNIT_DEATH )\r\n        call TriggerAddCondition( gg_trg_ShepherdQDeath, Condition( function Trig_ShepherdQDeath_Conditions ) )\r\n        call TriggerAddAction( gg_trg_ShepherdQDeath, function Trig_ShepherdQDeath_Actions )\r\n    endfunction\r\n    \r\nendscope",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

@@ -1,0 +1,11 @@
+{
+  "Id": 50332162,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_SetHealPl_Conditions takes nothing returns boolean\r\n    return GetTriggerPlayer() == udg_Host and SubString(GetEventPlayerChatString(), 0, 9) == \"-set heal\" and SubString(GetEventPlayerChatString(), 0, 13) != \"-set heal all\" and not( udg_fightmod[0] ) and udg_Boss_LvL == 1 and udg_Heroes_Chanse > 0\r\nendfunction\r\n\r\nfunction Trig_SetHealPl_Actions takes nothing returns nothing\r\n    \tlocal integer i = GetPlayerId( GetTriggerPlayer() ) + 1\r\n    \tlocal integer k = S2I(SubString(GetEventPlayerChatString(), 10, 11))\r\n\tlocal real r = S2I(SubString(GetEventPlayerChatString(), 12, 16))\r\n\r\n\tif k >= 1 and k <= 4 then\r\n\t\tset udg_BossChange = true\r\n    \t\tset udg_BossHeal[k] = r/100\r\n\r\n\t\tif udg_BossHeal[k] < 0.2 then\r\n\t\t\tset udg_BossHeal[k] = 0.2\r\n\t\telseif udg_BossHeal[k] > 10 then\r\n\t\t\tset udg_BossHeal[k] = 10\r\n\t\tendif\r\n            \tcall DisplayTimedTextToForce( bj_FORCE_ALL_PLAYERS, 10, udg_Player_Color[k] + GetPlayerName(Player(k-1)) + \"|r. |cffffcc00Health and mana healing:|r \" + I2S( R2I((udg_BossHeal[k]*100)) ) + \"%.\" ) \r\n\telse\r\n\t        call DisplayTimedTextToForce( GetForceOfPlayer(GetTriggerPlayer()), 10, \"The player is not selected correctly.\" )\t\r\n\tendif\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_SetHealPl takes nothing returns nothing\r\n    local integer cyclA = 0\r\n    set gg_trg_SetHealPl = CreateTrigger(  )\r\n    loop\r\n        exitwhen cyclA > 3\r\n        call TriggerRegisterPlayerChatEvent( gg_trg_SetHealPl, Player(cyclA), \"-set heal \", false )\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    call TriggerAddCondition( gg_trg_SetHealPl, Condition( function Trig_SetHealPl_Conditions ) )\r\n    call TriggerAddAction( gg_trg_SetHealPl, function Trig_SetHealPl_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

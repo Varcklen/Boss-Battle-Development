@@ -1,0 +1,11 @@
+{
+  "Id": 50332392,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Approximatron_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A007' and combat( GetSpellAbilityUnit(), true, GetSpellAbilityId() ) and not(udg_fightmod[3])\r\nendfunction\r\n  \r\nfunction Trig_Approximatron_Actions takes nothing returns nothing\r\n    local real heal\r\n    local unit caster\r\n    local integer cyclA = 1\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        call textst( udg_string[0] + GetObjectName('A007'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n    endif\r\n\r\n    set heal = eyest(caster)*100*SetCount_GetPieces(caster, SET_MECH)\r\n    loop\r\n        exitwhen cyclA > 4\r\n        if udg_hero[cyclA] != caster and unitst(caster, udg_hero[cyclA], \"ally\") then\r\n            call DestroyEffect( AddSpecialEffect(\"Void Teleport Caster.mdx\", GetUnitX(udg_hero[cyclA]), GetUnitY(udg_hero[cyclA]) ) )\r\n            call SetUnitPosition( udg_hero[cyclA], GetUnitX(caster), GetUnitY(caster) )\r\n            call DestroyEffect( AddSpecialEffect(\"Void Teleport Caster.mdx\", GetUnitX(udg_hero[cyclA]), GetUnitY(udg_hero[cyclA]) ) )\r\n            call healst( caster, udg_hero[cyclA], heal )\r\n            call PanCameraToTimedLocForPlayer( Player( cyclA - 1 ), GetUnitLoc( udg_hero[cyclA] ), 0.25 )\r\n        endif\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n\r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Approximatron takes nothing returns nothing\r\n    set gg_trg_Approximatron = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Approximatron, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Approximatron, Condition( function Trig_Approximatron_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Approximatron, function Trig_Approximatron_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

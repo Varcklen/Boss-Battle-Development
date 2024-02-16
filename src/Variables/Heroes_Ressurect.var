@@ -1,0 +1,14 @@
+{
+  "Id": 100663667,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Heroes_Ressurect",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

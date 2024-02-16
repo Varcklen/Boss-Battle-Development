@@ -1,0 +1,11 @@
+{
+  "Id": 50333483,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Manadragon3_Conditions takes nothing returns boolean\r\n    return GetUnitTypeId( udg_DamageEventTarget ) == 'e004' and GetUnitLifePercent(udg_DamageEventTarget) <= 25\r\nendfunction\r\n\r\nfunction Trig_Manadragon3_Actions takes nothing returns nothing\r\n   local integer id = GetHandleId( udg_DamageEventTarget )\r\n    local group g = CreateGroup()\r\n    local unit u\r\n   \r\n    call DisableTrigger( GetTriggeringTrigger() )\r\n    call GroupEnumUnitsInRange( g, GetUnitX( udg_DamageEventTarget ), GetUnitY( udg_DamageEventTarget ), 900, null )\r\n    loop\r\n        set u = FirstOfGroup(g)\r\n        exitwhen u == null\r\n        if unitst( u, udg_DamageEventTarget, \"enemy\" ) and IsUnitType( u, UNIT_TYPE_HERO) then\r\n            call SetUnitState( u, UNIT_STATE_MANA, 0 )\r\n            call DestroyEffect( AddSpecialEffectTarget( \"Objects\\\\Spawnmodels\\\\NightElf\\\\NECancelDeath\\\\NECancelDeath.mdl\", u, \"origin\" ) )\r\n        endif\r\n        call GroupRemoveUnit(g,u)\r\n        set u = FirstOfGroup(g)\r\n    endloop\r\n    \r\n    call DestroyTimer( LoadTimerHandle( udg_hash, id, StringHash( \"bsmd\" ) ) )\r\n    call FlushChildHashtable( udg_hash, id )\r\n    \r\n    call GroupClear( g )\r\n    call DestroyGroup( g )\r\n    set u = null\r\n    set g = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Manadragon3 takes nothing returns nothing\r\n    set gg_trg_Manadragon3 = CreateTrigger(  )\r\n    call DisableTrigger( gg_trg_Manadragon3 )\r\n    call TriggerRegisterVariableEvent( gg_trg_Manadragon3, \"udg_AfterDamageEvent\", EQUAL, 1.00 )\r\n    call TriggerAddCondition( gg_trg_Manadragon3, Condition( function Trig_Manadragon3_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Manadragon3, function Trig_Manadragon3_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

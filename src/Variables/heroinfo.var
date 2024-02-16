@@ -1,0 +1,14 @@
+{
+  "Id": 100663600,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "heroinfo",
+  "Type": "group",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Id": 50332874,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_RingG_Conditions takes nothing returns boolean\r\n    if udg_logic[36] then\r\n        return false\r\n    endif\r\n    if not( Ring_Logic(GetManipulatedItem()) ) then\r\n        return false\r\n    endif\r\n    return true\r\nendfunction\r\n\r\nfunction Trig_RingG_Actions takes nothing returns nothing\r\n    local unit u = GetManipulatingUnit()//udg_hero[GetPlayerId(GetOwningPlayer(GetManipulatingUnit())) + 1]\r\n    local integer i = CorrectPlayer(u)//GetPlayerId(GetOwningPlayer(n)) + 1\r\n    local boolean l = LoadBoolean( udg_hash, GetHandleId( u ), StringHash( \"pkblt\" ) )\r\n\r\n    if l and inv(u, 'I03I') > 0 then\r\n        set udg_logic[i + 62] = true\r\n        call skillst( i, 1 )\r\n    else\r\n        set udg_Set_Ring_Number[i] = udg_Set_Ring_Number[i] + 1\r\n        if not( udg_logic[i + 62] ) and udg_Set_Ring_Number[i] >= 3 and Multiboard_Condition(i) then\r\n            set udg_logic[i + 62] = true\r\n            call skillst( i, 1 )\r\n            call DisplayTimedTextToForce( bj_FORCE_ALL_PLAYERS, 5, udg_Player_Color[i] + GetPlayerName(GetOwningPlayer( u ) ) + \"|r assembled set |cff9001fdRing|r!\" )\r\n            call DestroyEffect( AddSpecialEffect( \"Abilities\\\\Spells\\\\Orc\\\\FeralSpirit\\\\feralspiritdone.mdl\", GetUnitX( u ), GetUnitY( u ) ) )\r\n            call iconon( i, \"Кольцо\", \"war3mapImported\\\\PASINV_Jewelry_Ring_34.blp\" )\r\n        endif\r\n    endif\r\n    \r\n    //call AllSetRing( u, 8, GetManipulatedItem() )\r\n    \r\n    set u = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_RingG takes nothing returns nothing\r\n    set gg_trg_RingG = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_RingG, EVENT_PLAYER_UNIT_PICKUP_ITEM )\r\n    call TriggerAddCondition( gg_trg_RingG, Condition( function Trig_RingG_Conditions ) )\r\n    call TriggerAddAction( gg_trg_RingG, function Trig_RingG_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

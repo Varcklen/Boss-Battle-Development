@@ -1,0 +1,11 @@
+{
+  "Id": 50332360,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Cheatboss_Conditions takes nothing returns boolean\r\n    return SubString(GetEventPlayerChatString(), 0, 5) == \"-boss\"\r\nendfunction\r\n\r\nfunction Trig_Cheatboss_Actions takes nothing returns nothing\r\n    local integer cyclA = 1\r\n    local integer cyclB\r\n    local integer i\r\n    \r\n    set udg_Boss_Number = SubString(GetEventPlayerChatString(), 6, 7)\r\n    set udg_Boss_Random = S2I(udg_Boss_Number)\r\n    set i = DB_Boss_id[udg_Boss_LvL][udg_Boss_Random]\r\n    call DisplayTimedTextToForce( bj_FORCE_ALL_PLAYERS, 5.00, \"Босс изменен на босса |cffffcc00№\" + udg_Boss_Number + \"|r\" )\r\n    loop\r\n        exitwhen cyclA > 4\r\n        if GetPlayerSlotState(Player(cyclA - 1)) == PLAYER_SLOT_STATE_PLAYING then\r\n            set cyclB = 1\r\n            loop\r\n                exitwhen cyclB > 6\r\n                call UnitRemoveAbility( udg_unit[cyclA + 17], Boss_Info[udg_Boss_LvL][cyclB] )\r\n                call UnitRemoveAbility( udg_UNIT_INFORMANT, Boss_Info[udg_Boss_LvL][cyclB] )\r\n                if cyclB == S2I(udg_Boss_Number) then\r\n                    call UnitAddAbility( udg_unit[cyclA + 17], Boss_Info[udg_Boss_LvL][cyclB] )\r\n                    call UnitAddAbility( udg_UNIT_INFORMANT, Boss_Info[udg_Boss_LvL][cyclB] )\r\n                endif\r\n                set cyclB = cyclB + 1\r\n            endloop\r\n        endif\r\n        set cyclA = cyclA + 1\r\n    endloop\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Cheatboss takes nothing returns nothing\r\n    local integer cyclA = 0\r\n    set gg_trg_Cheatboss = CreateTrigger(  )\r\n    call DisableTrigger( gg_trg_Cheatboss )\r\n    loop\r\n        exitwhen cyclA > 3\r\n        call TriggerRegisterPlayerChatEvent( gg_trg_Cheatboss, Player(cyclA), \"-boss \", false )\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    call TriggerAddCondition( gg_trg_Cheatboss, Condition( function Trig_Cheatboss_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Cheatboss, function Trig_Cheatboss_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

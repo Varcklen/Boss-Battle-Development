@@ -1,0 +1,11 @@
+{
+  "Id": 50332138,
+  "Comment": "Eldrich Moon\r\n\r\nby zihell",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_CorruptedWorld_Actions takes nothing returns nothing\r\n    set udg_Database_NumberItems[1] = 26\r\n    set DB_Items[1][1] = 'I0CE'\r\n    set DB_Items[1][2] = 'I05X'\r\n    set DB_Items[1][3] = 'I05Q'\r\n    set DB_Items[1][4] = 'I02W'\r\n    set DB_Items[1][5] = 'I065'\r\n    set DB_Items[1][6] = 'I0B7'\r\n    set DB_Items[1][7] = 'I0CS'\r\n    set DB_Items[1][8] = 'I063'\r\n    set DB_Items[1][9] = 'I0BO'\r\n    set DB_Items[1][10] = 'I0EL'\r\n    set DB_Items[1][11] = 'I0DD'\r\n    set DB_Items[1][12] = 'I0BF'\r\n    set DB_Items[1][13] = 'I08A'\r\n    set DB_Items[1][14] = 'I0CB'\r\n    set DB_Items[1][15] = 'I07R'\r\n    set DB_Items[1][16] = 'I02C'\r\n    set DB_Items[1][17] = 'I0BC'\r\n    set DB_Items[1][18] = 'I0C1'\r\n    set DB_Items[1][19] = 'I05Y'\r\n    set DB_Items[1][20] = 'I0B8'\r\n    set DB_Items[1][21] = 'I0EK'\r\n    set DB_Items[1][22] = 'I0BE'\r\n    set DB_Items[1][23] = 'I04G'\r\n    set DB_Items[1][24] = 'I07R'\r\n    set DB_Items[1][25] = 'I0B1'\r\n    set DB_Items[1][26] = 'I0B6'\r\n    // a\r\n    set udg_Database_NumberItems[2] = 12\r\n    set DB_Items[2][1] = 'I00H'\r\n    set DB_Items[2][2] = 'I0CQ'\r\n    set DB_Items[2][3] = 'I08N'\r\n    set DB_Items[2][4] = 'I0BA'\r\n    set DB_Items[2][5] = 'I0C7'\r\n    set DB_Items[2][6] = 'I009'\r\n    set DB_Items[2][7] = 'I0CA'\r\n    set DB_Items[2][8] = 'I04C'\r\n    set DB_Items[2][9] = 'I0BB'\r\n    set DB_Items[2][10] = 'I0BD'\r\n    set DB_Items[2][11] = 'I0AS'\r\n    set DB_Items[2][12] = 'I0A7'\r\n    // a\r\n    set udg_Database_NumberItems[3] = 6\r\n    set DB_Items[3][1] = 'I00T'\r\n    set DB_Items[3][2] = 'I09S'\r\n    set DB_Items[3][3] = 'I00G'\r\n    set DB_Items[3][4] = 'I01U'\r\n    set DB_Items[3][5] = 'I0E4'\r\n    set DB_Items[3][6] = 'I07Z'\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_CorruptedWorld takes nothing returns nothing\r\n    set gg_trg_CorruptedWorld = CreateTrigger(  )\r\n    call TriggerAddAction( gg_trg_CorruptedWorld, function Trig_CorruptedWorld_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

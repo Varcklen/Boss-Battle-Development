@@ -1,0 +1,14 @@
+{
+  "Id": 100663519,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Info_Time",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

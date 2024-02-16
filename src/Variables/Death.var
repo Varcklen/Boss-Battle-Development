@@ -1,0 +1,14 @@
+{
+  "Id": 100663468,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Death",
+  "Type": "boolean",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

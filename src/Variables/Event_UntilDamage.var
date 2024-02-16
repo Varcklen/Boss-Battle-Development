@@ -1,0 +1,14 @@
+{
+  "Id": 100663300,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Event_UntilDamage",
+  "Type": "real",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

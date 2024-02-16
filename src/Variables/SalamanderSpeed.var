@@ -1,0 +1,14 @@
+{
+  "Id": 100663464,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "SalamanderSpeed",
+  "Type": "real",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

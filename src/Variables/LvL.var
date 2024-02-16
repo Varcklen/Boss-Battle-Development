@@ -1,0 +1,15 @@
+{
+  "Id": 100663418,
+  "ArraySize": [
+    5,
+    1
+  ],
+  "Name": "LvL",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "1"
+  }
+}

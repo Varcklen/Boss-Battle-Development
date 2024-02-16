@@ -1,0 +1,11 @@
+{
+  "Id": 50332778,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_IkarosQuest_Conditions takes nothing returns boolean\r\n    return inv( udg_FightEnd_Unit, 'I099') > 0 and not(udg_fightmod[3])\r\nendfunction\r\n\r\nfunction Trig_IkarosQuest_Actions takes nothing returns nothing\r\n    local integer i = GetPlayerId( GetOwningPlayer(udg_FightEnd_Unit) ) + 1\r\n    local integer p = LoadInteger( udg_hash, GetHandleId(udg_FightEnd_Unit), StringHash( udg_QuestItemCode[17] ) ) + 1\r\n    \r\n    call SaveInteger( udg_hash, GetHandleId(udg_FightEnd_Unit), StringHash( udg_QuestItemCode[17] ), p )\r\n    if p >= udg_QuestNum[17] then\r\n        call SaveReal( udg_hash, GetHandleId(udg_FightEnd_Unit), StringHash( udg_QuestItemCode[17] ), 0 )\r\n        call RemoveItem(GetItemOfTypeFromUnitBJ(udg_FightEnd_Unit, 'I099'))\r\n        call UnitAddItem(udg_FightEnd_Unit, CreateItem( 'I03H', GetUnitX(udg_FightEnd_Unit), GetUnitY(udg_FightEnd_Unit)))\r\n        call textst( \"|c00ffffff Battle of power done!\", udg_FightEnd_Unit, 64, GetRandomReal( 45, 135 ), 12, 1.5 )\r\n        call DestroyEffect( AddSpecialEffect( \"Abilities\\\\Spells\\\\Human\\\\ReviveHuman\\\\ReviveHuman.mdl\", GetUnitX(udg_FightEnd_Unit), GetUnitY(udg_FightEnd_Unit) ) )\r\n        set udg_QuestDone[i] = true\r\n    else\r\n        call QuestDiscription( udg_FightEnd_Unit, 'I099', p, udg_QuestNum[17] )\r\n    endif\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_IkarosQuest takes nothing returns nothing\r\n    set gg_trg_IkarosQuest = CreateTrigger(  )\r\n    call TriggerRegisterVariableEvent( gg_trg_IkarosQuest, \"udg_FightEnd_Real\", EQUAL, 1.00 )\r\n    call TriggerAddCondition( gg_trg_IkarosQuest, Condition( function Trig_IkarosQuest_Conditions ) )\r\n    call TriggerAddAction( gg_trg_IkarosQuest, function Trig_IkarosQuest_Actions )\r\nendfunction",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

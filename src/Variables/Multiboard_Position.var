@@ -1,0 +1,14 @@
+{
+  "Id": 100663642,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Multiboard_Position",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

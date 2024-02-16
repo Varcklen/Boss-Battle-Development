@@ -1,0 +1,14 @@
+{
+  "Id": 100663344,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DryadMinionHP",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

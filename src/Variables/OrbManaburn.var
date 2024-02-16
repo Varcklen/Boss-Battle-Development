@@ -1,0 +1,14 @@
+{
+  "Id": 100663361,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "OrbManaburn",
+  "Type": "real",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

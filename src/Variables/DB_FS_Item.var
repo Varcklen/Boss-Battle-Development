@@ -1,0 +1,14 @@
+{
+  "Id": 100663484,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_FS_Item",
+  "Type": "itemcode",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

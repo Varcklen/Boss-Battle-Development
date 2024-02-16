@@ -1,0 +1,15 @@
+{
+  "Id": 262225534,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "UNIT_EXCHANGER_TEAL",
+  "Type": "unit",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "h00U_0072"
+  }
+}

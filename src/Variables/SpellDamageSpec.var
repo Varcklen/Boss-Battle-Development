@@ -1,0 +1,15 @@
+{
+  "Id": 100663588,
+  "ArraySize": [
+    6,
+    1
+  ],
+  "Name": "SpellDamageSpec",
+  "Type": "real",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "1.01"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Id": 50332806,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_OrbHeresy_Conditions takes nothing returns boolean\r\n    return GetUnitAbilityLevel( udg_DamageEventSource, 'A191') > 0 and not( udg_IsDamageSpell )\r\nendfunction\r\n\r\nfunction Trig_OrbHeresy_Actions takes nothing returns nothing\r\n    local unit target = null\r\n    local integer cyclA = 1\r\n    local real heal = 15\r\n    \r\n    loop\r\n        exitwhen cyclA > 4\r\n        if inv(udg_hero[cyclA], 'I09N') == 0 and IsUnitAlly(udg_hero[cyclA], GetOwningPlayer(udg_DamageEventSource)) and GetUnitState(udg_hero[cyclA], UNIT_STATE_LIFE) > 0.405 and ( RMinBJ(GetUnitLifePercent(udg_hero[cyclA]), GetUnitLifePercent(udg_hero[cyclA - 3])) == GetUnitLifePercent(udg_hero[cyclA]) or GetUnitState(udg_hero[cyclA - 3], UNIT_STATE_LIFE) <= 0.405 ) and ( RMinBJ(GetUnitLifePercent(udg_hero[cyclA]), GetUnitLifePercent(udg_hero[cyclA - 1])) == GetUnitLifePercent(udg_hero[cyclA]) or GetUnitState(udg_hero[cyclA - 1], UNIT_STATE_LIFE) <= 0.405 ) and ( RMinBJ(GetUnitLifePercent(udg_hero[cyclA]), GetUnitLifePercent(udg_hero[cyclA - 2])) == GetUnitLifePercent(udg_hero[cyclA]) or GetUnitState(udg_hero[cyclA - 2], UNIT_STATE_LIFE) <= 0.405 ) then\r\n            set target = udg_hero[cyclA]\r\n        endif\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    if target != null then\r\n        call healst( udg_DamageEventSource, target, heal )\r\n        set target = null\r\n    endif\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_OrbHeresy takes nothing returns nothing\r\n    set gg_trg_OrbHeresy = CreateTrigger(  )\r\n    call TriggerRegisterVariableEvent( gg_trg_OrbHeresy, \"udg_DamageModifierEvent\", EQUAL, 1.00 )\r\n    call TriggerAddCondition( gg_trg_OrbHeresy, Condition( function Trig_OrbHeresy_Conditions ) )\r\n    call TriggerAddAction( gg_trg_OrbHeresy, function Trig_OrbHeresy_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

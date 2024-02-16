@@ -1,0 +1,11 @@
+{
+  "Id": 50333183,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Troll_MageE_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A150'\r\nendfunction\r\n\r\nfunction Trig_Troll_MageE_Actions takes nothing returns nothing\r\n    local integer cyclA = 1\r\n    local integer id\r\n    local integer lvl\r\n    local unit caster\r\n    local unit u\r\n    local integer i\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n        set lvl = udg_Level\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        set lvl = udg_Level\r\n        call textst( udg_string[0] + GetObjectName('A150'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n        set lvl = GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())\r\n    endif\r\n    \r\n    call UnitAddAbility( caster, 'A152' )\r\n    call DestroyEffect( AddSpecialEffectTarget(\"DarkSwirl.mdx\", caster, \"overhead\" ) )\r\n    call SaveInteger( udg_hash, GetHandleId(caster), StringHash( \"trme\" ), 5 )\r\n    call SaveReal( udg_hash, GetHandleId(caster), StringHash( \"trme\" ), 0.3*lvl )\r\n\r\n    set bj_lastCreatedUnit = CreateUnit( GetOwningPlayer( caster ), 'u000', GetUnitX(caster),  GetUnitY(caster), 270 )\r\n    call UnitAddAbility( bj_lastCreatedUnit, 'A04J' )\r\n    \r\n    set caster = null\r\n    set u = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Troll_MageE takes nothing returns nothing\r\n    set gg_trg_Troll_MageE = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Troll_MageE, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Troll_MageE, Condition( function Trig_Troll_MageE_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Troll_MageE, function Trig_Troll_MageE_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

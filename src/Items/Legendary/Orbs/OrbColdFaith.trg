@@ -1,0 +1,11 @@
+{
+  "Id": 50332801,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_OrbColdFaith_Conditions takes nothing returns boolean \r\n\treturn GetItemTypeId(GetManipulatedItem()) == 'I0FO'\r\nendfunction \r\n\r\nfunction OrbColdFaithCast takes nothing returns nothing \r\n\tlocal integer id = GetHandleId( GetExpiredTimer( ) )\r\n    local unit n = LoadUnitHandle( udg_hash, id, StringHash( \"orbcf\" ) )\r\n    local item it = LoadItemHandle( udg_hash, id, StringHash( \"orbcft\" ) )\r\n    \r\n    if not(UnitHasItem(n,it )) then\r\n        call FlushChildHashtable( udg_hash, id )\r\n        call DestroyTimer( GetExpiredTimer() )\r\n    elseif GetUnitState( n, UNIT_STATE_LIFE) > 0.405 then\r\n        call dummyspawn( n, 10, 'A0JE', 0, 0 )\r\n        call SetUnitScale( bj_lastCreatedUnit, 3, 3, 3 )\r\n    endif\r\n    \r\n    set it = null\r\n    set n = null\r\nendfunction\r\n\r\nfunction Trig_OrbColdFaith_Actions takes nothing returns nothing \r\n\tlocal integer id = GetHandleId( GetManipulatedItem() )\r\n\t\r\n    if LoadTimerHandle( udg_hash, id, StringHash( \"orbcf\" ) ) == null  then\r\n        call SaveTimerHandle( udg_hash, id, StringHash( \"orbcf\" ), CreateTimer() )\r\n    endif \r\n\tset id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"orbcf\" ) ) ) \r\n\tcall SaveUnitHandle( udg_hash, id, StringHash( \"orbcf\" ), GetManipulatingUnit() ) \r\n    call SaveItemHandle( udg_hash, id, StringHash( \"orbcft\" ), GetManipulatedItem() ) \r\n\tcall TimerStart( LoadTimerHandle( udg_hash, GetHandleId( GetManipulatedItem() ), StringHash( \"orbcf\" ) ), 3, true, function OrbColdFaithCast ) \r\nendfunction \r\n\r\n//=========================================================================== \r\nfunction InitTrig_OrbColdFaith takes nothing returns nothing \r\n\tset gg_trg_OrbColdFaith = CreateTrigger( ) \r\n\tcall TriggerRegisterAnyUnitEventBJ( gg_trg_OrbColdFaith, EVENT_PLAYER_UNIT_PICKUP_ITEM ) \r\n\tcall TriggerAddCondition( gg_trg_OrbColdFaith, Condition( function Trig_OrbColdFaith_Conditions ) ) \r\n\tcall TriggerAddAction( gg_trg_OrbColdFaith, function Trig_OrbColdFaith_Actions ) \r\nendfunction",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

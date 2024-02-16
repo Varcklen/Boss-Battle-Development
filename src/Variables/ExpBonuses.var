@@ -1,0 +1,14 @@
+{
+  "Id": 100663397,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "ExpBonuses",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

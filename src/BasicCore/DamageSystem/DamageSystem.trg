@@ -1,0 +1,11 @@
+{
+  "Id": 50332151,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "globals\r\n    real Event_OnDamageChange_StaticDamage\r\n    real Event_OnDamageChange_Real\r\n    \r\n    boolean IsDisableSpellPower = false\r\n    boolean IsAttack = false\r\nendglobals\r\n\r\nfunction Trig_DamageSystem_Actions takes nothing returns nothing\r\n    set udg_DamageEventAmount = GetEventDamage()\r\n    set udg_DamageEventTarget = BlzGetEventDamageTarget()\r\n    set udg_DamageEventSource = GetEventDamageSource()\r\n    \r\n\tif BlzGetEventAttackType() == ATTACK_TYPE_MAGIC or BlzGetEventAttackType() == ATTACK_TYPE_NORMAL then\r\n\t\tset udg_IsDamageSpell = true\r\n\telse\r\n\t\tset udg_IsDamageSpell = false\r\n\tendif\r\n    set IsAttack = true\r\n\tset udg_DamageHealLoop = false\r\n\tset udg_DamageEventType = 0\r\n    \r\n    //Событие, чтобы изменить udg_DamageEventAmount\r\n    set Event_OnDamageChange_StaticDamage = udg_DamageEventAmount\r\n    set Event_OnDamageChange_Real = 0.00\r\n    set Event_OnDamageChange_Real = 1.00\r\n    set Event_OnDamageChange_Real = 0.00\r\n    \r\n    // Obsolete. Do not use\r\n    set udg_DamageModifierEvent = 0.00\r\n\tset udg_DamageModifierEvent = 1.00\r\n\tset udg_DamageModifierEvent = 0.00\r\n\r\n    //Событие, чтобы добавить модификаторы, не меняющие udg_DamageEventAmount (например вампиризм или запуск волны)\r\n\tif udg_DamageEventAmount > 0 then\r\n        set udg_AfterDamageEvent = 0.00\r\n        set udg_AfterDamageEvent = 1.00\r\n        set udg_AfterDamageEvent = 0.00\r\n    endif\r\n\r\n\tcall BlzSetEventDamage( udg_DamageEventAmount )\r\n    \r\n    set IsDisableSpellPower = false\r\n\r\n\tset udg_DamageEventAmount = 0\r\n\tset udg_DamageEventTarget = null\r\n\tset udg_DamageEventSource = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_DamageSystem takes nothing returns nothing\r\n    set gg_trg_DamageSystem = CreateTrigger(  )\r\n    //call TriggerRegisterAnyUnitEventBJ( gg_trg_DamageSystem, EVENT_PLAYER_UNIT_DAMAGED )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_DamageSystem, EVENT_PLAYER_UNIT_DAMAGING )\r\n    call TriggerAddAction( gg_trg_DamageSystem, function Trig_DamageSystem_Actions )\r\nendfunction",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

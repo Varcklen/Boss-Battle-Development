@@ -1,0 +1,11 @@
+{
+  "Id": 50333687,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Marine8_Conditions takes nothing returns boolean\r\n    return GetUnitTypeId( udg_DamageEventTarget ) == 'n04N' and GetUnitLifePercent(udg_DamageEventTarget) <= 20\r\nendfunction\r\n\r\nfunction Trig_Marine8_Actions takes nothing returns nothing\r\n    local group g = CreateGroup()\r\n    local unit u\r\n\r\n    call DisableTrigger( GetTriggeringTrigger() )\r\n    call TransmissionFromUnitWithNameBJ( bj_FORCE_ALL_PLAYERS, udg_DamageEventTarget, GetUnitName(udg_DamageEventTarget), null, \"kaBOOM!\", bj_TIMETYPE_SET, 3, false )\r\n    call GroupEnumUnitsInRange( g, GetUnitX( udg_DamageEventTarget ), GetUnitY( udg_DamageEventTarget ), 800, null )\r\n    loop\r\n        set u = FirstOfGroup(g)\r\n        exitwhen u == null\r\n        if unitst( u, udg_DamageEventTarget, \"enemy\" ) then\r\n            call dummyspawn( udg_DamageEventTarget, 1, 'A0RJ', 0, 0 )\r\n            call IssueTargetOrder( bj_lastCreatedUnit, \"thunderbolt\", u )\r\n            call DestroyEffect( AddSpecialEffect(\"Abilities\\\\Spells\\\\Human\\\\Thunderclap\\\\ThunderClapCaster.mdl\", GetUnitX( u ), GetUnitY( u ) ) )\r\n        endif\r\n        call GroupRemoveUnit(g,u)\r\n        set u = FirstOfGroup(g)\r\n    endloop\r\n    \r\n    call GroupClear( g )\r\n    call DestroyGroup( g )\r\n    set u = null\r\n    set g = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Marine8 takes nothing returns nothing\r\n    set gg_trg_Marine8 = CreateTrigger(  )\r\n    call DisableTrigger( gg_trg_Marine8 )\r\n    call TriggerRegisterVariableEvent( gg_trg_Marine8, \"udg_AfterDamageEvent\", EQUAL, 1.00 )\r\n    call TriggerAddCondition( gg_trg_Marine8, Condition( function Trig_Marine8_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Marine8, function Trig_Marine8_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

@@ -1,0 +1,14 @@
+{
+  "Id": 100663426,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "RandomBonus",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Id": 100663544,
+  "ArraySize": [
+    5,
+    1
+  ],
+  "Name": "GoldAllTime",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

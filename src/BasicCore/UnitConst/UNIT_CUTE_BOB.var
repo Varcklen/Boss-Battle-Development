@@ -1,0 +1,15 @@
+{
+  "Id": 448962705,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "UNIT_CUTE_BOB",
+  "Type": "unit",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "h00A_0034"
+  }
+}

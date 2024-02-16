@@ -1,0 +1,11 @@
+{
+  "Id": 50333640,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Horror1_Conditions takes nothing returns boolean\r\n    return GetItemTypeId(GetManipulatedItem()) == 'I05R'\r\nendfunction\r\n\r\nfunction Horror1End takes nothing returns nothing\r\n    local integer id = GetHandleId( GetExpiredTimer( ) )\r\n    local unit u = LoadUnitHandle( udg_hash, id, StringHash( \"drksf\" ) )\r\n    \r\n    call UnitRemoveAbility( u, 'A07L' )\r\n    call UnitRemoveAbility( u, 'B04H' )\r\n    call FlushChildHashtable( udg_hash, id )\r\n    \r\n    set u = null\r\nendfunction\r\n\r\nfunction Trig_Horror1_Actions takes nothing returns nothing\r\n\tlocal integer id = GetHandleId( GetManipulatingUnit() )\r\n\r\n\tcall DestroyEffect(AddSpecialEffectTarget(\"Abilities\\\\Spells\\\\Undead\\\\DeathCoil\\\\DeathCoilSpecialArt.mdl\", GetManipulatingUnit(), \"origin\"))\r\n    call dummyspawn( GetManipulatingUnit(), 1, 0, 0, 0 )\r\n    call UnitDamageTarget( bj_lastCreatedUnit, GetManipulatingUnit(), 100, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)\r\n\r\n    call UnitAddAbility( GetManipulatingUnit(), 'A07L' )\r\n\r\n    if LoadTimerHandle( udg_hash, id, StringHash( \"drksf\" ) ) == null  then \r\n        call SaveTimerHandle( udg_hash, id, StringHash( \"drksf\" ), CreateTimer() )\r\n    endif\r\n\tset id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"drksf\" ) ) ) \r\n\tcall SaveUnitHandle( udg_hash, id, StringHash( \"drksf\" ), GetManipulatingUnit() )\r\n\tcall TimerStart( LoadTimerHandle( udg_hash, GetHandleId( GetManipulatingUnit() ), StringHash( \"drksf\" ) ), 8, false, function Horror1End )\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Horror1 takes nothing returns nothing\r\n    set gg_trg_Horror1 = CreateTrigger(  )\r\n    call DisableTrigger( gg_trg_Horror1 )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Horror1, EVENT_PLAYER_UNIT_PICKUP_ITEM )\r\n    call TriggerAddCondition( gg_trg_Horror1, Condition( function Trig_Horror1_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Horror1, function Trig_Horror1_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

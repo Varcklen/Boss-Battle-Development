@@ -1,0 +1,15 @@
+{
+  "Id": 1935128521,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "UNIT_PLAYER_STATUS_RED",
+  "Type": "unit",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "h01B_0061"
+  }
+}

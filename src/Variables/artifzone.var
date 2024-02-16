@@ -1,0 +1,14 @@
+{
+  "Id": 100663668,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "artifzone",
+  "Type": "unit",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

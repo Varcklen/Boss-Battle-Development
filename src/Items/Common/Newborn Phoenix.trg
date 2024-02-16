@@ -1,0 +1,11 @@
+{
+  "Id": 50332487,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "globals\r\n    constant integer NEWBORN_PHOENIX_DURATION = 10\r\nendglobals\r\n\r\nfunction Trig_Newborn_Phoenix_Conditions takes nothing returns boolean\r\n    return combat(udg_DamageEventTarget, false, 0) and not(udg_fightmod[3]) and inv( udg_DamageEventTarget, 'I05W') > 0 and udg_DamageEventAmount >= GetUnitState( udg_DamageEventTarget, UNIT_STATE_LIFE) and GetUnitState( udg_DamageEventTarget, UNIT_STATE_LIFE) > 0.405\r\nendfunction\r\n\r\nfunction Newborn_PhoenixCast takes nothing returns nothing\r\n    local integer id = GetHandleId( GetExpiredTimer( ) )\r\n    local unit caster = LoadUnitHandle( udg_hash, id, StringHash( \"nbph\" ) )\r\n    \r\n    call bufallst(caster, null, 'A0NA', 'A0MJ', 0, 0, 0, 'B09W', \"nbphf\", NEWBORN_PHOENIX_DURATION )\r\n    call DestroyTimer( GetExpiredTimer() )\r\n    \r\n    set caster = null\r\nendfunction\r\n\r\nfunction Trig_Newborn_Phoenix_Actions takes nothing returns nothing\r\n    local unit caster = udg_DamageEventTarget\r\n    local integer id = GetHandleId( caster )\r\n\r\n\tset udg_DamageEventAmount = 0\r\n\tcall healst( caster, null, GetUnitState( caster, UNIT_STATE_MAX_LIFE) )\r\n    call manast( caster, null, GetUnitState( caster, UNIT_STATE_MAX_MANA) )\r\n    call DestroyEffect( AddSpecialEffectTarget(\"Abilities\\\\Spells\\\\Human\\\\ReviveHuman\\\\ReviveHuman.mdl\", caster, \"origin\" ) )\r\n\r\n    call InvokeTimerWithUnit( caster, \"nbph\", 0.01, false, function Newborn_PhoenixCast )\r\n\r\n\tcall stazisst( caster, GetItemOfTypeFromUnitBJ( caster, 'I05W') )\r\n\r\n\tset caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Newborn_Phoenix takes nothing returns nothing\r\n    set gg_trg_Newborn_Phoenix = CreateTrigger(  )\r\n    call TriggerRegisterVariableEvent( gg_trg_Newborn_Phoenix, \"udg_AfterDamageEvent\", EQUAL, 1.00 )\r\n    call TriggerAddCondition( gg_trg_Newborn_Phoenix, Condition( function Trig_Newborn_Phoenix_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Newborn_Phoenix, function Trig_Newborn_Phoenix_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

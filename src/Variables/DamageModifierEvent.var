@@ -1,0 +1,14 @@
+{
+  "Id": 100663630,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DamageModifierEvent",
+  "Type": "real",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

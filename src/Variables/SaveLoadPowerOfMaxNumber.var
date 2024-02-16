@@ -1,0 +1,14 @@
+{
+  "Id": 100663415,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "SaveLoadPowerOfMaxNumber",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

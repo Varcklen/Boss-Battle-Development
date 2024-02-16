@@ -1,0 +1,15 @@
+{
+  "Id": 100663349,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DamageReduction",
+  "Type": "real",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "0.00"
+  }
+}

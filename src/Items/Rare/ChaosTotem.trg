@@ -1,0 +1,11 @@
+{
+  "Id": 50332576,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_ChaosTotem_Conditions takes nothing returns boolean\r\n    return GetUnitTypeId(GetEnteringUnit()) == 'o00W'\r\nendfunction\r\n\r\nfunction ChaosTotemCast takes nothing returns nothing \r\n\tlocal integer id = GetHandleId( GetExpiredTimer( ) )\r\n    local unit caster = LoadUnitHandle( udg_hash, id, StringHash( \"chstt\" ) )\r\n    local integer rand = GetRandomInt( 1, 3 )\r\n\r\n\tif GetUnitState( caster, UNIT_STATE_LIFE) > 0.405 then\r\n        set udg_RandomLogic = true\r\n        set udg_Caster = caster\r\n        set udg_Level = 1\r\n        if rand == 1 then\r\n            call TriggerExecute( udg_DB_Trigger_One[GetRandomInt( 1, udg_Database_NumberItems[14])] )\r\n        elseif rand == 2 then\r\n            call TriggerExecute( udg_DB_Trigger_Two[GetRandomInt( 1, udg_Database_NumberItems[15])] )\r\n        else\r\n            call TriggerExecute( udg_DB_Trigger_Three[GetRandomInt( 1, udg_Database_NumberItems[16])] )\r\n        endif\r\n    else\r\n        call DestroyTimer( GetExpiredTimer( ) )\r\n        call FlushChildHashtable( udg_hash, id )\r\n\tendif\r\n\r\n    set caster = null\r\nendfunction \r\n\r\nfunction Trig_ChaosTotem_Actions takes nothing returns nothing\r\n\tlocal integer id = GetHandleId( GetEnteringUnit() )\r\n\t\r\n\tcall SaveTimerHandle( udg_hash, id, StringHash( \"chstt\" ), CreateTimer( ) ) \r\n\tset id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"chstt\" ) ) ) \r\n\tcall SaveUnitHandle( udg_hash, id, StringHash( \"chstt\" ), GetEnteringUnit() ) \r\n\tcall TimerStart( LoadTimerHandle( udg_hash, GetHandleId( GetEnteringUnit() ), StringHash( \"chstt\" ) ), 4, true, function ChaosTotemCast ) \r\nendfunction \r\n\r\n//===========================================================================\r\nfunction InitTrig_ChaosTotem takes nothing returns nothing\r\n    set gg_trg_ChaosTotem = CreateTrigger(  )\r\n    call TriggerRegisterEnterRectSimple( gg_trg_ChaosTotem, GetWorldBounds() )\r\n    call TriggerAddCondition( gg_trg_ChaosTotem, Condition( function Trig_ChaosTotem_Conditions ) )\r\n    call TriggerAddAction( gg_trg_ChaosTotem, function Trig_ChaosTotem_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

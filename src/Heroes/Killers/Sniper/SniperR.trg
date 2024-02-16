@@ -1,0 +1,11 @@
+{
+  "Id": 50333090,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_SniperR_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A0LN'\r\nendfunction\r\n\r\nfunction Trig_SniperR_Actions takes nothing returns nothing\r\n    local unit caster\r\n    local item it\r\n    local integer lvl\r\n    local real x\r\n    local real y\r\n    local real heal\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n        set lvl = udg_Level\r\n        set x = GetLocationX( GetSpellTargetLoc() )\r\n        set y = GetLocationY( GetSpellTargetLoc() )\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        set lvl = udg_Level\r\n        set x = GetUnitX( caster ) + GetRandomReal( -650, 650 )\r\n        set y = GetUnitY( caster ) + GetRandomReal( -650, 650 )\r\n        call textst( udg_string[0] + GetObjectName('A0LN'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n        set lvl = GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())\r\n        set x = GetLocationX( GetSpellTargetLoc() )\r\n        set y = GetLocationY( GetSpellTargetLoc() )\r\n    endif\r\n\r\n    set heal = 90. + ( 90. * lvl )\r\n\r\n        set it = CreateItem( 'I05T', x, y )\r\n        call DestroyEffect( AddSpecialEffect( \"Abilities\\\\Spells\\\\Orc\\\\MirrorImage\\\\MirrorImageDeathCaster.mdl\", x, y ) )\r\n        call SaveUnitHandle( udg_hash, GetHandleId( it ), StringHash( \"snpr\" ), caster )\r\n        call SaveReal( udg_hash, GetHandleId( it ), StringHash( \"snpr\" ), heal )\r\n    \r\n    set caster = null\r\n    set it = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_SniperR takes nothing returns nothing\r\n    set gg_trg_SniperR = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_SniperR, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_SniperR, Condition( function Trig_SniperR_Conditions ) )\r\n    call TriggerAddAction( gg_trg_SniperR, function Trig_SniperR_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

@@ -1,0 +1,11 @@
+{
+  "Id": 50332729,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Wiz_Conditions takes nothing returns boolean \r\n\treturn GetItemTypeId(GetManipulatedItem()) == 'I0BL'\r\nendfunction \r\n\r\nfunction WizCast takes nothing returns nothing \r\n\tlocal integer id = GetHandleId( GetExpiredTimer() )\r\n    local unit u = LoadUnitHandle( udg_hash, id, StringHash( \"wiz\" ) )\r\n    local item it = LoadItemHandle( udg_hash, id, StringHash( \"wizt\" ) )\r\n    \r\n    if not(UnitHasItem(u,it )) then\r\n        call FlushChildHashtable( udg_hash, id )\r\n        call DestroyTimer( GetExpiredTimer() )\r\n    elseif GetUnitState( u, UNIT_STATE_LIFE) > 0.405 then\r\n        call healst( u, null, GetUnitState( u, UNIT_STATE_MAX_LIFE) )\r\n        call manast( u, null, GetUnitState( u, UNIT_STATE_MAX_MANA) )\r\n        call DestroyEffect( AddSpecialEffectTarget(\"Abilities\\\\Spells\\\\Human\\\\ReviveHuman\\\\ReviveHuman.mdl\", u, \"origin\" ) )\r\n    endif\r\n    \r\n    set u = null\r\nendfunction \r\n\r\nfunction Trig_Wiz_Actions takes nothing returns nothing \r\n\tlocal integer id = GetHandleId( GetManipulatedItem() )\r\n\t\r\n    if LoadTimerHandle( udg_hash, id, StringHash( \"wiz\" ) ) == null  then\r\n        call SaveTimerHandle( udg_hash, id, StringHash( \"wiz\" ), CreateTimer() )\r\n    endif \r\n\tset id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"wiz\" ) ) ) \r\n\tcall SaveUnitHandle( udg_hash, id, StringHash( \"wiz\" ), GetManipulatingUnit() ) \r\n    call SaveItemHandle( udg_hash, id, StringHash( \"wizt\" ), GetManipulatedItem() ) \r\n\tcall TimerStart( LoadTimerHandle( udg_hash, GetHandleId( GetManipulatedItem() ), StringHash( \"wiz\" ) ), 60, true, function WizCast )\r\nendfunction \r\n\r\n//=========================================================================== \r\nfunction InitTrig_Wiz takes nothing returns nothing \r\n\tset gg_trg_Wiz = CreateTrigger( ) \r\n\tcall TriggerRegisterAnyUnitEventBJ( gg_trg_Wiz, EVENT_PLAYER_UNIT_PICKUP_ITEM ) \r\n\tcall TriggerAddCondition( gg_trg_Wiz, Condition( function Trig_Wiz_Conditions ) ) \r\n\tcall TriggerAddAction( gg_trg_Wiz, function Trig_Wiz_Actions ) \r\nendfunction",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

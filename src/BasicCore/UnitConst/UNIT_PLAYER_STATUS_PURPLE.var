@@ -1,0 +1,15 @@
+{
+  "Id": 1713821106,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "UNIT_PLAYER_STATUS_PURPLE",
+  "Type": "unit",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "h01B_0094"
+  }
+}

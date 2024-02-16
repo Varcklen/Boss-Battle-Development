@@ -1,0 +1,14 @@
+{
+  "Id": 100663541,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Hardest",
+  "Type": "string",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

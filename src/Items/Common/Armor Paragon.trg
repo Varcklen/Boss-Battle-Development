@@ -1,0 +1,11 @@
+{
+  "Id": 50332382,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "globals\r\n    constant integer PARAGON_PIECE_01 = 'I085'\r\n    constant integer PARAGON_PIECE_02 = 'I08C'\r\n    constant integer PARAGON_PIECE_03 = 'I07O'\r\n    constant integer PARAGON_ARMOR = 'I09L'\r\n    \r\n    constant string PARAGON_ANIMATION = \"Abilities\\\\Spells\\\\Human\\\\Resurrect\\\\ResurrectCaster.mdl\"\r\nendglobals\r\n\r\nfunction Trig_Armor_Paragon_Conditions takes nothing returns boolean\r\n    return inv(GetManipulatingUnit(), PARAGON_PIECE_01) > 0 and inv(GetManipulatingUnit(), PARAGON_PIECE_02) > 0 and inv(GetManipulatingUnit(), PARAGON_PIECE_03) > 0\r\nendfunction\r\n\r\nfunction Trig_Armor_Paragon_Actions takes nothing returns nothing\r\n    local player owner = GetOwningPlayer(GetManipulatingUnit())\r\n    local integer index = GetPlayerId(owner) + 1\r\n    local unit hero = GetManipulatingUnit()\r\n    local item it\r\n\r\n    call DestroyEffect( AddSpecialEffectTarget( PARAGON_ANIMATION, hero, \"origin\" ) )\r\n\r\n    call RemoveItem( GetItemOfTypeFromUnitBJ(hero, PARAGON_PIECE_01) )\r\n    call RemoveItem( GetItemOfTypeFromUnitBJ(hero, PARAGON_PIECE_02) )\r\n    call RemoveItem( GetItemOfTypeFromUnitBJ(hero, PARAGON_PIECE_03) )\r\n    set bj_lastCreatedItem = CreateItem(PARAGON_ARMOR, GetUnitX(hero), GetUnitY(hero))\r\n    call UnitAddItem(hero, bj_lastCreatedItem)\r\n    \r\n    call DisplayTimedTextToForce( bj_FORCE_ALL_PLAYERS, 10, udg_Player_Color[index] + GetPlayerName(owner) + \"|r assembled the \" + GetItemName(bj_lastCreatedItem) +\"!\" )\r\n    \r\n    set it = null\r\n    set owner = null\r\n    set hero = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Armor_Paragon takes nothing returns nothing\r\n    set gg_trg_Armor_Paragon = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Armor_Paragon, EVENT_PLAYER_UNIT_PICKUP_ITEM )\r\n    call TriggerAddCondition( gg_trg_Armor_Paragon, Condition( function Trig_Armor_Paragon_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Armor_Paragon, function Trig_Armor_Paragon_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

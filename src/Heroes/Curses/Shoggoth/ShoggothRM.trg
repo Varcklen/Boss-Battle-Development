@@ -1,0 +1,11 @@
+{
+  "Id": 50333370,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_ShoggothRM_Conditions takes nothing returns boolean\r\n    return GetUnitTypeId(GetEnteringUnit()) == 'z000'\r\nendfunction\r\n\r\nfunction ShoggothRMCast takes nothing returns nothing \r\n\tlocal integer id = GetHandleId( GetExpiredTimer( ) )\r\n    local unit caster = LoadUnitHandle( udg_hash, id, StringHash( \"shgr\" ) )\r\n\r\n    if GetUnitState( caster, UNIT_STATE_LIFE) > 0.405 then\r\n\t\tcall BlzSetUnitMaxHP( caster, BlzGetUnitMaxHP(caster)+10 )\r\n\t\tcall BlzSetUnitBaseDamage( caster, BlzGetUnitBaseDamage(caster, 0)+1, 0 )\r\n\t\tcall SetUnitState( caster, UNIT_STATE_LIFE, GetUnitState( caster, UNIT_STATE_LIFE) + 10 )\r\n    else\r\n        call FlushChildHashtable( udg_hash, id )\r\n\t\tcall DestroyTimer( GetExpiredTimer() )\r\n    endif\r\n\r\n    set caster = null\r\nendfunction \r\n\r\nfunction Trig_ShoggothRM_Actions takes nothing returns nothing\r\n\tlocal integer id = GetHandleId( GetEnteringUnit() )\r\n\t\r\n\tcall SaveTimerHandle( udg_hash, id, StringHash( \"shgr\" ), CreateTimer( ) ) \r\n\tset id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"shgr\" ) ) ) \r\n\tcall SaveUnitHandle( udg_hash, id, StringHash( \"shgr\" ), GetEnteringUnit() ) \r\n\tcall TimerStart( LoadTimerHandle( udg_hash, GetHandleId( GetEnteringUnit() ), StringHash( \"shgr\" ) ), 0.5, true, function ShoggothRMCast ) \r\nendfunction \r\n\r\n//===========================================================================\r\nfunction InitTrig_ShoggothRM takes nothing returns nothing\r\n    set gg_trg_ShoggothRM = CreateTrigger(  )\r\n    call TriggerRegisterEnterRectSimple( gg_trg_ShoggothRM, GetWorldBounds() )\r\n    call TriggerAddCondition( gg_trg_ShoggothRM, Condition( function Trig_ShoggothRM_Conditions ) )\r\n    call TriggerAddAction( gg_trg_ShoggothRM, function Trig_ShoggothRM_Actions )\r\nendfunction",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

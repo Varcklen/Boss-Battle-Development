@@ -1,0 +1,11 @@
+{
+  "Id": 50332154,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Damage_Tag_Actions takes nothing returns nothing\r\n\tlocal integer cyclA = 1\r\n    local real r = udg_DamageEventAmount\r\n    local real i = 8\r\n       \r\n    if udg_DamageEventType == udg_DamageTypeBlocked then\r\n        call textst( \"|cf0FF0510 dodge!\", udg_DamageEventTarget, 75, 90, 10, 1.5 )\r\n    elseif udg_DamageEventAmount >= 1 and ( GetPlayerController(GetOwningPlayer(udg_DamageEventTarget)) != MAP_CONTROL_USER or udg_DamageEventTarget == udg_unit[57] or udg_DamageEventTarget == udg_unit[58] )  then\r\n        loop\r\n            exitwhen cyclA > 1\r\n            if r >= 200 and i < 16 then\r\n                set r = r - 200\r\n                set i = i + 1\r\n                set cyclA = cyclA - 1\r\n            endif\r\n            set cyclA = cyclA + 1\r\n        endloop\r\n        if udg_DamageEventType == udg_DamageTypeCriticalStrike then\r\n            if udg_IsDamageSpell then\r\n                call textst( \"|cf0FF1765\" + I2S(R2I(udg_DamageEventAmount)) + \"!\", udg_DamageEventTarget, 64, GetRandomReal( 20, 150 ), i*1.25, 1 )\r\n            else\r\n                call textst( \"|cf0FF0510\" + I2S(R2I(udg_DamageEventAmount)) + \"!\", udg_DamageEventTarget, 64, GetRandomReal( 20, 150 ), i*1.25, 1 )\r\n            endif\r\n        elseif udg_IsDamageSpell then\r\n            call textst( \"|cf07510FF\" + I2S(R2I(udg_DamageEventAmount)), udg_DamageEventTarget, 64, GetRandomReal( 20, 150 ), i, 1 )\r\n        else\r\n            call textst( \"|cf0FFCC00\" + I2S(R2I(udg_DamageEventAmount)), udg_DamageEventTarget, 64, GetRandomReal( 20, 150 ), i, 1 )\r\n        endif\r\n    endif\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Damage_Tag takes nothing returns nothing\r\n    set gg_trg_Damage_Tag = CreateTrigger(  )\r\n    call TriggerRegisterVariableEvent( gg_trg_Damage_Tag, \"udg_DamageEvent\", EQUAL, 1.00 )\r\n    call TriggerAddAction( gg_trg_Damage_Tag, function Trig_Damage_Tag_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

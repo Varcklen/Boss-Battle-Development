@@ -1,0 +1,14 @@
+{
+  "Id": 100663578,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "RandomLogic",
+  "Type": "boolean",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

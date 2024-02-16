@@ -1,0 +1,11 @@
+{
+  "Id": 50333470,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_gg_trg_MageTruch1_Conditions takes nothing returns boolean\r\n    return GetUnitTypeId(udg_DamageEventTarget) == 'n03L'\r\nendfunction\r\n\r\nfunction MageTruch1Cast takes nothing returns nothing\r\n    local integer id = GetHandleId( GetExpiredTimer() )\r\n    local unit boss = LoadUnitHandle( udg_hash, id, StringHash( \"bsmtr\" ) )\r\n    local integer rand = GetRandomInt( 1, 3 )\r\n    \r\n    if GetUnitState( boss, UNIT_STATE_LIFE) <= 0.405 or not( udg_fightmod[0] ) then\r\n        call DestroyTimer( GetExpiredTimer() )\r\n        call FlushChildHashtable( udg_hash, id )\r\n    else\r\n        set udg_RandomLogic = true\r\n        set udg_Caster = boss\r\n        set udg_Level = 2\r\n        call TriggerExecute( udg_DB_Trigger_Two[GetRandomInt( 1, udg_Database_NumberItems[15])] )\r\n    endif\r\n    \r\n    set boss = null\r\n endfunction  \r\n\r\nfunction Trig_gg_trg_MageTruch1_Actions takes nothing returns nothing\r\n    local integer id = GetHandleId( udg_DamageEventTarget )\r\n\r\n    call DisableTrigger( GetTriggeringTrigger() )\r\n    \r\n    if LoadTimerHandle( udg_hash, id, StringHash( \"bsmtr\" ) ) == null  then\r\n        call SaveTimerHandle( udg_hash, id, StringHash( \"bsmtr\" ), CreateTimer() )\r\n    endif\r\n\tset id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"bsmtr\" ) ) ) \r\n    call SaveUnitHandle( udg_hash, id, StringHash( \"bsmtr\" ), udg_DamageEventTarget )\r\n\tcall TimerStart( LoadTimerHandle( udg_hash, GetHandleId( udg_DamageEventTarget ), StringHash( \"bsmtr\" ) ), bosscast(10), true, function MageTruch1Cast )\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_MageTruch1 takes nothing returns nothing\r\n    set gg_trg_MageTruch1 = CreateTrigger()\r\n    call DisableTrigger( gg_trg_MageTruch1 )\r\n    call TriggerRegisterVariableEvent( gg_trg_MageTruch1, \"udg_AfterDamageEvent\", EQUAL, 1.00 )\r\n    call TriggerAddCondition( gg_trg_MageTruch1, Condition( function Trig_gg_trg_MageTruch1_Conditions ) )\r\n    call TriggerAddAction( gg_trg_MageTruch1, function Trig_gg_trg_MageTruch1_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

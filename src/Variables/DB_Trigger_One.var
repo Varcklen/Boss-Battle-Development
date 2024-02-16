@@ -1,0 +1,14 @@
+{
+  "Id": 100663572,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_Trigger_One",
+  "Type": "trigger",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Id": 100663457,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "forgeitem",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

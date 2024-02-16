@@ -1,0 +1,14 @@
+{
+  "Id": 100663527,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_Seller_Number",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

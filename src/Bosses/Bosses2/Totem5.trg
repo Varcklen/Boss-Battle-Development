@@ -1,0 +1,11 @@
+{
+  "Id": 50333436,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "scope Totem5 initializer init\r\n\r\n    globals\r\n        private constant integer DAMAGE = 10\r\n    \r\n        private constant string ANIMATION = \"Abilities\\\\Spells\\\\Undead\\\\DeathandDecay\\\\DeathandDecayDamage.mdl\"\r\n    endglobals\r\n\r\n    private function Trig_Totem5_Conditions takes nothing returns boolean\r\n        return GetUnitTypeId(udg_DamageEventTarget) == 'o007' and GetUnitTypeId(udg_DamageEventSource) != 'u000' and udg_IsDamageSpell == false\r\n    endfunction\r\n    \r\n    private function DealDamage takes nothing returns nothing\r\n        local integer id = GetHandleId( GetExpiredTimer( ) )\r\n        local unit damager = LoadUnitHandle( udg_hash, id, StringHash( \"bstm4b\" ) )\r\n        local unit target = LoadUnitHandle( udg_hash, id, StringHash( \"bstm4\" ) )\r\n        \r\n        if IsUnitAlive(target) then\r\n            call DestroyEffect(AddSpecialEffectTarget( ANIMATION, target, \"chest\") )\r\n            call UnitTakeDamage( damager, target, DAMAGE, DAMAGE_TYPE_MAGIC )\r\n        endif\r\n        call FlushChildHashtable( udg_hash, id )\r\n\r\n        set damager = null\r\n        set target = null\r\n    endfunction\r\n\r\n    private function Trig_Totem5_Actions takes nothing returns nothing\r\n        local integer id = InvokeTimerWithUnit(udg_DamageEventSource, \"bstm4\", 0.01, false, function DealDamage )\r\n        call SaveUnitHandle( udg_hash, id, StringHash( \"bstm4b\" ), udg_DamageEventTarget )\r\n    endfunction\r\n\r\n    //===========================================================================\r\n    private function init takes nothing returns nothing\r\n        set gg_trg_Totem5 = CreateEventTrigger( \"udg_AfterDamageEvent\", function Trig_Totem5_Actions, function Trig_Totem5_Conditions )\r\n        call DisableTrigger( gg_trg_Totem5 )\r\n    endfunction\r\n\r\nendscope",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

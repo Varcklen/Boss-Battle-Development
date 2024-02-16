@@ -1,0 +1,14 @@
+{
+  "Id": 100663355,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "LogicModes",
+  "Type": "boolean",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

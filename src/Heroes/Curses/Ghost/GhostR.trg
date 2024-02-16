@@ -1,0 +1,11 @@
+{
+  "Id": 50333348,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_GhostR_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A08V'\r\nendfunction\r\n\r\nfunction Trig_GhostR_Actions takes nothing returns nothing\r\n    local unit caster\r\n    local unit target\r\n    local integer lvl\r\n    local real dmg\r\n    local real dmgend = 0\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n        set target = udg_Target\r\n        set lvl = udg_Level\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        set target = randomtarget( caster, 900, \"enemy\", \"org\", \"\", \"\", \"\" )\r\n        set lvl = udg_Level\r\n        call textst( udg_string[0] + GetObjectName('A08V'), caster, 64, 90, 10, 1.5 )\r\n        if target == null then\r\n            set caster = null\r\n            return\r\n        endif\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n        set target = GetSpellTargetUnit()\r\n        set lvl = GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())\r\n    endif\r\n    set dmg = 60 + ( 40 * lvl )\r\n    set dmgend = dmg\r\n    \r\n    call DestroyEffect( AddSpecialEffectTarget(\"DarkSwirl.mdx\", target, \"overhead\" ) )\r\n    if GetUnitAbilityLevel( target, 'B01L') > 0 then\r\n        set dmgend = dmgend + dmg\r\n    endif\r\n    call dummyspawn( caster, 1, 0, 0, 0 )\r\n    call UnitDamageTarget( bj_lastCreatedUnit, target, dmgend, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS )\r\n\r\n    set caster = null\r\n    set target = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_GhostR takes nothing returns nothing\r\n    set gg_trg_GhostR = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_GhostR, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_GhostR, Condition( function Trig_GhostR_Conditions ) )\r\n    call TriggerAddAction( gg_trg_GhostR, function Trig_GhostR_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

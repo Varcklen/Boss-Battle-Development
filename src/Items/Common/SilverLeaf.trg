@@ -1,0 +1,11 @@
+{
+  "Id": 50332516,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_SilverLeaf_Conditions takes nothing returns boolean \r\n\treturn GetItemTypeId(GetManipulatedItem()) == 'I02F'\r\nendfunction \r\n\r\nfunction ArgenLeafCast takes nothing returns nothing \r\n\tlocal integer id = GetHandleId( GetExpiredTimer() )\r\n    local unit u = LoadUnitHandle( udg_hash, id, StringHash( \"al\" ) )\r\n\tlocal item it = LoadItemHandle( udg_hash, id, StringHash( \"alt\" ) )\r\n    \r\n    if not(UnitHasItem(u,it )) then\r\n        call FlushChildHashtable( udg_hash, id )\r\n        call DestroyTimer( GetExpiredTimer() )\r\n    elseif GetUnitState( u, UNIT_STATE_LIFE) != GetUnitState( u, UNIT_STATE_MAX_LIFE) and GetUnitState( u, UNIT_STATE_LIFE) > 0.405 then\r\n        call healst( u, null, GetUnitState( u, UNIT_STATE_MAX_LIFE) * 0.03 )\r\n        call spectimeunit( u, \"Abilities\\\\Spells\\\\Human\\\\Heal\\\\HealTarget.mdl\", \"origin\", 2 )\r\n    endif\r\n    \r\n    set u = null\r\n    set it = null\r\nendfunction \r\n\r\nfunction Trig_SilverLeaf_Actions takes nothing returns nothing \r\n\tlocal integer id = GetHandleId( GetManipulatingUnit() )\r\n\t\r\n    if LoadTimerHandle( udg_hash, id, StringHash( \"al\" ) ) == null  then\r\n        call SaveTimerHandle( udg_hash, id, StringHash( \"al\" ), CreateTimer() )\r\n    endif \r\n\tset id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"al\" ) ) ) \r\n\tcall SaveUnitHandle( udg_hash, id, StringHash( \"al\" ), GetManipulatingUnit() ) \r\n    call SaveItemHandle( udg_hash, id, StringHash( \"alt\" ), GetManipulatedItem() ) \r\n\tcall TimerStart( LoadTimerHandle( udg_hash, GetHandleId( GetManipulatedItem() ), StringHash( \"al\" ) ), 12, true, function ArgenLeafCast )\r\nendfunction \r\n\r\n//=========================================================================== \r\nfunction InitTrig_SilverLeaf takes nothing returns nothing \r\n\tset gg_trg_SilverLeaf = CreateTrigger( ) \r\n\tcall TriggerRegisterAnyUnitEventBJ( gg_trg_SilverLeaf, EVENT_PLAYER_UNIT_PICKUP_ITEM ) \r\n\tcall TriggerAddCondition( gg_trg_SilverLeaf, Condition( function Trig_SilverLeaf_Conditions ) ) \r\n\tcall TriggerAddAction( gg_trg_SilverLeaf, function Trig_SilverLeaf_Actions ) \r\nendfunction",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

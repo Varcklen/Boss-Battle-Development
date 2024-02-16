@@ -1,0 +1,11 @@
+{
+  "Id": 50333302,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_MorlocW_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A0TI'\r\nendfunction\r\n\r\nfunction Trig_MorlocW_Actions takes nothing returns nothing\r\n    local integer lvl\r\n    local unit caster\r\n    local unit target\r\n    local real heal\r\n    local real mana\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n        set target = udg_Target\r\n        set lvl = udg_Level\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        set target = randomtarget( caster, 900, \"ally\", \"\", \"\", \"\", \"\" )\r\n        set lvl = udg_Level\r\n        call textst( udg_string[0] + GetObjectName('A0TI'), caster, 64, 90, 10, 1.5 )\r\n        if target == null then\r\n            set caster = null\r\n            return\r\n        endif\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n        set target = GetSpellTargetUnit()\r\n        set lvl = GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())\r\n    endif\r\n\r\n\tset heal = 100 + ( 100. * lvl )\r\n\tset mana = 25 + (25 * lvl )\r\n\r\n    if target == caster then\r\n        call healst( caster, null, heal )\r\n    else\r\n        call manast( caster, target, mana )\r\n    endif\r\n\t\r\n    call DestroyEffect( AddSpecialEffectTarget( \"Objects\\\\Spawnmodels\\\\Naga\\\\NagaDeath\\\\NagaDeath.mdl\", target, \"origin\" ) )\r\n    \r\n    set caster = null\r\n    set target = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_MorlocW takes nothing returns nothing\r\n    set gg_trg_MorlocW = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_MorlocW, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_MorlocW, Condition( function Trig_MorlocW_Conditions ) )\r\n    call TriggerAddAction( gg_trg_MorlocW, function Trig_MorlocW_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

@@ -1,0 +1,11 @@
+{
+  "Id": 50332399,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Big_Surprise_Conditions takes nothing returns boolean\r\n    return GetItemTypeId(GetManipulatedItem()) == 'I0A1'\r\nendfunction\r\n\r\nfunction Trig_Big_Surprise_Actions takes nothing returns nothing\r\n    local integer cyclA = 0\r\n    local integer i = 0\r\n    \r\n    call DestroyEffect( AddSpecialEffect( \"Abilities\\\\Spells\\\\Human\\\\Polymorph\\\\PolyMorphDoneGround.mdl\", GetUnitX( GetManipulatingUnit() ), GetUnitY( GetManipulatingUnit() ) ) )\r\n    call stazisst( GetManipulatingUnit(), GetManipulatedItem() )\r\n    \r\n    loop\r\n        exitwhen cyclA > 5\r\n        if UnitHasItem(GetManipulatingUnit(), UnitItemInSlot(GetManipulatingUnit(), cyclA)) and GetItemType(UnitItemInSlot(GetManipulatingUnit(), cyclA)) != ITEM_TYPE_POWERUP and GetItemType(UnitItemInSlot(GetManipulatingUnit(), cyclA)) != ITEM_TYPE_PURCHASABLE then\r\n            set i = i + 1\r\n        endif\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    if i == 0 then\r\n        set cyclA = 1\r\n        loop\r\n            exitwhen cyclA > 3\r\n            if UnitInventoryCount(GetManipulatingUnit()) < 6 then\r\n                call ItemRandomizer( GetManipulatingUnit(), \"common\" )\r\n            else\r\n                set cyclA = 3\r\n            endif\r\n            set cyclA = cyclA + 1\r\n        endloop\r\n    else\r\n        call ItemRandomizer( GetManipulatingUnit(), \"common\" )\r\n    endif\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Big_Surprise takes nothing returns nothing\r\n    set gg_trg_Big_Surprise = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Big_Surprise, EVENT_PLAYER_UNIT_USE_ITEM )\r\n    call TriggerAddCondition( gg_trg_Big_Surprise, Condition( function Trig_Big_Surprise_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Big_Surprise, function Trig_Big_Surprise_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

@@ -1,0 +1,14 @@
+{
+  "Id": 100663521,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_InfoFrame_Name",
+  "Type": "string",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

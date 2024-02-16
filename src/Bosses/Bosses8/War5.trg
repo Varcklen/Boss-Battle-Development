@@ -1,0 +1,11 @@
+{
+  "Id": 50333610,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "scope War05 initializer init\r\n\r\n    globals\r\n        private constant integer HEALTH_CHECK = 30\r\n        private constant string ANIMATION = \"Abilities\\\\Spells\\\\NightElf\\\\BattleRoar\\\\RoarCaster.mdl\"\r\n    endglobals\r\n\r\n    function Trig_War5_Conditions takes nothing returns boolean\r\n        return GetUnitTypeId( udg_DamageEventTarget ) == War01_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= HEALTH_CHECK\r\n    endfunction\r\n\r\n    function Trig_War5_Actions takes nothing returns nothing\r\n        local integer i\r\n        local integer iEnd\r\n        local integer k\r\n        local integer kEnd\r\n\r\n        call DisableTrigger( GetTriggeringTrigger() )\r\n        call DestroyEffect( AddSpecialEffectTarget(ANIMATION, udg_DamageEventTarget, \"origin\" ) )\r\n        \r\n        set i = 0\r\n        set iEnd = PLAYERS_LIMIT - 1\r\n        loop\r\n            exitwhen i > iEnd\r\n            set k = 0\r\n            set kEnd = PLAYERS_LIMIT - 1\r\n            loop\r\n                exitwhen k > kEnd\r\n                if i != k then\r\n                    call SetPlayerAllianceStateBJ( Player(i), Player(k), bj_ALLIANCE_UNALLIED )\r\n                endif\r\n                set k = k + 1\r\n            endloop\r\n            if IsUnitAlive(udg_hero[i+1]) then\r\n                call PlaySpecialEffect(ANIMATION, udg_hero[i+1])\r\n            endif\r\n            set i = i + 1\r\n        endloop\r\n    endfunction\r\n\r\n    //===========================================================================\r\n    private function init takes nothing returns nothing\r\n        set gg_trg_War5 = CreateEventTrigger( \"udg_AfterDamageEvent\", function Trig_War5_Actions, function Trig_War5_Conditions )\r\n        call DisableTrigger( gg_trg_War5 )\r\n    endfunction\r\n\r\nendscope",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

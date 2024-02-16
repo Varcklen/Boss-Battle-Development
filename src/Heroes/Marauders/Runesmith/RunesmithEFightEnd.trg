@@ -1,0 +1,11 @@
+{
+  "Id": 50333071,
+  "Comment": "Also Resets Runesmith Q Charges and RunesmithW to make combat clean.",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "scope RunesmithEFightEnd initializer init\r\n\r\n    globals\r\n            private constant string ID_HASH_TMP_AR = \"runesmith_tmp_ar\"\r\n            private constant string ID_HASH_TS = \"runesmith_ts\"\r\n            private constant integer ID_ABILITY_ETHEREAL = 'A1E7'\r\n    endglobals\r\n\r\n    function Trig_RunesmithEFightEnd_Conditions takes nothing returns boolean\r\n        return udg_fightmod[3] == false\r\n    endfunction\r\n\r\n    function Trig_RunesmithEFightEnd_Actions takes nothing returns nothing\r\n        local real ar_gained = LoadReal( udg_hash, GetHandleId( udg_FightEnd_Unit ), StringHash( ID_HASH_TMP_AR ))\r\n        local integer charge = LoadInteger( udg_hash, GetHandleId( udg_DamageEventSource ), StringHash( ID_HASH_TS ))\r\n        \r\n        if ar_gained > 0 then\r\n            call BlzSetUnitArmor(udg_FightEnd_Unit, BlzGetUnitArmor(udg_FightEnd_Unit) - ar_gained)\r\n            set ar_gained = 0\r\n            call SaveReal( udg_hash, GetHandleId( udg_FightEnd_Unit ), StringHash( ID_HASH_TMP_AR ), ar_gained )\r\n        endif\r\n        \r\n        if GetUnitAbilityLevel( udg_FightEnd_Unit, ID_ABILITY_ETHEREAL ) > 0 then\r\n            call RunesmithW_Cancel(udg_FightEnd_Unit)\r\n        endif\r\n        \r\n        if charge > 0 then\r\n            call SaveInteger( udg_hash, GetHandleId( udg_DamageEventSource ), StringHash( ID_HASH_TS ), 0 )\r\n        endif\r\n        \r\n    endfunction\r\n\r\n    //===========================================================================\r\n    private function init takes nothing returns nothing\r\n        set gg_trg_RunesmithEFightEnd = CreateTrigger(  )\r\n        call TriggerRegisterVariableEvent( gg_trg_RunesmithEFightEnd, \"udg_FightEnd_Real\", EQUAL, 1.00 )\r\n        call TriggerAddCondition( gg_trg_RunesmithEFightEnd, Condition( function Trig_RunesmithEFightEnd_Conditions ) )\r\n        call TriggerAddAction( gg_trg_RunesmithEFightEnd, function Trig_RunesmithEFightEnd_Actions )\r\n    endfunction\r\n    \r\nendscope",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

@@ -1,0 +1,14 @@
+{
+  "Id": 100663320,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Database_Score_Item",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

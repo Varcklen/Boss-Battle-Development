@@ -1,0 +1,11 @@
+{
+  "Id": 50332409,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Cytrine_Conditions takes nothing returns boolean\r\n    return inv( GetSpellAbilityUnit(), 'I0CZ' ) > 0\r\nendfunction\r\n\r\nfunction Trig_Cytrine_Actions takes nothing returns nothing\r\n    local group g = CreateGroup()\r\n    local unit u\r\n    local real r = 0\r\n    \r\n    call GroupEnumUnitsInRange( g, GetUnitX(GetSpellAbilityUnit()), GetUnitY(GetSpellAbilityUnit()), 500, null )\r\n    loop\r\n        set u = FirstOfGroup(g)\r\n        exitwhen u == null\r\n        if unitst( u, GetSpellAbilityUnit(), \"enemy\" ) then\r\n            set r = r + 10\r\n        endif\r\n        call GroupRemoveUnit(g,u)\r\n    endloop\r\n    \r\n    if r > 0 then\r\n        call dummyspawn( GetSpellAbilityUnit(), 1, 0, 0 , 0 )\r\n        call GroupEnumUnitsInRange( g, GetUnitX(GetSpellAbilityUnit()), GetUnitY(GetSpellAbilityUnit()), 500, null )\r\n        loop\r\n            set u = FirstOfGroup(g)\r\n            exitwhen u == null\r\n            if unitst( u, GetSpellAbilityUnit(), \"enemy\" ) then\r\n                call DestroyEffect( AddSpecialEffectTarget( \"Abilities\\\\Spells\\\\Items\\\\SpellShieldAmulet\\\\SpellShieldCaster.mdl\", u, \"origin\" ) )\r\n                call UnitDamageTarget( bj_lastCreatedUnit, u, r, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)\r\n            endif\r\n            call GroupRemoveUnit(g,u)\r\n        endloop\r\n    endif\r\n\r\n    call GroupClear( g )\r\n    call DestroyGroup( g )\r\n    set u = null\r\n    set g = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Cytine takes nothing returns nothing\r\n    set gg_trg_Cytine = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Cytine, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Cytine, Condition( function Trig_Cytrine_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Cytine, function Trig_Cytrine_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

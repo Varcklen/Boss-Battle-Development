@@ -1,0 +1,14 @@
+{
+  "Id": 100663384,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "base",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

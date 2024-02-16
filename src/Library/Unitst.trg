@@ -1,0 +1,11 @@
+{
+  "Id": 50332058,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "library UnitstLib\r\n\r\n    function unitst takes unit target, unit caster, string str returns boolean\r\n        local boolean l = false\r\n        if GetUnitState( target, UNIT_STATE_LIFE ) > 0.405 and GetUnitTypeId(target) != 'u000' and GetOwningPlayer( target ) != Player( PLAYER_NEUTRAL_PASSIVE ) then\r\n            if IsUnitEnemy( target, GetOwningPlayer( caster ) ) and GetUnitAbilityLevel( target, 'Avul') == 0 and str == \"enemy\" then\r\n                set l = true\r\n            elseif IsUnitAlly( target, GetOwningPlayer( caster ) ) and str == \"ally\" then\r\n                set l = true\r\n            elseif GetUnitAbilityLevel( target, 'Avul') == 0 and str == \"all\" then\r\n                set l = true\r\n            endif\r\n        endif\r\n        set target = null\r\n        set caster = null\r\n        return l\r\n    endfunction\r\n    \r\n    /*function IsRelationCorrectInt takes unit target, unit caster, integer enum returns boolean\r\n        local boolean l = false\r\n        if GetUnitState( target, UNIT_STATE_LIFE ) > 0.405 and GetUnitTypeId(target) != 'u000' and GetOwningPlayer( target ) != Player( PLAYER_NEUTRAL_PASSIVE ) then\r\n            if IsUnitEnemy( target, GetOwningPlayer( caster ) ) and GetUnitAbilityLevel( target, 'Avul') == 0 and enum == TargetRelation.TARGET_ENEMY() then\r\n                set l = true\r\n            elseif IsUnitAlly( target, GetOwningPlayer( caster ) ) and enum == TargetRelation.TARGET_ALLY() then\r\n                set l = true\r\n            elseif GetUnitAbilityLevel( target, 'Avul') == 0 and enum == TargetRelation.TARGET_ALL() then\r\n                set l = true\r\n            endif\r\n        endif\r\n        set target = null\r\n        set caster = null\r\n        return l\r\n    endfunction\r\n    \r\n    function IsRelationCorrect takes unit target, unit caster, TargetRelation relation returns boolean\r\n        local boolean isWork = IsRelationCorrectInt(target, caster, relation.enum )\r\n        call relation.destroy()\r\n        set target = null\r\n        set caster = null\r\n        return isWork\r\n    endfunction*/\r\n\r\nendlibrary",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

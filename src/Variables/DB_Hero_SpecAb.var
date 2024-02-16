@@ -1,0 +1,14 @@
+{
+  "Id": 100663581,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_Hero_SpecAb",
+  "Type": "abilcode",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

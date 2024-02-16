@@ -1,0 +1,15 @@
+{
+  "Id": 1496780216,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "UNIT_JULE",
+  "Type": "unit",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "h01G_0201"
+  }
+}

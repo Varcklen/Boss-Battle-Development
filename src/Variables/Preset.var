@@ -1,0 +1,14 @@
+{
+  "Id": 100663374,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Preset",
+  "Type": "boolean",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

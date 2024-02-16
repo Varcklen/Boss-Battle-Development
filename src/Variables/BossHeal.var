@@ -1,0 +1,15 @@
+{
+  "Id": 100663430,
+  "ArraySize": [
+    4,
+    1
+  ],
+  "Name": "BossHeal",
+  "Type": "real",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "1.00"
+  }
+}

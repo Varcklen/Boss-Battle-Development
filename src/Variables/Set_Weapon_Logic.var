@@ -1,0 +1,14 @@
+{
+  "Id": 100663639,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Set_Weapon_Logic",
+  "Type": "boolean",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

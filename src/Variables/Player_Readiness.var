@@ -1,0 +1,14 @@
+{
+  "Id": 100663678,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Player_Readiness",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

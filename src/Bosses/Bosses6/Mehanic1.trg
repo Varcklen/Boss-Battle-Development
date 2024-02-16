@@ -1,0 +1,11 @@
+{
+  "Id": 50333539,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Mehanic1_Conditions takes nothing returns boolean\r\n    return GetUnitTypeId(udg_DamageEventTarget) == 'h010'\r\nendfunction\r\n\r\nfunction MehanicCast takes nothing returns nothing\r\n    local integer id = GetHandleId( GetExpiredTimer() )\r\n    local unit boss = LoadUnitHandle( udg_hash, id, StringHash( \"bsmc\" ) )\r\n    \r\n    if GetUnitState( boss, UNIT_STATE_LIFE) <= 0.405 or not( udg_fightmod[0] ) then\r\n        call DestroyTimer( GetExpiredTimer() )\r\n        call FlushChildHashtable( udg_hash, id )\r\n    else\r\n        set udg_Caster = boss\r\n    \tset udg_RandomLogic = true\r\n        call TriggerExecute( udg_DB_MechUse[GetRandomInt( 1, udg_Database_NumberItems[35])] )\r\n    endif\r\n\r\n    set boss = null\r\nendfunction\r\n\r\nfunction Trig_Mehanic1_Actions takes nothing returns nothing\r\n    local integer id = GetHandleId( udg_DamageEventTarget )\r\n\r\n    call DisableTrigger( GetTriggeringTrigger() )\r\n    call SetCount_SetPiece( udg_DamageEventTarget, SET_MECH, 3 )\r\n    \r\n    if LoadTimerHandle( udg_hash, id, StringHash( \"bsmc\" ) ) == null  then\r\n        call SaveTimerHandle( udg_hash, id, StringHash( \"bsmc\" ), CreateTimer() )\r\n    endif\r\n\tset id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"bsmc\" ) ) ) \r\n    call SaveUnitHandle( udg_hash, id, StringHash( \"bsmc\" ), udg_DamageEventTarget )\r\n\tcall TimerStart( LoadTimerHandle( udg_hash, GetHandleId( udg_DamageEventTarget ), StringHash( \"bsmc\" ) ), bosscast(14), true, function MehanicCast )\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Mehanic1 takes nothing returns nothing\r\n    set gg_trg_Mehanic1 = CreateTrigger(  )\r\n    call DisableTrigger( gg_trg_Mehanic1 )\r\n    call TriggerRegisterVariableEvent( gg_trg_Mehanic1, \"udg_AfterDamageEvent\", EQUAL, 1.00 )\r\n    call TriggerAddCondition( gg_trg_Mehanic1, Condition( function Trig_Mehanic1_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Mehanic1, function Trig_Mehanic1_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

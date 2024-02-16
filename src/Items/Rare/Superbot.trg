@@ -1,0 +1,11 @@
+{
+  "Id": 50332669,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Superbot_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A08D'\r\nendfunction\r\n\r\nfunction Trig_Superbot_Actions takes nothing returns nothing\r\n    local integer cyclA = 1\r\n    local integer cyclAEnd \r\n    local integer cyclB\r\n    local unit caster\r\n    local integer i\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        call textst( udg_string[0] + GetObjectName('A08D'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n    endif\r\n    \r\n    set cyclAEnd = eyest( caster )\r\n    set i = GetPlayerId(GetOwningPlayer(caster)) + 1\r\n    loop\r\n        exitwhen cyclA > cyclAEnd\r\n        set bj_lastCreatedUnit = CreateUnit( GetOwningPlayer( caster ), 'n00U', GetUnitX( caster ) + GetRandomReal( -200, 200 ), GetUnitY( caster ) + GetRandomReal( -200, 200 ),  GetRandomReal( 0, 360 ))\r\n        call UnitApplyTimedLife(bj_lastCreatedUnit, 'BTLF', 90)\r\n        call DestroyEffect( AddSpecialEffect( \"Abilities\\\\Spells\\\\Human\\\\FlakCannons\\\\FlakTarget.mdl\", GetUnitX( bj_lastCreatedUnit ), GetUnitY( bj_lastCreatedUnit ) ) )\r\n        if combat( GetManipulatingUnit(), false, 0 ) and not( udg_fightmod[3] ) then\r\n            call SetPlayerTechResearched( GetOwningPlayer(caster), 'R000', GetHeroLevel(caster)*SetCount_GetPieces(caster, SET_MECH))\r\n            call SetPlayerTechResearched( GetOwningPlayer(caster), 'R001', GetHeroLevel(caster)*SetCount_GetPieces(caster, SET_MECH))\r\n        endif\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    \r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Superbot takes nothing returns nothing\r\n    set gg_trg_Superbot = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Superbot, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Superbot, Condition( function Trig_Superbot_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Superbot, function Trig_Superbot_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

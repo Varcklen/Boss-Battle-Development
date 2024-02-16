@@ -1,0 +1,11 @@
+{
+  "Id": 50332079,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "library SetStableToolLib\r\n\r\n    function StringSizeStableTool takes string s returns real\r\n        return 0.05+(0.0003*StringLength(s))\r\n    endfunction\r\n\r\n    globals\r\n        private framehandle description = null\r\n    endglobals\r\n\r\n    function SetStableTool takes framehandle f, string name, string disc returns framehandle\r\n        local framehandle frame\r\n        local framehandle tool\r\n\r\n        set tool = BlzCreateFrame( \"QuestButtonBaseTemplate\", f, 0, 0 )\r\n        call BlzFrameSetAbsPoint(tool, FRAMEPOINT_BOTTOM, 0.7, 0.16)\r\n        call BlzFrameSetTooltip( f, tool )\r\n        call BlzFrameSetSize( tool, 0.35, StringSizeStableTool(disc) )\r\n\r\n        set frame = BlzCreateFrameByType(\"TEXT\", \"\",  tool, \"StandartFrameTemplate\", 0)\r\n        call BlzFrameSetPoint( frame, FRAMEPOINT_TOPLEFT, tool, FRAMEPOINT_TOPLEFT, 0.008,-0.008) \r\n        call BlzFrameSetSize(frame, 0.25, StringSizeStableTool(disc)+0.05)\r\n        call BlzFrameSetText( frame, name )\r\n\r\n        set description = BlzCreateFrameByType(\"TEXT\", \"\",  tool, \"StandartFrameTemplate\", 0)\r\n        call BlzFrameSetPoint( description, FRAMEPOINT_TOPLEFT, tool, FRAMEPOINT_TOPLEFT, 0.008,-0.023) \r\n        call BlzFrameSetSize( description, 0.25, StringSizeStableTool(disc)+0.05)\r\n        call BlzFrameSetText( description, disc )\r\n\r\n        set tool = null\r\n        set frame = null\r\n        set f = null\r\n        return description\r\n    endfunction\r\n    \r\n    function SetStableToolDescription takes framehandle f, string disc returns nothing\r\n        local framehandle parent = BlzFrameGetParent(f)\r\n    \r\n        call BlzFrameSetSize( parent, 0.35, StringSizeStableTool(disc) )\r\n        call BlzFrameSetSize( f, 0.25, StringSizeStableTool(disc)+0.05)\r\n        call BlzFrameSetText( f, disc )\r\n        \r\n        set f = null\r\n        set parent = null\r\n    endfunction\r\n\r\nendlibrary",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

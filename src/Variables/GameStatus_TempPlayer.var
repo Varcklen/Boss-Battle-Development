@@ -1,0 +1,14 @@
+{
+  "Id": 100663390,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "GameStatus_TempPlayer",
+  "Type": "player",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

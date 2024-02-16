@@ -1,0 +1,14 @@
+{
+  "Id": 100663324,
+  "ArraySize": [
+    5,
+    1
+  ],
+  "Name": "CorruptedUsed",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

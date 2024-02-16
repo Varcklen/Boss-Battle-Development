@@ -1,0 +1,14 @@
+{
+  "Id": 100663323,
+  "ArraySize": [
+    5,
+    1
+  ],
+  "Name": "PotionsUsed",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

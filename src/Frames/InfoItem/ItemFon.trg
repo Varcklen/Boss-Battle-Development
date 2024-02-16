@@ -1,0 +1,11 @@
+{
+  "Id": 50332296,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "globals\r\n\tframehandle itemfon\r\n\tframehandle itemicon\r\n\tframehandle itemname\r\n\tframehandle itemtool\r\nendglobals\r\n\r\nfunction Trig_ItemFon_Actions takes nothing returns nothing\r\n\r\n    set itemfon = BlzCreateFrame(\"QuestButtonBaseTemplate\", BlzGetOriginFrame(ORIGIN_FRAME_GAME_UI, 0), 0, 0)\r\n    call BlzFrameSetAbsPoint(itemfon, FRAMEPOINT_TOP, 0.125, 0.55)\r\n    call BlzFrameSetSize(itemfon, 0.25, 0.22)\r\n\tcall BlzFrameSetLevel( itemfon, -1 )\r\n\r\n\tset itemicon = BlzCreateFrameByType(\"BACKDROP\", \"\", itemfon, \"StandartFrameTemplate\", 0)\r\n\tcall BlzFrameSetSize( itemicon, 0.04, 0.04 )\r\n\tcall BlzFrameSetPoint(itemicon, FRAMEPOINT_TOPLEFT, itemfon, FRAMEPOINT_TOPLEFT, 0.01,-0.01)   \r\n\tcall BlzFrameSetTexture( itemicon, \"ReplaceableTextures\\\\CommandButtons\\\\BTNPolymorph.blp\", 0, true )\r\n\r\n\tset itemname = BlzCreateFrameByType(\"TEXT\", \"\", itemfon, \"StandartFrameTemplate\", 0)\r\n\tcall BlzFrameSetSize( itemname, 0.2, 0.04 )\r\n\tcall BlzFrameSetPoint(itemname, FRAMEPOINT_TOP, itemfon, FRAMEPOINT_TOP, 0.04,-0.01) \r\n\tcall BlzFrameSetText( itemname, \"\" )\r\n\r\n\tset itemtool = BlzCreateFrameByType(\"TEXT\", \"\", itemfon, \"StandartFrameTemplate\", 0)\r\n\tcall BlzFrameSetSize( itemtool, 0.23, 0.14 )\r\n\tcall BlzFrameSetPoint(itemtool, FRAMEPOINT_TOP, itemfon, FRAMEPOINT_TOP, 0.,-0.06) \r\n\tcall BlzFrameSetText( itemtool, \"\" )\r\n\r\n\tcall BlzFrameSetVisible(itemfon, false)\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_ItemFon takes nothing returns nothing\r\n    set gg_trg_ItemFon = CreateTrigger(  )\r\n    call TriggerRegisterTimerExpireEventBJ( gg_trg_ItemFon, udg_StartTimer )\r\n    call TriggerAddAction( gg_trg_ItemFon, function Trig_ItemFon_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

@@ -1,0 +1,11 @@
+{
+  "Id": 50333021,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_PredatorR_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A15T'\r\nendfunction\r\n\r\nfunction Trig_PredatorR_Actions takes nothing returns nothing\r\n    local unit caster\r\n    local integer lvl\r\n    local real x\r\n    local real y\r\n    local integer id\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Target\r\n        set lvl = udg_Level\r\n        set x = GetLocationX( GetSpellTargetLoc() )\r\n        set y = GetLocationY( GetSpellTargetLoc() )\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        set lvl = udg_Level\r\n        set x = GetUnitX( caster ) + GetRandomReal( -650, 650 )\r\n        set y = GetUnitY( caster ) + GetRandomReal( -650, 650 )\r\n        call textst( udg_string[0] + GetObjectName('A15T'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n        set lvl = GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())\r\n        set x = GetLocationX( GetSpellTargetLoc() )\r\n        set y = GetLocationY( GetSpellTargetLoc() )\r\n    endif\r\n    \r\n        set bj_lastCreatedUnit = CreateUnit(GetOwningPlayer(caster), 'u000', x, y, 270 )\r\n\tcall UnitAddAbility( bj_lastCreatedUnit, 'A15U' ) \r\n    \tcall SetUnitAbilityLevel( bj_lastCreatedUnit, 'A15U', lvl )\r\n\tcall UnitApplyTimedLife( bj_lastCreatedUnit, 'BTLF', 20 )\r\n\r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_PredatorR takes nothing returns nothing\r\n    set gg_trg_PredatorR = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_PredatorR, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_PredatorR, Condition( function Trig_PredatorR_Conditions ) )\r\n    call TriggerAddAction( gg_trg_PredatorR, function Trig_PredatorR_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

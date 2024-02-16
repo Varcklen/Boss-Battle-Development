@@ -1,0 +1,11 @@
+{
+  "Id": 50333368,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_ShoggothWA_Conditions takes nothing returns boolean\r\n    return GetUnitAbilityLevel(udg_DamageEventSource, 'A124') > 0 and IsUnitEnemy(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget))\r\nendfunction\r\n\r\nfunction ShoggothWACast takes nothing returns nothing\r\n    local integer id = GetHandleId( GetExpiredTimer() )\r\n    call UnitRemoveAbility( LoadUnitHandle( udg_hash, id, StringHash( \"shgw1\" ) ), 'A12Y' )\r\n    call UnitRemoveAbility( LoadUnitHandle( udg_hash, id, StringHash( \"shgw1\" ) ), 'B06U' )\r\n    call FlushChildHashtable( udg_hash, id )\r\nendfunction\r\n\r\nfunction Trig_ShoggothWA_Actions takes nothing returns nothing\r\n    local integer lvl = LoadInteger( udg_hash, GetHandleId( udg_DamageEventSource ), StringHash( \"shgw\" ) )\r\n    local integer id\r\n\r\n\tcall UnitAddAbility( udg_DamageEventTarget, 'A12Y' )\r\n\tcall SetUnitAbilityLevel( udg_DamageEventTarget, 'A12E', lvl )\r\n\t\r\n\tset id = GetHandleId( udg_DamageEventTarget )\r\n\tif LoadTimerHandle( udg_hash, id, StringHash( \"shgw1\" ) ) == null  then\r\n\t\tcall SaveTimerHandle( udg_hash, id, StringHash( \"shgw1\" ), CreateTimer() )\r\n\tendif\r\n\tset id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"shgw1\" ) ) ) \r\n\tcall SaveUnitHandle( udg_hash, id, StringHash( \"shgw1\" ), udg_DamageEventTarget )\r\n\tcall TimerStart( LoadTimerHandle( udg_hash, GetHandleId( udg_DamageEventTarget ), StringHash( \"shgw1\" ) ), 10, false, function ShoggothWACast )\r\n\r\n\tif BuffLogic() then\r\n\t\tcall debuffst( udg_DamageEventSource, udg_DamageEventTarget, null, 1, 10 )\r\n\tendif\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_ShoggothWA takes nothing returns nothing\r\n    set gg_trg_ShoggothWA = CreateTrigger(  )\r\n    call TriggerRegisterVariableEvent( gg_trg_ShoggothWA, \"udg_DamageModifierEvent\", EQUAL, 1.00 )\r\n    call TriggerAddCondition( gg_trg_ShoggothWA, Condition( function Trig_ShoggothWA_Conditions ) )\r\n    call TriggerAddAction( gg_trg_ShoggothWA, function Trig_ShoggothWA_Actions )\r\nendfunction",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

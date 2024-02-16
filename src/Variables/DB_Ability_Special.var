@@ -1,0 +1,14 @@
+{
+  "Id": 100663340,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_Ability_Special",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

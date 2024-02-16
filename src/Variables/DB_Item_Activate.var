@@ -1,0 +1,14 @@
+{
+  "Id": 100663523,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_Item_Activate",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

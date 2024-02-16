@@ -1,0 +1,11 @@
+{
+  "Id": 50332521,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Sheep_Bell_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A04O'\r\nendfunction\r\n\r\nfunction Trig_Sheep_Bell_Actions takes nothing returns nothing\r\n    local unit caster\r\n    local integer cyclA = 1\r\n    local integer cyclAEnd \r\n    local integer cyclB\r\n    local real x\r\n    local real y\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        call textst( udg_string[0] + GetObjectName('A04O'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n    endif \r\n\r\n    set x = GetUnitX( caster ) + 200 * Cos( 0.017 * GetUnitFacing( caster ) )\r\n    set y = GetUnitY( caster ) + 200 * Sin( 0.017 * GetUnitFacing( caster ) )\r\n    \r\n    set cyclAEnd = eyest( caster )\r\n    loop\r\n        exitwhen cyclA > cyclAEnd\r\n        set cyclB = 1\r\n        loop\r\n            exitwhen cyclB > 3\r\n            set bj_lastCreatedUnit = CreateUnit( GetOwningPlayer( caster ), ID_SHEEP, x, y, GetUnitFacing( caster ) )\r\n            call UnitApplyTimedLife( bj_lastCreatedUnit, 'BTLF', 60 )\r\n            call DestroyEffect( AddSpecialEffect( \"Abilities\\\\Spells\\\\Orc\\\\FeralSpirit\\\\feralspirittarget.mdl\", GetUnitX( bj_lastCreatedUnit ), GetUnitY( bj_lastCreatedUnit ) ) )\r\n            set cyclB = cyclB + 1\r\n        endloop\r\n        set cyclA = cyclA + 1\r\n    endloop\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Sheep_Bell takes nothing returns nothing\r\n    set gg_trg_Sheep_Bell = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Sheep_Bell, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Sheep_Bell, Condition( function Trig_Sheep_Bell_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Sheep_Bell, function Trig_Sheep_Bell_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

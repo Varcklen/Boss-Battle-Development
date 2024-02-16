@@ -1,0 +1,11 @@
+{
+  "Id": 503330661,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "library OutcastLib\r\n\r\n    function OutcastEQEnd takes nothing returns nothing\r\n        local integer id = GetHandleId( GetExpiredTimer() )\r\n        local unit u = LoadUnitHandle( udg_hash, id, StringHash( \"outeq\" ) )\r\n\r\n        if GetUnitAbilityLevel(u, 'A082' ) == 0 then\r\n                call FlushChildHashtable( udg_hash, id )\r\n        else\r\n            set udg_outcast[1] = true\r\n            if GetLocalPlayer() == GetOwningPlayer(u) then\r\n                    call BlzFrameSetVisible( outballframe[1], true )\r\n            endif\r\n        endif\r\n\r\n        set u = null\r\n    endfunction\r\n\r\n    function OutcastEWEnd takes nothing returns nothing\r\n        local integer id = GetHandleId( GetExpiredTimer() )\r\n        local unit u = LoadUnitHandle( udg_hash, id, StringHash( \"outew\" ) )\r\n\r\n        if GetUnitAbilityLevel(u, 'A082' ) == 0 then\r\n                call FlushChildHashtable( udg_hash, id )\r\n        else\r\n            set udg_outcast[2] = true\r\n            if GetLocalPlayer() == GetOwningPlayer(u) then\r\n                    call BlzFrameSetVisible( outballframe[2], true )\r\n            endif\r\n        endif\r\n\r\n        set u = null\r\n    endfunction\r\n\r\n    function OutcastEREnd takes nothing returns nothing\r\n        local integer id = GetHandleId( GetExpiredTimer() )\r\n        local unit u = LoadUnitHandle( udg_hash, id, StringHash( \"outer\" ) )\r\n\r\n        if GetUnitAbilityLevel(u, 'A082' ) == 0 then\r\n                call FlushChildHashtable( udg_hash, id )\r\n        else\r\n            set udg_outcast[3] = true\r\n            if GetLocalPlayer() == GetOwningPlayer(u) then\r\n                    call BlzFrameSetVisible( outballframe[3], true )\r\n            endif\r\n        endif\r\n\r\n        set u = null\r\n    endfunction\r\n\r\nendlibrary",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

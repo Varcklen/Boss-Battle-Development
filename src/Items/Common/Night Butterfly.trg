@@ -1,0 +1,11 @@
+{
+  "Id": 50332471,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Night_Butterfly_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A0N0'\r\nendfunction\r\n\r\nfunction Trig_Night_Butterfly_Actions takes nothing returns nothing\r\n    local unit caster\r\n    local unit target\r\n    local integer id \r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n        set target = udg_Target\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        set target = randomtarget( caster, 900, \"ally\", \"\", \"\", \"\", \"\" )\r\n        call textst( udg_string[0] + GetObjectName('A0N0'), caster, 64, 90, 10, 1.5 )\r\n        if target == null then\r\n            set caster = null\r\n            return\r\n        endif\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n        set target = GetSpellTargetUnit()\r\n    endif\r\n    \r\n    call DestroyEffect( AddSpecialEffect( \"Abilities\\\\Spells\\\\Human\\\\Invisibility\\\\InvisibilityTarget.mdl\", GetUnitX( target ), GetUnitY( target ) ) )\r\n    \r\n    call eyest( caster )\r\n    call dummyspawn( caster, 1, 'A0MI', 0, 0 )\r\n    call shadowst( target )\r\n    call IssueTargetOrder( bj_lastCreatedUnit, \"invisibility\", target )\r\n    \r\n    if BuffLogic() then\r\n        call effst( caster, target, null, 1, 10 )\r\n    endif\r\n    \r\n    set caster = null\r\n    set target = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Night_Butterfly takes nothing returns nothing\r\n    set gg_trg_Night_Butterfly = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Night_Butterfly, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Night_Butterfly, Condition( function Trig_Night_Butterfly_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Night_Butterfly, function Trig_Night_Butterfly_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

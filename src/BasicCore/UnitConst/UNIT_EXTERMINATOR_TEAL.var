@@ -1,0 +1,15 @@
+{
+  "Id": 182944503,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "UNIT_EXTERMINATOR_TEAL",
+  "Type": "unit",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "n01L_0081"
+  }
+}

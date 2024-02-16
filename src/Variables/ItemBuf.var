@@ -1,0 +1,14 @@
+{
+  "Id": 100663474,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "ItemBuf",
+  "Type": "item",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

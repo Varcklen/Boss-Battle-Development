@@ -1,0 +1,11 @@
+{
+  "Id": 50333615,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Aku4_Conditions takes nothing returns boolean\r\n    return GetUnitTypeId(udg_DamageEventTarget) == 'n04O'  and GetUnitLifePercent(udg_DamageEventTarget) <= 80\r\nendfunction\r\n\r\nfunction Aku4Cast takes nothing returns nothing\r\n    local integer id = GetHandleId( GetExpiredTimer() )\r\n    local unit boss = LoadUnitHandle( udg_hash, id, StringHash( \"bsdl4\" ) )\r\n\r\n    if GetUnitState( boss, UNIT_STATE_LIFE) <= 0.405 or not( udg_fightmod[0] ) then\r\n        call DestroyTimer( GetExpiredTimer() )\r\n        call FlushChildHashtable( udg_hash, id )\r\n    else\r\n        call DestroyEffect( AddSpecialEffectTarget(\"Abilities\\\\Spells\\\\NightElf\\\\BattleRoar\\\\RoarCaster.mdl\", boss, \"origin\" ) )\r\n        call UnitAddAbility( boss, 'A02Z' )\r\n    endif\r\n    \r\n    set boss = null\r\nendfunction\r\n\r\nfunction Trig_Aku4_Actions takes nothing returns nothing\r\n    local integer id = GetHandleId( udg_DamageEventTarget )\r\n    \r\n    call DisableTrigger( GetTriggeringTrigger() )\r\n    \r\n    if LoadTimerHandle( udg_hash, id, StringHash( \"bsdl4\" ) ) == null  then\r\n        call SaveTimerHandle( udg_hash, id, StringHash( \"bsdl4\" ), CreateTimer() )\r\n    endif\r\n\tset id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"bsdl4\" ) ) ) \r\n    call SaveUnitHandle( udg_hash, id, StringHash( \"bsdl4\" ), udg_DamageEventTarget )\r\n\tcall TimerStart( LoadTimerHandle( udg_hash, GetHandleId( udg_DamageEventTarget ), StringHash( \"bsdl4\" ) ), bosscast(20), true, function Aku4Cast )\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Aku4 takes nothing returns nothing\r\n    set gg_trg_Aku4 = CreateTrigger()\r\n    call DisableTrigger( gg_trg_Aku4 )\r\n    call TriggerRegisterVariableEvent( gg_trg_Aku4, \"udg_AfterDamageEvent\", EQUAL, 1.00 )\r\n    call TriggerAddCondition( gg_trg_Aku4, Condition( function Trig_Aku4_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Aku4, function Trig_Aku4_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

@@ -1,0 +1,14 @@
+{
+  "Id": 100663432,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "QuestHero",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

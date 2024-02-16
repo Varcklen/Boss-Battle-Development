@@ -1,0 +1,11 @@
+{
+  "Id": 50332438,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Grave_Urn_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A0WI'\r\nendfunction\r\n\r\nfunction Trig_Grave_Urn_Actions takes nothing returns nothing\r\n    local integer cyclA = 1\r\n    local integer cyclAEnd\r\n    local unit caster\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        call textst( udg_string[0] + GetObjectName('A0WI'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n    endif\r\n    \r\n    set cyclAEnd = eyest( caster ) * 5\r\n\r\n    loop\r\n        exitwhen cyclA > cyclAEnd\r\n        set bj_lastCreatedUnit = CreateUnit( GetOwningPlayer(caster), udg_Database_RandomUnit[GetRandomInt(1, udg_Database_NumberItems[5])], GetUnitX( caster ) + GetRandomReal( -200, 200 ), GetUnitY( caster ) + GetRandomReal( -200, 200 ), GetRandomReal( 0, 360 ) )\r\n        call SetUnitState( bj_lastCreatedUnit, UNIT_STATE_LIFE, 1. )\r\n        call UnitApplyTimedLife( bj_lastCreatedUnit, 'BTLF', 20.)\r\n        call DestroyEffect( AddSpecialEffect( \"Abilities\\\\Spells\\\\Orc\\\\FeralSpirit\\\\feralspirittarget.mdl\", GetUnitX( bj_lastCreatedUnit ), GetUnitY( bj_lastCreatedUnit ) ) )\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    \r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Grave_Urn takes nothing returns nothing\r\n    set gg_trg_Grave_Urn = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Grave_Urn, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Grave_Urn, Condition( function Trig_Grave_Urn_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Grave_Urn, function Trig_Grave_Urn_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

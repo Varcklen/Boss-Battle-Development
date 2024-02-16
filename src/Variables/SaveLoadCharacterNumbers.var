@@ -1,0 +1,14 @@
+{
+  "Id": 100663551,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "SaveLoadCharacterNumbers",
+  "Type": "string",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

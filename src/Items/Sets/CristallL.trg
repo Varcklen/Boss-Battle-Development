@@ -1,0 +1,11 @@
+{
+  "Id": 50332877,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_CristallL_Conditions takes nothing returns boolean\r\n    if udg_logic[36] then\r\n        return false\r\n    endif\r\n    if not( CristallLogic(GetManipulatedItem()) ) then\r\n        return false\r\n    endif\r\n    return true\r\nendfunction\r\n\r\nfunction Trig_CristallL_Actions takes nothing returns nothing\r\n    local unit n = GetManipulatingUnit()//udg_hero[GetPlayerId(GetOwningPlayer(GetManipulatingUnit())) + 1]\r\n    local integer i = CorrectPlayer(n)//GetPlayerId(GetOwningPlayer(n)) + 1\r\n    local boolean l = LoadBoolean( udg_hash, GetHandleId( n ), StringHash( \"pkblt\" ) )\r\n    local boolean k = LoadBoolean( udg_hash, GetHandleId( n ), StringHash( \"pkbl\" ) )\r\n    \r\n    if l then\r\n        set udg_logic[i + 80] = false\r\n        call iconoff( i, \"Кристалл\" )\r\n    else\r\n        set udg_Set_Cristall_Number[i] = udg_Set_Cristall_Number[i] - 1\r\n        if udg_logic[i + 80] and udg_Set_Cristall_Number[i] < 3 then\r\n            if not( k ) then\r\n                set udg_logic[i + 80] = false\r\n                call UnitRemoveAbility( n, 'A03Y' )\r\n                call UnitRemoveAbility( n, 'B08V' )\r\n            endif\r\n            call DisplayTimedTextToPlayer( GetOwningPlayer(n), 0, 0, 5., \"Set |cff00cceeCrystal|r is now disassembled!\")\r\n            call iconoff( i, \"Кристалл\" )\r\n        endif\r\n    endif\r\n    \r\n    //call AllSetRing( n, 9, GetManipulatedItem() )\r\n    \r\n    set n = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_CristallL takes nothing returns nothing\r\n    set gg_trg_CristallL = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_CristallL, EVENT_PLAYER_UNIT_DROP_ITEM )\r\n    call TriggerAddCondition( gg_trg_CristallL, Condition( function Trig_CristallL_Conditions ) )\r\n    call TriggerAddAction( gg_trg_CristallL, function Trig_CristallL_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

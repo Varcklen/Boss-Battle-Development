@@ -1,0 +1,11 @@
+{
+  "Id": 50332291,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function ArrowMoveCast takes nothing returns nothing\r\n    local integer id = GetHandleId( GetExpiredTimer() )\r\n    local integer c = LoadInteger( udg_hash, id, StringHash( \"arrmv\" ) )\r\n    local real y = LoadReal( udg_hash, id, StringHash( \"arrmvm\" ) ) + (c*0.005)\r\n\r\n\tif udg_fightmod[0] then\r\n\t\tcall BlzFrameSetVisible( arrowframe, false )\r\n        call FlushChildHashtable( udg_hash, id )\r\n        call DestroyTimer( GetExpiredTimer() )\r\n\telse\r\n        call BlzFrameSetAbsPoint(arrowframe, FRAMEPOINT_CENTER, 0.4, y)\r\n\t\tcall SaveReal( udg_hash, id, StringHash( \"arrmvm\" ), y )\r\n\t\tif y > 0.24 or y < 0.2 then\r\n\t\t\tif c == 1 then\r\n\t\t\t\tcall SaveInteger( udg_hash, id, StringHash( \"arrmv\" ), -1 )\r\n\t\t\telse\r\n\t\t\t\tcall SaveInteger( udg_hash, id, StringHash( \"arrmv\" ), 1 )\r\n\t\t\tendif\r\n\t\tendif\r\n\tendif\r\nendfunction\r\n\r\nfunction Trig_ArrowMove_Actions takes nothing returns nothing\r\n    local integer id = GetHandleId(udg_UNIT_CUTE_BOB)\r\n\r\n    if LoadTimerHandle( udg_hash, id, StringHash( \"arrmv\" ) ) == null  then\r\n        call SaveTimerHandle( udg_hash, id, StringHash( \"arrmv\" ), CreateTimer() )\r\n    endif\r\n\tset id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"arrmv\" ) ) ) \r\n\tcall SaveInteger( udg_hash, id, StringHash( \"arrmv\" ), 1 )\r\n\tcall SaveReal( udg_hash, id, StringHash( \"arrmvm\" ), 0.2 )\r\n\tcall TimerStart( LoadTimerHandle( udg_hash, GetHandleId(udg_UNIT_CUTE_BOB), StringHash( \"arrmv\" ) ), 0.04, true, function ArrowMoveCast )\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_ArrowMove takes nothing returns nothing\r\n    set gg_trg_ArrowMove = CreateTrigger(  )\r\n    call TriggerRegisterTimerEventSingle( gg_trg_ArrowMove, 1.00 )\r\n    call TriggerAddAction( gg_trg_ArrowMove, function Trig_ArrowMove_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

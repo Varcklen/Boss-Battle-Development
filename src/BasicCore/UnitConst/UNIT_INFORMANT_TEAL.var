@@ -1,0 +1,15 @@
+{
+  "Id": 1337124458,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "UNIT_INFORMANT_TEAL",
+  "Type": "unit",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "h00D_0042"
+  }
+}

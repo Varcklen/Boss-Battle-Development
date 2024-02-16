@@ -1,0 +1,11 @@
+{
+  "Id": 50332703,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Yoric_Skull_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A0YH'\r\nendfunction\r\n\r\nfunction Trig_Yoric_Skull_Actions takes nothing returns nothing\r\n    local group g = CreateGroup()\r\n    local unit u\r\n    local integer x\r\n    local unit caster\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        call textst( udg_string[0] + GetObjectName('A0YH'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n    endif\r\n    \r\n    set x = eyest( caster )\r\n    call spectimeunit( caster, \"Objects\\\\Spawnmodels\\\\Undead\\\\UndeadDissipate\\\\UndeadDissipate.mdx\", \"origin\", 5 )\r\n    call GroupEnumUnitsInRange( g, GetUnitX( caster ), GetUnitY( caster ), 600, null )\r\n    loop\r\n        set u = FirstOfGroup(g)\r\n        exitwhen u == null\r\n        if unitst( u, caster, \"ally\" ) and not( IsUnitType( u, UNIT_TYPE_HERO) ) and not( IsUnitType( u, UNIT_TYPE_ANCIENT) ) and ( GetUnitAbilityLevel( u, 'Avul') == 0 ) then\r\n            call UnitAddAbility( u, 'A0YJ')\r\n            call GroupAddUnit( udg_YoricSkull, u )\r\n        endif\r\n        call GroupRemoveUnit(g,u)\r\n        set u = FirstOfGroup(g)\r\n    endloop\r\n \r\n    set u = null\r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Yoric_Skull takes nothing returns nothing\r\n    set gg_trg_Yoric_Skull = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Yoric_Skull, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Yoric_Skull, Condition( function Trig_Yoric_Skull_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Yoric_Skull, function Trig_Yoric_Skull_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

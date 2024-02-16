@@ -1,0 +1,11 @@
+{
+  "Id": 50332170,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_KickDelPlayer_Conditions takes nothing returns boolean\r\n    return GetTriggerPlayer() != Player(S2I(udg_Kick_String) - 1) and not( udg_logic[GetPlayerId(GetTriggerPlayer()) + 1 + 66] ) and udg_logic[61]\r\nendfunction\r\n\r\nfunction Trig_KickDelPlayer_Actions takes nothing returns nothing\r\n    local integer cyclA = 1\r\n    set udg_number[95] = udg_number[95] + 1\r\n    set udg_logic[GetPlayerId(GetTriggerPlayer()) + 1 + 66] = true\r\n    call DisplayTimedTextToForce( bj_FORCE_ALL_PLAYERS, 10., ( \"Player |cffffcc00\" + ( GetPlayerName(GetTriggerPlayer()) + \"|r confirmed the exception.\" ) ) )\r\n    if udg_number[95] >= ( udg_Heroes_Amount - 1 ) then\r\n        call DisableTrigger( GetTriggeringTrigger() )\r\n        call PauseTimer(udg_timer[0])\r\n        set udg_logic[61] = false\r\n        call DisplayTimedTextToForce( bj_FORCE_ALL_PLAYERS, 10., ( \"Player |cffffcc00\" + ( GetPlayerName(Player(S2I(udg_Kick_String) - 1)) + \"|r excluded from the game.\" ) ) )\r\n        call DesyncPlayer( S2I( udg_Kick_String )-1)\r\n        set cyclA = 1\r\n        loop\r\n            exitwhen cyclA > 4\r\n            set udg_logic[cyclA + 66] = false\r\n            set cyclA = cyclA + 1\r\n        endloop\r\n    endif\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_KickDelPlayer takes nothing returns nothing\r\n    local integer cyclA = 0\r\n    set gg_trg_KickDelPlayer = CreateTrigger(  )\r\n    call DisableTrigger( gg_trg_KickDelPlayer )\r\n    loop\r\n        exitwhen cyclA > 3\r\n        call TriggerRegisterPlayerChatEvent( gg_trg_KickDelPlayer, Player(cyclA), \"+\", true )\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    call TriggerAddCondition( gg_trg_KickDelPlayer, Condition( function Trig_KickDelPlayer_Conditions ) )\r\n    call TriggerAddAction( gg_trg_KickDelPlayer, function Trig_KickDelPlayer_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

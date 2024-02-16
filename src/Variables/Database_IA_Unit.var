@@ -1,0 +1,14 @@
+{
+  "Id": 100663645,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Database_IA_Unit",
+  "Type": "unitcode",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

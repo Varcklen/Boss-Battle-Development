@@ -1,0 +1,11 @@
+{
+  "Id": 50333296,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_MentorQEffect_Conditions takes nothing returns boolean\r\n    return GetUnitAbilityLevel(udg_DamageEventTarget, 'B036') > 0\r\nendfunction\r\n\r\nfunction Trig_MentorQEffect_Actions takes nothing returns nothing\r\n    local unit caster = LoadUnitHandle( udg_hash, GetHandleId( LoadTimerHandle( udg_hash, GetHandleId( udg_DamageEventTarget ), StringHash( \"menq\" ) ) ), StringHash( \"menqc\" ) )\r\n    local real r = LoadReal( udg_hash, GetHandleId( LoadTimerHandle( udg_hash, GetHandleId( udg_DamageEventTarget ), StringHash( \"menq\" ) ) ), StringHash( \"menq1\" ) )\r\n    local real d = LoadReal( udg_hash, GetHandleId(LoadTimerHandle( udg_hash, GetHandleId( udg_DamageEventTarget ), StringHash( \"menq\" ) ) ), StringHash( \"menq2\" ) )\r\n    local real f\r\n    \r\n    set udg_DamageEventAmount = udg_DamageEventAmount - ( udg_DamageEventAmount * r )\r\n    call DestroyEffect( AddSpecialEffectTarget( \"Abilities\\\\Spells\\\\Items\\\\OrbVenom\\\\OrbVenomSpecialArt.mdl\", udg_DamageEventTarget, \"chest\" ) )\r\n    if udg_DamageEventTarget != caster and GetUnitState( caster, UNIT_STATE_LIFE) > 0.405 then\r\n        set f = udg_DamageEventAmount * d\r\n        set udg_DamageEventAmount = udg_DamageEventAmount - f\r\n        call SetUnitState( caster, UNIT_STATE_LIFE, RMaxBJ(0,GetUnitState( caster, UNIT_STATE_LIFE) - f ) )\r\n        call DestroyEffect( AddSpecialEffectTarget( \"Abilities\\\\Spells\\\\Items\\\\OrbVenom\\\\OrbVenomSpecialArt.mdl\", caster, \"chest\" ) )\r\n    endif\r\n    \r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_MentorQEffect takes nothing returns nothing\r\n    set gg_trg_MentorQEffect = CreateTrigger(  )\r\n    call TriggerRegisterVariableEvent( gg_trg_MentorQEffect, \"udg_DamageModifierEvent\", EQUAL, 1.00 )\r\n    call TriggerAddCondition( gg_trg_MentorQEffect, Condition( function Trig_MentorQEffect_Conditions ) )\r\n    call TriggerAddAction( gg_trg_MentorQEffect, function Trig_MentorQEffect_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

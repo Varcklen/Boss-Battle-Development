@@ -1,0 +1,15 @@
+{
+  "Id": 136595282,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "UNIT_DUMMY_OGRE_1",
+  "Type": "unit",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "h009_0032"
+  }
+}

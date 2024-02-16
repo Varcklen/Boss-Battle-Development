@@ -1,0 +1,11 @@
+{
+  "Id": 50332397,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Bloody_Figurine_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A14D'\r\nendfunction\r\n\r\nfunction Trig_Bloody_Figurine_Actions takes nothing returns nothing\r\n    local integer cyclA\r\n    local integer cyclAEnd\r\n    local unit caster\r\n    local unit target\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n        set target = udg_Target\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        set target = randomtarget( caster, 900, \"ally\", \"pris\", \"\", \"\", \"\" )\r\n        call textst( udg_string[0] + GetObjectName('A0WG'), caster, 64, 90, 10, 1.5 )\r\n        if target == null then\r\n            set caster = null\r\n            return\r\n        endif\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n        set target = GetSpellTargetUnit()\r\n    endif\r\n    \r\n    set cyclAEnd = eyest( caster )\r\n    call DestroyEffect( AddSpecialEffect( \"Blood Whirl.mdx\", GetUnitX( target ), GetUnitY( target ) ) )\r\n\tcall KillUnit(target)\r\n    set cyclA = 1\r\n    loop\r\n        exitwhen cyclA > cyclAEnd\r\n        if combat( caster, false, 0 ) and not(udg_fightmod[3] ) then\r\n            call RandomStat( caster, 1, 120, true )\r\n        endif\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    \r\n    set target = null\r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Bloody_Figurine takes nothing returns nothing\r\n    set gg_trg_Bloody_Figurine = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Bloody_Figurine, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Bloody_Figurine, Condition( function Trig_Bloody_Figurine_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Bloody_Figurine, function Trig_Bloody_Figurine_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

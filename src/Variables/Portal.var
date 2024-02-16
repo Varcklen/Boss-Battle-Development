@@ -1,0 +1,14 @@
+{
+  "Id": 100663447,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Portal",
+  "Type": "unit",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

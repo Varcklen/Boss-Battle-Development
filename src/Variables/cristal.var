@@ -1,0 +1,14 @@
+{
+  "Id": 100663593,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "cristal",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Id": 100663439,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_Basic_HeroIcon",
+  "Type": "string",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

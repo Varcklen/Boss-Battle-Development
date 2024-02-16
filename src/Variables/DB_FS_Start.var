@@ -1,0 +1,14 @@
+{
+  "Id": 100663486,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_FS_Start",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

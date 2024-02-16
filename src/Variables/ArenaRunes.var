@@ -1,0 +1,14 @@
+{
+  "Id": 100663342,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "ArenaRunes",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

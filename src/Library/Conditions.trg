@@ -1,0 +1,11 @@
+{
+  "Id": 50332063,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "library Conditions\r\n\r\n    function IsPotionItemIsUsed takes nothing returns boolean\r\n        if GetSpellAbilityId() == 'A0QT' then \r\n            return true\r\n        elseif GetSpellAbilityId() == 'A0JH' then\r\n            return true\r\n        elseif GetSpellAbilityId() == 'A0K3' then\r\n            return true\r\n        elseif GetSpellAbilityId() == 'A13W' then\r\n            return true\r\n        elseif GetSpellAbilityId() == 'A0GJ' then\r\n            return true\r\n        elseif GetSpellAbilityId() == 'A0IY' then\r\n            return true\r\n        elseif GetSpellAbilityId() == 'A0QS' then\r\n            return true\r\n        elseif GetSpellAbilityId() == 'A0RN' then\r\n            return true\r\n        elseif GetSpellAbilityId() == 'A04E' then\r\n            return true\r\n        elseif GetSpellAbilityId() == 'A0KF' then\r\n            return true\r\n        elseif GetSpellAbilityId() == 'A0IB' then\r\n            return true\r\n        elseif GetSpellAbilityId() == 'A14W' then\r\n            return true\r\n        elseif GetSpellAbilityId() == 'A165' then\r\n            return true\r\n        elseif GetSpellAbilityId() == 'A166' then\r\n            return true\r\n        elseif GetSpellAbilityId() == 'A169' then\r\n            return true\r\n        elseif GetSpellAbilityId() == 'A168' then\r\n            return true\r\n        elseif GetSpellAbilityId() == 'A167' then\r\n            return true\r\n        endif\r\n        return false\r\n    endfunction\r\n\r\n    function IsUnitHasAbility takes unit caster, integer myBuff returns boolean\r\n        local boolean isWork = GetUnitAbilityLevel( caster, myBuff) > 0\r\n        set caster = null\r\n        return isWork\r\n    endfunction\r\n    \r\n    function GetHeroNumber takes integer heroId returns integer\r\n        local integer i = 1\r\n        loop\r\n            exitwhen i > udg_Database_InfoNumberHeroes\r\n            if udg_Database_Hero[i] == heroId then\r\n                return i\r\n            endif\r\n            set i = i + 1\r\n        endloop\r\n        return 0\r\n    endfunction\r\n\r\nendlibrary",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

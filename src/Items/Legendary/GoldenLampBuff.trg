@@ -1,0 +1,11 @@
+{
+  "Id": 50332719,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "scope GoldenLamp initializer Triggs\r\n\r\n    private function GoldenLamp_Conditions takes nothing returns boolean\r\n        return inv(GetSpellAbilityUnit(), 'I01J') > 0 and combat( GetSpellAbilityUnit(), false, 0 ) and GetSpellAbilityId() != 'A0VB' and not( udg_fightmod[3] )\r\n    endfunction\r\n\r\n    private function GoldenLamp_Actions takes nothing returns nothing\r\n        local integer id = GetHandleId( GetSpellAbilityUnit() )\r\n        local integer s = LoadInteger( udg_hash, id, StringHash( \"gldl\" ) ) \r\n        \r\n        if s <= 10000 then\r\n            set s = s + 10\r\n            call SaveInteger( udg_hash, id, StringHash( \"gldl\" ), s )\r\n            call ChangeToolItem( GetSpellAbilityUnit(), 'I01J', \"|cffbe81f7\", \"|r\", I2S(s) )\r\n        endif\r\n    endfunction\r\n    \r\n    private function AddItem_Conditions takes nothing returns boolean\r\n        return GetItemTypeId(GetManipulatedItem()) == 'I01J'\r\n    endfunction\r\n    \r\n    private function AddItem takes nothing returns nothing\r\n        local integer id = GetHandleId( GetManipulatingUnit() )\r\n        local integer s = LoadInteger( udg_hash, id, StringHash( \"gldl\" ) )\r\n        \r\n        call BlzSetItemExtendedTooltip( GetManipulatedItem(), words( GetManipulatingUnit(), BlzGetItemExtendedTooltip(GetManipulatedItem()), \"|cffbe81f7\", \"|r\", I2S(s) ) )\r\n    endfunction\r\n\r\n    private function Triggs takes nothing returns nothing\r\n        local trigger trig = CreateTrigger()\r\n        call TriggerRegisterAnyUnitEventBJ( trig, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n        call TriggerAddCondition( trig, Condition( function GoldenLamp_Conditions ) )\r\n        call TriggerAddAction( trig, function GoldenLamp_Actions )\r\n        \r\n        set trig = CreateTrigger()\r\n        call TriggerRegisterAnyUnitEventBJ( trig, EVENT_PLAYER_UNIT_PICKUP_ITEM )\r\n        call TriggerAddCondition( trig, Condition( function AddItem_Conditions ) )\r\n        call TriggerAddAction( trig, function AddItem )\r\n        \r\n        set trig = null\r\n    endfunction\r\n\r\nendscope\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

@@ -1,0 +1,14 @@
+{
+  "Id": 100663568,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DB_BadMod",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

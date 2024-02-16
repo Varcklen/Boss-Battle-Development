@@ -1,0 +1,11 @@
+{
+  "Id": 50332633,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Midas_Ring_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A0UG' and GetItemTypeId(GetSpellTargetItem()) != 'I0EE' and GetItemType(GetSpellTargetItem()) != ITEM_TYPE_POWERUP and GetItemType(GetSpellTargetItem()) != ITEM_TYPE_PURCHASABLE and GetItemType(GetSpellTargetItem()) != ITEM_TYPE_MISCELLANEOUS\r\nendfunction\r\n\r\nfunction Trig_Midas_Ring_Actions takes nothing returns nothing\r\n    local unit u = GetSpellAbilityUnit()\r\n    local item it = GetSpellTargetItem()\r\n    local integer h = eyest( u )\r\n    local integer cyclA = 0\r\n\r\n    loop\r\n        exitwhen cyclA > 5\r\n        if it == UnitItemInSlot( u, cyclA ) then\r\n            call AddSpecialEffectTarget( \"Abilities\\\\Spells\\\\Other\\\\Doom\\\\DoomDeath.mdl\", u, \"origin\")\r\n            if GetItemType(it) == ITEM_TYPE_ARTIFACT then\r\n                call moneyst( u, 90 )\r\n            elseif GetItemType(it) == ITEM_TYPE_CAMPAIGN then\r\n                call moneyst( u, 60 )\r\n            elseif GetItemType(it) == ITEM_TYPE_PERMANENT then\r\n                call moneyst( u, 30 )\r\n            endif\r\n            call RemoveItem( it )\r\n            set cyclA = 5\r\n        endif\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    \r\n    set u = null\r\n    set it = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Midas_Ring takes nothing returns nothing\r\n    set gg_trg_Midas_Ring = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Midas_Ring, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Midas_Ring, Condition( function Trig_Midas_Ring_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Midas_Ring, function Trig_Midas_Ring_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

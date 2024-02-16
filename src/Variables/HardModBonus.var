@@ -1,0 +1,14 @@
+{
+  "Id": 100663592,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "HardModBonus",
+  "Type": "abilcode",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

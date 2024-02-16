@@ -1,0 +1,14 @@
+{
+  "Id": 100663651,
+  "ArraySize": [
+    12,
+    1
+  ],
+  "Name": "panel",
+  "Type": "leaderboard",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

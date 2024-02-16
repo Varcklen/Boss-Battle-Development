@@ -1,0 +1,14 @@
+{
+  "Id": 100663654,
+  "ArraySize": [
+    4,
+    1
+  ],
+  "Name": "timer",
+  "Type": "timer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

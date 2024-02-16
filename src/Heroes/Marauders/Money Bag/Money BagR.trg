@@ -1,0 +1,11 @@
+{
+  "Id": 50333157,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "globals\r\n    constant integer MONEY_BAG_R_MONEY_MULTIPLIER = 7\r\nendglobals\r\n\r\nfunction Trig_Money_BagR_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A17Y' and combat( GetSpellAbilityUnit(), true, GetSpellAbilityId() ) and not( udg_fightmod[3] )\r\nendfunction\r\n\r\nfunction Trig_Money_BagR_Actions takes nothing returns nothing\r\n    local integer lvl\r\n    local unit caster\r\n    local unit u\r\n    local integer money\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n        set lvl = udg_Level\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        set lvl = udg_Level\r\n        call textst( udg_string[0] + GetObjectName('A17Y'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n        set lvl = GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())\r\n    endif\r\n    \r\n    set money = 12 + (lvl*12)\r\n    call DestroyEffect( AddSpecialEffectTarget(\"Abilities\\\\Spells\\\\Other\\\\Stampede\\\\StampedeMissileDeath.mdl\", caster, \"chest\") )\r\n    set u = LoadUnitHandle( udg_hash, GetHandleId( caster ), StringHash( \"mbgqtt\" ) )\r\n    if GetUnitAbilityLevel(u, 'A17U') > 0 then\r\n        call healst( caster, null, GetUnitState( u, UNIT_STATE_LIFE) )\r\n        call manast( caster, null, GetUnitState( u, UNIT_STATE_MANA) )\r\n        call KillUnit(u)\r\n    \tset money = money * MONEY_BAG_R_MONEY_MULTIPLIER\r\n    endif\r\n    call moneyst(caster, money)\r\n    \r\n    set u = null\r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Money_BagR takes nothing returns nothing\r\n    set gg_trg_Money_BagR = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Money_BagR, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Money_BagR, Condition( function Trig_Money_BagR_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Money_BagR, function Trig_Money_BagR_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

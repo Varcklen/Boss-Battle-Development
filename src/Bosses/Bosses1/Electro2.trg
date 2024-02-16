@@ -1,0 +1,11 @@
+{
+  "Id": 50333419,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Electro2_Conditions takes nothing returns boolean\r\n    return GetUnitTypeId( udg_DamageEventTarget ) == 'n00Z' and GetUnitLifePercent( udg_DamageEventTarget ) <= 50\r\nendfunction\r\n\r\nfunction Trig_Electro2_Actions takes nothing returns nothing\r\n    local integer id\r\n    local integer cyclA = 1\r\n    local real x\r\n    local real y\r\n\r\n    call DisableTrigger( GetTriggeringTrigger() )\r\n    \r\n    loop\r\n        exitwhen cyclA > 8\r\n        set x = GetUnitX(udg_DamageEventTarget) + 400 * Cos(45. * cyclA * bj_DEGTORAD)\r\n        set y = GetUnitY(udg_DamageEventTarget) + 400 * Sin(45. * cyclA * bj_DEGTORAD)\r\n        set bj_lastCreatedUnit = CreateUnit( GetOwningPlayer( udg_DamageEventTarget ), 'u000', x, y, 270 )\r\n        call UnitAddAbility( bj_lastCreatedUnit, 'A072')\r\n        call UnitApplyTimedLife( bj_lastCreatedUnit, 'BTLF', 20)\r\n        call DestroyEffect( AddSpecialEffectTarget( \"Abilities\\\\Spells\\\\Other\\\\Monsoon\\\\MonsoonBoltTarget.mdl\", bj_lastCreatedUnit, \"origin\") )\r\n        set id = GetHandleId( bj_lastCreatedUnit )\r\n        \r\n        call SaveTimerHandle( udg_hash, id, StringHash( \"bsel2\" ), CreateTimer() )\r\n        set id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( \"bsel2\" ) ) ) \r\n        call SaveUnitHandle( udg_hash, id, StringHash( \"bsel2\" ), bj_lastCreatedUnit )\r\n        call TimerStart( LoadTimerHandle( udg_hash, GetHandleId( bj_lastCreatedUnit ), StringHash( \"bsel2\" ) ), 1, true, function Electro1Cast ) \r\n        set cyclA = cyclA + 1\r\n    endloop\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Electro2 takes nothing returns nothing\r\n    set gg_trg_Electro2 = CreateTrigger(  )\r\n    call DisableTrigger( gg_trg_Electro2 )\r\n    call TriggerRegisterVariableEvent( gg_trg_Electro2, \"udg_AfterDamageEvent\", EQUAL, 1.00 )\r\n    call TriggerAddCondition( gg_trg_Electro2, Condition( function Trig_Electro2_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Electro2, function Trig_Electro2_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

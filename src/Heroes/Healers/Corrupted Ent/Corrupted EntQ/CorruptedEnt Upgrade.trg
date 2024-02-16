@@ -1,0 +1,11 @@
+{
+  "Id": 50333327,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_CorruptedEnt_Upgrade_Conditions takes nothing returns boolean\r\n    return GetLearnedSkill() == 'A0OE'\r\nendfunction\r\n\r\nfunction Trig_CorruptedEnt_Upgrade_Actions takes nothing returns nothing\r\n    if GetUnitAbilityLevel( GetLearningUnit(), 'A0OE') == 1 then\r\n        call SaveInteger( udg_hash, GetHandleId( GetLearningUnit() ), StringHash( \"entqch\" ), CorruptedEntQ_CHARGE_LIMIT )\r\n\tendif\r\n    if GetLocalPlayer() == GetOwningPlayer( GetLearningUnit() ) then\r\n        call BlzFrameSetVisible( entQBackdrop, true )\r\n        call BlzFrameSetText( entQText, I2S(LoadInteger( udg_hash, GetHandleId( GetLearningUnit() ), StringHash( \"entqch\" ) )) )\r\n    endif\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_CorruptedEnt_Upgrade takes nothing returns nothing\r\n    set gg_trg_CorruptedEnt_Upgrade = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_CorruptedEnt_Upgrade, EVENT_PLAYER_HERO_SKILL )\r\n    call TriggerAddCondition( gg_trg_CorruptedEnt_Upgrade, Condition( function Trig_CorruptedEnt_Upgrade_Conditions ) )\r\n    call TriggerAddAction( gg_trg_CorruptedEnt_Upgrade, function Trig_CorruptedEnt_Upgrade_Actions )\r\nendfunction\r\n\r\nscope CorruptedEntUpgrade initializer Triggs\r\n    private function Conditions takes nothing returns boolean\r\n        return GetUnitAbilityLevel( udg_Event_NullingAbility_Unit, 'A0OE') > 0\r\n    endfunction\r\n\r\n    private function Use takes nothing returns nothing\r\n        if GetLocalPlayer() == GetOwningPlayer( udg_Event_NullingAbility_Unit ) then\r\n            call BlzFrameSetVisible( entQBackdrop, false )\r\n        endif\r\n    endfunction\r\n\r\n    private function Triggs takes nothing returns nothing\r\n        local trigger trig = CreateTrigger()\r\n        call TriggerRegisterVariableEvent( trig, \"udg_Event_NullingAbility_Real\", EQUAL, 1.00 )\r\n        call TriggerAddCondition( trig, Condition( function Conditions ) )\r\n        call TriggerAddAction( trig, function Use)\r\n        \r\n        set trig = null\r\n    endfunction\r\nendscope\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

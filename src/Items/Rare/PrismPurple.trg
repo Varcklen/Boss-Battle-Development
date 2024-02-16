@@ -1,0 +1,11 @@
+{
+  "Id": 50332650,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_PrismPurple_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A0IX'\r\nendfunction\r\n\r\nfunction Trig_PrismPurple_Actions takes nothing returns nothing\r\n    local group g = CreateGroup()\r\n    local unit u\r\n    local integer cyclA = 1\r\n    local integer cyclAEnd \r\n    local unit caster\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        call textst( udg_string[0] + GetObjectName('A0IX'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n    endif\r\n    \r\n    set cyclAEnd =  eyest( caster )\r\n    \r\n    call dummyspawn( caster, 1, 0, 0, 0 )\r\n    call DestroyEffect( AddSpecialEffect( \"war3mapImported\\\\ArcaneExplosion.mdx\", GetUnitX(caster), GetUnitY(caster) ) )\r\n    loop\r\n        exitwhen cyclA > cyclAEnd\r\n        call GroupEnumUnitsInRange( g, GetUnitX( caster ), GetUnitY( caster ), 450, null )\r\n        loop\r\n            set u = FirstOfGroup(g)\r\n            exitwhen u == null\r\n            if unitst( u, caster, \"enemy\" ) then\r\n                call UnitDamageTarget( bj_lastCreatedUnit, u, 250, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)\r\n            endif\r\n            call GroupRemoveUnit(g,u)\r\n            set u = FirstOfGroup(g)\r\n        endloop\r\n        set cyclA = cyclA + 1\r\n    endloop\r\n    \r\n    call GroupClear( g )\r\n    call DestroyGroup( g )\r\n    set u = null\r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_PrismPurple takes nothing returns nothing\r\n    set gg_trg_PrismPurple = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_PrismPurple, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_PrismPurple, Condition( function Trig_PrismPurple_Conditions ) )\r\n    call TriggerAddAction( gg_trg_PrismPurple, function Trig_PrismPurple_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

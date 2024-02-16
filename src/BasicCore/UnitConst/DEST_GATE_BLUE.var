@@ -1,0 +1,15 @@
+{
+  "Id": 1642133400,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DEST_GATE_BLUE",
+  "Type": "destructable",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "LTg1_0394"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Id": 100663319,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "BossChange",
+  "Type": "boolean",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

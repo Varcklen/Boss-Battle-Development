@@ -1,0 +1,14 @@
+{
+  "Id": 100663627,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "IsDamageSpell",
+  "Type": "boolean",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

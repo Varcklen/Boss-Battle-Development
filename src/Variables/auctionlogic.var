@@ -1,0 +1,14 @@
+{
+  "Id": 100663663,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "auctionlogic",
+  "Type": "boolean",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Id": 50332501,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_Pinata_Conditions takes nothing returns boolean\r\n    return GetSpellAbilityId() == 'A0A3' and combat( GetSpellAbilityUnit(), true, GetSpellAbilityId() ) and not( udg_fightmod[3] )\r\nendfunction\r\n\r\nfunction Trig_Pinata_Actions takes nothing returns nothing\r\n    local group g = CreateGroup()\r\n    local unit u\r\n    local integer cyclA = 1\r\n    local integer cyclAEnd = eyest( GetSpellAbilityUnit() )\r\n    local integer cyclB\r\n    local real r\r\n    local unit caster\r\n    local real x\r\n    local real y\r\n    \r\n    if CastLogic() then\r\n        set caster = udg_Caster\r\n        set x = GetLocationX( GetSpellTargetLoc() )\r\n        set y = GetLocationY( GetSpellTargetLoc() )\r\n    elseif RandomLogic() then\r\n        set caster = udg_Caster\r\n        set x = GetUnitX( caster ) + GetRandomReal( -650, 650 )\r\n        set y = GetUnitY( caster ) + GetRandomReal( -650, 650 )\r\n        call textst( udg_string[0] + GetObjectName('A0A3'), caster, 64, 90, 10, 1.5 )\r\n    else\r\n        set caster = GetSpellAbilityUnit()\r\n        set x = GetLocationX( GetSpellTargetLoc() )\r\n        set y = GetLocationY( GetSpellTargetLoc() )\r\n    endif\r\n    call stazisst( caster, GetItemOfTypeFromUnitBJ( caster, 'I05X') )\r\n\r\n    set bj_lastCreatedUnit = CreateUnit( Player(PLAYER_NEUTRAL_AGGRESSIVE), 'h01Z', x, y,  0 )\r\n    call DestroyEffect( AddSpecialEffect( \"Abilities\\\\Spells\\\\Orc\\\\MirrorImage\\\\MirrorImageDeathCaster.mdl\", GetUnitX( bj_lastCreatedUnit ), GetUnitY( bj_lastCreatedUnit ) ) )\r\n\r\n    set caster = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_Pinata takes nothing returns nothing\r\n    set gg_trg_Pinata = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_Pinata, EVENT_PLAYER_UNIT_SPELL_EFFECT )\r\n    call TriggerAddCondition( gg_trg_Pinata, Condition( function Trig_Pinata_Conditions ) )\r\n    call TriggerAddAction( gg_trg_Pinata, function Trig_Pinata_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}
