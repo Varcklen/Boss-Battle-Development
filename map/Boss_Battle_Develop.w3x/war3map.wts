@@ -4804,6 +4804,14 @@ STRING 776
 Temporal Clock
 }
 
+STRING 777
+// Abilities: A0MW (Unique: Feeding), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Restores |cffbe81f750%|r health to an allied minion and increases its attack by 5.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 778
 // Items: I0GI (Jagot), Name (Name)
 {
@@ -4814,6 +4822,14 @@ STRING 779
 // Items: I0GI (Jagot), Tip (Tooltip - Basic)
 {
 Jagot
+}
+
+STRING 780
+// Abilities: A084 (Unique: Feeding (+)), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Restores |cffbe81f7100%|r health to an allied minion and increases its attack by 10.
+|cffffcc00Cooldown:|r 7 seconds.
 }
 
 STRING 781
@@ -19053,6 +19069,15 @@ STRING 2844
 At the end of the battle increases attack power by 3.
 }
 
+STRING 2845
+// Abilities: A0GF (Unique: Curse), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Reduces enemy attack by |cffbe81f715%|r.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 2846
 // Items: I026 (Runestone Mos), Name (Name)
 {
@@ -19063,6 +19088,15 @@ STRING 2847
 // Items: I026 (Runestone Mos), Tip (Tooltip - Basic)
 {
 Runestone Mos
+}
+
+STRING 2848
+// Abilities: A0GD (Unique: Inspire), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Increases an ally's attack by |cffbe81f725%|r.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 2849
@@ -34962,7 +34996,7 @@ Soul Contract: Crystal
 }
 
 STRING 5238
-// Abilities: A0ZM (Soul Contract: Crystal), Tip (Tooltip - Normal)
+// Units: h01C (Crystal), Name (Name)
 {
 Crystal
 }
@@ -45729,11 +45763,9 @@ Feeding
 }
 
 STRING 6882
-// Abilities: A0MW (Unique: Feeding), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0GB (Unique: MurderousnessXXX), Name (Name)
 {
-|cff60C445Unique|r
-Heals an allied minion for |cffbe81f750%|r of its maximum health.
-|cffffcc00Cooldown:|r 20 seconds.
+Unique: MurderousnessXXX
 }
 
 STRING 6883
@@ -51197,18 +51229,6 @@ STRING 7704
 Moon priestess
 }
 
-STRING 7705
-// Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Attack:|r 75, |cffffcc00Health:|r 10000.
-- Each boss shell bounces to the nearest enemy (up to three times).
-- |cff00cceeAt 80% health:|r Every 7 seconds activates a random prism.
-- |cff00cceeAt 60% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall, dealing 50 damage every 1.5 seconds until all the moon priestesses die.
-- |cff00cceeAt 40% health:|r Increases the attack speed of the boss and moon priestesses by 30%.
-- |cff00cceeAt 30% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall.
-- |cff00cceeAt 20% health:|r Prisms are activated 2 times more often.
-}
-
 STRING 7706
 // Abilities: A0HC (|cffffcc00Уровень 3:|r Огромный арахнид), Name (Name)
 {
@@ -51759,12 +51779,9 @@ Curse
 }
 
 STRING 7793
-// Abilities: A0GF (Unique: Curse), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A03B (Unique: Murderousness (+)XXX), Name (Name)
 {
-|cff60C445Unique|r
-Reduces enemy attack power by 15%.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 12 seconds.
+Unique: Murderousness (+)XXX
 }
 
 STRING 7794
@@ -51810,16 +51827,13 @@ Inspire
 }
 
 STRING 7801
-// Abilities: A0GD (Unique: Inspire), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0GC (Unique: Mana Throw), Hotkey (Hotkey - Normal)
 {
-|cff60C445Unique|r
-Increases attack power of an ally by 25%.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 12 seconds.
+D
 }
 
 STRING 7802
-// Abilities: A0GC (Unique: Mana Throw), Hotkey (Hotkey - Normal)
+// Abilities: A0GC (Unique: Mana Throw), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -51831,7 +51845,7 @@ Unique: Mana Throw
 }
 
 STRING 7804
-// Abilities: A0GC (Unique: Mana Throw), Researchhotkey (Hotkey - Learn)
+// Abilities: A0CR (Unique: Play Note), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -51851,19 +51865,19 @@ Deals |cffbe81f7100|r damage to an enemy.
 }
 
 STRING 7807
-// Abilities: A0GB (Unique: Murderousness), Name (Name)
+// Abilities: A1EA (Unique: Murderousness), Name (Name)
 {
 Unique: Murderousness
 }
 
 STRING 7808
-// Abilities: A0GB (Unique: Murderousness), Tip (Tooltip - Normal)
+// Abilities: A0GB (Unique: MurderousnessXXX), Tip (Tooltip - Normal)
 {
 Murderousness
 }
 
 STRING 7809
-// Abilities: A0GB (Unique: Murderousness), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0GB (Unique: MurderousnessXXX), Ubertip (Tooltip - Normal - Extended)
 {
 |cff60C445Unique|r
 Gives a |cffd7df0120%|r chance of dealing 0.5% of the target’s max health as additional damage.
@@ -53969,19 +53983,19 @@ STRING 8135
 }
 
 STRING 8136
-// Abilities: A0E5 (Босс 6: Краб (Девятый вал)), Name (Name)
+// Abilities: A0ZM (Soul Contract: Crystal), Tip (Tooltip - Normal)
 {
-Босс 6: Краб (Девятый вал)
+Crystal
 }
 
 STRING 8137
-// Abilities: A0E5 (Босс 6: Краб (Девятый вал)), Tip (Tooltip - Normal)
+// Abilities: A0E5 (XXXБосс 6: Краб (Девятый вал)), Tip (Tooltip - Normal)
 {
 Девятый вал
 }
 
 STRING 8138
-// Abilities: A0E5 (Босс 6: Краб (Девятый вал)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0E5 (XXXБосс 6: Краб (Девятый вал)), Ubertip (Tooltip - Normal - Extended)
 {
 Темная стая
 }
@@ -55304,7 +55318,7 @@ STRING 8345
 }
 
 STRING 8346
-// Abilities: A0CR (Unique: Play Note), Hotkey (Hotkey - Normal)
+// Abilities: A0CR (Unique: Play Note), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -55316,7 +55330,7 @@ Unique: Play Note
 }
 
 STRING 8348
-// Abilities: A0CR (Unique: Play Note), Researchhotkey (Hotkey - Learn)
+// Abilities: A0AG (Unique: Small heal), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -57085,16 +57099,6 @@ STRING 8620
 Mechanic
 }
 
-STRING 8621
-// Abilities: A0AR (|cffffcc00Уровень 6:|r Механик), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Attack:|r 120, |cffffcc00Health:|r 10000.
-- Every 14 seconds, uses a random activated |cffb18904mech|r (mech power: 3 mechs).
-- |cff00cceeAt 75% health:|r Summons 4 robots, each of which deals |cffbe81f7300|r damage to nearby enemies upon death.
-- |cff00cceeAt 50% health:|r Starts using |cffb18904mechs|r 2 times more often. Every 5 seconds it launches a missile salvo at a random enemy, inflicting 300 damage and stunning for 2 seconds.
-- |cff00cceeAt 25% health:|r Summons 4 robots.
-}
-
 STRING 8622
 // Abilities: A0AQ (|cffffcc00Уровень 2:|r Белый медведь), Name (Name)
 {
@@ -57332,7 +57336,7 @@ STRING 8657
 }
 
 STRING 8658
-// Abilities: A0AG (Unique: Small heal), Hotkey (Hotkey - Normal)
+// Abilities: A088 (Unique: Provocation), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -59903,7 +59907,7 @@ STRING 9052
 }
 
 STRING 9053
-// Abilities: A088 (Unique: Provocation), Hotkey (Hotkey - Normal)
+// Abilities: A084 (Unique: Feeding (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -60033,7 +60037,7 @@ After 2 seconds, an explosion occurs, which deals |cffbe81f7500|r damage to all 
 }
 
 STRING 9073
-// Abilities: A084 (Unique: Feeding (+)), Hotkey (Hotkey - Normal)
+// Abilities: A084 (Unique: Feeding (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -60045,7 +60049,7 @@ Unique: Feeding (+)
 }
 
 STRING 9075
-// Abilities: A084 (Unique: Feeding (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A05Z (Unique: Inspire (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -60069,11 +60073,9 @@ Feeding
 }
 
 STRING 9079
-// Abilities: A084 (Unique: Feeding (+)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A036 (Unique: Provocation (+)), Hotkey (Hotkey - Normal)
 {
-|cff60C445Unique|r
-Heals an allied minion for |cffbe81f7100%|r of its maximum health.
-|cffffcc00Cooldown:|r 10 seconds.
+D
 }
 
 STRING 9080
@@ -61850,16 +61852,15 @@ Crab
 }
 
 STRING 9345
-// Abilities: A06H (|cffffcc00Уровень 6:|r Краб), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Ubertip (Tooltip - Normal - Extended)
 {
-|cffffcc00Attack:|r 200, |cffffcc00Health:|r 10000.
-- When attacking, stuns the target for 1 second.
-- Takes 20% less damage from magic.
-- Has +20 armor.
-- Every 8 seconds creates a line that will explode after 3 seconds, stunning all creatures in this line for 3 seconds, reducing their armor by 30 for 10 seconds and dealing |cffbe81f5500|r damage.
-- |cff00cceeAt 90% health:|r Increases attack speed by 25%. Every 7 seconds it launches 5 waves, dealing |cffbe81f1500|r damage.
-- |cff00cceeAt 65% health:|r Additionally increases attack speed by 25%. Lines are created more and more often.
-- |cff00cceeAt 40% health:|r Additionally increases attack speed by 25%. Lines are created more and more often.
+|cffffcc00Attack:|r 75, |cffffcc00Health:|r 10000.
+- Each boss projectile bounces to the nearest enemy (up to three times).
+- Summons a crystal every 8 seconds. After 5 seconds, the crystal is destroyed and releases the power of the Moon Priestess.
+- |cff00cceeAt 60% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall, dealing 50 damage every 1.5 seconds until all the moon priestesses die.
+- |cff00cceeAt 40% health:|r Increases the attack speed of the boss and moon priestesses by 30%.
+- |cff00cceeAt 30% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall.
+- |cff00cceeAt 20% health:|r Summons 4 crystals.
 }
 
 STRING 9346
@@ -62202,7 +62203,7 @@ Artifact: Tarot Card: Doppelganger
 }
 
 STRING 9395
-// Abilities: A05Z (Unique: Inspire (+)), Hotkey (Hotkey - Normal)
+// Abilities: A035 (Unique: Curse (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -62238,12 +62239,9 @@ Inspire
 }
 
 STRING 9401
-// Abilities: A05Z (Unique: Inspire (+)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A01U (Unique: Burning gaze (+)), Researchtip (Tooltip - Learn)
 {
-|cff60C445Unique|r
-Increases attack power of an ally by 50%.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 6 seconds.
+Ошеломление, [|cffffcc00Уровень %d|r] (|cffffcc00Q|r)
 }
 
 STRING 9402
@@ -62907,19 +62905,19 @@ When the hero kills an enemy with an attack, heals |cffbe81f710%|r of maximum he
 }
 
 STRING 9504
-// Abilities: A05L (Unique: Sweeping blow), Name (Name)
+// Abilities: A1ED (Unique: Sweeping blow), Name (Name)
 {
 Unique: Sweeping blow
 }
 
 STRING 9505
-// Abilities: A05L (Unique: Sweeping blow), Tip (Tooltip - Normal)
+// Abilities: A05L (Unique: Sweeping blowXXX), Tip (Tooltip - Normal)
 {
 Sweeping blow
 }
 
 STRING 9506
-// Abilities: A05L (Unique: Sweeping blow), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A05L (Unique: Sweeping blowXXX), Ubertip (Tooltip - Normal - Extended)
 {
 |cff60C445Unique|r
 The hero's melee attacks also damage nearby foes. The damage is equal to 40% of the attack power.
@@ -65157,20 +65155,14 @@ STRING 9847
 Лик смерти
 }
 
-STRING 9848
-// Abilities: A03L (Босс 6: Краб (Сильный удар)), Name (Name)
-{
-Босс 6: Краб (Сильный удар)
-}
-
 STRING 9849
-// Abilities: A03L (Босс 6: Краб (Сильный удар)), Tip (Tooltip - Normal)
+// Abilities: A03L (XXXБосс 6: Краб (Сильный удар)), Tip (Tooltip - Normal)
 {
 Сильный удар
 }
 
 STRING 9850
-// Abilities: A03L (Босс 6: Краб (Сильный удар)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A03L (XXXБосс 6: Краб (Сильный удар)), Ubertip (Tooltip - Normal - Extended)
 {
 Сильный удар
 }
@@ -65591,19 +65583,19 @@ Increases attack power of allied minions by 50%.
 }
 
 STRING 9913
-// Abilities: A03B (Unique: Murderousness (+)), Name (Name)
+// Abilities: A1EB (Unique: Murderousness (+)), Name (Name)
 {
 Unique: Murderousness (+)
 }
 
 STRING 9914
-// Abilities: A03B (Unique: Murderousness (+)), Tip (Tooltip - Normal)
+// Abilities: A03B (Unique: Murderousness (+)XXX), Tip (Tooltip - Normal)
 {
 Murderousness
 }
 
 STRING 9915
-// Abilities: A03B (Unique: Murderousness (+)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A03B (Unique: Murderousness (+)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 |cff60C445Unique|r
 Gives a |cffd7df0140%|r chance of dealing 1% of the target’s max health as additional damage.
@@ -65628,26 +65620,26 @@ STRING 9918
 }
 
 STRING 9919
-// Abilities: A037 (Unique: Sweeping blow (+)), Name (Name)
+// Abilities: A1EE (Unique: Sweeping blow (+)), Name (Name)
 {
 Unique: Sweeping blow (+)
 }
 
 STRING 9920
-// Abilities: A037 (Unique: Sweeping blow (+)), Tip (Tooltip - Normal)
+// Abilities: A037 (Unique: Sweeping blow (+)XXX), Tip (Tooltip - Normal)
 {
 Sweeping blow
 }
 
 STRING 9921
-// Abilities: A037 (Unique: Sweeping blow (+)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A037 (Unique: Sweeping blow (+)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 |cff60C445Unique|r
 The hero's melee attacks also damage nearby foes. The damage is equal to 80% of the attack power.
 }
 
 STRING 9922
-// Abilities: A036 (Unique: Provocation (+)), Hotkey (Hotkey - Normal)
+// Abilities: A02W (Unique: Small heal (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -65673,7 +65665,7 @@ Provokes an enemy to attack the hero. Less effective against bosses. Does not af
 }
 
 STRING 9926
-// Abilities: A035 (Unique: Curse (+)), Hotkey (Hotkey - Normal)
+// Abilities: A02V (Unique: Mana Throw (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -65691,12 +65683,9 @@ Curse
 }
 
 STRING 9929
-// Abilities: A035 (Unique: Curse (+)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A01U (Unique: Burning gaze (+)), Researchubertip (Tooltip - Learn - Extended)
 {
-|cff60C445Unique|r
-Reduces enemy attack power by 30%.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 6 seconds.
+Наносит противнику 50/85/120/155/190 ед. урона. Следующие атаки героя в течении 8 секунд оглушают цель на 0,75 секунды. Перезарядка - 16/15/14/13/12 секунд. Стоимость - 30 маны.
 }
 
 STRING 9930
@@ -65845,7 +65834,7 @@ STRING 9951
 }
 
 STRING 9952
-// Abilities: A02W (Unique: Small heal (+)), Hotkey (Hotkey - Normal)
+// Abilities: A02L (Destruction), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -65871,7 +65860,7 @@ Restores |cffbe81f7200|r health to an ally.
 }
 
 STRING 9956
-// Abilities: A02V (Unique: Mana Throw (+)), Hotkey (Hotkey - Normal)
+// Abilities: A01U (Unique: Burning gaze (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -66160,7 +66149,7 @@ Destruction
 }
 
 STRING 9998
-// Abilities: A02L (Destruction), Researchhotkey (Hotkey - Learn)
+// Abilities: A01U (Unique: Burning gaze (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -66857,7 +66846,7 @@ STRING 10104
 }
 
 STRING 10105
-// Abilities: A01U (Unique: Burning gaze (+)), Hotkey (Hotkey - Normal)
+// Abilities: A00N (Unique: Burning gaze), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -66869,19 +66858,19 @@ Unique: Burning gaze (+)
 }
 
 STRING 10107
-// Abilities: A01U (Unique: Burning gaze (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A00N (Unique: Burning gaze), Researchhotkey (Hotkey - Learn)
 {
 D
 }
 
 STRING 10108
-// Abilities: A01U (Unique: Burning gaze (+)), Researchtip (Tooltip - Learn)
+// Abilities: A00N (Unique: Burning gaze), Researchtip (Tooltip - Learn)
 {
 Ошеломление, [|cffffcc00Уровень %d|r] (|cffffcc00Q|r)
 }
 
 STRING 10109
-// Abilities: A01U (Unique: Burning gaze (+)), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A00N (Unique: Burning gaze), Researchubertip (Tooltip - Learn - Extended)
 {
 Наносит противнику 50/85/120/155/190 ед. урона. Следующие атаки героя в течении 8 секунд оглушают цель на 0,75 секунды. Перезарядка - 16/15/14/13/12 секунд. Стоимость - 30 маны.
 }
@@ -68069,7 +68058,7 @@ HP (Random bonus)
 }
 
 STRING 10294
-// Abilities: A00N (Unique: Burning gaze), Hotkey (Hotkey - Normal)
+// Abilities: A1EA (Unique: Murderousness), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -68081,19 +68070,19 @@ Unique: Burning gaze
 }
 
 STRING 10296
-// Abilities: A00N (Unique: Burning gaze), Researchhotkey (Hotkey - Learn)
+// Abilities: A1EA (Unique: Murderousness), Researchhotkey (Hotkey - Learn)
 {
 D
 }
 
 STRING 10297
-// Abilities: A00N (Unique: Burning gaze), Researchtip (Tooltip - Learn)
+// Abilities: A1EA (Unique: Murderousness), Researchtip (Tooltip - Learn)
 {
 Ошеломление, [|cffffcc00Уровень %d|r] (|cffffcc00Q|r)
 }
 
 STRING 10298
-// Abilities: A00N (Unique: Burning gaze), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A1EA (Unique: Murderousness), Researchubertip (Tooltip - Learn - Extended)
 {
 Наносит противнику 50/85/120/155/190 ед. урона. Следующие атаки героя в течении 8 секунд оглушают цель на 0,75 секунды. Перезарядка - 16/15/14/13/12 секунд. Стоимость - 30 маны.
 }
@@ -74648,6 +74637,30 @@ STRING 11374
 Runesmith: Traveler's Strike
 }
 
+STRING 11375
+// Abilities: A05Z (Unique: Inspire (+)), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Increases an ally's attack by |cffbe81f750%|r.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 6 seconds.
+}
+
+STRING 11376
+// Abilities: A035 (Unique: Curse (+)), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Reduces enemy attack by |cffbe81f730%|r.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 6 seconds.
+}
+
+STRING 11379
+// Abilities: A1EB (Unique: Murderousness (+)), Hotkey (Hotkey - Normal)
+{
+D
+}
+
 STRING 11380
 // Abilities: A1DW (Runsesmith: Carve Rune), Name (Name)
 {
@@ -74787,6 +74800,12 @@ The Runesmith takes root allowing his spirit move around the battlefield. His bo
 |cffffcc00Cooldown:|r 40 seconds.
 }
 
+STRING 11401
+// Abilities: A1EB (Unique: Murderousness (+)), Researchhotkey (Hotkey - Learn)
+{
+D
+}
+
 STRING 11402
 {
 |c00ffcc001.5.1x:|r (Sadtwig)
@@ -74891,6 +74910,12 @@ Every 15 seconds, creates a random arena rune. With the probability of |cffd7df0
 |cff81f260[Random bonus]|r
 }
 
+STRING 11414
+// Abilities: A1EB (Unique: Murderousness (+)), Researchtip (Tooltip - Learn)
+{
+Ошеломление, [|cffffcc00Уровень %d|r] (|cffffcc00Q|r)
+}
+
 STRING 11415
 // Units: h017 (Odo), Name (Name)
 {
@@ -74920,5 +74945,149 @@ STRING 11417
 - Buffed Orb of Twilight Flame.
 - Rebalanced Orb of Nerzhul
 - Fixed Minotaur not losing stats from his passive w
+}
+
+STRING 11418
+// Abilities: A1EB (Unique: Murderousness (+)), Researchubertip (Tooltip - Learn - Extended)
+{
+Наносит противнику 50/85/120/155/190 ед. урона. Следующие атаки героя в течении 8 секунд оглушают цель на 0,75 секунды. Перезарядка - 16/15/14/13/12 секунд. Стоимость - 30 маны.
+}
+
+STRING 11421
+// Abilities: A1EC ((т)Аура: Murderousness), Name (Name)
+{
+(т)Аура: Murderousness
+}
+
+STRING 11422
+// Buffs/Effects: B0AH (), Bufftip (Tooltip)
+{
+|cff00ff00Murderousness|r
+}
+
+STRING 11423
+// Buffs/Effects: B0AH (), Buffubertip (Tooltip - Extended)
+{
+The next attack will deal more damage.
+}
+
+STRING 11424
+// Abilities: A1EA (Unique: Murderousness), Tip (Tooltip - Normal)
+{
+Murderousness
+}
+
+STRING 11425
+// Abilities: A1EB (Unique: Murderousness (+)), Tip (Tooltip - Normal)
+{
+Murderousness
+}
+
+STRING 11426
+// Abilities: A1EA (Unique: Murderousness), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Charge your weapon. The next attack will deal |cffbe81f7100|r more damage.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 11427
+// Abilities: A1EB (Unique: Murderousness (+)), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Charge your weapon. The next attack will deal |cffbe81f7200|r more damage.
+|cffffcc00Cooldown:|r 6 seconds.
+}
+
+STRING 11428
+// Abilities: A05L (Unique: Sweeping blowXXX), Name (Name)
+{
+Unique: Sweeping blowXXX
+}
+
+STRING 11429
+// Abilities: A037 (Unique: Sweeping blow (+)XXX), Name (Name)
+{
+Unique: Sweeping blow (+)XXX
+}
+
+STRING 11430
+// Abilities: A1ED (Unique: Sweeping blow), Tip (Tooltip - Normal)
+{
+Sweeping blow
+}
+
+STRING 11431
+// Abilities: A1ED (Unique: Sweeping blow), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Attacks also damage nearby enemies. The damage is equal to |cffbe81f740%|r of the attack.
+}
+
+STRING 11432
+// Abilities: A1EE (Unique: Sweeping blow (+)), Tip (Tooltip - Normal)
+{
+Sweeping blow
+}
+
+STRING 11433
+// Abilities: A1EE (Unique: Sweeping blow (+)), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Attacks also damage nearby enemies. The damage is equal to |cffbe81f780%|r of the attack.
+}
+
+STRING 11435
+// Abilities: A1EF (Boss 6: Slow (Crab)), Name (Name)
+{
+Boss 6: Slow (Crab)
+}
+
+STRING 11436
+// Buffs/Effects: B0AI (), Bufftip (Tooltip)
+{
+|cffff0000Slow|r
+}
+
+STRING 11437
+// Buffs/Effects: B0AI (), Buffubertip (Tooltip - Extended)
+{
+Movement speed has been reduced.
+}
+
+STRING 11438
+// Abilities: A0E5 (XXXБосс 6: Краб (Девятый вал)), Name (Name)
+{
+XXXБосс 6: Краб (Девятый вал)
+}
+
+STRING 11439
+// Abilities: A06H (|cffffcc00Уровень 6:|r Краб), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Attack:|r 200, |cffffcc00Health:|r 10000.
+- Each attack reduces the target's movement speed by 80% for 1.5 seconds.
+- Takes 20% less damage from magic.
+- Has +20 armor.
+- Every 8 seconds creates a line that will explode after 3 seconds, stunning all creatures in this line for 3 seconds, reducing their armor by 30 for 10 seconds and dealing |cffbe81f5500|r damage.
+- |cff00cceeAt 90% health:|r Increases attack speed by 25%. Every 7 seconds, creates 5 areas that explode after 2 seconds, dealing |cffbe81f5200|r damage.
+- |cff00cceeAt 65% health:|r Additionally increases attack speed by 25%. Lines are created more and more often.
+- |cff00cceeAt 40% health:|r Additionally increases attack speed by 25%. Lines are created more and more often.
+}
+
+STRING 11440
+// Abilities: A03L (XXXБосс 6: Краб (Сильный удар)), Name (Name)
+{
+XXXБосс 6: Краб (Сильный удар)
+}
+
+STRING 11441
+// Abilities: A0AR (|cffffcc00Уровень 6:|r Механик), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Attack:|r 120, |cffffcc00Health:|r 10000.
+- Every 15 seconds, uses a random activated |cffb18904mech|r (mech power: 1 mech).
+- Every 6 seconds an area appears under a random hero. After 1 second, the area creates a pillar of fire that deals |cffbe81f745|r damage every 0.5 seconds for 4 seconds.
+- |cff00cceeAt 75% health:|r Summons 4 robots, each of which deals |cffbe81f7300|r damage to nearby enemies upon death. Every 5 seconds the boss launches a missiles at a random enemy, dealing up to |cffbe81f7200|r damage and stunning for 2 seconds.
+- |cff00cceeAt 50% health:|r Summons 4 robots. Starts using |cffb18904mechs|r every 10 seconds.
+- |cff00cceeAt 25% health:|r Summons 4 robots.
 }
 

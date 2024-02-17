@@ -1,1 +1,0 @@
-{"Id":1046558721,"Comment":null,"IsScript":false,"RunOnMapInit":false,"Script":null,"Events":[],"LocalVariables":[],"Conditions":[],"Actions":[]}
