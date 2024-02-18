@@ -3,16 +3,11 @@
 |cffffcc00Boss Battle|r - an exciting competition of players against bosses and their minions in the genre |cffffcc00HeroArena|r with elements of games of the genre |cffffcc00RogueLike|r.
 |cffffcc00Discord:|r discordapp.com/invite/KVfrcby;
 |cffffcc00Discord.Me:|r discord.me/bbwc3.
-
-|cffffcc001.5.2:|r (Varcklen & Sadtwig)
-- Runestone Mos rework.
-- Reduced time between waves in Infinite Arena.
-- Several Fixes (See Quest Log).
 }
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.2|r
+|cffbe81f7Boss Battle 1.5.2.1T|r
 }
 
 STRING 2
@@ -1391,9 +1386,10 @@ Elf
 }
 
 STRING 222
-// Units: O00K (Demoman), Name (Name)
+// Items: I0EI (Thief's Armor), Description (Description)
 {
-Demoman
+|cffe96a1cLegendary|r
+Increases Attack Speed by 25% and Movement Speed by 50%. When the hero attacks an enemy, there is |cffd7df0130%|r chance to get 30 gold.
 }
 
 STRING 223
@@ -2273,25 +2269,27 @@ High Rock
 }
 
 STRING 367
-// Units: U00T (Skeleton Lord), Name (Name)
+// Items: I0EI (Thief's Armor), Ubertip (Tooltip - Extended)
 {
-Skeleton Lord
+|cffe96a1cLegendary|r
+Increases Attack Speed by 25% and Movement Speed by 50%. When the hero attacks an enemy, there is |cffd7df0130%|r chance to get 30 gold.
 }
 
 STRING 368
-// Units: U00T (Skeleton Lord), Propernames (Proper Names)
+// Units: U00T ((T) Skeleton Lord), Propernames (Proper Names)
 {
 Skeletor
 }
 
 STRING 369
-// Units: O01Y (The Plague), Name (Name)
+// Items: I0BK (Thief's Footpads), Description (Description)
 {
-The Plague
+|cffbababcCommon|r
+Increases Movement Speed by 20%. Collect all 3 Thief artifacts to unite them.
 }
 
 STRING 370
-// Units: O01Y (The Plague), Propernames (Proper Names)
+// Units: O01Y ((S) The Plague), Propernames (Proper Names)
 {
 Mengele
 }
@@ -2459,25 +2457,27 @@ Kappa
 }
 
 STRING 398
-// Units: O01O (Real Bro), Name (Name)
+// Items: I0BK (Thief's Footpads), Ubertip (Tooltip - Extended)
 {
-Real Bro
+|cffbababcCommon|r
+Increases Movement Speed by 20%. Collect all 3 Thief artifacts to unite them.
 }
 
 STRING 399
-// Units: O01O (Real Bro), Propernames (Proper Names)
+// Units: O01O ((T) Real Bro), Propernames (Proper Names)
 {
 Bor Rise
 }
 
 STRING 400
-// Units: O01N (Bard), Name (Name)
+// Items: I0BF (Tarot Card: Winds), Description (Description)
 {
-Bard
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Increases Movement Speed by 10% until the end of the game.
 }
 
 STRING 401
-// Units: O01N (Bard), Propernames (Proper Names)
+// Units: O01N ((T) Bard), Propernames (Proper Names)
 {
 Jaskier
 }
@@ -2495,37 +2495,45 @@ Erk
 }
 
 STRING 404
-// Units: O01L (Faustian Pactbinder), Name (Name)
+// Items: I0BF (Tarot Card: Winds), Ubertip (Tooltip - Extended)
 {
-Faustian Pactbinder
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Increases Movement Speed by 10% until the end of the game.
 }
 
 STRING 405
-// Units: O01L (Faustian Pactbinder), Propernames (Proper Names)
+// Units: O01L ((M) Faustian Pactbinder), Propernames (Proper Names)
 {
 Mephistar
 }
 
 STRING 406
-// Units: O01J (Fallen One), Name (Name)
+// Items: I07T (Magician's Boots), Description (Description)
 {
-Fallen One
+|cff4169e1Rare|r
+Increases Mana by 80 and Movement Speed by 25%.
+Activation: Swaps the positions of your hero and a random hero.
+|cffffcc00Cooldown:|r 10 seconds.
+|cffffcc00Cost:|r 35 mana.
 }
 
 STRING 407
-// Units: O01J (Fallen One), Propernames (Proper Names)
+// Units: O01J ((S) Fallen One), Propernames (Proper Names)
 {
 Helel Ben Shahar
 }
 
 STRING 408
-// Units: O01I (Meat Wagon), Name (Name)
+// Items: I07T (Magician's Boots), Ubertip (Tooltip - Extended)
 {
-Meat Wagon
+|cff4169e1Rare|r
+Increases Mana by 80 and Movement Speed by 25%.
+Activation: Swaps the positions of your hero and a random hero.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 409
-// Units: O01I (Meat Wagon), Propernames (Proper Names)
+// Units: O01I ((M) Meat Wagon), Propernames (Proper Names)
 {
 Gothik
 }
@@ -2603,121 +2611,77 @@ Cho
 }
 
 STRING 422
-// Units: O01A (Berry Dealer), Name (Name)
+// Items: I01L (Slippers of Madness), Description (Description)
 {
-Berry Dealer
+|cffe96a1cLegendary|r
+Increases Health by 150 and Movement Speed by 25%.
+At the end of battle |cffd7df01changes|r the hero stats (up to 10).
 }
 
 STRING 423
-// Units: O01A (Berry Dealer), Propernames (Proper Names)
+// Units: O01A ((M) Berry Dealer), Propernames (Proper Names)
 {
 Drawzi
 }
 
 STRING 424
-// Units: O019 (Money bag), Name (Name)
+// Items: I01L (Slippers of Madness), Ubertip (Tooltip - Extended)
 {
-Money bag
+|cffe96a1cLegendary|r
+Increases Health by 150 and Movement Speed by 25%.
+At the end of battle |cffd7df01changes|r the hero stats (up to 10).
 }
 
 STRING 425
-// Units: O019 (Money bag), Propernames (Proper Names)
+// Units: O019 ((M) Money bag), Propernames (Proper Names)
 {
 Cute Bob Jr
 }
 
-STRING 426
-// Units: O018 (Cool Wicerd), Name (Name)
-{
-Cool Wicerd
-}
-
 STRING 427
-// Units: O018 (Cool Wicerd), Propernames (Proper Names)
+// Units: O018 ((S) Cool Wicerd), Propernames (Proper Names)
 {
 Referi Jerator 
 }
 
-STRING 428
-// Units: O017 (Troll Mage), Name (Name)
-{
-Troll Mage
-}
-
 STRING 429
-// Units: O017 (Troll Mage), Propernames (Proper Names)
+// Units: O017 ((T) Troll Mage), Propernames (Proper Names)
 {
 Erk
 }
 
-STRING 430
-// Units: O016 (Shoggoth), Name (Name)
-{
-Shoggoth
-}
-
 STRING 431
-// Units: O016 (Shoggoth), Propernames (Proper Names)
+// Units: O016 ((S) Shoggoth), Propernames (Proper Names)
 {
 Azathot
 }
 
-STRING 432
-// Units: O015 (Gambler), Name (Name)
-{
-Gambler
-}
-
 STRING 433
-// Units: O015 (Gambler), Propernames (Proper Names)
+// Units: O015 ((M) Gambler), Propernames (Proper Names)
 {
 Gambit
 }
 
-STRING 434
-// Units: O014 (Ghoul King), Name (Name)
-{
-Ghoul King
-}
-
 STRING 435
-// Units: O014 (Ghoul King), Propernames (Proper Names)
+// Units: O014 ((S) Ghoul King), Propernames (Proper Names)
 {
 Guleon
 }
 
-STRING 436
-// Units: O010 (Adventurer), Name (Name)
-{
-Adventurer
-}
-
 STRING 437
-// Units: O010 (Adventurer), Propernames (Proper Names)
+// Units: O010 ((W) Adventurer), Propernames (Proper Names)
 {
 Bartholomew
 }
 
-STRING 438
-// Units: O00Z (Dryad), Name (Name)
-{
-Dryad
-}
-
 STRING 439
-// Units: O00Z (Dryad), Propernames (Proper Names)
+// Units: O00Z ((T) Dryad), Propernames (Proper Names)
 {
 Elisia
 }
 
-STRING 440
-// Units: O00X (Dream Devourer), Name (Name)
-{
-Dream Devourer
-}
-
 STRING 441
-// Units: O00X (Dream Devourer), Propernames (Proper Names)
+// Units: O00X ((S) Dream Devourer), Propernames (Proper Names)
 {
 Kruger
 }
@@ -2734,62 +2698,32 @@ STRING 443
 Erk
 }
 
-STRING 444
-// Units: O00T (Lord of Chaos), Name (Name)
-{
-Lord of Chaos
-}
-
 STRING 445
-// Units: O00T (Lord of Chaos), Propernames (Proper Names)
+// Units: O00T ((T) Lord of Chaos), Propernames (Proper Names)
 {
 Discord
 }
 
-STRING 446
-// Units: O00S (Commander), Name (Name)
-{
-Commander
-}
-
 STRING 447
-// Units: O00S (Commander), Propernames (Proper Names)
+// Units: O00S ((W) Commander), Propernames (Proper Names)
 {
 Kappa
 }
 
-STRING 448
-// Units: O00Q (Admiral), Name (Name)
-{
-Admiral
-}
-
 STRING 449
-// Units: O00Q (Admiral), Propernames (Proper Names)
+// Units: O00Q ((M) Admiral), Propernames (Proper Names)
 {
 Crusoe Robinson
 }
 
-STRING 450
-// Units: O00N (Toxic Elemental), Name (Name)
-{
-Toxic Elemental
-}
-
 STRING 451
-// Units: O00N (Toxic Elemental), Propernames (Proper Names)
+// Units: O00N ((T) Toxic Elemental), Propernames (Proper Names)
 {
 Lye Insanios
 }
 
-STRING 452
-// Units: O00L (Overlord), Name (Name)
-{
-Overlord
-}
-
 STRING 453
-// Units: O00L (Overlord), Propernames (Proper Names)
+// Units: O00L ((W) Overlord), Propernames (Proper Names)
 {
 Hasbro
 }
@@ -2801,7 +2735,7 @@ The hero's melee attacks also damage nearby foes. The damage is equal to 40%/55%
 }
 
 STRING 455
-// Units: O00K (Demoman), Propernames (Proper Names)
+// Units: O00K ((S) Demoman), Propernames (Proper Names)
 {
 Underminzer
 }
@@ -2812,91 +2746,49 @@ Change Notes 1.5.2
 }
 
 STRING 457
-// Units: O00J (Miracle Alchemist), Propernames (Proper Names)
+// Units: O00J ((M) Miracle Alchemist), Propernames (Proper Names)
 {
 Khaziber
 }
 
-STRING 458
-// Units: O00I (Houndmaster), Name (Name)
-{
-Houndmaster
-}
-
 STRING 459
-// Units: O00I (Houndmaster), Propernames (Proper Names)
+// Units: O00I ((T) Houndmaster), Propernames (Proper Names)
 {
 Charmander
 }
 
-STRING 460
-// Units: O00E (Monk), Name (Name)
-{
-Monk
-}
-
 STRING 461
-// Units: O00E (Monk), Propernames (Proper Names)
+// Units: O00E ((T) Monk), Propernames (Proper Names)
 {
 Cho
 }
 
-STRING 462
-// Units: O00D (Evil spirit), Name (Name)
-{
-Evil spirit
-}
-
 STRING 463
-// Units: O00D (Evil spirit), Propernames (Proper Names)
+// Units: O00D ((S) Evil Spirit), Propernames (Proper Names)
 {
 Pooltergeist
 }
 
-STRING 464
-// Units: O00C (Legionary), Name (Name)
-{
-Legionary
-}
-
 STRING 465
-// Units: O00C (Legionary), Propernames (Proper Names)
+// Units: O00C ((W) Legionary), Propernames (Proper Names)
 {
 Aquilifer
 }
 
-STRING 466
-// Units: O00B (Pirate), Name (Name)
-{
-Pirate
-}
-
 STRING 467
-// Units: O00B (Pirate), Propernames (Proper Names)
+// Units: O00B ((M) Pirate), Propernames (Proper Names)
 {
 Blackbeard
 }
 
-STRING 468
-// Units: N05A (Keeper of the Great Tree), Name (Name)
-{
-Keeper of the Great Tree
-}
-
 STRING 469
-// Units: N05A (Keeper of the Great Tree), Propernames (Proper Names)
+// Units: N05A ((W) Keeper of the Great Tree), Propernames (Proper Names)
 {
 Soren 
 }
 
-STRING 470
-// Units: N057 (Jester), Name (Name)
-{
-Jester
-}
-
 STRING 471
-// Units: N057 (Jester), Propernames (Proper Names)
+// Units: N057 ((A) Jester), Propernames (Proper Names)
 {
 Shenanigan
 }
@@ -2919,26 +2811,14 @@ STRING 474
 Galvan
 }
 
-STRING 475
-// Units: N055 (Armsmaster), Name (Name)
-{
-Armsmaster
-}
-
 STRING 476
-// Units: N055 (Armsmaster), Propernames (Proper Names)
+// Units: N055 ((D) Armsmaster), Propernames (Proper Names)
 {
 Galvan
 }
 
-STRING 477
-// Units: N054 (Sun King), Name (Name)
-{
-Sun King
-}
-
 STRING 478
-// Units: N054 (Sun King), Propernames (Proper Names)
+// Units: N054 ((W) Sun King), Propernames (Proper Names)
 {
 Tyberius
 }
@@ -3033,26 +2913,14 @@ STRING 493
 Conan
 }
 
-STRING 494
-// Units: N04X (Living Altar (Alt)), Name (Name)
-{
-Living Altar (Alt)
-}
-
 STRING 495
-// Units: N04X (Living Altar (Alt)), Propernames (Proper Names)
+// Units: N04X ((H) Living Altar (Alt)), Propernames (Proper Names)
 {
 Gaemon
 }
 
-STRING 496
-// Units: N04W (Living Altar), Name (Name)
-{
-Living Altar
-}
-
 STRING 497
-// Units: N04W (Living Altar), Propernames (Proper Names)
+// Units: N04W ((H) Living Altar), Propernames (Proper Names)
 {
 Gaemon
 }
@@ -3148,163 +3016,97 @@ Jack
 }
 
 STRING 513
-// Units: N04M (Grim ninja), Name (Name)
+// Units: N034 (Grim ninja), Name (Name)
 {
 Grim ninja
 }
 
 STRING 514
-// Units: N04M (Grim ninja), Propernames (Proper Names)
+// Units: N04M ((A) Grim Ninja), Propernames (Proper Names)
 {
 Shinobi
 }
 
-STRING 515
-// Units: N04K (Soulstealer), Name (Name)
-{
-Soulstealer
-}
-
 STRING 516
-// Units: N04K (Soulstealer), Propernames (Proper Names)
+// Units: N04K ((A) Soulstealer), Propernames (Proper Names)
 {
 Noctuna
 }
 
-STRING 517
-// Units: N04J (Crystal Mimic), Name (Name)
-{
-Crystal Mimic
-}
-
 STRING 518
-// Units: N04J (Crystal Mimic), Propernames (Proper Names)
+// Units: N04J ((D) Crystal Mimic), Propernames (Proper Names)
 {
 It
 }
 
-STRING 519
-// Units: N04I (Outcast Demon), Name (Name)
-{
-Outcast Demon
-}
-
 STRING 520
-// Units: N04I (Outcast Demon), Propernames (Proper Names)
+// Units: N04I ((R) Outcast Demon), Propernames (Proper Names)
 {
 Kayn Noire
 }
 
-STRING 521
-// Units: N04H (Thunderous Nomad), Name (Name)
-{
-Thunderous Nomad
-}
-
 STRING 522
-// Units: N04H (Thunderous Nomad), Propernames (Proper Names)
+// Units: N04H ((E) Thunderous Nomad), Propernames (Proper Names)
 {
 Killya
 }
 
-STRING 523
-// Units: N04E (Divine Maiden), Name (Name)
-{
-Divine Maiden
-}
-
 STRING 524
-// Units: N04E (Divine Maiden), Propernames (Proper Names)
+// Units: N04E ((W) Divine Maiden), Propernames (Proper Names)
 {
 Oakisle
 }
 
-STRING 525
-// Units: N04C (Apex Predator), Name (Name)
-{
-Apex Predator
-}
-
 STRING 526
-// Units: N04C (Apex Predator), Propernames (Proper Names)
+// Units: N04C ((D) Apex Predator), Propernames (Proper Names)
 {
 Megalodon
 }
 
-STRING 527
-// Units: N04B (Strange Dog), Name (Name)
-{
-Strange Dog
-}
-
 STRING 528
-// Units: N04B (Strange Dog), Propernames (Proper Names)
+// Units: N04B ((R) Strange Dog), Propernames (Proper Names)
 {
 Acrid 
 }
 
-STRING 529
-// Units: N04A (Ratman Shaman), Name (Name)
-{
-Ratman Shaman
-}
-
 STRING 530
-// Units: N04A (Ratman Shaman), Propernames (Proper Names)
+// Units: N04A ((H) Ratman Shaman), Propernames (Proper Names)
 {
 Stuart Bigger
 }
 
 STRING 531
-// Units: N049 (Incarnation of the Void), Name (Name)
+// Units: N03D (Incarnation of the Void), Name (Name)
 {
 Incarnation of the Void
 }
 
 STRING 532
-// Units: N049 (Incarnation of the Void), Propernames (Proper Names)
+// Units: N049 ((E) Incarnation of the Void), Propernames (Proper Names)
 {
 Shaderosia
 }
 
-STRING 533
-// Units: N046 (Metal Mage), Name (Name)
-{
-Metal Mage
-}
-
 STRING 534
-// Units: N046 (Metal Mage), Propernames (Proper Names)
+// Units: N046 ((E) Metal Mage), Propernames (Proper Names)
 {
 Ozzy
 }
 
 STRING 535
-// Units: N03R (Lycanthrope Druid), EditorSuffix (Name - Editor Suffix)
+// Units: N03R ((R) Lycanthrope Druid), EditorSuffix (Name - Editor Suffix)
 {
 (Alt)
 }
 
-STRING 536
-// Units: N03R (Lycanthrope Druid), Name (Name)
-{
-Lycanthrope Druid
-}
-
 STRING 537
-// Units: N03R (Lycanthrope Druid), Propernames (Proper Names)
+// Units: N03R ((R) Lycanthrope Druid), Propernames (Proper Names)
 {
 Furrih Atero
 }
 
-STRING 538
-// Units: N03P (Lycanthrope Druid), Name (Name)
-{
-Lycanthrope Druid
-}
-
 STRING 539
-// Units: N03P (Lycanthrope Druid), Propernames (Proper Names)
+// Units: N03P ((R) Lycanthrope Druid), Propernames (Proper Names)
 {
 Furrih Atero
 }
@@ -3313,12 +3115,6 @@ STRING 540
 // Units: N03D (Incarnation of the Void), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
-}
-
-STRING 541
-// Units: N03D (Incarnation of the Void), Name (Name)
-{
-Incarnation of the Void
 }
 
 STRING 542
@@ -3381,26 +3177,14 @@ STRING 551
 Sans
 }
 
-STRING 552
-// Units: N039 (Energy ball), Name (Name)
-{
-Energy ball
-}
-
 STRING 553
-// Units: N039 (Energy ball), Propernames (Proper Names)
+// Units: N039 ((E) Energy ball), Propernames (Proper Names)
 {
 Rimuru
 }
 
-STRING 554
-// Units: N038 (Harpy), Name (Name)
-{
-Harpy
-}
-
 STRING 555
-// Units: N038 (Harpy), Propernames (Proper Names)
+// Units: N038 ((H) Harpy), Propernames (Proper Names)
 {
 Night fury
 }
@@ -3409,12 +3193,6 @@ STRING 556
 // Units: N034 (Grim ninja), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
-}
-
-STRING 557
-// Units: N034 (Grim ninja), Name (Name)
-{
-Grim ninja
 }
 
 STRING 558
@@ -3441,98 +3219,50 @@ STRING 561
 Ogneus
 }
 
-STRING 562
-// Units: N032 (Shadow archer), Name (Name)
-{
-Shadow archer
-}
-
 STRING 563
-// Units: N032 (Shadow archer), Propernames (Proper Names)
+// Units: N032 ((A) Shadow Archer), Propernames (Proper Names)
 {
 Gwindoline
 }
 
-STRING 564
-// Units: N02T (Peacelock), Name (Name)
-{
-Peacelock
-}
-
 STRING 565
-// Units: N02T (Peacelock), Propernames (Proper Names)
+// Units: N02T ((E) Peacelock), Propernames (Proper Names)
 {
 Van Aceron 
 }
 
-STRING 566
-// Units: N02S (Murloc-Medicaster), Name (Name)
-{
-Murloc-Medicaster
-}
-
-STRING 567
-// Units: N02S (Murloc-Medicaster), Propernames (Proper Names)
-{
-Mgr
-}
-
-STRING 568
-// Units: N02R (Barbarian), Name (Name)
-{
-Barbarian
-}
-
 STRING 569
-// Units: N02R (Barbarian), Propernames (Proper Names)
+// Units: N02R ((R) Barbarian), Propernames (Proper Names)
 {
 Conan
 }
 
-STRING 570
-// Units: N02Q (Mentor), Name (Name)
-{
-Mentor
-}
-
 STRING 571
-// Units: N02Q (Mentor), Propernames (Proper Names)
+// Units: N02Q ((H) Mentor), Propernames (Proper Names)
 {
 Yoda
 }
 
-STRING 572
-// Units: N02P (Pyrolord), Name (Name)
-{
-Pyrolord
-}
-
 STRING 573
-// Units: N02P (Pyrolord), Propernames (Proper Names)
+// Units: N02P ((E) Pyrolord), Propernames (Proper Names)
 {
 Ogneus
 }
 
 STRING 574
-// Units: N02O (Abyssal Infernal), Name (Name)
+// Units: N013 (Abyssal Infernal), Name (Name)
 {
 Abyssal Infernal
 }
 
 STRING 575
-// Units: N02O (Abyssal Infernal), Propernames (Proper Names)
+// Units: N02O ((D) Abyssal Infernal), Propernames (Proper Names)
 {
 Supremus
 }
 
-STRING 576
-// Units: N02K (Gun Master), Name (Name)
-{
-Gun Master
-}
-
 STRING 577
-// Units: N02K (Gun Master), Propernames (Proper Names)
+// Units: N02K ((A) Gun Master), Propernames (Proper Names)
 {
 Gyro
 }
@@ -3549,122 +3279,68 @@ STRING 579
 Zoticus Zote
 }
 
-STRING 580
-// Units: N02H (Wanderer), Name (Name)
-{
-Wanderer
-}
-
 STRING 581
-// Units: N02H (Wanderer), Propernames (Proper Names)
+// Units: N02H ((W) Wanderer), Propernames (Proper Names)
 {
 Zoticus Zote
 }
 
-STRING 582
-// Units: N02G (Priestess of the Cat), Name (Name)
-{
-Priestess of the Cat
-}
-
 STRING 583
-// Units: N02G (Priestess of the Cat), Propernames (Proper Names)
+// Units: N02G ((A) Priestess of the Cat), Propernames (Proper Names)
 {
 Catherine
 }
 
-STRING 584
-// Units: N02E (Crazy shooter), Name (Name)
-{
-Crazy shooter
-}
-
 STRING 585
-// Units: N02E (Crazy shooter), Propernames (Proper Names)
+// Units: N02E ((A) Crazy Shooter), Propernames (Proper Names)
 {
 Crazymeister
 }
 
-STRING 586
-// Units: N028 (Vampire), Name (Name)
-{
-Vampire
-}
-
 STRING 587
-// Units: N028 (Vampire), Propernames (Proper Names)
+// Units: N028 ((R) Vampire), Propernames (Proper Names)
 {
 Dio
 }
 
-STRING 588
-// Units: N01R (Plague doctor), Name (Name)
-{
-Plague doctor
-}
-
 STRING 589
-// Units: N01R (Plague doctor), Propernames (Proper Names)
+// Units: N01R ((H) Plague doctor), Propernames (Proper Names)
 {
 Ibennah
 }
 
-STRING 590
-// Units: N01Q (Minotaur), Name (Name)
-{
-Minotaur
-}
-
 STRING 591
-// Units: N01Q (Minotaur), Propernames (Proper Names)
+// Units: N01Q ((D) Minotaur), Propernames (Proper Names)
 {
 Minos
 }
 
 STRING 592
-// Units: N01P (Scarab King), Name (Name)
+// Units: N016 (Scarab King), Name (Name)
 {
 Scarab King
 }
 
 STRING 593
-// Units: N01P (Scarab King), Propernames (Proper Names)
+// Units: N01P ((D) Scarab King), Propernames (Proper Names)
 {
 Satenatus
 }
 
-STRING 594
-// Units: N01M (Preacher of the light), Name (Name)
-{
-Preacher of the light
-}
-
 STRING 595
-// Units: N01M (Preacher of the light), Propernames (Proper Names)
+// Units: N01M ((H) Preacher of the Light), Propernames (Proper Names)
 {
 Samael
 }
 
-STRING 596
-// Units: N019 (Samurai), Name (Name)
-{
-Samurai
-}
-
 STRING 597
-// Units: N019 (Samurai), Propernames (Proper Names)
+// Units: N019 ((A) Samurai), Propernames (Proper Names)
 {
 Jack
 }
 
-STRING 598
-// Units: N017 (Corrupted Ent), Name (Name)
-{
-Corrupted Ent
-}
-
 STRING 599
-// Units: N017 (Corrupted Ent), Propernames (Proper Names)
+// Units: N017 ((H) Corrupted Ent), Propernames (Proper Names)
 {
 Beechbone
 }
@@ -3675,26 +3351,14 @@ STRING 600
 (Skin1)
 }
 
-STRING 601
-// Units: N016 (Scarab King), Name (Name)
-{
-Scarab King
-}
-
 STRING 602
 // Units: N016 (Scarab King), Propernames (Proper Names)
 {
 Satenatus
 }
 
-STRING 603
-// Units: N014 (Marshal), Name (Name)
-{
-Marshal
-}
-
 STRING 604
-// Units: N014 (Marshal), Propernames (Proper Names)
+// Units: N014 ((R) Marshal), Propernames (Proper Names)
 {
 Garithos
 }
@@ -3705,98 +3369,56 @@ STRING 605
 (Skin 1)
 }
 
-STRING 606
-// Units: N013 (Abyssal Infernal), Name (Name)
-{
-Abyssal Infernal
-}
-
 STRING 607
 // Units: N013 (Abyssal Infernal), Propernames (Proper Names)
 {
 Supremus
 }
 
-STRING 608
-// Units: N00Y (Chronomancer), Name (Name)
-{
-Chronomancer
-}
-
 STRING 609
-// Units: N00Y (Chronomancer), Propernames (Proper Names)
+// Units: N00Y ((E) Chronomancer), Propernames (Proper Names)
 {
 Tempus
 }
 
-STRING 610
-// Units: N00X (Combat ogre), Name (Name)
-{
-Combat ogre
-}
-
 STRING 611
-// Units: N00X (Combat ogre), Propernames (Proper Names)
+// Units: N00X ((R) Combat ogre), Propernames (Proper Names)
 {
 Sans
 }
 
-STRING 612
-// Units: N00N (Soul Reaper), Name (Name)
-{
-Soul Reaper
-}
-
 STRING 613
-// Units: N00N (Soul Reaper), Propernames (Proper Names)
+// Units: N00N ((R) Soul Reaper), Propernames (Proper Names)
 {
 Lord Redram
 }
 
-STRING 614
-// Units: N004 (Mermaid), Name (Name)
-{
-Mermaid
-}
-
 STRING 615
-// Units: N004 (Mermaid), Propernames (Proper Names)
+// Units: N004 ((A) Mermaid), Propernames (Proper Names)
 {
 Ariel
 }
 
-STRING 616
-// Units: N002 (Druid-Naturalist), Name (Name)
-{
-Druid-Naturalist
-}
-
 STRING 617
-// Units: N002 (Druid-Naturalist), Propernames (Proper Names)
+// Units: N002 ((H) Druid of Nature), Propernames (Proper Names)
 {
 Bob the Growing
 }
 
 STRING 618
-// Units: N001 (Moon owl), Name (Name)
+// Items: I09I (Moon owl), Name (Name)
 {
 Moon owl
 }
 
 STRING 619
-// Units: N001 (Moon owl), Propernames (Proper Names)
+// Units: N001 ((E) Moon Owl), Propernames (Proper Names)
 {
 Yoll
 }
 
-STRING 620
-// Units: N000 (Beorn Patriarch), Name (Name)
-{
-Beorn Patriarch
-}
-
 STRING 621
-// Units: N000 (Beorn Patriarch), Propernames (Proper Names)
+// Units: N000 ((D) Furbolg Chieftain), Propernames (Proper Names)
 {
 Medved
 }
@@ -3837,26 +3459,14 @@ STRING 627
 Monty Python
 }
 
-STRING 628
-// Units: H01U (Sludge), Name (Name)
-{
-Sludge
-}
-
 STRING 629
-// Units: H01U (Sludge), Propernames (Proper Names)
+// Units: H01U ((D) Sludge), Propernames (Proper Names)
 {
 Slimey
 }
 
-STRING 630
-// Units: H01A (Bone knight), Name (Name)
-{
-Bone knight
-}
-
 STRING 631
-// Units: H01A (Bone knight), Propernames (Proper Names)
+// Units: H01A ((D) Bone Knight), Propernames (Proper Names)
 {
 Monty Python
 }
@@ -5179,7 +4789,7 @@ Dice of Chaos
 }
 
 STRING 831
-// Units: N03V (Shepherd), Name (Name)
+// Abilities: A1DT (Shepherd Q: Spirit Journey Buff Dummy), EditorSuffix (Editor Suffix)
 {
 Shepherd
 }
@@ -6864,13 +6474,6 @@ STRING 1065
 The first |cffcc0000corrupted|r artifact in battle is not destroyed.
 }
 
-STRING 1066
-// Items: I0EI (Thief's Armor), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases attack speed by 25% and movement speed by 150. When the hero attacks an enemy, there is |cffd7df0130%|r chance to get 30 gold.
-}
-
 STRING 1067
 // Items: I0EI (Thief's Armor), Name (Name)
 {
@@ -6881,13 +6484,6 @@ STRING 1068
 // Items: I0EI (Thief's Armor), Tip (Tooltip - Basic)
 {
 Thief's Armor
-}
-
-STRING 1069
-// Items: I0EI (Thief's Armor), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases attack speed by 25% and movement speed by 150. When the hero attacks an enemy, there is |cffd7df0130%|r chance to get 30 gold.
 }
 
 STRING 1070
@@ -9836,13 +9432,6 @@ Reduces stats by 8.
 Every 60 seconds, fully restores health and mana.
 }
 
-STRING 1490
-// Items: I0BK (Thief's Footpads), Description (Description)
-{
-|cffbababcCommon|r
-Increases movement speed by 60. Collect all 3 Thief artifacts to unite them.
-}
-
 STRING 1491
 // Items: I0BK (Thief's Footpads), Name (Name)
 {
@@ -9853,13 +9442,6 @@ STRING 1492
 // Items: I0BK (Thief's Footpads), Tip (Tooltip - Basic)
 {
 Thief's Footpads
-}
-
-STRING 1493
-// Items: I0BK (Thief's Footpads), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Increases movement speed by 60. Collect all 3 Thief artifacts to unite them.
 }
 
 STRING 1494
@@ -9970,13 +9552,6 @@ STRING 1509
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a sheep artifact.
 }
 
-STRING 1510
-// Items: I0BF (Tarot Card: Winds), Description (Description)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Increases the hero's movement speed by 30 until the end of the game.
-}
-
 STRING 1511
 // Items: I0BF (Tarot Card: Winds), Name (Name)
 {
@@ -9987,13 +9562,6 @@ STRING 1512
 // Items: I0BF (Tarot Card: Winds), Tip (Tooltip - Basic)
 {
 Tarot Card: Winds
-}
-
-STRING 1513
-// Items: I0BF (Tarot Card: Winds), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Increases the hero's movement speed by 30 until the end of the game.
 }
 
 STRING 1514
@@ -11893,12 +11461,6 @@ When the hero deals 300 damage or more, restore |cffbe81f710%|r of mana.
 }
 
 STRING 1788
-// Items: I09I (Moon owl), Name (Name)
-{
-Moon owl
-}
-
-STRING 1789
 // Items: I09I (Moon owl), Tip (Tooltip - Basic)
 {
 Moon owl
@@ -13550,16 +13112,6 @@ Activation: Increases the number of charges of |cff088a08potions|r in your inven
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
-STRING 2028
-// Items: I07T (Magician's Boots), Description (Description)
-{
-|cff4169e1Rare|r
-Increases mana and movement speed by 80.
-Activation: Swaps the positions of your hero and a random hero.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 35 mana.
-}
-
 STRING 2029
 // Items: I07T (Magician's Boots), Name (Name)
 {
@@ -13570,15 +13122,6 @@ STRING 2030
 // Items: I07T (Magician's Boots), Tip (Tooltip - Basic)
 {
 Magician's Boots
-}
-
-STRING 2031
-// Items: I07T (Magician's Boots), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases mana and movement speed by 80.
-Activation: Swaps the positions of your hero and a random hero.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 2032
@@ -19660,14 +19203,6 @@ STRING 2932
 Tome of Oblivion
 }
 
-STRING 2933
-// Items: I01L (Slippers of Madness), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases health by 150 and movement speed by 75.
-At the end of battle |cffd7df01changes|r the hero stats (up to 10).
-}
-
 STRING 2934
 // Items: I01L (Slippers of Madness), Name (Name)
 {
@@ -19678,14 +19213,6 @@ STRING 2935
 // Items: I01L (Slippers of Madness), Tip (Tooltip - Basic)
 {
 Slippers of Madness
-}
-
-STRING 2936
-// Items: I01L (Slippers of Madness), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases health by 150 and movement speed by 75.
-At the end of battle |cffd7df01changes|r the hero stats (up to 10).
 }
 
 STRING 2937
@@ -20717,7 +20244,7 @@ Increases spell power of your hero’s by 12% and of other by 8%.
 }
 
 STRING 3081
-// Units: N03V (Shepherd), Propernames (Proper Names)
+// Units: N03V ((W) Shepherd), Propernames (Proper Names)
 {
 Kel
 }
@@ -33684,12 +33211,6 @@ STRING 5032
 // Abilities: A119 (Blessing: Purification), Tip (Tooltip - Normal)
 {
 |cffffcc00Blessing:|r Purification
-}
-
-STRING 5033
-// Units: O00J (Miracle Alchemist), Name (Name)
-{
-Miracle Alchemist
 }
 
 STRING 5034
@@ -51229,6 +50750,12 @@ STRING 7704
 Moon priestess
 }
 
+STRING 7705
+// Units: H01A ((D) Bone Knight), Name (Name)
+{
+(D) Bone Knight
+}
+
 STRING 7706
 // Abilities: A0HC (|cffffcc00Уровень 3:|r Огромный арахнид), Name (Name)
 {
@@ -57097,6 +56624,12 @@ STRING 8620
 // Abilities: A0AR (|cffffcc00Уровень 6:|r Механик), Tip (Tooltip - Normal)
 {
 Mechanic
+}
+
+STRING 8621
+// Units: U00T ((T) Skeleton Lord), Name (Name)
+{
+(T) Skeleton Lord
 }
 
 STRING 8622
@@ -65153,6 +64686,12 @@ STRING 9847
 // Abilities: A03M (Босс 5: Дух рыцаря (Лик смерти)), Ubertip (Tooltip - Normal - Extended)
 {
 Лик смерти
+}
+
+STRING 9848
+// Units: O01Y ((S) The Plague), Name (Name)
+{
+(S) The Plague
 }
 
 STRING 9849
@@ -73583,7 +73122,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.2|r
+|cffbe81f7Boss Battle 1.5.2.1T|r
 }
 
 STRING 11219
@@ -73740,12 +73279,6 @@ STRING 11240
 Shepherd Q: Spirit Journey Buff Dummy
 }
 
-STRING 11241
-// Abilities: A1DT (Shepherd Q: Spirit Journey Buff Dummy), EditorSuffix (Editor Suffix)
-{
-Shepherd
-}
-
 STRING 11242
 // Items: I0FW (Orb of Twilights Flame), Description (Description)
 {
@@ -73760,12 +73293,6 @@ STRING 11243
 |cffe96a1cLegendary|r
 Increases attack power by 15% and attack speed by 10%.
 When you summon a minion, it increases its attack speed by 30% and grants a fiery aura that deals |cffbe81f740|r damage every second.
-}
-
-STRING 11244
-// Units: O01Z (Runesmith), Name (Name)
-{
-Runesmith
 }
 
 STRING 11245
@@ -73981,7 +73508,7 @@ Deals |cffbe81f7250|r damage to a single target. A Sheep with 100% increased sta
 }
 
 STRING 11278
-// Units: O01Z (Runesmith), Propernames (Proper Names)
+// Units: O01Z ((M) Runesmith), Propernames (Proper Names)
 {
 Odo
 }
@@ -74655,6 +74182,18 @@ Reduces enemy attack by |cffbe81f730%|r.
 |cffffcc00Cooldown:|r 6 seconds.
 }
 
+STRING 11377
+// Units: O01O ((T) Real Bro), Name (Name)
+{
+(T) Real Bro
+}
+
+STRING 11378
+// Units: O01N ((T) Bard), Name (Name)
+{
+(T) Bard
+}
+
 STRING 11379
 // Abilities: A1EB (Unique: Murderousness (+)), Hotkey (Hotkey - Normal)
 {
@@ -74953,6 +74492,18 @@ STRING 11418
 Наносит противнику 50/85/120/155/190 ед. урона. Следующие атаки героя в течении 8 секунд оглушают цель на 0,75 секунды. Перезарядка - 16/15/14/13/12 секунд. Стоимость - 30 маны.
 }
 
+STRING 11419
+// Units: O01L ((M) Faustian Pactbinder), Name (Name)
+{
+(M) Faustian Pactbinder
+}
+
+STRING 11420
+// Units: O01J ((S) Fallen One), Name (Name)
+{
+(S) Fallen One
+}
+
 STRING 11421
 // Abilities: A1EC ((т)Аура: Murderousness), Name (Name)
 {
@@ -75037,6 +74588,12 @@ STRING 11433
 Attacks also damage nearby enemies. The damage is equal to |cffbe81f780%|r of the attack.
 }
 
+STRING 11434
+// Units: O01I ((M) Meat Wagon), Name (Name)
+{
+(M) Meat Wagon
+}
+
 STRING 11435
 // Abilities: A1EF (Boss 6: Slow (Crab)), Name (Name)
 {
@@ -75089,5 +74646,443 @@ STRING 11441
 - |cff00cceeAt 75% health:|r Summons 4 robots, each of which deals |cffbe81f7300|r damage to nearby enemies upon death. Every 5 seconds the boss launches a missiles at a random enemy, dealing up to |cffbe81f7200|r damage and stunning for 2 seconds.
 - |cff00cceeAt 50% health:|r Summons 4 robots. Starts using |cffb18904mechs|r every 10 seconds.
 - |cff00cceeAt 25% health:|r Summons 4 robots.
+}
+
+STRING 11442
+// Units: O01A ((M) Berry Dealer), Name (Name)
+{
+(M) Berry Dealer
+}
+
+STRING 11443
+// Units: O019 ((M) Money bag), Name (Name)
+{
+(M) Money bag
+}
+
+STRING 11444
+// Units: O018 ((S) Cool Wicerd), Name (Name)
+{
+(S) Cool Wicerd
+}
+
+STRING 11445
+// Units: O017 ((T) Troll Mage), Name (Name)
+{
+(T) Troll Mage
+}
+
+STRING 11446
+// Units: O016 ((S) Shoggoth), Name (Name)
+{
+(S) Shoggoth
+}
+
+STRING 11447
+// Units: O015 ((M) Gambler), Name (Name)
+{
+(M) Gambler
+}
+
+STRING 11448
+// Units: O014 ((S) Ghoul King), Name (Name)
+{
+(S) Ghoul King
+}
+
+STRING 11449
+// Units: O010 ((W) Adventurer), Name (Name)
+{
+(W) Adventurer
+}
+
+STRING 11450
+// Units: O00Z ((T) Dryad), Name (Name)
+{
+(T) Dryad
+}
+
+STRING 11451
+// Units: O00X ((S) Dream Devourer), Name (Name)
+{
+(S) Dream Devourer
+}
+
+STRING 11452
+// Units: O00T ((T) Lord of Chaos), Name (Name)
+{
+(T) Lord of Chaos
+}
+
+STRING 11453
+// Units: O00S ((W) Commander), Name (Name)
+{
+(W) Commander
+}
+
+STRING 11454
+// Units: O00Q ((M) Admiral), Name (Name)
+{
+(M) Admiral
+}
+
+STRING 11455
+// Units: O00N ((T) Toxic Elemental), Name (Name)
+{
+(T) Toxic Elemental
+}
+
+STRING 11456
+// Units: O00L ((W) Overlord), Name (Name)
+{
+(W) Overlord
+}
+
+STRING 11457
+// Units: O00K ((S) Demoman), Name (Name)
+{
+(S) Demoman
+}
+
+STRING 11458
+// Units: O00J ((M) Miracle Alchemist), Name (Name)
+{
+(M) Miracle Alchemist
+}
+
+STRING 11459
+// Units: O00I ((T) Houndmaster), Name (Name)
+{
+(T) Houndmaster
+}
+
+STRING 11460
+// Units: O00E ((T) Monk), Name (Name)
+{
+(T) Monk
+}
+
+STRING 11462
+// Units: O00C ((W) Legionary), Name (Name)
+{
+(W) Legionary
+}
+
+STRING 11463
+// Units: O00B ((M) Pirate), Name (Name)
+{
+(M) Pirate
+}
+
+STRING 11464
+// Units: N05A ((W) Keeper of the Great Tree), Name (Name)
+{
+(W) Keeper of the Great Tree
+}
+
+STRING 11465
+// Units: N057 ((A) Jester), Name (Name)
+{
+(A) Jester
+}
+
+STRING 11466
+// Units: N055 ((D) Armsmaster), Name (Name)
+{
+(D) Armsmaster
+}
+
+STRING 11467
+// Units: N054 ((W) Sun King), Name (Name)
+{
+(W) Sun King
+}
+
+STRING 11468
+// Units: N04X ((H) Living Altar (Alt)), Name (Name)
+{
+(H) Living Altar (Alt)
+}
+
+STRING 11469
+// Units: N04W ((H) Living Altar), Name (Name)
+{
+(H) Living Altar
+}
+
+STRING 11471
+// Units: N04K ((A) Soulstealer), Name (Name)
+{
+(A) Soulstealer
+}
+
+STRING 11472
+// Units: N04J ((D) Crystal Mimic), Name (Name)
+{
+(D) Crystal Mimic
+}
+
+STRING 11473
+// Units: N04I ((R) Outcast Demon), Name (Name)
+{
+(R) Outcast Demon
+}
+
+STRING 11474
+// Units: N04H ((E) Thunderous Nomad), Name (Name)
+{
+(E) Thunderous Nomad
+}
+
+STRING 11475
+// Units: N04E ((W) Divine Maiden), Name (Name)
+{
+(W) Divine Maiden
+}
+
+STRING 11476
+// Units: N04C ((D) Apex Predator), Name (Name)
+{
+(D) Apex Predator
+}
+
+STRING 11477
+// Units: N04B ((R) Strange Dog), Name (Name)
+{
+(R) Strange Dog
+}
+
+STRING 11478
+// Units: N04A ((H) Ratman Shaman), Name (Name)
+{
+(H) Ratman Shaman
+}
+
+STRING 11479
+// Units: N049 ((E) Incarnation of the Void), Name (Name)
+{
+(E) Incarnation of the Void
+}
+
+STRING 11480
+// Units: N046 ((E) Metal Mage), Name (Name)
+{
+(E) Metal Mage
+}
+
+STRING 11481
+// Units: N03R ((R) Lycanthrope Druid), Name (Name)
+{
+(R) Lycanthrope Druid
+}
+
+STRING 11482
+// Units: N03P ((R) Lycanthrope Druid), Name (Name)
+{
+(R) Lycanthrope Druid
+}
+
+STRING 11483
+// Units: N039 ((E) Energy ball), Name (Name)
+{
+(E) Energy ball
+}
+
+STRING 11484
+// Units: N038 ((H) Harpy), Name (Name)
+{
+(H) Harpy
+}
+
+STRING 11488
+// Units: N02R ((R) Barbarian), Name (Name)
+{
+(R) Barbarian
+}
+
+STRING 11489
+// Units: N02Q ((H) Mentor), Name (Name)
+{
+(H) Mentor
+}
+
+STRING 11490
+// Units: N02P ((E) Pyrolord), Name (Name)
+{
+(E) Pyrolord
+}
+
+STRING 11491
+// Units: N02O ((D) Abyssal Infernal), Name (Name)
+{
+(D) Abyssal Infernal
+}
+
+STRING 11492
+// Units: N02K ((A) Gun Master), Name (Name)
+{
+(A) Gun Master
+}
+
+STRING 11493
+// Units: N02H ((W) Wanderer), Name (Name)
+{
+(W) Wanderer
+}
+
+STRING 11494
+// Units: N02G ((A) Priestess of the Cat), Name (Name)
+{
+(A) Priestess of the Cat
+}
+
+STRING 11496
+// Units: N028 ((R) Vampire), Name (Name)
+{
+(R) Vampire
+}
+
+STRING 11497
+// Units: N01R ((H) Plague doctor), Name (Name)
+{
+(H) Plague doctor
+}
+
+STRING 11498
+// Units: N01Q ((D) Minotaur), Name (Name)
+{
+(D) Minotaur
+}
+
+STRING 11499
+// Units: N01P ((D) Scarab King), Name (Name)
+{
+(D) Scarab King
+}
+
+STRING 11501
+// Units: N019 ((A) Samurai), Name (Name)
+{
+(A) Samurai
+}
+
+STRING 11502
+// Units: N017 ((H) Corrupted Ent), Name (Name)
+{
+(H) Corrupted Ent
+}
+
+STRING 11503
+// Units: N014 ((R) Marshal), Name (Name)
+{
+(R) Marshal
+}
+
+STRING 11504
+// Units: N00Y ((E) Chronomancer), Name (Name)
+{
+(E) Chronomancer
+}
+
+STRING 11505
+// Units: N00X ((R) Combat ogre), Name (Name)
+{
+(R) Combat ogre
+}
+
+STRING 11506
+// Units: N00N ((R) Soul Reaper), Name (Name)
+{
+(R) Soul Reaper
+}
+
+STRING 11507
+// Units: N004 ((A) Mermaid), Name (Name)
+{
+(A) Mermaid
+}
+
+STRING 11510
+// Units: N000 ((D) Furbolg Chieftain), Name (Name)
+{
+(D) Furbolg Chieftain
+}
+
+STRING 11511
+// Units: H01U ((D) Sludge), Name (Name)
+{
+(D) Sludge
+}
+
+STRING 11512
+// Units: N03V ((W) Shepherd), Name (Name)
+{
+(W) Shepherd
+}
+
+STRING 11513
+// Units: O01Z ((M) Runesmith), Name (Name)
+{
+(M) Runesmith
+}
+
+STRING 11514
+// Units: O00D ((S) Evil Spirit), Name (Name)
+{
+(S) Evil Spirit
+}
+
+STRING 11515
+// Units: N04M ((A) Grim Ninja), Name (Name)
+{
+(A) Grim Ninja
+}
+
+STRING 11516
+// Units: N032 ((A) Shadow Archer), Name (Name)
+{
+(A) Shadow Archer
+}
+
+STRING 11517
+// Units: N02S ((H) Swamp Witch), Name (Name)
+{
+(H) Swamp Witch
+}
+
+STRING 11518
+// Units: N02S ((H) Swamp Witch), Propernames (Proper Names)
+{
+Mgrletta
+}
+
+STRING 11519
+// Units: N02E ((A) Crazy Shooter), Name (Name)
+{
+(A) Crazy Shooter
+}
+
+STRING 11520
+// Units: N01M ((H) Preacher of the Light), Name (Name)
+{
+(H) Preacher of the Light
+}
+
+STRING 11521
+// Units: N002 ((H) Druid of Nature), Name (Name)
+{
+(H) Druid of Nature
+}
+
+STRING 11522
+// Units: N001 ((E) Moon Owl), Name (Name)
+{
+(E) Moon Owl
+}
+
+STRING 11523
+// Units: N02T ((E) Peacelock), Name (Name)
+{
+(E) Peacelock
 }
 
