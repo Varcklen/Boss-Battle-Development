@@ -7,7 +7,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.2.2T|r
+|cffbe81f7Boss Battle 1.5.2.3T|r
 }
 
 STRING 2
@@ -2191,7 +2191,7 @@ Maximilius
 }
 
 STRING 354
-// Units: e00I (Moon priestess), Name (Name)
+// Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Tip (Tooltip - Normal)
 {
 Moon priestess
 }
@@ -2633,9 +2633,15 @@ At the end of battle |cffd7df01changes|r the hero stats (up to 10).
 }
 
 STRING 425
-// Units: O019 ((M) Money bag), Propernames (Proper Names)
+// Units: O019 ((M) Money Bag), Propernames (Proper Names)
 {
 Cute Bob Jr
+}
+
+STRING 426
+// Units: O019 ((M) Money Bag), Name (Name)
+{
+(M) Money Bag
 }
 
 STRING 427
@@ -2644,10 +2650,28 @@ STRING 427
 Referi Jerator 
 }
 
+STRING 428
+// Units: e00I (Moon Priestess), Name (Name)
+{
+Moon Priestess
+}
+
 STRING 429
 // Units: O017 ((T) Troll Mage), Propernames (Proper Names)
 {
 Erk
+}
+
+STRING 430
+// Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Attack:|r 75, |cffffcc00Health:|r 11000.
+- Each boss projectile bounces to the nearest enemy (up to three times).
+- Summons a crystal every 8 seconds. After 5 seconds, the crystal is destroyed and releases the power of the Moon Priestess.
+- |cff00cceeAt 60% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall, dealing 50 damage every 1.5 seconds until all the moon priestesses die.
+- |cff00cceeAt 40% health:|r Increases the attack speed of the boss and moon priestesses by 30%.
+- |cff00cceeAt 30% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall.
+- |cff00cceeAt 20% health:|r Summons 4 crystals.
 }
 
 STRING 431
@@ -2656,10 +2680,22 @@ STRING 431
 Azathot
 }
 
+STRING 432
+// Abilities: A016 (Preacher: Aura of Light), Researchubertip (Tooltip - Learn - Extended)
+{
+Every 8 seconds, restores |cffbe81f725/35/45/55/65|r Health to all nearby allies. At level 5 it also restores |cffbe81f720|r Mana.
+}
+
 STRING 433
 // Units: O015 ((M) Gambler), Propernames (Proper Names)
 {
 Gambit
+}
+
+STRING 434
+// Abilities: A016 (Preacher: Aura of Light), Ubertip (Tooltip - Normal - Extended)
+{
+Every 8 seconds, restores |cffbe81f725|r Health to all nearby allies.
 }
 
 STRING 435
@@ -2668,16 +2704,34 @@ STRING 435
 Guleon
 }
 
+STRING 436
+// Abilities: A016 (Preacher: Aura of Light), Ubertip (Tooltip - Normal - Extended)
+{
+Every 8 seconds, restores |cffbe81f735|r Health to all nearby allies.
+}
+
 STRING 437
 // Units: O010 ((W) Adventurer), Propernames (Proper Names)
 {
 Bartholomew
 }
 
+STRING 438
+// Abilities: A016 (Preacher: Aura of Light), Ubertip (Tooltip - Normal - Extended)
+{
+Every 8 seconds, restores |cffbe81f745|r Health to all nearby allies.
+}
+
 STRING 439
 // Units: O00Z ((T) Dryad), Propernames (Proper Names)
 {
 Elisia
+}
+
+STRING 440
+// Abilities: A016 (Preacher: Aura of Light), Ubertip (Tooltip - Normal - Extended)
+{
+Every 8 seconds, restores |cffbe81f755|r Health to all nearby allies.
 }
 
 STRING 441
@@ -2698,16 +2752,38 @@ STRING 443
 Erk
 }
 
+STRING 444
+// Abilities: A016 (Preacher: Aura of Light), Ubertip (Tooltip - Normal - Extended)
+{
+Every 8 seconds, restores |cffbe81f765|r Health and |cffbe81f720|r Mana to all nearby allies.
+}
+
 STRING 445
 // Units: O00T ((T) Lord of Chaos), Propernames (Proper Names)
 {
 Discord
 }
 
+STRING 446
+// Items: I00A (Runestone Kandom), Description (Description)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases Attack by 30 and Health Regeneration by 2.
+Reduces Damage dealt to minions by 30%.
+}
+
 STRING 447
 // Units: O00S ((W) Commander), Propernames (Proper Names)
 {
 Kappa
+}
+
+STRING 448
+// Items: I00A (Runestone Kandom), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases Attack by 30 and Health Regeneration by 2.
+Reduces Damage dealt to minions by 30%.
 }
 
 STRING 449
@@ -2751,10 +2827,26 @@ STRING 457
 Khaziber
 }
 
+STRING 458
+// Items: I0GI (Jagot), Description (Description)
+{
+|cff4169e1Rare|r
+When you use your first ability (|cffffcc00Q|r), creates a Temporal Clock. When taken, it reduces the cooldown of the Hero's abilities by 4 seconds.
+|cff81f260[Random bonus]|r
+}
+
 STRING 459
 // Units: O00I ((T) Houndmaster), Propernames (Proper Names)
 {
 Charmander
+}
+
+STRING 460
+// Items: I0GI (Jagot), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+When you use your first ability (|cffffcc00Q|r), creates a Temporal Clock. When taken, it reduces the cooldown of the Hero's abilities by 4 seconds.
+|cff81f260[Random bonus]|r
 }
 
 STRING 461
@@ -20517,13 +20609,6 @@ Increases armor by 5 and health by 500.
 Decreases attack speed by 25% and increases cooldown of abilities and items by 25%.
 }
 
-STRING 3121
-// Items: I00A (Runestone Kandom), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases attack power by 30 and health regeneration by 2. Decreases damage dealt to minions by 30%.
-}
-
 STRING 3122
 // Items: I00A (Runestone Kandom), Name (Name)
 {
@@ -20534,13 +20619,6 @@ STRING 3123
 // Items: I00A (Runestone Kandom), Tip (Tooltip - Basic)
 {
 Runestone Kandom
-}
-
-STRING 3124
-// Items: I00A (Runestone Kandom), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases attack power by 30 and health regeneration by 2. Decreases damage dealt to minions by 30%.
 }
 
 STRING 3125
@@ -50744,12 +50822,6 @@ STRING 7703
 |cffffcc00Уровень 6:|r Лунная жрица
 }
 
-STRING 7704
-// Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Tip (Tooltip - Normal)
-{
-Moon priestess
-}
-
 STRING 7705
 // Units: H01A ((D) Bone Knight), Name (Name)
 {
@@ -61384,18 +61456,6 @@ STRING 9344
 Crab
 }
 
-STRING 9345
-// Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Attack:|r 75, |cffffcc00Health:|r 10000.
-- Each boss projectile bounces to the nearest enemy (up to three times).
-- Summons a crystal every 8 seconds. After 5 seconds, the crystal is destroyed and releases the power of the Moon Priestess.
-- |cff00cceeAt 60% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall, dealing 50 damage every 1.5 seconds until all the moon priestesses die.
-- |cff00cceeAt 40% health:|r Increases the attack speed of the boss and moon priestesses by 30%.
-- |cff00cceeAt 30% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall.
-- |cff00cceeAt 20% health:|r Summons 4 crystals.
-}
-
 STRING 9346
 // Abilities: A06G (|cffffcc00Уровень 5:|r Дух рыцаря), Name (Name)
 {
@@ -67104,12 +67164,6 @@ STRING 10216
 Aura of Light, [|cffffcc00Level %d|r]
 }
 
-STRING 10217
-// Abilities: A016 (Preacher: Aura of Light), Researchubertip (Tooltip - Learn - Extended)
-{
-Every 8 seconds, restores |cffbe81f725/35/45/55/65|r health to all allies nearby. At 5th ability level, it also restore |cffbe81f720|r mana to allied heroes nearby.
-}
-
 STRING 10218
 // Abilities: A016 (Preacher: Aura of Light), Tip (Tooltip - Normal)
 {
@@ -67138,36 +67192,6 @@ STRING 10222
 // Abilities: A016 (Preacher: Aura of Light), Tip (Tooltip - Normal)
 {
 Aura of Light, [|cffffcc00Level 5|r]
-}
-
-STRING 10223
-// Abilities: A016 (Preacher: Aura of Light), Ubertip (Tooltip - Normal - Extended)
-{
-Every 8 seconds, restores |cffbe81f725|r health to all allies nearby.
-}
-
-STRING 10224
-// Abilities: A016 (Preacher: Aura of Light), Ubertip (Tooltip - Normal - Extended)
-{
-Every 8 seconds, restores |cffbe81f735|r health to all allies nearby.
-}
-
-STRING 10225
-// Abilities: A016 (Preacher: Aura of Light), Ubertip (Tooltip - Normal - Extended)
-{
-Every 8 seconds, restores |cffbe81f745|r health to all allies nearby.
-}
-
-STRING 10226
-// Abilities: A016 (Preacher: Aura of Light), Ubertip (Tooltip - Normal - Extended)
-{
-Every 8 seconds, restores |cffbe81f755|r health to all allies nearby.
-}
-
-STRING 10227
-// Abilities: A016 (Preacher: Aura of Light), Ubertip (Tooltip - Normal - Extended)
-{
-Every 8 seconds, restores |cffbe81f765|r health and |cffbe81f720|r mana to all allies nearby.
 }
 
 STRING 10228
@@ -73122,7 +73146,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.2.2T|r
+|cffbe81f7Boss Battle 1.5.2.3T|r
 }
 
 STRING 11219
@@ -74411,22 +74435,6 @@ The Runesmith charges his attack. Charged attacks will cause |cffbe81f7magic dam
 |cffffcc00Cooldown:|r 4 seconds.
 }
 
-STRING 11409
-// Items: I0GI (Jagot), Description (Description)
-{
-|cff4169e1Rare|r
-When the hero uses the first ability (|cffffcc00Q|r), create a temporal clock. Temporal clocks reduce the cooldown of abilities with more than 4 seconds of coldown remaining by 4 seconds.
-|cff81f260[Random bonus]|r
-}
-
-STRING 11410
-// Items: I0GI (Jagot), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-When the hero uses the first ability (|cffffcc00Q|r), create a temporal clock. Temporal clocks reduce the cooldown of abilities with more than 4 seconds of coldown remaining by 4 seconds.
-|cff81f260[Random bonus]|r
-}
-
 STRING 11411
 // Abilities: A1E9 (Spell Shield), EditorSuffix (Editor Suffix)
 {
@@ -74652,12 +74660,6 @@ STRING 11442
 // Units: O01A ((M) Berry Dealer), Name (Name)
 {
 (M) Berry Dealer
-}
-
-STRING 11443
-// Units: O019 ((M) Money bag), Name (Name)
-{
-(M) Money bag
 }
 
 STRING 11444

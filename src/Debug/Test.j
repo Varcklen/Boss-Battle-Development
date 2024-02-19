@@ -1,16 +1,9 @@
 scope Test initializer init
 	
 	private function action takes nothing returns nothing
-		if udg_logic[0] == false then
-			return
-		endif
-	
-	    call BJDebugMsg("Test")
-	    //call CreateItem('I0H9', GetUnitX( udg_UNIT_JULE ), GetUnitY( udg_UNIT_JULE ) )
-	    //call CreateItem('I007', GetUnitX( udg_UNIT_JULE ), GetUnitY( udg_UNIT_JULE ) )
-	    call KillUni
+		call NewSpecial( udg_hero[1], 'A0Z4' )
 	endfunction
-	Z
+	
 	//===========================================================================
 	private function init takes nothing returns nothing
 	    local trigger trig = CreateTrigger(  )
