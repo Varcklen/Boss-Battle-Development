@@ -20317,13 +20317,13 @@ Increases spell power of your hero’s by 12% and of other by 8%.
 }
 
 STRING 3078
-// Items: I00L (Magical wisp), Name (Name)
+// Items: I00L (Magical wisp), Tip (Tooltip - Basic)
 {
 Magical wisp
 }
 
 STRING 3079
-// Items: I00L (Magical wisp), Tip (Tooltip - Basic)
+// Items: I00L (Magical wisp), Name (Name)
 {
 Magical wisp
 }
