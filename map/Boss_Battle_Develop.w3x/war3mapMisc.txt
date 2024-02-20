@@ -23,7 +23,6 @@ HeroReviveManaFactor=1
 IntManaBonus=10
 IntRegenBonus=0.03
 InvisibleUnitsBestowAuras=1
-ItemStackingEnabled=
 MaxBldgSpeed=522.0
 MaxHeroLevel=100
 MaxUnitSpeed=522

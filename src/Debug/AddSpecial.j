@@ -2,7 +2,8 @@ scope AddSpecial initializer init
 	
 	private function action takes nothing returns nothing
 		call BJDebugMsg("Special Added")
-		call NewSpecial( udg_hero[1], 'AZ04' )
+		//call NewSpecial( udg_hero[1], 'AZ04' )
+		call NewUniques( udg_hero[1], 'A0MW' )
 	endfunction
 	
 	//===========================================================================
