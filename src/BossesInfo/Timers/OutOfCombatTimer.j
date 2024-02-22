@@ -15,7 +15,7 @@ scope OutOfCombatTimer initializer init
 
 	/*OnFightStart*/
 	private function OnFightStart takes nothing returns nothing
-	    if true/*IsSinglePlayer == false*/ then
+	    if IsSinglePlayer == false then
     		call PauseTimer( Timer )
     		call PauseTimer( TimerWarning )
 		endif
@@ -25,7 +25,7 @@ scope OutOfCombatTimer initializer init
 	
 	/*OnFightEnd*/
 	private function OnFightEnd_Condition takes nothing returns boolean
-		return udg_real[1] > 0 and not( udg_logic[43] ) and not(udg_logic[97] ) /*and IsSinglePlayer == false*/
+		return udg_real[1] > 0 and not( udg_logic[43] ) and not(udg_logic[97] ) and IsSinglePlayer == false
 	endfunction
 	
 	private function OnFightEnd takes nothing returns nothing
@@ -38,7 +38,7 @@ scope OutOfCombatTimer initializer init
 	
 	/*OnStart*/
 	private function OnStart_Condition takes nothing returns boolean
-		return true/*IsSinglePlayer == false*/
+		return IsSinglePlayer == false
 	endfunction
 	
 	private function OnStart takes nothing returns nothing
@@ -57,9 +57,9 @@ scope OutOfCombatTimer initializer init
 	private function OnHeroChoose_Condition takes nothing returns boolean
         local integer i 
         
-        /*if IsSinglePlayer then
+        if IsSinglePlayer then
             return false
-        endif*/
+        endif
         set i = 1
         loop
             exitwhen i > PLAYERS_LIMIT
@@ -79,7 +79,7 @@ scope OutOfCombatTimer initializer init
 	
 	/*OnHeroRepick*/
 	private function OnHeroRepick_Condition takes nothing returns boolean
-		return true/*IsSinglePlayer == false*/
+		return IsSinglePlayer == false
 	endfunction
 	
 	private function OnHeroRepick takes nothing returns nothing

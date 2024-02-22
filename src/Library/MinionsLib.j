@@ -8,5 +8,14 @@ library MinionsLib
         endif
         return true
     endfunction
+    
+    //Checks whether a unit can be affected by boss effects directed against minions.
+    function IsMinionImmune takes unit unitToCheck returns boolean
+        
+        if GetUnitAbilityLevel( unitToCheck, 'A1EG') > 0 then
+        	return true
+        endif
+        return false
+    endfunction
 
 endlibrary

@@ -36,10 +36,10 @@ scope HoundmasterQPassive initializer init
 	
 	//===========================================================================
 	private function init takes nothing returns nothing
-	    set gg_trg_MinP = CreateTrigger(  )
-	    call TriggerRegisterAnyUnitEventBJ( gg_trg_MinP, EVENT_PLAYER_HERO_SKILL )
-	    call TriggerAddCondition( gg_trg_MinP, Condition( function condition ) )
-	    call TriggerAddAction( gg_trg_MinP, function action )
+	    local trigger trig = CreateTrigger(  )
+	    call TriggerRegisterAnyUnitEventBJ( trig, EVENT_PLAYER_HERO_SKILL )
+	    call TriggerAddCondition( trig, Condition( function condition ) )
+	    call TriggerAddAction( trig, function action )
 	    
 	    call CreateEventTrigger( "udg_Event_NullingAbility_Real", function action_null, function condition_null )
 	endfunction

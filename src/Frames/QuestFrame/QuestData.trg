@@ -1071,7 +1071,7 @@
           },
           {
             "ParamType": 5,
-            "value": "4"
+            "value": "2500"
           }
         ],
         "value": "SetVariable"

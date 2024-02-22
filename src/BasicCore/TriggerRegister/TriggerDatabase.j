@@ -22,7 +22,7 @@ library TriggerDatabase initializer init
 		call SetEventUsed(EVENT_PLAYER_UNIT_SPELL_EFFECT)
 		
 		call SetEventUsedCustom("udg_FightStart_Real")
-		call SetEventUsedCustom("Event_OnDamageChange_Real")
+		//call SetEventUsedCustom("Event_OnDamageChange_Real")
     endfunction
 
 endlibrary

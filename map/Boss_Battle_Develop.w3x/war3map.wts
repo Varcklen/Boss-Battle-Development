@@ -2792,10 +2792,22 @@ STRING 449
 Crusoe Robinson
 }
 
+STRING 450
+// Abilities: A1DJ (Blessing: Teamwork (g34)), Name (Name)
+{
+Blessing: Teamwork (g34)
+}
+
 STRING 451
 // Units: O00N ((T) Toxic Elemental), Propernames (Proper Names)
 {
 Lye Insanios
+}
+
+STRING 452
+// Abilities: A0GU (Blessing: Triad (g34) (Turned Off)), Name (Name)
+{
+Blessing: Triad (g34) (Turned Off)
 }
 
 STRING 453
@@ -2855,10 +2867,23 @@ STRING 461
 Cho
 }
 
+STRING 462
+// Items: I099 (Battle of Power), Description (Description)
+{
+|cffffcc00Quest:|r Restore 2500 mana |cFF959697(0/2500)|r.
+|cffffcc00Reward:|r Ikaros Mudstone.
+}
+
 STRING 463
 // Units: O00D ((S) Evil Spirit), Propernames (Proper Names)
 {
 Pooltergeist
+}
+
+STRING 464
+// Items: I099 (Battle of Power), Name (Name)
+{
+Battle of Power
 }
 
 STRING 465
@@ -2867,16 +2892,36 @@ STRING 465
 Aquilifer
 }
 
+STRING 466
+// Items: I099 (Battle of Power), Tip (Tooltip - Basic)
+{
+Battle of Power
+}
+
 STRING 467
 // Units: O00B ((M) Pirate), Propernames (Proper Names)
 {
 Blackbeard
 }
 
+STRING 468
+// Items: I099 (Battle of Power), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Restore 2500 mana |cFF959697(0/2500)|r.
+|cffffcc00Reward:|r Ikaros Mudstone.
+}
+
 STRING 469
 // Units: N05A ((W) Keeper of the Great Tree), Propernames (Proper Names)
 {
 Soren 
+}
+
+STRING 470
+// Items: I03H (Ikaros Mudstone), Description (Description)
+{
+|cffe96a1cLegendary|r
+At the start of battle, increases the main stat of each Hero by 4.
 }
 
 STRING 471
@@ -2903,10 +2948,23 @@ STRING 474
 Galvan
 }
 
+STRING 475
+// Items: I03H (Ikaros Mudstone), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+At the start of battle, increases the main stat of each Hero by 4.
+}
+
 STRING 476
 // Units: N055 ((D) Armsmaster), Propernames (Proper Names)
 {
 Galvan
+}
+
+STRING 477
+// Abilities: A1EG (.General: Resistance), Name (Name)
+{
+.General: Resistance
 }
 
 STRING 478
@@ -3005,10 +3063,25 @@ STRING 493
 Conan
 }
 
+STRING 494
+// Abilities: A1EG (.General: Resistance), Tip (Tooltip - Normal)
+{
+Resistance
+}
+
 STRING 495
 // Units: N04X ((H) Living Altar (Alt)), Propernames (Proper Names)
 {
 Gaemon
+}
+
+STRING 496
+// Abilities: A105 (Houndmaster: Bite), Researchubertip (Tooltip - Learn - Extended)
+{
+|cffffcc00Passive:|r Increases Bite damage by |cffbe81f740/80/120/160/200|r.
+
+Teleports the pet to the enemy and forces to cast Bite.
+|cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 497
@@ -3119,10 +3192,26 @@ STRING 514
 Shinobi
 }
 
+STRING 515
+// Abilities: A1EG (.General: Resistance), Ubertip (Tooltip - Normal - Extended)
+{
+The unit is immune by most boss abilities that affect minions.
+}
+
 STRING 516
 // Units: N04K ((A) Soulstealer), Propernames (Proper Names)
 {
 Noctuna
+}
+
+STRING 517
+// Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Attack:|r 40, |cffffcc00Health:|r 4500.
+- When it attacks a Hero, it burns |cffbe81f740|r mana. If the Hero has no mana, deals an additional 100 damage.
+- |cff00cceeAt 75% health:|r Every 10 seconds, burns |cffbe81f720|r mana for all heroes.
+- |cff00cceeAt 50% health:|r The boss burns 2 times more mana. Creates 4 zones, each of which deals |cffbe81f730|r damage to the enemy and restores |cffbe81f720|r mana.
+- |cff00cceeAt 25% health:|r Burns all mana for all heroes.
 }
 
 STRING 518
@@ -3131,10 +3220,28 @@ STRING 518
 It
 }
 
+STRING 519
+// Abilities: A105 (Houndmaster: Bite), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Increases Bite damage by |cffbe81f740|r.
+
+Teleports the pet to the enemy and forces to cast Bite.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
 STRING 520
 // Units: N04I ((R) Outcast Demon), Propernames (Proper Names)
 {
 Kayn Noire
+}
+
+STRING 521
+// Abilities: A105 (Houndmaster: Bite), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Increases Bite damage by |cffbe81f780|r.
+
+Teleports the pet to the enemy and forces to cast Bite.
+|cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 522
@@ -3143,10 +3250,28 @@ STRING 522
 Killya
 }
 
+STRING 523
+// Abilities: A105 (Houndmaster: Bite), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Increases Bite damage by |cffbe81f7120|r.
+
+Teleports the pet to the enemy and forces to cast Bite.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
 STRING 524
 // Units: N04E ((W) Divine Maiden), Propernames (Proper Names)
 {
 Oakisle
+}
+
+STRING 525
+// Abilities: A105 (Houndmaster: Bite), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Increases Bite damage by |cffbe81f7160|r.
+
+Teleports the pet to the enemy and forces to cast Bite.
+|cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 526
@@ -3155,10 +3280,25 @@ STRING 526
 Megalodon
 }
 
+STRING 527
+// Abilities: A105 (Houndmaster: Bite), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Increases Bite damage by |cffbe81f7200|r.
+
+Teleports the pet to the enemy and forces to cast Bite.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
 STRING 528
 // Units: N04B ((R) Strange Dog), Propernames (Proper Names)
 {
 Acrid 
+}
+
+STRING 529
+// Abilities: A0RM (Pet: Provocation), Name (Name)
+{
+Pet: Provocation
 }
 
 STRING 530
@@ -3179,6 +3319,16 @@ STRING 532
 Shaderosia
 }
 
+STRING 533
+// Abilities: A0RM (Pet: Provocation), Ubertip (Tooltip - Normal - Extended)
+{
+Forces the enemy to attack the caster.
+|cffffcc00Cooldown:|r 8 seconds.
+
+|cFF959697Less effective against bosses. 
+Does not work on mechs.|r
+}
+
 STRING 534
 // Units: N046 ((E) Metal Mage), Propernames (Proper Names)
 {
@@ -3191,10 +3341,22 @@ STRING 535
 (Alt)
 }
 
+STRING 536
+// Abilities: A0ND (Pet: Укус), Name (Name)
+{
+Pet: Укус
+}
+
 STRING 537
 // Units: N03R ((R) Lycanthrope Druid), Propernames (Proper Names)
 {
 Furrih Atero
+}
+
+STRING 538
+// Abilities: A0MV (Pet: Помощь хозяина), Name (Name)
+{
+Pet: Помощь хозяина
 }
 
 STRING 539
@@ -3207,6 +3369,12 @@ STRING 540
 // Units: N03D (Incarnation of the Void), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
+}
+
+STRING 541
+// Abilities: A0MV (Pet: Помощь хозяина), Tip (Tooltip - Normal)
+{
+Houndmaster Help
 }
 
 STRING 542
@@ -3269,10 +3437,22 @@ STRING 551
 Sans
 }
 
+STRING 552
+// Abilities: A0MV (Pet: Помощь хозяина), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a 20% chance to avoid an attack.
+}
+
 STRING 553
 // Units: N039 ((E) Energy ball), Propernames (Proper Names)
 {
 Rimuru
+}
+
+STRING 554
+// Abilities: A0D9 (Pet: Неуловимость), Name (Name)
+{
+Pet: Неуловимость
 }
 
 STRING 555
@@ -3285,6 +3465,15 @@ STRING 556
 // Units: N034 (Grim ninja), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
+}
+
+STRING 557
+// Abilities: A0MX (Houndmaster: Backtracking), Researchubertip (Tooltip - Learn - Extended)
+{
+The wind surrounds the caster and pet. While the effect is active, they restore |cffbe81f72%|r of health every 0.5 seconds and dodge attacks.
+|cffffcc00Duration:|r 2/2.5/3/3.5/4 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+|cffffcc00Cost:|r 40 mana.
 }
 
 STRING 558
@@ -3311,10 +3500,26 @@ STRING 561
 Ogneus
 }
 
+STRING 562
+// Abilities: A0MX (Houndmaster: Backtracking), Ubertip (Tooltip - Normal - Extended)
+{
+The wind surrounds the caster and pet. While the effect is active, they restore |cffbe81f72%|r of health every 0.5 seconds and dodge attacks.
+|cffffcc00Duration:|r 2 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 563
 // Units: N032 ((A) Shadow Archer), Propernames (Proper Names)
 {
 Gwindoline
+}
+
+STRING 564
+// Abilities: A0MX (Houndmaster: Backtracking), Ubertip (Tooltip - Normal - Extended)
+{
+The wind surrounds the caster and pet. While the effect is active, they restore |cffbe81f72%|r of health every 0.5 seconds and dodge attacks.
+|cffffcc00Duration:|r 2.5 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 565
@@ -3323,16 +3528,54 @@ STRING 565
 Van Aceron 
 }
 
+STRING 566
+// Abilities: A0MX (Houndmaster: Backtracking), Ubertip (Tooltip - Normal - Extended)
+{
+The wind surrounds the caster and pet. While the effect is active, they restore |cffbe81f72%|r of health every 0.5 seconds and dodge attacks.
+|cffffcc00Duration:|r 3 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 567
+// Abilities: A0MX (Houndmaster: Backtracking), Ubertip (Tooltip - Normal - Extended)
+{
+The wind surrounds the caster and pet. While the effect is active, they restore |cffbe81f72%|r of health every 0.5 seconds and dodge attacks.
+|cffffcc00Duration:|r 3.5 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 568
+// Abilities: A0MX (Houndmaster: Backtracking), Ubertip (Tooltip - Normal - Extended)
+{
+The wind surrounds the caster and pet. While the effect is active, they restore |cffbe81f72%|r of health every 0.5 seconds and dodge attacks.
+|cffffcc00Duration:|r 4 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 569
 // Units: N02R ((R) Barbarian), Propernames (Proper Names)
 {
 Conan
 }
 
+STRING 570
+// Abilities: A0FD (Houndmaster: Tandem), Researchubertip (Tooltip - Learn - Extended)
+{
+The pet takes 10%/20%/30%/40%/50% less damage.
+Pet attacks deal additional damage equal to 0.4%/0.8%/1.2%/1.6%/2% of the target's Max Health.
+}
+
 STRING 571
 // Units: N02Q ((H) Mentor), Propernames (Proper Names)
 {
 Yoda
+}
+
+STRING 572
+// Abilities: A0FD (Houndmaster: Tandem), Ubertip (Tooltip - Normal - Extended)
+{
+The pet takes 10% less damage.
+Pet attacks deal additional damage equal to 0.4% of the target's Max Health.
 }
 
 STRING 573
@@ -3353,6 +3596,13 @@ STRING 575
 Supremus
 }
 
+STRING 576
+// Abilities: A0FD (Houndmaster: Tandem), Ubertip (Tooltip - Normal - Extended)
+{
+The pet takes 20% less damage.
+Pet attacks deal additional damage equal to 0.8% of the target's Max Health.
+}
+
 STRING 577
 // Units: N02K ((A) Gun Master), Propernames (Proper Names)
 {
@@ -3371,10 +3621,24 @@ STRING 579
 Zoticus Zote
 }
 
+STRING 580
+// Abilities: A0FD (Houndmaster: Tandem), Ubertip (Tooltip - Normal - Extended)
+{
+The pet takes 30% less damage.
+Pet attacks deal additional damage equal to 1.2% of the target's Max Health.
+}
+
 STRING 581
 // Units: N02H ((W) Wanderer), Propernames (Proper Names)
 {
 Zoticus Zote
+}
+
+STRING 582
+// Abilities: A0FD (Houndmaster: Tandem), Ubertip (Tooltip - Normal - Extended)
+{
+The pet takes 40% less damage.
+Pet attacks deal additional damage equal to 1.6% of the target's Max Health.
 }
 
 STRING 583
@@ -3383,10 +3647,23 @@ STRING 583
 Catherine
 }
 
+STRING 584
+// Abilities: A0FD (Houndmaster: Tandem), Ubertip (Tooltip - Normal - Extended)
+{
+The pet takes 50% less damage.
+Pet attacks deal additional damage equal to 2% of the target's Max Health.
+}
+
 STRING 585
 // Units: N02E ((A) Crazy Shooter), Propernames (Proper Names)
 {
 Crazymeister
+}
+
+STRING 586
+// Abilities: A0MU (Houndmaster: Animal Companion), Name (Name)
+{
+Houndmaster: Animal Companion
 }
 
 STRING 587
@@ -3395,10 +3672,24 @@ STRING 587
 Dio
 }
 
+STRING 588
+// Abilities: A0MU (Houndmaster: Animal Companion), Researchtip (Tooltip - Learn)
+{
+Animal Companion, [|cffffcc00Level %d|r]
+}
+
 STRING 589
 // Units: N01R ((H) Plague doctor), Propernames (Proper Names)
 {
 Ibennah
+}
+
+STRING 590
+// Abilities: A0MU (Houndmaster: Animal Companion), Researchubertip (Tooltip - Learn - Extended)
+{
+Summons a pet. The pet has 35%/40%/45%/50%/55% Attack and Health from the caster in addition to its own. If the pet already exists, increases its stats by 25% instead.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 100 mana.
 }
 
 STRING 591
@@ -3419,16 +3710,34 @@ STRING 593
 Satenatus
 }
 
+STRING 594
+// Abilities: A0MU (Houndmaster: Animal Companion), Tip (Tooltip - Normal)
+{
+Animal Companion, [|cffffcc00Level 1|r]
+}
+
 STRING 595
 // Units: N01M ((H) Preacher of the Light), Propernames (Proper Names)
 {
 Samael
 }
 
+STRING 596
+// Abilities: A0MU (Houndmaster: Animal Companion), Tip (Tooltip - Normal)
+{
+Animal Companion, [|cffffcc00Level 2|r]
+}
+
 STRING 597
 // Units: N019 ((A) Samurai), Propernames (Proper Names)
 {
 Jack
+}
+
+STRING 598
+// Abilities: A0MU (Houndmaster: Animal Companion), Tip (Tooltip - Normal)
+{
+Animal Companion, [|cffffcc00Level 3|r]
 }
 
 STRING 599
@@ -3443,10 +3752,22 @@ STRING 600
 (Skin1)
 }
 
+STRING 601
+// Abilities: A0MU (Houndmaster: Animal Companion), Tip (Tooltip - Normal)
+{
+Animal Companion, [|cffffcc00Level 4|r]
+}
+
 STRING 602
 // Units: N016 (Scarab King), Propernames (Proper Names)
 {
 Satenatus
+}
+
+STRING 603
+// Abilities: A0MU (Houndmaster: Animal Companion), Tip (Tooltip - Normal)
+{
+Animal Companion, [|cffffcc00Level 5|r]
 }
 
 STRING 604
@@ -3461,10 +3782,26 @@ STRING 605
 (Skin 1)
 }
 
+STRING 606
+// Abilities: A0MU (Houndmaster: Animal Companion), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a pet. The pet has 35% Attack and Health from the caster in addition to its own. If the pet already exists, increases its stats by 25% instead.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 607
 // Units: N013 (Abyssal Infernal), Propernames (Proper Names)
 {
 Supremus
+}
+
+STRING 608
+// Abilities: A0MU (Houndmaster: Animal Companion), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a pet. The pet has 40% Attack and Health from the caster in addition to its own. If the pet already exists, increases its stats by 25% instead.
+|cffffcc00Cooldown:|r 30 seconds.
+
+|cFF959697More effective than Animal Companion (Rank 1).|r
 }
 
 STRING 609
@@ -3473,16 +3810,43 @@ STRING 609
 Tempus
 }
 
+STRING 610
+// Abilities: A0MU (Houndmaster: Animal Companion), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a pet. The pet has 45% Attack and Health from the caster in addition to its own. If the pet already exists, increases its stats by 25% instead.
+|cffffcc00Cooldown:|r 30 seconds.
+
+|cFF959697More effective than Animal Companion (Rank 2).|r
+}
+
 STRING 611
 // Units: N00X ((R) Combat ogre), Propernames (Proper Names)
 {
 Sans
 }
 
+STRING 612
+// Abilities: A0MU (Houndmaster: Animal Companion), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a pet. The pet has 50% Attack and Health from the caster in addition to its own. If the pet already exists, increases its stats by 25% instead.
+|cffffcc00Cooldown:|r 30 seconds.
+
+|cFF959697More effective than Animal Companion (Rank 3).|r
+}
+
 STRING 613
 // Units: N00N ((R) Soul Reaper), Propernames (Proper Names)
 {
 Lord Redram
+}
+
+STRING 614
+// Abilities: A0MU (Houndmaster: Animal Companion), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a pet. The pet has 55% Attack and Health from the caster in addition to its own. If the pet already exists, increases its stats by 25% instead.
+|cffffcc00Cooldown:|r 30 seconds.
+
+|cFF959697More effective than Animal Companion (Rank 4).|r
 }
 
 STRING 615
@@ -11783,34 +12147,6 @@ STRING 1822
 |cffffcc00Progress:|r |cffe96a1cLegendary|r, |cff4169e1Rare|r, |cffbababcCommon|r, |cffb40431Blood|r, |cff848484Rune|r, |cffb18904Mech|r, |cff5858faMoon|r, |cff7cfc00Nature|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r, |cff2d9995Weapon|r, |cff00cceeCrystal|r |cffffffff|r
 }
 
-STRING 1823
-// Items: I099 (Battle of power), Description (Description)
-{
-At the beginning of battle, swaps souls of the heroes.
-|cffffcc00Quest:|r Finish 4 battles |cFF959697(0/4)|r.
-|cffffcc00Reward:|r Ikaros Mudstone.
-}
-
-STRING 1824
-// Items: I099 (Battle of power), Name (Name)
-{
-Battle of power
-}
-
-STRING 1825
-// Items: I099 (Battle of power), Tip (Tooltip - Basic)
-{
-Battle of power
-}
-
-STRING 1826
-// Items: I099 (Battle of power), Ubertip (Tooltip - Extended)
-{
-At the beginning of battle, swaps souls of the heroes.
-|cffffcc00Quest:|r Finish 4 battles |cFF959697(0/4)|r.
-|cffffcc00Reward:|r Ikaros Mudstone.
-}
-
 STRING 1827
 // Items: I098 (Fulfillment of will), Description (Description)
 {
@@ -17445,13 +17781,6 @@ STRING 2657
 Counts as 3 artifacts from the sets |cffb40431blood|r, |cff848484rune|r, |cffb18904mech|r, |cff5858famoon|r, |cff7cfc00nature|r, |cfffe9a2ealchemy|r, |cff9001fdring|r and |cff00cceecrystal|r. Cannot be split.
 }
 
-STRING 2658
-// Items: I03H (Ikaros Mudstone), Description (Description)
-{
-|cffe96a1cLegendary|r
-At the beginning of the battle, increases the main stat of each hero by 3.
-}
-
 STRING 2659
 // Items: I03H (Ikaros Mudstone), Name (Name)
 {
@@ -17462,13 +17791,6 @@ STRING 2660
 // Items: I03H (Ikaros Mudstone), Tip (Tooltip - Basic)
 {
 Ikaros Mudstone
-}
-
-STRING 2661
-// Items: I03H (Ikaros Mudstone), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-At the beginning of the battle, increases the main stat of each hero by 3.
 }
 
 STRING 2662
@@ -21291,20 +21613,14 @@ STRING 3224
 (т)Аура: Teamwork
 }
 
-STRING 3225
-// Abilities: A1DJ (Blessing: Teamwork (g38)), Name (Name)
-{
-Blessing: Teamwork (g38)
-}
-
 STRING 3226
-// Abilities: A1DJ (Blessing: Teamwork (g38)), Tip (Tooltip - Normal)
+// Abilities: A1DJ (Blessing: Teamwork (g34)), Tip (Tooltip - Normal)
 {
 |cffffcc00Blessing:|r Teamwork
 }
 
 STRING 3227
-// Abilities: A1DJ (Blessing: Teamwork (g38)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1DJ (Blessing: Teamwork (g34)), Ubertip (Tooltip - Normal - Extended)
 {
 Increases armor by 1 and magic resistance by 5% for each hero near your hero.
 }
@@ -34148,15 +34464,6 @@ STRING 5169
 Bite, [|cffffcc00Level %d|r]
 }
 
-STRING 5170
-// Abilities: A105 (Houndmaster: Bite), Researchubertip (Tooltip - Learn - Extended)
-{
-|cffffcc00Passive:|r Increases the damage dealt by Bite by |cffbe81f740/80/120/160/200|r.
-
-Choose an enemy. Your pets activate Bite on a target.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
 STRING 5171
 // Abilities: A105 (Houndmaster: Bite), Tip (Tooltip - Normal)
 {
@@ -34185,51 +34492,6 @@ STRING 5175
 // Abilities: A105 (Houndmaster: Bite), Tip (Tooltip - Normal)
 {
 Bite, [|cffffcc00Level 5|r]
-}
-
-STRING 5176
-// Abilities: A105 (Houndmaster: Bite), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Increases the damage dealt by Bite by |cffbe81f740|r.
-
-Choose an enemy. Your pets activate Bite on a target.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
-STRING 5177
-// Abilities: A105 (Houndmaster: Bite), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Increases the damage dealt by Bite by |cffbe81f780|r.
-
-Choose an enemy. Your pets activate Bite on a target.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
-STRING 5178
-// Abilities: A105 (Houndmaster: Bite), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Increases the damage dealt by Bite by |cffbe81f7120|r.
-
-Choose an enemy. Your pets activate Bite on a target.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
-STRING 5179
-// Abilities: A105 (Houndmaster: Bite), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Increases the damage dealt by Bite by |cffbe81f7160|r.
-
-Choose an enemy. Your pets activate Bite on a target.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
-STRING 5180
-// Abilities: A105 (Houndmaster: Bite), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Increases the damage dealt by Bite by |cffbe81f7200|r.
-
-Choose an enemy. Your pets activate Bite on a target.
-|cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 5181
@@ -40608,7 +40870,7 @@ Admiral: Potion "Plasebo"
 }
 
 STRING 6145
-// Abilities: A0RM (Собака: Provocation), Hotkey (Hotkey - Normal)
+// Abilities: A0RM (Pet: Provocation), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -41083,23 +41345,10 @@ STRING 6218
 W
 }
 
-STRING 6219
-// Abilities: A0RM (Собака: Provocation), Name (Name)
-{
-Собака: Provocation
-}
-
 STRING 6220
-// Abilities: A0RM (Собака: Provocation), Tip (Tooltip - Normal)
+// Abilities: A0RM (Pet: Provocation), Tip (Tooltip - Normal)
 {
 Provocation
-}
-
-STRING 6221
-// Abilities: A0RM (Собака: Provocation), Ubertip (Tooltip - Normal - Extended)
-{
-Provokes the enemy to attack a caster. Less effective against bosses. Does not affect mechs.
-|cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 6222
@@ -44841,7 +45090,7 @@ Pyrolord: Seal of the blast
 }
 
 STRING 6803
-// Abilities: A0ND (Собака: Укус), Hotkey (Hotkey - Normal)
+// Abilities: A0ND (Pet: Укус), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -45089,20 +45338,14 @@ STRING 6838
 Q
 }
 
-STRING 6839
-// Abilities: A0ND (Собака: Укус), Name (Name)
-{
-Собака: Укус
-}
-
 STRING 6840
-// Abilities: A0ND (Собака: Укус), Tip (Tooltip - Normal)
+// Abilities: A0ND (Pet: Укус), Tip (Tooltip - Normal)
 {
 Bite
 }
 
 STRING 6841
-// Abilities: A0ND (Собака: Укус), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0ND (Pet: Укус), Ubertip (Tooltip - Normal - Extended)
 {
 Deals |cffbe81f7100|r damage to the enemy.
 |cffffcc00Cooldown:|r 8 seconds.
@@ -45246,15 +45489,6 @@ STRING 6864
 Backtracking, [|cffffcc00Level %d|r]
 }
 
-STRING 6865
-// Abilities: A0MX (Houndmaster: Backtracking), Researchubertip (Tooltip - Learn - Extended)
-{
-Give a buff on your hero and pet: "You dodge any attack". The duration on the hero is reduced by 2 times.
-|cffffcc00Duration:|r 6/8/10/12/14 seconds.
-|cffffcc00Cooldown:|r 24 seconds.
-|cffffcc00Cost:|r 55 mana.
-}
-
 STRING 6866
 // Abilities: A0MX (Houndmaster: Backtracking), Tip (Tooltip - Normal)
 {
@@ -45283,46 +45517,6 @@ STRING 6870
 // Abilities: A0MX (Houndmaster: Backtracking), Tip (Tooltip - Normal)
 {
 Backtracking, [|cffffcc00Level 5|r]
-}
-
-STRING 6871
-// Abilities: A0MX (Houndmaster: Backtracking), Ubertip (Tooltip - Normal - Extended)
-{
-Give a buff on your hero and pet: "You dodge any attack". The duration on the hero is reduced by 2 times.
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 24 seconds.
-}
-
-STRING 6872
-// Abilities: A0MX (Houndmaster: Backtracking), Ubertip (Tooltip - Normal - Extended)
-{
-Give a buff on your hero and pet: "You dodge any attack". The duration on the hero is reduced by 2 times.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 24 seconds.
-}
-
-STRING 6873
-// Abilities: A0MX (Houndmaster: Backtracking), Ubertip (Tooltip - Normal - Extended)
-{
-Give a buff on your hero and pet: "You dodge any attack". The duration on the hero is reduced by 2 times.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 24 seconds.
-}
-
-STRING 6874
-// Abilities: A0MX (Houndmaster: Backtracking), Ubertip (Tooltip - Normal - Extended)
-{
-Give a buff on your hero and pet: "You dodge any attack". The duration on the hero is reduced by 2 times.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 24 seconds.
-}
-
-STRING 6875
-// Abilities: A0MX (Houndmaster: Backtracking), Ubertip (Tooltip - Normal - Extended)
-{
-Give a buff on your hero and pet: "You dodge any attack". The duration on the hero is reduced by 2 times.
-|cffffcc00Duration:|r 14 seconds.
-|cffffcc00Cooldown:|r 24 seconds.
 }
 
 STRING 6876
@@ -45367,133 +45561,16 @@ STRING 6882
 Unique: MurderousnessXXX
 }
 
-STRING 6883
-// Abilities: A0MV (Собака: Помощь хозяина), Name (Name)
-{
-Собака: Помощь хозяина
-}
-
-STRING 6884
-// Abilities: A0MV (Собака: Помощь хозяина), Tip (Tooltip - Normal)
-{
-Houndmaster help
-}
-
-STRING 6885
-// Abilities: A0MV (Собака: Помощь хозяина), Ubertip (Tooltip - Normal - Extended)
-{
-When a pet is attacked, it has a 20% chance to evade.
-}
-
 STRING 6886
-// Abilities: A0MU (Houndmaster: Call a pet), Hotkey (Hotkey - Normal)
+// Abilities: A0MU (Houndmaster: Animal Companion), Hotkey (Hotkey - Normal)
 {
 R
-}
-
-STRING 6887
-// Abilities: A0MU (Houndmaster: Call a pet), Name (Name)
-{
-Houndmaster: Call a pet
 }
 
 STRING 6888
-// Abilities: A0MU (Houndmaster: Call a pet), Researchhotkey (Hotkey - Learn)
+// Abilities: A0MU (Houndmaster: Animal Companion), Researchhotkey (Hotkey - Learn)
 {
 R
-}
-
-STRING 6889
-// Abilities: A0MU (Houndmaster: Call a pet), Researchtip (Tooltip - Learn)
-{
-Call a pet, [|cffffcc00Level %d|r]
-}
-
-STRING 6890
-// Abilities: A0MU (Houndmaster: Call a pet), Researchubertip (Tooltip - Learn - Extended)
-{
-Summons a pet with multiple abilities.
-Reuse removes the old pet.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
-STRING 6891
-// Abilities: A0MU (Houndmaster: Call a pet), Tip (Tooltip - Normal)
-{
-Call a pet, [|cffffcc00Level 1|r]
-}
-
-STRING 6892
-// Abilities: A0MU (Houndmaster: Call a pet), Tip (Tooltip - Normal)
-{
-Call a pet, [|cffffcc00Level 2|r]
-}
-
-STRING 6893
-// Abilities: A0MU (Houndmaster: Call a pet), Tip (Tooltip - Normal)
-{
-Call a pet, [|cffffcc00Level 3|r]
-}
-
-STRING 6894
-// Abilities: A0MU (Houndmaster: Call a pet), Tip (Tooltip - Normal)
-{
-Call a pet, [|cffffcc00Level 4|r]
-}
-
-STRING 6895
-// Abilities: A0MU (Houndmaster: Call a pet), Tip (Tooltip - Normal)
-{
-Call a pet, [|cffffcc00Level 5|r]
-}
-
-STRING 6896
-// Abilities: A0MU (Houndmaster: Call a pet), Ubertip (Tooltip - Normal - Extended)
-{
-Summons a pet with multiple abilities.
-Reuse removes the old pet.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 6897
-// Abilities: A0MU (Houndmaster: Call a pet), Ubertip (Tooltip - Normal - Extended)
-{
-Summons a pet with multiple abilities.
-Reuse removes the old pet.
-|cffffcc00Cooldown:|r 30 seconds.
-
-|cFF959697More effective than Call a pet (Rank 1).|r
-}
-
-STRING 6898
-// Abilities: A0MU (Houndmaster: Call a pet), Ubertip (Tooltip - Normal - Extended)
-{
-Summons a pet with multiple abilities.
-Reuse removes the old pet.
-|cffffcc00Cooldown:|r 30 seconds.
-
-|cFF959697More effective than Call a pet (Rank 2).|r
-}
-
-STRING 6899
-// Abilities: A0MU (Houndmaster: Call a pet), Ubertip (Tooltip - Normal - Extended)
-{
-Summons a pet with multiple abilities.
-Reuse removes the old pet.
-|cffffcc00Cooldown:|r 30 seconds.
-
-|cFF959697More effective than Call a pet (Rank 3).|r
-}
-
-STRING 6900
-// Abilities: A0MU (Houndmaster: Call a pet), Ubertip (Tooltip - Normal - Extended)
-{
-Summons a pet with multiple abilities.
-Reuse removes the old pet.
-|cffffcc00Cooldown:|r 30 seconds.
-
-|cFF959697More effective than Call a pet (Rank 4).|r
 }
 
 STRING 6901
@@ -51108,20 +51185,14 @@ STRING 7749
 Аура: Касание жизни
 }
 
-STRING 7750
-// Abilities: A0GU (Blessing: Triad (g34)), Name (Name)
-{
-Blessing: Triad (g34)
-}
-
 STRING 7751
-// Abilities: A0GU (Blessing: Triad (g34)), Tip (Tooltip - Normal)
+// Abilities: A0GU (Blessing: Triad (g34) (Turned Off)), Tip (Tooltip - Normal)
 {
 |cffffcc00Blessing:|r Triad
 }
 
 STRING 7752
-// Abilities: A0GU (Blessing: Triad (g34)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0GU (Blessing: Triad (g34) (Turned Off)), Ubertip (Tooltip - Normal - Extended)
 {
 The hero receives a free piece of the set three times. Current:
 }
@@ -52088,12 +52159,6 @@ STRING 7906
 Tandem, [|cffffcc00Level %d|r]
 }
 
-STRING 7907
-// Abilities: A0FD (Houndmaster: Tandem), Researchubertip (Tooltip - Learn - Extended)
-{
-Reduces pet damage taken by 10%/20%/30%/40%/50%. When the pet attacks, it deals damage equal to 0.1%0.2%/0.3%/0.4%/0.5% of the maximum health of the target.
-}
-
 STRING 7908
 // Abilities: A0FD (Houndmaster: Tandem), Tip (Tooltip - Normal)
 {
@@ -52122,36 +52187,6 @@ STRING 7912
 // Abilities: A0FD (Houndmaster: Tandem), Tip (Tooltip - Normal)
 {
 Tandem, [|cffffcc00Level 5|r]
-}
-
-STRING 7913
-// Abilities: A0FD (Houndmaster: Tandem), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces pet damage taken by 10%. When the pet attacks, it deals damage equal to 0.1% of the maximum health of the target.
-}
-
-STRING 7914
-// Abilities: A0FD (Houndmaster: Tandem), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces pet damage taken by 20%. When the pet attacks, it deals damage equal to 0.2% of the maximum health of the target.
-}
-
-STRING 7915
-// Abilities: A0FD (Houndmaster: Tandem), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces pet damage taken by 30%. When the pet attacks, it deals damage equal to 0.3% of the maximum health of the target.
-}
-
-STRING 7916
-// Abilities: A0FD (Houndmaster: Tandem), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces pet damage taken by 40%. When the pet attacks, it deals damage equal to 0.4% of the maximum health of the target.
-}
-
-STRING 7917
-// Abilities: A0FD (Houndmaster: Tandem), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces pet damage taken by 50%. When the pet attacks, it deals damage equal to 0.5% of the maximum health of the target.
 }
 
 STRING 7918
@@ -54567,20 +54602,14 @@ STRING 8289
 Attack: Кровожадность
 }
 
-STRING 8290
-// Abilities: A0D9 (Собака: Неуловимость), Name (Name)
-{
-Собака: Неуловимость
-}
-
 STRING 8291
-// Abilities: A0D9 (Собака: Неуловимость), Tip (Tooltip - Normal)
+// Abilities: A0D9 (Pet: Неуловимость), Tip (Tooltip - Normal)
 {
 Elusiveness
 }
 
 STRING 8292
-// Abilities: A0D9 (Собака: Неуловимость), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0D9 (Pet: Неуловимость), Ubertip (Tooltip - Normal - Extended)
 {
 Pet takes 50% less damage from magic.
 }
@@ -56674,16 +56703,6 @@ STRING 8617
 // Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Tip (Tooltip - Normal)
 {
 Manadragon
-}
-
-STRING 8618
-// Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Attack:|r 40, |cffffcc00Health:|r 4500.
-- Burns |cffbe81f740|r mana when attacking. If the target has no mana, it deals 100 damage.
-- |cff00cceeAt 75% health:|r Every 10 seconds, burns |cffbe81f720|r mana for all heroes.
-- |cff00cceeAt 50% health:|r The boss burns 2 times more mana. Creates 4 zones, each of which deals |cffbe81f730|r damage to the enemy and restores |cffbe81f720|r mana.
-- |cff00cceeAt 25% health:|r Burns all mana for all heroes.
 }
 
 STRING 8619
