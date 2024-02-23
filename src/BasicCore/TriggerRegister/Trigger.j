@@ -43,7 +43,7 @@ library Trigger initializer init requires TriggerDatabase
 			set itemCheck = UnitItemInSlot( triggerUnit, i )
 			set number = LoadInteger( ItemTypeData, GetItemTypeId(itemCheck), KEY_NAME )
 			if number != 0 and TriggerDatabase_EventUsed[index] == EventType[number] then
-				call TriggerExecute( TriggerToExecute[number] )
+				call ConditionalTriggerExecute( TriggerToExecute[number] )
 			endif
 			set i = i + 1
 		endloop
@@ -60,6 +60,9 @@ library Trigger initializer init requires TriggerDatabase
 	    local trigger triggerToExecute = CreateTrigger()
 	    
 	    call TriggerAddAction( triggerToExecute, action )
+	    if condition != null then
+	    	call TriggerAddCondition( triggerToExecute, Condition( condition ) )
+	    endif
 	    
 	    set TriggerToExecute[ActionListMax] = triggerToExecute
 	    set ItemType[ActionListMax] = itemType
@@ -84,7 +87,7 @@ library Trigger initializer init requires TriggerDatabase
 			set itemCheck = UnitItemInSlot( triggerUnit, i )
 			set number = LoadInteger( ItemTypeData, GetItemTypeId(itemCheck), KEY_NAME )
 			if number != 0 and TriggerDatabase_EventUsedCustom[index] == EventTypeCustom[number] then
-				call TriggerExecute( TriggerToExecute[number] )
+				call ConditionalTriggerExecute( TriggerToExecute[number] )
 			endif
 			set i = i + 1
 		endloop
@@ -104,6 +107,9 @@ library Trigger initializer init requires TriggerDatabase
 	    local trigger triggerToExecute = CreateTrigger()
 	    
 	    call TriggerAddAction( triggerToExecute, action )
+	    if condition != null then
+	    	call TriggerAddCondition( triggerToExecute, Condition( condition ) )
+	    endif
 	    
 	    set TriggerToExecute[ActionListMax] = triggerToExecute
 	    set ItemType[ActionListMax] = itemType

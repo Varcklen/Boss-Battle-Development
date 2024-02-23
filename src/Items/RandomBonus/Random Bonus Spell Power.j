@@ -10,12 +10,10 @@ scope RandomBonusSpellPower initializer init
 	endfunction
 
 	private function add_action takes nothing returns nothing
-		call BJDebugMsg("Added")
 		call spdst( GetManipulatingUnit(), SPELL_POWER_TO_ADD )
 	endfunction
 	
 	private function remove_action takes nothing returns nothing
-		call BJDebugMsg("Removed")
 		call spdst( GetManipulatingUnit(), -SPELL_POWER_TO_ADD )
 	endfunction
 

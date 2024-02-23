@@ -25,7 +25,7 @@ scope OutOfCombatTimer initializer init
 	
 	/*OnFightEnd*/
 	private function OnFightEnd_Condition takes nothing returns boolean
-		return udg_real[1] > 0 and not( udg_logic[43] ) and not(udg_logic[97] ) and IsSinglePlayer == false
+		return udg_real[1] > 0 and not( udg_logic[43] ) and not(udg_logic[97]) and IsSinglePlayer == false
 	endfunction
 	
 	private function OnFightEnd takes nothing returns nothing
@@ -79,10 +79,11 @@ scope OutOfCombatTimer initializer init
 	
 	/*OnHeroRepick*/
 	private function OnHeroRepick_Condition takes nothing returns boolean
-		return IsSinglePlayer == false
+		return IsSinglePlayer == false and PlayerLeave_IsPlayerLeaver(Event_HeroRepick_Player) == false
 	endfunction
 	
 	private function OnHeroRepick takes nothing returns nothing
+		//call BJDebugMsg("OnHeroRepick")
         call PauseTimer( Timer )
         call PauseTimer( TimerWarning )
         call PauseTimer( RepickDisableTimer )

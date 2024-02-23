@@ -7,7 +7,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.2.3T|r
+|cffbe81f7Boss Battle 1.5.2.5T|r
 }
 
 STRING 2
@@ -3679,7 +3679,7 @@ Animal Companion, [|cffffcc00Level %d|r]
 }
 
 STRING 589
-// Units: N01R ((H) Plague doctor), Propernames (Proper Names)
+// Units: N01R ((H) Plague Doctor), Propernames (Proper Names)
 {
 Ibennah
 }
@@ -3820,7 +3820,7 @@ Summons a pet. The pet has 45% Attack and Health from the caster in addition to 
 }
 
 STRING 611
-// Units: N00X ((R) Combat ogre), Propernames (Proper Names)
+// Units: N00X ((R) Combat Ogre), Propernames (Proper Names)
 {
 Sans
 }
@@ -3855,6 +3855,13 @@ STRING 615
 Ariel
 }
 
+STRING 616
+// Items: I0BQ (Disco ball), Description (Description)
+{
+|cff4169e1Rare|r
+Gives 15 Attack for each set type in the inventory.
+}
+
 STRING 617
 // Units: N002 ((H) Druid of Nature), Propernames (Proper Names)
 {
@@ -3871,6 +3878,13 @@ STRING 619
 // Units: N001 ((E) Moon Owl), Propernames (Proper Names)
 {
 Yoll
+}
+
+STRING 620
+// Items: I0BQ (Disco ball), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Gives 15 Attack for each set type in the inventory.
 }
 
 STRING 621
@@ -3915,10 +3929,24 @@ STRING 627
 Monty Python
 }
 
+STRING 628
+// Items: I04H (Brainfruit), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 2 for each set type in the inventory.
+}
+
 STRING 629
 // Units: H01U ((D) Sludge), Propernames (Proper Names)
 {
 Slimey
+}
+
+STRING 630
+// Items: I04H (Brainfruit), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 2 for each set type in the inventory.
 }
 
 STRING 631
@@ -6930,6 +6958,16 @@ STRING 1065
 The first |cffcc0000corrupted|r artifact in battle is not destroyed.
 }
 
+STRING 1066
+// Abilities: A0GT (Special: Multicast), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Increases Attack by 1 and Spell Power by 1% for each set type in the inventory until the end of the battle. 
+|cffffcc00Cooldown:|r 15 seconds.
+
+|cFF959697The effect is cumulative.|r
+}
+
 STRING 1067
 // Items: I0EI (Thief's Armor), Name (Name)
 {
@@ -6940,6 +6978,17 @@ STRING 1068
 // Items: I0EI (Thief's Armor), Tip (Tooltip - Basic)
 {
 Thief's Armor
+}
+
+STRING 1069
+// Abilities: A088 (Unique: Provocation), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Forces the enemy to attack the caster.
+|cffffcc00Cooldown:|r 8 seconds.
+
+|cFF959697Less effective against bosses. 
+Does not work on mechs.|r
 }
 
 STRING 1070
@@ -9720,10 +9769,14 @@ Destroys all souls and deals an additional 200 damage per soul.
 }
 
 STRING 1466
-// Items: I0BQ (Disco ball), Description (Description)
+// Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ледяной дракон), Ubertip (Tooltip - Normal - Extended)
 {
-|cff4169e1Rare|r
-Gain 15 attack damage for each set for which you have 1 or more pieces.
+|cffffcc00Attack power:|r 0, |cffffcc00Health:|r 10000.
+- Ballistas appear in the arena, firing at the heroes. Before destruction, the ballista shoots at the boss, taking away 7.5% of its health.
+- Every 8 seconds, calls the ballista to a random point.
+- Every 6 seconds, the boss launches ice shells at the heroes, dealing |cffbe81f7400|r damage after 2 seconds.
+- |cff00cceeAt 50% health:|r Reduces the attack and movement speed of all heroes by 25%.
+|cffffcc00Duration:|r 15 seconds.
 }
 
 STRING 1467
@@ -9739,10 +9792,9 @@ Disco ball
 }
 
 STRING 1469
-// Items: I0BQ (Disco ball), Ubertip (Tooltip - Extended)
+// Units: N01R ((H) Plague Doctor), Name (Name)
 {
-|cff4169e1Rare|r
-Gain 15 attack damage for each set for which you have 1 or more pieces.
+(H) Plague Doctor
 }
 
 STRING 1470
@@ -9888,6 +9940,17 @@ Reduces stats by 8.
 Every 60 seconds, fully restores health and mana.
 }
 
+STRING 1490
+// Abilities: A036 (Unique: Provocation (+)), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Forces the enemy to attack the caster.
+|cffffcc00Cooldown:|r 2 seconds.
+
+|cFF959697Less effective against bosses. 
+Does not work on mechs.|r
+}
+
 STRING 1491
 // Items: I0BK (Thief's Footpads), Name (Name)
 {
@@ -9898,6 +9961,14 @@ STRING 1492
 // Items: I0BK (Thief's Footpads), Tip (Tooltip - Basic)
 {
 Thief's Footpads
+}
+
+STRING 1493
+// Abilities: A08L (Legionary: Blade of fire), Researchubertip (Tooltip - Learn - Extended)
+{
+Inflicts |cffbe81f7150/200/250/300/350|r fire damage to an enemy. With a probability of |cffd7df0160%/70%/80%/90%/100%|r, gives a ruby.
+|cffffcc00Cooldown:|r 12 seconds.
+|cffffcc00Cost:|r 40/50/60/70/80 mana.
 }
 
 STRING 1494
@@ -10008,6 +10079,13 @@ STRING 1509
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a sheep artifact.
 }
 
+STRING 1510
+// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts |cffbe81f7150|r fire damage to an enemy. With a probability of |cffd7df0160%|r, gives a ruby.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 1511
 // Items: I0BF (Tarot Card: Winds), Name (Name)
 {
@@ -10018,6 +10096,13 @@ STRING 1512
 // Items: I0BF (Tarot Card: Winds), Tip (Tooltip - Basic)
 {
 Tarot Card: Winds
+}
+
+STRING 1513
+// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts |cffbe81f7200|r fire damage to an enemy. With a probability of |cffd7df0170%|r, gives a ruby.
+|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 1514
@@ -11922,6 +12007,13 @@ STRING 1788
 Moon owl
 }
 
+STRING 1789
+// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts |cffbe81f7250|r fire damage to an enemy. With a probability of |cffd7df0180%|r, gives a ruby.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 1790
 // Items: I09I (Moon owl), Ubertip (Tooltip - Extended)
 {
@@ -12145,6 +12237,32 @@ STRING 1822
 |cffffcc00Reward:|r Mechatron Charizard.
 
 |cffffcc00Progress:|r |cffe96a1cLegendary|r, |cff4169e1Rare|r, |cffbababcCommon|r, |cffb40431Blood|r, |cff848484Rune|r, |cffb18904Mech|r, |cff5858faMoon|r, |cff7cfc00Nature|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r, |cff2d9995Weapon|r, |cff00cceeCrystal|r |cffffffff|r
+}
+
+STRING 1823
+// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts |cffbe81f7300|r fire damage to an enemy. With a probability of |cffd7df0190%|r, gives a ruby.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 1824
+// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts |cffbe81f7350|r fire damage to an enemy and gives a ruby.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 1825
+// Abilities: A1EH (Extra: Rubies (Legionary)), Name (Name)
+{
+Extra: Rubies (Legionary)
+}
+
+STRING 1826
+// Abilities: A1EH (Extra: Rubies (Legionary)), Tip (Tooltip - Normal)
+{
+Rubies
 }
 
 STRING 1827
@@ -13540,6 +13658,12 @@ Activation: Increases the number of charges of |cff088a08potions|r in your inven
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
+STRING 2028
+// Abilities: A1EH (Extra: Rubies (Legionary)), Ubertip (Tooltip - Normal - Extended)
+{
+The hero can receive rubies from some abilities. Each ruby increases Attack by 1.
+}
+
 STRING 2029
 // Items: I07T (Magician's Boots), Name (Name)
 {
@@ -13550,6 +13674,12 @@ STRING 2030
 // Items: I07T (Magician's Boots), Tip (Tooltip - Basic)
 {
 Magician's Boots
+}
+
+STRING 2031
+// Abilities: A08E (Legionary: Flaming crystal), Researchubertip (Tooltip - Learn - Extended)
+{
+With a probability of |cffd7df012%/4%/6%/8%/10%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
 }
 
 STRING 2032
@@ -16853,10 +16983,9 @@ Activation: Restores the ally |cffbe81f7100|r health. Additionally restores 25 h
 }
 
 STRING 2517
-// Items: I04H (Brainfruit), Description (Description)
+// Abilities: A141 (Soul Contract: Alchemy), Ubertip (Tooltip - Normal - Extended)
 {
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. If you have a |cffb18904mech|r, increases stats by 2. Repeat for all other sets.
+Each Hero uses a random |cff088a08potion|r.
 }
 
 STRING 2518
@@ -16872,10 +17001,10 @@ Brainfruit
 }
 
 STRING 2520
-// Items: I04H (Brainfruit), Ubertip (Tooltip - Extended)
+// Abilities: A132 (Soul Contract: Blood), Ubertip (Tooltip - Normal - Extended)
 {
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. If you have a |cffb18904mech|r, increases stats by 2. Repeat for all other sets.
+Each Hero receives |cffbe81f715%|r lifesteal on all damage.
+|cffffcc00Duration:|r 15 seconds.
 }
 
 STRING 2521
@@ -17781,6 +17910,12 @@ STRING 2657
 Counts as 3 artifacts from the sets |cffb40431blood|r, |cff848484rune|r, |cffb18904mech|r, |cff5858famoon|r, |cff7cfc00nature|r, |cfffe9a2ealchemy|r, |cff9001fdring|r and |cff00cceecrystal|r. Cannot be split.
 }
 
+STRING 2658
+// Abilities: A08E (Legionary: Flaming crystal), Ubertip (Tooltip - Normal - Extended)
+{
+With a probability of |cffd7df012%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
+}
+
 STRING 2659
 // Items: I03H (Ikaros Mudstone), Name (Name)
 {
@@ -17791,6 +17926,12 @@ STRING 2660
 // Items: I03H (Ikaros Mudstone), Tip (Tooltip - Basic)
 {
 Ikaros Mudstone
+}
+
+STRING 2661
+// Abilities: A08E (Legionary: Flaming crystal), Ubertip (Tooltip - Normal - Extended)
+{
+With a probability of |cffd7df014%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
 }
 
 STRING 2662
@@ -19617,6 +19758,12 @@ STRING 2932
 Tome of Oblivion
 }
 
+STRING 2933
+// Abilities: A08E (Legionary: Flaming crystal), Ubertip (Tooltip - Normal - Extended)
+{
+With a probability of |cffd7df016%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
+}
+
 STRING 2934
 // Items: I01L (Slippers of Madness), Name (Name)
 {
@@ -19627,6 +19774,12 @@ STRING 2935
 // Items: I01L (Slippers of Madness), Tip (Tooltip - Basic)
 {
 Slippers of Madness
+}
+
+STRING 2936
+// Abilities: A08E (Legionary: Flaming crystal), Ubertip (Tooltip - Normal - Extended)
+{
+With a probability of |cffd7df018%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
 }
 
 STRING 2937
@@ -20931,6 +21084,12 @@ Increases armor by 5 and health by 500.
 Decreases attack speed by 25% and increases cooldown of abilities and items by 25%.
 }
 
+STRING 3121
+// Abilities: A08E (Legionary: Flaming crystal), Ubertip (Tooltip - Normal - Extended)
+{
+With a probability of |cffd7df0110%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
+}
+
 STRING 3122
 // Items: I00A (Runestone Kandom), Name (Name)
 {
@@ -20941,6 +21100,12 @@ STRING 3123
 // Items: I00A (Runestone Kandom), Tip (Tooltip - Basic)
 {
 Runestone Kandom
+}
+
+STRING 3124
+// Units: N00X ((R) Combat Ogre), Name (Name)
+{
+(R) Combat Ogre
 }
 
 STRING 3125
@@ -21611,6 +21776,16 @@ STRING 3224
 // Abilities: A1DK ((т)Аура: Teamwork), Name (Name)
 {
 (т)Аура: Teamwork
+}
+
+STRING 3225
+// Abilities: A195 (Shoggoth: Writhing Mass), Researchubertip (Tooltip - Learn - Extended)
+{
+Teleports all enemies to the center of the area, reduces their armor by 4/5/6/7/8. If any of them dies, with a probability of |cffd7df0120%|r, increases entropy by 1. Summons 4/5/6/7/8 tentacles.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 100 mana.
 }
 
 STRING 3226
@@ -24538,17 +24713,6 @@ STRING 3661
 Song of Joy, [|cffffcc00Level %d|r]
 }
 
-STRING 3662
-// Abilities: A1AV (Bard: Song of Joy), Researchubertip (Tooltip - Learn - Extended)
-{
-Inspire nearby allies, increasing their attack power by 15/20/25/30/35 and restoring |cffbe81f730/45/60/75/90|r health every 3 seconds. You can switch to an alternate version of the song.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 60/65/70/75/80 mana.
-
-|cFF959697Activating an alternative song turns off the effect of the current one.|r
-}
-
 STRING 3663
 // Abilities: A1AV (Bard: Song of Joy), Tip (Tooltip - Normal)
 {
@@ -24579,56 +24743,6 @@ STRING 3667
 Song of Joy, [|cffffcc00Level 5|r]
 }
 
-STRING 3668
-// Abilities: A1AV (Bard: Song of Joy), Ubertip (Tooltip - Normal - Extended)
-{
-Inspire nearby allies, increasing their attack power by 15 and restoring |cffbe81f730|r health every 3 seconds.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-
-|cFF959697Activating an alternative song turns off the effect of the current one.|r
-}
-
-STRING 3669
-// Abilities: A1AV (Bard: Song of Joy), Ubertip (Tooltip - Normal - Extended)
-{
-Inspire nearby allies, increasing their attack power by 20 and restoring |cffbe81f745|r health every 3 seconds.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-
-|cFF959697Activating an alternative song turns off the effect of the current one.|r
-}
-
-STRING 3670
-// Abilities: A1AV (Bard: Song of Joy), Ubertip (Tooltip - Normal - Extended)
-{
-Inspire nearby allies, increasing their attack power by 25 and restoring |cffbe81f760|r health every 3 seconds.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-
-|cFF959697Activating an alternative song turns off the effect of the current one.|r
-}
-
-STRING 3671
-// Abilities: A1AV (Bard: Song of Joy), Ubertip (Tooltip - Normal - Extended)
-{
-Inspire nearby allies, increasing their attack power by 30 and restoring |cffbe81f775|r health every 3 seconds.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-
-|cFF959697Activating an alternative song turns off the effect of the current one.|r
-}
-
-STRING 3672
-// Abilities: A1AV (Bard: Song of Joy), Ubertip (Tooltip - Normal - Extended)
-{
-Inspire nearby allies, increasing their attack power by 35 and restoring |cffbe81f790|r health every 3 seconds.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-
-|cFF959697Activating an alternative song turns off the effect of the current one.|r
-}
-
 STRING 3673
 // Abilities: A1A9 (Infernal: Fel Immolation), Hotkey (Hotkey - Normal)
 {
@@ -24639,14 +24753,6 @@ STRING 3674
 // Abilities: A1AV (Bard: Song of Joy), Untip (Tooltip - Turn Off)
 {
 Song of Sorrow
-}
-
-STRING 3675
-// Abilities: A1AV (Bard: Song of Joy), Unubertip (Tooltip - Turn Off - Extended)
-{
-Alternative version of the song. Grieves all nearby enemies, stunning for 1 second, reducing attack power and dealing damage every 3 seconds.
-
-|cFF959697Can be activated during cooldown. Activating an alternative song turns off the effect of the current one.|r
 }
 
 STRING 3676
@@ -26544,15 +26650,10 @@ Writhing Mass, [|cffffcc00Level %d|r]
 }
 
 STRING 3965
-// Abilities: A195 (Shoggoth: Writhing Mass), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A11Y (Soul Contract: Mech), Ubertip (Tooltip - Normal - Extended)
 {
-Teleports all enemies to the center of the area, reduces their armor by 4/5/6/7/8. If any of them dies, with a probability of |cffd7df0120%|r, increases entropy by 1. Summons 4/5/6/7/8 tentacles.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 100 mana.
-
-|cFF959697Entropy increases mana by 2 and spell power by 1%.|r
+Increases the Attack Speed and Movement Speed of each Hero by 15%.
+|cffffcc00Duration:|r 15 seconds.
 }
 
 STRING 3966
@@ -26586,58 +26687,34 @@ Writhing Mass, [|cffffcc00Level 5|r]
 }
 
 STRING 3971
-// Abilities: A195 (Shoggoth: Writhing Mass), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A11W (Soul Contract: Ring), Ubertip (Tooltip - Normal - Extended)
 {
-Teleports all enemies to the center of the area, reduces their armor by 4. If any of them dies, with a probability of |cffd7df0120%|r, increases entropy by 1. Summons 4 tentacles.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-
-|cFF959697Entropy increases mana by 2 and spell power by 1%.|r
+Increases the Damage dealt to each Hero by 20%.
+|cffffcc00Duration:|r 15 seconds.
 }
 
 STRING 3972
-// Abilities: A195 (Shoggoth: Writhing Mass), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A104 (Soul Contract: Rune), Ubertip (Tooltip - Normal - Extended)
 {
-Teleports all enemies to the center of the area, reduces their armor by 5. If any of them dies, with a probability of |cffd7df0120%|r, increases entropy by 1. Summons 5 tentacles.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-
-|cFF959697Entropy increases mana by 2 and spell power by 1%.|r
+Creates an Arena Rune next to each hero.
 }
 
 STRING 3973
-// Abilities: A195 (Shoggoth: Writhing Mass), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0ZX (Soul Contract: Moon), Ubertip (Tooltip - Normal - Extended)
 {
-Teleports all enemies to the center of the area, reduces their armor by 6. If any of them dies, with a probability of |cffd7df0120%|r, increases entropy by 1. Summons 6 tentacles.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-
-|cFF959697Entropy increases mana by 2 and spell power by 1%.|r
+Each Hero deals |cffbe81f7150|r damage to all enemies nearby.
 }
 
 STRING 3974
-// Abilities: A195 (Shoggoth: Writhing Mass), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0ZM (Soul Contract: Crystal), Ubertip (Tooltip - Normal - Extended)
 {
-Teleports all enemies to the center of the area, reduces their armor by 7. If any of them dies, with a probability of |cffd7df0120%|r, increases entropy by 1. Summons 7 tentacles.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-
-|cFF959697Entropy increases mana by 2 and spell power by 1%.|r
+Reduces the cooldown of abilities of each Hero by 25%.
 }
 
 STRING 3975
-// Abilities: A195 (Shoggoth: Writhing Mass), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0ZL (Soul Contract: Nature), Ubertip (Tooltip - Normal - Extended)
 {
-Teleports all enemies to the center of the area, reduces their armor by 8. If any of them dies, with a probability of |cffd7df0120%|r, increases entropy by 1. Summons 8 tentacles.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-
-|cFF959697Entropy increases mana by 2 and spell power by 1%.|r
+Restores |cffbe81f725%|r Health and Mana to the Hero with the lowest percentage of Health.
 }
 
 STRING 3976
@@ -26665,13 +26742,10 @@ Void Blast, [|cffffcc00Level %d|r]
 }
 
 STRING 3980
-// Abilities: A194 (Shoggoth: Void Blast), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A1EL (Extra: Soul Contract (Mephistar)), Ubertip (Tooltip - Normal - Extended)
 {
-Deals |cffbe81f7170/205/240/275/310|r damage to enemies in the area. Increases damage dealt by 3/6/9/12/15 per entropy. Restores the hero |cffbe81f75/6/7/8/9|r mana for each enemy. Every fourth hited enemy at a time increases entropy by 1.
+You can use additional Hero abilities depending on the number of artifacts from the sets.
 |cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 80 mana.
-
-|cFF959697Entropy increases mana by 2 and spell power by 1%.|r
 }
 
 STRING 3981
@@ -26705,48 +26779,35 @@ Void Blast, [|cffffcc00Level 5|r]
 }
 
 STRING 3986
-// Abilities: A194 (Shoggoth: Void Blast), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0ZK (Mephistar: Soul ContractXXX), Name (Name)
 {
-Deals |cffbe81f7170|r damage to enemies in the area. Increases damage dealt by 3 per entropy. Restores the hero |cffbe81f75|r mana for each enemy. Every fourth hited enemy at a time increases entropy by 1.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Entropy increases mana by 2 and spell power by 1%.|r
+Mephistar: Soul ContractXXX
 }
 
 STRING 3987
-// Abilities: A194 (Shoggoth: Void Blast), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A188 (Dealer: Eagle Eye), Researchhotkey (Hotkey - Learn)
 {
-Deals |cffbe81f7205|r damage to enemies in the area. Increases damage dealt by 6 per entropy. Restores the hero |cffbe81f76|r mana for each enemy. Every fourth hited enemy at a time increases entropy by 1.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Entropy increases mana by 2 and spell power by 1%.|r
+E
 }
 
 STRING 3988
-// Abilities: A194 (Shoggoth: Void Blast), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1EM (Mephistar: Soul Split), Name (Name)
 {
-Deals |cffbe81f7240|r damage to enemies in the area. Increases damage dealt by 9 per entropy. Restores the hero |cffbe81f77|r mana for each enemy. Every fourth hited enemy at a time increases entropy by 1.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Entropy increases mana by 2 and spell power by 1%.|r
+Mephistar: Soul Split
 }
 
 STRING 3989
-// Abilities: A194 (Shoggoth: Void Blast), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A04L (Doctor: Unreachable), Researchubertip (Tooltip - Learn - Extended)
 {
-Deals |cffbe81f7275|r damage to enemies in the area. Increases damage dealt by 12 per entropy. Restores the hero |cffbe81f78|r mana for each enemy. Every fourth hited enemy at a time increases entropy by 1.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Entropy increases mana by 2 and spell power by 1%.|r
+Increases Health by 75/150/225/300/375.
+When a Hero's ability is used, reduces the Attack of nearby enemies by 2/3/4/5/6.
 }
 
 STRING 3990
-// Abilities: A194 (Shoggoth: Void Blast), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
 {
-Deals |cffbe81f7310|r damage to enemies in the area. Increases damage dealt by 15 per entropy. Restores the hero |cffbe81f79|r mana for each enemy. Every fourth hited enemy at a time increases entropy by 1.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Entropy increases mana by 2 and spell power by 1%.|r
+Increases Health by 75.
+When a Hero's ability is used, reduces the Attack of nearby enemies by 2.
 }
 
 STRING 3991
@@ -27141,7 +27202,7 @@ Dealer: Eagle Eye
 }
 
 STRING 4053
-// Abilities: A188 (Dealer: Eagle Eye), Researchhotkey (Hotkey - Learn)
+// Abilities: A17W (Money Bag: Composure), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -27604,7 +27665,7 @@ Money Bag: Composure
 }
 
 STRING 4124
-// Abilities: A17W (Money Bag: Composure), Researchhotkey (Hotkey - Learn)
+// Abilities: A17L (Wicerd: Hot Elbows), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -28159,7 +28220,7 @@ Freezes the target. If the target is already frozen, deals |cffbe81f7300|r damag
 }
 
 STRING 4203
-// Abilities: A17L (Wicerd: Hot Elbows), Hotkey (Hotkey - Normal)
+// Abilities: A17L (Wicerd: Hot Elbows), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -28171,7 +28232,7 @@ Wicerd: Hot Elbows
 }
 
 STRING 4205
-// Abilities: A17L (Wicerd: Hot Elbows), Researchhotkey (Hotkey - Learn)
+// Abilities: A17L (Wicerd: Hot Elbows), Unhotkey (Hotkey - Turn Off)
 {
 E
 }
@@ -28255,7 +28316,7 @@ The hero is getting hotter. Your freeze effect now only reduces attack and movem
 }
 
 STRING 4218
-// Abilities: A17L (Wicerd: Hot Elbows), Unhotkey (Hotkey - Turn Off)
+// Abilities: A16N (Maiden: Pacifism), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -28730,7 +28791,7 @@ Maiden: Pacifism
 }
 
 STRING 4289
-// Abilities: A16N (Maiden: Pacifism), Researchhotkey (Hotkey - Learn)
+// Abilities: A15Q (Predator: Shark Scales), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -29514,7 +29575,7 @@ Predator: Shark Scales
 }
 
 STRING 4410
-// Abilities: A15Q (Predator: Shark Scales), Researchhotkey (Hotkey - Learn)
+// Abilities: A158 (Dog: Blight), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -30016,7 +30077,7 @@ Dog: Blight
 }
 
 STRING 4485
-// Abilities: A158 (Dog: Blight), Researchhotkey (Hotkey - Learn)
+// Abilities: A150 (Troll Mage: Embolden), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -30336,7 +30397,7 @@ STRING 4532
 }
 
 STRING 4533
-// Abilities: A150 (Troll Mage: Embolden), Hotkey (Hotkey - Normal)
+// Abilities: A150 (Troll Mage: Embolden), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -30348,7 +30409,7 @@ Troll Mage: Embolden
 }
 
 STRING 4535
-// Abilities: A150 (Troll Mage: Embolden), Researchhotkey (Hotkey - Learn)
+// Abilities: A133 (Прочее: Осколок души: Жатва), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -31139,9 +31200,15 @@ Alchemy
 }
 
 STRING 4658
-// Abilities: A141 (Soul Contract: Alchemy), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1AV (Bard: Song of Joy), Researchubertip (Tooltip - Learn - Extended)
 {
-Each hero uses a random |cff088a08potion|r.
+Inspire nearby allies, increasing their attack power by 15/20/25/30/35 and restoring |cffbe81f730/45/60/75/90|r health every 3 seconds. You can switch to an alternate version of the song.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 60/65/70/75/80 mana.
+
+|cFF959697Activating an alternative song turns off the effect of the current one.
+Less effective on minions.|r
 }
 
 STRING 4659
@@ -31603,7 +31670,7 @@ STRING 4730
 }
 
 STRING 4731
-// Abilities: A133 (Прочее: Осколок души: Жатва), Researchhotkey (Hotkey - Learn)
+// Abilities: A12S (Adventurer: Treasure hunt), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -31645,10 +31712,14 @@ Blood
 }
 
 STRING 4738
-// Abilities: A132 (Soul Contract: Blood), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1AV (Bard: Song of Joy), Ubertip (Tooltip - Normal - Extended)
 {
-Each hero get a buff: "Any damage dealt restores health equal to |cffbe81f715%|r of the damage dealt."
-|cffffcc00Duration:|r 20 seconds.
+Inspire nearby allies, increasing their attack power by 15 and restoring |cffbe81f730|r health every 3 seconds.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+
+|cFF959697Activating an alternative song turns off the effect of the current one.
+Less effective on minions.|r
 }
 
 STRING 4739
@@ -31913,7 +31984,7 @@ Adventurer: Treasure hunt
 }
 
 STRING 4779
-// Abilities: A12S (Adventurer: Treasure hunt), Researchhotkey (Hotkey - Learn)
+// Abilities: A12A (Altar: Drain Life), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -32538,7 +32609,7 @@ STRING 4869
 }
 
 STRING 4870
-// Abilities: A12A (Altar: Drain Life), Hotkey (Hotkey - Normal)
+// Abilities: A12A (Altar: Drain Life), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -32550,7 +32621,7 @@ Altar: Drain Life
 }
 
 STRING 4872
-// Abilities: A12A (Altar: Drain Life), Researchhotkey (Hotkey - Learn)
+// Abilities: A129 (Altar: Drain Life), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -32641,7 +32712,7 @@ The hero binds all enemies nearby, dealing |cffbe81f716|r damage every second an
 }
 
 STRING 4885
-// Abilities: A129 (Altar: Drain Life), Hotkey (Hotkey - Normal)
+// Abilities: A129 (Altar: Drain Life), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -32653,7 +32724,7 @@ Altar: Drain Life
 }
 
 STRING 4887
-// Abilities: A129 (Altar: Drain Life), Researchhotkey (Hotkey - Learn)
+// Abilities: A10M (Gambler: Beginner’s Luck), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -33148,10 +33219,14 @@ Mech
 }
 
 STRING 4960
-// Abilities: A11Y (Soul Contract: Mech), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1AV (Bard: Song of Joy), Ubertip (Tooltip - Normal - Extended)
 {
-Increases the attack and movement speed of each hero by 15%.
-|cffffcc00Duration:|r 20 seconds.
+Inspire nearby allies, increasing their attack power by 20 and restoring |cffbe81f745|r health every 3 seconds.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+
+|cFF959697Activating an alternative song turns off the effect of the current one.
+Less effective on minions.|r
 }
 
 STRING 4961
@@ -33197,10 +33272,14 @@ Ring
 }
 
 STRING 4968
-// Abilities: A11W (Soul Contract: Ring), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1AV (Bard: Song of Joy), Ubertip (Tooltip - Normal - Extended)
 {
-Increases the damage dealt to each hero by 40%.
-|cffffcc00Duration:|r 20 seconds.
+Inspire nearby allies, increasing their attack power by 25 and restoring |cffbe81f760|r health every 3 seconds.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+
+|cFF959697Activating an alternative song turns off the effect of the current one.
+Less effective on minions.|r
 }
 
 STRING 4969
@@ -33607,6 +33686,15 @@ STRING 5032
 |cffffcc00Blessing:|r Purification
 }
 
+STRING 5033
+// Abilities: A195 (Shoggoth: Writhing Mass), Ubertip (Tooltip - Normal - Extended)
+{
+Teleports all enemies to the center of the area, reduces their armor by 4. If any of them dies, with a probability of |cffd7df0120%|r, increases entropy by 1. Summons 4 tentacles.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 5034
 // Abilities: A118 (Blessing: Очищение (g23)), Name (Name)
 {
@@ -33980,7 +34068,7 @@ Gambler: Beginner’s Luck
 }
 
 STRING 5095
-// Abilities: A10M (Gambler: Beginner’s Luck), Researchhotkey (Hotkey - Learn)
+// Abilities: A0ZN (Knight: Gift of the Dead), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -34464,6 +34552,15 @@ STRING 5169
 Bite, [|cffffcc00Level %d|r]
 }
 
+STRING 5170
+// Abilities: A195 (Shoggoth: Writhing Mass), Ubertip (Tooltip - Normal - Extended)
+{
+Teleports all enemies to the center of the area, reduces their armor by 5. If any of them dies, with a probability of |cffd7df0120%|r, increases entropy by 1. Summons 5 tentacles.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 5171
 // Abilities: A105 (Houndmaster: Bite), Tip (Tooltip - Normal)
 {
@@ -34494,6 +34591,48 @@ STRING 5175
 Bite, [|cffffcc00Level 5|r]
 }
 
+STRING 5176
+// Abilities: A195 (Shoggoth: Writhing Mass), Ubertip (Tooltip - Normal - Extended)
+{
+Teleports all enemies to the center of the area, reduces their armor by 6. If any of them dies, with a probability of |cffd7df0120%|r, increases entropy by 1. Summons 6 tentacles.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 5177
+// Abilities: A195 (Shoggoth: Writhing Mass), Ubertip (Tooltip - Normal - Extended)
+{
+Teleports all enemies to the center of the area, reduces their armor by 7. If any of them dies, with a probability of |cffd7df0120%|r, increases entropy by 1. Summons 7 tentacles.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 5178
+// Abilities: A195 (Shoggoth: Writhing Mass), Ubertip (Tooltip - Normal - Extended)
+{
+Teleports all enemies to the center of the area, reduces their armor by 8. If any of them dies, with a probability of |cffd7df0120%|r, increases entropy by 1. Summons 8 tentacles.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 5179
+// Abilities: A194 (Shoggoth: Void Blast), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f7170/205/240/275/310|r damage to enemies in the area. Increases damage dealt by 3/6/9/12/15 per entropy. Restores the hero |cffbe81f75/6/7/8/9|r mana for each enemy. Every fourth hited enemy at a time increases entropy by 1.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
+STRING 5180
+// Abilities: A194 (Shoggoth: Void Blast), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7170|r damage to enemies in the area. Increases damage dealt by 3 per entropy. Restores the hero |cffbe81f75|r mana for each enemy. Every fourth hited enemy at a time increases entropy by 1.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 5181
 // Abilities: A104 (Soul Contract: Rune), Name (Name)
 {
@@ -34507,9 +34646,14 @@ Rune
 }
 
 STRING 5183
-// Abilities: A104 (Soul Contract: Rune), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1AV (Bard: Song of Joy), Ubertip (Tooltip - Normal - Extended)
 {
-Creates an arena rune next to each hero.
+Inspire nearby allies, increasing their attack power by 30 and restoring |cffbe81f775|r health every 3 seconds.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+
+|cFF959697Activating an alternative song turns off the effect of the current one.
+Less effective on minions.|r
 }
 
 STRING 5184
@@ -34658,9 +34802,14 @@ Moon
 }
 
 STRING 5206
-// Abilities: A0ZX (Soul Contract: Moon), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1AV (Bard: Song of Joy), Ubertip (Tooltip - Normal - Extended)
 {
-Each hero deals |cffbe81f7225|r damage to all enemies nearby.
+Inspire nearby allies, increasing their attack power by 35 and restoring |cffbe81f790|r health every 3 seconds.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+
+|cFF959697Activating an alternative song turns off the effect of the current one.
+Less effective on minions.|r
 }
 
 STRING 5207
@@ -34767,7 +34916,7 @@ Knight: Gift of the Dead
 }
 
 STRING 5224
-// Abilities: A0ZN (Knight: Gift of the Dead), Researchhotkey (Hotkey - Learn)
+// Abilities: A0ZK (Mephistar: Soul ContractXXX), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -34863,9 +35012,13 @@ Crystal
 }
 
 STRING 5239
-// Abilities: A0ZM (Soul Contract: Crystal), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1AV (Bard: Song of Joy), Unubertip (Tooltip - Turn Off - Extended)
 {
-Reduces the cooldown of abilities of each hero by 40%.
+Alternative version of the song. Grieves all nearby enemies, stunning for 1 second, reducing attack power and dealing damage every 3 seconds.
+
+|cFF959697Can be activated during cooldown.
+Activating an alternative song turns off the effect of the current one.
+Less effective on minions.|r
 }
 
 STRING 5240
@@ -34880,92 +35033,80 @@ STRING 5241
 Nature
 }
 
-STRING 5242
-// Abilities: A0ZL (Soul Contract: Nature), Ubertip (Tooltip - Normal - Extended)
-{
-Restores to the hero with the lowest percentage of health |cffbe81f715%|r of health and mana 4 times.
-}
-
-STRING 5243
-// Abilities: A0ZK (Mephistar: Soul Contract), Name (Name)
-{
-Mephistar: Soul Contract
-}
-
 STRING 5244
-// Abilities: A0ZK (Mephistar: Soul Contract), Researchhotkey (Hotkey - Learn)
+// Abilities: A0WR (Shaman: Polymorph: Rat), Hotkey (Hotkey - Normal)
 {
 E
 }
 
 STRING 5245
-// Abilities: A0ZK (Mephistar: Soul Contract), Researchtip (Tooltip - Learn)
+// Abilities: A0ZK (Mephistar: Soul ContractXXX), Researchtip (Tooltip - Learn)
 {
 Soul Contract, [|cffffcc00Level %d|r]
 }
 
 STRING 5246
-// Abilities: A0ZK (Mephistar: Soul Contract), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A0ZK (Mephistar: Soul ContractXXX), Researchubertip (Tooltip - Learn - Extended)
 {
 The hero gets the opportunity to use 9 unique abilities that are tied to each type of set. During each battle, the hero can use these abilities as many times as he has artifacts from this set. Additionally increases the number of charges of active abilities by 0/1/2/3/4.
 }
 
 STRING 5247
-// Abilities: A0ZK (Mephistar: Soul Contract), Tip (Tooltip - Normal)
+// Abilities: A0ZK (Mephistar: Soul ContractXXX), Tip (Tooltip - Normal)
 {
 Soul Contract, [|cffffcc00Level 1|r]
 }
 
 STRING 5248
-// Abilities: A0ZK (Mephistar: Soul Contract), Tip (Tooltip - Normal)
+// Abilities: A0ZK (Mephistar: Soul ContractXXX), Tip (Tooltip - Normal)
 {
 Soul Contract, [|cffffcc00Level 2|r]
 }
 
 STRING 5249
-// Abilities: A0ZK (Mephistar: Soul Contract), Tip (Tooltip - Normal)
+// Abilities: A0ZK (Mephistar: Soul ContractXXX), Tip (Tooltip - Normal)
 {
 Soul Contract, [|cffffcc00Level 3|r]
 }
 
 STRING 5250
-// Abilities: A0ZK (Mephistar: Soul Contract), Tip (Tooltip - Normal)
+// Abilities: A0ZK (Mephistar: Soul ContractXXX), Tip (Tooltip - Normal)
 {
 Soul Contract, [|cffffcc00Level 4|r]
 }
 
 STRING 5251
-// Abilities: A0ZK (Mephistar: Soul Contract), Tip (Tooltip - Normal)
+// Abilities: A0ZK (Mephistar: Soul ContractXXX), Tip (Tooltip - Normal)
 {
 Soul Contract, [|cffffcc00Level 5|r]
 }
 
 STRING 5252
-// Abilities: A0ZK (Mephistar: Soul Contract), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0ZK (Mephistar: Soul ContractXXX), Ubertip (Tooltip - Normal - Extended)
 {
 The hero gets the opportunity to use 9 unique abilities that are tied to each type of set. During each battle, the hero can use these abilities as many times as he has artifacts from this set.
 }
 
 STRING 5253
-// Abilities: A0ZK (Mephistar: Soul Contract), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0ZK (Mephistar: Soul ContractXXX), Ubertip (Tooltip - Normal - Extended)
 {
 The hero gets the opportunity to use 9 unique abilities that are tied to each type of set. During each battle, the hero can use these abilities as many times as he has artifacts from this set. Additionally increases the number of charges of active abilities by 1.
 }
 
 STRING 5254
-// Abilities: A0ZK (Mephistar: Soul Contract), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0ZK (Mephistar: Soul ContractXXX), Ubertip (Tooltip - Normal - Extended)
 {
 The hero gets the opportunity to use 9 unique abilities that are tied to each type of set. During each battle, the hero can use these abilities as many times as he has artifacts from this set. Additionally increases the number of charges of active abilities by 2.
 }
 
 STRING 5255
-// Abilities: A0ZK (Mephistar: Soul Contract), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0ZK (Mephistar: Soul ContractXXX), Ubertip (Tooltip - Normal - Extended)
 {
 The hero gets the opportunity to use 9 unique abilities that are tied to each type of set. During each battle, the hero can use these abilities as many times as he has artifacts from this set. Additionally increases the number of charges of active abilities by 3.
 }
 
 STRING 5256
-// Abilities: A0ZK (Mephistar: Soul Contract), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0ZK (Mephistar: Soul ContractXXX), Ubertip (Tooltip - Normal - Extended)
 {
 The hero gets the opportunity to use 9 unique abilities that are tied to each type of set. During each battle, the hero can use these abilities as many times as he has artifacts from this set. Additionally increases the number of charges of active abilities by 4.
 }
@@ -35561,14 +35702,9 @@ Ice Dragon
 }
 
 STRING 5349
-// Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ледяной дракон), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0WR (Shaman: Polymorph: Rat), Researchhotkey (Hotkey - Learn)
 {
-|cffffcc00Attack power:|r 0, |cffffcc00Health:|r 10000.
-- The boss calls the ballistas. When ballista health drops to 25%, attacks the boss, inflicting 8,5% health, and then is destroyed.
-- Every 10 seconds, calls the ballista to a random point.
-- Every 6 seconds, the boss launches ice shells at the heroes, dealing |cffbe81f7200|r damage.
-- |cff00cceeAt 50% health:|r Reduces the attack and movement speed of all heroes by 25%.
-|cffffcc00Duration:|r 15 seconds.
+E
 }
 
 STRING 5350
@@ -36207,7 +36343,7 @@ STRING 5447
 }
 
 STRING 5448
-// Abilities: A0WR (Shaman: Polymorph: Rat), Hotkey (Hotkey - Normal)
+// Abilities: A0VW (Samurai: Temper of battle), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -36219,7 +36355,7 @@ Shaman: Polymorph: Rat
 }
 
 STRING 5450
-// Abilities: A0WR (Shaman: Polymorph: Rat), Researchhotkey (Hotkey - Learn)
+// Abilities: A0V4 (Energy Ball: Energy Addiction), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -36911,7 +37047,7 @@ Samurai: Temper of battle
 }
 
 STRING 5549
-// Abilities: A0VW (Samurai: Temper of battle), Researchhotkey (Hotkey - Learn)
+// Abilities: A0UQ (Commander: Retribution), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -37519,7 +37655,7 @@ Energy Ball: Energy Addiction
 }
 
 STRING 5642
-// Abilities: A0V4 (Energy Ball: Energy Addiction), Researchhotkey (Hotkey - Learn)
+// Abilities: A0UJ (Incarnation: Hollowed), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -37995,7 +38131,7 @@ Commander: Retribution
 }
 
 STRING 5711
-// Abilities: A0UQ (Commander: Retribution), Researchhotkey (Hotkey - Learn)
+// Abilities: A0TP (Harpy: Concentration), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -38315,7 +38451,7 @@ Incarnation: Hollowed
 }
 
 STRING 5760
-// Abilities: A0UJ (Incarnation: Hollowed), Researchhotkey (Hotkey - Learn)
+// Abilities: A0TJ (Devourer: Touch of horror), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -39293,7 +39429,7 @@ Harpy: Concentration
 }
 
 STRING 5905
-// Abilities: A0TP (Harpy: Concentration), Researchhotkey (Hotkey - Learn)
+// Abilities: A0TJ (Devourer: Touch of horror), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -39498,7 +39634,7 @@ STRING 5936
 }
 
 STRING 5937
-// Abilities: A0TJ (Devourer: Touch of horror), Hotkey (Hotkey - Normal)
+// Abilities: A0S7 (Demoman: Color gunpowder), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -39510,7 +39646,7 @@ Devourer: Touch of horror
 }
 
 STRING 5939
-// Abilities: A0TJ (Devourer: Touch of horror), Researchhotkey (Hotkey - Learn)
+// Abilities: A0RY (Admiral: Large bags), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -40732,7 +40868,7 @@ Demoman: Color gunpowder
 }
 
 STRING 6123
-// Abilities: A0S7 (Demoman: Color gunpowder), Researchhotkey (Hotkey - Learn)
+// Abilities: A0RA (Sludge: Poison Touch), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -40966,7 +41102,7 @@ Admiral: Large bags
 }
 
 STRING 6159
-// Abilities: A0RY (Admiral: Large bags), Researchhotkey (Hotkey - Learn)
+// Abilities: A0Q2 (Ghoul King: Vendetta of Death), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -41345,10 +41481,24 @@ STRING 6218
 W
 }
 
+STRING 6219
+// Abilities: A194 (Shoggoth: Void Blast), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7205|r damage to enemies in the area. Increases damage dealt by 6 per entropy. Restores the hero |cffbe81f76|r mana for each enemy. Every fourth hited enemy at a time increases entropy by 1.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 6220
 // Abilities: A0RM (Pet: Provocation), Tip (Tooltip - Normal)
 {
 Provocation
+}
+
+STRING 6221
+// Abilities: A194 (Shoggoth: Void Blast), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7240|r damage to enemies in the area. Increases damage dealt by 9 per entropy. Restores the hero |cffbe81f77|r mana for each enemy. Every fourth hited enemy at a time increases entropy by 1.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 6222
@@ -41499,7 +41649,7 @@ Sludge: Poison Touch
 }
 
 STRING 6246
-// Abilities: A0RA (Sludge: Poison Touch), Researchhotkey (Hotkey - Learn)
+// Abilities: A0Q2 (Ghoul King: Vendetta of Death), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -42780,7 +42930,7 @@ STRING 6445
 }
 
 STRING 6446
-// Abilities: A0Q2 (Ghoul King: Vendetta of Death), Hotkey (Hotkey - Normal)
+// Abilities: A0OI (Ent: Wandering Roots), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -42792,7 +42942,7 @@ Ghoul King: Vendetta of Death
 }
 
 STRING 6448
-// Abilities: A0Q2 (Ghoul King: Vendetta of Death), Researchhotkey (Hotkey - Learn)
+// Abilities: A0NS (Mentor: Tide), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -43954,7 +44104,7 @@ Ent: Wandering Roots
 }
 
 STRING 6626
-// Abilities: A0OI (Ent: Wandering Roots), Researchhotkey (Hotkey - Learn)
+// Abilities: A0NG (Metal Mage: Black Sabbath), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -44558,7 +44708,7 @@ Mentor: Tide
 }
 
 STRING 6720
-// Abilities: A0NS (Mentor: Tide), Researchhotkey (Hotkey - Learn)
+// Abilities: A0NG (Metal Mage: Black Sabbath), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -45181,7 +45331,7 @@ Imposes a seal on the enemy, which explodes after a while. Seal deals |cffbe81f7
 }
 
 STRING 6816
-// Abilities: A0NG (Metal Mage: Black Sabbath), Hotkey (Hotkey - Normal)
+// Abilities: A0NG (Metal Mage: Black Sabbath), Unhotkey (Hotkey - Turn Off)
 {
 E
 }
@@ -45193,7 +45343,7 @@ Metal Mage: Black Sabbath
 }
 
 STRING 6818
-// Abilities: A0NG (Metal Mage: Black Sabbath), Researchhotkey (Hotkey - Learn)
+// Abilities: A0LP (Elemental: Effacing the Living), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -45289,7 +45439,7 @@ Enters the hero into a trance. His attack and movement speed is reduced by 50%, 
 }
 
 STRING 6831
-// Abilities: A0NG (Metal Mage: Black Sabbath), Unhotkey (Hotkey - Turn Off)
+// Abilities: A0LK (Lord of Chaos: Madness), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -45336,6 +45486,13 @@ STRING 6838
 // Abilities: A0MD (Spirit: Fear), Hotkey (Hotkey - Normal)
 {
 Q
+}
+
+STRING 6839
+// Abilities: A194 (Shoggoth: Void Blast), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7275|r damage to enemies in the area. Increases damage dealt by 12 per entropy. Restores the hero |cffbe81f78|r mana for each enemy. Every fourth hited enemy at a time increases entropy by 1.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 6840
@@ -45489,6 +45646,13 @@ STRING 6864
 Backtracking, [|cffffcc00Level %d|r]
 }
 
+STRING 6865
+// Abilities: A194 (Shoggoth: Void Blast), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7310|r damage to enemies in the area. Increases damage dealt by 15 per entropy. Restores the hero |cffbe81f79|r mana for each enemy. Every fourth hited enemy at a time increases entropy by 1.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 6866
 // Abilities: A0MX (Houndmaster: Backtracking), Tip (Tooltip - Normal)
 {
@@ -45517,6 +45681,36 @@ STRING 6870
 // Abilities: A0MX (Houndmaster: Backtracking), Tip (Tooltip - Normal)
 {
 Backtracking, [|cffffcc00Level 5|r]
+}
+
+STRING 6871
+// Abilities: A1EI (Extra: Entropy (Shoggoth)), Name (Name)
+{
+Extra: Entropy (Shoggoth)
+}
+
+STRING 6872
+// Abilities: A1EI (Extra: Entropy (Shoggoth)), Tip (Tooltip - Normal)
+{
+Entropy
+}
+
+STRING 6873
+// Abilities: A1EI (Extra: Entropy (Shoggoth)), Ubertip (Tooltip - Normal - Extended)
+{
+The hero can gain entropy from some abilities. Each entropy increases Spell Power by 1% and Mana by 2.
+}
+
+STRING 6874
+// Abilities: A1EJ (Extra: Artillery (Meat Wagon)), Name (Name)
+{
+Extra: Artillery (Meat Wagon)
+}
+
+STRING 6875
+// Abilities: A1EJ (Extra: Artillery (Meat Wagon)), Tip (Tooltip - Normal)
+{
+Artillery
 }
 
 STRING 6876
@@ -45561,16 +45755,112 @@ STRING 6882
 Unique: MurderousnessXXX
 }
 
+STRING 6883
+// Abilities: A1EJ (Extra: Artillery (Meat Wagon)), Ubertip (Tooltip - Normal - Extended)
+{
+Attack Range increased by 33%.
+}
+
+STRING 6884
+// Abilities: A1EK (Extra: Giant of Thought (Combat Ogre)), Name (Name)
+{
+Extra: Giant of Thought (Combat Ogre)
+}
+
+STRING 6885
+// Abilities: A1EK (Extra: Giant of Thought (Combat Ogre)), Tip (Tooltip - Normal)
+{
+Giant of Thought
+}
+
 STRING 6886
 // Abilities: A0MU (Houndmaster: Animal Companion), Hotkey (Hotkey - Normal)
 {
 R
 }
 
+STRING 6887
+// Abilities: A1EK (Extra: Giant of Thought (Combat Ogre)), Ubertip (Tooltip - Normal - Extended)
+{
+Smarter than it looks.
+}
+
 STRING 6888
 // Abilities: A0MU (Houndmaster: Animal Companion), Researchhotkey (Hotkey - Learn)
 {
 R
+}
+
+STRING 6889
+// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Health by 150.
+When a Hero's ability is used, reduces the Attack of nearby enemies by 3.
+}
+
+STRING 6890
+// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Health by 225.
+When a Hero's ability is used, reduces the Attack of nearby enemies by 4.
+}
+
+STRING 6891
+// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Health by 300.
+When a Hero's ability is used, reduces the Attack of nearby enemies by 5.
+}
+
+STRING 6892
+// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Health by 375.
+When a Hero's ability is used, reduces the Attack of nearby enemies by 6.
+}
+
+STRING 6893
+// Abilities: A1EL (Extra: Soul Contract (Mephistar)), Name (Name)
+{
+Extra: Soul Contract (Mephistar)
+}
+
+STRING 6894
+// Abilities: A1EL (Extra: Soul Contract (Mephistar)), Tip (Tooltip - Normal)
+{
+Soul Contract
+}
+
+STRING 6896
+// Abilities: A1EM (Mephistar: Soul Split), Researchtip (Tooltip - Learn)
+{
+Soul Split, [|cffffcc00Level %d|r]
+}
+
+STRING 6897
+// Abilities: A1EM (Mephistar: Soul Split), Researchubertip (Tooltip - Learn - Extended)
+{
+Summons a copy of an allied minion. The copy has 60%/75%/90%/105%/120% of the Health and Attack of the original.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
+STRING 6898
+// Abilities: A1EM (Mephistar: Soul Split), Tip (Tooltip - Normal)
+{
+Soul Split, [|cffffcc00Level 1|r]
+}
+
+STRING 6899
+// Abilities: A1EM (Mephistar: Soul Split), Tip (Tooltip - Normal)
+{
+Soul Split, [|cffffcc00Level 2|r]
+}
+
+STRING 6900
+// Abilities: A1EM (Mephistar: Soul Split), Tip (Tooltip - Normal)
+{
+Soul Split, [|cffffcc00Level 3|r]
 }
 
 STRING 6901
@@ -46751,7 +47041,7 @@ Elemental: Effacing the Living
 }
 
 STRING 7077
-// Abilities: A0LP (Elemental: Effacing the Living), Researchhotkey (Hotkey - Learn)
+// Abilities: A0LD (Wanderer: Indelebilis Sensus), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -46968,7 +47258,7 @@ Lord of Chaos: Madness
 }
 
 STRING 7111
-// Abilities: A0LK (Lord of Chaos: Madness), Researchhotkey (Hotkey - Learn)
+// Abilities: A0LA (Shooter: Offhand shooting), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -47198,7 +47488,7 @@ Wanderer: Indelebilis Sensus
 }
 
 STRING 7145
-// Abilities: A0LD (Wanderer: Indelebilis Sensus), Researchhotkey (Hotkey - Learn)
+// Abilities: A0KB (Jester: Juggling), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -47306,7 +47596,7 @@ Shooter: Offhand shooting
 }
 
 STRING 7161
-// Abilities: A0LA (Shooter: Offhand shooting), Researchhotkey (Hotkey - Learn)
+// Abilities: A0JV (Ninja: Shinobi Mastery), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -48133,7 +48423,7 @@ Jester: Juggling
 }
 
 STRING 7286
-// Abilities: A0KB (Jester: Juggling), Researchhotkey (Hotkey - Learn)
+// Abilities: A0ID (Archer: Shadow), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -48438,7 +48728,7 @@ Ninja: Shinobi Mastery
 }
 
 STRING 7333
-// Abilities: A0JV (Ninja: Shinobi Mastery), Researchhotkey (Hotkey - Learn)
+// Abilities: A0I9 (Dryad: Device), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -49887,7 +50177,7 @@ Archer: Shadow
 }
 
 STRING 7551
-// Abilities: A0ID (Archer: Shadow), Researchhotkey (Hotkey - Learn)
+// Abilities: A0GQ (Sun King: Child of the Sun), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -50107,7 +50397,7 @@ Dryad: Device
 }
 
 STRING 7585
-// Abilities: A0I9 (Dryad: Device), Researchhotkey (Hotkey - Learn)
+// Abilities: A0FQ (Pyrolord: Pyromagic), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -50899,6 +51189,12 @@ STRING 7703
 |cffffcc00Уровень 6:|r Лунная жрица
 }
 
+STRING 7704
+// Abilities: A1EM (Mephistar: Soul Split), Tip (Tooltip - Normal)
+{
+Soul Split, [|cffffcc00Level 4|r]
+}
+
 STRING 7705
 // Units: H01A ((D) Bone Knight), Name (Name)
 {
@@ -51185,6 +51481,12 @@ STRING 7749
 Аура: Касание жизни
 }
 
+STRING 7750
+// Abilities: A1EM (Mephistar: Soul Split), Tip (Tooltip - Normal)
+{
+Soul Split, [|cffffcc00Level 5|r]
+}
+
 STRING 7751
 // Abilities: A0GU (Blessing: Triad (g34) (Turned Off)), Tip (Tooltip - Normal)
 {
@@ -51216,11 +51518,10 @@ Multicast
 }
 
 STRING 7756
-// Abilities: A0GT (Special: Multicast), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1EM (Mephistar: Soul Split), Ubertip (Tooltip - Normal - Extended)
 {
-|cff8080ffSpecial|r
-If you have a |cffb18904mech|r, increases attack power by 1 and spell power by 1% until the end of battle. Repeat for all other sets.
-|cffffcc00Cooldown:|r 15 seconds.
+Summons a copy of an allied minion. The copy has 60% of the Health and Attack of the original.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 7757
@@ -51262,7 +51563,7 @@ Sun King: Child of the Sun
 }
 
 STRING 7763
-// Abilities: A0GQ (Sun King: Child of the Sun), Researchhotkey (Hotkey - Learn)
+// Abilities: A0FD (Houndmaster: Tandem), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -51775,7 +52076,7 @@ Pyrolord: Pyromagic
 }
 
 STRING 7846
-// Abilities: A0FQ (Pyrolord: Pyromagic), Researchhotkey (Hotkey - Learn)
+// Abilities: A0FC (Vampire: Mark of blood), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -52148,7 +52449,7 @@ Houndmaster: Tandem
 }
 
 STRING 7905
-// Abilities: A0FD (Houndmaster: Tandem), Researchhotkey (Hotkey - Learn)
+// Abilities: A0F7 (Marshal: Humanity Will Rise Again), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -52157,6 +52458,13 @@ STRING 7906
 // Abilities: A0FD (Houndmaster: Tandem), Researchtip (Tooltip - Learn)
 {
 Tandem, [|cffffcc00Level %d|r]
+}
+
+STRING 7907
+// Abilities: A1EM (Mephistar: Soul Split), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a copy of an allied minion. The copy has 75% of the Health and Attack of the original.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 7908
@@ -52189,6 +52497,27 @@ STRING 7912
 Tandem, [|cffffcc00Level 5|r]
 }
 
+STRING 7913
+// Abilities: A1EM (Mephistar: Soul Split), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a copy of an allied minion. The copy has 90% of the Health and Attack of the original.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 7914
+// Abilities: A1EM (Mephistar: Soul Split), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a copy of an allied minion. The copy has 105% of the Health and Attack of the original.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 7915
+// Abilities: A1EM (Mephistar: Soul Split), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a copy of an allied minion. The copy has 120% of the Health and Attack of the original.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 7918
 // Abilities: A0FC (Vampire: Mark of blood), Name (Name)
 {
@@ -52196,7 +52525,7 @@ Vampire: Mark of blood
 }
 
 STRING 7919
-// Abilities: A0FC (Vampire: Mark of blood), Researchhotkey (Hotkey - Learn)
+// Abilities: A0EY (Soulstealer: Power Drain), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -52502,7 +52831,7 @@ Marshal: Humanity Will Rise Again
 }
 
 STRING 7965
-// Abilities: A0F7 (Marshal: Humanity Will Rise Again), Researchhotkey (Hotkey - Learn)
+// Abilities: A0EW (Ogre: There is power, no mind), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -52757,7 +53086,7 @@ Soulstealer: Power Drain
 }
 
 STRING 8005
-// Abilities: A0EY (Soulstealer: Power Drain), Researchhotkey (Hotkey - Learn)
+// Abilities: A0DN (Wagon: Unholy Greed), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -52847,7 +53176,7 @@ Ogre: There is power, no mind
 }
 
 STRING 8020
-// Abilities: A0EW (Ogre: There is power, no mind), Researchhotkey (Hotkey - Learn)
+// Abilities: A0DC (Alchemist: Troll voodoo), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -54244,7 +54573,7 @@ Wagon: Unholy Greed
 }
 
 STRING 8233
-// Abilities: A0DN (Wagon: Unholy Greed), Researchhotkey (Hotkey - Learn)
+// Abilities: A0D6 (Scarab: Strengthening), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -54513,7 +54842,7 @@ Alchemist: Troll voodoo
 }
 
 STRING 8275
-// Abilities: A0DC (Alchemist: Troll voodoo), Researchhotkey (Hotkey - Learn)
+// Abilities: A0CK (Skeletlord: Skelemagic), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -54633,7 +54962,7 @@ Scarab: Strengthening
 }
 
 STRING 8296
-// Abilities: A0D6 (Scarab: Strengthening), Researchhotkey (Hotkey - Learn)
+// Abilities: A0A9 (Keeper: Chaw of Chaws), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -55310,7 +55639,7 @@ Skeletlord: Skelemagic
 }
 
 STRING 8402
-// Abilities: A0CK (Skeletlord: Skelemagic), Researchhotkey (Hotkey - Learn)
+// Abilities: A09I (Armsmaster: Weapons Training), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -57136,7 +57465,7 @@ Keeper: Chaw of Chaws
 }
 
 STRING 8685
-// Abilities: A0A9 (Keeper: Chaw of Chaws), Researchhotkey (Hotkey - Learn)
+// Abilities: A09A (Mimic: Shattering), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -57912,7 +58241,7 @@ Armsmaster: Weapons Training
 }
 
 STRING 8803
-// Abilities: A09I (Armsmaster: Weapons Training), Researchhotkey (Hotkey - Learn)
+// Abilities: A098 (Overlord: Technique of war), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -58168,7 +58497,7 @@ Mimic: Shattering
 }
 
 STRING 8843
-// Abilities: A09A (Mimic: Shattering), Researchhotkey (Hotkey - Learn)
+// Abilities: A08W (Monk: Healthy blow), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -58352,7 +58681,7 @@ Overlord: Technique of war
 }
 
 STRING 8872
-// Abilities: A098 (Overlord: Technique of war), Researchhotkey (Hotkey - Learn)
+// Abilities: A08U (Spirit: Malice), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -58605,7 +58934,7 @@ Monk: Healthy blow
 }
 
 STRING 8913
-// Abilities: A08W (Monk: Healthy blow), Researchhotkey (Hotkey - Learn)
+// Abilities: A08F (Barbarian: Thirst for battle), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -58786,7 +59115,7 @@ Spirit: Malice
 }
 
 STRING 8942
-// Abilities: A08U (Spirit: Malice), Researchhotkey (Hotkey - Learn)
+// Abilities: A08E (Legionary: Flaming crystal), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -59135,16 +59464,6 @@ STRING 8994
 Blade of fire, [|cffffcc00Level %d|r]
 }
 
-STRING 8995
-// Abilities: A08L (Legionary: Blade of fire), Researchubertip (Tooltip - Learn - Extended)
-{
-Inflicts |cffbe81f7150/200/250/300/350|r fire damage to an enemy. With a probability of |cffd7df0160%/70%/80%/90%/100%|r, gives a ruby.
-|cffffcc00Cooldown:|r 12 seconds.
-|cffffcc00Cost:|r 40/50/60/70/80 mana.
-
-|cFF959697Each ruby increases the attack power of the hero by 1.|r
-}
-
 STRING 8996
 // Abilities: A08L (Legionary: Blade of fire), Tip (Tooltip - Normal)
 {
@@ -59173,51 +59492,6 @@ STRING 9000
 // Abilities: A08L (Legionary: Blade of fire), Tip (Tooltip - Normal)
 {
 Blade of fire, [|cffffcc00Level 5|r]
-}
-
-STRING 9001
-// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
-{
-Inflicts |cffbe81f7150|r fire damage to an enemy. With a probability of |cffd7df0160%|r, gives a ruby.
-|cffffcc00Cooldown:|r 12 seconds.
-
-|cFF959697Each ruby increases the attack power of the hero by 1.|r
-}
-
-STRING 9002
-// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
-{
-Inflicts |cffbe81f7200|r fire damage to an enemy. With a probability of |cffd7df0170%|r, gives a ruby.
-|cffffcc00Cooldown:|r 12 seconds.
-
-|cFF959697Each ruby increases the attack power of the hero by 1.|r
-}
-
-STRING 9003
-// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
-{
-Inflicts |cffbe81f7250|r fire damage to an enemy. With a probability of |cffd7df0180%|r, gives a ruby.
-|cffffcc00Cooldown:|r 12 seconds.
-
-|cFF959697Each ruby increases the attack power of the hero by 1.|r
-}
-
-STRING 9004
-// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
-{
-Inflicts |cffbe81f7300|r fire damage to an enemy. With a probability of |cffd7df0190%|r, gives a ruby.
-|cffffcc00Cooldown:|r 12 seconds.
-
-|cFF959697Each ruby increases the attack power of the hero by 1.|r
-}
-
-STRING 9005
-// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
-{
-Inflicts |cffbe81f7350|r fire damage to an enemy and gives a ruby.
-|cffffcc00Cooldown:|r 12 seconds.
-
-|cFF959697Each ruby increases the attack power of the hero by 1.|r
 }
 
 STRING 9006
@@ -59257,7 +59531,7 @@ Barbarian: Thirst for battle
 }
 
 STRING 9012
-// Abilities: A08F (Barbarian: Thirst for battle), Researchhotkey (Hotkey - Learn)
+// Abilities: A083 (Minotaur: Power), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -59347,7 +59621,7 @@ Legionary: Flaming crystal
 }
 
 STRING 9026
-// Abilities: A08E (Legionary: Flaming crystal), Researchhotkey (Hotkey - Learn)
+// Abilities: A082 (Outcast: Denial of the Past), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -59356,14 +59630,6 @@ STRING 9027
 // Abilities: A08E (Legionary: Flaming crystal), Researchtip (Tooltip - Learn)
 {
 Flaming crystal, [|cffffcc00Level %d|r]
-}
-
-STRING 9028
-// Abilities: A08E (Legionary: Flaming crystal), Researchubertip (Tooltip - Learn - Extended)
-{
-With a probability of |cffd7df012%/4%/6%/8%/10%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
-
-|cFF959697Each ruby increases the attack power of the hero by 1.|r
 }
 
 STRING 9029
@@ -59394,46 +59660,6 @@ STRING 9033
 // Abilities: A08E (Legionary: Flaming crystal), Tip (Tooltip - Normal)
 {
 Flaming crystal, [|cffffcc00Level 5|r]
-}
-
-STRING 9034
-// Abilities: A08E (Legionary: Flaming crystal), Ubertip (Tooltip - Normal - Extended)
-{
-With a probability of |cffd7df012%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
-
-|cFF959697Each ruby increases the attack power of the hero by 1.|r
-}
-
-STRING 9035
-// Abilities: A08E (Legionary: Flaming crystal), Ubertip (Tooltip - Normal - Extended)
-{
-With a probability of |cffd7df014%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
-
-|cFF959697Each ruby increases the attack power of the hero by 1.|r
-}
-
-STRING 9036
-// Abilities: A08E (Legionary: Flaming crystal), Ubertip (Tooltip - Normal - Extended)
-{
-With a probability of |cffd7df016%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
-
-|cFF959697Each ruby increases the attack power of the hero by 1.|r
-}
-
-STRING 9037
-// Abilities: A08E (Legionary: Flaming crystal), Ubertip (Tooltip - Normal - Extended)
-{
-With a probability of |cffd7df018%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
-
-|cFF959697Each ruby increases the attack power of the hero by 1.|r
-}
-
-STRING 9038
-// Abilities: A08E (Legionary: Flaming crystal), Ubertip (Tooltip - Normal - Extended)
-{
-With a probability of |cffd7df0110%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
-
-|cFF959697Each ruby increases the attack power of the hero by 1.|r
 }
 
 STRING 9039
@@ -59546,14 +59772,6 @@ STRING 9055
 // Abilities: A088 (Unique: Provocation), Tip (Tooltip - Normal)
 {
 Provocation
-}
-
-STRING 9056
-// Abilities: A088 (Unique: Provocation), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Provokes an enemy to attack the hero. Less effective against bosses. Does not affect mechs.
-|cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 9057
@@ -59709,7 +59927,7 @@ Minotaur: Power
 }
 
 STRING 9081
-// Abilities: A083 (Minotaur: Power), Researchhotkey (Hotkey - Learn)
+// Abilities: A07T (Owl: Owl magic), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -59799,7 +60017,7 @@ Outcast: Denial of the Past
 }
 
 STRING 9095
-// Abilities: A082 (Outcast: Denial of the Past), Researchhotkey (Hotkey - Learn)
+// Abilities: A05M (Reaper: Harvest), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -60337,7 +60555,7 @@ Owl: Owl magic
 }
 
 STRING 9173
-// Abilities: A07T (Owl: Owl magic), Researchhotkey (Hotkey - Learn)
+// Abilities: A05H (Fallen One: Seraphic Deviltry), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -62439,7 +62657,7 @@ Reaper: Harvest
 }
 
 STRING 9491
-// Abilities: A05M (Reaper: Harvest), Researchhotkey (Hotkey - Learn)
+// Abilities: A05H (Fallen One: Seraphic Deviltry), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -62554,7 +62772,7 @@ Stats (Дубина огра)
 }
 
 STRING 9510
-// Abilities: A05H (Fallen One: Seraphic Deviltry), Hotkey (Hotkey - Normal)
+// Abilities: A04X (Peacelock: Malicious Kindness), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -62566,7 +62784,7 @@ Fallen One: Seraphic Deviltry
 }
 
 STRING 9512
-// Abilities: A05H (Fallen One: Seraphic Deviltry), Researchhotkey (Hotkey - Learn)
+// Abilities: A04T (Nomad: Lightning energy), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -63252,7 +63470,7 @@ Peacelock: Malicious Kindness
 }
 
 STRING 9614
-// Abilities: A04X (Peacelock: Malicious Kindness), Researchhotkey (Hotkey - Learn)
+// Abilities: A04L (Doctor: Unreachable), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -63432,7 +63650,7 @@ Nomad: Lightning energy
 }
 
 STRING 9644
-// Abilities: A04T (Nomad: Lightning energy), Researchhotkey (Hotkey - Learn)
+// Abilities: A03X (Priestess: Tale of a Paw), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -63733,7 +63951,7 @@ Doctor: Unreachable
 }
 
 STRING 9692
-// Abilities: A04L (Doctor: Unreachable), Researchhotkey (Hotkey - Learn)
+// Abilities: A02K (Super ray), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -63742,13 +63960,6 @@ STRING 9693
 // Abilities: A04L (Doctor: Unreachable), Researchtip (Tooltip - Learn)
 {
 Unreachable, [|cffffcc00Level %d|r]
-}
-
-STRING 9694
-// Abilities: A04L (Doctor: Unreachable), Researchubertip (Tooltip - Learn - Extended)
-{
-Increases health by 75/150/225/300/375.
-When the hero casts a buff, it reduces the attack power of nearby enemies by 2/3/4/5/6.
 }
 
 STRING 9695
@@ -63779,41 +63990,6 @@ STRING 9699
 // Abilities: A04L (Doctor: Unreachable), Tip (Tooltip - Normal)
 {
 Unreachable [|cffffcc00Level 5|r]
-}
-
-STRING 9700
-// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
-{
-Increases health by 75.
-When the hero casts a buff, it reduces the attack power of nearby enemies by 2.
-}
-
-STRING 9701
-// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
-{
-Increases health by 150.
-When the hero casts a buff, it reduces the attack power of nearby enemies by 3.
-}
-
-STRING 9702
-// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
-{
-Increases health by 225.
-When the hero casts a buff, it reduces the attack power of nearby enemies by 4.
-}
-
-STRING 9703
-// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
-{
-Increases health by 300.
-When the hero casts a buff, it reduces the attack power of nearby enemies by 5.
-}
-
-STRING 9704
-// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
-{
-Increases health by 375.
-When the hero casts a buff, it reduces the attack power of nearby enemies by 6.
 }
 
 STRING 9705
@@ -64386,7 +64562,7 @@ Priestess: Tale of a Paw
 }
 
 STRING 9790
-// Abilities: A03X (Priestess: Tale of a Paw), Researchhotkey (Hotkey - Learn)
+// Abilities: A022 (Mermaid: Turbid waters), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -65274,14 +65450,6 @@ STRING 9924
 Provocation
 }
 
-STRING 9925
-// Abilities: A036 (Unique: Provocation (+)), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Provokes an enemy to attack the hero. Less effective against bosses. Does not affect mechs.
-|cffffcc00Cooldown:|r 2 seconds.
-}
-
 STRING 9926
 // Abilities: A02V (Unique: Mana Throw (+)), Hotkey (Hotkey - Normal)
 {
@@ -65798,7 +65966,7 @@ Launches waves dealing |cffbe81f7100|r damage.
 }
 
 STRING 10003
-// Abilities: A02K (Super ray), Hotkey (Hotkey - Normal)
+// Abilities: A022 (Mermaid: Turbid waters), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -66223,7 +66391,7 @@ STRING 10068
 }
 
 STRING 10069
-// Abilities: A022 (Mermaid: Turbid waters), Hotkey (Hotkey - Normal)
+// Abilities: A01F (Pirate: Black Mark), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -66235,7 +66403,7 @@ Mermaid: Turbid waters
 }
 
 STRING 10071
-// Abilities: A022 (Mermaid: Turbid waters), Researchhotkey (Hotkey - Learn)
+// Abilities: A01F (Pirate: Black Mark), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -66925,7 +67093,7 @@ The hero throws a corpse at an enemy, which, upon landing, deals |cffbe81f7330|r
 }
 
 STRING 10177
-// Abilities: A01F (Pirate: Black Mark), Hotkey (Hotkey - Normal)
+// Abilities: A016 (Preacher: Aura of Light), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -66937,7 +67105,7 @@ Pirate: Black Mark
 }
 
 STRING 10179
-// Abilities: A01F (Pirate: Black Mark), Researchhotkey (Hotkey - Learn)
+// Abilities: A00P (Chronomancer: Distortion), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -67172,7 +67340,7 @@ Preacher: Aura of Light
 }
 
 STRING 10215
-// Abilities: A016 (Preacher: Aura of Light), Researchhotkey (Hotkey - Learn)
+// Abilities: A00F (Druid: Naturalism), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -67550,7 +67718,7 @@ Chronomancer: Distortion
 }
 
 STRING 10280
-// Abilities: A00P (Chronomancer: Distortion), Researchhotkey (Hotkey - Learn)
+// Abilities: A00B (Beorn: Patriarchate), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -67861,7 +68029,7 @@ Druid: Naturalism
 }
 
 STRING 10327
-// Abilities: A00F (Druid: Naturalism), Researchhotkey (Hotkey - Learn)
+// Abilities: A1DP (Shepherd: Shepherds Call), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -68060,7 +68228,7 @@ Beorn: Patriarchate
 }
 
 STRING 10358
-// Abilities: A00B (Beorn: Patriarchate), Researchhotkey (Hotkey - Learn)
+// Abilities: A1DV (Shepherd: Shepherds Call Active), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -73165,7 +73333,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.2.3T|r
+|cffbe81f7Boss Battle 1.5.2.5T|r
 }
 
 STRING 11219
@@ -73473,7 +73641,7 @@ Shepherds Call, [|cffffcc00Level 5|r]
 }
 
 STRING 11266
-// Abilities: A1DP (Shepherd: Shepherds Call), Researchhotkey (Hotkey - Learn)
+// Abilities: A1DV (Shepherd: Shepherds Call Active), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -73802,7 +73970,7 @@ Target ally goes on a spirit journey increasing their attack power by 30.|nWhene
 }
 
 STRING 11315
-// Abilities: A1DV (Shepherd: Shepherds Call Active), Hotkey (Hotkey - Normal)
+// Abilities: A1DZ (Runesmith: Carve Rune of the Shepherd), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -73814,7 +73982,7 @@ Shepherd: Shepherds Call Active
 }
 
 STRING 11317
-// Abilities: A1DV (Shepherd: Shepherds Call Active), Researchhotkey (Hotkey - Learn)
+// Abilities: A1E3 (Runesmith: Runic Link), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -73940,7 +74108,7 @@ Runesmith: Carve Rune of the Shepherd
 }
 
 STRING 11335
-// Abilities: A1DZ (Runesmith: Carve Rune of the Shepherd), Hotkey (Hotkey - Normal)
+// Abilities: A1EM (Mephistar: Soul Split), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -74108,7 +74276,7 @@ Runic Link, [|cffffcc00Level 5|r]
 }
 
 STRING 11360
-// Abilities: A1E3 (Runesmith: Runic Link), Researchhotkey (Hotkey - Learn)
+// Abilities: A1EM (Mephistar: Soul Split), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -74963,12 +75131,6 @@ STRING 11496
 (R) Vampire
 }
 
-STRING 11497
-// Units: N01R ((H) Plague doctor), Name (Name)
-{
-(H) Plague doctor
-}
-
 STRING 11498
 // Units: N01Q ((D) Minotaur), Name (Name)
 {
@@ -75003,12 +75165,6 @@ STRING 11504
 // Units: N00Y ((E) Chronomancer), Name (Name)
 {
 (E) Chronomancer
-}
-
-STRING 11505
-// Units: N00X ((R) Combat ogre), Name (Name)
-{
-(R) Combat ogre
 }
 
 STRING 11506
