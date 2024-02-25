@@ -7,7 +7,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.2.5T|r
+|cffbe81f7Boss Battle 1.5.2.6T|r
 }
 
 STRING 2
@@ -15283,13 +15283,6 @@ STRING 2263
 Activation: |cffcc0000Corrupted|r. Allows the hero to choose any artifact from any set.
 }
 
-STRING 2264
-// Items: I066 (Nekroskull), Description (Description)
-{
-|cffbababcCommon|r
-Increases allied |cffff1493undead|r armor by 5.
-}
-
 STRING 2265
 // Items: I066 (Nekroskull), Name (Name)
 {
@@ -15300,13 +15293,6 @@ STRING 2266
 // Items: I066 (Nekroskull), Tip (Tooltip - Basic)
 {
 Nekroskull
-}
-
-STRING 2267
-// Items: I066 (Nekroskull), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Increases allied |cffff1493undead|r armor by 5.
 }
 
 STRING 2268
@@ -18757,35 +18743,6 @@ STRING 2784
 {
 |cffbababcCommon|r, |cffb40431Blood|r
 If the hero's health is 95% or more, increases the attack power by 70%.
-}
-
-STRING 2785
-// Items: I02L (Boom machine), Description (Description)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r
-Activation: Deals |cffbe81f2200|r damage to an enemy, and also increases health by 10 for each |cffb18904mech|r.
-|cffffcc00Cooldown:|r 50 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
-STRING 2786
-// Items: I02L (Boom machine), Name (Name)
-{
-Boom machine
-}
-
-STRING 2787
-// Items: I02L (Boom machine), Tip (Tooltip - Basic)
-{
-Boom machine
-}
-
-STRING 2788
-// Items: I02L (Boom machine), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r
-Activation: Deals |cffbe81f2200|r damage to an enemy, and also increases health by 10 for each |cffb18904mech|r.
-|cffffcc00Cooldown:|r 50 seconds.
 }
 
 STRING 2789
@@ -24713,6 +24670,11 @@ STRING 3661
 Song of Joy, [|cffffcc00Level %d|r]
 }
 
+STRING 3662
+{
+Bosses take 10% less damage from minions and magic damage.
+}
+
 STRING 3663
 // Abilities: A1AV (Bard: Song of Joy), Tip (Tooltip - Normal)
 {
@@ -24743,6 +24705,33 @@ STRING 3667
 Song of Joy, [|cffffcc00Level 5|r]
 }
 
+STRING 3668
+{
+Must target a Boss.
+}
+
+STRING 3669
+{
+Unable to target Undead.
+}
+
+STRING 3670
+{
+Unable to target Bosses.
+}
+
+STRING 3671
+// Abilities: A1EN (.General: Unstable Form), Name (Name)
+{
+.General: Unstable Form
+}
+
+STRING 3672
+// Abilities: A1EN (.General: Unstable Form), Tip (Tooltip - Normal)
+{
+Unstable Form
+}
+
 STRING 3673
 // Abilities: A1A9 (Infernal: Fel Immolation), Hotkey (Hotkey - Normal)
 {
@@ -24753,6 +24742,12 @@ STRING 3674
 // Abilities: A1AV (Bard: Song of Joy), Untip (Tooltip - Turn Off)
 {
 Song of Sorrow
+}
+
+STRING 3675
+// Abilities: A1EN (.General: Unstable Form), Ubertip (Tooltip - Normal - Extended)
+{
+Cannot receive permanent stat bonuses.
 }
 
 STRING 3676
@@ -35031,6 +35026,13 @@ STRING 5241
 // Abilities: A0ZL (Soul Contract: Nature), Tip (Tooltip - Normal)
 {
 Nature
+}
+
+STRING 5242
+// Items: I066 (Nekroskull), Description (Description)
+{
+|cffbababcCommon|r
+Increases the Armor of the Hero and allies next to them by 5.
 }
 
 STRING 5244
@@ -45831,6 +45833,13 @@ STRING 6894
 Soul Contract
 }
 
+STRING 6895
+// Items: I066 (Nekroskull), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Increases the Armor of the Hero and allies next to them by 5.
+}
+
 STRING 6896
 // Abilities: A1EM (Mephistar: Soul Split), Researchtip (Tooltip - Learn)
 {
@@ -52518,6 +52527,21 @@ Summons a copy of an allied minion. The copy has 120% of the Health and Attack o
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 7916
+// Abilities: A0CN (Skeletlord: Parish), Researchubertip (Tooltip - Learn - Extended)
+{
+Restores |cffbe81f7200/275/350/425/500|r Health to an ally. Summons a Scared Citizen near the target.
+|cffffcc00Cooldown:|r 12 seconds.
+|cffffcc00Cost:|r 40 mana.
+}
+
+STRING 7917
+// Abilities: A0CN (Skeletlord: Parish), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7200|r Health to an ally. Summons a Scared Citizen near the target.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 7918
 // Abilities: A0FC (Vampire: Mark of blood), Name (Name)
 {
@@ -54931,6 +54955,13 @@ STRING 8289
 Attack: Кровожадность
 }
 
+STRING 8290
+// Abilities: A0CN (Skeletlord: Parish), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7275|r Health to an ally. Summons a Scared Citizen near the target.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 8291
 // Abilities: A0D9 (Pet: Неуловимость), Tip (Tooltip - Normal)
 {
@@ -55154,7 +55185,7 @@ Scarab: Revitalization
 }
 
 STRING 8328
-// Abilities: A0CM (Skeletlord: Grasp of the dead), Hotkey (Hotkey - Normal)
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -55360,14 +55391,6 @@ STRING 8359
 Parish, [|cffffcc00Level %d|r]
 }
 
-STRING 8360
-// Abilities: A0CN (Skeletlord: Parish), Researchubertip (Tooltip - Learn - Extended)
-{
-Restores |cffbe81f7200/275/350/425/500|r health to allied |cffff1493undead|r. Summons a Scared Citizen near the target.
-|cffffcc00Cooldown:|r 12 seconds.
-|cffffcc00Cost:|r 40 mana.
-}
-
 STRING 8361
 // Abilities: A0CN (Skeletlord: Parish), Tip (Tooltip - Normal)
 {
@@ -55398,141 +55421,16 @@ STRING 8365
 Parish, [|cffffcc00Level 5|r]
 }
 
-STRING 8366
-// Abilities: A0CN (Skeletlord: Parish), Ubertip (Tooltip - Normal - Extended)
-{
-Restores |cffbe81f7200|r health to allied |cffff1493undead|r. Summons a Scared Citizen near the target.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 8367
-// Abilities: A0CN (Skeletlord: Parish), Ubertip (Tooltip - Normal - Extended)
-{
-Restores |cffbe81f7275|r health to allied |cffff1493undead|r Summons a Scared Citizen near the target.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 8368
-// Abilities: A0CN (Skeletlord: Parish), Ubertip (Tooltip - Normal - Extended)
-{
-Restores |cffbe81f7350|r health to allied |cffff1493undead|r. Summons a Scared Citizen near the target.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 8369
-// Abilities: A0CN (Skeletlord: Parish), Ubertip (Tooltip - Normal - Extended)
-{
-Restores |cffbe81f7425|r health to allied |cffff1493undead|r. Summons a Scared Citizen near the target.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 8370
-// Abilities: A0CN (Skeletlord: Parish), Ubertip (Tooltip - Normal - Extended)
-{
-Restores |cffbe81f7500|r health to allied |cffff1493undead|r. Summons a Scared Citizen near the target.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
 STRING 8371
-// Abilities: A0CM (Skeletlord: Grasp of the dead), Researchhotkey (Hotkey - Learn)
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Researchhotkey (Hotkey - Learn)
 {
 W
-}
-
-STRING 8372
-// Abilities: A0CM (Skeletlord: Grasp of the dead), Name (Name)
-{
-Skeletlord: Grasp of the dead
 }
 
 STRING 8373
 // Abilities: A0B4 (Beorn: Perseverance), Hotkey (Hotkey - Normal)
 {
 W
-}
-
-STRING 8374
-// Abilities: A0CM (Skeletlord: Grasp of the dead), Researchtip (Tooltip - Learn)
-{
-Grasp of the dead, [|cffffcc00Level %d|r]
-}
-
-STRING 8375
-// Abilities: A0CM (Skeletlord: Grasp of the dead), Researchubertip (Tooltip - Learn - Extended)
-{
-Deal |cffbe81f760/100/140/180/220|r damage to |cffff1493non-undead|r enemy. Summons 1-4 skeletons.
-|cffffcc00Cooldown:|r 10/9/8/7/6 seconds.
-|cffffcc00Cost:|r 35 Mana.
-}
-
-STRING 8376
-// Abilities: A0CM (Skeletlord: Grasp of the dead), Tip (Tooltip - Normal)
-{
-Grasp of the dead, [|cffffcc00Level 1|r]
-}
-
-STRING 8377
-// Abilities: A0CM (Skeletlord: Grasp of the dead), Tip (Tooltip - Normal)
-{
-Grasp of the dead, [|cffffcc00Level 2|r]
-}
-
-STRING 8378
-// Abilities: A0CM (Skeletlord: Grasp of the dead), Tip (Tooltip - Normal)
-{
-Grasp of the dead, [|cffffcc00Level 3|r]
-}
-
-STRING 8379
-// Abilities: A0CM (Skeletlord: Grasp of the dead), Tip (Tooltip - Normal)
-{
-Grasp of the dead, [|cffffcc00Level 4|r]
-}
-
-STRING 8380
-// Abilities: A0CM (Skeletlord: Grasp of the dead), Tip (Tooltip - Normal)
-{
-Grasp of the dead, [|cffffcc00Level 5|r]
-}
-
-STRING 8381
-// Abilities: A0CM (Skeletlord: Grasp of the dead), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f760|r damage to |cffff1493non-undead|r enemy.
-Summons 1-4 skeletons.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 8382
-// Abilities: A0CM (Skeletlord: Grasp of the dead), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7100|r damage to |cffff1493non-undead|r enemy.
-Summons 1-4 skeletons.
-|cffffcc00Cooldown:|r 9 seconds.
-}
-
-STRING 8383
-// Abilities: A0CM (Skeletlord: Grasp of the dead), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7140|r damage to |cffff1493non-undead|r enemy.
-Summons 1-4 skeletons.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
-STRING 8384
-// Abilities: A0CM (Skeletlord: Grasp of the dead), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7180|r damage to |cffff1493non-undead|r enemy.
-Summons 1-4 skeletons.
-|cffffcc00Cooldown:|r 7 seconds.
-}
-
-STRING 8385
-// Abilities: A0CM (Skeletlord: Grasp of the dead), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7220|r damage to |cffff1493non-undead|r enemy.
-Summons 1-4 skeletons.
-|cffffcc00Cooldown:|r 6 seconds.
 }
 
 STRING 8386
@@ -57032,6 +56930,13 @@ STRING 8617
 // Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Tip (Tooltip - Normal)
 {
 Manadragon
+}
+
+STRING 8618
+// Abilities: A0CN (Skeletlord: Parish), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7350|r Health to an ally. Summons a Scared Citizen near the target.
+|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 8619
@@ -59464,6 +59369,13 @@ STRING 8994
 Blade of fire, [|cffffcc00Level %d|r]
 }
 
+STRING 8995
+// Abilities: A0CN (Skeletlord: Parish), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7425|r Health to an ally. Summons a Scared Citizen near the target.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 8996
 // Abilities: A08L (Legionary: Blade of fire), Tip (Tooltip - Normal)
 {
@@ -59492,6 +59404,39 @@ STRING 9000
 // Abilities: A08L (Legionary: Blade of fire), Tip (Tooltip - Normal)
 {
 Blade of fire, [|cffffcc00Level 5|r]
+}
+
+STRING 9001
+// Abilities: A0CN (Skeletlord: Parish), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7500|r Health to an ally. Summons a Scared Citizen near the target.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 9002
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Name (Name)
+{
+Skeletlord: Grasp of the Dead
+}
+
+STRING 9003
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Researchtip (Tooltip - Learn)
+{
+Grasp of the Dead, [|cffffcc00Level %d|r]
+}
+
+STRING 9004
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Researchubertip (Tooltip - Learn - Extended)
+{
+Deal |cffbe81f760/100/140/180/220|r damage to the enemy. Summons 1-4 skeletons.
+|cffffcc00Cooldown:|r 10/9/8/7/6 seconds.
+|cffffcc00Cost:|r 35 Mana.
+}
+
+STRING 9005
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Tip (Tooltip - Normal)
+{
+Grasp of the Dead, [|cffffcc00Level 1|r]
 }
 
 STRING 9006
@@ -59632,6 +59577,12 @@ STRING 9027
 Flaming crystal, [|cffffcc00Level %d|r]
 }
 
+STRING 9028
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Tip (Tooltip - Normal)
+{
+Grasp of the Dead, [|cffffcc00Level 2|r]
+}
+
 STRING 9029
 // Abilities: A08E (Legionary: Flaming crystal), Tip (Tooltip - Normal)
 {
@@ -59660,6 +59611,40 @@ STRING 9033
 // Abilities: A08E (Legionary: Flaming crystal), Tip (Tooltip - Normal)
 {
 Flaming crystal, [|cffffcc00Level 5|r]
+}
+
+STRING 9034
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Tip (Tooltip - Normal)
+{
+Grasp of the Dead, [|cffffcc00Level 3|r]
+}
+
+STRING 9035
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Tip (Tooltip - Normal)
+{
+Grasp of the Dead, [|cffffcc00Level 4|r]
+}
+
+STRING 9036
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Tip (Tooltip - Normal)
+{
+Grasp of the Dead, [|cffffcc00Level 5|r]
+}
+
+STRING 9037
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f760|r damage to the enemy.
+Summons 1-4 skeletons.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 9038
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7100|r damage to the enemy.
+Summons 1-4 skeletons.
+|cffffcc00Cooldown:|r 9 seconds.
 }
 
 STRING 9039
@@ -59772,6 +59757,14 @@ STRING 9055
 // Abilities: A088 (Unique: Provocation), Tip (Tooltip - Normal)
 {
 Provocation
+}
+
+STRING 9056
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7140|r damage to the enemy.
+Summons 1-4 skeletons.
+|cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 9057
@@ -61691,6 +61684,14 @@ STRING 9344
 // Abilities: A06H (|cffffcc00Уровень 6:|r Краб), Tip (Tooltip - Normal)
 {
 Crab
+}
+
+STRING 9345
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7180|r damage to the enemy.
+Summons 1-4 skeletons.
+|cffffcc00Cooldown:|r 7 seconds.
 }
 
 STRING 9346
@@ -63962,6 +63963,14 @@ STRING 9693
 Unreachable, [|cffffcc00Level %d|r]
 }
 
+STRING 9694
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7220|r damage to the enemy.
+Summons 1-4 skeletons.
+|cffffcc00Cooldown:|r 6 seconds.
+}
+
 STRING 9695
 // Abilities: A04L (Doctor: Unreachable), Tip (Tooltip - Normal)
 {
@@ -63990,6 +63999,35 @@ STRING 9699
 // Abilities: A04L (Doctor: Unreachable), Tip (Tooltip - Normal)
 {
 Unreachable [|cffffcc00Level 5|r]
+}
+
+STRING 9700
+// Items: I02L (Boom Machine), Description (Description)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Activation: Deals |cffbe81f2200|r damage to an enemy and increases Health by 10. Repeat for each other |cffb18904mech|r.
+|cffffcc00Cooldown:|r 50 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 9701
+// Items: I02L (Boom Machine), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Activation: Deals |cffbe81f2200|r damage to an enemy and increases Health by 10. Repeat for each other |cffb18904mech|r.
+|cffffcc00Cooldown:|r 50 seconds.
+}
+
+STRING 9702
+// Items: I02L (Boom Machine), Name (Name)
+{
+Boom Machine
+}
+
+STRING 9703
+// Items: I02L (Boom Machine), Tip (Tooltip - Basic)
+{
+Boom Machine
 }
 
 STRING 9705
@@ -73036,21 +73074,6 @@ STRING 11158
 Upgrade
 }
 
-STRING 11159
-{
-Need to point to the boss.
-}
-
-STRING 11160
-{
-Undead are an inappropriate target.
-}
-
-STRING 11161
-{
-The boss is the wrong target.
-}
-
 STRING 11162
 {
 This item cannot be dropped. Use the Exterminator (clockwork goblin) to split the item.
@@ -73086,57 +73109,7 @@ STRING 11168
 Heroes take full damage from any sources.
 }
 
-STRING 11169
-{
-Bosses take 10% less damage from magic and minions.
-}
-
-STRING 11170
-{
-Bosses take 10% less damage from magic and minions.
-}
-
 STRING 11171
-{
-Minions take full damage from any sources.
-}
-
-STRING 11172
-{
-Summoned creatures take 75% less damage from magic.
-}
-
-STRING 11173
-{
-Heroes take full damage from any sources.
-}
-
-STRING 11174
-{
-Bosses take 10% less damage from minions and magic.
-}
-
-STRING 11175
-{
-Minions take full damage from any sources.
-}
-
-STRING 11176
-{
-Summoned creatures take 75% less damage from magic.
-}
-
-STRING 11177
-{
-Heroes take full damage from any sources.
-}
-
-STRING 11178
-{
-Bosses take 10% less damage from magic and minions.
-}
-
-STRING 11179
 {
 Minions take full damage from any sources.
 }
@@ -73171,16 +73144,6 @@ STRING 11185
 |cffffffff|r
 }
 
-STRING 11186
-{
-Type: |Cffffcc00Minion|R
-}
-
-STRING 11187
-{
-Type: |Cffffcc00Minion|R
-}
-
 STRING 11188
 {
 Heroes do full damage to any sources.
@@ -73192,36 +73155,6 @@ Minions deal 10% less damage to bosses.
 }
 
 STRING 11190
-{
-Minions deal 10% less damage to bosses.
-}
-
-STRING 11191
-{
-Heroes do full damage to any sources.
-}
-
-STRING 11192
-{
-Minions deal 10% less damage to bosses.
-}
-
-STRING 11193
-{
-Minions deal 10% less damage to bosses.
-}
-
-STRING 11194
-{
-Heroes do full damage to any sources.
-}
-
-STRING 11195
-{
-Minions deal 10% less damage to bosses.
-}
-
-STRING 11196
 {
 Minions deal 10% less damage to bosses.
 }
@@ -73333,7 +73266,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.2.5T|r
+|cffbe81f7Boss Battle 1.5.2.6T|r
 }
 
 STRING 11219
