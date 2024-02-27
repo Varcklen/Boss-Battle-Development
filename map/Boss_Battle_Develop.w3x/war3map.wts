@@ -7,7 +7,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.2.6T|r
+|cffbe81f7Boss Battle 1.5.2.7T|r
 }
 
 STRING 2
@@ -3444,7 +3444,7 @@ Gives a 20% chance to avoid an attack.
 }
 
 STRING 553
-// Units: N039 ((E) Energy ball), Propernames (Proper Names)
+// Units: N039 ((E) Energy Ball), Propernames (Proper Names)
 {
 Rimuru
 }
@@ -5218,12 +5218,9 @@ When your minion is summoned, it increases attack power and health by 40% and re
 }
 
 STRING 824
-// Items: I0G6 (Salad of Wonders), Description (Description)
+// Abilities: A08U (Spirit: Malice), Researchubertip (Tooltip - Learn - Extended)
 {
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Activation: Restores |cffbe81f71-400|r health to the hero. If the inventory is full, |cffcc0000Corrupted|r.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 25 mana.
+When a Hero effects a target with Fear (|cffffcc00Q|r), Shadow Zone (|cffffcc00W|r) or Curse, increases Spell Power by 0.15%/0.3%/0.45%/0.6%/0.75% until the end of the game.
 }
 
 STRING 825
@@ -5239,11 +5236,9 @@ Salad of Wonders
 }
 
 STRING 827
-// Items: I0G6 (Salad of Wonders), Ubertip (Tooltip - Extended)
+// Abilities: A08U (Spirit: Malice), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Activation: Restores |cffbe81f71-400|r health to the hero. If the inventory is full, |cffcc0000Corrupted|r.
-|cffffcc00Cooldown:|r 15 seconds.
+When a Hero effects a target with Fear (|cffffcc00Q|r), Shadow Zone (|cffffcc00W|r) or Curse, increases Spell Power by 0.15% until the end of the game.
 }
 
 STRING 828
@@ -15283,6 +15278,12 @@ STRING 2263
 Activation: |cffcc0000Corrupted|r. Allows the hero to choose any artifact from any set.
 }
 
+STRING 2264
+// Abilities: A16D (Aspect: Wanderer: Aspect of Vita), Ubertip (Tooltip - Normal - Extended)
+{
+Indelebilis Sensus restores twice as much Health and Mana, but no longer increases Spell Power.
+}
+
 STRING 2265
 // Items: I066 (Nekroskull), Name (Name)
 {
@@ -15293,6 +15294,12 @@ STRING 2266
 // Items: I066 (Nekroskull), Tip (Tooltip - Basic)
 {
 Nekroskull
+}
+
+STRING 2267
+// Items: I04O (Tassadar), Name (Name)
+{
+Tassadar
 }
 
 STRING 2268
@@ -15430,10 +15437,9 @@ When you use |cffcc0000corrupted|r artifact, it is destroyed instead of the arti
 }
 
 STRING 2288
-// Items: I060 (Rune of the Illusionist), Description (Description)
+// Abilities: A08U (Spirit: Malice), Ubertip (Tooltip - Normal - Extended)
 {
-|cff50ff90Use when picked up|r
-Gives a random stat. Something is wrong.
+When a Hero effects a target with Fear (|cffffcc00Q|r), Shadow Zone (|cffffcc00W|r) or Curse, increases Spell Power by 0.3% until the end of the game.
 }
 
 STRING 2289
@@ -16784,31 +16790,28 @@ Huge coin
 }
 
 STRING 2490
-// Items: I04O (Tassardar), Description (Description)
+// Items: I060 (Rune of the Illusionist), Ubertip (Tooltip - Extended)
 {
-|cffbababcCommon|r, |cff9001fdRing|r
-When someone dies near the hero, resets |cff60C445Unique|r cooldown.
-|cff81f260[Random bonus]|r
+(False One)
 }
 
 STRING 2491
-// Items: I04O (Tassardar), Name (Name)
+// Items: I03L (Rune of the Illusionist), Ubertip (Tooltip - Extended)
 {
-Tassardar
+(True One)
 }
 
 STRING 2492
-// Items: I04O (Tassardar), Tip (Tooltip - Basic)
+// Items: I060 (Rune of the Illusionist), Description (Description)
 {
-Tassardar
+|cff50ff90Use when picked up|r
+Gives a random stat.
 }
 
 STRING 2493
-// Items: I04O (Tassardar), Ubertip (Tooltip - Extended)
+// Units: N039 ((E) Energy Ball), Name (Name)
 {
-|cffbababcCommon|r, |cff9001fdRing|r
-When someone dies near the hero, resets |cff60C445Unique|r cooldown.
-|cff81f260[Random bonus]|r
+(E) Energy Ball
 }
 
 STRING 2494
@@ -18743,6 +18746,33 @@ STRING 2784
 {
 |cffbababcCommon|r, |cffb40431Blood|r
 If the hero's health is 95% or more, increases the attack power by 70%.
+}
+
+STRING 2785
+// Items: I04O (Tassadar), Tip (Tooltip - Basic)
+{
+Tassadar
+}
+
+STRING 2786
+// Abilities: A06F (|cffffcc00Уровень 4:|r Спящий огр), Tip (Tooltip - Normal)
+{
+Sleeping Ogre
+}
+
+STRING 2787
+// Abilities: A1EO (Lightning Attack (Energy Ball)), Name (Name)
+{
+Lightning Attack (Energy Ball)
+}
+
+STRING 2788
+// Items: I04O (Tassadar), Description (Description)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+|cff60C445Unique|r costs 15 mana less.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
 }
 
 STRING 2789
@@ -29165,9 +29195,12 @@ Aspect of Vita
 }
 
 STRING 4345
-// Abilities: A16D (Aspect: Wanderer: Aspect of Vita), Ubertip (Tooltip - Normal - Extended)
+// Items: I04O (Tassadar), Ubertip (Tooltip - Extended)
 {
-Indelebilis Sensus restores twice as much health and mana, but no longer increases spellpower.
+|cffbababcCommon|r, |cff9001fdRing|r
+|cff60C445Unique|r costs 15 mana less.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
 }
 
 STRING 4346
@@ -35033,6 +35066,15 @@ STRING 5242
 {
 |cffbababcCommon|r
 Increases the Armor of the Hero and allies next to them by 5.
+}
+
+STRING 5243
+// Items: I0G6 (Salad of Wonders), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Activation: Restores |cffbe81f7400|r health to the Hero. If the inventory is full, |cffcc0000Corrupted|r.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 25 mana.
 }
 
 STRING 5244
@@ -44020,15 +44062,6 @@ STRING 6613
 Black Thumb, [|cffffcc00Level %d|r]
 }
 
-STRING 6614
-// Abilities: A0OJ (Ent: Black Thumb), Researchubertip (Tooltip - Learn - Extended)
-{
-Curses the enemy, reducing their armor by 1/2/3/4/5. Every second, the target loses |cffbe81f740/50/60/70/80|r health, and all nearby heroes restore |cffbe81f7health|r. Growth Spourt refreshes the duration of the effect.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 24/23/22/21/20 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
 STRING 6615
 // Abilities: A0OJ (Ent: Black Thumb), Tip (Tooltip - Normal)
 {
@@ -44057,46 +44090,6 @@ STRING 6619
 // Abilities: A0OJ (Ent: Black Thumb), Tip (Tooltip - Normal)
 {
 Black Thumb, [|cffffcc00Level 5|r]
-}
-
-STRING 6620
-// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
-{
-Curses the enemy, reducing their armor by 1. Every second, the target loses |cffbe81f740|r health, and all nearby heroes restore |cffbe81f7health|r. Growth Spourt refreshes the duration of the effect.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 24 seconds.
-}
-
-STRING 6621
-// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
-{
-Curses the enemy, reducing their armor by 2. Every second, the target loses |cffbe81f750|r health, and all nearby heroes restore |cffbe81f7health|r. Growth Spourt refreshes the duration of the effect.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 23 seconds.
-}
-
-STRING 6622
-// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
-{
-Curses the enemy, reducing their armor by 3. Every second, the target loses |cffbe81f760|r health, and all nearby heroes restore |cffbe81f7health|r. Growth Spourt refreshes the duration of the effect.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 22 seconds.
-}
-
-STRING 6623
-// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
-{
-Curses the enemy, reducing their armor by 4. Every second, the target loses |cffbe81f770|r health, and all nearby heroes restore |cffbe81f7health|r. Growth Spourt refreshes the duration of the effect.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 21 seconds.
-}
-
-STRING 6624
-// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
-{
-Curses the enemy, reducing their armor by 5. Every second, the target loses |cffbe81f780|r health, and all nearby heroes restore |cffbe81f7health|r. Growth Spourt refreshes the duration of the effect.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 6625
@@ -44213,15 +44206,6 @@ STRING 6643
 Crown of Thorns, [|cffffcc00Level %d|r]
 }
 
-STRING 6644
-// Abilities: A0OF (Ent: Crown of Thorns), Researchubertip (Tooltip - Learn - Extended)
-{
-Imposes a positive effect on an ally. When the target of the effect takes damage, |cffbe81f740%/50%/60%/70%/80%|r of the damage is reflected back to the attacker. If the ability deals 200 damage or more, stuns all affected attackers for 3 seconds. Growth Spourt extends the duration by 2 seconds.
-|cffffcc00Duration:|r 6/7/8/9/10 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 60/70/80/90/100 mana.
-}
-
 STRING 6645
 // Abilities: A0OF (Ent: Crown of Thorns), Tip (Tooltip - Normal)
 {
@@ -44252,46 +44236,6 @@ STRING 6649
 Crown of Thorns, [|cffffcc00Level 5|r]
 }
 
-STRING 6650
-// Abilities: A0OF (Ent: Crown of Thorns), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a positive effect on an ally. When the target of the effect takes damage, |cffbe81f740%|r of the damage is reflected back to the attacker. If the ability deals 200 damage or more, stuns all affected attackers for 3 seconds. Growth Spourt extends the duration by 2 seconds.
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 6651
-// Abilities: A0OF (Ent: Crown of Thorns), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a positive effect on an ally. When the target of the effect takes damage, |cffbe81f750%|r of the damage is reflected back to the attacker. If the ability deals 200 damage or more, stuns all affected attackers for 3 seconds. Growth Spourt extends the duration by 2 seconds.
-|cffffcc00Duration:|r 7 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 6652
-// Abilities: A0OF (Ent: Crown of Thorns), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a positive effect on an ally. When the target of the effect takes damage, |cffbe81f760%|r of the damage is reflected back to the attacker. If the ability deals 200 damage or more, stuns all affected attackers for 3 seconds. Growth Spourt extends the duration by 2 seconds.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 6653
-// Abilities: A0OF (Ent: Crown of Thorns), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a positive effect on an ally. When the target of the effect takes damage, |cffbe81f770%|r of the damage is reflected back to the attacker. If the ability deals 200 damage or more, stuns all affected attackers for 3 seconds. Growth Spourt extends the duration by 2 seconds.
-|cffffcc00Duration:|r 9 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 6654
-// Abilities: A0OF (Ent: Crown of Thorns), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a positive effect on an ally. When the target of the effect takes damage, |cffbe81f780%|r of the damage is reflected back to the attacker. If the ability deals 200 damage or more, stuns all affected attackers for 3 seconds. Growth Spourt extends the duration by 2 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 6655
 // Abilities: A0OE (Ent: Growth Sprout), Researchhotkey (Hotkey - Learn)
 {
@@ -44314,14 +44258,6 @@ STRING 6658
 // Abilities: A0OE (Ent: Growth Sprout), Researchtip (Tooltip - Learn)
 {
 Growth Sprout, [|cffffcc00Level %d|r]
-}
-
-STRING 6659
-// Abilities: A0OE (Ent: Growth Sprout), Researchubertip (Tooltip - Learn - Extended)
-{
-Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies to heal |cffbe81f775/100/125/150/175|r and all enemies to take |cffbe81f725/50/75/100/125|r damage. 3 charges.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 35 mana.
 }
 
 STRING 6660
@@ -44352,41 +44288,6 @@ STRING 6664
 // Abilities: A0OE (Ent: Growth Sprout), Tip (Tooltip - Normal)
 {
 Growth Sprout, [|cffffcc00Level 5|r]
-}
-
-STRING 6665
-// Abilities: A0OE (Ent: Growth Sprout), Ubertip (Tooltip - Normal - Extended)
-{
-Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies to heal |cffbe81f775|r and all enemies to take |cffbe81f725|r damage. 3 charges.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 6666
-// Abilities: A0OE (Ent: Growth Sprout), Ubertip (Tooltip - Normal - Extended)
-{
-Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies to heal |cffbe81f7100|r and all enemies to take |cffbe81f750|r damage. 3 charges.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 6667
-// Abilities: A0OE (Ent: Growth Sprout), Ubertip (Tooltip - Normal - Extended)
-{
-Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies to heal |cffbe81f7125|r and all enemies to take |cffbe81f775|r damage. 3 charges.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 6668
-// Abilities: A0OE (Ent: Growth Sprout), Ubertip (Tooltip - Normal - Extended)
-{
-Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies to heal |cffbe81f7150|r and all enemies to take |cffbe81f7100|r damage. 3 charges.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 6669
-// Abilities: A0OE (Ent: Growth Sprout), Ubertip (Tooltip - Normal - Extended)
-{
-Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies to heal |cffbe81f7175|r and all enemies to take |cffbe81f7125|r damage. 3 charges.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 6670
@@ -55391,6 +55292,14 @@ STRING 8359
 Parish, [|cffffcc00Level %d|r]
 }
 
+STRING 8360
+// Items: I0G6 (Salad of Wonders), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Activation: Restores |cffbe81f7400|r health to the Hero. If the inventory is full, |cffcc0000Corrupted|r.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 8361
 // Abilities: A0CN (Skeletlord: Parish), Tip (Tooltip - Normal)
 {
@@ -55421,16 +55330,167 @@ STRING 8365
 Parish, [|cffffcc00Level 5|r]
 }
 
+STRING 8366
+// Abilities: A08U (Spirit: Malice), Ubertip (Tooltip - Normal - Extended)
+{
+When a Hero effects a target with Fear (|cffffcc00Q|r), Shadow Zone (|cffffcc00W|r) or Curse, increases Spell Power by 0.45% until the end of the game.
+}
+
+STRING 8367
+// Abilities: A08U (Spirit: Malice), Ubertip (Tooltip - Normal - Extended)
+{
+When a Hero effects a target with Fear (|cffffcc00Q|r), Shadow Zone (|cffffcc00W|r) or Curse, increases Spell Power by 0.6% until the end of the game.
+}
+
+STRING 8368
+// Abilities: A08U (Spirit: Malice), Ubertip (Tooltip - Normal - Extended)
+{
+When a Hero effects a target with Fear (|cffffcc00Q|r), Shadow Zone (|cffffcc00W|r) or Curse, increases Spell Power by 0.75% until the end of the game.
+}
+
+STRING 8369
+// Abilities: A0OJ (Ent: Black Thumb), Researchubertip (Tooltip - Learn - Extended)
+{
+Curses the enemy, reducing their armor by 1/2/3/4/5. Every second, the target loses |cffbe81f740/50/60/70/80|r health, and all nearby heroes restore |cffbe81f7health|r.
+|cffffcc00Duration:|r 5 seconds.
+|cFF959697Growth Sprout refreshes the duration of the effect.|r
+|cffffcc00Cooldown:|r 24/23/22/21/20 seconds.
+|cffffcc00Cost:|r 100 mana.
+}
+
+STRING 8370
+// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
+{
+Curses the enemy, reducing their armor by 1. Every second, the target loses |cffbe81f740|r health, and all nearby heroes restore |cffbe81f7health|r.
+|cffffcc00Duration:|r 5 seconds.
+|cFF959697Growth Sprout refreshes the duration of the effect.|r
+|cffffcc00Cooldown:|r 24 seconds.
+}
+
 STRING 8371
 // Abilities: A0CM (Skeletlord: Grasp of the Dead), Researchhotkey (Hotkey - Learn)
 {
 W
 }
 
+STRING 8372
+// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
+{
+Curses the enemy, reducing their armor by 2. Every second, the target loses |cffbe81f750|r health, and all nearby heroes restore |cffbe81f7health|r.
+|cffffcc00Duration:|r 5 seconds.
+|cFF959697Growth Sprout refreshes the duration of the effect.|r
+|cffffcc00Cooldown:|r 23 seconds.
+}
+
 STRING 8373
 // Abilities: A0B4 (Beorn: Perseverance), Hotkey (Hotkey - Normal)
 {
 W
+}
+
+STRING 8374
+// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
+{
+Curses the enemy, reducing their armor by 3. Every second, the target loses |cffbe81f760|r health, and all nearby heroes restore |cffbe81f7health|r.
+|cffffcc00Duration:|r 5 seconds.
+|cFF959697Growth Sprout refreshes the duration of the effect.|r
+|cffffcc00Cooldown:|r 22 seconds.
+}
+
+STRING 8375
+// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
+{
+Curses the enemy, reducing their armor by 4. Every second, the target loses |cffbe81f770|r health, and all nearby heroes restore |cffbe81f7health|r.
+|cffffcc00Duration:|r 5 seconds.
+|cFF959697Growth Sprout refreshes the duration of the effect.|r
+|cffffcc00Cooldown:|r 21 seconds.
+}
+
+STRING 8376
+// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
+{
+Curses the enemy, reducing their armor by 5. Every second, the target loses |cffbe81f780|r health, and all nearby heroes restore |cffbe81f7health|r.
+|cffffcc00Duration:|r 5 seconds.
+|cFF959697Growth Sprout refreshes the duration of the effect.|r
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 8377
+// Abilities: A0OF (Ent: Crown of Thorns), Researchubertip (Tooltip - Learn - Extended)
+{
+Bless an ally. |cffbe81f740%/50%/60%/70%/80%|r of damage to the target is reflected back to the attacker. If a total of 200 damage is dealt, stuns attackers for 3 seconds.
+|cffffcc00Duration:|r 6/7/8/9/10 seconds.
+|cFF959697Growth Sprout extends the duration by 2 seconds.|r
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 60/70/80/90/100 mana.
+
+}
+
+STRING 8378
+// Abilities: A0OF (Ent: Crown of Thorns), Ubertip (Tooltip - Normal - Extended)
+{
+Bless an ally. |cffbe81f740%|r of damage to the target is reflected back to the attacker. If a total of 200 damage is dealt, stuns attackers for 3 seconds.
+|cffffcc00Duration:|r 6 seconds.
+|cFF959697Growth Sprout extends the duration by 2 seconds.|r
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 8379
+// Abilities: A0OF (Ent: Crown of Thorns), Ubertip (Tooltip - Normal - Extended)
+{
+Bless an ally. |cffbe81f750%|r of damage to the target is reflected back to the attacker. If a total of 200 damage is dealt, stuns attackers for 3 seconds.
+|cffffcc00Duration:|r 7 seconds.
+|cFF959697Growth Sprout extends the duration by 2 seconds.|r
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 8380
+// Abilities: A0OF (Ent: Crown of Thorns), Ubertip (Tooltip - Normal - Extended)
+{
+Bless an ally. |cffbe81f760%|r of damage to the target is reflected back to the attacker. If a total of 200 damage is dealt, stuns attackers for 3 seconds.
+|cffffcc00Duration:|r 8 seconds.
+|cFF959697Growth Sprout extends the duration by 2 seconds.|r
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 8381
+// Abilities: A0OF (Ent: Crown of Thorns), Ubertip (Tooltip - Normal - Extended)
+{
+Bless an ally. |cffbe81f770%|r of damage to the target is reflected back to the attacker. If a total of 200 damage is dealt, stuns attackers for 3 seconds.
+|cffffcc00Duration:|r 9 seconds.
+|cFF959697Growth Sprout extends the duration by 2 seconds.|r
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 8382
+// Abilities: A0OF (Ent: Crown of Thorns), Ubertip (Tooltip - Normal - Extended)
+{
+Bless an ally. |cffbe81f780%|r of damage to the target is reflected back to the attacker. If a total of 200 damage is dealt, stuns attackers for 3 seconds.
+|cffffcc00Duration:|r 10 seconds.
+|cFF959697Growth Sprout extends the duration by 2 seconds.|r
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 8383
+// Abilities: A0OE (Ent: Growth Sprout), Researchubertip (Tooltip - Learn - Extended)
+{
+Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies to heal |cffbe81f775/100/125/150/175|r Health and all enemies to take |cffbe81f725/50/75/100/125|r damage. 
+|cffffcc00Cooldown:|r 10 seconds (3 charges).
+|cffffcc00Cost:|r 35 mana.
+}
+
+STRING 8384
+// Abilities: A0OE (Ent: Growth Sprout), Ubertip (Tooltip - Normal - Extended)
+{
+Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies to heal |cffbe81f775|r Health and all enemies to take |cffbe81f725|r damage.
+|cffffcc00Cooldown:|r 10 seconds (3 charges).
+}
+
+STRING 8385
+// Abilities: A0OE (Ent: Growth Sprout), Ubertip (Tooltip - Normal - Extended)
+{
+Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies to heal |cffbe81f7100|r Health and all enemies to take |cffbe81f750|r damage.
+|cffffcc00Cooldown:|r 10 seconds (3 charges).
 }
 
 STRING 8386
@@ -59031,12 +59091,6 @@ STRING 8943
 Malice, [|cffffcc00Level %d|r]
 }
 
-STRING 8944
-// Abilities: A08U (Spirit: Malice), Researchubertip (Tooltip - Learn - Extended)
-{
-When the hero cast and imposes debuff on the enemy, increases spell power by 0.15%/0.3%/0.45%/0.6%/0.75% until the end of the game.
-}
-
 STRING 8945
 // Abilities: A08U (Spirit: Malice), Tip (Tooltip - Normal)
 {
@@ -59065,36 +59119,6 @@ STRING 8949
 // Abilities: A08U (Spirit: Malice), Tip (Tooltip - Normal)
 {
 Malice, [|cffffcc00Level 5|r]
-}
-
-STRING 8950
-// Abilities: A08U (Spirit: Malice), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero cast and imposes debuff on the enemy, increases spell power by 0.15% until the end of the game.
-}
-
-STRING 8951
-// Abilities: A08U (Spirit: Malice), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero cast and imposes debuff on the enemy, increases spell power by 0.3% until the end of the game.
-}
-
-STRING 8952
-// Abilities: A08U (Spirit: Malice), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero cast and imposes debuff on the enemy, increases spell power by 0.45% until the end of the game.
-}
-
-STRING 8953
-// Abilities: A08U (Spirit: Malice), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero cast and imposes debuff on the enemy, increases spell power by 0.6% until the end of the game.
-}
-
-STRING 8954
-// Abilities: A08U (Spirit: Malice), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero cast and imposes debuff on the enemy, increases spell power by 0.75% until the end of the game.
 }
 
 STRING 8955
@@ -61724,9 +61748,10 @@ STRING 9349
 }
 
 STRING 9350
-// Abilities: A06F (|cffffcc00Уровень 4:|r Спящий огр), Tip (Tooltip - Normal)
+// Abilities: A0OE (Ent: Growth Sprout), Ubertip (Tooltip - Normal - Extended)
 {
-Sleeping ogre
+Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies to heal |cffbe81f7125|r Health and all enemies to take |cffbe81f775|r damage.
+|cffffcc00Cooldown:|r 10 seconds (3 charges).
 }
 
 STRING 9351
@@ -64030,6 +64055,13 @@ STRING 9703
 Boom Machine
 }
 
+STRING 9704
+// Abilities: A0OE (Ent: Growth Sprout), Ubertip (Tooltip - Normal - Extended)
+{
+Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies to heal |cffbe81f7150|r Health and all enemies to take |cffbe81f7100|r damage.
+|cffffcc00Cooldown:|r 10 seconds (3 charges).
+}
+
 STRING 9705
 // Abilities: A03H (Sun King: Solar Eclipse), Hotkey (Hotkey - Normal)
 {
@@ -65486,6 +65518,13 @@ STRING 9924
 // Abilities: A036 (Unique: Provocation (+)), Tip (Tooltip - Normal)
 {
 Provocation
+}
+
+STRING 9925
+// Abilities: A0OE (Ent: Growth Sprout), Ubertip (Tooltip - Normal - Extended)
+{
+Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies to heal |cffbe81f7175|r Health and all enemies to take |cffbe81f7125|r damage.
+|cffffcc00Cooldown:|r 10 seconds (3 charges).
 }
 
 STRING 9926
@@ -73266,7 +73305,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.2.6T|r
+|cffbe81f7Boss Battle 1.5.2.7T|r
 }
 
 STRING 11219
@@ -75002,12 +75041,6 @@ STRING 11482
 // Units: N03P ((R) Lycanthrope Druid), Name (Name)
 {
 (R) Lycanthrope Druid
-}
-
-STRING 11483
-// Units: N039 ((E) Energy ball), Name (Name)
-{
-(E) Energy ball
 }
 
 STRING 11484

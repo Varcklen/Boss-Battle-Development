@@ -124,7 +124,6 @@ scope MepthistarExtra initializer init
 	            set t = timebonus(udg_Mephistar, MEPHISTAR_E_BLOOD_DURATION)
 	            call DestroyEffect( AddSpecialEffect( "Objects\\Spawnmodels\\Orc\\OrcSmallDeathExplode\\OrcSmallDeathExplode.mdl", GetUnitX( udg_hero[i] ), GetUnitY( udg_hero[i] ) ) )
 	            call bufst( udg_Mephistar, udg_hero[i], 'A145', 'B08J', "mephb", t )
-	            call effst( udg_Mephistar, udg_hero[i], null, 1, t )
 	        endif
 	        set i = i + 1
 	    endloop
@@ -159,7 +158,6 @@ scope MepthistarExtra initializer init
 	            set t = timebonus(udg_Mephistar, MEPHISTAR_E_MECH_DURATION)
 	            call DestroyEffect( AddSpecialEffect( "Abilities\\Spells\\Orc\\FeralSpirit\\feralspirittarget.mdl", GetUnitX( udg_hero[i] ), GetUnitY( udg_hero[i] ) ) )
 	            call bufst( udg_Mephistar, udg_hero[i], 'A146', 'B08K', "mephm", t )
-	            call effst( udg_Mephistar, udg_hero[i], null, 1, t )
 	        endif
 	        set i = i + 1
 	    endloop
@@ -213,7 +211,6 @@ scope MepthistarExtra initializer init
 	        if unitst( udg_hero[i], udg_Mephistar, "ally" ) then 
 	            set t = timebonus(udg_Mephistar, MEPHISTAR_E_RING_DURATION)
 	            call bufst( udg_Mephistar, udg_hero[i], MEPHISTAR_E_RING_EFFECT, MEPHISTAR_E_RING_BUFF, "mephr", t )
-	            call effst( udg_Mephistar, udg_hero[i], null, 1, t )
 	        endif
 	        set i = i + 1
 	    endloop
@@ -254,7 +251,6 @@ scope MepthistarExtra initializer init
 	        if unitst( udg_hero[i], udg_Mephistar, "ally" ) then 
 	            set t = timebonus(udg_Mephistar, MEPHISTAR_E_WEAPON_DURATION)
 	            call bufst( udg_Mephistar, udg_hero[i], 'A148', 'B08M', "mephw", t )
-	            call effst( udg_Mephistar, udg_hero[i], null, 1, t )
 	        endif
 	        set i = i + 1
 	    endloop
