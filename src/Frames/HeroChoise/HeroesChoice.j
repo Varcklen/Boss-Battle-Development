@@ -94,6 +94,11 @@ scope HeroesChoise initializer init
         local integer class = Event_HeroPicked_Class
         local FirstPosition position
         
+        if udg_hero[index] != null then
+        	call BJDebugMsg("HeroesChoise - HeroPicked: Error! You already have a hero.")
+        	return
+        endif
+        
         set udg_HeroNum[index] = heroKey
         set udg_UnitHeroLogic[heroKey] = true
         set udg_hero[index] = hero

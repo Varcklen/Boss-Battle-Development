@@ -7,7 +7,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.2.7T|r
+|cffbe81f7Boss Battle 1.5.2.8T|r
 }
 
 STRING 2
@@ -5713,14 +5713,6 @@ Only works in combat.
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
-STRING 893
-// Items: I0FP (Orb of the Rolling Plains), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases health regeneration by 5 and mana by 75.
-When the hero deals 100 damage or restores 100 health, creates a chain heal that restores |cffbe81f7100|r health to allies.
-}
-
 STRING 894
 // Items: I0FP (Orb of the Rolling Plains), Name (Name)
 {
@@ -5731,14 +5723,6 @@ STRING 895
 // Items: I0FP (Orb of the Rolling Plains), Tip (Tooltip - Basic)
 {
 Orb of the Rolling Plains
-}
-
-STRING 896
-// Items: I0FP (Orb of the Rolling Plains), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases health regeneration by 5 and mana by 75.
-When the hero deals 100 damage or restores 100 health, creates a chain heal that restores |cffbe81f7100|r health to allies.
 }
 
 STRING 897
@@ -11988,14 +11972,6 @@ Activation: Reduces received magic damage by 50%.
 |cffffcc00Duration:|r 10 seconds.
 }
 
-STRING 1787
-// Items: I09I (Moon owl), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-When the hero deals 300 damage or more, restore |cffbe81f710%|r of mana.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1788
 // Items: I09I (Moon owl), Tip (Tooltip - Basic)
 {
@@ -12007,14 +11983,6 @@ STRING 1789
 {
 Inflicts |cffbe81f7250|r fire damage to an enemy. With a probability of |cffd7df0180%|r, gives a ruby.
 |cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 1790
-// Items: I09I (Moon owl), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-When the hero deals 300 damage or more, restore |cffbe81f710%|r of mana.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1791
@@ -12181,29 +12149,27 @@ STRING 1814
 }
 
 STRING 1815
-// Items: I09B (Trembling enemies), Description (Description)
+// Buffs/Effects: B06P (), Bufftip (Tooltip)
 {
-|cffffcc00Quest:|r Give enemies 100 debuffs |cFF959697(0/100)|r.
-|cffffcc00Reward:|r Mask of Dagoth Ur.
+|cffff0000Plague Gift|r
 }
 
 STRING 1816
-// Items: I09B (Trembling enemies), Name (Name)
+// Buffs/Effects: B06O (), Bufftip (Tooltip)
 {
-Trembling enemies
+|cff00ff00Plague Gift|r
 }
 
 STRING 1817
-// Items: I09B (Trembling enemies), Tip (Tooltip - Basic)
+// Buffs/Effects: B00W (), Bufftip (Tooltip)
 {
-Trembling enemies
+|cff00ff00Plague Impact|r
 }
 
 STRING 1818
-// Items: I09B (Trembling enemies), Ubertip (Tooltip - Extended)
+// Buffs/Effects: B00Q (), Bufftip (Tooltip)
 {
-|cffffcc00Quest:|r Give enemies 100 debuffs |cFF959697(0/100)|r.
-|cffffcc00Reward:|r Mask of Dagoth Ur.
+|cff00ff00True Form|r
 }
 
 STRING 1819
@@ -13572,13 +13538,6 @@ Activation: Increases movement speed by 300%. Effect lasts 2 seconds longer for 
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 2016
-// Items: I07W (Necrium), Description (Description)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-When anyone dies near your hero, restore |cffbe81f712|r mana.
-}
-
 STRING 2017
 // Items: I07W (Necrium), Name (Name)
 {
@@ -13589,13 +13548,6 @@ STRING 2018
 // Items: I07W (Necrium), Tip (Tooltip - Basic)
 {
 Necrium
-}
-
-STRING 2019
-// Items: I07W (Necrium), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-When anyone dies near your hero, restore |cffbe81f712|r mana.
 }
 
 STRING 2020
@@ -18775,13 +18727,6 @@ STRING 2788
 |cff81f260[Random bonus]|r
 }
 
-STRING 2789
-// Items: I02K (Unique Recipe Book), Description (Description)
-{
-|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r
-|cff60C445Unique|r spell power also increases |cff088a08potion|r spell power by 50% of its current power. Increases |cff60C445Unique|r spell power by 50%.
-}
-
 STRING 2790
 // Items: I02K (Unique Recipe Book), Name (Name)
 {
@@ -18792,13 +18737,6 @@ STRING 2791
 // Items: I02K (Unique Recipe Book), Tip (Tooltip - Basic)
 {
 Unique Recipe Book
-}
-
-STRING 2792
-// Items: I02K (Unique Recipe Book), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r
-|cff60C445Unique|r spell power also increases |cff088a08potion|r spell power by 50% of its current power. Increases |cff60C445Unique|r spell power by 50%.
 }
 
 STRING 2793
@@ -23340,9 +23278,10 @@ Aspect of Friendship
 }
 
 STRING 3461
-// Abilities: A1CE (Aspect: Dealer: Aspect of Friendship), Ubertip (Tooltip - Normal - Extended)
+// Items: I09B (Trembling Enemies), Description (Description)
 {
-Whenever an allied hero kills a Totally Legit Banana, they get 25% of the gold you should have earned, and you get the the remaining 55%. Rest goes to friendship, rent and taxes. Your hero only gets 55% of gold from bananas.
+|cffffcc00Quest:|r Use the first ability (|cffffcc00Q|r) 35 times |cFF959697(0/35)|r.
+|cffffcc00Reward:|r Mask of Dagoth Ur.
 }
 
 STRING 3462
@@ -33456,7 +33395,7 @@ Beginner’s Luck
 }
 
 STRING 4992
-// Abilities: A11T (Beginner’s Luck), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A10M (Gambler: Beginner’s Luck), Ubertip (Tooltip - Normal - Extended)
 {
 When the hero attacks, with a |cffd7df0130%|r chance, uses a random gambler's |cffbe81f7trick|r.
 }
@@ -34042,51 +33981,15 @@ All artifacts are corrupted.
 }
 
 STRING 5086
-// Abilities: A10O (Arena: Отменить (Автоматические арены)), Hotkey (Hotkey - Normal)
+// Abilities: A10O (Arena: Cancel Automatic Arenas), Hotkey (Hotkey - Normal)
 {
 Z
-}
-
-STRING 5087
-// Abilities: A10O (Arena: Отменить (Автоматические арены)), Name (Name)
-{
-Arena: Отменить (Автоматические арены)
-}
-
-STRING 5088
-// Abilities: A10O (Arena: Отменить (Автоматические арены)), Tip (Tooltip - Normal)
-{
-Cancel
-}
-
-STRING 5089
-// Abilities: A10O (Arena: Отменить (Автоматические арены)), Ubertip (Tooltip - Normal - Extended)
-{
-Disable auto arenas.
 }
 
 STRING 5090
-// Abilities: A10N (Arena: Automatic arenas), Hotkey (Hotkey - Normal)
+// Abilities: A10N (Arena: Automatic Arenas), Hotkey (Hotkey - Normal)
 {
 Z
-}
-
-STRING 5091
-// Abilities: A10N (Arena: Automatic arenas), Name (Name)
-{
-Arena: Automatic arenas
-}
-
-STRING 5092
-// Abilities: A10N (Arena: Automatic arenas), Tip (Tooltip - Normal)
-{
-Automatic arenas
-}
-
-STRING 5093
-// Abilities: A10N (Arena: Automatic arenas), Ubertip (Tooltip - Normal - Extended)
-{
-Cute Bob's arenas will be triggered automatically - one round prior to refresh.
 }
 
 STRING 5094
@@ -34105,12 +34008,6 @@ STRING 5096
 // Abilities: A10M (Gambler: Beginner’s Luck), Researchtip (Tooltip - Learn)
 {
 Beginner’s Luck, [|cffffcc00Level %d|r]
-}
-
-STRING 5097
-// Abilities: A10M (Gambler: Beginner’s Luck), Researchubertip (Tooltip - Learn - Extended)
-{
-When the hero attacks, with a |cffd7df0130%|r chance, uses a random gambler's |cffbe81f7trick|r.
 }
 
 STRING 5098
@@ -34141,12 +34038,6 @@ STRING 5102
 // Abilities: A10M (Gambler: Beginner’s Luck), Tip (Tooltip - Normal)
 {
 Beginner’s Luck, [|cffffcc00Level 5|r]
-}
-
-STRING 5103
-// Abilities: A10M (Gambler: Beginner’s Luck), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, with a |cffd7df0130%|r chance, uses a random gambler's |cffbe81f7trick|r.
 }
 
 STRING 5104
@@ -44062,6 +43953,12 @@ STRING 6613
 Black Thumb, [|cffffcc00Level %d|r]
 }
 
+STRING 6614
+// Abilities: A1CE (Aspect: Dealer: Aspect of Friendship), Ubertip (Tooltip - Normal - Extended)
+{
+Whenever an allied hero kills a Totally Legit Banana, they get 25% of the gold you should have earned, and you get the the remaining 55%. Rest goes to friendship, rent and taxes.
+}
+
 STRING 6615
 // Abilities: A0OJ (Ent: Black Thumb), Tip (Tooltip - Normal)
 {
@@ -44090,6 +43987,31 @@ STRING 6619
 // Abilities: A0OJ (Ent: Black Thumb), Tip (Tooltip - Normal)
 {
 Black Thumb, [|cffffcc00Level 5|r]
+}
+
+STRING 6620
+// Items: I09B (Trembling Enemies), Name (Name)
+{
+Trembling Enemies
+}
+
+STRING 6621
+// Items: I09B (Trembling Enemies), Tip (Tooltip - Basic)
+{
+Trembling Enemies
+}
+
+STRING 6622
+// Items: I09B (Trembling Enemies), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Use the first ability (|cffffcc00Q|r) 35 times |cFF959697(0/35)|r.
+|cffffcc00Reward:|r Mask of Dagoth Ur.
+}
+
+STRING 6624
+// Buffs/Effects: B00W (), Buffubertip (Tooltip - Extended)
+{
+Attack Speed increased. The unit takes damage over time.
 }
 
 STRING 6625
@@ -44206,6 +44128,14 @@ STRING 6643
 Crown of Thorns, [|cffffcc00Level %d|r]
 }
 
+STRING 6644
+// Items: I0FP (Orb of the Rolling Plains), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases health regeneration by 5 and mana by 75.
+When the hero deals 100 damage or restores 100 health at once, creates a chain heal that restores |cffbe81f7100|r health to allies.
+}
+
 STRING 6645
 // Abilities: A0OF (Ent: Crown of Thorns), Tip (Tooltip - Normal)
 {
@@ -44236,6 +44166,46 @@ STRING 6649
 Crown of Thorns, [|cffffcc00Level 5|r]
 }
 
+STRING 6650
+// Items: I0FP (Orb of the Rolling Plains), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases health regeneration by 5 and mana by 75.
+When the hero deals 100 damage or restores 100 health at once, creates a chain heal that restores |cffbe81f7100|r health to allies.
+}
+
+STRING 6651
+// Items: I09I (Moon owl), Description (Description)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+When the hero deals 300 damage or more at once, restore |cffbe81f710%|r of mana.
+|cff81f260[Random bonus]|r
+}
+
+STRING 6652
+// Items: I09I (Moon owl), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+When the hero deals 300 damage or more at once, restore |cffbe81f710%|r of mana.
+|cff81f260[Random bonus]|r
+}
+
+STRING 6653
+// Items: I02K (Unique Recipe Book), Description (Description)
+{
+|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r
+Increases |cff60C445Unique|r Spell Power by 50%.
+|cff60C445Unique|r Spell Power also increases |cff088a08Potion|r Spell Powerby by half of its value.
+}
+
+STRING 6654
+// Items: I02K (Unique Recipe Book), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r
+Increases |cff60C445Unique|r Spell Power by 50%.
+|cff60C445Unique|r Spell Power also increases |cff088a08Potion|r Spell Powerby by half of its value.
+}
+
 STRING 6655
 // Abilities: A0OE (Ent: Growth Sprout), Researchhotkey (Hotkey - Learn)
 {
@@ -44258,6 +44228,14 @@ STRING 6658
 // Abilities: A0OE (Ent: Growth Sprout), Researchtip (Tooltip - Learn)
 {
 Growth Sprout, [|cffffcc00Level %d|r]
+}
+
+STRING 6659
+// Abilities: A11T (Beginner’s Luck), Ubertip (Tooltip - Normal - Extended)
+{
+When the hero attacks, with a |cffd7df0130%|r chance, uses a random gambler's |cffbe81f7trick|r.
+
+|cFF959697Gambler's trick gives gold, restores health or mana to the owner, stuns or reduces the target's armor.|r
 }
 
 STRING 6660
@@ -44288,6 +44266,38 @@ STRING 6664
 // Abilities: A0OE (Ent: Growth Sprout), Tip (Tooltip - Normal)
 {
 Growth Sprout, [|cffffcc00Level 5|r]
+}
+
+STRING 6665
+// Abilities: A10M (Gambler: Beginner’s Luck), Researchubertip (Tooltip - Learn - Extended)
+{
+When the hero attacks, with a |cffd7df0130%|r chance, uses a random gambler's |cffbe81f7trick|r.
+
+|cFF959697Gambler's trick gives gold, restores health or mana to the owner, stuns or reduces the target's armor.|r
+}
+
+STRING 6666
+// Abilities: A10O (Arena: Cancel Automatic Arenas), Name (Name)
+{
+Arena: Cancel Automatic Arenas
+}
+
+STRING 6667
+// Abilities: A10O (Arena: Cancel Automatic Arenas), Tip (Tooltip - Normal)
+{
+Cancel Automatic Arenas
+}
+
+STRING 6668
+// Abilities: A10O (Arena: Cancel Automatic Arenas), Ubertip (Tooltip - Normal - Extended)
+{
+Extra Arenas will no longer launch automatically when the battle starts, and you can launch them manually.
+}
+
+STRING 6669
+// Abilities: A10N (Arena: Automatic Arenas), Tip (Tooltip - Normal)
+{
+Automatic Arenas
 }
 
 STRING 6670
@@ -48779,19 +48789,6 @@ STRING 7356
 // Abilities: A0JQ (Arena: Overlord Arena), Tip (Tooltip - Normal)
 {
 Overlord Arena
-}
-
-STRING 7357
-// Abilities: A0JQ (Arena: Overlord Arena), Ubertip (Tooltip - Normal - Extended)
-{
-All the heroes teleport to an arena where they earn gold via killing enemy bosses. The arena ends when all the heroes die or the boss of the tenth level is defeated.
-
-|cffffcc00Warning!|r You cannot go to the arena until all heroes choose artifact rewards.
-
-Works only once, but is refreshed after completing:
-- Fifth boss
-
-|cffffcc00Bonus:|r After completing the map, you can attempt this arena any number of times.
 }
 
 STRING 7358
@@ -59091,6 +59088,12 @@ STRING 8943
 Malice, [|cffffcc00Level %d|r]
 }
 
+STRING 8944
+// Abilities: A10N (Arena: Automatic Arenas), Ubertip (Tooltip - Normal - Extended)
+{
+Extra Aens will be launched automatically with the start of the battle, when necessary.
+}
+
 STRING 8945
 // Abilities: A08U (Spirit: Malice), Tip (Tooltip - Normal)
 {
@@ -59119,6 +59122,46 @@ STRING 8949
 // Abilities: A08U (Spirit: Malice), Tip (Tooltip - Normal)
 {
 Malice, [|cffffcc00Level 5|r]
+}
+
+STRING 8950
+// Abilities: A0JQ (Arena: Overlord Arena), Ubertip (Tooltip - Normal - Extended)
+{
+All the heroes teleport to an arena where they earn gold via killing enemy bosses. The arena ends when all the heroes die or the boss of the tenth level is defeated.
+
+|cffffcc00Warning!|r You cannot go to the arena until all heroes choose artifact rewards.
+
+Works only once, but is refreshed after completing:
+- Fifth boss
+}
+
+STRING 8951
+// Abilities: A1EP (Arena: Overlord Arena (Passive)), Name (Name)
+{
+Arena: Overlord Arena (Passive)
+}
+
+STRING 8952
+// Abilities: A1EP (Arena: Overlord Arena (Passive)), Tip (Tooltip - Normal)
+{
+Overlord Arena
+}
+
+STRING 8953
+// Abilities: A1EP (Arena: Overlord Arena (Passive)), Ubertip (Tooltip - Normal - Extended)
+{
+All the heroes teleport to an arena where they earn gold via killing enemy bosses. The arena ends when all the heroes die or the boss of the tenth level is defeated.
+
+|cffffcc00Warning!|r You cannot go to the arena until all heroes choose artifact rewards.
+
+Works only once, but is refreshed after completing:
+- Fifth boss
+}
+
+STRING 8954
+// Abilities: A1EQ (Arena: Endless Arena (Passive)), Name (Name)
+{
+Arena: Endless Arena (Passive)
 }
 
 STRING 8955
@@ -67428,6 +67471,12 @@ STRING 10216
 Aura of Light, [|cffffcc00Level %d|r]
 }
 
+STRING 10217
+// Abilities: A1EQ (Arena: Endless Arena (Passive)), Tip (Tooltip - Normal)
+{
+Endless Arena
+}
+
 STRING 10218
 // Abilities: A016 (Preacher: Aura of Light), Tip (Tooltip - Normal)
 {
@@ -67456,6 +67505,48 @@ STRING 10222
 // Abilities: A016 (Preacher: Aura of Light), Tip (Tooltip - Normal)
 {
 Aura of Light, [|cffffcc00Level 5|r]
+}
+
+STRING 10223
+// Abilities: A1EQ (Arena: Endless Arena (Passive)), Ubertip (Tooltip - Normal - Extended)
+{
+All heroes teleport to the arena, where they earn gold for killing enemy minions.
+
+|cffffcc00Warning!|r The arena ends when all the heroes die. You cannot go to the arena until all heroes choose artifact rewards.
+
+Works only once, but is refreshed after completing:
+- Fourth boss
+- Seventh boss
+}
+
+STRING 10224
+// Abilities: A10N (Arena: Automatic Arenas), Name (Name)
+{
+Arena: Automatic Arenas
+}
+
+STRING 10225
+// Items: I0G5 (Dice of Chaos), Description (Description)
+{
+|cffbababcCommon|r
+Activation: Uses a random level 1 ability.
+|cffffcc00Cooldown:|r 5 seconds.
+}
+
+STRING 10226
+// Items: I0G5 (Dice of Chaos), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: Uses a random level 1 ability.
+|cffffcc00Cooldown:|r 5 seconds.
+}
+
+STRING 10227
+// Items: I07W (Necrium), Description (Description)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Increases Spell Power by 15%.
+Converts |cffbe81f725%|r of magical damage taken into mana.
 }
 
 STRING 10228
@@ -67710,14 +67801,6 @@ STRING 10266
 // Abilities: A00W (Curse: Mystery (b25)), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Mystery
-}
-
-STRING 10267
-// Items: I0G5 (Dice of Chaos), Description (Description)
-{
-|cffbababcCommon|r
-Activation: Roll the dice of chaos! Who knows what will happen?
-|cffffcc00Cooldown:|r 5 seconds.
 }
 
 STRING 10268
@@ -70105,22 +70188,10 @@ STRING 10657
 Attack power and attack speed increased.
 }
 
-STRING 10658
-// Buffs/Effects: B06P (), Bufftip (Tooltip)
-{
-|cffff0000Plague Gift
-}
-
 STRING 10659
 // Buffs/Effects: B06P (), Buffubertip (Tooltip - Extended)
 {
 Warrior is gradually losing health.
-}
-
-STRING 10660
-// Buffs/Effects: B06O (), Bufftip (Tooltip)
-{
-|cff00ff00Plague Gift
 }
 
 STRING 10661
@@ -72655,18 +72726,6 @@ STRING 11082
 Health is gradually being restored.
 }
 
-STRING 11083
-// Buffs/Effects: B00W (), Bufftip (Tooltip)
-{
-|cff00ff00Plague effect|r
-}
-
-STRING 11084
-// Buffs/Effects: B00W (), Buffubertip (Tooltip - Extended)
-{
-Health is gradually consumed. Attack speed increased.
-}
-
 STRING 11085
 // Buffs/Effects: B00V (), Bufftip (Tooltip)
 {
@@ -72727,12 +72786,6 @@ STRING 11094
 Attack and movement speed increased.
 }
 
-STRING 11095
-// Buffs/Effects: B00Q (), Bufftip (Tooltip)
-{
-|cff00ff00True appearance|r
-}
-
 STRING 11096
 // Buffs/Effects: B00Q (), Buffubertip (Tooltip - Extended)
 {
@@ -72755,14 +72808,6 @@ STRING 11099
 // Buffs/Effects: B00O (), Bufftip (Tooltip)
 {
 |cffff0000Evil magic|r
-}
-
-STRING 11100
-// Items: I0G5 (Dice of Chaos), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: Roll the dice of chaos! Who knows what will happen?
-|cffffcc00Cooldown:|r 5 seconds.
 }
 
 STRING 11101
@@ -73113,6 +73158,14 @@ STRING 11158
 Upgrade
 }
 
+STRING 11159
+// Items: I07W (Necrium), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Increases Spell Power by 15%.
+Converts |cffbe81f725%|r of magical damage taken into mana.
+}
+
 STRING 11162
 {
 This item cannot be dropped. Use the Exterminator (clockwork goblin) to split the item.
@@ -73295,7 +73348,7 @@ STRING 11215
 
 STRING 11216
 {
-by Varcklen
+Varcklen
 }
 
 STRING 11217
@@ -73305,7 +73358,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.2.7T|r
+|cffbe81f7Boss Battle 1.5.2.8T|r
 }
 
 STRING 11219

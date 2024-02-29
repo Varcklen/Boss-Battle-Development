@@ -1,0 +1,15 @@
+{
+  "Id": 24379856,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Event_StartTimerExpire",
+  "Type": "real",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "0"
+  }
+}

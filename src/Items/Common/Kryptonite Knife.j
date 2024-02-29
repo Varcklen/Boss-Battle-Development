@@ -21,7 +21,7 @@ scope KryptoniteKnife initializer init
 	
 	private function AttackChange_Condition takes nothing returns boolean
 		local integer index = GetPlayerId( GetOwningPlayer(udg_DamageEventSource) ) + 1
-        return inv( udg_DamageEventSource, ITEM_ID) > 0 or ( udg_Set_Weapon_Logic[index + 96] and inv(udg_DamageEventSource, 'I030') > 0 )
+        return udg_IsDamageSpell == false and ( inv( udg_DamageEventSource, ITEM_ID) > 0 or ( udg_Set_Weapon_Logic[index + 96] and inv(udg_DamageEventSource, 'I030') > 0 ) )
 	endfunction
 	
 	private function AttackChange takes nothing returns nothing
