@@ -7,7 +7,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.2.8T|r
+|cffbe81f7Boss Battle 1.5.2.9T|r
 }
 
 STRING 2
@@ -5713,6 +5713,14 @@ Only works in combat.
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 893
+// Items: I0E8 (Magic Fern), Description (Description)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+When another Hero dies for the first time in a battle, gives you their Spell Power and Luck for the battle.
+|cff81f260[Random bonus]|r
+}
+
 STRING 894
 // Items: I0FP (Orb of the Rolling Plains), Name (Name)
 {
@@ -5723,6 +5731,12 @@ STRING 895
 // Items: I0FP (Orb of the Rolling Plains), Tip (Tooltip - Basic)
 {
 Orb of the Rolling Plains
+}
+
+STRING 896
+// Items: I0E8 (Magic Fern), Name (Name)
+{
+Magic Fern
 }
 
 STRING 897
@@ -7223,31 +7237,15 @@ Activation: Imposes a buff on an ally. When this effect ends, returns the target
 }
 
 STRING 1106
-// Items: I0E8 (Magic fern), Description (Description)
+// Buffs/Effects: B041 (), Bufftip (Tooltip)
 {
-|cff4169e1Rare|r, |cff5858faMoon|r
-When another hero dies, you absorb its spell power and luck one time until the end of the battle.
-|cff81f260[Random bonus]|r
+|cff00ff00Yorick's Skull|r
 }
 
 STRING 1107
-// Items: I0E8 (Magic fern), Name (Name)
+// Buffs/Effects: B041 (), Buffubertip (Tooltip - Extended)
 {
-Magic fern
-}
-
-STRING 1108
-// Items: I0E8 (Magic fern), Tip (Tooltip - Basic)
-{
-Magic fern
-}
-
-STRING 1109
-// Items: I0E8 (Magic fern), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-When another hero dies, you absorb its spell power and luck one time until the end of the battle.
-|cff81f260[Random bonus]|r
+After death the unit will summon a copy of themself.
 }
 
 STRING 1110
@@ -7736,14 +7734,6 @@ When the hero takes fatal damage, instead of dying, restores |cffbe81f720%|r of 
 |cffffcc00Cooldown:|r 35 seconds.
 }
 
-STRING 1178
-// Items: I0DQ (Bindings of Potential), Description (Description)
-{
-|cffbababcCommon|r
-Any damage from your hero less than 30 damage now deals 30 damage.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1179
 // Items: I0DQ (Bindings of Potential), Name (Name)
 {
@@ -7754,14 +7744,6 @@ STRING 1180
 // Items: I0DQ (Bindings of Potential), Tip (Tooltip - Basic)
 {
 Bindings of Potential
-}
-
-STRING 1181
-// Items: I0DQ (Bindings of Potential), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Any damage you deal below 30 damage now deals 30 damage.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1182
@@ -9163,13 +9145,6 @@ STRING 1381
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff2d9995weapon|r, |cffb18904mech|r or |cff848484rune|r.
 }
 
-STRING 1382
-// Items: I0CB (Tarot Card: The Fool), Description (Description)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. You get something. Maybe.
-}
-
 STRING 1383
 // Items: I0CB (Tarot Card: The Fool), Name (Name)
 {
@@ -9180,13 +9155,6 @@ STRING 1384
 // Items: I0CB (Tarot Card: The Fool), Tip (Tooltip - Basic)
 {
 Tarot Card: The Fool
-}
-
-STRING 1385
-// Items: I0CB (Tarot Card: The Fool), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. You get something. Maybe.
 }
 
 STRING 1386
@@ -9863,14 +9831,6 @@ When the hero takes damage, restores |cffbe81f72|r mana.
 |cff81f260[Random bonus]|r
 }
 
-STRING 1482
-// Items: I0BM (Conqueror's Helmet), Description (Description)
-{
-|cff4169e1Rare|r
-If the hero takes damage, more than 8% of the maximum health, reduces it to 8% of health.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1483
 // Items: I0BM (Conqueror's Helmet), Name (Name)
 {
@@ -9881,14 +9841,6 @@ STRING 1484
 // Items: I0BM (Conqueror's Helmet), Tip (Tooltip - Basic)
 {
 Conqueror's Helmet
-}
-
-STRING 1485
-// Items: I0BM (Conqueror's Helmet), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-If the hero takes damage, more than 8% of the maximum health, reduces it to 8% of health.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1486
@@ -11972,6 +11924,12 @@ Activation: Reduces received magic damage by 50%.
 |cffffcc00Duration:|r 10 seconds.
 }
 
+STRING 1787
+// Items: I0E8 (Magic Fern), Tip (Tooltip - Basic)
+{
+Magic Fern
+}
+
 STRING 1788
 // Items: I09I (Moon owl), Tip (Tooltip - Basic)
 {
@@ -11983,6 +11941,14 @@ STRING 1789
 {
 Inflicts |cffbe81f7250|r fire damage to an enemy. With a probability of |cffd7df0180%|r, gives a ruby.
 |cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 1790
+// Items: I0E8 (Magic Fern), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+When another Hero dies for the first time in a battle, gives you their Spell Power and Luck for the battle.
+|cff81f260[Random bonus]|r
 }
 
 STRING 1791
@@ -12224,32 +12190,6 @@ STRING 1826
 // Abilities: A1EH (Extra: Rubies (Legionary)), Tip (Tooltip - Normal)
 {
 Rubies
-}
-
-STRING 1827
-// Items: I098 (Fulfillment of will), Description (Description)
-{
-|cffffcc00Quest:|r Kill 18 bosses |cFF959697(0/18)|r.
-|cffffcc00Reward:|r Badge of the Gray Warden.
-}
-
-STRING 1828
-// Items: I098 (Fulfillment of will), Name (Name)
-{
-Fulfillment of will
-}
-
-STRING 1829
-// Items: I098 (Fulfillment of will), Tip (Tooltip - Basic)
-{
-Fulfillment of will
-}
-
-STRING 1830
-// Items: I098 (Fulfillment of will), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Kill 18 bosses |cFF959697(0/18)|r.
-|cffffcc00Reward:|r Badge of the Gray Warden.
 }
 
 STRING 1831
@@ -13538,6 +13478,14 @@ Activation: Increases movement speed by 300%. Effect lasts 2 seconds longer for 
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 2016
+// Items: I0DQ (Bindings of Potential), Description (Description)
+{
+|cffbababcCommon|r
+The Hero cannot deal less than 30 damage.
+|cff81f260[Random bonus]|r
+}
+
 STRING 2017
 // Items: I07W (Necrium), Name (Name)
 {
@@ -13548,6 +13496,14 @@ STRING 2018
 // Items: I07W (Necrium), Tip (Tooltip - Basic)
 {
 Necrium
+}
+
+STRING 2019
+// Items: I0DQ (Bindings of Potential), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+The Hero cannot deal less than 30 damage.
+|cff81f260[Random bonus]|r
 }
 
 STRING 2020
@@ -18727,6 +18683,14 @@ STRING 2788
 |cff81f260[Random bonus]|r
 }
 
+STRING 2789
+// Items: I0BM (Conqueror's Helmet), Description (Description)
+{
+|cff4169e1Rare|r
+The Hero cannot take more damage than 8% of the maximum Health.
+|cff81f260[Random bonus]|r
+}
+
 STRING 2790
 // Items: I02K (Unique Recipe Book), Name (Name)
 {
@@ -18737,6 +18701,14 @@ STRING 2791
 // Items: I02K (Unique Recipe Book), Tip (Tooltip - Basic)
 {
 Unique Recipe Book
+}
+
+STRING 2792
+// Items: I0BM (Conqueror's Helmet), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+The Hero cannot take more damage than 8% of the maximum Health.
+|cff81f260[Random bonus]|r
 }
 
 STRING 2793
@@ -33986,10 +33958,52 @@ STRING 5086
 Z
 }
 
+STRING 5087
+// Items: I098 (Fulfillment of Will), Description (Description)
+{
+|cffffcc00Quest:|r Defeat 18 bosses |cFF959697(0/18)|r.
+|cffffcc00Reward:|r Badge of the Gray Warden.
+}
+
+STRING 5088
+// Items: I098 (Fulfillment of Will), Name (Name)
+{
+Fulfillment of Will
+}
+
+STRING 5089
+// Items: I098 (Fulfillment of Will), Tip (Tooltip - Basic)
+{
+Fulfillment of Will
+}
+
 STRING 5090
 // Abilities: A10N (Arena: Automatic Arenas), Hotkey (Hotkey - Normal)
 {
 Z
+}
+
+STRING 5091
+// Items: I098 (Fulfillment of Will), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Defeat 18 bosses |cFF959697(0/18)|r.
+|cffffcc00Reward:|r Badge of the Gray Warden.
+}
+
+STRING 5092
+// Items: I02K (Unique Recipe Book), Description (Description)
+{
+|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r
+Increases |cff60C445Unique|r Spell Power by 50%.
+|cff60C445Unique|r Spell Power also increases |cff088a08Potion|r Spell Power by half of its value.
+}
+
+STRING 5093
+// Items: I02K (Unique Recipe Book), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r
+Increases |cff60C445Unique|r Spell Power by 50%.
+|cff60C445Unique|r Spell Power also increases |cff088a08Potion|r Spell Power by half of its value.
 }
 
 STRING 5094
@@ -34008,6 +34022,12 @@ STRING 5096
 // Abilities: A10M (Gambler: Beginner’s Luck), Researchtip (Tooltip - Learn)
 {
 Beginner’s Luck, [|cffffcc00Level %d|r]
+}
+
+STRING 5097
+// Abilities: A1ER (.General: Non-Destroyable), Name (Name)
+{
+.General: Non-Destroyable
 }
 
 STRING 5098
@@ -34038,6 +34058,12 @@ STRING 5102
 // Abilities: A10M (Gambler: Beginner’s Luck), Tip (Tooltip - Normal)
 {
 Beginner’s Luck, [|cffffcc00Level 5|r]
+}
+
+STRING 5103
+// Abilities: A1ES (.General: Random Events To Destroy), Name (Name)
+{
+.General: Random Events To Destroy
 }
 
 STRING 5104
@@ -44008,6 +44034,13 @@ STRING 6622
 |cffffcc00Reward:|r Mask of Dagoth Ur.
 }
 
+STRING 6623
+// Items: I0CB (Tarot Card: The Fool), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Fully resurrects a dead Hero.
+}
+
 STRING 6624
 // Buffs/Effects: B00W (), Buffubertip (Tooltip - Extended)
 {
@@ -44188,22 +44221,6 @@ STRING 6652
 |cffbababcCommon|r, |cff5858faMoon|r
 When the hero deals 300 damage or more at once, restore |cffbe81f710%|r of mana.
 |cff81f260[Random bonus]|r
-}
-
-STRING 6653
-// Items: I02K (Unique Recipe Book), Description (Description)
-{
-|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r
-Increases |cff60C445Unique|r Spell Power by 50%.
-|cff60C445Unique|r Spell Power also increases |cff088a08Potion|r Spell Powerby by half of its value.
-}
-
-STRING 6654
-// Items: I02K (Unique Recipe Book), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r
-Increases |cff60C445Unique|r Spell Power by 50%.
-|cff60C445Unique|r Spell Power also increases |cff088a08Potion|r Spell Powerby by half of its value.
 }
 
 STRING 6655
@@ -48789,6 +48806,13 @@ STRING 7356
 // Abilities: A0JQ (Arena: Overlord Arena), Tip (Tooltip - Normal)
 {
 Overlord Arena
+}
+
+STRING 7357
+// Items: I0CB (Tarot Card: The Fool), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Fully resurrects a dead Hero.
 }
 
 STRING 7358
@@ -67803,6 +67827,12 @@ STRING 10266
 |cffffcc00Curse:|r Mystery
 }
 
+STRING 10267
+// Abilities: A1ET (Artifact: Tarot Card: The Fool), Name (Name)
+{
+Artifact: Tarot Card: The Fool
+}
+
 STRING 10268
 // Abilities: A00V (Armor (Доспех Рыцаря)), Name (Name)
 {
@@ -71358,18 +71388,6 @@ STRING 10854
 Summons a sheep on death.
 }
 
-STRING 10855
-// Buffs/Effects: B041 (), Bufftip (Tooltip)
-{
-|cff00ff00Necromagy|r
-}
-
-STRING 10856
-// Buffs/Effects: B041 (), Buffubertip (Tooltip - Extended)
-{
-After death will call a copy of the creature.
-}
-
 STRING 10857
 // Buffs/Effects: B040 (), Bufftip (Tooltip)
 {
@@ -73358,7 +73376,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.2.8T|r
+|cffbe81f7Boss Battle 1.5.2.9T|r
 }
 
 STRING 11219
