@@ -1,0 +1,14 @@
+{
+  "Id": 822414673,
+  "ArraySize": [
+    4,
+    1
+  ],
+  "Name": "EternalHarvestTriggered",
+  "Type": "boolean",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

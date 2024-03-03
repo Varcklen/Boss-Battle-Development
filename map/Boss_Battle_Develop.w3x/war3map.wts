@@ -5713,6 +5713,13 @@ Only works in combat.
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 893
+// Items: IZ03 (Cheese), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Replace the assortment of Jule with |cff4169e1Rare|r items. They keep the original prices.
+}
+
 STRING 894
 // Items: I0FP (Orb of the Rolling Plains), Name (Name)
 {
@@ -5723,6 +5730,12 @@ STRING 895
 // Items: I0FP (Orb of the Rolling Plains), Tip (Tooltip - Basic)
 {
 Orb of the Rolling Plains
+}
+
+STRING 896
+// Items: IZ03 (Cheese), Name (Name)
+{
+Cheese
 }
 
 STRING 897
@@ -11972,6 +11985,12 @@ Activation: Reduces received magic damage by 50%.
 |cffffcc00Duration:|r 10 seconds.
 }
 
+STRING 1787
+// Items: IZ03 (Cheese), Tip (Tooltip - Basic)
+{
+Cheese
+}
+
 STRING 1788
 // Items: I09I (Moon owl), Tip (Tooltip - Basic)
 {
@@ -11983,6 +12002,13 @@ STRING 1789
 {
 Inflicts |cffbe81f7250|r fire damage to an enemy. With a probability of |cffd7df0180%|r, gives a ruby.
 |cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 1790
+// Items: IZ03 (Cheese), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Replace the assortment of Jule with |cff4169e1Rare|r items. They keep the original prices.
 }
 
 STRING 1791
@@ -13538,6 +13564,13 @@ Activation: Increases movement speed by 300%. Effect lasts 2 seconds longer for 
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 2016
+// Items: IZ04 (Eternal Harvest), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
+After a battle with a boss, if any hero died during that fight, get a random |cffb40431blood|r or |cff7cfc00nature|r item and be offered the other one in the end rewards.
+}
+
 STRING 2017
 // Items: I07W (Necrium), Name (Name)
 {
@@ -13548,6 +13581,12 @@ STRING 2018
 // Items: I07W (Necrium), Tip (Tooltip - Basic)
 {
 Necrium
+}
+
+STRING 2019
+// Items: IZ04 (Eternal Harvest), Name (Name)
+{
+Eternal Harvest
 }
 
 STRING 2020
@@ -18727,6 +18766,12 @@ STRING 2788
 |cff81f260[Random bonus]|r
 }
 
+STRING 2789
+// Items: IZ04 (Eternal Harvest), Tip (Tooltip - Basic)
+{
+Eternal Harvest
+}
+
 STRING 2790
 // Items: I02K (Unique Recipe Book), Name (Name)
 {
@@ -18737,6 +18782,13 @@ STRING 2791
 // Items: I02K (Unique Recipe Book), Tip (Tooltip - Basic)
 {
 Unique Recipe Book
+}
+
+STRING 2792
+// Items: IZ04 (Eternal Harvest), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
+After a battle with a boss, if any hero died during that fight, get a random |cffb40431blood|r or |cff7cfc00nature|r item and be offered the other one in the end rewards.
 }
 
 STRING 2793
@@ -33986,10 +34038,36 @@ STRING 5086
 Z
 }
 
+STRING 5087
+// Items: IZ05 (Oath of Resourcefulness), Description (Description)
+{
+|cffe96a1cLegendary|r
+Your other |cffcc0000corrupted|r items transform into "Weapon Gifts" after being used instead of disappearing.
+}
+
+STRING 5088
+// Items: IZ05 (Oath of Resourcefulness), Name (Name)
+{
+Oath of Resourcefulness
+}
+
+STRING 5089
+// Items: IZ05 (Oath of Resourcefulness), Tip (Tooltip - Basic)
+{
+Oath of Resourcefulness
+}
+
 STRING 5090
 // Abilities: A10N (Arena: Automatic Arenas), Hotkey (Hotkey - Normal)
 {
 Z
+}
+
+STRING 5091
+// Items: IZ05 (Oath of Resourcefulness), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Your other |cffcc0000corrupted|r items transform into "Weapon Gifts" after being used instead of disappearing.
 }
 
 STRING 5094

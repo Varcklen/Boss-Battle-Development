@@ -1,0 +1,11 @@
+{
+  "Id": 894126895,
+  "Comment": "Doesn't work - I'll fix someday later",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "/*scope EternalHarvest\r\n    globals\r\n        private constant integer ID_ETERNALH_ITEM = 'IZ04'\r\n    endglobals\r\n\r\n\tfunction Trig_EternalHarvest_Conditions takes nothing returns boolean\r\n    \treturn ( udg_HeroesDiedBattle > 0 ) //and ( inv(Event_ItemRewardCreate_Hero) , ID_ETERNALH_ITEM ) > 0 ) //and (ItemCreate_ItemPosition(Event_ItemRewardCreate_Position, 3))\r\n\tendfunction\r\n\r\n\tfunction Trig_EternalHarvest_Actions takes nothing returns nothing\r\n   \t\tlocal integer invI\r\n   \t\tlocal integer playerID = GetPlayerId(GetOwningPlayer(Event_ItemRewardCreate_Hero))\r\n   \t\tlocal integer invJ\r\n   \t\tlocal integer offerJ\r\n        \tif GetRandomInt( 0, 1 ) == 1 then\r\n        \t\tset invJ = 4\t// Blood in inv\r\n        \t\tset offerJ = 7\r\n        \telse \r\n        \t\tset invJ = 7\t// Nature in inv\r\n        \t\tset offerJ = 4\r\n        \tendif\r\n        \tif not(udg_EternalHarvestTriggered[playerID]) then\t\r\n        \t\tset udg_EternalHarvestTriggered[playerID] = true\r\n        \t\tset invI = DB_SetItems[invJ][GetRandomInt(1, udg_DB_SetItems_Num[invJ])]\r\n        \t\tset bj_lastCreatedItem = CreateItem( invI, GetUnitX(Event_ItemRewardCreate_Hero), GetUnitY(Event_ItemRewardCreate_Hero) )\r\n                call UnitAddItem( Event_ItemRewardCreate_Hero, bj_lastCreatedItem )\r\n        \tendif\r\n        \tset Event_ItemRewardCreate_ItemReward = DB_SetItems[offerJ][GetRandomInt(1,udg_DB_SetItems_Num[offerJ])]\r\n\tendfunction\r\n\r\n//****************************************************************************\r\n\tfunction InitTrig_EternalHarvest takes nothing returns nothing\r\n\t\t//set gg_trg_EternalHarvest = CreateTrigger()\r\n        call CreateEventTrigger( \"Event_ItemRewardCreate_Real\", function Trig_EternalHarvest_Actions, function Trig_EternalHarvest_Conditions )\r\n\t\t//call TriggerAddAction( gg_trg_EternalHarvest, function Trig_EternalHarvest_Actions)\r\n\t   // call TriggerAddCondition( gg_trg_EternalHarvest, Condition( function Trig_EternalHarvest_Conditions ) )\r\n\tendfunction\r\n        \r\nendscope*/",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}
