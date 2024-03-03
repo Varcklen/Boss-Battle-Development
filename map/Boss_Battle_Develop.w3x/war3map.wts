@@ -4697,13 +4697,6 @@ Activation: Deals |cffbe81f7300|r damage to the target. Increases zuma's damage 
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 746
-// Items: I0GQ (Enlightenment), Description (Description)
-{
-|cffe96a1cLegendary|r
-When your hero uses an ability or item, increases spell power by 3% for the remainder of the fight. The effect is cumulative.
-}
-
 STRING 747
 // Items: I0GQ (Enlightenment), Name (Name)
 {
@@ -4714,13 +4707,6 @@ STRING 748
 // Items: I0GQ (Enlightenment), Tip (Tooltip - Basic)
 {
 Enlightenment
-}
-
-STRING 749
-// Items: I0GQ (Enlightenment), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-When your hero uses an ability or item, increases spell power by 3% for the remainder of the fight. The effect is cumulative.
 }
 
 STRING 750
@@ -4749,13 +4735,6 @@ STRING 753
 |cffffcc00Reward:|r Enlightenment.
 }
 
-STRING 754
-// Items: I0GO (Battlemaster's Bulwark), Description (Description)
-{
-|cffe96a1cLegendary|r
-When the hero deal damage, creates a shield equal to |cffbe81f740%|r of the damage dealt.
-}
-
 STRING 755
 // Items: I0GO (Battlemaster's Bulwark), Name (Name)
 {
@@ -4766,13 +4745,6 @@ STRING 756
 // Items: I0GO (Battlemaster's Bulwark), Tip (Tooltip - Basic)
 {
 Battlemaster's Bulwark
-}
-
-STRING 757
-// Items: I0GO (Battlemaster's Bulwark), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-When the hero deal damage, creates a shield equal to |cffbe81f740%|r of the damage dealt.
 }
 
 STRING 758
@@ -7248,6 +7220,25 @@ STRING 1107
 After death the unit will summon a copy of themself.
 }
 
+STRING 1108
+// Items: I0E6 (Totem of Burning Gaze), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Creates a burning gaze totem. Every 5 seconds, it deals |cffbe81f7100|r damage to a random target. If the target's health is 50% or less, summon a random minion.
+|cffffcc00Life time:|r 20 seconds.
+|cffffcc00Cooldown:|r 3 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
+STRING 1109
+// Items: I0E6 (Totem of Burning Gaze), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Creates a burning gaze totem. Every 5 seconds, it deals |cffbe81f7100|r damage to a random target. If the target's health is 50% or less, summon a random minion.
+|cffffcc00Life time:|r 20 seconds.
+|cffffcc00Cooldown:|r 3 seconds.
+}
+
 STRING 1110
 // Items: I0E7 (Witch's love), Description (Description)
 {
@@ -7278,16 +7269,6 @@ At the beginning of the fight, creates a witch's cauldron, which gradually resto
 |cff81f260[Random bonus]|r
 }
 
-STRING 1114
-// Items: I0E6 (Totem of Burning Gaze), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Creates a burning gaze totem. Every 5 seconds, it deals |cffbe81f7100|r damage to a random target. If the target's health is 50% or less, summon a random minion.
-|cffffcc00Life time:|r 20 seconds.
-|cffffcc00Cooldown:|r 1 second.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 1115
 // Items: I0E6 (Totem of Burning Gaze), Name (Name)
 {
@@ -7298,15 +7279,6 @@ STRING 1116
 // Items: I0E6 (Totem of Burning Gaze), Tip (Tooltip - Basic)
 {
 Totem of Burning Gaze
-}
-
-STRING 1117
-// Items: I0E6 (Totem of Burning Gaze), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Creates a burning gaze totem. Every 5 seconds, it deals |cffbe81f7100|r damage to a random target. If the target's health is 50% or less, summon a random minion.
-|cffffcc00Life time:|r 20 seconds.
-|cffffcc00Cooldown:|r 1 second.
 }
 
 STRING 1118
@@ -7734,6 +7706,15 @@ When the hero takes fatal damage, instead of dying, restores |cffbe81f720%|r of 
 |cffffcc00Cooldown:|r 35 seconds.
 }
 
+STRING 1178
+// Items: I0DC (Totem of Exchange), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: It takes away 2 main stats and gives 2 secondary stats. Only works in combat.
+|cffffcc00Cooldown:|r 3 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
 STRING 1179
 // Items: I0DQ (Bindings of Potential), Name (Name)
 {
@@ -7744,6 +7725,14 @@ STRING 1180
 // Items: I0DQ (Bindings of Potential), Tip (Tooltip - Basic)
 {
 Bindings of Potential
+}
+
+STRING 1181
+// Items: I0DC (Totem of Exchange), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: It takes away 2 main stats and gives 2 secondary stats. Only works in combat.
+|cffffcc00Cooldown:|r 3 seconds.
 }
 
 STRING 1182
@@ -8123,15 +8112,6 @@ STRING 1233
 Activation: |cffcc0000Corrupted|r. Grants an extra attempt at a boss fight. Kills all heroes. Only works in boss fights.
 }
 
-STRING 1234
-// Items: I0DC (Totem of Exchange), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: It takes away 2 main stats and gives 2 secondary stats. Only works in combat.
-|cffffcc00Cooldown:|r 1 second.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 1235
 // Items: I0DC (Totem of Exchange), Name (Name)
 {
@@ -8142,14 +8122,6 @@ STRING 1236
 // Items: I0DC (Totem of Exchange), Tip (Tooltip - Basic)
 {
 Totem of Exchange
-}
-
-STRING 1237
-// Items: I0DC (Totem of Exchange), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: It takes away 2 main stats and gives 2 secondary stats. Only works in combat.
-|cffffcc00Cooldown:|r 1 second.
 }
 
 STRING 1238
@@ -9145,6 +9117,16 @@ STRING 1381
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff2d9995weapon|r, |cffb18904mech|r or |cff848484rune|r.
 }
 
+STRING 1382
+// Items: I0B0 (Totem of Energy), Description (Description)
+{
+|cffbababcCommon|r
+Activation: Creates an energy totem. Every second, it restores |cffbe81f71-2|r mana to all nearby heroes.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 3 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
 STRING 1383
 // Items: I0CB (Tarot Card: The Fool), Name (Name)
 {
@@ -9155,6 +9137,15 @@ STRING 1384
 // Items: I0CB (Tarot Card: The Fool), Tip (Tooltip - Basic)
 {
 Tarot Card: The Fool
+}
+
+STRING 1385
+// Items: I0B0 (Totem of Energy), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: Creates an energy totem. Every second, it restores |cffbe81f71-2|r mana to all nearby heroes.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 3 seconds.
 }
 
 STRING 1386
@@ -9831,6 +9822,17 @@ When the hero takes damage, restores |cffbe81f72|r mana.
 |cff81f260[Random bonus]|r
 }
 
+STRING 1482
+// Items: I0A9 (Totem of Chaos), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Creates a chaos totem.
+Every 4 seconds, it uses a random 1 level ability.
+|cffffcc00Life time:|r 40 seconds.
+|cffffcc00Cooldown:|r 3 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
 STRING 1483
 // Items: I0BM (Conqueror's Helmet), Name (Name)
 {
@@ -9841,6 +9843,16 @@ STRING 1484
 // Items: I0BM (Conqueror's Helmet), Tip (Tooltip - Basic)
 {
 Conqueror's Helmet
+}
+
+STRING 1485
+// Items: I0A9 (Totem of Chaos), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Creates a chaos totem.
+Every 4 seconds, it uses a random 1 level ability.
+|cffffcc00Life time:|r 40 seconds.
+|cffffcc00Cooldown:|r 3 seconds.
 }
 
 STRING 1486
@@ -10410,16 +10422,6 @@ STRING 1569
 Activation: |cffcc0000Corrupted|r. Deals |cffbe81f72000|r damage to an enemy. Only works in combat.
 }
 
-STRING 1570
-// Items: I0B0 (Totem of Energy), Description (Description)
-{
-|cffbababcCommon|r
-Activation: Creates an energy totem. Every second, it restores |cffbe81f71-2|r mana to all nearby heroes.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 1 second.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 1571
 // Items: I0B0 (Totem of Energy), Name (Name)
 {
@@ -10430,15 +10432,6 @@ STRING 1572
 // Items: I0B0 (Totem of Energy), Tip (Tooltip - Basic)
 {
 Totem of Energy
-}
-
-STRING 1573
-// Items: I0B0 (Totem of Energy), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: Creates an energy totem. Every second, it restores |cffbe81f71-2|r mana to all nearby heroes.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 1 second.
 }
 
 STRING 1574
@@ -11174,17 +11167,6 @@ STRING 1677
 Increases attack speed by 10%. Collect all 3 Thief artifacts to unite them.
 }
 
-STRING 1678
-// Items: I0A9 (Totem of Chaos), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Creates a chaos totem.
-Every 4 seconds, it uses a random 1 level ability.
-|cffffcc00Life time:|r 40 seconds.
-|cffffcc00Cooldown:|r 1 second.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 1679
 // Items: I0A9 (Totem of Chaos), Name (Name)
 {
@@ -11195,16 +11177,6 @@ STRING 1680
 // Items: I0A9 (Totem of Chaos), Tip (Tooltip - Basic)
 {
 Totem of Chaos
-}
-
-STRING 1681
-// Items: I0A9 (Totem of Chaos), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Creates a chaos totem.
-Every 4 seconds, it uses a random 1 level ability.
-|cffffcc00Life time:|r 40 seconds.
-|cffffcc00Cooldown:|r 1 second.
 }
 
 STRING 1682
@@ -12192,6 +12164,46 @@ STRING 1826
 Rubies
 }
 
+STRING 1827
+// Items: I08P (Totem of Power), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Creates a totem of power. Every 3 seconds, it deals |cffbe81f7100|r damage to all nearby enemies.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 3 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
+STRING 1828
+// Items: I08P (Totem of Power), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Creates a totem of power. Every 3 seconds, it deals |cffbe81f7100|r damage to all nearby enemies.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 3 seconds.
+}
+
+STRING 1829
+// Items: I08K (Totem of Magic), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Increases spell power by 5%.
+The effect is cumulative.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 3 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
+STRING 1830
+// Items: I08K (Totem of Magic), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Increases spell power by 5%.
+The effect is cumulative.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 3 seconds.
+}
+
 STRING 1831
 // Items: I097 (Total destruction), Description (Description)
 {
@@ -12692,16 +12704,6 @@ At the beginning of each battle, your |cff088a08potions|r change into random one
 |cff81f260[Random bonus]|r
 }
 
-STRING 1904
-// Items: I08P (Totem of Power), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Creates a totem of power. Every 3 seconds, it deals |cffbe81f7100|r damage to all nearby enemies.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 1 second.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 1905
 // Items: I08P (Totem of Power), Name (Name)
 {
@@ -12712,15 +12714,6 @@ STRING 1906
 // Items: I08P (Totem of Power), Tip (Tooltip - Basic)
 {
 Totem of Power
-}
-
-STRING 1907
-// Items: I08P (Totem of Power), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Creates a totem of power. Every 3 seconds, it deals |cffbe81f7100|r damage to all nearby enemies.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 1 second.
 }
 
 STRING 1908
@@ -12810,17 +12803,6 @@ Activation: Increases luck by 100.
 |cffffcc00Cooldown:|r 40 seconds.
 }
 
-STRING 1920
-// Items: I08K (Totem of Magic), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Increases spell power by 5%.
-The effect is cumulative.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 1 second.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 1921
 // Items: I08K (Totem of Magic), Name (Name)
 {
@@ -12831,16 +12813,6 @@ STRING 1922
 // Items: I08K (Totem of Magic), Tip (Tooltip - Basic)
 {
 Totem of Magic
-}
-
-STRING 1923
-// Items: I08K (Totem of Magic), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Increases spell power by 5%.
-The effect is cumulative.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 1 second.
 }
 
 STRING 1924
@@ -44223,6 +44195,18 @@ When the hero deals 300 damage or more at once, restore |cffbe81f710%|r of mana.
 |cff81f260[Random bonus]|r
 }
 
+STRING 6653
+// Abilities: A1EU ((т)Аура: Indelebilis Sensus (Heal)), Name (Name)
+{
+(т)Аура: Indelebilis Sensus (Heal)
+}
+
+STRING 6654
+// Buffs/Effects: B01W (), Bufftip (Tooltip)
+{
+|cff00ff00Indelebilis Sensus|r
+}
+
 STRING 6655
 // Abilities: A0OE (Ent: Growth Sprout), Researchhotkey (Hotkey - Learn)
 {
@@ -47436,14 +47420,6 @@ STRING 7146
 Indelebilis Sensus, [|cffffcc00Level %d|r]
 }
 
-STRING 7147
-// Abilities: A0LD (Wanderer: Indelebilis Sensus), Researchubertip (Tooltip - Learn - Extended)
-{
-Increases health by 80/110/140/170/200.
-When the hero uses an ability or item, increases spell power by 3% for a short time and immediately restores |cffbe81f72%/3%/4%/5%/6%|r health and mana to other heroes.
-|cffffcc00Duration:|r 3/5/7/9/11 seconds.
-}
-
 STRING 7148
 // Abilities: A0LD (Wanderer: Indelebilis Sensus), Tip (Tooltip - Normal)
 {
@@ -47472,46 +47448,6 @@ STRING 7152
 // Abilities: A0LD (Wanderer: Indelebilis Sensus), Tip (Tooltip - Normal)
 {
 Indelebilis Sensus, [|cffffcc00Level 5|r]
-}
-
-STRING 7153
-// Abilities: A0LD (Wanderer: Indelebilis Sensus), Ubertip (Tooltip - Normal - Extended)
-{
-Increases health by 80.
-When the hero uses an ability or item, increases spell power by 3% for a short time and immediately restores |cffbe81f72%|r health and mana to other heroes.
-|cffffcc00Duration:|r 3 seconds.
-}
-
-STRING 7154
-// Abilities: A0LD (Wanderer: Indelebilis Sensus), Ubertip (Tooltip - Normal - Extended)
-{
-Increases health by 110.
-When the hero uses an ability or item, increases spell power by 3% for a short time and immediately restores |cffbe81f73%|r health and mana to other heroes.
-|cffffcc00Duration:|r 5 seconds.
-}
-
-STRING 7155
-// Abilities: A0LD (Wanderer: Indelebilis Sensus), Ubertip (Tooltip - Normal - Extended)
-{
-Increases health by 140.
-When the hero uses an ability or item, increases spell power by 3% for a short time and immediately restores |cffbe81f74%|r health and mana to other heroes.
-|cffffcc00Duration:|r 7 seconds.
-}
-
-STRING 7156
-// Abilities: A0LD (Wanderer: Indelebilis Sensus), Ubertip (Tooltip - Normal - Extended)
-{
-Increases health by 170.
-When the hero uses an ability or item, increases spell power by 3% for a short time and immediately restores |cffbe81f75%|r health and mana to other heroes.
-|cffffcc00Duration:|r 9 seconds.
-}
-
-STRING 7157
-// Abilities: A0LD (Wanderer: Indelebilis Sensus), Ubertip (Tooltip - Normal - Extended)
-{
-Increases health by 200.
-When the hero uses an ability or item, increases spell power by 3% for a short time and immediately restores |cffbe81f76%|r health and mana to other heroes.
-|cffffcc00Duration:|r 11 seconds.
 }
 
 STRING 7158
@@ -70218,10 +70154,23 @@ STRING 10657
 Attack power and attack speed increased.
 }
 
+STRING 10658
+// Buffs/Effects: B0AJ (), Buffubertip (Tooltip - Extended)
+{
+Periodic restoration of Health and Mana.
+}
+
 STRING 10659
 // Buffs/Effects: B06P (), Buffubertip (Tooltip - Extended)
 {
 Warrior is gradually losing health.
+}
+
+STRING 10660
+// Items: I0GQ (Enlightenment), Description (Description)
+{
+|cffe96a1cLegendary|r
+Each Hero cast increases Spell Power by 2% for the battle. The effect is cumulative.
 }
 
 STRING 10661
@@ -71388,6 +71337,20 @@ STRING 10854
 Summons a sheep on death.
 }
 
+STRING 10855
+// Items: I0GQ (Enlightenment), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Each Hero cast increases Spell Power by 2% for the battle. The effect is cumulative.
+}
+
+STRING 10856
+// Items: I0GO (Battlemaster's Bulwark), Description (Description)
+{
+|cffe96a1cLegendary|r
+When the Hero deal damage, creates a Shield equal to |cffbe81f725%|r of the damage dealt.
+}
+
 STRING 10857
 // Buffs/Effects: B040 (), Bufftip (Tooltip)
 {
@@ -72319,7 +72282,7 @@ STRING 11011
 }
 
 STRING 11012
-// Buffs/Effects: B01W (), Bufftip (Tooltip)
+// Buffs/Effects: B0AJ (), Bufftip (Tooltip)
 {
 |cff00ff00Indelebilis Sensus|r
 }
@@ -72744,6 +72707,21 @@ STRING 11082
 Health is gradually being restored.
 }
 
+STRING 11083
+// Items: I0GO (Battlemaster's Bulwark), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+When the Hero deal damage, creates a Shield equal to |cffbe81f725%|r of the damage dealt.
+}
+
+STRING 11084
+// Abilities: A0LD (Wanderer: Indelebilis Sensus), Researchubertip (Tooltip - Learn - Extended)
+{
+Increases Health by 80/110/140/170/200.
+When the Hero uses an ability, increases Spell Power by 3% for a short time and periodically restores |cffbe81f71%|r Health and Mana each second to other Heroes.
+|cffffcc00Duration:|r 3/4/5/6/7 seconds.
+}
+
 STRING 11085
 // Buffs/Effects: B00V (), Bufftip (Tooltip)
 {
@@ -72804,6 +72782,14 @@ STRING 11094
 Attack and movement speed increased.
 }
 
+STRING 11095
+// Abilities: A0LD (Wanderer: Indelebilis Sensus), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Health by 80.
+When the Hero uses an ability, increases Spell Power by 3% for a short time and periodically restores |cffbe81f71%|r Health and Mana each second to other Heroes.
+|cffffcc00Duration:|r 3 seconds.
+}
+
 STRING 11096
 // Buffs/Effects: B00Q (), Buffubertip (Tooltip - Extended)
 {
@@ -72826,6 +72812,14 @@ STRING 11099
 // Buffs/Effects: B00O (), Bufftip (Tooltip)
 {
 |cffff0000Evil magic|r
+}
+
+STRING 11100
+// Abilities: A0LD (Wanderer: Indelebilis Sensus), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Health by 110.
+When the Hero uses an ability, increases Spell Power by 3% for a short time and periodically restores |cffbe81f71%|r Health and Mana each second to other Heroes.
+|cffffcc00Duration:|r 4 seconds.
 }
 
 STRING 11101
@@ -73184,6 +73178,22 @@ Increases Spell Power by 15%.
 Converts |cffbe81f725%|r of magical damage taken into mana.
 }
 
+STRING 11160
+// Abilities: A0LD (Wanderer: Indelebilis Sensus), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Health by 140.
+When the Hero uses an ability, increases Spell Power by 3% for a short time and periodically restores |cffbe81f71%|r Health and Mana each second to other Heroes.
+|cffffcc00Duration:|r 5 seconds.
+}
+
+STRING 11161
+// Abilities: A0LD (Wanderer: Indelebilis Sensus), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Health by 170.
+When the Hero uses an ability, increases Spell Power by 3% for a short time and periodically restores |cffbe81f71%|r Health and Mana each second to other Heroes.
+|cffffcc00Duration:|r 6 seconds.
+}
+
 STRING 11162
 {
 This item cannot be dropped. Use the Exterminator (clockwork goblin) to split the item.
@@ -73217,6 +73227,14 @@ Summoned creatures take 75% less damage from magic.
 STRING 11168
 {
 Heroes take full damage from any sources.
+}
+
+STRING 11169
+// Abilities: A0LD (Wanderer: Indelebilis Sensus), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Health by 200.
+When the Hero uses an ability, increases Spell Power by 3% for a short time and periodically restores |cffbe81f71%|r Health and Mana each second to other Heroes.
+|cffffcc00Duration:|r 7 seconds.
 }
 
 STRING 11171

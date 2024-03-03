@@ -1,12 +1,9 @@
 scope TimerExpireStart initializer init
 
 	private function action takes nothing returns nothing
-	    local integer cyclA = 1
-	    local integer cyclB
-	
-	    loop
+	    /*loop
 	        exitwhen cyclA > 4
-	        if GetPlayerSlotState(Player(cyclA - 1)) == PLAYER_SLOT_STATE_PLAYING and udg_item[3 * cyclA] != null then
+	        if GetPlayerSlotState(Player(cyclA - 1)) == PLAYER_SLOT_STATE_PLAYING and IsRewardExist(Player(cyclA - 1)) then
 	            set cyclB = 0
 	            loop
 	                exitwhen cyclB > 2
@@ -15,14 +12,18 @@ scope TimerExpireStart initializer init
 	                set udg_item[( 3 * cyclA ) - cyclB] = null
 	                set cyclB = cyclB + 1
 	            endloop
-			    if udg_worldmod[1] and udg_Boss_LvL == 2 then
-					call BlzFrameSetVisible(fastvis, false)
-					call BlzFrameSetVisible(fastbut, false)
-			    endif
+			    
 	        endif
 	        set cyclA = cyclA + 1
-	    endloop
-	
+	    endloop*/
+	    
+	    call ItemRandomizerLib_AllRemoveRewards()
+	    
+	    if udg_worldmod[1] and udg_Boss_LvL == 2 then
+			call BlzFrameSetVisible(fastvis, false)
+			call BlzFrameSetVisible(fastbut, false)
+	    endif
+	    
 	    set udg_Player_Readiness = udg_Heroes_Amount
 	    call TriggerExecute( gg_trg_StartFight )
 	endfunction

@@ -13,6 +13,14 @@ scope OutOfCombatTimer initializer init
 	endglobals
 
 
+	public function Launch takes real time returns nothing
+		set time = RMaxBJ(time, 6)
+		call TimerStart( Timer, time, false, null )
+        call TimerStart( TimerWarning, time - WARNING_TIME_DEVIATION, false, null )
+        
+        call TimerDialogDisplay( Dialog, true)
+	endfunction
+
 	/*OnFightStart*/
 	private function OnFightStart takes nothing returns nothing
 	    if IsSinglePlayer == false then
@@ -29,10 +37,11 @@ scope OutOfCombatTimer initializer init
 	endfunction
 	
 	private function OnFightEnd takes nothing returns nothing
-        call TimerStart( Timer, udg_real[1], false, null )
+		call Launch(udg_real[1])
+        /*call TimerStart( Timer, udg_real[1], false, null )
         call TimerStart( TimerWarning, udg_real[1] - WARNING_TIME_DEVIATION, false, null )
         
-        call TimerDialogDisplay( Dialog, true)
+        call TimerDialogDisplay( Dialog, true)*/
 	endfunction
 	
 	

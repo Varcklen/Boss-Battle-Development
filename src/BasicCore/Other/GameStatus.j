@@ -43,7 +43,7 @@ library GameStatus initializer init
 	    else
 	        set GameStatus = GAME_STATUS_ONLINE
 	    endif
-	    call BJDebugMsg("Mode: " + I2S(GameStatus))
+	    //call BJDebugMsg("Mode: " + I2S(GameStatus))
 	    call RemoveUnit( unitCheck )
 	    
 	    set playerCheck = null

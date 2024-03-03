@@ -6,7 +6,7 @@ scope TremblingEnemies initializer init
 	endglobals
 
 	private function condition takes nothing returns boolean
-		return IsUnitAliveBJ(GetSpellAbilityUnit()) and inv( GetSpellAbilityUnit(), ITEM_ID ) > 0 and GetSpellAbilityId() == Database_Hero_Abilities[1][udg_HeroNum[GetUnitUserData(GetSpellAbilityUnit())]]  and combat( GetSpellAbilityUnit(), false, 0 ) and udg_fightmod[3] == false
+		return IsUnitAliveBJ(GetSpellAbilityUnit()) and inv( GetSpellAbilityUnit(), ITEM_ID ) > 0 and GetSpellAbilityId() == Database_Hero_Abilities[1][udg_HeroNum[GetUnitUserData(GetSpellAbilityUnit())]] and combat( GetSpellAbilityUnit(), false, 0 ) and udg_fightmod[3] == false
 	endfunction
 
 	private function action takes nothing returns nothing
