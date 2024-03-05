@@ -7,7 +7,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.2.9T|r
+|cffbe81f7Boss Battle 1.5.2.10T|r
 }
 
 STRING 2
@@ -4697,6 +4697,15 @@ Activation: Deals |cffbe81f7300|r damage to the target. Increases zuma's damage 
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 746
+// Items: I0ED (Elixir of Longevity), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Restores |cffbe81f7100|r Health to allies nearby. Increases the Attack of affected minions by 15%.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 35 mana.
+}
+
 STRING 747
 // Items: I0GQ (Enlightenment), Name (Name)
 {
@@ -4707,6 +4716,14 @@ STRING 748
 // Items: I0GQ (Enlightenment), Tip (Tooltip - Basic)
 {
 Enlightenment
+}
+
+STRING 749
+// Items: I0ED (Elixir of Longevity), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Restores |cffbe81f7100|r Health to allies nearby. Increases the Attack of affected minions by 15%.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 750
@@ -4735,6 +4752,12 @@ STRING 753
 |cffffcc00Reward:|r Enlightenment.
 }
 
+STRING 754
+// Items: I00Z (Roll the Dice), Name (Name)
+{
+Roll the Dice
+}
+
 STRING 755
 // Items: I0GO (Battlemaster's Bulwark), Name (Name)
 {
@@ -4745,6 +4768,12 @@ STRING 756
 // Items: I0GO (Battlemaster's Bulwark), Tip (Tooltip - Basic)
 {
 Battlemaster's Bulwark
+}
+
+STRING 757
+// Items: I00Z (Roll the Dice), Tip (Tooltip - Basic)
+{
+Roll the Dice
 }
 
 STRING 758
@@ -7063,12 +7092,9 @@ Activation: Turn target artifact into gold. You get more gold for higher raritie
 }
 
 STRING 1086
-// Items: I0ED (Elixir of Longevity), Description (Description)
+// Abilities: A1EV (Extra: Doppelganger), Name (Name)
 {
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Restores |cffbe81f7100|r health to all nearby allied minions and permanently increases their attack power by 15%.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 35 mana.
+Extra: Doppelganger
 }
 
 STRING 1087
@@ -7084,11 +7110,9 @@ Elixir of Longevity
 }
 
 STRING 1089
-// Items: I0ED (Elixir of Longevity), Ubertip (Tooltip - Extended)
+// Abilities: A1EV (Extra: Doppelganger), Tip (Tooltip - Normal)
 {
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Restores |cffbe81f7100|r health to all nearby allied minions and permanently increases their attack power by 15%.
-|cffffcc00Cooldown:|r 20 seconds.
+Doppelganger
 }
 
 STRING 1090
@@ -7269,6 +7293,14 @@ At the beginning of the fight, creates a witch's cauldron, which gradually resto
 |cff81f260[Random bonus]|r
 }
 
+STRING 1114
+// Items: I00Z (Roll the Dice), Ubertip (Tooltip - Extended)
+{
+Roll the dice for a chance of getting 150 gold.
+
+|cffffcc00Not affected by Luck and gold gain bonuses.|r
+}
+
 STRING 1115
 // Items: I0E6 (Totem of Burning Gaze), Name (Name)
 {
@@ -7279,6 +7311,13 @@ STRING 1116
 // Items: I0E6 (Totem of Burning Gaze), Tip (Tooltip - Basic)
 {
 Totem of Burning Gaze
+}
+
+STRING 1117
+// Items: I0AT (Symbol of Syrinox), Description (Description)
+{
+|cff4169e1Rare|r
+The Hero's attacks deal additional damage from Intelligence.
 }
 
 STRING 1118
@@ -7707,12 +7746,10 @@ When the hero takes fatal damage, instead of dying, restores |cffbe81f720%|r of 
 }
 
 STRING 1178
-// Items: I0DC (Totem of Exchange), Description (Description)
+// Abilities: A1BC (Bonnie: Random Bantering), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: It takes away 2 main stats and gives 2 secondary stats. Only works in combat.
-|cffffcc00Cooldown:|r 3 seconds.
-|cffffcc00Cost:|r 75 mana.
+Reduces the cooldown of owning hero's abilities by |cffffffff0.5|r seconds.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 1179
@@ -7728,11 +7765,10 @@ Bindings of Potential
 }
 
 STRING 1181
-// Items: I0DC (Totem of Exchange), Ubertip (Tooltip - Extended)
+// Abilities: A1BB (Bunnie: Ravage), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: It takes away 2 main stats and gives 2 secondary stats. Only works in combat.
-|cffffcc00Cooldown:|r 3 seconds.
+Deals |cffbe81f7200|r damage to the nearby enemy with the highest health and stuns Bonnie for 3 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 1182
@@ -7973,31 +8009,29 @@ Activation: Choose an artifact. Transforms a copy-cat into it.
 }
 
 STRING 1214
-// Items: I0DH (Piece of explosive cake), Description (Description)
+// Abilities: A1EV (Extra: Doppelganger), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-When the hero uses a |cff088a08potion|r item, gets a random bonus.
-|cff81f260[Random bonus]|r
+All players can take this hero.
 }
 
 STRING 1215
-// Items: I0DH (Piece of explosive cake), Name (Name)
+// Items: I0BN (Mana Needle), Description (Description)
 {
-Piece of explosive cake
+|cffbababcCommon|r, |cff5858faMoon|r
+When the Hero takes damage, restores |cffbe81f72|r Mana.
+|cff81f260[Random bonus]|r
 }
 
 STRING 1216
-// Items: I0DH (Piece of explosive cake), Tip (Tooltip - Basic)
+// Items: I0BN (Mana Needle), Name (Name)
 {
-Piece of explosive cake
+Mana Needle
 }
 
 STRING 1217
-// Items: I0DH (Piece of explosive cake), Ubertip (Tooltip - Extended)
+// Items: I0BN (Mana Needle), Tip (Tooltip - Basic)
 {
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-When the hero uses a |cff088a08potion|r item, gets a random bonus.
-|cff81f260[Random bonus]|r
+Mana Needle
 }
 
 STRING 1218
@@ -8112,6 +8146,13 @@ STRING 1233
 Activation: |cffcc0000Corrupted|r. Grants an extra attempt at a boss fight. Kills all heroes. Only works in boss fights.
 }
 
+STRING 1234
+// Items: I0AT (Symbol of Syrinox), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+The Hero's attacks deal additional damage from Intelligence.
+}
+
 STRING 1235
 // Items: I0DC (Totem of Exchange), Name (Name)
 {
@@ -8122,6 +8163,13 @@ STRING 1236
 // Items: I0DC (Totem of Exchange), Tip (Tooltip - Basic)
 {
 Totem of Exchange
+}
+
+STRING 1237
+// Abilities: A09R (Armsmaster: Opportunistic Reflexes), Researchubertip (Tooltip - Learn - Extended)
+{
+The hero has a |cffd7df016%/8%/10%/12%/14%|r chance to critically hit or reduces damage taken by 80%. Critical damage deals 75% more damage and reduces armor by 3.
+|cffffcc00Duration:|r 8 seconds.
 }
 
 STRING 1238
@@ -8267,10 +8315,11 @@ Activation: Charges the hero with chaos energy. Every second you use a random ab
 }
 
 STRING 1258
-// Items: I0D6 (Santa's Bag), Description (Description)
+// Items: I0BN (Mana Needle), Ubertip (Tooltip - Extended)
 {
-|cffe96a1cLegendary|r
-Activation: Select the artifact in inventory. Removes it and places in your room.
+|cffbababcCommon|r, |cff5858faMoon|r
+When the Hero takes damage, restores |cffbe81f72|r Mana.
+|cff81f260[Random bonus]|r
 }
 
 STRING 1259
@@ -8286,10 +8335,10 @@ Santa's Bag
 }
 
 STRING 1261
-// Items: I0D6 (Santa's Bag), Ubertip (Tooltip - Extended)
+// Abilities: A1BA (Bonnie: Right Role ), Ubertip (Tooltip - Normal - Extended)
 {
-|cffe96a1cLegendary|r
-Activation: Select the artifact in inventory. Removes it and places in your room.
+Restores |cffbe81f7100|r health to the hero with the least health and restores |cffbe81f825|r mana to the hero with the lowest mana.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 1262
@@ -9795,31 +9844,31 @@ Activation: |cffcc0000Corrupted|r. Replaces the hero's |cff60C445Unique|r with "
 }
 
 STRING 1478
-// Items: I0BN (Mana needle), Description (Description)
+// Abilities: A184 (Прочее: Провокация (Банан)), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r, |cff5858faMoon|r
-When the hero takes damage, restores |cffbe81f72|r mana.
-|cff81f260[Random bonus]|r
+Constantly provokes a random enemy. When killed, restores the hero |cffbe81f7health|r and gives |cffbe81f7gold|r.
+
+|cFF959697Spell Power efficiency is 50% of the base for gold gain.|r
 }
 
 STRING 1479
-// Items: I0BN (Mana needle), Name (Name)
+// Abilities: AZ04 (Speical: Left the Game), Ubertip (Tooltip - Normal - Extended)
 {
-Mana needle
+|cff8080ffSpecial|r
+Reduces the cooldown of your left-most Hero ability on cooldown by 20% of base value. 
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 1480
-// Items: I0BN (Mana needle), Tip (Tooltip - Basic)
+// Abilities: A0UV (Commander: Strong Spirit), Name (Name)
 {
-Mana needle
+Commander: Strong Spirit
 }
 
 STRING 1481
-// Items: I0BN (Mana needle), Ubertip (Tooltip - Extended)
+// Abilities: A0UV (Commander: Strong Spirit), Researchtip (Tooltip - Learn)
 {
-|cffbababcCommon|r, |cff5858faMoon|r
-When the hero takes damage, restores |cffbe81f72|r mana.
-|cff81f260[Random bonus]|r
+Strong Spirit, [|cffffcc00Level %d|r]
 }
 
 STRING 1482
@@ -10422,6 +10471,14 @@ STRING 1569
 Activation: |cffcc0000Corrupted|r. Deals |cffbe81f72000|r damage to an enemy. Only works in combat.
 }
 
+STRING 1570
+// Items: I0DH (Piece of Cake), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+When a Hero uses a |cff088a08Potion|r, gives 2 Attack for battle.
+|cff81f260[Random bonus]|r
+}
+
 STRING 1571
 // Items: I0B0 (Totem of Energy), Name (Name)
 {
@@ -10432,6 +10489,12 @@ STRING 1572
 // Items: I0B0 (Totem of Energy), Tip (Tooltip - Basic)
 {
 Totem of Energy
+}
+
+STRING 1573
+// Items: I0DH (Piece of Cake), Name (Name)
+{
+Piece of Cake
 }
 
 STRING 1574
@@ -10603,10 +10666,13 @@ Your health-restoring abilities and items restore 20% more health.
 }
 
 STRING 1598
-// Items: I0AT (Symbol of Syrinox), Description (Description)
+// Abilities: A0UV (Commander: Strong Spirit), Researchubertip (Tooltip - Learn - Extended)
 {
-|cff4169e1Rare|r
-When the hero attacks, deals additional damage equal to his intellect.
+Increases an allied Hero's Strength by 20/30/40/50/60.
+The effect is cumulative.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 28 seconds. 
+|cffffcc00Cost:|r 60 mana.
 }
 
 STRING 1599
@@ -10622,10 +10688,9 @@ Symbol of Syrinox
 }
 
 STRING 1601
-// Items: I0AT (Symbol of Syrinox), Ubertip (Tooltip - Extended)
+// Abilities: A0UV (Commander: Strong Spirit), Tip (Tooltip - Normal)
 {
-|cff4169e1Rare|r
-When the hero attacks, deals additional damage equal to his intellect.
+Strong Spirit, [|cffffcc00Level 1|r]
 }
 
 STRING 1602
@@ -11167,6 +11232,12 @@ STRING 1677
 Increases attack speed by 10%. Collect all 3 Thief artifacts to unite them.
 }
 
+STRING 1678
+// Items: I0DH (Piece of Cake), Tip (Tooltip - Basic)
+{
+Piece of Cake
+}
+
 STRING 1679
 // Items: I0A9 (Totem of Chaos), Name (Name)
 {
@@ -11177,6 +11248,14 @@ STRING 1680
 // Items: I0A9 (Totem of Chaos), Tip (Tooltip - Basic)
 {
 Totem of Chaos
+}
+
+STRING 1681
+// Items: I0DH (Piece of Cake), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+When a Hero uses a |cff088a08Potion|r, gives 2 Attack for battle.
+|cff81f260[Random bonus]|r
 }
 
 STRING 1682
@@ -12704,6 +12783,13 @@ At the beginning of each battle, your |cff088a08potions|r change into random one
 |cff81f260[Random bonus]|r
 }
 
+STRING 1904
+// Items: I0D6 (Santa's Bag), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: Places an artifact from inventory into your room. You can place up to 3 artifacts.
+}
+
 STRING 1905
 // Items: I08P (Totem of Power), Name (Name)
 {
@@ -12714,6 +12800,13 @@ STRING 1906
 // Items: I08P (Totem of Power), Tip (Tooltip - Basic)
 {
 Totem of Power
+}
+
+STRING 1907
+// Items: I0D6 (Santa's Bag), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: Places an artifact from inventory into your room. You can place up to 3 artifacts.
 }
 
 STRING 1908
@@ -12803,6 +12896,14 @@ Activation: Increases luck by 100.
 |cffffcc00Cooldown:|r 40 seconds.
 }
 
+STRING 1920
+// Items: I07Q (Evil Necklace), Description (Description)
+{
+|cffbababcCommon|r
+Increases Attack by 25 and Armor by 3. 
+Reduces Attack Speed by 50%. Kill someone to calm the spirit inside the necklace.
+}
+
 STRING 1921
 // Items: I08K (Totem of Magic), Name (Name)
 {
@@ -12813,6 +12914,12 @@ STRING 1922
 // Items: I08K (Totem of Magic), Tip (Tooltip - Basic)
 {
 Totem of Magic
+}
+
+STRING 1923
+// Items: I07Q (Evil Necklace), Name (Name)
+{
+Evil Necklace
 }
 
 STRING 1924
@@ -13615,31 +13722,27 @@ Activation: |cffcc0000Corrupted|r. Increases attack power by 10% until the end o
 }
 
 STRING 2040
-// Items: I07Q (Evil necklace), Description (Description)
+// Abilities: A0UV (Commander: Strong Spirit), Tip (Tooltip - Normal)
 {
-|cffbababcCommon|r
-Increases attack power by 25 and armor by 3. 
-Reduces attack speed by 50%. Kill someone to calm the spirit inside the necklace.
+Strong Spirit, [|cffffcc00Level 2|r]
 }
 
 STRING 2041
-// Items: I07Q (Evil necklace), Name (Name)
+// Abilities: A0UV (Commander: Strong Spirit), Tip (Tooltip - Normal)
 {
-Evil necklace
+Strong Spirit, [|cffffcc00Level 3|r]
 }
 
 STRING 2042
-// Items: I07Q (Evil necklace), Tip (Tooltip - Basic)
+// Abilities: A0UV (Commander: Strong Spirit), Tip (Tooltip - Normal)
 {
-Evil necklace
+Strong Spirit, [|cffffcc00Level 4|r]
 }
 
 STRING 2043
-// Items: I07Q (Evil necklace), Ubertip (Tooltip - Extended)
+// Abilities: A0UV (Commander: Strong Spirit), Tip (Tooltip - Normal)
 {
-|cffbababcCommon|r
-Increases attack power by 25 and armor by 3. 
-Reduces attack speed by 50%. Kill someone to calm the spirit inside the necklace.
+Strong Spirit, [|cffffcc00Level 5|r]
 }
 
 STRING 2044
@@ -14058,31 +14161,39 @@ At the end of the battle, gives a strong random bonus.
 }
 
 STRING 2104
-// Items: I07A (Regular necklace), Description (Description)
+// Abilities: A0UV (Commander: Strong Spirit), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r
-Increases attack power by 25 and armor by 3. 
-The most common necklace.
+Increases an allied Hero's Strength by 20.
+The effect is cumulative.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 28 seconds.
 }
 
 STRING 2105
-// Items: I07A (Regular necklace), Name (Name)
+// Abilities: A0UV (Commander: Strong Spirit), Ubertip (Tooltip - Normal - Extended)
 {
-Regular necklace
+Increases an allied Hero's Strength by 30.
+The effect is cumulative.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 28 seconds.
 }
 
 STRING 2106
-// Items: I07A (Regular necklace), Tip (Tooltip - Basic)
+// Abilities: A0UV (Commander: Strong Spirit), Ubertip (Tooltip - Normal - Extended)
 {
-Regular necklace
+Increases an allied Hero's Strength by 40.
+The effect is cumulative.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 28 seconds.
 }
 
 STRING 2107
-// Items: I07A (Regular necklace), Ubertip (Tooltip - Extended)
+// Abilities: A0UV (Commander: Strong Spirit), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r
-Increases attack power by 25 and armor by 3. 
-The most common necklace.
+Increases an allied Hero's Strength by 50.
+The effect is cumulative.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 28 seconds.
 }
 
 STRING 2108
@@ -20265,29 +20376,35 @@ Activation: Restore |cffbe81f7250|r health.
 }
 
 STRING 3021
-// Items: I00Z (Throw dice), Hotkey (Hotkey)
+// Items: I00Z (Roll the Dice), Hotkey (Hotkey)
 {
 E
 }
 
 STRING 3022
-// Items: I00Z (Throw dice), Name (Name)
+// Abilities: A0UV (Commander: Strong Spirit), Ubertip (Tooltip - Normal - Extended)
 {
-Throw dice
+Increases an allied Hero's Strength by 60.
+The effect is cumulative.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 28 seconds.
 }
 
 STRING 3023
-// Items: I00Z (Throw dice), Tip (Tooltip - Basic)
+// Items: I0DC (Totem of Exchange), Description (Description)
 {
-Throw dice
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Gives 2 random stats for the battle.
+|cffffcc00Cooldown:|r 3 seconds.
+|cffffcc00Cost:|r 75 mana.
 }
 
 STRING 3024
-// Items: I00Z (Throw dice), Ubertip (Tooltip - Extended)
+// Items: I0DC (Totem of Exchange), Ubertip (Tooltip - Extended)
 {
-When thrown, there is a chance to win 150 gold.
-
-|cffffcc00Not affected by gold gain bonuses.|r
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Gives 2 random stats for the battle.
+|cffffcc00Cooldown:|r 3 seconds.
 }
 
 STRING 3025
@@ -21368,11 +21485,11 @@ Left the Game
 }
 
 STRING 3182
-// Abilities: AZ04 (Speical: Left the Game), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1B9 (Bunnie: Requiem), Ubertip (Tooltip - Normal - Extended)
 {
-|cff8080ffSpecial|r
-Reduces the cooldown of your left-most hero ability on cooldown by 25% of base value. 
-|cffffcc00Cooldown:|r 15 seconds.
+Weaken the nearby enemy with the highest health which will cause the target to take |cffbe81f711|r damage every second. Bonnie and the owner will restore the same amount of health.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 3183
@@ -23642,16 +23759,6 @@ STRING 3526
 Bazinga!, [|cffffcc00Level %d|r]
 }
 
-STRING 3527
-// Abilities: A1BH (Bro: Bazinga!), Researchubertip (Tooltip - Learn - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Random Bantering" ability and improves it along with the "Bazinga!"
-
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7150/200/250/300/350|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
 STRING 3528
 // Abilities: A1BH (Bro: Bazinga!), Tip (Tooltip - Normal)
 {
@@ -23682,51 +23789,6 @@ STRING 3532
 Bazinga!, [|cffffcc00Level 5|r]
 }
 
-STRING 3533
-// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Random Bantering" ability and improves it along with the "Bazinga!"
-
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7150|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 3534
-// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Random Bantering" ability and improves it along with the "Bazinga!"
-
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7200|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 3535
-// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Random Bantering" ability and improves it along with the "Bazinga!"
-
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7250|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 3536
-// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Random Bantering" ability and improves it along with the "Bazinga!"
-
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7300|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 3537
-// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Random Bantering" ability and improves it along with the "Bazinga!"
-
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7350|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 3538
 // Abilities: A1BG (Bro: Brutal Blunder), Hotkey (Hotkey - Normal)
 {
@@ -23749,16 +23811,6 @@ STRING 3541
 // Abilities: A1BG (Bro: Brutal Blunder), Researchtip (Tooltip - Learn)
 {
 Brutal Blunder, [|cffffcc00Level %d|r]
-}
-
-STRING 3542
-// Abilities: A1BG (Bro: Brutal Blunder), Researchubertip (Tooltip - Learn - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Ravage" ability and improves it along with the "Brutal Blunder" upgrade.
-
-Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f730/40/50/60/70|r damage to nearby foes while pulling.
-|cffffcc00Cooldown:|r 19/18/17/16/15 seconds.
-|cffffcc00Cost:|r 45 mana.
 }
 
 STRING 3543
@@ -23791,51 +23843,6 @@ STRING 3547
 Brutal Blunder, [|cffffcc00Level 5|r]
 }
 
-STRING 3548
-// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Ravage" ability and improves it along with the "Brutal Blunder" upgrade.
-
-Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f730|r damage to nearby foes while pulling.
-|cffffcc00Cooldown:|r 19 seconds.
-}
-
-STRING 3549
-// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Ravage" ability and improves it along with the "Brutal Blunder" upgrade.
-
-Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f740|r damage to nearby foes while pulling.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 3550
-// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Ravage" ability and improves it along with the "Brutal Blunder" upgrade.
-
-Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f750|r damage to nearby foes while pulling.
-|cffffcc00Cooldown:|r 17 seconds.
-}
-
-STRING 3551
-// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Ravage" ability and improves it along with the "Brutal Blunder" upgrade.
-
-Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f760|r damage to nearby foes while pulling.
-|cffffcc00Cooldown:|r 16 seconds.
-}
-
-STRING 3552
-// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Ravage" ability and improves it along with the "Brutal Blunder" upgrade.
-
-Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f770|r damage to nearby foes while pulling.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 3553
 // Abilities: A1BF (Bro: Bamboozle), Researchhotkey (Hotkey - Learn)
 {
@@ -23858,19 +23865,6 @@ STRING 3556
 // Abilities: A1BF (Bro: Bamboozle), Researchtip (Tooltip - Learn)
 {
 Bamboozle, [|cffffcc00Level %d|r]
-}
-
-STRING 3557
-// Abilities: A1BF (Bro: Bamboozle), Researchubertip (Tooltip - Learn - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Requiem" ability and improves it along with the "Bamboozle" upgrade.
-
-Choose a target.
-If the target is an ally, changes the health percentage of the target and your hero.
-If the target is the enemy, you or the target steals 150/225/300/375/450 health from another (always steals the one with a lower percentage of health).
-Deals |cffbe81f760/90/120/150/180|r damage to nearby enemies.
-|cffffcc00Cooldown:|r 12/11/10/9/8 seconds.
-|cffffcc00Cost:|r 20 mana.
 }
 
 STRING 3558
@@ -23901,66 +23895,6 @@ STRING 3562
 // Abilities: A1BF (Bro: Bamboozle), Tip (Tooltip - Normal)
 {
 Bamboozle, [|cffffcc00Level 5|r]
-}
-
-STRING 3563
-// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Requiem" ability and improves it along with the "Bamboozle" upgrade.
-
-Choose a target.
-If the target is an ally, changes the health percentage of the target and your hero.
-If the target is the enemy, you or the target steals 150 health from another (always steals the one with a lower percentage of health).
-Deals |cffbe81f760|r damage to nearby enemies.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 3564
-// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Requiem" ability and improves it along with the "Bamboozle" upgrade.
-
-Choose a target.
-If the target is an ally, changes the health percentage of the target and your hero.
-If the target is the enemy, you or the target steals 225 health from another (always steals the one with a lower percentage of health).
-Deals |cffbe81f790|r damage to nearby enemies.
-|cffffcc00Cooldown:|r 11 seconds.
-}
-
-STRING 3565
-// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Requiem" ability and improves it along with the "Bamboozle" upgrade.
-
-Choose a target.
-If the target is an ally, changes the health percentage of the target and your hero.
-If the target is the enemy, you or the target steals 300 health from another (always steals the one with a lower percentage of health).
-Deals |cffbe81f7120|r damage to nearby enemies.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 3566
-// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Requiem" ability and improves it along with the "Bamboozle" upgrade.
-
-Choose a target.
-If the target is an ally, changes the health percentage of the target and your hero.
-If the target is the enemy, you or the target steals 375 health from another (always steals the one with a lower percentage of health).
-Deals |cffbe81f7150|r damage to nearby enemies.
-|cffffcc00Cooldown:|r 9 seconds.
-}
-
-STRING 3567
-// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Requiem" ability and improves it along with the "Bamboozle" upgrade.
-
-Choose a target.
-If the target is an ally, changes the health percentage of the target and your hero.
-If the target is the enemy, you or the target steals 450 health from another (always steals the one with a lower percentage of health).
-Deals |cffbe81f7180|r damage to nearby enemies.
-|cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 3568
@@ -24087,13 +24021,6 @@ STRING 3587
 Random Bantering
 }
 
-STRING 3588
-// Abilities: A1BC (Bonnie: Random Bantering), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces the cooldown of owning hero's abilities by |cffffffff0.5|r seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
 STRING 3589
 // Abilities: A1BB (Bunnie: Ravage), Hotkey (Hotkey - Normal)
 {
@@ -24118,15 +24045,8 @@ STRING 3592
 Ravage
 }
 
-STRING 3593
-// Abilities: A1BB (Bunnie: Ravage), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7200|r damage to the target and stuns Bonnie for 3 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 3594
-// Abilities: A1B7 (Bro: Bonnie), Hotkey (Hotkey - Normal)
+// Abilities: A1B7 (Bro: One for All), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -24161,13 +24081,6 @@ STRING 3599
 Right Role 
 }
 
-STRING 3600
-// Abilities: A1BA (Bonnie: Right Role ), Ubertip (Tooltip - Normal - Extended)
-{
-Restores |cffbe81f7100|r health to the hero with the least health and restores |cffbe81f825|r mana to the hero with the lowest mana.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
 STRING 3601
 // Abilities: A1AV (Bard: Song of Joy), Hotkey (Hotkey - Normal)
 {
@@ -24192,14 +24105,6 @@ STRING 3604
 Requiem
 }
 
-STRING 3605
-// Abilities: A1B9 (Bunnie: Requiem), Ubertip (Tooltip - Normal - Extended)
-{
-Weakens the enemy, which will cause the target to take |cffbe81f711|r damage every second. Bonnie and the owner will restore the same amount of health.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 3606
 // Abilities: A1B8 ((т)Аура: Requiem), Name (Name)
 {
@@ -24207,120 +24112,15 @@ STRING 3606
 }
 
 STRING 3607
-// Abilities: A1B7 (Bro: Bonnie), Researchhotkey (Hotkey - Learn)
+// Abilities: A1B7 (Bro: One for All), Researchhotkey (Hotkey - Learn)
 {
 Q
-}
-
-STRING 3608
-// Abilities: A1B7 (Bro: Bonnie), Name (Name)
-{
-Bro: Bonnie
 }
 
 STRING 3609
 // Abilities: A1AL (Bard: Touching Motif), Hotkey (Hotkey - Normal)
 {
 Q
-}
-
-STRING 3610
-// Abilities: A1B7 (Bro: Bonnie), Researchtip (Tooltip - Learn)
-{
-Bonnie, [|cffffcc00Level %d|r]
-}
-
-STRING 3611
-// Abilities: A1B7 (Bro: Bonnie), Researchubertip (Tooltip - Learn - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Right Role" ability and improves it along with the "Bonnie" upgrade.
-
-Summons Bonnie, who has |cffd7df011-4|r abilities.
-|cffffcc00Life time:|r 20/24/28/32/36 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 50 mana.
-
-|cFF959697The higher the level of the ability, the higher the chance to give abilities to Bonnie.|r
-}
-
-STRING 3612
-// Abilities: A1B7 (Bro: Bonnie), Tip (Tooltip - Normal)
-{
-Bonnie, [|cffffcc00Level 1|r]
-}
-
-STRING 3613
-// Abilities: A1B7 (Bro: Bonnie), Tip (Tooltip - Normal)
-{
-Bonnie, [|cffffcc00Level 2|r]
-}
-
-STRING 3614
-// Abilities: A1B7 (Bro: Bonnie), Tip (Tooltip - Normal)
-{
-Bonnie, [|cffffcc00Level 3|r]
-}
-
-STRING 3615
-// Abilities: A1B7 (Bro: Bonnie), Tip (Tooltip - Normal)
-{
-Bonnie, [|cffffcc00Level 4|r]
-}
-
-STRING 3616
-// Abilities: A1B7 (Bro: Bonnie), Tip (Tooltip - Normal)
-{
-Bonnie, [|cffffcc00Level 5|r]
-}
-
-STRING 3617
-// Abilities: A1B7 (Bro: Bonnie), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Right Role" ability and improves it along with the "Bonnie" upgrade.
-
-Summons Bonnie, who has |cffd7df011-4|r abilities.
-|cffffcc00Life time:|r 20 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 3618
-// Abilities: A1B7 (Bro: Bonnie), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Right Role" ability and improves it along with the "Bonnie" upgrade.
-
-Summons Bonnie, who has |cffd7df011-4|r abilities.
-|cffffcc00Life time:|r 24 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 3619
-// Abilities: A1B7 (Bro: Bonnie), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Right Role" ability and improves it along with the "Bonnie" upgrade.
-
-Summons Bonnie, who has |cffd7df011-4|r abilities.
-|cffffcc00Life time:|r 28 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 3620
-// Abilities: A1B7 (Bro: Bonnie), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Right Role" ability and improves it along with the "Bonnie" upgrade.
-
-Summons Bonnie, who has |cffd7df011-4|r abilities.
-|cffffcc00Life time:|r 32 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 3621
-// Abilities: A1B7 (Bro: Bonnie), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Bonnie always has the "Right Role" ability and improves it along with the "Bonnie" upgrade.
-
-Summons Bonnie, who has |cffd7df011-4|r abilities.
-|cffffcc00Life time:|r 36 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 3622
@@ -27338,9 +27138,11 @@ Provocation
 }
 
 STRING 4087
-// Abilities: A184 (Прочее: Провокация (Банан)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1BH (Bro: Bazinga!), Researchubertip (Tooltip - Learn - Extended)
 {
-Constantly provokes a random enemy. When killed, restores the hero |cffbe81f7health|r and gives |cffbe81f7gold|r.
+Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7150/200/250/300/350|r damage to nearby enemies. Bonnie always throws a priority.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 50 mana.
 }
 
 STRING 4088
@@ -37925,112 +37727,108 @@ STRING 5690
 }
 
 STRING 5691
-// Abilities: A0UV (Commander: Strong spirit), Hotkey (Hotkey - Normal)
+// Abilities: A0UV (Commander: Strong Spirit), Hotkey (Hotkey - Normal)
 {
 R
 }
 
 STRING 5692
-// Abilities: A0UV (Commander: Strong spirit), Name (Name)
+// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
 {
-Commander: Strong spirit
+Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7150|r damage to nearby enemies. Bonnie always throws a priority.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 5693
-// Abilities: A0UV (Commander: Strong spirit), Researchhotkey (Hotkey - Learn)
+// Abilities: A0UV (Commander: Strong Spirit), Researchhotkey (Hotkey - Learn)
 {
 R
 }
 
 STRING 5694
-// Abilities: A0UV (Commander: Strong spirit), Researchtip (Tooltip - Learn)
+// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
 {
-Strong spirit, [|cffffcc00Level %d|r]
+Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7200|r damage to nearby enemies. Bonnie always throws a priority.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 5695
-// Abilities: A0UV (Commander: Strong spirit), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
 {
-Increases strength of ally hero by 20/30/40/50/60.
-The effect is cumulative.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 25 seconds. 
-|cffffcc00Cost:|r 60 mana.
+Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7250|r damage to nearby enemies. Bonnie always throws a priority.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 5696
-// Abilities: A0UV (Commander: Strong spirit), Tip (Tooltip - Normal)
+// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
 {
-Strong spirit, [|cffffcc00Level 1|r]
+Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7300|r damage to nearby enemies. Bonnie always throws a priority.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 5697
-// Abilities: A0UV (Commander: Strong spirit), Tip (Tooltip - Normal)
+// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
 {
-Strong spirit, [|cffffcc00Level 2|r]
+Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7350|r damage to nearby enemies. Bonnie always throws a priority.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 5698
-// Abilities: A0UV (Commander: Strong spirit), Tip (Tooltip - Normal)
+// Abilities: A1BG (Bro: Brutal Blunder), Researchubertip (Tooltip - Learn - Extended)
 {
-Strong spirit, [|cffffcc00Level 3|r]
+Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f730/40/50/60/70|r damage to nearby foes while pulling.
+|cffffcc00Cooldown:|r 19/18/17/16/15 seconds.
+|cffffcc00Cost:|r 45 mana.
 }
 
 STRING 5699
-// Abilities: A0UV (Commander: Strong spirit), Tip (Tooltip - Normal)
+// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
 {
-Strong spirit, [|cffffcc00Level 4|r]
+Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f730|r damage to nearby foes while pulling.
+|cffffcc00Cooldown:|r 19 seconds.
 }
 
 STRING 5700
-// Abilities: A0UV (Commander: Strong spirit), Tip (Tooltip - Normal)
+// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
 {
-Strong spirit, [|cffffcc00Level 5|r]
+Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f740|r damage to nearby foes while pulling.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 5701
-// Abilities: A0UV (Commander: Strong spirit), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
 {
-Increases strength of ally hero by 20.
-The effect is cumulative.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
+Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f750|r damage to nearby foes while pulling.
+|cffffcc00Cooldown:|r 17 seconds.
 }
 
 STRING 5702
-// Abilities: A0UV (Commander: Strong spirit), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
 {
-Increases strength of ally hero by 30.
-The effect is cumulative.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
+Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f760|r damage to nearby foes while pulling.
+|cffffcc00Cooldown:|r 16 seconds.
 }
 
 STRING 5703
-// Abilities: A0UV (Commander: Strong spirit), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
 {
-Increases strength of ally hero by 40.
-The effect is cumulative.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
+Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f770|r damage to nearby foes while pulling.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 5704
-// Abilities: A0UV (Commander: Strong spirit), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1BF (Bro: Bamboozle), Researchubertip (Tooltip - Learn - Extended)
 {
-Increases strength of ally hero by 50.
-The effect is cumulative.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
+Deal |cffbe81f780/105/130/155/180|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 19/18/17/16/15 seconds.
+|cffffcc00Cost:|r 20 mana.
 }
 
 STRING 5705
-// Abilities: A0UV (Commander: Strong spirit), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
 {
-Increases strength of ally hero by 60.
-The effect is cumulative.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
+Deal |cffbe81f780|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 19 seconds.
 }
 
 STRING 5706
@@ -47420,6 +47218,12 @@ STRING 7146
 Indelebilis Sensus, [|cffffcc00Level %d|r]
 }
 
+STRING 7147
+// Items: I07Q (Evil Necklace), Tip (Tooltip - Basic)
+{
+Evil Necklace
+}
+
 STRING 7148
 // Abilities: A0LD (Wanderer: Indelebilis Sensus), Tip (Tooltip - Normal)
 {
@@ -47448,6 +47252,42 @@ STRING 7152
 // Abilities: A0LD (Wanderer: Indelebilis Sensus), Tip (Tooltip - Normal)
 {
 Indelebilis Sensus, [|cffffcc00Level 5|r]
+}
+
+STRING 7153
+// Items: I07Q (Evil Necklace), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Increases Attack by 25 and Armor by 3. 
+Reduces Attack Speed by 50%. Kill someone to calm the spirit inside the necklace.
+}
+
+STRING 7154
+// Items: I07A (Usual Necklace), Description (Description)
+{
+|cffbababcCommon|r
+Increases Attack Power by 25 and Armor by 3. 
+This item has a mysterious aura.
+}
+
+STRING 7155
+// Items: I07A (Usual Necklace), Name (Name)
+{
+Usual Necklace
+}
+
+STRING 7156
+// Items: I07A (Usual Necklace), Tip (Tooltip - Basic)
+{
+Usual Necklace
+}
+
+STRING 7157
+// Items: I07A (Usual Necklace), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Increases Attack Power by 25 and Armor by 3. 
+This item has a mysterious aura.
 }
 
 STRING 7158
@@ -57907,10 +57747,10 @@ Opportunistic Reflexes, [|cffffcc00Level %d|r]
 }
 
 STRING 8765
-// Abilities: A09R (Armsmaster: Opportunistic Reflexes), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
 {
-The hero has a |cffd7df016%/8%/10%/10%/12%|r chance to critically hit or reduces damage taken by 80%. Critical damage deals 75% more damage and reduces armor by 3.
-|cffffcc00Duration:|r 8 seconds.
+Deal |cffbe81f7105|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 8766
@@ -73237,9 +73077,67 @@ When the Hero uses an ability, increases Spell Power by 3% for a short time and 
 |cffffcc00Duration:|r 7 seconds.
 }
 
+STRING 11170
+// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7130|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 17 seconds.
+}
+
 STRING 11171
 {
 Minions take full damage from any sources.
+}
+
+STRING 11172
+// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7155|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 16 seconds.
+}
+
+STRING 11173
+// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7180|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11174
+// Abilities: A1B7 (Bro: One for All), Name (Name)
+{
+Bro: One for All
+}
+
+STRING 11175
+// Abilities: A1B7 (Bro: One for All), Researchtip (Tooltip - Learn)
+{
+One for All, [|cffffcc00Level %d|r]
+}
+
+STRING 11176
+// Abilities: A1B7 (Bro: One for All), Researchubertip (Tooltip - Learn - Extended)
+{
+Steal up to |cffbe81f760/75/90/105/120|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f730/35/40/45/50|r Mana to all other Heroes.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11177
+// Abilities: A1B7 (Bro: One for All), Tip (Tooltip - Normal)
+{
+One for All, [|cffffcc00Level 1|r]
+}
+
+STRING 11178
+// Abilities: A1B7 (Bro: One for All), Tip (Tooltip - Normal)
+{
+One for All, [|cffffcc00Level 2|r]
+}
+
+STRING 11179
+// Abilities: A1B7 (Bro: One for All), Tip (Tooltip - Normal)
+{
+One for All, [|cffffcc00Level 3|r]
 }
 
 STRING 11180
@@ -73272,6 +73170,18 @@ STRING 11185
 |cffffffff|r
 }
 
+STRING 11186
+// Abilities: A1B7 (Bro: One for All), Tip (Tooltip - Normal)
+{
+One for All, [|cffffcc00Level 4|r]
+}
+
+STRING 11187
+// Abilities: A1B7 (Bro: One for All), Tip (Tooltip - Normal)
+{
+One for All, [|cffffcc00Level 5|r]
+}
+
 STRING 11188
 {
 Heroes do full damage to any sources.
@@ -73285,6 +73195,47 @@ Minions deal 10% less damage to bosses.
 STRING 11190
 {
 Minions deal 10% less damage to bosses.
+}
+
+STRING 11191
+// Abilities: A1B7 (Bro: One for All), Ubertip (Tooltip - Normal - Extended)
+{
+Steal up to |cffbe81f760|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f730|r Mana to all other Heroes.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11192
+// Abilities: A1B7 (Bro: One for All), Ubertip (Tooltip - Normal - Extended)
+{
+Steal up to |cffbe81f775|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f735|r Mana to all other Heroes.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11193
+// Abilities: A1B7 (Bro: One for All), Ubertip (Tooltip - Normal - Extended)
+{
+Steal up to |cffbe81f790|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f740|r Mana to all other Heroes.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11194
+// Abilities: A1B7 (Bro: One for All), Ubertip (Tooltip - Normal - Extended)
+{
+Steal up to |cffbe81f7105|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f745|r Mana to all other Heroes.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11195
+// Abilities: A1B7 (Bro: One for All), Ubertip (Tooltip - Normal - Extended)
+{
+Steal up to |cffbe81f7120|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f750|r Mana to all other Heroes.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11196
+// Abilities: A1EW (Extra: Bonnie), Name (Name)
+{
+Extra: Bonnie
 }
 
 STRING 11197
@@ -73394,7 +73345,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.2.9T|r
+|cffbe81f7Boss Battle 1.5.2.10T|r
 }
 
 STRING 11219
@@ -73551,6 +73502,12 @@ STRING 11240
 Shepherd Q: Spirit Journey Buff Dummy
 }
 
+STRING 11241
+// Abilities: A1EW (Extra: Bonnie), Tip (Tooltip - Normal)
+{
+Bonnie
+}
+
 STRING 11242
 // Items: I0FW (Orb of Twilights Flame), Description (Description)
 {
@@ -73565,6 +73522,13 @@ STRING 11243
 |cffe96a1cLegendary|r
 Increases attack power by 15% and attack speed by 10%.
 When you summon a minion, it increases its attack speed by 30% and grants a fiery aura that deals |cffbe81f740|r damage every second.
+}
+
+STRING 11244
+// Abilities: A1EW (Extra: Bonnie), Ubertip (Tooltip - Normal - Extended)
+{
+Summons unique Bonnie with abilities. Bonnie's abilities improve from the hero's abilities.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 11245

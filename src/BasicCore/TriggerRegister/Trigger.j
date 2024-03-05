@@ -48,7 +48,6 @@ library Trigger initializer init requires TriggerDatabase
 			set i = i + 1
 		endloop
 		
-		set triggerUnit = null
 		set itemCheck = null
 	endfunction
 	
@@ -70,8 +69,7 @@ library Trigger initializer init requires TriggerDatabase
 	    call SaveInteger( ItemTypeData, itemType, KEY_NAME, ActionListMax )
 	    set ActionListMax = ActionListMax + 1
 	    
-	    set eventToUse = null
-	    set action = null
+	    set triggerToExecute = null
 	endfunction
 	
 	/*Custom Events*/
@@ -92,16 +90,18 @@ library Trigger initializer init requires TriggerDatabase
 			set i = i + 1
 		endloop
 		
-		set triggerUnit = null
 		set itemCheck = null
 	endfunction
 	
 	private function ActionUseCustom takes nothing returns nothing
+		if GlobalEventUnit == null then
+			call BJDebugMsg("Trigger - ActionUseCustom: Error! GlobalEventUnit set as null.")
+		endif
 	 	call ExecuteActionCustom(GlobalEventUnit)
 	endfunction
 	
 	/*
-	* IMPORTANT! Not every custom event has a GlobalEventUnit. Check TriggerCheckList before work with it.
+	* IMPORTANT! Not every custom event has a GlobalEventUnit. Check TriggerDatabase before work with it.
 	*/
 	function RegisterDuplicatableItemTypeCustom takes integer itemType, string eventToUse, code action, code condition returns nothing
 	    local trigger triggerToExecute = CreateTrigger()

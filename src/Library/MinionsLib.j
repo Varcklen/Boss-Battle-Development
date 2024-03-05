@@ -17,5 +17,15 @@ library MinionsLib
         endif
         return false
     endfunction
+    
+    function IsMinion takes unit unitToCheck returns boolean
+    	if IsUnitType( unitToCheck, UNIT_TYPE_HERO) then
+    		return false
+		elseif IsUnitType( unitToCheck, UNIT_TYPE_ANCIENT) then
+    		return false
+		endif
+        return true
+    endfunction
+
 
 endlibrary

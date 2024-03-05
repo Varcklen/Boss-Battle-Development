@@ -70,10 +70,6 @@ scope Tassadar initializer init
 	    call TriggerAddAction( trig, function Remove )
 	    
 	    call CreateEventTrigger( "Event_UniqueChanged", function OnUniqueChange, function OnUniqueChange_Conditions )
-	    /*set Event_UniqueChanged_Unit = u
-		set Event_UniqueChanged_NewUnique = uniq
-		set Event_UniqueChanged = 1
-		set Event_UniqueChanged = 0*/
     endfunction
 
 endscope
