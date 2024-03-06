@@ -11,7 +11,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Variables",
       "Files": [
         {
@@ -4436,7 +4436,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Frames\\Tooltip",
           "Files": [
             {
@@ -4466,7 +4466,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Frames\\HPBar",
           "Files": [
             {
@@ -4503,7 +4503,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Frames\\ResourseBar",
           "Files": [
             {
@@ -4546,7 +4546,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Frames\\ArrowFrame",
           "Files": [
             {
@@ -4568,7 +4568,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Frames\\InfoBar",
           "Files": [
             {
@@ -4590,7 +4590,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Frames\\InfoItem",
           "Files": [
             {
@@ -4641,7 +4641,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Frames\\BonusFrame",
           "Files": [
             {
@@ -4757,7 +4757,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Frames\\QuestFrame",
           "Files": [
             {
@@ -7334,7 +7334,7 @@
               "Files": []
             },
             {
-              "isEnabled": false,
+              "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Rare\\EternalHarvest.trg",
