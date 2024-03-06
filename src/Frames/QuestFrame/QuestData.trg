@@ -12,7 +12,7 @@
         "parameters": [
           {
             "ParamType": 3,
-            "VariableId": 100663339,
+            "VariableId": 24379856,
             "arrayIndexValues": [
               {
                 "ParamType": 5,
@@ -24,9 +24,17 @@
               }
             ],
             "value": null
+          },
+          {
+            "ParamType": 2,
+            "value": "LimitOpEqual"
+          },
+          {
+            "ParamType": 5,
+            "value": "1"
           }
         ],
-        "value": "TriggerRegisterTimerExpireEventBJ"
+        "value": "TriggerRegisterVariableEvent"
       }
     }
   ],
@@ -781,7 +789,7 @@
           },
           {
             "ParamType": 5,
-            "value": "100"
+            "value": "35"
           }
         ],
         "value": "SetVariable"
@@ -1071,7 +1079,7 @@
           },
           {
             "ParamType": 5,
-            "value": "4"
+            "value": "2500"
           }
         ],
         "value": "SetVariable"

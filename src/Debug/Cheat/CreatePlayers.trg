@@ -612,71 +612,9 @@
                 ],
                 "value": "GroupAddUnitSimple"
               }
-            },
-            {
-              "isEnabled": true,
-              "function": {
-                "ParamType": 1,
-                "parameters": [
-                  {
-                    "ParamType": 5,
-                    "value": "I0DG"
-                  },
-                  {
-                    "ParamType": 1,
-                    "parameters": [
-                      {
-                        "ParamType": 5,
-                        "value": "HeroTp"
-                      }
-                    ],
-                    "value": "GetRectCenter"
-                  }
-                ],
-                "value": "CreateItemLoc"
-              }
-            },
-            {
-              "isEnabled": true,
-              "function": {
-                "ParamType": 1,
-                "parameters": [
-                  {
-                    "ParamType": 1,
-                    "parameters": [],
-                    "value": "GetLastCreatedItem"
-                  },
-                  {
-                    "ParamType": 3,
-                    "VariableId": 100663680,
-                    "arrayIndexValues": [
-                      {
-                        "ParamType": 1,
-                        "parameters": [],
-                        "value": "GetForLoopIndexA"
-                      },
-                      {
-                        "ParamType": 5,
-                        "value": "0"
-                      }
-                    ],
-                    "value": null
-                  }
-                ],
-                "value": "UnitAddItemSwapped"
-              }
             }
           ],
-          "Else": [
-            {
-              "isEnabled": true,
-              "function": {
-                "ParamType": 1,
-                "parameters": [],
-                "value": "DoNothing"
-              }
-            }
-          ],
+          "Else": [],
           "isEnabled": true,
           "function": {
             "ParamType": 1,
