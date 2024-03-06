@@ -7,7 +7,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.2.10T|r
+|cffbe81f7Boss Battle 1.5.2.11T|r
 }
 
 STRING 2
@@ -12589,13 +12589,6 @@ STRING 1874
 Activation: |cffcc0000Corrupted|r. Doubles your hero's current intelligence for the rest of the game.
 }
 
-STRING 1875
-// Items: I08W (Immortal story), Description (Description)
-{
-|cffffcc00Quest:|r Gain 25 intelligence with abilities or items |cFF959697(0/25)|r.
-|cffffcc00Reward:|r Kobzar.
-}
-
 STRING 1876
 // Items: I08W (Immortal story), Name (Name)
 {
@@ -12606,13 +12599,6 @@ STRING 1877
 // Items: I08W (Immortal story), Tip (Tooltip - Basic)
 {
 Immortal story
-}
-
-STRING 1878
-// Items: I08W (Immortal story), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Gain 25 intelligence with abilities or items |cFF959697(0/25)|r.
-|cffffcc00Reward:|r Kobzar.
 }
 
 STRING 1879
@@ -23759,6 +23745,13 @@ STRING 3526
 Bazinga!, [|cffffcc00Level %d|r]
 }
 
+STRING 3527
+// Items: I0GQ (Enlightenment), Description (Description)
+{
+|cffe96a1cLegendary|r
+The Hero cast increases Spell Power by 2% for the battle. The effect is cumulative.
+}
+
 STRING 3528
 // Abilities: A1BH (Bro: Bazinga!), Tip (Tooltip - Normal)
 {
@@ -23789,6 +23782,39 @@ STRING 3532
 Bazinga!, [|cffffcc00Level 5|r]
 }
 
+STRING 3533
+// Items: I0GQ (Enlightenment), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+The Hero cast increases Spell Power by 2% for the battle. The effect is cumulative.
+}
+
+STRING 3534
+// Items: I08W (Immortal story), Description (Description)
+{
+|cffffcc00Quest:|r Gain 25 permanent Intelligence from abilities or items |cFF959697(0/25)|r.
+|cffffcc00Reward:|r Kobzar.
+}
+
+STRING 3535
+// Items: I08W (Immortal story), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Gain 25 permanent Intelligence from abilities or items |cFF959697(0/25)|r.
+|cffffcc00Reward:|r Kobzar.
+}
+
+STRING 3536
+// Abilities: A1B7 (Bro: Borrowing Blues), Name (Name)
+{
+Bro: Borrowing Blues
+}
+
+STRING 3537
+// Abilities: A1B7 (Bro: Borrowing Blues), Researchtip (Tooltip - Learn)
+{
+Borrowing Blues, [|cffffcc00Level %d|r]
+}
+
 STRING 3538
 // Abilities: A1BG (Bro: Brutal Blunder), Hotkey (Hotkey - Normal)
 {
@@ -23811,6 +23837,12 @@ STRING 3541
 // Abilities: A1BG (Bro: Brutal Blunder), Researchtip (Tooltip - Learn)
 {
 Brutal Blunder, [|cffffcc00Level %d|r]
+}
+
+STRING 3542
+// Abilities: A1B7 (Bro: Borrowing Blues), Tip (Tooltip - Normal)
+{
+Borrowing Blues, [|cffffcc00Level 1|r]
 }
 
 STRING 3543
@@ -23841,6 +23873,30 @@ STRING 3547
 // Abilities: A1BG (Bro: Brutal Blunder), Tip (Tooltip - Normal)
 {
 Brutal Blunder, [|cffffcc00Level 5|r]
+}
+
+STRING 3548
+// Abilities: A1B7 (Bro: Borrowing Blues), Tip (Tooltip - Normal)
+{
+Borrowing Blues, [|cffffcc00Level 2|r]
+}
+
+STRING 3549
+// Abilities: A1B7 (Bro: Borrowing Blues), Tip (Tooltip - Normal)
+{
+Borrowing Blues, [|cffffcc00Level 3|r]
+}
+
+STRING 3550
+// Abilities: A1B7 (Bro: Borrowing Blues), Tip (Tooltip - Normal)
+{
+Borrowing Blues, [|cffffcc00Level 4|r]
+}
+
+STRING 3551
+// Abilities: A1B7 (Bro: Borrowing Blues), Tip (Tooltip - Normal)
+{
+Borrowing Blues, [|cffffcc00Level 5|r]
 }
 
 STRING 3553
@@ -24046,7 +24102,7 @@ Ravage
 }
 
 STRING 3594
-// Abilities: A1B7 (Bro: One for All), Hotkey (Hotkey - Normal)
+// Abilities: A1B7 (Bro: Borrowing Blues), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -24112,7 +24168,7 @@ STRING 3606
 }
 
 STRING 3607
-// Abilities: A1B7 (Bro: One for All), Researchhotkey (Hotkey - Learn)
+// Abilities: A1B7 (Bro: Borrowing Blues), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -70006,13 +70062,6 @@ STRING 10659
 Warrior is gradually losing health.
 }
 
-STRING 10660
-// Items: I0GQ (Enlightenment), Description (Description)
-{
-|cffe96a1cLegendary|r
-Each Hero cast increases Spell Power by 2% for the battle. The effect is cumulative.
-}
-
 STRING 10661
 // Buffs/Effects: B06O (), Buffubertip (Tooltip - Extended)
 {
@@ -71175,13 +71224,6 @@ STRING 10854
 // Buffs/Effects: B042 (), Buffubertip (Tooltip - Extended)
 {
 Summons a sheep on death.
-}
-
-STRING 10855
-// Items: I0GQ (Enlightenment), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Each Hero cast increases Spell Power by 2% for the battle. The effect is cumulative.
 }
 
 STRING 10856
@@ -73103,41 +73145,11 @@ Deal |cffbe81f7180|r damage to nearby enemies, then swap positions with the targ
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
-STRING 11174
-// Abilities: A1B7 (Bro: One for All), Name (Name)
-{
-Bro: One for All
-}
-
-STRING 11175
-// Abilities: A1B7 (Bro: One for All), Researchtip (Tooltip - Learn)
-{
-One for All, [|cffffcc00Level %d|r]
-}
-
 STRING 11176
-// Abilities: A1B7 (Bro: One for All), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A1B7 (Bro: Borrowing Blues), Researchubertip (Tooltip - Learn - Extended)
 {
 Steal up to |cffbe81f760/75/90/105/120|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f730/35/40/45/50|r Mana to all other Heroes.
 |cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 11177
-// Abilities: A1B7 (Bro: One for All), Tip (Tooltip - Normal)
-{
-One for All, [|cffffcc00Level 1|r]
-}
-
-STRING 11178
-// Abilities: A1B7 (Bro: One for All), Tip (Tooltip - Normal)
-{
-One for All, [|cffffcc00Level 2|r]
-}
-
-STRING 11179
-// Abilities: A1B7 (Bro: One for All), Tip (Tooltip - Normal)
-{
-One for All, [|cffffcc00Level 3|r]
 }
 
 STRING 11180
@@ -73170,18 +73182,6 @@ STRING 11185
 |cffffffff|r
 }
 
-STRING 11186
-// Abilities: A1B7 (Bro: One for All), Tip (Tooltip - Normal)
-{
-One for All, [|cffffcc00Level 4|r]
-}
-
-STRING 11187
-// Abilities: A1B7 (Bro: One for All), Tip (Tooltip - Normal)
-{
-One for All, [|cffffcc00Level 5|r]
-}
-
 STRING 11188
 {
 Heroes do full damage to any sources.
@@ -73198,35 +73198,35 @@ Minions deal 10% less damage to bosses.
 }
 
 STRING 11191
-// Abilities: A1B7 (Bro: One for All), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1B7 (Bro: Borrowing Blues), Ubertip (Tooltip - Normal - Extended)
 {
 Steal up to |cffbe81f760|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f730|r Mana to all other Heroes.
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 11192
-// Abilities: A1B7 (Bro: One for All), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1B7 (Bro: Borrowing Blues), Ubertip (Tooltip - Normal - Extended)
 {
 Steal up to |cffbe81f775|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f735|r Mana to all other Heroes.
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 11193
-// Abilities: A1B7 (Bro: One for All), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1B7 (Bro: Borrowing Blues), Ubertip (Tooltip - Normal - Extended)
 {
 Steal up to |cffbe81f790|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f740|r Mana to all other Heroes.
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 11194
-// Abilities: A1B7 (Bro: One for All), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1B7 (Bro: Borrowing Blues), Ubertip (Tooltip - Normal - Extended)
 {
 Steal up to |cffbe81f7105|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f745|r Mana to all other Heroes.
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 11195
-// Abilities: A1B7 (Bro: One for All), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1B7 (Bro: Borrowing Blues), Ubertip (Tooltip - Normal - Extended)
 {
 Steal up to |cffbe81f7120|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f750|r Mana to all other Heroes.
 |cffffcc00Cooldown:|r 15 seconds.
@@ -73345,7 +73345,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.2.10T|r
+|cffbe81f7Boss Battle 1.5.2.11T|r
 }
 
 STRING 11219
