@@ -12589,6 +12589,12 @@ STRING 1874
 Activation: |cffcc0000Corrupted|r. Doubles your hero's current intelligence for the rest of the game.
 }
 
+STRING 1875
+// Items: IZ04 (Eternal Harvest), Name (Name)
+{
+Eternal Harvest
+}
+
 STRING 1876
 // Items: I08W (Immortal story), Name (Name)
 {
@@ -12599,6 +12605,12 @@ STRING 1877
 // Items: I08W (Immortal story), Tip (Tooltip - Basic)
 {
 Immortal story
+}
+
+STRING 1878
+// Items: IZ04 (Eternal Harvest), Tip (Tooltip - Basic)
+{
+Eternal Harvest
 }
 
 STRING 1879
@@ -23899,6 +23911,13 @@ STRING 3551
 Borrowing Blues, [|cffffcc00Level 5|r]
 }
 
+STRING 3552
+// Items: IZ04 (Eternal Harvest), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
+After a battle with a boss, if any hero died during that fight, get a random |cffb40431blood|r or |cff7cfc00nature|r item and be offered the other one in the end rewards.
+}
+
 STRING 3553
 // Abilities: A1BF (Bro: Bamboozle), Researchhotkey (Hotkey - Learn)
 {
@@ -23921,6 +23940,12 @@ STRING 3556
 // Abilities: A1BF (Bro: Bamboozle), Researchtip (Tooltip - Learn)
 {
 Bamboozle, [|cffffcc00Level %d|r]
+}
+
+STRING 3557
+// Units: N02R ((R) Barbarian), Name (Name)
+{
+(R) Barbarian
 }
 
 STRING 3558
@@ -23951,6 +23976,32 @@ STRING 3562
 // Abilities: A1BF (Bro: Bamboozle), Tip (Tooltip - Normal)
 {
 Bamboozle, [|cffffcc00Level 5|r]
+}
+
+STRING 3563
+// Items: IZ05 (Oath of Resourcefulness), Description (Description)
+{
+|cffe96a1cLegendary|r
+Your other |cffcc0000corrupted|r items transform into "Weapon Gifts" after being used instead of disappearing.
+}
+
+STRING 3564
+// Items: IZ05 (Oath of Resourcefulness), Name (Name)
+{
+Oath of Resourcefulness
+}
+
+STRING 3565
+// Items: IZ05 (Oath of Resourcefulness), Tip (Tooltip - Basic)
+{
+Oath of Resourcefulness
+}
+
+STRING 3566
+// Items: IZ05 (Oath of Resourcefulness), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Your other |cffcc0000corrupted|r items transform into "Weapon Gifts" after being used instead of disappearing.
 }
 
 STRING 3568
@@ -31825,7 +31876,7 @@ STRING 4790
 }
 
 STRING 4791
-// Abilities: A12Q (Аура: Снежное усиление (Скорость передвиже�), Name (Name)
+// Abilities: A12Q (Аура: Снежное усиление (Скорость передвиже�), Name (Name)
 {
 Аура: Снежное усиление (Скорость передвижения)
 }
@@ -74647,6 +74698,19 @@ The Runesmith charges his attack. Charged attacks will cause |cffbe81f7magic dam
 |cffffcc00Cooldown:|r 4 seconds.
 }
 
+STRING 11409
+// Items: IZ03 (Cheese), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Replace the assortment of Jule with |cff4169e1Rare|r items. They keep the original prices.
+}
+
+STRING 11410
+// Items: IZ03 (Cheese), Name (Name)
+{
+Cheese
+}
+
 STRING 11411
 // Abilities: A1E9 (Spell Shield), EditorSuffix (Editor Suffix)
 {
@@ -74874,6 +74938,12 @@ STRING 11442
 (M) Berry Dealer
 }
 
+STRING 11443
+// Items: IZ03 (Cheese), Tip (Tooltip - Basic)
+{
+Cheese
+}
+
 STRING 11444
 // Units: O018 ((S) Cool Wicerd), Name (Name)
 {
@@ -74976,6 +75046,13 @@ STRING 11460
 (T) Monk
 }
 
+STRING 11461
+// Items: IZ03 (Cheese), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Replace the assortment of Jule with |cff4169e1Rare|r items. They keep the original prices.
+}
+
 STRING 11462
 // Units: O00C ((W) Legionary), Name (Name)
 {
@@ -75022,6 +75099,13 @@ STRING 11469
 // Units: N04W ((H) Living Altar), Name (Name)
 {
 (H) Living Altar
+}
+
+STRING 11470
+// Items: IZ04 (Eternal Harvest), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
+After a battle with a boss, if any hero died during that fight, get a random |cffb40431blood|r or |cff7cfc00nature|r item and be offered the other one in the end rewards.
 }
 
 STRING 11471
@@ -75100,12 +75184,6 @@ STRING 11484
 // Units: N038 ((H) Harpy), Name (Name)
 {
 (H) Harpy
-}
-
-STRING 11488
-// Units: N02R ((R) Barbarian), Name (Name)
-{
-(R) Barbarian
 }
 
 STRING 11489
