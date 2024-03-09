@@ -107,7 +107,7 @@
           },
           {
             "ParamType": 5,
-            "value": "|cffffcc00Author:|r Varcklen\r\n|cffffcc00PayPal:|r www.paypal.me/bbwc3\r\n|c00ffcc00Discord:|r discordapp.com/invite/KVfrcby\r\n|c00ffcc00Discord.me:|r discord.me/bbwc3\r\nThe icons are taken from the game World of Warcraft."
+            "value": "|cffffcc00Author:|r Varcklen\r\n|cffffcc00PayPal:|r www.paypal.me/bbwc3\r\n|c00ffcc00Discord:|r discordapp.com/invite/jCv9CcQnwN\r\n|c00ffcc00Discord.me:|r discord.me/bbwc3\r\nThe icons are taken from the game World of Warcraft."
           },
           {
             "ParamType": 5,
