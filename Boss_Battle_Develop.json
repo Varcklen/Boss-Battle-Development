@@ -2477,7 +2477,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Library",
       "Files": [
         {
@@ -2512,14 +2512,14 @@
           "isEnabled": true,
           "isInitiallyOn": true,
           "isExpanded": false,
-          "path": "Library\\Money.trg",
+          "path": "Library\\Luckylogic.trg",
           "Files": []
         },
         {
           "isEnabled": true,
           "isInitiallyOn": true,
           "isExpanded": false,
-          "path": "Library\\Luckylogic.trg",
+          "path": "Library\\Money.trg",
           "Files": []
         },
         {
@@ -2912,13 +2912,13 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "BasicCore",
       "Files": [
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\Database",
           "Files": [
             {
@@ -3319,7 +3319,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\Data",
           "Files": [
             {
@@ -3447,14 +3447,14 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
-              "path": "BasicCore\\EventSystem\\Event Database.j",
+              "path": "BasicCore\\EventSystem\\Event System.j",
               "Files": []
             },
             {
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
-              "path": "BasicCore\\EventSystem\\Event System.j",
+              "path": "BasicCore\\EventSystem\\Event Database.j",
               "Files": []
             },
             {
@@ -3732,7 +3732,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\Other",
           "Files": [
             {
@@ -4114,7 +4114,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Tower",
       "Files": [
         {
@@ -5165,7 +5165,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Items",
       "Files": [
         {
@@ -5641,6 +5641,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Common\\Holy Water.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Heavy Bag.j",
               "Files": []
             },
             {
@@ -6369,7 +6376,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Rare",
           "Files": [
             {
@@ -6842,10 +6849,17 @@
               "Files": []
             },
             {
-              "isEnabled": true,
+              "isEnabled": false,
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Rare\\Midas Ring.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Rare\\Midas Ring.j",
               "Files": []
             },
             {
@@ -7466,10 +7480,17 @@
               "Files": []
             },
             {
-              "isEnabled": true,
+              "isEnabled": false,
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Legendary\\Demonic Warglaive.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Legendary\\Demonic Warglaive.j",
               "Files": []
             },
             {
@@ -8123,7 +8144,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Items\\Potions",
           "Files": [
             {
@@ -8286,6 +8307,112 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\RandomBonus\\Draupnir.j",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": true,
+          "path": "Items\\Extra",
+          "Files": [
+            {
+              "isEnabled": false,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Extra\\Book of Oblivion.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Extra\\Book of OblivionLib.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Extra\\Corrupted.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": false,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Extra\\DarkSmoke.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Extra\\Delbook.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": false,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Extra\\DontUse.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Extra\\ExtraExp.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Extra\\Heros Soul.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Extra\\ItemG.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Extra\\ItemL.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Extra\\ItemTimedG.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Extra\\OrbUse.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": false,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Extra\\ResMag.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Extra\\Rocks.trg",
               "Files": []
             }
           ]
@@ -8500,119 +8627,13 @@
               "Files": []
             }
           ]
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
-          "path": "Items\\Extra",
-          "Files": [
-            {
-              "isEnabled": false,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Extra\\Book of Oblivion.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Extra\\Book of OblivionLib.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Extra\\Corrupted.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Extra\\DarkSmoke.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Extra\\Delbook.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": false,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Extra\\DontUse.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Extra\\ExtraExp.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Extra\\Heros Soul.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Extra\\ItemG.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Extra\\ItemL.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Extra\\ItemTimedG.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Extra\\OrbUse.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Extra\\ResMag.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Extra\\Rocks.trg",
-              "Files": []
-            }
-          ]
         }
       ]
     },
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Heroes",
       "Files": [
         {
@@ -9248,7 +9269,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Buffers\\Maiden",
               "Files": [
                 {
@@ -11398,7 +11419,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Elementalists\\Pyrolord",
               "Files": [
                 {
@@ -11563,7 +11584,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Elementalists\\Peacelock",
               "Files": [
                 {
@@ -12415,13 +12436,6 @@
               ]
             }
           ]
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
-          "path": "Heroes\\Untitled Category",
-          "Files": []
         }
       ]
     },
@@ -14247,7 +14261,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Arenas",
       "Files": [
         {
@@ -14260,7 +14274,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Arenas\\InfiniteArena",
           "Files": [
             {
@@ -14360,7 +14374,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Arenas\\Arena Lords",
           "Files": [
             {
@@ -14405,7 +14419,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "FichInEnd",
       "Files": [
         {

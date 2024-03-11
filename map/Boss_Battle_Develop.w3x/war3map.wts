@@ -7067,13 +7067,6 @@ STRING 1081
 When the hero uses 4 different abilities or items in a row, restores |cffbe81f720%|r of the maximum health and mana.
 }
 
-STRING 1082
-// Items: I0EE (Midas Ring), Description (Description)
-{
-|cff4169e1Rare|r, |cff9001fdRing|r
-Activation: Turn target artifact into gold. You get more gold for higher rarities. 
-}
-
 STRING 1083
 // Items: I0EE (Midas Ring), Name (Name)
 {
@@ -7084,13 +7077,6 @@ STRING 1084
 // Items: I0EE (Midas Ring), Tip (Tooltip - Basic)
 {
 Midas Ring
-}
-
-STRING 1085
-// Items: I0EE (Midas Ring), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff9001fdRing|r
-Activation: Turn target artifact into gold. You get more gold for higher rarities. 
 }
 
 STRING 1086
@@ -8677,32 +8663,6 @@ STRING 1309
 |cffbababcCommon|r
 If the hero is at the edge of the arena, increases attack and movement speed by 25%, and armor by 3.
 |cff81f260[Random bonus]|r
-}
-
-STRING 1310
-// Items: I0CT (Heavy bag), Description (Description)
-{
-|cffbababcCommon|r
-In battle, the hero receives 100% more gold from any sources. Reduces attack and movement speed by 50%.
-}
-
-STRING 1311
-// Items: I0CT (Heavy bag), Name (Name)
-{
-Heavy bag
-}
-
-STRING 1312
-// Items: I0CT (Heavy bag), Tip (Tooltip - Basic)
-{
-Heavy bag
-}
-
-STRING 1313
-// Items: I0CT (Heavy bag), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-In battle, the hero receives 100% more gold from any sources. Reduces attack and movement speed by 50%.
 }
 
 STRING 1314
@@ -11945,7 +11905,7 @@ When an allied hero dies, kills your hero.
 }
 
 STRING 1782
-// Items: I09J (Magic absorber), Description (Description)
+// Items: I09J (Magic absorberXXX), Description (Description)
 {
 Activation: Reduces received magic damage by 50%.
 3 Charges.
@@ -11953,25 +11913,19 @@ Activation: Reduces received magic damage by 50%.
 }
 
 STRING 1783
-// Items: I09J (Magic absorber), Hotkey (Hotkey)
+// Items: I09J (Magic absorberXXX), Hotkey (Hotkey)
 {
 F
 }
 
 STRING 1784
-// Items: I09J (Magic absorber), Name (Name)
-{
-Magic absorber
-}
-
-STRING 1785
-// Items: I09J (Magic absorber), Tip (Tooltip - Basic)
+// Items: I09J (Magic absorberXXX), Tip (Tooltip - Basic)
 {
 Magic absorber
 }
 
 STRING 1786
-// Items: I09J (Magic absorber), Ubertip (Tooltip - Extended)
+// Items: I09J (Magic absorberXXX), Ubertip (Tooltip - Extended)
 {
 Activation: Reduces received magic damage by 50%.
 |cffffcc00Duration:|r 10 seconds.
@@ -12669,14 +12623,6 @@ Gain a barrier every 30 seconds, which reduces damage taken by 15% and enemies t
 |cffffcc00Duration:|r 10 seconds.
 }
 
-STRING 1887
-// Items: I08T (Demonic Warglaive), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff2d9995Weapon|r
-Increases attack speed and spell power by 10%.
-When the hero attacks, deals an additional |cffbe81f720|r magic damage.
-}
-
 STRING 1888
 // Items: I08T (Demonic Warglaive), Name (Name)
 {
@@ -12687,14 +12633,6 @@ STRING 1889
 // Items: I08T (Demonic Warglaive), Tip (Tooltip - Basic)
 {
 Demonic Warglaive
-}
-
-STRING 1890
-// Items: I08T (Demonic Warglaive), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff2d9995Weapon|r
-Increases attack speed and spell power by 10%.
-When the hero attacks, deals an additional |cffbe81f720|r magic damage.
 }
 
 STRING 1891
@@ -12724,32 +12662,26 @@ Activation: |cffcc0000Corrupted|r. Gives 1000 gold to each hero.
 }
 
 STRING 1895
-// Items: I08R (Shadow Powder), Description (Description)
+// Items: I08R (Shadow PowderXXX), Description (Description)
 {
 Activation: Enters invisibility for 5 seconds. Abilities, items and attacks do not take the hero out of invisibility. All invisible enemies nearby become visible. 3 Charges.
 |cffffcc00Duration:|r 10 seconds.
 }
 
 STRING 1896
-// Items: I08R (Shadow Powder), Hotkey (Hotkey)
+// Items: I08R (Shadow PowderXXX), Hotkey (Hotkey)
 {
 R
 }
 
 STRING 1897
-// Items: I08R (Shadow Powder), Name (Name)
-{
-Shadow Powder
-}
-
-STRING 1898
-// Items: I08R (Shadow Powder), Tip (Tooltip - Basic)
+// Items: I08R (Shadow PowderXXX), Tip (Tooltip - Basic)
 {
 Shadow Powder
 }
 
 STRING 1899
-// Items: I08R (Shadow Powder), Ubertip (Tooltip - Extended)
+// Items: I08R (Shadow PowderXXX), Ubertip (Tooltip - Extended)
 {
 Activation: Enters invisibility for 5 seconds. Abilities, items and attacks do not take the hero out of invisibility. All invisible enemies nearby become visible.
 |cffffcc00Duration:|r 10 seconds.
@@ -18508,20 +18440,20 @@ Your damaging abilities and items restore the hero |cffbe81f720%|r health from t
 }
 
 STRING 2750
-// Items: I02U (Gold coin), Description (Description)
+// Items: I02U (Gold Coin), Description (Description)
 {
 |cff50ff90Use when picked up|r
 Gives 10 gold.
 }
 
 STRING 2751
-// Items: I02U (Gold coin), Name (Name)
+// Items: I00G (Gold coin), Name (Name)
 {
 Gold coin
 }
 
 STRING 2752
-// Items: I02U (Gold coin), Tip (Tooltip - Basic)
+// Items: I00G (Gold coin), Tip (Tooltip - Basic)
 {
 Gold coin
 }
@@ -20912,18 +20844,6 @@ STRING 3097
 {
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corrupted|r. Gives 1000 gold.
-}
-
-STRING 3098
-// Items: I00G (Gold coin), Name (Name)
-{
-Gold coin
-}
-
-STRING 3099
-// Items: I00G (Gold coin), Tip (Tooltip - Basic)
-{
-Gold coin
 }
 
 STRING 3100
@@ -24272,6 +24192,84 @@ STRING 3609
 // Abilities: A1AL (Bard: Touching Motif), Hotkey (Hotkey - Normal)
 {
 Q
+}
+
+STRING 3610
+// Items: I09J (Magic absorberXXX), Name (Name)
+{
+Magic absorberXXX
+}
+
+STRING 3611
+// Items: I08R (Shadow PowderXXX), Name (Name)
+{
+Shadow PowderXXX
+}
+
+STRING 3612
+// Abilities: A0WY (Поглотитель магииXXX), Name (Name)
+{
+Поглотитель магииXXX
+}
+
+STRING 3613
+// Abilities: A0WX (Spell Book), EditorSuffix (Editor Suffix)
+{
+(Поглотитель магииXXX)
+}
+
+STRING 3614
+// Abilities: A0WW (Аура: Поглотитель магииXXX), Name (Name)
+{
+Аура: Поглотитель магииXXX
+}
+
+STRING 3615
+// Abilities: A0WV (Permanent Invisibility), EditorSuffix (Editor Suffix)
+{
+(Порошок Тени XXX)
+}
+
+STRING 3616
+// Abilities: A028 (Порошок ТениXXX), Name (Name)
+{
+Порошок ТениXXX
+}
+
+STRING 3617
+// Buffs/Effects: B05E (), Bufftip (Tooltip)
+{
+|cff00ff00Magic absorber|rXXX
+}
+
+STRING 3618
+// Items: I08T (Demonic Warglaive), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff2d9995Weapon|r
+Increases Attack Speed and Spell Power by 10%.
+Attacks deal an additional |cffbe81f720|r magic damage.
+}
+
+STRING 3619
+// Items: I08T (Demonic Warglaive), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff2d9995Weapon|r
+Increases Attack Speed and Spell Power by 10%.
+Attacks deal an additional |cffbe81f720|r magic damage.
+}
+
+STRING 3620
+// Items: I0CT (Heavy Bag), Description (Description)
+{
+|cffbababcCommon|r
+Every 5 seconds, creates a Gold Coin in the arena.
+|cff81f260[Random bonus]|r
+}
+
+STRING 3621
+// Items: I0CT (Heavy Bag), Name (Name)
+{
+Heavy Bag
 }
 
 STRING 3622
@@ -36170,30 +36168,6 @@ STRING 5438
 // Abilities: A0WZ (Аура: Идол Печали (+мана)), Name (Name)
 {
 Аура: Идол Печали (+мана)
-}
-
-STRING 5439
-// Abilities: A0WY (Поглотитель магии), Name (Name)
-{
-Поглотитель магии
-}
-
-STRING 5440
-// Abilities: A0WX (Spell Book), EditorSuffix (Editor Suffix)
-{
-(Поглотитель магии)
-}
-
-STRING 5441
-// Abilities: A0WW (Аура: Поглотитель магии), Name (Name)
-{
-Аура: Поглотитель магии
-}
-
-STRING 5442
-// Abilities: A0WV (Permanent Invisibility), EditorSuffix (Editor Suffix)
-{
-(Порошок Тени)
 }
 
 STRING 5443
@@ -66321,12 +66295,6 @@ STRING 10046
 (Королева пауков, атака)
 }
 
-STRING 10047
-// Abilities: A028 (Порошок Тени), Name (Name)
-{
-Порошок Тени
-}
-
 STRING 10048
 // Abilities: A027 (Снаряд: Corpse Toss), Name (Name)
 {
@@ -70157,6 +70125,12 @@ STRING 10659
 Warrior is gradually losing health.
 }
 
+STRING 10660
+// Items: I0CT (Heavy Bag), Tip (Tooltip - Basic)
+{
+Heavy Bag
+}
+
 STRING 10661
 // Buffs/Effects: B06O (), Buffubertip (Tooltip - Extended)
 {
@@ -70713,12 +70687,6 @@ STRING 10753
 // Buffs/Effects: B05F (), Buffubertip (Tooltip - Extended)
 {
 Mana regenerates faster.
-}
-
-STRING 10754
-// Buffs/Effects: B05E (), Bufftip (Tooltip)
-{
-|cff00ff00Magic absorber|r
 }
 
 STRING 10755
@@ -71319,6 +71287,14 @@ STRING 10854
 // Buffs/Effects: B042 (), Buffubertip (Tooltip - Extended)
 {
 Summons a sheep on death.
+}
+
+STRING 10855
+// Items: I0CT (Heavy Bag), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Every 5 seconds, creates a Gold Coin in the arena.
+|cff81f260[Random bonus]|r
 }
 
 STRING 10856
@@ -73238,6 +73214,32 @@ STRING 11173
 {
 Deal |cffbe81f7180|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
 |cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11174
+// Items: I02U (Gold Coin), Name (Name)
+{
+Gold Coin
+}
+
+STRING 11175
+// Items: I02U (Gold Coin), Tip (Tooltip - Basic)
+{
+Gold Coin
+}
+
+STRING 11176
+// Items: I0EE (Midas Ring), Description (Description)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r
+Activation: Turns a |cffcc0000non-corrupted|r item into gold. The gold you receive depends on the rarity.
+}
+
+STRING 11177
+// Items: I0EE (Midas Ring), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r
+Activation: Turns a |cffcc0000non-corrupted|r item into gold. The gold you receive depends on the rarity.
 }
 
 STRING 11180
