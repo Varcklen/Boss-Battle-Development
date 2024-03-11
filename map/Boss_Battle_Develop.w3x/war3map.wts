@@ -33883,6 +33883,7 @@ STRING 5086
 Z
 }
 
+<<<<<<< Updated upstream
 STRING 5087
 // Items: I098 (Fulfillment of Will), Description (Description)
 {
@@ -33890,6 +33891,8 @@ STRING 5087
 |cffffcc00Reward:|r Badge of the Gray Warden.
 }
 
+=======
+>>>>>>> Stashed changes
 STRING 5088
 // Items: I098 (Fulfillment of Will), Name (Name)
 {
@@ -33908,6 +33911,7 @@ STRING 5090
 Z
 }
 
+<<<<<<< Updated upstream
 STRING 5091
 // Items: I098 (Fulfillment of Will), Ubertip (Tooltip - Extended)
 {
@@ -33929,6 +33933,20 @@ STRING 5093
 |cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r
 Increases |cff60C445Unique|r Spell Power by 50%.
 |cff60C445Unique|r Spell Power also increases |cff088a08Potion|r Spell Power by half of its value.
+=======
+STRING 5092
+// Items: IZ05 (Oath of Resourcefulness), Description (Description)
+{
+|cffe96a1cLegendary|r
+Your other |cffcc0000corrupted|r items have a |cffd7df0140%|r chance to transform into "Weapon Gifts" after being used instead of disappearing.
+}
+
+STRING 5093
+// Items: IZ05 (Oath of Resourcefulness), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Your other |cffcc0000corrupted|r items have a |cffd7df0140%|r chance to transform into "Weapon Gifts" after being used instead of disappearing.
+>>>>>>> Stashed changes
 }
 
 STRING 5094
@@ -33950,9 +33968,17 @@ Beginner’s Luck, [|cffffcc00Level %d|r]
 }
 
 STRING 5097
+<<<<<<< Updated upstream
 // Abilities: A1ER (.General: Non-Destroyable), Name (Name)
 {
 .General: Non-Destroyable
+=======
+// Items: IZ07 (Buy Order), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
+Only active outside of combat.
+>>>>>>> Stashed changes
 }
 
 STRING 5098
@@ -33986,9 +34012,15 @@ Beginner’s Luck, [|cffffcc00Level 5|r]
 }
 
 STRING 5103
+<<<<<<< Updated upstream
 // Abilities: A1ES (.General: Random Events To Destroy), Name (Name)
 {
 .General: Random Events To Destroy
+=======
+// Items: IZ07 (Buy Order), Name (Name)
+{
+Buy Order
+>>>>>>> Stashed changes
 }
 
 STRING 5104
@@ -43956,10 +43988,16 @@ STRING 6622
 }
 
 STRING 6623
+<<<<<<< Updated upstream
 // Items: I0CB (Tarot Card: The Fool), Description (Description)
 {
 |cffbababcCommon|r
 Activation: |cffcc0000Corrupted|r. Fully resurrects a dead Hero.
+=======
+// Items: IZ07 (Buy Order), Tip (Tooltip - Basic)
+{
+Buy Order
+>>>>>>> Stashed changes
 }
 
 STRING 6624
@@ -48736,10 +48774,18 @@ Overlord Arena
 }
 
 STRING 7357
+<<<<<<< Updated upstream
 // Items: I0CB (Tarot Card: The Fool), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r
 Activation: |cffcc0000Corrupted|r. Fully resurrects a dead Hero.
+=======
+// Items: IZ07 (Buy Order), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
+Only active outside of combat.
+>>>>>>> Stashed changes
 }
 
 STRING 7358
@@ -67755,9 +67801,15 @@ STRING 10266
 }
 
 STRING 10267
+<<<<<<< Updated upstream
 // Abilities: A1ET (Artifact: Tarot Card: The Fool), Name (Name)
 {
 Artifact: Tarot Card: The Fool
+=======
+// Abilities: AZ07 (Artifact: Buy Order), Name (Name)
+{
+Artifact: Buy Order
+>>>>>>> Stashed changes
 }
 
 STRING 10268
