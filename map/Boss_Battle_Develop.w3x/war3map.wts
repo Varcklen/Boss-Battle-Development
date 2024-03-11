@@ -7067,6 +7067,14 @@ STRING 1081
 When the hero uses 4 different abilities or items in a row, restores |cffbe81f720%|r of the maximum health and mana.
 }
 
+STRING 1082
+// Items: IZ07 (Buy Order), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
+Only active outside of combat.
+}
+
 STRING 1083
 // Items: I0EE (Midas Ring), Name (Name)
 {
@@ -7077,6 +7085,12 @@ STRING 1084
 // Items: I0EE (Midas Ring), Tip (Tooltip - Basic)
 {
 Midas Ring
+}
+
+STRING 1085
+// Items: IZ07 (Buy Order), Name (Name)
+{
+Buy Order
 }
 
 STRING 1086
@@ -8663,6 +8677,36 @@ STRING 1309
 |cffbababcCommon|r
 If the hero is at the edge of the arena, increases attack and movement speed by 25%, and armor by 3.
 |cff81f260[Random bonus]|r
+}
+
+STRING 1310
+// Items: IZ07 (Buy Order), Tip (Tooltip - Basic)
+{
+Buy Order
+}
+
+STRING 1311
+// Items: IZ07 (Buy Order), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
+Only active outside of combat.
+}
+
+STRING 1312
+// Abilities: A082 (Outcast: Denial of the Past), Researchubertip (Tooltip - Learn - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 3/4/5/6/7 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+}
+
+STRING 1313
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 4 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
 }
 
 STRING 1314
@@ -31918,7 +31962,7 @@ STRING 4790
 }
 
 STRING 4791
-// Abilities: A12Q (Аура: Снежное усиление (Скорость передвиже�), Name (Name)
+// Abilities: A12Q (Аура: Снежное усиление (Скорость передвиже�), Name (Name)
 {
 Аура: Снежное усиление (Скорость передвижения)
 }
@@ -75136,10 +75180,48 @@ STRING 11482
 (R) Lycanthrope Druid
 }
 
+STRING 11483
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 3 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+}
+
 STRING 11484
 // Units: N038 ((H) Harpy), Name (Name)
 {
 (H) Harpy
+}
+
+STRING 11485
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 5 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+}
+
+STRING 11486
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 6 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+}
+
+STRING 11487
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 7 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+}
+
+STRING 11488
+// Abilities: AZ07 (Artifact: Buy Order), Name (Name)
+{
+Artifact: Buy Order
 }
 
 STRING 11489
