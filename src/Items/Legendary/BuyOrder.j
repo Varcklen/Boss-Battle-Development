@@ -48,6 +48,9 @@ scope BuyOrder initializer init
        		call textst( "|c00909090 Deficit!", u, 64, 90, 10, 1 )
    	     endif
     	call stazisst( u, it )
+    	
+    	set u = null
+    	set it = null
 	endfunction
 
 //****************************************************************************
@@ -56,6 +59,7 @@ scope BuyOrder initializer init
     	call TriggerRegisterAnyUnitEventBJ( trig, EVENT_PLAYER_UNIT_SPELL_EFFECT )
     	call TriggerAddCondition( trig, Condition( function condition ) )
 		call TriggerAddAction( trig, function action)
+		set trig = null
 	endfunction
 
 endscope

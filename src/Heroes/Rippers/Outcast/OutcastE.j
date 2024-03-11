@@ -94,6 +94,10 @@ private function init takes nothing returns nothing
     call TriggerRegisterVariableEvent( trigEnd, "udg_FightEnd_Real", EQUAL, 1.00 )
     call TriggerAddCondition( trigEnd, Condition( function endConditions ) )
     call TriggerAddAction( trigEnd, function endActions )
+    
+    set trigLearn = null
+    set trigStart = null
+    set trigEnd = null
 endfunction
 
 endscope

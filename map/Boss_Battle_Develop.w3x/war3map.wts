@@ -9970,29 +9970,9 @@ Inflicts |cffbe81f7150/200/250/300/350|r fire damage to an enemy. With a probabi
 }
 
 STRING 1494
-// Items: I0BJ (Make an exchange), Hotkey (Hotkey)
+// Items: I0BJ (Make an Exchange), Hotkey (Hotkey)
 {
 C
-}
-
-STRING 1495
-// Items: I0BJ (Make an exchange), Name (Name)
-{
-Make an exchange
-}
-
-STRING 1496
-// Items: I0BJ (Make an exchange), Tip (Tooltip - Basic)
-{
-Make an exchange
-}
-
-STRING 1497
-// Items: I0BJ (Make an exchange), Ubertip (Tooltip - Extended)
-{
-If all conditions are met, the exchange begins.
-
-|cffffcc00If the inventory is full, the artifact will delete a random item and move to its place.|r
 }
 
 STRING 1498
@@ -11968,6 +11948,12 @@ STRING 1784
 Magic absorber
 }
 
+STRING 1785
+// Items: I0BJ (Make an Exchange), Name (Name)
+{
+Make an Exchange
+}
+
 STRING 1786
 // Items: I09J (Magic absorberXXX), Ubertip (Tooltip - Extended)
 {
@@ -12667,6 +12653,12 @@ Gain a barrier every 30 seconds, which reduces damage taken by 15% and enemies t
 |cffffcc00Duration:|r 10 seconds.
 }
 
+STRING 1887
+// Items: I0BJ (Make an Exchange), Tip (Tooltip - Basic)
+{
+Make an Exchange
+}
+
 STRING 1888
 // Items: I08T (Demonic Warglaive), Name (Name)
 {
@@ -12677,6 +12669,15 @@ STRING 1889
 // Items: I08T (Demonic Warglaive), Tip (Tooltip - Basic)
 {
 Demonic Warglaive
+}
+
+STRING 1890
+// Items: I0BJ (Make an Exchange), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Cost|r - 50 Gold.
+If all conditions are met, the exchange begins.
+
+|cffffcc00If the inventory is full, the artifact will delete a random item and move to its place.|r
 }
 
 STRING 1891
@@ -12722,6 +12723,12 @@ STRING 1897
 // Items: I08R (Shadow PowderXXX), Tip (Tooltip - Basic)
 {
 Shadow Powder
+}
+
+STRING 1898
+// Items: I07Y (Make an Exchange), Name (Name)
+{
+Make an Exchange
 }
 
 STRING 1899
@@ -13478,29 +13485,9 @@ Activation: |cffcc0000Corrupted|r. Gives +1 to stats. If you killed 50 enemies i
 }
 
 STRING 2008
-// Items: I07Y (Make an exchange), Hotkey (Hotkey)
+// Items: I07Y (Make an Exchange), Hotkey (Hotkey)
 {
 C
-}
-
-STRING 2009
-// Items: I07Y (Make an exchange), Name (Name)
-{
-Make an exchange
-}
-
-STRING 2010
-// Items: I07Y (Make an exchange), Tip (Tooltip - Basic)
-{
-Make an exchange
-}
-
-STRING 2011
-// Items: I07Y (Make an exchange), Ubertip (Tooltip - Extended)
-{
-If all conditions are met, the exchange begins.
-
-|cffffcc00If the inventory is full, the artifact will delete a random item and move to its place.|r
 }
 
 STRING 2012
@@ -20888,6 +20875,21 @@ STRING 3097
 {
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corrupted|r. Gives 1000 gold.
+}
+
+STRING 3098
+// Items: I07Y (Make an Exchange), Tip (Tooltip - Basic)
+{
+Make an Exchange
+}
+
+STRING 3099
+// Items: I07Y (Make an Exchange), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Cost|r - 125 Gold.
+If all conditions are met, the exchange begins.
+
+|cffffcc00If the inventory is full, the artifact will delete a random item and move to its place.|r
 }
 
 STRING 3100
