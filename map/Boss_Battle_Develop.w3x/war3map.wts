@@ -24274,6 +24274,88 @@ STRING 3609
 Q
 }
 
+STRING 3610
+// Items: IZ07 (Buy Order), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
+Only active outside of combat.
+}
+
+STRING 3611
+// Items: IZ07 (Buy Order), Name (Name)
+{
+Buy Order
+}
+
+STRING 3612
+// Items: IZ07 (Buy Order), Tip (Tooltip - Basic)
+{
+Buy Order
+}
+
+STRING 3613
+// Items: IZ07 (Buy Order), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
+Only active outside of combat.
+}
+
+STRING 3614
+// Abilities: AZ07 (Artifact: Buy Order), Name (Name)
+{
+Artifact: Buy Order
+}
+
+STRING 3615
+// Abilities: A082 (Outcast: Denial of the Past), Researchubertip (Tooltip - Learn - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 3/4/5/6/7 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+}
+
+STRING 3616
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 3 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+}
+
+STRING 3617
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 4 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+}
+
+STRING 3618
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 5 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+}
+
+STRING 3619
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 6 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+}
+
+STRING 3620
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 7 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+}
+
 STRING 3622
 // Abilities: A1B6 (Немота (Polymorph)), Name (Name)
 {
@@ -60039,14 +60121,6 @@ STRING 9096
 Denial of the Past, [|cffffcc00Level %d|r]
 }
 
-STRING 9097
-// Abilities: A082 (Outcast: Denial of the Past), Researchubertip (Tooltip - Learn - Extended)
-{
-If the hero hasn't used Vengeful Strike for the next 50/45/40/35/30 seconds, the next Vengeful Strike will give 2 strength.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
-}
-
 STRING 9098
 // Abilities: A082 (Outcast: Denial of the Past), Tip (Tooltip - Normal)
 {
@@ -60075,46 +60149,6 @@ STRING 9102
 // Abilities: A082 (Outcast: Denial of the Past), Tip (Tooltip - Normal)
 {
 Denial of the Past, [|cffffcc00Level 5|r]
-}
-
-STRING 9103
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero hasn't used Vengeful Strike for the next 50 seconds, the next Vengeful Strike will give 2 strength.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
-}
-
-STRING 9104
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero hasn't used Vengeful Strike for the next 45 seconds, the next Vengeful Strike will give 2 strength.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
-}
-
-STRING 9105
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero hasn't used Vengeful Strike for the next 40 seconds, the next Vengeful Strike will give 2 strength.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
-}
-
-STRING 9106
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero hasn't used Vengeful Strike for the next 35 seconds, the next Vengeful Strike will give 2 strength.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
-}
-
-STRING 9107
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero hasn't used Vengeful Strike for the next 30 seconds, the next Vengeful Strike will give 2 strength.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
 }
 
 STRING 9108

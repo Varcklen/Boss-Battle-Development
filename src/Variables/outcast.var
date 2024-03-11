@@ -5,7 +5,7 @@
     1
   ],
   "Name": "outcast",
-  "Type": "boolean",
+  "Type": "integer",
   "IsArray": true,
   "IsTwoDimensions": false,
   "InitialValue": {
