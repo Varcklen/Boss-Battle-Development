@@ -10,7 +10,7 @@ scope PieceOfCake initializer init
 	endglobals
 	
 	private function action takes nothing returns nothing
-		local unit caster = Event_PotionUsed_Unit
+		local unit caster = PotionUsed.GetDataUnit("caster")
 	    local integer index = GetUnitUserData(caster)
 	
 	    call DestroyEffect( AddSpecialEffectTarget( ANIMATION, caster, "origin" ) )
@@ -31,7 +31,7 @@ scope PieceOfCake initializer init
 	
 	//===========================================================================
 	private function init takes nothing returns nothing
-		call RegisterDuplicatableItemTypeCustom( ITEM_ID, "Event_PotionUsed", function action, null)
+		call RegisterDuplicatableItemTypeCustom( ITEM_ID, PotionUsed, function action, null)
 		
 		call CreateEventTrigger( "Event_BetweenUnit", function DeleteBonus, null )
 	endfunction

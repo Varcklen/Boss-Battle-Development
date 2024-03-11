@@ -1,13 +1,15 @@
 ﻿STRING 0
 {
 |cffffcc00Boss Battle|r - an exciting competition of players against bosses and their minions in the genre |cffffcc00HeroArena|r with elements of games of the genre |cffffcc00RogueLike|r.
-|cffffcc00Discord:|r discordapp.com/invite/KVfrcby;
+|cffffcc00Discord:|r discordapp.com/invite/jCv9CcQnwN;
 |cffffcc00Discord.Me:|r discord.me/bbwc3.
+
+|cffffcc00Attention!|r This is a test version and may contain bugs.
 }
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.2.13T|r
+|cffbe81f7Boss Battle 1.5.3.1T|r
 }
 
 STRING 2
@@ -24004,6 +24006,13 @@ STRING 3566
 Your other |cffcc0000corrupted|r items transform into "Weapon Gifts" after being used instead of disappearing.
 }
 
+STRING 3567
+// Abilities: A1B7 (Bro: Borrowing Blues), Researchubertip (Tooltip - Learn - Extended)
+{
+Steal up to |cffbe81f760/75/90/105/120|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f730/35/40/45/50|r Mana to all Heroes except caster.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 3568
 // Abilities: A1BE (Unique: Brother Rant (+)), Hotkey (Hotkey - Normal)
 {
@@ -24128,6 +24137,13 @@ STRING 3587
 Random Bantering
 }
 
+STRING 3588
+// Abilities: A1B7 (Bro: Borrowing Blues), Ubertip (Tooltip - Normal - Extended)
+{
+Steal up to |cffbe81f760|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f730|r Mana to all Heroes except caster.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 3589
 // Abilities: A1BB (Bunnie: Ravage), Hotkey (Hotkey - Normal)
 {
@@ -24150,6 +24166,13 @@ STRING 3592
 // Abilities: A1BB (Bunnie: Ravage), Tip (Tooltip - Normal)
 {
 Ravage
+}
+
+STRING 3593
+// Abilities: A1B7 (Bro: Borrowing Blues), Ubertip (Tooltip - Normal - Extended)
+{
+Steal up to |cffbe81f775|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f735|r Mana to all Heroes except caster.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 3594
@@ -24188,6 +24211,13 @@ STRING 3599
 Right Role 
 }
 
+STRING 3600
+// Abilities: A1B7 (Bro: Borrowing Blues), Ubertip (Tooltip - Normal - Extended)
+{
+Steal up to |cffbe81f790|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f740|r Mana to all Heroes except caster.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 3601
 // Abilities: A1AV (Bard: Song of Joy), Hotkey (Hotkey - Normal)
 {
@@ -24212,6 +24242,13 @@ STRING 3604
 Requiem
 }
 
+STRING 3605
+// Abilities: A1B7 (Bro: Borrowing Blues), Ubertip (Tooltip - Normal - Extended)
+{
+Steal up to |cffbe81f7105|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f745|r Mana to all Heroes except caster.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 3606
 // Abilities: A1B8 ((т)Аура: Requiem), Name (Name)
 {
@@ -24222,6 +24259,13 @@ STRING 3607
 // Abilities: A1B7 (Bro: Borrowing Blues), Researchhotkey (Hotkey - Learn)
 {
 Q
+}
+
+STRING 3608
+// Abilities: A1B7 (Bro: Borrowing Blues), Ubertip (Tooltip - Normal - Extended)
+{
+Steal up to |cffbe81f7120|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f750|r Mana to all Heroes except caster.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 3609
@@ -73196,13 +73240,6 @@ Deal |cffbe81f7180|r damage to nearby enemies, then swap positions with the targ
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
-STRING 11176
-// Abilities: A1B7 (Bro: Borrowing Blues), Researchubertip (Tooltip - Learn - Extended)
-{
-Steal up to |cffbe81f760/75/90/105/120|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f730/35/40/45/50|r Mana to all other Heroes.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 11180
 {
 |cffffffff|r
@@ -73246,41 +73283,6 @@ Minions deal 10% less damage to bosses.
 STRING 11190
 {
 Minions deal 10% less damage to bosses.
-}
-
-STRING 11191
-// Abilities: A1B7 (Bro: Borrowing Blues), Ubertip (Tooltip - Normal - Extended)
-{
-Steal up to |cffbe81f760|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f730|r Mana to all other Heroes.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 11192
-// Abilities: A1B7 (Bro: Borrowing Blues), Ubertip (Tooltip - Normal - Extended)
-{
-Steal up to |cffbe81f775|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f735|r Mana to all other Heroes.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 11193
-// Abilities: A1B7 (Bro: Borrowing Blues), Ubertip (Tooltip - Normal - Extended)
-{
-Steal up to |cffbe81f790|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f740|r Mana to all other Heroes.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 11194
-// Abilities: A1B7 (Bro: Borrowing Blues), Ubertip (Tooltip - Normal - Extended)
-{
-Steal up to |cffbe81f7105|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f745|r Mana to all other Heroes.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 11195
-// Abilities: A1B7 (Bro: Borrowing Blues), Ubertip (Tooltip - Normal - Extended)
-{
-Steal up to |cffbe81f7120|r total of Mana from nearby Heroes. After 5 seconds, restore |cffbe81f750|r Mana to all other Heroes.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 11196
@@ -73396,7 +73398,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.2.13T|r
+|cffbe81f7Boss Battle 1.5.3.1T|r
 }
 
 STRING 11219

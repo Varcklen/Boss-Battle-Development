@@ -33,11 +33,14 @@ library Potion requires Trigger
 	        set PotionsUsedPerBattle[i] = PotionsUsedPerBattle[i] + 1
 	    endif
 	    
-	    set Trigger_GlobalEventUnit = caster
+	    //set Trigger_GlobalEventUnit = caster
 	    set Event_PotionUsed_Unit = caster
 	    set Event_PotionUsed = 1
 	    set Event_PotionUsed = 0
-	    set Trigger_GlobalEventUnit = null
+	    //set Trigger_GlobalEventUnit = null
+	    
+	    call PotionUsed.SetDataUnit("caster", caster)
+	    call PotionUsed.Invoke()
 	    
 	    set it = null
 	endfunction

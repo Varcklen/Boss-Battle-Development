@@ -61,7 +61,6 @@ scope RealBroQ initializer init
 	        set u = FirstOfGroup(g)
 	        exitwhen u == null
 	        if IsUnitInGroup( u, heroesAffected ) then
-	        	call GroupRemoveUnit( heroesAffected, u)
 	        	call GroupAddUnit( heroesToSteal, u)
 	        endif
 	        call GroupRemoveUnit(g,u)
