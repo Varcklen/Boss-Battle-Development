@@ -85,6 +85,7 @@ scope MainBattleHeroDeath initializer init
     endfunction
 	
 	private function action takes nothing returns nothing
+		//call BJDebugMsg("MainBattleHeroDeath")
 		call DisableTrigger( GetTriggeringTrigger() )
 		if udg_Heroes_Chanse > 0 then
             call SecondChance()

@@ -34,6 +34,7 @@ scope OverlordArenaDeath initializer init
     endfunction
     
 	private function EndBattle takes nothing returns nothing
+		//call BJDebugMsg("OverlordArenaDeath")
         call Disable()
     	call RemovePortals()
         call Between( "end_AL" )

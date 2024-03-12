@@ -7,9 +7,20 @@ library DeathSystem initializer init requires Trigger
 		private trigger DeathEvent
 		
 		private group temp_Group
+		
+		private constant integer UNKILLABLE_HASH = StringHash("unkillable")
 	endglobals
 
 	//Functions
+	//===========================================================================
+	public function DEBUG takes unit hero returns nothing
+		call GroupAddUnit( AliveHeroes, hero)
+	endfunction
+	
+	public function BattleRessurect takes unit hero returns nothing
+		call GroupRemoveUnit( DeadHeroes, hero )
+	endfunction
+	
 	public function GetAmountOfDiedHeroes takes nothing returns integer
 		return CountUnitsInGroup(DeadHeroes)
 	endfunction
@@ -48,21 +59,35 @@ library DeathSystem initializer init requires Trigger
 		call GroupAddGroup( AliveHeroes, temp_Group )
 		return temp_Group
 	endfunction
-	//===========================================================================
 	
+	//The unit does not trigger any death effects upon death (resurrection, end of battle, etc.).
+	public function SetUnkillable takes unit hero, boolean value returns nothing
+		call SaveBoolean(udg_hash, GetHandleId(hero), UNKILLABLE_HASH, value )
+	endfunction
+	
+	public function IsUnkillable takes unit hero returns boolean
+		return LoadBoolean(udg_hash, GetHandleId(hero), UNKILLABLE_HASH )
+	endfunction
+	
+	//Main
+	//===========================================================================
 	//Is unit can be target of battle ressurect
     private function TargetCheck takes unit target returns boolean
     	//Is ressurection points left? 
     	if udg_Heroes_Ressurect_Battle > 0 then
+    		//call BJDebugMsg("udg_Heroes_Ressurect_Battle > 0")
     		return false
 		//Is target alive hero
     	elseif IsUnitInGroup( target, AliveHeroes ) == false then
+    		//call BJDebugMsg("IsUnitInGroup( target, AliveHeroes ) == false")
     		return false
     	//Is under ressurection?
-    	elseif GetUnitAbilityLevel(target, 'A05X') > 0 then
+    	elseif IsUnkillable(target) then //GetUnitAbilityLevel(target, 'A05X') > 0
+    		//call BJDebugMsg("IsUnkillable(target)")
     		return false
 		//Is under ressurection?
     	elseif IsUnitInGroup(target, udg_Return) then
+    		//call BJDebugMsg("IsUnitInGroup(target, udg_Return)")
     		return false
     	endif
         return true
