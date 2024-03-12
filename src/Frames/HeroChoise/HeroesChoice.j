@@ -115,7 +115,7 @@ scope HeroesChoise initializer init
         //call MMD_UpdateValueString("hero",owner,GetUnitName(hero))
         call SetUnitUserData(hero, index)
         call SetClassNumber(hero)
-        call GroupAddUnit( udg_otryad, hero )
+        //call GroupAddUnit( udg_otryad, hero )
         call GroupAddUnit( udg_heroinfo, hero )
         call FogModifierStop( udg_Visible[index] )
         call AddBonusItems(hero, index)

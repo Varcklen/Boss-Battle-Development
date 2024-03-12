@@ -106,7 +106,7 @@ scope Mechanic1A initializer init
             call FlushChildHashtable( udg_hash, id )
             call DestroyTimer( GetExpiredTimer() )
         else
-            set target = GroupPickRandomUnit(udg_otryad)
+            set target = DeathSystem_GetRandomAliveHero()
             if target != null then
                 call SpawnFireArea(boss, GetUnitX( target ), GetUnitY( target ), DAMAGE )
             endif
