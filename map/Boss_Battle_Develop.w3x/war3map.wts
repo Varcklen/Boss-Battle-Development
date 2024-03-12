@@ -4140,13 +4140,6 @@ STRING 659
 Removes an artifact from the exchanger.
 }
 
-STRING 660
-// Items: III4 (Pebble: Purple), Description (Description)
-{
-|cffC71585Cursed|r
-Activation: Gives the random stat to the hero.
-}
-
 STRING 661
 // Items: III4 (Pebble: Purple), Hotkey (Hotkey)
 {
@@ -4165,44 +4158,10 @@ STRING 663
 Pebble: Purple
 }
 
-STRING 664
-// Items: III4 (Pebble: Purple), Ubertip (Tooltip - Extended)
-{
-|cffC71585Cursed|r
-Activation: Gives the random stat to the hero.
-}
-
-STRING 665
-// Items: III3 (Pebble: Red), Description (Description)
-{
-|cffC71585Cursed|r
-Activation: Deals |cffbe81f775|r damage to a random enemy nearby.
-}
-
 STRING 666
 // Items: III3 (Pebble: Red), Name (Name)
 {
 Pebble: Red
-}
-
-STRING 667
-// Items: III3 (Pebble: Red), Tip (Tooltip - Basic)
-{
-Pebble: Red
-}
-
-STRING 668
-// Items: III3 (Pebble: Red), Ubertip (Tooltip - Extended)
-{
-|cffC71585Cursed|r
-Activation: Deals |cffbe81f775|r damage to a random enemy nearby.
-}
-
-STRING 669
-// Items: III2 (Pebble: Blue), Description (Description)
-{
-|cffC71585Cursed|r
-Activation: Restores |cffbe81f725|r mana to the hero.
 }
 
 STRING 670
@@ -4211,43 +4170,10 @@ STRING 670
 Pebble: Blue
 }
 
-STRING 671
-// Items: III2 (Pebble: Blue), Tip (Tooltip - Basic)
-{
-Pebble: Blue
-}
-
-STRING 672
-// Items: III2 (Pebble: Blue), Ubertip (Tooltip - Extended)
-{
-|cffC71585Cursed|r
-Activation: Restores |cffbe81f725|r mana to the hero.
-}
-
-STRING 673
-// Items: III1 (Pebble: Green), Description (Description)
-{
-|cffC71585Cursed|r
-Activation: Restores |cffbe81f750|r health to the hero.
-}
-
 STRING 674
 // Items: III1 (Pebble: Green), Name (Name)
 {
 Pebble: Green
-}
-
-STRING 675
-// Items: III1 (Pebble: Green), Tip (Tooltip - Basic)
-{
-Pebble: Green
-}
-
-STRING 676
-// Items: III1 (Pebble: Green), Ubertip (Tooltip - Extended)
-{
-|cffC71585Cursed|r
-Activation: Restores |cffbe81f750|r health to the hero.
 }
 
 STRING 677
@@ -9975,6 +9901,27 @@ STRING 1494
 C
 }
 
+STRING 1495
+// Items: III4 (Pebble: Purple), Description (Description)
+{
+|cff50ff90Use when picked up|r
+Activation: Gives the random stat to the hero.
+}
+
+STRING 1496
+// Items: III3 (Pebble: Red), Description (Description)
+{
+|cff50ff90Use when picked up|r
+Activation: Deals |cffbe81f775|r damage to a random enemy nearby.
+}
+
+STRING 1497
+// Items: III2 (Pebble: Blue), Description (Description)
+{
+|cff50ff90Use when picked up|r
+Activation: Restores |cffbe81f725|r mana to the hero.
+}
+
 STRING 1498
 // Items: I0BI (Farelo the Fiery), Description (Description)
 {
@@ -13488,6 +13435,26 @@ STRING 2008
 // Items: I07Y (Make an Exchange), Hotkey (Hotkey)
 {
 C
+}
+
+STRING 2009
+// Items: III1 (Pebble: Green), Description (Description)
+{
+|cff50ff90Use when picked up|r
+Activation: Restores |cffbe81f750|r health to the hero.
+}
+
+STRING 2010
+// Items: III4 (Pebble: Purple), Ubertip (Tooltip - Extended)
+{
+|cff50ff90Use when picked up|r
+Activation: Gives the random stat to the hero.
+}
+
+STRING 2011
+// Abilities: A0IH (Снаряд: Orb of ConsecrationXXX), Name (Name)
+{
+Снаряд: Orb of ConsecrationXXX
 }
 
 STRING 2012
@@ -50010,12 +49977,6 @@ STRING 7543
 // Abilities: A0II (Аура: Orb of Pious Magi), Name (Name)
 {
 Аура: Orb of Pious Magi
-}
-
-STRING 7544
-// Abilities: A0IH (Снаряд: Orb of Consecration), Name (Name)
-{
-Снаряд: Orb of Consecration
 }
 
 STRING 7545

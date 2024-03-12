@@ -379,7 +379,7 @@ scope MepthistarExtra initializer init
 	        exitwhen i > udg_DB_SoulContract_SetNum
 	        set mephicon[i] = BlzCreateFrameByType("BACKDROP", "",mephuse, "StandartFrameTemplate", 0)
 	        call BlzFrameSetSize( mephicon[i], 0.02, 0.02 )
-	        call BlzFrameSetAbsPoint(mephicon[i], FRAMEPOINT_CENTER, 0.02, 0.15+(0.02*i))
+	        call BlzFrameSetAbsPoint(mephicon[i], FRAMEPOINT_CENTER, 0.018+(0.02*i), 0.17)
 	        call BlzFrameSetTexture( mephicon[i], "ReplaceableTextures\\CommandButtons\\BTNCancel.blp", 0, true )
 	        
 	        set mephnum[i] = BlzCreateFrameByType("TEXT", "", mephuse, "StandartFrameTemplate", 0)

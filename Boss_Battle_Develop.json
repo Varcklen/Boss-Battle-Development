@@ -2455,7 +2455,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "-----------------------",
       "Files": [
         {
@@ -2911,7 +2911,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "BasicCore\\Database",
           "Files": [
             {
@@ -3754,6 +3754,13 @@
               "isExpanded": false,
               "path": "BasicCore\\Counters\\Kills.trg",
               "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "BasicCore\\Counters\\Damage Absorbed.j",
+              "Files": []
             }
           ]
         },
@@ -4142,7 +4149,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Tower",
       "Files": [
         {
@@ -4205,7 +4212,7 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
-              "path": "Tower\\Auction\\Echange3.j",
+              "path": "Tower\\Auction\\Exchange3.j",
               "Files": []
             },
             {
@@ -4918,7 +4925,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Debug",
       "Files": [
         {
@@ -5207,7 +5214,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Items",
       "Files": [
         {
@@ -7378,7 +7385,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Legendary",
           "Files": [
             {
@@ -7410,14 +7417,14 @@
               "Files": []
             },
             {
-              "isEnabled": true,
+              "isEnabled": false,
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Legendary\\Blood of the Ancient.trg",
               "Files": []
             },
             {
-              "isEnabled": true,
+              "isEnabled": false,
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Legendary\\Blood of the AncientCast.trg",
@@ -7755,7 +7762,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Items\\Legendary\\Orbs",
               "Files": [
                 {
@@ -8682,7 +8689,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Heroes",
       "Files": [
         {
@@ -10578,7 +10585,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Killers",
           "Files": [
             {
@@ -10879,7 +10886,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Killers\\GunMaster",
               "Files": [
                 {
@@ -14330,7 +14337,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Arenas\\InfiniteArena",
           "Files": [
             {
