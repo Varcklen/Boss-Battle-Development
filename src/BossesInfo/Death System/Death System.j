@@ -13,10 +13,12 @@ library DeathSystem initializer init requires Trigger
 
 	//Functions
 	//===========================================================================
+	//Do not use. Only for Debugging
 	public function DEBUG takes unit hero returns nothing
 		call GroupAddUnit( AliveHeroes, hero)
 	endfunction
 	
+	//Do not use. Only for BattleResurrectLib
 	public function BattleRessurect takes unit hero returns nothing
 		call GroupRemoveUnit( DeadHeroes, hero )
 	endfunction

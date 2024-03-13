@@ -42,7 +42,12 @@ library Trigger initializer init requires EventDatabase
 		private integer ActionListMax = 1
 		
 		private hashtable ItemTypeData = null
+		private item ItemUsed = null
 	endglobals
+	
+	public function GetItemUsed takes nothing returns item
+		return ItemUsed
+	endfunction
 
 	/*Base Events*/
 	private function ExecuteAction takes unit triggerUnit returns nothing
@@ -57,10 +62,12 @@ library Trigger initializer init requires EventDatabase
 			set itemCheck = UnitItemInSlot( triggerUnit, i )
 			set number = LoadInteger( ItemTypeData, GetItemTypeId(itemCheck), KEY_NAME )
 			if number != 0 and EventDatabase_EventUsed[index] == EventType[number] then
+				set ItemUsed = itemCheck
 				call ConditionalTriggerExecute( TriggerToExecute[number] )
 			endif
 			set i = i + 1
 		endloop
+		set ItemUsed = null
 		
 		set itemCheck = null
 	endfunction
@@ -109,10 +116,12 @@ library Trigger initializer init requires EventDatabase
 			set itemCheck = UnitItemInSlot( triggerUnit, i )
 			set number = LoadInteger( ItemTypeData, GetItemTypeId(itemCheck), KEY_NAME )
 			if number != 0 and EventSystem_EventUsedCustom[index] == EventTypeCustom[number] then
+				set ItemUsed = itemCheck
 				call ConditionalTriggerExecute( TriggerToExecute[number] )
 			endif
 			set i = i + 1
 		endloop
+		set ItemUsed = null
 		
 		set itemCheck = null
 		set triggerUnit = null

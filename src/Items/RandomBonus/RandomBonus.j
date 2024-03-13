@@ -1,10 +1,67 @@
 scope RandomBonus initializer init
 
+	globals
+		private constant integer BONUSES_LIMIT = 8
+		
+		private constant integer STRING_HASH = StringHash( "random_bonus" )
+	endglobals
+
+	public function IsWithRandomBonus takes item itemUsed returns boolean
+		return BlzGetItemAbility( itemUsed, 'A0NN' ) != null or LoadBoolean( udg_hash, GetHandleId(itemUsed), STRING_HASH )
+	endfunction
+	
+	public function Add takes item itemUsed returns nothing
+		local integer cyclA = 1
+	    local integer cyclAEnd
+	    local integer cyclB
+		local integer cyclBEnd
+	    local integer id = GetHandleId(itemUsed)
+	    local integer k
+	    local integer rand = 0
+	    local string str
+	    
+        set cyclA = 1
+        set cyclAEnd = BONUSES_LIMIT
+        loop
+            exitwhen cyclA > cyclAEnd
+            if LoadInteger( udg_hash, id, StringHash( "extra"+I2S(cyclA) ) ) == 0 then
+                set k = cyclA
+                set cyclA = cyclAEnd
+            endif
+            set cyclA = cyclA + 1
+        endloop
+        
+        set cyclA = 1
+        loop
+            exitwhen cyclA > 1
+            set rand = GetRandomInt(1, udg_Database_NumberItems[25])
+            if k > 1 then
+                set cyclB = 1
+                set cyclBEnd = k-1
+                loop
+                    exitwhen cyclB > cyclBEnd
+                    if rand == LoadInteger( udg_hash, id, StringHash( "extra"+I2S(cyclB) ) ) then
+                        set cyclA = cyclA - 1
+                        set cyclB = cyclBEnd
+                    endif
+                    set cyclB = cyclB + 1
+                endloop
+            endif
+            set cyclA = cyclA + 1
+        endloop
+        
+        if rand != 0 then
+            call BlzItemAddAbilityBJ( itemUsed, udg_RandomBonus[rand] )
+            call BlzSetItemExtendedTooltip( itemUsed, BlzGetItemExtendedTooltip(itemUsed) + "|n|cff81f260" + udg_RandomString[rand] + "|r" ) // sadtwig
+        endif 
+	endfunction
+	
+	//===========================================================================
 	function Trig_RandomBonus_Conditions takes nothing returns boolean
 	    return BlzGetItemAbility( GetManipulatedItem(), 'A0NN' ) != null
 	endfunction
 	
-	function RandomWords takes string s returns string
+	private function RandomWords takes string s returns string
 		local integer cyclA = 0
 		local integer cyclAEnd = StringLength(s)
 		local integer i = cyclAEnd
@@ -34,7 +91,7 @@ scope RandomBonus initializer init
 		local boolean array l
 		local string str = BlzGetItemExtendedTooltip(GetManipulatedItem())
 	    local integer id = GetHandleId(GetManipulatedItem())
-	    local integer limit = 5
+	    local integer limit = BONUSES_LIMIT
 	    local integer current = 1
 	
 	    call BlzItemRemoveAbilityBJ( GetManipulatedItem(), 'A0NN' )
@@ -45,9 +102,6 @@ scope RandomBonus initializer init
 	    if BlzGetItemAbility( GetManipulatedItem(), 'A0OX' ) != null then
 	        call BlzItemRemoveAbilityBJ( GetManipulatedItem(), 'A0OX' )
 	        set current = current + 1
-	    endif
-	    if inv(GetManipulatingUnit(), 'I01F') > 0 and GetItemTypeId(GetManipulatedItem()) != 'I01F' then
-	        set current = current + 2
 	    endif
 	    
 	    if current > limit then
@@ -112,6 +166,7 @@ scope RandomBonus initializer init
 	        set cyclA = cyclA + 1
 	    endloop
 	    call BlzSetItemExtendedTooltip( GetManipulatedItem(), str )  // sadtwig
+	    call SaveBoolean( udg_hash, id, STRING_HASH, true )
 	    //call BlzSetItemIconPath( GetManipulatedItem(), str ) 
 	endfunction
 	

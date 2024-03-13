@@ -15,28 +15,9 @@ scope OverlordArenaDeath initializer init
 		call DisableTrigger( LastBossKilled )
 	endfunction
 	
-	private function RemovePortals takes nothing returns nothing
-		local group g = CreateGroup()
-        local unit u
-        
-        set bj_livingPlayerUnitsTypeId = 'h00J'
-        call GroupEnumUnitsOfPlayer(g, Player( 10 ), filterLivingPlayerUnitsOfTypeId)
-        loop
-            set u = FirstOfGroup(g)
-            exitwhen u == null
-            call RemoveUnit( u )
-            call GroupRemoveUnit(g,u)
-        endloop
-        
-        call DestroyGroup( g )
-        set u = null
-        set g = null
-    endfunction
-    
 	private function EndBattle takes nothing returns nothing
 		//call BJDebugMsg("OverlordArenaDeath")
         call Disable()
-    	call RemovePortals()
         call Between( "end_AL" )
     endfunction
 	

@@ -4140,6 +4140,13 @@ STRING 659
 Removes an artifact from the exchanger.
 }
 
+STRING 660
+// Items: I0EF (Visarius the Follower), Description (Description)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+When you cast 4 different abilities or items in a row, restores |cffbe81f720%|r Health and Mana.
+}
+
 STRING 661
 // Items: III4 (Pebble: Purple), Hotkey (Hotkey)
 {
@@ -4158,10 +4165,48 @@ STRING 663
 Pebble: Purple
 }
 
+STRING 664
+// Items: I0EF (Visarius the Follower), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+When you cast 4 different abilities or items in a row, restores |cffbe81f720%|r Health and Mana.
+}
+
+STRING 665
+// Items: I0DO (Bloody Mary), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Each damage dealt restores |cffbe81f710|r Health.
+|cffffcc00Cooldown:|r 0.25 seconds.
+|cff81f260[Random bonus]|r
+}
+
 STRING 666
 // Items: III3 (Pebble: Red), Name (Name)
 {
 Pebble: Red
+}
+
+STRING 667
+// Items: I0DO (Bloody Mary), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Each damage dealt restores |cffbe81f710|r Health.
+|cffffcc00Cooldown:|r 0.25 seconds.
+|cff81f260[Random bonus]|r
+}
+
+STRING 668
+// Items: I036 (Vampire Fang), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+The Hero's attack actions restore Health equal to |cffbe81f715%|r of the attack.
+}
+
+STRING 669
+// Items: I036 (Vampire Fang), Name (Name)
+{
+Vampire Fang
 }
 
 STRING 670
@@ -4170,10 +4215,41 @@ STRING 670
 Pebble: Blue
 }
 
+STRING 671
+// Items: I036 (Vampire Fang), Tip (Tooltip - Basic)
+{
+Vampire Fang
+}
+
+STRING 672
+// Items: I036 (Vampire Fang), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+The Hero's attack actions restore Health equal to |cffbe81f715%|r of the attack.
+}
+
+STRING 673
+// Abilities: A1EX (.General: Overlord Arena Spawn Center), Name (Name)
+{
+.General: Overlord Arena Spawn Center
+}
+
 STRING 674
 // Items: III1 (Pebble: Green), Name (Name)
 {
 Pebble: Green
+}
+
+STRING 675
+// Abilities: A1EY ((т)Аура: Swap! (Illusionist)), Name (Name)
+{
+(т)Аура: Swap! (Illusionist)
+}
+
+STRING 676
+// Buffs/Effects: B0AK (), Bufftip (Tooltip)
+{
+|cffff0000Swap!|r
 }
 
 STRING 677
@@ -6968,10 +7044,9 @@ Reduces the attack and movement speed of allies near the hero by 30%.
 }
 
 STRING 1078
-// Items: I0EF (Visarius the Follower), Description (Description)
+// Buffs/Effects: B0AK (), Buffubertip (Tooltip - Extended)
 {
-|cffbababcCommon|r, |cff9001fdRing|r
-When the hero uses 4 different abilities or items in a row, restores |cffbe81f720%|r of the maximum health and mana.
+Health and Mana will soon switch places.
 }
 
 STRING 1079
@@ -6987,10 +7062,14 @@ Visarius the Follower
 }
 
 STRING 1081
-// Items: I0EF (Visarius the Follower), Ubertip (Tooltip - Extended)
+// Abilities: A0C4 (|cffffcc00Уровень 3:|r Иллюзионистка), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r, |cff9001fdRing|r
-When the hero uses 4 different abilities or items in a row, restores |cffbe81f720%|r of the maximum health and mana.
+|cffffcc00Attack:|r 80, |cffffcc00Health:|r 6000.
+- Every 14 seconds creates 2 runes of stats. They can be deceiving.
+- Every 5 seconds, creates 2 areas. Each of them explodes after 3 seconds. The first deals |cffbe81f7300|r damage, the second restores |cffbe81f7100|r health and |cffbe81f730|r mana.
+- |cff00cceeAt 40% and 80% health:|r After 3 seconds, swaps Health and Mana of all heroes.
+- |cff00cceeAt 66% health:|r The world is changing.
+- |cff00cceeAt 25% health:|r The world is changing. Maybe.
 }
 
 STRING 1082
@@ -15477,15 +15556,6 @@ STRING 2305
 Newborn Phoenix
 }
 
-STRING 2306
-// Items: I0DO (Bloody Mary), Description (Description)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Each damage dealt restores |cffbe81f710|r health.
-|cffffcc00Cooldown:|r 0.5 seconds.
-|cff81f260[Random bonus]|r
-}
-
 STRING 2307
 // Items: I05V (Bandit Hood), Description (Description)
 {
@@ -18100,32 +18170,6 @@ STRING 2701
 // Items: I037 (Change artifact (Slot 6)), Ubertip (Tooltip - Extended)
 {
 Changes your artifact in the slot to a random artifact.
-}
-
-STRING 2702
-// Items: I036 (Vampire fang), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-When the hero attacks, heals the hero |cffbe81f720%|r health from the damage done.
-}
-
-STRING 2703
-// Items: I036 (Vampire fang), Name (Name)
-{
-Vampire fang
-}
-
-STRING 2704
-// Items: I036 (Vampire fang), Tip (Tooltip - Basic)
-{
-Vampire fang
-}
-
-STRING 2705
-// Items: I036 (Vampire fang), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-When the hero attacks, heals the hero |cffbe81f720%|r health from the damage done.
 }
 
 STRING 2706
@@ -55788,17 +55832,6 @@ STRING 8442
 Illusionist
 }
 
-STRING 8443
-// Abilities: A0C4 (|cffffcc00Уровень 3:|r Иллюзионистка), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Attack:|r 80, |cffffcc00Health:|r 6000.
-- Every 14 seconds creates 2 runes of stats. They can be deceiving.
-- Every 5 seconds, creates 2 areas. Each of them explodes after 3 seconds. The first deals |cffbe81f7300|r damage, the second restores |cffbe81f7100|r health and |cffbe81f730|r mana.
-- |cff00cceeAt 40% and 80% health:|r Swaps the percentage of health and mana of all heroes.
-- |cff00cceeAt 66% health:|r The world is changing.
-- |cff00cceeAt 25% health:|r The world is changing. Maybe.
-}
-
 STRING 8444
 // Abilities: A0C3 (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -58400,15 +58433,6 @@ STRING 8844
 // Abilities: A09A (Mimic: Shattering), Researchtip (Tooltip - Learn)
 {
 Shattering, [|cffffcc00Level %d|r]
-}
-
-STRING 8845
-// Items: I0DO (Bloody Mary), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Each damage dealt restores |cffbe81f710|r health.
-|cffffcc00Cooldown:|r 0.5 seconds.
-|cff81f260[Random bonus]|r
 }
 
 STRING 8846
