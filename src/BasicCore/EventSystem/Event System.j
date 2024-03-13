@@ -49,10 +49,12 @@ library EventSystem initializer init
             local unit targetUnit = .TargetUnit
             loop
                 exitwhen i >= listenerAmount
-                set Current = this
-                set .TriggerUnit = triggerUnit
-                set .TargetUnit = targetUnit
-                call ConditionalTriggerExecute(listeners[i])
+                if IsTriggerEnabled(listeners[i]) then
+	                set Current = this
+	                set .TriggerUnit = triggerUnit
+	                set .TargetUnit = targetUnit
+	                call ConditionalTriggerExecute(listeners[i])
+                endif
                 set i = i + 1
             endloop
             set .TriggerUnit = null

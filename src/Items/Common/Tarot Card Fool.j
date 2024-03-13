@@ -10,7 +10,7 @@ scope TarotCardFool initializer init
 	
 	private function action takes nothing returns nothing
 	    local unit caster = GetManipulatingUnit()
-		local unit deadHero = GroupPickRandomUnit(udg_DeadHero)
+		local unit deadHero = DeathSystem_GetRandomDeadHero()
 		local item itemUsed = GetManipulatedItem()
 
     	if deadHero == null then

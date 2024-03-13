@@ -4140,13 +4140,6 @@ STRING 659
 Removes an artifact from the exchanger.
 }
 
-STRING 660
-// Items: III4 (Pebble: Purple), Description (Description)
-{
-|cffC71585Cursed|r
-Activation: Gives the random stat to the hero.
-}
-
 STRING 661
 // Items: III4 (Pebble: Purple), Hotkey (Hotkey)
 {
@@ -4165,44 +4158,10 @@ STRING 663
 Pebble: Purple
 }
 
-STRING 664
-// Items: III4 (Pebble: Purple), Ubertip (Tooltip - Extended)
-{
-|cffC71585Cursed|r
-Activation: Gives the random stat to the hero.
-}
-
-STRING 665
-// Items: III3 (Pebble: Red), Description (Description)
-{
-|cffC71585Cursed|r
-Activation: Deals |cffbe81f775|r damage to a random enemy nearby.
-}
-
 STRING 666
 // Items: III3 (Pebble: Red), Name (Name)
 {
 Pebble: Red
-}
-
-STRING 667
-// Items: III3 (Pebble: Red), Tip (Tooltip - Basic)
-{
-Pebble: Red
-}
-
-STRING 668
-// Items: III3 (Pebble: Red), Ubertip (Tooltip - Extended)
-{
-|cffC71585Cursed|r
-Activation: Deals |cffbe81f775|r damage to a random enemy nearby.
-}
-
-STRING 669
-// Items: III2 (Pebble: Blue), Description (Description)
-{
-|cffC71585Cursed|r
-Activation: Restores |cffbe81f725|r mana to the hero.
 }
 
 STRING 670
@@ -4211,43 +4170,10 @@ STRING 670
 Pebble: Blue
 }
 
-STRING 671
-// Items: III2 (Pebble: Blue), Tip (Tooltip - Basic)
-{
-Pebble: Blue
-}
-
-STRING 672
-// Items: III2 (Pebble: Blue), Ubertip (Tooltip - Extended)
-{
-|cffC71585Cursed|r
-Activation: Restores |cffbe81f725|r mana to the hero.
-}
-
-STRING 673
-// Items: III1 (Pebble: Green), Description (Description)
-{
-|cffC71585Cursed|r
-Activation: Restores |cffbe81f750|r health to the hero.
-}
-
 STRING 674
 // Items: III1 (Pebble: Green), Name (Name)
 {
 Pebble: Green
-}
-
-STRING 675
-// Items: III1 (Pebble: Green), Tip (Tooltip - Basic)
-{
-Pebble: Green
-}
-
-STRING 676
-// Items: III1 (Pebble: Green), Ubertip (Tooltip - Extended)
-{
-|cffC71585Cursed|r
-Activation: Restores |cffbe81f750|r health to the hero.
 }
 
 STRING 677
@@ -7068,10 +6994,11 @@ When the hero uses 4 different abilities or items in a row, restores |cffbe81f72
 }
 
 STRING 1082
-// Items: I0EE (Midas Ring), Description (Description)
+// Items: IZ07 (Buy Order), Description (Description)
 {
-|cff4169e1Rare|r, |cff9001fdRing|r
-Activation: Turn target artifact into gold. You get more gold for higher rarities. 
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
+Only active outside of combat.
 }
 
 STRING 1083
@@ -7087,10 +7014,9 @@ Midas Ring
 }
 
 STRING 1085
-// Items: I0EE (Midas Ring), Ubertip (Tooltip - Extended)
+// Items: IZ07 (Buy Order), Name (Name)
 {
-|cff4169e1Rare|r, |cff9001fdRing|r
-Activation: Turn target artifact into gold. You get more gold for higher rarities. 
+Buy Order
 }
 
 STRING 1086
@@ -8680,29 +8606,33 @@ If the hero is at the edge of the arena, increases attack and movement speed by 
 }
 
 STRING 1310
-// Items: I0CT (Heavy bag), Description (Description)
+// Items: IZ07 (Buy Order), Tip (Tooltip - Basic)
 {
-|cffbababcCommon|r
-In battle, the hero receives 100% more gold from any sources. Reduces attack and movement speed by 50%.
+Buy Order
 }
 
 STRING 1311
-// Items: I0CT (Heavy bag), Name (Name)
+// Items: IZ07 (Buy Order), Ubertip (Tooltip - Extended)
 {
-Heavy bag
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
+Only active outside of combat.
 }
 
 STRING 1312
-// Items: I0CT (Heavy bag), Tip (Tooltip - Basic)
+// Abilities: A082 (Outcast: Denial of the Past), Researchubertip (Tooltip - Learn - Extended)
 {
-Heavy bag
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 3/4/5/6/7 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
 }
 
 STRING 1313
-// Items: I0CT (Heavy bag), Ubertip (Tooltip - Extended)
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r
-In battle, the hero receives 100% more gold from any sources. Reduces attack and movement speed by 50%.
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 4 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
 }
 
 STRING 1314
@@ -9966,29 +9896,30 @@ Inflicts |cffbe81f7150/200/250/300/350|r fire damage to an enemy. With a probabi
 }
 
 STRING 1494
-// Items: I0BJ (Make an exchange), Hotkey (Hotkey)
+// Items: I0BJ (Make an Exchange), Hotkey (Hotkey)
 {
 C
 }
 
 STRING 1495
-// Items: I0BJ (Make an exchange), Name (Name)
+// Items: III4 (Pebble: Purple), Description (Description)
 {
-Make an exchange
+|cff50ff90Use when picked up|r
+Activation: Gives the random stat to the hero.
 }
 
 STRING 1496
-// Items: I0BJ (Make an exchange), Tip (Tooltip - Basic)
+// Items: III3 (Pebble: Red), Description (Description)
 {
-Make an exchange
+|cff50ff90Use when picked up|r
+Activation: Deals |cffbe81f775|r damage to a random enemy nearby.
 }
 
 STRING 1497
-// Items: I0BJ (Make an exchange), Ubertip (Tooltip - Extended)
+// Items: III2 (Pebble: Blue), Description (Description)
 {
-If all conditions are met, the exchange begins.
-
-|cffffcc00If the inventory is full, the artifact will delete a random item and move to its place.|r
+|cff50ff90Use when picked up|r
+Activation: Restores |cffbe81f725|r mana to the hero.
 }
 
 STRING 1498
@@ -11945,7 +11876,7 @@ When an allied hero dies, kills your hero.
 }
 
 STRING 1782
-// Items: I09J (Magic absorber), Description (Description)
+// Items: I09J (Magic absorberXXX), Description (Description)
 {
 Activation: Reduces received magic damage by 50%.
 3 Charges.
@@ -11953,25 +11884,25 @@ Activation: Reduces received magic damage by 50%.
 }
 
 STRING 1783
-// Items: I09J (Magic absorber), Hotkey (Hotkey)
+// Items: I09J (Magic absorberXXX), Hotkey (Hotkey)
 {
 F
 }
 
 STRING 1784
-// Items: I09J (Magic absorber), Name (Name)
+// Items: I09J (Magic absorberXXX), Tip (Tooltip - Basic)
 {
 Magic absorber
 }
 
 STRING 1785
-// Items: I09J (Magic absorber), Tip (Tooltip - Basic)
+// Items: I0BJ (Make an Exchange), Name (Name)
 {
-Magic absorber
+Make an Exchange
 }
 
 STRING 1786
-// Items: I09J (Magic absorber), Ubertip (Tooltip - Extended)
+// Items: I09J (Magic absorberXXX), Ubertip (Tooltip - Extended)
 {
 Activation: Reduces received magic damage by 50%.
 |cffffcc00Duration:|r 10 seconds.
@@ -12670,11 +12601,9 @@ Gain a barrier every 30 seconds, which reduces damage taken by 15% and enemies t
 }
 
 STRING 1887
-// Items: I08T (Demonic Warglaive), Description (Description)
+// Items: I0BJ (Make an Exchange), Tip (Tooltip - Basic)
 {
-|cffe96a1cLegendary|r, |cff2d9995Weapon|r
-Increases attack speed and spell power by 10%.
-When the hero attacks, deals an additional |cffbe81f720|r magic damage.
+Make an Exchange
 }
 
 STRING 1888
@@ -12690,11 +12619,12 @@ Demonic Warglaive
 }
 
 STRING 1890
-// Items: I08T (Demonic Warglaive), Ubertip (Tooltip - Extended)
+// Items: I0BJ (Make an Exchange), Ubertip (Tooltip - Extended)
 {
-|cffe96a1cLegendary|r, |cff2d9995Weapon|r
-Increases attack speed and spell power by 10%.
-When the hero attacks, deals an additional |cffbe81f720|r magic damage.
+|cffffcc00Cost|r - 50 Gold.
+If all conditions are met, the exchange begins.
+
+|cffffcc00If the inventory is full, the artifact will delete a random item and move to its place.|r
 }
 
 STRING 1891
@@ -12724,32 +12654,32 @@ Activation: |cffcc0000Corrupted|r. Gives 1000 gold to each hero.
 }
 
 STRING 1895
-// Items: I08R (Shadow Powder), Description (Description)
+// Items: I08R (Shadow PowderXXX), Description (Description)
 {
 Activation: Enters invisibility for 5 seconds. Abilities, items and attacks do not take the hero out of invisibility. All invisible enemies nearby become visible. 3 Charges.
 |cffffcc00Duration:|r 10 seconds.
 }
 
 STRING 1896
-// Items: I08R (Shadow Powder), Hotkey (Hotkey)
+// Items: I08R (Shadow PowderXXX), Hotkey (Hotkey)
 {
 R
 }
 
 STRING 1897
-// Items: I08R (Shadow Powder), Name (Name)
+// Items: I08R (Shadow PowderXXX), Tip (Tooltip - Basic)
 {
 Shadow Powder
 }
 
 STRING 1898
-// Items: I08R (Shadow Powder), Tip (Tooltip - Basic)
+// Items: I07Y (Make an Exchange), Name (Name)
 {
-Shadow Powder
+Make an Exchange
 }
 
 STRING 1899
-// Items: I08R (Shadow Powder), Ubertip (Tooltip - Extended)
+// Items: I08R (Shadow PowderXXX), Ubertip (Tooltip - Extended)
 {
 Activation: Enters invisibility for 5 seconds. Abilities, items and attacks do not take the hero out of invisibility. All invisible enemies nearby become visible.
 |cffffcc00Duration:|r 10 seconds.
@@ -13502,29 +13432,29 @@ Activation: |cffcc0000Corrupted|r. Gives +1 to stats. If you killed 50 enemies i
 }
 
 STRING 2008
-// Items: I07Y (Make an exchange), Hotkey (Hotkey)
+// Items: I07Y (Make an Exchange), Hotkey (Hotkey)
 {
 C
 }
 
 STRING 2009
-// Items: I07Y (Make an exchange), Name (Name)
+// Items: III1 (Pebble: Green), Description (Description)
 {
-Make an exchange
+|cff50ff90Use when picked up|r
+Activation: Restores |cffbe81f750|r health to the hero.
 }
 
 STRING 2010
-// Items: I07Y (Make an exchange), Tip (Tooltip - Basic)
+// Items: III4 (Pebble: Purple), Ubertip (Tooltip - Extended)
 {
-Make an exchange
+|cff50ff90Use when picked up|r
+Activation: Gives the random stat to the hero.
 }
 
 STRING 2011
-// Items: I07Y (Make an exchange), Ubertip (Tooltip - Extended)
+// Abilities: A0IH (Снаряд: Orb of ConsecrationXXX), Name (Name)
 {
-If all conditions are met, the exchange begins.
-
-|cffffcc00If the inventory is full, the artifact will delete a random item and move to its place.|r
+Снаряд: Orb of ConsecrationXXX
 }
 
 STRING 2012
@@ -18508,20 +18438,20 @@ Your damaging abilities and items restore the hero |cffbe81f720%|r health from t
 }
 
 STRING 2750
-// Items: I02U (Gold coin), Description (Description)
+// Items: I02U (Gold Coin), Description (Description)
 {
 |cff50ff90Use when picked up|r
 Gives 10 gold.
 }
 
 STRING 2751
-// Items: I02U (Gold coin), Name (Name)
+// Items: I00G (Gold coin), Name (Name)
 {
 Gold coin
 }
 
 STRING 2752
-// Items: I02U (Gold coin), Tip (Tooltip - Basic)
+// Items: I00G (Gold coin), Tip (Tooltip - Basic)
 {
 Gold coin
 }
@@ -20915,15 +20845,18 @@ Activation: |cffcc0000Corrupted|r. Gives 1000 gold.
 }
 
 STRING 3098
-// Items: I00G (Gold coin), Name (Name)
+// Items: I07Y (Make an Exchange), Tip (Tooltip - Basic)
 {
-Gold coin
+Make an Exchange
 }
 
 STRING 3099
-// Items: I00G (Gold coin), Tip (Tooltip - Basic)
+// Items: I07Y (Make an Exchange), Ubertip (Tooltip - Extended)
 {
-Gold coin
+|cffffcc00Cost|r - 125 Gold.
+If all conditions are met, the exchange begins.
+
+|cffffcc00If the inventory is full, the artifact will delete a random item and move to its place.|r
 }
 
 STRING 3100
@@ -24275,85 +24208,81 @@ Q
 }
 
 STRING 3610
-// Items: IZ07 (Buy Order), Description (Description)
+// Items: I09J (Magic absorberXXX), Name (Name)
 {
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
-Only active outside of combat.
+Magic absorberXXX
 }
 
 STRING 3611
-// Items: IZ07 (Buy Order), Name (Name)
+// Items: I08R (Shadow PowderXXX), Name (Name)
 {
-Buy Order
+Shadow PowderXXX
 }
 
 STRING 3612
-// Items: IZ07 (Buy Order), Tip (Tooltip - Basic)
+// Abilities: A0WY (Поглотитель магииXXX), Name (Name)
 {
-Buy Order
+Поглотитель магииXXX
 }
 
 STRING 3613
-// Items: IZ07 (Buy Order), Ubertip (Tooltip - Extended)
+// Abilities: A0WX (Spell Book), EditorSuffix (Editor Suffix)
 {
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
-Only active outside of combat.
+(Поглотитель магииXXX)
 }
 
 STRING 3614
-// Abilities: AZ07 (Artifact: Buy Order), Name (Name)
+// Abilities: A0WW (Аура: Поглотитель магииXXX), Name (Name)
 {
-Artifact: Buy Order
+Аура: Поглотитель магииXXX
 }
 
 STRING 3615
-// Abilities: A082 (Outcast: Denial of the Past), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A0WV (Permanent Invisibility), EditorSuffix (Editor Suffix)
 {
-If the hero has used Vengeful Strike no more than 4 times during the battle, gain 3/4/5/6/7 Strength at the end of the round.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+(Порошок Тени XXX)
 }
 
 STRING 3616
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A028 (Порошок ТениXXX), Name (Name)
 {
-If the hero has used Vengeful Strike no more than 4 times during the battle, gain 3 Strength at the end of the round.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+Порошок ТениXXX
 }
 
 STRING 3617
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+// Buffs/Effects: B05E (), Bufftip (Tooltip)
 {
-If the hero has used Vengeful Strike no more than 4 times during the battle, gain 4 Strength at the end of the round.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+|cff00ff00Magic absorber|rXXX
 }
 
 STRING 3618
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+// Items: I08T (Demonic Warglaive), Description (Description)
 {
-If the hero has used Vengeful Strike no more than 4 times during the battle, gain 5 Strength at the end of the round.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+|cffe96a1cLegendary|r, |cff2d9995Weapon|r
+Increases Attack Speed and Spell Power by 10%.
+Attacks deal an additional |cffbe81f720|r magic damage.
 }
 
 STRING 3619
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+// Items: I08T (Demonic Warglaive), Ubertip (Tooltip - Extended)
 {
-If the hero has used Vengeful Strike no more than 4 times during the battle, gain 6 Strength at the end of the round.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+|cffe96a1cLegendary|r, |cff2d9995Weapon|r
+Increases Attack Speed and Spell Power by 10%.
+Attacks deal an additional |cffbe81f720|r magic damage.
 }
 
 STRING 3620
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+// Items: I0CT (Heavy Bag), Description (Description)
 {
-If the hero has used Vengeful Strike no more than 4 times during the battle, gain 7 Strength at the end of the round.
+|cffbababcCommon|r
+Every 5 seconds, creates a Gold Coin in the arena.
+|cff81f260[Random bonus]|r
+}
 
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+STRING 3621
+// Items: I0CT (Heavy Bag), Name (Name)
+{
+Heavy Bag
 }
 
 STRING 3622
@@ -36252,30 +36181,6 @@ STRING 5438
 // Abilities: A0WZ (Аура: Идол Печали (+мана)), Name (Name)
 {
 Аура: Идол Печали (+мана)
-}
-
-STRING 5439
-// Abilities: A0WY (Поглотитель магии), Name (Name)
-{
-Поглотитель магии
-}
-
-STRING 5440
-// Abilities: A0WX (Spell Book), EditorSuffix (Editor Suffix)
-{
-(Поглотитель магии)
-}
-
-STRING 5441
-// Abilities: A0WW (Аура: Поглотитель магии), Name (Name)
-{
-Аура: Поглотитель магии
-}
-
-STRING 5442
-// Abilities: A0WV (Permanent Invisibility), EditorSuffix (Editor Suffix)
-{
-(Порошок Тени)
 }
 
 STRING 5443
@@ -50072,12 +49977,6 @@ STRING 7543
 // Abilities: A0II (Аура: Orb of Pious Magi), Name (Name)
 {
 Аура: Orb of Pious Magi
-}
-
-STRING 7544
-// Abilities: A0IH (Снаряд: Orb of Consecration), Name (Name)
-{
-Снаряд: Orb of Consecration
 }
 
 STRING 7545
@@ -66355,12 +66254,6 @@ STRING 10046
 (Королева пауков, атака)
 }
 
-STRING 10047
-// Abilities: A028 (Порошок Тени), Name (Name)
-{
-Порошок Тени
-}
-
 STRING 10048
 // Abilities: A027 (Снаряд: Corpse Toss), Name (Name)
 {
@@ -70191,6 +70084,12 @@ STRING 10659
 Warrior is gradually losing health.
 }
 
+STRING 10660
+// Items: I0CT (Heavy Bag), Tip (Tooltip - Basic)
+{
+Heavy Bag
+}
+
 STRING 10661
 // Buffs/Effects: B06O (), Buffubertip (Tooltip - Extended)
 {
@@ -70747,12 +70646,6 @@ STRING 10753
 // Buffs/Effects: B05F (), Buffubertip (Tooltip - Extended)
 {
 Mana regenerates faster.
-}
-
-STRING 10754
-// Buffs/Effects: B05E (), Bufftip (Tooltip)
-{
-|cff00ff00Magic absorber|r
 }
 
 STRING 10755
@@ -71353,6 +71246,14 @@ STRING 10854
 // Buffs/Effects: B042 (), Buffubertip (Tooltip - Extended)
 {
 Summons a sheep on death.
+}
+
+STRING 10855
+// Items: I0CT (Heavy Bag), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Every 5 seconds, creates a Gold Coin in the arena.
+|cff81f260[Random bonus]|r
 }
 
 STRING 10856
@@ -73272,6 +73173,32 @@ STRING 11173
 {
 Deal |cffbe81f7180|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
 |cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11174
+// Items: I02U (Gold Coin), Name (Name)
+{
+Gold Coin
+}
+
+STRING 11175
+// Items: I02U (Gold Coin), Tip (Tooltip - Basic)
+{
+Gold Coin
+}
+
+STRING 11176
+// Items: I0EE (Midas Ring), Description (Description)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r
+Activation: Turns a |cffcc0000non-corrupted|r item into gold. The gold you receive depends on the rarity.
+}
+
+STRING 11177
+// Items: I0EE (Midas Ring), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r
+Activation: Turns a |cffcc0000non-corrupted|r item into gold. The gold you receive depends on the rarity.
 }
 
 STRING 11180
@@ -75216,10 +75143,48 @@ STRING 11482
 (R) Lycanthrope Druid
 }
 
+STRING 11483
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 3 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+}
+
 STRING 11484
 // Units: N038 ((H) Harpy), Name (Name)
 {
 (H) Harpy
+}
+
+STRING 11485
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 5 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+}
+
+STRING 11486
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 6 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+}
+
+STRING 11487
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 4 times during the battle, gain 7 Strength at the end of the round.
+
+|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
+}
+
+STRING 11488
+// Abilities: AZ07 (Artifact: Buy Order), Name (Name)
+{
+Artifact: Buy Order
 }
 
 STRING 11489

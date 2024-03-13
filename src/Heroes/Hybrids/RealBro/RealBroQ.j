@@ -45,7 +45,7 @@ scope RealBroQ initializer init
 	endfunction
 	
 	private function Use takes unit caster, integer level returns nothing
-		local group heroesAffected = CreateGroup()
+		local group heroesAffected 
 		local group heroesToSteal = CreateGroup()
 		local group g = CreateGroup()
     	local unit u
@@ -53,7 +53,7 @@ scope RealBroQ initializer init
     	local integer manaToStealSum = 0
     	local integer mana
     	
-    	call GroupAddGroup( udg_otryad, heroesAffected )
+    	set heroesAffected = DeathSystem_GetAliveHeroGroupCopy()
     	call GroupRemoveUnit( heroesAffected, caster)
     	
     	call GroupEnumUnitsInRange( g, GetUnitX( caster ), GetUnitY( caster ), STEAL_RANGE, null )
