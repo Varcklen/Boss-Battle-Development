@@ -9795,39 +9795,6 @@ STRING 1469
 (H) Plague Doctor
 }
 
-STRING 1470
-// Items: I0BP (Night butterfly), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Increases mana by 40.
-Activation: Ally becomes invisible. 
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 40 mana.
-}
-
-STRING 1471
-// Items: I0BP (Night butterfly), Name (Name)
-{
-Night butterfly
-}
-
-STRING 1472
-// Items: I0BP (Night butterfly), Tip (Tooltip - Basic)
-{
-Night butterfly
-}
-
-STRING 1473
-// Items: I0BP (Night butterfly), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Increases mana by 40.
-Activation: Ally becomes invisible. 
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
 STRING 1474
 // Items: I0BO (Sheep Elixir), Description (Description)
 {
@@ -10909,13 +10876,9 @@ Activation: Deals |cffbe81f7150|r damage to an enemy, restores |cffbe81f7150|r h
 }
 
 STRING 1630
-// Items: I0AL (Stone of Shadows), Description (Description)
+// Abilities: A1EZ ((т)Аура: Invisibility), Name (Name)
 {
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Set your health to 10%. Gain a |cffbe81f7shield|r that absorbs damage equal to the health lost.
-|cffffcc00Duration:|r 60 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
-|cffffcc00Cost:|r 25 mana.
+(т)Аура: Invisibility
 }
 
 STRING 1631
@@ -10931,22 +10894,15 @@ Stone of Shadows
 }
 
 STRING 1633
-// Items: I0AL (Stone of Shadows), Ubertip (Tooltip - Extended)
+// Abilities: A1F0 (Permanent Invisibility), EditorSuffix (Editor Suffix)
 {
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Set your health to 10%. Gain a |cffbe81f7shield|r that absorbs damage equal to the health lost.
-|cffffcc00Duration:|r 60 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
+(General)
 }
 
 STRING 1634
-// Items: I0AK (Aquamarin), Description (Description)
+// Buffs/Effects: B0AL (), Bufftip (Tooltip)
 {
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Target allied hero gains a shield that absorbs |cffbe81f7300|r damage.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-|cffffcc00Cost:|r 65 mana.
+|cff00ff00Invisibility|r
 }
 
 STRING 1635
@@ -10962,12 +10918,9 @@ Aquamarin
 }
 
 STRING 1637
-// Items: I0AK (Aquamarin), Ubertip (Tooltip - Extended)
+// Buffs/Effects: B0AL (), Buffubertip (Tooltip - Extended)
 {
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Target allied hero gains a shield that absorbs |cffbe81f7300|r damage.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
+Enemies cannot target the unit and cannot see it.
 }
 
 STRING 1638
@@ -15556,6 +15509,15 @@ STRING 2305
 Newborn Phoenix
 }
 
+STRING 2306
+// Items: I0AK (Aquamarin), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Target allied hero gains a shield that absorbs |cffbe81f7300|r damage.
+|cffffcc00Cooldown:|r 40 seconds.
+|cffffcc00Cost:|r 65 mana.
+}
+
 STRING 2307
 // Items: I05V (Bandit Hood), Description (Description)
 {
@@ -18170,6 +18132,38 @@ STRING 2701
 // Items: I037 (Change artifact (Slot 6)), Ubertip (Tooltip - Extended)
 {
 Changes your artifact in the slot to a random artifact.
+}
+
+STRING 2702
+// Items: I0AK (Aquamarin), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Target allied hero gains a shield that absorbs |cffbe81f7300|r damage.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 2703
+// Abilities: A05F (Fallen One: Fatal Attraction), Researchubertip (Tooltip - Learn - Extended)
+{
+|cffffcc00Passive:|r When the hero first gains the fifth level of this ability, the artifact "Copy-Cat" is granted.
+
+Grants a shield to an ally that absorbs |cffbe81f7180/240/300/360|r damage and causes the target to provoke all nearby enemies to attack it. If the shield is destroyed, all nearby enemies will be stunned for 2 seconds.
+|cffffcc00Cooldown:|r 18/17/16/15 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
+STRING 2704
+// Abilities: A05F (Fallen One: Fatal Attraction), Ubertip (Tooltip - Normal - Extended)
+{
+Grants a shield to an ally that absorbs |cffbe81f7180|r damage and causes the target to provoke all nearby enemies to attack it. If the shield is destroyed, all nearby enemies will be stunned for 2 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 2705
+// Abilities: A05F (Fallen One: Fatal Attraction), Ubertip (Tooltip - Normal - Extended)
+{
+Grants a shield to an ally that absorbs |cffbe81f7240|r damage and causes the target to provoke all nearby enemies to attack it. If the shield is destroyed, all nearby enemies will be stunned for 2 seconds.
+|cffffcc00Cooldown:|r 17 seconds.
 }
 
 STRING 2706
@@ -24954,12 +24948,6 @@ Restores |cffbe81f78|r health, |cffbe81f74|r mana and gives 4 gold to all living
 |cffffcc00Cooldown:|r 4 seconds.
 }
 
-STRING 3720
-// Abilities: A1AJ (Invisibility), EditorSuffix (Editor Suffix)
-{
-(Nightmares)
-}
-
 STRING 3721
 // Abilities: A1AI (Murloc: Murlocpool), Hotkey (Hotkey - Normal)
 {
@@ -27311,12 +27299,6 @@ STRING 4081
 // Abilities: A186 (Mov. speed (Daring Escape)), Name (Name)
 {
 Mov. speed (Daring Escape)
-}
-
-STRING 4082
-// Abilities: A185 (Invisibility), EditorSuffix (Editor Suffix)
-{
-(Daring Escape)
 }
 
 STRING 4083
@@ -34326,15 +34308,6 @@ STRING 5146
 Nightmares, [|cffffcc00Level %d|r]
 }
 
-STRING 5147
-// Abilities: A10E (Devourer: Nightmares), Researchubertip (Tooltip - Learn - Extended)
-{
-Makes the hero invisible.
-|cffffcc00Duration:|r 10/15/20/25/30 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-|cffffcc00Cost:|r 60 mana.
-}
-
 STRING 5148
 // Abilities: A10E (Devourer: Nightmares), Tip (Tooltip - Normal)
 {
@@ -34365,56 +34338,10 @@ STRING 5152
 Nightmares, [|cffffcc00Level 5|r]
 }
 
-STRING 5153
-// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
-{
-Makes the hero invisible.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-}
-
-STRING 5154
-// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
-{
-Makes the hero invisible.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-}
-
-STRING 5155
-// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
-{
-Makes the hero invisible.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-}
-
-STRING 5156
-// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
-{
-Makes the hero invisible.
-|cffffcc00Duration:|r 25 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-}
-
-STRING 5157
-// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
-{
-Makes the hero invisible.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-}
-
 STRING 5158
 // Abilities: A10D (Аура: Double Down), Name (Name)
 {
 Аура: Double Down
-}
-
-STRING 5159
-// Abilities: A10C (Permanent Invisibility), EditorSuffix (Editor Suffix)
-{
-(Временная)
 }
 
 STRING 5160
@@ -36225,6 +36152,35 @@ STRING 5438
 // Abilities: A0WZ (Аура: Идол Печали (+мана)), Name (Name)
 {
 Аура: Идол Печали (+мана)
+}
+
+STRING 5439
+// Abilities: A05F (Fallen One: Fatal Attraction), Ubertip (Tooltip - Normal - Extended)
+{
+Grants a shield to an ally that absorbs |cffbe81f7300|r damage and causes the target to provoke all nearby enemies to attack it. If the shield is destroyed, all nearby enemies will be stunned for 2 seconds.
+|cffffcc00Cooldown:|r 16 seconds.
+}
+
+STRING 5440
+// Abilities: A05F (Fallen One: Fatal Attraction), Ubertip (Tooltip - Normal - Extended)
+{
+Grants a shield to an ally that absorbs |cffbe81f7360|r damage and causes the target to provoke all nearby enemies to attack it. If the shield is destroyed, all nearby enemies will be stunned for 2 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 5441
+// Abilities: A00M (Legionary: Dragon heart), Researchubertip (Tooltip - Learn - Extended)
+{
+Imposes a shield on all heroes, absorbing |cffbe81f75/10/15/20/25|r health for each crystal of your hero.
+|cffffcc00Cooldown:|r 50 seconds.
+|cffffcc00Cost:|r 120 mana.
+}
+
+STRING 5442
+// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
+{
+Imposes a shield on all heroes, absorbing |cffbe81f75|r health for each ruby of your hero.
+|cffffcc00Cooldown:|r 50 seconds.
 }
 
 STRING 5443
@@ -42577,12 +42533,6 @@ Restores the hero |cffbe81f7300|r health and increases attack power by 1 until t
 |cffffcc00Cooldown:|r 16 seconds.
 }
 
-STRING 6404
-// Abilities: A0QG (Permanent Invisibility), EditorSuffix (Editor Suffix)
-{
-(Уловка)
-}
-
 STRING 6405
 // Abilities: A0QF (Blessing: Оруженосец (g11)), Name (Name)
 {
@@ -45951,12 +45901,6 @@ STRING 6928
 (Newborn Phoenix)
 }
 
-STRING 6929
-// Abilities: A0MI (Invisibility), EditorSuffix (Editor Suffix)
-{
-(Ночная бабочка)
-}
-
 STRING 6930
 // Abilities: A0MH (Unique: Sheep call (+)), Hotkey (Hotkey - Normal)
 {
@@ -47244,18 +47188,6 @@ At the beginning of each battle, something happens.
 |cFF959697More effective than Madness (Rank 4).|r
 }
 
-STRING 7124
-// Abilities: A0LJ (Spell Book), EditorSuffix (Editor Suffix)
-{
-(Звездная пыль)
-}
-
-STRING 7125
-// Abilities: A0LI (Аура: Звездная пыль), Name (Name)
-{
-Аура: Звездная пыль
-}
-
 STRING 7126
 // Abilities: A0LH ((т)Аура: Regnum Irae), Name (Name)
 {
@@ -47610,12 +47542,6 @@ STRING 7180
 Аура: Передышка
 }
 
-STRING 7181
-// Abilities: A0L2 (Invisibility), EditorSuffix (Editor Suffix)
-{
-(Передышка)
-}
-
 STRING 7182
 // Abilities: A0L1 (Shooter: Respite), Researchhotkey (Hotkey - Learn)
 {
@@ -47638,15 +47564,6 @@ STRING 7185
 // Abilities: A0L1 (Shooter: Respite), Researchtip (Tooltip - Learn)
 {
 Respite, [|cffffcc00Level %d|r]
-}
-
-STRING 7186
-// Abilities: A0L1 (Shooter: Respite), Researchubertip (Tooltip - Learn - Extended)
-{
-The hero goes into invisibility for 5 seconds. After stepping out of invisibility, increases attack power by 10/20/30/40/50. Attacks of the hero restore mana equal to |cffbe81f74%/6%/8%/10%/12%|r of the damage done.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 60 mana.
 }
 
 STRING 7187
@@ -47677,46 +47594,6 @@ STRING 7191
 // Abilities: A0L1 (Shooter: Respite), Tip (Tooltip - Normal)
 {
 Respite, [|cffffcc00Level 5|r]
-}
-
-STRING 7192
-// Abilities: A0L1 (Shooter: Respite), Ubertip (Tooltip - Normal - Extended)
-{
-The hero goes into invisibility for 5 seconds. After stepping out of invisibility, increases attack power by 10. Attacks of the hero restore mana equal to |cffbe81f74%|r of the damage done.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 7193
-// Abilities: A0L1 (Shooter: Respite), Ubertip (Tooltip - Normal - Extended)
-{
-The hero goes into invisibility for 5 seconds. After stepping out of invisibility, increases attack power by 20. Attacks of the hero restore mana equal to |cffbe81f76%|r of the damage done.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 7194
-// Abilities: A0L1 (Shooter: Respite), Ubertip (Tooltip - Normal - Extended)
-{
-The hero goes into invisibility for 5 seconds. After stepping out of invisibility, increases attack power by 30. Attacks of the hero restore mana equal to |cffbe81f78%|r of the damage done.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 7195
-// Abilities: A0L1 (Shooter: Respite), Ubertip (Tooltip - Normal - Extended)
-{
-The hero goes into invisibility for 5 seconds. After stepping out of invisibility, increases attack power by 40. Attacks of the hero restore mana equal to |cffbe81f710%|r of the damage done.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 7196
-// Abilities: A0L1 (Shooter: Respite), Ubertip (Tooltip - Normal - Extended)
-{
-The hero goes into invisibility for 5 seconds. After stepping out of invisibility, increases attack power by 50. Attacks of the hero restore mana equal to |cffbe81f712%|r of the damage done.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 7197
@@ -48610,12 +48487,6 @@ STRING 7330
 - |cff00cceeAt 50% health:|r Occasionally creates a fiery trail.
 }
 
-STRING 7331
-// Abilities: A0JW (Permanent Invisibility), EditorSuffix (Editor Suffix)
-{
-(Acrobatics)
-}
-
 STRING 7332
 // Abilities: A0JV (Ninja: Shinobi Mastery), Name (Name)
 {
@@ -49316,12 +49187,6 @@ Increases an ally’s armor by 8 and instantly restores |cffbe81f7275|r health.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
-STRING 7436
-// Abilities: A0JB (Permanent Invisibility), EditorSuffix (Editor Suffix)
-{
-(R-Moon blinking)
-}
-
 STRING 7437
 // Abilities: A0JA (Аура: Парадокс), Name (Name)
 {
@@ -49506,7 +49371,7 @@ STRING 7464
 }
 
 STRING 7465
-// Abilities: A0J2 (Invisibility), EditorSuffix (Editor Suffix)
+// Abilities: A0J0 (Spell Book), EditorSuffix (Editor Suffix)
 {
 (Спринт)
 }
@@ -49606,12 +49471,6 @@ STRING 7480
 {
 Deals |cffbe81f7180|r damage to an enemy. Deals an additional |cffbe81f7175%|r damage from the hero's attack power.
 |cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 7481
-// Abilities: A0J0 (Spell Book), EditorSuffix (Editor Suffix)
-{
-(Спринт)
 }
 
 STRING 7482
@@ -50023,6 +49882,13 @@ STRING 7543
 Аура: Orb of Pious Magi
 }
 
+STRING 7544
+// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
+{
+Imposes a shield on all heroes, absorbing |cffbe81f710|r health for each rubyl of your hero.
+|cffffcc00Cooldown:|r 50 seconds.
+}
+
 STRING 7545
 // Abilities: A0IG (Blessing: Revert (g35)), Name (Name)
 {
@@ -50071,13 +49937,6 @@ STRING 7552
 Shadow, [|cffffcc00Level %d|r]
 }
 
-STRING 7553
-// Abilities: A0ID (Archer: Shadow), Researchubertip (Tooltip - Learn - Extended)
-{
-Every second the hero increases the attack power by 2/3/4/5/6.
-The effect disappears after dealing damage with an attack.
-}
-
 STRING 7554
 // Abilities: A0ID (Archer: Shadow), Tip (Tooltip - Normal)
 {
@@ -50106,36 +49965,6 @@ STRING 7558
 // Abilities: A0ID (Archer: Shadow), Tip (Tooltip - Normal)
 {
 Shadow, [|cffffcc00Level 5|r]
-}
-
-STRING 7559
-// Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
-{
-Every second the hero increases the attack power by 2. The effect disappears after dealing damage with an attack.
-}
-
-STRING 7560
-// Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
-{
-Every second the hero increases the attack power by 3. The effect disappears after dealing damage with an attack.
-}
-
-STRING 7561
-// Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
-{
-Every second the hero increases the attack power by 4. The effect disappears after dealing damage with an attack.
-}
-
-STRING 7562
-// Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
-{
-Every second the hero increases the attack power by 5. The effect disappears after dealing damage with an attack.
-}
-
-STRING 7563
-// Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
-{
-Every second the hero increases the attack power by 6. The effect disappears after dealing damage with an attack.
 }
 
 STRING 7564
@@ -50399,15 +50228,6 @@ STRING 7603
 Sprint, [|cffffcc00Level %d|r]
 }
 
-STRING 7604
-// Abilities: A0I6 (Archer: Sprint), Researchubertip (Tooltip - Learn - Extended)
-{
-Enters the hero into invisibility and increases the movement speed by 15%/30%/45%/60%/75%.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 20/19/18/17/16 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
 STRING 7605
 // Abilities: A0I6 (Archer: Sprint), Tip (Tooltip - Normal)
 {
@@ -50436,46 +50256,6 @@ STRING 7609
 // Abilities: A0I6 (Archer: Sprint), Tip (Tooltip - Normal)
 {
 Sprint, [|cffffcc00Level 5|r]
-}
-
-STRING 7610
-// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and increases the movement speed by 15%.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 7611
-// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and increases the movement speed by 30%.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 19 seconds.
-}
-
-STRING 7612
-// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and increases the movement speed by 45%.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 7613
-// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and increases the movement speed by 60%.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 17 seconds.
-}
-
-STRING 7614
-// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and increases the movement speed by 75%.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 16 seconds.
 }
 
 STRING 7615
@@ -51569,12 +51349,6 @@ STRING 7782
 // Abilities: A0GL (Artifact: Aquamarin), Name (Name)
 {
 Artifact: Aquamarin
-}
-
-STRING 7783
-// Abilities: A0GK (Permanent Invisibility), EditorSuffix (Editor Suffix)
-{
-(Noiselessness)
 }
 
 STRING 7784
@@ -55223,12 +54997,6 @@ Restores |cffbe81f74|r health, |cffbe81f72|r mana and gives 2 gold to all living
 |cffffcc00Cooldown:|r 8 seconds.
 }
 
-STRING 8353
-// Abilities: A0CQ (Invisibility), EditorSuffix (Editor Suffix)
-{
-(Во тьму)
-}
-
 STRING 8354
 // Abilities: A0CP (Armor (Regular necklace)), Name (Name)
 {
@@ -55832,10 +55600,11 @@ STRING 8442
 Illusionist
 }
 
-STRING 8444
-// Abilities: A0C3 (Spell Book), EditorSuffix (Editor Suffix)
+STRING 8443
+// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
 {
-(Лунный мотылек)
+Imposes a shield on all heroes, absorbing |cffbe81f715|r health for each ruby of your hero.
+|cffffcc00Cooldown:|r 50 seconds.
 }
 
 STRING 8445
@@ -56387,12 +56156,6 @@ STRING 8530
 Аура: Меч Могущества
 }
 
-STRING 8531
-// Abilities: A0BE (Permanent Invisibility), EditorSuffix (Editor Suffix)
-{
-(Звездная пыль)
-}
-
 STRING 8532
 // Abilities: A0BD (Артефакт: Звездная пыль), Name (Name)
 {
@@ -56854,12 +56617,6 @@ STRING 8602
 Mov. speed (Random bonus)
 }
 
-STRING 8603
-// Abilities: A0B1 (Permanent Invisibility), EditorSuffix (Editor Suffix)
-{
-(Лунный мотылек)
-}
-
 STRING 8604
 // Abilities: A0B0 (Босс 5: Боевой голем (Скорость атаки)), Name (Name)
 {
@@ -57044,12 +56801,6 @@ STRING 8631
 // Abilities: A0AN (Босс 5: Король рабов (Корона)), Name (Name)
 {
 Босс 5: Король рабов (Корона)
-}
-
-STRING 8632
-// Abilities: A0AM (Аура: Лунный мотылек), Name (Name)
-{
-Аура: Лунный мотылек
 }
 
 STRING 8633
@@ -58433,6 +58184,13 @@ STRING 8844
 // Abilities: A09A (Mimic: Shattering), Researchtip (Tooltip - Learn)
 {
 Shattering, [|cffffcc00Level %d|r]
+}
+
+STRING 8845
+// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
+{
+Imposes a shield on all heroes, absorbing |cffbe81f720|r health for each ruby of your hero.
+|cffffcc00Cooldown:|r 50 seconds.
 }
 
 STRING 8846
@@ -60044,6 +59802,13 @@ STRING 9096
 Denial of the Past, [|cffffcc00Level %d|r]
 }
 
+STRING 9097
+// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
+{
+Imposes a shield on all heroes, absorbing |cffbe81f725|r health for each ruby of your hero.
+|cffffcc00Cooldown:|r 50 seconds.
+}
+
 STRING 9098
 // Abilities: A082 (Outcast: Denial of the Past), Tip (Tooltip - Normal)
 {
@@ -60072,6 +59837,46 @@ STRING 9102
 // Abilities: A082 (Outcast: Denial of the Past), Tip (Tooltip - Normal)
 {
 Denial of the Past, [|cffffcc00Level 5|r]
+}
+
+STRING 9103
+// Items: I0AL (Stone of Shadows), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Set your health to 10%. Gain a |cffbe81f7shield|r that absorbs damage equal to the health lost.
+|cffffcc00Cooldown:|r 60 seconds.
+|cffffcc00Cost:|r 25 mana.
+}
+
+STRING 9104
+// Items: I0AL (Stone of Shadows), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Set your health to 10%. Gain a |cffbe81f7shield|r that absorbs damage equal to the health lost.
+|cffffcc00Cooldown:|r 60 seconds.
+}
+
+STRING 9105
+// Items: I0BP (Night Butterfly), Description (Description)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Increases Mana by 40.
+Activation: Makes an ally invisible.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 40 mana.
+}
+
+STRING 9106
+// Items: I0BP (Night Butterfly), Name (Name)
+{
+Night Butterfly
+}
+
+STRING 9107
+// Items: I0BP (Night Butterfly), Tip (Tooltip - Basic)
+{
+Night Butterfly
 }
 
 STRING 9108
@@ -62979,14 +62784,13 @@ Fatal Attraction, [|cffffcc00Level %d|r]
 }
 
 STRING 9543
-// Abilities: A05F (Fallen One: Fatal Attraction), Researchubertip (Tooltip - Learn - Extended)
+// Items: I0BP (Night Butterfly), Ubertip (Tooltip - Extended)
 {
-|cffffcc00Passive:|r When the hero first gains the fifth level of this ability, the artifact "Copy-Cat" is granted.
-
-Grants a shield to an ally that absorbs |cffbe81f7180/240/300/360|r damage and causes the target to provoke all nearby enemies to attack it. If the shield is destroyed before its duration, all nearby enemies will be stunned for 2 seconds.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 18/17/16/15 seconds.
-|cffffcc00Cost:|r 80 mana.
+|cffbababcCommon|r, |cff5858faMoon|r
+Increases Mana by 40.
+Activation: Makes an ally invisible.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 9544
@@ -63020,35 +62824,27 @@ Fatal Attraction, [|cffffcc00Level 5|r]
 }
 
 STRING 9549
-// Abilities: A05F (Fallen One: Fatal Attraction), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A10C (Permanent Invisibility), EditorSuffix (Editor Suffix)
 {
-Grants a shield to an ally that absorbs |cffbe81f7180|r damage and causes the target to provoke all nearby enemies to attack it. If the shield is destroyed before its duration, all nearby enemies will be stunned for 2 seconds.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
+(ВременнаяXXX)
 }
 
 STRING 9550
-// Abilities: A05F (Fallen One: Fatal Attraction), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0MI (Invisibility), EditorSuffix (Editor Suffix)
 {
-Grants a shield to an ally that absorbs |cffbe81f7240|r damage and causes the target to provoke all nearby enemies to attack it. If the shield is destroyed before its duration, all nearby enemies will be stunned for 2 seconds.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 17 seconds.
+(Ночная бабочкаXXX)
 }
 
 STRING 9551
-// Abilities: A05F (Fallen One: Fatal Attraction), Ubertip (Tooltip - Normal - Extended)
+// Buffs/Effects: B06K (), Bufftip (Tooltip)
 {
-Grants a shield to an ally that absorbs |cffbe81f7300|r damage and causes the target to provoke all nearby enemies to attack it. If the shield is destroyed before its duration, all nearby enemies will be stunned for 2 seconds.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 16 seconds.
+|cff00ff00Moth|rXXX
 }
 
 STRING 9552
-// Abilities: A05F (Fallen One: Fatal Attraction), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1AJ (Invisibility), EditorSuffix (Editor Suffix)
 {
-Grants a shield to an ally that absorbs |cffbe81f7360|r damage and causes the target to provoke all nearby enemies to attack it. If the shield is destroyed before its duration, all nearby enemies will be stunned for 2 seconds.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
+(Nightmares)XXX
 }
 
 STRING 9553
@@ -66278,6 +66074,12 @@ STRING 10046
 (Королева пауков, атака)
 }
 
+STRING 10047
+// Abilities: A185 (Invisibility), EditorSuffix (Editor Suffix)
+{
+(Daring Escape)XXX
+}
+
 STRING 10048
 // Abilities: A027 (Снаряд: Corpse Toss), Name (Name)
 {
@@ -66436,14 +66238,6 @@ STRING 10072
 Turbid waters, [|cffffcc00Level %d|r]
 }
 
-STRING 10073
-// Abilities: A022 (Mermaid: Turbid waters), Researchubertip (Tooltip - Learn - Extended)
-{
-Enters the hero into invisibility and restores |cffbe81f72%/3.5%/5%/6.5%/8%|r of your maximum health every second (while invisibility is in effect).
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
 STRING 10074
 // Abilities: A022 (Mermaid: Turbid waters), Tip (Tooltip - Normal)
 {
@@ -66472,46 +66266,6 @@ STRING 10078
 // Abilities: A022 (Mermaid: Turbid waters), Tip (Tooltip - Normal)
 {
 Turbid waters, [|cffffcc00Level 5|r]
-}
-
-STRING 10079
-// Abilities: A022 (Mermaid: Turbid waters), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and restores |cffbe81f72%|r of your maximum health every second (while invisibility is in effect).
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
-STRING 10080
-// Abilities: A022 (Mermaid: Turbid waters), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and restores |cffbe81f73.5%|r of your maximum health every second (while invisibility is in effect).
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
-STRING 10081
-// Abilities: A022 (Mermaid: Turbid waters), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and restores |cffbe81f75%|r of your maximum health every second (while invisibility is in effect).
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
-STRING 10082
-// Abilities: A022 (Mermaid: Turbid waters), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and restores |cffbe81f76.5%|r of your maximum health every second (while invisibility is in effect).
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
-STRING 10083
-// Abilities: A022 (Mermaid: Turbid waters), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and restores |cffbe81f78%|r of your maximum health every second (while invisibility is in effect).
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
 }
 
 STRING 10084
@@ -67945,12 +67699,9 @@ Dragon heart, [|cffffcc00Level %d|r]
 }
 
 STRING 10305
-// Abilities: A00M (Legionary: Dragon heart), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A0L2 (Invisibility), EditorSuffix (Editor Suffix)
 {
-Imposes a shield on all heroes, absorbing |cffbe81f75/10/15/20/25|r health for each crystal of your hero.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 50 seconds.
-|cffffcc00Cost:|r 120 mana.
+(Передышка)XXX
 }
 
 STRING 10306
@@ -67984,43 +67735,44 @@ Dragon heart, [|cffffcc00Level 5|r]
 }
 
 STRING 10311
-// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0L1 (Shooter: Respite), Researchubertip (Tooltip - Learn - Extended)
 {
-Imposes a shield on all heroes, absorbing |cffbe81f75|r health for each ruby of your hero.
+The caster becomes invisible for 5 seconds. After the end of invisibility, increases attack power by 10/20/30/40/50. Attacks of the hero restore mana equal to |cffbe81f74%/6%/8%/10%/12%|r of the damage done.
 |cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 50 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 60 mana.
 }
 
 STRING 10312
-// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0L1 (Shooter: Respite), Ubertip (Tooltip - Normal - Extended)
 {
-Imposes a shield on all heroes, absorbing |cffbe81f710|r health for each rubyl of your hero.
+The caster becomes invisible for 5 seconds. After the end of invisibility, increases attack power by 10. Attacks of the hero restore mana equal to |cffbe81f74%|r of the damage done.
 |cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 50 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 10313
-// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0L1 (Shooter: Respite), Ubertip (Tooltip - Normal - Extended)
 {
-Imposes a shield on all heroes, absorbing |cffbe81f715|r health for each ruby of your hero.
+The caster becomes invisible for 5 seconds. After the end of invisibility, increases attack power by 20. Attacks of the hero restore mana equal to |cffbe81f76%|r of the damage done.
 |cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 50 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 10314
-// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0L1 (Shooter: Respite), Ubertip (Tooltip - Normal - Extended)
 {
-Imposes a shield on all heroes, absorbing |cffbe81f720|r health for each ruby of your hero.
+The caster becomes invisible for 5 seconds. After the end of invisibility, increases attack power by 30. Attacks of the hero restore mana equal to |cffbe81f78%|r of the damage done.
 |cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 50 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 10315
-// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0L1 (Shooter: Respite), Ubertip (Tooltip - Normal - Extended)
 {
-Imposes a shield on all heroes, absorbing |cffbe81f725|r health for each ruby of your hero.
+The caster becomes invisible for 5 seconds. After the end of invisibility, increases attack power by 40. Attacks of the hero restore mana equal to |cffbe81f710%|r of the damage done.
 |cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 50 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 10316
@@ -68070,12 +67822,6 @@ STRING 10322
 |cffffcc00Duration:|r 5 seconds.
 - |cff00cceeAt 40% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
 - |cff00cceeAt 20% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
-}
-
-STRING 10323
-// Abilities: A00I (Invisibility), EditorSuffix (Editor Suffix)
-{
-(Мутные воды)
 }
 
 STRING 10324
@@ -69748,12 +69494,6 @@ STRING 10599
 Charged.
 }
 
-STRING 10600
-// Buffs/Effects: B07N (), Bufftip (Tooltip)
-{
-|cff00ff00Daring Escape|r
-}
-
 STRING 10601
 // Buffs/Effects: B07N (), Buffubertip (Tooltip - Extended)
 {
@@ -70144,12 +69884,6 @@ STRING 10665
 Your next activated non-corrupted artifact will trigger three times.
 }
 
-STRING 10666
-// Buffs/Effects: B06K (), Bufftip (Tooltip)
-{
-|cff00ff00Moth|r
-}
-
 STRING 10667
 // Buffs/Effects: B06K (), Buffubertip (Tooltip - Extended)
 {
@@ -70388,12 +70122,6 @@ STRING 10706
 // Buffs/Effects: B061 (), Buffubertip (Tooltip - Extended)
 {
 Attack power reduced.
-}
-
-STRING 10707
-// Buffs/Effects: B060 (), Bufftip (Tooltip)
-{
-|cff00ff00Nightmares|r
 }
 
 STRING 10708
@@ -70672,6 +70400,14 @@ STRING 10753
 Mana regenerates faster.
 }
 
+STRING 10754
+// Abilities: A0L1 (Shooter: Respite), Ubertip (Tooltip - Normal - Extended)
+{
+The caster becomes invisible for 5 seconds. After the end of invisibility, increases attack power by 50. Attacks of the hero restore mana equal to |cffbe81f712%|r of the damage done.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 10755
 // Buffs/Effects: B05E (), Buffubertip (Tooltip - Extended)
 {
@@ -70930,12 +70666,6 @@ STRING 10797
 Mana regenerates faster.
 }
 
-STRING 10798
-// Buffs/Effects: B04T (), Bufftip (Tooltip)
-{
-|cff00ff00Into the darkness|r
-}
-
 STRING 10799
 // Buffs/Effects: B04T (), Buffubertip (Tooltip - Extended)
 {
@@ -71014,12 +70744,6 @@ STRING 10811
 Attack power increased.
 }
 
-STRING 10812
-// Buffs/Effects: B04L (), Bufftip (Tooltip)
-{
-|cff00ff00Moon moth|r
-}
-
 STRING 10813
 // Buffs/Effects: B04L (), Buffubertip (Tooltip - Extended)
 {
@@ -71075,7 +70799,7 @@ Unit does not take damage from magic.
 }
 
 STRING 10822
-// Buffs/Effects: B04G (), Bufftip (Tooltip)
+// Buffs/Effects: B04F (), Bufftip (Tooltip)
 {
 |cff00ff00Sprint|r
 }
@@ -71090,12 +70814,6 @@ STRING 10824
 // Buffs/Effects: B04G (), EditorSuffix (Editor Suffix)
 {
 (Невидимость)
-}
-
-STRING 10825
-// Buffs/Effects: B04F (), Bufftip (Tooltip)
-{
-|cff00ff00Sprint|r
 }
 
 STRING 10826
@@ -71741,12 +71459,6 @@ STRING 10932
 // Buffs/Effects: B030 (), EditorSuffix (Editor Suffix)
 {
 (Атака)
-}
-
-STRING 10933
-// Buffs/Effects: B02Z (), Bufftip (Tooltip)
-{
-|cff00ff00Respite|r
 }
 
 STRING 10934
@@ -72732,12 +72444,6 @@ STRING 11096
 The stats are increased.
 }
 
-STRING 11097
-// Buffs/Effects: B00P (), Bufftip (Tooltip)
-{
-|cff00ff00Star dust|r
-}
-
 STRING 11098
 // Buffs/Effects: B00P (), Buffubertip (Tooltip - Extended)
 {
@@ -72980,12 +72686,6 @@ STRING 11137
 Warrior under the influence of royal blood.
 }
 
-STRING 11138
-// Buffs/Effects: B006 (), Bufftip (Tooltip)
-{
-|cff00ff00Muddy waters|r
-}
-
 STRING 11139
 // Buffs/Effects: B006 (), Buffubertip (Tooltip - Extended)
 {
@@ -73225,6 +72925,19 @@ STRING 11177
 Activation: Turns a |cffcc0000non-corrupted|r item into gold. The gold you receive depends on the rarity.
 }
 
+STRING 11178
+// Abilities: A0J2 (Invisibility), EditorSuffix (Editor Suffix)
+{
+(Спринт)XXX
+}
+
+STRING 11179
+// Abilities: A0ID (Archer: Shadow), Researchubertip (Tooltip - Learn - Extended)
+{
+Every second the hero increases the attack power by 2/3/4/5/6. Gives twice as much attack while invisible.
+The effect disappears after dealing damage with an attack.
+}
+
 STRING 11180
 {
 |cffffffff|r
@@ -73255,6 +72968,18 @@ STRING 11185
 |cffffffff|r
 }
 
+STRING 11186
+// Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
+{
+Every second the hero increases the attack power by 2. Gives twice as much attack while invisible. The effect disappears after dealing damage with an attack.
+}
+
+STRING 11187
+// Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
+{
+Every second the hero increases the attack power by 3. Gives twice as much attack while invisible. The effect disappears after dealing damage with an attack.
+}
+
 STRING 11188
 {
 Heroes do full damage to any sources.
@@ -73268,6 +72993,41 @@ Minions deal 10% less damage to bosses.
 STRING 11190
 {
 Minions deal 10% less damage to bosses.
+}
+
+STRING 11191
+// Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
+{
+Every second the hero increases the attack power by 4. Gives twice as much attack while invisible. The effect disappears after dealing damage with an attack.
+}
+
+STRING 11192
+// Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
+{
+Every second the hero increases the attack power by 5. Gives twice as much attack while invisible. The effect disappears after dealing damage with an attack.
+}
+
+STRING 11193
+// Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
+{
+Every second the hero increases the attack power by 6. Gives twice as much attack while invisible. The effect disappears after dealing damage with an attack.
+}
+
+STRING 11194
+// Abilities: A0I6 (Archer: Sprint), Researchubertip (Tooltip - Learn - Extended)
+{
+Enters the hero into invisibility and increases the Movement Speed by 80%.
+|cffffcc00Duration:|r 3/4.5/6/7.5/9 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 11195
+// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
+{
+Enters the hero into invisibility and increases the Movement Speed by 80%.
+|cffffcc00Duration:|r 3 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 11196
@@ -75247,10 +75007,26 @@ STRING 11494
 (A) Priestess of the Cat
 }
 
+STRING 11495
+// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
+{
+Enters the hero into invisibility and increases the Movement Speed by 80%.
+|cffffcc00Duration:|r 4.5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
 STRING 11496
 // Units: N028 ((R) Vampire), Name (Name)
 {
 (R) Vampire
+}
+
+STRING 11497
+// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
+{
+Enters the hero into invisibility and increases the Movement Speed by 80%.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 11498
@@ -75263,6 +75039,14 @@ STRING 11499
 // Units: N01P ((D) Scarab King), Name (Name)
 {
 (D) Scarab King
+}
+
+STRING 11500
+// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
+{
+Enters the hero into invisibility and increases the Movement Speed by 80%.
+|cffffcc00Duration:|r 7.5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 11501
@@ -75289,6 +75073,14 @@ STRING 11504
 (E) Chronomancer
 }
 
+STRING 11505
+// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
+{
+Enters the hero into invisibility and increases the Movement Speed by 80%.
+|cffffcc00Duration:|r 9 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
 STRING 11506
 // Units: N00N ((R) Soul Reaper), Name (Name)
 {
@@ -75299,6 +75091,20 @@ STRING 11507
 // Units: N004 ((A) Mermaid), Name (Name)
 {
 (A) Mermaid
+}
+
+STRING 11508
+// Abilities: A0CQ (Invisibility), EditorSuffix (Editor Suffix)
+{
+(Во тьмуXXX)
+}
+
+STRING 11509
+// Abilities: A022 (Mermaid: Turbid waters), Researchubertip (Tooltip - Learn - Extended)
+{
+Enters the hero into invisibility and restores |cffbe81f72%/3.5%/5%/6.5%/8%|r of your maximum health every second (while invisibility is in effect).
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 11510
@@ -75383,5 +75189,208 @@ STRING 11523
 // Units: N02T ((E) Peacelock), Name (Name)
 {
 (E) Peacelock
+}
+
+STRING 11524
+// Abilities: A022 (Mermaid: Turbid waters), Ubertip (Tooltip - Normal - Extended)
+{
+Enters the hero into invisibility and restores |cffbe81f72%|r of your maximum health every second (while invisibility is in effect).
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11525
+// Abilities: A022 (Mermaid: Turbid waters), Ubertip (Tooltip - Normal - Extended)
+{
+Enters the hero into invisibility and restores |cffbe81f73.5%|r of your maximum health every second (while invisibility is in effect).
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11526
+// Abilities: A022 (Mermaid: Turbid waters), Ubertip (Tooltip - Normal - Extended)
+{
+Enters the hero into invisibility and restores |cffbe81f75%|r of your maximum health every second (while invisibility is in effect).
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11527
+// Abilities: A022 (Mermaid: Turbid waters), Ubertip (Tooltip - Normal - Extended)
+{
+Enters the hero into invisibility and restores |cffbe81f76.5%|r of your maximum health every second (while invisibility is in effect).
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11528
+// Abilities: A022 (Mermaid: Turbid waters), Ubertip (Tooltip - Normal - Extended)
+{
+Enters the hero into invisibility and restores |cffbe81f78%|r of your maximum health every second (while invisibility is in effect).
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11529
+// Abilities: A00I (Invisibility), EditorSuffix (Editor Suffix)
+{
+(Мутные воды)XXX
+}
+
+STRING 11530
+// Buffs/Effects: B07N (), Bufftip (Tooltip)
+{
+|cff00ff00Daring Escape|rXXX
+}
+
+STRING 11531
+// Buffs/Effects: B060 (), Bufftip (Tooltip)
+{
+|cff00ff00Nightmares|rXXX
+}
+
+STRING 11532
+// Buffs/Effects: B04T (), Bufftip (Tooltip)
+{
+|cff00ff00Into the darkness|rXXX
+}
+
+STRING 11533
+// Buffs/Effects: B04G (), Bufftip (Tooltip)
+{
+|cff00ff00Sprint|rXXX
+}
+
+STRING 11534
+// Buffs/Effects: B02Z (), Bufftip (Tooltip)
+{
+|cff00ff00Respite|rXXX
+}
+
+STRING 11535
+// Buffs/Effects: B006 (), Bufftip (Tooltip)
+{
+|cff00ff00Muddy waters|rXXX
+}
+
+STRING 11536
+// Abilities: A10E (Devourer: Nightmares), Researchubertip (Tooltip - Learn - Extended)
+{
+Makes an allied hero invisible and reduces the cooldown of a random ability by 15%/20%/25%/30%/35%.
+|cffffcc00Duration:|r 4/5/6/7/8 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
+STRING 11537
+// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
+{
+Makes an allied hero invisible and reduces the cooldown of a random ability by 15%.
+|cffffcc00Duration:|r 4 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 11538
+// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
+{
+Makes an allied hero invisible and reduces the cooldown of a random ability by 20%.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 11539
+// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
+{
+Makes an allied hero invisible and reduces the cooldown of a random ability by 25%.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 11540
+// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
+{
+Makes an allied hero invisible and reduces the cooldown of a random ability by 30%.
+|cffffcc00Duration:|r 7 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 11541
+// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
+{
+Makes an allied hero invisible and reduces the cooldown of a random ability by 35%.
+|cffffcc00Duration:|r 8 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 11542
+// Abilities: A0QG (Permanent Invisibility), EditorSuffix (Editor Suffix)
+{
+(Уловка)XXX
+}
+
+STRING 11543
+// Abilities: A0LJ (Spell Book), EditorSuffix (Editor Suffix)
+{
+(Звездная пыль)XXX
+}
+
+STRING 11544
+// Abilities: A0LI (Аура: Звездная пыльXXX), Name (Name)
+{
+Аура: Звездная пыльXXX
+}
+
+STRING 11545
+// Abilities: A0JW (Permanent Invisibility), EditorSuffix (Editor Suffix)
+{
+(Acrobatics)XXX
+}
+
+STRING 11546
+// Abilities: A0JB (Permanent Invisibility), EditorSuffix (Editor Suffix)
+{
+(R-Moon blinking)XXX
+}
+
+STRING 11547
+// Abilities: A0GK (Permanent Invisibility), EditorSuffix (Editor Suffix)
+{
+(Noiselessness)XXX
+}
+
+STRING 11548
+// Abilities: A0C3 (Spell Book), EditorSuffix (Editor Suffix)
+{
+(Лунный мотылек)XXX
+}
+
+STRING 11549
+// Abilities: A0BE (Permanent Invisibility), EditorSuffix (Editor Suffix)
+{
+(Звездная пыль)XXX
+}
+
+STRING 11550
+// Abilities: A0B1 (Permanent Invisibility), EditorSuffix (Editor Suffix)
+{
+(Лунный мотылек)XXX
+}
+
+STRING 11551
+// Abilities: A0AM (Аура: Лунный мотылекXXX), Name (Name)
+{
+Аура: Лунный мотылекXXX
+}
+
+STRING 11552
+// Buffs/Effects: B04L (), Bufftip (Tooltip)
+{
+|cff00ff00Moon moth|rXXX
+}
+
+STRING 11553
+// Buffs/Effects: B00P (), Bufftip (Tooltip)
+{
+|cff00ff00Star dust|rXXX
 }
 
