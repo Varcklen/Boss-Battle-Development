@@ -51,6 +51,7 @@ scope BuyOrder initializer init
     	
     	set u = null
     	set it = null
+    	set itemType = null
 	endfunction
 
 //****************************************************************************

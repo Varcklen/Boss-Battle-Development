@@ -2870,13 +2870,13 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "BasicCore",
       "Files": [
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\Database",
           "Files": [
             {
@@ -3732,7 +3732,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\Other",
           "Files": [
             {
@@ -3813,6 +3813,34 @@
               "Files": []
             }
           ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "BasicCore\\Buttons",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "BasicCore\\Events",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "BasicCore\\MMD",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "BasicCore\\TriggerRegister",
+          "Files": []
         }
       ]
     },
@@ -4735,7 +4763,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Frames\\OutcastFrame",
           "Files": [
             {
@@ -4794,7 +4822,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Frames\\JuleFrame",
           "Files": [
             {
@@ -5179,13 +5207,13 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Items",
       "Files": [
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Common",
           "Files": [
             {
@@ -6384,13 +6412,20 @@
               "isExpanded": false,
               "path": "Items\\Common\\Wtii.trg",
               "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\NaturalDeselect.j",
+              "Files": []
             }
           ]
         },
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Rare",
           "Files": [
             {
@@ -7344,13 +7379,27 @@
               "isExpanded": false,
               "path": "Items\\Rare\\Zuma.trg",
               "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Rare\\DeepPurple.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Rare\\BlueSky.j",
+              "Files": []
             }
           ]
         },
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Legendary",
           "Files": [
             {
@@ -8335,7 +8384,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Extra",
           "Files": [
             {
@@ -8660,7 +8709,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Special",
           "Files": [
             {
@@ -8878,7 +8927,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Uniques",
           "Files": [
             {
@@ -9005,7 +9054,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Other",
           "Files": [
             {
@@ -9450,7 +9499,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Deffenders",
           "Files": [
             {
@@ -9600,7 +9649,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Deffenders\\Sludge",
               "Files": [
                 {
@@ -9789,7 +9838,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Rippers",
           "Files": [
             {
@@ -9989,7 +10038,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Rippers\\Outcast",
               "Files": [
                 {
@@ -10039,7 +10088,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Rippers\\Marshal",
               "Files": [
                 {
@@ -10550,7 +10599,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Killers",
           "Files": [
             {
@@ -10606,7 +10655,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Killers\\Sirena",
               "Files": [
                 {
@@ -12046,7 +12095,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Curses",
           "Files": [
             {
@@ -14609,13 +14658,6 @@
           ]
         }
       ]
-    },
-    {
-      "isEnabled": true,
-      "isInitiallyOn": true,
-      "isExpanded": true,
-      "path": "Core",
-      "Files": []
     }
   ]
 }

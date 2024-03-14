@@ -22,6 +22,8 @@ private function reset takes player pl, unit u returns nothing
 		endif
 		set i = i + 1
 	endloop
+	set pl = null
+	set u = null
 endfunction
 
 //---
@@ -35,6 +37,7 @@ private function learnActions takes nothing returns nothing
 	local unit u = GetLearningUnit()
 	//local integer t = 2 + GetUnitAbilityLevel( u, GetLearnedSkill() )
 	call reset( GetOwningPlayer(u), u )
+	set u = null
 endfunction
 
 //---
