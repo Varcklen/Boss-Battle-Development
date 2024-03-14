@@ -1,0 +1,36 @@
+wicerd
+Q - now scales down mana cost with level; slightly more damage per level
+W - stun 5->4 seconds; cd 15 -> 16-12; mana cost no longer scales with level
+R - much better damage/lvl scaling
+
+sludge
+E - now slows down attack speed; +1 second/lvl duration scaling
+
+mermaid
+w - now deals extra 10-30 damage to get kills in early game easier
+
+3 new items
+
+fixed many potential leaks in libraries
+Ring of Identity will be given lowest priority in each column of Rubedo zone
+
+brushed up some wordings:
+falka
+pact of fire
+magic fern
+
+fixed name capitalization
+steel rose
+prophet mask
+playful spirit
+red poppy
+ruby diamond
+mana crystal
+
+new:
+AZ08
+AZ09
+BZ09
+IZ06
+IZ08
+IZ09
