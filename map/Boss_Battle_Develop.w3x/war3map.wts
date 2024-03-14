@@ -5718,14 +5718,6 @@ Only works in combat.
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
-STRING 893
-// Items: I0E8 (Magic Fern), Description (Description)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-When another Hero dies for the first time in a battle, gives you their Spell Power and Luck for the battle.
-|cff81f260[Random bonus]|r
-}
-
 STRING 894
 // Items: I0FP (Orb of the Rolling Plains), Name (Name)
 {
@@ -6013,13 +6005,6 @@ STRING 932
 Activation: Transforms into a random activated artifact. The new artifact has this effect. Only works in battle.
 }
 
-STRING 933
-// Items: I0FF (Pact of Fire), Description (Description)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Increases stats by 1 and spell power for |cff60C445Unique|r by 25%.
-}
-
 STRING 934
 // Items: I0FF (Pact of Fire), Name (Name)
 {
@@ -6030,13 +6015,6 @@ STRING 935
 // Items: I0FF (Pact of Fire), Tip (Tooltip - Basic)
 {
 Pact of Fire
-}
-
-STRING 936
-// Items: I0FF (Pact of Fire), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Increases stats by 1 and spell power for |cff60C445Unique|r by 25%.
 }
 
 STRING 937
@@ -9678,7 +9656,7 @@ At least one artifact-reward be of |cff4169e1rare|r quality or higher.
 }
 
 STRING 1454
-// Items: I0BT (Steel rose), Description (Description)
+// Items: I0BT (Steel Rose), Description (Description)
 {
 |cff4169e1Rare|r, |cff7cfc00Nature|r
 If your inventory contains 6 artifacts from the "|cff7cfc00Nature|r" set, gives 4 resurrections.
@@ -9686,20 +9664,8 @@ If your inventory contains 6 artifacts from the "|cff7cfc00Nature|r" set, gives 
 |cff81f260[Random bonus]|r
 }
 
-STRING 1455
-// Items: I0BT (Steel rose), Name (Name)
-{
-Steel rose
-}
-
-STRING 1456
-// Items: I0BT (Steel rose), Tip (Tooltip - Basic)
-{
-Steel rose
-}
-
 STRING 1457
-// Items: I0BT (Steel rose), Ubertip (Tooltip - Extended)
+// Items: I0BT (Steel Rose), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cff7cfc00Nature|r
 If your inventory contains 6 artifacts from the "|cff7cfc00Nature|r" set, gives 4 resurrections.
@@ -9793,6 +9759,32 @@ STRING 1469
 // Units: N01R ((H) Plague Doctor), Name (Name)
 {
 (H) Plague Doctor
+}
+
+STRING 1470
+// Abilities: AZ08 (Artifact: Deep Purple), Name (Name)
+{
+Artifact: Deep Purple
+}
+
+STRING 1471
+// Items: IZ06 (Blue Sky), Description (Description)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r, |cff00cceeCrystal|r
+Every fifth activated ability or item also activates your |cff60C445Unique|r.
+|cff81f260[Random bonus]|r
+}
+
+STRING 1472
+// Items: IZ06 (Blue Sky), Name (Name)
+{
+Blue Sky
+}
+
+STRING 1473
+// Items: IZ06 (Blue Sky), Tip (Tooltip - Basic)
+{
+Blue Sky
 }
 
 STRING 1474
@@ -10619,26 +10611,14 @@ Increases armor by 3. Every 12 seconds, provokes a random enemy to attack your h
 }
 
 STRING 1594
-// Items: I0AU (Red poppy), Description (Description)
+// Items: I0AU (Red Poppy), Description (Description)
 {
 |cff4169e1Rare|r, |cff7cfc00Nature|r
 Your health-restoring abilities and items restore 20% more health.
 }
 
-STRING 1595
-// Items: I0AU (Red poppy), Name (Name)
-{
-Red poppy
-}
-
-STRING 1596
-// Items: I0AU (Red poppy), Tip (Tooltip - Basic)
-{
-Red poppy
-}
-
 STRING 1597
-// Items: I0AU (Red poppy), Ubertip (Tooltip - Extended)
+// Items: I0AU (Red Poppy), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cff7cfc00Nature|r
 Your health-restoring abilities and items restore 20% more health.
@@ -11957,14 +11937,6 @@ STRING 1789
 {
 Inflicts |cffbe81f7250|r fire damage to an enemy. With a probability of |cffd7df0180%|r, gives a ruby.
 |cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 1790
-// Items: I0E8 (Magic Fern), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-When another Hero dies for the first time in a battle, gives you their Spell Power and Luck for the battle.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1791
@@ -13817,26 +13789,14 @@ Reduces the cooldown of the hero's abilities by 0.5 seconds every second while t
 }
 
 STRING 2060
-// Items: I07L (Playful spirit), Description (Description)
+// Items: I07L (Playful Spirit), Description (Description)
 {
 |cff4169e1Rare|r, |cff5858faMoon|r
 Every 10 seconds, the hero burns |cffbe81f712|r mana and increases spell power by 0.5%.
 }
 
-STRING 2061
-// Items: I07L (Playful spirit), Name (Name)
-{
-Playful spirit
-}
-
-STRING 2062
-// Items: I07L (Playful spirit), Tip (Tooltip - Basic)
-{
-Playful spirit
-}
-
 STRING 2063
-// Items: I07L (Playful spirit), Ubertip (Tooltip - Extended)
+// Items: I07L (Playful Spirit), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cff5858faMoon|r
 Every 10 seconds, the hero burns |cffbe81f712|r mana and increases spell power by 0.5%.
@@ -14067,7 +14027,7 @@ Activation: Restores |cffbe81f78%|r of maximum health to all heroes.
 }
 
 STRING 2096
-// Items: I07C (Prophet mask), Description (Description)
+// Items: I07C (Prophet Mask), Description (Description)
 {
 |cff4169e1Rare|r, |cffb40431Blood|r
 Activation: Increases attack power by 15, armor by 3 and gives |cffbe81f720%|r vampirism for your attacks, but the hero loses 2% health per second. Re-activation turns off the effect.
@@ -14075,20 +14035,8 @@ Activation: Increases attack power by 15, armor by 3 and gives |cffbe81f720%|r v
 |cffffcc00Cost:|r 75 health.
 }
 
-STRING 2097
-// Items: I07C (Prophet mask), Name (Name)
-{
-Prophet mask
-}
-
-STRING 2098
-// Items: I07C (Prophet mask), Tip (Tooltip - Basic)
-{
-Prophet mask
-}
-
 STRING 2099
-// Items: I07C (Prophet mask), Ubertip (Tooltip - Extended)
+// Items: I07C (Prophet Mask), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cffb40431Blood|r
 Activation: Increases attack power by 15, armor by 3 and gives |cffbe81f720%|r vampirism for your attacks, but the hero loses 2% health per second. Re-activation turns off the effect.
@@ -14210,14 +14158,6 @@ STRING 2115
 Reduces attack power of the hero and bosses by 30%.
 }
 
-STRING 2116
-// Items: I077 (Falka), Description (Description)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-Increases spell power of |cff60C445Unique|r by 100%.
-|cff81f260[Random bonus]|r
-}
-
 STRING 2117
 // Items: I077 (Falka), Name (Name)
 {
@@ -14228,14 +14168,6 @@ STRING 2118
 // Items: I077 (Falka), Tip (Tooltip - Basic)
 {
 Falka
-}
-
-STRING 2119
-// Items: I077 (Falka), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-Increases spell power of |cff60C445Unique|r by 100%.
-|cff81f260[Random bonus]|r
 }
 
 STRING 2120
@@ -19380,7 +19312,7 @@ When you use a |cff088a08potion|r, increases Spell Power by 6% until the end of 
 }
 
 STRING 2881
-// Items: I01X (Ruby diamond), Description (Description)
+// Items: I01X (Ruby Diamond), Description (Description)
 {
 |cff4169e1Rare|r, |cff00cceeCrystal|r
 Activation: Deals |cffbe81f7200|r damage to the enemy. If the hero’s has full health, it deals |cffbe81f7600|r damage instead.
@@ -19388,20 +19320,8 @@ Activation: Deals |cffbe81f7200|r damage to the enemy. If the hero’s has full 
 |cffffcc00Cost:|r 60 mana.
 }
 
-STRING 2882
-// Items: I01X (Ruby diamond), Name (Name)
-{
-Ruby diamond
-}
-
-STRING 2883
-// Items: I01X (Ruby diamond), Tip (Tooltip - Basic)
-{
-Ruby diamond
-}
-
 STRING 2884
-// Items: I01X (Ruby diamond), Ubertip (Tooltip - Extended)
+// Items: I01X (Ruby Diamond), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cff00cceeCrystal|r
 Activation: Deals |cffbe81f7200|r damage to the enemy. If the hero’s has full health, it deals |cffbe81f7600|r damage instead.
@@ -20627,27 +20547,15 @@ Activation: Deals |cffbe81f7150|r damage to the hero and restores |cffbe81f7100|
 }
 
 STRING 3061
-// Items: I00P (Mana crystal), Description (Description)
+// Items: I00P (Mana Crystal), Description (Description)
 {
 |cff4169e1Rare|r, |cff00cceeCrystal|r
 Activation: Deals |cffbe81f7100|r damage to the enemy. Restores the hero’s mana equal to the damage dealt.
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
-STRING 3062
-// Items: I00P (Mana crystal), Name (Name)
-{
-Mana crystal
-}
-
-STRING 3063
-// Items: I00P (Mana crystal), Tip (Tooltip - Basic)
-{
-Mana crystal
-}
-
 STRING 3064
-// Items: I00P (Mana crystal), Ubertip (Tooltip - Extended)
+// Items: I00P (Mana Crystal), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cff00cceeCrystal|r
 Activation: Deals |cffbe81f7100|r damage to the enemy. Restores the hero’s mana equal to the damage dealt.
@@ -24948,6 +24856,14 @@ Restores |cffbe81f78|r health, |cffbe81f74|r mana and gives 4 gold to all living
 |cffffcc00Cooldown:|r 4 seconds.
 }
 
+STRING 3720
+// Items: IZ06 (Blue Sky), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r, |cff00cceeCrystal|r
+Every fifth activated ability or item also activates your |cff60C445Unique|r.
+|cff81f260[Random bonus]|r
+}
+
 STRING 3721
 // Abilities: A1AI (Murloc: Murlocpool), Hotkey (Hotkey - Normal)
 {
@@ -27301,6 +27217,16 @@ STRING 4081
 Mov. speed (Daring Escape)
 }
 
+STRING 4082
+// Items: IZ08 (Deep Purple), Description (Description)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r, |cff00cceeCrystal|r
+Activation: Increases |cff60C445Unique|r Spell Power by 200%.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
 STRING 4083
 // Abilities: A184 (Прочее: Провокация (Банан)), Name (Name)
 {
@@ -27905,17 +27831,6 @@ STRING 4175
 Brain Freeze, [|cffffcc00Level %d|r]
 }
 
-STRING 4176
-// Abilities: A17O (Wicerd: Brain Freeze), Researchubertip (Tooltip - Learn - Extended)
-{
-Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f760/80/100/120/140|r damage instead and stuns them for 3 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 50 mana.
-
-|cFF959697Frozen enemies attack and move 35% slower.|r
-}
-
 STRING 4177
 // Abilities: A17O (Wicerd: Brain Freeze), Tip (Tooltip - Normal)
 {
@@ -27956,46 +27871,6 @@ Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f7
 |cFF959697Frozen enemies attack and move 35% slower.|r
 }
 
-STRING 4183
-// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f780|r damage instead and stuns them for 3 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697Frozen enemies attack and move 35% slower.|r
-}
-
-STRING 4184
-// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f7100|r damage instead and stuns them for 3 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697Frozen enemies attack and move 35% slower.|r
-}
-
-STRING 4185
-// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f7120|r damage instead and stuns them for 3 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697Frozen enemies attack and move 35% slower.|r
-}
-
-STRING 4186
-// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f7140|r damage instead and stuns them for 3 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697Frozen enemies attack and move 35% slower.|r
-}
-
 STRING 4187
 // Abilities: A17N ((т)Аура: Stim Injector), Name (Name)
 {
@@ -28026,17 +27901,6 @@ STRING 4191
 Ice-olation, [|cffffcc00Level %d|r]
 }
 
-STRING 4192
-// Abilities: A17M (Wicerd: Ice-olation), Researchubertip (Tooltip - Learn - Extended)
-{
-Freezes the target. If the target is already frozen, deals |cffbe81f7100/150/200/250/300|r damage and stuns for 5 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 60/65/70/75/80 mana.
-
-|cFF959697Frozen enemies attack and move 35% slower.|r
-}
-
 STRING 4193
 // Abilities: A17M (Wicerd: Ice-olation), Tip (Tooltip - Normal)
 {
@@ -28065,56 +27929,6 @@ STRING 4197
 // Abilities: A17M (Wicerd: Ice-olation), Tip (Tooltip - Normal)
 {
 Ice-olation, [|cffffcc00Level 5|r]
-}
-
-STRING 4198
-// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes the target. If the target is already frozen, deals |cffbe81f7100|r damage and stuns for 5 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Frozen enemies attack and move 35% slower.|r
-}
-
-STRING 4199
-// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes the target. If the target is already frozen, deals |cffbe81f7150|r damage and stuns for 5 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Frozen enemies attack and move 35% slower.|r
-}
-
-STRING 4200
-// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes the target. If the target is already frozen, deals |cffbe81f7200|r damage and stuns for 5 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Frozen enemies attack and move 35% slower.|r
-}
-
-STRING 4201
-// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes the target. If the target is already frozen, deals |cffbe81f7250|r damage and stuns for 5 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Frozen enemies attack and move 35% slower.|r
-}
-
-STRING 4202
-// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes the target. If the target is already frozen, deals |cffbe81f7300|r damage and stuns for 5 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Frozen enemies attack and move 35% slower.|r
 }
 
 STRING 4203
@@ -28263,17 +28077,6 @@ STRING 4225
 Nah-ice!, [|cffffcc00Level %d|r]
 }
 
-STRING 4226
-// Abilities: A17J (Wicerd: Nah-ice! ), Researchubertip (Tooltip - Learn - Extended)
-{
-Shoots an ice arrow at a targeted area, dealing |cffbe81f7100/130/160/190/220|r damage and freeze enemies. When it hits an enemy or a point, it splits, creating 3 ice arrows that fly to random points and do 3 times less damage.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 80 mana.
-
-|cFF959697Frozen enemies attack and move 35% slower.|r
-}
-
 STRING 4227
 // Abilities: A17J (Wicerd: Nah-ice! ), Tip (Tooltip - Normal)
 {
@@ -28308,36 +28111,6 @@ STRING 4232
 // Abilities: A17J (Wicerd: Nah-ice! ), Ubertip (Tooltip - Normal - Extended)
 {
 Shoots an ice arrow at a targeted area, dealing |cffbe81f7100|r damage and freeze enemies. When it hits an enemy or a point, it splits, creating 3 ice arrows that fly to random points and do 3 times less damage.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697Frozen enemies attack and move 35% slower.|r
-}
-
-STRING 4233
-// Abilities: A17J (Wicerd: Nah-ice! ), Ubertip (Tooltip - Normal - Extended)
-{
-Shoots an ice arrow at a targeted area, dealing |cffbe81f7130|r damage and freeze enemies. When it hits an enemy or a point, it splits, creating 3 ice arrows that fly to random points and do 3 times less damage.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697Frozen enemies attack and move 35% slower.|r
-}
-
-STRING 4234
-// Abilities: A17J (Wicerd: Nah-ice! ), Ubertip (Tooltip - Normal - Extended)
-{
-Shoots an ice arrow at a targeted area, dealing |cffbe81f7160|r damage and freeze enemies. When it hits an enemy or a point, it splits, creating 3 ice arrows that fly to random points and do 3 times less damage.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697Frozen enemies attack and move 35% slower.|r
-}
-
-STRING 4235
-// Abilities: A17J (Wicerd: Nah-ice! ), Ubertip (Tooltip - Normal - Extended)
-{
-Shoots an ice arrow at a targeted area, dealing |cffbe81f7190|r damage and freeze enemies. When it hits an enemy or a point, it splits, creating 3 ice arrows that fly to random points and do 3 times less damage.
 |cffffcc00Duration:|r 10 seconds.
 |cffffcc00Cooldown:|r 10 seconds.
 
@@ -34308,6 +34081,12 @@ STRING 5146
 Nightmares, [|cffffcc00Level %d|r]
 }
 
+STRING 5147
+// Items: IZ08 (Deep Purple), Name (Name)
+{
+Deep Purple
+}
+
 STRING 5148
 // Abilities: A10E (Devourer: Nightmares), Tip (Tooltip - Normal)
 {
@@ -34338,10 +34117,53 @@ STRING 5152
 Nightmares, [|cffffcc00Level 5|r]
 }
 
+STRING 5153
+// Items: IZ08 (Deep Purple), Tip (Tooltip - Basic)
+{
+Deep Purple
+}
+
+STRING 5154
+// Items: IZ08 (Deep Purple), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r, |cff00cceeCrystal|r
+Activation: Increases |cff60C445Unique|r Spell Power by 200%.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 5155
+// Items: IZ09 (Natural Deselection), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Whenever another hero is revived during combat, gain their Spell Power and Luck until end of battle. 
+|cff81f260[Random bonus]|r
+}
+
+STRING 5156
+// Items: IZ09 (Natural Deselection), Name (Name)
+{
+Natural Deselection
+}
+
+STRING 5157
+// Items: IZ09 (Natural Deselection), Tip (Tooltip - Basic)
+{
+Natural Deselection
+}
+
 STRING 5158
 // Abilities: A10D (Аура: Double Down), Name (Name)
 {
 Аура: Double Down
+}
+
+STRING 5159
+// Items: IZ09 (Natural Deselection), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Whenever another hero is revived during combat, gain their Spell Power and Luck until end of battle. 
+|cff81f260[Random bonus]|r
 }
 
 STRING 5160
@@ -41529,13 +41351,6 @@ STRING 6247
 Poison Touch, [|cffffcc00Level %d|r]
 }
 
-STRING 6248
-// Abilities: A0RA (Sludge: Poison Touch), Researchubertip (Tooltip - Learn - Extended)
-{
-When your hero is attacked, inflicts poison on the enemy, which slows down movement speed by 20% and deals |cffbe81f715|r damage every second.
-|cffffcc00Duration:|r 2/3/4/5/6 seconds.
-}
-
 STRING 6249
 // Abilities: A0RA (Sludge: Poison Touch), Tip (Tooltip - Normal)
 {
@@ -41564,41 +41379,6 @@ STRING 6253
 // Abilities: A0RA (Sludge: Poison Touch), Tip (Tooltip - Normal)
 {
 Poison Touch, [|cffffcc00Level 5|r]
-}
-
-STRING 6254
-// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero is attacked, inflicts poison on the enemy, which slows down movement speed by 20% and deals |cffbe81f715|r damage every second.
-|cffffcc00Duration:|r 2 seconds.
-}
-
-STRING 6255
-// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero is attacked, inflicts poison on the enemy, which slows down movement speed by 20% and deals |cffbe81f715|r damage every second.
-|cffffcc00Duration:|r 3 seconds.
-}
-
-STRING 6256
-// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero is attacked, inflicts poison on the enemy, which slows down movement speed by 20% and deals |cffbe81f715|r damage every second.
-|cffffcc00Duration:|r 4 seconds.
-}
-
-STRING 6257
-// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero is attacked, inflicts poison on the enemy, which slows down movement speed by 20% and deals |cffbe81f715|r damage every second.
-|cffffcc00Duration:|r 5 seconds.
-}
-
-STRING 6258
-// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero is attacked, inflicts poison on the enemy, which slows down movement speed by 20% and deals |cffbe81f715|r damage every second.
-|cffffcc00Duration:|r 6 seconds.
 }
 
 STRING 6259
@@ -42531,6 +42311,12 @@ STRING 6403
 {
 Restores the hero |cffbe81f7300|r health and increases attack power by 1 until the end of the game.
 |cffffcc00Cooldown:|r 16 seconds.
+}
+
+STRING 6404
+// Units: N019 ((A) Samurai), Name (Name)
+{
+(A) Samurai
 }
 
 STRING 6405
@@ -45901,6 +45687,12 @@ STRING 6928
 (Newborn Phoenix)
 }
 
+STRING 6929
+// Units: N017 ((H) Corrupted Ent), Name (Name)
+{
+(H) Corrupted Ent
+}
+
 STRING 6930
 // Abilities: A0MH (Unique: Sheep call (+)), Hotkey (Hotkey - Normal)
 {
@@ -47188,6 +46980,18 @@ At the beginning of each battle, something happens.
 |cFF959697More effective than Madness (Rank 4).|r
 }
 
+STRING 7124
+// Abilities: AZ09 (Aura: Deep Purple), Name (Name)
+{
+Aura: Deep Purple
+}
+
+STRING 7125
+// Buffs/Effects: BZ09 (), Bufftip (Tooltip)
+{
+|cff00ff00Deep Purple|r
+}
+
 STRING 7126
 // Abilities: A0LH ((т)Аура: Regnum Irae), Name (Name)
 {
@@ -47542,6 +47346,12 @@ STRING 7180
 Аура: Передышка
 }
 
+STRING 7181
+// Buffs/Effects: B05S (), Buffubertip (Tooltip - Extended)
+{
+Unique spell power increased.
+}
+
 STRING 7182
 // Abilities: A0L1 (Shooter: Respite), Researchhotkey (Hotkey - Learn)
 {
@@ -47564,6 +47374,17 @@ STRING 7185
 // Abilities: A0L1 (Shooter: Respite), Researchtip (Tooltip - Learn)
 {
 Respite, [|cffffcc00Level %d|r]
+}
+
+STRING 7186
+// Abilities: A17O (Wicerd: Brain Freeze), Researchubertip (Tooltip - Learn - Extended)
+{
+Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f760/95/130/165/200|r damage instead and stuns them for 3 seconds.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+|cffffcc00Cost:|r 60 mana.
+
+|cFF959697Frozen enemies attack and move 35% slower.|r
 }
 
 STRING 7187
@@ -47594,6 +47415,57 @@ STRING 7191
 // Abilities: A0L1 (Shooter: Respite), Tip (Tooltip - Normal)
 {
 Respite, [|cffffcc00Level 5|r]
+}
+
+STRING 7192
+// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
+{
+Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f795|r damage instead and stuns them for 3 seconds.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+
+|cFF959697Frozen enemies attack and move 35% slower.|r
+}
+
+STRING 7193
+// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
+{
+Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f7130|r damage instead and stuns them for 3 seconds.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+
+|cFF959697Frozen enemies attack and move 35% slower.|r
+}
+
+STRING 7194
+// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
+{
+Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f7165|r damage instead and stuns them for 3 seconds.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+
+|cFF959697Frozen enemies attack and move 35% slower.|r
+}
+
+STRING 7195
+// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
+{
+Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f7200|r damage instead and stuns them for 3 seconds.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+
+|cFF959697Frozen enemies attack and move 35% slower.|r
+}
+
+STRING 7196
+// Abilities: A17M (Wicerd: Ice-olation), Researchubertip (Tooltip - Learn - Extended)
+{
+Freezes the target. If the target is already frozen, deals |cffbe81f7100/150/200/250/300|r damage and stuns for 4 seconds.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 16/15/14/13/12 seconds.
+|cffffcc00Cost:|r 60 mana.
+
+|cFF959697Frozen enemies attack and move 35% slower.|r
 }
 
 STRING 7197
@@ -48487,6 +48359,16 @@ STRING 7330
 - |cff00cceeAt 50% health:|r Occasionally creates a fiery trail.
 }
 
+STRING 7331
+// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
+{
+Freezes the target. If the target is already frozen, deals |cffbe81f7100|r damage and stuns for 4 seconds.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 16 seconds.
+
+|cFF959697Frozen enemies attack and move 35% slower.|r
+}
+
 STRING 7332
 // Abilities: A0JV (Ninja: Shinobi Mastery), Name (Name)
 {
@@ -49187,6 +49069,16 @@ Increases an ally’s armor by 8 and instantly restores |cffbe81f7275|r health.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 7436
+// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
+{
+Freezes the target. If the target is already frozen, deals |cffbe81f7150|r damage and stuns for 4 seconds.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+
+|cFF959697Frozen enemies attack and move 35% slower.|r
+}
+
 STRING 7437
 // Abilities: A0JA (Аура: Парадокс), Name (Name)
 {
@@ -49471,6 +49363,16 @@ STRING 7480
 {
 Deals |cffbe81f7180|r damage to an enemy. Deals an additional |cffbe81f7175%|r damage from the hero's attack power.
 |cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 7481
+// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
+{
+Freezes the target. If the target is already frozen, deals |cffbe81f7200|r damage and stuns for 4 seconds.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 14 seconds.
+
+|cFF959697Frozen enemies attack and move 35% slower.|r
 }
 
 STRING 7482
@@ -49937,6 +49839,16 @@ STRING 7552
 Shadow, [|cffffcc00Level %d|r]
 }
 
+STRING 7553
+// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
+{
+Freezes the target. If the target is already frozen, deals |cffbe81f7250|r damage and stuns for 4 seconds.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 13 seconds.
+
+|cFF959697Frozen enemies attack and move 35% slower.|r
+}
+
 STRING 7554
 // Abilities: A0ID (Archer: Shadow), Tip (Tooltip - Normal)
 {
@@ -49965,6 +49877,57 @@ STRING 7558
 // Abilities: A0ID (Archer: Shadow), Tip (Tooltip - Normal)
 {
 Shadow, [|cffffcc00Level 5|r]
+}
+
+STRING 7559
+// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
+{
+Freezes the target. If the target is already frozen, deals |cffbe81f7300|r damage and stuns for 4 seconds.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 12 seconds.
+
+|cFF959697Frozen enemies attack and move 35% slower.|r
+}
+
+STRING 7560
+// Abilities: A17J (Wicerd: Nah-ice! ), Researchubertip (Tooltip - Learn - Extended)
+{
+Shoots an ice arrow at a targeted area, dealing |cffbe81f7100/140/180/220/260|r damage and freeze enemies. When it hits an enemy or a point, it splits, creating 3 ice arrows that fly to random points and do 3 times less damage.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+|cffffcc00Cost:|r 80/75/70/65/60 mana.
+
+|cFF959697Frozen enemies attack and move 35% slower.|r
+}
+
+STRING 7561
+// Abilities: A17J (Wicerd: Nah-ice! ), Ubertip (Tooltip - Normal - Extended)
+{
+Shoots an ice arrow at a targeted area, dealing |cffbe81f7140|r damage and freeze enemies. When it hits an enemy or a point, it splits, creating 3 ice arrows that fly to random points and do 3 times less damage.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+
+|cFF959697Frozen enemies attack and move 35% slower.|r
+}
+
+STRING 7562
+// Abilities: A17J (Wicerd: Nah-ice! ), Ubertip (Tooltip - Normal - Extended)
+{
+Shoots an ice arrow at a targeted area, dealing |cffbe81f7180|r damage and freeze enemies. When it hits an enemy or a point, it splits, creating 3 ice arrows that fly to random points and do 3 times less damage.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+
+|cFF959697Frozen enemies attack and move 35% slower.|r
+}
+
+STRING 7563
+// Abilities: A17J (Wicerd: Nah-ice! ), Ubertip (Tooltip - Normal - Extended)
+{
+Shoots an ice arrow at a targeted area, dealing |cffbe81f7260|r damage and freeze enemies. When it hits an enemy or a point, it splits, creating 3 ice arrows that fly to random points and do 3 times less damage.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+
+|cFF959697Frozen enemies attack and move 35% slower.|r
 }
 
 STRING 7564
@@ -50228,6 +50191,13 @@ STRING 7603
 Sprint, [|cffffcc00Level %d|r]
 }
 
+STRING 7604
+// Items: I0FF (Pact of Fire), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 1 and |cff60C445Unique|r Spell Power by 25%.
+}
+
 STRING 7605
 // Abilities: A0I6 (Archer: Sprint), Tip (Tooltip - Normal)
 {
@@ -50256,6 +50226,41 @@ STRING 7609
 // Abilities: A0I6 (Archer: Sprint), Tip (Tooltip - Normal)
 {
 Sprint, [|cffffcc00Level 5|r]
+}
+
+STRING 7610
+// Items: I0FF (Pact of Fire), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 1 and |cff60C445Unique|r Spell Power by 25%.
+}
+
+STRING 7611
+// Items: I0E8 (Magic Fern), Description (Description)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+When another Hero dies for the first time in a battle, gain their Spell Power and Luck for the battle.
+|cff81f260[Random bonus]|r
+}
+
+STRING 7612
+// Items: I0E8 (Magic Fern), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+When another Hero dies for the first time in a battle, gain their Spell Power and Luck for the battle.
+|cff81f260[Random bonus]|r
+}
+
+STRING 7613
+// Items: I0BT (Steel Rose), Name (Name)
+{
+Steel Rose
+}
+
+STRING 7614
+// Items: I0BT (Steel Rose), Tip (Tooltip - Basic)
+{
+Steel Rose
 }
 
 STRING 7615
@@ -51349,6 +51354,12 @@ STRING 7782
 // Abilities: A0GL (Artifact: Aquamarin), Name (Name)
 {
 Artifact: Aquamarin
+}
+
+STRING 7783
+// Items: I0AU (Red Poppy), Name (Name)
+{
+Red Poppy
 }
 
 STRING 7784
@@ -54997,6 +55008,12 @@ Restores |cffbe81f74|r health, |cffbe81f72|r mana and gives 2 gold to all living
 |cffffcc00Cooldown:|r 8 seconds.
 }
 
+STRING 8353
+// Items: I0AU (Red Poppy), Tip (Tooltip - Basic)
+{
+Red Poppy
+}
+
 STRING 8354
 // Abilities: A0CP (Armor (Regular necklace)), Name (Name)
 {
@@ -55607,6 +55624,12 @@ Imposes a shield on all heroes, absorbing |cffbe81f715|r health for each ruby of
 |cffffcc00Cooldown:|r 50 seconds.
 }
 
+STRING 8444
+// Items: I07L (Playful Spirit), Name (Name)
+{
+Playful Spirit
+}
+
 STRING 8445
 // Abilities: A0C2 (Spell Shield), EditorSuffix (Editor Suffix)
 {
@@ -56156,6 +56179,12 @@ STRING 8530
 Аура: Меч Могущества
 }
 
+STRING 8531
+// Items: I07L (Playful Spirit), Tip (Tooltip - Basic)
+{
+Playful Spirit
+}
+
 STRING 8532
 // Abilities: A0BD (Артефакт: Звездная пыль), Name (Name)
 {
@@ -56617,6 +56646,12 @@ STRING 8602
 Mov. speed (Random bonus)
 }
 
+STRING 8603
+// Items: I07C (Prophet Mask), Name (Name)
+{
+Prophet Mask
+}
+
 STRING 8604
 // Abilities: A0B0 (Босс 5: Боевой голем (Скорость атаки)), Name (Name)
 {
@@ -56801,6 +56836,12 @@ STRING 8631
 // Abilities: A0AN (Босс 5: Король рабов (Корона)), Name (Name)
 {
 Босс 5: Король рабов (Корона)
+}
+
+STRING 8632
+// Items: I07C (Prophet Mask), Tip (Tooltip - Basic)
+{
+Prophet Mask
 }
 
 STRING 8633
@@ -65838,14 +65879,6 @@ STRING 10010
 Seal of fate, [|cffffcc00Level %d|r]
 }
 
-STRING 10011
-// Abilities: A02J (Mermaid: Seal of fate), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f7damage|r to the enemy equal to the sum of all your stats. If target dies, increases agility by 2.
-|cffffcc00Cooldown:|r 13/12/11/10/9 seconds.
-|cffffcc00Cost:|r 40/35/30/25/20 mana.
-}
-
 STRING 10012
 // Abilities: A02J (Mermaid: Seal of fate), Tip (Tooltip - Normal)
 {
@@ -65874,41 +65907,6 @@ STRING 10016
 // Abilities: A02J (Mermaid: Seal of fate), Tip (Tooltip - Normal)
 {
 Seal of fate, [|cffffcc00Level 5|r]
-}
-
-STRING 10017
-// Abilities: A02J (Mermaid: Seal of fate), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7damage|r to the enemy equal to the sum of all your stats. If target dies, increases agility by 2.
-|cffffcc00Cooldown:|r 13 seconds.
-}
-
-STRING 10018
-// Abilities: A02J (Mermaid: Seal of fate), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7damage|r to the enemy equal to the sum of all your stats. If target dies, increases agility by 2.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 10019
-// Abilities: A02J (Mermaid: Seal of fate), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7damage|r to the enemy equal to the sum of all your stats. If target dies, increases agility by 2.
-|cffffcc00Cooldown:|r 11 seconds.
-}
-
-STRING 10020
-// Abilities: A02J (Mermaid: Seal of fate), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7damage|r to the enemy equal to the sum of all your stats. If target dies, increases agility by 2.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 10021
-// Abilities: A02J (Mermaid: Seal of fate), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7damage|r to the enemy equal to the sum of all your stats. If target dies, increases agility by 2.
-|cffffcc00Cooldown:|r 9 seconds.
 }
 
 STRING 10022
@@ -66238,6 +66236,14 @@ STRING 10072
 Turbid waters, [|cffffcc00Level %d|r]
 }
 
+STRING 10073
+// Items: I077 (Falka), Description (Description)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Increases |cff60C445Unique|r Spell Power by 100%.
+|cff81f260[Random bonus]|r
+}
+
 STRING 10074
 // Abilities: A022 (Mermaid: Turbid waters), Tip (Tooltip - Normal)
 {
@@ -66266,6 +66272,38 @@ STRING 10078
 // Abilities: A022 (Mermaid: Turbid waters), Tip (Tooltip - Normal)
 {
 Turbid waters, [|cffffcc00Level 5|r]
+}
+
+STRING 10079
+// Items: I077 (Falka), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Increases |cff60C445Unique|r Spell Power by 100%.
+|cff81f260[Random bonus]|r
+}
+
+STRING 10080
+// Items: I01X (Ruby Diamond), Name (Name)
+{
+Ruby Diamond
+}
+
+STRING 10081
+// Items: I01X (Ruby Diamond), Tip (Tooltip - Basic)
+{
+Ruby Diamond
+}
+
+STRING 10082
+// Items: I00P (Mana Crystal), Name (Name)
+{
+Mana Crystal
+}
+
+STRING 10083
+// Items: I00P (Mana Crystal), Tip (Tooltip - Basic)
+{
+Mana Crystal
 }
 
 STRING 10084
@@ -67822,6 +67860,13 @@ STRING 10322
 |cffffcc00Duration:|r 5 seconds.
 - |cff00cceeAt 40% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
 - |cff00cceeAt 20% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
+}
+
+STRING 10323
+// Abilities: A0RA (Sludge: Poison Touch), Researchubertip (Tooltip - Learn - Extended)
+{
+When your hero is attacked, inflicts poison on the enemy, which slows down attack and movement speed by 20% and deals |cffbe81f715|r damage every second.
+|cffffcc00Duration:|r 2/4/6/8/10 seconds.
 }
 
 STRING 10324
@@ -69494,6 +69539,13 @@ STRING 10599
 Charged.
 }
 
+STRING 10600
+// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
+{
+When your hero is attacked, inflicts poison on the enemy, which slows down attack and movement speed by 20% and deals |cffbe81f715|r damage every second.
+|cffffcc00Duration:|r 2 seconds.
+}
+
 STRING 10601
 // Buffs/Effects: B07N (), Buffubertip (Tooltip - Extended)
 {
@@ -69884,6 +69936,13 @@ STRING 10665
 Your next activated non-corrupted artifact will trigger three times.
 }
 
+STRING 10666
+// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
+{
+When your hero is attacked, inflicts poison on the enemy, which slows down attack and movement speed by 20% and deals |cffbe81f715|r damage every second.
+|cffffcc00Duration:|r 4 seconds.
+}
+
 STRING 10667
 // Buffs/Effects: B06K (), Buffubertip (Tooltip - Extended)
 {
@@ -70124,6 +70183,13 @@ STRING 10706
 Attack power reduced.
 }
 
+STRING 10707
+// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
+{
+When your hero is attacked, inflicts poison on the enemy, which slows down attack and movement speed by 20% and deals |cffbe81f715|r damage every second.
+|cffffcc00Duration:|r 6 seconds.
+}
+
 STRING 10708
 // Buffs/Effects: B060 (), Buffubertip (Tooltip - Extended)
 {
@@ -70239,7 +70305,7 @@ STRING 10726
 }
 
 STRING 10727
-// Buffs/Effects: B05S (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: BZ09 (), Buffubertip (Tooltip - Extended)
 {
 Unique spell power increased.
 }
@@ -70666,6 +70732,13 @@ STRING 10797
 Mana regenerates faster.
 }
 
+STRING 10798
+// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
+{
+When your hero is attacked, inflicts poison on the enemy, which slows down attack and movement speed by 20% and deals |cffbe81f715|r damage every second.
+|cffffcc00Duration:|r 8 seconds.
+}
+
 STRING 10799
 // Buffs/Effects: B04T (), Buffubertip (Tooltip - Extended)
 {
@@ -70744,6 +70817,13 @@ STRING 10811
 Attack power increased.
 }
 
+STRING 10812
+// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
+{
+When your hero is attacked, inflicts poison on the enemy, which slows down attack and movement speed by 20% and deals |cffbe81f715|r damage every second.
+|cffffcc00Duration:|r 10 seconds.
+}
+
 STRING 10813
 // Buffs/Effects: B04L (), Buffubertip (Tooltip - Extended)
 {
@@ -70814,6 +70894,14 @@ STRING 10824
 // Buffs/Effects: B04G (), EditorSuffix (Editor Suffix)
 {
 (Невидимость)
+}
+
+STRING 10825
+// Abilities: A02J (Mermaid: Seal of fate), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f7damage|r to the enemy equal to 10/15/20/25/30 added to the sum of all your stats. If the target dies, gain 2 agility.
+|cffffcc00Cooldown:|r 13/12/11/10/9 seconds.
+|cffffcc00Cost:|r 40/35/30/25/20 mana.
 }
 
 STRING 10826
@@ -71459,6 +71547,13 @@ STRING 10932
 // Buffs/Effects: B030 (), EditorSuffix (Editor Suffix)
 {
 (Атака)
+}
+
+STRING 10933
+// Abilities: A02J (Mermaid: Seal of fate), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7damage|r to the enemy equal to 10 added to the sum of all your stats. If the target dies, gain 2 agility.
+|cffffcc00Cooldown:|r 13 seconds.
 }
 
 STRING 10934
@@ -72444,6 +72539,13 @@ STRING 11096
 The stats are increased.
 }
 
+STRING 11097
+// Abilities: A02J (Mermaid: Seal of fate), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7damage|r to the enemy equal to 15 added to the sum of all your stats. If the target dies, gain 2 agility.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 11098
 // Buffs/Effects: B00P (), Buffubertip (Tooltip - Extended)
 {
@@ -72684,6 +72786,13 @@ STRING 11137
 // Buffs/Effects: B007 (), Buffubertip (Tooltip - Extended)
 {
 Warrior under the influence of royal blood.
+}
+
+STRING 11138
+// Abilities: A02J (Mermaid: Seal of fate), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7damage|r to the enemy equal to 20 added to the sum of all your stats. If the target dies, gain 2 agility.
+|cffffcc00Cooldown:|r 11 seconds.
 }
 
 STRING 11139
@@ -75008,11 +75117,10 @@ STRING 11494
 }
 
 STRING 11495
-// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A02J (Mermaid: Seal of fate), Ubertip (Tooltip - Normal - Extended)
 {
-Enters the hero into invisibility and increases the Movement Speed by 80%.
-|cffffcc00Duration:|r 4.5 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
+Deals |cffbe81f7damage|r to the enemy equal to 25 added to the sum of all your stats. If the target dies, gain 2 agility.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 11496
@@ -75022,11 +75130,10 @@ STRING 11496
 }
 
 STRING 11497
-// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A02J (Mermaid: Seal of fate), Ubertip (Tooltip - Normal - Extended)
 {
-Enters the hero into invisibility and increases the Movement Speed by 80%.
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
+Deals |cffbe81f7damage|r to the enemy equal to 30 added to the sum of all your stats. If the target dies, gain 2 agility.
+|cffffcc00Cooldown:|r 9 seconds.
 }
 
 STRING 11498
@@ -75050,13 +75157,13 @@ Enters the hero into invisibility and increases the Movement Speed by 80%.
 }
 
 STRING 11501
-// Units: N019 ((A) Samurai), Name (Name)
+// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
 {
 (A) Samurai
 }
 
 STRING 11502
-// Units: N017 ((H) Corrupted Ent), Name (Name)
+// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
 {
 (H) Corrupted Ent
 }

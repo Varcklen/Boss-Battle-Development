@@ -3725,7 +3725,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "BasicCore\\Other",
           "Files": [
             {
@@ -5172,13 +5172,13 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Items",
       "Files": [
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Common",
           "Files": [
             {
@@ -6370,6 +6370,13 @@
               "isExpanded": false,
               "path": "Items\\Common\\Wtii.trg",
               "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\NaturalDeselect.j",
+              "Files": []
             }
           ]
         },
@@ -7343,6 +7350,20 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Rare\\Zuma.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Rare\\BlueSky.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Rare\\DeepPurple.j",
               "Files": []
             }
           ]
@@ -8661,7 +8682,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Heroes",
       "Files": [
         {
@@ -10557,7 +10578,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Heroes\\Killers",
           "Files": [
             {
