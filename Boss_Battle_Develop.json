@@ -3426,7 +3426,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\EventSystem",
           "Files": [
             {
@@ -3462,7 +3462,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\DamageSystem",
           "Files": [
             {
@@ -3506,6 +3506,162 @@
               "isExpanded": false,
               "path": "BasicCore\\DamageSystem\\DamageTagUse.trg",
               "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": true,
+          "path": "BasicCore\\StatSystem",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "BasicCore\\StatSystem\\Stat System.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "BasicCore\\StatSystem\\Stat Ability.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "BasicCore\\StatSystem\\Stat Ability Database.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": true,
+              "path": "BasicCore\\StatSystem\\Stat Action",
+              "Files": [
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Phy Vampirism.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Mag Vampirism.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Vampirism.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\HealBonus.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Damage Dealt.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Phy Damage Dealt.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Phy Damage Dealt Minions.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Mag Damage Dealt.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Damage Dealt Bosses.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Dodge.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Cooldown.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\BuffDuration.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Mana Heal Bonus.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Gold Gain.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Phy Damage Taken.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Moon Set Damage Bonus.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Shop Discount.j",
+                  "Files": []
+                }
+              ]
             }
           ]
         },
@@ -4358,7 +4514,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Frames",
       "Files": [
         {
@@ -4787,7 +4943,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Frames\\JuleFrame",
           "Files": [
             {
@@ -4845,7 +5001,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Frames\\HeroChoise",
           "Files": [
             {
@@ -4883,7 +5039,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Debug",
       "Files": [
         {
@@ -5166,19 +5322,26 @@
           "isExpanded": false,
           "path": "Debug\\CanBeDropped.j",
           "Files": []
+        },
+        {
+          "isEnabled": false,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Debug\\Test.j",
+          "Files": []
         }
       ]
     },
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Items",
       "Files": [
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Items\\Common",
           "Files": [
             {
@@ -6418,7 +6581,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Items\\Rare",
           "Files": [
             {
@@ -6478,7 +6641,7 @@
               "Files": []
             },
             {
-              "isEnabled": true,
+              "isEnabled": false,
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Rare\\Book of Sacrifices.trg",

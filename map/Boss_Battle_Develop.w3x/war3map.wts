@@ -11986,6 +11986,12 @@ Inflicts |cffbe81f7250|r fire damage to an enemy. With a probability of |cffd7df
 |cffffcc00Cooldown:|r 12 seconds.
 }
 
+STRING 1790
+// Abilities: A1F1 (Stat: Phy Vampirism +15%), Name (Name)
+{
+Stat: Phy Vampirism +15%
+}
+
 STRING 1791
 // Items: I09H (Fireflower), Description (Description)
 {
@@ -13842,6 +13848,18 @@ STRING 2060
 Every 10 seconds, the hero burns |cffbe81f712|r mana and increases spell power by 0.5%.
 }
 
+STRING 2061
+// Abilities: A1F2 (Stat: Mag Vampirism +20%), Name (Name)
+{
+Stat: Mag Vampirism +20%
+}
+
+STRING 2062
+// Abilities: A1F3 (Stat: Vampirism +60%), Name (Name)
+{
+Stat: Vampirism +60%
+}
+
 STRING 2063
 // Items: I07L (Playful Spirit), Ubertip (Tooltip - Extended)
 {
@@ -14082,6 +14100,18 @@ Activation: Increases attack power by 15, armor by 3 and gives |cffbe81f720%|r v
 |cffffcc00Cost:|r 75 health.
 }
 
+STRING 2097
+// Abilities: A1F4 (Stat: Heal Bonus +150%), Name (Name)
+{
+Stat: Heal Bonus +150%
+}
+
+STRING 2098
+// Abilities: A15E (Ruby oilXXX), Name (Name)
+{
+Ruby oilXXX
+}
+
 STRING 2099
 // Items: I07C (Prophet Mask), Ubertip (Tooltip - Extended)
 {
@@ -14205,6 +14235,12 @@ STRING 2115
 Reduces attack power of the hero and bosses by 30%.
 }
 
+STRING 2116
+// Abilities: A1F5 (Stat: Phy Damage Dealt +40%), Name (Name)
+{
+Stat: Phy Damage Dealt +40%
+}
+
 STRING 2117
 // Items: I077 (Falka), Name (Name)
 {
@@ -14215,6 +14251,12 @@ STRING 2118
 // Items: I077 (Falka), Tip (Tooltip - Basic)
 {
 Falka
+}
+
+STRING 2119
+// Buffs/Effects: B070 (), Bufftip (Tooltip)
+{
+|cff00ff00Ruby oil|rXXX
 }
 
 STRING 2120
@@ -19367,6 +19409,18 @@ Activation: Deals |cffbe81f7200|r damage to the enemy. If the hero’s has full 
 |cffffcc00Cost:|r 60 mana.
 }
 
+STRING 2882
+// Abilities: A1F6 (Stat: Phy Damage Dealt Minions +200%), Name (Name)
+{
+Stat: Phy Damage Dealt Minions +200%
+}
+
+STRING 2883
+// Abilities: A1F7 (Stat: Mag Damage Dealt +75%), Name (Name)
+{
+Stat: Mag Damage Dealt +75%
+}
+
 STRING 2884
 // Items: I01X (Ruby Diamond), Ubertip (Tooltip - Extended)
 {
@@ -20601,6 +20655,18 @@ Activation: Deals |cffbe81f7100|r damage to the enemy. Restores the hero’s man
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
+STRING 3062
+// Abilities: A1F8 (Stat: Dodge +15%), Name (Name)
+{
+Stat: Dodge +15%
+}
+
+STRING 3063
+// Abilities: A1F9 (Stat: Damage Dealt Bosses +30%), Name (Name)
+{
+Stat: Damage Dealt Bosses +30%
+}
+
 STRING 3064
 // Items: I00P (Mana Crystal), Ubertip (Tooltip - Extended)
 {
@@ -21025,6 +21091,18 @@ STRING 3125
 {
 |cff4169e1Rare|r
 Activation: |cffcc0000Corrupted|r. Increases stats by 1. If the hero has at least 1 |cffb18904mech|r, replaces |cff60C445Unique|r into "Keen mind".
+}
+
+STRING 3126
+// Abilities: A1FA (Stat: Damage Dealt +25%), Name (Name)
+{
+Stat: Damage Dealt +25%
+}
+
+STRING 3127
+// Abilities: A1FB (Stat: Cooldown -30%), Name (Name)
+{
+Stat: Cooldown -30%
 }
 
 STRING 3128
@@ -24883,6 +24961,12 @@ STRING 3718
 Play Note
 }
 
+STRING 3719
+// Abilities: A1FC (Stat: Buff Duration +50%), Name (Name)
+{
+Stat: Buff Duration +50%
+}
+
 STRING 3720
 // Items: IZ06 (Blue Sky), Ubertip (Tooltip - Extended)
 {
@@ -27858,6 +27942,12 @@ STRING 4175
 Brain Freeze, [|cffffcc00Level %d|r]
 }
 
+STRING 4176
+// Abilities: A1FD (Stat: Mana Heal Bonus +100%), Name (Name)
+{
+Stat: Mana Heal Bonus +100%
+}
+
 STRING 4177
 // Abilities: A17O (Wicerd: Brain Freeze), Tip (Tooltip - Normal)
 {
@@ -27896,6 +27986,30 @@ Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f7
 |cffffcc00Cooldown:|r 10 seconds.
 
 |cFF959697Frozen enemies attack and move 35% slower.|r
+}
+
+STRING 4183
+// Abilities: A1FE (Stat: Gold Gain +20%), Name (Name)
+{
+Stat: Gold Gain +20%
+}
+
+STRING 4184
+// Abilities: A1FF (Stat: Phy Damage Taken -40%), Name (Name)
+{
+Stat: Phy Damage Taken -40%
+}
+
+STRING 4185
+// Abilities: A1FG (Stat: Moon Set Damage Bonus +50%), Name (Name)
+{
+Stat: Moon Set Damage Bonus +50%
+}
+
+STRING 4186
+// Abilities: A1FH (Stat: Artifact Shop Cost -20%), Name (Name)
+{
+Stat: Artifact Shop Cost -20%
 }
 
 STRING 4187
@@ -29618,12 +29732,6 @@ STRING 4461
 // Abilities: A15F (Stats (Пояс богатыря)), Name (Name)
 {
 Stats (Пояс богатыря)
-}
-
-STRING 4462
-// Abilities: A15E (Ruby oil), Name (Name)
-{
-Ruby oil
 }
 
 STRING 4463
@@ -69754,12 +69862,6 @@ STRING 10635
 // Buffs/Effects: B071 (), Buffubertip (Tooltip - Extended)
 {
 Mana regenerates faster.
-}
-
-STRING 10636
-// Buffs/Effects: B070 (), Bufftip (Tooltip)
-{
-|cff00ff00Ruby oil|r
 }
 
 STRING 10637

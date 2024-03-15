@@ -4,14 +4,14 @@ library EventDatabase initializer init requires EventSystem
     globals
         Event PotionUsed //Event_PotionUsed
         /*
-            caster 
+            caster (unit)
         */
         
         Event BattleStart //"udg_FightStart_Real" 
          /*
-            caster
-            index
-            owner
+            caster (unit)
+            index (integer)
+            owner (player)
         */
         
         Event AllHeroesDied
@@ -25,6 +25,31 @@ library EventDatabase initializer init requires EventSystem
         Event SetRandomHeroes
         /*
         */
+        
+        Event ChangeCooldown
+        /*
+        	caster (unit)
+        	new_value (real)
+        	static_value (real)
+        */
+        Event ChangeBuffDuration
+        /*
+        	caster (unit)
+        	new_value (real)
+        	static_value (real)
+        */
+        Event ChangeMagaHealBonus
+        /*
+        	caster (unit)
+        	new_value (real)
+        	static_value (real)
+        */
+        Event ChangeGlobalJuleShopCost
+        /*
+        	caster (unit)
+        	new_value (real)
+        	static_value (real)
+        */
     endglobals
     
     private function InitCustomEvents takes nothing returns nothing
@@ -33,6 +58,10 @@ library EventDatabase initializer init requires EventSystem
         set AllHeroesDied = Event.create(null, null)
         set BetweenBattles = Event.create(null, null)
         set SetRandomHeroes = Event.create(null, null)
+        set ChangeCooldown = Event.create("caster", null)
+        set ChangeBuffDuration = Event.create("caster", null)
+        set ChangeMagaHealBonus = Event.create("caster", null)
+        set ChangeGlobalJuleShopCost = Event.create("caster", null)
     endfunction
     
     /*Base Event Init*/
