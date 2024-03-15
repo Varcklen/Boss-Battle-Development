@@ -5718,6 +5718,12 @@ Only works in combat.
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 893
+// Items: I009 (Goblin Manual), Name (Name)
+{
+Goblin Manual
+}
+
 STRING 894
 // Items: I0FP (Orb of the Rolling Plains), Name (Name)
 {
@@ -6005,6 +6011,12 @@ STRING 932
 Activation: Transforms into a random activated artifact. The new artifact has this effect. Only works in battle.
 }
 
+STRING 933
+// Items: I009 (Goblin Manual), Tip (Tooltip - Basic)
+{
+Goblin Manual
+}
+
 STRING 934
 // Items: I0FF (Pact of Fire), Name (Name)
 {
@@ -6015,6 +6027,14 @@ STRING 935
 // Items: I0FF (Pact of Fire), Tip (Tooltip - Basic)
 {
 Pact of Fire
+}
+
+STRING 936
+// Abilities: A1AK (Unique: Play Note (+)), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Restores |cffbe81f78|r health, |cffbe81f74|r mana and gives 4 gold to all living heroes.
+|cffffcc00Cooldown:|r 6 seconds.
 }
 
 STRING 937
@@ -9664,6 +9684,19 @@ If your inventory contains 6 artifacts from the "|cff7cfc00Nature|r" set, gives 
 |cff81f260[Random bonus]|r
 }
 
+STRING 1455
+// Abilities: A0XK (Unique: Keen mind), Tip (Tooltip - Normal)
+{
+Keen Mind
+}
+
+STRING 1456
+// Abilities: A0XK (Unique: Keen mind), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Counts as 5 |cffb18904mechs|r.
+}
+
 STRING 1457
 // Items: I0BT (Steel Rose), Ubertip (Tooltip - Extended)
 {
@@ -10615,6 +10648,20 @@ STRING 1594
 {
 |cff4169e1Rare|r, |cff7cfc00Nature|r
 Your health-restoring abilities and items restore 20% more health.
+}
+
+STRING 1595
+// Abilities: A0XI (Unique: Keen mind), Tip (Tooltip - Normal)
+{
+Keen Mind
+}
+
+STRING 1596
+// Abilities: A0CR (Unique: Play Note), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Restores |cffbe81f74|r health, |cffbe81f72|r mana and gives 2 gold to all living heroes.
+|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 1597
@@ -20974,26 +21021,14 @@ STRING 3124
 }
 
 STRING 3125
-// Items: I009 (Goblin manual), Description (Description)
+// Items: I009 (Goblin Manual), Description (Description)
 {
 |cff4169e1Rare|r
 Activation: |cffcc0000Corrupted|r. Increases stats by 1. If the hero has at least 1 |cffb18904mech|r, replaces |cff60C445Unique|r into "Keen mind".
 }
 
-STRING 3126
-// Items: I009 (Goblin manual), Name (Name)
-{
-Goblin manual
-}
-
-STRING 3127
-// Items: I009 (Goblin manual), Tip (Tooltip - Basic)
-{
-Goblin manual
-}
-
 STRING 3128
-// Items: I009 (Goblin manual), Ubertip (Tooltip - Extended)
+// Items: I009 (Goblin Manual), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r
 Activation: |cffcc0000Corrupted|r. Increases stats by 1. If the hero has at least 1 |cffb18904mech|r, replaces |cff60C445Unique|r into "Keen mind".
@@ -24846,14 +24881,6 @@ STRING 3718
 // Abilities: A1AK (Unique: Play Note (+)), Tip (Tooltip - Normal)
 {
 Play Note
-}
-
-STRING 3719
-// Abilities: A1AK (Unique: Play Note (+)), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Restores |cffbe81f78|r health, |cffbe81f74|r mana and gives 4 gold to all living heroes.
-|cffffcc00Cooldown:|r 4 seconds.
 }
 
 STRING 3720
@@ -35667,19 +35694,6 @@ STRING 5390
 Unique: Keen mind
 }
 
-STRING 5391
-// Abilities: A0XK (Unique: Keen mind), Tip (Tooltip - Normal)
-{
-Keen mind
-}
-
-STRING 5392
-// Abilities: A0XK (Unique: Keen mind), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Counts as 3 |cffb18904mechs|r.
-}
-
 STRING 5393
 // Abilities: A0XJ (Артефакт: Символ Майев), EditorSuffix (Editor Suffix)
 {
@@ -35720,12 +35734,6 @@ STRING 5399
 // Abilities: A0XI (Unique: Keen mind), Name (Name)
 {
 Unique: Keen mind
-}
-
-STRING 5400
-// Abilities: A0XI (Unique: Keen mind), Tip (Tooltip - Normal)
-{
-Keen mind
 }
 
 STRING 5401
@@ -54998,14 +55006,6 @@ STRING 8351
 // Abilities: A0CR (Unique: Play Note), Tip (Tooltip - Normal)
 {
 Play Note
-}
-
-STRING 8352
-// Abilities: A0CR (Unique: Play Note), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Restores |cffbe81f74|r health, |cffbe81f72|r mana and gives 2 gold to all living heroes.
-|cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 8353
