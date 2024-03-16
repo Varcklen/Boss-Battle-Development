@@ -7462,6 +7462,15 @@ When you restore health with |cff088a08potions|r, it also restores |cffbe81f7hea
 |cff81f260[Random bonus]|r
 }
 
+STRING 1138
+// Items: I0DC (Totem of Exchange), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Gives 2 random stats for the battle.
+|cffffcc00Cooldown:|r 3 seconds.
+|cffffcc00Cost:|r 75 health.
+}
+
 STRING 1139
 // Items: I0E0 (Essence of time), Name (Name)
 {
@@ -7472,6 +7481,15 @@ STRING 1140
 // Items: I0E0 (Essence of time), Tip (Tooltip - Basic)
 {
 Essence of time
+}
+
+STRING 1141
+// Items: I0DC (Totem of Exchange), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Gives 2 random stats for the battle.
+|cffffcc00Cooldown:|r 3 seconds.
+|cffffcc00Cost:|r 75 health.
 }
 
 STRING 1142
@@ -20361,23 +20379,6 @@ Increases an allied Hero's Strength by 60.
 The effect is cumulative.
 |cffffcc00Duration:|r 20 seconds.
 |cffffcc00Cooldown:|r 28 seconds.
-}
-
-STRING 3023
-// Items: I0DC (Totem of Exchange), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Gives 2 random stats for the battle.
-|cffffcc00Cooldown:|r 3 seconds.
-|cffffcc00Cost:|r 75 mana.
-}
-
-STRING 3024
-// Items: I0DC (Totem of Exchange), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Gives 2 random stats for the battle.
-|cffffcc00Cooldown:|r 3 seconds.
 }
 
 STRING 3025
