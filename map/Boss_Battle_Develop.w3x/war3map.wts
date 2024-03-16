@@ -7462,14 +7462,6 @@ When you restore health with |cff088a08potions|r, it also restores |cffbe81f7hea
 |cff81f260[Random bonus]|r
 }
 
-STRING 1138
-// Items: I0E0 (Essence of time), Description (Description)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Reduces the cooldown of abilities and items by 10%.
-If you only have artifacts from the |cfffe9a2ealchemy|r set, reduces cooldown by 35% instead.
-}
-
 STRING 1139
 // Items: I0E0 (Essence of time), Name (Name)
 {
@@ -7480,14 +7472,6 @@ STRING 1140
 // Items: I0E0 (Essence of time), Tip (Tooltip - Basic)
 {
 Essence of time
-}
-
-STRING 1141
-// Items: I0E0 (Essence of time), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Reduces the cooldown of abilities and items by 10%.
-If you only have artifacts from the |cfffe9a2ealchemy|r set, reduces cooldown by 35% instead.
 }
 
 STRING 1142
@@ -28042,6 +28026,12 @@ STRING 4191
 Ice-olation, [|cffffcc00Level %d|r]
 }
 
+STRING 4192
+// Abilities: A1FI (Stat: Phy Vampirism +10%), Name (Name)
+{
+Stat: Phy Vampirism +10%
+}
+
 STRING 4193
 // Abilities: A17M (Wicerd: Ice-olation), Tip (Tooltip - Normal)
 {
@@ -28070,6 +28060,40 @@ STRING 4197
 // Abilities: A17M (Wicerd: Ice-olation), Tip (Tooltip - Normal)
 {
 Ice-olation, [|cffffcc00Level 5|r]
+}
+
+STRING 4198
+// Abilities: A1FJ (Stat: Gold Gain -90%), Name (Name)
+{
+Stat: Gold Gain -90%
+}
+
+STRING 4199
+// Abilities: A1FK (Stat: Dodge +1%), Name (Name)
+{
+Stat: Dodge +1%
+}
+
+STRING 4200
+// Items: I0E0 (Essence of time), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Reduces the cooldown of abilities and items by 10%.
+If you only have artifacts from the |cfffe9a2ealchemy|r set, additionally reduces cooldown by 25%.
+}
+
+STRING 4201
+// Items: I0E0 (Essence of time), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Reduces the cooldown of abilities and items by 10%.
+If you only have artifacts from the |cfffe9a2ealchemy|r set, additionally reduces cooldown by 25%.
+}
+
+STRING 4202
+// Abilities: A1FL (Stat: Cooldown -10%), Name (Name)
+{
+Stat: Cooldown -10%
 }
 
 STRING 4203
@@ -28218,6 +28242,12 @@ STRING 4225
 Nah-ice!, [|cffffcc00Level %d|r]
 }
 
+STRING 4226
+// Abilities: A1FM (Stat: Heal Bonus +20%), Name (Name)
+{
+Stat: Heal Bonus +20%
+}
+
 STRING 4227
 // Abilities: A17J (Wicerd: Nah-ice! ), Tip (Tooltip - Normal)
 {
@@ -28256,6 +28286,24 @@ Shoots an ice arrow at a targeted area, dealing |cffbe81f7100|r damage and freez
 |cffffcc00Cooldown:|r 10 seconds.
 
 |cFF959697Frozen enemies attack and move 35% slower.|r
+}
+
+STRING 4233
+// Abilities: A1FN (Stat: Gold Gain +35%), Name (Name)
+{
+Stat: Gold Gain +35%
+}
+
+STRING 4234
+// Abilities: A1FO (Stat: Dodge +25%), Name (Name)
+{
+Stat: Dodge +25%
+}
+
+STRING 4235
+// Abilities: A1FP (Stat: Phy Damage Taken +100%), Name (Name)
+{
+Stat: Phy Damage Taken +100%
 }
 
 STRING 4236
@@ -29732,6 +29780,12 @@ STRING 4461
 // Abilities: A15F (Stats (Пояс богатыря)), Name (Name)
 {
 Stats (Пояс богатыря)
+}
+
+STRING 4462
+// Abilities: A1FQ (Stat: Phy Damage Dealt +100%), Name (Name)
+{
+Stat: Phy Damage Dealt +100%
 }
 
 STRING 4463

@@ -3426,7 +3426,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "BasicCore\\EventSystem",
           "Files": [
             {
@@ -3539,7 +3539,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "BasicCore\\StatSystem\\Stat Action",
               "Files": [
                 {
@@ -4514,7 +4514,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Frames",
       "Files": [
         {
@@ -4943,7 +4943,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Frames\\JuleFrame",
           "Files": [
             {
@@ -5218,6 +5218,13 @@
             },
             {
               "isEnabled": true,
+              "isInitiallyOn": false,
+              "isExpanded": false,
+              "path": "Debug\\Cheat\\CheatLowMp.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Debug\\Cheat\\CheatPvPStart.j",
@@ -5453,14 +5460,14 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
-              "path": "Items\\Common\\Autonavigator.trg",
+              "path": "Items\\Common\\Ancient Necklace.j",
               "Files": []
             },
             {
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
-              "path": "Items\\Common\\Babbling pebble.trg",
+              "path": "Items\\Common\\Autonavigator.trg",
               "Files": []
             },
             {
@@ -5545,6 +5552,27 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Common\\Bursting bullet.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": false,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Babbling pebble.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Babbling Pebble.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Boom Box.j",
               "Files": []
             },
             {
@@ -6034,6 +6062,20 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
+              "path": "Items\\Common\\Might of Damned.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Mechanical clock.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Necro Wool Death.trg",
               "Files": []
             },
@@ -6420,6 +6462,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Common\\SurpriseSheep.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Seal of Mana.j",
               "Files": []
             },
             {
@@ -6883,6 +6932,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Rare\\EternalHarvest.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Rare\\Essence of Time.j",
               "Files": []
             },
             {
@@ -14759,7 +14815,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "FichInEnd",
       "Files": [
         {
