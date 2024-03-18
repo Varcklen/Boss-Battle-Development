@@ -4,7 +4,7 @@ scope SweepingBlow initializer init
 	    private constant real ATTACK_MODIFIER = 0.4
 		private constant real ATTACK_MODIFIER_UPGRADED = 0.8
 		
-		private constant real AREA_AFFECTED = 300
+		private constant real AREA_AFFECTED = 500
 	
 		private constant integer ABILITY_ID = 'A1ED'
 		private constant integer UPGRADED_ABILITY_ID = 'A1EE'

@@ -2,28 +2,33 @@ scope OutcastPassive initializer init
 
 globals
 	private constant integer ID_OUTCAST_E = 'A082'
-	private integer array ID_OUTCAST_ABILITIES[3]
+	private integer array ID_OUTCAST_ABILITIES[OutcastFrame_BALL_AMOUNT]
 endglobals
 
-private function reset takes player pl, unit u returns nothing
-	local integer i = 1
-	if GetLocalPlayer() == pl then
+private function reset takes unit u returns nothing
+	local integer i
+	
+	//call OutcastFrame_SetVisibility(u, true)
+	call OutcastFrame_SetBallVisibility(u, OutcastFrame_BALL_RED, false)
+	call OutcastFrame_SetBallVisibility(u, OutcastFrame_BALL_GREEN, false)
+	call OutcastFrame_SetBallVisibility(u, OutcastFrame_BALL_BLUE, false)
+	/*if GetLocalPlayer() == pl then
     	call BlzFrameSetVisible( outcastframe, true )
     	call BlzFrameSetVisible( outballframe[1], false )
     	call BlzFrameSetVisible( outballframe[2], false )
     	call BlzFrameSetVisible( outballframe[3], false )
-	endif
+	endif*/
 	
+	set i = 0
 	loop
-	exitwhen i > 3
-		set udg_outcast[i] = 4
-		if (GetLocalPlayer() == pl) and (GetUnitAbilityLevel( u, ID_OUTCAST_ABILITIES[i] ) > 0) then
-    		call BlzFrameSetVisible( outballframe[i], true )
+		exitwhen i >= OutcastFrame_BALL_AMOUNT
+		set udg_outcast[i+1] = 4
+		if GetUnitAbilityLevel( u, ID_OUTCAST_ABILITIES[i] ) > 0 then
+    		//call BlzFrameSetVisible( outballframe[i], true )
+    		call OutcastFrame_SetBallVisibility(u, i, true)
 		endif
 		set i = i + 1
 	endloop
-	set pl = null
-	set u = null
 endfunction
 
 //---
@@ -36,7 +41,8 @@ private function learnActions takes nothing returns nothing
     //local integer id = GetHandleId( GetLearningUnit() )
 	local unit u = GetLearningUnit()
 	//local integer t = 2 + GetUnitAbilityLevel( u, GetLearnedSkill() )
-	call reset( GetOwningPlayer(u), u )
+	call OutcastFrame_SetVisibility(u, true)
+	call reset( u )
 	set u = null
 endfunction
 
@@ -47,7 +53,19 @@ private function startConditions takes nothing returns boolean
 endfunction
 
 private function startActions takes nothing returns nothing
-	call reset( GetOwningPlayer(udg_FightStart_Unit), udg_FightStart_Unit )
+	call reset( udg_FightStart_Unit )
+endfunction
+
+//---
+
+
+//---
+private function OnAbilityNulling_Condition takes nothing returns boolean
+    return GetUnitAbilityLevel( udg_Event_NullingAbility_Unit, ID_OUTCAST_E) > 0
+endfunction
+
+private function OnAbilityNulling takes nothing returns nothing
+	call OutcastFrame_SetVisibility(udg_Event_NullingAbility_Unit, false)
 endfunction
 
 //---
@@ -57,13 +75,17 @@ private function endConditions takes nothing returns boolean
 endfunction
 
 private function endActions takes nothing returns nothing
-    local integer lvl = GetUnitAbilityLevel( udg_FightEnd_Unit, ID_OUTCAST_E)
+	local unit caster = udg_FightEnd_Unit
+    local integer lvl = GetUnitAbilityLevel( caster, ID_OUTCAST_E)
     local integer bonus = lvl + 2
     local integer i = 1
     local integer gained = 0
     loop
-    exitwhen i > 3
-    	if (udg_outcast[i] >= 0) and (GetUnitAbilityLevel( udg_FightEnd_Unit, ID_OUTCAST_ABILITIES[i] ) > 0) then
+    	exitwhen i > OutcastFrame_BALL_AMOUNT
+    	/*call BJDebugMsg("==============")
+    	call BJDebugMsg("i: " + I2S(i))
+    	call BJDebugMsg("udg_outcast[i]: " + I2S(udg_outcast[i]))*/
+    	if udg_outcast[i] >= 0 and GetUnitAbilityLevel( caster, ID_OUTCAST_ABILITIES[i-1] ) > 0 then
     		set udg_outcast[i] = bonus
 		    set gained = gained + bonus
 		else
@@ -71,11 +93,19 @@ private function endActions takes nothing returns nothing
 		endif
 		set i = i + 1
 	endloop
+	/*call BJDebugMsg("-------------------")
+	call BJDebugMsg("RESULT: ")
+	call BJDebugMsg("gained: " + I2S(gained))
+	call BJDebugMsg("udg_outcast[1]: " + I2S(udg_outcast[1]))
+	call BJDebugMsg("udg_outcast[2]: " + I2S(udg_outcast[2]))
+	call BJDebugMsg("udg_outcast[3]: " + I2S(udg_outcast[3]))*/
 	if gained > 0 then
-		call statst( udg_FightEnd_Unit, udg_outcast[1], udg_outcast[2], udg_outcast[3], 0, true )
-		call textst( "Power Tamed! +" + I2S(gained), udg_FightEnd_Unit, 64, GetRandomInt( 45, 135 ), 10, 4 )
-		call DestroyEffect( AddSpecialEffectTarget("Abilities\\Spells\\Demon\\DemonBoltImpact\\DemonBoltImpact.mdl", udg_FightEnd_Unit, "origin" ) )
+		call statst( caster, udg_outcast[1], udg_outcast[2], udg_outcast[3], 0, true )
+		call textst( "Power Tamed! +" + I2S(gained), caster, 64, GetRandomInt( 45, 135 ), 10, 4 )
+		call DestroyEffect( AddSpecialEffectTarget("Abilities\\Spells\\Demon\\DemonBoltImpact\\DemonBoltImpact.mdl", caster, "origin" ) )
 	endif
+	
+	set caster = null
 endfunction
 
 //===========================================================================
@@ -83,9 +113,9 @@ private function init takes nothing returns nothing
     local trigger trigLearn = CreateTrigger(  )
     local trigger trigStart = CreateTrigger(  )
     local trigger trigEnd = CreateTrigger(  )
-	set ID_OUTCAST_ABILITIES[1] = 'A07J'
-	set ID_OUTCAST_ABILITIES[2] = 'A07Y'
-	set ID_OUTCAST_ABILITIES[3] = 'A07Z'
+	set ID_OUTCAST_ABILITIES[0] = 'A07J'
+	set ID_OUTCAST_ABILITIES[1] = 'A07Y'
+	set ID_OUTCAST_ABILITIES[2] = 'A07Z'
     call TriggerRegisterAnyUnitEventBJ( trigLearn, EVENT_PLAYER_HERO_SKILL )
     call TriggerAddCondition( trigLearn, Condition( function learnConditions ) )
     call TriggerAddAction( trigLearn, function learnActions )
@@ -97,6 +127,8 @@ private function init takes nothing returns nothing
     call TriggerRegisterVariableEvent( trigEnd, "udg_FightEnd_Real", EQUAL, 1.00 )
     call TriggerAddCondition( trigEnd, Condition( function endConditions ) )
     call TriggerAddAction( trigEnd, function endActions )
+    
+    call CreateEventTrigger( "udg_Event_NullingAbility_Real", function OnAbilityNulling, function OnAbilityNulling_Condition )
     
     set trigLearn = null
     set trigStart = null

@@ -1,4 +1,4 @@
-library StatSystem initializer init
+library StatSystem initializer init requires HeroesTable
 
 	globals
 		//enums
@@ -56,7 +56,7 @@ library StatSystem initializer init
 	endglobals
 	
 	public function IsHero takes unit hero returns boolean
-		return IsUnitType( hero, UNIT_TYPE_HERO )
+		return IsUnitType( hero, UNIT_TYPE_HERO ) and HeroesTable_IsHeroSelected(hero)
 	endfunction
 	
 	public function Add takes unit hero, integer statEnum, real value returns nothing
@@ -75,13 +75,27 @@ library StatSystem initializer init
 		set statStruct.value = statStruct.value + ( value / 100.0 )
 	endfunction
 	
+	private function CheckUser takes player owner returns boolean
+		if owner == null then
+			return true
+		elseif IsUserSlot(owner) == false then
+			return true
+		endif
+		return false
+	endfunction
+	
 	public function Get takes unit hero, integer statEnum returns real
 		local integer index
 		local HeroStats heroStat
 		local Stat statStruct
 		
-		if hero == null or GetPlayerController(GetOwningPlayer(hero)) != MAP_CONTROL_USER/*IsUnitType( hero, UNIT_TYPE_HERO ) == false*/ then
-			call BJDebugMsg("Error! StatSystem - Get: Used unit is null or the owner is not a user! Unit: " + GetUnitName(hero))
+		if hero == null then
+			call BJDebugMsg("Error! StatSystem - Get: Unit is null! Unit: " + GetUnitName(hero) + " Stat Type: " + I2S(statEnum))
+			return BASE_VALUE
+		endif
+		
+		if CheckUser(HeroesTable_GetHeroMainOwner(hero))/*GetPlayerController(GetOwningPlayer(hero)) != MAP_CONTROL_USER*//*IsUnitType( hero, UNIT_TYPE_HERO ) == false*/ then
+			call BJDebugMsg("Error! StatSystem - Get: Used unit's owner is not a user! Unit: " + GetUnitName(hero) + " Stat Type: " + I2S(statEnum) + " Player: " + GetPlayerName(HeroesTable_GetHeroMainOwner(hero)))
 			return BASE_VALUE
 		endif
 		

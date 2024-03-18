@@ -2435,7 +2435,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Library",
       "Files": [
         {
@@ -2869,7 +2869,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\Database",
           "Files": [
             {
@@ -3512,7 +3512,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\StatSystem",
           "Files": [
             {
@@ -3539,7 +3539,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "BasicCore\\StatSystem\\Stat Action",
               "Files": [
                 {
@@ -3588,14 +3588,14 @@
                   "isEnabled": true,
                   "isInitiallyOn": true,
                   "isExpanded": false,
-                  "path": "BasicCore\\StatSystem\\Stat Action\\Phy Damage Dealt Minions.j",
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Mag Damage Dealt.j",
                   "Files": []
                 },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
                   "isExpanded": false,
-                  "path": "BasicCore\\StatSystem\\Stat Action\\Mag Damage Dealt.j",
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Phy Damage Dealt Minions.j",
                   "Files": []
                 },
                 {
@@ -3845,6 +3845,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "BasicCore\\Comands\\Notnew.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "BasicCore\\Comands\\Clear.j",
               "Files": []
             }
           ]
@@ -4514,7 +4521,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Frames",
       "Files": [
         {
@@ -4885,21 +4892,6 @@
           "isEnabled": true,
           "isInitiallyOn": true,
           "isExpanded": false,
-          "path": "Frames\\OutcastFrame",
-          "Files": [
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Frames\\OutcastFrame\\OutcastFrame.trg",
-              "Files": []
-            }
-          ]
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
           "path": "Frames\\ForgeSpec",
           "Files": [
             {
@@ -5001,7 +4993,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Frames\\HeroChoise",
           "Files": [
             {
@@ -5168,10 +5160,17 @@
               "Files": []
             },
             {
-              "isEnabled": true,
+              "isEnabled": false,
               "isInitiallyOn": false,
               "isExpanded": false,
               "path": "Debug\\Cheat\\CreatePlayers.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Debug\\Cheat\\CheatCreate.j",
               "Files": []
             },
             {
@@ -5263,6 +5262,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Debug\\Cheat\\CheatSimulateLeaver.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Debug\\Cheat\\CheatWhoDead.j",
               "Files": []
             }
           ]
@@ -8407,10 +8413,17 @@
               "Files": []
             },
             {
-              "isEnabled": true,
+              "isEnabled": false,
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Legendary\\WBJG.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Legendary\\WabbajackQuest.j",
               "Files": []
             },
             {
@@ -9174,7 +9187,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Uniques",
           "Files": [
             {
@@ -10292,6 +10305,20 @@
                   "isEnabled": false,
                   "isInitiallyOn": true,
                   "isExpanded": false,
+                  "path": "Heroes\\Rippers\\Outcast\\OutcastFrame.trg",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Rippers\\Outcast\\OutcastFrame.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": false,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Rippers\\Outcast\\OutcastLib.trg",
                   "Files": []
                 },
@@ -10846,7 +10873,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Heroes\\Killers",
           "Files": [
             {
@@ -11786,7 +11813,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Elementalists\\Energyball",
               "Files": [
                 {
@@ -12773,7 +12800,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "BossesInfo",
       "Files": [
         {
@@ -12829,7 +12856,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BossesInfo\\Death System",
           "Files": [
             {

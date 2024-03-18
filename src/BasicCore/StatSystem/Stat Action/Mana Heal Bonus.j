@@ -1,7 +1,7 @@
 scope ManaHealBonus initializer init
 
 	private function condition takes nothing returns boolean
-		return StatSystem_IsHero(ChangeMagaHealBonus.TriggerUnit) and StatSystem_Get(ChangeMagaHealBonus.TriggerUnit, STAT_MANA_HEAL_BONUS) != 0
+		return StatSystem_IsHero(ChangeMagaHealBonus.TriggerUnit) and StatSystem_Get(ChangeMagaHealBonus.TriggerUnit, STAT_MANA_HEAL_BONUS) != BASE_VALUE
 	endfunction
 
 	private function action takes nothing returns nothing

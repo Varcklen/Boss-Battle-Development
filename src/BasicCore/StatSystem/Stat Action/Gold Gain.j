@@ -1,7 +1,7 @@
 scope GoldGain initializer init
 
 	private function condition takes nothing returns boolean
-		return /*StatSystem_IsHero(Event_OnMoneyChange_Caster) and*/ StatSystem_Get(Event_OnMoneyChange_Caster, STAT_GOLD_GAIN) != 0
+		return /*StatSystem_IsHero(Event_OnMoneyChange_Caster) and*/ StatSystem_Get(Event_OnMoneyChange_Caster, STAT_GOLD_GAIN) != BASE_VALUE
 	endfunction
 
 	private function action takes nothing returns nothing

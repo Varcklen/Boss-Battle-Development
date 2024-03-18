@@ -1,7 +1,7 @@
 scope BuffDuration initializer init
 
 	private function condition takes nothing returns boolean
-		return StatSystem_IsHero(ChangeBuffDuration.TriggerUnit) and StatSystem_Get(ChangeBuffDuration.TriggerUnit, STAT_BUFF_DURATION) != 0
+		return StatSystem_IsHero(ChangeBuffDuration.TriggerUnit) and StatSystem_Get(ChangeBuffDuration.TriggerUnit, STAT_BUFF_DURATION) != BASE_VALUE
 	endfunction
 
 	private function action takes nothing returns nothing

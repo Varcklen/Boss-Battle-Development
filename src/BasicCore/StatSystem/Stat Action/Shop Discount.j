@@ -1,7 +1,7 @@
 scope ShopDiscount initializer init
 
 	private function condition takes nothing returns boolean
-		return StatSystem_Get(ChangeGlobalJuleShopCost.TriggerUnit, STAT_SHOP_DISCOUNT) != 0
+		return StatSystem_Get(ChangeGlobalJuleShopCost.TriggerUnit, STAT_SHOP_DISCOUNT) != BASE_VALUE
 	endfunction
 
 	private function action takes nothing returns nothing

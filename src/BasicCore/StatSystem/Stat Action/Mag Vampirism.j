@@ -5,7 +5,7 @@ scope MagVampirism initializer init
 	endglobals
 
 	private function condition takes nothing returns boolean
-		return udg_IsDamageSpell and Loop == false and StatSystem_IsHero(udg_DamageEventSource) and StatSystem_Get(udg_DamageEventSource, STAT_VAMPIRISM_MAG) > 0
+		return udg_IsDamageSpell and Loop == false and StatSystem_IsHero(udg_DamageEventSource) and StatSystem_Get(udg_DamageEventSource, STAT_VAMPIRISM_MAG) > BASE_VALUE
 	endfunction
 
 	private function action takes nothing returns nothing

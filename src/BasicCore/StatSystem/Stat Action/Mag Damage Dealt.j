@@ -1,7 +1,7 @@
 scope MagDamageDealt initializer init
 
 	private function condition takes nothing returns boolean
-		return udg_IsDamageSpell and StatSystem_IsHero(udg_DamageEventSource) and StatSystem_Get(udg_DamageEventSource, STAT_DAMAGE_DEALT_MAG) != 0
+		return udg_IsDamageSpell and StatSystem_IsHero(udg_DamageEventSource) and StatSystem_Get(udg_DamageEventSource, STAT_DAMAGE_DEALT_MAG) != BASE_VALUE
 	endfunction
 
 	private function action takes nothing returns nothing

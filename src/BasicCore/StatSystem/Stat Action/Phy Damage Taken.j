@@ -1,7 +1,7 @@
 scope PhyDamageTaken initializer init
 
 	private function condition takes nothing returns boolean
-		return udg_IsDamageSpell == false and StatSystem_IsHero(udg_DamageEventTarget) and StatSystem_Get(udg_DamageEventTarget, STAT_DAMAGE_TAKEN_PHY) != 0
+		return udg_IsDamageSpell == false and StatSystem_IsHero(udg_DamageEventTarget) and StatSystem_Get(udg_DamageEventTarget, STAT_DAMAGE_TAKEN_PHY) != BASE_VALUE
 	endfunction
 
 	private function action takes nothing returns nothing

@@ -1,7 +1,7 @@
 scope DamageDealtBosses initializer init
 
 	private function condition takes nothing returns boolean
-		return StatSystem_IsHero(udg_DamageEventSource) and IsUnitType( udg_DamageEventTarget, UNIT_TYPE_ANCIENT) and StatSystem_Get(udg_DamageEventSource, STAT_DAMAGE_DEALT_BOSSES) != 0
+		return StatSystem_IsHero(udg_DamageEventSource) and IsUnitType( udg_DamageEventTarget, UNIT_TYPE_ANCIENT) and StatSystem_Get(udg_DamageEventSource, STAT_DAMAGE_DEALT_BOSSES) != BASE_VALUE
 	endfunction
 
 	private function action takes nothing returns nothing

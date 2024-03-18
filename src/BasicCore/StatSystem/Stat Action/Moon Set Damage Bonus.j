@@ -1,7 +1,7 @@
 scope MoonSetDamageBonus initializer init
 
 	private function condition takes nothing returns boolean
-		return StatSystem_Get(Event_UntilMoonSetCast_Hero, STAT_MOON_SET_DAMAGE_DEALT) != 0
+		return StatSystem_Get(Event_UntilMoonSetCast_Hero, STAT_MOON_SET_DAMAGE_DEALT) != BASE_VALUE
 	endfunction
 
 	private function action takes nothing returns nothing

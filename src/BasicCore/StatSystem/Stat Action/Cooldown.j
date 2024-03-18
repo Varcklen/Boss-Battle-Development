@@ -1,7 +1,7 @@
 scope Cooldown initializer init
 
 	private function condition takes nothing returns boolean
-		return StatSystem_IsHero(ChangeCooldown.TriggerUnit) and StatSystem_Get(ChangeCooldown.TriggerUnit, STAT_COOLDOWN) != 0
+		return StatSystem_IsHero(ChangeCooldown.TriggerUnit) and StatSystem_Get(ChangeCooldown.TriggerUnit, STAT_COOLDOWN) != BASE_VALUE
 	endfunction
 
 	private function action takes nothing returns nothing

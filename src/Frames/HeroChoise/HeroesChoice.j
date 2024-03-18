@@ -7,6 +7,8 @@ scope HeroesChoise initializer init
         unit Event_HeroChoose_Hero = null
         
         private FirstPosition tempPosition
+        
+        public constant integer STRING_HASH_SELECT = StringHash("is_hero_selected")
     endglobals
     
     struct FirstPosition
@@ -14,7 +16,7 @@ scope HeroesChoise initializer init
         real y
         real facing
     endstruct
-
+    
     private function Trig_HeroesChoise_Conditions takes nothing returns boolean
         return IsUnitType(GetEnteringUnit(), UNIT_TYPE_HERO) and udg_hero[GetPlayerId(GetOwningPlayer(GetEnteringUnit())) + 1] == null
     endfunction
@@ -86,12 +88,12 @@ scope HeroesChoise initializer init
         set hero = null
     endfunction
 
-    private function HeroPicked takes nothing returns nothing
-        local unit hero = Event_HeroPicked_Hero
-        local player owner = Event_HeroPicked_Player
+    private function SetHero takes unit hero, player owner, integer heroKey, integer class returns nothing
+        //local unit hero = Event_HeroPicked_Hero
+        //local player owner = Event_HeroPicked_Player
         local integer index = GetPlayerId(owner) + 1
-        local integer heroKey = Event_HeroPicked_HeroKey
-        local integer class = Event_HeroPicked_Class
+        //local integer heroKey = Event_HeroPicked_HeroKey
+        //local integer class = Event_HeroPicked_Class
         local FirstPosition position
         
         if udg_hero[index] != null then
@@ -107,6 +109,9 @@ scope HeroesChoise initializer init
         set udg_UnitHero[heroKey] = hero
         set udg_number[index + 100] = class + 1
         
+        call SavePlayerHandle(udg_hash, GetHandleId(hero), StringHash("main_owner"), owner )
+        call SaveBoolean(udg_hash, GetHandleId(hero), STRING_HASH_SELECT, true )
+        
         call MultiSetIcon( udg_multi, ( udg_Multiboard_Position[index] * 3 ) - 1, 3, udg_DB_Hero_Icon[heroKey] )
         if udg_SkinUsed[index] == 0 then
             call BlzFrameSetTexture( faceframe[index], udg_DB_Hero_Icon[heroKey], 0, false)
@@ -115,14 +120,9 @@ scope HeroesChoise initializer init
         //call MMD_UpdateValueString("hero",owner,GetUnitName(hero))
         call SetUnitUserData(hero, index)
         call SetClassNumber(hero)
-        //call GroupAddUnit( udg_otryad, hero )
         call GroupAddUnit( udg_heroinfo, hero )
         call FogModifierStop( udg_Visible[index] )
         call AddBonusItems(hero, index)
-        /*if IsTimerResume() then
-            call ResumeTimer(udg_timer[1])
-            call ResumeTimer(udg_timer[3])
-        endif */
 
         set Event_HeroChoose_Hero = hero
         set Event_HeroChoose_Real = 0.00
@@ -183,8 +183,10 @@ scope HeroesChoise initializer init
         call SetUnitState( hero, UNIT_STATE_MANA, GetUnitState( hero, UNIT_STATE_MAX_MANA ) )
         
         call position.destroy()
-        set hero = null
-        set owner = null
+    endfunction
+    
+    private function HeroPicked takes nothing returns nothing
+    	call SetHero(Event_HeroPicked_Hero, Event_HeroPicked_Player, Event_HeroPicked_HeroKey, Event_HeroPicked_Class)
     endfunction
 
     //===========================================================================

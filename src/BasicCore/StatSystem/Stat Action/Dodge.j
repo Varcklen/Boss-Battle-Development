@@ -8,7 +8,7 @@ scope Dodge initializer init
 		local real dodgeChance = StatSystem_Get(udg_DamageEventTarget, STAT_DODGE)
 		
 		//call BJDebugMsg("chance: " + R2S(dodgeChance * 100))
-		if dodgeChance <= 0 then
+		if dodgeChance <= BASE_VALUE then
 			return
 		endif
 		

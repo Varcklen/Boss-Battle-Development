@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.3.1T|r
+|cffbe81f7Boss Battle 1.5.3.2T|r
 }
 
 STRING 2
@@ -58,6 +58,7 @@ STRING 3
 |c00ffcc00-endnow|r Ends the current arena from Cute Bob. The command is only available to the host.
 |c00ffcc00-color X|r Changes the color of the player. Works only outside of combat. X is a number from 1 to 24.
 |c00ffcc00-notnew|r Turns off "beginner mode" and gives access to all stores.
+|c00ffcc00-clear|r Clears the message box of messages.
 }
 
 STRING 4
@@ -72777,7 +72778,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.3.1T|r
+|cffbe81f7Boss Battle 1.5.3.2T|r
 }
 
 STRING 11219

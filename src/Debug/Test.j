@@ -1,8 +1,33 @@
 scope Test initializer init
 	
 	private function action takes nothing returns nothing
-		call BJDebugMsg("TEST START")
-		call BJDebugMsg("Value: " + R2S(StatSystem_Get(udg_hero[1], STAT_VAMPIRISM_PHY)))
+		local group g = DeathSystem_GetAliveHeroGroupCopy()
+		local unit u
+		local integer i = 1
+		
+		call BJDebugMsg("TEST START " + I2S(GetRandomInt(1000,9999)))
+		call BJDebugMsg("|cffffcc00=====================================|r")
+		call BJDebugMsg("ALIVE" )
+		loop
+        	set u = FirstOfGroup(g)
+        	exitwhen u == null
+	        call BJDebugMsg("Unit #" + I2S(i) + ": " + GetUnitName(u))
+	        set i = i + 1
+	        call GroupRemoveUnit(g,u)
+	    endloop
+	    
+		call BJDebugMsg("------------------------------------------------")
+		call BJDebugMsg("DEAD" )
+		set g = DeathSystem_GetDeadHeroGroupCopy()
+		loop
+        	set u = FirstOfGroup(g)
+        	exitwhen u == null
+	        call BJDebugMsg("Unit #" + I2S(i) + ": " + GetUnitName(u))
+	        set i = i + 1
+	        call GroupRemoveUnit(g,u)
+	    endloop
+		
+		call DestroyGroup(g)
 	endfunction
 	
 	//===========================================================================
