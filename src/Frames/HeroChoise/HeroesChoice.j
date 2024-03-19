@@ -88,7 +88,7 @@ scope HeroesChoise initializer init
         set hero = null
     endfunction
 
-    private function SetHero takes unit hero, player owner, integer heroKey, integer class returns nothing
+    public function SetHero takes unit hero, player owner, integer heroKey, integer class returns nothing
         //local unit hero = Event_HeroPicked_Hero
         //local player owner = Event_HeroPicked_Player
         local integer index = GetPlayerId(owner) + 1

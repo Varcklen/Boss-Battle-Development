@@ -16,7 +16,8 @@ library AbilitySet initializer init requires Trigger
 	endfunction
 
 	private function OnHeroChoose takes nothing returns nothing
-		local unit hero = Event_HeroChoose_Hero
+		local integer id = GetHandleId( GetExpiredTimer( ) )
+	    local unit hero = LoadUnitHandle( udg_hash, id, StringHash( "ability_set_delay" ) )
 		
         call ModifyHeroSkillPoints( hero, bj_MODIFYMETHOD_ADD, 3 )
         //call BJDebugMsg("heroindex:" + I2S(heroindex))
@@ -25,12 +26,17 @@ library AbilitySet initializer init requires Trigger
 		if udg_Boss_LvL == 1 then
 			call ModifyHeroSkillPoints( hero, bj_MODIFYMETHOD_SET, 0 )
 		endif
+		call FlushChildHashtable( udg_hash, id )
 		
 		set hero = null
 	endfunction
 	
+	private function OnHeroChoose_Delay takes nothing returns nothing
+		call InvokeTimerWithUnit( Event_HeroChoose_Hero, "ability_set_delay", 0.1, false, function OnHeroChoose )
+	endfunction
+	
 	private function init takes nothing returns nothing
-		call CreateEventTrigger( "Event_HeroChoose_Real", function OnHeroChoose, null )
+		call CreateEventTrigger( "Event_HeroChoose_Real", function OnHeroChoose_Delay, null )
 	endfunction
 
 endlibrary

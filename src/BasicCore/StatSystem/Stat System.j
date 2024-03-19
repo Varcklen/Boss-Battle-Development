@@ -77,8 +77,10 @@ library StatSystem initializer init requires HeroesTable
 	
 	private function CheckUser takes player owner returns boolean
 		if owner == null then
+			//call BJDebugMsg("owner == null")
 			return true
 		elseif IsUserSlot(owner) == false then
+			//call BJDebugMsg("IsUserSlot(owner) == false")
 			return true
 		endif
 		return false
@@ -90,7 +92,11 @@ library StatSystem initializer init requires HeroesTable
 		local Stat statStruct
 		
 		if hero == null then
-			call BJDebugMsg("Error! StatSystem - Get: Unit is null! Unit: " + GetUnitName(hero) + " Stat Type: " + I2S(statEnum))
+			//call BJDebugMsg("Error! StatSystem - Get: Unit is null! Unit: " + GetUnitName(hero) + " Stat Type: " + I2S(statEnum))
+			return BASE_VALUE
+		endif
+		
+		if IsUnitType( hero, UNIT_TYPE_HERO) == false then
 			return BASE_VALUE
 		endif
 		
