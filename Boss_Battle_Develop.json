@@ -3426,7 +3426,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\EventSystem",
           "Files": [
             {
@@ -3462,7 +3462,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\DamageSystem",
           "Files": [
             {
@@ -3512,7 +3512,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "BasicCore\\StatSystem",
           "Files": [
             {
@@ -3539,7 +3539,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "BasicCore\\StatSystem\\Stat Action",
               "Files": [
                 {
@@ -4521,7 +4521,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Frames",
       "Files": [
         {
@@ -4993,7 +4993,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Frames\\HeroChoise",
           "Files": [
             {
@@ -5044,7 +5044,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Debug\\Cheat",
           "Files": [
             {
@@ -5270,6 +5270,13 @@
               "isExpanded": false,
               "path": "Debug\\Cheat\\CheatWhoDead.j",
               "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Debug\\Cheat\\CheatTakeMagicDamage.j",
+              "Files": []
             }
           ]
         },
@@ -5364,6 +5371,13 @@
           "isExpanded": false,
           "path": "Items\\Common",
           "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Arthur the Pure.j",
+              "Files": []
+            },
             {
               "isEnabled": true,
               "isInitiallyOn": true,
@@ -5586,6 +5600,41 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Common\\Boom Box.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Bandit Silent Steps.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Bandit Jacket Crit.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Bandit Armor Crit.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Bandit Armor Stun.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Breastplate of Judgement.j",
               "Files": []
             },
             {
@@ -5935,6 +5984,13 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
+              "path": "Items\\Common\\Karti the Straight.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Library Card.trg",
               "Files": []
             },
@@ -5967,10 +6023,24 @@
               "Files": []
             },
             {
-              "isEnabled": true,
+              "isEnabled": false,
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Common\\Mana Berries.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Mana Berries.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Moon Owl.j",
               "Files": []
             },
             {
@@ -6083,6 +6153,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Common\\Mechanical clock.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Manawyrm Fang.j",
               "Files": []
             },
             {
@@ -6247,6 +6324,13 @@
               "Files": []
             },
             {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Penny Pincher.j",
+              "Files": []
+            },
+            {
               "isEnabled": false,
               "isInitiallyOn": true,
               "isExpanded": false,
@@ -6328,6 +6412,20 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Common\\Runestone Ston.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Ruby oil.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Runestone Zolo.j",
               "Files": []
             },
             {
@@ -6643,7 +6741,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Rare",
           "Files": [
             {
@@ -7715,6 +7813,13 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
+              "path": "Items\\Legendary\\Bloody Rose.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
               "path": "Items\\Legendary\\CenariusSub.trg",
               "Files": []
             },
@@ -8177,6 +8282,13 @@
                   "isInitiallyOn": true,
                   "isExpanded": false,
                   "path": "Items\\Legendary\\Orbs\\OrbsNerzhulsAndOthers.trg",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Items\\Legendary\\Orbs\\OrbNerzhulAttack.j",
                   "Files": []
                 },
                 {
@@ -8651,7 +8763,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Extra",
           "Files": [
             {
@@ -9194,7 +9306,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Uniques",
           "Files": [
             {
@@ -10105,7 +10217,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Heroes\\Rippers",
           "Files": [
             {

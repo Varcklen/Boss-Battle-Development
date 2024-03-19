@@ -50,6 +50,19 @@ library EventDatabase initializer init requires EventSystem
         	new_value (real)
         	static_value (real)
         */
+        Event AfterAttack
+        /*
+        	caster (unit)
+        	target (unit)
+        	damage (real)
+        */
+        Event BeforeAttack
+        /*
+        	caster (unit)
+        	target (unit)
+        	damage (real) -- can be changed in the trigger
+        	static_damage (real)
+        */
     endglobals
     
     private function InitCustomEvents takes nothing returns nothing
@@ -62,6 +75,8 @@ library EventDatabase initializer init requires EventSystem
         set ChangeBuffDuration = Event.create("caster", null)
         set ChangeMagaHealBonus = Event.create("caster", null)
         set ChangeGlobalJuleShopCost = Event.create("caster", null)
+        set AfterAttack = Event.create("caster", "target")
+        set BeforeAttack = Event.create("caster", "target")
     endfunction
     
     /*Base Event Init*/

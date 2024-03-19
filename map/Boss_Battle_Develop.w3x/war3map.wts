@@ -2665,6 +2665,13 @@ STRING 429
 Erk
 }
 
+STRING 430
+// Items: I01W (Mana Berries), Description (Description)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Every third attack restores |cffbe81f712|r mana.
+}
+
 STRING 431
 // Units: O016 ((S) Shoggoth), Propernames (Proper Names)
 {
@@ -3193,6 +3200,12 @@ STRING 516
 // Units: N04K ((A) Soulstealer), Propernames (Proper Names)
 {
 Noctuna
+}
+
+STRING 517
+// Items: I01W (Mana Berries), Name (Name)
+{
+Mana Berries
 }
 
 STRING 518
@@ -7038,6 +7051,12 @@ STRING 1080
 Visarius the Follower
 }
 
+STRING 1081
+// Items: I01W (Mana Berries), Tip (Tooltip - Basic)
+{
+Mana Berries
+}
+
 STRING 1082
 // Items: IZ07 (Buy Order), Description (Description)
 {
@@ -9733,6 +9752,13 @@ When you kill an enemy, it absorbs their soul.
 Activation: Deals |cffbe81f2200|r damage to the enemy.
 Destroys all souls and deals an additional 200 damage per soul.
 |cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 1466
+// Items: I01W (Mana Berries), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Every third attack restores |cffbe81f712|r mana.
 }
 
 STRING 1467
@@ -19386,32 +19412,6 @@ STRING 2884
 |cff4169e1Rare|r, |cff00cceeCrystal|r
 Activation: Deals |cffbe81f7200|r damage to the enemy. If the hero’s has full health, it deals |cffbe81f7600|r damage instead.
 |cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 2885
-// Items: I01W (Mana berries), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Every third hit of the hero restores |cffbe81f712|r mana.
-}
-
-STRING 2886
-// Items: I01W (Mana berries), Name (Name)
-{
-Mana berries
-}
-
-STRING 2887
-// Items: I01W (Mana berries), Tip (Tooltip - Basic)
-{
-Mana berries
-}
-
-STRING 2888
-// Items: I01W (Mana berries), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Every third hit of the hero restores |cffbe81f712|r mana.
 }
 
 STRING 2889

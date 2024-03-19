@@ -33,7 +33,9 @@ library Trigger initializer init requires EventDatabase
     globals
     	public unit GlobalEventUnit = null
     
-		private constant integer KEY_NAME = StringHash("data_to_save")
+    	private constant string KEY_NAME_STRING = "data_to_save"
+		private constant integer KEY_NAME = StringHash(KEY_NAME_STRING + "1")
+		private constant integer EVENT_AMOUNT = StringHash("event_amount")
 		
 		private trigger array TriggerToExecute
 		private integer array ItemType
@@ -102,33 +104,77 @@ library Trigger initializer init requires EventDatabase
 	endfunction
 	
 	/*Custom Events*/
-	private function ExecuteActionCustom takes nothing returns nothing
-		local Event currentEvent = Event.Current
-		local unit triggerUnit = currentEvent.TriggerUnit
+	private function LaunchTrigger takes integer index, integer itemType, integer stringNumber, item itemCheck returns nothing
+		local integer number = LoadInteger( ItemTypeData, itemType, StringHash(KEY_NAME_STRING) + stringNumber )
+		
+		if number == 0 then
+			return
+		endif
+		
+		if EventSystem_EventUsedCustom[index] != EventTypeCustom[number] then
+			return
+		endif
+		
+		set ItemUsed = itemCheck
+		call ConditionalTriggerExecute( TriggerToExecute[number] )
+	endfunction
+	
+	private function NumberCheck takes integer index, item itemCheck returns nothing
+		local integer itemType = GetItemTypeId(itemCheck)
+		local integer amountOfEvents = LoadInteger(ItemTypeData, itemType, EVENT_AMOUNT)
+		local integer i
+		
+ 		if amountOfEvents == 1 then
+			call LaunchTrigger(index, itemType, amountOfEvents, itemCheck)
+		else
+			set i = 1
+			loop
+				exitwhen i > amountOfEvents
+				call LaunchTrigger(index, itemType, i, itemCheck)
+				set i = i + 1
+			endloop
+		endif
+	endfunction
+	
+	private function Launch takes unit triggerUnit, integer index returns nothing
+		local integer i
+		local integer iMax
 		local integer number
-		local integer i = 0
-		local integer iMax = UnitInventorySize(triggerUnit)
 		local item itemCheck
-		local integer index = LoadInteger( udg_hash, GetHandleId(GetTriggeringTrigger()), KEY_NAME )
-
+		
+		if IsUnitType( triggerUnit, UNIT_TYPE_HERO) == false then
+			return
+		endif
+	
+		set i = 0
+		set iMax = UnitInventorySize(triggerUnit)
 		loop
 			exitwhen i >= iMax
 			set itemCheck = UnitItemInSlot( triggerUnit, i )
-			set number = LoadInteger( ItemTypeData, GetItemTypeId(itemCheck), KEY_NAME )
-			if number != 0 and EventSystem_EventUsedCustom[index] == EventTypeCustom[number] then
-				set ItemUsed = itemCheck
-				call ConditionalTriggerExecute( TriggerToExecute[number] )
-			endif
+			call NumberCheck(index, itemCheck)
 			set i = i + 1
 		endloop
-		set ItemUsed = null
-		
 		set itemCheck = null
-		set triggerUnit = null
+	endfunction
+	
+	private function ExecuteActionCustom takes nothing returns nothing
+		local Event currentEvent = Event.Current
+		local integer index = LoadInteger( udg_hash, GetHandleId(GetTriggeringTrigger()), KEY_NAME )
+
+		/*TriggerUnit*/
+		call Launch(currentEvent.TriggerUnit, index)
+		/*TargetUnit*/
+		if currentEvent.TargetUnit != currentEvent.TriggerUnit then
+			call Launch(currentEvent.TargetUnit, index)
+		endif
+		
+		set ItemUsed = null
 	endfunction
 	
 	function RegisterDuplicatableItemTypeCustom takes integer itemType, Event eventType, code action, code condition returns nothing
 	    local trigger triggerToExecute = CreateTrigger()
+	    local integer amountOfEvents = LoadInteger(ItemTypeData, itemType, EVENT_AMOUNT) + 1
+	    local integer stringHash
 	    
 	    call TriggerAddAction( triggerToExecute, action )
 	    if condition != null then
@@ -138,9 +184,16 @@ library Trigger initializer init requires EventDatabase
 	    set TriggerToExecute[ActionListMax] = triggerToExecute
 	    set ItemType[ActionListMax] = itemType
 	    set EventTypeCustom[ActionListMax] = eventType
+	    
 	    call SaveInteger( ItemTypeData, itemType, KEY_NAME, ActionListMax )
+	    
+	    set stringHash = StringHash(KEY_NAME_STRING) + amountOfEvents
+	    call SaveInteger( ItemTypeData, itemType, stringHash, ActionListMax )
+	    
 	    set ActionListMax = ActionListMax + 1
-
+	    
+	    call SaveInteger(ItemTypeData, itemType, EVENT_AMOUNT, amountOfEvents )
+	    
 		set triggerToExecute = null
 	endfunction
 	

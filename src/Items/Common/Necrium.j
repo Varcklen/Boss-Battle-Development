@@ -20,14 +20,18 @@ scope Necrium initializer init
 	endfunction
 	
 	private function AttackChange_Condition takes nothing returns boolean
-        return udg_IsDamageSpell and inv( udg_DamageEventTarget, ITEM_ID) > 0
+        return udg_IsDamageSpell
 	endfunction
 	
 	private function AttackChange takes nothing returns nothing
-		local real damageReduction = Event_OnDamageChange_StaticDamage * DAMAGE_REDUCTION
+		local unit target = BeforeAttack.GetDataUnit("target")
+	    local real damageReduction = BeforeAttack.GetDataReal("static_damage") * DAMAGE_REDUCTION
+	    local real damage = BeforeAttack.GetDataReal("damage")
 		
-		call manast(udg_DamageEventTarget, null, damageReduction )
-        set udg_DamageEventAmount = udg_DamageEventAmount - damageReduction
+		call manast(target, null, damageReduction )
+        call BeforeAttack.SetDataReal("damage", damage - damageReduction )
+        
+        set target = null
 	endfunction
 	
 	private function init takes nothing returns nothing
@@ -41,7 +45,8 @@ scope Necrium initializer init
 	    call TriggerAddCondition( trig, Condition( function ItemInventory_Condition ) )
 	    call TriggerAddAction( trig, function Remove )
 	    
-	    call CreateEventTrigger( "Event_OnDamageChange_Real", function AttackChange, function AttackChange_Condition )
+	    //call CreateEventTrigger( "Event_OnDamageChange_Real", function AttackChange, function AttackChange_Condition )
+	    call RegisterDuplicatableItemTypeCustom( ITEM_ID, BeforeAttack, function AttackChange, function AttackChange_Condition )
 	endfunction
 
 endscope
