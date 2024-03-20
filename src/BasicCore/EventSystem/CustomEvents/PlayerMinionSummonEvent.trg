@@ -1,0 +1,11 @@
+{
+  "Id": 50332182,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_PlayerMinionSummonEvent_Conditions takes nothing returns boolean\r\n    return udg_hero[GetPlayerId(GetOwningPlayer(GetEnteringUnit())) + 1] != null\r\nendfunction\r\n\r\nfunction SummonEventCondition takes integer own returns boolean\r\n\r\n    if IsUnitType(GetEnteringUnit(), UNIT_TYPE_ANCIENT ) then\r\n        return true\r\n    elseif IsUnitType(GetEnteringUnit(), UNIT_TYPE_HERO ) then\r\n        return true\r\n    elseif not(IsUnitInGroup(udg_hero[own], udg_heroinfo)) then\r\n        return true\r\n    elseif GetUnitTypeId(GetEnteringUnit()) == 'u00X' then \r\n        return true\r\n    elseif GetUnitTypeId(GetEnteringUnit()) == 'u000' then\r\n        return true\r\n    endif\r\n        \r\n    return false\r\nendfunction\r\n\r\nfunction Trig_PlayerMinionSummonEvent_Actions takes nothing returns nothing\r\n    local integer own = GetPlayerId(GetOwningPlayer(GetEnteringUnit())) + 1\r\n    \r\n    if SummonEventCondition(own) then\r\n        return\r\n    endif\r\n    set udg_Event_PlayerMinionSummon_Hero = udg_hero[own]\r\n    set udg_Event_PlayerMinionSummon_Unit = GetEnteringUnit()\r\n    \r\n    set udg_Event_PlayerMinionSummon_Real = 0\r\n    set udg_Event_PlayerMinionSummon_Real = 1\r\n    set udg_Event_PlayerMinionSummon_Real = 0\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_PlayerMinionSummonEvent takes nothing returns nothing\r\n    set gg_trg_PlayerMinionSummonEvent = CreateTrigger(  )\r\n    call TriggerRegisterEnterRectSimple( gg_trg_PlayerMinionSummonEvent, bj_mapInitialPlayableArea )\r\n    //call TriggerRegisterEnterRectSimple( gg_trg_PlayerMinionSummonEvent, GetWorldBounds() )\r\n    call TriggerAddCondition( gg_trg_PlayerMinionSummonEvent, Condition( function Trig_PlayerMinionSummonEvent_Conditions ) )\r\n    call TriggerAddAction( gg_trg_PlayerMinionSummonEvent, function Trig_PlayerMinionSummonEvent_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

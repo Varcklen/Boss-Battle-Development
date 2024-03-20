@@ -1,4 +1,4 @@
-library EventDatabase initializer init requires EventSystem
+library EventDatabase initializer init requires EventSystem, BaseEventSystem
 
 	/*Custom Event Init*/
     globals
@@ -58,18 +58,47 @@ library EventDatabase initializer init requires EventSystem
         	new_value (real)
         	static_value (real)
         */
-        Event AfterAttack
-        /*
-        	caster (unit)
-        	target (unit)
-        	damage (real)
-        */
         Event BeforeAttack
         /*
         	caster (unit)
         	target (unit)
         	damage (real) -- can be changed in the trigger
         	static_damage (real)
+        */
+        Event AfterAttack
+        /*
+        	caster (unit)
+        	target (unit)
+        	damage (real)
+        */
+        Event BeforeItemSplit
+        /*
+        	caster (unit)
+        	item_used (item)
+        */
+        Event UnitDied
+        /*
+        	killer (unit)
+        	unit_died (unit)
+        */
+        Event AnyHeroDied
+        /*
+        	caster (unit)
+        	unit_died (unit)
+        */
+        Event BeforeHeal
+        /*
+        	caster (unit)
+        	target (unit)
+        	heal (real) -- can be changed in the trigger
+        	static_heal (real)
+        */
+        Event AfterHeal
+        /*
+        	caster (unit)
+        	target (unit)
+        	heal (real)
+        	raw_heal (real)
         */
     endglobals
     
@@ -84,23 +113,18 @@ library EventDatabase initializer init requires EventSystem
         set ChangeBuffDuration = Event.create("caster", null)
         set ChangeMagaHealBonus = Event.create("caster", null)
         set ChangeGlobalJuleShopCost = Event.create("caster", null)
-        set AfterAttack = Event.create("caster", "target")
         set BeforeAttack = Event.create("caster", "target")
+        set AfterAttack = Event.create("caster", "target")
+        set BeforeItemSplit = Event.create("caster", null)
+        set UnitDied = Event.create("killer", "unit_died")
+        set AnyHeroDied = Event.create("caster", "unit_died")
+        set BeforeHeal = Event.create("caster", "target")
+        set AfterHeal = Event.create("caster", "target")
     endfunction
     
     /*Base Event Init*/
-    globals
-		public playerunitevent array EventUsed
-		public integer EventUsed_Max = 1
-	endglobals
-	
-	private function SetBaseEvent takes playerunitevent eventUsed returns nothing
-		set EventUsed[EventUsed_Max] = eventUsed
-		set EventUsed_Max = EventUsed_Max + 1
-    endfunction
-    
 	private function InitBaseEvents takes nothing returns nothing
-		call SetBaseEvent(EVENT_PLAYER_UNIT_SPELL_EFFECT)
+		call BaseEvent.create(EVENT_PLAYER_UNIT_SPELL_EFFECT)
     endfunction
     
     /*Init*/

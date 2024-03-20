@@ -23,7 +23,7 @@ scope BanditArmorStun initializer init
 	endfunction
 	
 	private function init takes nothing returns nothing
-	    call RegisterDuplicatableItemTypeCustom( ITEM_ID, AfterAttack, function action, function condition )
+	    call RegisterDuplicatableItemTypeCustom( ITEM_ID, AfterAttack, function action, function condition, "caster" )
 	endfunction
 	
 endscope

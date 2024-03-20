@@ -16,7 +16,7 @@ scope ManaNeedle initializer init
 
 	private function init takes nothing returns nothing
 	    //call CreateEventTrigger( "udg_AfterDamageEvent", function OnAfterDamageEvent, null )
-	    call RegisterDuplicatableItemTypeCustom( ITEM_ID, AfterAttack, function OnAfterDamageEvent, null )
+	    call RegisterDuplicatableItemTypeCustom( ITEM_ID, AfterAttack, function OnAfterDamageEvent, null, "target" )
 	endfunction
 	
 endscope

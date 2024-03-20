@@ -8813,13 +8813,6 @@ STRING 1329
 When you attack, you have a |cffd7df0150%|r chance to deal 3x more damage, otherwise you will miss.
 }
 
-STRING 1330
-// Items: I0CO (Felweed), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff7cfc00Nature|r
-When your hero is healed, deals |cffbe81f7damage|r equal to that healing to a random enemy nearby.
-}
-
 STRING 1331
 // Items: I0CO (Felweed), Name (Name)
 {
@@ -8830,13 +8823,6 @@ STRING 1332
 // Items: I0CO (Felweed), Tip (Tooltip - Basic)
 {
 Felweed
-}
-
-STRING 1333
-// Items: I0CO (Felweed), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff7cfc00Nature|r
-When your hero is healed, deals |cffbe81f7damage|r equal to that healing to a random enemy nearby.
 }
 
 STRING 1334
@@ -11457,14 +11443,6 @@ STRING 1713
 Activation: |cffcc0000Corrupted|r. Gives an artifact of |cffbababccommon|r quality. If there are no other artifacts in the inventory, it gives three artifacts of |cffbababccommon|r quality instead.
 }
 
-STRING 1714
-// Items: I0A0 (Lollipop), Description (Description)
-{
-|cffbababcCommon|r
-Your health-restoring abilities and items, with a probability of |cffd7df0125%|r, will restore 2 times more health.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1715
 // Items: I0A0 (Lollipop), Name (Name)
 {
@@ -11475,14 +11453,6 @@ STRING 1716
 // Items: I0A0 (Lollipop), Tip (Tooltip - Basic)
 {
 Lollipop
-}
-
-STRING 1717
-// Items: I0A0 (Lollipop), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Your health-restoring abilities and items, with a probability of |cffd7df0125%|r, will restore 2 times more health.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1718
@@ -28445,6 +28415,14 @@ STRING 4259
 Chief of the Guard
 }
 
+STRING 4260
+// Items: I0A0 (Lollipop), Description (Description)
+{
+|cffbababcCommon|r
+Your health-restoring abilities and items, with a probability of |cffd7df0125%|r, will restore 100% more health.
+|cff81f260[Random bonus]|r
+}
+
 STRING 4261
 // Abilities: A16Y (Босс 4: Начальник стражи (Аура)), Name (Name)
 {
@@ -28479,6 +28457,14 @@ STRING 4266
 // Abilities: A16U (|cffffcc00Уровень 7:|r Горный великан), Tip (Tooltip - Normal)
 {
 Mountain giant
+}
+
+STRING 4267
+// Items: I0A0 (Lollipop), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Your health-restoring abilities and items, with a probability of |cffd7df0125%|r, will restore 100% more health.
+|cff81f260[Random bonus]|r
 }
 
 STRING 4268
@@ -31336,6 +31322,13 @@ STRING 4706
 Horseman of the Apocalypse
 }
 
+STRING 4707
+// Items: I0CO (Felweed), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff7cfc00Nature|r
+When you restore health with abilities or items, deals |cffbe81f7damage|r equal to that healing to a random enemy nearby.
+}
+
 STRING 4708
 // Abilities: A13C (Босс 6: Морская черепаха (Девятый вал)), Name (Name)
 {
@@ -31370,6 +31363,13 @@ STRING 4713
 // Abilities: A13A (|cffffcc00Уровень 6:|r Морская черепаха), Tip (Tooltip - Normal)
 {
 Sea turtle
+}
+
+STRING 4714
+// Items: I0CO (Felweed), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff7cfc00Nature|r
+When you restore health with abilities or items, deals |cffbe81f7damage|r equal to that healing to a random enemy nearby.
 }
 
 STRING 4715

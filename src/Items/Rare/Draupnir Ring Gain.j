@@ -18,7 +18,7 @@ scope DraupnirRingGain initializer init
 	endfunction
 	
 	private function init takes nothing returns nothing
-	    call RegisterDuplicatableItemTypeCustom( ITEM_ID, BattleEnd, function action, function condition )
+	    call RegisterDuplicatableItemTypeCustom( ITEM_ID, BattleEnd, function action, function condition, null )
 	endfunction
 	
 endscope
