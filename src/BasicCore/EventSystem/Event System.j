@@ -89,6 +89,7 @@ library EventSystem initializer init
         
         //! runtextmacro BaseValue("Integer", "integer")
         //! runtextmacro BaseValue("Real", "real")
+        //! runtextmacro BaseValue("Boolean", "boolean")
         
         //! textmacro HandleValue takes TYPENAME, TYPEWORD  
         method SetData$TYPENAME$ takes string keyName, $TYPEWORD$ value returns nothing

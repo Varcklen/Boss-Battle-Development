@@ -8,7 +8,7 @@ scope BanditJacketCrit initializer init
 	endglobals
 
 	private function condition takes nothing returns boolean 
-		call BJDebugMsg("caster: " + GetUnitName(BeforeAttack.TriggerUnit))
+		//call BJDebugMsg("caster: " + GetUnitName(BeforeAttack.TriggerUnit))
 		return udg_IsDamageSpell == false and LuckChance( BeforeAttack.TriggerUnit, CHANCE )
 	endfunction 
 

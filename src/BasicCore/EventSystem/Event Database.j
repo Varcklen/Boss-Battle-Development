@@ -14,6 +14,14 @@ library EventDatabase initializer init requires EventSystem
             owner (player)
         */
         
+        Event BattleEnd 
+         /*
+            caster (unit)
+            index (integer)
+            owner (player)
+            is_win (boolean)
+        */
+        
         Event AllHeroesDied
         /*
         */
@@ -68,6 +76,7 @@ library EventDatabase initializer init requires EventSystem
     private function InitCustomEvents takes nothing returns nothing
         set PotionUsed = Event.create("caster", null)
         set BattleStart = Event.create("caster", null)
+        set BattleEnd = Event.create("caster", null)
         set AllHeroesDied = Event.create(null, null)
         set BetweenBattles = Event.create(null, null)
         set SetRandomHeroes = Event.create(null, null)
