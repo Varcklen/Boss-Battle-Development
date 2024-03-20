@@ -13,13 +13,18 @@ library DeathSystem initializer init requires Trigger
 
 	//Functions
 	//===========================================================================
+	//Do not use. Only for Debugging
 	public function DEBUG takes unit hero returns nothing
 		call GroupAddUnit( AliveHeroes, hero)
 	endfunction
 	
-	public function BattleRessurect takes unit hero returns nothing
+	//Do not use. Only for BattleResurrectLib
+	public function BattleRessurect_Remove takes unit hero returns nothing
 		call GroupRemoveUnit( DeadHeroes, hero )
 	endfunction
+	/*public function BattleRessurect_Add takes unit hero returns nothing
+		call GroupAddUnit( AliveHeroes, hero )
+	endfunction*/
 	
 	public function GetAmountOfDiedHeroes takes nothing returns integer
 		return CountUnitsInGroup(DeadHeroes)
@@ -30,7 +35,8 @@ library DeathSystem initializer init requires Trigger
 	endfunction
 	
 	public function AddHeroIntoAliveGroup takes unit hero returns nothing
-		if IsUnitInGroup( hero, DeadHeroes ) == false then
+		if IsUnitInGroup( hero, udg_heroinfo ) == false then
+			call BJDebugMsg( "Error! DeathSystem_AddHeroIntoAliveGroup: You're trying to interact with non-hero: " + GetUnitName(hero) )
 			return
 		endif
 	
@@ -56,7 +62,7 @@ library DeathSystem initializer init requires Trigger
 	public function GetDeadHeroGroupCopy takes nothing returns group
 		set temp_Group = CreateGroup()
 		
-		call GroupAddGroup( AliveHeroes, temp_Group )
+		call GroupAddGroup( DeadHeroes, temp_Group )
 		return temp_Group
 	endfunction
 	

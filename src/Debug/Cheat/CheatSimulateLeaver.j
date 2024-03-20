@@ -11,10 +11,10 @@ scope CheatSimulateLeaver initializer init
 	endfunction
 
 	private function init takes nothing returns nothing
-	    set trig_CheatOutOfCombatTimer = CreateTrigger()
-	    call DisableTrigger( trig_CheatOutOfCombatTimer )
-	    call TriggerRegisterPlayerChatEvent( trig_CheatOutOfCombatTimer, Player(0), "-leaver", false )
-	    call TriggerAddAction( trig_CheatOutOfCombatTimer, function action )
+	    set trig_CheatSimulateLeaver = CreateTrigger()
+	    call DisableTrigger( trig_CheatSimulateLeaver )
+	    call TriggerRegisterPlayerChatEvent( trig_CheatSimulateLeaver, Player(0), "-leaver", false )
+	    call TriggerAddAction( trig_CheatSimulateLeaver, function action )
 	endfunction
 
 endscope

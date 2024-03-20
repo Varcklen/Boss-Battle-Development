@@ -1,11 +1,10 @@
-scope SuperSeven
+scope SacredStone
 
     globals
         private constant integer ID_ABILITY = 'AZ05'
         private constant integer ID_ITEM = 'IZ01'
         private constant integer MULTIPLIER = 2
         private constant integer CAP = 100000
-        
     endglobals
 
     function Trig_SuperSeven_Conditions takes nothing returns boolean
@@ -65,7 +64,7 @@ scope SuperSeven
 	        call UnitDamageTarget( bj_lastCreatedUnit, target, dmg, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)
 	        call healst( caster, null, pwr )
 	        call manast( caster, null, pwr )
-	        call shield( caster, caster, pwr, 60 )
+	        call shield( caster, caster, pwr )
 	        
 	        set cyclA = cyclA + 1
 	    endloop

@@ -57,6 +57,7 @@ scope TotemOfExchange initializer init
 	        call Use(caster)
 	        set cyclA = cyclA + 1
 	    endloop
+	    call SetUnitState( caster, UNIT_STATE_LIFE, RMaxBJ(0,GetUnitState( caster, UNIT_STATE_LIFE) - 75 ))
 	    
 	    set caster = null
 	endfunction
