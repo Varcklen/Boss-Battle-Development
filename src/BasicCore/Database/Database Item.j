@@ -284,6 +284,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL3_Common[BaseNum()] = 'I0FT' 
 	    set udg_DB_Item_ForLvL3_Common[BaseNum()] = 'I041'
 	    set udg_DB_Item_ForLvL3_Common[BaseNum()] = 'IZ09'
+	    set udg_DB_Item_ForLvL3_Common[BaseNum()] = 'IZ10'
 	    set udg_DB_NumLvLItems[3] = udg_base
 	    
 	    // =======================================================
@@ -1104,6 +1105,7 @@ library LibDataItems
 	    set DB_SetItems[7][BaseNum()] = 'I0G6'
 	    set DB_SetItems[7][BaseNum()] = 'IZ04'
 	    set DB_SetItems[7][BaseNum()] = 'IZ09'
+	    set DB_SetItems[7][BaseNum()] = 'IZ10'
 	    
 	    set DB_SetItems[7][BaseNum()] = 'I052'
 	    set udg_DB_SetItems_Num[7] = udg_base

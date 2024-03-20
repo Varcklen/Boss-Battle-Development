@@ -5754,6 +5754,14 @@ Only works in combat.
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 893
+// Items: IZ10 (Refreshing Lemons), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+When any hero is revived, apply damage absorbing |cffbe81f7shield|r to them equal to their health.
+|cff81f260[Random bonus]|r
+}
+
 STRING 894
 // Items: I0FP (Orb of the Rolling Plains), Name (Name)
 {
@@ -6041,6 +6049,12 @@ STRING 932
 Activation: Transforms into a random activated artifact. The new artifact has this effect. Only works in battle.
 }
 
+STRING 933
+// Items: IZ10 (Refreshing Lemons), Name (Name)
+{
+Refreshing Lemons
+}
+
 STRING 934
 // Items: I0FF (Pact of Fire), Name (Name)
 {
@@ -6051,6 +6065,12 @@ STRING 935
 // Items: I0FF (Pact of Fire), Tip (Tooltip - Basic)
 {
 Pact of Fire
+}
+
+STRING 936
+// Items: IZ10 (Refreshing Lemons), Tip (Tooltip - Basic)
+{
+Refreshing Lemons
 }
 
 STRING 937
@@ -9697,6 +9717,20 @@ If your inventory contains 6 artifacts from the "|cff7cfc00Nature|r" set, gives 
 |cff81f260[Random bonus]|r
 }
 
+STRING 1455
+// Items: IZ10 (Refreshing Lemons), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+When any hero is revived, apply damage absorbing |cffbe81f7shield|r to them equal to their health.
+|cff81f260[Random bonus]|r
+}
+
+STRING 1456
+// Abilities: A0R7 (Sludge: Devouring Flesh), Name (Name)
+{
+Sludge: Devouring Flesh
+}
+
 STRING 1457
 // Items: I0BT (Steel Rose), Ubertip (Tooltip - Extended)
 {
@@ -10655,6 +10689,21 @@ STRING 1594
 {
 |cff4169e1Rare|r, |cff7cfc00Nature|r
 Your health-restoring abilities and items restore 20% more health.
+}
+
+STRING 1595
+// Abilities: A0R7 (Sludge: Devouring Flesh), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f7160/200/240/280/320|r damage to target.
+If it dies, gain 80/90/100/110/120 health and 2 attack. Then, for the rest of the battle, gaining health this way becomes 50% less effective, up to 10 health at lowest.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 100 mana.
+}
+
+STRING 1596
+// Abilities: A0R7 (Sludge: Devouring Flesh), Researchtip (Tooltip - Learn)
+{
+Devouring Flesh, [|cffffcc00Level %d|r]
 }
 
 STRING 1597
@@ -11991,6 +12040,12 @@ STRING 1789
 {
 Inflicts |cffbe81f7250|r fire damage to an enemy. With a probability of |cffd7df0180%|r, gives a ruby.
 |cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 1790
+// Abilities: A0R7 (Sludge: Devouring Flesh), Tip (Tooltip - Normal)
+{
+Devouring Flesh, [|cffffcc00Level 1|r]
 }
 
 STRING 1791
@@ -13849,6 +13904,18 @@ STRING 2060
 Every 10 seconds, the hero burns |cffbe81f712|r mana and increases spell power by 0.5%.
 }
 
+STRING 2061
+// Abilities: A0R7 (Sludge: Devouring Flesh), Tip (Tooltip - Normal)
+{
+Devouring Flesh, [|cffffcc00Level 2|r]
+}
+
+STRING 2062
+// Abilities: A0R7 (Sludge: Devouring Flesh), Tip (Tooltip - Normal)
+{
+Devouring Flesh, [|cffffcc00Level 3|r]
+}
+
 STRING 2063
 // Items: I07L (Playful Spirit), Ubertip (Tooltip - Extended)
 {
@@ -14089,6 +14156,18 @@ Activation: Increases attack power by 15, armor by 3 and gives |cffbe81f720%|r v
 |cffffcc00Cost:|r 75 health.
 }
 
+STRING 2097
+// Abilities: A0R7 (Sludge: Devouring Flesh), Tip (Tooltip - Normal)
+{
+Devouring Flesh, [|cffffcc00Level 4|r]
+}
+
+STRING 2098
+// Abilities: A0R7 (Sludge: Devouring Flesh), Tip (Tooltip - Normal)
+{
+Devouring Flesh, [|cffffcc00Level 5|r]
+}
+
 STRING 2099
 // Items: I07C (Prophet Mask), Ubertip (Tooltip - Extended)
 {
@@ -14212,6 +14291,14 @@ STRING 2115
 Reduces attack power of the hero and bosses by 30%.
 }
 
+STRING 2116
+// Abilities: A0R7 (Sludge: Devouring Flesh), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7160|r damage to target.
+If it dies, gain 80 health and 2 attack. Then, for the rest of the battle, gaining health this way becomes 50% less effective, up to 10 health at lowest.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 2117
 // Items: I077 (Falka), Name (Name)
 {
@@ -14222,6 +14309,14 @@ STRING 2118
 // Items: I077 (Falka), Tip (Tooltip - Basic)
 {
 Falka
+}
+
+STRING 2119
+// Abilities: A0R7 (Sludge: Devouring Flesh), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7200|r damage to target.
+If it dies, gain 90 health and 2 attack. Then, for the rest of the battle, gaining health this way becomes 50% less effective, up to 10 health at lowest.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 2120
@@ -19368,6 +19463,22 @@ Activation: Deals |cffbe81f7200|r damage to the enemy. If the hero’s has full 
 |cffffcc00Cost:|r 60 mana.
 }
 
+STRING 2882
+// Abilities: A0R7 (Sludge: Devouring Flesh), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7240|r damage to target.
+If it dies, gain 100 health and 2 attack. Then, for the rest of the battle, gaining health this way becomes 50% less effective, up to 10 health at lowest.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 2883
+// Abilities: A0R7 (Sludge: Devouring Flesh), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7280|r damage to target.
+If it dies, gain 110 health and 2 attack. Then, for the rest of the battle, gaining health this way becomes 50% less effective, up to 10 health at lowest.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 2884
 // Items: I01X (Ruby Diamond), Ubertip (Tooltip - Extended)
 {
@@ -20600,6 +20711,20 @@ STRING 3061
 |cff4169e1Rare|r, |cff00cceeCrystal|r
 Activation: Deals |cffbe81f7100|r damage to the enemy. Restores the hero’s mana equal to the damage dealt.
 |cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 3062
+// Abilities: A0R7 (Sludge: Devouring Flesh), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7320|r damage to target.
+If it dies, gain 120 health and 2 attack. Then, for the rest of the battle, gaining health this way becomes 50% less effective, up to 10 health at lowest.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 3063
+// Abilities: A0SS (Poison Touch), Ubertip (Tooltip - Normal - Extended)
+{
+When this is attacked, inflicts poison on the enemy, which slows down attack and movement speed by 20% and deals |cffbe81f715|r damage every second.
 }
 
 STRING 3064
@@ -27873,6 +27998,12 @@ STRING 4175
 Brain Freeze, [|cffffcc00Level %d|r]
 }
 
+STRING 4176
+// Abilities: A0SO (Devouring Flesh), Name (Name)
+{
+Devouring Flesh
+}
+
 STRING 4177
 // Abilities: A17O (Wicerd: Brain Freeze), Tip (Tooltip - Normal)
 {
@@ -27911,6 +28042,19 @@ Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f7
 |cffffcc00Cooldown:|r 10 seconds.
 
 |cFF959697Frozen enemies attack and move 35% slower.|r
+}
+
+STRING 4183
+// Abilities: A0SO (Devouring Flesh), Tip (Tooltip - Normal)
+{
+Devouring Flesh
+}
+
+STRING 4184
+// Abilities: A0SO (Devouring Flesh), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7damage|r to target. If it dies, gain health and attack. Then, for the rest of the battle, gaining health this way becomes 50% less effective.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 4187
@@ -39500,7 +39644,7 @@ Murloc: Dousing
 }
 
 STRING 5954
-// Abilities: A0SO (Devouring flesh), Hotkey (Hotkey - Normal)
+// Abilities: A0SO (Devouring Flesh), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -40122,12 +40266,6 @@ STRING 6047
 Poison Touch
 }
 
-STRING 6048
-// Abilities: A0SS (Poison Touch), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero is attacked, inflicts poison on the enemy, which slows down movement speed by 20% and deals |cffbe81f75|r damage every second.
-}
-
 STRING 6049
 // Abilities: A0SR (Аура: Counterstrike), Name (Name)
 {
@@ -40150,25 +40288,6 @@ STRING 6052
 // Abilities: A0SI (Demoman: Bad things), Hotkey (Hotkey - Normal)
 {
 W
-}
-
-STRING 6053
-// Abilities: A0SO (Devouring flesh), Name (Name)
-{
-Devouring flesh
-}
-
-STRING 6054
-// Abilities: A0SO (Devouring flesh), Tip (Tooltip - Normal)
-{
-Devouring flesh
-}
-
-STRING 6055
-// Abilities: A0SO (Devouring flesh), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7damage|r to target. If the target dies, increases caster health by 25 and attack power by 1.
-|cffffcc00Cooldown:|r 16 seconds.
 }
 
 STRING 6056
@@ -41308,7 +41427,7 @@ At. Speed (Безрассудство)
 }
 
 STRING 6231
-// Abilities: A0R7 (Sludge: Devouring flesh), Hotkey (Hotkey - Normal)
+// Abilities: A0R7 (Sludge: Devouring Flesh), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -41454,101 +41573,15 @@ STRING 6260
 }
 
 STRING 6261
-// Abilities: A0R7 (Sludge: Devouring flesh), Researchhotkey (Hotkey - Learn)
+// Abilities: A0R7 (Sludge: Devouring Flesh), Researchhotkey (Hotkey - Learn)
 {
 W
-}
-
-STRING 6262
-// Abilities: A0R7 (Sludge: Devouring flesh), Name (Name)
-{
-Sludge: Devouring flesh
 }
 
 STRING 6263
 // Abilities: A0R4 (Alchemist: Acid burst), Hotkey (Hotkey - Normal)
 {
 W
-}
-
-STRING 6264
-// Abilities: A0R7 (Sludge: Devouring flesh), Researchtip (Tooltip - Learn)
-{
-Devouring flesh, [|cffffcc00Level %d|r]
-}
-
-STRING 6265
-// Abilities: A0R7 (Sludge: Devouring flesh), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f7160/200/240/280/320|r damage to target.
-If the target dies, increases caster health by 25 and attack power by 1.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
-STRING 6266
-// Abilities: A0R7 (Sludge: Devouring flesh), Tip (Tooltip - Normal)
-{
-Devouring flesh, [|cffffcc00Level 1|r]
-}
-
-STRING 6267
-// Abilities: A0R7 (Sludge: Devouring flesh), Tip (Tooltip - Normal)
-{
-Devouring flesh, [|cffffcc00Level 2|r]
-}
-
-STRING 6268
-// Abilities: A0R7 (Sludge: Devouring flesh), Tip (Tooltip - Normal)
-{
-Devouring flesh, [|cffffcc00Level 3|r]
-}
-
-STRING 6269
-// Abilities: A0R7 (Sludge: Devouring flesh), Tip (Tooltip - Normal)
-{
-Devouring flesh, [|cffffcc00Level 4|r]
-}
-
-STRING 6270
-// Abilities: A0R7 (Sludge: Devouring flesh), Tip (Tooltip - Normal)
-{
-Devouring flesh, [|cffffcc00Level 5|r]
-}
-
-STRING 6271
-// Abilities: A0R7 (Sludge: Devouring flesh), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7160|r damage to target. If the target dies, increases caster health by 25 and attack power by 1.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6272
-// Abilities: A0R7 (Sludge: Devouring flesh), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7200|r damage to target. If the target dies, increases caster health by 25 and attack power by 1.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6273
-// Abilities: A0R7 (Sludge: Devouring flesh), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7240|r damage to target. If the target dies, increases caster health by 25 and attack power by 1.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6274
-// Abilities: A0R7 (Sludge: Devouring flesh), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7280|r damage to target. If the target dies, increases caster health by 25 and attack power by 1.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6275
-// Abilities: A0R7 (Sludge: Devouring flesh), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7320|r damage to target. If the target dies, increases caster health by 25 and attack power by 1.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 6276
