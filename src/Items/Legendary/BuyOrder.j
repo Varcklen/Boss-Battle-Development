@@ -8,6 +8,10 @@ scope BuyOrder initializer init
 	private function condition takes nothing returns boolean
     	return GetSpellAbilityId() == ID_BUYORDER_CAST and notCombat( GetSpellAbilityUnit(), true, ID_BUYORDER_CAST ) and GetItemTypeId(GetSpellTargetItem()) != ID_BUYORDER and GetItemTypeId(GetSpellTargetItem()) != 'I030' and GetItemType(GetSpellTargetItem()) != ITEM_TYPE_POWERUP and GetItemType(GetSpellTargetItem()) != ITEM_TYPE_PURCHASABLE and GetItemType(GetSpellTargetItem()) != ITEM_TYPE_MISCELLANEOUS
 	endfunction
+	
+	private function AfterRefresh takes nothing returns nothing
+		call IconFrameDel( "buy_order" )
+	endfunction
 
 	private function action takes nothing returns nothing
     	local integer cyclA = 1
@@ -46,7 +50,8 @@ scope BuyOrder initializer init
    	     	call JuleLib_SetFutureItem( h, itd )
        		call JuleLib_SetFutureCost( h, result )
        		call textst( "|c00909090 Deficit!", u, 64, 90, 10, 1 )
-   	     endif
+   	    endif
+   	    call IconFrame( "buy_order", "war3mapImported\\BTNSpy.blp", GetItemName(it), "Next time Jule's shop is refreshed, there will be more copies of |cffffcc00" + GetItemName(GetSpellTargetItem()) + "|r in stock." )
     	call stazisst( u, it )
     	
     	set u = null
@@ -60,6 +65,8 @@ scope BuyOrder initializer init
     	call TriggerAddCondition( trig, Condition( function condition ) )
 		call TriggerAddAction( trig, function action)
 		set trig = null
+		
+		call AfterJuleRefresh.AddListener(function AfterRefresh, null)
 	endfunction
 
 endscope

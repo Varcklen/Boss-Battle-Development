@@ -2,12 +2,15 @@ library AggroSystem initializer init requires DeathSystem
 
 	globals
 		private constant integer COMMAND_CHECK = OrderId("stop")
+		
+		private constant integer ORDER_CHANGE_RANGE = 800
 	endglobals
 
 	// Выбор цели для противников
 	function aggro takes unit unitForced returns nothing
 	    local unit target 
 	
+		//call BJDebugMsg("aggro")
 		//If provoced
 		if GetUnitAbilityLevel( unitForced, 'B059') > 0 then
 			return
@@ -23,8 +26,14 @@ library AggroSystem initializer init requires DeathSystem
 			return
 		endif
 		
-		call IssueTargetOrder( unitForced, "attackonce", target )
-        
+		//call BJDebugMsg("unitForced:" + GetUnitName(unitForced))
+		//call BJDebugMsg("unitForced:" + GetUnitName(target))
+		if DistanceBetweenUnits(unitForced, target) > ORDER_CHANGE_RANGE then
+			call IssueTargetOrder( unitForced, "attackonce", target )
+		else
+			call IssuePointOrder( unitForced, "attack", GetUnitX(target), GetUnitY(target) )
+		endif
+		
         set target = null
 	endfunction
 

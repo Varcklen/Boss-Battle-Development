@@ -8813,6 +8813,13 @@ STRING 1329
 When you attack, you have a |cffd7df0150%|r chance to deal 3x more damage, otherwise you will miss.
 }
 
+STRING 1330
+// Abilities: A0CK (Skeletlord: Skelemagic), Researchubertip (Tooltip - Learn - Extended)
+{
+When the enemy dies, summons a skeleton. Attack and Health of skeletons increases with each level.
+|cffffcc00Life time:|r 15 seconds.
+}
+
 STRING 1331
 // Items: I0CO (Felweed), Name (Name)
 {
@@ -55174,7 +55181,7 @@ Skelemagic, [|cffffcc00Level %d|r]
 }
 
 STRING 8404
-// Abilities: A0CK (Skeletlord: Skelemagic), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A0CK (Skeletlord: Skelemagic), Ubertip (Tooltip - Normal - Extended)
 {
 When the enemy dies, summons a skeleton.
 |cffffcc00Life time:|r 15 seconds.
@@ -55208,13 +55215,6 @@ STRING 8409
 // Abilities: A0CK (Skeletlord: Skelemagic), Tip (Tooltip - Normal)
 {
 Skelemagic, [|cffffcc00Level 5|r]
-}
-
-STRING 8410
-// Abilities: A0CK (Skeletlord: Skelemagic), Ubertip (Tooltip - Normal - Extended)
-{
-When the enemy dies, summons a skeleton.
-|cffffcc00Life time:|r 15 seconds.
 }
 
 STRING 8411

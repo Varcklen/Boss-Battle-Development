@@ -100,6 +100,19 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         	heal (real)
         	raw_heal (real)
         */
+        Event AlliedMinionSummoned
+        /*
+        	caster (unit)
+        	minion (unit)
+        */
+        Event AnyUnitDied
+        /*
+        	caster (unit)
+        	unit_died (unit)
+        */
+        Event AfterJuleRefresh
+        /*
+        */
     endglobals
     
     private function InitCustomEvents takes nothing returns nothing
@@ -120,6 +133,9 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         set AnyHeroDied = Event.create("caster", "unit_died")
         set BeforeHeal = Event.create("caster", "target")
         set AfterHeal = Event.create("caster", "target")
+        set AlliedMinionSummoned = Event.create("caster", "minion")
+        set AnyUnitDied = Event.create("caster", "unit_died")
+        set AfterJuleRefresh = Event.create(null, null)
     endfunction
     
     /*Base Event Init*/
