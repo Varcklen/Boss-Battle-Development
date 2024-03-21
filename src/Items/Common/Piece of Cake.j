@@ -31,7 +31,7 @@ scope PieceOfCake initializer init
 	
 	//===========================================================================
 	private function init takes nothing returns nothing
-		call RegisterDuplicatableItemTypeCustom( ITEM_ID, PotionUsed, function action, null)
+		call RegisterDuplicatableItemTypeCustom( ITEM_ID, PotionUsed, function action, null, "caster")
 		
 		call CreateEventTrigger( "Event_BetweenUnit", function DeleteBonus, null )
 	endfunction

@@ -23,7 +23,7 @@ private function actions takes nothing returns nothing
     exitwhen u == null
     	set amount = inv( u, ITEM )
     	if amount > 0 then
-            call shield( u, rev, R2I(amount * health) , 60 )
+            call shield( u, rev, R2I(amount * health) )
     	endif
     	call GroupRemoveUnit( g, u )
     endloop

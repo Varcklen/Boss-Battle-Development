@@ -33,7 +33,7 @@ scope ReadBroW initializer init
 	    
 	    call SetUnitPosition( caster, x, y )
 	    call SetUnitPosition( target, xCaster, yCaster )
-	    call GroupAoE( caster, null, x, y, damage, AREA, "enemy", ANIMATION, ANIMATION_DAMAGE )
+	    call GroupAoE( caster, x, y, damage, AREA, "enemy", ANIMATION, ANIMATION_DAMAGE )
 	    call DestroyEffect( AddSpecialEffectTarget( ANIMATION, target, "origin" ) )
 	    
 	    call FlushChildHashtable( udg_hash, id )
@@ -84,7 +84,7 @@ scope ReadBroW initializer init
 	    set yCaster = GetUnitY( caster )
 	    set damage = DAMAGE_INITIAL + (DAMAGE_PER_LEVEL * lvl)
 	    
-	    call GroupAoE( caster, null, xCaster, yCaster, damage, AREA, "enemy", ANIMATION, ANIMATION_DAMAGE )
+	    call GroupAoE( caster, xCaster, yCaster, damage, AREA, "enemy", ANIMATION, ANIMATION_DAMAGE )
 	    
 	    set id = GetHandleId( caster )
 	    

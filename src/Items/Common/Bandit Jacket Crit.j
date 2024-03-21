@@ -8,7 +8,7 @@ scope BanditJacketCrit initializer init
 	endglobals
 
 	private function condition takes nothing returns boolean 
-		call BJDebugMsg("caster: " + GetUnitName(BeforeAttack.TriggerUnit))
+		//call BJDebugMsg("caster: " + GetUnitName(BeforeAttack.TriggerUnit))
 		return udg_IsDamageSpell == false and LuckChance( BeforeAttack.TriggerUnit, CHANCE )
 	endfunction 
 
@@ -21,7 +21,7 @@ scope BanditJacketCrit initializer init
 	endfunction
 	
 	private function init takes nothing returns nothing
-	    call RegisterDuplicatableItemTypeCustom( ITEM_ID, BeforeAttack, function action, function condition )
+	    call RegisterDuplicatableItemTypeCustom( ITEM_ID, BeforeAttack, function action, function condition, "caster" )
 	endfunction
 	
 endscope

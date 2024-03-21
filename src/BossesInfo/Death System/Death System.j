@@ -105,7 +105,7 @@ library DeathSystem initializer init requires Trigger
 	
 	private function Check takes unit diedHero returns boolean
 		if IsTriggerEnabled(DeathEvent) == false then
-			call BJDebugMsg("Error! DeathSystem - Check: You're trying to check if all heroes died while trigger is disabled!")
+			//call BJDebugMsg("Error! DeathSystem - Check: You're trying to check if all heroes died while trigger is disabled!")
 			return false
 		endif
 	
@@ -115,7 +115,7 @@ library DeathSystem initializer init requires Trigger
 	        call GroupRemoveUnit( AliveHeroes, diedHero)
         endif
         
-        if IsUnitGroupEmptyBJ(AliveHeroes) then
+        if IsUnitGroupEmptyBJ(AliveHeroes) and BattleRessurectLib_IsAnyUnderRessurection.evaluate() == false then
         	call AllHeroesDied.Invoke()
         	return true
         endif

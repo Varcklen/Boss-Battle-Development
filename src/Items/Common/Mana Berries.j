@@ -36,7 +36,7 @@ scope ManaBerries initializer init
 	    call TriggerAddCondition( gg_trg_Mana_Berries, Condition( function Trig_Mana_Berries_Conditions ) )
 	    call TriggerAddAction( gg_trg_Mana_Berries, function Trig_Mana_Berries_Actions )*/
 	    
-	    call RegisterDuplicatableItemTypeCustom( ITEM_ID, AfterAttack, function action, function condition )
+	    call RegisterDuplicatableItemTypeCustom( ITEM_ID, AfterAttack, function action, function condition, "caster" )
 	endfunction
 
 endscope

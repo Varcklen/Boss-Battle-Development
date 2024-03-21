@@ -60,7 +60,7 @@ scope GDMagicHat initializer init
 	endfunction
 
 	private function init takes nothing returns nothing
-		call RegisterDuplicatableItemTypeCustom( ITEM_ID, BattleStart, function action, null)
+		call RegisterDuplicatableItemTypeCustom( ITEM_ID, BattleStart, function action, null, null)
 		
 		call CreateEventTrigger( "udg_FightEnd_Real", function FightEndDelBuff, null )
 	endfunction

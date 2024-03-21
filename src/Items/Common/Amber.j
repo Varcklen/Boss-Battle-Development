@@ -24,7 +24,7 @@ scope Amber initializer init
 	endfunction
 
 	private function init takes nothing returns nothing
-		call RegisterDuplicatableItemTypeCustom( ITEM_ID, BattleStart, function action, null)
+		call RegisterDuplicatableItemTypeCustom( ITEM_ID, BattleStart, function action, null, null)
 	endfunction
 
 endscope

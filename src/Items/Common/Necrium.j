@@ -46,7 +46,7 @@ scope Necrium initializer init
 	    call TriggerAddAction( trig, function Remove )
 	    
 	    //call CreateEventTrigger( "Event_OnDamageChange_Real", function AttackChange, function AttackChange_Condition )
-	    call RegisterDuplicatableItemTypeCustom( ITEM_ID, BeforeAttack, function AttackChange, function AttackChange_Condition )
+	    call RegisterDuplicatableItemTypeCustom( ITEM_ID, BeforeAttack, function AttackChange, function AttackChange_Condition, "target" )
 	endfunction
 
 endscope

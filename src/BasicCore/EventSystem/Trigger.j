@@ -36,6 +36,7 @@ library Trigger initializer init requires EventDatabase
     	private constant string KEY_NAME_STRING = "data_to_save"
 		private constant integer KEY_NAME = StringHash(KEY_NAME_STRING + "1")
 		private constant integer EVENT_AMOUNT = StringHash("event_amount")
+		private constant integer USED_UNIT_HASH = StringHash("used_unit")
 		
 		private trigger array TriggerToExecute
 		private integer array ItemType
@@ -52,26 +53,49 @@ library Trigger initializer init requires EventDatabase
 	endfunction
 
 	/*Base Events*/
-	private function ExecuteAction takes unit triggerUnit returns nothing
+	//==========================================================
+	private function LaunchBase takes unit triggerUnit, integer index returns nothing
+		local integer i
+		local integer iMax
 		local integer number
-		local integer i = 0
-		local integer iMax = UnitInventorySize(triggerUnit)
 		local item itemCheck
-		local integer index = LoadInteger( udg_hash, GetHandleId(GetTriggeringTrigger()), KEY_NAME )
-
+		
+		//call BJDebugMsg("triggerUnit: " + GetUnitName(triggerUnit))
+		if IsUnitType( triggerUnit, UNIT_TYPE_HERO) == false then
+			return
+		endif
+		//call BJDebugMsg("CONTINUE")
+	
+		set i = 0
+		set iMax = UnitInventorySize(triggerUnit)
 		loop
 			exitwhen i >= iMax
 			set itemCheck = UnitItemInSlot( triggerUnit, i )
 			set number = LoadInteger( ItemTypeData, GetItemTypeId(itemCheck), KEY_NAME )
-			if number != 0 and EventDatabase_EventUsed[index] == EventType[number] then
+			if number != 0 and BaseEventSystem_EventUsed[index].Event == EventType[number] then
 				set ItemUsed = itemCheck
 				call ConditionalTriggerExecute( TriggerToExecute[number] )
 			endif
 			set i = i + 1
 		endloop
-		set ItemUsed = null
-		
 		set itemCheck = null
+	endfunction
+	
+	private function ExecuteAction takes unit triggerUnit returns nothing
+		local integer index = LoadInteger( udg_hash, GetHandleId(GetTriggeringTrigger()), KEY_NAME )
+		/*local BaseEvent baseEvent = BaseEventSystem_GetBaseEvent(index)
+		local unit targetUnit = BaseEventSystem_GetTargetUnit(baseEvent.TargetId)*/
+
+		/*TriggerUnit*/
+		//call BJDebugMsg("TriggerUnit")
+		call LaunchBase(triggerUnit, index)
+		/*TargetUnit*/
+		/*if triggerUnit != targetUnit then
+			call BJDebugMsg("targetUnit")
+			call LaunchBase(targetUnit, index)
+		endif*/
+		
+		set ItemUsed = null
 	endfunction
 	
 	private function ActionUse takes nothing returns nothing
@@ -97,15 +121,19 @@ library Trigger initializer init requires EventDatabase
 	
 	private function CreateEvent takes integer index returns nothing
 		local trigger trig = CreateTrigger()
-		call TriggerRegisterAnyUnitEventBJ( trig, EventDatabase_EventUsed[index] )
+		call TriggerRegisterAnyUnitEventBJ( trig, BaseEventSystem_EventUsed[index].Event )
 	    call TriggerAddAction( trig, function ActionUse )
 	    call SaveInteger( udg_hash, GetHandleId(trig), KEY_NAME, index )
 	    set trig = null
 	endfunction
+	//==========================================================
+	
 	
 	/*Custom Events*/
-	private function LaunchTrigger takes integer index, integer itemType, integer stringNumber, item itemCheck returns nothing
+	//==========================================================
+	private function LaunchTrigger takes integer index, integer itemType, integer stringNumber, item itemCheck, string unitTypeName returns nothing
 		local integer number = LoadInteger( ItemTypeData, itemType, StringHash(KEY_NAME_STRING) + stringNumber )
+		local string unitUsed = LoadStr( ItemTypeData, itemType, USED_UNIT_HASH )
 		
 		if number == 0 then
 			return
@@ -115,35 +143,43 @@ library Trigger initializer init requires EventDatabase
 			return
 		endif
 		
+		/*call BJDebugMsg("number: " + I2S(number))
+		call BJDebugMsg("unitUsed: " + unitUsed)
+		call BJDebugMsg("unitTypeName: " + unitTypeName)*/
+		if ( unitUsed == null or unitUsed == unitTypeName ) == false then
+			return
+		endif
+		//call BJDebugMsg("works!")
+		
 		set ItemUsed = itemCheck
 		call ConditionalTriggerExecute( TriggerToExecute[number] )
 	endfunction
 	
-	private function NumberCheck takes integer index, item itemCheck returns nothing
+	private function NumberCheck takes integer index, item itemCheck, string unitTypeName returns nothing
 		local integer itemType = GetItemTypeId(itemCheck)
 		local integer amountOfEvents = LoadInteger(ItemTypeData, itemType, EVENT_AMOUNT)
 		local integer i
 		
  		if amountOfEvents == 1 then
-			call LaunchTrigger(index, itemType, amountOfEvents, itemCheck)
+			call LaunchTrigger(index, itemType, amountOfEvents, itemCheck, unitTypeName)
 		else
 			set i = 1
 			loop
 				exitwhen i > amountOfEvents
-				call LaunchTrigger(index, itemType, i, itemCheck)
+				call LaunchTrigger(index, itemType, i, itemCheck, unitTypeName)
 				set i = i + 1
 			endloop
 		endif
 	endfunction
 	
-	private function Launch takes unit triggerUnit, integer index returns nothing
+	private function Launch takes unit triggerUnit, integer index, string unitTypeName returns boolean
 		local integer i
 		local integer iMax
 		local integer number
 		local item itemCheck
 		
 		if IsUnitType( triggerUnit, UNIT_TYPE_HERO) == false then
-			return
+			return false
 		endif
 	
 		set i = 0
@@ -151,27 +187,50 @@ library Trigger initializer init requires EventDatabase
 		loop
 			exitwhen i >= iMax
 			set itemCheck = UnitItemInSlot( triggerUnit, i )
-			call NumberCheck(index, itemCheck)
+			call NumberCheck(index, itemCheck, unitTypeName)
 			set i = i + 1
 		endloop
 		set itemCheck = null
+		return true
 	endfunction
+	
+	/*private function FindHero takes unit triggeredUnit, unit targetUnit, integer index returns unit
+		local boolean isTriggerUnitHero = IsUnitType( triggeredUnit, UNIT_TYPE_HERO)
+		local boolean isTargetUnitHero = IsUnitType( targetUnit, UNIT_TYPE_HERO)
+		
+		if isTriggerUnitHero and isTargetUnitHero and triggeredUnit != targetUnit then
+			call BJDebugMsg("isTriggerUnitHero and isTargetUnitHero")
+			call Launch(triggeredUnit, index)
+			return targetUnit
+		elseif isTriggerUnitHero then
+			call BJDebugMsg("isTriggerUnitHero")
+			return triggeredUnit
+		elseif isTargetUnitHero then
+			call BJDebugMsg("isTargetUnitHero")
+			return targetUnit
+		endif
+		return null
+	endfunction*/
 	
 	private function ExecuteActionCustom takes nothing returns nothing
 		local Event currentEvent = Event.Current
 		local integer index = LoadInteger( udg_hash, GetHandleId(GetTriggeringTrigger()), KEY_NAME )
-
+		
+		/*if hero != null then
+			call Launch(hero, index)
+		endif*/
+		
 		/*TriggerUnit*/
-		call Launch(currentEvent.TriggerUnit, index)
+		call Launch(currentEvent.TriggerUnit, index, currentEvent.TriggerUnitName)
 		/*TargetUnit*/
 		if currentEvent.TargetUnit != currentEvent.TriggerUnit then
-			call Launch(currentEvent.TargetUnit, index)
+			call Launch(currentEvent.TargetUnit, index, currentEvent.TargetUnitName)
 		endif
 		
 		set ItemUsed = null
 	endfunction
 	
-	function RegisterDuplicatableItemTypeCustom takes integer itemType, Event eventType, code action, code condition returns nothing
+	function RegisterDuplicatableItemTypeCustom takes integer itemType, Event eventType, code action, code condition, string usedUnitName returns nothing
 	    local trigger triggerToExecute = CreateTrigger()
 	    local integer amountOfEvents = LoadInteger(ItemTypeData, itemType, EVENT_AMOUNT) + 1
 	    local integer stringHash
@@ -189,6 +248,7 @@ library Trigger initializer init requires EventDatabase
 	    
 	    set stringHash = StringHash(KEY_NAME_STRING) + amountOfEvents
 	    call SaveInteger( ItemTypeData, itemType, stringHash, ActionListMax )
+	    call SaveStr( ItemTypeData, itemType, USED_UNIT_HASH, usedUnitName )
 	    
 	    set ActionListMax = ActionListMax + 1
 	    
@@ -203,13 +263,14 @@ library Trigger initializer init requires EventDatabase
 		call SaveInteger( udg_hash, GetHandleId(trig), KEY_NAME, index )
 		set trig = null
 	endfunction
+	//==========================================================
 	
 	/*Event Creation*/
 	private function CreateEvents takes nothing returns nothing
 		local integer i = 1
 		
 		loop
-			exitwhen i >= EventDatabase_EventUsed_Max
+			exitwhen i >= BaseEventSystem_EventUsed_Max
 			call CreateEvent(i)
 			set i = i + 1
 		endloop

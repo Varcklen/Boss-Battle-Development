@@ -172,7 +172,7 @@ scope MepthistarExtra initializer init
 	    loop
 	        exitwhen i > PLAYERS_LIMIT
 	        if unitst( udg_hero[i], udg_Mephistar, "ally" ) then 
-	            call GroupAoE( udg_Mephistar, null, GetUnitX( udg_hero[i] ), GetUnitY( udg_hero[i] ), MEPHISTAR_E_MOON_DAMAGE, MEPHISTAR_E_MOON_AREA, "enemy", "war3mapImported\\ArcaneExplosion.mdx", null )
+	            call GroupAoE( udg_Mephistar, GetUnitX( udg_hero[i] ), GetUnitY( udg_hero[i] ), MEPHISTAR_E_MOON_DAMAGE, MEPHISTAR_E_MOON_AREA, "enemy", "war3mapImported\\ArcaneExplosion.mdx", null )
 	        endif
 	        set i = i + 1
 	    endloop

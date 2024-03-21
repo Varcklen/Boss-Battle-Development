@@ -1,4 +1,4 @@
-library EventDatabase initializer init requires EventSystem
+library EventDatabase initializer init requires EventSystem, BaseEventSystem
 
 	/*Custom Event Init*/
     globals
@@ -12,6 +12,14 @@ library EventDatabase initializer init requires EventSystem
             caster (unit)
             index (integer)
             owner (player)
+        */
+        
+        Event BattleEnd 
+         /*
+            caster (unit)
+            index (integer)
+            owner (player)
+            is_win (boolean)
         */
         
         Event AllHeroesDied
@@ -50,12 +58,6 @@ library EventDatabase initializer init requires EventSystem
         	new_value (real)
         	static_value (real)
         */
-        Event AfterAttack
-        /*
-        	caster (unit)
-        	target (unit)
-        	damage (real)
-        */
         Event BeforeAttack
         /*
         	caster (unit)
@@ -63,11 +65,60 @@ library EventDatabase initializer init requires EventSystem
         	damage (real) -- can be changed in the trigger
         	static_damage (real)
         */
+        Event AfterAttack
+        /*
+        	caster (unit)
+        	target (unit)
+        	damage (real)
+        */
+        Event BeforeItemSplit
+        /*
+        	caster (unit)
+        	item_used (item)
+        */
+        Event UnitDied
+        /*
+        	killer (unit)
+        	unit_died (unit)
+        */
+        Event AnyHeroDied
+        /*
+        	caster (unit)
+        	unit_died (unit)
+        */
+        Event BeforeHeal
+        /*
+        	caster (unit)
+        	target (unit)
+        	heal (real) -- can be changed in the trigger
+        	static_heal (real)
+        */
+        Event AfterHeal
+        /*
+        	caster (unit)
+        	target (unit)
+        	heal (real)
+        	raw_heal (real)
+        */
+        Event AlliedMinionSummoned
+        /*
+        	caster (unit)
+        	minion (unit)
+        */
+        Event AnyUnitDied
+        /*
+        	caster (unit)
+        	unit_died (unit)
+        */
+        Event AfterJuleRefresh
+        /*
+        */
     endglobals
     
     private function InitCustomEvents takes nothing returns nothing
         set PotionUsed = Event.create("caster", null)
         set BattleStart = Event.create("caster", null)
+        set BattleEnd = Event.create("caster", null)
         set AllHeroesDied = Event.create(null, null)
         set BetweenBattles = Event.create(null, null)
         set SetRandomHeroes = Event.create(null, null)
@@ -75,23 +126,21 @@ library EventDatabase initializer init requires EventSystem
         set ChangeBuffDuration = Event.create("caster", null)
         set ChangeMagaHealBonus = Event.create("caster", null)
         set ChangeGlobalJuleShopCost = Event.create("caster", null)
-        set AfterAttack = Event.create("caster", "target")
         set BeforeAttack = Event.create("caster", "target")
+        set AfterAttack = Event.create("caster", "target")
+        set BeforeItemSplit = Event.create("caster", null)
+        set UnitDied = Event.create("killer", "unit_died")
+        set AnyHeroDied = Event.create("caster", "unit_died")
+        set BeforeHeal = Event.create("caster", "target")
+        set AfterHeal = Event.create("caster", "target")
+        set AlliedMinionSummoned = Event.create("caster", "minion")
+        set AnyUnitDied = Event.create("caster", "unit_died")
+        set AfterJuleRefresh = Event.create(null, null)
     endfunction
     
     /*Base Event Init*/
-    globals
-		public playerunitevent array EventUsed
-		public integer EventUsed_Max = 1
-	endglobals
-	
-	private function SetBaseEvent takes playerunitevent eventUsed returns nothing
-		set EventUsed[EventUsed_Max] = eventUsed
-		set EventUsed_Max = EventUsed_Max + 1
-    endfunction
-    
 	private function InitBaseEvents takes nothing returns nothing
-		call SetBaseEvent(EVENT_PLAYER_UNIT_SPELL_EFFECT)
+		call BaseEvent.create(EVENT_PLAYER_UNIT_SPELL_EFFECT)
     endfunction
     
     /*Init*/
