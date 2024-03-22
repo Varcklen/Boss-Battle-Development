@@ -40,7 +40,6 @@ scope Exchange3 initializer init
             call UnitAddItem( hero, udg_auctionartif[friendIndex] )
         endif
         
-        set udg_auctionartif[friendIndex] = null
         set udg_auctionlogic[index] = false
         call DestroyEffect( AddSpecialEffectTarget( "Abilities\\Spells\\Human\\Resurrect\\ResurrectTarget.mdl", hero, "origin" ) )
         call SetUnitOwner( udg_artifzone[index], Player(PLAYER_NEUTRAL_PASSIVE), true )
@@ -131,9 +130,12 @@ scope Exchange3 initializer init
         if udg_auctionlogic[friendIndex] then
         	call MakeExchange( owner, hero, index, friendPlayer, friendHero, friendIndex )
         	call MakeExchange( friendPlayer, friendHero, friendIndex, owner, hero, index )
+        	
+        	set udg_auctionartif[index] = null
+        	set udg_auctionartif[friendIndex] = null
         else
-            call DisplayTimedTextToPlayer( owner, 0, 0, 5, "Wait for the other player to click |cffffcc00\"Make an Exchange\"|r." )
-            call DisplayTimedTextToPlayer( friendPlayer, 0, 0, 5, "Another player is ready to complete the exchange. Click |cffffcc00'Make an exchange'|r." )
+            call DisplayTimedTextToPlayer( owner, 0, 0, 5, "Wait for " + GetPlayerName(friendPlayer) + " player to click |cffffcc00\"Make an Exchange\"|r." )
+            call DisplayTimedTextToPlayer( friendPlayer, 0, 0, 5, GetPlayerName(owner) + " player is ready to complete the exchange. Click |cffffcc00'Make an exchange'|r." )
         endif
 	        
 	    set friendHero = null

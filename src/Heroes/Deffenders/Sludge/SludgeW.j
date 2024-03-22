@@ -63,6 +63,7 @@ private function castActions takes nothing returns nothing
             set lvl = GetUnitAbilityLevel(caster, ABILITY)
         endif
     endif
+
     set dmg = DAMAGE + DAMAGELVL * lvl
     set pid = GetPlayerId( GetOwningPlayer( caster ) ) + 1
 

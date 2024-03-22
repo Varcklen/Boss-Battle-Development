@@ -379,7 +379,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Two[69] = gg_trg_RunesmithW
 	    
 	    // Триггеры способности №3
-	    set udg_Database_NumberItems[16] = 74
+	    set udg_Database_NumberItems[16] = 73
 	    set udg_DB_Trigger_Three[1] = gg_trg_BeornR
 	    set udg_DB_Trigger_Three[2] = gg_trg_OwlR
 	    set udg_DB_Trigger_Three[3] = gg_trg_DruidR
@@ -451,9 +451,8 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Three[69] = gg_trg_MorlocE
 	    set udg_DB_Trigger_Three[70] = gg_trg_BardR
 	    set udg_DB_Trigger_Three[71] = gg_trg_CorruptedEntR
-	    set udg_DB_Trigger_Three[72] = gg_trg_LycanthropeR
+	    set udg_DB_Trigger_Three[72] = trig_MephistarE
 	    set udg_DB_Trigger_Three[73] = gg_trg_ShepherdR
-	    set udg_DB_Trigger_Three[74] = trig_MephistarE
 	    
 	    // First spell
 	    //udg_DB_Hero_FirstSpell

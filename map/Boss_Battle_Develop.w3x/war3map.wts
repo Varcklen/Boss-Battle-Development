@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.3.4T|r
+|cffbe81f7Boss Battle 1.5.3.5T|r
 }
 
 STRING 2
@@ -8832,6 +8832,12 @@ STRING 1332
 Felweed
 }
 
+STRING 1333
+// Abilities: A0SM (|cffffcc00Уровень 10:|r Рыцарь в странной броне), Tip (Tooltip - Normal)
+{
+|cFFFE8A0ELAST BOSS:|r Knight in Strange Armor
+}
+
 STRING 1334
 // Items: I0CN (Icethorn), Description (Description)
 {
@@ -11450,6 +11456,17 @@ STRING 1713
 Activation: |cffcc0000Corrupted|r. Gives an artifact of |cffbababccommon|r quality. If there are no other artifacts in the inventory, it gives three artifacts of |cffbababccommon|r quality instead.
 }
 
+STRING 1714
+// Abilities: A0SM (|cffffcc00Уровень 10:|r Рыцарь в странной броне), Ubertip (Tooltip - Normal - Extended)
+{
+- Boss appears in the arena after 10 seconds and stuns enemies for 1 seconds.
+- Every 12 seconds, pushes enemies in front of him and deals |cffbe81f7400|r damage to them.
+- Every 10 seconds, it marks a random hero. After 3 seconds, shoots a fiery projectile at the marked hero that deals |cffbe81f7400|r damage.
+- Every 15 seconds, creates a zone under each hero that explodes after 3 seconds and deals |cffbe81f7500|r damage.
+- |cff00cceeAt 30%, 50% and 70% health:|r The boss is stunned and becomes invulnerable for 5 seconds. Reduces the cooldown of abilities by 20%. At this time, zones appear under the heroes, which explode after 2 seconds and deal |cffbe81f7200|r damage.
+- |cff00cceeAt 20% health:|r Stuns all nearby enemies for 3 seconds.
+}
+
 STRING 1715
 // Items: I0A0 (Lollipop), Name (Name)
 {
@@ -11460,6 +11477,12 @@ STRING 1716
 // Items: I0A0 (Lollipop), Tip (Tooltip - Basic)
 {
 Lollipop
+}
+
+STRING 1717
+// Abilities: A1FR (Invulnerable (Battle Ressurection)), Name (Name)
+{
+Invulnerable (Battle Ressurection)
 }
 
 STRING 1718
@@ -31427,6 +31450,12 @@ STRING 4722
 Clockwork cutter
 }
 
+STRING 4723
+// Abilities: A1FS (Invul (Battle Ressurection)), Name (Name)
+{
+Invul (Battle Ressurection)
+}
+
 STRING 4724
 // Abilities: A134 (Прочее: Осколок души: Soul rapture), Name (Name)
 {
@@ -31778,10 +31807,22 @@ Reduces allied magic damage taken by 35%. When the target takes magical damage, 
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 4778
+// Abilities: A0SE (Босс 10: Морпех (Аура неуяз)), Tip (Tooltip - Normal)
+{
+Неуязвимость
+}
+
 STRING 4779
 // Abilities: A12A (Altar: Drain Life), Hotkey (Hotkey - Normal)
 {
 E
+}
+
+STRING 4780
+// Abilities: A0SE (Босс 10: Морпех (Аура неуяз)), Ubertip (Tooltip - Normal - Extended)
+{
+Неуязвимость
 }
 
 STRING 4790
@@ -40081,12 +40122,6 @@ STRING 6061
 |cffffcc00Уровень 10:|r Рыцарь в странной броне
 }
 
-STRING 6062
-// Abilities: A0SM (|cffffcc00Уровень 10:|r Рыцарь в странной броне), Tip (Tooltip - Normal)
-{
-|cFFFE8A0ELAST BOSS:|r Knight in strange armor
-}
-
 STRING 6064
 // Abilities: A0SL (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -40427,13 +40462,13 @@ STRING 6113
 }
 
 STRING 6114
-// Abilities: A0SE (Босс 10: Морпех (Аура неуяз)), Tip (Tooltip - Normal)
+// Abilities: A0M7 (Моды: Арура грозового облака), Tip (Tooltip - Normal)
 {
 Неуязвимость
 }
 
 STRING 6115
-// Abilities: A0SE (Босс 10: Морпех (Аура неуяз)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0M7 (Моды: Арура грозового облака), Ubertip (Tooltip - Normal - Extended)
 {
 Неуязвимость
 }
@@ -45954,13 +45989,13 @@ STRING 6982
 }
 
 STRING 6983
-// Abilities: A0M7 (Моды: Арура грозового облака), Tip (Tooltip - Normal)
+// Abilities: A0BY (Боссы: Опасность (Безопасная Аура)), Tip (Tooltip - Normal)
 {
 Неуязвимость
 }
 
 STRING 6984
-// Abilities: A0M7 (Моды: Арура грозового облака), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0BY (Боссы: Опасность (Безопасная Аура)), Ubertip (Tooltip - Normal - Extended)
 {
 Неуязвимость
 }
@@ -55480,13 +55515,13 @@ STRING 8451
 }
 
 STRING 8452
-// Abilities: A0BY (Боссы: Опасность (Безопасная Аура)), Tip (Tooltip - Normal)
+// Abilities: A06Q (Босс 5: Боевой голем (Аура)), Tip (Tooltip - Normal)
 {
 Неуязвимость
 }
 
 STRING 8453
-// Abilities: A0BY (Боссы: Опасность (Безопасная Аура)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A06Q (Босс 5: Боевой голем (Аура)), Ubertip (Tooltip - Normal - Extended)
 {
 Неуязвимость
 }
@@ -61062,13 +61097,13 @@ STRING 9320
 }
 
 STRING 9321
-// Abilities: A06Q (Босс 5: Боевой голем (Аура)), Tip (Tooltip - Normal)
+// Abilities: A1FS (Invul (Battle Ressurection)), Tip (Tooltip - Normal)
 {
 Неуязвимость
 }
 
 STRING 9322
-// Abilities: A06Q (Босс 5: Боевой голем (Аура)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1FS (Invul (Battle Ressurection)), Ubertip (Tooltip - Normal - Extended)
 {
 Неуязвимость
 }
@@ -72811,7 +72846,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.3.4T|r
+|cffbe81f7Boss Battle 1.5.3.5T|r
 }
 
 STRING 11219
@@ -75254,17 +75289,6 @@ STRING 11575
 - |cff00cceeAt 90% health:|r Every 5 seconds, summons a portal from which a random servant leaves.
 - |cff00cceeAt 50% health:|r Returns heroes in time. Fully restores health. Summons 4 portals next to each hero.
 - |cff00cceeAt 25% health:|r Kills heroes. Mercilessly.
-}
-
-STRING 11576
-// Abilities: A0SM (|cffffcc00Уровень 10:|r Рыцарь в странной броне), Ubertip (Tooltip - Normal - Extended)
-{
-- Boss appears in the arena after 10 seconds and stuns enemies for 3 seconds.
-- Every 12 seconds, pushes enemies in front of him and deals |cffbe81f7400|r damage to them.
-- Every 10 seconds, it marks a random hero. After 3 seconds, shoots a fiery projectile at the marked hero that deals |cffbe81f7400|r damage.
-- Every 15 seconds, creates a zone under each hero that explodes after 3 seconds and deals |cffbe81f7500|r damage.
-- |cff00cceeAt 30%, 50% and 70% health:|r The boss is stunned and becomes invulnerable for 5 seconds. Reduces the cooldown of abilities by 20%. At this time, zones appear under the heroes, which explode after 2 seconds and deal |cffbe81f7200|r damage.
-- |cff00cceeAt 20% health:|r Stuns all nearby enemies for 3 seconds.
 }
 
 STRING 11577
