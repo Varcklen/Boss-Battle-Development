@@ -4012,6 +4012,34 @@
               "Files": []
             }
           ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "BasicCore\\Buttons",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "BasicCore\\Events",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "BasicCore\\MMD",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "BasicCore\\TriggerRegister",
+          "Files": []
         }
       ]
     },
@@ -10197,14 +10225,21 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Deffenders\\Sludge",
               "Files": [
+                {
+                  "isEnabled": false,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Deffenders\\Sludge\\SludgeQ.trg",
+                  "Files": []
+                },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
                   "isExpanded": false,
-                  "path": "Heroes\\Deffenders\\Sludge\\SludgeQ.trg",
+                  "path": "Heroes\\Deffenders\\Sludge\\SludgeQ.j",
                   "Files": []
                 },
                 {
@@ -10215,7 +10250,7 @@
                   "Files": []
                 },
                 {
-                  "isEnabled": true,
+                  "isEnabled": false,
                   "isInitiallyOn": true,
                   "isExpanded": false,
                   "path": "Heroes\\Deffenders\\Sludge\\SludgeW.trg",
@@ -10225,6 +10260,13 @@
                   "isEnabled": true,
                   "isInitiallyOn": true,
                   "isExpanded": false,
+                  "path": "Heroes\\Deffenders\\Sludge\\SludgeW.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": false,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Deffenders\\Sludge\\SludgeE.trg",
                   "Files": []
                 },
@@ -10232,14 +10274,14 @@
                   "isEnabled": true,
                   "isInitiallyOn": true,
                   "isExpanded": false,
-                  "path": "Heroes\\Deffenders\\Sludge\\SludgeR.trg",
+                  "path": "Heroes\\Deffenders\\Sludge\\SludgeE.j",
                   "Files": []
                 },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
                   "isExpanded": false,
-                  "path": "Heroes\\Deffenders\\Sludge\\SludgeW.j",
+                  "path": "Heroes\\Deffenders\\Sludge\\SludgeR.trg",
                   "Files": []
                 }
               ]
@@ -15256,13 +15298,6 @@
           ]
         }
       ]
-    },
-    {
-      "isEnabled": true,
-      "isInitiallyOn": true,
-      "isExpanded": true,
-      "path": "Core",
-      "Files": []
     }
   ]
 }
