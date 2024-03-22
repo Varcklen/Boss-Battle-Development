@@ -113,6 +113,11 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         Event AfterJuleRefresh
         /*
         */
+        Event ItemUsed
+        /*
+        	caster (unit)
+        	amount_of_uses (integer) -- can be changed in the trigger
+        */
     endglobals
     
     private function InitCustomEvents takes nothing returns nothing
@@ -136,6 +141,7 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         set AlliedMinionSummoned = Event.create("caster", "minion")
         set AnyUnitDied = Event.create("caster", "unit_died")
         set AfterJuleRefresh = Event.create(null, null)
+        set ItemUsed = Event.create("caster", null)
     endfunction
     
     /*Base Event Init*/

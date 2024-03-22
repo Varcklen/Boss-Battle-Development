@@ -99,9 +99,6 @@ library ExtraArenaGeneral requires ItemRandomizerLib
 	
 	public function CreateRunes takes nothing returns nothing
 		call SpawnRune()
-        if udg_modgood[21] then
-            call SpawnRune()
-        endif
     endfunction
 
 endlibrary

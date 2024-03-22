@@ -31825,6 +31825,18 @@ STRING 4780
 Неуязвимость
 }
 
+STRING 4781
+// Abilities: A118 (Blessing: Очищение (g23)), Tip (Tooltip - Normal)
+{
+|cffffcc00Blessing:|r CutestXXX
+}
+
+STRING 4782
+// Abilities: A00S (Blessing: Favorable events (g31)XXX), Name (Name)
+{
+Blessing: Favorable events (g31)XXX
+}
+
 STRING 4790
 // Abilities: A12R (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -33475,12 +33487,6 @@ STRING 5034
 // Abilities: A118 (Blessing: Очищение (g23)), Name (Name)
 {
 Blessing: Очищение (g23)
-}
-
-STRING 5035
-// Abilities: A118 (Blessing: Очищение (g23)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Cutest
 }
 
 STRING 5036
@@ -67142,20 +67148,14 @@ STRING 10273
 Attack (Доспех Рыцаря)
 }
 
-STRING 10274
-// Abilities: A00S (Blessing: Favorable events (g31)), Name (Name)
-{
-Blessing: Favorable events (g31)
-}
-
 STRING 10275
-// Abilities: A00S (Blessing: Favorable events (g31)), Tip (Tooltip - Normal)
+// Abilities: A00S (Blessing: Favorable events (g31)XXX), Tip (Tooltip - Normal)
 {
 |cffffcc00Blessing:|r Favorable events
 }
 
 STRING 10276
-// Abilities: A00S (Blessing: Favorable events (g31)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A00S (Blessing: Favorable events (g31)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 Random events happen more often.
 }
