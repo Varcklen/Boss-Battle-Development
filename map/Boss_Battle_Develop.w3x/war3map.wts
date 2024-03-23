@@ -2802,6 +2802,15 @@ STRING 451
 Lye Insanios
 }
 
+STRING 452
+// Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Ubertip (Tooltip - Normal - Extended)
+{
+- Increases attack power of all creatures by 50%.
+- |cff00cceeAt 90% health:|r Silences the heroes for 10 seconds.
+- |cff00cceeAt 75% health:|r Every second, it takes all creatures next to the boss |cffbe81f71%|r of the maximum health. If the target is a minion, it takes |cffbe81f725%|r health instead.
+- |cff00cceeAt 25% health:|r Fully restores health ones.
+}
+
 STRING 453
 // Units: O00L ((W) Overlord), Propernames (Proper Names)
 {
@@ -14873,27 +14882,15 @@ With a |cffd7df0125%|r chance, the hero can dodge an attack, deal critical damag
 }
 
 STRING 2212
-// Items: I06J (Resonates), Description (Description)
+// Items: I06J (Resonator), Description (Description)
 {
 |cff4169e1Rare|r, |cff00cceeCrystal|r
 Increases spell power by 10%.
 |cffbe81f7Spell power|r also works on your attack power.
 }
 
-STRING 2213
-// Items: I06J (Resonates), Name (Name)
-{
-Resonates
-}
-
-STRING 2214
-// Items: I06J (Resonates), Tip (Tooltip - Basic)
-{
-Resonates
-}
-
 STRING 2215
-// Items: I06J (Resonates), Ubertip (Tooltip - Extended)
+// Items: I06J (Resonator), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cff00cceeCrystal|r
 Increases spell power by 10%.
@@ -31819,10 +31816,28 @@ STRING 4780
 Неуязвимость
 }
 
+STRING 4781
+// Items: I06J (Resonator), Name (Name)
+{
+Resonator
+}
+
 STRING 4782
 // Abilities: A00S (Blessing: Favorable events (g31)XXX), Name (Name)
 {
 Blessing: Favorable events (g31)XXX
+}
+
+STRING 4783
+// Items: I06J (Resonator), Tip (Tooltip - Basic)
+{
+Resonator
+}
+
+STRING 4784
+// Abilities: A0B7 (Admiral: Fencing Master), Researchubertip (Tooltip - Learn - Extended)
+{
+Every 7/6/5/4/3rd attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
 }
 
 STRING 4785
@@ -33501,6 +33516,18 @@ Teleports all enemies to the center of the area, reduces their armor by 4. If an
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 5034
+// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
+{
+Every 7th attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
+}
+
+STRING 5035
+// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
+{
+Every 6th attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
+}
+
 STRING 5036
 // Abilities: A118 (Blessing: Очищение (g23)XXX), Ubertip (Tooltip - Normal - Extended)
 {
@@ -33668,6 +33695,12 @@ STRING 5063
 // Abilities: A10X (Curse: Сила магии (b10)), Ubertip (Tooltip - Normal - Extended)
 {
 Increases enemy spell power by 15% and enemy magic resistance by 10%.
+}
+
+STRING 5064
+// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
+{
+Every 5th attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
 }
 
 STRING 5065
@@ -35484,6 +35517,12 @@ STRING 5345
 Berserk
 }
 
+STRING 5346
+// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
+{
+Every 4th attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
+}
+
 STRING 5347
 // Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ледяной дракон), Name (Name)
 {
@@ -35514,6 +35553,12 @@ STRING 5351
 Manipulator
 }
 
+STRING 5352
+// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
+{
+Every 3rd attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
+}
+
 STRING 5353
 // Abilities: A0Y6 (|cffffcc00Уровень 4:|r Темный колдун), Name (Name)
 {
@@ -35524,6 +35569,12 @@ STRING 5354
 // Abilities: A0Y6 (|cffffcc00Уровень 4:|r Темный колдун), Tip (Tooltip - Normal)
 {
 Dark sorcerer
+}
+
+STRING 5355
+// Abilities: A00J (|cffffcc00Уровень 4:|r Мастер клинков), Tip (Tooltip - Normal)
+{
+Blade Master
 }
 
 STRING 5356
@@ -35586,6 +35637,17 @@ STRING 5365
 Soul thief
 }
 
+STRING 5366
+// Abilities: A00J (|cffffcc00Уровень 4:|r Мастер клинков), Ubertip (Tooltip - Normal - Extended)
+{
+- Creates flying glaives near to the heroes. It slowly follows the heroes. Each glaive deals 20 damage.
+- |cff00cceeAt 90% health:|r Every 12 seconds, jumps on a random enemy, deals |cffbe81f7100|r damage.
+- |cff00cceeAt 80% health:|r Every 8 seconds it sets a trap. If you go into it, it reduces the target’s movement speed by 80%.
+|cffffcc00Duration:|r 5 seconds.
+- |cff00cceeAt 40% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
+- |cff00cceeAt 20% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
+}
+
 STRING 5367
 // Abilities: A0XW (|cffffcc00Уровень 2:|r Разбойник), Name (Name)
 {
@@ -35598,6 +35660,12 @@ STRING 5368
 Rogue
 }
 
+STRING 5369
+// Abilities: A1FT ((т)Аура: Horror (Boss Akama)), Name (Name)
+{
+(т)Аура: Horror (Boss Akama)
+}
+
 STRING 5370
 // Abilities: A0XV (|cffffcc00Уровень 1:|r Пьяный мужик), Name (Name)
 {
@@ -35608,6 +35676,12 @@ STRING 5371
 // Abilities: A0XV (|cffffcc00Уровень 1:|r Пьяный мужик), Tip (Tooltip - Normal)
 {
 Drunk man
+}
+
+STRING 5372
+// Buffs/Effects: B0AM (), Bufftip (Tooltip)
+{
+|cffff0000Horror|r
 }
 
 STRING 5373
@@ -36427,6 +36501,12 @@ STRING 5496
 Big codo
 }
 
+STRING 5497
+// Buffs/Effects: B0AM (), Buffubertip (Tooltip - Extended)
+{
+Movement speed has been reduced.
+}
+
 STRING 5498
 // Abilities: A0W8 (Босс 5: Баньши (Аура силы атаки)), Name (Name)
 {
@@ -36576,6 +36656,17 @@ STRING 5519
 // Abilities: A0W4 (|cffffcc00Уровень 3:|r Маг-Трюкач), Tip (Tooltip - Normal)
 {
 Mage Stuntman
+}
+
+STRING 5520
+// Abilities: A09K (|cffffcc00Уровень 10:|r Владыка бездны), Ubertip (Tooltip - Normal - Extended)
+{
+- Deals damage to an area.
+ Every 15 seconds immerses a random hero in stasis. For him to awaken, stasis must be destroyed.
+- Every 7 seconds creates a zone that explodes after 4 seconds, killing all enemy minions. Affected heroes have their movement speed reduced by 80% for 5 second and their health to 10%.
+- |cff00cceeAt 50% health:|r Summons 20 copies of itself and merges among them.
+- |cff00cceeAt 25% health:|r Imposes a mark on each hero that explodes after 10 seconds, inflicting |cffbe81f71000|r damage. The mark disappears if you move away from the boss.
+- |cff00cceeAt 10% health:|r Creates an area under each hero.
 }
 
 STRING 5521
@@ -56307,12 +56398,6 @@ STRING 8572
 Fencing Master, [|cffffcc00Level %d|r]
 }
 
-STRING 8573
-// Abilities: A0B7 (Admiral: Fencing Master), Researchubertip (Tooltip - Learn - Extended)
-{
-Every 9th/8th/7th/6th/5th hit of the hero deals double damage to all nearby enemies. Gain 1/2/3/4/5 gold for each enemy hit.
-}
-
 STRING 8574
 // Abilities: A0B7 (Admiral: Fencing Master), Tip (Tooltip - Normal)
 {
@@ -56341,36 +56426,6 @@ STRING 8578
 // Abilities: A0B7 (Admiral: Fencing Master), Tip (Tooltip - Normal)
 {
 Fencing Master, [|cffffcc00Level 5|r]
-}
-
-STRING 8579
-// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
-{
-Every 9th hit of the hero deals double damage to all nearby enemies. Gain 1 gold for each enemy hit.
-}
-
-STRING 8580
-// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
-{
-Every 8th hit of the hero deals double damage to all nearby enemies. Gain 2 gold for each enemy hit.
-}
-
-STRING 8581
-// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
-{
-Every 7th hit of the hero deals double damage to all nearby enemies. Gain 3 gold for each enemy hit.
-}
-
-STRING 8582
-// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
-{
-Every 6th hit of the hero deals double damage to all nearby enemies. Gain 4 gold for each enemy hit.
-}
-
-STRING 8583
-// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
-{
-Every 5th hit of the hero deals double damage to all nearby enemies. Gain 5 gold for each enemy hit.
 }
 
 STRING 8584
@@ -67445,12 +67500,6 @@ STRING 10320
 |cffffcc00Уровень 4:|r Мастер клинков
 }
 
-STRING 10321
-// Abilities: A00J (|cffffcc00Уровень 4:|r Мастер клинков), Tip (Tooltip - Normal)
-{
-Blade master
-}
-
 STRING 10323
 // Abilities: A0RA (Sludge: Poison Touch), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -75271,15 +75320,6 @@ STRING 11573
 - |cff00cceeAt 25% health:|r Reduces cooldown of abilities by 3 seconds. Imposes a shield on the boss, absorbing |cffbe81f71000|r damage for 3 minutes.
 }
 
-STRING 11574
-// Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Ubertip (Tooltip - Normal - Extended)
-{
-- Increases attack power of all creatures by 50%.
-- |cff00cceeAt 90% health:|r Silences the heroes for 20 seconds.
-- |cff00cceeAt 75% health:|r Every second, it takes all creatures next to the boss |cffbe81f71%|r of the maximum health. If the target is a minion, it takes |cffbe81f725%|r health instead.
-- |cff00cceeAt 25% health:|r Fully restores health ones.
-}
-
 STRING 11575
 // Abilities: A0VH (|cffffcc00Уровень 10:|r Хрономонстр), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75478,17 +75518,6 @@ STRING 11595
 - |cff00cceeAt 25% health:|r Starts creating areas 2 times more often.
 }
 
-STRING 11596
-// Abilities: A09K (|cffffcc00Уровень 10:|r Владыка бездны), Ubertip (Tooltip - Normal - Extended)
-{
-- Deals damage to an area.
- Every 15 seconds immerses a random hero in stasis. For him to awaken, stasis must be destroyed.
-- Every 7 seconds creates a zone that explodes after 5 seconds, killing all enemy creatures.
-- |cff00cceeAt 50% health:|r Summons 20 copies of itself and merges among them.
-- |cff00cceeAt 25% health:|r Imposes a mark on each hero that explodes after 10 seconds, inflicting |cffbe81f71000|r damage. The mark disappears if you move away from the boss.
-- |cff00cceeAt 10% health:|r Creates an area under each hero.
-}
-
 STRING 11597
 // Abilities: A09E (|cffffcc00Уровень 10:|r Кролик), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75659,16 +75688,5 @@ STRING 11613
 - |cff00cceeAt 75% health:|r Summons 4 murlocs.
 - |cff00cceeAt 50% health:|r Increases minion attack power by 50%.
 - |cff00cceeAt 25% health:|r Summons 4 murlocs.
-}
-
-STRING 11614
-// Abilities: A00J (|cffffcc00Уровень 4:|r Мастер клинков), Ubertip (Tooltip - Normal - Extended)
-{
-- Creates flying glaive along the edges of the arena. Every 10 seconds they fly towards the positions of the heroes. Each glaive deals 20 damage.
-- |cff00cceeAt 90% health:|r Every 12 seconds, jumps on a random enemy, deals |cffbe81f7100|r damage.
-- |cff00cceeAt 80% health:|r Every 8 seconds it sets a trap. If you go into it, it reduces the target’s movement speed by 80%.
-|cffffcc00Duration:|r 5 seconds.
-- |cff00cceeAt 40% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
-- |cff00cceeAt 20% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
 }
 

@@ -3,6 +3,8 @@ scope BuyOrder initializer init
         private constant integer ID_BUYORDER = 'IZ07'
         private constant integer ID_BUYORDER_CAST = 'AZ07'
         private constant real DEFICIT_MULT = 1.5
+        
+        private boolean isActive = false
     endglobals
     
 	private function condition takes nothing returns boolean
@@ -10,7 +12,9 @@ scope BuyOrder initializer init
 	endfunction
 	
 	private function AfterRefresh takes nothing returns nothing
-		call IconFrameDel( "buy_order" )
+		if isActive then
+			call IconFrameDel( "buy_order" )
+		endif
 	endfunction
 
 	private function action takes nothing returns nothing
@@ -52,6 +56,7 @@ scope BuyOrder initializer init
        		call textst( "|c00909090 Deficit!", u, 64, 90, 10, 1 )
    	    endif
    	    call IconFrame( "buy_order", "war3mapImported\\BTNSpy.blp", GetItemName(it), "Next time Jule's shop is refreshed, there will be more copies of |cffffcc00" + GetItemName(GetSpellTargetItem()) + "|r in stock." )
+    	set isActive = true
     	call stazisst( u, it )
     	
     	set u = null
