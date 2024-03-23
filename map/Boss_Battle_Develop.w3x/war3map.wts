@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.3.4T|r
+|cffbe81f7Boss Battle 1.5.3.5T|r
 }
 
 STRING 2
@@ -2800,12 +2800,6 @@ STRING 451
 // Units: O00N ((T) Toxic Elemental), Propernames (Proper Names)
 {
 Lye Insanios
-}
-
-STRING 452
-// Abilities: A0GU (Blessing: Triad (g34) (Turned Off)), Name (Name)
-{
-Blessing: Triad (g34) (Turned Off)
 }
 
 STRING 453
@@ -8832,6 +8826,12 @@ STRING 1332
 Felweed
 }
 
+STRING 1333
+// Abilities: A0SM (|cffffcc00Уровень 10:|r Рыцарь в странной броне), Tip (Tooltip - Normal)
+{
+|cFFFE8A0ELAST BOSS:|r Knight in Strange Armor
+}
+
 STRING 1334
 // Items: I0CN (Icethorn), Description (Description)
 {
@@ -11450,6 +11450,17 @@ STRING 1713
 Activation: |cffcc0000Corrupted|r. Gives an artifact of |cffbababccommon|r quality. If there are no other artifacts in the inventory, it gives three artifacts of |cffbababccommon|r quality instead.
 }
 
+STRING 1714
+// Abilities: A0SM (|cffffcc00Уровень 10:|r Рыцарь в странной броне), Ubertip (Tooltip - Normal - Extended)
+{
+- Boss appears in the arena after 10 seconds and stuns enemies for 1 seconds.
+- Every 12 seconds, pushes enemies in front of him and deals |cffbe81f7400|r damage to them.
+- Every 10 seconds, it marks a random hero. After 3 seconds, shoots a fiery projectile at the marked hero that deals |cffbe81f7400|r damage.
+- Every 15 seconds, creates a zone under each hero that explodes after 3 seconds and deals |cffbe81f7500|r damage.
+- |cff00cceeAt 30%, 50% and 70% health:|r The boss is stunned and becomes invulnerable for 5 seconds. Reduces the cooldown of abilities by 20%. At this time, zones appear under the heroes, which explode after 2 seconds and deal |cffbe81f7200|r damage.
+- |cff00cceeAt 20% health:|r Stuns all nearby enemies for 3 seconds.
+}
+
 STRING 1715
 // Items: I0A0 (Lollipop), Name (Name)
 {
@@ -11460,6 +11471,12 @@ STRING 1716
 // Items: I0A0 (Lollipop), Tip (Tooltip - Basic)
 {
 Lollipop
+}
+
+STRING 1717
+// Abilities: A1FR (Invulnerable (Battle Ressurection)), Name (Name)
+{
+Invulnerable (Battle Ressurection)
 }
 
 STRING 1718
@@ -31427,6 +31444,12 @@ STRING 4722
 Clockwork cutter
 }
 
+STRING 4723
+// Abilities: A1FS (Invul (Battle Ressurection)), Name (Name)
+{
+Invul (Battle Ressurection)
+}
+
 STRING 4724
 // Abilities: A134 (Прочее: Осколок души: Soul rapture), Name (Name)
 {
@@ -31778,10 +31801,58 @@ Reduces allied magic damage taken by 35%. When the target takes magical damage, 
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 4778
+// Abilities: A0SE (Босс 10: Морпех (Аура неуяз)), Tip (Tooltip - Normal)
+{
+Неуязвимость
+}
+
 STRING 4779
 // Abilities: A12A (Altar: Drain Life), Hotkey (Hotkey - Normal)
 {
 E
+}
+
+STRING 4780
+// Abilities: A0SE (Босс 10: Морпех (Аура неуяз)), Ubertip (Tooltip - Normal - Extended)
+{
+Неуязвимость
+}
+
+STRING 4782
+// Abilities: A00S (Blessing: Favorable events (g31)XXX), Name (Name)
+{
+Blessing: Favorable events (g31)XXX
+}
+
+STRING 4785
+// Abilities: A118 (Blessing: Очищение (g23)XXX), Name (Name)
+{
+Blessing: Очищение (g23)XXX
+}
+
+STRING 4786
+// Abilities: A118 (Blessing: Очищение (g23)XXX), Tip (Tooltip - Normal)
+{
+|cffffcc00Blessing:|r Cutest
+}
+
+STRING 4787
+// Abilities: A10W (Curse: Дефицит (b9)XXX), Name (Name)
+{
+Curse: Дефицит (b9)XXX
+}
+
+STRING 4788
+// Abilities: A0GU (Blessing: Triad (g34)), Name (Name)
+{
+Blessing: Triad (g34)
+}
+
+STRING 4789
+// Abilities: A00W (Curse: Mystery (b25)XXX), Name (Name)
+{
+Curse: Mystery (b25)XXX
 }
 
 STRING 4790
@@ -33430,20 +33501,8 @@ Teleports all enemies to the center of the area, reduces their armor by 4. If an
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
-STRING 5034
-// Abilities: A118 (Blessing: Очищение (g23)), Name (Name)
-{
-Blessing: Очищение (g23)
-}
-
-STRING 5035
-// Abilities: A118 (Blessing: Очищение (g23)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Cutest
-}
-
 STRING 5036
-// Abilities: A118 (Blessing: Очищение (g23)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A118 (Blessing: Очищение (g23)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 Cute Bob’s arenas give 10% more gold and create more runes.
 }
@@ -33611,20 +33670,14 @@ STRING 5063
 Increases enemy spell power by 15% and enemy magic resistance by 10%.
 }
 
-STRING 5064
-// Abilities: A10W (Curse: Дефицит (b9)), Name (Name)
-{
-Curse: Дефицит (b9)
-}
-
 STRING 5065
-// Abilities: A10W (Curse: Дефицит (b9)), Tip (Tooltip - Normal)
+// Abilities: A10W (Curse: Дефицит (b9)XXX), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Deficit
 }
 
 STRING 5066
-// Abilities: A10W (Curse: Дефицит (b9)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A10W (Curse: Дефицит (b9)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 Jule's prices increased by 10%.
 }
@@ -40081,12 +40134,6 @@ STRING 6061
 |cffffcc00Уровень 10:|r Рыцарь в странной броне
 }
 
-STRING 6062
-// Abilities: A0SM (|cffffcc00Уровень 10:|r Рыцарь в странной броне), Tip (Tooltip - Normal)
-{
-|cFFFE8A0ELAST BOSS:|r Knight in strange armor
-}
-
 STRING 6064
 // Abilities: A0SL (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -40427,13 +40474,13 @@ STRING 6113
 }
 
 STRING 6114
-// Abilities: A0SE (Босс 10: Морпех (Аура неуяз)), Tip (Tooltip - Normal)
+// Abilities: A0M7 (Моды: Арура грозового облака), Tip (Tooltip - Normal)
 {
 Неуязвимость
 }
 
 STRING 6115
-// Abilities: A0SE (Босс 10: Морпех (Аура неуяз)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0M7 (Моды: Арура грозового облака), Ubertip (Tooltip - Normal - Extended)
 {
 Неуязвимость
 }
@@ -45954,13 +46001,13 @@ STRING 6982
 }
 
 STRING 6983
-// Abilities: A0M7 (Моды: Арура грозового облака), Tip (Tooltip - Normal)
+// Abilities: A0BY (Боссы: Опасность (Безопасная Аура)), Tip (Tooltip - Normal)
 {
 Неуязвимость
 }
 
 STRING 6984
-// Abilities: A0M7 (Моды: Арура грозового облака), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0BY (Боссы: Опасность (Безопасная Аура)), Ubertip (Tooltip - Normal - Extended)
 {
 Неуязвимость
 }
@@ -50982,13 +51029,13 @@ Soul Split, [|cffffcc00Level 5|r]
 }
 
 STRING 7751
-// Abilities: A0GU (Blessing: Triad (g34) (Turned Off)), Tip (Tooltip - Normal)
+// Abilities: A0GU (Blessing: Triad (g34)), Tip (Tooltip - Normal)
 {
 |cffffcc00Blessing:|r Triad
 }
 
 STRING 7752
-// Abilities: A0GU (Blessing: Triad (g34) (Turned Off)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0GU (Blessing: Triad (g34)), Ubertip (Tooltip - Normal - Extended)
 {
 The hero receives a free piece of the set three times. Current:
 }
@@ -55480,13 +55527,13 @@ STRING 8451
 }
 
 STRING 8452
-// Abilities: A0BY (Боссы: Опасность (Безопасная Аура)), Tip (Tooltip - Normal)
+// Abilities: A06Q (Босс 5: Боевой голем (Аура)), Tip (Tooltip - Normal)
 {
 Неуязвимость
 }
 
 STRING 8453
-// Abilities: A0BY (Боссы: Опасность (Безопасная Аура)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A06Q (Босс 5: Боевой голем (Аура)), Ubertip (Tooltip - Normal - Extended)
 {
 Неуязвимость
 }
@@ -61062,13 +61109,13 @@ STRING 9320
 }
 
 STRING 9321
-// Abilities: A06Q (Босс 5: Боевой голем (Аура)), Tip (Tooltip - Normal)
+// Abilities: A1FS (Invul (Battle Ressurection)), Tip (Tooltip - Normal)
 {
 Неуязвимость
 }
 
 STRING 9322
-// Abilities: A06Q (Босс 5: Боевой голем (Аура)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1FS (Invul (Battle Ressurection)), Ubertip (Tooltip - Normal - Extended)
 {
 Неуязвимость
 }
@@ -67051,14 +67098,8 @@ STRING 10264
 Artifact: Twin heart
 }
 
-STRING 10265
-// Abilities: A00W (Curse: Mystery (b25)), Name (Name)
-{
-Curse: Mystery (b25)
-}
-
 STRING 10266
-// Abilities: A00W (Curse: Mystery (b25)), Tip (Tooltip - Normal)
+// Abilities: A00W (Curse: Mystery (b25)XXX), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Mystery
 }
@@ -67107,20 +67148,14 @@ STRING 10273
 Attack (Доспех Рыцаря)
 }
 
-STRING 10274
-// Abilities: A00S (Blessing: Favorable events (g31)), Name (Name)
-{
-Blessing: Favorable events (g31)
-}
-
 STRING 10275
-// Abilities: A00S (Blessing: Favorable events (g31)), Tip (Tooltip - Normal)
+// Abilities: A00S (Blessing: Favorable events (g31)XXX), Tip (Tooltip - Normal)
 {
 |cffffcc00Blessing:|r Favorable events
 }
 
 STRING 10276
-// Abilities: A00S (Blessing: Favorable events (g31)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A00S (Blessing: Favorable events (g31)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 Random events happen more often.
 }
@@ -72811,7 +72846,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.3.4T|r
+|cffbe81f7Boss Battle 1.5.3.5T|r
 }
 
 STRING 11219
@@ -72875,7 +72910,7 @@ In each battle, reduces the health of the first 4 enemy minions to a minimum.
 }
 
 STRING 11227
-// Abilities: A00W (Curse: Mystery (b25)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A00W (Curse: Mystery (b25)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 Sometimes, the reward is classified.
 }
@@ -75254,17 +75289,6 @@ STRING 11575
 - |cff00cceeAt 90% health:|r Every 5 seconds, summons a portal from which a random servant leaves.
 - |cff00cceeAt 50% health:|r Returns heroes in time. Fully restores health. Summons 4 portals next to each hero.
 - |cff00cceeAt 25% health:|r Kills heroes. Mercilessly.
-}
-
-STRING 11576
-// Abilities: A0SM (|cffffcc00Уровень 10:|r Рыцарь в странной броне), Ubertip (Tooltip - Normal - Extended)
-{
-- Boss appears in the arena after 10 seconds and stuns enemies for 3 seconds.
-- Every 12 seconds, pushes enemies in front of him and deals |cffbe81f7400|r damage to them.
-- Every 10 seconds, it marks a random hero. After 3 seconds, shoots a fiery projectile at the marked hero that deals |cffbe81f7400|r damage.
-- Every 15 seconds, creates a zone under each hero that explodes after 3 seconds and deals |cffbe81f7500|r damage.
-- |cff00cceeAt 30%, 50% and 70% health:|r The boss is stunned and becomes invulnerable for 5 seconds. Reduces the cooldown of abilities by 20%. At this time, zones appear under the heroes, which explode after 2 seconds and deal |cffbe81f7200|r damage.
-- |cff00cceeAt 20% health:|r Stuns all nearby enemies for 3 seconds.
 }
 
 STRING 11577

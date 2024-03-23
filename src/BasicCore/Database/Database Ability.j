@@ -266,7 +266,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_One[38] = gg_trg_DryadQ
 	    set udg_DB_Trigger_One[39] = gg_trg_Metal_MageQ
 	    set udg_DB_Trigger_One[40] = gg_trg_KingQ
-	    set udg_DB_Trigger_One[41] = gg_trg_SludgeQ
+	    set udg_DB_Trigger_One[41] = SludgeQ_Trigger
 	    set udg_DB_Trigger_One[42] = gg_trg_IncarnationQ
 	    set udg_DB_Trigger_One[43] = gg_trg_ShamanQ
 	    set udg_DB_Trigger_One[44] = gg_trg_GamblerQ
@@ -348,7 +348,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Two[38] = gg_trg_DryadW
 	    set udg_DB_Trigger_Two[39] = gg_trg_Metal_MageW
 	    set udg_DB_Trigger_Two[40] = gg_trg_KingW
-	    set udg_DB_Trigger_Two[41] = gg_trg_SludgeW
+	    set udg_DB_Trigger_Two[41] = SludgeW_Trigger
 	    set udg_DB_Trigger_Two[42] = gg_trg_IncarnationW
 	    set udg_DB_Trigger_Two[43] = gg_trg_ShamanW
 	    set udg_DB_Trigger_Two[44] = gg_trg_GamblerW
@@ -379,7 +379,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Two[69] = gg_trg_RunesmithW
 	    
 	    // Триггеры способности №3
-	    set udg_Database_NumberItems[16] = 74
+	    set udg_Database_NumberItems[16] = 73
 	    set udg_DB_Trigger_Three[1] = gg_trg_BeornR
 	    set udg_DB_Trigger_Three[2] = gg_trg_OwlR
 	    set udg_DB_Trigger_Three[3] = gg_trg_DruidR
@@ -451,9 +451,8 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Three[69] = gg_trg_MorlocE
 	    set udg_DB_Trigger_Three[70] = gg_trg_BardR
 	    set udg_DB_Trigger_Three[71] = gg_trg_CorruptedEntR
-	    set udg_DB_Trigger_Three[72] = gg_trg_LycanthropeR
+	    set udg_DB_Trigger_Three[72] = trig_MephistarE
 	    set udg_DB_Trigger_Three[73] = gg_trg_ShepherdR
-	    set udg_DB_Trigger_Three[74] = trig_MephistarE
 	    
 	    // First spell
 	    //udg_DB_Hero_FirstSpell

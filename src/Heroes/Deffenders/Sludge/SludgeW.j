@@ -13,6 +13,8 @@ globals
 	private constant integer ABILITYMINI = 'A0SO'
        
     private integer array ScalingW[PLAYERS_LIMIT_ARRAYS]//YourHero
+    
+    public trigger Trigger = null
 endglobals
 
 
@@ -63,6 +65,7 @@ private function castActions takes nothing returns nothing
             set lvl = GetUnitAbilityLevel(caster, ABILITY)
         endif
     endif
+
     set dmg = DAMAGE + DAMAGELVL * lvl
     set pid = GetPlayerId( GetOwningPlayer( caster ) ) + 1
 
@@ -91,16 +94,15 @@ endfunction
 
 //===========================================================================
 private function init takes nothing returns nothing
-    local trigger trigCast = CreateTrigger(  )
     local trigger trigStart = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( trigCast, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( trigCast, Condition( function castConditions ) )
-    call TriggerAddAction( trigCast, function castActions )
+    set Trigger = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( Trigger, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( Trigger, Condition( function castConditions ) )
+    call TriggerAddAction( Trigger, function castActions )
     
     call TriggerRegisterVariableEvent( trigStart, "udg_FightStart_Real", EQUAL, 1.00 )
     call TriggerAddAction( trigStart, function startActions )
     
-    set trigCast = null
     set trigStart = null
 endfunction
 
