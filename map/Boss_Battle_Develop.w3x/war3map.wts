@@ -2802,12 +2802,6 @@ STRING 451
 Lye Insanios
 }
 
-STRING 452
-// Abilities: A0GU (Blessing: Triad (g34) (Turned Off)), Name (Name)
-{
-Blessing: Triad (g34) (Turned Off)
-}
-
 STRING 453
 // Units: O00L ((W) Overlord), Propernames (Proper Names)
 {
@@ -31825,16 +31819,40 @@ STRING 4780
 Неуязвимость
 }
 
-STRING 4781
-// Abilities: A118 (Blessing: Очищение (g23)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r CutestXXX
-}
-
 STRING 4782
 // Abilities: A00S (Blessing: Favorable events (g31)XXX), Name (Name)
 {
 Blessing: Favorable events (g31)XXX
+}
+
+STRING 4785
+// Abilities: A118 (Blessing: Очищение (g23)XXX), Name (Name)
+{
+Blessing: Очищение (g23)XXX
+}
+
+STRING 4786
+// Abilities: A118 (Blessing: Очищение (g23)XXX), Tip (Tooltip - Normal)
+{
+|cffffcc00Blessing:|r Cutest
+}
+
+STRING 4787
+// Abilities: A10W (Curse: Дефицит (b9)XXX), Name (Name)
+{
+Curse: Дефицит (b9)XXX
+}
+
+STRING 4788
+// Abilities: A0GU (Blessing: Triad (g34)), Name (Name)
+{
+Blessing: Triad (g34)
+}
+
+STRING 4789
+// Abilities: A00W (Curse: Mystery (b25)XXX), Name (Name)
+{
+Curse: Mystery (b25)XXX
 }
 
 STRING 4790
@@ -33483,14 +33501,8 @@ Teleports all enemies to the center of the area, reduces their armor by 4. If an
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
-STRING 5034
-// Abilities: A118 (Blessing: Очищение (g23)), Name (Name)
-{
-Blessing: Очищение (g23)
-}
-
 STRING 5036
-// Abilities: A118 (Blessing: Очищение (g23)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A118 (Blessing: Очищение (g23)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 Cute Bob’s arenas give 10% more gold and create more runes.
 }
@@ -33658,20 +33670,14 @@ STRING 5063
 Increases enemy spell power by 15% and enemy magic resistance by 10%.
 }
 
-STRING 5064
-// Abilities: A10W (Curse: Дефицит (b9)), Name (Name)
-{
-Curse: Дефицит (b9)
-}
-
 STRING 5065
-// Abilities: A10W (Curse: Дефицит (b9)), Tip (Tooltip - Normal)
+// Abilities: A10W (Curse: Дефицит (b9)XXX), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Deficit
 }
 
 STRING 5066
-// Abilities: A10W (Curse: Дефицит (b9)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A10W (Curse: Дефицит (b9)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 Jule's prices increased by 10%.
 }
@@ -51023,13 +51029,13 @@ Soul Split, [|cffffcc00Level 5|r]
 }
 
 STRING 7751
-// Abilities: A0GU (Blessing: Triad (g34) (Turned Off)), Tip (Tooltip - Normal)
+// Abilities: A0GU (Blessing: Triad (g34)), Tip (Tooltip - Normal)
 {
 |cffffcc00Blessing:|r Triad
 }
 
 STRING 7752
-// Abilities: A0GU (Blessing: Triad (g34) (Turned Off)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0GU (Blessing: Triad (g34)), Ubertip (Tooltip - Normal - Extended)
 {
 The hero receives a free piece of the set three times. Current:
 }
@@ -67092,14 +67098,8 @@ STRING 10264
 Artifact: Twin heart
 }
 
-STRING 10265
-// Abilities: A00W (Curse: Mystery (b25)), Name (Name)
-{
-Curse: Mystery (b25)
-}
-
 STRING 10266
-// Abilities: A00W (Curse: Mystery (b25)), Tip (Tooltip - Normal)
+// Abilities: A00W (Curse: Mystery (b25)XXX), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Mystery
 }
@@ -72910,7 +72910,7 @@ In each battle, reduces the health of the first 4 enemy minions to a minimum.
 }
 
 STRING 11227
-// Abilities: A00W (Curse: Mystery (b25)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A00W (Curse: Mystery (b25)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 Sometimes, the reward is classified.
 }

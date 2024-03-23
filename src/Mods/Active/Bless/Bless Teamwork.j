@@ -95,7 +95,7 @@ scope BlessTeamWork initializer init
     private function OnDamageChange takes nothing returns nothing
         local unit hero = udg_DamageEventTarget
 
-        set udg_DamageEventAmount = udg_DamageEventAmount - (Magic_Resistance[GetUnitUserData(hero)]*Event_OnDamageChange_StaticDamage)
+        set udg_DamageEventAmount = udg_DamageEventAmount + (Magic_Resistance[GetUnitUserData(hero)]*Event_OnDamageChange_StaticDamage)
         
         set hero = null
     endfunction
