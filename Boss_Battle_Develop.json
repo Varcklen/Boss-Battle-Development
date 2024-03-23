@@ -2835,7 +2835,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "BasicCore",
       "Files": [
         {
@@ -3997,7 +3997,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Mods",
       "Files": [
         {
@@ -4045,7 +4045,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Mods\\MainMods",
           "Files": [
             {
@@ -4097,7 +4097,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Mods\\Active",
           "Files": [
             {
@@ -5040,7 +5040,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Frames",
       "Files": [
         {
@@ -5483,7 +5483,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Frames\\ModesFrame",
           "Files": [
             {
@@ -9748,7 +9748,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Heroes",
       "Files": [
         {
@@ -10544,7 +10544,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Deffenders",
           "Files": [
             {
@@ -10694,35 +10694,14 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Deffenders\\Sludge",
               "Files": [
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
                   "isExpanded": false,
-                  "path": "Heroes\\Deffenders\\Sludge\\SludgeQ.trg",
-                  "Files": []
-                },
-                {
-                  "isEnabled": true,
-                  "isInitiallyOn": true,
-                  "isExpanded": false,
                   "path": "Heroes\\Deffenders\\Sludge\\SludgeQDestroy.j",
-                  "Files": []
-                },
-                {
-                  "isEnabled": false,
-                  "isInitiallyOn": true,
-                  "isExpanded": false,
-                  "path": "Heroes\\Deffenders\\Sludge\\SludgeW.trg",
-                  "Files": []
-                },
-                {
-                  "isEnabled": true,
-                  "isInitiallyOn": true,
-                  "isExpanded": false,
-                  "path": "Heroes\\Deffenders\\Sludge\\SludgeE.trg",
                   "Files": []
                 },
                 {
@@ -10737,6 +10716,20 @@
                   "isInitiallyOn": true,
                   "isExpanded": false,
                   "path": "Heroes\\Deffenders\\Sludge\\SludgeW.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Deffenders\\Sludge\\SludgeE.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Deffenders\\Sludge\\SludgeQ.j",
                   "Files": []
                 }
               ]
@@ -12004,7 +11997,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Heroes\\Hybrids",
           "Files": [
             {

@@ -266,7 +266,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_One[38] = gg_trg_DryadQ
 	    set udg_DB_Trigger_One[39] = gg_trg_Metal_MageQ
 	    set udg_DB_Trigger_One[40] = gg_trg_KingQ
-	    set udg_DB_Trigger_One[41] = gg_trg_SludgeQ
+	    set udg_DB_Trigger_One[41] = SludgeQ_Trigger
 	    set udg_DB_Trigger_One[42] = gg_trg_IncarnationQ
 	    set udg_DB_Trigger_One[43] = gg_trg_ShamanQ
 	    set udg_DB_Trigger_One[44] = gg_trg_GamblerQ
@@ -348,7 +348,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Two[38] = gg_trg_DryadW
 	    set udg_DB_Trigger_Two[39] = gg_trg_Metal_MageW
 	    set udg_DB_Trigger_Two[40] = gg_trg_KingW
-	    set udg_DB_Trigger_Two[41] = gg_trg_SludgeW
+	    set udg_DB_Trigger_Two[41] = SludgeW_Trigger
 	    set udg_DB_Trigger_Two[42] = gg_trg_IncarnationW
 	    set udg_DB_Trigger_Two[43] = gg_trg_ShamanW
 	    set udg_DB_Trigger_Two[44] = gg_trg_GamblerW

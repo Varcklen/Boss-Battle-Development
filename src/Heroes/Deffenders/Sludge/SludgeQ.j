@@ -2,6 +2,8 @@ scope SludgeQ initializer init
 
 globals
 	private constant integer ABILITYQ = 'A0R5'
+	
+	public trigger Trigger = null
 endglobals
 
 private function conditions takes nothing returns boolean
@@ -83,11 +85,10 @@ endfunction
 
 //===========================================================================
 private function init takes nothing returns nothing
-    local trigger trig = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( trig, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( trig, Condition( function conditions ) )
-    call TriggerAddAction( trig, function actions )
-    set trig = null
+    set Trigger = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( Trigger, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( Trigger, Condition( function conditions ) )
+    call TriggerAddAction( Trigger, function actions )
 endfunction
 
 endscope
