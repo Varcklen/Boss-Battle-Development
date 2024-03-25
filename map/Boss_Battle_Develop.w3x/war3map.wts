@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.3.5T|r
+|cffbe81f7Boss Battle 1.5.3.6T|r
 }
 
 STRING 2
@@ -14887,6 +14887,17 @@ STRING 2212
 |cff4169e1Rare|r, |cff00cceeCrystal|r
 Increases spell power by 10%.
 |cffbe81f7Spell power|r also works on your attack power.
+}
+
+STRING 2213
+// Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ледяной дракон), Ubertip (Tooltip - Normal - Extended)
+{
+- No attacks.
+- Ballistas appear in the arena, firing at the heroes. Before destruction, the ballista shoots at the boss, taking away 7.5% of its health.
+- Every 8 seconds, calls the ballista to a random point.
+- Every 6 seconds, the boss launches ice shells at the heroes, dealing |cffbe81f7400|r damage after 2 seconds.
+- |cff00cceeAt 50% health:|r Reduces the attack and movement speed of all heroes by 25%.
+|cffffcc00Duration:|r 15 seconds.
 }
 
 STRING 2215
@@ -35679,7 +35690,7 @@ Drunk man
 }
 
 STRING 5372
-// Buffs/Effects: B0AM (), Bufftip (Tooltip)
+// Buffs/Effects: B04A (), Bufftip (Tooltip)
 {
 |cffff0000Horror|r
 }
@@ -35790,14 +35801,6 @@ STRING 5390
 // Abilities: A0XK (Unique: Keen mind), Name (Name)
 {
 Unique: Keen mind
-}
-
-STRING 5391
-// Abilities: A12S (Adventurer: Treasure Hunt), Researchubertip (Tooltip - Learn - Extended)
-{
-When the ability improves, gives a random |cffcc0000corrupted|r artifact. Increases the cost of Tome of Oblivion by 350.
-
-|cFF959697The artifact is given to an empty inventory slot.|r
 }
 
 STRING 5392
@@ -36502,7 +36505,7 @@ Big codo
 }
 
 STRING 5497
-// Buffs/Effects: B0AM (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B0AI (), Buffubertip (Tooltip - Extended)
 {
 Movement speed has been reduced.
 }
@@ -40153,6 +40156,14 @@ STRING 6047
 Poison Touch
 }
 
+STRING 6048
+// Abilities: A12S (Adventurer: Treasure Hunt), Researchubertip (Tooltip - Learn - Extended)
+{
+When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 250.
+
+|cFF959697The artifact is given to an empty inventory slot.|r
+}
+
 STRING 6049
 // Abilities: A0SR (Аура: Counterstrike), Name (Name)
 {
@@ -40189,6 +40200,12 @@ STRING 6054
 Devouring flesh
 }
 
+STRING 6055
+// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
+{
+When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 250.
+}
+
 STRING 6056
 // Abilities: A0SN (Артефакт: Тотем Взгляда), Name (Name)
 {
@@ -40223,6 +40240,18 @@ STRING 6061
 // Abilities: A0SM (|cffffcc00Уровень 10:|r Рыцарь в странной броне), Name (Name)
 {
 |cffffcc00Уровень 10:|r Рыцарь в странной броне
+}
+
+STRING 6062
+// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
+{
+When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 250.
+}
+
+STRING 6063
+// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
+{
+When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 250.
 }
 
 STRING 6064
@@ -41459,24 +41488,6 @@ STRING 6255
 Treasure Hunt, [|cffffcc00Level 5|r]
 }
 
-STRING 6256
-// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
-{
-When the ability improves, gives a random |cffcc0000corrupted|r artifact. Increases the cost of Tome of Oblivion by 350.
-}
-
-STRING 6257
-// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
-{
-When the ability improves, gives a random |cffcc0000corrupted|r artifact. Increases the cost of Tome of Oblivion by 350.
-}
-
-STRING 6258
-// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
-{
-When the ability improves, gives a random |cffcc0000corrupted|r artifact. Increases the cost of Tome of Oblivion by 350.
-}
-
 STRING 6259
 // Abilities: A0R9 (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -41513,6 +41524,13 @@ STRING 6264
 Devouring flesh, [|cffffcc00Level %d|r]
 }
 
+STRING 6265
+// Abilities: A0OY (Wagon: Take My Money!), Researchubertip (Tooltip - Learn - Extended)
+{
+Hero throws 10%/15%/20%/25%/30% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 6266
 // Abilities: A0R7 (Sludge: Devouring flesh), Tip (Tooltip - Normal)
 {
@@ -41541,6 +41559,41 @@ STRING 6270
 // Abilities: A0R7 (Sludge: Devouring flesh), Tip (Tooltip - Normal)
 {
 Devouring flesh, [|cffffcc00Level 5|r]
+}
+
+STRING 6271
+// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+{
+Hero throws 10% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 6272
+// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+{
+Hero throws 15% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 6273
+// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+{
+Hero throws 20% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 6274
+// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+{
+Hero throws 25% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 6275
+// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+{
+Hero throws 30% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 6276
@@ -43348,13 +43401,6 @@ STRING 6556
 Take My Money!, [|cffffcc00Level %d|r]
 }
 
-STRING 6557
-// Abilities: A0OY (Wagon: Take My Money!), Researchubertip (Tooltip - Learn - Extended)
-{
-Hero throws 40% of gold at the target which, upon landing, deals damage equal to |cffbe81f7100%/125%/150%/175%/200%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 6558
 // Abilities: A0OY (Wagon: Take My Money!), Tip (Tooltip - Normal)
 {
@@ -43383,41 +43429,6 @@ STRING 6562
 // Abilities: A0OY (Wagon: Take My Money!), Tip (Tooltip - Normal)
 {
 Take My Money!, [|cffffcc00Level 5|r]
-}
-
-STRING 6563
-// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
-{
-Hero throws 40% of gold at the target which, upon landing, deals damage equal to |cffbe81f7100%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6564
-// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
-{
-Hero throws 40% of gold at the target which, upon landing, deals damage equal to |cffbe81f7125%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6565
-// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
-{
-Hero throws 40% of gold at the target which, upon landing, deals damage equal to |cffbe81f7150%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6566
-// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
-{
-Hero throws 40% of gold at the target which, upon landing, deals damage equal to |cffbe81f7175%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6567
-// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
-{
-Hero throws 40% of gold at the target which, upon landing, deals damage equal to |cffbe81f7200%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 6568
@@ -70602,7 +70613,7 @@ Attack speed increased.
 }
 
 STRING 10835
-// Buffs/Effects: B04A (), Bufftip (Tooltip)
+// Buffs/Effects: B0AM (), Bufftip (Tooltip)
 {
 |cffff0000Horror|r
 }
@@ -72895,7 +72906,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.3.5T|r
+|cffbe81f7Boss Battle 1.5.3.6T|r
 }
 
 STRING 11219
@@ -74390,7 +74401,7 @@ STRING 11436
 }
 
 STRING 11437
-// Buffs/Effects: B0AI (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B0AM (), Buffubertip (Tooltip - Extended)
 {
 Movement speed has been reduced.
 }
@@ -75227,17 +75238,6 @@ STRING 11564
 - Every 20 seconds, the boss introduces a random hero into insanity for 10 seconds.
 - |cff00cceeAt 75% health:|r The boss launches a glaive that flies between the heroes and deals |cffbe81f750|r damage every half second.
 - |cff00cceeAt 30% health:|r When attacking, restores 75% of the health of the damage done.
-}
-
-STRING 11565
-// Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ледяной дракон), Ubertip (Tooltip - Normal - Extended)
-{
-- No atacks.
-- Ballistas appear in the arena, firing at the heroes. Before destruction, the ballista shoots at the boss, taking away 7.5% of its health.
-- Every 8 seconds, calls the ballista to a random point.
-- Every 6 seconds, the boss launches ice shells at the heroes, dealing |cffbe81f7400|r damage after 2 seconds.
-- |cff00cceeAt 50% health:|r Reduces the attack and movement speed of all heroes by 25%.
-|cffffcc00Duration:|r 15 seconds.
 }
 
 STRING 11566

@@ -5,7 +5,7 @@ scope CurseCounterstrike initializer init
 	endglobals
 	
 	private function condition takes nothing returns boolean
-		return GetOwningPlayer(GetEnteringUnit()) == Player(10)
+		return GetOwningPlayer(GetEnteringUnit()) == Player(10) and GetUnitTypeId(GetEnteringUnit()) != 'u000'
 	endfunction
 	
 	private function action takes nothing returns nothing

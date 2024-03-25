@@ -18,11 +18,21 @@ scope BlessSquire initializer init
         set owner = null
 	endfunction
 	
+	private function end takes nothing returns nothing
+		local integer id = GetHandleId(GetExpiredTimer() )
+		local unit caster = LoadUnitHandle( udg_hash, id, StringHash( "mod_squire" ) )
+		
+		call Launch(caster)
+		call FlushChildHashtable( udg_hash, id )
+		
+        set caster = null
+	endfunction
+	
 	private function action takes nothing returns nothing
 		local unit caster = BattleStart.GetDataUnit("caster")
 		
-		call Launch(caster)
-		
+        call InvokeTimerWithUnit( caster, "mod_squire", 1, false, function end )
+        
         set caster = null
 	endfunction
 

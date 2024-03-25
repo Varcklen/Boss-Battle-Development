@@ -1,4 +1,4 @@
-scope SacredStone
+scope SacredStone initializer init
 
     globals
         private constant integer ID_ABILITY = 'AZ05'
@@ -7,11 +7,11 @@ scope SacredStone
         private constant integer CAP = 100000
     endglobals
 
-    function Trig_SuperSeven_Conditions takes nothing returns boolean
+    private function condition takes nothing returns boolean
         return GetSpellAbilityId() == ID_ABILITY
     endfunction
 
-	function Trig_SuperSeven_Actions takes nothing returns nothing
+	private function action takes nothing returns nothing
 	    local unit caster
 	    local unit target
 	    local integer cyclA = 1
@@ -58,10 +58,9 @@ scope SacredStone
 	    
 	    set cyclA = 1
 	    set cyclAEnd = eyest( caster )
-	    call dummyspawn( caster, 1, 0, 0, 0 )
 	    loop
 	        exitwhen cyclA > cyclAEnd
-	        call UnitDamageTarget( bj_lastCreatedUnit, target, dmg, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)
+	        call UnitDamageTarget( caster, target, dmg, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)
 	        call healst( caster, null, pwr )
 	        call manast( caster, null, pwr )
 	        call shield( caster, caster, pwr )
@@ -74,11 +73,11 @@ scope SacredStone
 	endfunction
 	
 	//===========================================================================
-	function InitTrig_SuperSeven takes nothing returns nothing
+	private function init takes nothing returns nothing
 	    local trigger trig = CreateTrigger()
 	    call TriggerRegisterAnyUnitEventBJ( trig, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-	    call TriggerAddCondition( trig, Condition( function Trig_SuperSeven_Conditions ) )
-	    call TriggerAddAction( trig, function Trig_SuperSeven_Actions )
+	    call TriggerAddCondition( trig, Condition( function condition ) )
+	    call TriggerAddAction( trig, function action )
 	    set trig = null
 	endfunction
 
