@@ -230,17 +230,18 @@ library Trigger initializer init requires EventDatabase
 		set ItemUsed = null
 	endfunction
 	
-	function RegisterDuplicatableItemTypeCustom takes integer itemType, Event eventType, code action, code condition, string usedUnitName returns nothing
-	    local trigger triggerToExecute = CreateTrigger()
+	function RegisterDuplicatableItemTypeCustom takes integer itemType, Event eventType, code action, code condition, string usedUnitName returns trigger
 	    local integer amountOfEvents = LoadInteger(ItemTypeData, itemType, EVENT_AMOUNT) + 1
 	    local integer stringHash
 	    
-	    call TriggerAddAction( triggerToExecute, action )
+	    set tempTrig = CreateTrigger()
+	    
+	    call TriggerAddAction( tempTrig, action )
 	    if condition != null then
-	    	call TriggerAddCondition( triggerToExecute, Condition( condition ) )
+	    	call TriggerAddCondition( tempTrig, Condition( condition ) )
 	    endif
 	    
-	    set TriggerToExecute[ActionListMax] = triggerToExecute
+	    set TriggerToExecute[ActionListMax] = tempTrig
 	    set ItemType[ActionListMax] = itemType
 	    set EventTypeCustom[ActionListMax] = eventType
 	    
@@ -254,7 +255,7 @@ library Trigger initializer init requires EventDatabase
 	    
 	    call SaveInteger(ItemTypeData, itemType, EVENT_AMOUNT, amountOfEvents )
 	    
-		set triggerToExecute = null
+		return tempTrig
 	endfunction
 	
 	private function CreateEventCustom takes integer index returns nothing

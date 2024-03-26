@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.3.6T|r
+|cffbe81f7Boss Battle 1.5.3.7T|r
 }
 
 STRING 2
@@ -14898,6 +14898,12 @@ STRING 2213
 - Every 6 seconds, the boss launches ice shells at the heroes, dealing |cffbe81f7400|r damage after 2 seconds.
 - |cff00cceeAt 50% health:|r Reduces the attack and movement speed of all heroes by 25%.
 |cffffcc00Duration:|r 15 seconds.
+}
+
+STRING 2214
+// Abilities: A1FU (Stat: Phy Damage Taken -10%), Name (Name)
+{
+Stat: Phy Damage Taken -10%
 }
 
 STRING 2215
@@ -72906,7 +72912,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.3.6T|r
+|cffbe81f7Boss Battle 1.5.3.7T|r
 }
 
 STRING 11219

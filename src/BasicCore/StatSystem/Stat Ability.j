@@ -14,7 +14,9 @@ library StatAbility requires StatSystem, Trigger
 		local integer stat = LoadInteger(udg_hash, id, STRING_HASH_STAT )
 		local real value = LoadReal(udg_hash, id, STRING_HASH )
 		
-		//call BJDebugMsg("Add " + R2S(value))
+		/*call BJDebugMsg("Add " + R2S(value))
+		call BJDebugMsg("Stat " + R2S(stat))
+		call BJDebugMsg("Item " + GetItemName(GetManipulatedItem()))*/
 		call StatSystem_Add(GetManipulatingUnit(), stat, value)
 	endfunction
 	
