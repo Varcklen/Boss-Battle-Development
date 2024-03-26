@@ -1,0 +1,11 @@
+{
+  "Id": 1420371940,
+  "Comment": "function JuleLib_GetItemInSlot takes integer slot returns integer //Получить id предмета в слоте у Жуля\r\nfunction JuleLib_GetCostInSlot takes integer slot returns integer //Получить базовую стоимость в слоте у Жуля\r\nfunction JuleLib_SetFutureItem takes integer slot, integer itemId returns nothing //задает один следующий предмет в слоте\r\nfunction JuleLib_SetFutureCost takes integer slot, integer newCost returns nothing //задает базовую стоимость одного следующего предмета в слоте",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "scope Cheese\r\n\tglobals\r\n        private constant integer ID_CHEESE = 'IZ03'\r\n    endglobals\r\n    \r\n\tfunction Trig_Cheese_Conditions takes nothing returns boolean\r\n    \treturn GetItemTypeId(GetManipulatedItem()) == ID_CHEESE\r\n\tendfunction\r\n\r\n\tfunction Trig_Cheese_Actions takes nothing returns nothing\r\n    \tlocal integer cyclA = 1\r\n\t\tlocal integer cost\r\n\t\tlocal integer i\r\n\t\tlocal integer j\r\n\t\tlocal integer h \r\n\t\t\r\n\t\tset h = 8 + IMinBJ(8, julenum)\r\n\t\tloop\r\n\t\texitwhen cyclA > h\r\n\t\t\tset i = GetRandomInt(1, udg_Database_NumberItems[2])\r\n\t\t\tset j = DB_Items[2][i]\r\n\t\t\tset cost = JuleLib_GetCostInSlot(cyclA)\r\n       \t\tcall JuleLib_SetFutureCost(cyclA, cost)\r\n   \t     \tcall JuleLib_SetFutureItem(cyclA, j)\r\n\t\t\tset cyclA = cyclA + 1\r\n\t\tendloop\r\n\t\tcall JuleRef()\r\n    \tcall stazisst( GetManipulatingUnit(), GetManipulatedItem() )\r\n\tendfunction\r\n\r\n//****************************************************************************\r\n\tfunction InitTrig_Cheese takes nothing returns nothing\r\n\t\tset gg_trg_Cheese = CreateTrigger()\r\n    \tcall TriggerRegisterAnyUnitEventBJ( gg_trg_Cheese, EVENT_PLAYER_UNIT_USE_ITEM )\r\n    \tcall TriggerAddCondition( gg_trg_Cheese, Condition( function Trig_Cheese_Conditions ) )\r\n\t\tcall TriggerAddAction(gg_trg_Cheese, function Trig_Cheese_Actions)\r\n\tendfunction\r\n\r\nendscope",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

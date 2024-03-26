@@ -16,7 +16,7 @@
           },
           {
             "ParamType": 5,
-            "value": "-trade"
+            "value": "-exchange"
           },
           {
             "ParamType": 2,
@@ -31,12 +31,13 @@
   "Conditions": [],
   "Actions": [
     {
-      "isEnabled": false,
+      "isEnabled": true,
       "function": {
         "ParamType": 1,
         "parameters": [
           {
-            "value": ""
+            "ParamType": 5,
+            "value": "I0E2"
           },
           {
             "ParamType": 1,

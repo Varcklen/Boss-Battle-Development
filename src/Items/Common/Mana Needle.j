@@ -7,13 +7,16 @@ scope ManaNeedle initializer init
 	endglobals
 
 	private function OnAfterDamageEvent takes nothing returns nothing
-	    if inv( udg_DamageEventTarget, ITEM_ID ) > 0 then
-	        call manast( udg_DamageEventTarget, null, MANA_RESTORE )
-	    endif
+		local unit target = AfterAttack.GetDataUnit("target")
+	    //if inv( udg_DamageEventTarget, ITEM_ID ) > 0 then
+	        call manast( target, null, MANA_RESTORE )
+	    //endif
+	    set target = null
 	endfunction
 
 	private function init takes nothing returns nothing
-	    call CreateEventTrigger( "udg_AfterDamageEvent", function OnAfterDamageEvent, null )
+	    //call CreateEventTrigger( "udg_AfterDamageEvent", function OnAfterDamageEvent, null )
+	    call RegisterDuplicatableItemTypeCustom( ITEM_ID, AfterAttack, function OnAfterDamageEvent, null, "target" )
 	endfunction
 	
 endscope

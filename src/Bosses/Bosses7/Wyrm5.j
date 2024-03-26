@@ -47,7 +47,8 @@ scope Wyrm5 initializer init
 	    endif
 		set id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( "bswr1" ) ) ) 
 	    call SaveUnitHandle( udg_hash, id, StringHash( "bswr1" ), udg_DamageEventTarget )
-		call TimerStart( LoadTimerHandle( udg_hash, GetHandleId( udg_DamageEventTarget ), StringHash( "bswr1" ) ), bosscast(8), true, function WyrmSpawn )
+	    //No bosscast intended - balance preferences
+		call TimerStart( LoadTimerHandle( udg_hash, GetHandleId( udg_DamageEventTarget ), StringHash( "bswr1" ) ), 8, true, function WyrmSpawn )
 	endfunction
 	
 	//===========================================================================

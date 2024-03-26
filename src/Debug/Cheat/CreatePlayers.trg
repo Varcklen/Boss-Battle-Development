@@ -539,38 +539,11 @@
                 "ParamType": 1,
                 "parameters": [
                   {
-                    "ParamType": 3,
-                    "VariableId": 100663680,
-                    "arrayIndexValues": [
-                      {
-                        "ParamType": 1,
-                        "parameters": [],
-                        "value": "GetForLoopIndexA"
-                      },
-                      {
-                        "ParamType": 5,
-                        "value": "0"
-                      }
-                    ],
-                    "value": null
-                  },
-                  {
-                    "ParamType": 3,
-                    "VariableId": 100663675,
-                    "arrayIndexValues": [
-                      {
-                        "ParamType": 5,
-                        "value": "0"
-                      },
-                      {
-                        "ParamType": 5,
-                        "value": "0"
-                      }
-                    ],
-                    "value": null
+                    "ParamType": 5,
+                    "value": "call DeathSystem_DEBUG(udg_hero[bj_forLoopAIndex])"
                   }
                 ],
-                "value": "GroupAddUnitSimple"
+                "value": "CustomScriptCode"
               }
             },
             {

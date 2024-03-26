@@ -1,7 +1,7 @@
 library MinionsLib
 
 	//Checks if a minion can be affected by a buff. The Sludge (minion) from Split should not receive buffs.
-	function MinionAffectCheck takes unit unitToCheck returns boolean
+	function IsPermaBuffAffected takes unit unitToCheck returns boolean
         
         if GetUnitAbilityLevel( unitToCheck, 'A1EN') > 0 then
         	return false

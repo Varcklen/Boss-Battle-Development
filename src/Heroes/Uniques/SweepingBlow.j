@@ -4,7 +4,7 @@ scope SweepingBlow initializer init
 	    private constant real ATTACK_MODIFIER = 0.4
 		private constant real ATTACK_MODIFIER_UPGRADED = 0.8
 		
-		private constant real AREA_AFFECTED = 300
+		private constant real AREA_AFFECTED = 500
 	
 		private constant integer ABILITY_ID = 'A1ED'
 		private constant integer UPGRADED_ABILITY_ID = 'A1EE'
@@ -32,11 +32,13 @@ scope SweepingBlow initializer init
 	private function result takes nothing returns nothing
 	    local integer id = GetHandleId( GetExpiredTimer() )
 	    local unit target = LoadUnitHandle( udg_hash, id, StringHash( "sweeping_blow_target" ) )
-	    local unit caster = LoadUnitHandle( udg_hash, id, StringHash( "sweeping_blow_caster" ) )
+	    local unit caster = LoadUnitHandle( udg_hash, id, StringHash( "sweeping_blow" ) )
 	    local real damage = LoadReal( udg_hash, id, StringHash( "sweeping_blow_damage" ) )
 	    local group g = CreateGroup()
 	    local unit u
-	
+		/*call BJDebugMsg("Cleave " + R2S(damage))
+		call BJDebugMsg("Target: " + GetUnitName(target))
+		call BJDebugMsg("Caster: " + GetUnitName(caster))*/
 		set LoopBrake = true
 	    call GroupEnumUnitsInRange( g, GetUnitX( target ), GetUnitY( target ), AREA_AFFECTED, null )
 	    loop
@@ -70,15 +72,21 @@ scope SweepingBlow initializer init
 	    endif
 		set damageMultiplier = damageMultiplier * GetUnitSpellPower(caster) * GetUniqueSpellPower(caster)
 		set damage = damageMultiplier * udg_DamageEventAmount
+		
+		/*call BJDebugMsg("damage: " + R2S(damage))
+		call BJDebugMsg("damageMultiplier: " + R2S(damageMultiplier))
+		call BJDebugMsg("udg_DamageEventAmount: " + R2S(udg_DamageEventAmount))
+		call BJDebugMsg("GetUnitSpellPower(caster): " + R2S(GetUnitSpellPower(caster)))
+		call BJDebugMsg("GetUniqueSpellPower(caster): " + R2S(GetUniqueSpellPower(caster)))*/
 	    
-	    if LoadTimerHandle( udg_hash, id, StringHash( "sweeping_blow" ) ) == null then
+	    set id = InvokeTimerWithUnit( caster, "sweeping_blow", 0.01, false, function result )
+	    /*if LoadTimerHandle( udg_hash, id, StringHash( "sweeping_blow" ) ) == null then
 	        call SaveTimerHandle( udg_hash, id, StringHash( "sweeping_blow" ), CreateTimer() )
 	    endif
-	    set id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( "sweeping_blow" ) ) ) 
+	    set id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( "sweeping_blow" ) ) )*/ 
 	    call SaveUnitHandle( udg_hash, id, StringHash( "sweeping_blow_target" ), target )
-	    call SaveUnitHandle( udg_hash, id, StringHash( "sweeping_blow_caster" ), caster )
 	    call SaveReal( udg_hash, id, StringHash( "sweeping_blow_damage" ), damage )
-	    call TimerStart( LoadTimerHandle( udg_hash, GetHandleId( caster ), StringHash( "sweeping_blow" ) ), 0.01, false, function result )
+	    //call TimerStart( LoadTimerHandle( udg_hash, GetHandleId( caster ), StringHash( "sweeping_blow" ) ), 0.01, false, function result )
 	    
 	    set caster = null
 	    set target = null
