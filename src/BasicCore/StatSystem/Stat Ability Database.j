@@ -60,7 +60,6 @@ library StatAbilityDatabase initializer init requires StatAbility
 		call ConnectAbilityToStat( 'A1FN', STAT_GOLD_GAIN, 35 )
 		//STAT_DAMAGE_TAKEN_PHY
 		call ConnectAbilityToStat( 'A1FF', STAT_DAMAGE_TAKEN_PHY, -40 )
-		call ConnectAbilityToStat( 'A1FU', STAT_DAMAGE_TAKEN_PHY, -10 )
 		call ConnectAbilityToStat( 'A1FP', STAT_DAMAGE_TAKEN_PHY, 100 )
 		//STAT_MOON_SET_DAMAGE_DEALT
 		call ConnectAbilityToStat( 'A1FG', STAT_MOON_SET_DAMAGE_DEALT, 50 )
