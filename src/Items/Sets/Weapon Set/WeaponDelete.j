@@ -1,8 +1,8 @@
-scope WeaponDelete
+library WeaponDelete
 
 	private function Delete takes item it returns nothing
 		local UltimateWeapon weaponData = UltimateWeapon.GetStruct(it)
-	
+		//call BJDebugMsg("Delete: " + I2S(weaponData))
         call weaponData.destroy()
 	endfunction
 
@@ -15,4 +15,4 @@ scope WeaponDelete
     
     hook RemoveItem OnRemoveItem
 
-endscope
+endlibrary

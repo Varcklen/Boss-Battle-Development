@@ -84,6 +84,25 @@ scope WeaponGain initializer init
         set ultWeapon = null
 	endfunction
 	
+	private function AddWeapon_End takes nothing returns nothing
+		local integer id = GetHandleId( GetExpiredTimer( ) )
+    	local unit hero = LoadUnitHandle( udg_hash, id, StringHash( "ult_wep_add_delay" ) )
+    	local item itemUsed = LoadItemHandle(udg_hash, id, StringHash("ult_wep_add_delay_item") )
+    	
+    	call AddWeapon(hero, itemUsed)
+    	call FlushChildHashtable( udg_hash, id )
+    	
+    	set itemUsed = null
+    	set hero = null
+	endfunction
+	
+	private function AddWeapon_Delay takes unit hero, item itemUsed returns nothing
+		local integer id
+		
+		set id = InvokeTimerWithUnit( hero, "ult_wep_add_delay", 0.01, false, function AddWeapon_End )
+		call SaveItemHandle(udg_hash, id, StringHash("ult_wep_add_delay_item"), itemUsed )
+	endfunction
+	
 	private function CreateUltimateWeapon takes unit hero returns nothing
 		local integer i
 		local integer iMax
@@ -95,43 +114,50 @@ scope WeaponGain initializer init
 		local integer index = CorrectPlayer(hero)
 		local boolean isAdded
 		local integer id
+		local integer weaponFound
+
+		set Event_UnitLoseUltimateWeapon_Hero = hero
+        set Event_UnitLoseUltimateWeapon_Item = null
+        
+        set Event_UnitLoseUltimateWeapon_Real = 0.00
+        set Event_UnitLoseUltimateWeapon_Real = 1.00
+        set Event_UnitLoseUltimateWeapon_Real = 0.00
 
 		set newItem = CreateItem( WeaponPieceSystem_ULTIMATE_WEAPON_ID, GetUnitX( hero ), GetUnitY( hero ) )
         set weaponData = UltimateWeapon.create(newItem, hero)
 
         set i = 0
         set iMax = UnitInventorySize(hero)
+        set weaponFound = 0
         loop
             exitwhen i >= iMax
             set itemSlot = UnitItemInSlot( hero, i )
             set itemType = GetItemTypeId( itemSlot )
             if Weapon_Logic(itemSlot) then
+            	set weaponFound = weaponFound + 1
+            	
+            	call UnitRemoveItemFromSlot( hero, i )
+                
+                if weaponFound == 1 then
+                	call UnitAddItem( hero, newItem )
+                endif
             
             	set isAdded = weaponData.Add(itemType)
                 if isAdded then
                 	set textGain = textGain + GetItemText( itemSlot )
             	endif
             	
-                call UnitRemoveItemFromSlot( hero, i )
-                call RemoveItem(itemSlot)
+            	call RemoveItem(itemSlot)
             endif
             set i = i + 1
         endloop
 
-        set Event_UnitLoseUltimateWeapon_Hero = hero
-        set Event_UnitLoseUltimateWeapon_Item = null
-        
-        set Event_UnitLoseUltimateWeapon_Real = 0.00
-        set Event_UnitLoseUltimateWeapon_Real = 1.00
-        set Event_UnitLoseUltimateWeapon_Real = 0.00
-        
         call DisplayTimedTextToForce( bj_FORCE_ALL_PLAYERS, 5.00, udg_Player_Color[index] + GetPlayerName(GetOwningPlayer(hero)) + "|r assembled set |cff2d9995Weapon|r!" )
 	    call DestroyEffect( AddSpecialEffect( "Objects\\Spawnmodels\\Human\\HCancelDeath\\HCancelDeath.mdl", GetUnitX( hero ), GetUnitY( hero ) ) )
 	    call iconon( index,  "Оружие", "war3mapImported\\PASAchievement_Arena_3v3_7_result.blp" )
 	    
-	    call BlzSetItemExtendedTooltip( newItem, BlzGetItemExtendedTooltip(newItem) + textGain )
 	    
-	    call UnitAddItem( hero, newItem )
+	    call BlzSetItemExtendedTooltip( newItem, BlzGetItemExtendedTooltip(newItem) + textGain )
 	    
 	    set Event_UnitAddUltimateWeapon_Hero = hero
 	    set Event_UnitAddUltimateWeapon_Item = newItem
@@ -178,7 +204,7 @@ scope WeaponGain initializer init
 	            call CreateUltimateWeapon_Delay(u)
         	endif
     	elseif GetInventoryIndexOfItemTypeBJ( u, WeaponPieceSystem_ULTIMATE_WEAPON_ID) > 0 then
-        	call AddWeapon(u, it)
+        	call AddWeapon_Delay(u, it)
 	    endif
 	    
 	    //call AllSetRing( u, 7, it )

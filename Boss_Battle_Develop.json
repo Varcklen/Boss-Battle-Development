@@ -6062,6 +6062,27 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
+              "path": "Items\\Common\\Armadillo.j",
+              "Files": []
+            },
+            {
+              "isEnabled": false,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Boom365.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Albedo.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Bananas.trg",
               "Files": []
             },
@@ -6126,13 +6147,6 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Common\\BookSub.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Common\\Boom365.trg",
               "Files": []
             },
             {
@@ -8777,10 +8791,17 @@
               "Files": []
             },
             {
-              "isEnabled": true,
+              "isEnabled": false,
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Legendary\\Logosh Shield.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Legendary\\Logosh Shield.j",
               "Files": []
             },
             {
@@ -9195,6 +9216,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Legendary\\Sacred Stone.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Legendary\\Sword of Power.j",
               "Files": []
             },
             {
@@ -9819,7 +9847,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Heroes",
       "Files": [
         {
@@ -10954,13 +10982,13 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Rippers",
           "Files": [
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Rippers\\Vampyre",
               "Files": [
                 {

@@ -61,14 +61,16 @@ library WeaponPieceSystem requires EventSystem
 		readonly trigger TriggerUsed
 		readonly Event EventUsed
 		readonly string ScopeName
+		readonly integer TriggerType
 		
-		static method create takes integer itemId, trigger triggerUsed, Event eventUsed, string scopeName returns thistype
+		static method create takes integer itemId, trigger triggerUsed, Event eventUsed, string scopeName, integer triggerType returns thistype
 			local thistype p = thistype.allocate()
 			
 			set p.ItemId = itemId
 			set p.TriggerUsed = triggerUsed
 			set p.EventUsed = eventUsed//WeaponEvent.AddEvent(, p)
 			set p.ScopeName = scopeName
+			set p.TriggerType = triggerType
 			
 			set WeaponPieces[WeaponPieces_Max] = p
 			set WeaponPieces_Max = WeaponPieces_Max + 1
@@ -120,6 +122,7 @@ library WeaponPieceSystem requires EventSystem
 			local integer i = 0
 			local integer iMax = .Pieces_Max
 			
+			//call BJDebugMsg("onDestroy")
 			set WeaponData = this
 			loop
 				exitwhen i >= iMax
