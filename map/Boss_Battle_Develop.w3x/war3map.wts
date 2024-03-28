@@ -21053,6 +21053,18 @@ STRING 3121
 With a probability of |cffd7df0110%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
 }
 
+STRING 3122
+// Abilities: A1FX (Stat: Heal Taken -40%), Name (Name)
+{
+Stat: Heal Taken -40%
+}
+
+STRING 3123
+// Abilities: A1FY (.General: Dummy), Name (Name)
+{
+.General: Dummy
+}
+
 STRING 3124
 // Units: N00X ((R) Combat Ogre), Name (Name)
 {
@@ -35043,6 +35055,12 @@ STRING 5271
 Armor (Мандом)
 }
 
+STRING 5272
+// Abilities: A1FZ (Stat: Gold Gain -20%), Name (Name)
+{
+Stat: Gold Gain -20%
+}
+
 STRING 5273
 // Abilities: A0Z3 (At. Speed (Син)), Name (Name)
 {
@@ -41512,6 +41530,12 @@ STRING 6257
 HP/sec (Alatyr)
 }
 
+STRING 6258
+// Abilities: A1G0 (Stat: Damage Taken +25%), Name (Name)
+{
+Stat: Damage Taken +25%
+}
+
 STRING 6259
 // Abilities: A0R9 (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -43425,6 +43449,12 @@ STRING 6556
 Take My Money!, [|cffffcc00Level %d|r]
 }
 
+STRING 6557
+// Abilities: A1G1 (Stat: Phy Damage Dealt -90%), Name (Name)
+{
+Stat: Phy Damage Dealt -90%
+}
+
 STRING 6558
 // Abilities: A0OY (Wagon: Take My Money!), Tip (Tooltip - Normal)
 {
@@ -43453,6 +43483,24 @@ STRING 6562
 // Abilities: A0OY (Wagon: Take My Money!), Tip (Tooltip - Normal)
 {
 Take My Money!, [|cffffcc00Level 5|r]
+}
+
+STRING 6563
+// Abilities: A1G2 (Stat: Damage Dealt Minions -30%), Name (Name)
+{
+Stat: Damage Dealt Minions -30%
+}
+
+STRING 6564
+// Abilities: A1G3 (Stat: Cooldown +15%), Name (Name)
+{
+Stat: Cooldown +15%
+}
+
+STRING 6565
+// Abilities: A1G4 (Stat: Cooldown +25%), Name (Name)
+{
+Stat: Cooldown +25%
 }
 
 STRING 6568

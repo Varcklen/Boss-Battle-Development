@@ -118,6 +118,26 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         	caster (unit)
         	amount_of_uses (integer) -- can be changed in the trigger
         */
+        Event RuneSetGain
+        /*
+        	caster (unit)
+        	item (item)
+        */
+        Event RuneSetLose
+        /*
+        	caster (unit)
+        	item (item)
+        */
+        Event RuneSetGainCheck
+        /*
+        	caster (unit)
+        	item (item)
+        */
+        Event RuneSetLoseCheck
+        /*
+        	caster (unit)
+        	item (item)
+        */
     endglobals
     
     private function InitCustomEvents takes nothing returns nothing
@@ -142,6 +162,10 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         set AnyUnitDied = Event.create("caster", "unit_died")
         set AfterJuleRefresh = Event.create(null, null)
         set ItemUsed = Event.create("caster", null)
+        set RuneSetGain = Event.create("caster", null)
+        set RuneSetLose = Event.create("caster", null)
+        set RuneSetGainCheck = Event.create("caster", null)
+        set RuneSetLoseCheck = Event.create("caster", null)
     endfunction
     
     /*Base Event Init*/
