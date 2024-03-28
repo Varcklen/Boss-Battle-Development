@@ -2763,7 +2763,7 @@ Discord
 }
 
 STRING 446
-// Items: I00A (Runestone Kandom), Description (Description)
+// Items: I00A (Runestone Alatyr), Description (Description)
 {
 |cff4169e1Rare|r, |cff848484Rune|r
 Increases Attack by 30 and Health Regeneration by 2.
@@ -2777,7 +2777,7 @@ Kappa
 }
 
 STRING 448
-// Items: I00A (Runestone Kandom), Ubertip (Tooltip - Extended)
+// Items: I00A (Runestone Alatyr), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cff848484Rune|r
 Increases Attack by 30 and Health Regeneration by 2.
@@ -21053,18 +21053,6 @@ STRING 3121
 With a probability of |cffd7df0110%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
 }
 
-STRING 3122
-// Items: I00A (Runestone Kandom), Name (Name)
-{
-Runestone Kandom
-}
-
-STRING 3123
-// Items: I00A (Runestone Kandom), Tip (Tooltip - Basic)
-{
-Runestone Kandom
-}
-
 STRING 3124
 // Units: N00X ((R) Combat Ogre), Name (Name)
 {
@@ -35055,12 +35043,6 @@ STRING 5271
 Armor (Мандом)
 }
 
-STRING 5272
-// Abilities: A0Z4 (Attack (Кандом)), Name (Name)
-{
-Attack (Кандом)
-}
-
 STRING 5273
 // Abilities: A0Z3 (At. Speed (Син)), Name (Name)
 {
@@ -35809,6 +35791,12 @@ STRING 5390
 Unique: Keen mind
 }
 
+STRING 5391
+// Abilities: A1FV (Stat: Phy Damage Dealt +10%), Name (Name)
+{
+Stat: Phy Damage Dealt +10%
+}
+
 STRING 5392
 // Abilities: A12S (Adventurer: Treasure Hunt), Tip (Tooltip - Normal)
 {
@@ -36534,6 +36522,12 @@ STRING 5500
 Banshee
 }
 
+STRING 5501
+// Abilities: A1FW (Stat: Phy Damage Dealt +45%), Name (Name)
+{
+Stat: Phy Damage Dealt +45%
+}
+
 STRING 5502
 // Abilities: A0W6 (Артефакт: Безликий-Шпион), Name (Name)
 {
@@ -36712,6 +36706,12 @@ STRING 5526
 // Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Tip (Tooltip - Normal)
 {
 Ogre mage
+}
+
+STRING 5527
+// Items: I00A (Runestone Alatyr), Name (Name)
+{
+Runestone Alatyr
 }
 
 STRING 5528
@@ -37121,6 +37121,12 @@ STRING 5592
 // Abilities: A0VH (|cffffcc00Уровень 10:|r Хрономонстр), Tip (Tooltip - Normal)
 {
 |cFFFE8A0ELAST BOSS:|r Chronomonster
+}
+
+STRING 5593
+// Items: I00A (Runestone Alatyr), Tip (Tooltip - Basic)
+{
+Runestone Alatyr
 }
 
 STRING 5594
@@ -41492,6 +41498,18 @@ STRING 6255
 // Abilities: A12S (Adventurer: Treasure Hunt), Tip (Tooltip - Normal)
 {
 Treasure Hunt, [|cffffcc00Level 5|r]
+}
+
+STRING 6256
+// Abilities: A0Z4 (Attack (Alatyr)), Name (Name)
+{
+Attack (Alatyr)
+}
+
+STRING 6257
+// Abilities: A0KR (HP/sec (Alatyr)), Name (Name)
+{
+HP/sec (Alatyr)
 }
 
 STRING 6259
@@ -47684,12 +47702,6 @@ STRING 7221
 Weakens the enemy. The target cannot move and every second takes |cffbe81f750|r damage.
 |cffffcc00Duration:|r 7 seconds.
 |cffffcc00Cooldown:|r 14 seconds.
-}
-
-STRING 7222
-// Abilities: A0KR (HP/sec (Кандом)), Name (Name)
-{
-HP/sec (Кандом)
 }
 
 STRING 7223

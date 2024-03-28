@@ -7,7 +7,7 @@ scope LogoshShield initializer init
 	endglobals
 	
 	private function condition takes nothing returns boolean
-	    return luckylogic( AfterAttack.TriggerUnit, 15, 1, 100 )
+	    return luckylogic( AfterAttack.TargetUnit, 15, 1, 100 )
 	endfunction
 	
 	private function Logosh_ShieldCast takes nothing returns nothing

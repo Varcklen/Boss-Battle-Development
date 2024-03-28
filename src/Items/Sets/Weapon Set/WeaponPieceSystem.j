@@ -14,6 +14,21 @@ library WeaponPieceSystem requires EventSystem
 		private constant integer STRING_HASH = StringHash("ultimate_weapon")
 	endglobals
 	
+	//==========================================================================
+	public function IsItemTypeAdded takes unit hero, integer itemType returns boolean
+		local item ultWeapon = GetItemOfTypeFromUnitBJ( hero, ULTIMATE_WEAPON_ID)
+		local UltimateWeapon ultWeaponData
+		
+		if ultWeapon == null then
+			return false
+		endif
+		
+		set ultWeaponData = UltimateWeapon.GetStruct(ultWeapon)
+		
+		return ultWeaponData.IsExist(itemType)
+	endfunction
+	//==========================================================================
+	
 	/*struct WeaponEvent
 		readonly Event EventUsed
 		
@@ -85,7 +100,7 @@ library WeaponPieceSystem requires EventSystem
 		readonly item TriggerItem
 		readonly unit TriggerUnit
 	
-		private method IsExist takes integer itemId returns boolean
+		method IsExist takes integer itemId returns boolean
 			local integer i = 0
 			local integer iMax = .Pieces_Max
 			//local WeaponPiece piece
