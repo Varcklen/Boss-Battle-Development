@@ -33,8 +33,15 @@ library StatAbilityDatabase initializer init requires StatAbility
 		call ConnectAbilityToStat( 'A1F4', STAT_HEAL_BONUS, 150 )
 		call ConnectAbilityToStat( 'A1FM', STAT_HEAL_BONUS, 20 )
 		//STAT_DAMAGE_DEALT_PHY
+		call ConnectAbilityToStat( 'A1FV', STAT_DAMAGE_DEALT_PHY, 10 )
 		call ConnectAbilityToStat( 'A1F5', STAT_DAMAGE_DEALT_PHY, 40 )
+		call ConnectAbilityToStat( 'A1FW', STAT_DAMAGE_DEALT_PHY, 45 )
 		call ConnectAbilityToStat( 'A1FQ', STAT_DAMAGE_DEALT_PHY, 100 )
+		call ConnectAbilityToStat( 'A1G1', STAT_DAMAGE_DEALT_PHY, -90 )
+		//STAT_DAMAGE_TAKEN
+		call ConnectAbilityToStat( 'A1FA', STAT_DAMAGE_TAKEN, 25 )
+		//STAT_DAMAGE_DEALT_MINIONS
+		call ConnectAbilityToStat( 'A1G2', STAT_DAMAGE_DEALT_MINIONS, -30 )
 		//STAT_DAMAGE_DEALT_MINIONS_PHY
 		call ConnectAbilityToStat( 'A1F6', STAT_DAMAGE_DEALT_MINIONS_PHY, 200 )
 		//STAT_DAMAGE_DEALT_MAG
@@ -50,16 +57,22 @@ library StatAbilityDatabase initializer init requires StatAbility
 		//STAT_COOLDOWN
 		call ConnectAbilityToStat( 'A1FB', STAT_COOLDOWN, -30 )
 		call ConnectAbilityToStat( 'A1FL', STAT_COOLDOWN, -10 )
+		call ConnectAbilityToStat( 'A1G3', STAT_COOLDOWN, 15 )
+		call ConnectAbilityToStat( 'A1G4', STAT_COOLDOWN, 25 )
 		//STAT_BUFF_DURATION
 		call ConnectAbilityToStat( 'A1FC', STAT_BUFF_DURATION, 50 )
 		//STAT_MANA_HEAL_BONUS
 		call ConnectAbilityToStat( 'A1FD', STAT_MANA_HEAL_BONUS, 100 )
+		//STAT_HEAL_TAKEN
+		call ConnectAbilityToStat( 'A1FX', STAT_HEAL_TAKEN, -40 )
 		//STAT_GOLD_GAIN
 		call ConnectAbilityToStat( 'A1FE', STAT_GOLD_GAIN, 20 )
 		call ConnectAbilityToStat( 'A1FJ', STAT_GOLD_GAIN, -90 )
 		call ConnectAbilityToStat( 'A1FN', STAT_GOLD_GAIN, 35 )
+		call ConnectAbilityToStat( 'A1FZ', STAT_GOLD_GAIN, -20 )
 		//STAT_DAMAGE_TAKEN_PHY
 		call ConnectAbilityToStat( 'A1FF', STAT_DAMAGE_TAKEN_PHY, -40 )
+		call ConnectAbilityToStat( 'A1FU', STAT_DAMAGE_TAKEN_PHY, -10 )
 		call ConnectAbilityToStat( 'A1FP', STAT_DAMAGE_TAKEN_PHY, 100 )
 		//STAT_MOON_SET_DAMAGE_DEALT
 		call ConnectAbilityToStat( 'A1FG', STAT_MOON_SET_DAMAGE_DEALT, 50 )

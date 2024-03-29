@@ -22,7 +22,7 @@ scope OnAnyHeroDied initializer init
 	endfunction
 
 	private function init takes nothing returns nothing
-	    call CreateNativeEvent( EVENT_PLAYER_UNIT_DEATH, function action, null )
+	    call CreateNativeEvent( EVENT_PLAYER_UNIT_DEATH, function action, function condition )
 	endfunction
 
 endscope

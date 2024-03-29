@@ -11,7 +11,7 @@ scope CurseWildGrowth initializer init
 	
 	private function check takes nothing returns nothing
 	    local integer id = GetHandleId( GetExpiredTimer( ) )
-	    local effect vine = LoadEffectHandle( udg_hash, id, StringHash( "mdb27v" ) )
+	    local effect vine = LoadEffectHandle( udg_hash, id, StringHash( "curse_vine_check" ) )
 	    local group g = CreateGroup()
 	    local group affected = CreateGroup()
 	    local unit u

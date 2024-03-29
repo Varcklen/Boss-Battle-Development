@@ -6,6 +6,8 @@ library StatAbility requires StatSystem, Trigger
 	endglobals
 
 	private function condition takes nothing returns boolean
+		/*call BJDebugMsg("Check: " + GetItemName(GetManipulatedItem()))
+		call BJDebugMsg("Ability: " + I2S(LoadInteger(udg_hash, GetHandleId(GetTriggeringTrigger()), STRING_HASH )))*/
 		return udg_logic[36] == false and BlzGetItemAbility( GetManipulatedItem(), LoadInteger(udg_hash, GetHandleId(GetTriggeringTrigger()), STRING_HASH ) ) != null
 	endfunction
 	
@@ -14,7 +16,9 @@ library StatAbility requires StatSystem, Trigger
 		local integer stat = LoadInteger(udg_hash, id, STRING_HASH_STAT )
 		local real value = LoadReal(udg_hash, id, STRING_HASH )
 		
-		//call BJDebugMsg("Add " + R2S(value))
+		/*call BJDebugMsg("Add " + R2S(value))
+		call BJDebugMsg("Stat " + R2S(stat))
+		call BJDebugMsg("Item " + GetItemName(GetManipulatedItem()))*/
 		call StatSystem_Add(GetManipulatingUnit(), stat, value)
 	endfunction
 	

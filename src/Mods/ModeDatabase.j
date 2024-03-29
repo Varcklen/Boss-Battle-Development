@@ -65,7 +65,7 @@ library ModeDatabase initializer init requires ModeClass
 		call Mode.create( 'A0M4', "CurseStorm", false)
 		call Mode.create( 'A0MQ', "CurseSteadfastness", false)
 		call Mode.create( 'A0MY', "CurseDarkness", false)
-		call Mode.create( 'A0YS', "CurseTrash", false)
+		call Mode.create( 'A0NL', "CurseTrash", false)
 		call Mode.create( 'A0P5', "CurseCounterstrike", false)
 		call Mode.create( 'A0SZ', "CurseZeal", false)
 		call Mode.create( 'A0T0', "CurseLaziness", false)

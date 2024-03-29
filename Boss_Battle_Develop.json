@@ -60,48 +60,6 @@
           "isEnabled": true,
           "isInitiallyOn": true,
           "isExpanded": false,
-          "path": "Variables\\Event_RuneSetRemove_Item.var",
-          "Files": []
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
-          "path": "Variables\\Event_RuneSetAdd_Item.var",
-          "Files": []
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
-          "path": "Variables\\Event_RuneSetRemove_Hero.var",
-          "Files": []
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
-          "path": "Variables\\Event_RuneSetRemove_Real.var",
-          "Files": []
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
-          "path": "Variables\\Event_RuneSetAdd_Hero.var",
-          "Files": []
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
-          "path": "Variables\\Event_RuneSetAdd_Real.var",
-          "Files": []
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
           "path": "Variables\\Event_PlayerMinionSummon_Unit.var",
           "Files": []
         },
@@ -2097,13 +2055,6 @@
           "isEnabled": true,
           "isInitiallyOn": true,
           "isExpanded": false,
-          "path": "Variables\\Set_Weapon_Logic.var",
-          "Files": []
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
           "path": "Variables\\Database_RandomUnit.var",
           "Files": []
         },
@@ -2407,7 +2358,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Library",
       "Files": [
         {
@@ -2841,7 +2792,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "BasicCore\\Database",
           "Files": [
             {
@@ -3589,6 +3540,13 @@
                   "isEnabled": true,
                   "isInitiallyOn": true,
                   "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Heal Taken.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
                   "path": "BasicCore\\StatSystem\\Stat Action\\Damage Dealt.j",
                   "Files": []
                 },
@@ -3611,6 +3569,13 @@
                   "isInitiallyOn": true,
                   "isExpanded": false,
                   "path": "BasicCore\\StatSystem\\Stat Action\\Phy Damage Dealt Minions.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "BasicCore\\StatSystem\\Stat Action\\Damage Dealt Minions.j",
                   "Files": []
                 },
                 {
@@ -4765,7 +4730,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Mods\\Others",
           "Files": [
             {
@@ -5557,7 +5522,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Debug",
       "Files": [
         {
@@ -5592,6 +5557,13 @@
               "isInitiallyOn": false,
               "isExpanded": false,
               "path": "Debug\\Cheat\\Cheatmodbad.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Debug\\Cheat\\CheatBlessAll.j",
               "Files": []
             },
             {
@@ -5810,6 +5782,13 @@
               "isExpanded": false,
               "path": "Debug\\Cheat\\CheatRandomAbility.j",
               "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Debug\\Cheat\\CheatCheckStats.j",
+              "Files": []
             }
           ]
         },
@@ -5884,14 +5863,14 @@
           "Files": []
         },
         {
-          "isEnabled": true,
+          "isEnabled": false,
           "isInitiallyOn": true,
           "isExpanded": false,
           "path": "Debug\\Test.j",
           "Files": []
         },
         {
-          "isEnabled": true,
+          "isEnabled": false,
           "isInitiallyOn": true,
           "isExpanded": false,
           "path": "Debug\\Test2.j",
@@ -5902,13 +5881,13 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Items",
       "Files": [
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Common",
           "Files": [
             {
@@ -5996,7 +5975,7 @@
               "Files": []
             },
             {
-              "isEnabled": true,
+              "isEnabled": false,
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Common\\Archer.trg",
@@ -6042,6 +6021,27 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Common\\Autonavigator.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Armadillo.j",
+              "Files": []
+            },
+            {
+              "isEnabled": false,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Boom365.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Albedo.j",
               "Files": []
             },
             {
@@ -6118,13 +6118,6 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
-              "path": "Items\\Common\\Boom365.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
               "path": "Items\\Common\\Bursting bullet.trg",
               "Files": []
             },
@@ -6195,6 +6188,20 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
+              "path": "Items\\Common\\Blockade.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Brass Knuckles.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Chameleon Tarot.trg",
               "Files": []
             },
@@ -6210,6 +6217,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Common\\Cytine.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Chakrum.j",
               "Files": []
             },
             {
@@ -6489,6 +6503,20 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
+              "path": "Items\\Common\\Hook Hands.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Heavy Ax.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
               "path": "Items\\Common\\InfiniteSub.trg",
               "Files": []
             },
@@ -6552,6 +6580,13 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
+              "path": "Items\\Common\\Katana.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Library Card.trg",
               "Files": []
             },
@@ -6567,6 +6602,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Common\\Lollipop.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Long Bow.j",
               "Files": []
             },
             {
@@ -6818,6 +6860,13 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
+              "path": "Items\\Common\\Ogre Club.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Parcel.trg",
               "Files": []
             },
@@ -7001,6 +7050,55 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Common\\Runestone Troy.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Runestone Zi.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Runestone Zolo Stats.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Runestone Doh.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Runestone Chad.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Runestone Alatyr.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Runestone Zot.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Runestone Fandom.j",
               "Files": []
             },
             {
@@ -7652,6 +7750,13 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
+              "path": "Items\\Rare\\Desperados Hatchet.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
               "path": "Items\\Rare\\Elixir of Acumen.trg",
               "Files": []
             },
@@ -8108,6 +8213,20 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Rare\\Runestone Pan.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Rare\\Runestone Mandom.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Rare\\Runestone Gnir.j",
               "Files": []
             },
             {
@@ -8749,10 +8868,17 @@
               "Files": []
             },
             {
-              "isEnabled": true,
+              "isEnabled": false,
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Legendary\\Logosh Shield.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Legendary\\Logosh Shield.j",
               "Files": []
             },
             {
@@ -9173,6 +9299,13 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
+              "path": "Items\\Legendary\\Sword of Power.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
               "path": "Items\\Legendary\\Tarot Card Wealth.trg",
               "Files": []
             },
@@ -9549,6 +9682,13 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
+              "path": "Items\\Sets\\SetCountLib.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
               "path": "Items\\Sets\\AlchemyAA.trg",
               "Files": []
             },
@@ -9695,50 +9835,108 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Sets\\RuneG.trg",
-              "Files": []
+              "isExpanded": true,
+              "path": "Items\\Sets\\Rune Set",
+              "Files": [
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Items\\Sets\\Rune Set\\RuneG.trg",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Items\\Sets\\Rune Set\\RuneL.trg",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Items\\Sets\\Rune Set\\RuneSetGainLose.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Items\\Sets\\Rune Set\\RuneSetGainItem.j",
+                  "Files": []
+                }
+              ]
             },
             {
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
-              "path": "Items\\Sets\\RuneL.trg",
-              "Files": []
+              "path": "Items\\Sets\\Weapon Set",
+              "Files": [
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Items\\Sets\\Weapon Set\\WeaponPieceSystem.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Items\\Sets\\Weapon Set\\WeaponPieceDatabase.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Items\\Sets\\Weapon Set\\Weapon Events.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Items\\Sets\\Weapon Set\\WeaponGain.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Items\\Sets\\Weapon Set\\WeaponDelete.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Items\\Sets\\Weapon Set\\WeaponL.trg",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Items\\Sets\\Weapon Set\\WeaponLSW.trg",
+                  "Files": []
+                }
+              ]
             },
             {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Sets\\SetCountLib.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
+              "isEnabled": false,
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Sets\\WeaponG.trg",
               "Files": []
             },
             {
-              "isEnabled": true,
+              "isEnabled": false,
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Sets\\WeaponGSW.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Sets\\WeaponL.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Sets\\WeaponLSW.trg",
               "Files": []
             }
           ]
@@ -9748,7 +9946,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Heroes",
       "Files": [
         {
@@ -10544,7 +10742,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Heroes\\Deffenders",
           "Files": [
             {
@@ -10694,7 +10892,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Deffenders\\Sludge",
               "Files": [
                 {
@@ -11357,6 +11555,13 @@
                   "isExpanded": false,
                   "path": "Heroes\\Marauders\\Admiral\\AdmiralW.trg",
                   "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Marauders\\Admiral\\Admiral R.j",
+                  "Files": []
                 }
               ]
             },
@@ -11997,7 +12202,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Hybrids",
           "Files": [
             {
@@ -12182,7 +12387,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Hybrids\\ChaosLord",
               "Files": [
                 {
@@ -15641,7 +15846,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "FichInEnd",
       "Files": [
         {

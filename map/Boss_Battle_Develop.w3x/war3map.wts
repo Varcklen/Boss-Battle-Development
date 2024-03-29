@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.3.5T|r
+|cffbe81f7Boss Battle 1.5.3.7T|r
 }
 
 STRING 2
@@ -2763,7 +2763,7 @@ Discord
 }
 
 STRING 446
-// Items: I00A (Runestone Kandom), Description (Description)
+// Items: I00A (Runestone Alatyr), Description (Description)
 {
 |cff4169e1Rare|r, |cff848484Rune|r
 Increases Attack by 30 and Health Regeneration by 2.
@@ -2777,7 +2777,7 @@ Kappa
 }
 
 STRING 448
-// Items: I00A (Runestone Kandom), Ubertip (Tooltip - Extended)
+// Items: I00A (Runestone Alatyr), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cff848484Rune|r
 Increases Attack by 30 and Health Regeneration by 2.
@@ -2800,6 +2800,15 @@ STRING 451
 // Units: O00N ((T) Toxic Elemental), Propernames (Proper Names)
 {
 Lye Insanios
+}
+
+STRING 452
+// Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Ubertip (Tooltip - Normal - Extended)
+{
+- Increases attack power of all creatures by 50%.
+- |cff00cceeAt 90% health:|r Silences the heroes for 10 seconds.
+- |cff00cceeAt 75% health:|r Every second, it takes all creatures next to the boss |cffbe81f71%|r of the maximum health. If the target is a minion, it takes |cffbe81f725%|r health instead.
+- |cff00cceeAt 25% health:|r Fully restores health ones.
 }
 
 STRING 453
@@ -14873,7 +14882,7 @@ With a |cffd7df0125%|r chance, the hero can dodge an attack, deal critical damag
 }
 
 STRING 2212
-// Items: I06J (Resonates), Description (Description)
+// Items: I06J (Resonator), Description (Description)
 {
 |cff4169e1Rare|r, |cff00cceeCrystal|r
 Increases spell power by 10%.
@@ -14881,19 +14890,24 @@ Increases spell power by 10%.
 }
 
 STRING 2213
-// Items: I06J (Resonates), Name (Name)
+// Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ледяной дракон), Ubertip (Tooltip - Normal - Extended)
 {
-Resonates
+- No attacks.
+- Ballistas appear in the arena, firing at the heroes. Before destruction, the ballista shoots at the boss, taking away 7.5% of its health.
+- Every 8 seconds, calls the ballista to a random point.
+- Every 6 seconds, the boss launches ice shells at the heroes, dealing |cffbe81f7400|r damage after 2 seconds.
+- |cff00cceeAt 50% health:|r Reduces the attack and movement speed of all heroes by 25%.
+|cffffcc00Duration:|r 15 seconds.
 }
 
 STRING 2214
-// Items: I06J (Resonates), Tip (Tooltip - Basic)
+// Abilities: A1FU (Stat: Phy Damage Taken -10%), Name (Name)
 {
-Resonates
+Stat: Phy Damage Taken -10%
 }
 
 STRING 2215
-// Items: I06J (Resonates), Ubertip (Tooltip - Extended)
+// Items: I06J (Resonator), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cff00cceeCrystal|r
 Increases spell power by 10%.
@@ -21040,15 +21054,15 @@ With a probability of |cffd7df0110%|r, after any action, gives your hero 1 ruby 
 }
 
 STRING 3122
-// Items: I00A (Runestone Kandom), Name (Name)
+// Abilities: A1FX (Stat: Heal Taken -40%), Name (Name)
 {
-Runestone Kandom
+Stat: Heal Taken -40%
 }
 
 STRING 3123
-// Items: I00A (Runestone Kandom), Tip (Tooltip - Basic)
+// Abilities: A1FY (.General: Dummy), Name (Name)
 {
-Runestone Kandom
+.General: Dummy
 }
 
 STRING 3124
@@ -31819,10 +31833,28 @@ STRING 4780
 Неуязвимость
 }
 
+STRING 4781
+// Items: I06J (Resonator), Name (Name)
+{
+Resonator
+}
+
 STRING 4782
 // Abilities: A00S (Blessing: Favorable events (g31)XXX), Name (Name)
 {
 Blessing: Favorable events (g31)XXX
+}
+
+STRING 4783
+// Items: I06J (Resonator), Tip (Tooltip - Basic)
+{
+Resonator
+}
+
+STRING 4784
+// Abilities: A0B7 (Admiral: Fencing Master), Researchubertip (Tooltip - Learn - Extended)
+{
+Every 7/6/5/4/3rd attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
 }
 
 STRING 4785
@@ -33501,6 +33533,18 @@ Teleports all enemies to the center of the area, reduces their armor by 4. If an
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 5034
+// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
+{
+Every 7th attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
+}
+
+STRING 5035
+// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
+{
+Every 6th attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
+}
+
 STRING 5036
 // Abilities: A118 (Blessing: Очищение (g23)XXX), Ubertip (Tooltip - Normal - Extended)
 {
@@ -33668,6 +33712,12 @@ STRING 5063
 // Abilities: A10X (Curse: Сила магии (b10)), Ubertip (Tooltip - Normal - Extended)
 {
 Increases enemy spell power by 15% and enemy magic resistance by 10%.
+}
+
+STRING 5064
+// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
+{
+Every 5th attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
 }
 
 STRING 5065
@@ -35006,9 +35056,9 @@ Armor (Мандом)
 }
 
 STRING 5272
-// Abilities: A0Z4 (Attack (Кандом)), Name (Name)
+// Abilities: A1FZ (Stat: Gold Gain -20%), Name (Name)
 {
-Attack (Кандом)
+Stat: Gold Gain -20%
 }
 
 STRING 5273
@@ -35484,6 +35534,12 @@ STRING 5345
 Berserk
 }
 
+STRING 5346
+// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
+{
+Every 4th attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
+}
+
 STRING 5347
 // Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ледяной дракон), Name (Name)
 {
@@ -35514,6 +35570,12 @@ STRING 5351
 Manipulator
 }
 
+STRING 5352
+// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
+{
+Every 3rd attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
+}
+
 STRING 5353
 // Abilities: A0Y6 (|cffffcc00Уровень 4:|r Темный колдун), Name (Name)
 {
@@ -35524,6 +35586,12 @@ STRING 5354
 // Abilities: A0Y6 (|cffffcc00Уровень 4:|r Темный колдун), Tip (Tooltip - Normal)
 {
 Dark sorcerer
+}
+
+STRING 5355
+// Abilities: A00J (|cffffcc00Уровень 4:|r Мастер клинков), Tip (Tooltip - Normal)
+{
+Blade Master
 }
 
 STRING 5356
@@ -35586,6 +35654,17 @@ STRING 5365
 Soul thief
 }
 
+STRING 5366
+// Abilities: A00J (|cffffcc00Уровень 4:|r Мастер клинков), Ubertip (Tooltip - Normal - Extended)
+{
+- Creates flying glaives near to the heroes. It slowly follows the heroes. Each glaive deals 20 damage.
+- |cff00cceeAt 90% health:|r Every 12 seconds, jumps on a random enemy, deals |cffbe81f7100|r damage.
+- |cff00cceeAt 80% health:|r Every 8 seconds it sets a trap. If you go into it, it reduces the target’s movement speed by 80%.
+|cffffcc00Duration:|r 5 seconds.
+- |cff00cceeAt 40% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
+- |cff00cceeAt 20% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
+}
+
 STRING 5367
 // Abilities: A0XW (|cffffcc00Уровень 2:|r Разбойник), Name (Name)
 {
@@ -35598,6 +35677,12 @@ STRING 5368
 Rogue
 }
 
+STRING 5369
+// Abilities: A1FT ((т)Аура: Horror (Boss Akama)), Name (Name)
+{
+(т)Аура: Horror (Boss Akama)
+}
+
 STRING 5370
 // Abilities: A0XV (|cffffcc00Уровень 1:|r Пьяный мужик), Name (Name)
 {
@@ -35608,6 +35693,12 @@ STRING 5371
 // Abilities: A0XV (|cffffcc00Уровень 1:|r Пьяный мужик), Tip (Tooltip - Normal)
 {
 Drunk man
+}
+
+STRING 5372
+// Buffs/Effects: B04A (), Bufftip (Tooltip)
+{
+|cffff0000Horror|r
 }
 
 STRING 5373
@@ -35719,11 +35810,9 @@ Unique: Keen mind
 }
 
 STRING 5391
-// Abilities: A12S (Adventurer: Treasure Hunt), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A1FV (Stat: Phy Damage Dealt +10%), Name (Name)
 {
-When the ability improves, gives a random |cffcc0000corrupted|r artifact. Increases the cost of Tome of Oblivion by 350.
-
-|cFF959697The artifact is given to an empty inventory slot.|r
+Stat: Phy Damage Dealt +10%
 }
 
 STRING 5392
@@ -36427,6 +36516,12 @@ STRING 5496
 Big codo
 }
 
+STRING 5497
+// Buffs/Effects: B0AI (), Buffubertip (Tooltip - Extended)
+{
+Movement speed has been reduced.
+}
+
 STRING 5498
 // Abilities: A0W8 (Босс 5: Баньши (Аура силы атаки)), Name (Name)
 {
@@ -36443,6 +36538,12 @@ STRING 5500
 // Abilities: A0W7 (|cffffcc00Уровень 5:|r Баньши), Tip (Tooltip - Normal)
 {
 Banshee
+}
+
+STRING 5501
+// Abilities: A1FW (Stat: Phy Damage Dealt +45%), Name (Name)
+{
+Stat: Phy Damage Dealt +45%
 }
 
 STRING 5502
@@ -36578,6 +36679,17 @@ STRING 5519
 Mage Stuntman
 }
 
+STRING 5520
+// Abilities: A09K (|cffffcc00Уровень 10:|r Владыка бездны), Ubertip (Tooltip - Normal - Extended)
+{
+- Deals damage to an area.
+ Every 15 seconds immerses a random hero in stasis. For him to awaken, stasis must be destroyed.
+- Every 7 seconds creates a zone that explodes after 4 seconds, killing all enemy minions. Affected heroes have their movement speed reduced by 80% for 5 second and their health to 10%.
+- |cff00cceeAt 50% health:|r Summons 20 copies of itself and merges among them.
+- |cff00cceeAt 25% health:|r Imposes a mark on each hero that explodes after 10 seconds, inflicting |cffbe81f71000|r damage. The mark disappears if you move away from the boss.
+- |cff00cceeAt 10% health:|r Creates an area under each hero.
+}
+
 STRING 5521
 // Abilities: A0W3 (Босс 2: Огр-Маг (Немота)), Name (Name)
 {
@@ -36612,6 +36724,12 @@ STRING 5526
 // Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Tip (Tooltip - Normal)
 {
 Ogre mage
+}
+
+STRING 5527
+// Items: I00A (Runestone Alatyr), Name (Name)
+{
+Runestone Alatyr
 }
 
 STRING 5528
@@ -37021,6 +37139,12 @@ STRING 5592
 // Abilities: A0VH (|cffffcc00Уровень 10:|r Хрономонстр), Tip (Tooltip - Normal)
 {
 |cFFFE8A0ELAST BOSS:|r Chronomonster
+}
+
+STRING 5593
+// Items: I00A (Runestone Alatyr), Tip (Tooltip - Basic)
+{
+Runestone Alatyr
 }
 
 STRING 5594
@@ -40062,6 +40186,14 @@ STRING 6047
 Poison Touch
 }
 
+STRING 6048
+// Abilities: A12S (Adventurer: Treasure Hunt), Researchubertip (Tooltip - Learn - Extended)
+{
+When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 250.
+
+|cFF959697The artifact is given to an empty inventory slot.|r
+}
+
 STRING 6049
 // Abilities: A0SR (Аура: Counterstrike), Name (Name)
 {
@@ -40098,6 +40230,12 @@ STRING 6054
 Devouring flesh
 }
 
+STRING 6055
+// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
+{
+When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 250.
+}
+
 STRING 6056
 // Abilities: A0SN (Артефакт: Тотем Взгляда), Name (Name)
 {
@@ -40132,6 +40270,18 @@ STRING 6061
 // Abilities: A0SM (|cffffcc00Уровень 10:|r Рыцарь в странной броне), Name (Name)
 {
 |cffffcc00Уровень 10:|r Рыцарь в странной броне
+}
+
+STRING 6062
+// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
+{
+When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 250.
+}
+
+STRING 6063
+// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
+{
+When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 250.
 }
 
 STRING 6064
@@ -41369,21 +41519,21 @@ Treasure Hunt, [|cffffcc00Level 5|r]
 }
 
 STRING 6256
-// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0Z4 (Attack (Alatyr)), Name (Name)
 {
-When the ability improves, gives a random |cffcc0000corrupted|r artifact. Increases the cost of Tome of Oblivion by 350.
+Attack (Alatyr)
 }
 
 STRING 6257
-// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0KR (HP/sec (Alatyr)), Name (Name)
 {
-When the ability improves, gives a random |cffcc0000corrupted|r artifact. Increases the cost of Tome of Oblivion by 350.
+HP/sec (Alatyr)
 }
 
 STRING 6258
-// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1G0 (Stat: Damage Taken +25%), Name (Name)
 {
-When the ability improves, gives a random |cffcc0000corrupted|r artifact. Increases the cost of Tome of Oblivion by 350.
+Stat: Damage Taken +25%
 }
 
 STRING 6259
@@ -41422,6 +41572,13 @@ STRING 6264
 Devouring flesh, [|cffffcc00Level %d|r]
 }
 
+STRING 6265
+// Abilities: A0OY (Wagon: Take My Money!), Researchubertip (Tooltip - Learn - Extended)
+{
+Hero throws 10%/15%/20%/25%/30% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 6266
 // Abilities: A0R7 (Sludge: Devouring flesh), Tip (Tooltip - Normal)
 {
@@ -41450,6 +41607,41 @@ STRING 6270
 // Abilities: A0R7 (Sludge: Devouring flesh), Tip (Tooltip - Normal)
 {
 Devouring flesh, [|cffffcc00Level 5|r]
+}
+
+STRING 6271
+// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+{
+Hero throws 10% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 6272
+// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+{
+Hero throws 15% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 6273
+// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+{
+Hero throws 20% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 6274
+// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+{
+Hero throws 25% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 6275
+// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+{
+Hero throws 30% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 6276
@@ -43258,10 +43450,9 @@ Take My Money!, [|cffffcc00Level %d|r]
 }
 
 STRING 6557
-// Abilities: A0OY (Wagon: Take My Money!), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A1G1 (Stat: Phy Damage Dealt -90%), Name (Name)
 {
-Hero throws 40% of gold at the target which, upon landing, deals damage equal to |cffbe81f7100%/125%/150%/175%/200%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
+Stat: Phy Damage Dealt -90%
 }
 
 STRING 6558
@@ -43295,38 +43486,21 @@ Take My Money!, [|cffffcc00Level 5|r]
 }
 
 STRING 6563
-// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1G2 (Stat: Damage Dealt Minions -30%), Name (Name)
 {
-Hero throws 40% of gold at the target which, upon landing, deals damage equal to |cffbe81f7100%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
+Stat: Damage Dealt Minions -30%
 }
 
 STRING 6564
-// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1G3 (Stat: Cooldown +15%), Name (Name)
 {
-Hero throws 40% of gold at the target which, upon landing, deals damage equal to |cffbe81f7125%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
+Stat: Cooldown +15%
 }
 
 STRING 6565
-// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1G4 (Stat: Cooldown +25%), Name (Name)
 {
-Hero throws 40% of gold at the target which, upon landing, deals damage equal to |cffbe81f7150%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6566
-// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
-{
-Hero throws 40% of gold at the target which, upon landing, deals damage equal to |cffbe81f7175%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6567
-// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
-{
-Hero throws 40% of gold at the target which, upon landing, deals damage equal to |cffbe81f7200%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
+Stat: Cooldown +25%
 }
 
 STRING 6568
@@ -47576,12 +47750,6 @@ STRING 7221
 Weakens the enemy. The target cannot move and every second takes |cffbe81f750|r damage.
 |cffffcc00Duration:|r 7 seconds.
 |cffffcc00Cooldown:|r 14 seconds.
-}
-
-STRING 7222
-// Abilities: A0KR (HP/sec (Кандом)), Name (Name)
-{
-HP/sec (Кандом)
 }
 
 STRING 7223
@@ -56307,12 +56475,6 @@ STRING 8572
 Fencing Master, [|cffffcc00Level %d|r]
 }
 
-STRING 8573
-// Abilities: A0B7 (Admiral: Fencing Master), Researchubertip (Tooltip - Learn - Extended)
-{
-Every 9th/8th/7th/6th/5th hit of the hero deals double damage to all nearby enemies. Gain 1/2/3/4/5 gold for each enemy hit.
-}
-
 STRING 8574
 // Abilities: A0B7 (Admiral: Fencing Master), Tip (Tooltip - Normal)
 {
@@ -56341,36 +56503,6 @@ STRING 8578
 // Abilities: A0B7 (Admiral: Fencing Master), Tip (Tooltip - Normal)
 {
 Fencing Master, [|cffffcc00Level 5|r]
-}
-
-STRING 8579
-// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
-{
-Every 9th hit of the hero deals double damage to all nearby enemies. Gain 1 gold for each enemy hit.
-}
-
-STRING 8580
-// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
-{
-Every 8th hit of the hero deals double damage to all nearby enemies. Gain 2 gold for each enemy hit.
-}
-
-STRING 8581
-// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
-{
-Every 7th hit of the hero deals double damage to all nearby enemies. Gain 3 gold for each enemy hit.
-}
-
-STRING 8582
-// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
-{
-Every 6th hit of the hero deals double damage to all nearby enemies. Gain 4 gold for each enemy hit.
-}
-
-STRING 8583
-// Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
-{
-Every 5th hit of the hero deals double damage to all nearby enemies. Gain 5 gold for each enemy hit.
 }
 
 STRING 8584
@@ -67445,12 +67577,6 @@ STRING 10320
 |cffffcc00Уровень 4:|r Мастер клинков
 }
 
-STRING 10321
-// Abilities: A00J (|cffffcc00Уровень 4:|r Мастер клинков), Tip (Tooltip - Normal)
-{
-Blade master
-}
-
 STRING 10323
 // Abilities: A0RA (Sludge: Poison Touch), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -70553,7 +70679,7 @@ Attack speed increased.
 }
 
 STRING 10835
-// Buffs/Effects: B04A (), Bufftip (Tooltip)
+// Buffs/Effects: B0AM (), Bufftip (Tooltip)
 {
 |cffff0000Horror|r
 }
@@ -72846,7 +72972,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.3.5T|r
+|cffbe81f7Boss Battle 1.5.3.7T|r
 }
 
 STRING 11219
@@ -74341,7 +74467,7 @@ STRING 11436
 }
 
 STRING 11437
-// Buffs/Effects: B0AI (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B0AM (), Buffubertip (Tooltip - Extended)
 {
 Movement speed has been reduced.
 }
@@ -75180,17 +75306,6 @@ STRING 11564
 - |cff00cceeAt 30% health:|r When attacking, restores 75% of the health of the damage done.
 }
 
-STRING 11565
-// Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ледяной дракон), Ubertip (Tooltip - Normal - Extended)
-{
-- No atacks.
-- Ballistas appear in the arena, firing at the heroes. Before destruction, the ballista shoots at the boss, taking away 7.5% of its health.
-- Every 8 seconds, calls the ballista to a random point.
-- Every 6 seconds, the boss launches ice shells at the heroes, dealing |cffbe81f7400|r damage after 2 seconds.
-- |cff00cceeAt 50% health:|r Reduces the attack and movement speed of all heroes by 25%.
-|cffffcc00Duration:|r 15 seconds.
-}
-
 STRING 11566
 // Abilities: A0Y7 (|cffffcc00Уровень 5:|r Манипулятор), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75269,15 +75384,6 @@ STRING 11573
 - Every 10 seconds uses a random second (|cffffcc00W|r) ability of level 2.
 - |cff00cceeAt 75% health:|r Reduces cooldown of abilities by 3 seconds. Every 12 seconds, swaps the boss and random hero.
 - |cff00cceeAt 25% health:|r Reduces cooldown of abilities by 3 seconds. Imposes a shield on the boss, absorbing |cffbe81f71000|r damage for 3 minutes.
-}
-
-STRING 11574
-// Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Ubertip (Tooltip - Normal - Extended)
-{
-- Increases attack power of all creatures by 50%.
-- |cff00cceeAt 90% health:|r Silences the heroes for 20 seconds.
-- |cff00cceeAt 75% health:|r Every second, it takes all creatures next to the boss |cffbe81f71%|r of the maximum health. If the target is a minion, it takes |cffbe81f725%|r health instead.
-- |cff00cceeAt 25% health:|r Fully restores health ones.
 }
 
 STRING 11575
@@ -75478,17 +75584,6 @@ STRING 11595
 - |cff00cceeAt 25% health:|r Starts creating areas 2 times more often.
 }
 
-STRING 11596
-// Abilities: A09K (|cffffcc00Уровень 10:|r Владыка бездны), Ubertip (Tooltip - Normal - Extended)
-{
-- Deals damage to an area.
- Every 15 seconds immerses a random hero in stasis. For him to awaken, stasis must be destroyed.
-- Every 7 seconds creates a zone that explodes after 5 seconds, killing all enemy creatures.
-- |cff00cceeAt 50% health:|r Summons 20 copies of itself and merges among them.
-- |cff00cceeAt 25% health:|r Imposes a mark on each hero that explodes after 10 seconds, inflicting |cffbe81f71000|r damage. The mark disappears if you move away from the boss.
-- |cff00cceeAt 10% health:|r Creates an area under each hero.
-}
-
 STRING 11597
 // Abilities: A09E (|cffffcc00Уровень 10:|r Кролик), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75659,16 +75754,5 @@ STRING 11613
 - |cff00cceeAt 75% health:|r Summons 4 murlocs.
 - |cff00cceeAt 50% health:|r Increases minion attack power by 50%.
 - |cff00cceeAt 25% health:|r Summons 4 murlocs.
-}
-
-STRING 11614
-// Abilities: A00J (|cffffcc00Уровень 4:|r Мастер клинков), Ubertip (Tooltip - Normal - Extended)
-{
-- Creates flying glaive along the edges of the arena. Every 10 seconds they fly towards the positions of the heroes. Each glaive deals 20 damage.
-- |cff00cceeAt 90% health:|r Every 12 seconds, jumps on a random enemy, deals |cffbe81f7100|r damage.
-- |cff00cceeAt 80% health:|r Every 8 seconds it sets a trap. If you go into it, it reduces the target’s movement speed by 80%.
-|cffffcc00Duration:|r 5 seconds.
-- |cff00cceeAt 40% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
-- |cff00cceeAt 20% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
 }
 
