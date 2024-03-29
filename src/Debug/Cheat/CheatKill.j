@@ -19,7 +19,6 @@ scope CheatKill initializer init
 
 	private function init takes nothing returns nothing
 	    set CheatKill = CreateTrigger()
-	    call DisableTrigger( CheatKill )
 	    call TriggerRegisterPlayerChatEvent( CheatKill, Player(0), "-kill", false )
 	    call TriggerAddAction( CheatKill, function action )
 	endfunction

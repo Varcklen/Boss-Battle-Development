@@ -21,7 +21,6 @@ scope CheatBuff initializer init
 	private function init takes nothing returns nothing
 	    local integer i = 0
 	    set trig_CheatBuff = CreateTrigger(  )
-	    call DisableTrigger( trig_CheatBuff )
 	    loop
 	        exitwhen i > 3
 	            call TriggerRegisterPlayerChatEvent( trig_CheatBuff, Player(i), "-buff", true )

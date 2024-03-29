@@ -1,8 +1,7 @@
 scope OnAnyDied initializer init
 
-
 	private function condition takes nothing returns boolean
-		if GetUnitTypeId(GetDyingUnit()) == 'u000' then
+		if GetUnitAbilityLevel(GetDyingUnit(), 'A1FY') > 0 then
 	        return false
 	    endif
 	    return true
@@ -11,7 +10,7 @@ scope OnAnyDied initializer init
 	private function action takes nothing returns nothing
 		local integer i = 1
 		local unit unitDied = GetDyingUnit()
-		
+
 		loop
 			exitwhen i > PLAYERS_LIMIT
 			if udg_hero[i] != null then
@@ -27,7 +26,7 @@ scope OnAnyDied initializer init
 	
 	//===========================================================================
 	private function init takes nothing returns nothing
-		call CreateNativeEvent( EVENT_PLAYER_UNIT_DEATH, function action, null )
+		call CreateNativeEvent( EVENT_PLAYER_UNIT_DEATH, function action, function condition )
 	endfunction
 
 endscope

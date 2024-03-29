@@ -5,7 +5,16 @@ scope CurseDarkness initializer init
 	endglobals
 	
 	private function condition takes nothing returns boolean
-		return GetOwningPlayer(GetEnteringUnit()) == Player(10) and GetUnitDefaultMoveSpeed(GetEnteringUnit()) != 0 and BlzGetUnitBaseDamage(GetEnteringUnit(), 0) > 5
+		if GetOwningPlayer(GetEnteringUnit()) != Player(10) then
+			return false
+		elseif GetUnitDefaultMoveSpeed(GetEnteringUnit()) == 0 then
+			return false
+		elseif BlzGetUnitBaseDamage(GetEnteringUnit(), 0) <= 5 then
+			return false
+		elseif BlzGetUnitAttackCooldown(GetEnteringUnit(), 0) >= 2.5 then
+			return false
+		endif
+		return true
 	endfunction
 	
 	private function action takes nothing returns nothing

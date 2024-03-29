@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.3.7T|r
+|cffbe81f7Boss Battle 1.5.3.8T|r
 }
 
 STRING 2
@@ -6701,14 +6701,6 @@ When the hero's health drops below 20%, it puts the hero in stasis for 3 seconds
 |cffffcc00Cooldown:|r 90 seconds.
 }
 
-STRING 1030
-// Items: I0ER (Orb of Volcano), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases health by 200 and attack speed by 10%. When the hero attacks, with a |cffd7df0110%|r chance, summons a volcano, which creates projectiles that deal |cffbe81f750|r damage and stun for 0.5 seconds.
-|cffffcc00Life time:|r 20 seconds.
-}
-
 STRING 1031
 // Items: I0ER (Orb of Volcano), Name (Name)
 {
@@ -6719,14 +6711,6 @@ STRING 1032
 // Items: I0ER (Orb of Volcano), Tip (Tooltip - Basic)
 {
 Orb of Volcano
-}
-
-STRING 1033
-// Items: I0ER (Orb of Volcano), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases health by 200 and attack speed by 10%. When the hero attacks, with a |cffd7df0110%|r chance, summons a volcano, which creates projectiles that deal |cffbe81f750|r damage and stun for 0.5 seconds.
-|cffffcc00Life time:|r 20 seconds.
 }
 
 STRING 1034
@@ -36492,12 +36476,6 @@ STRING 5492
 Босс 9: Большой кодо (Ускорение)
 }
 
-STRING 5493
-// Abilities: A0WB (Вулкан (Orb of Volcano)), Name (Name)
-{
-Вулкан (Orb of Volcano)
-}
-
 STRING 5494
 // Abilities: A0WA (Босс 9: Большой кодой (Аура)), Name (Name)
 {
@@ -43503,6 +43481,24 @@ STRING 6565
 Stat: Cooldown +25%
 }
 
+STRING 6566
+// Abilities: A06G (|cffffcc00Уровень 5:|r Дух рыцаря), Ubertip (Tooltip - Normal - Extended)
+{
+- Every second, deals |cffbe81f715|r damage to all nearby enemies.
+- Every 6 seconds, launches projectile at the Hero with the highest percentage of Health, dealing |cffbe81f7300|r damage.
+- |cff00cceeAt 50% health:|r Launches projectile 2 times more often.
+- |cff00cceeAt 25% health:|r Reduces enemy Armor by 8 and increases boss Armor by 8.
+- |cff00cceeAt 20% health:|r Takes control to all enemy minions nearby.
+}
+
+STRING 6567
+// Abilities: A0MY (Curse: Тьма (b19)), Ubertip (Tooltip - Normal - Extended)
+{
+If the enemy does not attack within 6 seconds, gains invisibility.
+
+|cFF959697Units with no attack, very slow attack, and no movement are not affected by the effect.|r
+}
+
 STRING 6568
 // Abilities: A0OX (Random bonus (3)), Name (Name)
 {
@@ -43605,6 +43601,15 @@ STRING 6584
 // Abilities: A0OP (|cffffcc00Уровень 1:|r Каменный голем), Tip (Tooltip - Normal)
 {
 Stone golem
+}
+
+STRING 6585
+// Items: I0ER (Orb of Volcano), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases Health by 200 and Attack Speed by 10%.
+The Hero's attacks have a |cffd7df0110%|r chance of creating an area that explodes every 4 seconds, dealing |cffbe81f750|r damage to enemies in it and stunning them for 0.5 seconds.
+|cffffcc00Life time:|r 20 seconds.
 }
 
 STRING 6586
@@ -45371,12 +45376,6 @@ STRING 6859
 // Abilities: A0MY (Curse: Тьма (b19)), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Darkness
-}
-
-STRING 6860
-// Abilities: A0MY (Curse: Тьма (b19)), Ubertip (Tooltip - Normal - Extended)
-{
-If the enemy does not attack within 6 seconds, gains invisibility.
 }
 
 STRING 6861
@@ -47625,6 +47624,15 @@ STRING 7201
 Pyromancer
 }
 
+STRING 7202
+// Items: I0ER (Orb of Volcano), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases Health by 200 and Attack Speed by 10%.
+The Hero's attacks have a |cffd7df0110%|r chance of creating an area that explodes every 4 seconds, dealing |cffbe81f750|r damage to enemies in it and stunning them for 0.5 seconds.
+|cffffcc00Life time:|r 20 seconds.
+}
+
 STRING 7203
 // Abilities: A0KW (Босс 9: Пиромант (Огненный столб)), Name (Name)
 {
@@ -47750,6 +47758,12 @@ STRING 7221
 Weakens the enemy. The target cannot move and every second takes |cffbe81f750|r damage.
 |cffffcc00Duration:|r 7 seconds.
 |cffffcc00Cooldown:|r 14 seconds.
+}
+
+STRING 7222
+// Abilities: A0WB (Вулкан (Orb of Volcano)XXX), Name (Name)
+{
+Вулкан (Orb of Volcano)XXX
 }
 
 STRING 7223
@@ -48456,6 +48470,16 @@ STRING 7329
 // Abilities: A0JX (|cffffcc00Уровень 5:|r Саламандра), Tip (Tooltip - Normal)
 {
 Salamander
+}
+
+STRING 7330
+// Abilities: A0HE (|cffffcc00Уровень 6:|r Паладин), Ubertip (Tooltip - Normal - Extended)
+{
+- Deals damage to nearby enemies.
+- |cff00cceeAt 75% health:|r The boss takes invulnerability and sends waves of power, dealing |cffbe81f7150|r damage.
+|cffffcc00Duration:|r 7.5 seconds.
+- |cff00cceeAt 70% health:|r Every 10 seconds, after a 3-second delay, deals |cffbe81f7300|r damage to enemies in the area.
+- |cff00cceeAt 25% health:|r The boss receives invulnerability and sends waves of power. Waves are created 2 times more often.
 }
 
 STRING 7331
@@ -72972,7 +72996,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.3.7T|r
+|cffbe81f7Boss Battle 1.5.3.8T|r
 }
 
 STRING 11219
@@ -75473,16 +75497,6 @@ STRING 11584
 - After the death of the middle hydra, 5 small hydras are created.
 }
 
-STRING 11585
-// Abilities: A0HE (|cffffcc00Уровень 6:|r Паладин), Ubertip (Tooltip - Normal - Extended)
-{
-- Deals damage to nearby enemies.
-- |cff00cceeAt 75% health:|r The boss takes invulnerability and sends waves of power, dealing |cffbe81f7150|r damage.
-|cffffcc00Duration:|r 7.5 seconds.
-- |cff00cceeAt 70% health:|r Every 10 seconds it deals |cffbe81f7150|r damage nearby enemies.
-- |cff00cceeAt 25% health:|r The boss receives invulnerability and sends waves of power. Waves are created 2 times more often.
-}
-
 STRING 11586
 // Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75678,16 +75692,6 @@ STRING 11605
 - |cff00cceeAt 90% health:|r Increases attack speed by 25%. Every 7 seconds, creates 5 areas that explode after 2 seconds, dealing |cffbe81f5200|r damage.
 - |cff00cceeAt 65% health:|r Additionally increases attack speed by 25%. Lines are created more and more often.
 - |cff00cceeAt 40% health:|r Additionally increases attack speed by 25%. Lines are created more and more often.
-}
-
-STRING 11606
-// Abilities: A06G (|cffffcc00Уровень 5:|r Дух рыцаря), Ubertip (Tooltip - Normal - Extended)
-{
-- Creates an aura that deals |cffbe81f715|r damage every second to all enemies nearby.
-- Every 6 seconds, launches the death face, dealing 300 damage, at the hero with the highest percentage of health.
-- |cff00cceeAt 50% health:|r Launches the face of death 2 times more often.
-- |cff00cceeAt 25% health:|r Reduces the opponents' armor and increases their armor by 8.
-- |cff00cceeAt 20% health:|r Takes control to all enemy minions nearby.
 }
 
 STRING 11607

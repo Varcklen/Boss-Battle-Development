@@ -9,7 +9,7 @@ scope BlessSap initializer init
 	endfunction
 	
 	private function end takes nothing returns nothing
-	    local unit boss = LoadUnitHandle( udg_hash, 1, StringHash( "mod_sap" ) )
+	    local unit boss = MainBoss
 	    
 	    if IsUnitAlive(boss) then
 		    call SetUnitLifePercentBJ( boss, GetUnitLifePercent(boss) - 10 )
@@ -20,7 +20,7 @@ scope BlessSap initializer init
 	endfunction
 	
 	private function action takes nothing returns nothing
-		call SaveUnitHandle( udg_hash, 1, StringHash( "mod_sap" ), MainBoss )
+		//call SaveUnitHandle( udg_hash, 1, StringHash( "mod_sap" ), MainBoss )
         call TimerStart( CreateTimer(), 1, false, function end )
 	endfunction
 

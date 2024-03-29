@@ -48,7 +48,6 @@ scope CheatRandomAbility initializer init
 
 	private function init takes nothing returns nothing
 	    set trig_CheatRandomAbility = CreateTrigger()
-	    call DisableTrigger( trig_CheatRandomAbility )
 	    call TriggerRegisterPlayerChatEvent( trig_CheatRandomAbility, Player(0), "-chaos", false )
 	    call TriggerAddAction( trig_CheatRandomAbility, function action )
 	endfunction

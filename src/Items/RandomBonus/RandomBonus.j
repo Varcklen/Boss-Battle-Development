@@ -1,4 +1,4 @@
-scope RandomBonus initializer init
+library RandomBonus initializer init
 
 	globals
 		private constant integer BONUSES_LIMIT = 8
@@ -178,4 +178,4 @@ scope RandomBonus initializer init
 	    call TriggerAddAction( trig, function Trig_RandomBonus_Actions )
 	endfunction
 
-endscope
+endlibrary
