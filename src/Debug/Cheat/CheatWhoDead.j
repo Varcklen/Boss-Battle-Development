@@ -35,7 +35,6 @@ scope CheatWhoDead initializer init
 
 	private function init takes nothing returns nothing
 	    set trig_CheatWhoDead = CreateTrigger()
-	    call DisableTrigger( trig_CheatWhoDead )
 	    call TriggerRegisterPlayerChatEvent( trig_CheatWhoDead, Player(0), "-who", false )
 	    call TriggerAddAction( trig_CheatWhoDead, function action )
 	endfunction

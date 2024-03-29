@@ -9,7 +9,7 @@ scope AlliedMinionSummon initializer init
 	        return true
 	    elseif IsPermaBuffAffected(unitCheck) == false then 
 	        return true
-	    elseif GetUnitTypeId(unitCheck) == 'u000' then
+	    elseif GetUnitAbilityLevel(unitCheck, 'A1FY') > 0 then
 	        return true
 	    endif
 	    return false
@@ -30,7 +30,6 @@ scope AlliedMinionSummon initializer init
 	private function init takes nothing returns nothing
 		local trigger trig = CreateTrigger(  )
 	    call TriggerRegisterEnterRectSimple( trig, bj_mapInitialPlayableArea )
-	    //call TriggerAddCondition( trig, Condition( function condition ) )
 	    call TriggerAddAction( trig, function action )
 	    
 	    set trig = null

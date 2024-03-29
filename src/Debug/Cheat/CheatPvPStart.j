@@ -11,7 +11,6 @@ scope CheatPvPStart initializer init
 
 	private function init takes nothing returns nothing
 	    set CheatPvPStart = CreateTrigger()
-	    call DisableTrigger( CheatPvPStart )
 	    call TriggerRegisterPlayerChatEvent( CheatPvPStart, Player(0), "-pvp", false )
 	    call TriggerAddAction( CheatPvPStart, function action )
 	endfunction

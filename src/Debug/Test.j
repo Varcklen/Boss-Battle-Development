@@ -1,11 +1,7 @@
 scope Test initializer init
 	
 	private function action takes nothing returns nothing
-		local Mode mode = ModeSystem_GetRandomBless(false)
-		
-		call BJDebugMsg("mode: " + BlzGetAbilityTooltip(mode.Info, 0))
-	
-		call ModeSystem_Enable(mode)
+		call DangerArea_Create(GetUnitX(udg_hero[1]), GetUnitY(udg_hero[1]), 300, 3 )
 	endfunction
 	
 	//===========================================================================

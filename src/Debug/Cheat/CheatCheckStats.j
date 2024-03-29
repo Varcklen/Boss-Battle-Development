@@ -19,7 +19,6 @@ scope CheatCheckStats initializer init
 
 	private function init takes nothing returns nothing
 	    set Trigger = CreateTrigger()
-	    call DisableTrigger( Trigger )
 	    call TriggerRegisterPlayerChatEvent( Trigger, Player(0), "-stats", false )
 	    call TriggerAddAction( Trigger, function action )
 	endfunction

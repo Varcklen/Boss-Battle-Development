@@ -45,7 +45,6 @@ scope CheatCreate initializer init
 	//===========================================================================
 	private function init takes nothing returns nothing
 	    set trig_CheatCreate = CreateTrigger(  )
-	    call DisableTrigger( trig_CheatCreate )
 	    call TriggerRegisterPlayerChatEvent( trig_CheatCreate, Player(0), "-create", true )
 	    call TriggerAddAction( trig_CheatCreate, function action )
 	endfunction
