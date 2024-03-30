@@ -1,37 +1,20 @@
 scope ExperimentStart initializer init
 
-	private function OnHeroChoose takes nothing returns nothing
-		local unit hero = Event_HeroChoose_Hero
-		local integer i = 1
-		local integer index = GetPlayerId(GetOwningPlayer(hero)) + 1
-        local integer heroindex = udg_HeroNum[index]
-        local integer abilityId
-        
-        call ModifyHeroSkillPoints( hero, bj_MODIFYMETHOD_SET, 4 )
-        //call BJDebugMsg("heroindex:" + I2S(heroindex))
-		loop
-			exitwhen i > 4
-			set abilityId = Database_Hero_Abilities[i][heroindex]
-			//call BJDebugMsg("ability:" + I2S(abilityId))
-			if abilityId != 'A12S' then
-				call SelectHeroSkill( hero, abilityId )
-			endif
-			set i = i + 1
-		endloop
-		
-		call ModifyHeroSkillPoints( hero, bj_MODIFYMETHOD_SET, 0 )
-		
-		set hero = null
+	private function condition takes nothing returns boolean
+		return GetUnitAbilityLevel(BeforeAttack.TriggerUnit, 'A1G5') > 0
+	endfunction
+
+	private function action takes nothing returns nothing
+		local real extraDamage = BeforeAttack.GetDataReal("static_damage") * 0.2
+		local real damage = BeforeAttack.GetDataReal("damage") 
+	    
+	    call BeforeAttack.SetDataReal("damage", damage + extraDamage )
 	endfunction
 	
-	private function Delay takes nothing returns nothing
-		set udg_BossHP = udg_BossHP + 0.4
-    	set udg_BossAT = udg_BossAT + 0.4
-    	call SpellPower_AddBossSpellPower( 0.4 )
+	private function Delay takes nothing returns nothing    	
+    	call IconFrame( "Cataclysm", "war3mapImported\\BTNAbility_Druid_PredatoryInstincts.blp", "|cffffcc00Cat-aclysm|r", "- Cats deal 20% more damage.|n- Everyone is hidden under masks.|n- Every 20 seconds of combat, 3 blessings and curses change.|n- All players can buy more than 1 quest. All quests cost 50 gold. The Quest Store isn't going away." )
     	
-    	call IconFrame( "Experimental", "ReplaceableTextures\\CommandButtons\\BTNReveal.blp", "|cffffcc00Experimental Version|r", "- SD graphic only.|n- Increases enemy power by 40%.|n- All heroes start with the first level of abilities.|n- Ability levels cannot be reset." )
-    	
-    	call CreateEventTrigger( "Event_HeroChoose_Real", function OnHeroChoose, null )
+    	call BeforeAttack.AddListener(function action, function condition)
 	endfunction
 	
 	private function init takes nothing returns nothing

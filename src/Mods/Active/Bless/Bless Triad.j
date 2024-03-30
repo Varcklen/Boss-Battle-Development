@@ -23,7 +23,7 @@ scope BlessTriad initializer init
 	        loop
 	            exitwhen k > PLAYERS_LIMIT
 	            if udg_hero[k] != null then
-	                call SetCount_AddPiece( udg_hero[k], Sets[i], PIECES_TO_ADD )
+	                call SetCount_AddPiece( udg_hero[k], Sets[i], value )
 	            endif
 	            set k = k + 1
 	        endloop

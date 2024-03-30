@@ -4,12 +4,15 @@
 |cffffcc00Discord:|r discordapp.com/invite/jCv9CcQnwN;
 |cffffcc00Discord.Me:|r discord.me/bbwc3.
 
-|cffffcc00Attention!|r This is a test version and may contain bugs.
+- Cats deal 20% more damage.
+- Everyone is hidden under masks.
+- Every 20 seconds of combat, 3 blessings and curses change.
+- All players can buy more than 1 quest. All quests cost 50 gold. The Quest Store isn't going away.
 }
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.3.9T|r
+|cffbe81f7Boss Battle Cat-aclysm|r
 }
 
 STRING 2
@@ -9668,6 +9671,12 @@ At least one artifact-reward be of |cff4169e1rare|r quality or higher.
 |cff81f260[Random bonus]|r
 }
 
+STRING 1454
+// Abilities: A1G5 (.General: Cat), Name (Name)
+{
+.General: Cat
+}
+
 STRING 1455
 // Abilities: A0XK (Unique: Keen mind), Tip (Tooltip - Normal)
 {
@@ -9679,6 +9688,12 @@ STRING 1456
 {
 |cff60C445Unique|r
 Counts as 5 |cffb18904mechs|r.
+}
+
+STRING 1457
+// Abilities: A1G6 (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
 }
 
 STRING 1458
@@ -36476,6 +36491,12 @@ STRING 5492
 Босс 9: Большой кодо (Ускорение)
 }
 
+STRING 5493
+// Abilities: A1G7 (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
+}
+
 STRING 5494
 // Abilities: A0WA (Босс 9: Большой кодой (Аура)), Name (Name)
 {
@@ -45378,6 +45399,12 @@ STRING 6859
 |cffffcc00Curse:|r Darkness
 }
 
+STRING 6860
+// Abilities: A1G8 (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
+}
+
 STRING 6861
 // Abilities: A0MX (Houndmaster: Backtracking), Researchhotkey (Hotkey - Learn)
 {
@@ -50859,6 +50886,12 @@ STRING 7686
 Queen of spiders
 }
 
+STRING 7687
+// Abilities: A1G9 (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
+}
+
 STRING 7688
 // Abilities: A0HI (|cffffcc00Уровень 9:|r Ядовитая нечисть), Name (Name)
 {
@@ -50889,6 +50922,12 @@ STRING 7692
 Ancient ent
 }
 
+STRING 7693
+// Abilities: A1GA (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
+}
+
 STRING 7694
 // Abilities: A0HG (|cffffcc00Уровень 7:|r Суккуб), Name (Name)
 {
@@ -50899,6 +50938,12 @@ STRING 7695
 // Abilities: A0HG (|cffffcc00Уровень 7:|r Суккуб), Tip (Tooltip - Normal)
 {
 Succubus
+}
+
+STRING 7696
+// Abilities: A1GB (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
 }
 
 STRING 7697
@@ -50913,6 +50958,12 @@ STRING 7698
 Huge hydra
 }
 
+STRING 7699
+// Abilities: A1GC (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
+}
+
 STRING 7700
 // Abilities: A0HE (|cffffcc00Уровень 6:|r Паладин), Name (Name)
 {
@@ -50923,6 +50974,12 @@ STRING 7701
 // Abilities: A0HE (|cffffcc00Уровень 6:|r Паладин), Tip (Tooltip - Normal)
 {
 Paladin
+}
+
+STRING 7702
+// Abilities: A1GD (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
 }
 
 STRING 7703
@@ -50953,6 +51010,12 @@ STRING 7707
 // Abilities: A0HC (|cffffcc00Уровень 3:|r Огромный арахнид), Tip (Tooltip - Normal)
 {
 Huge arachnid
+}
+
+STRING 7708
+// Abilities: A1GE (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
 }
 
 STRING 7709
@@ -54561,6 +54624,12 @@ STRING 8270
 |cFFFE8A0ELAST BOSS:|r Sea savage
 }
 
+STRING 8271
+// Abilities: A1GF (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
+}
+
 STRING 8272
 // Abilities: A0DE (Аура: Norepinephrine), Name (Name)
 {
@@ -55454,6 +55523,12 @@ STRING 8409
 // Abilities: A0CK (Skeletlord: Skelemagic), Tip (Tooltip - Normal)
 {
 Skelemagic, [|cffffcc00Level 5|r]
+}
+
+STRING 8410
+// Abilities: A1GG (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
 }
 
 STRING 8411
@@ -56499,6 +56574,12 @@ STRING 8572
 Fencing Master, [|cffffcc00Level %d|r]
 }
 
+STRING 8573
+// Abilities: A1GH (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
+}
+
 STRING 8574
 // Abilities: A0B7 (Admiral: Fencing Master), Tip (Tooltip - Normal)
 {
@@ -56527,6 +56608,36 @@ STRING 8578
 // Abilities: A0B7 (Admiral: Fencing Master), Tip (Tooltip - Normal)
 {
 Fencing Master, [|cffffcc00Level 5|r]
+}
+
+STRING 8579
+// Abilities: A1GI (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
+}
+
+STRING 8580
+// Abilities: A1GJ (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
+}
+
+STRING 8581
+// Abilities: A1GK (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
+}
+
+STRING 8582
+// Abilities: A1GL (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
+}
+
+STRING 8583
+// Abilities: A1GM (Mask: Cyclope), Name (Name)
+{
+Mask: Cyclope
 }
 
 STRING 8584
@@ -72996,7 +73107,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.3.9T|r
+|cffbe81f7Boss Battle Cat-aclysm|r
 }
 
 STRING 11219
