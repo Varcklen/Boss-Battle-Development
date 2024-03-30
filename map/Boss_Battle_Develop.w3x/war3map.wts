@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.3.6T|r
+|cffbe81f7Boss Battle 1.5.3.9T|r
 }
 
 STRING 2
@@ -2763,7 +2763,7 @@ Discord
 }
 
 STRING 446
-// Items: I00A (Runestone Kandom), Description (Description)
+// Items: I00A (Runestone Alatyr), Description (Description)
 {
 |cff4169e1Rare|r, |cff848484Rune|r
 Increases Attack by 30 and Health Regeneration by 2.
@@ -2777,7 +2777,7 @@ Kappa
 }
 
 STRING 448
-// Items: I00A (Runestone Kandom), Ubertip (Tooltip - Extended)
+// Items: I00A (Runestone Alatyr), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cff848484Rune|r
 Increases Attack by 30 and Health Regeneration by 2.
@@ -6702,11 +6702,12 @@ When the hero's health drops below 20%, it puts the hero in stasis for 3 seconds
 }
 
 STRING 1030
-// Items: I0ER (Orb of Volcano), Description (Description)
+// Items: I0BT (Steel Rose), Description (Description)
 {
-|cffe96a1cLegendary|r
-Increases health by 200 and attack speed by 10%. When the hero attacks, with a |cffd7df0110%|r chance, summons a volcano, which creates projectiles that deal |cffbe81f750|r damage and stun for 0.5 seconds.
-|cffffcc00Life time:|r 20 seconds.
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+If all artifacts in your inventory are from the "|cff7cfc00Nature|r" set, gives 4 resurrections.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
 }
 
 STRING 1031
@@ -6722,11 +6723,12 @@ Orb of Volcano
 }
 
 STRING 1033
-// Items: I0ER (Orb of Volcano), Ubertip (Tooltip - Extended)
+// Items: I0BT (Steel Rose), Ubertip (Tooltip - Extended)
 {
-|cffe96a1cLegendary|r
-Increases health by 200 and attack speed by 10%. When the hero attacks, with a |cffd7df0110%|r chance, summons a volcano, which creates projectiles that deal |cffbe81f750|r damage and stun for 0.5 seconds.
-|cffffcc00Life time:|r 20 seconds.
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+If all artifacts in your inventory are from the "|cff7cfc00Nature|r" set, gives 4 resurrections.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
 }
 
 STRING 1034
@@ -9666,15 +9668,6 @@ At least one artifact-reward be of |cff4169e1rare|r quality or higher.
 |cff81f260[Random bonus]|r
 }
 
-STRING 1454
-// Items: I0BT (Steel Rose), Description (Description)
-{
-|cff4169e1Rare|r, |cff7cfc00Nature|r
-If your inventory contains 6 artifacts from the "|cff7cfc00Nature|r" set, gives 4 resurrections.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 1455
 // Abilities: A0XK (Unique: Keen mind), Tip (Tooltip - Normal)
 {
@@ -9686,15 +9679,6 @@ STRING 1456
 {
 |cff60C445Unique|r
 Counts as 5 |cffb18904mechs|r.
-}
-
-STRING 1457
-// Items: I0BT (Steel Rose), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff7cfc00Nature|r
-If your inventory contains 6 artifacts from the "|cff7cfc00Nature|r" set, gives 4 resurrections.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 1458
@@ -14898,6 +14882,12 @@ STRING 2213
 - Every 6 seconds, the boss launches ice shells at the heroes, dealing |cffbe81f7400|r damage after 2 seconds.
 - |cff00cceeAt 50% health:|r Reduces the attack and movement speed of all heroes by 25%.
 |cffffcc00Duration:|r 15 seconds.
+}
+
+STRING 2214
+// Abilities: A1FU (Stat: Phy Damage Taken -10%), Name (Name)
+{
+Stat: Phy Damage Taken -10%
 }
 
 STRING 2215
@@ -21048,15 +21038,15 @@ With a probability of |cffd7df0110%|r, after any action, gives your hero 1 ruby 
 }
 
 STRING 3122
-// Items: I00A (Runestone Kandom), Name (Name)
+// Abilities: A1FX (Stat: Heal Taken -40%), Name (Name)
 {
-Runestone Kandom
+Stat: Heal Taken -40%
 }
 
 STRING 3123
-// Items: I00A (Runestone Kandom), Tip (Tooltip - Basic)
+// Abilities: A1FY (.General: Dummy), Name (Name)
 {
-Runestone Kandom
+.General: Dummy
 }
 
 STRING 3124
@@ -35050,9 +35040,9 @@ Armor (Мандом)
 }
 
 STRING 5272
-// Abilities: A0Z4 (Attack (Кандом)), Name (Name)
+// Abilities: A1FZ (Stat: Gold Gain -20%), Name (Name)
 {
-Attack (Кандом)
+Stat: Gold Gain -20%
 }
 
 STRING 5273
@@ -35803,6 +35793,12 @@ STRING 5390
 Unique: Keen mind
 }
 
+STRING 5391
+// Abilities: A1FV (Stat: Phy Damage Dealt +10%), Name (Name)
+{
+Stat: Phy Damage Dealt +10%
+}
+
 STRING 5392
 // Abilities: A12S (Adventurer: Treasure Hunt), Tip (Tooltip - Normal)
 {
@@ -36480,12 +36476,6 @@ STRING 5492
 Босс 9: Большой кодо (Ускорение)
 }
 
-STRING 5493
-// Abilities: A0WB (Вулкан (Orb of Volcano)), Name (Name)
-{
-Вулкан (Orb of Volcano)
-}
-
 STRING 5494
 // Abilities: A0WA (Босс 9: Большой кодой (Аура)), Name (Name)
 {
@@ -36526,6 +36516,12 @@ STRING 5500
 // Abilities: A0W7 (|cffffcc00Уровень 5:|r Баньши), Tip (Tooltip - Normal)
 {
 Banshee
+}
+
+STRING 5501
+// Abilities: A1FW (Stat: Phy Damage Dealt +45%), Name (Name)
+{
+Stat: Phy Damage Dealt +45%
 }
 
 STRING 5502
@@ -36706,6 +36702,12 @@ STRING 5526
 // Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Tip (Tooltip - Normal)
 {
 Ogre mage
+}
+
+STRING 5527
+// Items: I00A (Runestone Alatyr), Name (Name)
+{
+Runestone Alatyr
 }
 
 STRING 5528
@@ -37115,6 +37117,12 @@ STRING 5592
 // Abilities: A0VH (|cffffcc00Уровень 10:|r Хрономонстр), Tip (Tooltip - Normal)
 {
 |cFFFE8A0ELAST BOSS:|r Chronomonster
+}
+
+STRING 5593
+// Items: I00A (Runestone Alatyr), Tip (Tooltip - Basic)
+{
+Runestone Alatyr
 }
 
 STRING 5594
@@ -41488,6 +41496,24 @@ STRING 6255
 Treasure Hunt, [|cffffcc00Level 5|r]
 }
 
+STRING 6256
+// Abilities: A0Z4 (Attack (Alatyr)), Name (Name)
+{
+Attack (Alatyr)
+}
+
+STRING 6257
+// Abilities: A0KR (HP/sec (Alatyr)), Name (Name)
+{
+HP/sec (Alatyr)
+}
+
+STRING 6258
+// Abilities: A1G0 (Stat: Damage Taken +25%), Name (Name)
+{
+Stat: Damage Taken +25%
+}
+
 STRING 6259
 // Abilities: A0R9 (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -43401,6 +43427,12 @@ STRING 6556
 Take My Money!, [|cffffcc00Level %d|r]
 }
 
+STRING 6557
+// Abilities: A1G1 (Stat: Phy Damage Dealt -90%), Name (Name)
+{
+Stat: Phy Damage Dealt -90%
+}
+
 STRING 6558
 // Abilities: A0OY (Wagon: Take My Money!), Tip (Tooltip - Normal)
 {
@@ -43429,6 +43461,42 @@ STRING 6562
 // Abilities: A0OY (Wagon: Take My Money!), Tip (Tooltip - Normal)
 {
 Take My Money!, [|cffffcc00Level 5|r]
+}
+
+STRING 6563
+// Abilities: A1G2 (Stat: Damage Dealt Minions -30%), Name (Name)
+{
+Stat: Damage Dealt Minions -30%
+}
+
+STRING 6564
+// Abilities: A1G3 (Stat: Cooldown +15%), Name (Name)
+{
+Stat: Cooldown +15%
+}
+
+STRING 6565
+// Abilities: A1G4 (Stat: Cooldown +25%), Name (Name)
+{
+Stat: Cooldown +25%
+}
+
+STRING 6566
+// Abilities: A06G (|cffffcc00Уровень 5:|r Дух рыцаря), Ubertip (Tooltip - Normal - Extended)
+{
+- Every second, deals |cffbe81f715|r damage to all nearby enemies.
+- Every 6 seconds, launches projectile at the Hero with the highest percentage of Health, dealing |cffbe81f7300|r damage.
+- |cff00cceeAt 50% health:|r Launches projectile 2 times more often.
+- |cff00cceeAt 25% health:|r Reduces enemy Armor by 8 and increases boss Armor by 8.
+- |cff00cceeAt 20% health:|r Takes control to all enemy minions nearby.
+}
+
+STRING 6567
+// Abilities: A0MY (Curse: Тьма (b19)), Ubertip (Tooltip - Normal - Extended)
+{
+If the enemy does not attack within 6 seconds, gains invisibility.
+
+|cFF959697Units with no attack, very slow attack, and no movement are not affected by the effect.|r
 }
 
 STRING 6568
@@ -43533,6 +43601,15 @@ STRING 6584
 // Abilities: A0OP (|cffffcc00Уровень 1:|r Каменный голем), Tip (Tooltip - Normal)
 {
 Stone golem
+}
+
+STRING 6585
+// Items: I0ER (Orb of Volcano), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases Health by 200 and Attack Speed by 10%.
+The Hero's attacks have a |cffd7df0110%|r chance of creating an area that explodes every 4 seconds, dealing |cffbe81f750|r damage to enemies in it and stunning them for 0.5 seconds.
+|cffffcc00Life time:|r 20 seconds.
 }
 
 STRING 6586
@@ -45299,12 +45376,6 @@ STRING 6859
 // Abilities: A0MY (Curse: Тьма (b19)), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Darkness
-}
-
-STRING 6860
-// Abilities: A0MY (Curse: Тьма (b19)), Ubertip (Tooltip - Normal - Extended)
-{
-If the enemy does not attack within 6 seconds, gains invisibility.
 }
 
 STRING 6861
@@ -47553,6 +47624,15 @@ STRING 7201
 Pyromancer
 }
 
+STRING 7202
+// Items: I0ER (Orb of Volcano), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases Health by 200 and Attack Speed by 10%.
+The Hero's attacks have a |cffd7df0110%|r chance of creating an area that explodes every 4 seconds, dealing |cffbe81f750|r damage to enemies in it and stunning them for 0.5 seconds.
+|cffffcc00Life time:|r 20 seconds.
+}
+
 STRING 7203
 // Abilities: A0KW (Босс 9: Пиромант (Огненный столб)), Name (Name)
 {
@@ -47681,9 +47761,9 @@ Weakens the enemy. The target cannot move and every second takes |cffbe81f750|r 
 }
 
 STRING 7222
-// Abilities: A0KR (HP/sec (Кандом)), Name (Name)
+// Abilities: A0WB (Вулкан (Orb of Volcano)XXX), Name (Name)
 {
-HP/sec (Кандом)
+Вулкан (Orb of Volcano)XXX
 }
 
 STRING 7223
@@ -48390,6 +48470,16 @@ STRING 7329
 // Abilities: A0JX (|cffffcc00Уровень 5:|r Саламандра), Tip (Tooltip - Normal)
 {
 Salamander
+}
+
+STRING 7330
+// Abilities: A0HE (|cffffcc00Уровень 6:|r Паладин), Ubertip (Tooltip - Normal - Extended)
+{
+- Deals damage to nearby enemies.
+- |cff00cceeAt 75% health:|r The boss takes invulnerability and sends waves of power, dealing |cffbe81f7150|r damage.
+|cffffcc00Duration:|r 7.5 seconds.
+- |cff00cceeAt 70% health:|r Every 10 seconds, after a 3-second delay, deals |cffbe81f7300|r damage to enemies in the area.
+- |cff00cceeAt 25% health:|r The boss receives invulnerability and sends waves of power. Waves are created 2 times more often.
 }
 
 STRING 7331
@@ -72906,7 +72996,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.3.6T|r
+|cffbe81f7Boss Battle 1.5.3.9T|r
 }
 
 STRING 11219
@@ -75407,16 +75497,6 @@ STRING 11584
 - After the death of the middle hydra, 5 small hydras are created.
 }
 
-STRING 11585
-// Abilities: A0HE (|cffffcc00Уровень 6:|r Паладин), Ubertip (Tooltip - Normal - Extended)
-{
-- Deals damage to nearby enemies.
-- |cff00cceeAt 75% health:|r The boss takes invulnerability and sends waves of power, dealing |cffbe81f7150|r damage.
-|cffffcc00Duration:|r 7.5 seconds.
-- |cff00cceeAt 70% health:|r Every 10 seconds it deals |cffbe81f7150|r damage nearby enemies.
-- |cff00cceeAt 25% health:|r The boss receives invulnerability and sends waves of power. Waves are created 2 times more often.
-}
-
 STRING 11586
 // Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75612,16 +75692,6 @@ STRING 11605
 - |cff00cceeAt 90% health:|r Increases attack speed by 25%. Every 7 seconds, creates 5 areas that explode after 2 seconds, dealing |cffbe81f5200|r damage.
 - |cff00cceeAt 65% health:|r Additionally increases attack speed by 25%. Lines are created more and more often.
 - |cff00cceeAt 40% health:|r Additionally increases attack speed by 25%. Lines are created more and more often.
-}
-
-STRING 11606
-// Abilities: A06G (|cffffcc00Уровень 5:|r Дух рыцаря), Ubertip (Tooltip - Normal - Extended)
-{
-- Creates an aura that deals |cffbe81f715|r damage every second to all enemies nearby.
-- Every 6 seconds, launches the death face, dealing 300 damage, at the hero with the highest percentage of health.
-- |cff00cceeAt 50% health:|r Launches the face of death 2 times more often.
-- |cff00cceeAt 25% health:|r Reduces the opponents' armor and increases their armor by 8.
-- |cff00cceeAt 20% health:|r Takes control to all enemy minions nearby.
 }
 
 STRING 11607

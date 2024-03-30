@@ -12,7 +12,6 @@ scope CheatSimulateLeaver initializer init
 
 	private function init takes nothing returns nothing
 	    set trig_CheatSimulateLeaver = CreateTrigger()
-	    call DisableTrigger( trig_CheatSimulateLeaver )
 	    call TriggerRegisterPlayerChatEvent( trig_CheatSimulateLeaver, Player(0), "-leaver", false )
 	    call TriggerAddAction( trig_CheatSimulateLeaver, function action )
 	endfunction

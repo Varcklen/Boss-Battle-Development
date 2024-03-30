@@ -1,5 +1,13 @@
 scope Skins
 
+	globals
+		integer array skinmodel[80][6]//модель/номер
+	    integer array skinlvl[80][6]//уровень/номер
+	    string array skiniconBTN[10][6]//позиция/номер
+	    string array skiniconDIS[10][6]//позиция/номер	
+	    boolean array skinAddGlow[80][6]//модель/номер
+	endglobals
+
     public function DataSkins takes nothing returns nothing
         set udg_DB_Skin_Limit = 3
         
@@ -59,6 +67,7 @@ scope Skins
         set skinlvl[27][1] = 25
         set skiniconBTN[27][1] = "war3mapImported\\BTNundyingp.blp"
         set skiniconDIS[27][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNundyingp.blp"
+        set skinAddGlow[27][1] = true
         //===============
         set skinmodel[28][1] = 'N04U'
         set skinlvl[28][1] = 17
@@ -154,6 +163,7 @@ scope Skins
         set skinlvl[70][1] = 9
         set skiniconBTN[70][1] = "war3mapImported\\BTNskinBard01.blp"
         set skiniconDIS[70][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNskinBard01.blp"
+        set skinAddGlow[70][1] = true
 
 
         //===========2============

@@ -33,8 +33,8 @@ library Trigger initializer init requires EventDatabase
     globals
     	public unit GlobalEventUnit = null
     
-    	private constant string KEY_NAME_STRING = "data_to_save"
-		private constant integer KEY_NAME = StringHash(KEY_NAME_STRING + "1")
+    	//private constant string KEY_NAME_STRING = 
+		private constant integer KEY_NAME = StringHash("data_to_save")
 		private constant integer EVENT_AMOUNT = StringHash("event_amount")
 		private constant integer USED_UNIT_HASH = StringHash("used_unit")
 		
@@ -132,14 +132,17 @@ library Trigger initializer init requires EventDatabase
 	/*Custom Events*/
 	//==========================================================
 	private function LaunchTrigger takes integer index, integer itemType, integer stringNumber, item itemCheck, string unitTypeName returns nothing
-		local integer number = LoadInteger( ItemTypeData, itemType, StringHash(KEY_NAME_STRING) + stringNumber )
+		local integer number = LoadInteger( ItemTypeData, itemType, KEY_NAME + stringNumber )
 		local string unitUsed = LoadStr( ItemTypeData, itemType, USED_UNIT_HASH )
 		
+		/*call BJDebugMsg("number: " + I2S(number))
+		call BJDebugMsg("index: " + I2S(index))*/
 		if number == 0 then
 			return
 		endif
 		
 		if EventSystem_EventUsedCustom[index] != EventTypeCustom[number] then
+			//call BJDebugMsg("EventSystem_EventUsedCustom[index] != EventTypeCustom[number]")
 			return
 		endif
 		
@@ -147,10 +150,12 @@ library Trigger initializer init requires EventDatabase
 		call BJDebugMsg("unitUsed: " + unitUsed)
 		call BJDebugMsg("unitTypeName: " + unitTypeName)*/
 		if ( unitUsed == null or unitUsed == unitTypeName ) == false then
+			//call BJDebugMsg("( unitUsed == null or unitUsed == unitTypeName ) == false")
 			return
 		endif
 		//call BJDebugMsg("works!")
 		
+		//call BJDebugMsg("trigger!")
 		set ItemUsed = itemCheck
 		call ConditionalTriggerExecute( TriggerToExecute[number] )
 	endfunction
@@ -160,6 +165,8 @@ library Trigger initializer init requires EventDatabase
 		local integer amountOfEvents = LoadInteger(ItemTypeData, itemType, EVENT_AMOUNT)
 		local integer i
 		
+		/*call BJDebugMsg("item: " + GetItemName(itemCheck))
+		call BJDebugMsg("amountOfEvents: " + I2S(amountOfEvents))*/
  		if amountOfEvents == 1 then
 			call LaunchTrigger(index, itemType, amountOfEvents, itemCheck, unitTypeName)
 		else
@@ -219,6 +226,9 @@ library Trigger initializer init requires EventDatabase
 		/*if hero != null then
 			call Launch(hero, index)
 		endif*/
+		/*call BJDebugMsg("=====================================")
+		call BJDebugMsg("currentEvent.TriggerUnit: " + GetUnitName(currentEvent.TriggerUnit))
+		call BJDebugMsg("currentEvent.TargetUnit: " + GetUnitName(currentEvent.TargetUnit))*/
 		
 		/*TriggerUnit*/
 		call Launch(currentEvent.TriggerUnit, index, currentEvent.TriggerUnitName)
@@ -230,31 +240,42 @@ library Trigger initializer init requires EventDatabase
 		set ItemUsed = null
 	endfunction
 	
-	function RegisterDuplicatableItemTypeCustom takes integer itemType, Event eventType, code action, code condition, string usedUnitName returns nothing
-	    local trigger triggerToExecute = CreateTrigger()
+	globals
+        private trigger tempTrigTwo = null
+    endglobals
+	
+	function RegisterDuplicatableItemTypeCustom takes integer itemType, Event eventType, code action, code condition, string usedUnitName returns trigger
 	    local integer amountOfEvents = LoadInteger(ItemTypeData, itemType, EVENT_AMOUNT) + 1
 	    local integer stringHash
 	    
-	    call TriggerAddAction( triggerToExecute, action )
+	    //local item TEST
+	    
+	    set tempTrigTwo = CreateTrigger()
+	    
+	    call TriggerAddAction( tempTrigTwo, action )
 	    if condition != null then
-	    	call TriggerAddCondition( triggerToExecute, Condition( condition ) )
+	    	call TriggerAddCondition( tempTrigTwo, Condition( condition ) )
 	    endif
 	    
-	    set TriggerToExecute[ActionListMax] = triggerToExecute
+	    set TriggerToExecute[ActionListMax] = tempTrigTwo
 	    set ItemType[ActionListMax] = itemType
 	    set EventTypeCustom[ActionListMax] = eventType
 	    
 	    call SaveInteger( ItemTypeData, itemType, KEY_NAME, ActionListMax )
 	    
-	    set stringHash = StringHash(KEY_NAME_STRING) + amountOfEvents
+	    set stringHash = KEY_NAME + amountOfEvents
 	    call SaveInteger( ItemTypeData, itemType, stringHash, ActionListMax )
 	    call SaveStr( ItemTypeData, itemType, USED_UNIT_HASH, usedUnitName )
 	    
 	    set ActionListMax = ActionListMax + 1
 	    
+	    /*set TEST = CreateItem(itemType, 0, 0)
+	    call BJDebugMsg("itemType: " + GetItemName(TEST))
+	    call BJDebugMsg("ActionListMax: " + I2S(ActionListMax - 1))*/
+	    
 	    call SaveInteger(ItemTypeData, itemType, EVENT_AMOUNT, amountOfEvents )
 	    
-		set triggerToExecute = null
+		return tempTrigTwo
 	endfunction
 	
 	private function CreateEventCustom takes integer index returns nothing

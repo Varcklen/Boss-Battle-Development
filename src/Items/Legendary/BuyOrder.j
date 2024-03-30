@@ -14,6 +14,7 @@ scope BuyOrder initializer init
 	private function AfterRefresh takes nothing returns nothing
 		if isActive then
 			call IconFrameDel( "buy_order" )
+			set isActive = false
 		endif
 	endfunction
 

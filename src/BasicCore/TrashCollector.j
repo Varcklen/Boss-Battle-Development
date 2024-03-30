@@ -1,4 +1,4 @@
-library TrashCollector requires SludgeQDestroy
+library TrashCollector requires SludgeQDestroy, WeaponDelete
 
     private function OnRemoveUnit takes unit u returns nothing
         call FlushChildHashtable( udg_hash, GetHandleId(u) )

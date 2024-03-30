@@ -12,13 +12,13 @@ scope CheatRandomAbility initializer init
 	    local trigger trig
 	    
 	    if abilityType == 0 then
-	    	call BJDebugMsg("Q abilities - start")
+	    	call BJDebugMsg("Q abilities - start. |cffffcc00abilityIndex:|r " + I2S(abilityIndex))
 	    	set trig = udg_DB_Trigger_One[abilityIndex]
 	    elseif abilityType == 1 then
-	    	call BJDebugMsg("W abilities - start")
+	    	call BJDebugMsg("W abilities - start |cffffcc00abilityIndex:|r " + I2S(abilityIndex))
 	    	set trig = udg_DB_Trigger_Two[abilityIndex]
 	    elseif abilityType == 2 then
-	    	call BJDebugMsg("R abilities - start")
+	    	call BJDebugMsg("R abilities - start |cffffcc00abilityIndex:|r " + I2S(abilityIndex))
 	    	set trig = udg_DB_Trigger_Three[abilityIndex]
 	    else
 	    	call BJDebugMsg("END")
@@ -26,7 +26,7 @@ scope CheatRandomAbility initializer init
 	    	return
 	    endif
 	    
-	    if trig == null then
+	    if abilityIndex > udg_Database_NumberItems[14 + abilityType] then
 	    	call SaveInteger( udg_hash, id, StringHash( "cheat_cast" ), abilityType + 1 )
 	    	call SaveInteger( udg_hash, id, StringHash( "cheat_cast_index" ), 0 )
 	    	return
@@ -48,7 +48,6 @@ scope CheatRandomAbility initializer init
 
 	private function init takes nothing returns nothing
 	    set trig_CheatRandomAbility = CreateTrigger()
-	    call DisableTrigger( trig_CheatRandomAbility )
 	    call TriggerRegisterPlayerChatEvent( trig_CheatRandomAbility, Player(0), "-chaos", false )
 	    call TriggerAddAction( trig_CheatRandomAbility, function action )
 	endfunction

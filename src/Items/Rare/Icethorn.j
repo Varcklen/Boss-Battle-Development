@@ -7,16 +7,18 @@ scope Icethorn initializer init
 	endglobals
 	
 	private function condition takes nothing returns boolean
-		return GetUnitState( AfterHeal.TriggerUnit, UNIT_STATE_LIFE ) == GetUnitState( AfterHeal.TriggerUnit, UNIT_STATE_MAX_LIFE )
+		return GetUnitState( AfterHeal.TargetUnit, UNIT_STATE_LIFE ) == GetUnitState( AfterHeal.TargetUnit, UNIT_STATE_MAX_LIFE )
 	endfunction
 
 	private function action takes nothing returns nothing
 		local unit caster = AfterHeal.GetDataUnit("caster")
+		local unit target = AfterHeal.GetDataUnit("target")
 		local real heal = AfterHeal.GetDataReal("raw_heal")
 		
-	    call shield( caster, caster, heal * SHIELD_GAIN_PERC )
+	    call shield( caster, target, heal * SHIELD_GAIN_PERC )
 
         set caster = null
+        set target = null
 	endfunction
 	
 	private function init takes nothing returns nothing
