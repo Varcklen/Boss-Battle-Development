@@ -55,7 +55,7 @@ scope CurseTrash initializer init
     endfunction
 	
 	private function init takes nothing returns nothing
-		set Trigger = CreateEventTrigger( "udg_FightEndGlobal_Real", function action, null )
+		set Trigger = BattleEndGlobal.AddListener(function action, function condition)//CreateEventTrigger( "udg_FightEndGlobal_Real", function action, null )
 		call DisableTrigger( Trigger )
 	endfunction
 

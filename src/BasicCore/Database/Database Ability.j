@@ -225,7 +225,6 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Spec[15] = trig_Murderousness
 	    
 	    // Триггеры способности №1
-	    set udg_Database_NumberItems[14] = 77
 	    set udg_DB_Trigger_One[1] = gg_trg_DragonQ
 	    set udg_DB_Trigger_One[2] = gg_trg_MonkQ 
 	    set udg_DB_Trigger_One[3] = gg_trg_PirateQ 
@@ -302,12 +301,12 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_One[74] = gg_trg_Corrupted_EntQ
 	    set udg_DB_Trigger_One[75] = gg_trg_LycanthropeQ
 	    set udg_DB_Trigger_One[76] = gg_trg_The_PlagueQ
-	    set udg_DB_Trigger_One[77] = gg_trg_RandomLogicFizzle // gg_trg_ShepherdQ //might have undefined behaviour if cast by 2 different players on the same team.
-	    set udg_DB_Trigger_One[78] = gg_trg_RunesmithQ
+	    //set udg_DB_Trigger_One[77] = gg_trg_RandomLogicFizzle // gg_trg_ShepherdQ //might have undefined behaviour if cast by 2 different players on the same team.
+	    set udg_DB_Trigger_One[77] = gg_trg_RunesmithQ
+	    set udg_Database_NumberItems[14] = 77
 	    
 	    
 	    // Триггеры способности №2
-	    set udg_Database_NumberItems[15] = 69
 	    set udg_DB_Trigger_Two[1] = gg_trg_BeornW
 	    set udg_DB_Trigger_Two[2] = gg_trg_HarpyW
 	    set udg_DB_Trigger_Two[3] = gg_trg_DruidW
@@ -377,9 +376,9 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Two[67] = gg_trg_The_PlagueW
 	    set udg_DB_Trigger_Two[68] = gg_trg_ShepherdW
 	    set udg_DB_Trigger_Two[69] = gg_trg_RunesmithW
+	    set udg_Database_NumberItems[15] = 69
 	    
 	    // Триггеры способности №3
-	    set udg_Database_NumberItems[16] = 73
 	    set udg_DB_Trigger_Three[1] = gg_trg_BeornR
 	    set udg_DB_Trigger_Three[2] = gg_trg_OwlR
 	    set udg_DB_Trigger_Three[3] = gg_trg_DruidR
@@ -453,6 +452,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Three[71] = gg_trg_CorruptedEntR
 	    set udg_DB_Trigger_Three[72] = trig_MephistarE
 	    set udg_DB_Trigger_Three[73] = gg_trg_ShepherdR
+	    set udg_Database_NumberItems[16] = 73
 	    
 	    // First spell
 	    //udg_DB_Hero_FirstSpell

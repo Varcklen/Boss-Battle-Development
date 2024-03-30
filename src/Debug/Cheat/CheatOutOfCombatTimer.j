@@ -7,6 +7,7 @@ scope CheatOutOfCombatTimer initializer init
 	private function action takes nothing returns nothing
 	    call BJDebugMsg("Timer Set.")
 	    
+	    call OutOfCombatTimer_EnableDebug.evaluate()
 	    call OutOfCombatTimer_Launch.evaluate(6)
 	endfunction
 

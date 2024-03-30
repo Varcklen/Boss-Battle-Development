@@ -22,6 +22,15 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
             is_win (boolean)
         */
         
+        Event BattleStartGlobal
+         /*
+        */
+        
+        Event BattleEndGlobal
+         /*
+            is_win (boolean)
+        */
+        
         Event AllHeroesDied
         /*
         */
@@ -166,6 +175,8 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         set RuneSetLose = Event.create("caster", null)
         set RuneSetGainCheck = Event.create("caster", null)
         set RuneSetLoseCheck = Event.create("caster", null)
+        set BattleStartGlobal = Event.create(null, null)
+        set BattleEndGlobal = Event.create(null, null)
     endfunction
     
     /*Base Event Init*/

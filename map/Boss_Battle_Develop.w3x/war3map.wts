@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.3.8T|r
+|cffbe81f7Boss Battle 1.5.3.9T|r
 }
 
 STRING 2
@@ -6701,6 +6701,15 @@ When the hero's health drops below 20%, it puts the hero in stasis for 3 seconds
 |cffffcc00Cooldown:|r 90 seconds.
 }
 
+STRING 1030
+// Items: I0BT (Steel Rose), Description (Description)
+{
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+If all artifacts in your inventory are from the "|cff7cfc00Nature|r" set, gives 4 resurrections.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
 STRING 1031
 // Items: I0ER (Orb of Volcano), Name (Name)
 {
@@ -6711,6 +6720,15 @@ STRING 1032
 // Items: I0ER (Orb of Volcano), Tip (Tooltip - Basic)
 {
 Orb of Volcano
+}
+
+STRING 1033
+// Items: I0BT (Steel Rose), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+If all artifacts in your inventory are from the "|cff7cfc00Nature|r" set, gives 4 resurrections.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
 }
 
 STRING 1034
@@ -9650,15 +9668,6 @@ At least one artifact-reward be of |cff4169e1rare|r quality or higher.
 |cff81f260[Random bonus]|r
 }
 
-STRING 1454
-// Items: I0BT (Steel Rose), Description (Description)
-{
-|cff4169e1Rare|r, |cff7cfc00Nature|r
-If your inventory contains 6 artifacts from the "|cff7cfc00Nature|r" set, gives 4 resurrections.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 1455
 // Abilities: A0XK (Unique: Keen mind), Tip (Tooltip - Normal)
 {
@@ -9670,15 +9679,6 @@ STRING 1456
 {
 |cff60C445Unique|r
 Counts as 5 |cffb18904mechs|r.
-}
-
-STRING 1457
-// Items: I0BT (Steel Rose), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff7cfc00Nature|r
-If your inventory contains 6 artifacts from the "|cff7cfc00Nature|r" set, gives 4 resurrections.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 1458
@@ -72996,7 +72996,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.3.8T|r
+|cffbe81f7Boss Battle 1.5.3.9T|r
 }
 
 STRING 11219

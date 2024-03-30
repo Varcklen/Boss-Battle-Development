@@ -41,6 +41,8 @@ library CheatSystem initializer init requires Multiboard
 		call Cheat.create(trig_CheatRandomAbility, "-chaos", "The hero casts all random spells.")
 		call Cheat.create(CheatBlessAll_Trigger, "-blessall", "Enables all blessings.")
 		call Cheat.create(CheatCheckStats_Trigger, "-stats", "Displays a list with data about stats.")
+		call Cheat.create(CheatBerserk_Trigger, "-rage", "The hero enters berserk mode for 10 seconds.")
+		call Cheat.create(CheatSets_Trigger, "-sets", "Displays the number of entities from sets on the player.")
 	endfunction
 
 	public function IsCheatsEnabled takes nothing returns boolean
