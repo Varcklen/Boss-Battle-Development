@@ -56842,6 +56842,12 @@ STRING 8614
 King of slaves
 }
 
+STRING 8615
+// Abilities: A1GN (Extra: Cat), Name (Name)
+{
+Extra: Cat
+}
+
 STRING 8616
 // Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Name (Name)
 {
@@ -56891,6 +56897,12 @@ STRING 8623
 Polar bear
 }
 
+STRING 8624
+// Abilities: A1GN (Extra: Cat), Tip (Tooltip - Normal)
+{
+Cat
+}
+
 STRING 8625
 // Abilities: A0AP (|cffffcc00Уровень 1:|r Электро-Гнолл), Name (Name)
 {
@@ -56901,6 +56913,12 @@ STRING 8626
 // Abilities: A0AP (|cffffcc00Уровень 1:|r Электро-Гнолл), Tip (Tooltip - Normal)
 {
 Electro Gnoll
+}
+
+STRING 8627
+// Abilities: A1GN (Extra: Cat), Ubertip (Tooltip - Normal - Extended)
+{
+Mew.
 }
 
 STRING 8628
@@ -58024,6 +58042,12 @@ STRING 8799
 |cFFFE8A0ELAST BOSS:|r Voidlord
 }
 
+STRING 8800
+// Abilities: A1GO (Extra: Catman), Name (Name)
+{
+Extra: Catman
+}
+
 STRING 8801
 // Abilities: A09J (Armor (Weapons Training)), Name (Name)
 {
@@ -58160,6 +58184,12 @@ STRING 8822
 // Abilities: A09E (|cffffcc00Уровень 10:|r Кролик), Tip (Tooltip - Normal)
 {
 |cFFFE8A0ELAST BOSS:|r Rabbit
+}
+
+STRING 8823
+// Abilities: A1GO (Extra: Catman), Tip (Tooltip - Normal)
+{
+Catman
 }
 
 STRING 8824
@@ -60625,6 +60655,12 @@ STRING 9201
 Provokes the enemy to attack you. The target is forced to attack you. During this time, both deal 20% less damage. When you attack a target, the effect is refreshed.
 |cffffcc00Duration:|r 4 seconds.
 |cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 9202
+// Abilities: A1GO (Extra: Catman), Ubertip (Tooltip - Normal - Extended)
+{
+He fights for fish and milk against the villains of the city, as well as his main opponent - Jo-cat.
 }
 
 STRING 9204
