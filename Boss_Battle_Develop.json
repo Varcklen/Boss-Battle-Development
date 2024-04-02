@@ -2786,7 +2786,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "BasicCore",
       "Files": [
         {
@@ -3962,7 +3962,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Mods",
       "Files": [
         {
@@ -4010,7 +4010,36 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
+          "path": "Mods\\ModesFrame",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Mods\\ModesFrame\\ModesFrameSet.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Mods\\ModesFrame\\ModesFrame.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Mods\\ModesFrame\\ModesChoosing.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": true,
           "path": "Mods\\MainMods",
           "Files": [
             {
@@ -4056,6 +4085,13 @@
                   "Files": []
                 }
               ]
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Mods\\MainMods\\Changing World",
+              "Files": []
             }
           ]
         },
@@ -5005,7 +5041,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Frames",
       "Files": [
         {
@@ -5449,35 +5485,6 @@
           "isEnabled": true,
           "isInitiallyOn": true,
           "isExpanded": false,
-          "path": "Frames\\ModesFrame",
-          "Files": [
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Frames\\ModesFrame\\ModesFrameSet.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Frames\\ModesFrame\\ModesFrame.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Frames\\ModesFrame\\ModesChoosing.trg",
-              "Files": []
-            }
-          ]
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": true,
           "path": "Frames\\HeroChoise",
           "Files": [
             {
@@ -5522,7 +5529,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Debug",
       "Files": [
         {
@@ -5549,7 +5556,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Debug\\Cheat",
           "Files": [
             {
@@ -5902,7 +5909,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Items",
       "Files": [
         {
@@ -9718,7 +9725,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Items\\Sets",
           "Files": [
             {

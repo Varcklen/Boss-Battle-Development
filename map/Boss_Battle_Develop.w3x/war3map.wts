@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.3.9T|r
+|cffbe81f7Boss Battle 1.5.3.10T|r
 }
 
 STRING 2
@@ -9668,6 +9668,12 @@ At least one artifact-reward be of |cff4169e1rare|r quality or higher.
 |cff81f260[Random bonus]|r
 }
 
+STRING 1454
+// Abilities: A0WT (|cffffcc00Mode:|r Changing World), Name (Name)
+{
+|cffffcc00Mode:|r Changing World
+}
+
 STRING 1455
 // Abilities: A0XK (Unique: Keen mind), Tip (Tooltip - Normal)
 {
@@ -9679,6 +9685,12 @@ STRING 1456
 {
 |cff60C445Unique|r
 Counts as 5 |cffb18904mechs|r.
+}
+
+STRING 1457
+// Abilities: A0WT (|cffffcc00Mode:|r Changing World), Tip (Tooltip - Normal)
+{
+|cffffcc00Mode:|r Changing World
 }
 
 STRING 1458
@@ -36136,26 +36148,6 @@ STRING 5443
 (т)Аура: Orb of the Netherstorm
 }
 
-STRING 5444
-// Abilities: A0WT (|cffffcc00Mode:|r Themed Challenge), Name (Name)
-{
-|cffffcc00Mode:|r Themed Challenge
-}
-
-STRING 5445
-// Abilities: A0WT (|cffffcc00Mode:|r Themed Challenge), Tip (Tooltip - Normal)
-{
-|cffffcc00Mode:|r Themed Challenge
-}
-
-STRING 5446
-// Abilities: A0WT (|cffffcc00Mode:|r Themed Challenge), Ubertip (Tooltip - Normal - Extended)
-{
-Activates 5 thematic curses.
-
-|cffffcc00Experience bonus: +20%.|r
-}
-
 STRING 5447
 // Abilities: A0WS (Снаряд: Orb of the Netherstorm), Name (Name)
 {
@@ -36474,6 +36466,12 @@ STRING 5492
 // Abilities: A0WC (Босс 9: Большой кодо (Ускорение)), Name (Name)
 {
 Босс 9: Большой кодо (Ускорение)
+}
+
+STRING 5493
+// Abilities: A0WT (|cffffcc00Mode:|r Changing World), Ubertip (Tooltip - Normal - Extended)
+{
+At the end of the battle, 3 blessings and 3 curses are changed to random ones.
 }
 
 STRING 5494
@@ -72996,7 +72994,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.3.9T|r
+|cffbe81f7Boss Battle 1.5.3.10T|r
 }
 
 STRING 11219

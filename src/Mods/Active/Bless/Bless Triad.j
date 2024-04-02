@@ -23,7 +23,7 @@ scope BlessTriad initializer init
 	        loop
 	            exitwhen k > PLAYERS_LIMIT
 	            if udg_hero[k] != null then
-	                call SetCount_AddPiece( udg_hero[k], Sets[i], PIECES_TO_ADD )
+	                call SetCount_AddPiece( udg_hero[k], Sets[i], value )
 	            endif
 	            set k = k + 1
 	        endloop
@@ -79,6 +79,7 @@ scope BlessTriad initializer init
 	        set extraText = extraText + " " + SetCount_GetSetName( Sets[i] )
 	        set i = i + 1
 	    endloop
+	    call DisplayTimedTextToForce( bj_FORCE_ALL_PLAYERS, 15, "|cffffcc00Triad|r blessing is active! You received parts of these sets:" + extraText + "." )
 	endfunction
 
 	//===========================================================================
