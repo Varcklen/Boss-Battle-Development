@@ -45376,6 +45376,12 @@ STRING 6859
 |cffffcc00Curse:|r Darkness
 }
 
+STRING 6860
+// Abilities: A0KB (Jester: Juggling), Researchubertip (Tooltip - Learn - Extended)
+{
+When the hero attacks, there is a |cffd7df018%/11%/14%/17%/20%|r chance to give the hero a Throwing Knife. If inventory is full, use it instead.
+}
+
 STRING 6861
 // Abilities: A0MX (Houndmaster: Backtracking), Researchhotkey (Hotkey - Learn)
 {
@@ -48200,12 +48206,6 @@ STRING 7287
 Juggling, [|cffffcc00Level %d|r]
 }
 
-STRING 7288
-// Abilities: A0KB (Jester: Juggling), Researchubertip (Tooltip - Learn - Extended)
-{
-When the hero attacks, there is a |cffd7df018%/11%/14%/17%/20%|r chance to give the hero a Throwing Knife.
-}
-
 STRING 7289
 // Abilities: A0KB (Jester: Juggling), Tip (Tooltip - Normal)
 {
@@ -48234,36 +48234,6 @@ STRING 7293
 // Abilities: A0KB (Jester: Juggling), Tip (Tooltip - Normal)
 {
 Juggling, [|cffffcc00Level 5|r]
-}
-
-STRING 7294
-// Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, there is a |cffd7df018%|r chance to give the hero a Throwing Knife.
-}
-
-STRING 7295
-// Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, there is a |cffd7df0111%|r chance to give the hero a Throwing Knife.
-}
-
-STRING 7296
-// Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, there is a |cffd7df0114%|r chance to give the hero a Throwing Knife.
-}
-
-STRING 7297
-// Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, there is a |cffd7df0117%|r chance to give the hero a Throwing Knife.
-}
-
-STRING 7298
-// Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, there is a |cffd7df0120%|r chance to give the hero a Throwing Knife.
 }
 
 STRING 7299
@@ -50857,6 +50827,12 @@ STRING 7686
 Queen of spiders
 }
 
+STRING 7687
+// Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
+{
+When the hero attacks, there is a |cffd7df018%|r chance to give the hero a Throwing Knife. If inventory is full, use it instead.
+}
+
 STRING 7688
 // Abilities: A0HI (|cffffcc00Уровень 9:|r Ядовитая нечисть), Name (Name)
 {
@@ -50887,6 +50863,12 @@ STRING 7692
 Ancient ent
 }
 
+STRING 7693
+// Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
+{
+When the hero attacks, there is a |cffd7df0111%|r chance to give the hero a Throwing Knife. If inventory is full, use it instead.
+}
+
 STRING 7694
 // Abilities: A0HG (|cffffcc00Уровень 7:|r Суккуб), Name (Name)
 {
@@ -50897,6 +50879,12 @@ STRING 7695
 // Abilities: A0HG (|cffffcc00Уровень 7:|r Суккуб), Tip (Tooltip - Normal)
 {
 Succubus
+}
+
+STRING 7696
+// Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
+{
+When the hero attacks, there is a |cffd7df0114%|r chance to give the hero a Throwing Knife. If inventory is full, use it instead.
 }
 
 STRING 7697
@@ -50911,6 +50899,12 @@ STRING 7698
 Huge hydra
 }
 
+STRING 7699
+// Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
+{
+When the hero attacks, there is a |cffd7df0117%|r chance to give the hero a Throwing Knife. If inventory is full, use it instead.
+}
+
 STRING 7700
 // Abilities: A0HE (|cffffcc00Уровень 6:|r Паладин), Name (Name)
 {
@@ -50921,6 +50915,12 @@ STRING 7701
 // Abilities: A0HE (|cffffcc00Уровень 6:|r Паладин), Tip (Tooltip - Normal)
 {
 Paladin
+}
+
+STRING 7702
+// Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
+{
+When the hero attacks, there is a |cffd7df0120%|r chance to give the hero a Throwing Knife. If inventory is full, use it instead.
 }
 
 STRING 7703

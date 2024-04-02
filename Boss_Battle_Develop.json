@@ -2351,7 +2351,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Library",
       "Files": [
         {
@@ -2778,7 +2778,7 @@
           "isEnabled": true,
           "isInitiallyOn": true,
           "isExpanded": false,
-          "path": "Library\\DangerArea.j",
+          "path": "Library\\IndicatorSystem.j",
           "Files": []
         }
       ]
@@ -2786,7 +2786,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "BasicCore",
       "Files": [
         {
@@ -3478,7 +3478,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\StatSystem",
           "Files": [
             {
@@ -3962,7 +3962,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Mods",
       "Files": [
         {
@@ -4010,7 +4010,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Mods\\ModesFrame",
           "Files": [
             {
@@ -4039,7 +4039,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Mods\\MainMods",
           "Files": [
             {
@@ -4091,14 +4091,22 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Mods\\MainMods\\Changing World",
-              "Files": []
+              "Files": [
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Mods\\MainMods\\Changing World\\Changing World.j",
+                  "Files": []
+                }
+              ]
             }
           ]
         },
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Mods\\Active",
           "Files": [
             {
@@ -5041,7 +5049,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Frames",
       "Files": [
         {
@@ -5529,7 +5537,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Debug",
       "Files": [
         {
@@ -5693,7 +5701,7 @@
               "Files": []
             },
             {
-              "isEnabled": true,
+              "isEnabled": false,
               "isInitiallyOn": false,
               "isExpanded": false,
               "path": "Debug\\Cheat\\Half.trg",
@@ -5816,6 +5824,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Debug\\Cheat\\CheatSets.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Debug\\Cheat\\CheatHalf.j",
               "Files": []
             }
           ]
@@ -10003,7 +10018,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Heroes",
       "Files": [
         {
@@ -12149,6 +12164,13 @@
                   "isEnabled": true,
                   "isInitiallyOn": true,
                   "isExpanded": false,
+                  "path": "Heroes\\Killers\\Jester\\Throwing Knife Lib.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Killers\\Jester\\JesterQ.trg",
                   "Files": []
                 },
@@ -14047,7 +14069,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Bosses",
       "Files": [
         {
@@ -14060,7 +14082,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Bosses\\Bosses1",
           "Files": [
             {
