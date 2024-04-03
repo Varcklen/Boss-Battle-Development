@@ -2351,7 +2351,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Library",
       "Files": [
         {
@@ -2492,13 +2492,6 @@
           "isInitiallyOn": true,
           "isExpanded": false,
           "path": "Library\\Frames.trg",
-          "Files": []
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
-          "path": "Library\\RandomHero.trg",
           "Files": []
         },
         {
@@ -2708,13 +2701,6 @@
           "isEnabled": true,
           "isInitiallyOn": true,
           "isExpanded": false,
-          "path": "Library\\DevourerE.trg",
-          "Files": []
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
           "path": "Library\\BuffsLibLib.j",
           "Files": []
         },
@@ -2780,13 +2766,20 @@
           "isExpanded": false,
           "path": "Library\\IndicatorSystem.j",
           "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Library\\LocationSystem.j",
+          "Files": []
         }
       ]
     },
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "BasicCore",
       "Files": [
         {
@@ -5492,7 +5485,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Frames\\HeroChoise",
           "Files": [
             {
@@ -5507,6 +5500,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Frames\\HeroChoise\\HeroesFrame.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Frames\\HeroChoise\\RandomHero.trg",
               "Files": []
             },
             {
@@ -5537,7 +5537,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Debug",
       "Files": [
         {
@@ -10018,7 +10018,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Heroes",
       "Files": [
         {
@@ -10453,7 +10453,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Buffers\\Shepherd",
               "Files": [
                 {
@@ -13608,6 +13608,13 @@
                   "isEnabled": true,
                   "isInitiallyOn": true,
                   "isExpanded": false,
+                  "path": "Heroes\\Curses\\Devourer\\DevourerE.trg",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Curses\\Devourer\\DevourerR.trg",
                   "Files": []
                 }
@@ -13736,7 +13743,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Curses\\Wicerd",
               "Files": [
                 {
@@ -14069,7 +14076,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Bosses",
       "Files": [
         {
@@ -15837,7 +15844,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Arenas\\PvPArena",
           "Files": [
             {

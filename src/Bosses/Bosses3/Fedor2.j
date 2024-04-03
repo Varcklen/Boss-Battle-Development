@@ -56,8 +56,8 @@ scope Fedor2 initializer init
         local effect wave = LoadEffectHandle( udg_hash, id, StringHash( "bsfdw" ) )
         local unit boss = LoadUnitHandle( udg_hash, id, StringHash( "bsfdwb" ) )
         local group nodmg = LoadGroupHandle( udg_hash, id, StringHash( "bsfdwg" ) )
-        local real yaw = LoadReal( udg_hash, id, StringHash( "bsfdw" ) )
-        local Math_point newPoint = 0
+        local real angle = LoadReal( udg_hash, id, StringHash( "bsfdw" ) )
+        local location newLoc = null
 
         if counter >= FLIGHT_LENGTH or wave == null then
             call DestroyEffect( wave )
@@ -66,13 +66,14 @@ scope Fedor2 initializer init
             call FlushChildHashtable( udg_hash, id )
             call DestroyTimer( GetExpiredTimer() )
         else
-            set newPoint = GetMovedPoint( wave, yaw, SPEED )
-            call BlzSetSpecialEffectPosition( wave, newPoint.x, newPoint.y, BlzGetLocalSpecialEffectZ(wave) )
+            set newLoc = LocationSystem_GetMovedEffect(wave, angle, SPEED)//GetMovedPoint( wave, angle, SPEED )
+            call BlzSetSpecialEffectPositionLoc( wave, newLoc )
             call DealDamage( wave, nodmg, boss )
             call SaveInteger( udg_hash, id, StringHash( "bsfdw" ), counter )
         endif
 
-        call newPoint.destroy()
+        call RemoveLocation(newLoc)
+        set newLoc = null
         set wave = null
         set boss = null
         set nodmg = null
@@ -80,17 +81,15 @@ scope Fedor2 initializer init
     
     private function CreateWave takes unit boss, unit train, real angle returns nothing
         local effect wave
-        local real yaw
         local integer id
     
         set wave = AddSpecialEffect( WAVE_ANIMATION, GetUnitX(train), GetUnitY(train))
-        set yaw = Deg2Rad(angle)
-        call BlzSetSpecialEffectYaw( wave, yaw )
+        call BlzSetSpecialEffectYaw( wave, Deg2Rad(angle) )
         
         set id = InvokeTimerWithEffect( wave, "bsfdw", TICK, true, function WaveUse )
         call SaveUnitHandle( udg_hash, id, StringHash( "bsfdwb" ), boss )
         //call SaveUnitHandle( udg_hash, id, StringHash( "bsfdwtr" ), train )
-        call SaveReal( udg_hash, id, StringHash( "bsfdw" ), yaw )
+        call SaveReal( udg_hash, id, StringHash( "bsfdw" ), angle )
         call SaveGroupHandle( udg_hash, id, StringHash( "bsfdwg" ), CreateGroup() )
     
         set wave = null

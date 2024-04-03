@@ -47,7 +47,7 @@ scope CurseElectricStorm initializer init
 
     private function Storm_Start takes nothing returns nothing
         local effect storm
-        local Math_point lightPoint 
+        local location lightLoc
         local integer i
 
         if udg_fightmod[0] == false then
@@ -56,14 +56,16 @@ scope CurseElectricStorm initializer init
             set i = 1
             loop
                 exitwhen i > STORM_HOW_MUCH
-                set lightPoint = GetRandomPointInRect(udg_Boss_Rect)
-                set storm = AddSpecialEffect(STORM_WARNING, lightPoint.x, lightPoint.y)
+                set lightLoc = GetRandomLocInRect(udg_Boss_Rect)
+                set storm = AddSpecialEffectLoc(STORM_WARNING, lightLoc)
                 call InvokeTimerWithEffect(storm, "curse_el_storm_fx", STORM_TIME_TO_ACTIVATION, false, function Storm_Use )
+                call RemoveLocation(lightLoc)
                 set i = i + 1
             endloop
         endif
         
-        call lightPoint.destroy()
+        call RemoveLocation(lightLoc)
+        set lightLoc = null
         set storm = null
     endfunction
 
