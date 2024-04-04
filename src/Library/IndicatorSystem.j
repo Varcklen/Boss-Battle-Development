@@ -43,10 +43,14 @@ library IndicatorSystem initializer init requires CommonTimer
 			set .PathAlt = pathAlt
         endmethod
         
-        method GetPath takes integer size returns string
+        method GetPath takes real size returns string
+        	//call BJDebugMsg("size: " + R2S(size))
+        	//call BJDebugMsg(".SizeAlt: " + R2S(.SizeAlt))
 			if .PathAlt != null and size >= .SizeAlt then
+				//call BJDebugMsg(".PathAlt: " + .PathAlt )
 				return .PathAlt
 			endif
+			//call BJDebugMsg(".Path: " + .Path )
 			return .Path
         endmethod
 	endstruct
@@ -90,8 +94,9 @@ library IndicatorSystem initializer init requires CommonTimer
 		local Indicator indicator = Indicators[indicatorType]
 		local integer id
 		
-		set temp_Effect = AddSpecialEffect( indicator.GetPath(indicatorType), x, y )
+		set temp_Effect = AddSpecialEffect( indicator.GetPath(area), x, y )
 		call BlzSetSpecialEffectScale( temp_Effect, area / 100 * indicator.BaseSize )
+		call BlzSetSpecialEffectColorByPlayer( temp_Effect, Player(12) ) //Red Color
 		
 		set id = InvokeTimerWithEffect( temp_Effect, STRING_HASH_STRING, duration, false, function end )
 		call SaveInteger(udg_hash, id, STRING_HASH, indicator)

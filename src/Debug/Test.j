@@ -2,10 +2,14 @@ scope Test initializer init
 	
 	private function action takes nothing returns nothing
 		local effect particle
-		local unit c = udg_hero[1]
+		local unit hero = udg_hero[1]
     
-        set particle = AddSpecialEffectTarget( "war3mapImported\\Guading_teamsign_red.mdx", c, "overhead" )
-        call BlzSetSpecialEffectZ( particle, 700 )
+        //set particle = AddSpecialEffectTarget( "war3mapImported\\Guading_teamsign_blue.mdx", c, "overhead" )
+        //call BlzSetSpecialEffectZ( particle, 700 )
+        
+        call IndicatorSystem_Create( INDICATOR_AIM, GetUnitX(hero), GetUnitY(hero), 200, 3 )
+        call IndicatorSystem_Create( INDICATOR_AIM, GetUnitX(hero), GetUnitY(hero), 100, 3 )
+        call IndicatorSystem_Create( INDICATOR_AIM, GetUnitX(hero), GetUnitY(hero), 300, 3 )
 	endfunction
 	
 	//===========================================================================

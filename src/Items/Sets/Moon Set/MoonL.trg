@@ -1,0 +1,11 @@
+{
+  "Id": 50332861,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "function Trig_MoonL_Conditions takes nothing returns boolean\r\n    if udg_logic[36] then\r\n        return false\r\n    endif\r\n    if not( MoonLogic(GetManipulatedItem()) ) then\r\n        return false\r\n    endif\r\n    return true\r\nendfunction\r\n\r\nfunction Trig_MoonL_Actions takes nothing returns nothing\r\n    local unit n = GetManipulatingUnit()//udg_hero[GetPlayerId(GetOwningPlayer(GetManipulatingUnit())) + 1]\r\n    local integer i = CorrectPlayer(n)//GetPlayerId(GetOwningPlayer(n)) + 1\r\n    local integer cyclA = 0\r\n    local boolean l = LoadBoolean( udg_hash, GetHandleId( n ), StringHash( \"pkblt\" ) )\r\n    local boolean k = LoadBoolean( udg_hash, GetHandleId( n ), StringHash( \"pkbl\" ) )\r\n    \r\n    if l then\r\n        set udg_logic[i + 18] = false\r\n        call iconoff( i, \"Луна\" )\r\n    else\r\n        set udg_Set_Moon_Number[i] = udg_Set_Moon_Number[i] - 1\r\n        if udg_logic[i + 18] and udg_Set_Moon_Number[i] < 3 then\r\n            if not( k ) then\r\n                set udg_logic[i + 18] = false\r\n                call UnitRemoveAbility( n, 'A04C' )\r\n                call UnitRemoveAbility( n, 'B08W' )\r\n            endif\r\n            call DisplayTimedTextToPlayer(GetOwningPlayer(n), 0, 0, 5., \"Set |cff5858faMoon|r is now disassembled!\" )\r\n            call iconoff( i, \"Луна\" )\r\n        endif\r\n    endif\r\n    \r\n    //call AllSetRing( n, 4, GetManipulatedItem() )\r\n    \r\n    set n = null\r\nendfunction\r\n\r\n//===========================================================================\r\nfunction InitTrig_MoonL takes nothing returns nothing\r\n    set gg_trg_MoonL = CreateTrigger(  )\r\n    call TriggerRegisterAnyUnitEventBJ( gg_trg_MoonL, EVENT_PLAYER_UNIT_DROP_ITEM )\r\n    call TriggerAddCondition( gg_trg_MoonL, Condition( function Trig_MoonL_Conditions ) )\r\n    call TriggerAddAction( gg_trg_MoonL, function Trig_MoonL_Actions )\r\nendfunction\r\n\r\n",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.3.10T|r
+|cffbe81f7Boss Battle 1.5.3.11T|r
 }
 
 STRING 2
@@ -36148,6 +36148,12 @@ STRING 5443
 (т)Аура: Orb of the Netherstorm
 }
 
+STRING 5444
+// Abilities: A01Z (Снаряд: ЛунаXXX), Name (Name)
+{
+Снаряд: ЛунаXXX
+}
+
 STRING 5447
 // Abilities: A0WS (Снаряд: Orb of the Netherstorm), Name (Name)
 {
@@ -66085,12 +66091,6 @@ STRING 10085
 Артефакт: Жертвенный клинок
 }
 
-STRING 10086
-// Abilities: A01Z (Снаряд: Луна), Name (Name)
-{
-Снаряд: Луна
-}
-
 STRING 10087
 // Abilities: A01Y (Босс 6: Краб (Скорость боя)), Name (Name)
 {
@@ -72994,7 +72994,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.3.10T|r
+|cffbe81f7Boss Battle 1.5.3.11T|r
 }
 
 STRING 11219
