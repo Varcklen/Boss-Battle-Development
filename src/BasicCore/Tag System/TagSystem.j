@@ -13,10 +13,12 @@ library TagSystem initializer init requires Trigger
 	globals
 		constant integer TAG_NULL = 0
 		constant integer TAG_UNMERGED_ORB = 1
+		constant integer TAG_TRIPLE_SET_PIECE = 2
 	endglobals
 	
 	private function InitTags takes nothing returns nothing
 		call Tag.create("Unmerged Orb", "unmerged_orb", TAG_UNMERGED_ORB)
+		call Tag.create("Triple Set", "triple_set", TAG_TRIPLE_SET_PIECE)
 	endfunction
 	//========================================================
 	
