@@ -11,6 +11,30 @@ library TagSystemInit requires TagSystem
 			set i = i + 1
 		endloop
 	endfunction
+	
+	private function InitCorrupted takes integer tagType returns nothing
+		local integer i = 1
+		local integer iMax = udg_Database_NumberItems[29]
+		local integer stringHash = TagSystem_GetTagData(tagType).StringHash
+
+		loop
+			exitwhen i > iMax
+			call SaveBoolean(TagSystem_TagTable, udg_DB_Item_Destroyed[i], stringHash, true)
+			set i = i + 1
+		endloop
+	endfunction
+	
+	private function InitActivatable takes integer tagType returns nothing
+		local integer i = 1
+		local integer iMax = udg_Database_NumberItems[31]
+		local integer stringHash = TagSystem_GetTagData(tagType).StringHash
+
+		loop
+			exitwhen i > iMax
+			call SaveBoolean(TagSystem_TagTable, udg_DB_Item_Activate[i], stringHash, true)
+			set i = i + 1
+		endloop
+	endfunction
 
 	public function InitTripleSet takes integer piece1, integer piece2, integer piece3 returns nothing
 		local integer stringHash = TagSystem_GetTagData(TAG_TRIPLE_SET_PIECE).StringHash
@@ -22,6 +46,8 @@ library TagSystemInit requires TagSystem
 
 	public function Register takes nothing returns nothing
 		call InitUnmergedOrb(TAG_UNMERGED_ORB)
+		call InitCorrupted(TAG_CORRUPTED)
+		call InitActivatable(TAG_ACTIVATABLE)
 	endfunction
 
 endlibrary

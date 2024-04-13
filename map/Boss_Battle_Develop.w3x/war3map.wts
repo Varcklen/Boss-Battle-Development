@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.5.3.11T|r
+|cffbe81f7Boss Battle 1.6.1T|r
 }
 
 STRING 2
@@ -36152,6 +36152,16 @@ STRING 5444
 // Abilities: A01Z (Снаряд: ЛунаXXX), Name (Name)
 {
 Снаряд: ЛунаXXX
+}
+
+STRING 5445
+// Abilities: A0W7 (|cffffcc00Уровень 5:|r Баньши), Ubertip (Tooltip - Normal - Extended)
+{
+- Fast weak attacks. Ranged attacks.
+- Reduces attack power of all enemies by 33%.
+- |cff00cceeAt 75% health:|r Possesses the nearest strongest hero (if possible, whom she has not yet possessed). Every second takes 1.5% health of the hero. Leaves the hero if the possessed unit's health drops to 40%.
+- |cff00cceeAt 50% health:|r Possesses the nearest strongest hero.
+- |cff00cceeAt 25% health:|r Possesses the nearest strongest hero. Summons evil spirits.
 }
 
 STRING 5447
@@ -72994,7 +73004,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.5.3.11T|r
+|cffbe81f7Boss Battle 1.6.1T|r
 }
 
 STRING 11219
@@ -75388,16 +75398,6 @@ STRING 11571
 - Every 8 seconds creates a trap nearby. When an adversary steps on it, it deals |cffbe81f7200|r damage and stuns it for 5 seconds.
 - |cff00cceeAt 50% health:|r Creates kodo food. The boss is going to eat one of them. Every 10 seconds goes to eat kodo food.
 - |cff00cceeAt 40% health:|r Increases the attack and movement speed of the boss by 50%.
-}
-
-STRING 11572
-// Abilities: A0W7 (|cffffcc00Уровень 5:|r Баньши), Ubertip (Tooltip - Normal - Extended)
-{
-- Fast weak attacks. Ranged attacks.
-- Reduces attack power of all enemies by 33%.
-- |cff00cceeAt 75% health:|r Inhabits the body of a random hero nearby. Every second takes 1.5% health. Exits the body when the health margin drops below 40%.
-- |cff00cceeAt 50% health:|r Inhabits the body of a random hero nearby.
-- |cff00cceeAt 25% health:|r Inhabits the body of a random hero nearby. Summons evil spirits.
 }
 
 STRING 11573

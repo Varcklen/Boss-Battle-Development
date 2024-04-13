@@ -1,4 +1,4 @@
-library WeaponPieceSystem requires EventSystem
+library WeaponPieceSystem requires EventSystem, SetCount
 
 	globals
 		public WeaponPiece array WeaponPieces

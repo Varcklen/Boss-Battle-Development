@@ -147,6 +147,10 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         	caster (unit)
         	item (item)
         */
+        Event CooldownReset
+        /*
+        	caster (unit)
+        */
     endglobals
     
     private function InitCustomEvents takes nothing returns nothing
@@ -177,6 +181,7 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         set RuneSetLoseCheck = Event.create("caster", null)
         set BattleStartGlobal = Event.create(null, null)
         set BattleEndGlobal = Event.create(null, null)
+        set CooldownReset = Event.create("caster", null)
     endfunction
     
     /*Base Event Init*/

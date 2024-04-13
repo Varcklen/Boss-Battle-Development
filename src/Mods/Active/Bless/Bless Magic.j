@@ -10,11 +10,14 @@ scope BlessMagic initializer init
 	
 	private function action takes nothing returns nothing
 		local integer rand = GetRandomInt( 0, 2 )
-		local trigger abilityUsed = udg_DB_Trigger_Two[GetRandomInt( 1, udg_Database_NumberItems[14 + rand])]
-		
-		call CastRandomAbility(GetSpellAbilityUnit(), GetRandomInt( 1, 5 ), abilityUsed )
-		
-		set abilityUsed = null
+
+		if rand == 0 then
+			call CastRandomAbility(GetSpellAbilityUnit(), GetRandomInt( 1, 5 ), udg_DB_Trigger_One[GetRandomInt( 1, udg_Database_NumberItems[14])] )
+		elseif rand == 1 then
+			call CastRandomAbility(GetSpellAbilityUnit(), GetRandomInt( 1, 5 ), udg_DB_Trigger_Two[GetRandomInt( 1, udg_Database_NumberItems[15])] )
+		elseif rand == 2 then
+			call CastRandomAbility(GetSpellAbilityUnit(), GetRandomInt( 1, 5 ), udg_DB_Trigger_Three[GetRandomInt( 1, udg_Database_NumberItems[16])] )
+		endif
 	endfunction
 
 	//===========================================================================
