@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.6.1T|r
+|cffbe81f7Boss Battle 1.6.2T|r
 }
 
 STRING 2
@@ -15555,14 +15555,9 @@ When the hero is attacked, there is a |cffd7df0115%|r chance of dodging the atta
 }
 
 STRING 2311
-// Items: I05U (Phoenix egg), Description (Description)
+// Units: n03X (Snupi), Name (Name)
 {
-|cffe96a1cLegendary|r
-When the hero dies, puts it in the egg.
-When the egg is destroyed, resurrect hero. 
-It works only if there are live heroes.
-Offers 1 time per battle.
-|cffffcc00Health:|r 500.
+Snupi
 }
 
 STRING 2312
@@ -15578,14 +15573,9 @@ Phoenix egg
 }
 
 STRING 2314
-// Items: I05U (Phoenix egg), Ubertip (Tooltip - Extended)
+// Units: n03Y (Follower), Name (Name)
 {
-|cffe96a1cLegendary|r
-When the hero dies, puts it in the egg.
-When the egg is destroyed, resurrect hero. 
-It works only if there are live heroes.
-Offers 1 time per battle.
-|cffffcc00Health:|r 500.
+Follower
 }
 
 STRING 2315
@@ -36164,6 +36154,16 @@ STRING 5445
 - |cff00cceeAt 25% health:|r Possesses the nearest strongest hero. Summons evil spirits.
 }
 
+STRING 5446
+// Abilities: A0TC (Barbarian: Blood bath), Researchubertip (Tooltip - Learn - Extended)
+{
+|cffffcc00Passive:|r Dealing damage with an attack reduces the cooldown of the ability by 2 second.
+
+Deals |cffbe81f7200/250/300/350/400|r damage to the enemy.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 35 mana.
+}
+
 STRING 5447
 // Abilities: A0WS (Снаряд: Orb of the Netherstorm), Name (Name)
 {
@@ -39786,13 +39786,10 @@ Blood bath, [|cffffcc00Level %d|r]
 }
 
 STRING 5990
-// Abilities: A0TC (Barbarian: Blood bath), Researchubertip (Tooltip - Learn - Extended)
+// Items: I0H9 (Krabster), Description (Description)
 {
-|cffffcc00Passive:|r Each hit of the hero reduces the cooldown of the ability by 2 second.
-
-Deals |cffbe81f7200/250/300/350/400|r damage to the enemy.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 35 mana.
+|cffe96a1cLegendary|r
+After an attack or cast, there is a |cffd7df012%|r chance to unleash the Crab Power.
 }
 
 STRING 5991
@@ -39826,48 +39823,37 @@ Blood bath, [|cffffcc00Level 5|r]
 }
 
 STRING 5996
-// Abilities: A0TC (Barbarian: Blood bath), Ubertip (Tooltip - Normal - Extended)
+// Items: I0H9 (Krabster), Name (Name)
 {
-|cffffcc00Passive:|r Each hit of the hero reduces the cooldown of the ability by 2 second.
-
-Deals |cffbe81f7200|r damage to the enemy.
-|cffffcc00Cooldown:|r 20 seconds.
+Krabster
 }
 
 STRING 5997
-// Abilities: A0TC (Barbarian: Blood bath), Ubertip (Tooltip - Normal - Extended)
+// Items: I0H9 (Krabster), Tip (Tooltip - Basic)
 {
-|cffffcc00Passive:|r Each hit of the hero reduces the cooldown of the ability by 2 second.
-
-Deals |cffbe81f7250|r damage to the enemy.
-|cffffcc00Cooldown:|r 20 seconds.
+Krabster
 }
 
 STRING 5998
-// Abilities: A0TC (Barbarian: Blood bath), Ubertip (Tooltip - Normal - Extended)
+// Items: I0H9 (Krabster), Ubertip (Tooltip - Extended)
 {
-|cffffcc00Passive:|r Each hit of the hero reduces the cooldown of the ability by 2 second.
-
-Deals |cffbe81f7300|r damage to the enemy.
-|cffffcc00Cooldown:|r 20 seconds.
+|cffe96a1cLegendary|r
+After an attack or cast, there is a |cffd7df012%|r chance to unleash the Crab Power.
 }
 
 STRING 5999
-// Abilities: A0TC (Barbarian: Blood bath), Ubertip (Tooltip - Normal - Extended)
+// Items: I0HA (Snupi), Description (Description)
 {
-|cffffcc00Passive:|r Each hit of the hero reduces the cooldown of the ability by 2 second.
-
-Deals |cffbe81f7350|r damage to the enemy.
-|cffffcc00Cooldown:|r 20 seconds.
+|cff4169e1Rare|r
+Activation: Summons a unique pet with the Hero's Attack and Health.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 75 mana.
 }
 
 STRING 6000
-// Abilities: A0TC (Barbarian: Blood bath), Ubertip (Tooltip - Normal - Extended)
+// Items: I0HA (Snupi), Name (Name)
 {
-|cffffcc00Passive:|r Each hit of the hero reduces the cooldown of the ability by 2 second.
-
-Deals |cffbe81f7400|r damage to the enemy.
-|cffffcc00Cooldown:|r 20 seconds.
+Snupi
 }
 
 STRING 6001
@@ -48222,6 +48208,15 @@ STRING 7287
 Juggling, [|cffffcc00Level %d|r]
 }
 
+STRING 7288
+// Abilities: A0TC (Barbarian: Blood bath), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Dealing damage with an attack reduces the cooldown of the ability by 2 second.
+
+Deals |cffbe81f7200|r damage to the enemy.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 7289
 // Abilities: A0KB (Jester: Juggling), Tip (Tooltip - Normal)
 {
@@ -48250,6 +48245,49 @@ STRING 7293
 // Abilities: A0KB (Jester: Juggling), Tip (Tooltip - Normal)
 {
 Juggling, [|cffffcc00Level 5|r]
+}
+
+STRING 7294
+// Abilities: A0TC (Barbarian: Blood bath), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Dealing damage with an attack reduces the cooldown of the ability by 2 second.
+
+Deals |cffbe81f7250|r damage to the enemy.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 7295
+// Abilities: A0TC (Barbarian: Blood bath), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Dealing damage with an attack reduces the cooldown of the ability by 2 second.
+
+Deals |cffbe81f7300|r damage to the enemy.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 7296
+// Abilities: A0TC (Barbarian: Blood bath), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Dealing damage with an attack reduces the cooldown of the ability by 2 second.
+
+Deals |cffbe81f7350|r damage to the enemy.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 7297
+// Abilities: A0TC (Barbarian: Blood bath), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Dealing damage with an attack reduces the cooldown of the ability by 2 second.
+
+Deals |cffbe81f7400|r damage to the enemy.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 7298
+// Items: I05U (Phoenix egg), Description (Description)
+{
+|cffe96a1cLegendary|r
+When your Hero dies for the first time in battle, it is placed in an Egg (500 Health). Destroy the Egg to resurrect the Hero. Works as long as there are living Heroes.
 }
 
 STRING 7299
@@ -50967,6 +51005,13 @@ STRING 7707
 // Abilities: A0HC (|cffffcc00Уровень 3:|r Огромный арахнид), Tip (Tooltip - Normal)
 {
 Huge arachnid
+}
+
+STRING 7708
+// Items: I05U (Phoenix egg), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+When your Hero dies for the first time in battle, it is placed in an Egg (500 Health). Destroy the Egg to resurrect the Hero. Works as long as there are living Heroes.
 }
 
 STRING 7709
@@ -54575,6 +54620,12 @@ STRING 8270
 |cFFFE8A0ELAST BOSS:|r Sea savage
 }
 
+STRING 8271
+// Items: I0HA (Snupi), Tip (Tooltip - Basic)
+{
+Snupi
+}
+
 STRING 8272
 // Abilities: A0DE (Аура: Norepinephrine), Name (Name)
 {
@@ -55468,6 +55519,14 @@ STRING 8409
 // Abilities: A0CK (Skeletlord: Skelemagic), Tip (Tooltip - Normal)
 {
 Skelemagic, [|cffffcc00Level 5|r]
+}
+
+STRING 8410
+// Items: I0HA (Snupi), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Summons a unique pet with the Hero's Attack and Health.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 8411
@@ -56513,6 +56572,12 @@ STRING 8572
 Fencing Master, [|cffffcc00Level %d|r]
 }
 
+STRING 8573
+// Abilities: A1G5 (Artifact: Snupi), Name (Name)
+{
+Artifact: Snupi
+}
+
 STRING 8574
 // Abilities: A0B7 (Admiral: Fencing Master), Tip (Tooltip - Normal)
 {
@@ -56541,6 +56606,24 @@ STRING 8578
 // Abilities: A0B7 (Admiral: Fencing Master), Tip (Tooltip - Normal)
 {
 Fencing Master, [|cffffcc00Level 5|r]
+}
+
+STRING 8579
+// Abilities: A1G6 ((т)Аура: Holy Crab!), Name (Name)
+{
+(т)Аура: Holy Crab!
+}
+
+STRING 8580
+// Buffs/Effects: B0AN (), Bufftip (Tooltip)
+{
+|cff00ff00Holy Crab!|r
+}
+
+STRING 8581
+// Buffs/Effects: B0AN (), Buffubertip (Tooltip - Extended)
+{
+Attack Speed increased.
 }
 
 STRING 8584
@@ -73004,7 +73087,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.6.1T|r
+|cffbe81f7Boss Battle 1.6.2T|r
 }
 
 STRING 11219

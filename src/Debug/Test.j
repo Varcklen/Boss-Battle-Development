@@ -7,9 +7,11 @@ scope Test initializer init
         //set particle = AddSpecialEffectTarget( "war3mapImported\\Guading_teamsign_blue.mdx", c, "overhead" )
         //call BlzSetSpecialEffectZ( particle, 700 )
         
-        call IndicatorSystem_Create( INDICATOR_AIM, GetUnitX(hero), GetUnitY(hero), 200, 3 )
+        /*call IndicatorSystem_Create( INDICATOR_AIM, GetUnitX(hero), GetUnitY(hero), 200, 3 )
         call IndicatorSystem_Create( INDICATOR_AIM, GetUnitX(hero), GetUnitY(hero), 100, 3 )
-        call IndicatorSystem_Create( INDICATOR_AIM, GetUnitX(hero), GetUnitY(hero), 300, 3 )
+        call IndicatorSystem_Create( INDICATOR_AIM, GetUnitX(hero), GetUnitY(hero), 300, 3 )*/
+        
+        call SetRaritySpawn(33, 33)
 	endfunction
 	
 	//===========================================================================

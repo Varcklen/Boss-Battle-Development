@@ -318,6 +318,7 @@ library LibDataItems
 	    set DB_Items[2][BaseNum()] = 'I0GH'
 	    set DB_Items[2][BaseNum()] = 'I0GM'
 	    set DB_Items[2][BaseNum()] = 'I0GR'
+	    set DB_Items[2][BaseNum()] = 'I0HA'
 	    set udg_Database_NumberItems[2] = udg_base
 	    
 	    // Редкий. I пак
@@ -490,6 +491,7 @@ library LibDataItems
 	    set DB_Items[3][BaseNum()] = 'I01L'
 	    set DB_Items[3][BaseNum()] = 'I070'
 	    set DB_Items[3][BaseNum()] = 'I02S'
+	    set DB_Items[3][BaseNum()] = 'I0H9'
 	    set udg_Database_NumberItems[3] = udg_base
 	    
 	     //Легендарный. I пак
@@ -763,6 +765,7 @@ library LibDataItems
 	    set udg_DB_Item_Activate[BaseNum()] = 'I0GR'
 	    set udg_DB_Item_Activate[BaseNum()] = 'IZ01'
 	    set udg_DB_Item_Activate[BaseNum()] = 'IZ08'
+	    set udg_DB_Item_Activate[BaseNum()] = 'I0HA'
 	    set udg_Database_NumberItems[31] = udg_base
 	
 	    // Порченные

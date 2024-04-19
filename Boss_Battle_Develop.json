@@ -781,20 +781,6 @@
           "isEnabled": true,
           "isInitiallyOn": true,
           "isExpanded": false,
-          "path": "Variables\\RandomString.var",
-          "Files": []
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
-          "path": "Variables\\RandomBonus.var",
-          "Files": []
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
           "path": "Variables\\KillUnit.var",
           "Files": []
         },
@@ -3321,7 +3307,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\EventSystem",
           "Files": [
             {
@@ -4113,7 +4099,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Mods\\Active\\Bless",
               "Files": [
                 {
@@ -5043,7 +5029,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Frames",
       "Files": [
         {
@@ -5559,7 +5545,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Debug",
       "Files": [
         {
@@ -8428,6 +8414,13 @@
               "Files": []
             },
             {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Rare\\Snupi.j",
+              "Files": []
+            },
+            {
               "isEnabled": false,
               "isInitiallyOn": true,
               "isExpanded": false,
@@ -8593,7 +8586,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Legendary",
           "Files": [
             {
@@ -8951,6 +8944,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Legendary\\Kobzar.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Legendary\\Krabster.j",
               "Files": []
             },
             {
@@ -9646,7 +9646,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Items\\RandomBonus\\Random Bonus Stats",
               "Files": [
                 {
@@ -9783,7 +9783,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Items\\Sets",
           "Files": [
             {
@@ -9994,7 +9994,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Items\\Sets\\Weapon Set",
               "Files": [
                 {
@@ -10091,7 +10091,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Heroes",
       "Files": [
         {
@@ -13129,7 +13129,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Healers",
           "Files": [
             {
@@ -13214,7 +13214,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Healers\\Druid",
               "Files": [
                 {

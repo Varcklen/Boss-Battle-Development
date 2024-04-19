@@ -1,4 +1,4 @@
-library RandomBonus initializer init
+library RandomBonus initializer init requires RandomBonusDatabase
 
 	globals
 		private constant integer BONUSES_LIMIT = 8
@@ -19,6 +19,7 @@ library RandomBonus initializer init
 	    local integer k
 	    local integer rand = 0
 	    local string str
+	    local RandomBonus randomBonus
 	    
         set cyclA = 1
         set cyclAEnd = BONUSES_LIMIT
@@ -34,7 +35,7 @@ library RandomBonus initializer init
         set cyclA = 1
         loop
             exitwhen cyclA > 1
-            set rand = GetRandomInt(1, udg_Database_NumberItems[25])
+            set rand = GetRandomInt(1, RandomBonusDatabase_RandomBonuses_Max)
             if k > 1 then
                 set cyclB = 1
                 set cyclBEnd = k-1
@@ -51,8 +52,9 @@ library RandomBonus initializer init
         endloop
         
         if rand != 0 then
-            call BlzItemAddAbilityBJ( itemUsed, udg_RandomBonus[rand] )
-            call BlzSetItemExtendedTooltip( itemUsed, BlzGetItemExtendedTooltip(itemUsed) + "|n|cff81f260" + udg_RandomString[rand] + "|r" ) // sadtwig
+        	set randomBonus = RandomBonusDatabase_GetRandomBonus(rand)
+            call BlzItemAddAbilityBJ( itemUsed, randomBonus.Ability )
+            call BlzSetItemExtendedTooltip( itemUsed, BlzGetItemExtendedTooltip(itemUsed) + "|n|cff81f260" + randomBonus.Description + "|r" ) // sadtwig
         endif 
 	endfunction
 	
@@ -93,6 +95,7 @@ library RandomBonus initializer init
 	    local integer id = GetHandleId(GetManipulatedItem())
 	    local integer limit = BONUSES_LIMIT
 	    local integer current = 1
+	    local RandomBonus randomBonus
 	
 	    call BlzItemRemoveAbilityBJ( GetManipulatedItem(), 'A0NN' )
 	    if BlzGetItemAbility( GetManipulatedItem(), 'A0NW' ) != null then
@@ -106,8 +109,8 @@ library RandomBonus initializer init
 	    
 	    if current > limit then
 	        set limit = current
-	        if limit > udg_Database_NumberItems[25] then
-	            set limit = udg_Database_NumberItems[25]
+	        if limit > RandomBonusDatabase_RandomBonuses_Max then
+	            set limit = RandomBonusDatabase_RandomBonuses_Max
 	        endif
 	    endif
 	
@@ -120,10 +123,10 @@ library RandomBonus initializer init
 	    endloop
 	
 	    set cyclA = 1
-	    set i[1] = GetRandomInt(1, udg_Database_NumberItems[25])
+	    set i[1] = GetRandomInt(1, RandomBonusDatabase_RandomBonuses_Max)
 	    loop
 	        exitwhen cyclA > limit
-	        set i[cyclA] = GetRandomInt(1, udg_Database_NumberItems[25])
+	        set i[cyclA] = GetRandomInt(1, RandomBonusDatabase_RandomBonuses_Max)
 	        set cyclB = 1
 	        set cyclBEnd = cyclA - 1
 	        loop
@@ -141,7 +144,11 @@ library RandomBonus initializer init
 	    loop
 	        exitwhen cyclA > limit
 	        if current >= cyclA then
-	            call BlzItemAddAbilityBJ( GetManipulatedItem(), udg_RandomBonus[i[cyclA]] )
+	        	set randomBonus = RandomBonusDatabase_GetRandomBonus(i[cyclA])
+	        	
+	        	/*call BJDebugMsg("to add: " + I2S(i[cyclA]))
+	        	call BJDebugMsg("to add ab: " + I2S( randomBonus.Ability ))*/
+	            call BlzItemAddAbilityBJ( GetManipulatedItem(), randomBonus.Ability )
 	            set str = RandomWords(str)
 	            //call BlzSetItemIconPath( GetManipulatedItem(), str )
 	            call SaveInteger( udg_hash, id, StringHash( "extra" + I2S(cyclA) ), i[cyclA] )
@@ -156,7 +163,8 @@ library RandomBonus initializer init
 	    loop
 	       exitwhen cyclA > limit
 	        if l[cyclA] then
-	            set str = str + "|cff81f260" + udg_RandomString[i[cyclA]] + "|r"
+	        	set randomBonus = RandomBonusDatabase_GetRandomBonus(i[cyclA])
+	            set str = str + "|cff81f260" + randomBonus.Description + "|r"
 	            if cyclA != current then
 	                set str = str + "|n"
 	            endif
