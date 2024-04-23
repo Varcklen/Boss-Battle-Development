@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.6.2T|r
+|cffbe81f7Boss Battle 1.6.3T|r
 }
 
 STRING 2
@@ -47039,7 +47039,7 @@ Madness, [|cffffcc00Level %d|r]
 }
 
 STRING 7113
-// Abilities: A0LK (Lord of Chaos: Madness), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A0LK (Lord of Chaos: Madness), Ubertip (Tooltip - Normal - Extended)
 {
 At the beginning of each battle, something happens.
 }
@@ -47072,12 +47072,6 @@ STRING 7118
 // Abilities: A0LK (Lord of Chaos: Madness), Tip (Tooltip - Normal)
 {
 Madness, [|cffffcc00Level 5|r]
-}
-
-STRING 7119
-// Abilities: A0LK (Lord of Chaos: Madness), Ubertip (Tooltip - Normal - Extended)
-{
-At the beginning of each battle, something happens.
 }
 
 STRING 7120
@@ -48690,13 +48684,11 @@ STRING 7360
 }
 
 STRING 7361
-// Abilities: A0JO (|cffffcc00Extra:|r Двойные неприятности), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0IZ (Lord of Chaos: Illusions), Researchubertip (Tooltip - Learn - Extended)
 {
-All heroes start a battle with two bosses (the second boss is always random), but they get a lot more gold.
-
-|cffffcc00Your heroes fight with two bosses at the same time.
-
-All heroes receive 50% more gold from any sources (does not work In the arenas at Cute Bob).|r
+Reduces the cooldown of a random hero ability on a friendly hero by 10%/14%/18%/22%/26%. Casts a random third (|cffffcc00R|r) ability of level 1/2/3/4/5.
+|cffffcc00Cooldown:|r 10 seconds.
+|cffffcc00Cost:|r 40 mana.
 }
 
 STRING 7362
@@ -49544,14 +49536,6 @@ STRING 7485
 Illusion, [|cffffcc00Level %d|r]
 }
 
-STRING 7486
-// Abilities: A0IZ (Lord of Chaos: Illusions), Researchubertip (Tooltip - Learn - Extended)
-{
-Uses a random fourth ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 40 mana.
-}
-
 STRING 7487
 // Abilities: A0IZ (Lord of Chaos: Illusions), Tip (Tooltip - Normal)
 {
@@ -49580,49 +49564,6 @@ STRING 7491
 // Abilities: A0IZ (Lord of Chaos: Illusions), Tip (Tooltip - Normal)
 {
 Illusion, [|cffffcc00Level 5|r]
-}
-
-STRING 7492
-// Abilities: A0IZ (Lord of Chaos: Illusions), Ubertip (Tooltip - Normal - Extended)
-{
-Uses a random fourth ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 7493
-// Abilities: A0IZ (Lord of Chaos: Illusions), Ubertip (Tooltip - Normal - Extended)
-{
-Uses a random fourth ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697More effective than Illusion (Rank 1).|r
-}
-
-STRING 7494
-// Abilities: A0IZ (Lord of Chaos: Illusions), Ubertip (Tooltip - Normal - Extended)
-{
-Uses a random fourth ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697More effective than Illusion (Rank 2).|r
-}
-
-STRING 7495
-// Abilities: A0IZ (Lord of Chaos: Illusions), Ubertip (Tooltip - Normal - Extended)
-{
-Uses a random fourth ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697More effective than Illusion (Rank 3).|r
-}
-
-STRING 7496
-// Abilities: A0IZ (Lord of Chaos: Illusions), Ubertip (Tooltip - Normal - Extended)
-{
-Uses a random fourth ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697More effective than Illusion (Rank 4).|r
 }
 
 STRING 7497
@@ -49679,14 +49620,6 @@ STRING 7505
 Chaos
 }
 
-STRING 7506
-// Abilities: A0IV (Unique: Chaos (+)), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Uses a random activated |cff60C445Unique|r.
-|cffffcc00Cooldown:|r 4 seconds.
-}
-
 STRING 7507
 // Abilities: A0IU (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -49733,14 +49666,6 @@ STRING 7514
 // Abilities: A0IS (Unique: Chaos), Tip (Tooltip - Normal)
 {
 Chaos
-}
-
-STRING 7515
-// Abilities: A0IS (Unique: Chaos), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Uses a random activated |cff60C445Unique|r.
-|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 7516
@@ -52108,12 +52033,6 @@ STRING 7882
 Blessing: Серьга Хаоса (g16)
 }
 
-STRING 7883
-// Abilities: A0FI (Blessing: Серьга Хаоса (g16)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Chaos Earring
-}
-
 STRING 7884
 // Abilities: A0FI (Blessing: Серьга Хаоса (g16)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -52433,14 +52352,6 @@ STRING 7935
 Despicable, [|cffffcc00Level %d|r]
 }
 
-STRING 7936
-// Abilities: A0FB (Lord of Chaos: Despicable), Researchubertip (Tooltip - Learn - Extended)
-{
-Uses a random second ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 40 mana.
-}
-
 STRING 7937
 // Abilities: A0FB (Lord of Chaos: Despicable), Tip (Tooltip - Normal)
 {
@@ -52469,49 +52380,6 @@ STRING 7941
 // Abilities: A0FB (Lord of Chaos: Despicable), Tip (Tooltip - Normal)
 {
 Despicable, [|cffffcc00Level 5|r]
-}
-
-STRING 7942
-// Abilities: A0FB (Lord of Chaos: Despicable), Ubertip (Tooltip - Normal - Extended)
-{
-Uses a random second ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 7943
-// Abilities: A0FB (Lord of Chaos: Despicable), Ubertip (Tooltip - Normal - Extended)
-{
-Uses a random second ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697More effective than Despicable (Rank 1).|r
-}
-
-STRING 7944
-// Abilities: A0FB (Lord of Chaos: Despicable), Ubertip (Tooltip - Normal - Extended)
-{
-Uses a random second ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697More effective than Despicable (Rank 2).|r
-}
-
-STRING 7945
-// Abilities: A0FB (Lord of Chaos: Despicable), Ubertip (Tooltip - Normal - Extended)
-{
-Uses a random second ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697More effective than Despicable (Rank 3).|r
-}
-
-STRING 7946
-// Abilities: A0FB (Lord of Chaos: Despicable), Ubertip (Tooltip - Normal - Extended)
-{
-Uses a random second ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697More effective than Despicable (Rank 4).|r
 }
 
 STRING 7947
@@ -52544,14 +52412,6 @@ STRING 7951
 Hallucinations, [|cffffcc00Level %d|r]
 }
 
-STRING 7952
-// Abilities: A0F9 (Lord of Chaos: Hallucinations), Researchubertip (Tooltip - Learn - Extended)
-{
-Uses a random first ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 40 mana.
-}
-
 STRING 7953
 // Abilities: A0F9 (Lord of Chaos: Hallucinations), Tip (Tooltip - Normal)
 {
@@ -52580,49 +52440,6 @@ STRING 7957
 // Abilities: A0F9 (Lord of Chaos: Hallucinations), Tip (Tooltip - Normal)
 {
 Hallucinations, [|cffffcc00Level 5|r]
-}
-
-STRING 7958
-// Abilities: A0F9 (Lord of Chaos: Hallucinations), Ubertip (Tooltip - Normal - Extended)
-{
-Uses a random first ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 7959
-// Abilities: A0F9 (Lord of Chaos: Hallucinations), Ubertip (Tooltip - Normal - Extended)
-{
-Uses a random first ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697More effective than Hallucinations (Rank 1).|r
-}
-
-STRING 7960
-// Abilities: A0F9 (Lord of Chaos: Hallucinations), Ubertip (Tooltip - Normal - Extended)
-{
-Uses a random first ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697More effective than Hallucinations (Rank 2).|r
-}
-
-STRING 7961
-// Abilities: A0F9 (Lord of Chaos: Hallucinations), Ubertip (Tooltip - Normal - Extended)
-{
-Uses a random first ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697More effective than Hallucinations (Rank 3).|r
-}
-
-STRING 7962
-// Abilities: A0F9 (Lord of Chaos: Hallucinations), Ubertip (Tooltip - Normal - Extended)
-{
-Uses a random first ability (targets are chosen randomly).
-|cffffcc00Cooldown:|r 10 seconds.
-
-|cFF959697More effective than Hallucinations (Rank 4).|r
 }
 
 STRING 7963
@@ -56626,6 +56443,23 @@ STRING 8581
 Attack Speed increased.
 }
 
+STRING 8582
+// Abilities: A0JO (|cffffcc00Extra:|r Двойные неприятности), Ubertip (Tooltip - Normal - Extended)
+{
+All heroes start a battle with two bosses (the second boss is always random), but they give more gold.
+
+|cffffcc00Your heroes fight with two bosses at the same time.
+
+All heroes receive 50% more gold from any sources (does not work in extra arenas).|r
+}
+
+STRING 8583
+// Abilities: A0IZ (Lord of Chaos: Illusions), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces the cooldown of a random hero ability on a friendly hero by 10%. Casts a random third (|cffffcc00R|r) ability of level 1.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 8584
 // Abilities: A0B6 (Аура: Opportunistic Reflexes), Name (Name)
 {
@@ -56828,6 +56662,13 @@ STRING 8614
 King of slaves
 }
 
+STRING 8615
+// Abilities: A0IZ (Lord of Chaos: Illusions), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces the cooldown of a random hero ability on a friendly hero by 14%. Casts a random third (|cffffcc00R|r) ability of level 2.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 8616
 // Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Name (Name)
 {
@@ -56877,6 +56718,13 @@ STRING 8623
 Polar bear
 }
 
+STRING 8624
+// Abilities: A0IZ (Lord of Chaos: Illusions), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces the cooldown of a random hero ability on a friendly hero by 18%. Casts a random third (|cffffcc00R|r) ability of level 3.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 8625
 // Abilities: A0AP (|cffffcc00Уровень 1:|r Электро-Гнолл), Name (Name)
 {
@@ -56887,6 +56735,13 @@ STRING 8626
 // Abilities: A0AP (|cffffcc00Уровень 1:|r Электро-Гнолл), Tip (Tooltip - Normal)
 {
 Electro Gnoll
+}
+
+STRING 8627
+// Abilities: A0IZ (Lord of Chaos: Illusions), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces the cooldown of a random hero ability on a friendly hero by 22%. Casts a random third (|cffffcc00R|r) ability of level 4.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 8628
@@ -58010,6 +57865,13 @@ STRING 8799
 |cFFFE8A0ELAST BOSS:|r Voidlord
 }
 
+STRING 8800
+// Abilities: A0IZ (Lord of Chaos: Illusions), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces the cooldown of a random hero ability on a friendly hero by 26%. Casts a random third (|cffffcc00R|r) ability of level 5.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 8801
 // Abilities: A09J (Armor (Weapons Training)), Name (Name)
 {
@@ -58146,6 +58008,14 @@ STRING 8822
 // Abilities: A09E (|cffffcc00Уровень 10:|r Кролик), Tip (Tooltip - Normal)
 {
 |cFFFE8A0ELAST BOSS:|r Rabbit
+}
+
+STRING 8823
+// Abilities: A0FB (Lord of Chaos: Despicable), Researchubertip (Tooltip - Learn - Extended)
+{
+Restores |cffbe81f7100/135/170/205/240|r health to a friendly target. Casts a random second (|cffffcc00W|r) ability of level 1/2/3/4/5.
+|cffffcc00Cooldown:|r 10 seconds.
+|cffffcc00Cost:|r 40 mana.
 }
 
 STRING 8824
@@ -60613,6 +60483,20 @@ Provokes the enemy to attack you. The target is forced to attack you. During thi
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 9202
+// Abilities: A0FB (Lord of Chaos: Despicable), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7100|r health to a friendly target. Casts a random second (|cffffcc00W|r) ability of level 1.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 9203
+// Abilities: A0FB (Lord of Chaos: Despicable), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7135|r health to a friendly target. Casts a random second (|cffffcc00W|r) ability of level 2.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 9204
 // Abilities: A07P (Attack (Кошачья лапка)), Name (Name)
 {
@@ -61233,6 +61117,13 @@ STRING 9298
 Reaper of nightmares
 }
 
+STRING 9299
+// Abilities: A0FB (Lord of Chaos: Despicable), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7170|r health to a friendly target. Casts a random second (|cffffcc00W|r) ability of level 3.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 9300
 // Abilities: A074 (HP/sec (Random bonus)), Name (Name)
 {
@@ -61385,6 +61276,13 @@ STRING 9324
 Battle golem
 }
 
+STRING 9325
+// Abilities: A0FB (Lord of Chaos: Despicable), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7205|r health to a friendly target. Casts a random second (|cffffcc00W|r) ability of level 4.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 9326
 // Abilities: A06O (Босс 5: Боевой голем (Неуязвимый)), Name (Name)
 {
@@ -61409,6 +61307,13 @@ STRING 9329
 Shadow of the wolf
 }
 
+STRING 9330
+// Abilities: A0FB (Lord of Chaos: Despicable), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7240|r health to a friendly target. Casts a random second (|cffffcc00W|r) ability of level 5.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 9331
 // Abilities: A06L (|cffffcc00Уровень 10:|r Колдун), Name (Name)
 {
@@ -61419,6 +61324,14 @@ STRING 9332
 // Abilities: A06L (|cffffcc00Уровень 10:|r Колдун), Tip (Tooltip - Normal)
 {
 |cFFFE8A0ELAST BOSS:|r Sorcerer
+}
+
+STRING 9333
+// Abilities: A0F9 (Lord of Chaos: Hallucinations), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f7100/135/170/205/240|r damage to the enemy. Casts a random first (|cffffcc00Q|r) ability of level 1/2/3/4/5.
+|cffffcc00Cooldown:|r 10 seconds.
+|cffffcc00Cost:|r 40 mana.
 }
 
 STRING 9334
@@ -61433,6 +61346,13 @@ STRING 9335
 Pit Lord
 }
 
+STRING 9336
+// Abilities: A0F9 (Lord of Chaos: Hallucinations), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7100|r damage to the enemy. Casts a random first (|cffffcc00Q|r) ability of level 1.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 9337
 // Abilities: A06J (|cffffcc00Уровень 8:|r Вуду-Мастер), Name (Name)
 {
@@ -61445,6 +61365,13 @@ STRING 9338
 Voodoo master
 }
 
+STRING 9339
+// Abilities: A0F9 (Lord of Chaos: Hallucinations), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7135|r damage to the enemy. Casts a random first (|cffffcc00Q|r) ability of level 2.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 9340
 // Abilities: A06I (|cffffcc00Уровень 7:|r Великий волшебник), Name (Name)
 {
@@ -61455,6 +61382,13 @@ STRING 9341
 // Abilities: A06I (|cffffcc00Уровень 7:|r Великий волшебник), Tip (Tooltip - Normal)
 {
 Great wizard
+}
+
+STRING 9342
+// Abilities: A0F9 (Lord of Chaos: Hallucinations), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7170|r damage to the enemy. Casts a random first (|cffffcc00Q|r) ability of level 3.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 9343
@@ -61489,6 +61423,13 @@ STRING 9347
 Knight spirit
 }
 
+STRING 9348
+// Abilities: A0F9 (Lord of Chaos: Hallucinations), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7205|r damage to the enemy. Casts a random first (|cffffcc00Q|r) ability of level 4.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 9349
 // Abilities: A06F (|cffffcc00Уровень 4:|r Спящий огр), Name (Name)
 {
@@ -61500,6 +61441,13 @@ STRING 9350
 {
 Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies to heal |cffbe81f7125|r Health and all enemies to take |cffbe81f775|r damage.
 |cffffcc00Cooldown:|r 10 seconds (3 charges).
+}
+
+STRING 9351
+// Abilities: A0F9 (Lord of Chaos: Hallucinations), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7240|r damage to the enemy. Casts a random first (|cffffcc00Q|r) ability of level 5.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 9352
@@ -61514,6 +61462,14 @@ STRING 9353
 Engineering Master
 }
 
+STRING 9354
+// Abilities: A0IV (Unique: Chaos (+)), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Uses a random activated |cff60C445Unique|r.
+|cffffcc00Cooldown:|r 3 seconds.
+}
+
 STRING 9355
 // Abilities: A06D (|cffffcc00Уровень 3:|r Великий герой), Name (Name)
 {
@@ -61524,6 +61480,14 @@ STRING 9356
 // Abilities: A06D (|cffffcc00Уровень 3:|r Великий герой), Tip (Tooltip - Normal)
 {
 Mysterious hero
+}
+
+STRING 9357
+// Abilities: A0IS (Unique: Chaos), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Uses a random activated |cff60C445Unique|r.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 9358
@@ -61538,6 +61502,13 @@ STRING 9359
 Evil totem
 }
 
+STRING 9360
+// Items: I0HB (Small Coin), Description (Description)
+{
+|cff50ff90Use when picked up|r
+Gives 1 gold.
+}
+
 STRING 9361
 // Abilities: A06B (|cffffcc00Уровень 2:|r Благородный рыцарь), Name (Name)
 {
@@ -61548,6 +61519,12 @@ STRING 9362
 // Abilities: A06B (|cffffcc00Уровень 2:|r Благородный рыцарь), Tip (Tooltip - Normal)
 {
 Noble knight
+}
+
+STRING 9363
+// Items: I0HB (Small Coin), Name (Name)
+{
+Small Coin
 }
 
 STRING 9364
@@ -61562,6 +61539,12 @@ STRING 9365
 Kobold
 }
 
+STRING 9366
+// Items: I0HB (Small Coin), Tip (Tooltip - Basic)
+{
+Small Coin
+}
+
 STRING 9367
 // Abilities: A069 (|cffffcc00Уровень 1:|r Вождь мурлоков), Name (Name)
 {
@@ -61572,6 +61555,12 @@ STRING 9368
 // Abilities: A069 (|cffffcc00Уровень 1:|r Вождь мурлоков), Tip (Tooltip - Normal)
 {
 Murloc Chieftain
+}
+
+STRING 9369
+// Abilities: A0LK (Lord of Chaos: Madness), Researchubertip (Tooltip - Learn - Extended)
+{
+At the beginning of each battle, something happens. When upgraded, increases Madness.
 }
 
 STRING 9370
@@ -63834,6 +63823,12 @@ STRING 9721
 // Abilities: A04I ((т)Аура: Channel Energy (+)), Name (Name)
 {
 (т)Аура: Channel Energy (+)
+}
+
+STRING 9722
+// Abilities: A0FI (Blessing: Серьга Хаоса (g16)), Tip (Tooltip - Normal)
+{
+|cffffcc00Blessing:|r Uniqueness
 }
 
 STRING 9723
@@ -73087,7 +73082,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.6.2T|r
+|cffbe81f7Boss Battle 1.6.3T|r
 }
 
 STRING 11219

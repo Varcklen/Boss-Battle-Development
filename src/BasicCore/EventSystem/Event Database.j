@@ -151,6 +151,10 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         /*
         	caster (unit)
         */
+        Event BetweenGlobal
+        /*
+        	caster (unit)
+        */
     endglobals
     
     private function InitCustomEvents takes nothing returns nothing
@@ -182,6 +186,7 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         set BattleStartGlobal = Event.create(null, null)
         set BattleEndGlobal = Event.create(null, null)
         set CooldownReset = Event.create("caster", null)
+        set BetweenGlobal = Event.create(null, null)
     endfunction
     
     /*Base Event Init*/
