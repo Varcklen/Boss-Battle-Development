@@ -42,7 +42,7 @@ scope OutOfCombatTimer initializer init
 	
 	/*OnFightEnd*/
 	private function OnFightEnd_Condition takes nothing returns boolean
-		return udg_real[1] > 0 and not( udg_logic[43] ) and not(udg_logic[97]) and IsTimerWorks()
+		return udg_real[1] > 0 and not( IsVictory ) and not(udg_logic[97]) and IsTimerWorks()
 	endfunction
 	
 	private function OnFightEnd takes nothing returns nothing

@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.6.3T|r
+|cffbe81f7Boss Battle 1.6.4T|r
 }
 
 STRING 2
@@ -721,33 +721,59 @@ Seiber
 }
 
 STRING 111
-// Units: o005 (Material totem), Name (Name)
+// Abilities: A0JQ (Arena: Overlord Arena), Ubertip (Tooltip - Normal - Extended)
 {
-Material totem
+All the heroes teleport to an arena where they earn gold via killing enemy bosses. The arena ends when all the heroes die or the boss of the tenth level is defeated.
+
+|cffffcc00Warning!|r You cannot go to the arena until all heroes choose artifact rewards.
+
+Works only once, but is refreshed after completing:
+- Sixth boss
 }
 
 STRING 112
-// Units: o004 (Water totem), Name (Name)
+// Abilities: A08B (Arena: Endless Arena), Ubertip (Tooltip - Normal - Extended)
 {
-Water totem
+All heroes teleport to the arena, where they earn gold for killing enemy minions.
+
+|cffffcc00Warning!|r The arena ends when all the heroes die. You cannot go to the arena until all heroes choose artifact rewards.
+
+Works only once, but is refreshed after completing:
+- Fourth boss
 }
 
 STRING 113
-// Units: o003 (Air totem), Name (Name)
+// Abilities: A1EP (Arena: Overlord Arena (Passive)), Ubertip (Tooltip - Normal - Extended)
 {
-Air totem
+All the heroes teleport to an arena where they earn gold via killing enemy bosses. The arena ends when all the heroes die or the boss of the tenth level is defeated.
+
+|cffffcc00Warning!|r You cannot go to the arena until all heroes choose artifact rewards.
+
+Works only once, but is refreshed after completing:
+- Sixth boss
 }
 
 STRING 114
-// Units: o002 (Earth Totem), Name (Name)
+// Abilities: A1EQ (Arena: Endless Arena (Passive)), Ubertip (Tooltip - Normal - Extended)
 {
-Earth Totem
+All heroes teleport to the arena, where they earn gold for killing enemy minions.
+
+|cffffcc00Warning!|r The arena ends when all the heroes die. You cannot go to the arena until all heroes choose artifact rewards.
+
+Works only once, but is refreshed after completing:
+- Fourth boss
 }
 
 STRING 115
-// Units: o001 (Fire totem), Name (Name)
+// Abilities: A16U (|cffffcc00Уровень 7:|r Горный великан), Ubertip (Tooltip - Normal - Extended)
 {
-Fire totem
+- A lot of Health.
+- Takes +300% damage from heroes.
+- Every 12 seconds, creates a stone rift that gradually moves to the edges of the map in four directions. Stone rift deals |cffbe81f7150|r damage.
+- |cff00cceeAt 90% health:|r Every 12 seconds, the boss stops and charges. After 3 seconds, he hits all enemies to the front, dealing |cffbe81f71000|r damage.
+- |cff00cceeAt 70% health:|r Creates an area under a random hero. After 2.5 seconds it explodes, stunning all enemies for 10 seconds.
+- |cff00cceeAt 60% health:|r Stone rifts spawn twice as often.
+- |cff00cceeAt 30% health:|r Removes from all heroes 20% of their maximum health and mana.
 }
 
 STRING 116
@@ -47074,6 +47100,12 @@ STRING 7118
 Madness, [|cffffcc00Level 5|r]
 }
 
+STRING 7119
+// Units: o005 (Totem of Hex), Name (Name)
+{
+Totem of Hex
+}
+
 STRING 7120
 // Abilities: A0LK (Lord of Chaos: Madness), Ubertip (Tooltip - Normal - Extended)
 {
@@ -49536,6 +49568,12 @@ STRING 7485
 Illusion, [|cffffcc00Level %d|r]
 }
 
+STRING 7486
+// Units: o004 (Totem of Water), Name (Name)
+{
+Totem of Water
+}
+
 STRING 7487
 // Abilities: A0IZ (Lord of Chaos: Illusions), Tip (Tooltip - Normal)
 {
@@ -49564,6 +49602,40 @@ STRING 7491
 // Abilities: A0IZ (Lord of Chaos: Illusions), Tip (Tooltip - Normal)
 {
 Illusion, [|cffffcc00Level 5|r]
+}
+
+STRING 7492
+// Units: o003 (Totem of Air), Name (Name)
+{
+Totem of Air
+}
+
+STRING 7493
+// Units: o002 (Totem of Earth), Name (Name)
+{
+Totem of Earth
+}
+
+STRING 7494
+// Units: o001 (Totem of Fire), Name (Name)
+{
+Totem of Fire
+}
+
+STRING 7495
+// Abilities: A0GP (Босс 2: Благородный рыцарь (Рывок)XXX), Name (Name)
+{
+Босс 2: Благородный рыцарь (Рывок)XXX
+}
+
+STRING 7496
+// Abilities: A06J (|cffffcc00Уровень 8:|r Вуду-Мастер), Ubertip (Tooltip - Normal - Extended)
+{
+- Every 6 seconds, summons a random totem that has unique properties.
+- |cff00cceeAt 70% health:|r Totems are created more often.
+- |cff00cceeAt 60% health:|r Summons a voodoo dragon, which reduces the speed of attack and movement of enemies by 40%.
+- |cff00cceeAt 40% health:|r Summons all totems.
+- |cff00cceeAt 20% health:|r Summons all totems.
 }
 
 STRING 7497
@@ -49620,6 +49692,15 @@ STRING 7505
 Chaos
 }
 
+STRING 7506
+// Abilities: A173 (|cffffcc00Уровень 9:|r Soulfiend), Ubertip (Tooltip - Normal - Extended)
+{
+- Each boss hit deals 5% more damage until the boss kills someone.
+- Every 12 seconds, creates a well of soul, in which enemies lose 10% of their maximum health every second, and bosses gain 100 armor and invulnerability to magic. The soul well disappears when the boss dies.
+- |cff00cceeAt 70%, 50% and 30% health:|r Marks heroes. After 8 seconds, heroes with a health pool below 50% die, otherwise their health pool drops to 40%.
+- |cff00cceeAt 20% health:|r Starts creating a soul well every 5 seconds.
+}
+
 STRING 7507
 // Abilities: A0IU (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -49666,6 +49747,14 @@ STRING 7514
 // Abilities: A0IS (Unique: Chaos), Tip (Tooltip - Normal)
 {
 Chaos
+}
+
+STRING 7515
+// Abilities: A0AQ (|cffffcc00Уровень 2:|r Белый медведь), Ubertip (Tooltip - Normal - Extended)
+{
+- When attacking, with a probability of 25%, stuns the target for 1 second.
+- Every 14 seconds, jumps to a random enemy and stunning all nearby enemies for 2 seconds.
+- |cff00cceeAt 40% health:|r Starts jumping 2 times more often.
 }
 
 STRING 7516
@@ -51363,20 +51452,14 @@ Increases attack power, spell power and healing by 24%. The bonus is doubled at 
 When the hero deals or heals a total of 1400 health, activate night for 6 seconds.
 }
 
-STRING 7776
-// Abilities: A0GP (Босс 2: Благородный рыцарь (Рывок)), Name (Name)
-{
-Босс 2: Благородный рыцарь (Рывок)
-}
-
 STRING 7777
-// Abilities: A0GP (Босс 2: Благородный рыцарь (Рывок)), Tip (Tooltip - Normal)
+// Abilities: A0GP (Босс 2: Благородный рыцарь (Рывок)XXX), Tip (Tooltip - Normal)
 {
 Прыжок медведя
 }
 
 STRING 7778
-// Abilities: A0GP (Босс 2: Благородный рыцарь (Рывок)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0GP (Босс 2: Благородный рыцарь (Рывок)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 Прыжок медведя
 }
@@ -52033,6 +52116,12 @@ STRING 7882
 Blessing: Серьга Хаоса (g16)
 }
 
+STRING 7883
+// Abilities: A0AJ (Босс 2: Белый медведь (Прыжок медведя)XXX), Name (Name)
+{
+Босс 2: Белый медведь (Прыжок медведя)XXX
+}
+
 STRING 7884
 // Abilities: A0FI (Blessing: Серьга Хаоса (g16)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -52352,6 +52441,15 @@ STRING 7935
 Despicable, [|cffffcc00Level %d|r]
 }
 
+STRING 7936
+// Abilities: A06B (|cffffcc00Уровень 2:|r Благородный рыцарь), Ubertip (Tooltip - Normal - Extended)
+{
+- Reduces the armor of enemies and increases its own by 1.
+- |cff00cceeAt 75% health:|r Enhances the effects of armor by 1. Every 10 seconds, makes a charge at a random enemy nearby, stunning for 1.5 seconds.
+- |cff00cceeAt 50% health:|r Enhances the effects of armor by 1. Summons a knight at the edge of the arena.
+- |cff00cceeAt 25% health:|r Enhances the effects of armor by 1.
+}
+
 STRING 7937
 // Abilities: A0FB (Lord of Chaos: Despicable), Tip (Tooltip - Normal)
 {
@@ -52380,6 +52478,23 @@ STRING 7941
 // Abilities: A0FB (Lord of Chaos: Despicable), Tip (Tooltip - Normal)
 {
 Despicable, [|cffffcc00Level 5|r]
+}
+
+STRING 7942
+// Abilities: A1G7 (Босс 2: Totem (Annoy)), Name (Name)
+{
+Босс 2: Totem (Annoy)
+}
+
+STRING 7943
+// Abilities: A06C (|cffffcc00Уровень 2:|r Злобный тотем), Ubertip (Tooltip - Normal - Extended)
+{
+- No attack.
+- When the boss is attacked, the attacker takes |cffbe81f710|r damage.
+- Every 5 seconds it creates a fiery explosion that deals |cffbe81f745|r damage every half second within 5 seconds.
+- If it doesn't take damage, the boss focuses.
+- |cff00cceeAt 25% and 75% health:|r Summons a shadow for each player away from the boss. When the shadow approaches the boss, she dies and creates a fiery explosion next to each hero.
+- |cff00cceeAt 50% health:|r A fiery explosion is created more often.
 }
 
 STRING 7947
@@ -56895,20 +57010,14 @@ STRING 8650
 When the hero uses an ability or item, with a 4% chance, resets the cooldown of abilities and items.
 }
 
-STRING 8651
-// Abilities: A0AJ (Босс 2: Белый медведь (Прыжок медведя)), Name (Name)
-{
-Босс 2: Белый медведь (Прыжок медведя)
-}
-
 STRING 8652
-// Abilities: A0AJ (Босс 2: Белый медведь (Прыжок медведя)), Tip (Tooltip - Normal)
+// Abilities: A0AJ (Босс 2: Белый медведь (Прыжок медведя)XXX), Tip (Tooltip - Normal)
 {
 Прыжок медведя
 }
 
 STRING 8653
-// Abilities: A0AJ (Босс 2: Белый медведь (Прыжок медведя)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0AJ (Босс 2: Белый медведь (Прыжок медведя)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 Прыжок медведя
 }
@@ -58801,17 +58910,6 @@ STRING 8949
 Malice, [|cffffcc00Level 5|r]
 }
 
-STRING 8950
-// Abilities: A0JQ (Arena: Overlord Arena), Ubertip (Tooltip - Normal - Extended)
-{
-All the heroes teleport to an arena where they earn gold via killing enemy bosses. The arena ends when all the heroes die or the boss of the tenth level is defeated.
-
-|cffffcc00Warning!|r You cannot go to the arena until all heroes choose artifact rewards.
-
-Works only once, but is refreshed after completing:
-- Fifth boss
-}
-
 STRING 8951
 // Abilities: A1EP (Arena: Overlord Arena (Passive)), Name (Name)
 {
@@ -58822,17 +58920,6 @@ STRING 8952
 // Abilities: A1EP (Arena: Overlord Arena (Passive)), Tip (Tooltip - Normal)
 {
 Overlord Arena
-}
-
-STRING 8953
-// Abilities: A1EP (Arena: Overlord Arena (Passive)), Ubertip (Tooltip - Normal - Extended)
-{
-All the heroes teleport to an arena where they earn gold via killing enemy bosses. The arena ends when all the heroes die or the boss of the tenth level is defeated.
-
-|cffffcc00Warning!|r You cannot go to the arena until all heroes choose artifact rewards.
-
-Works only once, but is refreshed after completing:
-- Fifth boss
 }
 
 STRING 8954
@@ -59434,18 +59521,6 @@ STRING 9045
 // Abilities: A08B (Arena: Endless Arena), Tip (Tooltip - Normal)
 {
 Endless Arena
-}
-
-STRING 9046
-// Abilities: A08B (Arena: Endless Arena), Ubertip (Tooltip - Normal - Extended)
-{
-All heroes teleport to the arena, where they earn gold for killing enemy minions.
-
-|cffffcc00Warning!|r The arena ends when all the heroes die. You cannot go to the arena until all heroes choose artifact rewards.
-
-Works only once, but is refreshed after completing:
-- Fourth boss
-- Seventh boss
 }
 
 STRING 9047
@@ -67056,18 +67131,6 @@ STRING 10222
 Aura of Light, [|cffffcc00Level 5|r]
 }
 
-STRING 10223
-// Abilities: A1EQ (Arena: Endless Arena (Passive)), Ubertip (Tooltip - Normal - Extended)
-{
-All heroes teleport to the arena, where they earn gold for killing enemy minions.
-
-|cffffcc00Warning!|r The arena ends when all the heroes die. You cannot go to the arena until all heroes choose artifact rewards.
-
-Works only once, but is refreshed after completing:
-- Fourth boss
-- Seventh boss
-}
-
 STRING 10224
 // Abilities: A10N (Arena: Automatic Arenas), Name (Name)
 {
@@ -73082,7 +73145,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.6.3T|r
+|cffbe81f7Boss Battle 1.6.4T|r
 }
 
 STRING 11219
@@ -75346,15 +75409,6 @@ STRING 11557
 - |cff00cceeAt 30% health:|r Increases its attack speed by 100%  for 60 seconds.
 }
 
-STRING 11558
-// Abilities: A173 (|cffffcc00Уровень 9:|r Soulfiend), Ubertip (Tooltip - Normal - Extended)
-{
-- Each boss hit deals 2% more damage. The bonus is reset when the target is killed.
-- Every 12 seconds, creates a well of soul, in which enemies lose 10% of their maximum health every second, and bosses gain 100 armor and invulnerability to magic. The soul well disappears when the boss dies.
-- |cff00cceeAt 70%, 50% and 30% health:|r Marks heroes. After 8 seconds, heroes with a health pool below 50% die, otherwise their health pool drops to 40%.
-- |cff00cceeAt 20% health:|r Starts creating a soul well every 5 seconds.
-}
-
 STRING 11559
 // Abilities: A16Z (|cffffcc00Уровень 4:|r Начальник стражи), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75363,18 +75417,6 @@ STRING 11559
 - Every 12 seconds, marks a random hero. After 3 seconds, an explosion occurs, which takes away mana from all opponents in area, except for the marked hero, |cffbe81f740%|r of the maximum mana pool and kills if the target is a minion.
 - |cff00cceeAt 80%, 50% and 30% health:|r Removes all effects from the boss and heroes.
 - |cff00cceeAt 35% health:|r Suppresses healing magic. Heroes can no longer restore health with abilities and items.
-}
-
-STRING 11560
-// Abilities: A16U (|cffffcc00Уровень 7:|r Горный великан), Ubertip (Tooltip - Normal - Extended)
-{
-- A lot of Health.
-- Takes +300% damage from heroes.
-- Every 12 seconds, creates a stone rift that gradually moves to the edges of the map in four directions. Stone rift deals |cffbe81f7150|r damage.
-- |cff00cceeAt 90% health:|r Every 12 seconds, the boss stops and charges. After 3 seconds, he hits all enemies to the front, dealing |cffbe81f71000|r damage.
-- |cff00cceeAt 70% health:|r Stuns a random hero for 10 seconds.
-- |cff00cceeAt 60% health:|r Stone rifts spawn twice as often.
-- |cff00cceeAt 30% health:|r Removes from all heroes 20% of their maximum health and mana.
 }
 
 STRING 11561
@@ -75657,14 +75699,6 @@ STRING 11593
 - |cff00cceeAt 25% health:|r Summons 4 robots.
 }
 
-STRING 11594
-// Abilities: A0AQ (|cffffcc00Уровень 2:|r Белый медведь), Ubertip (Tooltip - Normal - Extended)
-{
-- When attacking, with a probability of 25%, stuns the target for 1 second.
-- Every 14 seconds, jumps to a random enemy and stunning all nearby enemies for 3 seconds.
-- |cff00cceeAt 40% health:|r Starts jumping 2 times more often.
-}
-
 STRING 11595
 // Abilities: A0AP (|cffffcc00Уровень 1:|r Электро-Гнолл), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75736,16 +75770,6 @@ STRING 11602
 - |cff00cceeAt 25% health:|r Every 6 seconds, it rains fire from the sky, dealing |cffbe81f7200|r damage.
 }
 
-STRING 11603
-// Abilities: A06J (|cffffcc00Уровень 8:|r Вуду-Мастер), Ubertip (Tooltip - Normal - Extended)
-{
-- Every 9 seconds, summons a random totem that has unique properties.
-- |cff00cceeAt 60% health:|r Totems are created more often.
-- |cff00cceeAt 50% health:|r Summons a voodoo dragon, which reduces the speed of attack and movement of enemies by 40%.
-- |cff00cceeAt 30% health:|r Totems are created more often.
-- |cff00cceeAt 10% health:|r Totems are created more often.
-}
-
 STRING 11604
 // Abilities: A06I (|cffffcc00Уровень 7:|r Великий волшебник), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75797,26 +75821,6 @@ STRING 11609
 - |cff00cceeAt 75% health: |r???
 - |cff00cceeAt 50% health:|r ???
 - |cff00cceeAt 25% health:|r ???
-}
-
-STRING 11610
-// Abilities: A06C (|cffffcc00Уровень 2:|r Злобный тотем), Ubertip (Tooltip - Normal - Extended)
-{
-- No attack.
-- When the boss is attacked, the attacker takes |cffbe81f710|r damage.
-- |cff00cceeAt 90% health:|r Every 5 seconds it creates a fiery explosion that deals |cffbe81f745|r damage every half second.
-|cffffcc00Duration:|r 5 seconds.
-- |cff00cceeAt 25% and 75% health:|r Summons a shadow for each player away from the boss. When the shadow approaches the boss, she dies and creates a fiery explosion next to each hero.
-- |cff00cceeAt 50% health:|r A fiery explosion is created more often.
-}
-
-STRING 11611
-// Abilities: A06B (|cffffcc00Уровень 2:|r Благородный рыцарь), Ubertip (Tooltip - Normal - Extended)
-{
-- Reduces the armor of enemies and increases its own by 1.
-- |cff00cceeAt 75% health:|r Enhances the effects of armor by 1. Every 10 seconds, makes a jerk at a random enemy nearby, stunning for 1.5 seconds.
-- |cff00cceeAt 50% health:|r Enhances the effects of armor by 1. Summons a knight at the edge of the arena.
-- |cff00cceeAt 25% health:|r Enhances the effects of armor by 1.
 }
 
 STRING 11612

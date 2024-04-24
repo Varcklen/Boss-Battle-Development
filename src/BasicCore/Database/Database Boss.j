@@ -207,6 +207,7 @@ library LibDataBoss
 	    set DB_Trigger_Boss[2][13] = gg_trg_Totem3
 	    set DB_Trigger_Boss[2][14] = gg_trg_Totem4
 	    set DB_Trigger_Boss[2][15] = gg_trg_Totem5
+	    set DB_Trigger_Boss[2][16] = TotemStart_Trigger
 	    set DB_Trigger_Boss[2][21] = gg_trg_Knight1
 	    set DB_Trigger_Boss[2][22] = gg_trg_Knight2
 	    set DB_Trigger_Boss[2][23] = gg_trg_Knight3
