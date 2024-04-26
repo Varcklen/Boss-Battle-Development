@@ -7,7 +7,7 @@ scope ChaosLordE initializer init
 		
 		private boolean array IsActive[5]
 		private boolean Effect12_IsActive = false
-		private integer Effect12_Amount
+		private integer Effect12_Amount = 0
 		
 		private constant string INFO_ICON_ID = "lord_of_chaos_e_"
 		private constant string INFO_ICON = "war3mapImported\\PASChaosP.blp"
@@ -284,6 +284,8 @@ scope ChaosLordE initializer init
         	endif
             set k = k + 1
         endloop
+        set Effect12_IsActive = false
+        set Effect12_Amount = 0
 		set hero = null
 	endfunction
 	
@@ -292,18 +294,16 @@ scope ChaosLordE initializer init
 		local unit hero
 		local integer toReduce = 10 * lvl
 		
-		if Effect12_IsActive == false then
-	        set k = 1
-	        loop
-	            exitwhen k > 4
-	            set hero = udg_hero[k]
-	            if hero != null then
-	            	call StatSystem_Add( hero, STAT_COOLDOWN, -toReduce)
-	        	endif
-	            set k = k + 1
-	        endloop
-	        set Effect12_Amount = toReduce
-    	endif
+    	set k = 1
+        loop
+            exitwhen k > 4
+            set hero = udg_hero[k]
+            if hero != null then
+            	call StatSystem_Add( hero, STAT_COOLDOWN, -toReduce)
+        	endif
+            set k = k + 1
+        endloop
+        set Effect12_Amount = Effect12_Amount + toReduce
         set Effect12_IsActive = true
         
 		call textst( "|c00FF6000 Overload!", caster, 64, 90, 15, 3 )
@@ -383,7 +383,7 @@ scope ChaosLordE initializer init
 	endfunction
 	
 	private function action_end takes nothing returns nothing
-		local unit caster = BattleStart.GetDataUnit("caster")
+		local unit caster = BattleEnd.GetDataUnit("caster")
 		local integer i = CorrectPlayer(caster)
 		
 		set IsActive[i] = false

@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.6.4T|r
+|cffbe81f7Boss Battle 1.6.5T|r
 }
 
 STRING 2
@@ -33792,12 +33792,6 @@ STRING 5074
 |cffffcc00Curse:|r Acceleration
 }
 
-STRING 5075
-// Abilities: A10T (Curse: Ускорение (b11)), Ubertip (Tooltip - Normal - Extended)
-{
-Battle limit reduced by 75 seconds.
-}
-
 STRING 5076
 // Abilities: A10S (Artifact: Orb of Nature), Name (Name)
 {
@@ -51452,6 +51446,12 @@ Increases attack power, spell power and healing by 24%. The bonus is doubled at 
 When the hero deals or heals a total of 1400 health, activate night for 6 seconds.
 }
 
+STRING 7776
+// Abilities: A10T (Curse: Ускорение (b11)), Ubertip (Tooltip - Normal - Extended)
+{
+Battle Limit reduced by 60 seconds.
+}
+
 STRING 7777
 // Abilities: A0GP (Босс 2: Благородный рыцарь (Рывок)XXX), Tip (Tooltip - Normal)
 {
@@ -52497,6 +52497,30 @@ STRING 7943
 - |cff00cceeAt 50% health:|r A fiery explosion is created more often.
 }
 
+STRING 7944
+// Abilities: A0JO (|cffffcc00Extra:|r Двойные неприятности), Ubertip (Tooltip - Normal - Extended)
+{
+All heroes start a battle with two bosses (the second boss is always random), but they give more gold.
+
+|cffffcc00Your heroes fight with two bosses at the same time.
+
+Battle Limit in boss battles has been increased by 2 minutes.
+
+All heroes receive 50% more gold from any sources (does not work in extra arenas).|r
+}
+
+STRING 7945
+// Abilities: A044 (Босс 10: Колдун (Злобная магия)XXX), Name (Name)
+{
+Босс 10: Колдун (Злобная магия)XXX
+}
+
+STRING 7946
+// Units: o021 (Hero Spirit), Name (Name)
+{
+Hero Spirit
+}
+
 STRING 7947
 // Abilities: A0FA (Аура: Щит Ло'Гоша), Name (Name)
 {
@@ -52527,6 +52551,12 @@ STRING 7951
 Hallucinations, [|cffffcc00Level %d|r]
 }
 
+STRING 7952
+// Abilities: A1G8 (Hero Spirit: Small Heal), Hotkey (Hotkey - Normal)
+{
+Q
+}
+
 STRING 7953
 // Abilities: A0F9 (Lord of Chaos: Hallucinations), Tip (Tooltip - Normal)
 {
@@ -52555,6 +52585,37 @@ STRING 7957
 // Abilities: A0F9 (Lord of Chaos: Hallucinations), Tip (Tooltip - Normal)
 {
 Hallucinations, [|cffffcc00Level 5|r]
+}
+
+STRING 7958
+// Abilities: A1G8 (Hero Spirit: Small Heal), Name (Name)
+{
+Hero Spirit: Small Heal
+}
+
+STRING 7959
+// Abilities: A1G8 (Hero Spirit: Small Heal), Tip (Tooltip - Normal)
+{
+Small Heal
+}
+
+STRING 7960
+// Abilities: A1G8 (Hero Spirit: Small Heal), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7100|r health to an ally.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
+STRING 7961
+// Abilities: A1G9 (Hero Spirit: Mana Throw), Hotkey (Hotkey - Normal)
+{
+W
+}
+
+STRING 7962
+// Abilities: A1G9 (Hero Spirit: Mana Throw), Name (Name)
+{
+Hero Spirit: Mana Throw
 }
 
 STRING 7963
@@ -56558,16 +56619,6 @@ STRING 8581
 Attack Speed increased.
 }
 
-STRING 8582
-// Abilities: A0JO (|cffffcc00Extra:|r Двойные неприятности), Ubertip (Tooltip - Normal - Extended)
-{
-All heroes start a battle with two bosses (the second boss is always random), but they give more gold.
-
-|cffffcc00Your heroes fight with two bosses at the same time.
-
-All heroes receive 50% more gold from any sources (does not work in extra arenas).|r
-}
-
 STRING 8583
 // Abilities: A0IZ (Lord of Chaos: Illusions), Ubertip (Tooltip - Normal - Extended)
 {
@@ -57008,6 +57059,12 @@ STRING 8650
 // Abilities: A0AK (Blessing: Хроноскорость (g14)), Ubertip (Tooltip - Normal - Extended)
 {
 When the hero uses an ability or item, with a 4% chance, resets the cooldown of abilities and items.
+}
+
+STRING 8651
+// Abilities: A1G9 (Hero Spirit: Mana Throw), Researchhotkey (Hotkey - Learn)
+{
+D
 }
 
 STRING 8652
@@ -58910,6 +58967,12 @@ STRING 8949
 Malice, [|cffffcc00Level 5|r]
 }
 
+STRING 8950
+// Abilities: A1G9 (Hero Spirit: Mana Throw), Tip (Tooltip - Normal)
+{
+Mana Throw
+}
+
 STRING 8951
 // Abilities: A1EP (Arena: Overlord Arena (Passive)), Name (Name)
 {
@@ -58920,6 +58983,13 @@ STRING 8952
 // Abilities: A1EP (Arena: Overlord Arena (Passive)), Tip (Tooltip - Normal)
 {
 Overlord Arena
+}
+
+STRING 8953
+// Abilities: A1G9 (Hero Spirit: Mana Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7100|r damage to an enemy.
+|cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 8954
@@ -59521,6 +59591,12 @@ STRING 9045
 // Abilities: A08B (Arena: Endless Arena), Tip (Tooltip - Normal)
 {
 Endless Arena
+}
+
+STRING 9046
+// Abilities: A1GA (Hero Spirit: Second Chance), Name (Name)
+{
+Hero Spirit: Second Chance
 }
 
 STRING 9047
@@ -64177,6 +64253,12 @@ STRING 9762
 |cffffcc00Amplifier:|r Horrific
 }
 
+STRING 9763
+// Abilities: A1GA (Hero Spirit: Second Chance), Tip (Tooltip - Normal)
+{
+Second Chance
+}
+
 STRING 9764
 // Abilities: A047 (Усилитель 3: Легендарный), Name (Name)
 {
@@ -64187,6 +64269,14 @@ STRING 9765
 // Abilities: A047 (Усилитель 3: Легендарный), Tip (Tooltip - Normal)
 {
 |cffffcc00Amplifier:|r Legendary
+}
+
+STRING 9766
+// Abilities: A1GA (Hero Spirit: Second Chance), Ubertip (Tooltip - Normal - Extended)
+{
+After the caster uses Small Heal (|cffffcc00Q|r) or Magic Throw (|cffffcc00W|r) 8 times, the hero is resurrected (once per battle).
+
+|cFF959697Each ability has a separate counter.|r
 }
 
 STRING 9767
@@ -64213,20 +64303,14 @@ STRING 9771
 |cffffcc00Amplifier:|r Mythical
 }
 
-STRING 9773
-// Abilities: A044 (Босс 10: Колдун (Злобная магия)), Name (Name)
-{
-Босс 10: Колдун (Злобная магия)
-}
-
 STRING 9774
-// Abilities: A044 (Босс 10: Колдун (Злобная магия)), Tip (Tooltip - Normal)
+// Abilities: A044 (Босс 10: Колдун (Злобная магия)XXX), Tip (Tooltip - Normal)
 {
 Злобная магия
 }
 
 STRING 9775
-// Abilities: A044 (Босс 10: Колдун (Злобная магия)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A044 (Босс 10: Колдун (Злобная магия)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 Злобная магия
 }
@@ -73145,7 +73229,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.6.4T|r
+|cffbe81f7Boss Battle 1.6.5T|r
 }
 
 STRING 11219

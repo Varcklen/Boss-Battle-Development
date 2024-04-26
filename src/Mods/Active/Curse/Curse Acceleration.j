@@ -2,11 +2,13 @@ scope CurseAcceleration initializer init
 
 	//===========================================================================
 	public function Enable takes nothing returns nothing
-		set udg_timelimit = udg_timelimit - 75
+		call CombatTimer_AddBattleTime(-60, true)
+		call CombatTimer_AddBattleTime(-60, false)
     endfunction
     
     public function Disable takes nothing returns nothing
-		set udg_timelimit = udg_timelimit + 75
+		call CombatTimer_AddBattleTime(60, true)
+		call CombatTimer_AddBattleTime(60, false)
     endfunction
 	
 	private function init takes nothing returns nothing
