@@ -25,6 +25,8 @@ scope HeroSpiritSummon initializer init
 		if LoadBoolean(udg_hash, id, StringHash("second_chance_disable") ) == false then
 			call UnitAddAbility(summon, 'A1GA')
 		endif
+		
+		call SelectUnitAddForPlayer( summon, owner )
 
 		set summon = null
 	endfunction

@@ -2,20 +2,40 @@ scope BlessFieryRain initializer init
 
 	globals
 		private trigger Trigger = null
+		private constant integer SCATTER = 800
 		
 		private constant integer STRING_HASH = StringHash( "bless_rain" )
 	endglobals
 	
-	private function summon takes nothing returns nothing
-	    local integer id = GetHandleId( GetExpiredTimer( ) )
+	private function SummonGolem takes nothing returns nothing
+		local unit target = DeathSystem_GetRandomAliveHero()
+		local unit dummy
+		local location summonLoc
 	
+		if target != null then
+			set summonLoc = Location(Math_GetUnitRandomX(target, SCATTER), Math_GetUnitRandomY(target, SCATTER))
+			if RectContainsLoc( udg_Boss_Rect, summonLoc ) == false then
+				set summonLoc = GetRandomLocInRect(udg_Boss_Rect)
+			endif
+		else
+			set summonLoc = GetRandomLocInRect(udg_Boss_Rect)
+		endif
+		
+		set dummy = CreateUnitAtLoc( Player(4), 'u000', summonLoc, 270 )
+        call UnitApplyTimedLife( dummy, 'BTLF', 1. )
+        call UnitAddAbility( dummy, 'A11D' )
+        call IssuePointOrder( dummy, "dreadlordinferno", GetUnitX( dummy ), GetUnitY( dummy ) )
+        
+        call RemoveLocation(summonLoc)
+        set summonLoc = null
+        set dummy = null
+	endfunction
+	
+	private function summon takes nothing returns nothing
 	    if not( udg_fightmod[0] ) then
 	        call DestroyTimer( GetExpiredTimer() )
 	    else
-	        set bj_lastCreatedUnit = CreateUnitAtLoc( Player(4), 'u000', Location(GetRandomReal(GetRectMinX(udg_Boss_Rect), GetRectMaxX(udg_Boss_Rect)), GetRandomReal(GetRectMinY(udg_Boss_Rect), GetRectMaxY(udg_Boss_Rect))), 270 )
-	        call UnitApplyTimedLife( bj_lastCreatedUnit, 'BTLF', 1. )
-	        call UnitAddAbility( bj_lastCreatedUnit, 'A11D' )
-	        call IssuePointOrder( bj_lastCreatedUnit, "dreadlordinferno", GetUnitX( bj_lastCreatedUnit ), GetUnitY( bj_lastCreatedUnit ) )
+	        call SummonGolem()
 	    endif
 	endfunction
 

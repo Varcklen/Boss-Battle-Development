@@ -6,7 +6,7 @@ scope SecondChanceHS initializer init
 	endglobals
 
 	private function condition takes nothing returns boolean
-	    return IsUnitHasAbility( GetSpellAbilityUnit(), ANILITY_ID) and (GetSpellAbilityId() == MagicThrowHS_ANILITY_ID or GetSpellAbilityId() == SmallHealHS_ANILITY_ID)
+	    return combat(GetSpellAbilityUnit(), true, 0) and IsUnitHasAbility( GetSpellAbilityUnit(), ANILITY_ID) and (GetSpellAbilityId() == MagicThrowHS_ANILITY_ID or GetSpellAbilityId() == SmallHealHS_ANILITY_ID)
 	endfunction
 	
 	private function AddCounter takes unit caster, integer abilityId returns nothing

@@ -4,8 +4,17 @@ scope BlessChest initializer init
 		private trigger Trigger = null
 	endglobals
 	
+	private function condition takes nothing returns boolean
+		return udg_fightmod[3] == false
+	endfunction
+	
 	private function action takes nothing returns nothing
-		call CreateNUnitsAtLoc( 1, 'h01L', Player(PLAYER_NEUTRAL_AGGRESSIVE), GetRandomLocInRect(udg_Boss_Rect), 270 )
+		local location spawn = GetRandomLocInRect(udg_Boss_Rect)
+		
+		call CreateNUnitsAtLoc( 1, 'h01L', Player(PLAYER_NEUTRAL_AGGRESSIVE), spawn, 270 )
+		
+		call RemoveLocation(spawn)
+		set spawn = null
 	endfunction
 	
 	//===========================================================================
@@ -21,7 +30,7 @@ scope BlessChest initializer init
     endfunction
 	
 	private function init takes nothing returns nothing
-		set Trigger = CreateEventTrigger( "udg_FightStartGlobal_Real", function action, null )
+		set Trigger = CreateEventTrigger( "udg_FightStartGlobal_Real", function action, function condition )
 		call DisableTrigger( Trigger )
 	endfunction
 

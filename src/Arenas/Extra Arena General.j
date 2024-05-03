@@ -1,4 +1,4 @@
-library ExtraArenaGeneral requires ItemRandomizerLib
+library ExtraArenaGeneral requires ItemRandomizerLib, Multiboard
 
 	public function ReviveHeroes takes nothing returns nothing
 	    local unit hero

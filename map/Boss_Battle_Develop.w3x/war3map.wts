@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.6.5T|r
+|cffbe81f7Boss Battle 1.6.6T|r
 }
 
 STRING 2
@@ -1517,14 +1517,6 @@ STRING 238
 Split Artifact (Slot 6)
 }
 
-STRING 239
-// Units: n00M (Split Artifact (Slot 6)), Ubertip (Tooltip - Extended)
-{
-Destroys an item.
-
-|cffffcc00Potions are destroyed for free.|r
-}
-
 STRING 240
 // Units: n00L (Split Artifact (Slot 5)), Hotkey (Hotkey)
 {
@@ -1541,14 +1533,6 @@ STRING 242
 // Units: n00L (Split Artifact (Slot 5)), Tip (Tooltip - Basic)
 {
 Split Artifact (Slot 5)
-}
-
-STRING 243
-// Units: n00L (Split Artifact (Slot 5)), Ubertip (Tooltip - Extended)
-{
-Destroys an item.
-
-|cffffcc00Potions are destroyed for free.|r
 }
 
 STRING 244
@@ -1569,14 +1553,6 @@ STRING 246
 Split Artifact (Slot 4)
 }
 
-STRING 247
-// Units: n00K (Split Artifact (Slot 4)), Ubertip (Tooltip - Extended)
-{
-Destroys an item.
-
-|cffffcc00Potions are destroyed for free.|r
-}
-
 STRING 248
 // Units: n00J (Split Artifact (Slot 3)), Hotkey (Hotkey)
 {
@@ -1593,14 +1569,6 @@ STRING 250
 // Units: n00J (Split Artifact (Slot 3)), Tip (Tooltip - Basic)
 {
 Split Artifact (Slot 3)
-}
-
-STRING 251
-// Units: n00J (Split Artifact (Slot 3)), Ubertip (Tooltip - Extended)
-{
-Destroys an item.
-
-|cffffcc00Potions are destroyed for free.|r
 }
 
 STRING 252
@@ -1621,14 +1589,6 @@ STRING 254
 Split Artifact (Slot 2)
 }
 
-STRING 255
-// Units: n00I (Split Artifact (Slot 2)), Ubertip (Tooltip - Extended)
-{
-Destroys an item.
-
-|cffffcc00Potions are destroyed for free.|r
-}
-
 STRING 256
 // Units: n00H (Split Artifact (Slot 1)), Hotkey (Hotkey)
 {
@@ -1645,14 +1605,6 @@ STRING 258
 // Units: n00H (Split Artifact (Slot 1)), Tip (Tooltip - Basic)
 {
 Split Artifact (Slot 1)
-}
-
-STRING 259
-// Units: n00H (Split Artifact (Slot 1)), Ubertip (Tooltip - Extended)
-{
-Destroys an item.
-
-|cffffcc00Potions are destroyed for free.|r
 }
 
 STRING 260
@@ -9864,11 +9816,9 @@ Constantly provokes a random enemy. When killed, restores the hero |cffbe81f7hea
 }
 
 STRING 1479
-// Abilities: AZ04 (Speical: Left the Game), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1GB (.General-Item: Non-Splittable), Name (Name)
 {
-|cff8080ffSpecial|r
-Reduces the cooldown of your left-most Hero ability on cooldown by 20% of base value. 
-|cffffcc00Cooldown:|r 15 seconds.
+.General-Item: Non-Splittable
 }
 
 STRING 1480
@@ -13903,15 +13853,6 @@ STRING 2067
 When another hero dies, increases stats of your hero by 1.
 }
 
-STRING 2068
-// Items: I07J (Living Mana), Description (Description)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-Activation: Burns all your mana. Creates 3 elementals from your mana.
-|cffffcc00Life time:|r 25 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
-}
-
 STRING 2069
 // Items: I07J (Living Mana), Name (Name)
 {
@@ -13922,15 +13863,6 @@ STRING 2070
 // Items: I07J (Living Mana), Tip (Tooltip - Basic)
 {
 Living Mana
-}
-
-STRING 2071
-// Items: I07J (Living Mana), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-Activation: Burns all your mana. Creates 3 elementals from your mana.
-|cffffcc00Life time:|r 25 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
 }
 
 STRING 2072
@@ -33792,6 +33724,14 @@ STRING 5074
 |cffffcc00Curse:|r Acceleration
 }
 
+STRING 5075
+// Abilities: AZ04 (Speical: Left the Game), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Reduces the cooldown of your left-most Hero ability on cooldown by 25% of base value. 
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 5076
 // Abilities: A10S (Artifact: Orb of Nature), Name (Name)
 {
@@ -36763,7 +36703,7 @@ Shaman: Ratstoration
 }
 
 STRING 5531
-// Abilities: A0UK (Commander: Sea is worried), Hotkey (Hotkey - Normal)
+// Abilities: A0UK (Commander: Sea is Worried), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -38175,100 +38115,15 @@ Increases health regeneration by 15, attack power by 25 and armor by 5 of the al
 }
 
 STRING 5744
-// Abilities: A0UK (Commander: Sea is worried), Researchhotkey (Hotkey - Learn)
+// Abilities: A0UK (Commander: Sea is Worried), Researchhotkey (Hotkey - Learn)
 {
 Q
-}
-
-STRING 5745
-// Abilities: A0UK (Commander: Sea is worried), Name (Name)
-{
-Commander: Sea is worried
 }
 
 STRING 5746
 // Abilities: A0UF (Overlord: Slash), Hotkey (Hotkey - Normal)
 {
 Q
-}
-
-STRING 5747
-// Abilities: A0UK (Commander: Sea is worried), Researchtip (Tooltip - Learn)
-{
-Sea is worried, [|cffffcc00Level %d|r]
-}
-
-STRING 5748
-// Abilities: A0UK (Commander: Sea is worried), Researchubertip (Tooltip - Learn - Extended)
-{
-Creates an explosive fountain in front of the hero, inflicting |cffbe81f7150/200/250/300/350|r damage to enemies.
-|cffffcc00Cooldown:|r 20/19/18/17/16 seconds.
-|cffffcc00Cost:|r 50/55/60/65/70 mana.
-}
-
-STRING 5749
-// Abilities: A0UK (Commander: Sea is worried), Tip (Tooltip - Normal)
-{
-Sea is worried, [|cffffcc00Level 1|r]
-}
-
-STRING 5750
-// Abilities: A0UK (Commander: Sea is worried), Tip (Tooltip - Normal)
-{
-Sea is worried, [|cffffcc00Level 2|r]
-}
-
-STRING 5751
-// Abilities: A0UK (Commander: Sea is worried), Tip (Tooltip - Normal)
-{
-Sea is worried, [|cffffcc00Level 3|r]
-}
-
-STRING 5752
-// Abilities: A0UK (Commander: Sea is worried), Tip (Tooltip - Normal)
-{
-Sea is worried, [|cffffcc00Level 4|r]
-}
-
-STRING 5753
-// Abilities: A0UK (Commander: Sea is worried), Tip (Tooltip - Normal)
-{
-Sea is worried, [|cffffcc00Level 5|r]
-}
-
-STRING 5754
-// Abilities: A0UK (Commander: Sea is worried), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an explosive fountain in front of the hero, inflicting |cffbe81f7150|r damage to enemies.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 5755
-// Abilities: A0UK (Commander: Sea is worried), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an explosive fountain in front of the hero, inflicting |cffbe81f7200|r damage to enemies.
-|cffffcc00Cooldown:|r 19 seconds.
-}
-
-STRING 5756
-// Abilities: A0UK (Commander: Sea is worried), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an explosive fountain in front of the hero, inflicting |cffbe81f7250|r damage to enemies.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 5757
-// Abilities: A0UK (Commander: Sea is worried), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an explosive fountain in front of the hero, inflicting |cffbe81f7300|r damage to enemies.
-|cffffcc00Cooldown:|r 17 seconds.
-}
-
-STRING 5758
-// Abilities: A0UK (Commander: Sea is worried), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an explosive fountain in front of the hero, inflicting |cffbe81f7350|r damage to enemies.
-|cffffcc00Cooldown:|r 16 seconds.
 }
 
 STRING 5759
@@ -49775,15 +49630,6 @@ STRING 7519
 Summon Skeletons
 }
 
-STRING 7520
-// Abilities: A0IQ (Unique: Summon Skeletons (+)), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Summons 2 Skeletons. Improved by "Skelemagic".
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
 STRING 7521
 // Abilities: A0IP (Unique: Summon Skeletons), Hotkey (Hotkey - Normal)
 {
@@ -49800,15 +49646,6 @@ STRING 7523
 // Abilities: A0IP (Unique: Summon Skeletons), Tip (Tooltip - Normal)
 {
 Summon Skeletons
-}
-
-STRING 7524
-// Abilities: A0IP (Unique: Summon Skeletons), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Summons a skeleton. Improved by "Skelemagic".
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 7525
@@ -52552,7 +52389,7 @@ Hallucinations, [|cffffcc00Level %d|r]
 }
 
 STRING 7952
-// Abilities: A1G8 (Hero Spirit: Small Heal), Hotkey (Hotkey - Normal)
+// Abilities: A0ET (Ogre: Crush), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -52599,15 +52436,8 @@ STRING 7959
 Small Heal
 }
 
-STRING 7960
-// Abilities: A1G8 (Hero Spirit: Small Heal), Ubertip (Tooltip - Normal - Extended)
-{
-Restores |cffbe81f7100|r health to an ally.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
 STRING 7961
-// Abilities: A1G9 (Hero Spirit: Mana Throw), Hotkey (Hotkey - Normal)
+// Abilities: A0EU (Ogre: Earthquake), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -52777,7 +52607,7 @@ Ogre: Rampage
 }
 
 STRING 7989
-// Abilities: A0EF (Keeper: Moon blinking), Hotkey (Hotkey - Normal)
+// Abilities: A0EF (Keeper: Moon Blinking), Hotkey (Hotkey - Normal)
 {
 R
 }
@@ -53060,7 +52890,7 @@ STRING 8033
 }
 
 STRING 8034
-// Abilities: A0EU (Ogre: Earthquake), Researchhotkey (Hotkey - Learn)
+// Abilities: A0EL (Marshal: Never Trust an Elf), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -53072,7 +52902,7 @@ Ogre: Earthquake
 }
 
 STRING 8036
-// Abilities: A0EL (Marshal: Never Trust an Elf), Hotkey (Hotkey - Normal)
+// Abilities: A0EL (Marshal: Never Trust an Elf), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -53165,7 +52995,7 @@ Hero hits the ground, increasing the physical damage taken by enemies nearby by 
 }
 
 STRING 8049
-// Abilities: A0ET (Ogre: Crush), Researchhotkey (Hotkey - Learn)
+// Abilities: A0EJ (Marshal: Inhuman Beast!), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -53177,7 +53007,7 @@ Ogre: Crush
 }
 
 STRING 8051
-// Abilities: A0EJ (Marshal: Inhuman Beast!), Hotkey (Hotkey - Normal)
+// Abilities: A0EJ (Marshal: Inhuman Beast!), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -53310,7 +53140,7 @@ At. Speed: Never Trust an Elf
 }
 
 STRING 8071
-// Abilities: A0EL (Marshal: Never Trust an Elf), Researchhotkey (Hotkey - Learn)
+// Abilities: A0E2 (Owl: Unity with moon), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -53322,7 +53152,7 @@ Marshal: Never Trust an Elf
 }
 
 STRING 8073
-// Abilities: A0E2 (Owl: Unity with moon), Hotkey (Hotkey - Normal)
+// Abilities: A0E2 (Owl: Unity with moon), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -53425,7 +53255,7 @@ STRING 8086
 }
 
 STRING 8087
-// Abilities: A0EJ (Marshal: Inhuman Beast!), Researchhotkey (Hotkey - Learn)
+// Abilities: A0DU (Minotaur: Charge), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -53437,7 +53267,7 @@ Marshal: Inhuman Beast!
 }
 
 STRING 8089
-// Abilities: A0DU (Minotaur: Charge), Hotkey (Hotkey - Normal)
+// Abilities: A0DU (Minotaur: Charge), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -53568,115 +53398,16 @@ STRING 8108
 Seal of Brotherhood
 }
 
-STRING 8109
-// Abilities: A0EG (Special: Seal of Brotherhood), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Deals |cffbe81f775|r damage to an enemy. Permanently increases the damage of this ability by 3 for all heroes that have it.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 8110
-// Abilities: A0EF (Keeper: Moon blinking), Researchhotkey (Hotkey - Learn)
+// Abilities: A0EF (Keeper: Moon Blinking), Researchhotkey (Hotkey - Learn)
 {
 R
-}
-
-STRING 8111
-// Abilities: A0EF (Keeper: Moon blinking), Name (Name)
-{
-Keeper: Moon blinking
 }
 
 STRING 8112
 // Abilities: A0DY (Minotaur: Wrath), Hotkey (Hotkey - Normal)
 {
 R
-}
-
-STRING 8113
-// Abilities: A0EF (Keeper: Moon blinking), Researchtip (Tooltip - Learn)
-{
-Moon blinking, [|cffffcc00Level %d|r]
-}
-
-STRING 8114
-// Abilities: A0EF (Keeper: Moon blinking), Researchubertip (Tooltip - Learn - Extended)
-{
-Makes all nearby creatures invisible for 3 seconds. If the target is not a caster, also restores |cffbe81f760/80/100/120/140|r mana. If the target is a hero, after the end of invisibility increases spell power by 40%/60%/80%/100%/120%.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
-STRING 8115
-// Abilities: A0EF (Keeper: Moon blinking), Tip (Tooltip - Normal)
-{
-Moon blinking, [|cffffcc00Level 1|r]
-}
-
-STRING 8116
-// Abilities: A0EF (Keeper: Moon blinking), Tip (Tooltip - Normal)
-{
-Moon blinking, [|cffffcc00Level 2|r]
-}
-
-STRING 8117
-// Abilities: A0EF (Keeper: Moon blinking), Tip (Tooltip - Normal)
-{
-Moon blinking, [|cffffcc00Level 3|r]
-}
-
-STRING 8118
-// Abilities: A0EF (Keeper: Moon blinking), Tip (Tooltip - Normal)
-{
-Moon blinking, [|cffffcc00Level 4|r]
-}
-
-STRING 8119
-// Abilities: A0EF (Keeper: Moon blinking), Tip (Tooltip - Normal)
-{
-Moon blinking, [|cffffcc00Level 5|r]
-}
-
-STRING 8120
-// Abilities: A0EF (Keeper: Moon blinking), Ubertip (Tooltip - Normal - Extended)
-{
-Makes all nearby creatures invisible for 3 seconds. If the target is not a caster, also restores |cffbe81f760|r mana. If the target is a hero, after the end of invisibility increases spell power by 40%.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 8121
-// Abilities: A0EF (Keeper: Moon blinking), Ubertip (Tooltip - Normal - Extended)
-{
-Makes all nearby creatures invisible for 3 seconds. If the target is not a caster, also restores |cffbe81f780|r mana. If the target is a hero, after the end of invisibility increases spell power by 60%.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 8122
-// Abilities: A0EF (Keeper: Moon blinking), Ubertip (Tooltip - Normal - Extended)
-{
-Makes all nearby creatures invisible for 3 seconds. If the target is not a caster, also restores |cffbe81f7100|r mana. If the target is a hero, after the end of invisibility increases spell power by 80%.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 8123
-// Abilities: A0EF (Keeper: Moon blinking), Ubertip (Tooltip - Normal - Extended)
-{
-Makes all nearby creatures invisible for 3 seconds. If the target is not a caster, also restores |cffbe81f7120|r mana. If the target is a hero, after the end of invisibility increases spell power by 100%.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 8124
-// Abilities: A0EF (Keeper: Moon blinking), Ubertip (Tooltip - Normal - Extended)
-{
-Makes all nearby creatures invisible for 3 seconds. If the target is not a caster, also restores |cffbe81f7140|r mana. If the target is a hero, after the end of invisibility increases spell power by 120%.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 8125
@@ -53788,7 +53519,7 @@ STRING 8142
 }
 
 STRING 8143
-// Abilities: A0E2 (Owl: Unity with moon), Researchhotkey (Hotkey - Learn)
+// Abilities: A0E0 (Soulstealer: Immortality), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -53800,7 +53531,7 @@ Owl: Unity with moon
 }
 
 STRING 8145
-// Abilities: A0E0 (Soulstealer: Immortality), Hotkey (Hotkey - Normal)
+// Abilities: A0E0 (Soulstealer: Immortality), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -53896,7 +53627,7 @@ STRING 8158
 }
 
 STRING 8159
-// Abilities: A0E0 (Soulstealer: Immortality), Researchhotkey (Hotkey - Learn)
+// Abilities: A0DW (Minotaur: Courage), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -53908,7 +53639,7 @@ Soulstealer: Immortality
 }
 
 STRING 8161
-// Abilities: A0DW (Minotaur: Courage), Hotkey (Hotkey - Normal)
+// Abilities: A0DW (Minotaur: Courage), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -54114,7 +53845,7 @@ Shepherd: Lure
 }
 
 STRING 8193
-// Abilities: A0DW (Minotaur: Courage), Researchhotkey (Hotkey - Learn)
+// Abilities: A0CW (Scarab: Revitalization), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -54126,7 +53857,7 @@ Minotaur: Courage
 }
 
 STRING 8195
-// Abilities: A0CW (Scarab: Revitalization), Hotkey (Hotkey - Normal)
+// Abilities: A0CW (Scarab: Revitalization), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -54234,7 +53965,7 @@ Runs forward.
 }
 
 STRING 8211
-// Abilities: A0DU (Minotaur: Charge), Researchhotkey (Hotkey - Learn)
+// Abilities: A0DL (Soulstealer: Soul Latch), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -54246,7 +53977,7 @@ Minotaur: Charge
 }
 
 STRING 8213
-// Abilities: A0DL (Soulstealer: Soul Latch), Hotkey (Hotkey - Normal)
+// Abilities: A0DL (Soulstealer: Soul Latch), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -54463,7 +54194,7 @@ Armor (Сокрушение)
 }
 
 STRING 8247
-// Abilities: A0DL (Soulstealer: Soul Latch), Researchhotkey (Hotkey - Learn)
+// Abilities: A0CL (Skeletlord: Skeleportation), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -54475,7 +54206,7 @@ Soulstealer: Soul Latch
 }
 
 STRING 8249
-// Abilities: A0CL (Skeletlord: Skeleportation), Hotkey (Hotkey - Normal)
+// Abilities: A0CL (Skeletlord: Skeleportation), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -54692,7 +54423,7 @@ Lure, [|cffffcc00Level %d|r]
 }
 
 STRING 8284
-// Abilities: A0CL (Skeletlord: Skeleportation), Researchhotkey (Hotkey - Learn)
+// Abilities: A0C8 (Скрытень: Во тьму), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -54945,7 +54676,7 @@ Increases the mana recovery of all allies by 1. When an ally uses an ability or 
 }
 
 STRING 8326
-// Abilities: A0CW (Scarab: Revitalization), Researchhotkey (Hotkey - Learn)
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -54957,7 +54688,7 @@ Scarab: Revitalization
 }
 
 STRING 8328
-// Abilities: A0CM (Skeletlord: Grasp of the Dead), Hotkey (Hotkey - Normal)
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -55237,7 +54968,7 @@ Curses the enemy, reducing their armor by 1. Every second, the target loses |cff
 }
 
 STRING 8371
-// Abilities: A0CM (Skeletlord: Grasp of the Dead), Researchhotkey (Hotkey - Learn)
+// Abilities: A0B4 (Beorn: Perseverance), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -55252,7 +54983,7 @@ Curses the enemy, reducing their armor by 2. Every second, the target loses |cff
 }
 
 STRING 8373
-// Abilities: A0B4 (Beorn: Perseverance), Hotkey (Hotkey - Normal)
+// Abilities: A0B4 (Beorn: Perseverance), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -55363,7 +55094,7 @@ Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies
 }
 
 STRING 8386
-// Abilities: A0C8 (Скрытень: Во тьму), Hotkey (Hotkey - Normal)
+// Abilities: A0BU (Preacher: Calm Field), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -55375,7 +55106,7 @@ Skeletlord: Skeleportation
 }
 
 STRING 8388
-// Abilities: A0BU (Preacher: Calm Field), Hotkey (Hotkey - Normal)
+// Abilities: A0BU (Preacher: Calm Field), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -55662,7 +55393,7 @@ Increases allied movement speed near lurker by 50%.
 }
 
 STRING 8432
-// Abilities: A0BU (Preacher: Calm Field), Researchhotkey (Hotkey - Learn)
+// Abilities: A09U (Keeper: The Great Downing), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -55685,12 +55416,6 @@ STRING 8435
 Enters an ally into invisibility.
 |cffffcc00Duration:|r 10 seconds.
 |cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 8436
-// Abilities: A0C7 (Босс 5: Боевой голем (Удар грома)), Name (Name)
-{
-Босс 5: Боевой голем (Удар грома)
 }
 
 STRING 8437
@@ -55999,7 +55724,7 @@ Orb: Fire
 }
 
 STRING 8485
-// Abilities: A09U (Keeper: The Great Downing), Hotkey (Hotkey - Normal)
+// Abilities: A09U (Keeper: The Great Downing), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -56011,7 +55736,7 @@ Preacher: Calm Field
 }
 
 STRING 8487
-// Abilities: A09U (Keeper: The Great Downing), Researchhotkey (Hotkey - Learn)
+// Abilities: A09L (Chronomancer: Paradox), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -56619,6 +56344,16 @@ STRING 8581
 Attack Speed increased.
 }
 
+STRING 8582
+// Abilities: A0EG (Special: Seal of Brotherhood), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Deals |cffbe81f775|r damage to an enemy. Permanently increases the damage of this ability by 3 for all heroes that have it.
+|cffffcc00Cooldown:|r 15 seconds.
+
+|cFF959697Doesn't disappear after purchase.|r
+}
+
 STRING 8583
 // Abilities: A0IZ (Lord of Chaos: Illusions), Ubertip (Tooltip - Normal - Extended)
 {
@@ -56639,7 +56374,7 @@ STRING 8585
 }
 
 STRING 8586
-// Abilities: A0B4 (Beorn: Perseverance), Researchhotkey (Hotkey - Learn)
+// Abilities: A0AB (Vampire: Way of blood), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -56651,7 +56386,7 @@ Beorn: Perseverance
 }
 
 STRING 8588
-// Abilities: A0AB (Vampire: Way of blood), Hotkey (Hotkey - Normal)
+// Abilities: A0AB (Vampire: Way of blood), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -57062,7 +56797,7 @@ When the hero uses an ability or item, with a 4% chance, resets the cooldown of 
 }
 
 STRING 8651
-// Abilities: A1G9 (Hero Spirit: Mana Throw), Researchhotkey (Hotkey - Learn)
+// Abilities: A088 (Unique: Provocation), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -57104,7 +56839,7 @@ STRING 8657
 }
 
 STRING 8658
-// Abilities: A088 (Unique: Provocation), Hotkey (Hotkey - Normal)
+// Abilities: A084 (Unique: Feeding (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -57154,7 +56889,7 @@ STRING 8665
 }
 
 STRING 8666
-// Abilities: A0AB (Vampire: Way of blood), Researchhotkey (Hotkey - Learn)
+// Abilities: A09Y (Keeper: Starsight), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -57166,7 +56901,7 @@ Vampire: Way of blood
 }
 
 STRING 8668
-// Abilities: A09Y (Keeper: Starsight), Hotkey (Hotkey - Normal)
+// Abilities: A09Y (Keeper: Starsight), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -57448,7 +57183,7 @@ STRING 8712
 }
 
 STRING 8713
-// Abilities: A09Y (Keeper: Starsight), Researchhotkey (Hotkey - Learn)
+// Abilities: A099 (Mimic: Crystal Barrage), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -57460,7 +57195,7 @@ Keeper: Starsight
 }
 
 STRING 8715
-// Abilities: A099 (Mimic: Crystal Barrage), Hotkey (Hotkey - Normal)
+// Abilities: A099 (Mimic: Crystal Barrage), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -57569,7 +57304,7 @@ STRING 8730
 }
 
 STRING 8731
-// Abilities: A09L (Chronomancer: Paradox), Hotkey (Hotkey - Normal)
+// Abilities: A09L (Chronomancer: Paradox), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -57581,7 +57316,7 @@ Keeper: The Great Downing
 }
 
 STRING 8733
-// Abilities: A09L (Chronomancer: Paradox), Researchhotkey (Hotkey - Learn)
+// Abilities: A08R (Mermaid: Dance of the seas), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -57917,7 +57652,7 @@ STRING 8782
 }
 
 STRING 8783
-// Abilities: A08R (Mermaid: Dance of the seas), Hotkey (Hotkey - Normal)
+// Abilities: A08R (Mermaid: Dance of the seas), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -57929,7 +57664,7 @@ Chronomancer: Paradox
 }
 
 STRING 8785
-// Abilities: A08R (Mermaid: Dance of the seas), Researchhotkey (Hotkey - Learn)
+// Abilities: A08M (Mimic: Parasitism), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -58383,7 +58118,7 @@ The hero's melee attacks also damage nearby foes. The damage is equal to 100% of
 }
 
 STRING 8856
-// Abilities: A099 (Mimic: Crystal Barrage), Researchhotkey (Hotkey - Learn)
+// Abilities: A093 (Monk: Leap), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -58395,7 +58130,7 @@ Mimic: Crystal Barrage
 }
 
 STRING 8858
-// Abilities: A093 (Monk: Leap), Hotkey (Hotkey - Normal)
+// Abilities: A093 (Monk: Leap), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -58600,7 +58335,7 @@ STRING 8890
 }
 
 STRING 8891
-// Abilities: A093 (Monk: Leap), Researchhotkey (Hotkey - Learn)
+// Abilities: A08L (Legionary: Blade of fire), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -58612,7 +58347,7 @@ Monk: Leap
 }
 
 STRING 8893
-// Abilities: A08L (Legionary: Blade of fire), Hotkey (Hotkey - Normal)
+// Abilities: A08L (Legionary: Blade of fire), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -58968,7 +58703,7 @@ Malice, [|cffffcc00Level 5|r]
 }
 
 STRING 8950
-// Abilities: A1G9 (Hero Spirit: Mana Throw), Tip (Tooltip - Normal)
+// Abilities: A02V (Unique: Mana Throw (+)), Tip (Tooltip - Normal)
 {
 Mana Throw
 }
@@ -59011,7 +58746,7 @@ STRING 8956
 }
 
 STRING 8957
-// Abilities: A08M (Mimic: Parasitism), Hotkey (Hotkey - Normal)
+// Abilities: A08M (Mimic: Parasitism), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -59023,7 +58758,7 @@ Mermaid: Dance of the seas
 }
 
 STRING 8959
-// Abilities: A08M (Mimic: Parasitism), Researchhotkey (Hotkey - Learn)
+// Abilities: A08B (Arena: Endless Arena), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -59132,7 +58867,7 @@ STRING 8975
 }
 
 STRING 8976
-// Abilities: A08B (Arena: Endless Arena), Hotkey (Hotkey - Normal)
+// Abilities: A07W (Mentor: Togetherness), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -59144,7 +58879,7 @@ Mimic: Parasitism
 }
 
 STRING 8978
-// Abilities: A07W (Mentor: Togetherness), Hotkey (Hotkey - Normal)
+// Abilities: A07W (Mentor: Togetherness), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -59247,7 +58982,7 @@ Binds your hero to target. Every second you steal 6% health from the target. Pro
 }
 
 STRING 8991
-// Abilities: A08L (Legionary: Blade of fire), Researchhotkey (Hotkey - Learn)
+// Abilities: A07Y (Outcast: Demonic Blast), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -59259,7 +58994,7 @@ Legionary: Blade of fire
 }
 
 STRING 8993
-// Abilities: A07Y (Outcast: Demonic Blast), Hotkey (Hotkey - Normal)
+// Abilities: A07Y (Outcast: Demonic Blast), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -59576,7 +59311,7 @@ STRING 9042
 }
 
 STRING 9043
-// Abilities: A07W (Mentor: Togetherness), Researchhotkey (Hotkey - Learn)
+// Abilities: A07K (Shooter: Explosive shot), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -59637,7 +59372,7 @@ STRING 9052
 }
 
 STRING 9053
-// Abilities: A084 (Unique: Feeding (+)), Hotkey (Hotkey - Normal)
+// Abilities: A084 (Unique: Feeding (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -59767,7 +59502,7 @@ After 2 seconds, an explosion occurs, which deals |cffbe81f7500|r damage to all 
 }
 
 STRING 9073
-// Abilities: A084 (Unique: Feeding (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A05Z (Unique: Inspire (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -59779,7 +59514,7 @@ Unique: Feeding (+)
 }
 
 STRING 9075
-// Abilities: A05Z (Unique: Inspire (+)), Hotkey (Hotkey - Normal)
+// Abilities: A036 (Unique: Provocation (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -59803,7 +59538,7 @@ Feeding
 }
 
 STRING 9079
-// Abilities: A036 (Unique: Provocation (+)), Hotkey (Hotkey - Normal)
+// Abilities: A035 (Unique: Curse (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -60121,7 +59856,7 @@ Increases the target hero's agility and intelligence equal to 100% of your hero'
 }
 
 STRING 9125
-// Abilities: A07Y (Outcast: Demonic Blast), Researchhotkey (Hotkey - Learn)
+// Abilities: A07R (Armsmaster: Spar), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -60133,7 +59868,7 @@ Outcast: Demonic Blast
 }
 
 STRING 9127
-// Abilities: A07R (Armsmaster: Spar), Hotkey (Hotkey - Normal)
+// Abilities: A07R (Armsmaster: Spar), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -60321,7 +60056,7 @@ Throws a bomb at an enemy that stuns enemies nearby nearby and deals |cffbe81f72
 }
 
 STRING 9155
-// Abilities: A07K (Shooter: Explosive shot), Hotkey (Hotkey - Normal)
+// Abilities: A07K (Shooter: Explosive shot), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -60333,7 +60068,7 @@ Mentor: Togetherness
 }
 
 STRING 9157
-// Abilities: A07K (Shooter: Explosive shot), Researchhotkey (Hotkey - Learn)
+// Abilities: A07J (Outcast: Vengeful Strike), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -60532,7 +60267,7 @@ STRING 9186
 }
 
 STRING 9187
-// Abilities: A07R (Armsmaster: Spar), Researchhotkey (Hotkey - Learn)
+// Abilities: A07F (Preacher: Touch of the Light), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -60544,7 +60279,7 @@ Armsmaster: Spar
 }
 
 STRING 9189
-// Abilities: A07F (Preacher: Touch of the Light), Hotkey (Hotkey - Normal)
+// Abilities: A07F (Preacher: Touch of the Light), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -60679,7 +60414,7 @@ STRING 9208
 }
 
 STRING 9209
-// Abilities: A07J (Outcast: Vengeful Strike), Hotkey (Hotkey - Normal)
+// Abilities: A07J (Outcast: Vengeful Strike), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -60691,7 +60426,7 @@ Shooter: Explosive shot
 }
 
 STRING 9211
-// Abilities: A07J (Outcast: Vengeful Strike), Researchhotkey (Hotkey - Learn)
+// Abilities: A07I (Scarab: Sap), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -60776,7 +60511,7 @@ Inflicts fire damage to the enemy equal to |cffbe81f77.2%|r of the maximum healt
 }
 
 STRING 9224
-// Abilities: A07I (Scarab: Sap), Hotkey (Hotkey - Normal)
+// Abilities: A07I (Scarab: Sap), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -60788,7 +60523,7 @@ Outcast: Vengeful Strike
 }
 
 STRING 9226
-// Abilities: A07I (Scarab: Sap), Researchhotkey (Hotkey - Learn)
+// Abilities: A07A (Pirate: Now mine!), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -60873,7 +60608,7 @@ Deals |cffbe81f7350|r damage to the enemy. If the target's health is below 35%, 
 }
 
 STRING 9239
-// Abilities: A07A (Pirate: Now mine!), Hotkey (Hotkey - Normal)
+// Abilities: A07A (Pirate: Now mine!), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -60885,7 +60620,7 @@ Scarab: Sap
 }
 
 STRING 9241
-// Abilities: A07A (Pirate: Now mine!), Researchhotkey (Hotkey - Learn)
+// Abilities: A06T (Artifact: Boom machine), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -61008,7 +60743,7 @@ STRING 9258
 }
 
 STRING 9259
-// Abilities: A07F (Preacher: Touch of the Light), Researchhotkey (Hotkey - Learn)
+// Abilities: A05Z (Unique: Inspire (+)), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -61020,7 +60755,7 @@ Preacher: Touch of the Light
 }
 
 STRING 9261
-// Abilities: A05Z (Unique: Inspire (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A05V (Прочее: Осколок души: Иссушение), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -61136,7 +60871,7 @@ STRING 9277
 }
 
 STRING 9278
-// Abilities: A06T (Artifact: Boom machine), Researchhotkey (Hotkey - Learn)
+// Abilities: A065 (Vampire: Blood splash), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -61148,7 +60883,7 @@ Pirate: Now mine!
 }
 
 STRING 9280
-// Abilities: A065 (Vampire: Blood splash), Hotkey (Hotkey - Normal)
+// Abilities: A065 (Vampire: Blood splash), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -61368,7 +61103,7 @@ Artifact: Boom machine
 }
 
 STRING 9315
-// Abilities: A065 (Vampire: Blood splash), Researchhotkey (Hotkey - Learn)
+// Abilities: A05Q (Armsmaster: Defensive Jab), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -61733,7 +61468,7 @@ STRING 9372
 }
 
 STRING 9373
-// Abilities: A05Q (Armsmaster: Defensive Jab), Hotkey (Hotkey - Normal)
+// Abilities: A05Q (Armsmaster: Defensive Jab), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -61745,7 +61480,7 @@ Vampire: Blood splash
 }
 
 STRING 9375
-// Abilities: A05Q (Armsmaster: Defensive Jab), Researchhotkey (Hotkey - Learn)
+// Abilities: A05N (Reaper: Death to all living things!), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -61877,7 +61612,7 @@ Artifact: Tarot Card: Doppelganger
 }
 
 STRING 9395
-// Abilities: A035 (Unique: Curse (+)), Hotkey (Hotkey - Normal)
+// Abilities: A02W (Unique: Small heal (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -61889,7 +61624,7 @@ Unique: Inspire (+)
 }
 
 STRING 9397
-// Abilities: A05V (Прочее: Осколок души: Иссушение), Hotkey (Hotkey - Normal)
+// Abilities: A05V (Прочее: Осколок души: Иссушение), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -62034,7 +61769,7 @@ STRING 9418
 }
 
 STRING 9419
-// Abilities: A05V (Прочее: Осколок души: Иссушение), Researchhotkey (Hotkey - Learn)
+// Abilities: A05T (Reaper: Sear), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -62046,7 +61781,7 @@ STRING 9420
 }
 
 STRING 9421
-// Abilities: A05T (Reaper: Sear), Hotkey (Hotkey - Normal)
+// Abilities: A05T (Reaper: Sear), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -62083,7 +61818,7 @@ STRING 9426
 }
 
 STRING 9427
-// Abilities: A05T (Reaper: Sear), Researchhotkey (Hotkey - Learn)
+// Abilities: A05R (Spirit: Shadow zone), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -62095,7 +61830,7 @@ Reaper: Sear
 }
 
 STRING 9429
-// Abilities: A05R (Spirit: Shadow zone), Hotkey (Hotkey - Normal)
+// Abilities: A05R (Spirit: Shadow zone), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -62186,7 +61921,7 @@ STRING 9442
 }
 
 STRING 9443
-// Abilities: A05R (Spirit: Shadow zone), Researchhotkey (Hotkey - Learn)
+// Abilities: A05G (Wagon: Plague Run), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -62198,7 +61933,7 @@ Spirit: Shadow zone
 }
 
 STRING 9445
-// Abilities: A05G (Wagon: Plague Run), Hotkey (Hotkey - Normal)
+// Abilities: A05G (Wagon: Plague Run), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -62289,7 +62024,7 @@ Reduces armor of enemies in a selected area by 8.
 }
 
 STRING 9458
-// Abilities: A05N (Reaper: Death to all living things!), Hotkey (Hotkey - Normal)
+// Abilities: A05N (Reaper: Death to all living things!), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -62301,7 +62036,7 @@ Armsmaster: Defensive Jab
 }
 
 STRING 9460
-// Abilities: A05N (Reaper: Death to all living things!), Researchhotkey (Hotkey - Learn)
+// Abilities: A04Q (Nomad: Chain Lightning), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -62398,7 +62133,7 @@ Armor (Haze2)
 }
 
 STRING 9475
-// Abilities: A04Q (Nomad: Chain Lightning), Hotkey (Hotkey - Normal)
+// Abilities: A04Q (Nomad: Chain Lightning), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -62410,7 +62145,7 @@ Reaper: Death to all living things!
 }
 
 STRING 9477
-// Abilities: A04Q (Nomad: Chain Lightning), Researchhotkey (Hotkey - Learn)
+// Abilities: A03Q (Priestess: Meowssault), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -62713,7 +62448,7 @@ Creates a False Idol that every 3 seconds, deals |cffbe81f7160|r damage, reduces
 }
 
 STRING 9524
-// Abilities: A05G (Wagon: Plague Run), Researchhotkey (Hotkey - Learn)
+// Abilities: A05F (Fallen One: Fatal Attraction), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -62725,7 +62460,7 @@ Wagon: Plague Run
 }
 
 STRING 9526
-// Abilities: A05F (Fallen One: Fatal Attraction), Hotkey (Hotkey - Normal)
+// Abilities: A05F (Fallen One: Fatal Attraction), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -62822,7 +62557,7 @@ Increases hero movement speed by 50%. Every 3 seconds, creates a poisonous cloud
 }
 
 STRING 9539
-// Abilities: A05F (Fallen One: Fatal Attraction), Researchhotkey (Hotkey - Learn)
+// Abilities: A04R (Nomad: Thunder Power), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -62834,7 +62569,7 @@ Fallen One: Fatal Attraction
 }
 
 STRING 9541
-// Abilities: A04R (Nomad: Thunder Power), Researchhotkey (Hotkey - Learn)
+// Abilities: A04G (Knight: Hard bone), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -63581,7 +63316,7 @@ Nomad: Thunder Power
 }
 
 STRING 9659
-// Abilities: A04G (Knight: Hard bone), Hotkey (Hotkey - Normal)
+// Abilities: A04G (Knight: Hard bone), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -63659,7 +63394,7 @@ Increases the number of targets hit by Chain Lightning by 5 and jump range by 15
 }
 
 STRING 9672
-// Abilities: A03Q (Priestess: Meowssault), Hotkey (Hotkey - Normal)
+// Abilities: A03Q (Priestess: Meowssault), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -63671,7 +63406,7 @@ Nomad: Chain Lightning
 }
 
 STRING 9674
-// Abilities: A03Q (Priestess: Meowssault), Researchhotkey (Hotkey - Learn)
+// Abilities: A032 (Doctor: Plague impact), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -63941,7 +63676,7 @@ Shepherd: Care
 }
 
 STRING 9716
-// Abilities: A04G (Knight: Hard bone), Researchhotkey (Hotkey - Learn)
+// Abilities: A049 (Doctor: Transformation of prana), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -64000,7 +63735,7 @@ STRING 9724
 }
 
 STRING 9725
-// Abilities: A049 (Doctor: Transformation of prana), Hotkey (Hotkey - Normal)
+// Abilities: A049 (Doctor: Transformation of prana), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -64012,7 +63747,7 @@ Knight: Hard bone
 }
 
 STRING 9727
-// Abilities: A049 (Doctor: Transformation of prana), Researchhotkey (Hotkey - Learn)
+// Abilities: A03V (Priestess: Tabby, Tabby Crusher), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -64139,7 +63874,7 @@ STRING 9745
 }
 
 STRING 9746
-// Abilities: A03V (Priestess: Tabby, Tabby Crusher), Hotkey (Hotkey - Normal)
+// Abilities: A03V (Priestess: Tabby, Tabby Crusher), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -64151,7 +63886,7 @@ Doctor: Transformation of prana
 }
 
 STRING 9748
-// Abilities: A03V (Priestess: Tabby, Tabby Crusher), Researchhotkey (Hotkey - Learn)
+// Abilities: A03J (Peacelock: Channel Energy), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -64478,7 +64213,7 @@ STRING 9803
 }
 
 STRING 9804
-// Abilities: A03J (Peacelock: Channel Energy), Hotkey (Hotkey - Normal)
+// Abilities: A03J (Peacelock: Channel Energy), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -64490,7 +64225,7 @@ Priestess: Tabby, Tabby Crusher
 }
 
 STRING 9806
-// Abilities: A03J (Peacelock: Channel Energy), Researchhotkey (Hotkey - Learn)
+// Abilities: A03E (Pirate: Trick), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -64624,7 +64359,7 @@ Allows you to exchange your artifact for another artifact:
 }
 
 STRING 9825
-// Abilities: A032 (Doctor: Plague impact), Hotkey (Hotkey - Normal)
+// Abilities: A032 (Doctor: Plague impact), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -64636,7 +64371,7 @@ Priestess: Meowssault
 }
 
 STRING 9827
-// Abilities: A032 (Doctor: Plague impact), Researchhotkey (Hotkey - Learn)
+// Abilities: A02T (Fallen One: Unearthly Beauty), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -64816,7 +64551,7 @@ Reward artifacts are not available.|r
 }
 
 STRING 9854
-// Abilities: A03E (Pirate: Trick), Hotkey (Hotkey - Normal)
+// Abilities: A03E (Pirate: Trick), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -64828,7 +64563,7 @@ Peacelock: Channel Energy
 }
 
 STRING 9856
-// Abilities: A03E (Pirate: Trick), Researchhotkey (Hotkey - Learn)
+// Abilities: A02U (Sun King: Heating UpXXX), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -65040,7 +64775,7 @@ STRING 9886
 }
 
 STRING 9887
-// Abilities: A02U (Sun King: Heating UpXXX), Hotkey (Hotkey - Normal)
+// Abilities: A02U (Sun King: Heating UpXXX), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -65052,7 +64787,7 @@ Pirate: Trick
 }
 
 STRING 9889
-// Abilities: A02U (Sun King: Heating UpXXX), Researchhotkey (Hotkey - Learn)
+// Abilities: A02J (Mermaid: Seal of fate), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -65265,7 +65000,7 @@ The hero's melee attacks also damage nearby foes. The damage is equal to 80% of 
 }
 
 STRING 9922
-// Abilities: A02W (Unique: Small heal (+)), Hotkey (Hotkey - Normal)
+// Abilities: A02V (Unique: Mana Throw (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -65290,7 +65025,7 @@ Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies
 }
 
 STRING 9926
-// Abilities: A02V (Unique: Mana Throw (+)), Hotkey (Hotkey - Normal)
+// Abilities: A02L (Destruction), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -65326,7 +65061,7 @@ STRING 9931
 }
 
 STRING 9932
-// Abilities: A02T (Fallen One: Unearthly Beauty), Hotkey (Hotkey - Normal)
+// Abilities: A02T (Fallen One: Unearthly Beauty), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -65338,7 +65073,7 @@ Doctor: Plague impact
 }
 
 STRING 9934
-// Abilities: A02T (Fallen One: Unearthly Beauty), Researchhotkey (Hotkey - Learn)
+// Abilities: A01W (Peacelock: Healthy Bonk), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -65459,7 +65194,7 @@ STRING 9951
 }
 
 STRING 9952
-// Abilities: A02L (Destruction), Researchhotkey (Hotkey - Learn)
+// Abilities: A01U (Unique: Burning gaze (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -65485,7 +65220,7 @@ Restores |cffbe81f7200|r health to an ally.
 }
 
 STRING 9956
-// Abilities: A01U (Unique: Burning gaze (+)), Hotkey (Hotkey - Normal)
+// Abilities: A01U (Unique: Burning gaze (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -65497,7 +65232,7 @@ Unique: Mana Throw (+)
 }
 
 STRING 9958
-// Abilities: A02V (Unique: Mana Throw (+)), Tip (Tooltip - Normal)
+// Abilities: A1G9 (Hero Spirit: Mana Throw), Tip (Tooltip - Normal)
 {
 Mana Throw
 }
@@ -65511,7 +65246,7 @@ Deals |cffbe81f7200|r damage to an enemy.
 }
 
 STRING 9960
-// Abilities: A02J (Mermaid: Seal of fate), Hotkey (Hotkey - Normal)
+// Abilities: A02J (Mermaid: Seal of fate), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -65523,7 +65258,7 @@ Sun King: Heating UpXXX
 }
 
 STRING 9962
-// Abilities: A02J (Mermaid: Seal of fate), Researchhotkey (Hotkey - Learn)
+// Abilities: A02E (Sun King: StasisXXX), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -65614,7 +65349,7 @@ Increases enemy damage taken by 15%. Stacks up to three times. If the target alr
 }
 
 STRING 9975
-// Abilities: A01W (Peacelock: Healthy Bonk), Hotkey (Hotkey - Normal)
+// Abilities: A01W (Peacelock: Healthy Bonk), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -65626,7 +65361,7 @@ Fallen One: Unearthly Beauty
 }
 
 STRING 9977
-// Abilities: A01W (Peacelock: Healthy Bonk), Researchhotkey (Hotkey - Learn)
+// Abilities: A01H (Sun King: Solar FlareXXX), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -65774,7 +65509,7 @@ Destruction
 }
 
 STRING 9998
-// Abilities: A01U (Unique: Burning gaze (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A00N (Unique: Burning gaze), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -65830,7 +65565,7 @@ Deals |cffbe81f7200|r damage to an enemy.
 }
 
 STRING 10007
-// Abilities: A02E (Sun King: StasisXXX), Hotkey (Hotkey - Normal)
+// Abilities: A02E (Sun King: StasisXXX), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -65842,7 +65577,7 @@ Mermaid: Seal of fate
 }
 
 STRING 10009
-// Abilities: A02E (Sun King: StasisXXX), Researchhotkey (Hotkey - Learn)
+// Abilities: A1DS (Shepherd: Care), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -65954,7 +65689,7 @@ STRING 10025
 }
 
 STRING 10026
-// Abilities: A1DS (Shepherd: Care), Hotkey (Hotkey - Normal)
+// Abilities: A1DS (Shepherd: Care), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -65966,7 +65701,7 @@ Sun King: StasisXXX
 }
 
 STRING 10028
-// Abilities: A1DS (Shepherd: Care), Researchhotkey (Hotkey - Learn)
+// Abilities: A1DX (Runesmith: Carve Rune of the Rich), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -66351,7 +66086,7 @@ STRING 10088
 }
 
 STRING 10089
-// Abilities: A01H (Sun King: Solar FlareXXX), Hotkey (Hotkey - Normal)
+// Abilities: A01H (Sun King: Solar FlareXXX), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -66363,7 +66098,7 @@ Peacelock: Healthy Bonk
 }
 
 STRING 10091
-// Abilities: A01H (Sun King: Solar FlareXXX), Researchhotkey (Hotkey - Learn)
+// Abilities: A01G (Wagon: Corpse Toss), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -66460,7 +66195,7 @@ STRING 10104
 }
 
 STRING 10105
-// Abilities: A00N (Unique: Burning gaze), Hotkey (Hotkey - Normal)
+// Abilities: A00N (Unique: Burning gaze), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -66472,7 +66207,7 @@ Unique: Burning gaze (+)
 }
 
 STRING 10107
-// Abilities: A00N (Unique: Burning gaze), Researchhotkey (Hotkey - Learn)
+// Abilities: A1EA (Unique: Murderousness), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -66721,7 +66456,7 @@ STRING 10146
 }
 
 STRING 10147
-// Abilities: A01G (Wagon: Corpse Toss), Hotkey (Hotkey - Normal)
+// Abilities: A01G (Wagon: Corpse Toss), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -66733,7 +66468,7 @@ Sun King: Solar FlareXXX
 }
 
 STRING 10149
-// Abilities: A01G (Wagon: Corpse Toss), Researchhotkey (Hotkey - Learn)
+// Abilities: A01D (Energy Ball: Chain of lightning), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -66824,7 +66559,7 @@ Creates a fire sphere that deals damage every second equal to |cffbe81f770%|r of
 }
 
 STRING 10162
-// Abilities: A01D (Energy Ball: Chain of lightning), Hotkey (Hotkey - Normal)
+// Abilities: A01D (Energy Ball: Chain of lightning), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -66836,7 +66571,7 @@ Wagon: Corpse Toss
 }
 
 STRING 10164
-// Abilities: A01D (Energy Ball: Chain of lightning), Researchhotkey (Hotkey - Learn)
+// Abilities: A011 (Owl: Moonfire), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -67029,7 +66764,7 @@ STRING 10192
 }
 
 STRING 10193
-// Abilities: A011 (Owl: Moonfire), Hotkey (Hotkey - Normal)
+// Abilities: A011 (Owl: Moonfire), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -67041,7 +66776,7 @@ Energy Ball: Chain of lightning
 }
 
 STRING 10195
-// Abilities: A011 (Owl: Moonfire), Researchhotkey (Hotkey - Learn)
+// Abilities: A010 (Barbarian: Bloodlust), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -67215,6 +66950,15 @@ STRING 10222
 Aura of Light, [|cffffcc00Level 5|r]
 }
 
+STRING 10223
+// Units: n00M (Split Artifact (Slot 6)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Cost|r - 150 Gold.
+Destroys an item.
+
+|cffffcc00Potions are destroyed for free.|r
+}
+
 STRING 10224
 // Abilities: A10N (Arena: Automatic Arenas), Name (Name)
 {
@@ -67270,7 +67014,7 @@ STRING 10231
 }
 
 STRING 10232
-// Abilities: A010 (Barbarian: Bloodlust), Hotkey (Hotkey - Normal)
+// Abilities: A010 (Barbarian: Bloodlust), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -67282,7 +67026,7 @@ Owl: Moonfire
 }
 
 STRING 10234
-// Abilities: A010 (Barbarian: Bloodlust), Researchhotkey (Hotkey - Learn)
+// Abilities: A00U (Прочее: Vampire bite), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -67367,7 +67111,7 @@ After a short delay, it deals |cffbe81f7120|r damage to the enemy. If your hero 
 }
 
 STRING 10247
-// Abilities: A00U (Прочее: Vampire bite), Hotkey (Hotkey - Normal)
+// Abilities: A00C (Beorn: Slap), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -67379,7 +67123,7 @@ Barbarian: Bloodlust
 }
 
 STRING 10249
-// Abilities: A00C (Beorn: Slap), Hotkey (Hotkey - Normal)
+// Abilities: A00C (Beorn: Slap), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -67487,6 +67231,15 @@ STRING 10264
 Artifact: Twin heart
 }
 
+STRING 10265
+// Units: n00L (Split Artifact (Slot 5)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Cost|r - 150 Gold.
+Destroys an item.
+
+|cffffcc00Potions are destroyed for free.|r
+}
+
 STRING 10266
 // Abilities: A00W (Curse: Mystery (b25)XXX), Tip (Tooltip - Normal)
 {
@@ -67506,7 +67259,7 @@ Armor (Доспех Рыцаря)
 }
 
 STRING 10269
-// Abilities: A00C (Beorn: Slap), Researchhotkey (Hotkey - Learn)
+// Abilities: A1DR (Shepherd: Spirit Journey), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -67535,6 +67288,15 @@ STRING 10273
 // Abilities: A00T (Attack (Доспех Рыцаря)), Name (Name)
 {
 Attack (Доспех Рыцаря)
+}
+
+STRING 10274
+// Units: n00K (Split Artifact (Slot 4)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Cost|r - 150 Gold.
+Destroys an item.
+
+|cffffcc00Potions are destroyed for free.|r
 }
 
 STRING 10275
@@ -67658,7 +67420,7 @@ HP (Random bonus)
 }
 
 STRING 10294
-// Abilities: A1EA (Unique: Murderousness), Hotkey (Hotkey - Normal)
+// Abilities: A1EA (Unique: Murderousness), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -67670,7 +67432,7 @@ Unique: Burning gaze
 }
 
 STRING 10296
-// Abilities: A1EA (Unique: Murderousness), Researchhotkey (Hotkey - Learn)
+// Abilities: A1EB (Unique: Murderousness (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -67834,6 +67596,24 @@ STRING 10320
 |cffffcc00Уровень 4:|r Мастер клинков
 }
 
+STRING 10321
+// Units: n00J (Split Artifact (Slot 3)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Cost|r - 150 Gold.
+Destroys an item.
+
+|cffffcc00Potions are destroyed for free.|r
+}
+
+STRING 10322
+// Units: n00I (Split Artifact (Slot 2)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Cost|r - 150 Gold.
+Destroys an item.
+
+|cffffcc00Potions are destroyed for free.|r
+}
+
 STRING 10323
 // Abilities: A0RA (Sludge: Poison Touch), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -67950,7 +67730,7 @@ STRING 10341
 }
 
 STRING 10342
-// Abilities: A1DR (Shepherd: Spirit Journey), Hotkey (Hotkey - Normal)
+// Abilities: A1DR (Shepherd: Spirit Journey), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -67962,7 +67742,7 @@ Beorn: Slap
 }
 
 STRING 10344
-// Abilities: A1DR (Shepherd: Spirit Journey), Researchhotkey (Hotkey - Learn)
+// Abilities: A1DQ (Runesmith: Carve Rune of the Life-Giver), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -71569,12 +71349,6 @@ STRING 10939
 Spell power increased.
 }
 
-STRING 10940
-// Buffs/Effects: B02W (), Bufftip (Tooltip)
-{
-|cffff0000Hit the ground|r
-}
-
 STRING 10941
 // Buffs/Effects: B02W (), Buffubertip (Tooltip - Extended)
 {
@@ -73229,7 +73003,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.6.5T|r
+|cffbe81f7Boss Battle 1.6.6T|r
 }
 
 STRING 11219
@@ -73769,7 +73543,7 @@ Runesmith: Carve Rune of the Life-Giver
 }
 
 STRING 11299
-// Abilities: A1DQ (Runesmith: Carve Rune of the Life-Giver), Hotkey (Hotkey - Normal)
+// Abilities: A1E4 (Runesmith: Traveler's Strike), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -73986,7 +73760,7 @@ STRING 11329
 }
 
 STRING 11330
-// Abilities: A1DX (Runesmith: Carve Rune of the Rich), Hotkey (Hotkey - Normal)
+// Abilities: A1E5 (Runesmith: Take Root), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -74214,7 +73988,7 @@ Whenever the Runesmith uses a Rune he shares the effects with his allies. Using 
 }
 
 STRING 11363
-// Abilities: A1E4 (Runesmith: Traveler's Strike), Hotkey (Hotkey - Normal)
+// Abilities: A1E4 (Runesmith: Traveler's Strike), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -74225,7 +73999,7 @@ Change Notes 1.5.1
 }
 
 STRING 11365
-// Abilities: A1E4 (Runesmith: Traveler's Strike), Researchhotkey (Hotkey - Learn)
+// Abilities: A1G8 (Hero Spirit: Small Heal), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -74315,7 +74089,7 @@ STRING 11378
 }
 
 STRING 11379
-// Abilities: A1EB (Unique: Murderousness (+)), Hotkey (Hotkey - Normal)
+// Abilities: A1EB (Unique: Murderousness (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -74327,7 +74101,7 @@ Runsesmith: Carve Rune
 }
 
 STRING 11381
-// Abilities: A1E5 (Runesmith: Take Root), Hotkey (Hotkey - Normal)
+// Abilities: A1E5 (Runesmith: Take Root), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -74375,7 +74149,7 @@ Runesmith: Take Root
 }
 
 STRING 11389
-// Abilities: A1E5 (Runesmith: Take Root), Researchhotkey (Hotkey - Learn)
+// Abilities: A1G9 (Hero Spirit: Mana Throw), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -74460,7 +74234,7 @@ The Runesmith takes root allowing his spirit move around the battlefield. His bo
 }
 
 STRING 11401
-// Abilities: A1EB (Unique: Murderousness (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A1G9 (Hero Spirit: Mana Throw), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -74735,10 +74509,25 @@ STRING 11438
 XXXБосс 6: Краб (Девятый вал)
 }
 
+STRING 11439
+// Units: n00H (Split Artifact (Slot 1)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Cost|r - 150 Gold.
+Destroys an item.
+
+|cffffcc00Potions are destroyed for free.|r
+}
+
 STRING 11440
 // Abilities: A03L (XXXБосс 6: Краб (Сильный удар)), Name (Name)
 {
 XXXБосс 6: Краб (Сильный удар)
+}
+
+STRING 11441
+// Abilities: A0EF (Keeper: Moon Blinking), Name (Name)
+{
+Keeper: Moon Blinking
 }
 
 STRING 11442
@@ -75493,6 +75282,12 @@ STRING 11557
 - |cff00cceeAt 30% health:|r Increases its attack speed by 100%  for 60 seconds.
 }
 
+STRING 11558
+// Abilities: A0EF (Keeper: Moon Blinking), Researchtip (Tooltip - Learn)
+{
+Moon Blinking, [|cffffcc00Level %d|r]
+}
+
 STRING 11559
 // Abilities: A16Z (|cffffcc00Уровень 4:|r Начальник стражи), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75501,6 +75296,14 @@ STRING 11559
 - Every 12 seconds, marks a random hero. After 3 seconds, an explosion occurs, which takes away mana from all opponents in area, except for the marked hero, |cffbe81f740%|r of the maximum mana pool and kills if the target is a minion.
 - |cff00cceeAt 80%, 50% and 30% health:|r Removes all effects from the boss and heroes.
 - |cff00cceeAt 35% health:|r Suppresses healing magic. Heroes can no longer restore health with abilities and items.
+}
+
+STRING 11560
+// Abilities: A0EF (Keeper: Moon Blinking), Researchubertip (Tooltip - Learn - Extended)
+{
+Makes all nearby creatures invisible for 3 seconds. Restores |cffbe81f760/80/100/120/140|r mana to all targets (except caster). After the invisibility ends, target heroes increases Spell Power by 40%/60%/80%/100%/120% for 5 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 100 mana.
 }
 
 STRING 11561
@@ -75540,6 +75343,12 @@ STRING 11564
 - Every 20 seconds, the boss introduces a random hero into insanity for 10 seconds.
 - |cff00cceeAt 75% health:|r The boss launches a glaive that flies between the heroes and deals |cffbe81f750|r damage every half second.
 - |cff00cceeAt 30% health:|r When attacking, restores 75% of the health of the damage done.
+}
+
+STRING 11565
+// Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
+{
+Moon Blinking, [|cffffcc00Level 1|r]
 }
 
 STRING 11566
@@ -75604,12 +75413,24 @@ STRING 11571
 - |cff00cceeAt 40% health:|r Increases the attack and movement speed of the boss by 50%.
 }
 
+STRING 11572
+// Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
+{
+Moon Blinking, [|cffffcc00Level 2|r]
+}
+
 STRING 11573
 // Abilities: A0W4 (|cffffcc00Уровень 3:|r Маг-Трюкач), Ubertip (Tooltip - Normal - Extended)
 {
 - Every 10 seconds uses a random second (|cffffcc00W|r) ability of level 2.
 - |cff00cceeAt 75% health:|r Reduces cooldown of abilities by 3 seconds. Every 12 seconds, swaps the boss and random hero.
 - |cff00cceeAt 25% health:|r Reduces cooldown of abilities by 3 seconds. Imposes a shield on the boss, absorbing |cffbe81f71000|r damage for 3 minutes.
+}
+
+STRING 11574
+// Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
+{
+Moon Blinking, [|cffffcc00Level 3|r]
 }
 
 STRING 11575
@@ -75621,6 +75442,12 @@ STRING 11575
 - |cff00cceeAt 90% health:|r Every 5 seconds, summons a portal from which a random servant leaves.
 - |cff00cceeAt 50% health:|r Returns heroes in time. Fully restores health. Summons 4 portals next to each hero.
 - |cff00cceeAt 25% health:|r Kills heroes. Mercilessly.
+}
+
+STRING 11576
+// Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
+{
+Moon Blinking, [|cffffcc00Level 4|r]
 }
 
 STRING 11577
@@ -75697,6 +75524,12 @@ STRING 11584
 - Hydra health regen increased by 25.
 - After the death of the boss, creates 2 medium hydra.
 - After the death of the middle hydra, 5 small hydras are created.
+}
+
+STRING 11585
+// Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
+{
+Moon Blinking, [|cffffcc00Level 5|r]
 }
 
 STRING 11586
@@ -75783,6 +75616,13 @@ STRING 11593
 - |cff00cceeAt 25% health:|r Summons 4 robots.
 }
 
+STRING 11594
+// Abilities: A0EF (Keeper: Moon Blinking), Ubertip (Tooltip - Normal - Extended)
+{
+Makes all nearby creatures invisible for 3 seconds. Restores |cffbe81f760|r mana to all targets (except caster). After the invisibility ends, target heroes increases Spell Power by 40% for 5 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 11595
 // Abilities: A0AP (|cffffcc00Уровень 1:|r Электро-Гнолл), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75790,6 +75630,13 @@ STRING 11595
 |cffffcc00Life time:|r 20 seconds.
 - |cff00cceeAt 50% health:|r Creates 8 electrospheres around the boss.
 - |cff00cceeAt 25% health:|r Starts creating areas 2 times more often.
+}
+
+STRING 11596
+// Abilities: A0EF (Keeper: Moon Blinking), Ubertip (Tooltip - Normal - Extended)
+{
+Makes all nearby creatures invisible for 3 seconds. Restores |cffbe81f780|r mana to all targets (except caster). After the invisibility ends, target heroes increases Spell Power by 60% for 5 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 11597
@@ -75854,6 +75701,13 @@ STRING 11602
 - |cff00cceeAt 25% health:|r Every 6 seconds, it rains fire from the sky, dealing |cffbe81f7200|r damage.
 }
 
+STRING 11603
+// Abilities: A0EF (Keeper: Moon Blinking), Ubertip (Tooltip - Normal - Extended)
+{
+Makes all nearby creatures invisible for 3 seconds. Restores |cffbe81f7100|r mana to all targets (except caster). After the invisibility ends, target heroes increases Spell Power by 80% for 5 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 11604
 // Abilities: A06I (|cffffcc00Уровень 7:|r Великий волшебник), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75876,6 +75730,13 @@ STRING 11605
 - |cff00cceeAt 90% health:|r Increases attack speed by 25%. Every 7 seconds, creates 5 areas that explode after 2 seconds, dealing |cffbe81f5200|r damage.
 - |cff00cceeAt 65% health:|r Additionally increases attack speed by 25%. Lines are created more and more often.
 - |cff00cceeAt 40% health:|r Additionally increases attack speed by 25%. Lines are created more and more often.
+}
+
+STRING 11606
+// Abilities: A0EF (Keeper: Moon Blinking), Ubertip (Tooltip - Normal - Extended)
+{
+Makes all nearby creatures invisible for 3 seconds. Restores |cffbe81f7120|r mana to all targets (except caster). After the invisibility ends, target heroes increases Spell Power by 100% for 5 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 11607
@@ -75907,6 +75768,19 @@ STRING 11609
 - |cff00cceeAt 25% health:|r ???
 }
 
+STRING 11610
+// Abilities: A0EF (Keeper: Moon Blinking), Ubertip (Tooltip - Normal - Extended)
+{
+Makes all nearby creatures invisible for 3 seconds. Restores |cffbe81f7140|r mana to all targets (except caster). After the invisibility ends, target heroes increases Spell Power by 120% for 5 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11611
+// Abilities: A0C7 (Босс 5: Боевой голем (Удар грома)XXX), Name (Name)
+{
+Босс 5: Боевой голем (Удар грома)XXX
+}
+
 STRING 11612
 // Abilities: A06A (|cffffcc00Уровень 1:|r Кобольд), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75922,5 +75796,145 @@ STRING 11613
 - |cff00cceeAt 75% health:|r Summons 4 murlocs.
 - |cff00cceeAt 50% health:|r Increases minion attack power by 50%.
 - |cff00cceeAt 25% health:|r Summons 4 murlocs.
+}
+
+STRING 11614
+// Abilities: A1GC ((т)Аура: Slammed), Name (Name)
+{
+(т)Аура: Slammed
+}
+
+STRING 11615
+// Buffs/Effects: B02W (), Bufftip (Tooltip)
+{
+|cffff0000Slammed|r
+}
+
+STRING 11617
+// Abilities: A1G8 (Hero Spirit: Small Heal), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7100|r health to a friendly Hero.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
+STRING 11618
+// Abilities: A0IQ (Unique: Summon Skeletons (+)), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Summons 2 Skeletons.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 5 seconds.
+}
+
+STRING 11619
+// Abilities: A0IP (Unique: Summon Skeletons), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Summons a Skeleton.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 11620
+// Items: I07J (Living Mana), Description (Description)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+Activation: Burns all your mana to creates 3 elementals from it.
+|cffffcc00Life time:|r 45 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 11621
+// Items: I07J (Living Mana), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+Activation: Burns all your mana to creates 3 elementals from it.
+|cffffcc00Life time:|r 45 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 11622
+// Abilities: A0UK (Commander: Sea is Worried), Name (Name)
+{
+Commander: Sea is Worried
+}
+
+STRING 11623
+// Abilities: A0UK (Commander: Sea is Worried), Researchtip (Tooltip - Learn)
+{
+Sea is Worried, [|cffffcc00Level %d|r]
+}
+
+STRING 11624
+// Abilities: A0UK (Commander: Sea is Worried), Researchubertip (Tooltip - Learn - Extended)
+{
+Creates an explode in front of the hero, dealing |cffbe81f7300/400/500/600/700|r damage to enemies and stuns them for 1.5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+|cffffcc00Cost:|r 70 mana.
+}
+
+STRING 11625
+// Abilities: A0UK (Commander: Sea is Worried), Tip (Tooltip - Normal)
+{
+Sea is Worried, [|cffffcc00Level 1|r]
+}
+
+STRING 11626
+// Abilities: A0UK (Commander: Sea is Worried), Tip (Tooltip - Normal)
+{
+Sea is Worried, [|cffffcc00Level 2|r]
+}
+
+STRING 11627
+// Abilities: A0UK (Commander: Sea is Worried), Tip (Tooltip - Normal)
+{
+Sea is Worried, [|cffffcc00Level 3|r]
+}
+
+STRING 11628
+// Abilities: A0UK (Commander: Sea is Worried), Tip (Tooltip - Normal)
+{
+Sea is Worried, [|cffffcc00Level 4|r]
+}
+
+STRING 11629
+// Abilities: A0UK (Commander: Sea is Worried), Tip (Tooltip - Normal)
+{
+Sea is Worried, [|cffffcc00Level 5|r]
+}
+
+STRING 11630
+// Abilities: A0UK (Commander: Sea is Worried), Ubertip (Tooltip - Normal - Extended)
+{
+Creates an explode in front of the hero, dealing |cffbe81f7300|r damage to enemies and stuns them for 1.5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 11631
+// Abilities: A0UK (Commander: Sea is Worried), Ubertip (Tooltip - Normal - Extended)
+{
+Creates an explode in front of the hero, dealing |cffbe81f7400|r damage to enemies and stuns them for 1.5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 11632
+// Abilities: A0UK (Commander: Sea is Worried), Ubertip (Tooltip - Normal - Extended)
+{
+Creates an explode in front of the hero, dealing |cffbe81f7500|r damage to enemies and stuns them for 1.5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 11633
+// Abilities: A0UK (Commander: Sea is Worried), Ubertip (Tooltip - Normal - Extended)
+{
+Creates an explode in front of the hero, dealing |cffbe81f7600|r damage to enemies and stuns them for 1.5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 11634
+// Abilities: A0UK (Commander: Sea is Worried), Ubertip (Tooltip - Normal - Extended)
+{
+Creates an explode in front of the hero, dealing |cffbe81f7700|r damage to enemies and stuns them for 1.5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 

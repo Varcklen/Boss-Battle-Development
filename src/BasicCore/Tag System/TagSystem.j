@@ -16,16 +16,17 @@ library TagSystem initializer init requires Trigger
 		constant integer TAG_TRIPLE_SET_PIECE = 2
 		constant integer TAG_CORRUPTED = 3
 		constant integer TAG_ACTIVATABLE = 4
+		constant integer TAG_POTION = 5
 	endglobals
 	
 	private function InitTags takes nothing returns nothing
 		call Tag.create("Unmerged Orb", "unmerged_orb", TAG_UNMERGED_ORB)
 		call Tag.create("Triple Set", "triple_set", TAG_TRIPLE_SET_PIECE)
 		call Tag.create("|cffcc0000Corrupted|r", "corrupted", TAG_CORRUPTED)
-		call Tag.create("Activatable", "activatable", TAG_ACTIVATABLE)
+		call Tag.create("Activation", "activatable", TAG_ACTIVATABLE)
+		call Tag.create("|cff088a08Potion|r", "potion", TAG_POTION)
 	endfunction
 	//========================================================
-	
 	
 	//Public Functions
 	//========================================================

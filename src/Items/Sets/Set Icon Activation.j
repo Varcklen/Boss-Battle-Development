@@ -1,4 +1,4 @@
-library SetIconActivation
+library SetIconActivation requires Multiboard
 
 	function iconon takes integer index, string setType, string icon returns nothing
 	    local integer cyclA = 0
