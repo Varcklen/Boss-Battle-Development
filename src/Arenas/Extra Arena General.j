@@ -100,5 +100,9 @@ library ExtraArenaGeneral requires ItemRandomizerLib, Multiboard
 	public function CreateRunes takes nothing returns nothing
 		call SpawnRune()
     endfunction
+    
+    public function IsPvPFighter takes unit hero returns boolean
+		return udg_unit[57] == hero or udg_unit[58] == hero
+    endfunction
 
 endlibrary

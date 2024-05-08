@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.6.6T|r
+|cffbe81f7Boss Battle 1.6.7T|r
 }
 
 STRING 2
@@ -1246,12 +1246,6 @@ STRING 193
 Superbot 5000
 }
 
-STRING 194
-// Units: n01X (Weaver Vitia), Name (Name)
-{
-Weaver Vitia
-}
-
 STRING 195
 // Units: n01W (Baby Hydra), Name (Name)
 {
@@ -1517,6 +1511,12 @@ STRING 238
 Split Artifact (Slot 6)
 }
 
+STRING 239
+// Abilities: A1GD (Hero Spirit: Hero Spirit), Name (Name)
+{
+Hero Spirit: Hero Spirit
+}
+
 STRING 240
 // Units: n00L (Split Artifact (Slot 5)), Hotkey (Hotkey)
 {
@@ -1533,6 +1533,12 @@ STRING 242
 // Units: n00L (Split Artifact (Slot 5)), Tip (Tooltip - Basic)
 {
 Split Artifact (Slot 5)
+}
+
+STRING 243
+// Units: o021 (Hero Spirit), Name (Name)
+{
+Hero Spirit
 }
 
 STRING 244
@@ -1553,6 +1559,12 @@ STRING 246
 Split Artifact (Slot 4)
 }
 
+STRING 247
+// Abilities: A1GD (Hero Spirit: Hero Spirit), Ubertip (Tooltip - Normal - Extended)
+{
+While your hero falls, you gain control of their spirit, which continues to fight. The spirit disappears when the hero is resurrected.
+}
+
 STRING 248
 // Units: n00J (Split Artifact (Slot 3)), Hotkey (Hotkey)
 {
@@ -1569,6 +1581,13 @@ STRING 250
 // Units: n00J (Split Artifact (Slot 3)), Tip (Tooltip - Basic)
 {
 Split Artifact (Slot 3)
+}
+
+STRING 251
+// Abilities: A14R (Инкуб: Выманивание золота), Ubertip (Tooltip - Normal - Extended)
+{
+Each attack on the enemy gives gold.
+Improved by the ability "Symphony of the Damned".
 }
 
 STRING 252
@@ -1589,6 +1608,16 @@ STRING 254
 Split Artifact (Slot 2)
 }
 
+STRING 255
+// Items: I01H (Sheepman's Staff), Description (Description)
+{
+|cffbababcCommon|r
+Activation: Turns the enemy into a sheep.
+|cffffcc00Duration:|r 3 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+|cffffcc00Cost:|r 25 mana.
+}
+
 STRING 256
 // Units: n00H (Split Artifact (Slot 1)), Hotkey (Hotkey)
 {
@@ -1605,6 +1634,12 @@ STRING 258
 // Units: n00H (Split Artifact (Slot 1)), Tip (Tooltip - Basic)
 {
 Split Artifact (Slot 1)
+}
+
+STRING 259
+// Items: I01H (Sheepman's Staff), Name (Name)
+{
+Sheepman's Staff
 }
 
 STRING 260
@@ -2778,15 +2813,6 @@ STRING 451
 // Units: O00N ((T) Toxic Elemental), Propernames (Proper Names)
 {
 Lye Insanios
-}
-
-STRING 452
-// Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Ubertip (Tooltip - Normal - Extended)
-{
-- Increases attack power of all creatures by 50%.
-- |cff00cceeAt 90% health:|r Silences the heroes for 10 seconds.
-- |cff00cceeAt 75% health:|r Every second, it takes all creatures next to the boss |cffbe81f71%|r of the maximum health. If the target is a minion, it takes |cffbe81f725%|r health instead.
-- |cff00cceeAt 25% health:|r Fully restores health ones.
 }
 
 STRING 453
@@ -13039,27 +13065,15 @@ When the hero restore 200 or more health to the target, imposes invulnerability 
 }
 
 STRING 1948
-// Items: I08D (Manashtorm), Description (Description)
+// Items: I08D (Manastorm), Description (Description)
 {
 |cff4169e1Rare|r
 Activation: Kills an allied minion and restores |cffbe81f75%|r of maximum mana.
 |cffffcc00Cooldown:|r 1 second.
 }
 
-STRING 1949
-// Items: I08D (Manashtorm), Name (Name)
-{
-Manashtorm
-}
-
-STRING 1950
-// Items: I08D (Manashtorm), Tip (Tooltip - Basic)
-{
-Manashtorm
-}
-
 STRING 1951
-// Items: I08D (Manashtorm), Ubertip (Tooltip - Extended)
+// Items: I08D (Manastorm), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r
 Activation: Kills an allied minion and restores |cffbe81f75%|r of maximum mana.
@@ -13853,6 +13867,12 @@ STRING 2067
 When another hero dies, increases stats of your hero by 1.
 }
 
+STRING 2068
+// Items: I01H (Sheepman's Staff), Tip (Tooltip - Basic)
+{
+Sheepman's Staff
+}
+
 STRING 2069
 // Items: I07J (Living Mana), Name (Name)
 {
@@ -13863,6 +13883,15 @@ STRING 2070
 // Items: I07J (Living Mana), Tip (Tooltip - Basic)
 {
 Living Mana
+}
+
+STRING 2071
+// Items: I01H (Sheepman's Staff), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: Turns the enemy into a sheep.
+|cffffcc00Duration:|r 3 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 2072
@@ -18692,14 +18721,6 @@ STRING 2788
 |cff81f260[Random bonus]|r
 }
 
-STRING 2789
-// Items: I0BM (Conqueror's Helmet), Description (Description)
-{
-|cff4169e1Rare|r
-The Hero cannot take more damage than 8% of the maximum Health.
-|cff81f260[Random bonus]|r
-}
-
 STRING 2790
 // Items: I02K (Unique Recipe Book), Name (Name)
 {
@@ -18710,14 +18731,6 @@ STRING 2791
 // Items: I02K (Unique Recipe Book), Tip (Tooltip - Basic)
 {
 Unique Recipe Book
-}
-
-STRING 2792
-// Items: I0BM (Conqueror's Helmet), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-The Hero cannot take more damage than 8% of the maximum Health.
-|cff81f260[Random bonus]|r
 }
 
 STRING 2793
@@ -19134,12 +19147,9 @@ When the hero attacks, reduces the target's armor by 7.
 }
 
 STRING 2853
-// Items: I024 (Bandage), Description (Description)
+// Abilities: A1GE (Босс 6: Crab (Armor)), Name (Name)
 {
-|cffbababcCommon|r
-When you use |cffcc0000corrupted|r artifact, increases hero health regeneration by 15 until the end of the battle.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
+Босс 6: Crab (Armor)
 }
 
 STRING 2854
@@ -19155,12 +19165,9 @@ Bandage
 }
 
 STRING 2856
-// Items: I024 (Bandage), Ubertip (Tooltip - Extended)
+// Units: n01X (Weaver Viva), Name (Name)
 {
-|cffbababcCommon|r
-When you use |cffcc0000corrupted|r artifact, increases hero health regeneration by 15 until the end of the battle.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
+Weaver Viva
 }
 
 STRING 2857
@@ -19778,36 +19785,29 @@ Activation: |cffcc0000Corrupted|r. Gives a random bonus for each your |cffcc0000
 }
 
 STRING 2949
-// Items: I01H (Sheepman's staff), Description (Description)
+// Items: I08D (Manastorm), Name (Name)
 {
-|cffbababcCommon|r
-Activation: Turns the enemy into a sheep.
-Sometimes a staff is |cffd7df01unstable|r.
-|cffffcc00Duration:|r 3 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-|cffffcc00Cost:|r 25 mana.
+Manastorm
 }
 
 STRING 2950
-// Items: I01H (Sheepman's staff), Name (Name)
+// Items: I08D (Manastorm), Tip (Tooltip - Basic)
 {
-Sheepman's staff
+Manastorm
 }
 
 STRING 2951
-// Items: I01H (Sheepman's staff), Tip (Tooltip - Basic)
+// Items: I01E (Rigged Dice Set), Description (Description)
 {
-Sheepman's staff
+|cffe96a1cLegendary|r
+The base chance for |cffd7df01luck|r-based effects to proc is doubled.
 }
 
 STRING 2952
-// Items: I01H (Sheepman's staff), Ubertip (Tooltip - Extended)
+// Items: I01E (Rigged Dice Set), Ubertip (Tooltip - Extended)
 {
-|cffbababcCommon|r
-Activation: Turns the enemy into a sheep.
-Sometimes a staff is |cffd7df01unstable|r.
-|cffffcc00Duration:|r 3 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
+|cffe96a1cLegendary|r
+The base chance for |cffd7df01luck|r-based effects to proc is doubled.
 }
 
 STRING 2953
@@ -19874,13 +19874,6 @@ When you take an artifact with |cff81f260[Random bonus]|r, it gives 2 extra ones
 |cff81f260[Random bonus]|r
 }
 
-STRING 2961
-// Items: I01E (Rigged Dice Set), Description (Description)
-{
-|cffe96a1cLegendary|r
-Doubles the base proc chance bonus for all |cffd7df01luck|r-based effects.
-}
-
 STRING 2962
 // Items: I01E (Rigged Dice Set), Name (Name)
 {
@@ -19891,13 +19884,6 @@ STRING 2963
 // Items: I01E (Rigged Dice Set), Tip (Tooltip - Basic)
 {
 Rigged Dice Set
-}
-
-STRING 2964
-// Items: I01E (Rigged Dice Set), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Doubles the base proc chance bonus for all |cffd7df01luck|r-based effects.
 }
 
 STRING 2965
@@ -23976,14 +23962,6 @@ STRING 3573
 Brother Rant
 }
 
-STRING 3574
-// Abilities: A1BE (Unique: Brother Rant (+)), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Reduces the cooldown of Bonnie's abilities by 3 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
 STRING 3575
 // Abilities: A1BD (Unique: Brother Rant), Hotkey (Hotkey - Normal)
 {
@@ -24018,14 +23996,6 @@ STRING 3580
 // Abilities: A1BD (Unique: Brother Rant), Tip (Tooltip - Normal)
 {
 Brother Rant
-}
-
-STRING 3581
-// Abilities: A1BD (Unique: Brother Rant), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Reduces the cooldown of Bonnie's abilities by 1.5 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 3582
@@ -30581,16 +30551,23 @@ STRING 4592
 }
 
 STRING 4593
-// Abilities: A14R (Инкуб: Выманивание золота), Tip (Tooltip - Normal)
+// Abilities: A1BE (Unique: Brother Rant (+)), Ubertip (Tooltip - Normal - Extended)
 {
-Dealing with gold
+|cff60C445Unique|r
+Reduces the cooldown of Bonnie's abilities by 3 seconds.
+|cffffcc00Cooldown:|r 8 seconds.
+
+|cFF959697If you can't summon Bonnie, it works on the caster.|r
 }
 
 STRING 4594
-// Abilities: A14R (Инкуб: Выманивание золота), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1BD (Unique: Brother Rant), Ubertip (Tooltip - Normal - Extended)
 {
-Each hit of an incubus gives gold.
-Improved by the ability "Symphony of the Damned".
+|cff60C445Unique|r
+Reduces the cooldown of Bonnie's abilities by 1.5 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+
+|cFF959697If you can't summon Bonnie, it works on the caster.|r
 }
 
 STRING 4595
@@ -33772,9 +33749,12 @@ STRING 5081
 }
 
 STRING 5082
-// Abilities: A10Q (Curse: Scatter (b15)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Ubertip (Tooltip - Normal - Extended)
 {
-When the enemy dies, deals |cffbe81f735|r damage to all enemies of the creature nearby.
+- Increases attack power of all creatures by 50%.
+- |cff00cceeAt 90% health:|r Silences the heroes for 10 seconds.
+- |cff00cceeAt 75% health:|r Every second, it takes all creatures next to the boss |cffbe81f71%|r of the maximum health. Minions lose |cffbe81f715%|r health instead.
+- |cff00cceeAt 25% health:|r Fully restores health ones.
 }
 
 STRING 5083
@@ -38120,10 +38100,103 @@ STRING 5744
 Q
 }
 
+STRING 5745
+// Abilities: A14R (Инкуб: Выманивание золота), Tip (Tooltip - Normal)
+{
+Dealing with Gold
+}
+
 STRING 5746
 // Abilities: A0UF (Overlord: Slash), Hotkey (Hotkey - Normal)
 {
 Q
+}
+
+STRING 5747
+// Abilities: A10Q (Curse: Scatter (b15)), Ubertip (Tooltip - Normal - Extended)
+{
+When the enemy dies, deals |cffbe81f735|r damage to nearby heroes.
+}
+
+STRING 5748
+{
+Summoned creatures take 40% less damage from magic.
+}
+
+STRING 5749
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Researchubertip (Tooltip - Learn - Extended)
+{
+Deal |cffbe81f760/100/140/180/220|r damage to the enemy. Summons 1/2/3/4/5 skeletons.
+|cffffcc00Cooldown:|r 10/9/8/7/6 seconds.
+|cffffcc00Cost:|r 35 Mana.
+}
+
+STRING 5750
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f760|r damage to the enemy. Summons 1 skeleton.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 5751
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7100|r damage to the enemy. Summons 2 skeletons.
+|cffffcc00Cooldown:|r 9 seconds.
+}
+
+STRING 5752
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7140|r damage to the enemy. Summons 3 skeletons.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
+STRING 5753
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7180|r damage to the enemy. Summons 4 skeletons.
+|cffffcc00Cooldown:|r 7 seconds.
+}
+
+STRING 5754
+// Abilities: A0CM (Skeletlord: Grasp of the Dead), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7220|r damage to the enemy. Summons 5 skeletons.
+|cffffcc00Cooldown:|r 6 seconds.
+}
+
+STRING 5755
+// Abilities: A0AL (Druid: Herd), Researchubertip (Tooltip - Learn - Extended)
+{
+Summons 2/3/4/5/6 boars. With a probability of |cffd7df0115%|r, calls for 2 times more boars.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 100/115/130/145/160 mana.
+}
+
+STRING 5756
+// Abilities: A0AL (Druid: Herd), Ubertip (Tooltip - Normal - Extended)
+{
+Summons 2 boars. With a probability of |cffd7df0115%|r, calls for 2 times more boars.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 5757
+// Abilities: A0AL (Druid: Herd), Ubertip (Tooltip - Normal - Extended)
+{
+Summons 3 boars. With a probability of |cffd7df0115%|r, calls for 2 times more boars.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 5758
+// Abilities: A0AL (Druid: Herd), Ubertip (Tooltip - Normal - Extended)
+{
+Summons 4 boars. With a probability of |cffd7df0115%|r, calls for 2 times more boars.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 5759
@@ -49630,6 +49703,14 @@ STRING 7519
 Summon Skeletons
 }
 
+STRING 7520
+// Abilities: A0AL (Druid: Herd), Ubertip (Tooltip - Normal - Extended)
+{
+Summons 5 boars. With a probability of |cffd7df0115%|r, calls for 2 times more boars.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 7521
 // Abilities: A0IP (Unique: Summon Skeletons), Hotkey (Hotkey - Normal)
 {
@@ -49646,6 +49727,14 @@ STRING 7523
 // Abilities: A0IP (Unique: Summon Skeletons), Tip (Tooltip - Normal)
 {
 Summon Skeletons
+}
+
+STRING 7524
+// Abilities: A0AL (Druid: Herd), Ubertip (Tooltip - Normal - Extended)
+{
+Summons 6 boars. With a probability of |cffd7df0115%|r, calls for 2 times more boars.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 7525
@@ -52353,7 +52442,7 @@ STRING 7945
 }
 
 STRING 7946
-// Units: o021 (Hero Spirit), Name (Name)
+// Abilities: A1GD (Hero Spirit: Hero Spirit), Tip (Tooltip - Normal)
 {
 Hero Spirit
 }
@@ -52434,6 +52523,15 @@ STRING 7959
 // Abilities: A1G8 (Hero Spirit: Small Heal), Tip (Tooltip - Normal)
 {
 Small Heal
+}
+
+STRING 7960
+// Items: I024 (Bandage), Description (Description)
+{
+|cffbababcCommon|r
+When you use |cffcc0000corrupted|r artifact, increases hero health regeneration by 35 until the end of the battle.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
 }
 
 STRING 7961
@@ -53398,16 +53496,41 @@ STRING 8108
 Seal of Brotherhood
 }
 
+STRING 8109
+// Items: I024 (Bandage), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+When you use |cffcc0000corrupted|r artifact, increases hero health regeneration by 35 until the end of the battle.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
 STRING 8110
 // Abilities: A0EF (Keeper: Moon Blinking), Researchhotkey (Hotkey - Learn)
 {
 R
 }
 
+STRING 8111
+// Items: I0BM (Conqueror's Helmet), Description (Description)
+{
+|cff4169e1Rare|r
+The Hero cannot take more damage than 10% of the maximum Health.
+|cff81f260[Random bonus]|r
+}
+
 STRING 8112
 // Abilities: A0DY (Minotaur: Wrath), Hotkey (Hotkey - Normal)
 {
 R
+}
+
+STRING 8113
+// Items: I0BM (Conqueror's Helmet), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+The Hero cannot take more damage than 10% of the maximum Health.
+|cff81f260[Random bonus]|r
 }
 
 STRING 8125
@@ -56699,15 +56822,6 @@ STRING 8636
 Herd, [|cffffcc00Level %d|r]
 }
 
-STRING 8637
-// Abilities: A0AL (Druid: Herd), Researchubertip (Tooltip - Learn - Extended)
-{
-Summons 2/3/4/5/6 boars. With a probability of |cffd7df0115%|r, calls for 2 times more boars.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-|cffffcc00Cost:|r 100/115/130/145/160 mana.
-}
-
 STRING 8638
 // Abilities: A0AL (Druid: Herd), Tip (Tooltip - Normal)
 {
@@ -56736,46 +56850,6 @@ STRING 8642
 // Abilities: A0AL (Druid: Herd), Tip (Tooltip - Normal)
 {
 Herd, [|cffffcc00Level 5|r]
-}
-
-STRING 8643
-// Abilities: A0AL (Druid: Herd), Ubertip (Tooltip - Normal - Extended)
-{
-Summons 2 boars. With a probability of |cffd7df0115%|r, calls for 2 times more boars.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 8644
-// Abilities: A0AL (Druid: Herd), Ubertip (Tooltip - Normal - Extended)
-{
-Summons 3 boars. With a probability of |cffd7df0115%|r, calls for 2 times more boars.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 8645
-// Abilities: A0AL (Druid: Herd), Ubertip (Tooltip - Normal - Extended)
-{
-Summons 4 boars. With a probability of |cffd7df0115%|r, calls for 2 times more boars.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 8646
-// Abilities: A0AL (Druid: Herd), Ubertip (Tooltip - Normal - Extended)
-{
-Summons 5 boars. With a probability of |cffd7df0115%|r, calls for 2 times more boars.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 8647
-// Abilities: A0AL (Druid: Herd), Ubertip (Tooltip - Normal - Extended)
-{
-Summons 6 boars. With a probability of |cffd7df0115%|r, calls for 2 times more boars.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 8648
@@ -59061,14 +59135,6 @@ STRING 9003
 Grasp of the Dead, [|cffffcc00Level %d|r]
 }
 
-STRING 9004
-// Abilities: A0CM (Skeletlord: Grasp of the Dead), Researchubertip (Tooltip - Learn - Extended)
-{
-Deal |cffbe81f760/100/140/180/220|r damage to the enemy. Summons 1-4 skeletons.
-|cffffcc00Cooldown:|r 10/9/8/7/6 seconds.
-|cffffcc00Cost:|r 35 Mana.
-}
-
 STRING 9005
 // Abilities: A0CM (Skeletlord: Grasp of the Dead), Tip (Tooltip - Normal)
 {
@@ -59267,22 +59333,6 @@ STRING 9036
 Grasp of the Dead, [|cffffcc00Level 5|r]
 }
 
-STRING 9037
-// Abilities: A0CM (Skeletlord: Grasp of the Dead), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f760|r damage to the enemy.
-Summons 1-4 skeletons.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 9038
-// Abilities: A0CM (Skeletlord: Grasp of the Dead), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7100|r damage to the enemy.
-Summons 1-4 skeletons.
-|cffffcc00Cooldown:|r 9 seconds.
-}
-
 STRING 9039
 // Abilities: A08D (Artifact: Superbot-3000), Name (Name)
 {
@@ -59387,14 +59437,6 @@ STRING 9055
 // Abilities: A088 (Unique: Provocation), Tip (Tooltip - Normal)
 {
 Provocation
-}
-
-STRING 9056
-// Abilities: A0CM (Skeletlord: Grasp of the Dead), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7140|r damage to the enemy.
-Summons 1-4 skeletons.
-|cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 9057
@@ -61287,14 +61329,6 @@ STRING 9344
 // Abilities: A06H (|cffffcc00Уровень 6:|r Краб), Tip (Tooltip - Normal)
 {
 Crab
-}
-
-STRING 9345
-// Abilities: A0CM (Skeletlord: Grasp of the Dead), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7180|r damage to the enemy.
-Summons 1-4 skeletons.
-|cffffcc00Cooldown:|r 7 seconds.
 }
 
 STRING 9346
@@ -63530,14 +63564,6 @@ STRING 9693
 // Abilities: A04L (Doctor: Unreachable), Researchtip (Tooltip - Learn)
 {
 Unreachable, [|cffffcc00Level %d|r]
-}
-
-STRING 9694
-// Abilities: A0CM (Skeletlord: Grasp of the Dead), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7220|r damage to the enemy.
-Summons 1-4 skeletons.
-|cffffcc00Cooldown:|r 6 seconds.
 }
 
 STRING 9695
@@ -72715,11 +72741,6 @@ STRING 11166
 Тип: |Cffffcc00Minion Armor|R
 }
 
-STRING 11167
-{
-Summoned creatures take 75% less damage from magic.
-}
-
 STRING 11168
 {
 Heroes take full damage from any sources.
@@ -73003,7 +73024,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.6.6T|r
+|cffbe81f7Boss Battle 1.6.7T|r
 }
 
 STRING 11219
