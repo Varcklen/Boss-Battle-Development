@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.6.7T|r
+|cffbe81f7Boss Battle 1.7.0|r
 }
 
 STRING 2
@@ -1244,6 +1244,12 @@ STRING 193
 // Units: n01Z (Superbot 5000), Name (Name)
 {
 Superbot 5000
+}
+
+STRING 194
+// Abilities: A1GF (Spell Power (+25%)), Name (Name)
+{
+Spell Power (+25%)
 }
 
 STRING 195
@@ -73024,7 +73030,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.6.7T|r
+|cffbe81f7Boss Battle 1.7.0|r
 }
 
 STRING 11219

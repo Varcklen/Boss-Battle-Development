@@ -165,8 +165,18 @@ scope OrbMerge initializer init
 	    set n = null
 	endfunction
 	
+	private function delay takes nothing returns nothing
+		local integer id = GetHandleId( GetExpiredTimer() )
+		local unit caster = LoadUnitHandle(udg_hash, id, StringHash( "merge_orb" ) )
+		
+	    call Merge( caster, 0)
+	    call FlushChildHashtable( udg_hash, id )
+	    
+	    set caster = null
+	endfunction
+	
 	private function action takes nothing returns nothing
-	    call Merge(GetManipulatingUnit(), 0)
+	    call InvokeTimerWithUnit( GetManipulatingUnit(), "merge_orb", 0.01, false, function delay )
 	endfunction
 	
 	//===========================================================================
