@@ -31,7 +31,7 @@ scope BlessRuneMaking initializer init
     endfunction
 	
 	private function init takes nothing returns nothing
-		set Trigger = CreateEventTrigger( "udg_FightStartGlobal_Real", function action, null )
+		set Trigger = CreateEventTrigger( "udg_FightStartGlobal_Real", function action, function condition )
 		call DisableTrigger( Trigger )
 	endfunction
 

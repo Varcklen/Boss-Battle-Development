@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.7.0|r
+|cffbe81f7Boss Battle 1.7.1T|r
 }
 
 STRING 2
@@ -2781,26 +2781,10 @@ STRING 445
 Discord
 }
 
-STRING 446
-// Items: I00A (Runestone Alatyr), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases Attack by 30 and Health Regeneration by 2.
-Reduces Damage dealt to minions by 30%.
-}
-
 STRING 447
 // Units: O00S ((W) Commander), Propernames (Proper Names)
 {
 Kappa
-}
-
-STRING 448
-// Items: I00A (Runestone Alatyr), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases Attack by 30 and Health Regeneration by 2.
-Reduces Damage dealt to minions by 30%.
 }
 
 STRING 449
@@ -2819,6 +2803,13 @@ STRING 451
 // Units: O00N ((T) Toxic Elemental), Propernames (Proper Names)
 {
 Lye Insanios
+}
+
+STRING 452
+// Items: I0AG (Staff of Purity), Description (Description)
+{
+|cff4169e1Rare|r
+Increases stats by 4. At the beginning of the battle, fills the inventory with purified matter.
 }
 
 STRING 453
@@ -5201,13 +5192,6 @@ STRING 819
 Hell Plate
 }
 
-STRING 820
-// Items: I0G7 (Runestone Info), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-When your minion is summoned, it increases attack power and health by 40% and reduces movement speed by 20%.
-}
-
 STRING 821
 // Items: I0G7 (Runestone Info), Name (Name)
 {
@@ -5218,13 +5202,6 @@ STRING 822
 // Items: I0G7 (Runestone Info), Tip (Tooltip - Basic)
 {
 Runestone Info
-}
-
-STRING 823
-// Items: I0G7 (Runestone Info), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-When your minion is summoned, it increases attack power and health by 40% and reduces movement speed by 20%.
 }
 
 STRING 824
@@ -7327,14 +7304,6 @@ STRING 1117
 The Hero's attacks deal additional damage from Intelligence.
 }
 
-STRING 1118
-// Items: I0E5 (Runestone Zolo), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Your abilities and items have a |cffd7df0120%|r chance to critically hit, dealing 75% more damage.
-Increases cooldown of abilities and items by 15%.
-}
-
 STRING 1119
 // Items: I0E5 (Runestone Zolo), Name (Name)
 {
@@ -7345,14 +7314,6 @@ STRING 1120
 // Items: I0E5 (Runestone Zolo), Tip (Tooltip - Basic)
 {
 Runestone Zolo
-}
-
-STRING 1121
-// Items: I0E5 (Runestone Zolo), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Your abilities and items have a |cffd7df0120%|r chance to critically hit, dealing 75% more damage.
-Increases cooldown of abilities and items by 15%.
 }
 
 STRING 1122
@@ -7642,14 +7603,6 @@ Activation: Gives the hero a buff:
 |cffffcc00Cooldown:|r 60 seconds.
 }
 
-STRING 1162
-// Items: I0DU (Runestone Chad), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases attack speed by 90%.
-Reduces attack power by 90%.
-}
-
 STRING 1163
 // Items: I0DU (Runestone Chad), Name (Name)
 {
@@ -7660,14 +7613,6 @@ STRING 1164
 // Items: I0DU (Runestone Chad), Tip (Tooltip - Basic)
 {
 Runestone Chad
-}
-
-STRING 1165
-// Items: I0DU (Runestone Chad), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases attack speed by 90%.
-Reduces attack power by 90%.
 }
 
 STRING 1166
@@ -9898,14 +9843,6 @@ Every 4 seconds, it uses a random 1 level ability.
 |cffffcc00Cooldown:|r 3 seconds.
 }
 
-STRING 1486
-// Items: I0BL (Runestone Wiz), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff848484Rune|r
-Reduces stats by 8.
-Every 60 seconds, fully restores health and mana.
-}
-
 STRING 1487
 // Items: I0BL (Runestone Wiz), Name (Name)
 {
@@ -9916,14 +9853,6 @@ STRING 1488
 // Items: I0BL (Runestone Wiz), Tip (Tooltip - Basic)
 {
 Runestone Wiz
-}
-
-STRING 1489
-// Items: I0BL (Runestone Wiz), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff848484Rune|r
-Reduces stats by 8.
-Every 60 seconds, fully restores health and mana.
 }
 
 STRING 1490
@@ -11024,10 +10953,9 @@ Increases attack speed by 10% and armor by 3. Every second, deals |cffbe81f720|r
 }
 
 STRING 1650
-// Items: I0AG (Staff of Purity), Description (Description)
+// Abilities: A0RT (Alchemist: Elemental Power), Name (Name)
 {
-|cff4169e1Rare|r
-At the beginning of the battle, fills the inventory with purified matter.
+Alchemist: Elemental Power
 }
 
 STRING 1651
@@ -11043,17 +10971,9 @@ Staff of Purity
 }
 
 STRING 1653
-// Items: I0AG (Staff of Purity), Ubertip (Tooltip - Extended)
+// Abilities: A0RT (Alchemist: Elemental Power), Researchtip (Tooltip - Learn)
 {
-|cff4169e1Rare|r
-At the beginning of the battle, fills the inventory with purified matter.
-}
-
-STRING 1654
-// Items: I0AF (Runestone Doh), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases damage done and received by 25%.
+Elemental Power, [|cffffcc00Level %d|r]
 }
 
 STRING 1655
@@ -11066,13 +10986,6 @@ STRING 1656
 // Items: I0AF (Runestone Doh), Tip (Tooltip - Basic)
 {
 Runestone Doh
-}
-
-STRING 1657
-// Items: I0AF (Runestone Doh), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases damage done and received by 25%.
 }
 
 STRING 1658
@@ -11133,14 +11046,6 @@ When the hero activates the first ability (|cffffcc00Q|r), restores |cffbe81f71%
 
 }
 
-STRING 1666
-// Items: I0AC (Runestone Troy), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-At the end of battle creates 5 arena runes.
-You choose from 2 reward artifacts instead of 3.
-}
-
 STRING 1667
 // Items: I0AC (Runestone Troy), Name (Name)
 {
@@ -11151,14 +11056,6 @@ STRING 1668
 // Items: I0AC (Runestone Troy), Tip (Tooltip - Basic)
 {
 Runestone Troy
-}
-
-STRING 1669
-// Items: I0AC (Runestone Troy), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-At the end of battle creates 5 arena runes.
-You choose from 2 reward artifacts instead of 3.
 }
 
 STRING 1670
@@ -11575,11 +11472,9 @@ Every 2 seconds, restores |cffbe81f72%|r of maximum health if the hero’s healt
 }
 
 STRING 1730
-// Items: I09W (Runestone Zot), Description (Description)
+// Abilities: A135 (|cffffcc00Уровень 7:|r Заводной резак), Tip (Tooltip - Normal)
 {
-|cffbababcCommon|r, |cff848484Rune|r
-Increases attack power by 20 and armor by 2.
-The hero receives 20% less gold from any sources.
+Goblin Shredder
 }
 
 STRING 1731
@@ -11595,11 +11490,10 @@ Runestone Zot
 }
 
 STRING 1733
-// Items: I09W (Runestone Zot), Ubertip (Tooltip - Extended)
+// Items: I0G7 (Runestone Info), Description (Description)
 {
 |cffbababcCommon|r, |cff848484Rune|r
-Increases attack power by 20 and armor by 2.
-The hero receives 20% less gold from any sources.
+When your minion is summoned, it increases attack power and health by 40% |cffffffffand reduces movement speed by 20%|r.
 }
 
 STRING 1734
@@ -13078,6 +12972,22 @@ Activation: Kills an allied minion and restores |cffbe81f75%|r of maximum mana.
 |cffffcc00Cooldown:|r 1 second.
 }
 
+STRING 1949
+// Items: I0AG (Staff of Purity), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Increases stats by 4. At the beginning of the battle, fills the inventory with purified matter.
+}
+
+STRING 1950
+// Items: I07H (Philosopher's Potion), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Gives a random |cff088a08potion|r. When the inventory is full, casts it instead.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
 STRING 1951
 // Items: I08D (Manastorm), Ubertip (Tooltip - Extended)
 {
@@ -13927,32 +13837,30 @@ Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r artifact from the set that
 }
 
 STRING 2076
-// Items: I07H (Philosophical potion), Description (Description)
+// Abilities: A0RT (Alchemist: Elemental Power), Researchubertip (Tooltip - Learn - Extended)
 {
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Gives a random |cff088a08potion|r to an empty inventory slot. Only works in combat.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 50 mana.
+Throws a projectile at a certain point, which explodes after 3 seconds, causing |cffbe81f7125/175/225/275/325|r damage to nearby enemies and reduces their attack power by 5/10/15/20/25. Repeats 2 times at random locations nearby.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 60 mana.
 }
 
 STRING 2077
-// Items: I07H (Philosophical potion), Name (Name)
+// Abilities: A0RT (Alchemist: Elemental Power), Tip (Tooltip - Normal)
 {
-Philosophical potion
+Elemental Power, [|cffffcc00Level 1|r]
 }
 
 STRING 2078
-// Items: I07H (Philosophical potion), Tip (Tooltip - Basic)
+// Abilities: A0RT (Alchemist: Elemental Power), Tip (Tooltip - Normal)
 {
-Philosophical potion
+Elemental Power, [|cffffcc00Level 2|r]
 }
 
 STRING 2079
-// Items: I07H (Philosophical potion), Ubertip (Tooltip - Extended)
+// Abilities: A0RT (Alchemist: Elemental Power), Tip (Tooltip - Normal)
 {
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Gives a random |cff088a08potion|r to an empty inventory slot. Only works in combat.
-|cffffcc00Cooldown:|r 30 seconds.
+Elemental Power, [|cffffcc00Level 3|r]
 }
 
 STRING 2080
@@ -14186,13 +14094,6 @@ STRING 2111
 Increases physical damage by 10%.
 }
 
-STRING 2112
-// Items: I078 (Runestone Telepu), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Reduces attack power of the hero and bosses by 30%.
-}
-
 STRING 2113
 // Items: I078 (Runestone Telepu), Name (Name)
 {
@@ -14203,13 +14104,6 @@ STRING 2114
 // Items: I078 (Runestone Telepu), Tip (Tooltip - Basic)
 {
 Runestone Telepu
-}
-
-STRING 2115
-// Items: I078 (Runestone Telepu), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Reduces attack power of the hero and bosses by 30%.
 }
 
 STRING 2116
@@ -14236,13 +14130,6 @@ STRING 2119
 |cff00ff00Ruby oil|rXXX
 }
 
-STRING 2120
-// Items: I076 (Runestone Zirik), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Gain a random artifact at the end of battle. If the artifact is |cff4169e1rare|r or |cffe96a1clegendary|r, your hero gains 5 stats. Otherwise, your hero loses 2 stats.
-}
-
 STRING 2121
 // Items: I076 (Runestone Zirik), Name (Name)
 {
@@ -14253,13 +14140,6 @@ STRING 2122
 // Items: I076 (Runestone Zirik), Tip (Tooltip - Basic)
 {
 Runestone Zirik
-}
-
-STRING 2123
-// Items: I076 (Runestone Zirik), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Gain a random artifact at the end of battle. If the artifact is |cff4169e1rare|r or |cffe96a1clegendary|r, your hero gains 5 stats. Otherwise, your hero loses 2 stats.
 }
 
 STRING 2124
@@ -14761,14 +14641,6 @@ Activation: Gives 50 gold.
 |cffffcc00Cooldown:|r 40 seconds.
 }
 
-STRING 2196
-// Items: I06N (Runestone Landom), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases luck by 25 and agility by 12.
-Decreases attack power by 25.
-}
-
 STRING 2197
 // Items: I06N (Runestone Landom), Name (Name)
 {
@@ -14779,14 +14651,6 @@ STRING 2198
 // Items: I06N (Runestone Landom), Tip (Tooltip - Basic)
 {
 Runestone Landom
-}
-
-STRING 2199
-// Items: I06N (Runestone Landom), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases luck by 25 and agility by 12.
-Decreases attack power by 25.
 }
 
 STRING 2200
@@ -15793,14 +15657,6 @@ STRING 2348
 Increases luck by 1.
 }
 
-STRING 2349
-// Items: I05L (Runestone Pik), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-The hero receives 35% more gold from any sources.
-Every fifth gold reward does not give gold.
-}
-
 STRING 2350
 // Items: I05L (Runestone Pik), Name (Name)
 {
@@ -15811,14 +15667,6 @@ STRING 2351
 // Items: I05L (Runestone Pik), Tip (Tooltip - Basic)
 {
 Runestone Pik
-}
-
-STRING 2352
-// Items: I05L (Runestone Pik), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-The hero receives 35% more gold from any sources.
-Every fifth gold reward does not give gold.
 }
 
 STRING 2353
@@ -16243,10 +16091,9 @@ Activation: Summons 2 essences of air.
 }
 
 STRING 2417
-// Items: I056 (Fire Potion), Description (Description)
+// Abilities: A0RT (Alchemist: Elemental Power), Tip (Tooltip - Normal)
 {
-|cff088a08Potion|r
-Activation: Deals |cffbe81f7250|r damage to an enemy.
+Elemental Power, [|cffffcc00Level 4|r]
 }
 
 STRING 2418
@@ -16268,10 +16115,9 @@ Fire Potion
 }
 
 STRING 2421
-// Items: I056 (Fire Potion), Ubertip (Tooltip - Extended)
+// Abilities: A0RT (Alchemist: Elemental Power), Tip (Tooltip - Normal)
 {
-|cff088a08Potion|r
-Activation: Deals |cffbe81f7250|r damage to an enemy.
+Elemental Power, [|cffffcc00Level 5|r]
 }
 
 STRING 2422
@@ -16338,13 +16184,6 @@ STRING 2431
 Activation: Restores |cffbe81f7225|r health to the hero.
 }
 
-STRING 2432
-// Items: I053 (Runestone Isli), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-When the hero uses an ability or item, it reduces the cooldown of one of the hero abilities by 5 seconds, but takes 3% of mana.
-}
-
 STRING 2433
 // Items: I053 (Runestone Isli), Name (Name)
 {
@@ -16355,13 +16194,6 @@ STRING 2434
 // Items: I053 (Runestone Isli), Tip (Tooltip - Basic)
 {
 Runestone Isli
-}
-
-STRING 2435
-// Items: I053 (Runestone Isli), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-When the hero uses an ability or item, it reduces the cooldown of one of the hero abilities by 5 seconds, but takes 3% of mana.
 }
 
 STRING 2436
@@ -16968,14 +16800,6 @@ STRING 2524
 Activation: |cffcc0000Corrupted|r. Choose a hero. Fully restores the target's health and mana. Only works in combat.
 }
 
-STRING 2525
-// Items: I04F (Runestone Zi), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases spell power by 30%.
-15% of the damage dealt by your spells is also dealt to your hero.
-}
-
 STRING 2526
 // Items: I04F (Runestone Zi), Name (Name)
 {
@@ -16986,14 +16810,6 @@ STRING 2527
 // Items: I04F (Runestone Zi), Tip (Tooltip - Basic)
 {
 Runestone Zi
-}
-
-STRING 2528
-// Items: I04F (Runestone Zi), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases spell power by 30%.
-15% of the damage dealt by your spells is also dealt to your hero.
 }
 
 STRING 2529
@@ -17297,10 +17113,11 @@ At the start of the fight, increases the charges of your |cff088a08potions|r by 
 }
 
 STRING 2573
-// Items: I043 (Radiance), Description (Description)
+// Abilities: A0RT (Alchemist: Elemental Power), Ubertip (Tooltip - Normal - Extended)
 {
-|cff4169e1Rare|r
-You and your allies get the opportunity to resurrect one hero during each fight. Summarizes with other similar effects.
+Throws a projectile at a certain point, which explodes after 3 seconds, causing |cffbe81f7125|r damage to nearby enemies and reduces their attack power by 5. Repeats 2 times at random locations nearby.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2574
@@ -17316,10 +17133,11 @@ Radiance
 }
 
 STRING 2576
-// Items: I043 (Radiance), Ubertip (Tooltip - Extended)
+// Abilities: A0RT (Alchemist: Elemental Power), Ubertip (Tooltip - Normal - Extended)
 {
-|cff4169e1Rare|r
-You and your allies get the opportunity to resurrect one hero during each fight. Summarizes with other similar effects.
+Throws a projectile at a certain point, which explodes after 3 seconds, causing |cffbe81f7175|r damage to nearby enemies and reduces their attack power by 10. Repeats 2 times at random locations nearby.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2577
@@ -18330,15 +18148,6 @@ STRING 2729
 Absorbs missing artifacts from the set "|cff2d9995Weapon|r".
 }
 
-STRING 2730
-// Items: I02Z (Runestone Sin), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases attack power by 15.
-The hero deals 30% more damage to bosses.
-Reduces attack speed by 30%.
-}
-
 STRING 2731
 // Items: I02Z (Runestone Sin), Name (Name)
 {
@@ -18349,15 +18158,6 @@ STRING 2732
 // Items: I02Z (Runestone Sin), Tip (Tooltip - Basic)
 {
 Runestone Sin
-}
-
-STRING 2733
-// Items: I02Z (Runestone Sin), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases attack power by 15.
-The hero deals 30% more damage to bosses.
-Reduces attack speed by 30%.
 }
 
 STRING 2734
@@ -18727,6 +18527,12 @@ STRING 2788
 |cff81f260[Random bonus]|r
 }
 
+STRING 2789
+// Items: I07H (Philosopher's Potion), Name (Name)
+{
+Philosopher's Potion
+}
+
 STRING 2790
 // Items: I02K (Unique Recipe Book), Name (Name)
 {
@@ -18737,6 +18543,12 @@ STRING 2791
 // Items: I02K (Unique Recipe Book), Tip (Tooltip - Basic)
 {
 Unique Recipe Book
+}
+
+STRING 2792
+// Items: I07H (Philosopher's Potion), Tip (Tooltip - Basic)
+{
+Philosopher's Potion
 }
 
 STRING 2793
@@ -18796,13 +18608,6 @@ Activation: Summons Superbot-3000. When summoned, it upgraded depending on the l
 |cffffcc00Cooldown:|r 90 seconds.
 }
 
-STRING 2801
-// Items: I02H (Runestone Kusa), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff848484Rune|r
-Reduces the cooldown of abilities and items by 30%. When the hero uses an ability or item, silences for 5 seconds.
-}
-
 STRING 2802
 // Items: I02H (Runestone Kusa), Name (Name)
 {
@@ -18813,21 +18618,6 @@ STRING 2803
 // Items: I02H (Runestone Kusa), Tip (Tooltip - Basic)
 {
 Runestone Kusa
-}
-
-STRING 2804
-// Items: I02H (Runestone Kusa), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff848484Rune|r
-Reduces the cooldown of abilities and items by 30%. When the hero uses an ability or item, silences for 5 seconds.
-}
-
-STRING 2805
-// Items: I02G (Runestone Dor), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases health by 750.
-Decreases armor by 6.
 }
 
 STRING 2806
@@ -18842,20 +18632,12 @@ STRING 2807
 Runestone Dor
 }
 
-STRING 2808
-// Items: I02G (Runestone Dor), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases health by 750.
-Decreases armor by 6.
-}
-
 STRING 2809
-// Items: I02F (Silverleaf), Description (Description)
+// Abilities: A0RT (Alchemist: Elemental Power), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Every 12 seconds, restores |cffbe81f73%|r of maximum health.
-|cff81f260[Random bonus]|r
+Throws a projectile at a certain point, which explodes after 3 seconds, causing |cffbe81f7225|r damage to nearby enemies and reduces their attack power by 15. Repeats 2 times at random locations nearby.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2810
@@ -18871,11 +18653,11 @@ Silverleaf
 }
 
 STRING 2812
-// Items: I02F (Silverleaf), Ubertip (Tooltip - Extended)
+// Abilities: A0RT (Alchemist: Elemental Power), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Every 12 seconds, restores |cffbe81f73%|r of maximum health.
-|cff81f260[Random bonus]|r
+Throws a projectile at a certain point, which explodes after 3 seconds, causing |cffbe81f7275|r damage to nearby enemies and reduces their attack power by 20. Repeats 2 times at random locations nearby.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2813
@@ -19177,11 +18959,11 @@ Weaver Viva
 }
 
 STRING 2857
-// Items: I023 (Chameleon fish), Description (Description)
+// Abilities: A0RT (Alchemist: Elemental Power), Ubertip (Tooltip - Normal - Extended)
 {
-|cff00cceeChameleon
-|cffbababcCommon|r
-At the beginning of each battle, it turns into a random activatable artifact. New artifact has this effect.
+Throws a projectile at a certain point, which explodes after 3 seconds, causing |cffbe81f7325|r damage to nearby enemies and reduces their attack power by 25. Repeats 2 times at random locations nearby.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2858
@@ -19197,11 +18979,11 @@ Chameleon fish
 }
 
 STRING 2860
-// Items: I023 (Chameleon fish), Ubertip (Tooltip - Extended)
+// Items: I09W (Runestone Zot), Description (Description)
 {
-|cff00cceeChameleon
-|cffbababcCommon|r
-At the beginning of each battle, it turns into a random activatable artifact. New artifact has this effect.
+|cffbababcCommon|r, |cff848484Rune|r
+Increases attack power by 20 and armor by 2.
+|cffffffffThe hero receives 20% less gold from any sources.|r
 }
 
 STRING 2861
@@ -19324,13 +19106,6 @@ At the start of the battle, grants the hero a random hat effect for the remainde
 |cff81f260[Random bonus]|r
 }
 
-STRING 2877
-// Items: I01Y (Runestone Glas), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-When you use a |cff088a08potion|r, increases Spell Power by 6% until the end of the battle. Reduces |cff088a08potion|r spell power by 30%.
-}
-
 STRING 2878
 // Items: I01Y (Runestone Glas), Name (Name)
 {
@@ -19341,13 +19116,6 @@ STRING 2879
 // Items: I01Y (Runestone Glas), Tip (Tooltip - Basic)
 {
 Runestone Glas
-}
-
-STRING 2880
-// Items: I01Y (Runestone Glas), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-When you use a |cff088a08potion|r, increases Spell Power by 6% until the end of the battle. Reduces |cff088a08potion|r spell power by 30%.
 }
 
 STRING 2881
@@ -19705,13 +19473,6 @@ STRING 2936
 With a probability of |cffd7df018%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
 }
 
-STRING 2937
-// Items: I01K (Runestone Gnir), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases spell power of |cff60C445Unique|r by 150%. Increases cooldown of abilities and items by 15%.
-}
-
 STRING 2938
 // Items: I01K (Runestone Gnir), Name (Name)
 {
@@ -19722,13 +19483,6 @@ STRING 2939
 // Items: I01K (Runestone Gnir), Tip (Tooltip - Basic)
 {
 Runestone Gnir
-}
-
-STRING 2940
-// Items: I01K (Runestone Gnir), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases spell power of |cff60C445Unique|r by 150%. Increases cooldown of abilities and items by 15%.
 }
 
 STRING 2941
@@ -19880,6 +19634,14 @@ When you take an artifact with |cff81f260[Random bonus]|r, it gives 2 extra ones
 |cff81f260[Random bonus]|r
 }
 
+STRING 2961
+// Items: I07H (Philosopher's Potion), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Gives a random |cff088a08potion|r. When the inventory is full, casts it instead.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 2962
 // Items: I01E (Rigged Dice Set), Name (Name)
 {
@@ -19890,6 +19652,13 @@ STRING 2963
 // Items: I01E (Rigged Dice Set), Tip (Tooltip - Basic)
 {
 Rigged Dice Set
+}
+
+STRING 2964
+// Items: I056 (Fire Potion), Description (Description)
+{
+|cff088a08Potion|r
+Activation: Deals |cffbe81f7300|r damage to an enemy.
 }
 
 STRING 2965
@@ -19920,13 +19689,6 @@ Activation: Connect your soul to target allied hero. Every second, the hero with
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
-STRING 2969
-// Items: I01C (Runestone Brib ), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Reduces the cost of Jule artifacts by 20%. At least one artifact from Jule will be discounted. Your items not obtained from Jule will be |cffC71585cursed|r.
-}
-
 STRING 2970
 // Items: I01C (Runestone Brib ), Name (Name)
 {
@@ -19937,13 +19699,6 @@ STRING 2971
 // Items: I01C (Runestone Brib ), Tip (Tooltip - Basic)
 {
 Runestone Brib 
-}
-
-STRING 2972
-// Items: I01C (Runestone Brib ), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Reduces the cost of Jule artifacts by 20%. At least one artifact from Jule will be discounted. Your items not obtained from Jule will be |cffC71585cursed|r.
 }
 
 STRING 2973
@@ -20214,31 +19969,34 @@ Restores |cffbe81f740|r health to the hero every second.
 }
 
 STRING 3009
-// Items: I012 (Bloody rose), Description (Description)
+// Items: I0G7 (Runestone Info), Ubertip (Tooltip - Extended)
 {
-|cffe96a1cLegendary|r, |cffb40431Blood|r, |cff7cfc00Nature|r
-When the hero attacks, heals the hero |cffbe81f710%|r health from the damage done.
-If health is full, gives a |cffbe81f7shield|r that absorbs damage instead.
+|cffbababcCommon|r, |cff848484Rune|r
+When your minion is summoned, it increases attack power and health by 40% |cffffffffand reduces movement speed by 20%|r.
 }
 
 STRING 3010
-// Items: I012 (Bloody rose), Name (Name)
+// Items: I0E5 (Runestone Zolo), Description (Description)
 {
-Bloody rose
+|cffbababcCommon|r, |cff848484Rune|r
+Your abilities and items have a |cffd7df0120%|r chance to critically hit, dealing 75% more damage.
+|cffffffffIncreases cooldown of abilities and items by 15%.|r
 }
 
 STRING 3011
-// Items: I012 (Bloody rose), Tip (Tooltip - Basic)
+// Items: I09W (Runestone Zot), Ubertip (Tooltip - Extended)
 {
-Bloody rose
+|cffbababcCommon|r, |cff848484Rune|r
+Increases attack power by 20 and armor by 2.
+|cffffffffThe hero receives 20% less gold from any sources.|r
 }
 
 STRING 3012
-// Items: I012 (Bloody rose), Ubertip (Tooltip - Extended)
+// Items: I0DU (Runestone Chad), Description (Description)
 {
-|cffe96a1cLegendary|r, |cffb40431Blood|r, |cff7cfc00Nature|r
-When the hero attacks, heals the hero |cffbe81f710%|r health from the damage done.
-If health is full, gives a |cffbe81f7shield|r that absorbs damage instead.
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases attack speed by 90%.
+|cffffffffReduces attack power by 90%.|r
 }
 
 STRING 3013
@@ -20603,14 +20361,6 @@ Activation: Deals |cffbe81f7100|r damage to the enemy. Restores the hero’s man
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
-STRING 3065
-// Items: I00O (Runestone Reston), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases health regeneration by 10.
-Decreases health by 300.
-}
-
 STRING 3066
 // Items: I00O (Runestone Reston), Name (Name)
 {
@@ -20621,14 +20371,6 @@ STRING 3067
 // Items: I00O (Runestone Reston), Tip (Tooltip - Basic)
 {
 Runestone Reston
-}
-
-STRING 3068
-// Items: I00O (Runestone Reston), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases health regeneration by 10.
-Decreases health by 300.
 }
 
 STRING 3069
@@ -20657,15 +20399,6 @@ STRING 3072
 Activation: |cffcc0000Corrupted|r. Gives 3 |cffcc0000corrupted|r artifacts to empty inventory slots.
 }
 
-STRING 3073
-// Items: I00M (Runestone Ston), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Reduces stats by 4.
-When the hero attacks, decreases target armor by 7.
-|cffffcc00Duration:|r 5 seconds.
-}
-
 STRING 3074
 // Items: I00M (Runestone Ston), Name (Name)
 {
@@ -20676,15 +20409,6 @@ STRING 3075
 // Items: I00M (Runestone Ston), Tip (Tooltip - Basic)
 {
 Runestone Ston
-}
-
-STRING 3076
-// Items: I00M (Runestone Ston), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Reduces stats by 4.
-When the hero attacks, decreases target armor by 7.
-|cffffcc00Duration:|r 5 seconds.
 }
 
 STRING 3077
@@ -20901,14 +20625,6 @@ STRING 3108
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cffcc0000corrupted|r artifact.
 }
 
-STRING 3109
-// Items: I00D (Runestone Fandom), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases mana by 150 and spell power by 10%. 
-The hero receives 40% less healing from any sources.
-}
-
 STRING 3110
 // Items: I00D (Runestone Fandom), Name (Name)
 {
@@ -20919,21 +20635,6 @@ STRING 3111
 // Items: I00D (Runestone Fandom), Tip (Tooltip - Basic)
 {
 Runestone Fandom
-}
-
-STRING 3112
-// Items: I00D (Runestone Fandom), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases mana by 150 and spell power by 10%. 
-The hero receives 40% less healing from any sources.
-}
-
-STRING 3113
-// Items: I00C (Runestone Sandom), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases stats by 7. Decreases attack power by 25.
 }
 
 STRING 3114
@@ -20948,21 +20649,6 @@ STRING 3115
 Runestone Sandom
 }
 
-STRING 3116
-// Items: I00C (Runestone Sandom), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases stats by 7. Decreases attack power by 25.
-}
-
-STRING 3117
-// Items: I00B (Runestone Mandom), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases armor by 5 and health by 500.
-Decreases attack speed by 25% and increases cooldown of abilities and items by 25%.
-}
-
 STRING 3118
 // Items: I00B (Runestone Mandom), Name (Name)
 {
@@ -20973,14 +20659,6 @@ STRING 3119
 // Items: I00B (Runestone Mandom), Tip (Tooltip - Basic)
 {
 Runestone Mandom
-}
-
-STRING 3120
-// Items: I00B (Runestone Mandom), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases armor by 5 and health by 500.
-Decreases attack speed by 25% and increases cooldown of abilities and items by 25%.
 }
 
 STRING 3121
@@ -23968,6 +23646,13 @@ STRING 3573
 Brother Rant
 }
 
+STRING 3574
+// Items: I056 (Fire Potion), Ubertip (Tooltip - Extended)
+{
+|cff088a08Potion|r
+Activation: Deals |cffbe81f7300|r damage to an enemy.
+}
+
 STRING 3575
 // Abilities: A1BD (Unique: Brother Rant), Hotkey (Hotkey - Normal)
 {
@@ -24002,6 +23687,14 @@ STRING 3580
 // Abilities: A1BD (Unique: Brother Rant), Tip (Tooltip - Normal)
 {
 Brother Rant
+}
+
+STRING 3581
+// Items: I0DU (Runestone Chad), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases attack speed by 90%.
+|cffffffffReduces attack power by 90%.|r
 }
 
 STRING 3582
@@ -31377,12 +31070,6 @@ STRING 4721
 // Abilities: A135 (|cffffcc00Уровень 7:|r Заводной резак), Name (Name)
 {
 |cffffcc00Уровень 7:|r Заводной резак
-}
-
-STRING 4722
-// Abilities: A135 (|cffffcc00Уровень 7:|r Заводной резак), Tip (Tooltip - Normal)
-{
-Clockwork cutter
 }
 
 STRING 4723
@@ -41037,106 +40724,113 @@ STRING 6189
 }
 
 STRING 6190
-// Abilities: A0RT (Alchemist: Elemental power), Hotkey (Hotkey - Normal)
+// Abilities: A0RT (Alchemist: Elemental Power), Hotkey (Hotkey - Normal)
 {
 R
 }
 
 STRING 6191
-// Abilities: A0RT (Alchemist: Elemental power), Name (Name)
+// Items: I0BL (Runestone Wiz), Description (Description)
 {
-Alchemist: Elemental power
+|cffe96a1cLegendary|r, |cff848484Rune|r
+|cffffffffReduces stats by 8.|r
+Every 60 seconds, fully restores health and mana.
 }
 
 STRING 6192
-// Abilities: A0RT (Alchemist: Elemental power), Researchhotkey (Hotkey - Learn)
+// Abilities: A0RT (Alchemist: Elemental Power), Researchhotkey (Hotkey - Learn)
 {
 R
 }
 
 STRING 6193
-// Abilities: A0RT (Alchemist: Elemental power), Researchtip (Tooltip - Learn)
+// Items: I0BL (Runestone Wiz), Ubertip (Tooltip - Extended)
 {
-Elemental power, [|cffffcc00Level %d|r]
+|cffe96a1cLegendary|r, |cff848484Rune|r
+|cffffffffReduces stats by 8.|r
+Every 60 seconds, fully restores health and mana.
 }
 
 STRING 6194
-// Abilities: A0RT (Alchemist: Elemental power), Researchubertip (Tooltip - Learn - Extended)
+// Items: I0AF (Runestone Doh), Description (Description)
 {
-Throws a projectile at a certain point, which explodes after 3 seconds, causing |cffbe81f7125/175/225/275/325|r damage to nearby enemies and reduces their attack power by 5/10/15/20/25. Also launches 2 more shells at random points.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 60 mana.
+|cffbababcCommon|r, |cff848484Rune|r
+Increases damage done |cffffffffand received|r by 25%.
 }
 
 STRING 6195
-// Abilities: A0RT (Alchemist: Elemental power), Tip (Tooltip - Normal)
+// Items: I0AF (Runestone Doh), Ubertip (Tooltip - Extended)
 {
-Elemental power, [|cffffcc00Level 1|r]
+|cffbababcCommon|r, |cff848484Rune|r
+Increases damage done |cffffffffand received|r by 25%.
 }
 
 STRING 6196
-// Abilities: A0RT (Alchemist: Elemental power), Tip (Tooltip - Normal)
+// Items: I0AC (Runestone Troy), Description (Description)
 {
-Elemental power, [|cffffcc00Level 2|r]
+|cffbababcCommon|r, |cff848484Rune|r
+At the end of battle creates 5 arena runes.
+|cffffffffYou choose from 2 reward artifacts instead of 3.|r
 }
 
 STRING 6197
-// Abilities: A0RT (Alchemist: Elemental power), Tip (Tooltip - Normal)
+// Items: I0AC (Runestone Troy), Ubertip (Tooltip - Extended)
 {
-Elemental power, [|cffffcc00Level 3|r]
+|cffbababcCommon|r, |cff848484Rune|r
+At the end of battle creates 5 arena runes.
+|cffffffffYou choose from 2 reward artifacts instead of 3.|r
 }
 
 STRING 6198
-// Abilities: A0RT (Alchemist: Elemental power), Tip (Tooltip - Normal)
+// Items: I078 (Runestone Telepu), Description (Description)
 {
-Elemental power, [|cffffcc00Level 4|r]
+|cffbababcCommon|r, |cff848484Rune|r
+Reduces attack power of |cffffffffthe hero and|r bosses by 30%.
 }
 
 STRING 6199
-// Abilities: A0RT (Alchemist: Elemental power), Tip (Tooltip - Normal)
+// Items: I078 (Runestone Telepu), Ubertip (Tooltip - Extended)
 {
-Elemental power, [|cffffcc00Level 5|r]
+|cffbababcCommon|r, |cff848484Rune|r
+Reduces attack power of |cffffffffthe hero and|r bosses by 30%.
 }
 
 STRING 6200
-// Abilities: A0RT (Alchemist: Elemental power), Ubertip (Tooltip - Normal - Extended)
+// Items: I076 (Runestone Zirik), Description (Description)
 {
-Throws a projectile at a certain point, which explodes after 3 seconds, causing |cffbe81f7125|r damage to nearby enemies and reduces their attack power by 5. Also launches 2 more shells at random points.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
+|cff4169e1Rare|r, |cff848484Rune|r
+Gain a random artifact at the end of battle. If the artifact is |cff4169e1rare|r or |cffe96a1clegendary|r, your hero gains 5 stats. |cffffffffOtherwise, your hero loses 2 stats.|r
 }
 
 STRING 6201
-// Abilities: A0RT (Alchemist: Elemental power), Ubertip (Tooltip - Normal - Extended)
+// Items: I076 (Runestone Zirik), Ubertip (Tooltip - Extended)
 {
-Throws a projectile at a certain point, which explodes after 3 seconds, causing |cffbe81f7175|r damage to nearby enemies and reduces their attack power by 10. Also launches 2 more shells at random points.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
+|cff4169e1Rare|r, |cff848484Rune|r
+Gain a random artifact at the end of battle. If the artifact is |cff4169e1rare|r or |cffe96a1clegendary|r, your hero gains 5 stats. |cffffffffOtherwise, your hero loses 2 stats.|r
 }
 
 STRING 6202
-// Abilities: A0RT (Alchemist: Elemental power), Ubertip (Tooltip - Normal - Extended)
+// Items: I06N (Runestone Landom), Description (Description)
 {
-Throws a projectile at a certain point, which explodes after 3 seconds, causing |cffbe81f7225|r damage to nearby enemies and reduces their attack power by 15. Also launches 2 more shells at random points.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases luck by 25 and agility by 12.
+|cffffffffDecreases attack power by 25.|r
 }
 
 STRING 6203
-// Abilities: A0RT (Alchemist: Elemental power), Ubertip (Tooltip - Normal - Extended)
+// Items: I06N (Runestone Landom), Ubertip (Tooltip - Extended)
 {
-Throws a projectile at a certain point, which explodes after 3 seconds, causing |cffbe81f7275|r damage to nearby enemies and reduces their attack power by 20. Also launches 2 more shells at random points.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases luck by 25 and agility by 12.
+|cffffffffDecreases attack power by 25.|r
 }
 
 STRING 6204
-// Abilities: A0RT (Alchemist: Elemental power), Ubertip (Tooltip - Normal - Extended)
+// Items: I05L (Runestone Pik), Description (Description)
 {
-Throws a projectile at a certain point, which explodes after 3 seconds, causing |cffbe81f7325|r damage to nearby enemies and reduces their attack power by 25. Also launches 2 more shells at random points.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
+|cffbababcCommon|r, |cff848484Rune|r
+The hero receives 35% more gold from any sources.
+|cffffffffEvery fifth gold reward does not give gold.|r
 }
 
 STRING 6205
@@ -53539,6 +53233,86 @@ The Hero cannot take more damage than 10% of the maximum Health.
 |cff81f260[Random bonus]|r
 }
 
+STRING 8114
+// Items: I05L (Runestone Pik), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+The hero receives 35% more gold from any sources.
+|cffffffffEvery fifth gold reward does not give gold.|r
+}
+
+STRING 8115
+// Items: I023 (Chameleon fish), Description (Description)
+{
+|cff00cceeChameleon
+|cffbababcCommon|r
+At the beginning of each battle, it turns into a random activatable artifact.
+}
+
+STRING 8116
+// Items: I023 (Chameleon fish), Ubertip (Tooltip - Extended)
+{
+|cff00cceeChameleon
+|cffbababcCommon|r
+At the beginning of each battle, it turns into a random activatable artifact.
+}
+
+STRING 8117
+// Items: I012 (Bloody Rose), Description (Description)
+{
+|cffe96a1cLegendary|r, |cffb40431Blood|r, |cff7cfc00Nature|r
+The Hero's attacks have |cffbe81f78%|r lifesteal. At full health, attacks grant a shield instead.
+}
+
+STRING 8118
+// Items: I012 (Bloody Rose), Name (Name)
+{
+Bloody Rose
+}
+
+STRING 8119
+// Items: I012 (Bloody Rose), Tip (Tooltip - Basic)
+{
+Bloody Rose
+}
+
+STRING 8120
+// Items: I012 (Bloody Rose), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cffb40431Blood|r, |cff7cfc00Nature|r
+The Hero's attacks have |cffbe81f78%|r lifesteal. At full health, attacks grant a shield instead.
+}
+
+STRING 8121
+// Abilities: A1GG (Stat: Phy Vampirism +8%), Name (Name)
+{
+Stat: Phy Vampirism +8%
+}
+
+STRING 8122
+// Items: I02F (Silverleaf), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Every 8 seconds, restores |cffbe81f76%|r of maximum Health.
+|cff81f260[Random bonus]|r
+}
+
+STRING 8123
+// Items: I02F (Silverleaf), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Every 8 seconds, restores |cffbe81f76%|r of maximum Health.
+|cff81f260[Random bonus]|r
+}
+
+STRING 8124
+// Items: I043 (Radiance), Description (Description)
+{
+|cff4169e1Rare|r
+You and your allies get the opportunity to resurrect one hero during each fight. Summarizes with other similar effects.
+|cff81f260[Random bonus]|r
+}
+
 STRING 8125
 // Abilities: A0EE (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -55547,6 +55321,14 @@ Enters an ally into invisibility.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 8436
+// Items: I043 (Radiance), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+You and your allies get the opportunity to resurrect one hero during each fight. Summarizes with other similar effects.
+|cff81f260[Random bonus]|r
+}
+
 STRING 8437
 // Abilities: A0C6 (Artifact: Orb of Light), Name (Name)
 {
@@ -56828,6 +56610,12 @@ STRING 8636
 Herd, [|cffffcc00Level %d|r]
 }
 
+STRING 8637
+// Abilities: A1DW (Runesmith: Carve Rune), Name (Name)
+{
+Runesmith: Carve Rune
+}
+
 STRING 8638
 // Abilities: A0AL (Druid: Herd), Tip (Tooltip - Normal)
 {
@@ -56856,6 +56644,52 @@ STRING 8642
 // Abilities: A0AL (Druid: Herd), Tip (Tooltip - Normal)
 {
 Herd, [|cffffcc00Level 5|r]
+}
+
+STRING 8643
+// Abilities: A1DW (Runesmith: Carve Rune), Researchubertip (Tooltip - Learn - Extended)
+{
+|cffffcc00Passive:|r Carvable rocks spawn in the arena.
+|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
+|cffffcc00Cooldown:|r 40 seconds.
+
+|cffffcc00Level 1:|r Life-Giver, Rich
+|cffffcc00Level 2:|r + Shepherd
+|cffffcc00Level 3:|r + Emperor
+|cffffcc00Level 4:|r + Strongman
+|cffffcc00Level 5:|r + Illusionist
+}
+
+STRING 8644
+// Abilities: A1DW (Runesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Carvable rocks spawn in the arena.
+|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 8645
+// Abilities: A1DW (Runesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Carvable rocks spawn in the arena.
+|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 8646
+// Abilities: A1DW (Runesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Carvable rocks spawn in the arena.
+|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 8647
+// Abilities: A1DW (Runesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Carvable rocks spawn in the arena.
+|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
+|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 8648
@@ -59141,6 +58975,14 @@ STRING 9003
 Grasp of the Dead, [|cffffcc00Level %d|r]
 }
 
+STRING 9004
+// Abilities: A1DW (Runesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Carvable rocks spawn in the arena.
+|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
 STRING 9005
 // Abilities: A0CM (Skeletlord: Grasp of the Dead), Tip (Tooltip - Normal)
 {
@@ -59339,6 +59181,27 @@ STRING 9036
 Grasp of the Dead, [|cffffcc00Level 5|r]
 }
 
+STRING 9037
+// Abilities: A1E3 (Runesmith: Runic Link), Researchubertip (Tooltip - Learn - Extended)
+{
+Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
+
+|cffffcc00Level 1:|r Life-Giver provides 0.2 health regeneration.
+|cffffcc00Level 2:|r Shepherd provides 1 armor for the battle.
+|cffffcc00Level 3:|r Emperor reduces active cooldowns by 5s.
+|cffffcc00Level 4:|r Strongman provides 0.2% spell power.
+|cffffcc00Level 5:|r Illusionist provides an 10 Health or 5 Mana.
+}
+
+STRING 9038
+// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
+{
+Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
+
+- Life-Giver provides 0.2 health regeneration.
+
+}
+
 STRING 9039
 // Abilities: A08D (Artifact: Superbot-3000), Name (Name)
 {
@@ -59443,6 +59306,18 @@ STRING 9055
 // Abilities: A088 (Unique: Provocation), Tip (Tooltip - Normal)
 {
 Provocation
+}
+
+STRING 9056
+// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
+{
+Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
+
+- Life-Giver provides 0.2 health regeneration.
+- Shepherd provides 1 armor for the battle.
+|cffffcc00Level 3:|r Emperor reduces active cooldowns by 5s.
+|cffffcc00Level 4:|r Strongman provides 0.2% spell power.
+|cffffcc00Level 5:|r Illusionist provides an 10 Health or 5 Mana.
 }
 
 STRING 9057
@@ -61337,6 +61212,16 @@ STRING 9344
 Crab
 }
 
+STRING 9345
+// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
+{
+Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
+
+- Life-Giver provides 0.2 health regeneration.
+- Shepherd provides 1 armor for the battle.
+- Emperor reduces active cooldowns by 5s.
+}
+
 STRING 9346
 // Abilities: A06G (|cffffcc00Уровень 5:|r Дух рыцаря), Name (Name)
 {
@@ -61694,7 +61579,7 @@ STRING 9401
 }
 
 STRING 9402
-// Abilities: A05B (Mermaid: Royal blood), Hotkey (Hotkey - Normal)
+// Abilities: A05B (Mermaid: Royal Blood), Hotkey (Hotkey - Normal)
 {
 R
 }
@@ -61706,7 +61591,7 @@ Peacelock: Self-Sacrifice
 }
 
 STRING 9404
-// Abilities: A05B (Mermaid: Royal blood), Researchhotkey (Hotkey - Learn)
+// Abilities: A05B (Mermaid: Royal Blood), Researchhotkey (Hotkey - Learn)
 {
 R
 }
@@ -62709,9 +62594,10 @@ R
 }
 
 STRING 9557
-// Abilities: A05B (Mermaid: Royal blood), Name (Name)
+// Items: I053 (Runestone Isli), Description (Description)
 {
-Mermaid: Royal blood
+|cffbababcCommon|r, |cff848484Rune|r
+When the hero uses an ability or item, it reduces the cooldown of one of the hero abilities by 5 seconds|cffffffff, but takes 3% of mana|r.
 }
 
 STRING 9558
@@ -62721,88 +62607,81 @@ R
 }
 
 STRING 9559
-// Abilities: A05B (Mermaid: Royal blood), Researchtip (Tooltip - Learn)
+// Items: I053 (Runestone Isli), Ubertip (Tooltip - Extended)
 {
-Royal blood, [|cffffcc00Level %d|r]
+|cffbababcCommon|r, |cff848484Rune|r
+When the hero uses an ability or item, it reduces the cooldown of one of the hero abilities by 5 seconds|cffffffff, but takes 3% of mana|r.
 }
 
 STRING 9560
-// Abilities: A05B (Mermaid: Royal blood), Researchubertip (Tooltip - Learn - Extended)
+// Items: I04F (Runestone Zi), Description (Description)
 {
-Increases attack speed by 20%/40%/60%/80%/100%. Reduces movement speed by 10%/20%/30%/40%/50%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 50 mana.
+|cffbababcCommon|r, |cff848484Rune|r
+Increases spell power by 30%.
+|cffffffff15% of the damage dealt by your spells is also dealt to your hero.|r
 }
 
 STRING 9561
-// Abilities: A05B (Mermaid: Royal blood), Tip (Tooltip - Normal)
+// Items: I04F (Runestone Zi), Ubertip (Tooltip - Extended)
 {
-Royal blood, [|cffffcc00Level 1|r]
+|cffbababcCommon|r, |cff848484Rune|r
+Increases spell power by 30%.
+|cffffffff15% of the damage dealt by your spells is also dealt to your hero.|r
 }
 
 STRING 9562
-// Abilities: A05B (Mermaid: Royal blood), Tip (Tooltip - Normal)
+// Items: I02Z (Runestone Sin), Description (Description)
 {
-Royal blood, [|cffffcc00Level 2|r]
+|cffbababcCommon|r, |cff848484Rune|r
+Increases attack power by 15.
+The hero deals 30% more damage to bosses.
+|cffffffffReduces attack speed by 30%.|r
 }
 
 STRING 9563
-// Abilities: A05B (Mermaid: Royal blood), Tip (Tooltip - Normal)
+// Items: I02Z (Runestone Sin), Ubertip (Tooltip - Extended)
 {
-Royal blood, [|cffffcc00Level 3|r]
+|cffbababcCommon|r, |cff848484Rune|r
+Increases attack power by 15.
+The hero deals 30% more damage to bosses.
+|cffffffffReduces attack speed by 30%.|r
 }
 
 STRING 9564
-// Abilities: A05B (Mermaid: Royal blood), Tip (Tooltip - Normal)
+// Items: I02H (Runestone Kusa), Description (Description)
 {
-Royal blood, [|cffffcc00Level 4|r]
+|cffe96a1cLegendary|r, |cff848484Rune|r
+Reduces the cooldown of abilities and items by 30%. |cffffffffWhen the hero uses an ability or item, silences for 5 seconds.|r
 }
 
 STRING 9565
-// Abilities: A05B (Mermaid: Royal blood), Tip (Tooltip - Normal)
+// Items: I02H (Runestone Kusa), Ubertip (Tooltip - Extended)
 {
-Royal blood, [|cffffcc00Level 5|r]
+|cffe96a1cLegendary|r, |cff848484Rune|r
+Reduces the cooldown of abilities and items by 30%. |cffffffffWhen the hero uses an ability or item, silences for 5 seconds.|r
 }
 
 STRING 9566
-// Abilities: A05B (Mermaid: Royal blood), Ubertip (Tooltip - Normal - Extended)
+// Items: I02G (Runestone Dor), Description (Description)
 {
-Increases attack speed by 20%. Reduces movement speed by 10%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
+|cffbababcCommon|r, |cff848484Rune|r
+Increases health by 750.
+|cffffffffDecreases armor by 6.|r
 }
 
 STRING 9567
-// Abilities: A05B (Mermaid: Royal blood), Ubertip (Tooltip - Normal - Extended)
+// Items: I02G (Runestone Dor), Ubertip (Tooltip - Extended)
 {
-Increases attack speed by 40%. Reduces movement speed by 20%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 9568
-// Abilities: A05B (Mermaid: Royal blood), Ubertip (Tooltip - Normal - Extended)
-{
-Increases attack speed by 60%. Reduces movement speed by 30%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 9569
-// Abilities: A05B (Mermaid: Royal blood), Ubertip (Tooltip - Normal - Extended)
-{
-Increases attack speed by 80%. Reduces movement speed by 40%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
+|cffbababcCommon|r, |cff848484Rune|r
+Increases health by 750.
+|cffffffffDecreases armor by 6.|r
 }
 
 STRING 9570
-// Abilities: A05B (Mermaid: Royal blood), Ubertip (Tooltip - Normal - Extended)
+// Items: I01K (Runestone Gnir), Description (Description)
 {
-Increases attack speed by 100%. Reduces movement speed by 50%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases spell power of |cff60C445Unique|r by 150%. |cffffffffIncreases cooldown of abilities and items by 15%.|r
 }
 
 STRING 9571
@@ -63572,6 +63451,17 @@ STRING 9693
 Unreachable, [|cffffcc00Level %d|r]
 }
 
+STRING 9694
+// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
+{
+Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
+
+- Life-Giver provides 0.2 health regeneration.
+- Shepherd provides 1 armor for the battle.
+- Emperor reduces active cooldowns by 5s.
+- Strongman provides 0.2% spell power.
+}
+
 STRING 9695
 // Abilities: A04L (Doctor: Unreachable), Tip (Tooltip - Normal)
 {
@@ -64058,6 +63948,18 @@ STRING 9768
 |cffffcc00Amplifier:|r Epic
 }
 
+STRING 9769
+// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
+{
+Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
+
+- Life-Giver provides 0.2 health regeneration.
+- Shepherd provides 1 armor for the battle.
+- Emperor reduces active cooldowns by 5s.
+- Strongman provides 0.2% spell power.
+- Illusionist provides an 10 Health or 5 Mana.
+}
+
 STRING 9770
 // Abilities: A045 (Усилитель 4: Мифический), Name (Name)
 {
@@ -64068,6 +63970,23 @@ STRING 9771
 // Abilities: A045 (Усилитель 4: Мифический), Tip (Tooltip - Normal)
 {
 |cffffcc00Amplifier:|r Mythical
+}
+
+STRING 9772
+// Abilities: A1E4 (Runesmith: Traveler's Strike), Researchubertip (Tooltip - Learn - Extended)
+{
+The Runesmith charges the attack. Next attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and stun the target for 1 second per charge.
+|cffffcc00Max Charges:|r 1/2/3/4/5
+|cffffcc00Cooldown:|r 2.5 seconds.
+|cffffcc00Cost:|r 30 mana.
+}
+
+STRING 9773
+// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
+{
+The Runesmith charges the attack. Next attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and stun the target for 1 second per charge.
+|cffffcc00Max Charges:|r 1
+|cffffcc00Cooldown:|r 2.5 seconds.
 }
 
 STRING 9774
@@ -64092,6 +64011,14 @@ STRING 9777
 // Abilities: A043 (Усилитель 1: Редкий), Tip (Tooltip - Normal)
 {
 |cffffcc00Amplifier:|r Rare
+}
+
+STRING 9778
+// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
+{
+The Runesmith charges the attack. Next attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and stun the target for 1 second per charge.
+|cffffcc00Max Charges:|r 2
+|cffffcc00Cooldown:|r 2.5 seconds.
 }
 
 STRING 9779
@@ -64819,7 +64746,7 @@ Pirate: Trick
 }
 
 STRING 9889
-// Abilities: A02J (Mermaid: Seal of fate), Hotkey (Hotkey - Normal)
+// Abilities: A02J (Mermaid: Seal of Fate), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -65278,7 +65205,7 @@ Deals |cffbe81f7200|r damage to an enemy.
 }
 
 STRING 9960
-// Abilities: A02J (Mermaid: Seal of fate), Researchhotkey (Hotkey - Learn)
+// Abilities: A02J (Mermaid: Seal of Fate), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -65603,9 +65530,10 @@ W
 }
 
 STRING 10008
-// Abilities: A02J (Mermaid: Seal of fate), Name (Name)
+// Items: I01K (Runestone Gnir), Ubertip (Tooltip - Extended)
 {
-Mermaid: Seal of fate
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases spell power of |cff60C445Unique|r by 150%. |cffffffffIncreases cooldown of abilities and items by 15%.|r
 }
 
 STRING 10009
@@ -65614,46 +65542,44 @@ STRING 10009
 W
 }
 
-STRING 10010
-// Abilities: A02J (Mermaid: Seal of fate), Researchtip (Tooltip - Learn)
-{
-Seal of fate, [|cffffcc00Level %d|r]
-}
-
 STRING 10011
 // Abilities: AZD3 (Усилитель 9: АдскийXXX), Name (Name)
 {
 Усилитель 9: АдскийXXX
 }
 
-STRING 10012
-// Abilities: A02J (Mermaid: Seal of fate), Tip (Tooltip - Normal)
-{
-Seal of fate, [|cffffcc00Level 1|r]
-}
-
 STRING 10013
-// Abilities: A02J (Mermaid: Seal of fate), Tip (Tooltip - Normal)
+// Items: I00O (Runestone Reston), Description (Description)
 {
-Seal of fate, [|cffffcc00Level 2|r]
+|cffbababcCommon|r, |cff848484Rune|r
+Increases health regeneration by 10.
+|cffffffffDecreases health by 300.|r
 }
 
 STRING 10014
-// Abilities: A02J (Mermaid: Seal of fate), Tip (Tooltip - Normal)
+// Items: I00O (Runestone Reston), Ubertip (Tooltip - Extended)
 {
-Seal of fate, [|cffffcc00Level 3|r]
+|cffbababcCommon|r, |cff848484Rune|r
+Increases health regeneration by 10.
+|cffffffffDecreases health by 300.|r
 }
 
 STRING 10015
-// Abilities: A02J (Mermaid: Seal of fate), Tip (Tooltip - Normal)
+// Items: I00M (Runestone Ston), Description (Description)
 {
-Seal of fate, [|cffffcc00Level 4|r]
+|cffbababcCommon|r, |cff848484Rune|r
+|cffffffffReduces stats by 4.|r
+When the hero attacks, decreases target armor by 7.
+|cffffcc00Duration:|r 5 seconds.
 }
 
 STRING 10016
-// Abilities: A02J (Mermaid: Seal of fate), Tip (Tooltip - Normal)
+// Items: I00M (Runestone Ston), Ubertip (Tooltip - Extended)
 {
-Seal of fate, [|cffffcc00Level 5|r]
+|cffbababcCommon|r, |cff848484Rune|r
+|cffffffffReduces stats by 4.|r
+When the hero attacks, decreases target armor by 7.
+|cffffcc00Duration:|r 5 seconds.
 }
 
 STRING 10017
@@ -66103,6 +66029,14 @@ STRING 10085
 // Abilities: A020 (Артефакт: Жертвенный клинок), Name (Name)
 {
 Артефакт: Жертвенный клинок
+}
+
+STRING 10086
+// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
+{
+The Runesmith charges the attack. Next attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and stun the target for 1 second per charge.
+|cffffcc00Max Charges:|r 3
+|cffffcc00Cooldown:|r 2.5 seconds.
 }
 
 STRING 10087
@@ -70686,7 +70620,7 @@ STRING 10824
 }
 
 STRING 10825
-// Abilities: A02J (Mermaid: Seal of fate), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A02J (Mermaid: Seal of Fate), Researchubertip (Tooltip - Learn - Extended)
 {
 Deals |cffbe81f7damage|r to the enemy equal to 10/15/20/25/30 added to the sum of all your stats. If the target dies, gain 2 agility.
 |cffffcc00Cooldown:|r 13/12/11/10/9 seconds.
@@ -71339,7 +71273,7 @@ STRING 10932
 }
 
 STRING 10933
-// Abilities: A02J (Mermaid: Seal of fate), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A02J (Mermaid: Seal of Fate), Ubertip (Tooltip - Normal - Extended)
 {
 Deals |cffbe81f7damage|r to the enemy equal to 10 added to the sum of all your stats. If the target dies, gain 2 agility.
 |cffffcc00Cooldown:|r 13 seconds.
@@ -71379,6 +71313,14 @@ STRING 10939
 // Buffs/Effects: B02X (), Buffubertip (Tooltip - Extended)
 {
 Spell power increased.
+}
+
+STRING 10940
+// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
+{
+The Runesmith charges the attack. Next attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and stun the target for 1 second per charge.
+|cffffcc00Max Charges:|r 4
+|cffffcc00Cooldown:|r 2.5 seconds.
 }
 
 STRING 10941
@@ -72323,7 +72265,7 @@ The stats are increased.
 }
 
 STRING 11097
-// Abilities: A02J (Mermaid: Seal of fate), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A02J (Mermaid: Seal of Fate), Ubertip (Tooltip - Normal - Extended)
 {
 Deals |cffbe81f7damage|r to the enemy equal to 15 added to the sum of all your stats. If the target dies, gain 2 agility.
 |cffffcc00Cooldown:|r 12 seconds.
@@ -72572,7 +72514,7 @@ Warrior under the influence of royal blood.
 }
 
 STRING 11138
-// Abilities: A02J (Mermaid: Seal of fate), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A02J (Mermaid: Seal of Fate), Ubertip (Tooltip - Normal - Extended)
 {
 Deals |cffbe81f7damage|r to the enemy equal to 20 added to the sum of all your stats. If the target dies, gain 2 agility.
 |cffffcc00Cooldown:|r 11 seconds.
@@ -72745,6 +72687,14 @@ Type: |Cffffcc00Minion|R
 STRING 11166
 {
 Тип: |Cffffcc00Minion Armor|R
+}
+
+STRING 11167
+// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
+{
+The Runesmith charges the attack. Next attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and stun the target for 1 second per charge.
+|cffffcc00Max Charges:|r 5
+|cffffcc00Cooldown:|r 2.5 seconds.
 }
 
 STRING 11168
@@ -73030,7 +72980,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.7.0|r
+|cffbe81f7Boss Battle 1.7.1T|r
 }
 
 STRING 11219
@@ -73471,31 +73421,27 @@ Spirit Journey, [|cffffcc00Level 5|r]
 }
 
 STRING 11285
-// Abilities: A1E3 (Runesmith: Runic Link), Researchubertip (Tooltip - Learn - Extended)
+// Items: I00D (Runestone Fandom), Description (Description)
 {
-Whenever the Runesmith uses a Rune he shares the effects with his allies. Using runes provides additional boons.
-
-|cffffcc00Level 1:|r Life-Giver provides 0.5 health regeneration.
-|cffffcc00Level 2:|r Shepherd provides 1 armor for the battle.
-|cffffcc00Level 3:|r Emperor reduces active cooldowns by 5s.
-|cffffcc00Level 4:|r Strongman provides 1% spell power.
-|cffffcc00Level 5:|r Illusionist provides an additional random stat.
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases mana by 150 and spell power by 10%. 
+|cffffffffThe hero receives 40% less healing from any sources.|r
 }
 
 STRING 11286
-// Abilities: A1DW (Runsesmith: Carve Rune), Researchtip (Tooltip - Learn)
+// Abilities: A1DW (Runesmith: Carve Rune), Researchtip (Tooltip - Learn)
 {
 Carve Rune, [|cffffcc00Level %d|r]
 }
 
 STRING 11287
-// Abilities: A1DW (Runsesmith: Carve Rune), Hotkey (Hotkey - Normal)
+// Abilities: A1DW (Runesmith: Carve Rune), Hotkey (Hotkey - Normal)
 {
 R
 }
 
 STRING 11288
-// Abilities: A1DW (Runsesmith: Carve Rune), Researchhotkey (Hotkey - Learn)
+// Abilities: A1DW (Runesmith: Carve Rune), Researchhotkey (Hotkey - Learn)
 {
 R
 }
@@ -73589,7 +73535,7 @@ Restores |cffbe81f7200|r health to all heroes.
 }
 
 STRING 11302
-// Abilities: A1DW (Runsesmith: Carve Rune), Tip (Tooltip - Normal)
+// Abilities: A1DW (Runesmith: Carve Rune), Tip (Tooltip - Normal)
 {
 Carve Rune, [|cffffcc00Level 1|r]
 }
@@ -73624,35 +73570,35 @@ Target ally goes on a spirit journey increasing their attack power by 10/15/20/2
 }
 
 STRING 11307
-// Abilities: A1DW (Runsesmith: Carve Rune), Tip (Tooltip - Normal)
+// Abilities: A1DW (Runesmith: Carve Rune), Tip (Tooltip - Normal)
 {
 Carve Rune, [|cffffcc00Level 2|r]
 }
 
 STRING 11308
-// Abilities: A1DW (Runsesmith: Carve Rune), Tip (Tooltip - Normal)
+// Abilities: A1DW (Runesmith: Carve Rune), Tip (Tooltip - Normal)
 {
 Carve Rune, [|cffffcc00Level 3|r]
 }
 
 STRING 11309
-// Abilities: A1DW (Runsesmith: Carve Rune), Tip (Tooltip - Normal)
+// Abilities: A1DW (Runesmith: Carve Rune), Tip (Tooltip - Normal)
 {
 Carve Rune, [|cffffcc00Level 4|r]
 }
 
 STRING 11310
-// Abilities: A1DW (Runsesmith: Carve Rune), Tip (Tooltip - Normal)
+// Abilities: A1DW (Runesmith: Carve Rune), Tip (Tooltip - Normal)
 {
 Carve Rune, [|cffffcc00Level 5|r]
 }
 
 STRING 11311
-// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
+// Items: I00D (Runestone Fandom), Ubertip (Tooltip - Extended)
 {
-Whenever the Runesmith uses a Rune he shares the effects with his allies. Using runes provides additional boons.
-
-- Life-Giver provides 0.5 health regeneration.
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases mana by 150 and spell power by 10%. 
+|cffffffffThe hero receives 40% less healing from any sources.|r
 }
 
 STRING 11312
@@ -73698,10 +73644,10 @@ E
 }
 
 STRING 11318
-// Abilities: A1DW (Runsesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
+// Items: I00C (Runestone Sandom), Description (Description)
 {
-|cffffcc00Passive:|r Carvable rocks spawn in the arena.
-|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases stats by 7. |cffffffffDecreases attack power by 25.|r
 }
 
 STRING 11319
@@ -73713,31 +73659,34 @@ STRING 11319
 }
 
 STRING 11320
-// Abilities: A1DW (Runsesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
+// Items: I00C (Runestone Sandom), Ubertip (Tooltip - Extended)
 {
-|cffffcc00Passive:|r Carvable rocks spawn in the arena.
-|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases stats by 7. |cffffffffDecreases attack power by 25.|r
 }
 
 STRING 11321
-// Abilities: A1DW (Runsesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
+// Items: I00B (Runestone Mandom), Description (Description)
 {
-|cffffcc00Passive:|r Carvable rocks spawn in the arena.
-|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases armor by 5 and health by 500.
+|cffffffffDecreases attack speed by 25% and increases cooldown of abilities and items by 25%.|r
 }
 
 STRING 11322
-// Abilities: A1DW (Runsesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
+// Items: I00B (Runestone Mandom), Ubertip (Tooltip - Extended)
 {
-|cffffcc00Passive:|r Carvable rocks spawn in the arena.
-|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases armor by 5 and health by 500.
+|cffffffffDecreases attack speed by 25% and increases cooldown of abilities and items by 25%.|r
 }
 
 STRING 11323
-// Abilities: A1DW (Runsesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
+// Items: I00A (Runestone Alatyr), Description (Description)
 {
-|cffffcc00Passive:|r Carvable rocks spawn in the arena.
-|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases Attack by 30 and Health Regeneration by 2.
+|cffffffffReduces Damage dealt to minions by 30%.|r
 }
 
 STRING 11324
@@ -73880,12 +73829,11 @@ Carve Rune of the Emperor
 }
 
 STRING 11345
-// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
+// Items: I00A (Runestone Alatyr), Ubertip (Tooltip - Extended)
 {
-Whenever the Runesmith uses a Rune he shares the effects with his allies. Using runes provides additional boons.
-
-- Life-Giver provides 0.5 health regeneration.
-- Shepherd provides 1 armor for the battle.
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases Attack by 30 and Health Regeneration by 2.
+|cffffffffReduces Damage dealt to minions by 30%.|r
 }
 
 STRING 11346
@@ -73907,13 +73855,10 @@ Carve Rune of the Illusionist
 }
 
 STRING 11349
-// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
+// Items: I01Y (Runestone Glas), Description (Description)
 {
-Whenever the Runesmith uses a Rune he shares the effects with his allies. Using runes provides additional boons.
-
-- Life-Giver provides 0.5 health regeneration.
-- Shepherd provides 1 armor for the battle.
-- Emperor reduces active cooldowns by 5s.
+|cff4169e1Rare|r, |cff848484Rune|r
+When you use a |cff088a08potion|r, increases Spell Power by 6% until the end of the battle. |cffffffffReduces potion spell power by 30%.|r
 }
 
 STRING 11350
@@ -73931,16 +73876,10 @@ Gives a random stat.
 }
 
 STRING 11352
-// Abilities: A1DW (Runsesmith: Carve Rune), Researchubertip (Tooltip - Learn - Extended)
+// Items: I01Y (Runestone Glas), Ubertip (Tooltip - Extended)
 {
-|cffffcc00Passive:|r Carvable rocks spawn in the arena.
-|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
-
-|cffffcc00Level 1:|r Life-Giver, Rich
-|cffffcc00Level 2:|r + Shepherd
-|cffffcc00Level 3:|r + Emperor
-|cffffcc00Level 4:|r + Strongman
-|cffffcc00Level 5:|r + Illusionist
+|cff4169e1Rare|r, |cff848484Rune|r
+When you use a |cff088a08potion|r, increases Spell Power by 6% until the end of the battle. |cffffffffReduces potion spell power by 30%.|r
 }
 
 STRING 11353
@@ -73992,26 +73931,17 @@ E
 }
 
 STRING 11361
-// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
+// Items: I01C (Runestone Brib ), Description (Description)
 {
-Whenever the Runesmith uses a Rune he shares the effects with his allies. Using runes provides additional boons.
-
-- Life-Giver provides 0.5 health regeneration.
-- Shepherd provides 1 armor for the battle.
-- Emperor reduces active cooldowns by 5s.
-- Strongman provides 1% spell power.
+|cff4169e1Rare|r, |cff848484Rune|r
+Reduces the cost of future artifacts in the artifact store by 20%. At least one artifact from it will be discounted. |cffffffffYour items not obtained from Jule will be |cffC71585cursed|r.|r
 }
 
 STRING 11362
-// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
+// Items: I01C (Runestone Brib ), Ubertip (Tooltip - Extended)
 {
-Whenever the Runesmith uses a Rune he shares the effects with his allies. Using runes provides additional boons.
-
-- Life-Giver provides 0.5 health regeneration.
-- Shepherd provides 1 armor for the battle.
-- Emperor reduces active cooldowns by 5s.
-- Strongman provides 1% spell power.
-- Illusionist provides an additional random stat.
+|cff4169e1Rare|r, |cff848484Rune|r
+Reduces the cost of future artifacts in the artifact store by 20%. At least one artifact from it will be discounted. |cffffffffYour items not obtained from Jule will be |cffC71585cursed|r.|r
 }
 
 STRING 11363
@@ -74122,9 +74052,11 @@ D
 }
 
 STRING 11380
-// Abilities: A1DW (Runsesmith: Carve Rune), Name (Name)
+// Items: I0E5 (Runestone Zolo), Ubertip (Tooltip - Extended)
 {
-Runsesmith: Carve Rune
+|cffbababcCommon|r, |cff848484Rune|r
+Your abilities and items have a |cffd7df0120%|r chance to critically hit, dealing 75% more damage.
+|cffffffffIncreases cooldown of abilities and items by 15%.|r
 }
 
 STRING 11381
@@ -74281,55 +74213,6 @@ STRING 11402
 - Faceless Spy can no longer turn into itself.
 - Shepherd E now counts towards Trembling Enemies quest.
 - Fixed "On a new One" not granting a hero if random pick attempts were exhausted.
-}
-
-STRING 11403
-// Abilities: A1E4 (Runesmith: Traveler's Strike), Researchubertip (Tooltip - Learn - Extended)
-{
-The Runesmith charges his attack. Charged attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and also stun the target for 1 second per charge.
-|cffffcc00Max Charges:|r 1/2/3/4/5
-|cffffcc00Cooldown:|r 4 seconds.
-|cffffcc00Cost:|r 30 mana.
-}
-
-STRING 11404
-// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
-{
-The Runesmith charges his attack. Charged attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and also stun the target for 1 second per charge.
-|cffffcc00Max Charges:|r 1
-|cffffcc00Cooldown:|r 4 seconds.
-}
-
-STRING 11405
-// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
-{
-The Runesmith charges his attack. Charged attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and also stun the target for 1 second per charge.
-|cffffcc00Max Charges:|r 2
-|cffffcc00Cooldown:|r 4 seconds.
-}
-
-STRING 11406
-// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
-{
-The Runesmith charges his attack. Charged attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and also stun the target for 1 second per charge.
-|cffffcc00Max Charges:|r 3
-|cffffcc00Cooldown:|r 4 seconds.
-}
-
-STRING 11407
-// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
-{
-The Runesmith charges his attack. Charged attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and also stun the target for 1 second per charge.
-|cffffcc00Max Charges:|r 4
-|cffffcc00Cooldown:|r 4 seconds.
-}
-
-STRING 11408
-// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
-{
-The Runesmith charges his attack. Charged attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and also stun the target for 1 second per charge.
-|cffffcc00Max Charges:|r 5
-|cffffcc00Cooldown:|r 4 seconds.
 }
 
 STRING 11409
@@ -74886,7 +74769,7 @@ STRING 11494
 }
 
 STRING 11495
-// Abilities: A02J (Mermaid: Seal of fate), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A02J (Mermaid: Seal of Fate), Ubertip (Tooltip - Normal - Extended)
 {
 Deals |cffbe81f7damage|r to the enemy equal to 25 added to the sum of all your stats. If the target dies, gain 2 agility.
 |cffffcc00Cooldown:|r 10 seconds.
@@ -74899,7 +74782,7 @@ STRING 11496
 }
 
 STRING 11497
-// Abilities: A02J (Mermaid: Seal of fate), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A02J (Mermaid: Seal of Fate), Ubertip (Tooltip - Normal - Extended)
 {
 Deals |cffbe81f7damage|r to the enemy equal to 30 added to the sum of all your stats. If the target dies, gain 2 agility.
 |cffffcc00Cooldown:|r 9 seconds.
@@ -75963,5 +75846,156 @@ STRING 11634
 {
 Creates an explode in front of the hero, dealing |cffbe81f7700|r damage to enemies and stuns them for 1.5 seconds.
 |cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 11635
+// Buffs/Effects: B0AO (), Bufftip (Tooltip)
+{
+|cff00ff00Traveler's Strike|r
+}
+
+STRING 11636
+// Buffs/Effects: B0AO (), Buffubertip (Tooltip - Extended)
+{
+The next attack will be stronger.
+}
+
+STRING 11637
+// Abilities: A1GH ((т)Аура: Traveler's Strike), Name (Name)
+{
+(т)Аура: Traveler's Strike
+}
+
+STRING 11638
+// Abilities: A05B (Mermaid: Royal Blood), Name (Name)
+{
+Mermaid: Royal Blood
+}
+
+STRING 11639
+// Abilities: A05B (Mermaid: Royal Blood), Researchtip (Tooltip - Learn)
+{
+Royal Blood, [|cffffcc00Level %d|r]
+}
+
+STRING 11640
+// Abilities: A05B (Mermaid: Royal Blood), Researchubertip (Tooltip - Learn - Extended)
+{
+Increases attack speed by 40%/60%/80%/100%/120%. Reduces movement speed by 15%.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 11641
+// Abilities: A05B (Mermaid: Royal Blood), Tip (Tooltip - Normal)
+{
+Royal Blood, [|cffffcc00Level 1|r]
+}
+
+STRING 11642
+// Abilities: A05B (Mermaid: Royal Blood), Tip (Tooltip - Normal)
+{
+Royal Blood, [|cffffcc00Level 2|r]
+}
+
+STRING 11643
+// Abilities: A05B (Mermaid: Royal Blood), Tip (Tooltip - Normal)
+{
+Royal Blood, [|cffffcc00Level 3|r]
+}
+
+STRING 11644
+// Abilities: A05B (Mermaid: Royal Blood), Tip (Tooltip - Normal)
+{
+Royal Blood, [|cffffcc00Level 4|r]
+}
+
+STRING 11645
+// Abilities: A05B (Mermaid: Royal Blood), Tip (Tooltip - Normal)
+{
+Royal Blood, [|cffffcc00Level 5|r]
+}
+
+STRING 11646
+// Abilities: A05B (Mermaid: Royal Blood), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack speed by 40%. Reduces movement speed by 15%.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 11647
+// Abilities: A05B (Mermaid: Royal Blood), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack speed by 60%. Reduces movement speed by 15%.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 11648
+// Abilities: A05B (Mermaid: Royal Blood), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack speed by 80%. Reduces movement speed by 15%.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 11649
+// Abilities: A05B (Mermaid: Royal Blood), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack speed by 100%. Reduces movement speed by 15%.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 11650
+// Abilities: A05B (Mermaid: Royal Blood), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack speed by 120%. Reduces movement speed by 15%.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 11651
+// Abilities: A02J (Mermaid: Seal of Fate), Name (Name)
+{
+Mermaid: Seal of Fate
+}
+
+STRING 11652
+// Abilities: A02J (Mermaid: Seal of Fate), Researchtip (Tooltip - Learn)
+{
+Seal of Fate, [|cffffcc00Level %d|r]
+}
+
+STRING 11653
+// Abilities: A02J (Mermaid: Seal of Fate), Tip (Tooltip - Normal)
+{
+Seal of Fate, [|cffffcc00Level 1|r]
+}
+
+STRING 11654
+// Abilities: A02J (Mermaid: Seal of Fate), Tip (Tooltip - Normal)
+{
+Seal of Fate, [|cffffcc00Level 2|r]
+}
+
+STRING 11655
+// Abilities: A02J (Mermaid: Seal of Fate), Tip (Tooltip - Normal)
+{
+Seal of Fate, [|cffffcc00Level 3|r]
+}
+
+STRING 11656
+// Abilities: A02J (Mermaid: Seal of Fate), Tip (Tooltip - Normal)
+{
+Seal of Fate, [|cffffcc00Level 4|r]
+}
+
+STRING 11657
+// Abilities: A02J (Mermaid: Seal of Fate), Tip (Tooltip - Normal)
+{
+Seal of Fate, [|cffffcc00Level 5|r]
 }
 

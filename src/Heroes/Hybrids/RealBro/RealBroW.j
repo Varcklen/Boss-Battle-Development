@@ -59,7 +59,7 @@ scope ReadBroW initializer init
 	        set lvl = udg_Level
 	    elseif RandomLogic() then
 	        set caster = udg_Caster
-	        set target = randomtarget( caster, 600, "enemy", "", "", "", "" )
+	        set target = randomtarget( caster, 600, "enemy", 0, 0, 0 )
 	        set lvl = udg_Level
 	        call textst( udg_string[0] + GetObjectName(ABILITY_ID), caster, 64, 90, 10, 1.5 )
 	        if target == null then

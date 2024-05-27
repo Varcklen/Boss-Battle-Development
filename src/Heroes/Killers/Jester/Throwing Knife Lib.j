@@ -49,7 +49,7 @@ library ThrowingKnifeLib requires JesterLib, ManastLib
 	    set i = 1
 	    loop
 	        exitwhen i > KNIFES_TO_THROW
-	        set target = randomtarget( caster, TARGET_SEARCH_RANGE, "enemy", "", "", "", "" )
+	        set target = randomtarget( caster, TARGET_SEARCH_RANGE, "enemy", 0, 0, 0 )
 	        if target != null then
 	            set dummy = CreateUnit( GetOwningPlayer( caster ), 'u000', GetUnitX( caster ), GetUnitY( caster ), AngleBetweenUnits( caster, target ) )
 	            call UnitAddAbility( dummy, 'A0IF' ) 
