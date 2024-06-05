@@ -9,7 +9,7 @@ scope HeroSpiritSummon initializer init
 	endglobals
 
 	private function condition takes nothing returns boolean
-	    return IsUnitType( GetDyingUnit(), UNIT_TYPE_HERO) and combat(GetDyingUnit(), false, 0) and udg_fightmod[3] == false
+	    return IsUnitType( GetDyingUnit(), UNIT_TYPE_HERO) and combat(GetDyingUnit(), false, 0) and udg_fightmod[3] == false and NoSpirit == false
 	endfunction
 
 	private function CreateSpirit takes unit hero returns nothing

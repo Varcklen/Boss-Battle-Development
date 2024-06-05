@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.7.1T|r
+|cffbe81f7Boss Battle 1.7.2T|r
 }
 
 STRING 2
@@ -2632,26 +2632,10 @@ STRING 421
 Cho
 }
 
-STRING 422
-// Items: I01L (Slippers of Madness), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases Health by 150 and Movement Speed by 25%.
-At the end of battle |cffd7df01changes|r the hero stats (up to 10).
-}
-
 STRING 423
 // Units: O01A ((M) Berry Dealer), Propernames (Proper Names)
 {
 Drawzi
-}
-
-STRING 424
-// Items: I01L (Slippers of Madness), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases Health by 150 and Movement Speed by 25%.
-At the end of battle |cffd7df01changes|r the hero stats (up to 10).
 }
 
 STRING 425
@@ -2781,10 +2765,24 @@ STRING 445
 Discord
 }
 
+STRING 446
+// Items: I01L (Slippers of Madness), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases Health by 150 and Movement Speed by 25%. At the end of battle |cffd7df01changes|r the hero stats (up to 10).
+}
+
 STRING 447
 // Units: O00S ((W) Commander), Propernames (Proper Names)
 {
 Kappa
+}
+
+STRING 448
+// Items: I01L (Slippers of Madness), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases Health by 150 and Movement Speed by 25%. At the end of battle |cffd7df01changes|r the hero stats (up to 10).
 }
 
 STRING 449
@@ -5192,6 +5190,14 @@ STRING 819
 Hell Plate
 }
 
+STRING 820
+// Items: I08Q (Wild Yeast), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+At the beginning of the battle, gives a |cff088a08potion|r (or places it on the ground). All |cff088a08potions|r in inventory receive +1 charge.
+|cff81f260[Random bonus]|r
+}
+
 STRING 821
 // Items: I0G7 (Runestone Info), Name (Name)
 {
@@ -5202,6 +5208,14 @@ STRING 822
 // Items: I0G7 (Runestone Info), Tip (Tooltip - Basic)
 {
 Runestone Info
+}
+
+STRING 823
+// Items: I08Q (Wild Yeast), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+At the beginning of the battle, gives a |cff088a08potion|r (or places it on the ground). All |cff088a08potions|r in inventory receive +1 charge.
+|cff81f260[Random bonus]|r
 }
 
 STRING 824
@@ -7304,6 +7318,14 @@ STRING 1117
 The Hero's attacks deal additional damage from Intelligence.
 }
 
+STRING 1118
+// Items: I044 (Magic meat), Description (Description)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+At the start of the battle, gives a |cffC71585cursed|r |cff088a08potion|r with 3 charges (or places it on the ground).
+|cff81f260[Random bonus]|r
+}
+
 STRING 1119
 // Items: I0E5 (Runestone Zolo), Name (Name)
 {
@@ -7314,6 +7336,14 @@ STRING 1120
 // Items: I0E5 (Runestone Zolo), Tip (Tooltip - Basic)
 {
 Runestone Zolo
+}
+
+STRING 1121
+// Items: I044 (Magic meat), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+At the start of the battle, gives a |cffC71585cursed|r |cff088a08potion|r with 3 charges (or places it on the ground).
+|cff81f260[Random bonus]|r
 }
 
 STRING 1122
@@ -7601,6 +7631,18 @@ Activation: Gives the hero a buff:
 "Abilities and items cost health instead of mana."
 |cffffcc00Duration:|r 25 seconds.
 |cffffcc00Cooldown:|r 60 seconds.
+}
+
+STRING 1162
+// Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Ubertip (Tooltip - Normal - Extended)
+{
+- Ranged attacks.
+- Each boss projectile bounces to the nearest enemy (up to three times).
+- Summons a crystal every 8 seconds. After 7 seconds, the crystal is destroyed and releases the power of the Moon Priestess.
+- |cff00cceeAt 60% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall, dealing 50 damage every 1.5 seconds until all the moon priestesses die.
+- |cff00cceeAt 40% health:|r Increases the attack speed of the boss and moon priestesses by 30%.
+- |cff00cceeAt 30% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall.
+- |cff00cceeAt 20% health:|r Summons 4 crystals.
 }
 
 STRING 1163
@@ -12628,14 +12670,6 @@ Activation: Enters invisibility for 5 seconds. Abilities, items and attacks do n
 |cffffcc00Duration:|r 10 seconds.
 }
 
-STRING 1900
-// Items: I08Q (Wild Yeast), Description (Description)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-At the beginning of each battle, your |cff088a08potions|r change into random ones and gain an additional charge. 
-|cff81f260[Random bonus]|r
-}
-
 STRING 1901
 // Items: I08Q (Wild Yeast), Name (Name)
 {
@@ -12646,14 +12680,6 @@ STRING 1902
 // Items: I08Q (Wild Yeast), Tip (Tooltip - Basic)
 {
 Wild Yeast
-}
-
-STRING 1903
-// Items: I08Q (Wild Yeast), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-At the beginning of each battle, your |cff088a08potions|r change into random ones and gain an additional charge. 
-|cff81f260[Random bonus]|r
 }
 
 STRING 1904
@@ -17084,14 +17110,6 @@ When any hero dies, restores |cffbe81f720%|r of the maximum health and mana to a
 |cff81f260[Random bonus]|r
 }
 
-STRING 2569
-// Items: I044 (Magic meat), Description (Description)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-At the start of the fight, increases the charges of your |cff088a08potions|r by 3, but |cffC71585curses|r them.
-|cff81f260[Random bonus]|r
-}
-
 STRING 2570
 // Items: I044 (Magic meat), Name (Name)
 {
@@ -17102,14 +17120,6 @@ STRING 2571
 // Items: I044 (Magic meat), Tip (Tooltip - Basic)
 {
 Magic meat
-}
-
-STRING 2572
-// Items: I044 (Magic meat), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-At the start of the fight, increases the charges of your |cff088a08potions|r by 3, but |cffC71585curses|r them.
-|cff81f260[Random bonus]|r
 }
 
 STRING 2573
@@ -72980,7 +72990,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.7.1T|r
+|cffbe81f7Boss Battle 1.7.2T|r
 }
 
 STRING 11219
@@ -75440,18 +75450,6 @@ STRING 11585
 // Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
 {
 Moon Blinking, [|cffffcc00Level 5|r]
-}
-
-STRING 11586
-// Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Ubertip (Tooltip - Normal - Extended)
-{
-- Ranged attacks.
-- Each boss projectile bounces to the nearest enemy (up to three times).
-- Summons a crystal every 8 seconds. After 5 seconds, the crystal is destroyed and releases the power of the Moon Priestess.
-- |cff00cceeAt 60% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall, dealing 50 damage every 1.5 seconds until all the moon priestesses die.
-- |cff00cceeAt 40% health:|r Increases the attack speed of the boss and moon priestesses by 30%.
-- |cff00cceeAt 30% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall.
-- |cff00cceeAt 20% health:|r Summons 4 crystals.
 }
 
 STRING 11587
