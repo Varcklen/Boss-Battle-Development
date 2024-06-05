@@ -1,4 +1,4 @@
-library MinionsLib
+library MinionsLib requires Conditions
 
 	//Checks if a minion can be affected by a buff. The Sludge (minion) from Split should not receive buffs.
 	function IsPermaBuffAffected takes unit unitToCheck returns boolean

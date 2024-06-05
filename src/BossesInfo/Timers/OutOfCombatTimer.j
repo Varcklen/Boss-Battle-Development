@@ -10,8 +10,17 @@ scope OutOfCombatTimer initializer init
 		private constant integer FIRST_TIMER_TIME = 120
 		private constant integer REPICK_DISABLE_TIME = 115
 		private constant string DIALOG_DESCRIPTION = "Start of the battle:"
+		
+		private boolean Debug = false
 	endglobals
 
+	public function EnableDebug takes nothing returns nothing
+		set Debug = true
+	endfunction
+
+	private function IsTimerWorks takes nothing returns boolean
+		return IsSinglePlayer == false or Debug
+	endfunction
 
 	public function Launch takes real time returns nothing
 		set time = RMaxBJ(time, 6)
@@ -23,7 +32,7 @@ scope OutOfCombatTimer initializer init
 
 	/*OnFightStart*/
 	private function OnFightStart takes nothing returns nothing
-	    if IsSinglePlayer == false then
+	    if IsTimerWorks() then
     		call PauseTimer( Timer )
     		call PauseTimer( TimerWarning )
 		endif
@@ -33,7 +42,7 @@ scope OutOfCombatTimer initializer init
 	
 	/*OnFightEnd*/
 	private function OnFightEnd_Condition takes nothing returns boolean
-		return udg_real[1] > 0 and not( udg_logic[43] ) and not(udg_logic[97]) and IsSinglePlayer == false
+		return udg_real[1] > 0 and not( IsVictory ) and not(udg_logic[97]) and IsTimerWorks()
 	endfunction
 	
 	private function OnFightEnd takes nothing returns nothing
@@ -47,7 +56,7 @@ scope OutOfCombatTimer initializer init
 	
 	/*OnStart*/
 	private function OnStart_Condition takes nothing returns boolean
-		return IsSinglePlayer == false
+		return IsTimerWorks()
 	endfunction
 	
 	private function OnStart takes nothing returns nothing
@@ -88,7 +97,7 @@ scope OutOfCombatTimer initializer init
 	
 	/*OnHeroRepick*/
 	private function OnHeroRepick_Condition takes nothing returns boolean
-		return IsSinglePlayer == false and PlayerLeave_IsPlayerLeaver(Event_HeroRepick_Player) == false
+		return IsTimerWorks() and PlayerLeave_IsPlayerLeaver(Event_HeroRepick_Player) == false
 	endfunction
 	
 	private function OnHeroRepick takes nothing returns nothing
@@ -101,8 +110,10 @@ scope OutOfCombatTimer initializer init
 
 	//===========================================================================
 	private function init takes nothing returns nothing
-	    call CreateEventTrigger( "udg_FightStartGlobal_Real", function OnFightStart, null )
-	    call CreateEventTrigger( "udg_FightEndGlobal_Real", function OnFightEnd, function OnFightEnd_Condition )
+		call BattleStartGlobal.AddListener(function OnFightStart, null)
+		call BattleEndGlobal.AddListener(function OnFightEnd, function OnFightEnd_Condition)
+	    /*call CreateEventTrigger( "udg_FightStartGlobal_Real", function OnFightStart, null )
+	    call CreateEventTrigger( "udg_FightEndGlobal_Real", function OnFightEnd, function OnFightEnd_Condition )*/
 	    call CreateEventTrigger( "Event_Start", function OnStart, function OnStart_Condition )
 	    call CreateEventTrigger( "Event_HeroChoose_Real", function OnHeroChoose, function OnHeroChoose_Condition )
 	    call CreateEventTrigger( "Event_HeroRepick_Real", function OnHeroRepick, function OnHeroRepick_Condition )

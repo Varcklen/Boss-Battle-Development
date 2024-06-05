@@ -50,10 +50,13 @@ scope BlessChaosEarning initializer init
     endfunction
 	
 	private function init takes nothing returns nothing
-		set Trigger = CreateEventTrigger( "udg_FightStartGlobal_Real", function ChaosEarring_Actions, function ChaosEarring_Conditions )
+		set Trigger = BattleStartGlobal.AddListener(function ChaosEarring_Actions, function ChaosEarring_Conditions)
 		call DisableTrigger( Trigger )
 		
-		call CreateEventTrigger( "udg_FightEndGlobal_Real", function ChaosEarringEnd_Actions, function ChaosEarringEnd_Conditions )
+		call BattleEndGlobal.AddListener(function ChaosEarringEnd_Actions, function ChaosEarringEnd_Conditions)
+	
+		/* CreateEventTrigger( "udg_FightStartGlobal_Real", function ChaosEarring_Actions, function ChaosEarring_Conditions )
+		call CreateEventTrigger( "udg_FightEndGlobal_Real", function ChaosEarringEnd_Actions, function ChaosEarringEnd_Conditions )*/
 	endfunction
 
 endscope

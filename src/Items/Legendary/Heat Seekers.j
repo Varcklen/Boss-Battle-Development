@@ -42,7 +42,7 @@ scope HeatSeeker initializer init
 	            call IssuePointOrder( projectile, "move", GetUnitX( target ), GetUnitY( target ) )
 	        endif
 	    elseif isProjectileAlive and isTargetAlive == false then
-	        set target = randomtarget( projectile, SEARCH_RANGE, "enemy", "", "", "", "" )
+	        set target = randomtarget( projectile, SEARCH_RANGE, "enemy", 0, 0, 0 )
 	        if target == null then
 	        	call RemoveProjectile(projectile)
 	        else
@@ -63,7 +63,7 @@ scope HeatSeeker initializer init
 	    local unit target
 	    local unit projectile
 	
-		set target = randomtarget( hero, SEARCH_RANGE, "enemy", "", "", "", "" )
+		set target = randomtarget( hero, SEARCH_RANGE, "enemy", 0, 0, 0 )
         if target == null then
         	return false
         endif

@@ -2,7 +2,7 @@ scope BloodyRose initializer init
 
     globals
         private constant integer ITEM_ID = 'I012'
-        private constant real SHIELD_GAIN = 0.1
+        private constant real SHIELD_GAIN = 0.08
     endglobals
 
     private function AfterDamageEvent_Conditions takes nothing returns boolean

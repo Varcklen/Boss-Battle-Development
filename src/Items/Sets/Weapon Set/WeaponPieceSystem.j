@@ -1,4 +1,4 @@
-library WeaponPieceSystem requires EventSystem
+library WeaponPieceSystem requires EventSystem, SetCount
 
 	globals
 		public WeaponPiece array WeaponPieces
@@ -27,6 +27,13 @@ library WeaponPieceSystem requires EventSystem
 		
 		return ultWeaponData.IsExist(itemType)
 	endfunction
+	
+	public function IsItemCanBeAddedToUltimateWeapon takes unit hero, integer itemCheck returns boolean
+		local integer index = GetUnitUserData(hero)
+		return udg_logic[index + 54] and WeaponType_Logic(itemCheck) and WeaponPieceSystem_IsItemTypeAdded(hero, itemCheck) == false
+	endfunction
+	
+	
 	//==========================================================================
 	
 	/*struct WeaponEvent

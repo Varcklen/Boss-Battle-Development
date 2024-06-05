@@ -1,4 +1,4 @@
-library SetIconActivation
+library SetIconActivation requires Multiboard
 
 	function iconon takes integer index, string setType, string icon returns nothing
 	    local integer cyclA = 0
@@ -19,7 +19,7 @@ library SetIconActivation
 	    
 	    loop
 	        exitwhen cyclA > 2
-	        if udg_logic[43] == false and udg_Multiboard_Sets[udg_Multiboard_Position[index] * 3 - 2 + cyclA] == setType then
+	        if IsVictory == false and udg_Multiboard_Sets[udg_Multiboard_Position[index] * 3 - 2 + cyclA] == setType then
 	            set udg_Multiboard_Sets[udg_Multiboard_Position[index] * 3 - 2 + cyclA] = null
 	            call MultiSetIcon( udg_multi, udg_Multiboard_Position[index] * 3 - 1 + cyclA, 15, "ReplaceableTextures\\CommandButtons\\BTNCancel.blp" )
 	            set cyclA = 2

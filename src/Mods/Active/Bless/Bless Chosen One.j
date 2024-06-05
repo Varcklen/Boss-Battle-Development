@@ -41,7 +41,7 @@ scope BlessChosenOne initializer init
     endfunction
 	
 	private function init takes nothing returns nothing
-		set Trigger = BattleStart.AddListener(function action, null)
+		set Trigger = BattleStartGlobal.AddListener(function action, null)
 		call DisableTrigger( Trigger )
 		
 		call CreateEventTrigger( "Event_BetweenUnit", function OnBetween, function OnBetween_Condition )

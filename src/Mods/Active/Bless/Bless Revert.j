@@ -66,6 +66,7 @@ scope BlessRevert initializer init
     
     public function Disable takes nothing returns nothing
 		call DisableTrigger( Trigger )
+		call DisableDiscount()
     endfunction
 	
 	private function init takes nothing returns nothing

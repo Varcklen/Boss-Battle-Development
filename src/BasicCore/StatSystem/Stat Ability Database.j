@@ -25,6 +25,7 @@ library StatAbilityDatabase initializer init requires StatAbility
 		//STAT_VAMPIRISM_PHY
 		call ConnectAbilityToStat( 'A1F1', STAT_VAMPIRISM_PHY, 15 )
 		call ConnectAbilityToStat( 'A1FI', STAT_VAMPIRISM_PHY, 10 )
+		call ConnectAbilityToStat( 'A1GG', STAT_VAMPIRISM_PHY, 8 )
 		//STAT_VAMPIRISM_MAG
 		call ConnectAbilityToStat( 'A1F2', STAT_VAMPIRISM_MAG, 20 )
 		//STAT_VAMPIRISM

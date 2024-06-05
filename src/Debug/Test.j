@@ -1,7 +1,17 @@
 scope Test initializer init
 	
 	private function action takes nothing returns nothing
-		call DangerArea_Create(GetUnitX(udg_hero[1]), GetUnitY(udg_hero[1]), 300, 3 )
+		local effect particle
+		local unit hero = udg_hero[1]
+    
+        //set particle = AddSpecialEffectTarget( "war3mapImported\\Guading_teamsign_blue.mdx", c, "overhead" )
+        //call BlzSetSpecialEffectZ( particle, 700 )
+        
+        /*call IndicatorSystem_Create( INDICATOR_AIM, GetUnitX(hero), GetUnitY(hero), 200, 3 )
+        call IndicatorSystem_Create( INDICATOR_AIM, GetUnitX(hero), GetUnitY(hero), 100, 3 )
+        call IndicatorSystem_Create( INDICATOR_AIM, GetUnitX(hero), GetUnitY(hero), 300, 3 )*/
+        
+        call SetRaritySpawn(33, 33)
 	endfunction
 	
 	//===========================================================================

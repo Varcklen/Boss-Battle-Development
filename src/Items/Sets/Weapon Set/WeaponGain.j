@@ -51,7 +51,7 @@ scope WeaponGain initializer init
 		return "|n> "+ WeaponWord( BlzGetItemExtendedTooltip(it) )
 	endfunction
 	
-	private function AddWeapon takes unit hero, item itemUsed returns nothing
+	public function AddWeapon takes unit hero, item itemUsed returns nothing
 		local string textGain = GetItemText( itemUsed )
 		local integer index = CorrectPlayer(hero)
 		local string itemName = GetItemName( itemUsed )
@@ -155,7 +155,6 @@ scope WeaponGain initializer init
         call DisplayTimedTextToForce( bj_FORCE_ALL_PLAYERS, 5.00, udg_Player_Color[index] + GetPlayerName(GetOwningPlayer(hero)) + "|r assembled set |cff2d9995Weapon|r!" )
 	    call DestroyEffect( AddSpecialEffect( "Objects\\Spawnmodels\\Human\\HCancelDeath\\HCancelDeath.mdl", GetUnitX( hero ), GetUnitY( hero ) ) )
 	    call iconon( index,  "Оружие", "war3mapImported\\PASAchievement_Arena_3v3_7_result.blp" )
-	    
 	    
 	    call BlzSetItemExtendedTooltip( newItem, BlzGetItemExtendedTooltip(newItem) + textGain )
 	    

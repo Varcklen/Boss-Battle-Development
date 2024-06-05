@@ -50,7 +50,6 @@ scope Mechanic1A initializer init
         
         if counter >= TICKS or area == null then
             call DestroyEffect(area)
-            call FlushChildHashtable( udg_hash, id )
             call DestroyTimer( GetExpiredTimer() )
         else
             call DealDamage(area, id)
@@ -69,9 +68,10 @@ scope Mechanic1A initializer init
         local integer id1
         
         if IsUnitAlive(caster) then
+        	call IndicatorSystem_Create( INDICATOR_AIM, BlzGetLocalSpecialEffectX( area ), BlzGetLocalSpecialEffectY( area ), AREA, DAMAGE_TICK * TICKS )
             set fire = AddSpecialEffect(FIRE_ANIMATION, BlzGetLocalSpecialEffectX( area ), BlzGetLocalSpecialEffectY( area ) )
             call BlzSetSpecialEffectScale( fire, AREA/200 )
-            set id1 = InvokeTimerWithEffect(fire, "mechanic_firestorm", EXPLODE_DELAY, true, function CastFire )
+            set id1 = InvokeTimerWithEffect(fire, "mechanic_firestorm", DAMAGE_TICK, true, function CastFire )
             call SaveUnitHandle( udg_hash, id1, StringHash( "mechanic_firestorm_caster" ), caster )
             call SaveReal( udg_hash, id1, StringHash( "mechanic_firestorm_damage" ), damage )
         endif

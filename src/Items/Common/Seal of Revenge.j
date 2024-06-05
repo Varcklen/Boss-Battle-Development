@@ -17,7 +17,7 @@ scope SealOfRevenge initializer init
 		local unit unitDied = AnyUnitDied.GetDataUnit("unit_died")
 		local unit target
 		
-        set target = randomtarget( unitDied, RANGE, "enemy", "", "", "", "" )
+        set target = randomtarget( unitDied, RANGE, "enemy", 0, 0, 0 )
         if target != null then
             call DestroyEffect( AddSpecialEffect( ANIMATION, GetUnitX( target ), GetUnitY( target ) ) )
             call UnitDamageTarget( caster, target, DAMAGE, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)

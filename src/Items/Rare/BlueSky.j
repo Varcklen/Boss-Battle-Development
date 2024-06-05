@@ -27,7 +27,7 @@ private function actions takes nothing returns nothing
     set counter = ModuloInteger(counter, REQ)
     call SaveInteger( udg_hash, handleId, StringHash( "az06" ), counter )
     if counter > 0 then
-    	call textst( "|c00FFFF00Counter: " + I2S(counter), u, 64, 90, 15, 1.5 )
+    	call textst( "|c00FFFF00" + I2S(counter) + "/" + I2S(REQ), u, 64, 90, 15, 1.5 )
     	//call textst( "|c00FFFF00 " + I2S(counter), u, 64, 90, 15, 1.5 )
     endif
     if procs > 0 then

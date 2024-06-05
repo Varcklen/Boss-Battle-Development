@@ -15,7 +15,7 @@ scope Albedo initializer init
 	        set target = udg_Target
 	    elseif RandomLogic() then
 	        set caster = udg_Caster
-	        set target = randomtarget( caster, 900, "enemy", "", "", "", "" )
+	        set target = randomtarget( caster, 900, "enemy", 0, 0, 0 )
 	        call textst( udg_string[0] + GetObjectName('A0OS'), caster, 64, 90, 10, 1.5 )
 	        if target == null then
 	            set caster = null
