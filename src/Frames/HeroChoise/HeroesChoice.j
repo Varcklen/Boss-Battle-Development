@@ -169,6 +169,7 @@ scope HeroesChoise initializer init
         endif
         if udg_number[index + 100] == 7 then
             call spdst( hero, 10 )
+            //call BJDebugMsg("call spdst( hero, 10 )")
         elseif udg_number[index + 100] == 5 then
         	call luckyst( hero, 5 )
         endif

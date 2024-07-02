@@ -4,6 +4,8 @@ scope Test initializer init
 		local effect particle
 		local unit hero = udg_hero[1]
     
+    
+    	call BJDebugMsg("class: " + I2S(RandomHero_GetHeroClass(hero)))
         //set particle = AddSpecialEffectTarget( "war3mapImported\\Guading_teamsign_blue.mdx", c, "overhead" )
         //call BlzSetSpecialEffectZ( particle, 700 )
         
@@ -11,7 +13,7 @@ scope Test initializer init
         call IndicatorSystem_Create( INDICATOR_AIM, GetUnitX(hero), GetUnitY(hero), 100, 3 )
         call IndicatorSystem_Create( INDICATOR_AIM, GetUnitX(hero), GetUnitY(hero), 300, 3 )*/
         
-        call SetRaritySpawn(33, 33)
+        //call SetRaritySpawn(33, 33)
 	endfunction
 	
 	//===========================================================================
