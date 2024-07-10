@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.7.3T|r
+|cffbe81f7Boss Battle 1.7.4T|r
 }
 
 STRING 2
@@ -2632,10 +2632,24 @@ STRING 421
 Cho
 }
 
+STRING 422
+// Abilities: A1G8 (Hero Spirit: Small Heal), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f785|r Health to a friendly Hero.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
 STRING 423
 // Units: O01A ((M) Berry Dealer), Propernames (Proper Names)
 {
 Drawzi
+}
+
+STRING 424
+// Abilities: A1G9 (Hero Spirit: Mana Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f785|r damage to an enemy.
+|cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 425
@@ -7655,6 +7669,14 @@ STRING 1164
 // Items: I0DU (Runestone Chad), Tip (Tooltip - Basic)
 {
 Runestone Chad
+}
+
+STRING 1165
+// Abilities: A1GA (Hero Spirit: Second Chance), Ubertip (Tooltip - Normal - Extended)
+{
+After the caster uses Small Heal (|cffffcc00Q|r) or Magic Throw (|cffffcc00W|r) 10 times, the hero is resurrected (once per battle).
+
+|cFF959697Each ability has a separate counter.|r
 }
 
 STRING 1166
@@ -58644,13 +58666,6 @@ STRING 8952
 Overlord Arena
 }
 
-STRING 8953
-// Abilities: A1G9 (Hero Spirit: Mana Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7100|r damage to an enemy.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
 STRING 8954
 // Abilities: A1EQ (Arena: Endless Arena (Passive)), Name (Name)
 {
@@ -63936,14 +63951,6 @@ STRING 9765
 // Abilities: A047 (Усилитель 3: Легендарный), Tip (Tooltip - Normal)
 {
 |cffffcc00Amplifier:|r Legendary
-}
-
-STRING 9766
-// Abilities: A1GA (Hero Spirit: Second Chance), Ubertip (Tooltip - Normal - Extended)
-{
-After the caster uses Small Heal (|cffffcc00Q|r) or Magic Throw (|cffffcc00W|r) 8 times, the hero is resurrected (once per battle).
-
-|cFF959697Each ability has a separate counter.|r
 }
 
 STRING 9767
@@ -72990,7 +72997,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.7.3T|r
+|cffbe81f7Boss Battle 1.7.4T|r
 }
 
 STRING 11219
@@ -75716,13 +75723,6 @@ STRING 11615
 // Buffs/Effects: B02W (), Bufftip (Tooltip)
 {
 |cffff0000Slammed|r
-}
-
-STRING 11617
-// Abilities: A1G8 (Hero Spirit: Small Heal), Ubertip (Tooltip - Normal - Extended)
-{
-Restores |cffbe81f7100|r health to a friendly Hero.
-|cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 11618

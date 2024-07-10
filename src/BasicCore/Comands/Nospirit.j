@@ -30,7 +30,7 @@ scope Nospirit initializer init
 	    local trigger trig = CreateTrigger()
 	    loop
 	        exitwhen cyclA > 3
-	        call TriggerRegisterPlayerChatEvent( trig, Player(cyclA), "-nospirit", true )
+	        call TriggerRegisterPlayerChatEvent( trig, Player(cyclA), "-seed", true )
 	        set cyclA = cyclA + 1
 	    endloop
 	    call TriggerAddCondition( trig, Condition( function condition ) )

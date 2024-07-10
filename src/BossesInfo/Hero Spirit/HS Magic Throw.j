@@ -29,7 +29,7 @@ scope MagicThrowHS initializer init
 	    endif
 
 	    call spectimeunit( target, "Abilities\\Spells\\Undead\\ReplenishMana\\ReplenishManaCaster.mdl", "head", 1 )
-	    call UnitTakeDamage( caster, target, 100, DAMAGE_TYPE_MAGIC)
+	    call UnitTakeDamage( caster, target, 85, DAMAGE_TYPE_MAGIC)
 	    
 	    set caster = null
 	    set target = null

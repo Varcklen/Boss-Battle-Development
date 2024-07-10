@@ -220,7 +220,7 @@
           },
           {
             "ParamType": 5,
-            "value": "|c00ffcc00-endgame|r After winning, you can continue playing. You will start killing bosses again, but you will retain all your experience from previous battles. Enemies will have +200% health, attack power and spell damage, as well as -20% ability cooldown for each end victory of the game.|n|c00ffcc00-color X|r Changes the team color to another one. Where X is a number from 1 to 24 (new color).|n|c00ffcc00-notnew|r Disable beginner mode by displaying all stores.|n|c00ffcc00-clear|r Clears the message window.|n|c00ffcc00-nospirit|r Turns on/off the hero spirits. Doesn't work in battle."
+            "value": "|c00ffcc00-endgame|r After winning, you can continue playing. You will start killing bosses again, but you will retain all your experience from previous battles. Enemies will have +200% health, attack power and spell damage, as well as -20% ability cooldown for each end victory of the game.|n|c00ffcc00-color X|r Changes the team color to another one. Where X is a number from 1 to 24 (new color).|n|c00ffcc00-notnew|r Disable beginner mode by displaying all stores.|n|c00ffcc00-clear|r Clears the message window.|n|c00ffcc00-nospirit|r Turns on/off the hero spirits. Doesn't work in battle.|n|c00ffcc00-seed X|r Sets the seed for random generation. Where X is the number for your generation (up to 6 numbers). Can only be used by the host until the first battle is won."
           },
           {
             "ParamType": 5,
