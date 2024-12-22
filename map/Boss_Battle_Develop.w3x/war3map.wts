@@ -11110,6 +11110,14 @@ When the hero activates the first ability (|cffffcc00Q|r), restores |cffbe81f71%
 
 }
 
+STRING 1666
+// Abilities: A0BX (Troll Mage: Arcane strike), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f760/90/120/150/180|r damage to the target. All orbs deal the same damage to all enemies nearby.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 100/105/110/115/120 mana.
+}
+
 STRING 1667
 // Items: I0AC (Runestone Troy), Name (Name)
 {
@@ -11120,6 +11128,13 @@ STRING 1668
 // Items: I0AC (Runestone Troy), Tip (Tooltip - Basic)
 {
 Runestone Troy
+}
+
+STRING 1669
+// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f760|r damage to the target. All orbs deal the same damage to all enemies nearby.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 1670
@@ -12692,6 +12707,13 @@ Activation: Enters invisibility for 5 seconds. Abilities, items and attacks do n
 |cffffcc00Duration:|r 10 seconds.
 }
 
+STRING 1900
+// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f790|r damage to the target. All orbs deal the same damage to all enemies nearby.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 1901
 // Items: I08Q (Wild Yeast), Name (Name)
 {
@@ -12702,6 +12724,13 @@ STRING 1902
 // Items: I08Q (Wild Yeast), Tip (Tooltip - Basic)
 {
 Wild Yeast
+}
+
+STRING 1903
+// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7150|r damage to the target. All orbs deal the same damage to all enemies nearby.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 1904
@@ -14142,6 +14171,13 @@ STRING 2111
 Increases physical damage by 10%.
 }
 
+STRING 2112
+// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7180|r damage to the target. All orbs deal the same damage to all enemies nearby.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 2113
 // Items: I078 (Runestone Telepu), Name (Name)
 {
@@ -14152,6 +14188,15 @@ STRING 2114
 // Items: I078 (Runestone Telepu), Tip (Tooltip - Basic)
 {
 Runestone Telepu
+}
+
+STRING 2115
+// Abilities: A16G (Maiden: Divine Intervention), Researchubertip (Tooltip - Learn - Extended)
+{
+Binds your hero to another non-invisible hero. You lose the ability to move, but now you are dependent on the target's movement and become invulnerable. The target gains 1/3/5/7/9 armor.
+|cffffcc00Cooldown:|r 20/17/14/11/8 seconds.
+
+|cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
 }
 
 STRING 2116
@@ -14178,6 +14223,15 @@ STRING 2119
 |cff00ff00Ruby oil|rXXX
 }
 
+STRING 2120
+// Abilities: A16G (Maiden: Divine Intervention), Ubertip (Tooltip - Normal - Extended)
+{
+Binds your hero to another non-invisible hero. You lose the ability to move, but now you are dependent on the target's movement and become invulnerable. The target gains 1 armor.
+|cffffcc00Cooldown:|r 20 seconds.
+
+|cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
+}
+
 STRING 2121
 // Items: I076 (Runestone Zirik), Name (Name)
 {
@@ -14188,6 +14242,15 @@ STRING 2122
 // Items: I076 (Runestone Zirik), Tip (Tooltip - Basic)
 {
 Runestone Zirik
+}
+
+STRING 2123
+// Abilities: A16G (Maiden: Divine Intervention), Ubertip (Tooltip - Normal - Extended)
+{
+Binds your hero to another non-invisible hero. You lose the ability to move, but now you are dependent on the target's movement and become invulnerable. The target gains 3 armor.
+|cffffcc00Cooldown:|r 17 seconds. 
+
+|cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
 }
 
 STRING 2124
@@ -14689,6 +14752,15 @@ Activation: Gives 50 gold.
 |cffffcc00Cooldown:|r 40 seconds.
 }
 
+STRING 2196
+// Abilities: A16G (Maiden: Divine Intervention), Ubertip (Tooltip - Normal - Extended)
+{
+Binds your hero to another non-invisible hero. You lose the ability to move, but now you are dependent on the target's movement and become invulnerable. The target gains 7 armor.
+|cffffcc00Cooldown:|r 11 seconds. 
+
+|cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
+}
+
 STRING 2197
 // Items: I06N (Runestone Landom), Name (Name)
 {
@@ -14699,6 +14771,15 @@ STRING 2198
 // Items: I06N (Runestone Landom), Tip (Tooltip - Basic)
 {
 Runestone Landom
+}
+
+STRING 2199
+// Abilities: A16G (Maiden: Divine Intervention), Ubertip (Tooltip - Normal - Extended)
+{
+Binds your hero to another non-invisible hero. You lose the ability to move, but now you are dependent on the target's movement and become invulnerable. The target gains 9 armor.
+|cffffcc00Cooldown:|r 8 seconds. 
+
+|cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
 }
 
 STRING 2200
@@ -15705,6 +15786,14 @@ STRING 2348
 Increases luck by 1.
 }
 
+STRING 2349
+// Abilities: A14U (Troll Mage: Resolve), Researchubertip (Tooltip - Learn - Extended)
+{
+Choose an ally. Pulls all orbs towards the target, destroying those; Each orb restores |cffbe81f760/90/120/150/180|r health to target, and deals |cffbe81f760/90/120/150/180|r damage to nearby enemies.
+|cffffcc00Cooldown:|r 5 seconds.
+|cffffcc00Cost:|r 30 mana.
+}
+
 STRING 2350
 // Items: I05L (Runestone Pik), Name (Name)
 {
@@ -15715,6 +15804,13 @@ STRING 2351
 // Items: I05L (Runestone Pik), Tip (Tooltip - Basic)
 {
 Runestone Pik
+}
+
+STRING 2352
+// Abilities: A14U (Troll Mage: Resolve), Ubertip (Tooltip - Normal - Extended)
+{
+Choose an ally. Pulls all orbs towards the target, destroying those; Each orb restores |cffbe81f760|r health to target, and deals |cffbe81f760|r damage to nearby enemies.
+|cffffcc00Cooldown:|r 5 seconds.
 }
 
 STRING 2353
@@ -16232,6 +16328,13 @@ STRING 2431
 Activation: Restores |cffbe81f7225|r health to the hero.
 }
 
+STRING 2432
+// Abilities: A14U (Troll Mage: Resolve), Ubertip (Tooltip - Normal - Extended)
+{
+Choose an ally. Pulls all orbs towards the target, destroying those; Each orb restores |cffbe81f790|r health to target, and deals |cffbe81f790|r damage to nearby enemies.
+|cffffcc00Cooldown:|r 5 seconds.
+}
+
 STRING 2433
 // Items: I053 (Runestone Isli), Name (Name)
 {
@@ -16242,6 +16345,13 @@ STRING 2434
 // Items: I053 (Runestone Isli), Tip (Tooltip - Basic)
 {
 Runestone Isli
+}
+
+STRING 2435
+// Abilities: A14U (Troll Mage: Resolve), Ubertip (Tooltip - Normal - Extended)
+{
+Choose an ally. Pulls all orbs towards the target, destroying those; Each orb restores |cffbe81f7120|r health to target, and deals |cffbe81f7120|r damage to nearby enemies.
+|cffffcc00Cooldown:|r 5 seconds.
 }
 
 STRING 2436
@@ -16848,6 +16958,13 @@ STRING 2524
 Activation: |cffcc0000Corrupted|r. Choose a hero. Fully restores the target's health and mana. Only works in combat.
 }
 
+STRING 2525
+// Abilities: A14U (Troll Mage: Resolve), Ubertip (Tooltip - Normal - Extended)
+{
+Choose an ally. Pulls all orbs towards the target, destroying those; Each orb restores |cffbe81f7150|r health to target, and deals |cffbe81f7150|r damage to nearby enemies.
+|cffffcc00Cooldown:|r 5 seconds.
+}
+
 STRING 2526
 // Items: I04F (Runestone Zi), Name (Name)
 {
@@ -16858,6 +16975,13 @@ STRING 2527
 // Items: I04F (Runestone Zi), Tip (Tooltip - Basic)
 {
 Runestone Zi
+}
+
+STRING 2528
+// Abilities: A14U (Troll Mage: Resolve), Ubertip (Tooltip - Normal - Extended)
+{
+Choose an ally. Pulls all orbs towards the target, destroying those; Each orb restores |cffbe81f7180|r health to target, and deals |cffbe81f7180|r damage to nearby enemies.
+|cffffcc00Cooldown:|r 5 seconds.
 }
 
 STRING 2529
@@ -17132,6 +17256,14 @@ When any hero dies, restores |cffbe81f720%|r of the maximum health and mana to a
 |cff81f260[Random bonus]|r
 }
 
+STRING 2569
+// Abilities: A189 (Dealer: Harmless Offering), Researchubertip (Tooltip - Learn - Extended)
+{
+Creates 2/3/4/5/6 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7100|r health to your hero.
+|cffffcc00Life time:|r 60 seconds. 
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
 STRING 2570
 // Items: I044 (Magic meat), Name (Name)
 {
@@ -17142,6 +17274,14 @@ STRING 2571
 // Items: I044 (Magic meat), Tip (Tooltip - Basic)
 {
 Magic meat
+}
+
+STRING 2572
+// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
+{
+Creates 2 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7100|r health to your hero.
+|cffffcc00Life time:|r 60 seconds. 
+|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 2573
@@ -18180,6 +18320,14 @@ STRING 2729
 Absorbs missing artifacts from the set "|cff2d9995Weapon|r".
 }
 
+STRING 2730
+// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
+{
+Creates 3 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7100|r health to your hero.
+|cffffcc00Life time:|r 60 seconds. 
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
 STRING 2731
 // Items: I02Z (Runestone Sin), Name (Name)
 {
@@ -18190,6 +18338,14 @@ STRING 2732
 // Items: I02Z (Runestone Sin), Tip (Tooltip - Basic)
 {
 Runestone Sin
+}
+
+STRING 2733
+// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
+{
+Creates 4 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7100|r health to your hero.
+|cffffcc00Life time:|r 60 seconds. 
+|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 2734
@@ -18640,6 +18796,14 @@ Activation: Summons Superbot-3000. When summoned, it upgraded depending on the l
 |cffffcc00Cooldown:|r 90 seconds.
 }
 
+STRING 2801
+// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
+{
+Creates 5 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7100|r health to your hero.
+|cffffcc00Life time:|r 60 seconds. 
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
 STRING 2802
 // Items: I02H (Runestone Kusa), Name (Name)
 {
@@ -18650,6 +18814,14 @@ STRING 2803
 // Items: I02H (Runestone Kusa), Tip (Tooltip - Basic)
 {
 Runestone Kusa
+}
+
+STRING 2804
+// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
+{
+Creates 6 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7100|r health to your hero.
+|cffffcc00Life time:|r 60 seconds. 
+|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 2806
@@ -26672,14 +26844,6 @@ STRING 4040
 Harmless Offering, [|cffffcc00Level %d|r]
 }
 
-STRING 4041
-// Abilities: A189 (Dealer: Harmless Offering), Researchubertip (Tooltip - Learn - Extended)
-{
-Creates 2/3/4/5/6 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f725|r gold and restores |cffbe81f7100|r health to your hero.
-|cffffcc00Life time:|r 60 seconds. 
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
 STRING 4042
 // Abilities: A189 (Dealer: Harmless Offering), Tip (Tooltip - Normal)
 {
@@ -26708,46 +26872,6 @@ STRING 4046
 // Abilities: A189 (Dealer: Harmless Offering), Tip (Tooltip - Normal)
 {
 Harmless Offering, [|cffffcc00Level 5|r]
-}
-
-STRING 4047
-// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
-{
-Creates 2 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f725|r gold and restores |cffbe81f7100|r health to your hero.
-|cffffcc00Life time:|r 60 seconds. 
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 4048
-// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
-{
-Creates 3 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f725|r gold and restores |cffbe81f7100|r health to your hero.
-|cffffcc00Life time:|r 60 seconds. 
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 4049
-// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
-{
-Creates 4 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f725|r gold and restores |cffbe81f7100|r health to your hero.
-|cffffcc00Life time:|r 60 seconds. 
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 4050
-// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
-{
-Creates 5 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f725|r gold and restores |cffbe81f7100|r health to your hero.
-|cffffcc00Life time:|r 60 seconds. 
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 4051
-// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
-{
-Creates 6 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f725|r gold and restores |cffbe81f7100|r health to your hero.
-|cffffcc00Life time:|r 60 seconds. 
-|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 4052
@@ -28530,15 +28654,6 @@ STRING 4325
 Divine Intervention, [|cffffcc00Level %d|r]
 }
 
-STRING 4326
-// Abilities: A16G (Maiden: Divine Intervention), Researchubertip (Tooltip - Learn - Extended)
-{
-Binds your hero to another non-invisible hero. You lose the ability to move, but now you are dependent on the target's movement and become invulnerable. The target gains 3/4/5/6/7 armor.
-|cffffcc00Cooldown:|r 20/17/14/11/8 seconds.
-
-|cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
-}
-
 STRING 4327
 // Abilities: A16G (Maiden: Divine Intervention), Tip (Tooltip - Normal)
 {
@@ -28569,47 +28684,11 @@ STRING 4331
 Divine Intervention, [|cffffcc00Level 5|r]
 }
 
-STRING 4332
-// Abilities: A16G (Maiden: Divine Intervention), Ubertip (Tooltip - Normal - Extended)
-{
-Binds your hero to another non-invisible hero. You lose the ability to move, but now you are dependent on the target's movement and become invulnerable. The target gains 3 armor.
-|cffffcc00Cooldown:|r 20 seconds.
-
-|cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
-}
-
-STRING 4333
-// Abilities: A16G (Maiden: Divine Intervention), Ubertip (Tooltip - Normal - Extended)
-{
-Binds your hero to another non-invisible hero. You lose the ability to move, but now you are dependent on the target's movement and become invulnerable. The target gains 4 armor.
-|cffffcc00Cooldown:|r 17 seconds. 
-
-|cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
-}
-
 STRING 4334
 // Abilities: A16G (Maiden: Divine Intervention), Ubertip (Tooltip - Normal - Extended)
 {
 Binds your hero to another non-invisible hero. You lose the ability to move, but now you are dependent on the target's movement and become invulnerable. The target gains 5 armor.
 |cffffcc00Cooldown:|r 14 seconds. 
-
-|cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
-}
-
-STRING 4335
-// Abilities: A16G (Maiden: Divine Intervention), Ubertip (Tooltip - Normal - Extended)
-{
-Binds your hero to another non-invisible hero. You lose the ability to move, but now you are dependent on the target's movement and become invulnerable. The target gains 6 armor.
-|cffffcc00Cooldown:|r 11 seconds. 
-
-|cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
-}
-
-STRING 4336
-// Abilities: A16G (Maiden: Divine Intervention), Ubertip (Tooltip - Normal - Extended)
-{
-Binds your hero to another non-invisible hero. You lose the ability to move, but now you are dependent on the target's movement and become invulnerable. The target gains 7 armor.
-|cffffcc00Cooldown:|r 8 seconds. 
 
 |cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
 }
@@ -30151,14 +30230,6 @@ STRING 4572
 Resolve, [|cffffcc00Level %d|r]
 }
 
-STRING 4573
-// Abilities: A14U (Troll Mage: Resolve), Researchubertip (Tooltip - Learn - Extended)
-{
-Choose an ally. Pulls all orbs towards the target. Destroys all orbs and restores the target |cffbe81f740/60/80/100/120|r health, and also deals |cffbe81f740/60/80/100/120|r damage to all enemies in the area.
-|cffffcc00Cooldown:|r 5 seconds.
-|cffffcc00Cost:|r 30 mana.
-}
-
 STRING 4574
 // Abilities: A14U (Troll Mage: Resolve), Tip (Tooltip - Normal)
 {
@@ -30187,41 +30258,6 @@ STRING 4578
 // Abilities: A14U (Troll Mage: Resolve), Tip (Tooltip - Normal)
 {
 Resolve, [|cffffcc00Level 5|r]
-}
-
-STRING 4579
-// Abilities: A14U (Troll Mage: Resolve), Ubertip (Tooltip - Normal - Extended)
-{
-Choose an ally. Pulls all orbs towards the target. Destroys all orbs and restores the target |cffbe81f740|r health, and also deals |cffbe81f740|r damage to all enemies in the area.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 4580
-// Abilities: A14U (Troll Mage: Resolve), Ubertip (Tooltip - Normal - Extended)
-{
-Choose an ally. Pulls all orbs towards the target. Destroys all orbs and restores the target |cffbe81f760|r health, and also deals |cffbe81f760|r damage to all enemies in the area.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 4581
-// Abilities: A14U (Troll Mage: Resolve), Ubertip (Tooltip - Normal - Extended)
-{
-Choose an ally. Pulls all orbs towards the target. Destroys all orbs and restores the target |cffbe81f780|r health, and also deals |cffbe81f780|r damage to all enemies in the area.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 4582
-// Abilities: A14U (Troll Mage: Resolve), Ubertip (Tooltip - Normal - Extended)
-{
-Choose an ally. Pulls all orbs towards the target. Destroys all orbs and restores the target |cffbe81f7100|r health, and also deals |cffbe81f7100|r damage to all enemies in the area.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 4583
-// Abilities: A14U (Troll Mage: Resolve), Ubertip (Tooltip - Normal - Extended)
-{
-Choose an ally. Pulls all orbs towards the target. Destroys all orbs and restores the target |cffbe81f7120|r health, and also deals |cffbe81f7120|r damage to all enemies in the area.
-|cffffcc00Cooldown:|r 5 seconds.
 }
 
 STRING 4584
@@ -55488,14 +55524,6 @@ STRING 8457
 Arcane strike, [|cffffcc00Level %d|r]
 }
 
-STRING 8458
-// Abilities: A0BX (Troll Mage: Arcane strike), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f780/120/160/200/240|r damage to the target. All orbs deal the same damage to all enemies nearby.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 100/105/110/115/120 mana.
-}
-
 STRING 8459
 // Abilities: A0BX (Troll Mage: Arcane strike), Tip (Tooltip - Normal)
 {
@@ -55526,38 +55554,10 @@ STRING 8463
 Arcane strike, [|cffffcc00Level 5|r]
 }
 
-STRING 8464
-// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f780|r damage to the target. All orbs deal the same damage to all enemies nearby.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 8465
 // Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
 {
 Deals |cffbe81f7120|r damage to the target. All orbs deal the same damage to all enemies nearby.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 8466
-// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7160|r damage to the target. All orbs deal the same damage to all enemies nearby.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 8467
-// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7200|r damage to the target. All orbs deal the same damage to all enemies nearby.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 8468
-// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7240|r damage to the target. All orbs deal the same damage to all enemies nearby.
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
