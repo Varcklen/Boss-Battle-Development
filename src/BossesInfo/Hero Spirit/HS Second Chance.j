@@ -2,7 +2,7 @@ scope SecondChanceHS initializer init
 
 	globals
 		private constant integer ANILITY_ID = 'A1GA'
-		private constant integer CATS_REQUIRE = 8
+		private constant integer CAST_REQUIRE = 10
 	endglobals
 
 	private function condition takes nothing returns boolean
@@ -15,7 +15,7 @@ scope SecondChanceHS initializer init
 		local integer counter = LoadInteger(udg_hash, id, stringHash) + 1
 		local unit hero
 		
-		if counter >= CATS_REQUIRE then
+		if counter >= CAST_REQUIRE then
 			set hero = LoadUnitHandle(udg_hash, id, HeroSpiritSummon_STRING_HASH )
 			if IsUnitDead(hero) then
 				call UnitRemoveAbility(caster, ANILITY_ID)
@@ -24,7 +24,7 @@ scope SecondChanceHS initializer init
 			endif
 		else
 			call SaveInteger(udg_hash, id, stringHash, counter)
-			call textst( "|c00FF6000" + I2S(counter) + "/" + I2S(CATS_REQUIRE), caster, 64, 90, 15, 1 )
+			call textst( "|c00FF6000" + I2S(counter) + "/" + I2S(CAST_REQUIRE), caster, 64, 90, 15, 1 )
 		endif
 		
 		set hero = null

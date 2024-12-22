@@ -9,9 +9,10 @@ scope WildYeast initializer init
 	private function condition takes nothing returns boolean
 	    return udg_fightmod[3] == false
 	endfunction
-
-	private function action takes nothing returns nothing
-		local unit caster = BattleStart.GetDataUnit("caster")
+	
+	private function delay takes nothing returns nothing
+		local integer id = GetHandleId( GetExpiredTimer( ) )
+		local unit caster = LoadUnitHandle( udg_hash, id, StringHash( "wild_yeast_delay" ) )
 		local integer i
 		local integer iMax = UnitInventorySize(caster)
 		local item itemInSlot
@@ -19,6 +20,9 @@ scope WildYeast initializer init
 		local integer itemCharges
 		
 		//call BJDebugMsg("Check")
+		set newItem = CreateItem(udg_Database_Item_Potion[GetRandomInt(1,udg_Database_NumberItems[9])], GetUnitX(caster), GetUnitY(caster))
+        call UnitAddItem(caster, newItem)
+		
 		set i = 0
         loop
             exitwhen i >= iMax
@@ -27,16 +31,20 @@ scope WildYeast initializer init
             if itemInSlot != null and IsPotion(itemInSlot) then
             	//call BJDebugMsg("Work")
                 set itemCharges = BlzGetItemIntegerField(itemInSlot, ITEM_IF_NUMBER_OF_CHARGES)
-                call RemoveItem( itemInSlot )
-                set newItem = CreateItem(udg_Database_Item_Potion[GetRandomInt(1,udg_Database_NumberItems[9])], GetUnitX(caster), GetUnitY(caster))
-                call UnitAddItem(caster, newItem)
-                call BlzSetItemIntegerFieldBJ( newItem, ITEM_IF_NUMBER_OF_CHARGES, itemCharges + EXTRA_CHARGE )
+                call BlzSetItemIntegerFieldBJ( itemInSlot, ITEM_IF_NUMBER_OF_CHARGES, itemCharges + EXTRA_CHARGE )
             endif
             set i = i + 1
         endloop
 
 		set newItem = null
 		set itemInSlot = null
+    	set caster = null
+	endfunction
+
+	private function action takes nothing returns nothing
+		local unit caster = BattleStart.GetDataUnit("caster")
+
+        call InvokeTimerWithUnit( caster, "wild_yeast_delay", 0.01, false, function delay )
     	set caster = null
 	endfunction
 

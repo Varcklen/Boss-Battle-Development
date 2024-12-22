@@ -28,7 +28,7 @@ scope SmallHealHS initializer init
 	        set target = GetSpellTargetUnit()
 	    endif
 
-	    call healst( caster, target, 100 )
+	    call healst( caster, target, 85 )
 	    call DestroyEffect( AddSpecialEffectTarget("Abilities\\Spells\\Human\\HolyBolt\\HolyBoltSpecialArt.mdl" , target, "origin" ) )
 	    
 	    set caster = null

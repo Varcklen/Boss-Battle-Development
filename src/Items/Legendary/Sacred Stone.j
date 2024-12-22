@@ -10,6 +10,16 @@ scope SacredStone initializer init
     private function condition takes nothing returns boolean
         return GetSpellAbilityId() == ID_ABILITY
     endfunction
+    
+    private function ManaRestore takes nothing returns nothing
+    	local integer id = GetHandleId( GetExpiredTimer() )
+    	local unit caster = LoadUnitHandle( udg_hash, id, StringHash( "sacred_stone_mana" ) )
+    	local integer manaRestore = LoadInteger( udg_hash, id, StringHash( "sacred_stone_mana" ) )
+    
+    	call manast( caster, null, manaRestore )
+    
+    	set caster = null
+    endfunction
 
 	private function action takes nothing returns nothing
 	    local unit caster
@@ -18,6 +28,7 @@ scope SacredStone initializer init
 	    local integer cyclAEnd
 	    local integer pwr = 80
 	    local integer dmg
+	    local integer id
 	    
 	    if CastLogic() then
 	        set caster = udg_Caster
@@ -62,8 +73,13 @@ scope SacredStone initializer init
 	        exitwhen cyclA > cyclAEnd
 	        call UnitDamageTarget( caster, target, dmg, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)
 	        call healst( caster, null, pwr )
-	        call manast( caster, null, pwr )
 	        call shield( caster, caster, pwr )
+	        
+	        //call manast( caster, null, pwr )
+	        
+	        call CommonTimer_CreateAnotherCopy()
+	        set id = InvokeTimerWithUnit( caster, "sacred_stone_mana", 0.04, false, function ManaRestore )
+	        call SaveInteger( udg_hash, id, StringHash( "sacred_stone_mana" ), pwr )
 	        
 	        set cyclA = cyclA + 1
 	    endloop
