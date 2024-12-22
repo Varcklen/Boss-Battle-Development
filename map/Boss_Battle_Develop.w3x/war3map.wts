@@ -8837,6 +8837,12 @@ STRING 1329
 When you attack, you have a |cffd7df0150%|r chance to deal 3x more damage, otherwise you will miss.
 }
 
+STRING 1330
+// Abilities: A1GK (Aspect: Gambler: Aspect of Odd Odds), Ubertip (Tooltip - Normal - Extended)
+{
+Fixed Odds has a |cffd7df0150%|r chance to provide 50% more luck. Otherwise, it provides 50% less luck.
+}
+
 STRING 1331
 // Items: I0CO (Felweed), Name (Name)
 {
@@ -20966,12 +20972,6 @@ STRING 3115
 // Items: I00C (Runestone Sandom), Tip (Tooltip - Basic)
 {
 Runestone Sandom
-}
-
-STRING 3116
-// Abilities: A1GK (Aspect: Gambler: Aspect of Odd Odds), Ubertip (Tooltip - Normal - Extended)
-{
-Fixed Odds has a 50% chance to provide 50% more Luck. Otherwise, it provides 50% less Luck.
 }
 
 STRING 3118
