@@ -1,3 +1,9 @@
+scope MiracleBrewR initializer init
+
+    globals
+		trigger trg_MiracleBrewR = null
+    endglobals
+    
 function Trig_MiracleBrewR_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A0RT'
 endfunction
@@ -65,10 +71,12 @@ function Trig_MiracleBrewR_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_MiracleBrewR takes nothing returns nothing
-    set gg_trg_MiracleBrewR = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_MiracleBrewR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_MiracleBrewR, Condition( function Trig_MiracleBrewR_Conditions ) )
-    call TriggerAddAction( gg_trg_MiracleBrewR, function Trig_MiracleBrewR_Actions )
+private function init takes nothing returns nothing
+    set trg_MiracleBrewR = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_MiracleBrewR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_MiracleBrewR, Condition( function Trig_MiracleBrewR_Conditions ) )
+    call TriggerAddAction( trg_MiracleBrewR, function Trig_MiracleBrewR_Actions )
 endfunction
+
+endscope
 

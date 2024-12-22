@@ -1,3 +1,9 @@
+scope ShamanW initializer init
+
+    globals
+		trigger trg_ShamanW = null
+    endglobals
+    
 function Trig_ShamanW_Conditions takes nothing returns boolean
     return GetSpellAbilityId( ) == 'A0W5'
 endfunction
@@ -46,9 +52,11 @@ function Trig_ShamanW_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_ShamanW takes nothing returns nothing
-    set gg_trg_ShamanW = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_ShamanW, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_ShamanW, Condition( function Trig_ShamanW_Conditions ) )
-    call TriggerAddAction( gg_trg_ShamanW, function Trig_ShamanW_Actions )
+private function init takes nothing returns nothing
+    set trg_ShamanW = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_ShamanW, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_ShamanW, Condition( function Trig_ShamanW_Conditions ) )
+    call TriggerAddAction( trg_ShamanW, function Trig_ShamanW_Actions )
 endfunction
+
+endscope

@@ -17,6 +17,8 @@ scope ElementalQ initializer init
         private constant integer BUFF = 'B07Q'
         
         private constant string ANIMATION = "Abilities\\Spells\\Undead\\DeathCoil\\DeathCoilSpecialArt.mdl"
+        
+		trigger trg_ElementalQ = null
     endglobals
 
     function Trig_ElementalQ_Conditions takes nothing returns boolean
@@ -158,10 +160,10 @@ scope ElementalQ initializer init
 
     //===========================================================================
     private function init takes nothing returns nothing
-        set gg_trg_ElementalQ = CreateTrigger()
-        call TriggerRegisterAnyUnitEventBJ( gg_trg_ElementalQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-        call TriggerAddCondition( gg_trg_ElementalQ, Condition( function Trig_ElementalQ_Conditions ) )
-        call TriggerAddAction( gg_trg_ElementalQ, function Trig_ElementalQ_Actions )
+        set trg_ElementalQ = CreateTrigger()
+        call TriggerRegisterAnyUnitEventBJ( trg_ElementalQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+        call TriggerAddCondition( trg_ElementalQ, Condition( function Trig_ElementalQ_Conditions ) )
+        call TriggerAddAction( trg_ElementalQ, function Trig_ElementalQ_Actions )
         
         call CreateEventTrigger( "Event_DeleteBuff_Real", function DeleteBuff, function DeleteBuff_Conditions )
     endfunction

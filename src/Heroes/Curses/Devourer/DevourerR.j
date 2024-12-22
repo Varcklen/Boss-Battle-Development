@@ -1,3 +1,9 @@
+scope DevourerR initializer init
+
+    globals
+		trigger trg_DevourerR = null
+    endglobals
+    
 function Trig_DevourerR_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A10J'
 endfunction
@@ -67,10 +73,12 @@ function Trig_DevourerR_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_DevourerR takes nothing returns nothing
-    set gg_trg_DevourerR = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_DevourerR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_DevourerR, Condition( function Trig_DevourerR_Conditions ) )
-    call TriggerAddAction( gg_trg_DevourerR, function Trig_DevourerR_Actions )
+private function init takes nothing returns nothing
+    set trg_DevourerR = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_DevourerR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_DevourerR, Condition( function Trig_DevourerR_Conditions ) )
+    call TriggerAddAction( trg_DevourerR, function Trig_DevourerR_Actions )
 endfunction
+
+endscope
 

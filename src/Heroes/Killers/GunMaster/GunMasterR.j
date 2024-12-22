@@ -13,6 +13,8 @@ scope GunMasterR initializer init
         
         private constant string EXPLODE_ANIMATION = "Abilities\\Spells\\Other\\Incinerate\\FireLordDeathExplode.mdl"
         private constant string ZONE_ANIMATION = "war3mapImported\\Spell Marker Gray.mdx"
+        
+		trigger trg_GunMasterR = null
     endglobals
 
     function Trig_GunMasterR_Conditions takes nothing returns boolean
@@ -117,10 +119,10 @@ scope GunMasterR initializer init
 
     //===========================================================================
     private function init takes nothing returns nothing
-        set gg_trg_GunMasterR = CreateTrigger(  )
-        call TriggerRegisterAnyUnitEventBJ( gg_trg_GunMasterR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-        call TriggerAddCondition( gg_trg_GunMasterR, Condition( function Trig_GunMasterR_Conditions ) )
-        call TriggerAddAction( gg_trg_GunMasterR, function Trig_GunMasterR_Actions )
+        set trg_GunMasterR = CreateTrigger(  )
+        call TriggerRegisterAnyUnitEventBJ( trg_GunMasterR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+        call TriggerAddCondition( trg_GunMasterR, Condition( function Trig_GunMasterR_Conditions ) )
+        call TriggerAddAction( trg_GunMasterR, function Trig_GunMasterR_Actions )
     endfunction
 
 endscope

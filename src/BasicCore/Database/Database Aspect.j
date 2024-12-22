@@ -31,6 +31,9 @@ library Aspects initializer init
         //Berry Dealer
         call SetAspect(36, 'A1CF', 'A1CG', 'A1CE')
         
+        //Gambler
+        call SetAspect(44, 'A1GJ', 'A1GK', 'A1GI')
+        
         //Toxic Elemental
         call SetAspect(56, 'A1CB', 'A1CC', 'A1CD')
         

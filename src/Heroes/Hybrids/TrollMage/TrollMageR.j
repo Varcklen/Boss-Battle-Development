@@ -1,3 +1,9 @@
+scope TrollMageR initializer init
+
+    globals
+		trigger trg_TrollMageR = null
+    endglobals
+    
 function Trig_TrollMageR_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A0BX'
 endfunction
@@ -66,10 +72,12 @@ function Trig_TrollMageR_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_TrollMageR takes nothing returns nothing
-    set gg_trg_TrollMageR = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_TrollMageR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_TrollMageR, Condition( function Trig_TrollMageR_Conditions ) )
-    call TriggerAddAction( gg_trg_TrollMageR, function Trig_TrollMageR_Actions )
+private function init takes nothing returns nothing
+    set trg_TrollMageR = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_TrollMageR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_TrollMageR, Condition( function Trig_TrollMageR_Conditions ) )
+    call TriggerAddAction( trg_TrollMageR, function Trig_TrollMageR_Actions )
 endfunction
+
+endscope
 

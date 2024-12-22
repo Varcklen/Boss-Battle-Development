@@ -1,3 +1,9 @@
+scope NinjaR initializer init
+
+    globals
+		trigger trg_NinjaR = null
+    endglobals
+    
 function Trig_NinjaR_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A0MB'
 endfunction
@@ -39,10 +45,12 @@ function Trig_NinjaR_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_NinjaR takes nothing returns nothing
-    set gg_trg_NinjaR = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_NinjaR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_NinjaR, Condition( function Trig_NinjaR_Conditions ) )
-    call TriggerAddAction( gg_trg_NinjaR, function Trig_NinjaR_Actions )
+private function init takes nothing returns nothing
+    set trg_NinjaR = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_NinjaR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_NinjaR, Condition( function Trig_NinjaR_Conditions ) )
+    call TriggerAddAction( trg_NinjaR, function Trig_NinjaR_Actions )
 endfunction
+
+endscope
 

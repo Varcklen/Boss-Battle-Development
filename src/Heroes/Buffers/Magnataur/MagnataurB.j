@@ -1,3 +1,9 @@
+scope MagnataurB initializer init
+
+    globals
+		trigger trg_MagnataurB = null
+    endglobals
+    
 function Trig_MagnataurB_Conditions takes nothing returns boolean
     return GetLearnedSkill() == 'A0UF' or GetLearnedSkill() == 'A0VG' or GetLearnedSkill() == 'A0WJ'
 endfunction
@@ -24,9 +30,10 @@ function Trig_MagnataurB_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_MagnataurB takes nothing returns nothing
-    set gg_trg_MagnataurB = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_MagnataurB, EVENT_PLAYER_HERO_SKILL )
-    call TriggerAddCondition( gg_trg_MagnataurB, Condition( function Trig_MagnataurB_Conditions ) )
-    call TriggerAddAction( gg_trg_MagnataurB, function Trig_MagnataurB_Actions )
+private function init takes nothing returns nothing
+    set trg_MagnataurB = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_MagnataurB, EVENT_PLAYER_HERO_SKILL )
+    call TriggerAddCondition( trg_MagnataurB, Condition( function Trig_MagnataurB_Conditions ) )
+    call TriggerAddAction( trg_MagnataurB, function Trig_MagnataurB_Actions )
 endfunction
+endscope

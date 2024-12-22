@@ -1,3 +1,9 @@
+scope PredatorW initializer init
+
+    globals
+		trigger trg_PredatorW = null
+    endglobals
+    
 function Trig_PredatorW_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A15N' and combat( GetSpellAbilityUnit(), true, GetSpellAbilityId() )
 endfunction
@@ -149,10 +155,12 @@ function Trig_PredatorW_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_PredatorW takes nothing returns nothing
-    set gg_trg_PredatorW = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_PredatorW, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_PredatorW, Condition( function Trig_PredatorW_Conditions ) )
-    call TriggerAddAction( gg_trg_PredatorW, function Trig_PredatorW_Actions )
+private function init takes nothing returns nothing
+    set trg_PredatorW = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_PredatorW, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_PredatorW, Condition( function Trig_PredatorW_Conditions ) )
+    call TriggerAddAction( trg_PredatorW, function Trig_PredatorW_Actions )
 endfunction
+
+endscope
 

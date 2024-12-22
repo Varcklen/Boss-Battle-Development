@@ -134,10 +134,10 @@ scope Skins
         set skiniconBTN[49][1] = "war3mapImported\\BTNDemoness.blp"
         set skiniconDIS[49][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNDemoness.blp"
         //Toxic Elemental
-        set skinmodel[56][1] = 'O01T'
-        set skinlvl[56][1] = 27
-        set skiniconBTN[56][1] = "war3mapImported\\BTNPoisonElemental.blp"
-        set skiniconDIS[56][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNPoisonElemental.blp"
+        set skinmodel[56][1] = 'O022'
+        set skinlvl[56][1] = 11
+        set skiniconBTN[56][1] = "ReplaceableTextures\\CommandButtons\\BTNSeaElemental.blp"
+        set skiniconDIS[56][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSeaElemental.blp"
         //Grim Ninja
         set skinmodel[57][1] = 'N034'
         set skinlvl[57][1] = 22
@@ -197,6 +197,11 @@ scope Skins
         set skinlvl[46][2] = 23
         set skiniconBTN[46][2] = "war3mapImported\\BTNskinwitchdoctor2.blp"
         set skiniconDIS[46][2] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNskinwitchdoctor2.blp"
+        //Toxic Elemental
+        set skinmodel[56][2] = 'O01T'
+        set skinlvl[56][2] = 27
+        set skiniconBTN[56][2] = "war3mapImported\\BTNPoisonElemental.blp"
+        set skiniconDIS[56][2] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNPoisonElemental.blp"
         
         
         

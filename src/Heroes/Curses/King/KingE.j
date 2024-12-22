@@ -1,3 +1,9 @@
+scope GhoulKingE initializer init
+
+    globals
+		trigger trg_KingE = null
+    endglobals
+    
 function Trig_KingE_Conditions takes nothing returns boolean
     return GetSpellAbilityId( ) == 'A0Q2'
 endfunction
@@ -40,9 +46,11 @@ function Trig_KingE_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_KingE takes nothing returns nothing
-    set gg_trg_KingE = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_KingE, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_KingE, Condition( function Trig_KingE_Conditions ) )
-    call TriggerAddAction( gg_trg_KingE, function Trig_KingE_Actions )
+private function init takes nothing returns nothing
+    set trg_KingE = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_KingE, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_KingE, Condition( function Trig_KingE_Conditions ) )
+    call TriggerAddAction( trg_KingE, function Trig_KingE_Actions )
 endfunction
+
+endscope

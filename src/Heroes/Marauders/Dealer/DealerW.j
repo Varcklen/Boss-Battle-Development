@@ -1,3 +1,9 @@
+scope DealerW initializer init
+
+    globals
+		trigger trg_DealerW = null
+    endglobals
+    
 function Trig_DealerW_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A187'
 endfunction
@@ -94,10 +100,12 @@ function Trig_DealerW_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_DealerW takes nothing returns nothing
-    set gg_trg_DealerW = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_DealerW, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_DealerW, Condition( function Trig_DealerW_Conditions ) )
-    call TriggerAddAction( gg_trg_DealerW, function Trig_DealerW_Actions )
+private function init takes nothing returns nothing
+    set trg_DealerW = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_DealerW, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_DealerW, Condition( function Trig_DealerW_Conditions ) )
+    call TriggerAddAction( trg_DealerW, function Trig_DealerW_Actions )
 endfunction
+
+endscope
 

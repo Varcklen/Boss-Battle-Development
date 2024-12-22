@@ -1,3 +1,9 @@
+scope PredatorR initializer init
+
+    globals
+		trigger trg_PredatorR = null
+    endglobals
+    
 function Trig_PredatorR_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A15T'
 endfunction
@@ -40,10 +46,12 @@ function Trig_PredatorR_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_PredatorR takes nothing returns nothing
-    set gg_trg_PredatorR = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_PredatorR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_PredatorR, Condition( function Trig_PredatorR_Conditions ) )
-    call TriggerAddAction( gg_trg_PredatorR, function Trig_PredatorR_Actions )
+private function init takes nothing returns nothing
+    set trg_PredatorR = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_PredatorR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_PredatorR, Condition( function Trig_PredatorR_Conditions ) )
+    call TriggerAddAction( trg_PredatorR, function Trig_PredatorR_Actions )
 endfunction
+
+endscope
 

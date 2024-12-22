@@ -1,3 +1,9 @@
+scope GhostHeroW initializer init
+
+    globals
+		trigger trg_GhostW = null
+    endglobals
+    
 function Trig_GhostW_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A05R'
 endfunction
@@ -82,10 +88,12 @@ function Trig_GhostW_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_GhostW takes nothing returns nothing
-    set gg_trg_GhostW = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_GhostW, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_GhostW, Condition( function Trig_GhostW_Conditions ) )
-    call TriggerAddAction( gg_trg_GhostW, function Trig_GhostW_Actions )
+private function init takes nothing returns nothing
+    set trg_GhostW = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ(trg_GhostW, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_GhostW, Condition( function Trig_GhostW_Conditions ) )
+    call TriggerAddAction( trg_GhostW, function Trig_GhostW_Actions )
 endfunction
 
+
+endscope

@@ -2389,7 +2389,7 @@ Azathot
 }
 
 STRING 383
-// Units: O01T (Toxic Elemental), EditorSuffix (Name - Editor Suffix)
+// Units: O01S (Miracle alchemist), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2407,7 +2407,7 @@ Lye Insanios
 }
 
 STRING 386
-// Units: O01S (Miracle alchemist), EditorSuffix (Name - Editor Suffix)
+// Units: O01P (Commander), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2443,7 +2443,7 @@ Erk
 }
 
 STRING 392
-// Units: O01Q (Commander), EditorSuffix (Name - Editor Suffix)
+// Units: O01T (Toxic Elemental), EditorSuffix (Name - Editor Suffix)
 {
 (Skin2)
 }
@@ -2461,7 +2461,7 @@ Kappa
 }
 
 STRING 395
-// Units: O01P (Commander), EditorSuffix (Name - Editor Suffix)
+// Units: O01H (Admiral), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2561,7 +2561,7 @@ Gothik
 }
 
 STRING 410
-// Units: O01H (Admiral), EditorSuffix (Name - Editor Suffix)
+// Units: O01G (Adventurer), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2579,7 +2579,7 @@ Crusoe Robinson
 }
 
 STRING 413
-// Units: O01G (Adventurer), EditorSuffix (Name - Editor Suffix)
+// Units: O01E (Dryad), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2597,7 +2597,7 @@ Bartholomew
 }
 
 STRING 416
-// Units: O01E (Dryad), EditorSuffix (Name - Editor Suffix)
+// Units: O01D (Monk), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2615,7 +2615,7 @@ Elisia
 }
 
 STRING 419
-// Units: O01D (Monk), EditorSuffix (Name - Editor Suffix)
+// Units: N056 (Armsmaster), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2945,7 +2945,7 @@ Shenanigan
 }
 
 STRING 472
-// Units: N056 (Armsmaster), EditorSuffix (Name - Editor Suffix)
+// Units: N051 (Metal Mage), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3006,7 +3006,7 @@ Oakisle
 }
 
 STRING 482
-// Units: N051 (Metal Mage), EditorSuffix (Name - Editor Suffix)
+// Units: N04Z (Mentor), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3024,7 +3024,7 @@ Ozzy
 }
 
 STRING 485
-// Units: N050 (Minotaur), EditorSuffix (Name - Editor Suffix)
+// Units: O01Q (Commander), EditorSuffix (Name - Editor Suffix)
 {
 (Skin2)
 }
@@ -3042,7 +3042,7 @@ Minos
 }
 
 STRING 488
-// Units: N04Z (Mentor), EditorSuffix (Name - Editor Suffix)
+// Units: N04Y (Barbarian), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3060,7 +3060,7 @@ Yoda
 }
 
 STRING 491
-// Units: N04Y (Barbarian), EditorSuffix (Name - Editor Suffix)
+// Units: N04V (Preacher of the light), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3105,7 +3105,7 @@ Gaemon
 }
 
 STRING 498
-// Units: N04V (Preacher of the light), EditorSuffix (Name - Editor Suffix)
+// Units: N04U (Harpy), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3123,7 +3123,7 @@ Samael
 }
 
 STRING 501
-// Units: N04U (Harpy), EditorSuffix (Name - Editor Suffix)
+// Units: N04R (Minotaur), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3159,7 +3159,7 @@ Bob the Growing
 }
 
 STRING 507
-// Units: N04R (Minotaur), EditorSuffix (Name - Editor Suffix)
+// Units: N04Q (Samurai), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3177,7 +3177,7 @@ Minos
 }
 
 STRING 510
-// Units: N04Q (Samurai), EditorSuffix (Name - Editor Suffix)
+// Units: N03D (Incarnation of the Void), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3376,7 +3376,7 @@ Furrih Atero
 }
 
 STRING 540
-// Units: N03D (Incarnation of the Void), EditorSuffix (Name - Editor Suffix)
+// Units: N03A (Combat ogre), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3394,7 +3394,7 @@ Shaderosia
 }
 
 STRING 543
-// Units: N03C (Preacher of the light), EditorSuffix (Name - Editor Suffix)
+// Units: N050 (Minotaur), EditorSuffix (Name - Editor Suffix)
 {
 (Skin2)
 }
@@ -3430,7 +3430,7 @@ Sans
 }
 
 STRING 549
-// Units: N03A (Combat ogre), EditorSuffix (Name - Editor Suffix)
+// Units: N034 (Grim ninja), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3472,7 +3472,7 @@ Night fury
 }
 
 STRING 556
-// Units: N034 (Grim ninja), EditorSuffix (Name - Editor Suffix)
+// Units: N033 (Pyrolord), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3493,7 +3493,7 @@ Shinobi
 }
 
 STRING 559
-// Units: N033 (Pyrolord), EditorSuffix (Name - Editor Suffix)
+// Units: N016 (Scarab King), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3757,7 +3757,7 @@ Beechbone
 }
 
 STRING 600
-// Units: N016 (Scarab King), EditorSuffix (Name - Editor Suffix)
+// Units: H025 (Sludge), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3904,7 +3904,7 @@ Medved
 }
 
 STRING 622
-// Units: H025 (Sludge), EditorSuffix (Name - Editor Suffix)
+// Units: H024 (Bone knight), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3922,7 +3922,7 @@ Slimey
 }
 
 STRING 625
-// Units: H024 (Bone knight), EditorSuffix (Name - Editor Suffix)
+// Units: O022 (Toxic Elemental), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -8837,13 +8837,6 @@ STRING 1329
 When you attack, you have a |cffd7df0150%|r chance to deal 3x more damage, otherwise you will miss.
 }
 
-STRING 1330
-// Abilities: A0CK (Skeletlord: Skelemagic), Researchubertip (Tooltip - Learn - Extended)
-{
-When the enemy dies, summons a skeleton. Attack and Health of skeletons increases with each level.
-|cffffcc00Life time:|r 15 seconds.
-}
-
 STRING 1331
 // Items: I0CO (Felweed), Name (Name)
 {
@@ -9907,6 +9900,13 @@ Every 4 seconds, it uses a random 1 level ability.
 |cffffcc00Cooldown:|r 3 seconds.
 }
 
+STRING 1486
+// Abilities: A0CK (Skeletlord: Skelemagic), Researchubertip (Tooltip - Learn - Extended)
+{
+When an enemy dies, summons a skeleton. Attack and Health of skeletons increases with each level of this ability.
+|cffffcc00Life time:|r |cffbe81f715|r seconds.
+}
+
 STRING 1487
 // Items: I0BL (Runestone Wiz), Name (Name)
 {
@@ -9917,6 +9917,13 @@ STRING 1488
 // Items: I0BL (Runestone Wiz), Tip (Tooltip - Basic)
 {
 Runestone Wiz
+}
+
+STRING 1489
+// Abilities: A0CK (Skeletlord: Skelemagic), Ubertip (Tooltip - Normal - Extended)
+{
+When an enemy dies, summons a skeleton.
+|cffffcc00Life time:|r |cffbe81f715|r seconds.
 }
 
 STRING 1490
@@ -11040,6 +11047,15 @@ STRING 1653
 Elemental Power, [|cffffcc00Level %d|r]
 }
 
+STRING 1654
+// Abilities: A0CK (Skeletlord: Skelemagic), Ubertip (Tooltip - Normal - Extended)
+{
+When an enemy dies, summons a skeleton.
+|cffffcc00Life time:|r |cffbe81f715|r seconds.
+
+|cFF959697More effective than Skelemagic (Rank 1).|r
+}
+
 STRING 1655
 // Items: I0AF (Runestone Doh), Name (Name)
 {
@@ -11050,6 +11066,15 @@ STRING 1656
 // Items: I0AF (Runestone Doh), Tip (Tooltip - Basic)
 {
 Runestone Doh
+}
+
+STRING 1657
+// Abilities: A0CK (Skeletlord: Skelemagic), Ubertip (Tooltip - Normal - Extended)
+{
+When an enemy dies, summons a skeleton.
+|cffffcc00Life time:|r |cffbe81f715|r seconds.
+
+|cFF959697More effective than Skelemagic (Rank 2).|r
 }
 
 STRING 1658
@@ -18824,6 +18849,15 @@ Creates 6 totally legit bananas in the area. Each banana taunts a random unit so
 |cffffcc00Cooldown:|r 40 seconds.
 }
 
+STRING 2805
+// Abilities: A0CK (Skeletlord: Skelemagic), Ubertip (Tooltip - Normal - Extended)
+{
+When an enemy dies, summons a skeleton.
+|cffffcc00Life time:|r |cffbe81f715|r seconds.
+
+|cFF959697More effective than Skelemagic (Rank 3).|r
+}
+
 STRING 2806
 // Items: I02G (Runestone Dor), Name (Name)
 {
@@ -18834,6 +18868,15 @@ STRING 2807
 // Items: I02G (Runestone Dor), Tip (Tooltip - Basic)
 {
 Runestone Dor
+}
+
+STRING 2808
+// Abilities: A0CK (Skeletlord: Skelemagic), Ubertip (Tooltip - Normal - Extended)
+{
+When an enemy dies, summons a skeleton.
+|cffffcc00Life time:|r |cffbe81f715|r seconds.
+
+|cFF959697More effective than Skelemagic (Rank 4).|r
 }
 
 STRING 2809
@@ -19322,6 +19365,12 @@ STRING 2879
 Runestone Glas
 }
 
+STRING 2880
+// Units: N03C (Preacher of the light), EditorSuffix (Name - Editor Suffix)
+{
+(Skin2)
+}
+
 STRING 2881
 // Items: I01X (Ruby Diamond), Description (Description)
 {
@@ -19677,6 +19726,12 @@ STRING 2936
 With a probability of |cffd7df018%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
 }
 
+STRING 2937
+// Units: O022 (Toxic Elemental), Name (Name)
+{
+Toxic Elemental
+}
+
 STRING 2938
 // Items: I01K (Runestone Gnir), Name (Name)
 {
@@ -19687,6 +19742,12 @@ STRING 2939
 // Items: I01K (Runestone Gnir), Tip (Tooltip - Basic)
 {
 Runestone Gnir
+}
+
+STRING 2940
+// Units: O022 (Toxic Elemental), Propernames (Proper Names)
+{
+Lye Insanios
 }
 
 STRING 2941
@@ -19893,6 +19954,12 @@ Activation: Connect your soul to target allied hero. Every second, the hero with
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 2969
+// Abilities: A053 (Набор "|cff5858faЛуна|r"), Ubertip (Tooltip - Normal - Extended)
+{
+ 
+}
+
 STRING 2970
 // Items: I01C (Runestone Brib ), Name (Name)
 {
@@ -19903,6 +19970,12 @@ STRING 2971
 // Items: I01C (Runestone Brib ), Tip (Tooltip - Basic)
 {
 Runestone Brib 
+}
+
+STRING 2972
+// Abilities: A1GI (Aspect: Gambler: Aspect of House Loss), Name (Name)
+{
+Aspect: Gambler: Aspect of House Loss
 }
 
 STRING 2973
@@ -20565,6 +20638,12 @@ Activation: Deals |cffbe81f7100|r damage to the enemy. Restores the hero’s man
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
+STRING 3065
+// Abilities: A1GI (Aspect: Gambler: Aspect of House Loss), Tip (Tooltip - Normal)
+{
+Aspect of House Loss
+}
+
 STRING 3066
 // Items: I00O (Runestone Reston), Name (Name)
 {
@@ -20575,6 +20654,12 @@ STRING 3067
 // Items: I00O (Runestone Reston), Tip (Tooltip - Basic)
 {
 Runestone Reston
+}
+
+STRING 3068
+// Abilities: A1GI (Aspect: Gambler: Aspect of House Loss), Ubertip (Tooltip - Normal - Extended)
+{
+Fixed Odds affects all heroes, but at 25% efficiency.
 }
 
 STRING 3069
@@ -20603,6 +20688,12 @@ STRING 3072
 Activation: |cffcc0000Corrupted|r. Gives 3 |cffcc0000corrupted|r artifacts to empty inventory slots.
 }
 
+STRING 3073
+// Abilities: A1GJ (Aspect: Gambler: Aspect of All In), Name (Name)
+{
+Aspect: Gambler: Aspect of All In
+}
+
 STRING 3074
 // Items: I00M (Runestone Ston), Name (Name)
 {
@@ -20613,6 +20704,12 @@ STRING 3075
 // Items: I00M (Runestone Ston), Tip (Tooltip - Basic)
 {
 Runestone Ston
+}
+
+STRING 3076
+// Abilities: A1GJ (Aspect: Gambler: Aspect of All In), Tip (Tooltip - Normal)
+{
+Aspect of All In
 }
 
 STRING 3077
@@ -20829,6 +20926,12 @@ STRING 3108
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cffcc0000corrupted|r artifact.
 }
 
+STRING 3109
+// Abilities: A1GJ (Aspect: Gambler: Aspect of All In), Ubertip (Tooltip - Normal - Extended)
+{
+Fixed Odds is twice as effective, but last half as much.
+}
+
 STRING 3110
 // Items: I00D (Runestone Fandom), Name (Name)
 {
@@ -20841,6 +20944,18 @@ STRING 3111
 Runestone Fandom
 }
 
+STRING 3112
+// Abilities: A1GK (Aspect: Gambler: Aspect of Odd Odds), Name (Name)
+{
+Aspect: Gambler: Aspect of Odd Odds
+}
+
+STRING 3113
+// Abilities: A1GK (Aspect: Gambler: Aspect of Odd Odds), Tip (Tooltip - Normal)
+{
+Aspect of Odd Odds
+}
+
 STRING 3114
 // Items: I00C (Runestone Sandom), Name (Name)
 {
@@ -20851,6 +20966,12 @@ STRING 3115
 // Items: I00C (Runestone Sandom), Tip (Tooltip - Basic)
 {
 Runestone Sandom
+}
+
+STRING 3116
+// Abilities: A1GK (Aspect: Gambler: Aspect of Odd Odds), Ubertip (Tooltip - Normal - Extended)
+{
+Fixed Odds has a 50% chance to provide 50% more Luck. Otherwise, it provides 50% less Luck.
 }
 
 STRING 3118
@@ -55179,13 +55300,6 @@ STRING 8403
 Skelemagic, [|cffffcc00Level %d|r]
 }
 
-STRING 8404
-// Abilities: A0CK (Skeletlord: Skelemagic), Ubertip (Tooltip - Normal - Extended)
-{
-When the enemy dies, summons a skeleton.
-|cffffcc00Life time:|r 15 seconds.
-}
-
 STRING 8405
 // Abilities: A0CK (Skeletlord: Skelemagic), Tip (Tooltip - Normal)
 {
@@ -55222,42 +55336,6 @@ STRING 8410
 |cff4169e1Rare|r
 Activation: Summons a unique pet with the Hero's Attack and Health.
 |cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 8411
-// Abilities: A0CK (Skeletlord: Skelemagic), Ubertip (Tooltip - Normal - Extended)
-{
-When the enemy dies, summons a skeleton.
-|cffffcc00Life time:|r 15 seconds.
-
-|cFF959697More effective than Skelemagic (Rank 1).|r
-}
-
-STRING 8412
-// Abilities: A0CK (Skeletlord: Skelemagic), Ubertip (Tooltip - Normal - Extended)
-{
-When the enemy dies, summons a skeleton.
-|cffffcc00Life time:|r 15 seconds.
-
-|cFF959697More effective than Skelemagic (Rank 2).|r
-}
-
-STRING 8413
-// Abilities: A0CK (Skeletlord: Skelemagic), Ubertip (Tooltip - Normal - Extended)
-{
-When the enemy dies, summons a skeleton.
-|cffffcc00Life time:|r 15 seconds.
-
-|cFF959697More effective than Skelemagic (Rank 3).|r
-}
-
-STRING 8414
-// Abilities: A0CK (Skeletlord: Skelemagic), Ubertip (Tooltip - Normal - Extended)
-{
-When the enemy dies, summons a skeleton.
-|cffffcc00Life time:|r 15 seconds.
-
-|cFF959697More effective than Skelemagic (Rank 4).|r
 }
 
 STRING 8415
@@ -62906,13 +62984,6 @@ STRING 9601
 // Abilities: A053 (Набор "|cff5858faЛуна|r"), Tip (Tooltip - Normal)
 {
 Set "|cff5858faMoon|r"
-}
-
-STRING 9602
-// Abilities: A053 (Набор "|cff5858faЛуна|r"), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Condition:|r Collect 3 artifacts from the set "|cff5858faMoon|r".
-|cffffcc00Reward:|r When the hero uses an ability or item, it emits 8 waves, each of which deals |cffbe81f750|r damage and an additional |cffbe81f71|r damage for each 15 mana.
 }
 
 STRING 9603

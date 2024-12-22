@@ -1,3 +1,9 @@
+scope Orbs initializer init
+
+    globals
+		trigger trg_Orbs = null
+    endglobals
+    
 function Trig_Orbs_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A13G' or GetSpellAbilityId() == 'A14S'
 endfunction
@@ -51,10 +57,10 @@ function Trig_Orbs_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_Orbs takes nothing returns nothing
-    set gg_trg_Orbs = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_Orbs, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_Orbs, Condition( function Trig_Orbs_Conditions ) )
-    call TriggerAddAction( gg_trg_Orbs, function Trig_Orbs_Actions )
+private function init takes nothing returns nothing
+    set trg_Orbs = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_Orbs, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_Orbs, Condition( function Trig_Orbs_Conditions ) )
+    call TriggerAddAction( trg_Orbs, function Trig_Orbs_Actions )
 endfunction
-
+endscope

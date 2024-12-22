@@ -19,6 +19,8 @@ scope ThePlagueQ initializer init
         
         private constant string ORB_ANIMATION = "Abilities\\Weapons\\GreenDragonMissile\\GreenDragonMissile.mdl"
         private constant string ANIMATION = "Abilities\\Spells\\NightElf\\Blink\\BlinkTarget.mdl"
+        
+		trigger trg_ThePlagueQ = null
     endglobals
 
     function Trig_The_PlagueQ_Conditions takes nothing returns boolean
@@ -172,10 +174,10 @@ scope ThePlagueQ initializer init
 
     //===========================================================================
     private function init takes nothing returns nothing
-        set gg_trg_The_PlagueQ = CreateTrigger(  )
-        call TriggerRegisterAnyUnitEventBJ( gg_trg_The_PlagueQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-        call TriggerAddCondition( gg_trg_The_PlagueQ, Condition( function Trig_The_PlagueQ_Conditions ) )
-        call TriggerAddAction( gg_trg_The_PlagueQ, function Trig_The_PlagueQ_Actions )
+        set trg_ThePlagueQ = CreateTrigger(  )
+        call TriggerRegisterAnyUnitEventBJ( trg_ThePlagueQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+        call TriggerAddCondition( trg_ThePlagueQ, Condition( function Trig_The_PlagueQ_Conditions ) )
+        call TriggerAddAction( trg_ThePlagueQ, function Trig_The_PlagueQ_Actions )
     endfunction
 
 endscope

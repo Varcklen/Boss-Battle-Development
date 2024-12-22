@@ -1,3 +1,9 @@
+scope IncarnationR initializer init
+
+    globals
+		trigger trg_IncarnationR = null
+    endglobals
+    
 function Trig_IncarnationR_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A0V0' and combat( GetSpellAbilityUnit(), true, GetSpellAbilityId() )
 endfunction
@@ -179,10 +185,12 @@ function Trig_IncarnationR_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_IncarnationR takes nothing returns nothing
-    set gg_trg_IncarnationR = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_IncarnationR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_IncarnationR, Condition( function Trig_IncarnationR_Conditions ) )
-    call TriggerAddAction( gg_trg_IncarnationR, function Trig_IncarnationR_Actions )
+private function init takes nothing returns nothing
+    set trg_IncarnationR = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_IncarnationR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_IncarnationR, Condition( function Trig_IncarnationR_Conditions ) )
+    call TriggerAddAction( trg_IncarnationR, function Trig_IncarnationR_Actions )
 endfunction
+
+endscope
 

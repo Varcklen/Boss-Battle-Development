@@ -1,3 +1,9 @@
+scope FallenOneR initializer init
+
+    globals
+		trigger trg_FallenOneR = null
+    endglobals
+    
 function Trig_FallenOneR_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A085'
 endfunction
@@ -97,10 +103,12 @@ function Trig_FallenOneR_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_FallenOneR takes nothing returns nothing
-    set gg_trg_FallenOneR = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_FallenOneR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_FallenOneR, Condition( function Trig_FallenOneR_Conditions ) )
-    call TriggerAddAction( gg_trg_FallenOneR, function Trig_FallenOneR_Actions )
+private function init takes nothing returns nothing
+    set trg_FallenOneR = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_FallenOneR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_FallenOneR, Condition( function Trig_FallenOneR_Conditions ) )
+    call TriggerAddAction( trg_FallenOneR, function Trig_FallenOneR_Actions )
 endfunction
+
+endscope
 

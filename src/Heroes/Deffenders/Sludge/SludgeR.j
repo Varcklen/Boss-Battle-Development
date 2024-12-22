@@ -1,3 +1,8 @@
+scope SludgeR initializer init
+    globals
+		trigger trg_SludgeR = null
+    endglobals
+
 function Trig_SludgeR_Conditions takes nothing returns boolean
     return GetLearnedSkill() == 'A0T8'
 endfunction
@@ -17,10 +22,12 @@ function Trig_SludgeR_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_SludgeR takes nothing returns nothing
-    set gg_trg_SludgeR = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_SludgeR, EVENT_PLAYER_HERO_SKILL )
-    call TriggerAddCondition( gg_trg_SludgeR, Condition( function Trig_SludgeR_Conditions ) )
-    call TriggerAddAction( gg_trg_SludgeR, function Trig_SludgeR_Actions )
+private function init takes nothing returns nothing
+    set trg_SludgeR = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_SludgeR, EVENT_PLAYER_HERO_SKILL )
+    call TriggerAddCondition( trg_SludgeR, Condition( function Trig_SludgeR_Conditions ) )
+    call TriggerAddAction( trg_SludgeR, function Trig_SludgeR_Actions )
 endfunction
+
+endscope
 

@@ -1,5 +1,8 @@
-globals
+scope DealerR initializer init
+
+    globals
     constant real BERRY_DEALER_R_BANANA_LIFE_TIME = 60
+	trigger trg_DealerR = null
 endglobals
 
 function Trig_DealerR_Conditions takes nothing returns boolean
@@ -48,10 +51,12 @@ function Trig_DealerR_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_DealerR takes nothing returns nothing
-    set gg_trg_DealerR = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_DealerR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_DealerR, Condition( function Trig_DealerR_Conditions ) )
-    call TriggerAddAction( gg_trg_DealerR, function Trig_DealerR_Actions )
+private function init takes nothing returns nothing
+    set trg_DealerR = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_DealerR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_DealerR, Condition( function Trig_DealerR_Conditions ) )
+    call TriggerAddAction( trg_DealerR, function Trig_DealerR_Actions )
 endfunction
+
+endscope
 

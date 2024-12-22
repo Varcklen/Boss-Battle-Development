@@ -1,3 +1,9 @@
+scope PaladinHeroQ initializer init
+
+    globals
+		trigger trg_PalaQ = null
+    endglobals
+    
 function Trig_AngelQ_Conditions takes nothing returns boolean
     return GetSpellAbilityId( ) == 'A0BU'
 endfunction
@@ -110,10 +116,12 @@ function Trig_AngelQ_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_AngelQ takes nothing returns nothing
-    set gg_trg_AngelQ = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_AngelQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_AngelQ, Condition( function Trig_AngelQ_Conditions ) )
-    call TriggerAddAction( gg_trg_AngelQ, function Trig_AngelQ_Actions )
+private function init takes nothing returns nothing
+    set trg_PalaQ = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_PalaQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_PalaQ, Condition( function Trig_AngelQ_Conditions ) )
+    call TriggerAddAction( trg_PalaQ, function Trig_AngelQ_Actions )
 endfunction
+
+endscope
 

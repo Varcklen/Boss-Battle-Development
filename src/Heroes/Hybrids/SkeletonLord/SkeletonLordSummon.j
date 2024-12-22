@@ -1,4 +1,4 @@
-library SkeletonLordSummon
+library SkeletonLordSummon requires SpellPower
 
 	globals
 		private constant integer SUMMON_ID = 'u013'
@@ -18,15 +18,17 @@ library SkeletonLordSummon
 	private function Spawn takes unit caster, real x, real y, real facing returns nothing
 		local integer lvl
 	    local real size
+	    local real duration
 	    local unit summon
 	    
 	    set lvl = IMaxBJ(1, GetUnitAbilityLevel( caster, 'A0CK'))
 	    set size = 0.75+(0.05*lvl)
+	    set duration = LIFE_TIME * GetUnitSpellPower( caster )
 	    
 	    set summon = CreateUnit( GetOwningPlayer( caster ), SUMMON_ID, x, y, facing )
 	    call SetUnitAnimation( summon, "birth" )
 	    call QueueUnitAnimation( summon, "stand" )
-	    call UnitApplyTimedLife( summon, 'BTLF', LIFE_TIME )
+	    call UnitApplyTimedLife( summon, 'BTLF', duration )
 	    call DestroyEffect(AddSpecialEffectTarget( ANIMATION, summon, "origin"))
 	    
 	    call BlzSetUnitMaxHP( summon, GetHP(summon, lvl) )

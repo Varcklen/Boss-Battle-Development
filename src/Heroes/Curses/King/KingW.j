@@ -1,3 +1,9 @@
+scope GhoulKingW initializer init
+
+    globals
+		trigger trg_KingW = null
+    endglobals
+    
 function Trig_KingW_Conditions takes nothing returns boolean
     return GetSpellAbilityId( ) == 'A0Q0' and udg_combatlogic[GetPlayerId( GetOwningPlayer( GetSpellAbilityUnit() ) ) + 1]
 endfunction
@@ -110,9 +116,11 @@ function Trig_KingW_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_KingW takes nothing returns nothing
-    set gg_trg_KingW = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_KingW, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_KingW, Condition( function Trig_KingW_Conditions ) )
-    call TriggerAddAction( gg_trg_KingW, function Trig_KingW_Actions )
+private function init takes nothing returns nothing
+    set trg_KingW = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_KingW, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_KingW, Condition( function Trig_KingW_Conditions ) )
+    call TriggerAddAction( trg_KingW, function Trig_KingW_Actions )
 endfunction
+
+endscope

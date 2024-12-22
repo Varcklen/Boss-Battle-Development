@@ -12,6 +12,8 @@ scope ThePlagueR initializer init
         
         private constant string ANIMATION = "war3mapImported\\Soul Discharge.mdx"
         private constant string LIGHTNING = "DNKL"
+        
+		trigger trg_ThePlagueR = null
     endglobals
 
     function Trig_The_PlagueR_Conditions takes nothing returns boolean
@@ -168,10 +170,10 @@ scope ThePlagueR initializer init
 
     //===========================================================================
     private function init takes nothing returns nothing
-        set gg_trg_The_PlagueR = CreateTrigger(  )
-        call TriggerRegisterAnyUnitEventBJ( gg_trg_The_PlagueR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-        call TriggerAddCondition( gg_trg_The_PlagueR, Condition( function Trig_The_PlagueR_Conditions ) )
-        call TriggerAddAction( gg_trg_The_PlagueR, function Trig_The_PlagueR_Actions )
+        set trg_ThePlagueR = CreateTrigger(  )
+        call TriggerRegisterAnyUnitEventBJ( trg_ThePlagueR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+        call TriggerAddCondition( trg_ThePlagueR, Condition( function Trig_The_PlagueR_Conditions ) )
+        call TriggerAddAction( trg_ThePlagueR, function Trig_The_PlagueR_Actions )
     endfunction
 
 endscope

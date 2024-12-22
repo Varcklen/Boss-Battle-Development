@@ -1,3 +1,9 @@
+scope VoodooExplosion initializer init
+
+    globals
+		trigger trg_Voodoo_explosion = null
+    endglobals
+
 function Trig_Voodoo_explosion_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A1AD'
 endfunction
@@ -64,10 +70,11 @@ function Trig_Voodoo_explosion_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_Voodoo_explosion takes nothing returns nothing
-    set gg_trg_Voodoo_explosion = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_Voodoo_explosion, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_Voodoo_explosion, Condition( function Trig_Voodoo_explosion_Conditions ) )
-    call TriggerAddAction( gg_trg_Voodoo_explosion, function Trig_Voodoo_explosion_Actions )
+private function init takes nothing returns nothing
+    set trg_Voodoo_explosion = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_Voodoo_explosion, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_Voodoo_explosion, Condition( function Trig_Voodoo_explosion_Conditions ) )
+    call TriggerAddAction( trg_Voodoo_explosion, function Trig_Voodoo_explosion_Actions )
 endfunction
 
+endscope

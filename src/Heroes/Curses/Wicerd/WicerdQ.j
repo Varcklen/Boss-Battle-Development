@@ -1,3 +1,9 @@
+scope WicerdQ initializer init
+
+    globals
+		trigger trg_WicerdQ = null
+    endglobals
+    
 function Trig_WicerdQ_Conditions takes nothing returns boolean
     return GetSpellAbilityId( ) == 'A17J'
 endfunction
@@ -140,9 +146,11 @@ function Trig_WicerdQ_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_WicerdQ takes nothing returns nothing
-    set gg_trg_WicerdQ = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_WicerdQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_WicerdQ, Condition( function Trig_WicerdQ_Conditions ) )
-    call TriggerAddAction( gg_trg_WicerdQ, function Trig_WicerdQ_Actions )
+private function init takes nothing returns nothing
+    set trg_WicerdQ = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_WicerdQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_WicerdQ, Condition( function Trig_WicerdQ_Conditions ) )
+    call TriggerAddAction( trg_WicerdQ, function Trig_WicerdQ_Actions )
 endfunction
+
+endscope

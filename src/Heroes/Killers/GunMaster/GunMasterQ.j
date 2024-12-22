@@ -1,3 +1,9 @@
+scope GunMasterQ initializer init
+
+    globals
+		trigger trg_GunMasterQ = null
+    endglobals
+    
 function Trig_GunMasterQ_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A19H'
 endfunction
@@ -145,10 +151,12 @@ function Trig_GunMasterQ_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_GunMasterQ takes nothing returns nothing
-    set gg_trg_GunMasterQ = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_GunMasterQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_GunMasterQ, Condition( function Trig_GunMasterQ_Conditions ) )
-    call TriggerAddAction( gg_trg_GunMasterQ, function Trig_GunMasterQ_Actions )
+private function init takes nothing returns nothing
+    set trg_GunMasterQ = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_GunMasterQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_GunMasterQ, Condition( function Trig_GunMasterQ_Conditions ) )
+    call TriggerAddAction( trg_GunMasterQ, function Trig_GunMasterQ_Actions )
 endfunction
+
+endscope
 

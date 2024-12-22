@@ -1,3 +1,9 @@
+scope KeeperQ initializer init
+
+    globals
+		trigger trg_KeeperQ = null
+    endglobals
+    
 function Trig_KeeperQ_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A09U' and combat( GetSpellAbilityUnit(), true, GetSpellAbilityId() )
 endfunction
@@ -99,10 +105,12 @@ function Trig_KeeperQ_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_KeeperQ takes nothing returns nothing
-    set gg_trg_KeeperQ = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_KeeperQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_KeeperQ, Condition( function Trig_KeeperQ_Conditions ) )
-    call TriggerAddAction( gg_trg_KeeperQ, function Trig_KeeperQ_Actions )
+private function init takes nothing returns nothing
+    set trg_KeeperQ = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_KeeperQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_KeeperQ, Condition( function Trig_KeeperQ_Conditions ) )
+    call TriggerAddAction( trg_KeeperQ, function Trig_KeeperQ_Actions )
 endfunction
+
+endscope
 

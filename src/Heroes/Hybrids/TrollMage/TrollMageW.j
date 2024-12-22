@@ -1,3 +1,9 @@
+scope TrollMageW initializer init
+
+    globals
+		trigger trg_Troll_MageW = null
+    endglobals
+    
 function Trig_Troll_MageW_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A14X' and combat( GetSpellAbilityUnit(), true, GetSpellAbilityId() )
 endfunction
@@ -94,9 +100,11 @@ function Trig_Troll_MageW_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_Troll_MageW takes nothing returns nothing
-    set gg_trg_Troll_MageW = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_Troll_MageW, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_Troll_MageW, Condition( function Trig_Troll_MageW_Conditions ) )
-    call TriggerAddAction( gg_trg_Troll_MageW, function Trig_Troll_MageW_Actions )
+private function init takes nothing returns nothing
+    set trg_Troll_MageW = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_Troll_MageW, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_Troll_MageW, Condition( function Trig_Troll_MageW_Conditions ) )
+    call TriggerAddAction( trg_Troll_MageW, function Trig_Troll_MageW_Actions )
 endfunction
+
+endscope

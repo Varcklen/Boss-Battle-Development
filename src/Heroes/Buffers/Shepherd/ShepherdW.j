@@ -7,6 +7,8 @@ scope ShepherdW initializer init
         private constant string AREA_EFFECT = "Abilities\\Spells\\Human\\Feedback\\SpellBreakerAttack.mdl"
         private constant string FIZZLE_EFFECT = "Abilities\\Spells\\Other\\TalkToMe\\TalkToMe"
         private group g = CreateGroup()
+        
+		trigger trg_ShepherdW = null
     endglobals
 
     function Trig_ShepherdW_Conditions takes nothing returns boolean
@@ -185,10 +187,10 @@ scope ShepherdW initializer init
 
     //===========================================================================
     private function init takes nothing returns nothing
-        set gg_trg_ShepherdW = CreateTrigger(  )
-        call TriggerRegisterAnyUnitEventBJ( gg_trg_ShepherdW, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-        call TriggerAddCondition( gg_trg_ShepherdW, Condition( function Trig_ShepherdW_Conditions ) )
-        call TriggerAddAction( gg_trg_ShepherdW, function Trig_ShepherdW_Actions )
+        set trg_ShepherdW = CreateTrigger(  )
+        call TriggerRegisterAnyUnitEventBJ( trg_ShepherdW, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+        call TriggerAddCondition( trg_ShepherdW, Condition( function Trig_ShepherdW_Conditions ) )
+        call TriggerAddAction( trg_ShepherdW, function Trig_ShepherdW_Actions )
     endfunction
     
 endscope

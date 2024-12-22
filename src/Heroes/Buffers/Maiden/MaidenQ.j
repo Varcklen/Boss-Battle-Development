@@ -1,3 +1,9 @@
+scope MaidenQ initializer init
+
+    globals
+		trigger trg_MaidenQ = null
+    endglobals
+
 function Trig_MaidenQ_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A16G' and combat( GetSpellAbilityUnit(), true, GetSpellAbilityId() )
 endfunction
@@ -162,9 +168,11 @@ function Trig_MaidenQ_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_MaidenQ takes nothing returns nothing
-    set gg_trg_MaidenQ = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_MaidenQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_MaidenQ, Condition( function Trig_MaidenQ_Conditions ) )
-    call TriggerAddAction( gg_trg_MaidenQ, function Trig_MaidenQ_Actions )
+private function init takes nothing returns nothing
+    set trg_MaidenQ = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_MaidenQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_MaidenQ, Condition( function Trig_MaidenQ_Conditions ) )
+    call TriggerAddAction( trg_MaidenQ, function Trig_MaidenQ_Actions )
 endfunction
+
+endscope

@@ -1,3 +1,9 @@
+scope SniperR initializer init
+
+    globals
+		trigger trg_SniperR = null
+    endglobals
+    
 function Trig_SniperR_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A0LN'
 endfunction
@@ -44,10 +50,12 @@ function Trig_SniperR_Actions takes nothing returns nothing
 endfunction
 
 //===========================================================================
-function InitTrig_SniperR takes nothing returns nothing
-    set gg_trg_SniperR = CreateTrigger(  )
-    call TriggerRegisterAnyUnitEventBJ( gg_trg_SniperR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-    call TriggerAddCondition( gg_trg_SniperR, Condition( function Trig_SniperR_Conditions ) )
-    call TriggerAddAction( gg_trg_SniperR, function Trig_SniperR_Actions )
+private function init takes nothing returns nothing
+    set trg_SniperR = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( trg_SniperR, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+    call TriggerAddCondition( trg_SniperR, Condition( function Trig_SniperR_Conditions ) )
+    call TriggerAddAction( trg_SniperR, function Trig_SniperR_Actions )
 endfunction
+
+endscope
 

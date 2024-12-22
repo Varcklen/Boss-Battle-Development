@@ -1,4 +1,4 @@
-scope DealerE
+scope DealerE initializer init
 
     globals
         private constant integer ID_ABILITY = 'A188'
@@ -9,6 +9,8 @@ scope DealerE
         private constant integer BANANA_SPAWN_SCATTER_ALTERNATIVE = 335
         
         private constant string ANIMATION = "war3mapImported\\TimeUpheaval.mdx"
+        
+		trigger trg_DealerE = null
     endglobals
 
     function Trig_DealerE_Conditions takes nothing returns boolean
@@ -60,11 +62,11 @@ scope DealerE
     endfunction
 
     //===========================================================================
-    function InitTrig_DealerE takes nothing returns nothing
-        set gg_trg_DealerE = CreateTrigger()
-        call TriggerRegisterAnyUnitEventBJ( gg_trg_DealerE, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-        call TriggerAddCondition( gg_trg_DealerE, Condition( function Trig_DealerE_Conditions ) )
-        call TriggerAddAction( gg_trg_DealerE, function Trig_DealerE_Actions )
+	private function init takes nothing returns nothing
+        set trg_DealerE = CreateTrigger()
+        call TriggerRegisterAnyUnitEventBJ( trg_DealerE, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+        call TriggerAddCondition( trg_DealerE, Condition( function Trig_DealerE_Conditions ) )
+        call TriggerAddAction( trg_DealerE, function Trig_DealerE_Actions )
     endfunction
 
 endscope

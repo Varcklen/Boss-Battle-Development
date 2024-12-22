@@ -2746,13 +2746,13 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "BasicCore",
       "Files": [
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\Database",
           "Files": [
             {
@@ -9849,7 +9849,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Sets",
           "Files": [
             {
@@ -9946,7 +9946,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Items\\Sets\\Moon Set",
               "Files": [
                 {
@@ -10579,7 +10579,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Buffers",
           "Files": [
             {
@@ -10642,7 +10642,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Buffers\\Magnataur",
               "Files": [
                 {
@@ -10865,7 +10865,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Buffers\\Keeper",
               "Files": [
                 {
@@ -10946,7 +10946,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Deffenders",
           "Files": [
             {
@@ -11096,7 +11096,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Deffenders\\Sludge",
               "Files": [
                 {
@@ -11644,7 +11644,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Marauders",
           "Files": [
             {
@@ -11797,10 +11797,17 @@
                   "Files": []
                 },
                 {
-                  "isEnabled": true,
+                  "isEnabled": false,
                   "isInitiallyOn": true,
                   "isExpanded": false,
                   "path": "Heroes\\Marauders\\Gambler\\GamblerR.trg",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Marauders\\Gambler\\GamblerR.j",
                   "Files": []
                 }
               ]
@@ -11844,11 +11851,18 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Marauders\\Dealer",
               "Files": [
                 {
                   "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Marauders\\Dealer\\DealerQ.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": false,
                   "isInitiallyOn": true,
                   "isExpanded": false,
                   "path": "Heroes\\Marauders\\Dealer\\DealerQ.trg",
@@ -12346,7 +12360,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Killers\\Priestess",
               "Files": [
                 {
@@ -12382,7 +12396,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Killers\\GunMaster",
               "Files": [
                 {
@@ -12453,7 +12467,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Hybrids\\TrollMage\\TrollMageR.j",
                   "Files": []
                 },
@@ -12712,7 +12726,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Hybrids\\Elemental",
               "Files": [
                 {
@@ -13222,7 +13236,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Healers\\Shaman",
               "Files": [
                 {
@@ -13265,7 +13279,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Healers\\Angel",
               "Files": [
                 {
@@ -13618,7 +13632,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Curses\\King",
               "Files": [
                 {
@@ -13711,7 +13725,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Curses\\Ghost",
               "Files": [
                 {
@@ -13747,7 +13761,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Curses\\Devourer",
               "Files": [
                 {
@@ -13903,7 +13917,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Curses\\Wicerd",
               "Files": [
                 {
@@ -13939,7 +13953,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Curses\\Fallen One",
               "Files": [
                 {
@@ -14003,7 +14017,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Curses\\The Plague",
               "Files": [
                 {
@@ -14279,7 +14293,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Bosses",
       "Files": [
         {
@@ -15011,7 +15025,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Bosses\\Bosses6",
           "Files": [
             {

@@ -10,6 +10,8 @@ scope BananaDeath initializer init
         
         private constant integer HEAL = 100
         private constant integer GOLD = 20
+        
+		trigger trg_BananaDeath = null
     endglobals
 
     function Trig_BananaDeath_Conditions takes nothing returns boolean
@@ -88,10 +90,10 @@ scope BananaDeath initializer init
 
     //===========================================================================
     private function init takes nothing returns nothing
-        set gg_trg_BananaDeath = CreateTrigger(  )
-        call TriggerRegisterAnyUnitEventBJ( gg_trg_BananaDeath, EVENT_PLAYER_UNIT_DEATH )
-        call TriggerAddCondition( gg_trg_BananaDeath, Condition( function Trig_BananaDeath_Conditions ) )
-        call TriggerAddAction( gg_trg_BananaDeath, function Trig_BananaDeath_Actions )
+        set trg_BananaDeath = CreateTrigger(  )
+        call TriggerRegisterAnyUnitEventBJ( trg_BananaDeath, EVENT_PLAYER_UNIT_DEATH )
+        call TriggerAddCondition( trg_BananaDeath, Condition( function Trig_BananaDeath_Conditions ) )
+        call TriggerAddAction( trg_BananaDeath, function Trig_BananaDeath_Actions )
     endfunction
 
 endscope

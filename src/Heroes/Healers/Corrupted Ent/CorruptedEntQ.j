@@ -19,6 +19,8 @@ scope CorruptedEntQ initializer init
         real Event_Corrupted_End_Q_Real
         unit Event_Corrupted_End_Q_Unit
         unit Event_Corrupted_End_Q_Caster
+        
+		trigger trg_Corrupted_EntQ = null
     endglobals
 
     function Trig_Corrupted_EntQ_Conditions takes nothing returns boolean
@@ -145,10 +147,10 @@ scope CorruptedEntQ initializer init
 
     //===========================================================================
     private function init takes nothing returns nothing
-        set gg_trg_Corrupted_EntQ = CreateTrigger(  )
-        call TriggerRegisterAnyUnitEventBJ( gg_trg_Corrupted_EntQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
-        call TriggerAddCondition( gg_trg_Corrupted_EntQ, Condition( function Trig_Corrupted_EntQ_Conditions ) )
-        call TriggerAddAction( gg_trg_Corrupted_EntQ, function Trig_Corrupted_EntQ_Actions )
+        set trg_Corrupted_EntQ = CreateTrigger(  )
+        call TriggerRegisterAnyUnitEventBJ( trg_Corrupted_EntQ, EVENT_PLAYER_UNIT_SPELL_EFFECT )
+        call TriggerAddCondition( trg_Corrupted_EntQ, Condition( function Trig_Corrupted_EntQ_Conditions ) )
+        call TriggerAddAction( trg_Corrupted_EntQ, function Trig_Corrupted_EntQ_Actions )
     endfunction
 
 endscope
