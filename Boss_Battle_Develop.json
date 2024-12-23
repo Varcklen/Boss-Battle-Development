@@ -5067,7 +5067,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Frames",
       "Files": [
         {
@@ -5487,7 +5487,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Frames\\Aspects",
           "Files": [
             {
@@ -10388,7 +10388,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Uniques",
           "Files": [
             {
@@ -10579,7 +10579,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Heroes\\Buffers",
           "Files": [
             {
@@ -10946,7 +10946,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Heroes\\Deffenders",
           "Files": [
             {
@@ -11285,7 +11285,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Rippers",
           "Files": [
             {
@@ -11606,7 +11606,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Rippers\\Lycanthrope",
               "Files": [
                 {
@@ -11635,6 +11635,34 @@
                   "isInitiallyOn": true,
                   "isExpanded": false,
                   "path": "Heroes\\Rippers\\Lycanthrope\\LycanthropeR.trg",
+                  "Files": []
+                },
+                {
+                  "isEnabled": false,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Rippers\\Lycanthrope\\LycanthropeQ.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": false,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Rippers\\Lycanthrope\\LycanthropeW.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": false,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Rippers\\Lycanthrope\\LycanthropeE.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": false,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Rippers\\Lycanthrope\\LycanthropeR.j",
                   "Files": []
                 }
               ]
@@ -11772,7 +11800,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Marauders\\Gambler",
               "Files": [
                 {
@@ -11851,7 +11879,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Marauders\\Dealer",
               "Files": [
                 {
@@ -12434,7 +12462,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Hybrids",
           "Files": [
             {
@@ -12483,7 +12511,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Hybrids\\SkeletonLord",
               "Files": [
                 {
@@ -12501,7 +12529,7 @@
                   "Files": []
                 },
                 {
-                  "isEnabled": true,
+                  "isEnabled": false,
                   "isInitiallyOn": true,
                   "isExpanded": false,
                   "path": "Heroes\\Hybrids\\SkeletonLord\\SkeletonLordQ.trg",
@@ -12526,6 +12554,13 @@
                   "isInitiallyOn": true,
                   "isExpanded": false,
                   "path": "Heroes\\Hybrids\\SkeletonLord\\SkeletonLordR.trg",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Hybrids\\SkeletonLord\\SkeletonLordQ.j",
                   "Files": []
                 }
               ]
@@ -14293,7 +14328,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Bosses",
       "Files": [
         {

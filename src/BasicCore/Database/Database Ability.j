@@ -229,7 +229,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_One[2] = gg_trg_MonkQ 
 	    set udg_DB_Trigger_One[3] = gg_trg_PirateQ 
 	    set udg_DB_Trigger_One[4] = gg_trg_BuggerQ 
-	    set udg_DB_Trigger_One[5] = gg_trg_SkeletonLordQ 
+	    set udg_DB_Trigger_One[5] = trg_SkeletonLordQ 
 	    set udg_DB_Trigger_One[6] = trg_PalaQ
 	    set udg_DB_Trigger_One[7] = gg_trg_BeornQ 
 	    set udg_DB_Trigger_One[8] = gg_trg_VampQ 

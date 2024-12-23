@@ -43,6 +43,10 @@ library SkeletonLordSummon requires SpellPower
 	    call Spawn(caster, GetUnitX( target ), GetUnitY( target ), GetRandomReal( 0, 360 ))
 	endfunction
 	
+	function skeletXY takes unit caster, real x, real y, real facing returns nothing
+	    call Spawn(caster, x, y, facing)
+	endfunction
+	
 	function skeletsploc takes unit caster, location summonLoc, real facing returns nothing
 	    call Spawn(caster, GetLocationX( summonLoc ), GetLocationY( summonLoc ), facing )
 	endfunction

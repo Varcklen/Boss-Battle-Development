@@ -19359,6 +19359,12 @@ At the start of the battle, grants the hero a random hat effect for the remainde
 |cff81f260[Random bonus]|r
 }
 
+STRING 2877
+// Abilities: A1CE (Aspect: Dealer: Aspect of Friendship), Ubertip (Tooltip - Normal - Extended)
+{
+Whenever an allied hero kills a Totally Legit Banana, they get 25% of the gold you should have earned, and you get the the remaining 55%. |n|cFF959697Rest goes to friendship, rent and taxes.|r
+}
+
 STRING 2878
 // Items: I01Y (Runestone Glas), Name (Name)
 {
@@ -20974,6 +20980,18 @@ STRING 3115
 Runestone Sandom
 }
 
+STRING 3116
+// Abilities: A1GL (Aspect: Skeletor: Aspect of Grateful Dead), Name (Name)
+{
+Aspect: Skeletor: Aspect of Grateful Dead
+}
+
+STRING 3117
+// Abilities: A1GL (Aspect: Skeletor: Aspect of Grateful Dead), Tip (Tooltip - Normal)
+{
+Aspect of Grateful Dead
+}
+
 STRING 3118
 // Items: I00B (Runestone Mandom), Name (Name)
 {
@@ -20984,6 +21002,12 @@ STRING 3119
 // Items: I00B (Runestone Mandom), Tip (Tooltip - Basic)
 {
 Runestone Mandom
+}
+
+STRING 3120
+// Abilities: A1GL (Aspect: Skeletor: Aspect of Grateful Dead), Ubertip (Tooltip - Normal - Extended)
+{
+Skeleportation no longer teleports the hero, but summons a skeleton for each of the ability instead.
 }
 
 STRING 3121
@@ -21907,12 +21931,6 @@ STRING 3258
 Aspect of Lycaon
 }
 
-STRING 3259
-// Abilities: A1DB (Aspect: Lycanthrope: Aspect of Lycaon), Ubertip (Tooltip - Normal - Extended)
-{
-Stossgebet increases damage dealt by an additional 3% per stack, but no longer affects your hero. 
-}
-
 STRING 3260
 // Abilities: A1DA (Aspect: Lycanthrope: Aspect of Faoladh ), Name (Name)
 {
@@ -21923,12 +21941,6 @@ STRING 3261
 // Abilities: A1DA (Aspect: Lycanthrope: Aspect of Faoladh ), Tip (Tooltip - Normal)
 {
 Aspect of Faoladh 
-}
-
-STRING 3262
-// Abilities: A1DA (Aspect: Lycanthrope: Aspect of Faoladh ), Ubertip (Tooltip - Normal - Extended)
-{
-Beast of Gevaudan costs twice as much health to channel, but causes hero to restore |cffbe81f715|r health on each attack and take 10 less damage from any source.
 }
 
 STRING 3263
@@ -22580,52 +22592,12 @@ STRING 3362
 Night of the Werewolves, [|cffffcc00Level 5|r]
 }
 
-STRING 3363
-// Abilities: A1CR (Lycanthrope: Night of the Werewolves), Ubertip (Tooltip - Normal - Extended)
-{
-At the end of a lost battle, increases Agility by 3.
-Every 20 seconds, if it is day, the hero uses Murder at Midnight (|cffffcc00Q|r) or Blood for Blood (|cffffcc00R|r).
-At night, each hero attack with a |cffd7df0125%|r chance increases agility by 1 until the end of the night.
-
-|cFF959697Blood for Blood always prioritizes the enemy with the highest health nearby.|r
-}
-
-STRING 3364
-// Abilities: A1CR (Lycanthrope: Night of the Werewolves), Ubertip (Tooltip - Normal - Extended)
-{
-At the end of a lost battle, increases Agility by 4.
-Every 18 seconds, if it is day, the hero uses Murder at Midnight (|cffffcc00Q|r) or Blood for Blood (|cffffcc00R|r).
-At night, each hero attack with a |cffd7df0140%|r chance increases agility by 1 until the end of the night.
-
-|cFF959697Blood for Blood always prioritizes the enemy with the highest health nearby.|r
-}
-
 STRING 3365
 // Abilities: A1CR (Lycanthrope: Night of the Werewolves), Ubertip (Tooltip - Normal - Extended)
 {
 At the end of a lost battle, increases Agility by 5.
 Every 16 seconds, if it is day, the hero uses Murder at Midnight (|cffffcc00Q|r) or Blood for Blood (|cffffcc00R|r).
 At night, each hero attack with a |cffd7df0155%|r chance increases agility by 1 until the end of the night.
-
-|cFF959697Blood for Blood always prioritizes the enemy with the highest health nearby.|r
-}
-
-STRING 3366
-// Abilities: A1CR (Lycanthrope: Night of the Werewolves), Ubertip (Tooltip - Normal - Extended)
-{
-At the end of a lost battle, increases Agility by 6.
-Every 14 seconds, if it is day, the hero uses Murder at Midnight (|cffffcc00Q|r) or Blood for Blood (|cffffcc00R|r).
-At night, each hero attack with a |cffd7df0170%|r chance increases agility by 1 until the end of the night.
-
-|cFF959697Blood for Blood always prioritizes the enemy with the highest health nearby.|r
-}
-
-STRING 3367
-// Abilities: A1CR (Lycanthrope: Night of the Werewolves), Ubertip (Tooltip - Normal - Extended)
-{
-At the end of a lost battle, increases Agility by 7.
-Every 12 seconds, if it is day, the hero uses Murder at Midnight (|cffffcc00Q|r) or Blood for Blood (|cffffcc00R|r).
-At night, each hero attack with a |cffd7df0185%|r chance increases agility by 1 until the end of the night.
 
 |cFF959697Blood for Blood always prioritizes the enemy with the highest health nearby.|r
 }
@@ -22773,15 +22745,6 @@ STRING 3389
 Glaubenskraft, [|cffffcc00Level %d|r]
 }
 
-STRING 3390
-// Abilities: A1CN (Lycanthrope: Glaubenskraft), Researchubertip (Tooltip - Learn - Extended)
-{
-Gives the target a buff. Every second, the target heals for |cffbe81f710%|r of what was restored while the buff was active.
-|cffffcc00Duration:|r 6/7/8/9/10 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 50 mana and 125 health.
-}
-
 STRING 3391
 // Abilities: A1CN (Lycanthrope: Glaubenskraft), Tip (Tooltip - Normal)
 {
@@ -22810,51 +22773,6 @@ STRING 3395
 // Abilities: A1CN (Lycanthrope: Glaubenskraft), Tip (Tooltip - Normal)
 {
 Glaubenskraft, [|cffffcc00Level 5|r]
-}
-
-STRING 3396
-// Abilities: A1CN (Lycanthrope: Glaubenskraft), Ubertip (Tooltip - Normal - Extended)
-{
-Gives the target a buff. Every second, the target heals for |cffbe81f710%|r of what was restored while the buff was active.
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 125 health.
-}
-
-STRING 3397
-// Abilities: A1CN (Lycanthrope: Glaubenskraft), Ubertip (Tooltip - Normal - Extended)
-{
-Gives the target a buff. Every second, the target heals for |cffbe81f710%|r of what was restored while the buff was active.
-|cffffcc00Duration:|r 7 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 125 health.
-}
-
-STRING 3398
-// Abilities: A1CN (Lycanthrope: Glaubenskraft), Ubertip (Tooltip - Normal - Extended)
-{
-Gives the target a buff. Every second, the target heals for |cffbe81f710%|r of what was restored while the buff was active.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 125 health.
-}
-
-STRING 3399
-// Abilities: A1CN (Lycanthrope: Glaubenskraft), Ubertip (Tooltip - Normal - Extended)
-{
-Gives the target a buff. Every second, the target heals for |cffbe81f710%|r of what was restored while the buff was active.
-|cffffcc00Duration:|r 9 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 125 health.
-}
-
-STRING 3400
-// Abilities: A1CN (Lycanthrope: Glaubenskraft), Ubertip (Tooltip - Normal - Extended)
-{
-Gives the target a buff. Every second, the target heals for |cffbe81f710%|r of what was restored while the buff was active.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 125 health.
 }
 
 STRING 3401
@@ -22899,15 +22817,6 @@ STRING 3407
 Murder at Midnight, [|cffffcc00Level %d|r]
 }
 
-STRING 3408
-// Abilities: A1CK (Lycanthrope: Murder at Midnight), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f780/100/120/140/160|r damage to enemies in front of the hero and increases their damage taken by 10%. Stacks up to 2/3/4/5/6 times.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 6 seconds.
-|cffffcc00Cost:|r 40 mana.
-}
-
 STRING 3409
 // Abilities: A1CK (Lycanthrope: Murder at Midnight), Tip (Tooltip - Normal)
 {
@@ -22938,46 +22847,6 @@ STRING 3413
 Murder at Midnight, [|cffffcc00Level 5|r]
 }
 
-STRING 3414
-// Abilities: A1CK (Lycanthrope: Murder at Midnight), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f780|r damage to enemies in front of the hero and increases their damage taken by 10%. Stacks up to 2 times.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 6 seconds.
-}
-
-STRING 3415
-// Abilities: A1CK (Lycanthrope: Murder at Midnight), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7100|r damage to enemies in front of the hero and increases their damage taken by 10%. Stacks up to 3 times.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 6 seconds.
-}
-
-STRING 3416
-// Abilities: A1CK (Lycanthrope: Murder at Midnight), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7120|r damage to enemies in front of the hero and increases their damage taken by 10%. Stacks up to 4 times.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 6 seconds.
-}
-
-STRING 3417
-// Abilities: A1CK (Lycanthrope: Murder at Midnight), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7140|r damage to enemies in front of the hero and increases their damage taken by 10%. Stacks up to 5 times.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 6 seconds.
-}
-
-STRING 3418
-// Abilities: A1CK (Lycanthrope: Murder at Midnight), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7160|r damage to enemies in front of the hero and increases their damage taken by 10%. Stacks up to 6 times.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 6 seconds.
-}
-
 STRING 3419
 // Abilities: A1CJ (Lycanthrope: Stossgebet), Researchhotkey (Hotkey - Learn)
 {
@@ -23000,15 +22869,6 @@ STRING 3422
 // Abilities: A1CJ (Lycanthrope: Stossgebet), Researchtip (Tooltip - Learn)
 {
 Stossgebet, [|cffffcc00Level %d|r]
-}
-
-STRING 3423
-// Abilities: A1CJ (Lycanthrope: Stossgebet), Researchubertip (Tooltip - Learn - Extended)
-{
-All allies nearby get the effect: "Reduces damage taken and increases damage dealt by 5%. Stacks up to 2/3/4/5/6 times."
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 6 seconds.
-|cffffcc00Cost:|r 40 mana.
 }
 
 STRING 3424
@@ -23105,17 +22965,6 @@ STRING 3437
 Beast of Gevaudan, [|cffffcc00Level %d|r]
 }
 
-STRING 3438
-// Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Researchubertip (Tooltip - Learn - Extended)
-{
-The night is coming for a while. The hero turns into a wolf, changing abilities. Hero's attacks now deal additional damage equal to 30%/45%/60%/75%/90% agility, but loses 5% health every second.
-|cffffcc00Night duration:|r 16 seconds.
-|cffffcc00Cooldown:|r 25/23/21/19/17 seconds.
-
-|cffffcc00[Stossgebet]|r - Deals damage to enemies and increases their damage taken.
-|cffffcc00[Glaubenskraft]|r - Applies a debuff to an enemy, dealing damage equal to the damage taken while the debuff is active. This damage restores part of the hero's health.
-}
-
 STRING 3439
 // Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Tip (Tooltip - Normal)
 {
@@ -23144,46 +22993,6 @@ STRING 3443
 // Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Tip (Tooltip - Normal)
 {
 Beast of Gevaudan, [|cffffcc00Level 5|r]
-}
-
-STRING 3444
-// Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Ubertip (Tooltip - Normal - Extended)
-{
-The night is coming for a while. The hero turns into a wolf, changing abilities. Hero's attacks now deal additional damage equal to 30% agility, but loses 5% health every second.
-|cffffcc00Night duration:|r 16 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
-STRING 3445
-// Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Ubertip (Tooltip - Normal - Extended)
-{
-The night is coming for a while. The hero turns into a wolf, changing abilities. Hero's attacks now deal additional damage equal to 45% agility, but loses 5% health every second.
-|cffffcc00Night duration:|r 16 seconds.
-|cffffcc00Cooldown:|r 23 seconds.
-}
-
-STRING 3446
-// Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Ubertip (Tooltip - Normal - Extended)
-{
-The night is coming for a while. The hero turns into a wolf, changing abilities. Hero's attacks now deal additional damage equal to 60% agility, but loses 5% health every second.
-|cffffcc00Night duration:|r 16 seconds.
-|cffffcc00Cooldown:|r 21 seconds.
-}
-
-STRING 3447
-// Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Ubertip (Tooltip - Normal - Extended)
-{
-The night is coming for a while. The hero turns into a wolf, changing abilities. Hero's attacks now deal additional damage equal to 75% agility, but loses 5% health every second.
-|cffffcc00Night duration:|r 16 seconds.
-|cffffcc00Cooldown:|r 19 seconds.
-}
-
-STRING 3448
-// Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Ubertip (Tooltip - Normal - Extended)
-{
-The night is coming for a while. The hero turns into a wolf, changing abilities. Hero's attacks now deal additional damage equal to 90% agility, but loses 5% health every second.
-|cffffcc00Night duration:|r 16 seconds.
-|cffffcc00Cooldown:|r 17 seconds.
 }
 
 STRING 3449
@@ -26965,6 +26774,12 @@ STRING 4040
 Harmless Offering, [|cffffcc00Level %d|r]
 }
 
+STRING 4041
+// Abilities: A1GM (Aspect: Skeletor: Aspect of Marrowthon), Name (Name)
+{
+Aspect: Skeletor: Aspect of Marrowthon
+}
+
 STRING 4042
 // Abilities: A189 (Dealer: Harmless Offering), Tip (Tooltip - Normal)
 {
@@ -26993,6 +26808,36 @@ STRING 4046
 // Abilities: A189 (Dealer: Harmless Offering), Tip (Tooltip - Normal)
 {
 Harmless Offering, [|cffffcc00Level 5|r]
+}
+
+STRING 4047
+// Abilities: A1GM (Aspect: Skeletor: Aspect of Marrowthon), Tip (Tooltip - Normal)
+{
+Aspect of Marrowthon
+}
+
+STRING 4048
+// Abilities: A1GM (Aspect: Skeletor: Aspect of Marrowthon), Ubertip (Tooltip - Normal - Extended)
+{
+Skeleportation no longer restores health, but summons a skeleton for each of the ability instead.
+}
+
+STRING 4049
+// Abilities: A1GN (Aspect: Skeletor: Aspect of Humerus), Name (Name)
+{
+Aspect: Skeletor: Aspect of Humerus
+}
+
+STRING 4050
+// Abilities: A1GN (Aspect: Skeletor: Aspect of Humerus), Tip (Tooltip - Normal)
+{
+Aspect of Humerus
+}
+
+STRING 4051
+// Abilities: A1GN (Aspect: Skeletor: Aspect of Humerus), Ubertip (Tooltip - Normal - Extended)
+{
+Skeleportation will use one of its own forms randomly each cast. |n|cFF959697In case you can't decide on one.|r
 }
 
 STRING 4052
@@ -28775,6 +28620,12 @@ STRING 4325
 Divine Intervention, [|cffffcc00Level %d|r]
 }
 
+STRING 4326
+// Abilities: A1DB (Aspect: Lycanthrope: Aspect of Lycaon), Ubertip (Tooltip - Normal - Extended)
+{
+Stossgebet increases damage dealt by an additional 4% per stack, but no longer affects your hero. 
+}
+
 STRING 4327
 // Abilities: A16G (Maiden: Divine Intervention), Tip (Tooltip - Normal)
 {
@@ -28805,6 +28656,22 @@ STRING 4331
 Divine Intervention, [|cffffcc00Level 5|r]
 }
 
+STRING 4332
+// Abilities: A1DA (Aspect: Lycanthrope: Aspect of Faoladh ), Ubertip (Tooltip - Normal - Extended)
+{
+Beast of Gevaudan costs twice as much health to channel, but causes hero to restore |cffbe81f715|r health on each attack and take 15 less damage from any source.
+}
+
+STRING 4333
+// Abilities: A1CR (Lycanthrope: Night of the Werewolves), Ubertip (Tooltip - Normal - Extended)
+{
+At the end of a lost battle, increases Agility by 1.
+Every 20 seconds, if it is day, the hero uses Murder at Midnight (|cffffcc00Q|r) or Blood for Blood (|cffffcc00R|r).
+At night, each hero attack with a |cffd7df0125%|r chance increases agility by 1 until the end of the night.
+
+|cFF959697Blood for Blood always prioritizes the enemy with the highest health nearby.|r
+}
+
 STRING 4334
 // Abilities: A16G (Maiden: Divine Intervention), Ubertip (Tooltip - Normal - Extended)
 {
@@ -28812,6 +28679,26 @@ Binds your hero to another non-invisible hero. You lose the ability to move, but
 |cffffcc00Cooldown:|r 14 seconds. 
 
 |cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
+}
+
+STRING 4335
+// Abilities: A1CR (Lycanthrope: Night of the Werewolves), Ubertip (Tooltip - Normal - Extended)
+{
+At the end of a lost battle, increases Agility by 3.
+Every 18 seconds, if it is day, the hero uses Murder at Midnight (|cffffcc00Q|r) or Blood for Blood (|cffffcc00R|r).
+At night, each hero attack with a |cffd7df0140%|r chance increases agility by 1 until the end of the night.
+
+|cFF959697Blood for Blood always prioritizes the enemy with the highest health nearby.|r
+}
+
+STRING 4336
+// Abilities: A1CR (Lycanthrope: Night of the Werewolves), Ubertip (Tooltip - Normal - Extended)
+{
+At the end of a lost battle, increases Agility by 7.
+Every 14 seconds, if it is day, the hero uses Murder at Midnight (|cffffcc00Q|r) or Blood for Blood (|cffffcc00R|r).
+At night, each hero attack with a |cffd7df0170%|r chance increases agility by 1 until the end of the night.
+
+|cFF959697Blood for Blood always prioritizes the enemy with the highest health nearby.|r
 }
 
 STRING 4337
@@ -30351,6 +30238,16 @@ STRING 4572
 Resolve, [|cffffcc00Level %d|r]
 }
 
+STRING 4573
+// Abilities: A1CR (Lycanthrope: Night of the Werewolves), Ubertip (Tooltip - Normal - Extended)
+{
+At the end of a lost battle, increases Agility by 9.
+Every 12 seconds, if it is day, the hero uses Murder at Midnight (|cffffcc00Q|r) or Blood for Blood (|cffffcc00R|r).
+At night, each hero attack with a |cffd7df0185%|r chance increases agility by 1 until the end of the night.
+
+|cFF959697Blood for Blood always prioritizes the enemy with the highest health nearby.|r
+}
+
 STRING 4574
 // Abilities: A14U (Troll Mage: Resolve), Tip (Tooltip - Normal)
 {
@@ -30379,6 +30276,51 @@ STRING 4578
 // Abilities: A14U (Troll Mage: Resolve), Tip (Tooltip - Normal)
 {
 Resolve, [|cffffcc00Level 5|r]
+}
+
+STRING 4579
+// Abilities: A1CN (Lycanthrope: Glaubenskraft), Researchubertip (Tooltip - Learn - Extended)
+{
+Gives the target a buff. Every second, the target heals for |cffbe81f710%|r of what was restored while the buff was active.
+|cffffcc00Duration:|r 6/7/8/9/10 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 50 mana and 50 health.
+}
+
+STRING 4580
+// Abilities: A1CN (Lycanthrope: Glaubenskraft), Ubertip (Tooltip - Normal - Extended)
+{
+Gives the target a buff. Every second, the target heals for |cffbe81f710%|r of what was restored while the buff was active.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 50 health.
+}
+
+STRING 4581
+// Abilities: A1CN (Lycanthrope: Glaubenskraft), Ubertip (Tooltip - Normal - Extended)
+{
+Gives the target a buff. Every second, the target heals for |cffbe81f710%|r of what was restored while the buff was active.
+|cffffcc00Duration:|r 7 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 50 health.
+}
+
+STRING 4582
+// Abilities: A1CN (Lycanthrope: Glaubenskraft), Ubertip (Tooltip - Normal - Extended)
+{
+Gives the target a buff. Every second, the target heals for |cffbe81f710%|r of what was restored while the buff was active.
+|cffffcc00Duration:|r 8 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 50 health.
+}
+
+STRING 4583
+// Abilities: A1CN (Lycanthrope: Glaubenskraft), Ubertip (Tooltip - Normal - Extended)
+{
+Gives the target a buff. Every second, the target heals for |cffbe81f710%|r of what was restored while the buff was active.
+|cffffcc00Duration:|r 9 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 50 health.
 }
 
 STRING 4584
@@ -31259,6 +31201,15 @@ STRING 4721
 // Abilities: A135 (|cffffcc00Уровень 7:|r Заводной резак), Name (Name)
 {
 |cffffcc00Уровень 7:|r Заводной резак
+}
+
+STRING 4722
+// Abilities: A1CN (Lycanthrope: Glaubenskraft), Ubertip (Tooltip - Normal - Extended)
+{
+Gives the target a buff. Every second, the target heals for |cffbe81f710%|r of what was restored while the buff was active.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 50 health.
 }
 
 STRING 4723
@@ -43637,9 +43588,12 @@ Black Thumb, [|cffffcc00Level %d|r]
 }
 
 STRING 6614
-// Abilities: A1CE (Aspect: Dealer: Aspect of Friendship), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1CK (Lycanthrope: Murder at Midnight), Researchubertip (Tooltip - Learn - Extended)
 {
-Whenever an allied hero kills a Totally Legit Banana, they get 25% of the gold you should have earned, and you get the the remaining 55%. Rest goes to friendship, rent and taxes.
+Deals |cffbe81f780/100/120/140/160|r damage to enemies in front of the hero and increases their damage taken by 10%. Stacks up to 2/3/4/5/6 times.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 6 seconds.
+|cffffcc00Cost:|r 30 health and mana.
 }
 
 STRING 6615
@@ -55300,6 +55254,15 @@ STRING 8403
 Skelemagic, [|cffffcc00Level %d|r]
 }
 
+STRING 8404
+// Abilities: A1CK (Lycanthrope: Murder at Midnight), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f780|r damage to enemies in front of the hero and increases their damage taken by 10%. Stacks up to 2 times.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 6 seconds.
+|cffffcc00Cost:|r 30 health.
+}
+
 STRING 8405
 // Abilities: A0CK (Skeletlord: Skelemagic), Tip (Tooltip - Normal)
 {
@@ -55336,6 +55299,42 @@ STRING 8410
 |cff4169e1Rare|r
 Activation: Summons a unique pet with the Hero's Attack and Health.
 |cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 8411
+// Abilities: A1CK (Lycanthrope: Murder at Midnight), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7100|r damage to enemies in front of the hero and increases their damage taken by 10%. Stacks up to 3 times.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 6 seconds.
+|cffffcc00Cost:|r 30 health.
+}
+
+STRING 8412
+// Abilities: A1CK (Lycanthrope: Murder at Midnight), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7120|r damage to enemies in front of the hero and increases their damage taken by 10%. Stacks up to 4 times.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 6 seconds.
+|cffffcc00Cost:|r 30 health.
+}
+
+STRING 8413
+// Abilities: A1CK (Lycanthrope: Murder at Midnight), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7140|r damage to enemies in front of the hero and increases their damage taken by 10%. Stacks up to 5 times.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 6 seconds.
+|cffffcc00Cost:|r 30 health.
+}
+
+STRING 8414
+// Abilities: A1CK (Lycanthrope: Murder at Midnight), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7160|r damage to enemies in front of the hero and increases their damage taken by 10%. Stacks up to 6 times.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 6 seconds.
+|cffffcc00Cost:|r 30 health.
 }
 
 STRING 8415
@@ -55602,6 +55601,15 @@ STRING 8457
 Arcane strike, [|cffffcc00Level %d|r]
 }
 
+STRING 8458
+// Abilities: A1CJ (Lycanthrope: Stossgebet), Researchubertip (Tooltip - Learn - Extended)
+{
+All allies nearby get the effect: "Reduces damage taken and increases damage dealt by 5%. Stacks up to 2/3/4/5/6 times."
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 6 seconds.
+|cffffcc00Cost:|r 30 mana.
+}
+
 STRING 8459
 // Abilities: A0BX (Troll Mage: Arcane strike), Tip (Tooltip - Normal)
 {
@@ -55637,6 +55645,33 @@ STRING 8465
 {
 Deals |cffbe81f7120|r damage to the target. All orbs deal the same damage to all enemies nearby.
 |cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 8466
+// Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Researchubertip (Tooltip - Learn - Extended)
+{
+The night is coming for a while. The hero turns into a wolf, changing abilities. Hero's attacks now deal additional damage equal to 30%/45%/60%/75%/90% agility, but loses 4% health every second.
+|cffffcc00Night duration:|r 16 seconds.
+|cffffcc00Cooldown:|r 25/23/21/19/17 seconds.
+
+|cffffcc00[Stossgebet]|r - Deals damage to enemies and increases their damage taken. Costs health.
+|cffffcc00[Glaubenskraft]|r - Applies a debuff to an enemy, dealing damage equal to the damage taken while the debuff is active. This damage restores part of the hero's health. Health cost increased.
+}
+
+STRING 8467
+// Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Ubertip (Tooltip - Normal - Extended)
+{
+The night is coming for a while. The hero turns into a wolf, changing abilities. Hero's attacks now deal additional damage equal to 30% agility, but loses 4% health every second.
+|cffffcc00Night duration:|r 16 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 8468
+// Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Ubertip (Tooltip - Normal - Extended)
+{
+The night is coming for a while. The hero turns into a wolf, changing abilities. Hero's attacks now deal additional damage equal to 45% agility, but loses 4% health every second.
+|cffffcc00Night duration:|r 16 seconds.
+|cffffcc00Cooldown:|r 23 seconds.
 }
 
 STRING 8469
@@ -58742,6 +58777,14 @@ STRING 8952
 // Abilities: A1EP (Arena: Overlord Arena (Passive)), Tip (Tooltip - Normal)
 {
 Overlord Arena
+}
+
+STRING 8953
+// Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Ubertip (Tooltip - Normal - Extended)
+{
+The night is coming for a while. The hero turns into a wolf, changing abilities. Hero's attacks now deal additional damage equal to 60% agility, but loses 4% health every second.
+|cffffcc00Night duration:|r 16 seconds.
+|cffffcc00Cooldown:|r 21 seconds.
 }
 
 STRING 8954
@@ -62780,6 +62823,22 @@ Increases health by 750.
 |cffffffffDecreases armor by 6.|r
 }
 
+STRING 9568
+// Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Ubertip (Tooltip - Normal - Extended)
+{
+The night is coming for a while. The hero turns into a wolf, changing abilities. Hero's attacks now deal additional damage equal to 75% agility, but loses 4% health every second.
+|cffffcc00Night duration:|r 16 seconds.
+|cffffcc00Cooldown:|r 19 seconds.
+}
+
+STRING 9569
+// Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Ubertip (Tooltip - Normal - Extended)
+{
+The night is coming for a while. The hero turns into a wolf, changing abilities. Hero's attacks now deal additional damage equal to 90% agility, but loses 4% health every second.
+|cffffcc00Night duration:|r 16 seconds.
+|cffffcc00Cooldown:|r 17 seconds.
+}
+
 STRING 9570
 // Items: I01K (Runestone Gnir), Description (Description)
 {
@@ -62984,6 +63043,15 @@ STRING 9601
 // Abilities: A053 (Набор "|cff5858faЛуна|r"), Tip (Tooltip - Normal)
 {
 Set "|cff5858faMoon|r"
+}
+
+STRING 9602
+// Abilities: A0IQ (Unique: Summon Skeletons (+)), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Summons 2 Skeletons.
+|cffffcc00Life time:|r |cffbe81f715|r seconds.
+|cffffcc00Cooldown:|r 5 seconds.
 }
 
 STRING 9603
@@ -64022,6 +64090,15 @@ STRING 9765
 // Abilities: A047 (Усилитель 3: Легендарный), Tip (Tooltip - Normal)
 {
 |cffffcc00Amplifier:|r Legendary
+}
+
+STRING 9766
+// Abilities: A0IP (Unique: Summon Skeletons), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Summons a Skeleton.
+|cffffcc00Life time:|r |cffbe81f715|r seconds.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 9767
@@ -75794,24 +75871,6 @@ STRING 11615
 // Buffs/Effects: B02W (), Bufftip (Tooltip)
 {
 |cffff0000Slammed|r
-}
-
-STRING 11618
-// Abilities: A0IQ (Unique: Summon Skeletons (+)), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Summons 2 Skeletons.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 11619
-// Abilities: A0IP (Unique: Summon Skeletons), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Summons a Skeleton.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 11620

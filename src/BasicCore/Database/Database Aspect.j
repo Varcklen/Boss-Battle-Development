@@ -17,8 +17,11 @@ library Aspects initializer init
         set Aspect[index][2] = abilityTwo
         set Aspect[index][3] = abilityThree
     endfunction
-
+    
     private function init takes nothing returns nothing
+        //Beorn Patriarch
+        call SetAspect(5, 'A1GM', 'A1GL', 'A1GN')
+        
         //Beorn Patriarch
         call SetAspect(7, 'A0WG', 'A0X3', 'A0X4')
         
