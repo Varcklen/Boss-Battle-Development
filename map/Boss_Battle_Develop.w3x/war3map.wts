@@ -11141,14 +11141,6 @@ When the hero activates the first ability (|cffffcc00Q|r), restores |cffbe81f71%
 
 }
 
-STRING 1666
-// Abilities: A0BX (Troll Mage: Arcane strike), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f760/90/120/150/180|r damage to the target. All orbs deal the same damage to all enemies nearby.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 100/105/110/115/120 mana.
-}
-
 STRING 1667
 // Items: I0AC (Runestone Troy), Name (Name)
 {
@@ -11159,13 +11151,6 @@ STRING 1668
 // Items: I0AC (Runestone Troy), Tip (Tooltip - Basic)
 {
 Runestone Troy
-}
-
-STRING 1669
-// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f760|r damage to the target. All orbs deal the same damage to all enemies nearby.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 1670
@@ -12738,13 +12723,6 @@ Activation: Enters invisibility for 5 seconds. Abilities, items and attacks do n
 |cffffcc00Duration:|r 10 seconds.
 }
 
-STRING 1900
-// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f790|r damage to the target. All orbs deal the same damage to all enemies nearby.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 1901
 // Items: I08Q (Wild Yeast), Name (Name)
 {
@@ -12755,13 +12733,6 @@ STRING 1902
 // Items: I08Q (Wild Yeast), Tip (Tooltip - Basic)
 {
 Wild Yeast
-}
-
-STRING 1903
-// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7150|r damage to the target. All orbs deal the same damage to all enemies nearby.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 1904
@@ -14200,13 +14171,6 @@ STRING 2111
 {
 |cffbababcCommon|r, |cff2d9995Weapon|r
 Increases physical damage by 10%.
-}
-
-STRING 2112
-// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7180|r damage to the target. All orbs deal the same damage to all enemies nearby.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2113
@@ -22604,6 +22568,14 @@ STRING 3362
 Night of the Werewolves, [|cffffcc00Level 5|r]
 }
 
+STRING 3363
+// Abilities: A0BX (Troll Mage: Arcane strike), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f760/90/120/150/180|r damage to the target. All orbs deal the same damage to all enemies nearby.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 100/105/110/115/120 mana.
+}
+
 STRING 3364
 // Abilities: A1GP (Aspect: Sniper: Aspect of Recess), Name (Name)
 {
@@ -22624,6 +22596,13 @@ STRING 3366
 // Abilities: A1GP (Aspect: Sniper: Aspect of Recess), Tip (Tooltip - Normal)
 {
 Aspect of Recess
+}
+
+STRING 3367
+// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f760|r damage to the target. All orbs deal the same damage to all enemies nearby.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 3368
@@ -22914,6 +22893,13 @@ STRING 3413
 Murder at Midnight, [|cffffcc00Level 5|r]
 }
 
+STRING 3414
+// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f790|r damage to the target. All orbs deal the same damage to all enemies nearby.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 3415
 // Abilities: A1GO (Aspect: Sniper: Aspect of Weakness Detection), Ubertip (Tooltip - Normal - Extended)
 {
@@ -22924,6 +22910,20 @@ STRING 3416
 // Abilities: A1GP (Aspect: Sniper: Aspect of Recess), Ubertip (Tooltip - Normal - Extended)
 {
 Development of this aspect is in recess.
+}
+
+STRING 3417
+// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7120|r damage to the target. All orbs deal the same damage to all enemies nearby.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 3418
+// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7150|r damage to the target. All orbs deal the same damage to all enemies nearby.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 3419
@@ -22948,6 +22948,13 @@ STRING 3422
 // Abilities: A1CJ (Lycanthrope: Stossgebet), Researchtip (Tooltip - Learn)
 {
 Stossgebet, [|cffffcc00Level %d|r]
+}
+
+STRING 3423
+// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7180|r damage to the target. All orbs deal the same damage to all enemies nearby.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 3424
@@ -23044,6 +23051,16 @@ STRING 3437
 Beast of Gevaudan, [|cffffcc00Level %d|r]
 }
 
+STRING 3438
+// Abilities: A14S (Unique: Energy Orbs (+)), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Creates 2 orbs that deal |cffbe81f74|r damage to all nearby enemies and restore |cffbe81f74|r health to allies.
+|cff60C445Unique|r spellpower is 50% effective on all orbs.
+|cffffcc00Duration:|r 25 seconds.
+|cffffcc00Cooldown:|r 6 seconds.
+}
+
 STRING 3439
 // Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Tip (Tooltip - Normal)
 {
@@ -23072,6 +23089,16 @@ STRING 3443
 // Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Tip (Tooltip - Normal)
 {
 Beast of Gevaudan, [|cffffcc00Level 5|r]
+}
+
+STRING 3444
+// Abilities: A13G (Unique: Energy Orbs), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Creates an orb that deals |cffbe81f74|r damage to all nearby enemies and restores |cffbe81f74|r health to allies.
+|cff60C445Unique|r spellpower is 50% effective on all orbs.
+|cffffcc00Duration:|r 25 seconds.
+|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 3449
@@ -30444,15 +30471,6 @@ STRING 4590
 Energy Orbs
 }
 
-STRING 4591
-// Abilities: A14S (Unique: Energy Orbs (+)), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Creates 2 orbs that deals |cffbe81f75|r damage to all nearby enemies and restores |cffbe81f75|r health to allies.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 6 seconds.
-}
-
 STRING 4592
 // Abilities: A14R (Инкуб: Выманивание золота), Name (Name)
 {
@@ -31155,15 +31173,6 @@ STRING 4701
 // Abilities: A13G (Unique: Energy Orbs), Tip (Tooltip - Normal)
 {
 Energy Orbs
-}
-
-STRING 4702
-// Abilities: A13G (Unique: Energy Orbs), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Creates an orb that deals |cffbe81f75|r damage to all nearby enemies and restores |cffbe81f75|r health to allies.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 4703
@@ -55717,13 +55726,6 @@ STRING 8463
 // Abilities: A0BX (Troll Mage: Arcane strike), Tip (Tooltip - Normal)
 {
 Arcane strike, [|cffffcc00Level 5|r]
-}
-
-STRING 8465
-// Abilities: A0BX (Troll Mage: Arcane strike), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7120|r damage to the target. All orbs deal the same damage to all enemies nearby.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 8466

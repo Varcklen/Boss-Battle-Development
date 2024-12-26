@@ -1,8 +1,13 @@
 /*
 
 Heroes:
-	Troll Mage - Q 		: heal/damage 	20 + 20x lvl 	-> 30 + 30x lvl
-	Troll Mage - R 		: damage 		40 + 40x lvl 	-> 30 + 30x lvl
+	Troll Mage - Q 		: heal/damage 	20 + 20x lvl 	-> 30 + 30x lvl			# this used to be not worth using period
+	Troll Mage - R 		: damage 		40 + 40x lvl 	-> 30 + 30x lvl			# insane damage nuke on low cd
+	Troll Mage - R 		: cd 			15			 	-> 20					# insane damage nuke on low cd
+	Troll Mage - Orb 	: Unique Sp 	0% effect		-> 50% effect			# oversight? fix and immediate nerf
+	Troll Mage - Orb 	: heal/damage 	5				-> 4					# the hero does everything, so a couple small nerfs
+	Troll Mage - Orb 	: life time 	30 				-> 25					# the hero does everything, so a couple small nerfs
+	
 	Divine Maiden - Q 	: armour 		2 + lvl 		-> 1 + 2x lvl
 	Berry Dealer - Q/R	: banana gold 	25x SP 			-> 20x SP
 	Skeltor - E 		: life time 	15 				-> 15x SP

@@ -1,7 +1,7 @@
 {
   "Name": "Boss_Battle_Develop",
   "Version": 4,
-  "GameVersion": "2.0.1.22490",
+  "GameVersion": "2.0.1.22498",
   "Language": "jass",
   "UseRelativeMapDirectory": true,
   "Comment": "",
@@ -5531,7 +5531,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Frames\\HeroChoise",
           "Files": [
             {
@@ -10388,7 +10388,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Uniques",
           "Files": [
             {
@@ -12455,7 +12455,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Hybrids",
           "Files": [
             {
@@ -12465,7 +12465,7 @@
               "path": "Heroes\\Hybrids\\TrollMage",
               "Files": [
                 {
-                  "isEnabled": true,
+                  "isEnabled": false,
                   "isInitiallyOn": true,
                   "isExpanded": false,
                   "path": "Heroes\\Hybrids\\TrollMage\\Orb.trg",
@@ -12497,6 +12497,13 @@
                   "isInitiallyOn": true,
                   "isExpanded": false,
                   "path": "Heroes\\Hybrids\\TrollMage\\TrollMageW.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Hybrids\\TrollMage\\Orb.j",
                   "Files": []
                 }
               ]
@@ -14085,7 +14092,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "BossesInfo",
       "Files": [
         {
@@ -14334,7 +14341,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Bosses\\Bosses1",
           "Files": [
             {
@@ -16212,7 +16219,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "FichInEnd",
       "Files": [
         {
@@ -16262,6 +16269,13 @@
           "isInitiallyOn": true,
           "isExpanded": false,
           "path": "FichInEnd\\Chameleon King.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": false,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "FichInEnd\\ClassicHDFix.j",
           "Files": []
         }
       ]
