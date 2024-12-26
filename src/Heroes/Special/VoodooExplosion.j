@@ -2,10 +2,11 @@ scope VoodooExplosion initializer init
 
     globals
 		trigger trg_Voodoo_explosion = null
+		private constant integer ABILITY_ID = 'A1AD'
     endglobals
 
 function Trig_Voodoo_explosion_Conditions takes nothing returns boolean
-    return GetSpellAbilityId() == 'A1AD'
+    return GetSpellAbilityId() == ABILITY_ID
 endfunction
 
 function Trig_Voodoo_explosion_Actions takes nothing returns nothing
@@ -32,10 +33,10 @@ function Trig_Voodoo_explosion_Actions takes nothing returns nothing
         set angle = GetRandomReal( 0, 360 ) * bj_DEGTORAD
         set x = GetUnitX( caster ) + dist * Cos( angle )
         set y = GetUnitY( caster ) + dist * Sin( angle )
-        call textst( udg_string[0] + GetObjectName('A1AD'), caster, 64, 90, 10, 1.5 )
+        call textst( udg_string[0] + GetObjectName(ABILITY_ID), caster, 64, 90, 10, 1.5 )
     else
         set caster = GetSpellAbilityUnit()
-        set lvl = GetUnitAbilityLevel(caster, GetSpellAbilityId())
+        set lvl = GetUnitAbilityLevel(caster, ABILITY_ID)
         set x = GetSpellTargetX()
         set y = GetSpellTargetY()
     endif

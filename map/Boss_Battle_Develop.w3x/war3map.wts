@@ -21931,6 +21931,12 @@ STRING 3258
 Aspect of Lycaon
 }
 
+STRING 3259
+// Abilities: A1GO (Aspect: Sniper: Aspect of Weakness Detection), Name (Name)
+{
+Aspect: Sniper: Aspect of Weakness Detection
+}
+
 STRING 3260
 // Abilities: A1DA (Aspect: Lycanthrope: Aspect of Faoladh ), Name (Name)
 {
@@ -21941,6 +21947,12 @@ STRING 3261
 // Abilities: A1DA (Aspect: Lycanthrope: Aspect of Faoladh ), Tip (Tooltip - Normal)
 {
 Aspect of Faoladh 
+}
+
+STRING 3262
+// Abilities: A1GO (Aspect: Sniper: Aspect of Weakness Detection), Tip (Tooltip - Normal)
+{
+Aspect of Weakness Detection
 }
 
 STRING 3263
@@ -22592,6 +22604,12 @@ STRING 3362
 Night of the Werewolves, [|cffffcc00Level 5|r]
 }
 
+STRING 3364
+// Abilities: A1GP (Aspect: Sniper: Aspect of Recess), Name (Name)
+{
+Aspect: Sniper: Aspect of Recess
+}
+
 STRING 3365
 // Abilities: A1CR (Lycanthrope: Night of the Werewolves), Ubertip (Tooltip - Normal - Extended)
 {
@@ -22600,6 +22618,12 @@ Every 16 seconds, if it is day, the hero uses Murder at Midnight (|cffffcc00Q|r)
 At night, each hero attack with a |cffd7df0155%|r chance increases agility by 1 until the end of the night.
 
 |cFF959697Blood for Blood always prioritizes the enemy with the highest health nearby.|r
+}
+
+STRING 3366
+// Abilities: A1GP (Aspect: Sniper: Aspect of Recess), Tip (Tooltip - Normal)
+{
+Aspect of Recess
 }
 
 STRING 3368
@@ -22745,6 +22769,12 @@ STRING 3389
 Glaubenskraft, [|cffffcc00Level %d|r]
 }
 
+STRING 3390
+// Abilities: A1GQ (Aspect: Sniper: Aspect of Insurance), Name (Name)
+{
+Aspect: Sniper: Aspect of Insurance
+}
+
 STRING 3391
 // Abilities: A1CN (Lycanthrope: Glaubenskraft), Tip (Tooltip - Normal)
 {
@@ -22773,6 +22803,37 @@ STRING 3395
 // Abilities: A1CN (Lycanthrope: Glaubenskraft), Tip (Tooltip - Normal)
 {
 Glaubenskraft, [|cffffcc00Level 5|r]
+}
+
+STRING 3396
+// Abilities: A1GQ (Aspect: Sniper: Aspect of Insurance), Tip (Tooltip - Normal)
+{
+Aspect of Insurance
+}
+
+STRING 3397
+// Abilities: A1GQ (Aspect: Sniper: Aspect of Insurance), Ubertip (Tooltip - Normal - Extended)
+{
+Health Care restores health at 75% efficiency and mana at remaining 25%.
+}
+
+STRING 3398
+// Items: I0HC (First aid kit), Description (Description)
+{
+|cff50ff90Use when picked up|r
+Restores health and mana.
+}
+
+STRING 3399
+// Items: I0HC (First aid kit), Name (Name)
+{
+First aid kit
+}
+
+STRING 3400
+// Items: I0HC (First aid kit), Tip (Tooltip - Basic)
+{
+First aid kit
 }
 
 STRING 3401
@@ -22817,6 +22878,12 @@ STRING 3407
 Murder at Midnight, [|cffffcc00Level %d|r]
 }
 
+STRING 3408
+// Items: I0HC (First aid kit), Ubertip (Tooltip - Extended)
+{
+Restores health and mana.
+}
+
 STRING 3409
 // Abilities: A1CK (Lycanthrope: Murder at Midnight), Tip (Tooltip - Normal)
 {
@@ -22845,6 +22912,18 @@ STRING 3413
 // Abilities: A1CK (Lycanthrope: Murder at Midnight), Tip (Tooltip - Normal)
 {
 Murder at Midnight, [|cffffcc00Level 5|r]
+}
+
+STRING 3415
+// Abilities: A1GO (Aspect: Sniper: Aspect of Weakness Detection), Ubertip (Tooltip - Normal - Extended)
+{
+Explosive Shot deals 50% less base damage, but an extra 1.2% is added for each 1% of missing health of the target.|n|cFF959697Deals between 50% and 170% of usual damage.
+}
+
+STRING 3416
+// Abilities: A1GP (Aspect: Sniper: Aspect of Recess), Ubertip (Tooltip - Normal - Extended)
+{
+Development of this aspect is in recess.
 }
 
 STRING 3419

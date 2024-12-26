@@ -19,7 +19,7 @@ library Aspects initializer init
     endfunction
     
     private function init takes nothing returns nothing
-        //Beorn Patriarch
+        //Skeletor
         call SetAspect(5, 'A1GM', 'A1GL', 'A1GN')
         
         //Beorn Patriarch
@@ -27,6 +27,9 @@ library Aspects initializer init
         
         //Druid-Naturalist
         call SetAspect(10, 'A0TR', 'A0TS', 'A0P8')
+        
+        //Sniper
+        call SetAspect(18, 'A1GO', 'A1GP', 'A1GQ')
         
         //Samurai
         call SetAspect(32, 'A0V9', 'A0VY', 'A0TT')
