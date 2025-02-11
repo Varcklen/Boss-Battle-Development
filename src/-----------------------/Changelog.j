@@ -13,4 +13,7 @@ ITEMS
 fixed inferno ring summoning infernals for 1s [-> 15s]
 fixed staff of purity working in duel
 
+OTHER
+fixed spirits selection on hero death being stupid
+
  */

@@ -26,6 +26,7 @@ scope HeroSpiritSummon initializer init
 			call UnitAddAbility(summon, 'A1GA')
 		endif
 		
+		call ClearSelectionForPlayer( owner )
 		call SelectUnitAddForPlayer( summon, owner )
 
 		set summon = null
