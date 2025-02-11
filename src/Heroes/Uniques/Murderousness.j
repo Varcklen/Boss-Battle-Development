@@ -20,6 +20,7 @@ scope Murderousness initializer init
 	private function action takes nothing returns nothing
 	    local real attackAmount
 	    local unit caster
+	    local real bonus
 	    
 	    if CastLogic() then
 	        set caster = udg_Caster
@@ -35,7 +36,8 @@ scope Murderousness initializer init
 	    else
 	        set attackAmount = ATTACK_BONUS
 	    endif
-	    set attackAmount = attackAmount * GetUnitSpellPower(caster) * GetUniqueSpellPower(caster)
+	    set bonus = LoadReal( udg_hash, GetHandleId( caster ), StringHash( "murderousness_attack" ) )
+	    set attackAmount = attackAmount * GetUnitSpellPower(caster) * GetUniqueSpellPower(caster) + bonus
 	    
 	    call SaveReal( udg_hash, GetHandleId( caster ), StringHash( "murderousness_attack" ), attackAmount )
 	    call UnitAddAbility( caster, EFFECT_ID )
