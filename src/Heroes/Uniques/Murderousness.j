@@ -20,7 +20,7 @@ scope Murderousness initializer init
 	private function action takes nothing returns nothing
 	    local real attackAmount
 	    local unit caster
-	    local real bonus
+	    local real bonus = 0
 	    
 	    if CastLogic() then
 	        set caster = udg_Caster
@@ -36,7 +36,9 @@ scope Murderousness initializer init
 	    else
 	        set attackAmount = ATTACK_BONUS
 	    endif
-	    set bonus = LoadReal( udg_hash, GetHandleId( caster ), StringHash( "murderousness_attack" ) )
+	    if not( udg_fightmod[3] ) and combat( caster, true, GetSpellAbilityId() )
+	    	set bonus = LoadReal( udg_hash, GetHandleId( caster ), StringHash( "murderousness_attack" ) )
+	    endif
 	    set attackAmount = attackAmount * GetUnitSpellPower(caster) * GetUniqueSpellPower(caster) + bonus
 	    
 	    call SaveReal( udg_hash, GetHandleId( caster ), StringHash( "murderousness_attack" ), attackAmount )
@@ -57,7 +59,7 @@ scope Murderousness initializer init
 
     private function attack_action takes nothing returns nothing
         local real bonus = LoadReal( udg_hash, GetHandleId( udg_DamageEventSource ), StringHash( "murderousness_attack" ) )
-
+		call SaveReal( udg_hash, GetHandleId( caster ), StringHash( "murderousness_attack" ), 0 )
         set udg_DamageEventAmount = udg_DamageEventAmount + bonus
         call BuffClear(udg_DamageEventSource)
     endfunction
