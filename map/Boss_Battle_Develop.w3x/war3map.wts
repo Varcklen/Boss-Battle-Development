@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.7.4T|r
+|cffbe81f7Boss Battle 1.8.2T|r
 }
 
 STRING 2
@@ -12758,7 +12758,7 @@ Wild Yeast
 }
 
 STRING 1903
-// Abilities: A1SA (Attack speed (Offhand shooting)), Name (Name)
+// Abilities: A18Q (Attack speed (Offhand shooting)), Name (Name)
 {
 Attack speed (Offhand shooting)
 }
@@ -23130,7 +23130,7 @@ Creates an orb that deals |cffbe81f74|r damage to all nearby enemies and restore
 }
 
 STRING 3445
-// Abilities: A1SD (Attack (Offhand shooting)), Name (Name)
+// Abilities: A18R (Attack (Offhand shooting)), Name (Name)
 {
 Attack (Offhand shooting)
 }
@@ -23142,13 +23142,13 @@ Aspect
 }
 
 STRING 3447
-// Abilities: A1SP ((т)Аура: Offhand shooting), Name (Name)
+// Abilities: A18P ((т)Аура: Offhand shooting), Name (Name)
 {
 (т)Аура: Offhand shooting
 }
 
 STRING 3448
-// Buffs/Effects: B0SP (), Bufftip (Tooltip)
+// Buffs/Effects: B031 (), Bufftip (Tooltip)
 {
 |cff00ff00Offhand shooting|r
 }
@@ -26771,19 +26771,19 @@ Refreshing Lemons
 }
 
 STRING 4014
-// Abilities: A18R (Attack (Offhand shooting)), Name (Name)
+// Abilities: A1SD (Attack (Offhand shooting)), Name (Name)
 {
 Attack (Offhand shooting)
 }
 
 STRING 4015
-// Abilities: A18Q (Attack speed (Offhand shooting)), Name (Name)
+// Abilities: A1SA (Attack speed (Offhand shooting)), Name (Name)
 {
 Attack speed (Offhand shooting)
 }
 
 STRING 4016
-// Abilities: A18P ((т)Аура: Offhand shooting), Name (Name)
+// Abilities: A1SP ((т)Аура: Offhand shooting), Name (Name)
 {
 (т)Аура: Offhand shooting
 }
@@ -71537,7 +71537,7 @@ Your activated non-corrupted artifacts fire twice.
 }
 
 STRING 10928
-// Buffs/Effects: B031 (), Bufftip (Tooltip)
+// Buffs/Effects: B0SP (), Bufftip (Tooltip)
 {
 |cff00ff00Offhand shooting|r
 }
@@ -73274,7 +73274,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.7.4T|r
+|cffbe81f7Boss Battle 1.8.2T|r
 }
 
 STRING 11219

@@ -5,6 +5,7 @@ scope HeroesChoise initializer init
     
         real Event_HeroChoose_Real = 0
         unit Event_HeroChoose_Hero = null
+        player Event_HeroChoose_Player = null
         
         private FirstPosition tempPosition
         
@@ -125,10 +126,11 @@ scope HeroesChoise initializer init
         call AddBonusItems(hero, index)
 
         set Event_HeroChoose_Hero = hero
+        set Event_HeroChoose_Player = owner
         set Event_HeroChoose_Real = 0.00
         set Event_HeroChoose_Real = 1.00
         set Event_HeroChoose_Real = 0.00
-        
+
         if GetLocalPlayer() == owner then
             call ResetToGameCameraForPlayer( owner, 0 )
             if AnyHasLvL(2) then
@@ -148,7 +150,7 @@ scope HeroesChoise initializer init
                 call BlzFrameSetVisible( rpkmod,true)
             endif
             call BlzFrameSetVisible( fon,true)
-            call BlzFrameSetVisible( butbk,true)
+            
             call BlzFrameSetVisible( iconframe[1],true)
             call BlzFrameSetVisible( iconframe[2],true)
             call BlzFrameSetVisible( iconframe[3],true)
