@@ -36,10 +36,10 @@ scope Murderousness initializer init
 	    else
 	        set attackAmount = ATTACK_BONUS
 	    endif
-	    if not( udg_fightmod[3] ) and combat( caster, true, GetSpellAbilityId() )
+	    if not( udg_fightmod[3] ) and combat( caster, true, GetSpellAbilityId() ) then
 	    	set bonus = LoadReal( udg_hash, GetHandleId( caster ), StringHash( "murderousness_attack" ) )
 	    endif
-	    set attackAmount = attackAmount * GetUnitSpellPower(caster) * GetUniqueSpellPower(caster) + bonus
+	    set attackAmount = attackAmount * GetUnitSpellPower( caster ) * GetUniqueSpellPower( caster ) + bonus
 	    
 	    call SaveReal( udg_hash, GetHandleId( caster ), StringHash( "murderousness_attack" ), attackAmount )
 	    call UnitAddAbility( caster, EFFECT_ID )
@@ -59,7 +59,7 @@ scope Murderousness initializer init
 
     private function attack_action takes nothing returns nothing
         local real bonus = LoadReal( udg_hash, GetHandleId( udg_DamageEventSource ), StringHash( "murderousness_attack" ) )
-		call SaveReal( udg_hash, GetHandleId( caster ), StringHash( "murderousness_attack" ), 0 )
+		call SaveReal( udg_hash, GetHandleId( udg_DamageEventSource ), StringHash( "murderousness_attack" ), 0 )
         set udg_DamageEventAmount = udg_DamageEventAmount + bonus
         call BuffClear(udg_DamageEventSource)
     endfunction
