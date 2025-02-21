@@ -1,19 +1,34 @@
 /*
 
 HEROES
-Fixed upgraded Lich Unique summoning 1 skeleton
-Fixed Sniper E lvl 1 ASPD buff 18% -> 15%
-Added third Sniper Aspect
-Fixed Murderousness Unique not stacking with multicasts
+Fixed Murderousness Unique permanently scaling itself on each use 			- i've tested it this time
+Fixed Skeletor's Unique (Summon Skeletons) summoning nothing when upgraded	- i've tested it this time
+
+	Corrupted Ent - R [Black Thumb]
+Damage 				30+10xLVL 	-> 10+15xLVL
+Armour Reduction 	LVL 		-> 1+LVL
+Mana Cost			100			-> 120
+
+	Ninja - W [Shuriken Throw]
+Damage 				25+10xLVL 	-> 15+10xLVL
+Mana Cost			50			-> 80
+
+	KOTGT - E [passive]
+Range 				900 		-> 525+75xLVL
+
+	Legionary - W [Blade of fire]
+Ruby Gain % 		50+10xLVL	-> 15+15xLVL
+Ruby Gain Range 	0..1		-> 1..2
+Mana Cost			30+10xLVL	-> 20+10xLVL
+	Legionary - R [Dragon Heart]
+Shield per Ruby 	5xLVL	 	-> 10+5xLVL
 
 BOSSES
-Knight Spirit - Coil damage 300 -> 250
+
 
 ITEMS
-fixed inferno ring summoning infernals for 1s [-> 15s]
-fixed staff of purity working in duel
+
 
 OTHER
-fixed spirits selection on hero death being stupid
 
  */

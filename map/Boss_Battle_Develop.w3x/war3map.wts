@@ -9955,14 +9955,6 @@ STRING 1492
 Thief's Footpads
 }
 
-STRING 1493
-// Abilities: A08L (Legionary: Blade of fire), Researchubertip (Tooltip - Learn - Extended)
-{
-Inflicts |cffbe81f7150/200/250/300/350|r fire damage to an enemy. With a probability of |cffd7df0160%/70%/80%/90%/100%|r, gives a ruby.
-|cffffcc00Cooldown:|r 12 seconds.
-|cffffcc00Cost:|r 40/50/60/70/80 mana.
-}
-
 STRING 1494
 // Items: I0BJ (Make an Exchange), Hotkey (Hotkey)
 {
@@ -10072,13 +10064,6 @@ STRING 1509
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a sheep artifact.
 }
 
-STRING 1510
-// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
-{
-Inflicts |cffbe81f7150|r fire damage to an enemy. With a probability of |cffd7df0160%|r, gives a ruby.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
 STRING 1511
 // Items: I0BF (Tarot Card: Winds), Name (Name)
 {
@@ -10089,13 +10074,6 @@ STRING 1512
 // Items: I0BF (Tarot Card: Winds), Tip (Tooltip - Basic)
 {
 Tarot Card: Winds
-}
-
-STRING 1513
-// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
-{
-Inflicts |cffbe81f7200|r fire damage to an enemy. With a probability of |cffd7df0170%|r, gives a ruby.
-|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 1514
@@ -11976,13 +11954,6 @@ STRING 1788
 Moon owl
 }
 
-STRING 1789
-// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
-{
-Inflicts |cffbe81f7250|r fire damage to an enemy. With a probability of |cffd7df0180%|r, gives a ruby.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
 STRING 1790
 // Abilities: A1F1 (Stat: Phy Vampirism +15%), Name (Name)
 {
@@ -12202,20 +12173,6 @@ STRING 1822
 |cffffcc00Reward:|r Mechatron Charizard.
 
 |cffffcc00Progress:|r |cffe96a1cLegendary|r, |cff4169e1Rare|r, |cffbababcCommon|r, |cffb40431Blood|r, |cff848484Rune|r, |cffb18904Mech|r, |cff5858faMoon|r, |cff7cfc00Nature|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r, |cff2d9995Weapon|r, |cff00cceeCrystal|r |cffffffff|r
-}
-
-STRING 1823
-// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
-{
-Inflicts |cffbe81f7300|r fire damage to an enemy. With a probability of |cffd7df0190%|r, gives a ruby.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 1824
-// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
-{
-Inflicts |cffbe81f7350|r fire damage to an enemy and gives a ruby.
-|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 1825
@@ -21557,15 +21514,6 @@ STRING 3201
 Heating Up, [|cffffcc00Level %d|r]
 }
 
-STRING 3202
-// Abilities: AV00 (Sun King: Heating Up), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f725/50/75/100/125|r damage to all enemies in long range and applies sunburn, dealing |cffbe81f71/2/3/4/5|r damage per second and increasing magic damage taken by 1%/2%/3%/4%/5%. Stacks up to three times. 3 charges.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-|cffffcc00Cost:|r 55 mana.
-}
-
 STRING 3203
 // Abilities: AV00 (Sun King: Heating Up), Tip (Tooltip - Normal)
 {
@@ -22938,6 +22886,16 @@ STRING 3415
 // Abilities: A1GO (Aspect: Sniper: Aspect of Weakness Detection), Ubertip (Tooltip - Normal - Extended)
 {
 Explosive Shot deals 50% less base damage, but an extra 1.2% is added for each 1% of missing health of the target.|n|cFF959697Deals between 50% and 170% of usual damage.
+}
+
+STRING 3416
+// Abilities: A0OJ (Ent: Black Thumb), Researchubertip (Tooltip - Learn - Extended)
+{
+Curses the enemy, reducing their armor by 2/3/4/5/6. Every second, the target loses |cffbe81f725/40/55/70/85|r health, and all nearby heroes restore |cffbe81f7health|r.
+|cffffcc00Duration:|r 5 seconds.
+|cFF959697Growth Sprout refreshes the duration of the effect.|r
+|cffffcc00Cooldown:|r 24/23/22/21/20 seconds.
+|cffffcc00Cost:|r 120 mana.
 }
 
 STRING 3417
@@ -24373,15 +24331,6 @@ STRING 3642
 Ballad of a Hero, [|cffffcc00Level %d|r]
 }
 
-STRING 3643
-// Abilities: A1B0 (Bard: Ballad of a Hero), Researchubertip (Tooltip - Learn - Extended)
-{
-Resurrects a random hero for a certain time and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
-|cffffcc00Life time:|r 7/10/13/16/19 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-|cffffcc00Cost:|r 80 mana.
-}
-
 STRING 3644
 // Abilities: A1B0 (Bard: Ballad of a Hero), Tip (Tooltip - Normal)
 {
@@ -24410,46 +24359,6 @@ STRING 3648
 // Abilities: A1B0 (Bard: Ballad of a Hero), Tip (Tooltip - Normal)
 {
 Ballad of a Hero, [|cffffcc00Level 5|r]
-}
-
-STRING 3649
-// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
-{
-Resurrects a random hero for a certain time and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
-|cffffcc00Life time:|r 7 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
-STRING 3650
-// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
-{
-Resurrects a random hero for a certain time and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
-|cffffcc00Life time:|r 10 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
-STRING 3651
-// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
-{
-Resurrects a random hero for a certain time and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
-|cffffcc00Life time:|r 13 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
-STRING 3652
-// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
-{
-Resurrects a random hero for a certain time and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
-|cffffcc00Life time:|r 16 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
-STRING 3653
-// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
-{
-Resurrects a random hero for a certain time and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
-|cffffcc00Life time:|r 19 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
 }
 
 STRING 3654
@@ -31233,6 +31142,15 @@ STRING 4701
 Energy Orbs
 }
 
+STRING 4702
+// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
+{
+Curses the enemy, reducing their armor by 2. Every second, the target loses |cffbe81f725|r health, and all nearby heroes restore |cffbe81f7health|r.
+|cffffcc00Duration:|r 5 seconds.
+|cFF959697Growth Sprout refreshes the duration of the effect.|r
+|cffffcc00Cooldown:|r 24 seconds.
+}
+
 STRING 4703
 // Abilities: A13F (Артефакт: Карта Таро: Мир), Name (Name)
 {
@@ -36034,21 +35952,6 @@ STRING 5440
 {
 Grants a shield to an ally that absorbs |cffbe81f7360|r damage and causes the target to provoke all nearby enemies to attack it. If the shield is destroyed, all nearby enemies will be stunned for 2 seconds.
 |cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 5441
-// Abilities: A00M (Legionary: Dragon heart), Researchubertip (Tooltip - Learn - Extended)
-{
-Imposes a shield on all heroes, absorbing |cffbe81f75/10/15/20/25|r health for each crystal of your hero.
-|cffffcc00Cooldown:|r 50 seconds.
-|cffffcc00Cost:|r 120 mana.
-}
-
-STRING 5442
-// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a shield on all heroes, absorbing |cffbe81f75|r health for each ruby of your hero.
-|cffffcc00Cooldown:|r 50 seconds.
 }
 
 STRING 5443
@@ -43415,6 +43318,15 @@ STRING 6565
 Stat: Cooldown +25%
 }
 
+STRING 6566
+// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
+{
+Curses the enemy, reducing their armor by 3. Every second, the target loses |cffbe81f740|r health, and all nearby heroes restore |cffbe81f7health|r.
+|cffffcc00Duration:|r 5 seconds.
+|cFF959697Growth Sprout refreshes the duration of the effect.|r
+|cffffcc00Cooldown:|r 23 seconds.
+}
+
 STRING 6567
 // Abilities: A0MY (Curse: Тьма (b19)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -46549,14 +46461,6 @@ STRING 7048
 Shuriken Throw, [|cffffcc00Level %d|r]
 }
 
-STRING 7049
-// Abilities: A0LS (Ninja: Shuriken Throw), Researchubertip (Tooltip - Learn - Extended)
-{
-Throws 3 shurikens forward. Each shuriken deals |cffbe81f735/45/55/65/75|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
-|cffffcc00Cooldown:|r 20/19/18/17/16 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
 STRING 7050
 // Abilities: A0LS (Ninja: Shuriken Throw), Tip (Tooltip - Normal)
 {
@@ -46585,46 +46489,6 @@ STRING 7054
 // Abilities: A0LS (Ninja: Shuriken Throw), Tip (Tooltip - Normal)
 {
 Shuriken Throw, [|cffffcc00Level 5|r]
-}
-
-STRING 7055
-// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Throws 3 shurikens forward. Each shuriken deals 
-|cffbe81f735|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 7056
-// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Throws 3 shurikens forward. Each shuriken deals 
-|cffbe81f745|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
-|cffffcc00Cooldown:|r 19 seconds.
-}
-
-STRING 7057
-// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Throws 3 shurikens forward. Each shuriken deals 
-|cffbe81f755|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 7058
-// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Throws 3 shurikens forward. Each shuriken deals 
-|cffbe81f765|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
-|cffffcc00Cooldown:|r 17 seconds.
-}
-
-STRING 7059
-// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Throws 3 shurikens forward. Each shuriken deals 
-|cffbe81f775|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
-|cffffcc00Cooldown:|r 16 seconds.
 }
 
 STRING 7060
@@ -49840,13 +49704,6 @@ STRING 7543
 // Abilities: A0II (Аура: Orb of Pious Magi), Name (Name)
 {
 Аура: Orb of Pious Magi
-}
-
-STRING 7544
-// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a shield on all heroes, absorbing |cffbe81f710|r health for each rubyl of your hero.
-|cffffcc00Cooldown:|r 50 seconds.
 }
 
 STRING 7545
@@ -55131,22 +54988,20 @@ When a Hero effects a target with Fear (|cffffcc00Q|r), Shadow Zone (|cffffcc00W
 }
 
 STRING 8369
-// Abilities: A0OJ (Ent: Black Thumb), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: AV00 (Sun King: Heating Up), Researchubertip (Tooltip - Learn - Extended)
 {
-Curses the enemy, reducing their armor by 1/2/3/4/5. Every second, the target loses |cffbe81f740/50/60/70/80|r health, and all nearby heroes restore |cffbe81f7health|r.
-|cffffcc00Duration:|r 5 seconds.
-|cFF959697Growth Sprout refreshes the duration of the effect.|r
-|cffffcc00Cooldown:|r 24/23/22/21/20 seconds.
-|cffffcc00Cost:|r 100 mana.
+Deals |cffbe81f725/50/75/100/125|r damage to all enemies in long range and applies sunburn, dealing |cffbe81f71/2/3/4/5|r damage per second and increasing magic damage taken by 1%/2%/3%/4%/5%. Stacks up to three times. 3 charges.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 8 seconds.
+|cffffcc00Cost:|r 30 mana.
 }
 
 STRING 8370
-// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0LS (Ninja: Shuriken Throw), Researchubertip (Tooltip - Learn - Extended)
 {
-Curses the enemy, reducing their armor by 1. Every second, the target loses |cffbe81f740|r health, and all nearby heroes restore |cffbe81f7health|r.
-|cffffcc00Duration:|r 5 seconds.
-|cFF959697Growth Sprout refreshes the duration of the effect.|r
-|cffffcc00Cooldown:|r 24 seconds.
+Throws 3 shurikens forward. Each shuriken deals |cffbe81f725/35/45/55/65|r damage. If any of the projectiles deals damage, the effect repeats after 2 seconds.
+|cffffcc00Cooldown:|r 20/19/18/17/16 seconds.
+|cffffcc00Cost:|r 80 mana.
 }
 
 STRING 8371
@@ -55156,12 +55011,11 @@ W
 }
 
 STRING 8372
-// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
 {
-Curses the enemy, reducing their armor by 2. Every second, the target loses |cffbe81f750|r health, and all nearby heroes restore |cffbe81f7health|r.
-|cffffcc00Duration:|r 5 seconds.
-|cFF959697Growth Sprout refreshes the duration of the effect.|r
-|cffffcc00Cooldown:|r 23 seconds.
+Throws 3 shurikens forward. Each shuriken deals 
+|cffbe81f725|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 8373
@@ -55171,30 +55025,27 @@ W
 }
 
 STRING 8374
-// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
 {
-Curses the enemy, reducing their armor by 3. Every second, the target loses |cffbe81f760|r health, and all nearby heroes restore |cffbe81f7health|r.
-|cffffcc00Duration:|r 5 seconds.
-|cFF959697Growth Sprout refreshes the duration of the effect.|r
-|cffffcc00Cooldown:|r 22 seconds.
+Throws 3 shurikens forward. Each shuriken deals 
+|cffbe81f735|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
+|cffffcc00Cooldown:|r 19 seconds.
 }
 
 STRING 8375
-// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
 {
-Curses the enemy, reducing their armor by 4. Every second, the target loses |cffbe81f770|r health, and all nearby heroes restore |cffbe81f7health|r.
-|cffffcc00Duration:|r 5 seconds.
-|cFF959697Growth Sprout refreshes the duration of the effect.|r
-|cffffcc00Cooldown:|r 21 seconds.
+Throws 3 shurikens forward. Each shuriken deals 
+|cffbe81f745|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 8376
-// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
 {
-Curses the enemy, reducing their armor by 5. Every second, the target loses |cffbe81f780|r health, and all nearby heroes restore |cffbe81f7health|r.
-|cffffcc00Duration:|r 5 seconds.
-|cFF959697Growth Sprout refreshes the duration of the effect.|r
-|cffffcc00Cooldown:|r 20 seconds.
+Throws 3 shurikens forward. Each shuriken deals 
+|cffbe81f755|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
+|cffffcc00Cooldown:|r 17 seconds.
 }
 
 STRING 8377
@@ -55774,6 +55625,24 @@ STRING 8463
 // Abilities: A0BX (Troll Mage: Arcane strike), Tip (Tooltip - Normal)
 {
 Arcane strike, [|cffffcc00Level 5|r]
+}
+
+STRING 8464
+// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
+{
+Curses the enemy, reducing their armor by 4. Every second, the target loses |cffbe81f755|r health, and all nearby heroes restore |cffbe81f7health|r.
+|cffffcc00Duration:|r 5 seconds.
+|cFF959697Growth Sprout refreshes the duration of the effect.|r
+|cffffcc00Cooldown:|r 22 seconds.
+}
+
+STRING 8465
+// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
+{
+Curses the enemy, reducing their armor by 5. Every second, the target loses |cffbe81f770|r health, and all nearby heroes restore |cffbe81f7health|r.
+|cffffcc00Duration:|r 5 seconds.
+|cFF959697Growth Sprout refreshes the duration of the effect.|r
+|cffffcc00Cooldown:|r 21 seconds.
 }
 
 STRING 8466
@@ -57214,12 +57083,6 @@ STRING 8686
 Chaw of Chaws, [|cffffcc00Level %d|r]
 }
 
-STRING 8687
-// Abilities: A0A9 (Keeper: Chaw of Chaws), Researchubertip (Tooltip - Learn - Extended)
-{
-As long as there is at least one hero next to you, your hero is invisible. Attack and movement speed bonus: -20%/-15%/-10%/-5%/0%.
-}
-
 STRING 8688
 // Abilities: A0A9 (Keeper: Chaw of Chaws), Tip (Tooltip - Normal)
 {
@@ -57248,36 +57111,6 @@ STRING 8692
 // Abilities: A0A9 (Keeper: Chaw of Chaws), Tip (Tooltip - Normal)
 {
 Chaw of Chaws, [|cffffcc00Level 5|r]
-}
-
-STRING 8693
-// Abilities: A0A9 (Keeper: Chaw of Chaws), Ubertip (Tooltip - Normal - Extended)
-{
-As long as there is at least one hero next to you, your hero is invisible. Attack and movement speed bonus: -20%.
-}
-
-STRING 8694
-// Abilities: A0A9 (Keeper: Chaw of Chaws), Ubertip (Tooltip - Normal - Extended)
-{
-As long as there is at least one hero next to you, your hero is invisible. Attack and movement speed bonus: -15%.
-}
-
-STRING 8695
-// Abilities: A0A9 (Keeper: Chaw of Chaws), Ubertip (Tooltip - Normal - Extended)
-{
-As long as there is at least one hero next to you, your hero is invisible. Attack and movement speed bonus: -10%.
-}
-
-STRING 8696
-// Abilities: A0A9 (Keeper: Chaw of Chaws), Ubertip (Tooltip - Normal - Extended)
-{
-As long as there is at least one hero next to you, your hero is invisible. Attack and movement speed bonus: -5%.
-}
-
-STRING 8697
-// Abilities: A0A9 (Keeper: Chaw of Chaws), Ubertip (Tooltip - Normal - Extended)
-{
-As long as there is at least one hero next to you, your hero is invisible. Attack and movement speed bonus: 0%.
 }
 
 STRING 8698
@@ -65836,10 +65669,27 @@ STRING 10009
 W
 }
 
+STRING 10010
+// Abilities: A0OJ (Ent: Black Thumb), Ubertip (Tooltip - Normal - Extended)
+{
+Curses the enemy, reducing their armor by 6. Every second, the target loses |cffbe81f785|r health, and all nearby heroes restore |cffbe81f7health|r.
+|cffffcc00Duration:|r 5 seconds.
+|cFF959697Growth Sprout refreshes the duration of the effect.|r
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 10011
 // Abilities: AZD3 (Усилитель 9: АдскийXXX), Name (Name)
 {
 Усилитель 9: АдскийXXX
+}
+
+STRING 10012
+// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Throws 3 shurikens forward. Each shuriken deals 
+|cffbe81f765|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
+|cffffcc00Cooldown:|r 16 seconds.
 }
 
 STRING 10013
@@ -74509,6 +74359,42 @@ STRING 11402
 - Fixed "On a new One" not granting a hero if random pick attempts were exhausted.
 }
 
+STRING 11403
+// Abilities: A0A9 (Keeper: Chaw of Chaws), Researchubertip (Tooltip - Learn - Extended)
+{
+As long as there is at least one hero next to you, your hero is invisible, but your attack and movement speed is reduced by 20%/15%/10%/5%/0%.|n|cffffcc00Effect range:|r 600/675/750/825/900.
+}
+
+STRING 11404
+// Abilities: A0A9 (Keeper: Chaw of Chaws), Ubertip (Tooltip - Normal - Extended)
+{
+As long as there is at least one hero next to you, your hero is invisible, but your attack and movement speed is reduced by 20%.|n|cffffcc00Effect range:|r 600.
+}
+
+STRING 11405
+// Abilities: A0A9 (Keeper: Chaw of Chaws), Ubertip (Tooltip - Normal - Extended)
+{
+As long as there is at least one hero next to you, your hero is invisible, but your attack and movement speed is reduced by 15%.|n|cffffcc00Effect range:|r 675.
+}
+
+STRING 11406
+// Abilities: A0A9 (Keeper: Chaw of Chaws), Ubertip (Tooltip - Normal - Extended)
+{
+As long as there is at least one hero next to you, your hero is invisible, but your attack and movement speed is reduced by 10%.|n|cffffcc00Effect range:|r 750.
+}
+
+STRING 11407
+// Abilities: A0A9 (Keeper: Chaw of Chaws), Ubertip (Tooltip - Normal - Extended)
+{
+As long as there is at least one hero next to you, your hero is invisible, but your attack and movement speed is reduced by 5%.|n|cffffcc00Effect range:|r 825.
+}
+
+STRING 11408
+// Abilities: A0A9 (Keeper: Chaw of Chaws), Ubertip (Tooltip - Normal - Extended)
+{
+As long as there is at least one hero next to you, your hero is invisible.|n|cffffcc00Effect range:|r 900.
+}
+
 STRING 11409
 // Items: IZ03 (Cheese), Description (Description)
 {
@@ -75736,6 +75622,14 @@ STRING 11585
 Moon Blinking, [|cffffcc00Level 5|r]
 }
 
+STRING 11586
+// Abilities: A08L (Legionary: Blade of fire), Researchubertip (Tooltip - Learn - Extended)
+{
+Inflict |cffbe81f7150/200/250/300/350|r fire damage to an enemy and get a ruby. With a probability of |cffd7df0130%/45%/60%/75%/90%|r, get another one.
+|cffffcc00Cooldown:|r 12 seconds.
+|cffffcc00Cost:|r 30/40/50/60/70 mana.
+}
+
 STRING 11587
 // Abilities: A0HC (|cffffcc00Уровень 3:|r Огромный арахнид), Ubertip (Tooltip - Normal - Extended)
 {
@@ -76002,6 +75896,34 @@ STRING 11615
 |cffff0000Slammed|r
 }
 
+STRING 11616
+// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
+{
+Inflict |cffbe81f7150|r fire damage to an enemy and get a ruby. With a probability of |cffd7df0130%|r, get another one.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 11617
+// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
+{
+Inflict |cffbe81f7200|r fire damage to an enemy and get a ruby. With a probability of |cffd7df0145%|r, get another one.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 11618
+// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
+{
+Inflict |cffbe81f7250|r fire damage to an enemy and get a ruby. With a probability of |cffd7df0160%|r, get another one.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 11619
+// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
+{
+Inflict |cffbe81f7300|r fire damage to an enemy and get a ruby. With a probability of |cffd7df0175%|r, get another one.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 11620
 // Items: I07J (Living Mana), Description (Description)
 {
@@ -76254,5 +76176,83 @@ STRING 11657
 // Abilities: A02J (Mermaid: Seal of Fate), Tip (Tooltip - Normal)
 {
 Seal of Fate, [|cffffcc00Level 5|r]
+}
+
+STRING 11658
+// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
+{
+Inflict |cffbe81f7350|r fire damage to an enemy and get a ruby. With a probability of |cffd7df0190%|r, get another one.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 11659
+// Abilities: A00M (Legionary: Dragon heart), Researchubertip (Tooltip - Learn - Extended)
+{
+Imposes a shield on all heroes, absorbing |cffbe81f715/20/25/30/35|r health for each crystal of your hero.
+|cffffcc00Cooldown:|r 50 seconds.
+|cffffcc00Cost:|r 120 mana.
+}
+
+STRING 11660
+// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
+{
+Imposes a shield on all heroes, absorbing |cffbe81f730|r health for each ruby of your hero.
+|cffffcc00Cooldown:|r 50 seconds.
+}
+
+STRING 11661
+// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
+{
+Imposes a shield on all heroes, absorbing |cffbe81f735|r health for each ruby of your hero.
+|cffffcc00Cooldown:|r 50 seconds.
+}
+
+STRING 11662
+// Abilities: A1B0 (Bard: Ballad of a Hero), Researchubertip (Tooltip - Learn - Extended)
+{
+Temporarily resurrects a random hero and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
+|cffffcc00Life time:|r 7/10/13/16/19 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
+STRING 11663
+// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
+{
+Temporarily resurrects a random hero and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
+|cffffcc00Life time:|r 7 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 11664
+// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
+{
+Temporarily resurrects a random hero and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
+|cffffcc00Life time:|r 10 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 11665
+// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
+{
+Temporarily resurrects a random hero and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
+|cffffcc00Life time:|r 13 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 11667
+// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
+{
+Temporarily resurrects a random hero and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
+|cffffcc00Life time:|r 19 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 11668
+// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
+{
+Temporarily resurrects a random hero and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
+|cffffcc00Life time:|r 16 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
 }
 
