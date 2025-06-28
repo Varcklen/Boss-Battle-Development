@@ -242,7 +242,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_One[15] = gg_trg_MentorQ 
 	    set udg_DB_Trigger_One[16] = gg_trg_PyrolordQ
 	    set udg_DB_Trigger_One[17] = gg_trg_SirenaQ
-	    set udg_DB_Trigger_One[18] = gg_trg_SniperQ
+	    set udg_DB_Trigger_One[18] = trg_SniperQ
 	    set udg_DB_Trigger_One[19] = gg_trg_HronoQ 
 	    set udg_DB_Trigger_One[20] = gg_trg_MiracleBrewQ
 	    set udg_DB_Trigger_One[21] = gg_trg_CircusQ

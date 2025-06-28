@@ -9955,6 +9955,13 @@ STRING 1492
 Thief's Footpads
 }
 
+STRING 1493
+// Abilities: A053 (Набор "|cff5858faЛуна|r"), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Condition:|r Collect 3 artifacts from the set "|cff5858faMoon|r".
+|cffffcc00Reward:|r When the hero uses an ability or item, it emits 8 waves, each of which deals |cffbe81f750|r damage and an additional |cffbe81f71|r damage for each 15 mana.
+}
+
 STRING 1494
 // Items: I0BJ (Make an Exchange), Hotkey (Hotkey)
 {
@@ -19919,12 +19926,6 @@ STRING 2968
 |cffbababcCommon|r, |cffb40431Blood|r
 Activation: Connect your soul to target allied hero. Every second, the hero with higher current health gives 2% of his health to the other hero.
 |cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 2969
-// Abilities: A053 (Набор "|cff5858faЛуна|r"), Ubertip (Tooltip - Normal - Extended)
-{
- 
 }
 
 STRING 2970
