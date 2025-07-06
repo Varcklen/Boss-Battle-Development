@@ -1,7 +1,7 @@
 {
   "Name": "Boss_Battle_Develop",
   "Version": 4,
-  "GameVersion": "2.0.1.22498",
+  "GameVersion": "2.0.2.22796",
   "Language": "jass",
   "UseRelativeMapDirectory": true,
   "Comment": "",
@@ -2746,7 +2746,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "BasicCore",
       "Files": [
         {
@@ -3274,7 +3274,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\EventSystem",
           "Files": [
             {
@@ -3403,7 +3403,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\StatSystem",
           "Files": [
             {
@@ -3580,7 +3580,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\Tag System",
           "Files": [
             {
@@ -3836,7 +3836,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "BasicCore\\Other",
           "Files": [
             {
@@ -5039,7 +5039,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Frames",
       "Files": [
         {
@@ -5059,7 +5059,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Frames\\Tooltip",
           "Files": [
             {
@@ -5970,7 +5970,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Items",
       "Files": [
         {
@@ -6120,17 +6120,24 @@
               "Files": []
             },
             {
-              "isEnabled": false,
+              "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
-              "path": "Items\\Common\\Boom365.trg",
+              "path": "Items\\Common\\Albedo.j",
               "Files": []
             },
             {
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
-              "path": "Items\\Common\\Albedo.j",
+              "path": "Items\\Common\\Ampelous.j",
+              "Files": []
+            },
+            {
+              "isEnabled": false,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Boom365.trg",
               "Files": []
             },
             {
@@ -7202,6 +7209,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Common\\RefreshingLemons.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Replica Elixir.j",
               "Files": []
             },
             {
@@ -8350,6 +8364,13 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
+              "path": "Items\\Rare\\Red Sugar.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
               "path": "Items\\Rare\\Sea Pearl.trg",
               "Files": []
             },
@@ -8456,6 +8477,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Rare\\Snupi.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Rare\\Shining Crab.j",
               "Files": []
             },
             {
@@ -10551,7 +10579,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Heroes\\Buffers",
           "Files": [
             {
@@ -10657,7 +10685,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Buffers\\DragonCristall",
               "Files": [
                 {
@@ -10787,7 +10815,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Buffers\\Sun King",
               "Files": [
                 {
@@ -10837,7 +10865,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Buffers\\Keeper",
               "Files": [
                 {
@@ -11264,7 +11292,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Rippers",
           "Files": [
             {
@@ -11464,7 +11492,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Rippers\\Outcast",
               "Files": [
                 {
@@ -11528,7 +11556,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Rippers\\Marshal",
               "Files": [
                 {
@@ -11585,7 +11613,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Rippers\\Lycanthrope",
               "Files": [
                 {
@@ -11614,6 +11642,71 @@
                   "isInitiallyOn": true,
                   "isExpanded": false,
                   "path": "Heroes\\Rippers\\Lycanthrope\\LycanthropeR.trg",
+                  "Files": []
+                }
+              ]
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Heroes\\Rippers\\Wrath Collector",
+              "Files": [
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": true,
+                  "path": "Heroes\\Rippers\\Wrath Collector\\Wrath Bar",
+                  "Files": [
+                    {
+                      "isEnabled": true,
+                      "isInitiallyOn": true,
+                      "isExpanded": false,
+                      "path": "Heroes\\Rippers\\Wrath Collector\\Wrath Bar\\WrathBarVisual.j",
+                      "Files": []
+                    },
+                    {
+                      "isEnabled": true,
+                      "isInitiallyOn": true,
+                      "isExpanded": false,
+                      "path": "Heroes\\Rippers\\Wrath Collector\\Wrath Bar\\WrathBarEffect.j",
+                      "Files": []
+                    },
+                    {
+                      "isEnabled": true,
+                      "isInitiallyOn": true,
+                      "isExpanded": false,
+                      "path": "Heroes\\Rippers\\Wrath Collector\\Wrath Bar\\WrathBarBehaviour.j",
+                      "Files": []
+                    }
+                  ]
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Rippers\\Wrath Collector\\WrathCollectorQ.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Rippers\\Wrath Collector\\WrathCollectorW.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Rippers\\Wrath Collector\\WrathCollectorE.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Rippers\\Wrath Collector\\WrathCollectorR.j",
                   "Files": []
                 }
               ]
@@ -11751,7 +11844,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Marauders\\Gambler",
               "Files": [
                 {
@@ -11923,7 +12016,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Marauders\\Mephistar",
               "Files": [
                 {
@@ -12067,7 +12160,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Heroes\\Killers",
           "Files": [
             {
@@ -12274,7 +12367,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Killers\\Ninja",
               "Files": [
                 {
@@ -12440,7 +12533,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Hybrids\\TrollMage",
               "Files": [
                 {
@@ -12490,7 +12583,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Hybrids\\SkeletonLord",
               "Files": [
                 {
@@ -12547,7 +12640,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Hybrids\\Houndmaster",
               "Files": [
                 {
@@ -13244,7 +13337,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Heroes\\Healers",
           "Files": [
             {
@@ -14071,7 +14164,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "BossesInfo",
       "Files": [
         {
@@ -14320,7 +14413,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Bosses\\Bosses1",
           "Files": [
             {
@@ -14905,7 +14998,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Bosses\\Bosses5",
           "Files": [
             {
@@ -16317,13 +16410,6 @@
           ]
         }
       ]
-    },
-    {
-      "isEnabled": true,
-      "isInitiallyOn": true,
-      "isExpanded": false,
-      "path": "Core",
-      "Files": []
     }
   ]
 }
