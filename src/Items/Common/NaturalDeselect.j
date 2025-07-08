@@ -18,6 +18,9 @@ private function Steal takes unit hero, unit diedHero, integer amount returns no
     local integer luck = R2I( udg_lucky[diedIndex] * amount * COEF / 100 )
     local integer spellPower = R2I( (GetUnitSpellPower(diedHero) - 1) * amount * COEF )
     
+    set luck = IMaxBJ(0 , luck )
+    set spellPower = IMaxBJ(0 , spellPower )
+    
     set IsStealed[index] = true
     call PlaySpecialEffect(ANIMATION, hero)
         

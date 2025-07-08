@@ -31,6 +31,9 @@ library Aspects initializer init
         //Sniper
         call SetAspect(18, 'A1GO', 'A1GP', 'A1GQ')
         
+        //Energy Ball
+        call SetAspect(30, 'A1H6', 'A1H0', 'A1H7')
+        
         //Samurai
         call SetAspect(32, 'A0V9', 'A0VY', 'A0TT')
         

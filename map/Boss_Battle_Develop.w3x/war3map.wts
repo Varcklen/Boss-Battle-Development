@@ -8504,15 +8504,6 @@ Your buffs and debuffs last 50% longer.
 |cff81f260[Random bonus]|r
 }
 
-STRING 1282
-// Items: I0D0 (Plush doll), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Copies the health percentage of another hero.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 45 mana.
-}
-
 STRING 1283
 // Items: I0D0 (Plush doll), Name (Name)
 {
@@ -8523,14 +8514,6 @@ STRING 1284
 // Items: I0D0 (Plush doll), Tip (Tooltip - Basic)
 {
 Plush doll
-}
-
-STRING 1285
-// Items: I0D0 (Plush doll), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Copies the health percentage of another hero.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 1286
@@ -9847,14 +9830,6 @@ STRING 1477
 Activation: |cffcc0000Corrupted|r. Replaces the hero's |cff60C445Unique|r with "Sheep call".
 }
 
-STRING 1478
-// Abilities: A184 (Прочее: Провокация (Банан)), Ubertip (Tooltip - Normal - Extended)
-{
-Constantly provokes a random enemy. When killed, restores the hero |cffbe81f7health|r and gives |cffbe81f7gold|r.
-
-|cFF959697Spell Power efficiency is 50% of the base for gold gain.|r
-}
-
 STRING 1479
 // Abilities: A1GB (.General-Item: Non-Splittable), Name (Name)
 {
@@ -10333,13 +10308,6 @@ STRING 1549
 Activation: |cffcc0000Corrupted|r. Resets the cooldown of abilities and items and restores all mana for all heroes.
 }
 
-STRING 1550
-// Items: I0B5 (Trash), Description (Description)
-{
-|cffbababcCommon|r
-Can't be changed.
-}
-
 STRING 1551
 // Items: I0B5 (Trash), Name (Name)
 {
@@ -10350,13 +10318,6 @@ STRING 1552
 // Items: I0B5 (Trash), Tip (Tooltip - Basic)
 {
 Trash
-}
-
-STRING 1553
-// Items: I0B5 (Trash), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Can't be changed.
 }
 
 STRING 1554
@@ -15995,6 +15956,13 @@ STRING 2376
 When the hero uses an ability or item, there is a |cffd7df0120%|r chance to restore |cffbe81f725|r mana to all other nearby heroes.
 }
 
+STRING 2377
+// Abilities: A0R0 (Barbarian: Recklessness), Researchubertip (Tooltip - Learn - Extended)
+{
+The hero goes into a rage, increasing Attack Speed by 40%/55%/70%/85%/100%, but loses 10 mana every second. If there is no mana, it spends health instead.
+|cffffcc00Cost:|r 25 mana.
+}
+
 STRING 2378
 // Items: I05E (Book of Mana), Hotkey (Hotkey)
 {
@@ -16011,6 +15979,12 @@ STRING 2380
 // Items: I05E (Book of Mana), Tip (Tooltip - Basic)
 {
 Book of Mana
+}
+
+STRING 2381
+// Abilities: A0R0 (Barbarian: Recklessness), Ubertip (Tooltip - Normal - Extended)
+{
+The hero goes into a rage, increasing Attack Speed by 40%, but loses 10 mana every second. If there is no mana, it spends health instead.
 }
 
 STRING 2382
@@ -17427,14 +17401,6 @@ STRING 2592
 When the hero takes damage, with a probability of |cffd7df018%|r, uses a random first-level spell.
 }
 
-STRING 2593
-// Items: I03Y (Wrackspurts), Description (Description)
-{
-|cffbababcCommon|r
-Increases stats by 3.
-At the end of the battle, you get a copy of it.
-}
-
 STRING 2594
 // Items: I03Y (Wrackspurts), Name (Name)
 {
@@ -17445,14 +17411,6 @@ STRING 2595
 // Items: I03Y (Wrackspurts), Tip (Tooltip - Basic)
 {
 Wrackspurts
-}
-
-STRING 2596
-// Items: I03Y (Wrackspurts), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Increases stats by 3.
-At the end of the battle, you get a copy of it.
 }
 
 STRING 2597
@@ -37057,7 +37015,7 @@ Overlord: Cripple
 }
 
 STRING 5596
-// Abilities: A0V1 (Energy Ball: Energy shield), Hotkey (Hotkey - Normal)
+// Abilities: A0V1 (Energy Ball: Energy Shield), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -37467,15 +37425,15 @@ STRING 5656
 }
 
 STRING 5657
-// Abilities: A0V1 (Energy Ball: Energy shield), Researchhotkey (Hotkey - Learn)
+// Abilities: A0V1 (Energy Ball: Energy Shield), Researchhotkey (Hotkey - Learn)
 {
 W
 }
 
 STRING 5658
-// Abilities: A0V1 (Energy Ball: Energy shield), Name (Name)
+// Abilities: A1H0 (Aspect: Energy Ball: Aspect of Discharge), Name (Name)
 {
-Energy Ball: Energy shield
+Aspect: Energy Ball: Aspect of Discharge
 }
 
 STRING 5659
@@ -37485,87 +37443,79 @@ W
 }
 
 STRING 5660
-// Abilities: A0V1 (Energy Ball: Energy shield), Researchtip (Tooltip - Learn)
+// Abilities: A1H0 (Aspect: Energy Ball: Aspect of Discharge), Tip (Tooltip - Normal)
 {
-Energy shield, [|cffffcc00Level %d|r]
+Aspect of Discharge
 }
 
 STRING 5661
-// Abilities: A0V1 (Energy Ball: Energy shield), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A1H0 (Aspect: Energy Ball: Aspect of Discharge), Ubertip (Tooltip - Normal - Extended)
 {
-Gives an ally a buff: "When the unit uses an ability or items, deals |cffbe81f710/20/30/40/50|r damage to a random enemy nearby."
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 60 mana.
+Energy Shield deals 50% more damage, but no longer works on attacks.
 }
 
 STRING 5662
-// Abilities: A0V1 (Energy Ball: Energy shield), Tip (Tooltip - Normal)
+// Abilities: A1H6 (Aspect: Energy Ball: Aspect of Attractions), Name (Name)
 {
-Energy shield, [|cffffcc00Level 1|r]
+Aspect: Energy Ball: Aspect of Attractions
 }
 
 STRING 5663
-// Abilities: A0V1 (Energy Ball: Energy shield), Tip (Tooltip - Normal)
+// Abilities: A1H6 (Aspect: Energy Ball: Aspect of Attractions), Tip (Tooltip - Normal)
 {
-Energy shield, [|cffffcc00Level 2|r]
+Aspect of Attractions
 }
 
 STRING 5664
-// Abilities: A0V1 (Energy Ball: Energy shield), Tip (Tooltip - Normal)
+// Abilities: A1H6 (Aspect: Energy Ball: Aspect of Attractions), Ubertip (Tooltip - Normal - Extended)
 {
-Energy shield, [|cffffcc00Level 3|r]
+Chain of Lightning deals 30% less damage, but seeks targets at twice the distance.
 }
 
 STRING 5665
-// Abilities: A0V1 (Energy Ball: Energy shield), Tip (Tooltip - Normal)
+// Abilities: A1H7 (Aspect: Energy Ball: Aspect of Plasma), Name (Name)
 {
-Energy shield, [|cffffcc00Level 4|r]
+Aspect: Energy Ball: Aspect of Plasma
 }
 
 STRING 5666
-// Abilities: A0V1 (Energy Ball: Energy shield), Tip (Tooltip - Normal)
+// Abilities: A1H7 (Aspect: Energy Ball: Aspect of Plasma), Tip (Tooltip - Normal)
 {
-Energy shield, [|cffffcc00Level 5|r]
+Aspect of Plasma
 }
 
 STRING 5667
-// Abilities: A0V1 (Energy Ball: Energy shield), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1H7 (Aspect: Energy Ball: Aspect of Plasma), Ubertip (Tooltip - Normal - Extended)
 {
-Gives an ally a buff: "When the unit uses an ability or items, deals |cffbe81f710|r damage to a random enemy nearby."
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
+High Voltage deals double damage, but the target search range is reduced by 60%.
 }
 
 STRING 5668
-// Abilities: A0V1 (Energy Ball: Energy shield), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A01D (Energy Ball: Chain of Lightning), Researchubertip (Tooltip - Learn - Extended)
 {
-Gives an ally a buff: "When the unit uses an ability or items, deals |cffbe81f720|r damage to a random enemy nearby."
-|cffffcc00Duration:|r 30 seconds.
+Creates a bolt of lightning that jumps from enemy to enemy, dealing |cffbe81f7100/140/180/220/260|r damage to each.
 |cffffcc00Cooldown:|r 10 seconds.
+|cffffcc00Cost:|r 45/50/55/60/65 mana.
 }
 
 STRING 5669
-// Abilities: A0V1 (Energy Ball: Energy shield), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A01D (Energy Ball: Chain of Lightning), Ubertip (Tooltip - Normal - Extended)
 {
-Gives an ally a buff: "When the unit uses an ability or items, deals |cffbe81f730|r damage to a random enemy nearby."
-|cffffcc00Duration:|r 30 seconds.
+Creates a bolt of lightning that jumps from enemy to enemy, dealing |cffbe81f7100|r damage to each.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 5670
-// Abilities: A0V1 (Energy Ball: Energy shield), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A01D (Energy Ball: Chain of Lightning), Ubertip (Tooltip - Normal - Extended)
 {
-Gives an ally a buff: "When the unit uses an ability or items, deals |cffbe81f740|r damage to a random enemy nearby."
-|cffffcc00Duration:|r 30 seconds.
+Creates a bolt of lightning that jumps from enemy to enemy, dealing |cffbe81f7140|r damage to each.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 5671
-// Abilities: A0V1 (Energy Ball: Energy shield), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A01D (Energy Ball: Chain of Lightning), Ubertip (Tooltip - Normal - Extended)
 {
-Gives an ally a buff: "When the unit uses an ability or items, deals |cffbe81f750|r damage to a random enemy nearby."
-|cffffcc00Duration:|r 30 seconds.
+Creates a bolt of lightning that jumps from enemy to enemy, dealing |cffbe81f7180|r damage to each.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
@@ -40077,14 +40027,6 @@ STRING 6047
 Poison Touch
 }
 
-STRING 6048
-// Abilities: A12S (Adventurer: Treasure Hunt), Researchubertip (Tooltip - Learn - Extended)
-{
-When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 250.
-
-|cFF959697The artifact is given to an empty inventory slot.|r
-}
-
 STRING 6049
 // Abilities: A0SR (Аура: Counterstrike), Name (Name)
 {
@@ -40121,12 +40063,6 @@ STRING 6054
 Devouring flesh
 }
 
-STRING 6055
-// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
-{
-When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 250.
-}
-
 STRING 6056
 // Abilities: A0SN (Артефакт: Тотем Взгляда), Name (Name)
 {
@@ -40161,18 +40097,6 @@ STRING 6061
 // Abilities: A0SM (|cffffcc00Уровень 10:|r Рыцарь в странной броне), Name (Name)
 {
 |cffffcc00Уровень 10:|r Рыцарь в странной броне
-}
-
-STRING 6062
-// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
-{
-When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 250.
-}
-
-STRING 6063
-// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
-{
-When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 250.
 }
 
 STRING 6064
@@ -41897,10 +41821,10 @@ Recklessness, [|cffffcc00Level %d|r]
 }
 
 STRING 6330
-// Abilities: A0R0 (Barbarian: Recklessness), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A01D (Energy Ball: Chain of Lightning), Ubertip (Tooltip - Normal - Extended)
 {
-The hero goes into a rage. Hero increases attack speed by 30%/45%/ 60%/75%/90%, but loses 9/10/11/12/13 mana every second. If there is no mana, it spends health instead.
-|cffffcc00Cooldown:|r 15 seconds.
+Creates a bolt of lightning that jumps from enemy to enemy, dealing |cffbe81f7220|r damage to each.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 6331
@@ -41934,38 +41858,34 @@ Recklessness, [|cffffcc00Level 5|r]
 }
 
 STRING 6336
-// Abilities: A0R0 (Barbarian: Recklessness), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A01D (Energy Ball: Chain of Lightning), Ubertip (Tooltip - Normal - Extended)
 {
-The hero goes into a rage. Hero increases attack speed by 30%, but loses 9 mana every second. If there is no mana, it spends health instead.
-|cffffcc00Cooldown:|r 15 seconds.
+Creates a bolt of lightning that jumps from enemy to enemy, dealing |cffbe81f7260|r damage to each.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 6337
-// Abilities: A0R0 (Barbarian: Recklessness), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A01D (Energy Ball: Chain of Lightning), Name (Name)
 {
-The hero goes into a rage. Hero increases attack speed by 45%, but loses 10 mana every second. If there is no mana, it spends health instead.
-|cffffcc00Cooldown:|r 15 seconds.
+Energy Ball: Chain of Lightning
 }
 
 STRING 6338
-// Abilities: A0R0 (Barbarian: Recklessness), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A01D (Energy Ball: Chain of Lightning), Researchtip (Tooltip - Learn)
 {
-The hero goes into a rage. Hero increases attack speed by 60%, but loses 11 mana every second. If there is no mana, it spends health instead.
-|cffffcc00Cooldown:|r 15 seconds.
+Chain of Lightning, [|cffffcc00Level %d|r]
 }
 
 STRING 6339
-// Abilities: A0R0 (Barbarian: Recklessness), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A01D (Energy Ball: Chain of Lightning), Tip (Tooltip - Normal)
 {
-The hero goes into a rage. Hero increases attack speed by 75%, but loses 12 mana every second. If there is no mana, it spends health instead.
-|cffffcc00Cooldown:|r 15 seconds.
+Chain of Lightning, [|cffffcc00Level 1|r]
 }
 
 STRING 6340
-// Abilities: A0R0 (Barbarian: Recklessness), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A01D (Energy Ball: Chain of Lightning), Tip (Tooltip - Normal)
 {
-The hero goes into a rage. Hero increases attack speed by 90%, but loses 13 mana every second. If there is no mana, it spends health instead.
-|cffffcc00Cooldown:|r 15 seconds.
+Chain of Lightning, [|cffffcc00Level 2|r]
 }
 
 STRING 6341
@@ -59312,10 +59232,9 @@ Thirst for battle, [|cffffcc00Level %d|r]
 }
 
 STRING 9014
-// Abilities: A08F (Barbarian: Thirst for battle), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A01D (Energy Ball: Chain of Lightning), Tip (Tooltip - Normal)
 {
-When the hero attacks, heals |cffbe81f71%/2%/3%/4%/5%|r of maximum mana. 
-If the mana supply is full, restores health instead.
+Chain of Lightning, [|cffffcc00Level 3|r]
 }
 
 STRING 9015
@@ -59349,38 +59268,35 @@ Thirst for battle, [|cffffcc00Level 5|r]
 }
 
 STRING 9020
-// Abilities: A08F (Barbarian: Thirst for battle), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A01D (Energy Ball: Chain of Lightning), Tip (Tooltip - Normal)
 {
-When the hero attacks, heals |cffbe81f71%|r of maximum mana.
-If the mana supply is full, restores health instead.
+Chain of Lightning, [|cffffcc00Level 4|r]
 }
 
 STRING 9021
-// Abilities: A08F (Barbarian: Thirst for battle), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A01D (Energy Ball: Chain of Lightning), Tip (Tooltip - Normal)
 {
-When the hero attacks, heals |cffbe81f72%|r of maximum mana.
-If the mana supply is full, restores health instead.
+Chain of Lightning, [|cffffcc00Level 5|r]
 }
 
 STRING 9022
-// Abilities: A08F (Barbarian: Thirst for battle), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A12S (Adventurer: Treasure Hunt), Researchubertip (Tooltip - Learn - Extended)
 {
-When the hero attacks, heals |cffbe81f73%|r of maximum mana.
-If the mana supply is full, restores health instead.
+When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 200.
+
+|cFF959697The artifact is given to an empty inventory slot.|r
 }
 
 STRING 9023
-// Abilities: A08F (Barbarian: Thirst for battle), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
 {
-When the hero attacks, heals |cffbe81f74%|r of maximum mana.
-If the mana supply is full, restores health instead.
+When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 200.
 }
 
 STRING 9024
-// Abilities: A08F (Barbarian: Thirst for battle), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
 {
-When the hero attacks, heals |cffbe81f75%|r of maximum mana.
-If the mana supply is full, restores health instead.
+When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 200.
 }
 
 STRING 9025
@@ -66374,7 +66290,7 @@ Peacelock: Healthy Bonk
 }
 
 STRING 10091
-// Abilities: A01D (Energy Ball: Chain of lightning), Hotkey (Hotkey - Normal)
+// Abilities: A01D (Energy Ball: Chain of Lightning), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -66732,7 +66648,7 @@ STRING 10146
 }
 
 STRING 10147
-// Abilities: A01D (Energy Ball: Chain of lightning), Researchhotkey (Hotkey - Learn)
+// Abilities: A01D (Energy Ball: Chain of Lightning), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -67045,95 +66961,10 @@ STRING 10193
 Q
 }
 
-STRING 10194
-// Abilities: A01D (Energy Ball: Chain of lightning), Name (Name)
-{
-Energy Ball: Chain of lightning
-}
-
 STRING 10195
 // Abilities: A00U (Прочее: Vampire bite), Hotkey (Hotkey - Normal)
 {
 Q
-}
-
-STRING 10196
-// Abilities: A01D (Energy Ball: Chain of lightning), Researchtip (Tooltip - Learn)
-{
-Chain of lightning, [|cffffcc00Level %d|r]
-}
-
-STRING 10197
-// Abilities: A01D (Energy Ball: Chain of lightning), Researchubertip (Tooltip - Learn - Extended)
-{
-Hurls a bolt of damaging lightning at a target enemy that jumps to nearby enemies. Each enemy deals |cffbe81f7100/140/180/220/260|r damage.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 45/50/55/60/65 mana.
-}
-
-STRING 10198
-// Abilities: A01D (Energy Ball: Chain of lightning), Tip (Tooltip - Normal)
-{
-Chain of lightning, [|cffffcc00Level 1|r]
-}
-
-STRING 10199
-// Abilities: A01D (Energy Ball: Chain of lightning), Tip (Tooltip - Normal)
-{
-Chain of lightning, [|cffffcc00Level 2|r]
-}
-
-STRING 10200
-// Abilities: A01D (Energy Ball: Chain of lightning), Tip (Tooltip - Normal)
-{
-Chain of lightning, [|cffffcc00Level 3|r]
-}
-
-STRING 10201
-// Abilities: A01D (Energy Ball: Chain of lightning), Tip (Tooltip - Normal)
-{
-Chain of lightning, [|cffffcc00Level 4|r]
-}
-
-STRING 10202
-// Abilities: A01D (Energy Ball: Chain of lightning), Tip (Tooltip - Normal)
-{
-Chain of lightning, [|cffffcc00Level 5|r]
-}
-
-STRING 10203
-// Abilities: A01D (Energy Ball: Chain of lightning), Ubertip (Tooltip - Normal - Extended)
-{
-Hurls a bolt of damaging lightning at a target enemy that jumps to nearby enemies. Each enemy deals |cffbe81f7100|r damage.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 10204
-// Abilities: A01D (Energy Ball: Chain of lightning), Ubertip (Tooltip - Normal - Extended)
-{
-Hurls a bolt of damaging lightning at a target enemy that jumps to nearby enemies. Each enemy deals |cffbe81f7140|r damage.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 10205
-// Abilities: A01D (Energy Ball: Chain of lightning), Ubertip (Tooltip - Normal - Extended)
-{
-Hurls a bolt of damaging lightning at a target enemy that jumps to nearby enemies. Each enemy deals |cffbe81f7180|r damage.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 10206
-// Abilities: A01D (Energy Ball: Chain of lightning), Ubertip (Tooltip - Normal - Extended)
-{
-Hurls a bolt of damaging lightning at a target enemy that jumps to nearby enemies. Each enemy deals |cffbe81f7220|r damage.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 10207
-// Abilities: A01D (Energy Ball: Chain of lightning), Ubertip (Tooltip - Normal - Extended)
-{
-Hurls a bolt of damaging lightning at a target enemy that jumps to nearby enemies. Each enemy deals |cffbe81f7260|r damage.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 10208
@@ -76881,5 +76712,242 @@ STRING 11734
 // Items: I05E (Book of Mana), Ubertip (Tooltip - Extended)
 {
 Increases mana by 12.
+}
+
+STRING 11735
+// Abilities: A0R0 (Barbarian: Recklessness), Ubertip (Tooltip - Normal - Extended)
+{
+The hero goes into a rage, increasing Attack Speed by 55%, but loses 10 mana every second. If there is no mana, it spends health instead.
+}
+
+STRING 11736
+// Abilities: A0R0 (Barbarian: Recklessness), Ubertip (Tooltip - Normal - Extended)
+{
+The hero goes into a rage, increasing Attack Speed by 70%, but loses 10 mana every second. If there is no mana, it spends health instead.
+}
+
+STRING 11737
+// Abilities: A0R0 (Barbarian: Recklessness), Ubertip (Tooltip - Normal - Extended)
+{
+The hero goes into a rage, increasing Attack Speed by 85%, but loses 10 mana every second. If there is no mana, it spends health instead.
+}
+
+STRING 11738
+// Abilities: A0R0 (Barbarian: Recklessness), Ubertip (Tooltip - Normal - Extended)
+{
+The hero goes into a rage, increasing Attack Speed by 100%, but loses 10 mana every second. If there is no mana, it spends health instead.
+}
+
+STRING 11739
+// Abilities: A08F (Barbarian: Thirst for battle), Researchubertip (Tooltip - Learn - Extended)
+{
+Dealing damage with an attack restores |cffbe81f71%/2%/3%/4%/5%|r mana.
+If mana is full or "Recklessness" is active, restores health instead.
+}
+
+STRING 11740
+// Abilities: A08F (Barbarian: Thirst for battle), Ubertip (Tooltip - Normal - Extended)
+{
+Dealing damage with an attack restores |cffbe81f71%|r mana.
+If mana is full or "Recklessness" is active, restores health instead.
+}
+
+STRING 11741
+// Abilities: A08F (Barbarian: Thirst for battle), Ubertip (Tooltip - Normal - Extended)
+{
+Dealing damage with an attack restores |cffbe82f72%|r mana.
+If mana is full or "Recklessness" is active, restores health instead.
+}
+
+STRING 11742
+// Abilities: A08F (Barbarian: Thirst for battle), Ubertip (Tooltip - Normal - Extended)
+{
+Dealing damage with an attack restores |cffbe83f73%|r mana.
+If mana is full or "Recklessness" is active, restores health instead.
+}
+
+STRING 11743
+// Abilities: A08F (Barbarian: Thirst for battle), Ubertip (Tooltip - Normal - Extended)
+{
+Dealing damage with an attack restores |cffbe84f74%|r mana.
+If mana is full or "Recklessness" is active, restores health instead.
+}
+
+STRING 11744
+// Abilities: A08F (Barbarian: Thirst for battle), Ubertip (Tooltip - Normal - Extended)
+{
+Dealing damage with an attack restores |cffbe85f75%|r mana.
+If mana is full or "Recklessness" is active, restores health instead.
+}
+
+STRING 11745
+// Abilities: A0V1 (Energy Ball: Energy Shield), Name (Name)
+{
+Energy Ball: Energy Shield
+}
+
+STRING 11746
+// Abilities: A0V1 (Energy Ball: Energy Shield), Researchtip (Tooltip - Learn)
+{
+Energy Shield, [|cffffcc00Level %d|r]
+}
+
+STRING 11747
+// Abilities: A0V1 (Energy Ball: Energy Shield), Researchubertip (Tooltip - Learn - Extended)
+{
+Adds the effect on an ally: 'When cast, deals |cffbe81f730/45/60/75/90|r damage to a random nearby enemy. Also triggers from attacks, but with 30% efficiency.'
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
+STRING 11748
+// Abilities: A0V1 (Energy Ball: Energy Shield), Tip (Tooltip - Normal)
+{
+Energy Shield, [|cffffcc00Level 2|r]
+}
+
+STRING 11749
+// Abilities: A0V1 (Energy Ball: Energy Shield), Tip (Tooltip - Normal)
+{
+Energy Shield, [|cffffcc00Level 3|r]
+}
+
+STRING 11750
+// Abilities: A0V1 (Energy Ball: Energy Shield), Tip (Tooltip - Normal)
+{
+Energy Shield, [|cffffcc00Level 4|r]
+}
+
+STRING 11751
+// Abilities: A0V1 (Energy Ball: Energy Shield), Tip (Tooltip - Normal)
+{
+Energy Shield, [|cffffcc00Level 5|r]
+}
+
+STRING 11752
+// Abilities: A0V1 (Energy Ball: Energy Shield), Ubertip (Tooltip - Normal - Extended)
+{
+Adds the effect on an ally: 'When cast, deals |cffbe81f730|r damage to a random nearby enemy. Also triggers from attacks, but with 30% efficiency.'
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 11753
+// Abilities: A0V1 (Energy Ball: Energy Shield), Ubertip (Tooltip - Normal - Extended)
+{
+Adds the effect on an ally: 'When cast, deals |cffbe81f745|r damage to a random nearby enemy. Also triggers from attacks, but with 30% efficiency.'
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 11754
+// Abilities: A0V1 (Energy Ball: Energy Shield), Ubertip (Tooltip - Normal - Extended)
+{
+Adds the effect on an ally: 'When cast, deals |cffbe81f760|r damage to a random nearby enemy. Also triggers from attacks, but with 30% efficiency.'
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 11755
+// Abilities: A0V1 (Energy Ball: Energy Shield), Ubertip (Tooltip - Normal - Extended)
+{
+Adds the effect on an ally: 'When cast, deals |cffbe81f775|r damage to a random nearby enemy. Also triggers from attacks, but with 30% efficiency.'
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 11756
+// Abilities: A0V1 (Energy Ball: Energy Shield), Ubertip (Tooltip - Normal - Extended)
+{
+Adds the effect on an ally: 'When cast, deals |cffbe81f790|r damage to a random nearby enemy. Also triggers from attacks, but with 30% efficiency.'
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 11757
+// Abilities: A0V1 (Energy Ball: Energy Shield), Tip (Tooltip - Normal)
+{
+Energy Shield, [|cffffcc00Level 1|r]
+}
+
+STRING 11758
+// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
+{
+When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 200.
+}
+
+STRING 11759
+// Abilities: A184 (Прочее: Провокация (Банан)), Ubertip (Tooltip - Normal - Extended)
+{
+Constantly provokes a random enemy. 
+When dies, restores |cffbe81f7135|r Health to the owner and gives |cffbe81f720|r Gold.
+
+|cFF959697Spell Power efficiency is 35% of the base for gold gain.|r
+}
+
+STRING 11760
+// Items: I0B5 (Trash), Description (Description)
+{
+|cffbababcCommon|r
+Cannot be exchanged at Huckster.
+}
+
+STRING 11761
+// Items: I0B5 (Trash), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Cannot be exchanged at Huckster.
+}
+
+STRING 11762
+// Items: I03Y (Wrackspurts), Description (Description)
+{
+|cffbababcCommon|r
+Increases stats by 6.
+At the end of the battle, you get a copy of it.
+}
+
+STRING 11763
+// Items: I03Y (Wrackspurts), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Increases stats by 6.
+At the end of the battle, you get a copy of it.
+}
+
+STRING 11764
+// Items: I0D0 (Plush doll), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Copies the health percentage of another hero.
+|cffffcc00Cooldown:|r 35 seconds.
+|cffffcc00Cost:|r 25 mana.
+}
+
+STRING 11765
+// Items: I0D0 (Plush doll), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Copies the health percentage of another hero.
+|cffffcc00Cooldown:|r 35 seconds.
+}
+
+STRING 11766
+// Abilities: A1H8 (Extra: Outcast (Outcast Demon)), Name (Name)
+{
+Extra: Outcast (Outcast Demon)
+}
+
+STRING 11767
+// Abilities: A1H8 (Extra: Outcast (Outcast Demon)), Tip (Tooltip - Normal)
+{
+Outcast
+}
+
+STRING 11768
+// Abilities: A1H8 (Extra: Outcast (Outcast Demon)), Ubertip (Tooltip - Normal - Extended)
+{
+Also gains Attack from Agility and Intelligence.
 }
 

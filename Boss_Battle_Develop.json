@@ -2282,7 +2282,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "-----------------------",
       "Files": [
         {
@@ -3274,7 +3274,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "BasicCore\\EventSystem",
           "Files": [
             {
@@ -3403,7 +3403,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "BasicCore\\StatSystem",
           "Files": [
             {
@@ -5039,7 +5039,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Frames",
       "Files": [
         {
@@ -5503,7 +5503,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Frames\\HeroChoise",
           "Files": [
             {
@@ -5555,7 +5555,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Debug",
       "Files": [
         {
@@ -5582,7 +5582,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Debug\\Cheat",
           "Files": [
             {
@@ -5970,7 +5970,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Items",
       "Files": [
         {
@@ -10988,7 +10988,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Deffenders\\Beorn",
               "Files": [
                 {
@@ -11292,7 +11292,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Heroes\\Rippers",
           "Files": [
             {
@@ -13191,7 +13191,7 @@
                   "isEnabled": true,
                   "isInitiallyOn": true,
                   "isExpanded": false,
-                  "path": "Heroes\\Elementalists\\Energyball\\EnergyballW Cast.trg",
+                  "path": "Heroes\\Elementalists\\Energyball\\EnergyballW Cast.j",
                   "Files": []
                 },
                 {

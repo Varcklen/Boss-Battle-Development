@@ -6,9 +6,9 @@ scope BananaDeath initializer init
         private constant real GOLD_TO_HERO_ALTERNATIVE_03 = 0.55
         private constant real GOLD_TO_OTHERS_ALTERNATIVE_03 = 0.25
         
-        private constant real SPELL_POWER_WEIGHT = 0.5
+        private constant real SPELL_POWER_WEIGHT = 0.35
         
-        private constant integer HEAL = 100
+        private constant integer HEAL = 135
         private constant integer GOLD = 20
         
 		trigger trg_BananaDeath = null
