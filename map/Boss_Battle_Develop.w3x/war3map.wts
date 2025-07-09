@@ -8504,6 +8504,13 @@ Your buffs and debuffs last 50% longer.
 |cff81f260[Random bonus]|r
 }
 
+STRING 1282
+// Items: I0HH (Energy Charge), Description (Description)
+{
+|cffffcc00Repeatable Quest:|r Spend 1200 Mana |cFF959697(0/1200)|r.
+|cffffcc00Reward:|r Power Totem.
+}
+
 STRING 1283
 // Items: I0D0 (Plush doll), Name (Name)
 {
@@ -8514,6 +8521,12 @@ STRING 1284
 // Items: I0D0 (Plush doll), Tip (Tooltip - Basic)
 {
 Plush doll
+}
+
+STRING 1285
+// Items: I0HH (Energy Charge), Name (Name)
+{
+Energy Charge
 }
 
 STRING 1286
@@ -9830,6 +9843,12 @@ STRING 1477
 Activation: |cffcc0000Corrupted|r. Replaces the hero's |cff60C445Unique|r with "Sheep call".
 }
 
+STRING 1478
+// Items: I0HH (Energy Charge), Tip (Tooltip - Basic)
+{
+Energy Charge
+}
+
 STRING 1479
 // Abilities: A1GB (.General-Item: Non-Splittable), Name (Name)
 {
@@ -10308,6 +10327,13 @@ STRING 1549
 Activation: |cffcc0000Corrupted|r. Resets the cooldown of abilities and items and restores all mana for all heroes.
 }
 
+STRING 1550
+// Items: I0HH (Energy Charge), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Repeatable Quest:|r Spend 1200 Mana |cFF959697(0/1200)|r.
+|cffffcc00Reward:|r Power Totem.
+}
+
 STRING 1551
 // Items: I0B5 (Trash), Name (Name)
 {
@@ -10318,6 +10344,13 @@ STRING 1552
 // Items: I0B5 (Trash), Tip (Tooltip - Basic)
 {
 Trash
+}
+
+STRING 1553
+// Items: I0HI (Power Totem), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Select a hero to give them +10% Spell Power.
 }
 
 STRING 1554
@@ -17401,6 +17434,12 @@ STRING 2592
 When the hero takes damage, with a probability of |cffd7df018%|r, uses a random first-level spell.
 }
 
+STRING 2593
+// Items: I0HI (Power Totem), Name (Name)
+{
+Power Totem
+}
+
 STRING 2594
 // Items: I03Y (Wrackspurts), Name (Name)
 {
@@ -17411,6 +17450,12 @@ STRING 2595
 // Items: I03Y (Wrackspurts), Tip (Tooltip - Basic)
 {
 Wrackspurts
+}
+
+STRING 2596
+// Items: I0HI (Power Totem), Tip (Tooltip - Basic)
+{
+Power Totem
 }
 
 STRING 2597
@@ -40027,6 +40072,13 @@ STRING 6047
 Poison Touch
 }
 
+STRING 6048
+// Items: I0HI (Power Totem), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Select a hero to give them +10% Spell Power.
+}
+
 STRING 6049
 // Abilities: A0SR (Аура: Counterstrike), Name (Name)
 {
@@ -40061,6 +40113,12 @@ STRING 6054
 // Abilities: A0SO (Devouring flesh), Tip (Tooltip - Normal)
 {
 Devouring flesh
+}
+
+STRING 6055
+// Abilities: A1H9 (Artifact: Power Totem), Name (Name)
+{
+Artifact: Power Totem
 }
 
 STRING 6056

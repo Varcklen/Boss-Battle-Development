@@ -657,6 +657,7 @@ library LibDataItems
 	    set udg_DB_Rewards[BaseNum()] = 'I0EJ'
 	    set udg_DB_Rewards[BaseNum()] = 'I0GO'
 	    set udg_DB_Rewards[BaseNum()] = 'I0GQ'
+	    set udg_DB_Rewards[BaseNum()] = 'I0HI'
 	    set udg_Database_NumberItems[23] = udg_base
 	    
 	    // Активируемые артефакты
