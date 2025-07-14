@@ -10,7 +10,7 @@ scope ReplicaElixir initializer init
 		private constant integer STRING_HASH = StringHash( "replica_elixir" )
 	endglobals
 
-	//OnBaatleStart
+	//OnBattleStart
 	private function condition takes nothing returns boolean
 		return udg_fightmod[3] == false
 	endfunction

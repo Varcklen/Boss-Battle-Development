@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.8.2T|r
+|cffbe81f7Boss Battle 1.9.2T|r
 }
 
 STRING 2
@@ -2682,13 +2682,6 @@ STRING 429
 Erk
 }
 
-STRING 430
-// Items: I01W (Mana Berries), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Every third attack restores |cffbe81f712|r mana.
-}
-
 STRING 431
 // Units: O016 ((S) Shoggoth), Propernames (Proper Names)
 {
@@ -3965,13 +3958,6 @@ STRING 631
 Monty Python
 }
 
-STRING 632
-// Items: IZ02 (Bob's Gratitude), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Choose a |cff00cceeCrystal|r. You get a copy of it.
-}
-
 STRING 633
 // Items: IZ02 (Bob's Gratitude), Name (Name)
 {
@@ -3982,13 +3968,6 @@ STRING 634
 // Items: IZ02 (Bob's Gratitude), Tip (Tooltip - Basic)
 {
 Bob's Gratitude
-}
-
-STRING 635
-// Items: IZ02 (Bob's Gratitude), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Choose a |cff00cceeCrystal|r. You get a copy of it.
 }
 
 STRING 636
@@ -5611,15 +5590,6 @@ When the hero attacks a minion, with a probability of |cffd7df018%|r, the target
 |cffffcc00Life time:|r 30 seconds.
 }
 
-STRING 877
-// Items: I0FT (Blooming weed), Description (Description)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-At least 1 artifact reward will be from the |cff7cfc00nature|r set.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 878
 // Items: I0FT (Blooming weed), Name (Name)
 {
@@ -5630,15 +5600,6 @@ STRING 879
 // Items: I0FT (Blooming weed), Tip (Tooltip - Basic)
 {
 Blooming weed
-}
-
-STRING 880
-// Items: I0FT (Blooming weed), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-At least 1 artifact reward will be from the |cff7cfc00nature|r set.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 881
@@ -5669,14 +5630,6 @@ STRING 884
 Increases stats by 30.
 }
 
-STRING 885
-// Items: I0FR (Elune's Ring), Description (Description)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r, |cff9001fdRing|r
-Every seventh hit of the hero triggers the "|cff5858faMoon|r" set bonus.
-|cff81f260[Random bonus]|r
-}
-
 STRING 886
 // Items: I0FR (Elune's Ring), Name (Name)
 {
@@ -5687,14 +5640,6 @@ STRING 887
 // Items: I0FR (Elune's Ring), Tip (Tooltip - Basic)
 {
 Elune's Ring
-}
-
-STRING 888
-// Items: I0FR (Elune's Ring), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r, |cff9001fdRing|r
-Every seventh hit of the hero triggers the "|cff5858faMoon|r" set bonus.
-|cff81f260[Random bonus]|r
 }
 
 STRING 889
@@ -5931,16 +5876,6 @@ Activation: Restores |cffbe81f7300|r health.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 921
-// Items: I0FI (Chameleon Eye), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff9001fdRing|r
-After the hero has used |cff60C445Unique|r, turns it into a random activated |cff60C445Unique|r.
-Increases spell power of |cff60C445Unique|r by 100%.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 922
 // Items: I0FI (Chameleon Eye), Name (Name)
 {
@@ -5951,16 +5886,6 @@ STRING 923
 // Items: I0FI (Chameleon Eye), Tip (Tooltip - Basic)
 {
 Chameleon Eye
-}
-
-STRING 924
-// Items: I0FI (Chameleon Eye), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff9001fdRing|r
-After the hero has used |cff60C445Unique|r, turns it into a random activated |cff60C445Unique|r.
-Increases spell power of |cff60C445Unique|r by 100%.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 925
@@ -6510,15 +6435,6 @@ STRING 1001
 Activation: |cffcc0000Corruption.|r Increases stats by 20.
 }
 
-STRING 1002
-// Items: I0EY (Wool Spindler), Description (Description)
-{
-|cffbababcCommon|r
-When any sheep dies, you get 3 gold.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 1003
 // Items: I0EY (Wool Spindler), Name (Name)
 {
@@ -6529,43 +6445,6 @@ STRING 1004
 // Items: I0EY (Wool Spindler), Tip (Tooltip - Basic)
 {
 Wool Spindler
-}
-
-STRING 1005
-// Items: I0EY (Wool Spindler), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-When any sheep dies, you get 3 gold.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
-STRING 1006
-// Items: I0EX (Camouflage paint), Description (Description)
-{
-|cffbababcCommon|r
-Activation: You put on the perfect camouflage. Camouflage has a maximum movement speed and 50% of your maximum health.
-|cffffcc00Cooldown:|r 60 seconds.
-}
-
-STRING 1007
-// Items: I0EX (Camouflage paint), Name (Name)
-{
-Camouflage paint
-}
-
-STRING 1008
-// Items: I0EX (Camouflage paint), Tip (Tooltip - Basic)
-{
-Camouflage paint
-}
-
-STRING 1009
-// Items: I0EX (Camouflage paint), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: You put on the perfect camouflage. Camouflage has a maximum movement speed and 50% of your maximum health.
-|cffffcc00Cooldown:|r 60 seconds.
 }
 
 STRING 1010
@@ -6856,15 +6735,6 @@ STRING 1049
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an orb twice |cFF959697(2/2)|r.
 }
 
-STRING 1050
-// Items: I0EM (Enchanted Thorium), Description (Description)
-{
-|cffbababcCommon|r
-Increases the chance of receiving artifacts-rewards of improved rarity for all heroes.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 1051
 // Items: I0EM (Enchanted Thorium), Name (Name)
 {
@@ -6875,15 +6745,6 @@ STRING 1052
 // Items: I0EM (Enchanted Thorium), Tip (Tooltip - Basic)
 {
 Enchanted Thorium
-}
-
-STRING 1053
-// Items: I0EM (Enchanted Thorium), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Increases the chance of receiving artifacts-rewards of improved rarity for all heroes.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 1054
@@ -6999,13 +6860,6 @@ Forces the enemy to attack the caster.
 Does not work on mechs.|r
 }
 
-STRING 1070
-// Items: I0EH (Ring of Life), Description (Description)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-Every 15 seconds, restores the hero |cffbe81f75%|r health and mana.
-}
-
 STRING 1071
 // Items: I0EH (Ring of Life), Name (Name)
 {
@@ -7016,13 +6870,6 @@ STRING 1072
 // Items: I0EH (Ring of Life), Tip (Tooltip - Basic)
 {
 Ring of Life
-}
-
-STRING 1073
-// Items: I0EH (Ring of Life), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-Every 15 seconds, restores the hero |cffbe81f75%|r health and mana.
 }
 
 STRING 1074
@@ -7325,13 +7172,6 @@ STRING 1116
 Totem of Burning Gaze
 }
 
-STRING 1117
-// Items: I0AT (Symbol of Syrinox), Description (Description)
-{
-|cff4169e1Rare|r
-The Hero's attacks deal additional damage from Intelligence.
-}
-
 STRING 1118
 // Items: I044 (Magic meat), Description (Description)
 {
@@ -7360,13 +7200,6 @@ At the start of the battle, gives a |cffC71585cursed|r |cff088a08potion|r with 3
 |cff81f260[Random bonus]|r
 }
 
-STRING 1122
-// Items: I0E4 (Soul of Determination), Description (Description)
-{
-|cffe96a1cLegendary|r
-If all other heroes die, |cffcc0000corrupted|r, increases stats of your hero by 5 and resurrects all heroes.
-}
-
 STRING 1123
 // Items: I0E4 (Soul of Determination), Name (Name)
 {
@@ -7379,22 +7212,6 @@ STRING 1124
 Soul of Determination
 }
 
-STRING 1125
-// Items: I0E4 (Soul of Determination), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-If all other heroes die, |cffcc0000corrupted|r, increases stats of your hero by 5 and resurrects all heroes.
-}
-
-STRING 1126
-// Items: I0E3 (Cosmic reed), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff7cfc00Nature|r
-Activation: Deals |cffbe81f70|r damage to an enemy. Damage is always equal to 35% of the hero's health restored during the battle.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 80 mana.
-}
-
 STRING 1127
 // Items: I0E3 (Cosmic reed), Name (Name)
 {
@@ -7405,40 +7222,6 @@ STRING 1128
 // Items: I0E3 (Cosmic reed), Tip (Tooltip - Basic)
 {
 Cosmic reed
-}
-
-STRING 1129
-// Items: I0E3 (Cosmic reed), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff7cfc00Nature|r
-Activation: Deals |cffbe81f70|r damage to an enemy. Damage is always equal to 35% of the hero's health restored during the battle.
-|cffffcc00Cooldown:|r 45 seconds.
-}
-
-STRING 1130
-// Items: I0E2 (Library card), Description (Description)
-{
-|cffbababcCommon|r
-Every 4rd purchased item in the library gives a random bonus.
-}
-
-STRING 1131
-// Items: I0E2 (Library card), Name (Name)
-{
-Library card
-}
-
-STRING 1132
-// Items: I0E2 (Library card), Tip (Tooltip - Basic)
-{
-Library card
-}
-
-STRING 1133
-// Items: I0E2 (Library card), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Every 4rd purchased item in the library gives a random bonus.
 }
 
 STRING 1134
@@ -7527,37 +7310,6 @@ Your health-restoring abilities and items restore 150% more health. After healin
 |cffffcc00Duration:|r 5 seconds.
 }
 
-STRING 1146
-// Items: I0DY (Insatiable flame), Description (Description)
-{
-|cff4169e1Rare|r
-Costs 5 less mana for each ability or item you use while that item is in your inventory.
-Activation: Deal |cffbe81f71000|r damage to the enemy.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 1000 mana.
-}
-
-STRING 1147
-// Items: I0DY (Insatiable flame), Name (Name)
-{
-Insatiable flame
-}
-
-STRING 1148
-// Items: I0DY (Insatiable flame), Tip (Tooltip - Basic)
-{
-Insatiable flame
-}
-
-STRING 1149
-// Items: I0DY (Insatiable flame), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Costs 5 less mana for each ability or item you use while that item is in your inventory.
-Activation: Deal |cffbe81f71000|r damage to the enemy.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
 STRING 1150
 // Items: I0DX (Serrated blade), Description (Description)
 {
@@ -7615,7 +7367,7 @@ Increases stats by 4.
 }
 
 STRING 1158
-// Items: I0DV (Blood of the Ancient), Description (Description)
+// Items: I0DV (Blood of the Ancient (Out of Pool)), Description (Description)
 {
 |cffe96a1cLegendary|r, |cffb40431Blood|r
 Activation: Gives the hero a buff: 
@@ -7626,19 +7378,13 @@ Activation: Gives the hero a buff:
 }
 
 STRING 1159
-// Items: I0DV (Blood of the Ancient), Name (Name)
-{
-Blood of the Ancient
-}
-
-STRING 1160
-// Items: I0DV (Blood of the Ancient), Tip (Tooltip - Basic)
+// Items: I0DV (Blood of the Ancient (Out of Pool)), Tip (Tooltip - Basic)
 {
 Blood of the Ancient
 }
 
 STRING 1161
-// Items: I0DV (Blood of the Ancient), Ubertip (Tooltip - Extended)
+// Items: I0DV (Blood of the Ancient (Out of Pool)), Ubertip (Tooltip - Extended)
 {
 |cffe96a1cLegendary|r, |cffb40431Blood|r
 Activation: Gives the hero a buff: 
@@ -8164,13 +7910,6 @@ STRING 1233
 Activation: |cffcc0000Corrupted|r. Grants an extra attempt at a boss fight. Kills all heroes. Only works in boss fights.
 }
 
-STRING 1234
-// Items: I0AT (Symbol of Syrinox), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-The Hero's attacks deal additional damage from Intelligence.
-}
-
 STRING 1235
 // Items: I0DC (Totem of Exchange), Name (Name)
 {
@@ -8247,13 +7986,6 @@ Activation: Freezes time for all other current creatures.
 |cffffcc00Cooldown:|r 35 seconds.
 }
 
-STRING 1246
-// Items: I0D9 (Tarot Card: Wealth), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corruption.|r Turns all of your |cffe96a1cnon-legendary|r artifacts to |cffe96a1clegendary|r artifacts.
-}
-
 STRING 1247
 // Items: I0D9 (Tarot Card: Wealth), Name (Name)
 {
@@ -8264,13 +7996,6 @@ STRING 1248
 // Items: I0D9 (Tarot Card: Wealth), Tip (Tooltip - Basic)
 {
 Tarot Card: Wealth
-}
-
-STRING 1249
-// Items: I0D9 (Tarot Card: Wealth), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corruption.|r Turns all of your |cffe96a1cnon-legendary|r artifacts to |cffe96a1clegendary|r artifacts.
 }
 
 STRING 1250
@@ -8446,15 +8171,6 @@ Activation: Restores |cffbe81f7health|r to all heroes equal to your hero's curre
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
-STRING 1274
-// Items: I0D2 (Sharp deck), Description (Description)
-{
-|cffe96a1cLegendary|r
-When you pick up a reward artifact, other reward artifacts do not disappear.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 1275
 // Items: I0D2 (Sharp deck), Name (Name)
 {
@@ -8465,15 +8181,6 @@ STRING 1276
 // Items: I0D2 (Sharp deck), Tip (Tooltip - Basic)
 {
 Sharp deck
-}
-
-STRING 1277
-// Items: I0D2 (Sharp deck), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-When you pick up a reward artifact, other reward artifacts do not disappear.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 1278
@@ -8502,13 +8209,6 @@ STRING 1281
 |cffbababcCommon|r
 Your buffs and debuffs last 50% longer.
 |cff81f260[Random bonus]|r
-}
-
-STRING 1282
-// Items: I0HH (Energy Charge), Description (Description)
-{
-|cffffcc00Repeatable Quest:|r Spend 1200 Mana |cFF959697(0/1200)|r.
-|cffffcc00Reward:|r Power Totem.
 }
 
 STRING 1283
@@ -9766,13 +9466,6 @@ Destroys all souls and deals an additional 200 damage per soul.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 1466
-// Items: I01W (Mana Berries), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Every third attack restores |cffbe81f712|r mana.
-}
-
 STRING 1467
 // Items: I0BQ (Disco ball), Name (Name)
 {
@@ -10011,14 +9704,6 @@ When the hero uses an ability or item, reduces the cooldown of the hero’s abil
 |cff81f260[Random bonus]|r
 }
 
-STRING 1502
-// Items: I0BH (Catalyst), Description (Description)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Increases spell power for |cff088a08potions|r by 15%.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1503
 // Items: I0BH (Catalyst), Name (Name)
 {
@@ -10029,14 +9714,6 @@ STRING 1504
 // Items: I0BH (Catalyst), Tip (Tooltip - Basic)
 {
 Catalyst
-}
-
-STRING 1505
-// Items: I0BH (Catalyst), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Increases spell power for |cff088a08potions|r by 15%.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1506
@@ -10197,13 +9874,6 @@ STRING 1529
 Activation: |cffcc0000Corrupted|r. Increases stats by 1. If there are 6 artifacts in the hero’s inventory, destroys them and gives 6 levels.
 }
 
-STRING 1530
-// Items: I0BA (Elixir of Acumen), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Increases stats by 1. If the hero used 5 |cff088a08potions|r per game, replaces |cff60C445Unique|r with "Mixology" |cFF959697(0/5)|r.
-}
-
 STRING 1531
 // Items: I0BA (Elixir of Acumen), Name (Name)
 {
@@ -10214,13 +9884,6 @@ STRING 1532
 // Items: I0BA (Elixir of Acumen), Tip (Tooltip - Basic)
 {
 Elixir of Acumen
-}
-
-STRING 1533
-// Items: I0BA (Elixir of Acumen), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Increases stats by 1. If the hero used 5 |cff088a08potions|r per game, replaces |cff60C445Unique|r with "Mixology" |cFF959697(0/5)|r.
 }
 
 STRING 1534
@@ -10327,13 +9990,6 @@ STRING 1549
 Activation: |cffcc0000Corrupted|r. Resets the cooldown of abilities and items and restores all mana for all heroes.
 }
 
-STRING 1550
-// Items: I0HH (Energy Charge), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Repeatable Quest:|r Spend 1200 Mana |cFF959697(0/1200)|r.
-|cffffcc00Reward:|r Power Totem.
-}
-
 STRING 1551
 // Items: I0B5 (Trash), Name (Name)
 {
@@ -10347,7 +10003,7 @@ Trash
 }
 
 STRING 1553
-// Items: I0HI (Power Totem), Description (Description)
+// Items: I0HI (Power Wand), Description (Description)
 {
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corrupted|r. Select a hero to give them +10% Spell Power.
@@ -10406,15 +10062,6 @@ STRING 1561
 |cff4169e1Rare|r
 Activation: Use the first ability (|cffffcc00Q|r) on a random targets three times.
 |cffffcc00Cooldown:|r 45 seconds.
-}
-
-STRING 1562
-// Items: I0B2 (Revived Blood), Description (Description)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Activation: Loads the hero’s weapon. The next attack will do 300% more damage.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 50 mana.
 }
 
 STRING 1563
@@ -10543,16 +10190,6 @@ When the hero uses an ability or item, with a |cffd7df0125%|r chance, fires a bo
 |cff81f260[Random bonus]|r
 }
 
-STRING 1582
-// Items: I0AX (Autonavigator), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Summons uncontrollable minion that attack the enemy. Summons an additional minion for each |cffb18904mech|r in your inventory.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
 STRING 1583
 // Items: I0AX (Autonavigator), Name (Name)
 {
@@ -10563,44 +10200,6 @@ STRING 1584
 // Items: I0AX (Autonavigator), Tip (Tooltip - Basic)
 {
 Autonavigator
-}
-
-STRING 1585
-// Items: I0AX (Autonavigator), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Summons uncontrollable minion that attack the enemy. Summons an additional minion for each |cffb18904mech|r in your inventory.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-}
-
-STRING 1586
-// Items: I0AW (North lotus), Description (Description)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Activation: Restores |cffbe81f7300|r health to an ally. If the target is at full health, uses a random level 5 ability.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
-STRING 1587
-// Items: I0AW (North lotus), Name (Name)
-{
-North lotus
-}
-
-STRING 1588
-// Items: I0AW (North lotus), Tip (Tooltip - Basic)
-{
-North lotus
-}
-
-STRING 1589
-// Items: I0AW (North lotus), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Activation: Restores |cffbe81f7300|r health to an ally. If the target is at full health, uses a random level 5 ability.
-|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 1590
@@ -10743,7 +10342,7 @@ Activation: Stuns the target for 2 seconds. If |cff60C445Unique|r is upgraded, s
 }
 
 STRING 1610
-// Items: I0AQ (Egg of the Void), Description (Description)
+// Items: I0AQ (Egg of the Void (Out of Pool)), Description (Description)
 {
 |cff4169e1Rare|r
 When the hero dies, puts him in the sphere. Kill 7 creatures near the sphere to resurrect the hero. It works only with live heroes.
@@ -10752,19 +10351,13 @@ When the hero dies, puts him in the sphere. Kill 7 creatures near the sphere to 
 }
 
 STRING 1611
-// Items: I0AQ (Egg of the Void), Name (Name)
-{
-Egg of the Void
-}
-
-STRING 1612
-// Items: I0AQ (Egg of the Void), Tip (Tooltip - Basic)
+// Items: I0AQ (Egg of the Void (Out of Pool)), Tip (Tooltip - Basic)
 {
 Egg of the Void
 }
 
 STRING 1613
-// Items: I0AQ (Egg of the Void), Ubertip (Tooltip - Extended)
+// Items: I0AQ (Egg of the Void (Out of Pool)), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r
 When the hero dies, puts him in the sphere. Kill 7 creatures near the sphere to resurrect the hero. It works only with live heroes.
@@ -11074,34 +10667,6 @@ When an enemy dies, summons a skeleton.
 |cFF959697More effective than Skelemagic (Rank 2).|r
 }
 
-STRING 1658
-// Items: I0AE (Magic thread), Description (Description)
-{
-|cffbababcCommon|r
-Every 8 seconds, summon a sheep to a random point in the arena.
-|cffffcc00Life time:|r 60 seconds.
-}
-
-STRING 1659
-// Items: I0AE (Magic thread), Name (Name)
-{
-Magic thread
-}
-
-STRING 1660
-// Items: I0AE (Magic thread), Tip (Tooltip - Basic)
-{
-Magic thread
-}
-
-STRING 1661
-// Items: I0AE (Magic thread), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Every 8 seconds, summon a sheep to a random point in the arena.
-|cffffcc00Life time:|r 60 seconds.
-}
-
 STRING 1662
 // Items: I0AD (Mooncloth), Description (Description)
 {
@@ -11238,34 +10803,6 @@ STRING 1681
 |cffbababcCommon|r, |cfffe9a2eAlchemy|r
 When a Hero uses a |cff088a08Potion|r, gives 2 Attack for battle.
 |cff81f260[Random bonus]|r
-}
-
-STRING 1682
-// Items: I0A8 (Dark pearl), Description (Description)
-{
-|cff4169e1Rare|r
-Reduces attack and movement speed by 25%. Activation: Fully restores the hero’s mana.
-|cffffcc00Cooldown:|r 60 seconds.
-}
-
-STRING 1683
-// Items: I0A8 (Dark pearl), Name (Name)
-{
-Dark pearl
-}
-
-STRING 1684
-// Items: I0A8 (Dark pearl), Tip (Tooltip - Basic)
-{
-Dark pearl
-}
-
-STRING 1685
-// Items: I0A8 (Dark pearl), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Reduces attack and movement speed by 25%. Activation: Fully restores the hero’s mana.
-|cffffcc00Cooldown:|r 60 seconds.
 }
 
 STRING 1686
@@ -11436,13 +10973,6 @@ STRING 1709
 When the hero attacks, restore |cffbe81f710%|r mana of the damage done.
 }
 
-STRING 1710
-// Items: I0A1 (Huge gift), Description (Description)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Gives an artifact of |cffbababccommon|r quality. If there are no other artifacts in the inventory, it gives three artifacts of |cffbababccommon|r quality instead.
-}
-
 STRING 1711
 // Items: I0A1 (Huge gift), Name (Name)
 {
@@ -11453,13 +10983,6 @@ STRING 1712
 // Items: I0A1 (Huge gift), Tip (Tooltip - Basic)
 {
 Huge gift
-}
-
-STRING 1713
-// Items: I0A1 (Huge gift), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Gives an artifact of |cffbababccommon|r quality. If there are no other artifacts in the inventory, it gives three artifacts of |cffbababccommon|r quality instead.
 }
 
 STRING 1714
@@ -11545,32 +11068,6 @@ STRING 1725
 |cffbababcCommon|r, |cff9001fdRing|r
 You and your allies deal double damage against stunned targets.
 |cff81f260[Random bonus]|r
-}
-
-STRING 1726
-// Items: I09X (Scarlet worm), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Every 2 seconds, restores |cffbe81f72%|r of maximum health if the hero’s health is less than 50%.
-}
-
-STRING 1727
-// Items: I09X (Scarlet worm), Name (Name)
-{
-Scarlet worm
-}
-
-STRING 1728
-// Items: I09X (Scarlet worm), Tip (Tooltip - Basic)
-{
-Scarlet worm
-}
-
-STRING 1729
-// Items: I09X (Scarlet worm), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Every 2 seconds, restores |cffbe81f72%|r of maximum health if the hero’s health is less than 50%.
 }
 
 STRING 1730
@@ -11702,34 +11199,6 @@ STRING 1749
 {
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corrupted|r. Increases stats by 1. All of the next reward artifacts will be of |cffe96a1clegendary|r rarity.
-}
-
-STRING 1750
-// Items: I09R (Bloody knife), Description (Description)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Activation: Kills the hero and resurrects it with 50% health and mana.
-|cffffcc00Cooldown:|r 60 seconds.
-}
-
-STRING 1751
-// Items: I09R (Bloody knife), Name (Name)
-{
-Bloody knife
-}
-
-STRING 1752
-// Items: I09R (Bloody knife), Tip (Tooltip - Basic)
-{
-Bloody knife
-}
-
-STRING 1753
-// Items: I09R (Bloody knife), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Activation: Kills the hero and resurrects it with 50% health and mana.
-|cffffcc00Cooldown:|r 60 seconds.
 }
 
 STRING 1754
@@ -11979,13 +11448,6 @@ STRING 1790
 Stat: Phy Vampirism +15%
 }
 
-STRING 1791
-// Items: I09H (Fireflower), Description (Description)
-{
-|cff4169e1Rare|r, |cff7cfc00Nature|r
-Increases physical damage dealt to minions by 200%.
-}
-
 STRING 1792
 // Items: I09H (Fireflower), Name (Name)
 {
@@ -11996,13 +11458,6 @@ STRING 1793
 // Items: I09H (Fireflower), Tip (Tooltip - Basic)
 {
 Fireflower
-}
-
-STRING 1794
-// Items: I09H (Fireflower), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff7cfc00Nature|r
-Increases physical damage dealt to minions by 200%.
 }
 
 STRING 1795
@@ -12062,14 +11517,6 @@ STRING 1802
 Increases intelligence by 4. When the hero attacks, with the probability |cffd7df015%|r, it restores |cffbe81f720|r mana.
 }
 
-STRING 1803
-// Items: I09E (Bloody Figurine), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Kills an allied minion to increase hero's random stat.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
 STRING 1804
 // Items: I09E (Bloody Figurine), Name (Name)
 {
@@ -12080,14 +11527,6 @@ STRING 1805
 // Items: I09E (Bloody Figurine), Tip (Tooltip - Basic)
 {
 Bloody Figurine
-}
-
-STRING 1806
-// Items: I09E (Bloody Figurine), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Kills an allied minion to increase hero's random stat.
-|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 1807
@@ -12944,16 +12383,6 @@ Your mana restoring abilities and items restore 10% more mana per hero level.
 |cff81f260[Random bonus]|r
 }
 
-STRING 1932
-// Items: I08H (Seal of Calm), Description (Description)
-{
-|cffbababcCommon|r
-Activation: Gives the hero an effect: "Your health-restoring abilities and items restore 75% more health."
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
 STRING 1933
 // Items: I08H (Seal of Calm), Name (Name)
 {
@@ -12964,15 +12393,6 @@ STRING 1934
 // Items: I08H (Seal of Calm), Tip (Tooltip - Basic)
 {
 Seal of Calm
-}
-
-STRING 1935
-// Items: I08H (Seal of Calm), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: Gives the hero an effect: "Your health-restoring abilities and items restore 75% more health."
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 1936
@@ -13027,36 +12447,6 @@ STRING 1943
 {
 |cff4169e1Rare|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a knight artifact.
-}
-
-STRING 1944
-// Items: I08E (Sun root), Description (Description)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-When the hero restore 200 or more health to the target, imposes invulnerability on it.
-|cffffcc00Duration:|r 7 seconds.
-|cff81f260[Random bonus]|r
-}
-
-STRING 1945
-// Items: I08E (Sun root), Name (Name)
-{
-Sun root
-}
-
-STRING 1946
-// Items: I08E (Sun root), Tip (Tooltip - Basic)
-{
-Sun root
-}
-
-STRING 1947
-// Items: I08E (Sun root), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-When the hero restore 200 or more health to the target, imposes invulnerability on it.
-|cffffcc00Duration:|r 7 seconds.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1948
@@ -13360,15 +12750,6 @@ Activation: Restores |cffbe81f240%|r health and mana to all heroes and swaps the
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 1992
-// Items: I082 (Infusion of Infinity), Description (Description)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-At the end of battle, fills inventory with random |cff088a08potions|r.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 1993
 // Items: I082 (Infusion of Infinity), Name (Name)
 {
@@ -13379,15 +12760,6 @@ STRING 1994
 // Items: I082 (Infusion of Infinity), Tip (Tooltip - Basic)
 {
 Infusion of Infinity
-}
-
-STRING 1995
-// Items: I082 (Infusion of Infinity), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-At the end of battle, fills inventory with random |cff088a08potions|r.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 1996
@@ -13717,29 +13089,8 @@ STRING 2043
 Strong Spirit, [|cffffcc00Level 5|r]
 }
 
-STRING 2044
-// Items: I07P (Raging fire), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Deal damage to the enemy equal to |cffbe81f710%|r of the maximum health of the target.
-|cffffcc00Cooldown:|r 40 seconds.
-|cffffcc00Cost:|r 200 mana.
-}
-
-STRING 2045
-// Items: I07P (Raging fire), Name (Name)
-{
-Raging fire
-}
-
-STRING 2046
-// Items: I07P (Raging fire), Tip (Tooltip - Basic)
-{
-Raging fire
-}
-
 STRING 2047
-// Items: I07P (Raging fire), Ubertip (Tooltip - Extended)
+// Items: I07P (Raging Fire), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r
 Activation: Deal damage to the enemy equal to |cffbe81f710%|r of the maximum health of the target.
@@ -14271,7 +13622,7 @@ Binds your hero to another non-invisible hero. You lose the ability to move, but
 }
 
 STRING 2124
-// Items: I075 (Filzer the Fair), Description (Description)
+// Items: I075 (Filzer the Fair (Out of Pool)), Description (Description)
 {
 |cffbababcCommon|r, |cff9001fdRing|r
 When the hero stun a target, it also stuns all enemies near the target.
@@ -14279,19 +13630,13 @@ When the hero stun a target, it also stuns all enemies near the target.
 }
 
 STRING 2125
-// Items: I075 (Filzer the Fair), Name (Name)
-{
-Filzer the Fair
-}
-
-STRING 2126
-// Items: I075 (Filzer the Fair), Tip (Tooltip - Basic)
+// Items: I075 (Filzer the Fair (Out of Pool)), Tip (Tooltip - Basic)
 {
 Filzer the Fair
 }
 
 STRING 2127
-// Items: I075 (Filzer the Fair), Ubertip (Tooltip - Extended)
+// Items: I075 (Filzer the Fair (Out of Pool)), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r, |cff9001fdRing|r
 When the hero stun a target, it also stuns all enemies near the target.
@@ -14484,14 +13829,6 @@ STRING 2155
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cffb18904mech|r.
 }
 
-STRING 2156
-// Items: I06X (Symbol of Antonidas), Description (Description)
-{
-|cffbababcCommon|r
-Activation: Transforms a minion into a sheep.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 2157
 // Items: I06X (Symbol of Antonidas), Name (Name)
 {
@@ -14502,14 +13839,6 @@ STRING 2158
 // Items: I06X (Symbol of Antonidas), Tip (Tooltip - Basic)
 {
 Symbol of Antonidas
-}
-
-STRING 2159
-// Items: I06X (Symbol of Antonidas), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: Transforms a minion into a sheep.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2160
@@ -14913,14 +14242,6 @@ Increases spell power by 10%.
 |cffbe81f7Spell power|r also works on your attack power.
 }
 
-STRING 2216
-// Items: I06I (Amulet of Souls), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Swaps the percentage of health and mana.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
 STRING 2217
 // Items: I06I (Amulet of Souls), Name (Name)
 {
@@ -14931,49 +14252,6 @@ STRING 2218
 // Items: I06I (Amulet of Souls), Tip (Tooltip - Basic)
 {
 Amulet of Souls
-}
-
-STRING 2219
-// Items: I06I (Amulet of Souls), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Swaps the percentage of health and mana.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 2220
-// Items: I06H (Shadow generator), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r 
-Increases spell power by 25%. After using an ability or item, the hero deals |cffbe81f710|r damage to itself.
-}
-
-STRING 2221
-// Items: I06H (Shadow generator), Name (Name)
-{
-Shadow generator
-}
-
-STRING 2222
-// Items: I06H (Shadow generator), Tip (Tooltip - Basic)
-{
-Shadow generator
-}
-
-STRING 2223
-// Items: I06H (Shadow generator), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r 
-Increases spell power by 25%. After using an ability or item, the hero deals |cffbe81f710|r damage to itself.
-}
-
-STRING 2224
-// Items: I06G (Purple Liar), Description (Description)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-Activation: Resets the hero's |cff60C445Unique|r cooldown.
-|cffffcc00Cooldown:|r 12 seconds.
-|cffffcc00Cost:|r 20 mana.
 }
 
 STRING 2225
@@ -14989,68 +14267,11 @@ Purple Liar
 }
 
 STRING 2227
-// Items: I06G (Purple Liar), Ubertip (Tooltip - Extended)
+// Items: I06G (Purple Liar), Description (Description)
 {
 |cffbababcCommon|r, |cff9001fdRing|r
 Activation: Resets the hero's |cff60C445Unique|r cooldown.
 |cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 2228
-// Items: I06F (Saronite bomb), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Deals |cffbe81f7225|r damage to all enemies near the target. No damage is dealt to the target itself.
-|cffffcc00Cooldown:|r 35 seconds.
-}
-
-STRING 2229
-// Items: I06F (Saronite bomb), Name (Name)
-{
-Saronite bomb
-}
-
-STRING 2230
-// Items: I06F (Saronite bomb), Tip (Tooltip - Basic)
-{
-Saronite bomb
-}
-
-STRING 2231
-// Items: I06F (Saronite bomb), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Deals |cffbe81f7225|r damage to all enemies near the target. No damage is dealt to the target itself.
-|cffffcc00Cooldown:|r 35 seconds.
-}
-
-STRING 2232
-// Items: I06E (Big red button), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Deals |cffbe81f7300|r damage to enemies in area for each empty slot in the inventory.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
-STRING 2233
-// Items: I06E (Big red button), Name (Name)
-{
-Big red button
-}
-
-STRING 2234
-// Items: I06E (Big red button), Tip (Tooltip - Basic)
-{
-Big red button
-}
-
-STRING 2235
-// Items: I06E (Big red button), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Deals |cffbe81f7300|r damage to enemies in area for each empty slot in the inventory.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 2236
@@ -15376,13 +14597,6 @@ Activation: Restores |cffbe81f740|r mana to the hero. With probability |cffd7df0
 |cffffcc00Cooldown:|r 12 seconds.
 }
 
-STRING 2284
-// Items: I061 (Wishstone), Description (Description)
-{
-|cffbababcCommon|r
-When you use |cffcc0000corrupted|r artifact, it is destroyed instead of the artifact.
-}
-
 STRING 2285
 // Items: I061 (Wishstone), Name (Name)
 {
@@ -15393,13 +14607,6 @@ STRING 2286
 // Items: I061 (Wishstone), Tip (Tooltip - Basic)
 {
 Wishstone
-}
-
-STRING 2287
-// Items: I061 (Wishstone), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-When you use |cffcc0000corrupted|r artifact, it is destroyed instead of the artifact.
 }
 
 STRING 2288
@@ -15522,15 +14729,6 @@ STRING 2305
 Newborn Phoenix
 }
 
-STRING 2306
-// Items: I0AK (Aquamarin), Description (Description)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Target allied hero gains a shield that absorbs |cffbe81f7300|r damage.
-|cffffcc00Cooldown:|r 40 seconds.
-|cffffcc00Cost:|r 65 mana.
-}
-
 STRING 2307
 // Items: I05V (Bandit Hood), Description (Description)
 {
@@ -15604,36 +14802,6 @@ STRING 2318
 // Items: I05T (First aid kit), Ubertip (Tooltip - Extended)
 {
 Restores health.
-}
-
-STRING 2319
-// Items: I05S (Star in a bottle), Description (Description)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-Instead of the usual effect, the Fire Potion deals massive damage and additional damage equal to |cffbe81f73%|r of the health of enemies.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
-STRING 2320
-// Items: I05S (Star in a bottle), Name (Name)
-{
-Star in a bottle
-}
-
-STRING 2321
-// Items: I05S (Star in a bottle), Tip (Tooltip - Basic)
-{
-Star in a bottle
-}
-
-STRING 2322
-// Items: I05S (Star in a bottle), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-Instead of the usual effect, the Fire Potion deals massive damage and additional damage equal to |cffbe81f73%|r of the health of enemies.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 2323
@@ -15859,13 +15027,6 @@ Activation: Restores |cffbe81f7300|r health to the ally. Additionally restores 1
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
-STRING 2357
-// Items: I05J (Cursed Medallion), Description (Description)
-{
-|cffbababcCommon|r
-Increases stats by 7. Artifact cannot be removed from inventory.
-}
-
 STRING 2358
 // Items: I05J (Cursed Medallion), Name (Name)
 {
@@ -15876,39 +15037,6 @@ STRING 2359
 // Items: I05J (Cursed Medallion), Tip (Tooltip - Basic)
 {
 Cursed Medallion
-}
-
-STRING 2360
-// Items: I05J (Cursed Medallion), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Increases stats by 7. Artifact cannot be removed from inventory.
-}
-
-STRING 2361
-// Items: I05I (Gnomish army knife), Description (Description)
-{
-|cffe96a1cLegendary|r, |cffb18904Mech|r
-Counts as 3 |cffb18904mechs|r.
-}
-
-STRING 2362
-// Items: I05I (Gnomish army knife), Name (Name)
-{
-Gnomish army knife
-}
-
-STRING 2363
-// Items: I05I (Gnomish army knife), Tip (Tooltip - Basic)
-{
-Gnomish army knife
-}
-
-STRING 2364
-// Items: I05I (Gnomish army knife), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cffb18904Mech|r
-Counts as 3 |cffb18904mechs|r.
 }
 
 STRING 2365
@@ -16820,14 +15948,6 @@ STRING 2501
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff848484rune|r.
 }
 
-STRING 2502
-// Items: I04L (Mshist's Damned Fiber), Description (Description)
-{
-|cffe96a1cLegendary|r
-When something dies, it summons a sheep.
-|cffffcc00Life time:|r 30 seconds.
-}
-
 STRING 2503
 // Items: I04L (Mshist's Damned Fiber), Name (Name)
 {
@@ -16838,14 +15958,6 @@ STRING 2504
 // Items: I04L (Mshist's Damned Fiber), Tip (Tooltip - Basic)
 {
 Mshist's Damned Fiber
-}
-
-STRING 2505
-// Items: I04L (Mshist's Damned Fiber), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-When something dies, it summons a sheep.
-|cffffcc00Life time:|r 30 seconds.
 }
 
 STRING 2506
@@ -17002,16 +16114,6 @@ Choose an ally. Pulls all orbs towards the target, destroying those; Each orb re
 |cffffcc00Cooldown:|r 5 seconds.
 }
 
-STRING 2529
-// Items: I04E (Staff of Phenomenal Power), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Increases spell power equal to your current spell power. 
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 2530
 // Items: I04E (Staff of Phenomenal Power), Name (Name)
 {
@@ -17022,15 +16124,6 @@ STRING 2531
 // Items: I04E (Staff of Phenomenal Power), Tip (Tooltip - Basic)
 {
 Staff of Phenomenal Power
-}
-
-STRING 2532
-// Items: I04E (Staff of Phenomenal Power), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Increases spell power equal to your current spell power. 
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
 }
 
 STRING 2533
@@ -17140,58 +16233,6 @@ STRING 2548
 Activation: Take control of the enemy minion.
 |cffffcc00Life time:|r 30 seconds.
 |cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 2549
-// Items: I049 (Crystallized life), Description (Description)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Increases the health regeneration of all heroes by 2.
-}
-
-STRING 2550
-// Items: I049 (Crystallized life), Name (Name)
-{
-Crystallized life
-}
-
-STRING 2551
-// Items: I049 (Crystallized life), Tip (Tooltip - Basic)
-{
-Crystallized life
-}
-
-STRING 2552
-// Items: I049 (Crystallized life), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Increases the health regeneration of all heroes by 2.
-}
-
-STRING 2553
-// Items: I048 (Crystallized mana), Description (Description)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Increases mana regeneration of all heroes by 2.
-}
-
-STRING 2554
-// Items: I048 (Crystallized mana), Name (Name)
-{
-Crystallized mana
-}
-
-STRING 2555
-// Items: I048 (Crystallized mana), Tip (Tooltip - Basic)
-{
-Crystallized mana
-}
-
-STRING 2556
-// Items: I048 (Crystallized mana), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Increases mana regeneration of all heroes by 2.
 }
 
 STRING 2557
@@ -17434,12 +16475,6 @@ STRING 2592
 When the hero takes damage, with a probability of |cffd7df018%|r, uses a random first-level spell.
 }
 
-STRING 2593
-// Items: I0HI (Power Totem), Name (Name)
-{
-Power Totem
-}
-
 STRING 2594
 // Items: I03Y (Wrackspurts), Name (Name)
 {
@@ -17450,12 +16485,6 @@ STRING 2595
 // Items: I03Y (Wrackspurts), Tip (Tooltip - Basic)
 {
 Wrackspurts
-}
-
-STRING 2596
-// Items: I0HI (Power Totem), Tip (Tooltip - Basic)
-{
-Power Totem
 }
 
 STRING 2597
@@ -17624,15 +16653,6 @@ STRING 2622
 The hero forgets all learned abilities and gets skill points back.
 }
 
-STRING 2623
-// Items: I03R (Perfectly Cut Lens), Description (Description)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Select an area. Deals |cffbe81f7100|r damage to enemies in an area with a size of |cffffffff100|r. Increases damage and size by 100 for each other artifact from the "Crystal" set.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 40 mana.
-}
-
 STRING 2624
 // Items: I03R (Perfectly Cut Lens), Name (Name)
 {
@@ -17643,14 +16663,6 @@ STRING 2625
 // Items: I03R (Perfectly Cut Lens), Tip (Tooltip - Basic)
 {
 Perfectly Cut Lens
-}
-
-STRING 2626
-// Items: I03R (Perfectly Cut Lens), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Select an area. Deals |cffbe81f7100|r damage to enemies in an area with a size of |cffffffff100|r. Increases damage and size by 100 for each other artifact from the "Crystal" set.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 2627
@@ -18131,14 +17143,6 @@ STRING 2701
 Changes your artifact in the slot to a random artifact.
 }
 
-STRING 2702
-// Items: I0AK (Aquamarin), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Target allied hero gains a shield that absorbs |cffbe81f7300|r damage.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
 STRING 2703
 // Abilities: A05F (Fallen One: Fatal Attraction), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -18279,15 +17283,6 @@ Activation: Deals |cffbe81f7250|r damage to the enemy.
 |cffffcc00Cooldown:|r 25 seconds.
 }
 
-STRING 2722
-// Items: I031 (Prism), Description (Description)
-{
-|cffbababcCommon|r
-Depending on the color of the player, it acquires new properties.
-|cffffcc00Cooldown:|r 25 seconds.
-|cffffcc00Cost:|r 35 mana.
-}
-
 STRING 2723
 // Items: I031 (Prism), Name (Name)
 {
@@ -18298,14 +17293,6 @@ STRING 2724
 // Items: I031 (Prism), Tip (Tooltip - Basic)
 {
 Prism
-}
-
-STRING 2725
-// Items: I031 (Prism), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Depending on the color of the player, it acquires new properties.
-|cffffcc00Cooldown:|r 25 seconds.
 }
 
 STRING 2726
@@ -19028,14 +18015,6 @@ STRING 2832
 The hero receives 20% more gold from any sources.
 }
 
-STRING 2833
-// Items: I029 (Ring of Light), Description (Description)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-Deals |cffbe81f710|r damage every second to all enemies nearby. 
-|cff81f260[Random bonus]|r
-}
-
 STRING 2834
 // Items: I029 (Ring of Light), Name (Name)
 {
@@ -19046,14 +18025,6 @@ STRING 2835
 // Items: I029 (Ring of Light), Tip (Tooltip - Basic)
 {
 Ring of Light
-}
-
-STRING 2836
-// Items: I029 (Ring of Light), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-Deals |cffbe81f710|r damage every second to all enemies nearby. 
-|cff81f260[Random bonus]|r
 }
 
 STRING 2837
@@ -19255,14 +18226,6 @@ Activation: Summons a Skeleton Protector with the "Provocation" ability.
 |cffffcc00Cooldown:|r 60 seconds.
 }
 
-STRING 2865
-// Items: I021 (Amulet of Balance), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Sets the hero's health and mana to 50%.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
 STRING 2866
 // Items: I021 (Amulet of Balance), Name (Name)
 {
@@ -19275,24 +18238,6 @@ STRING 2867
 Amulet of Balance
 }
 
-STRING 2868
-// Items: I021 (Amulet of Balance), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Sets the hero's health and mana to 50%.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 2869
-// Items: I020 (Cenarion Horn), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff7cfc00Nature|r
-Activation: Puts the Cenarion Horn on the ground, restoring |cffbe81f718|r health to heroes nearby every second.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
-|cffffcc00Cost:|r 80 mana.
-}
-
 STRING 2870
 // Items: I020 (Cenarion Horn), Name (Name)
 {
@@ -19303,15 +18248,6 @@ STRING 2871
 // Items: I020 (Cenarion Horn), Tip (Tooltip - Basic)
 {
 Cenarion Horn
-}
-
-STRING 2872
-// Items: I020 (Cenarion Horn), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff7cfc00Nature|r
-Activation: Puts the Cenarion Horn on the ground, restoring |cffbe81f718|r health to heroes nearby every second.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
 }
 
 STRING 2873
@@ -19332,14 +18268,6 @@ STRING 2875
 // Items: I01Z (G.D. Magic Hat), Tip (Tooltip - Basic)
 {
 G.D. Magic Hat
-}
-
-STRING 2876
-// Items: I01Z (G.D. Magic Hat), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-At the start of the battle, grants the hero a random hat effect for the remainder of the battle.
-|cff81f260[Random bonus]|r
 }
 
 STRING 2877
@@ -19921,14 +18849,6 @@ STRING 2964
 Activation: Deals |cffbe81f7300|r damage to an enemy.
 }
 
-STRING 2965
-// Items: I01D (Twin heart), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Connect your soul to target allied hero. Every second, the hero with higher current health gives 2% of his health to the other hero.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
 STRING 2966
 // Items: I01D (Twin heart), Name (Name)
 {
@@ -19939,14 +18859,6 @@ STRING 2967
 // Items: I01D (Twin heart), Tip (Tooltip - Basic)
 {
 Twin heart
-}
-
-STRING 2968
-// Items: I01D (Twin heart), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Connect your soul to target allied hero. Every second, the hero with higher current health gives 2% of his health to the other hero.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 2969
@@ -20414,14 +19326,6 @@ Every 12 seconds increases armor by 25.
 |cffffcc00Duration:|r 3 seconds.
 }
 
-STRING 3033
-// Items: I00W (Sword of Power), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff2d9995Weapon|r
-Increases the attack power of your hero by 50%.
-Decreases the attack power of allies by 20%.
-}
-
 STRING 3034
 // Items: I00W (Sword of Power), Name (Name)
 {
@@ -20432,14 +19336,6 @@ STRING 3035
 // Items: I00W (Sword of Power), Tip (Tooltip - Basic)
 {
 Sword of Power
-}
-
-STRING 3036
-// Items: I00W (Sword of Power), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff2d9995Weapon|r
-Increases the attack power of your hero by 50%.
-Decreases the attack power of allies by 20%.
 }
 
 STRING 3037
@@ -20471,13 +19367,6 @@ Activation: Increases attack power by 8 and health by 150 for all current sheeps
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 3041
-// Items: I00U (Archivist's Staff), Description (Description)
-{
-|cff4169e1Rare|r
-Increases mana by 100 and spell power by 10%.
-}
-
 STRING 3042
 // Items: I00U (Archivist's Staff), Name (Name)
 {
@@ -20490,20 +19379,6 @@ STRING 3043
 Archivist's Staff
 }
 
-STRING 3044
-// Items: I00U (Archivist's Staff), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases mana by 100 and spell power by 10%.
-}
-
-STRING 3045
-// Items: I00T (Book of Darkness), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. The hero gets 3 levels. Reduces stats by 12.
-}
-
 STRING 3046
 // Items: I00T (Book of Darkness), Name (Name)
 {
@@ -20514,41 +19389,6 @@ STRING 3047
 // Items: I00T (Book of Darkness), Tip (Tooltip - Basic)
 {
 Book of Darkness
-}
-
-STRING 3048
-// Items: I00T (Book of Darkness), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. The hero gets 3 levels. Reduces stats by 12.
-}
-
-STRING 3049
-// Items: I00S (Jade snake), Description (Description)
-{
-|cffbababcCommon|r
-Activation: Replaces |cff60C445Unique|r of your hero with another |cff60C445Unique|r. Only works in combat.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 3050
-// Items: I00S (Jade snake), Name (Name)
-{
-Jade snake
-}
-
-STRING 3051
-// Items: I00S (Jade snake), Tip (Tooltip - Basic)
-{
-Jade snake
-}
-
-STRING 3052
-// Items: I00S (Jade snake), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: Replaces |cff60C445Unique|r of your hero with another |cff60C445Unique|r. Only works in combat.
-|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 3053
@@ -20709,30 +19549,10 @@ STRING 3076
 Aspect of All In
 }
 
-STRING 3077
-// Items: I00L (Magical wisp), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Increases spell power of your hero’s by 12% and of other by 8%.
-}
-
 STRING 3078
-// Items: I00L (Magical wisp), Tip (Tooltip - Basic)
+// Items: I00L (Magical Wisp), Tip (Tooltip - Basic)
 {
 Magical wisp
-}
-
-STRING 3079
-// Items: I00L (Magical wisp), Name (Name)
-{
-Magical wisp
-}
-
-STRING 3080
-// Items: I00L (Magical wisp), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Increases spell power of your hero’s by 12% and of other by 8%.
 }
 
 STRING 3081
@@ -21100,15 +19920,6 @@ Activation: Uses a random activated |cffb18904mech|r.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 3137
-// Items: I006 (Approximatron), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Teleports all other heroes to your hero and restores them |cffbe81f7100|r health for each |cffb18904mech|r in your inventory.
-|cffffcc00Cooldown:|r 50 seconds.
-|cffffcc00Cost:|r 80 mana.
-}
-
 STRING 3138
 // Items: I006 (Approximatron), Name (Name)
 {
@@ -21121,24 +19932,6 @@ STRING 3139
 Approximatron
 }
 
-STRING 3140
-// Items: I006 (Approximatron), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Teleports all other heroes to your hero and restores them |cffbe81f7100|r health for each |cffb18904mech|r in your inventory.
-|cffffcc00Cooldown:|r 50 seconds.
-}
-
-STRING 3141
-// Items: I005 (Repeller), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Pushes all creatures away from the hero and creates a shield of stones that protects him.
-|cffffcc00Lifetime:|r 10 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 60 mana.
-}
-
 STRING 3142
 // Items: I005 (Repeller), Name (Name)
 {
@@ -21149,15 +19942,6 @@ STRING 3143
 // Items: I005 (Repeller), Tip (Tooltip - Basic)
 {
 Repeller
-}
-
-STRING 3144
-// Items: I005 (Repeller), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Pushes all creatures away from the hero and creates a shield of stones that protects him.
-|cffffcc00Lifetime:|r 10 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 3145
@@ -23794,13 +22578,6 @@ STRING 3551
 // Abilities: A1B7 (Bro: Borrowing Blues), Tip (Tooltip - Normal)
 {
 Borrowing Blues, [|cffffcc00Level 5|r]
-}
-
-STRING 3552
-// Items: IZ04 (Eternal Harvest), Description (Description)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
-After a battle with a boss, if any hero died during that fight, get a random |cffb40431blood|r or |cff7cfc00nature|r item and be offered the other one in the end rewards.
 }
 
 STRING 3553
@@ -40073,7 +38850,7 @@ Poison Touch
 }
 
 STRING 6048
-// Items: I0HI (Power Totem), Ubertip (Tooltip - Extended)
+// Items: I0HI (Power Wand), Ubertip (Tooltip - Extended)
 {
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corrupted|r. Select a hero to give them +10% Spell Power.
@@ -40155,6 +38932,22 @@ STRING 6061
 // Abilities: A0SM (|cffffcc00Уровень 10:|r Рыцарь в странной броне), Name (Name)
 {
 |cffffcc00Уровень 10:|r Рыцарь в странной броне
+}
+
+STRING 6062
+// Items: I061 (Wishstone), Description (Description)
+{
+|cffbababcCommon|r
+At least one Artifact Reward will be |cffcc0000corrupted|r.
+When you use a |cffcc0000corrupted|r artifact, it is destroyed instead.
+}
+
+STRING 6063
+// Items: I061 (Wishstone), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+At least one Artifact Reward will be |cffcc0000corrupted|r.
+When you use a |cffcc0000corrupted|r artifact, it is destroyed instead.
 }
 
 STRING 6064
@@ -52467,15 +51260,6 @@ STRING 7959
 Small Heal
 }
 
-STRING 7960
-// Items: I024 (Bandage), Description (Description)
-{
-|cffbababcCommon|r
-When you use |cffcc0000corrupted|r artifact, increases hero health regeneration by 35 until the end of the battle.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 7961
 // Abilities: A0EU (Ogre: Earthquake), Researchhotkey (Hotkey - Learn)
 {
@@ -53436,15 +52220,6 @@ STRING 8108
 // Abilities: A0EG (Special: Seal of Brotherhood), Tip (Tooltip - Normal)
 {
 Seal of Brotherhood
-}
-
-STRING 8109
-// Items: I024 (Bandage), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-When you use |cffcc0000corrupted|r artifact, increases hero health regeneration by 35 until the end of the battle.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 8110
@@ -67019,10 +65794,125 @@ STRING 10193
 Q
 }
 
+STRING 10194
+// Items: I04E (Staff of Phenomenal Power), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Increases spell power equal to your current spell power (minimum 30%). 
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 35 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
 STRING 10195
 // Abilities: A00U (Прочее: Vampire bite), Hotkey (Hotkey - Normal)
 {
 Q
+}
+
+STRING 10196
+// Items: I04E (Staff of Phenomenal Power), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Increases spell power equal to your current spell power (minimum 30%). 
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 35 seconds.
+}
+
+STRING 10197
+// Items: I0AX (Autonavigator), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Summons uncontrollable minion that attack the enemy and additional one for each |cffb18904Mech|r in your inventory.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 10198
+// Items: I0AX (Autonavigator), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Summons uncontrollable minion that attack the enemy and additional one for each |cffb18904Mech|r in your inventory.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 10199
+// Items: I0AK (Aquamarin), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Gives a friendly hero |cffbe81f7300|r Shield.
+|cffffcc00Cooldown:|r 40 seconds.
+|cffffcc00Cost:|r 65 mana.
+}
+
+STRING 10200
+// Items: I0AK (Aquamarin), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Gives a friendly hero |cffbe81f7300|r Shield.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 10201
+// Items: I006 (Approximatron), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Teleports all other heroes to you and restores them |cffbe81f7100|r Health for each |cffb18904Mech|r in your inventory.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 10202
+// Items: I006 (Approximatron), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Teleports all other heroes to you and restores them |cffbe81f7100|r Health for each |cffb18904Mech|r in your inventory.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 10203
+// Items: I09E (Bloody Figurine), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Select a minion to kill. If the target is friendly, increases a random stat.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 10204
+// Items: I09E (Bloody Figurine), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Select a minion to kill. If the target is friendly, increases a random stat.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 10205
+// Items: I024 (Bandage), Description (Description)
+{
+|cffbababcCommon|r
+When you use |cffcc0000Сorrupted|r artifact, increases Health Regeneration by 35 until the end of the battle.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 10206
+// Items: I024 (Bandage), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+When you use |cffcc0000Сorrupted|r artifact, increases Health Regeneration by 35 until the end of the battle.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 10207
+// Items: I0FT (Blooming weed), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+At least 1 Artifact Reward will be from the |cff7cfc00Nature|r set.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
 }
 
 STRING 10208
@@ -73179,7 +72069,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.8.2T|r
+|cffbe81f7Boss Battle 1.9.2T|r
 }
 
 STRING 11219
@@ -74842,13 +73732,6 @@ STRING 11469
 // Units: N04W ((H) Living Altar), Name (Name)
 {
 (H) Living Altar
-}
-
-STRING 11470
-// Items: IZ04 (Eternal Harvest), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
-After a battle with a boss, if any hero died during that fight, get a random |cffb40431blood|r or |cff7cfc00nature|r item and be offered the other one in the end rewards.
 }
 
 STRING 11471
@@ -77007,5 +75890,1131 @@ STRING 11768
 // Abilities: A1H8 (Extra: Outcast (Outcast Demon)), Ubertip (Tooltip - Normal - Extended)
 {
 Also gains Attack from Agility and Intelligence.
+}
+
+STRING 11769
+// Items: I0FT (Blooming weed), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+At least 1 Artifact Reward will be from the |cff7cfc00Nature|r set.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 11770
+// Items: I0EX (Camouflage Paint), Description (Description)
+{
+|cffbababcCommon|r
+Activation: Put yourself in perfect camouflage. Camouflage has a maximum movement speed and 50% of your maximum health.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11771
+// Items: I0EX (Camouflage Paint), Name (Name)
+{
+Camouflage Paint
+}
+
+STRING 11772
+// Items: I0EX (Camouflage Paint), Tip (Tooltip - Basic)
+{
+Camouflage Paint
+}
+
+STRING 11773
+// Items: I0EX (Camouflage Paint), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: Put yourself in perfect camouflage. Camouflage has a maximum movement speed and 50% of your maximum health.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11774
+// Items: I0BH (Catalyst), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Increases Spell Power for |cff088a08Potions|r by 25%.
+|cff81f260[Random bonus]|r
+}
+
+STRING 11775
+// Items: I0BH (Catalyst), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Increases Spell Power for |cff088a08Potions|r by 25%.
+|cff81f260[Random bonus]|r
+}
+
+STRING 11778
+// Items: I05J (Cursed Medallion), Description (Description)
+{
+|cffbababcCommon|r
+Increases stats by 7. Cannot be exchanged or destroyed in the store.
+}
+
+STRING 11779
+// Items: I05J (Cursed Medallion), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Increases stats by 7. Cannot be exchanged or destroyed in the store.
+}
+
+STRING 11780
+// Items: I049 (Crystallized Life), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Increases the Health Regeneration of all heroes by 5.
+}
+
+STRING 11781
+// Items: I049 (Crystallized Life), Name (Name)
+{
+Crystallized Life
+}
+
+STRING 11782
+// Items: I049 (Crystallized Life), Tip (Tooltip - Basic)
+{
+Crystallized Life
+}
+
+STRING 11783
+// Items: I049 (Crystallized Life), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Increases the Health Regeneration of all heroes by 5.
+}
+
+STRING 11784
+// Items: I048 (Crystallized Mana), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Increases Mana Regeneration of all heroes by 3.
+}
+
+STRING 11785
+// Items: I048 (Crystallized Mana), Name (Name)
+{
+Crystallized Mana
+}
+
+STRING 11786
+// Items: I048 (Crystallized Mana), Tip (Tooltip - Basic)
+{
+Crystallized Mana
+}
+
+STRING 11787
+// Items: I048 (Crystallized Mana), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Increases Mana Regeneration of all heroes by 3.
+}
+
+STRING 11788
+// Items: I0EM (Enchanted Thorium), Description (Description)
+{
+|cffbababcCommon|r
+Increases the chance of receiving Artifact Reward of higher rarity for all heroes by 15%.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 11789
+// Items: I0EM (Enchanted Thorium), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Increases the chance of receiving Artifact Reward of higher rarity for all heroes by 15%.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 11790
+// Items: I075 (Filzer the Fair (Out of Pool)), Name (Name)
+{
+Filzer the Fair (Out of Pool)
+}
+
+STRING 11791
+// Items: I01Z (G.D. Magic Hat), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+At the start of the battle, grants the hero a random hat effect for the remainder of the battle.
+Possible effects:
+Air: +30% Attack Speed.
+Earth: +25 Luck.
+Fire: +30 Attack Power.
+Ice: +5 Armor.
+Shadow: +25% Spell Power.
+|cff81f260[Random bonus]|r
+}
+
+STRING 11792
+// Items: I0E2 (Library Card), Description (Description)
+{
+|cffC71585Cursed|r
+|cffbababcCommon|r
+Every purchased item in the library gives a random bonus.
+}
+
+STRING 11793
+// Items: I0E2 (Library Card), Name (Name)
+{
+Library Card
+}
+
+STRING 11794
+// Items: I0E2 (Library Card), Tip (Tooltip - Basic)
+{
+Library Card
+}
+
+STRING 11795
+// Items: I0E2 (Library Card), Ubertip (Tooltip - Extended)
+{
+|cffC71585Cursed|r
+|cffbababcCommon|r
+Every purchased item in the library gives a random bonus.
+}
+
+STRING 11796
+// Items: I0A1 (Huge gift), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Gives an artifact of |cffbababcCommon|r quality. If there are no other artifacts in the inventory, it gives three instead.
+}
+
+STRING 11797
+// Items: I0A1 (Huge gift), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Gives an artifact of |cffbababcCommon|r quality. If there are no other artifacts in the inventory, it gives three instead.
+}
+
+STRING 11798
+// Items: I00S (Jade Snake), Description (Description)
+{
+|cffbababcCommon|r
+Activation: Replaces |cff60C445Unique|r of your hero with another |cff60C445Unique|r. Only works in combat.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11799
+// Items: I00S (Jade Snake), Name (Name)
+{
+Jade Snake
+}
+
+STRING 11800
+// Items: I00S (Jade Snake), Tip (Tooltip - Basic)
+{
+Jade Snake
+}
+
+STRING 11801
+// Items: I00S (Jade Snake), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: Replaces |cff60C445Unique|r of your hero with another |cff60C445Unique|r. Only works in combat.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11802
+// Items: I0AE (Magic Thread), Description (Description)
+{
+|cffbababcCommon|r
+Every 6 seconds, summon a sheep to a random point in the arena.
+|cffffcc00Life time:|r 60 seconds.
+}
+
+STRING 11803
+// Items: I0AE (Magic Thread), Name (Name)
+{
+Magic Thread
+}
+
+STRING 11804
+// Items: I0AE (Magic Thread), Tip (Tooltip - Basic)
+{
+Magic Thread
+}
+
+STRING 11805
+// Items: I0AE (Magic Thread), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Every 6 seconds, summon a sheep to a random point in the arena.
+|cffffcc00Life time:|r 60 seconds.
+}
+
+STRING 11806
+// Items: I0EY (Wool Spindler), Description (Description)
+{
+|cffbababcCommon|r
+When any sheep dies, you get 5 gold.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 11807
+// Items: I0EY (Wool Spindler), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+When any sheep dies, you get 5 gold.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 11808
+// Items: I0EH (Ring of Life), Description (Description)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Every 15 seconds, restores the hero |cffbe81f78%|r health and mana.
+}
+
+STRING 11809
+// Items: I0EH (Ring of Life), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Every 15 seconds, restores the hero |cffbe81f78%|r health and mana.
+}
+
+STRING 11810
+// Items: I0AW (North Lotus), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Activation: Restores |cffbe81f7300|r health to an ally. If the target is at full health, uses a random level 5 ability.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 11811
+// Items: I0AW (North Lotus), Name (Name)
+{
+North Lotus
+}
+
+STRING 11812
+// Items: I0AW (North Lotus), Tip (Tooltip - Basic)
+{
+North Lotus
+}
+
+STRING 11813
+// Items: I0AW (North Lotus), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Activation: Restores |cffbe81f7300|r health to an ally. If the target is at full health, uses a random level 5 ability.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11814
+// Items: I09X (Scarlet Worm), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Every 2 seconds, restores |cffbe81f72%|r of maximum health if the hero’s health is less than 60%.
+}
+
+STRING 11815
+// Items: I09X (Scarlet Worm), Name (Name)
+{
+Scarlet Worm
+}
+
+STRING 11816
+// Items: I09X (Scarlet Worm), Tip (Tooltip - Basic)
+{
+Scarlet Worm
+}
+
+STRING 11817
+// Items: I09X (Scarlet Worm), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Every 2 seconds, restores |cffbe81f72%|r of maximum health if the hero’s health is less than 60%.
+}
+
+STRING 11818
+// Items: I08H (Seal of Calm), Description (Description)
+{
+|cffbababcCommon|r
+Activation: Gives the hero an effect: "Your health-restoring abilities and items restore 75% more health."
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 11819
+// Items: I08H (Seal of Calm), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: Gives the hero an effect: "Your health-restoring abilities and items restore 75% more health."
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 11820
+// Items: I08E (Sun Root), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+When you restore 200 or more Health to the target at once, gives it invulnerability.
+|cffffcc00Duration:|r 7 seconds.
+|cff81f260[Random bonus]|r
+}
+
+STRING 11821
+// Items: I08E (Sun Root), Name (Name)
+{
+Sun Root
+}
+
+STRING 11822
+// Items: I08E (Sun Root), Tip (Tooltip - Basic)
+{
+Sun Root
+}
+
+STRING 11823
+// Items: I08E (Sun Root), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+When you restore 200 or more Health to the target at once, gives it invulnerability.
+|cffffcc00Duration:|r 7 seconds.
+|cff81f260[Random bonus]|r
+}
+
+STRING 11824
+// Items: I06X (Symbol of Antonidas), Description (Description)
+{
+|cffbababcCommon|r
+Activation: Transforms a minion into a sheep.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 11825
+// Items: I06X (Symbol of Antonidas), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: Transforms a minion into a sheep.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 11826
+// Items: I06H (Shadow Generator), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r 
+Increases spell power by 40%. After using an ability or item, the hero deals |cffbe81f725|r damage to itself.
+}
+
+STRING 11827
+// Items: I06H (Shadow Generator), Name (Name)
+{
+Shadow Generator
+}
+
+STRING 11828
+// Items: I06H (Shadow Generator), Tip (Tooltip - Basic)
+{
+Shadow Generator
+}
+
+STRING 11829
+// Items: I06H (Shadow Generator), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r 
+Increases spell power by 40%. After using an ability or item, the hero deals |cffbe81f725|r damage to itself.
+}
+
+STRING 11830
+// Items: I06G (Purple Liar), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Activation: Resets the hero's |cff60C445Unique|r cooldown.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 11831
+// Items: I06F (Saronite Bomb), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Deals |cffbe81f7225|r damage to all enemies near the target.
+|cffffcc00Cooldown:|r 35 seconds.
+}
+
+STRING 11832
+// Items: I06F (Saronite Bomb), Name (Name)
+{
+Saronite Bomb
+}
+
+STRING 11833
+// Items: I06F (Saronite Bomb), Tip (Tooltip - Basic)
+{
+Saronite Bomb
+}
+
+STRING 11834
+// Items: I06F (Saronite Bomb), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Deals |cffbe81f7225|r damage to all enemies near the target.
+|cffffcc00Cooldown:|r 35 seconds.
+}
+
+STRING 11835
+// Items: I03R (Perfectly Cut Lens), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Select an area. Deals |cffbe81f7100|r damage to enemies in an area with a size of |cffffffff100|r. Increases damage and size by 100 for each other artifact from the |cff00cceeCrystal|r set.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 40 mana.
+}
+
+STRING 11836
+// Items: I03R (Perfectly Cut Lens), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Select an area. Deals |cffbe81f7100|r damage to enemies in an area with a size of |cffffffff100|r. Increases damage and size by 100 for each other artifact from the |cff00cceeCrystal|r set.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11837
+// Items: I031 (Prism), Description (Description)
+{
+|cffbababcCommon|r
+Depending on the initial color of the player, it acquires new properties.
+|cffffcc00Cooldown:|r 25 seconds.
+|cffffcc00Cost:|r 35 mana.
+}
+
+STRING 11838
+// Items: I031 (Prism), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Depending on the initial color of the player, it acquires new properties.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 11839
+// Items: I029 (Ring of Light), Description (Description)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Deals |cffbe81f715|r damage every second to all enemies nearby. 
+|cff81f260[Random bonus]|r
+}
+
+STRING 11840
+// Items: I029 (Ring of Light), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Deals |cffbe81f715|r damage every second to all enemies nearby. 
+|cff81f260[Random bonus]|r
+}
+
+STRING 11841
+// Items: I01W (Mana Berries), Description (Description)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Every third attack restores |cffbe81f725|r Mana.
+}
+
+STRING 11842
+// Items: I01W (Mana Berries), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Every third attack restores |cffbe81f725|r Mana.
+}
+
+STRING 11843
+// Items: I01D (Twin heart), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Connect your soul to target allied hero. Every second, the hero with higher Current Health gives 2% of the Health to the other hero.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 11844
+// Items: I01D (Twin heart), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Connect your soul to target allied hero. Every second, the hero with higher Current Health gives 2% of the Health to the other hero.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 11845
+// Items: I00L (Magical Wisp), Description (Description)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Increases spell power of your hero’s by 20% and of other by 10%.
+}
+
+STRING 11846
+// Items: I00L (Magical Wisp), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Increases spell power of your hero’s by 20% and of other by 10%.
+}
+
+STRING 11847
+// Items: I00L (Magical Wisp), Name (Name)
+{
+Magical Wisp
+}
+
+STRING 11848
+// Items: I005 (Repeller), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Pushes all creatures away from the hero and creates a shield of stones that protects them.
+|cffffcc00Lifetime:|r 10 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
+STRING 11849
+// Items: I005 (Repeller), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Pushes all creatures away from the hero and creates a shield of stones that protects them.
+|cffffcc00Lifetime:|r 10 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 11850
+// Items: I0HH (Energy Charge), Description (Description)
+{
+|cffffcc00Repeatable Quest:|r Spend 1200 Mana |cFF959697(0/1200)|r.
+|cffffcc00Reward:|r Power Wand.
+}
+
+STRING 11851
+// Items: I0HH (Energy Charge), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Repeatable Quest:|r Spend 1200 Mana |cFF959697(0/1200)|r.
+|cffffcc00Reward:|r Power Wand.
+}
+
+STRING 11852
+// Items: I0HI (Power Wand), Name (Name)
+{
+Power Wand
+}
+
+STRING 11853
+// Items: I0HI (Power Wand), Tip (Tooltip - Basic)
+{
+Power Wand
+}
+
+STRING 11854
+// Items: I0FI (Chameleon Eye), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff9001fdRing|r
+After the hero has used |cff60C445Unique|r, turns it into a random activated |cff60C445Unique|r.
+Increases spell power of |cff60C445Unique|r by 500%.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 11855
+// Items: I0FI (Chameleon Eye), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff9001fdRing|r
+After the hero has used |cff60C445Unique|r, turns it into a random activated |cff60C445Unique|r.
+Increases spell power of |cff60C445Unique|r by 500%.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 11856
+// Items: I0E4 (Soul of Determination), Description (Description)
+{
+|cffe96a1cLegendary|r
+If all other heroes die, |cffcc0000corrupted|r, increases stats of your hero by 5 and resurrects the others.
+}
+
+STRING 11857
+// Items: I0E4 (Soul of Determination), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+If all other heroes die, |cffcc0000corrupted|r, increases stats of your hero by 5 and resurrects the others.
+}
+
+STRING 11858
+// Items: I0E3 (Cosmic reed), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff7cfc00Nature|r
+Activation: Deals |cffbe81f70|r damage to an enemy. Damage is always equal to 35% of the health restored by you during the battle.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
+STRING 11859
+// Items: I0E3 (Cosmic reed), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff7cfc00Nature|r
+Activation: Deals |cffbe81f70|r damage to an enemy. Damage is always equal to 35% of the health restored by you during the battle.
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 11860
+// Items: I0DV (Blood of the Ancient (Out of Pool)), Name (Name)
+{
+Blood of the Ancient (Out of Pool)
+}
+
+STRING 11861
+// Items: I0D9 (Tarot Card: Wealth), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corruption.|r Turns all of your |cffe96a1cnon-legendary|r artifacts to |cffe96a1clegendary|r ones.
+}
+
+STRING 11862
+// Items: I0D9 (Tarot Card: Wealth), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corruption.|r Turns all of your |cffe96a1cnon-legendary|r artifacts to |cffe96a1clegendary|r ones.
+}
+
+STRING 11863
+// Items: I0D2 (Sharp deck), Description (Description)
+{
+|cffe96a1cLegendary|r
+When you pick up an Artifact Reward, the other ones do not disappear.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 11864
+// Items: I0D2 (Sharp deck), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+When you pick up an Artifact Reward, the other ones do not disappear.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 11865
+// Items: I06I (Amulet of Souls), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Swaps the percentage of health and mana.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11866
+// Items: I06I (Amulet of Souls), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Swaps the percentage of health and mana.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11867
+// Items: I05I (Gnomish Army Knife), Description (Description)
+{
+|cffe96a1cLegendary|r, |cffb18904Mech|r
+Counts as 4 |cffb18904mechs|r.
+}
+
+STRING 11868
+// Items: I05I (Gnomish Army Knife), Name (Name)
+{
+Gnomish Army Knife
+}
+
+STRING 11869
+// Items: I05I (Gnomish Army Knife), Tip (Tooltip - Basic)
+{
+Gnomish Army Knife
+}
+
+STRING 11870
+// Items: I05I (Gnomish Army Knife), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cffb18904Mech|r
+Counts as 4 |cffb18904mechs|r.
+}
+
+STRING 11871
+// Items: I04L (Mshist's Damned Fiber), Description (Description)
+{
+|cffe96a1cLegendary|r
+When anyone dies, it summons a sheep.
+|cffffcc00Life time:|r 30 seconds.
+}
+
+STRING 11872
+// Items: I04L (Mshist's Damned Fiber), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+When anyone dies, it summons a sheep.
+|cffffcc00Life time:|r 30 seconds.
+}
+
+STRING 11873
+// Items: I021 (Amulet of Balance), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Sets the hero's health and mana to 50%.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11874
+// Items: I021 (Amulet of Balance), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Sets the hero's health and mana to 50%.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11875
+// Items: I020 (Cenarion Horn), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff7cfc00Nature|r
+Activation: Puts the Cenarion Horn on the ground, restoring |cffbe81f740|r health to heroes nearby every second.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 60 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
+STRING 11876
+// Items: I020 (Cenarion Horn), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff7cfc00Nature|r
+Activation: Puts the Cenarion Horn on the ground, restoring |cffbe81f740|r health to heroes nearby every second.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 60 seconds.
+}
+
+STRING 11877
+// Items: I00W (Sword of Power), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff2d9995Weapon|r
+Increases the attack power of your hero by 50%.
+Decreases the attack power of allies by 15%.
+}
+
+STRING 11878
+// Items: I00W (Sword of Power), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff2d9995Weapon|r
+Increases the attack power of your hero by 50%.
+Decreases the attack power of allies by 15%.
+}
+
+STRING 11879
+// Items: I00T (Book of Darkness), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. The hero gets 3 levels. Reduces stats by 10.
+}
+
+STRING 11880
+// Items: I00T (Book of Darkness), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. The hero gets 3 levels. Reduces stats by 10.
+}
+
+STRING 11881
+// Items: I0FR (Elune's Ring), Description (Description)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r, |cff9001fdRing|r
+Every seventh attack of the hero triggers the "|cff5858faMoon|r" set bonus.
+|cff81f260[Random bonus]|r
+}
+
+STRING 11882
+// Items: I0FR (Elune's Ring), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r, |cff9001fdRing|r
+Every seventh attack of the hero triggers the "|cff5858faMoon|r" set bonus.
+|cff81f260[Random bonus]|r
+}
+
+STRING 11883
+// Items: I0BA (Elixir of Acumen), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 1. If the hero used 5 |cff088a08potions|r this game, replaces |cff60C445Unique|r with "Mixology" |cFF959697(0/5)|r.
+}
+
+STRING 11884
+// Items: I0BA (Elixir of Acumen), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 1. If the hero used 5 |cff088a08potions|r this game, replaces |cff60C445Unique|r with "Mixology" |cFF959697(0/5)|r.
+}
+
+STRING 11885
+// Items: I0AQ (Egg of the Void (Out of Pool)), Name (Name)
+{
+Egg of the Void (Out of Pool)
+}
+
+STRING 11886
+// Items: I0A8 (Dark Pearl), Description (Description)
+{
+|cff4169e1Rare|r
+Reduces attack and movement speed by 25%. Activation: Fully restores the hero’s mana.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 11887
+// Items: I0A8 (Dark Pearl), Name (Name)
+{
+Dark Pearl
+}
+
+STRING 11888
+// Items: I0A8 (Dark Pearl), Tip (Tooltip - Basic)
+{
+Dark Pearl
+}
+
+STRING 11889
+// Items: I0A8 (Dark Pearl), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Reduces attack and movement speed by 25%. Activation: Fully restores the hero’s mana.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 11890
+// Items: I09R (Bloody Knife), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Activation: Kills your hero and resurrects it with 50% health and mana.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 11891
+// Items: I09R (Bloody Knife), Name (Name)
+{
+Bloody Knife
+}
+
+STRING 11892
+// Items: I09R (Bloody Knife), Tip (Tooltip - Basic)
+{
+Bloody Knife
+}
+
+STRING 11893
+// Items: I09R (Bloody Knife), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Activation: Kills your hero and resurrects it with 50% health and mana.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 11894
+// Items: I09H (Fireflower), Description (Description)
+{
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+The hero's attacks deal +200% damage to minions.
+}
+
+STRING 11895
+// Items: I09H (Fireflower), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+The hero's attacks deal +200% damage to minions.
+}
+
+STRING 11898
+// Items: I06E (Big Red Button), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Deals |cffbe81f7300|r damage to enemies in area for each empty slot in the inventory (minimum 300).
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 11899
+// Items: I06E (Big Red Button), Name (Name)
+{
+Big Red Button
+}
+
+STRING 11900
+// Items: I06E (Big Red Button), Tip (Tooltip - Basic)
+{
+Big Red Button
+}
+
+STRING 11901
+// Items: I06E (Big Red Button), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Deals |cffbe81f7300|r damage to enemies in area for each empty slot in the inventory (minimum 300).
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 11902
+// Items: I00U (Archivist's Staff), Description (Description)
+{
+|cff4169e1Rare|r
+Increases mana by 200 and spell power by 10%.
+}
+
+STRING 11903
+// Items: I00U (Archivist's Staff), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Increases mana by 200 and spell power by 10%.
+}
+
+STRING 11904
+// Items: IZ04 (Eternal Harvest), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
+After a battle with a boss, if any hero died during that fight, get a random |cffb40431blood|r or |cff7cfc00nature|r item and be offered the other one as an Artifact Reward.
+}
+
+STRING 11905
+// Items: IZ04 (Eternal Harvest), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
+After a battle with a boss, if any hero died during that fight, get a random |cffb40431blood|r or |cff7cfc00nature|r item and be offered the other one as an Artifact Reward.
+}
+
+STRING 11906
+// Items: IZ02 (Bob's Gratitude), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Choose a |cff00cceeCrystal|r. You get a base copy of it.
+}
+
+STRING 11907
+// Items: IZ02 (Bob's Gratitude), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Choose a |cff00cceeCrystal|r. You get a base copy of it.
+}
+
+STRING 11908
+// Items: I0DY (Frozen Flame), Description (Description)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Costs 5 less mana for each ability or item you use while that item is in your inventory.
+Activation: Deal |cffbe81f71000|r damage to the enemy.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 1000 mana.
+}
+
+STRING 11909
+// Items: I0DY (Frozen Flame), Name (Name)
+{
+Frozen Flame
+}
+
+STRING 11910
+// Items: I0DY (Frozen Flame), Tip (Tooltip - Basic)
+{
+Frozen Flame
+}
+
+STRING 11911
+// Items: I0DY (Frozen Flame), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Costs 5 less mana for each ability or item you use while that item is in your inventory.
+Activation: Deal |cffbe81f71000|r damage to the enemy.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 11912
+// Items: I0B2 (Revived Blood), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Activation: Loads the hero’s weapon. The next attack will do 300% more damage.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 20 mana.
+}
+
+STRING 11913
+// Items: I0AT (Symbol of Syrinox), Description (Description)
+{
+|cff4169e1Rare|r
+The hero's attacks deal additional damage from Intelligence (150% multiplier).
+}
+
+STRING 11914
+// Items: I0AT (Symbol of Syrinox), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+The hero's attacks deal additional damage from Intelligence (150% multiplier).
+}
+
+STRING 11915
+// Items: I082 (Infusion of Infinity), Description (Description)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+At the start of battle, fills inventory with random |cff088a08potions|r with +1 charge.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 11916
+// Items: I082 (Infusion of Infinity), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+At the start of battle, fills inventory with random |cff088a08potions|r with +1 charge.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 11917
+// Items: I07P (Raging Fire), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Deal damage to the enemy equal to |cffbe81f710%|r of the maximum health of the target.
+|cffffcc00Cooldown:|r 40 seconds.
+|cffffcc00Cost:|r 125 mana.
+}
+
+STRING 11918
+// Items: I07P (Raging Fire), Name (Name)
+{
+Raging Fire
+}
+
+STRING 11919
+// Items: I07P (Raging Fire), Tip (Tooltip - Basic)
+{
+Raging Fire
+}
+
+STRING 11920
+// Items: I05S (Star in a Bottle), Description (Description)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+Instead of the usual effect, the Fire Potion deals massive damage and additional damage equal to |cffbe81f76%|r of the health of enemies.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 11921
+// Items: I05S (Star in a Bottle), Name (Name)
+{
+Star in a Bottle
+}
+
+STRING 11922
+// Items: I05S (Star in a Bottle), Tip (Tooltip - Basic)
+{
+Star in a Bottle
+}
+
+STRING 11923
+// Items: I05S (Star in a Bottle), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+Instead of the usual effect, the Fire Potion deals massive damage and additional damage equal to |cffbe81f76%|r of the health of enemies.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
 }
 

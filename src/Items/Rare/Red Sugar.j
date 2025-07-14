@@ -7,7 +7,7 @@ scope RedSugar initializer init
 	
 	private function condition takes nothing returns boolean
 		//call BJDebugMsg("AfterHeal.GetDataUnit(\"target\"): " + GetUnitName( AfterHeal.GetDataUnit("target") ) )
-		return udg_fightmod[3] == false and combat( Event_AfterHeal_Target/*AfterHeal.GetDataUnit("target")*/, false, 0 )
+		return udg_fightmod[3] == false and combat( Event_AfterHeal_Target/*AfterHeal.GetDataUnit("target")*/, false, 0 ) and inv(Event_AfterHeal_Target, ITEM_ID) > 0
 	endfunction
 	
 	private function action takes nothing returns nothing

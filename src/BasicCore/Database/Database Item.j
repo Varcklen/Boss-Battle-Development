@@ -125,7 +125,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I0ED'
 	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I02O'
 	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I077'
-	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I075'
+	    //set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I075'
 	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I0CF'
 	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I0CM'
 	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I0CH'
@@ -954,7 +954,7 @@ library LibDataItems
 	    set DB_SetItems[3][BaseNum()] = 'I029'
 	    set DB_SetItems[3][BaseNum()] = 'I06M'
 	    set DB_SetItems[3][BaseNum()] = 'I011'
-	    set DB_SetItems[3][BaseNum()] = 'I075'
+	    //set DB_SetItems[3][BaseNum()] = 'I075'
 	    set DB_SetItems[3][BaseNum()] = 'I0EH'
 	    set DB_SetItems[3][BaseNum()] = 'I0AR'
 	    set DB_SetItems[3][BaseNum()] = 'I07W'
@@ -1185,6 +1185,7 @@ library LibDataItems
 	    set DB_SetItems[9][BaseNum()] = 'I0HE'
 	    set DB_SetItems[9][BaseNum()] = 'I0HG'
 	    set DB_SetItems[9][BaseNum()] = 'I052'
+	    set DB_SetItems[9][BaseNum()] = 'I0DY'
 	    set udg_DB_SetItems_Num[9] = udg_base
 	    
 	    ///???

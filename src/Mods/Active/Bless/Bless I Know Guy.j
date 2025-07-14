@@ -5,8 +5,7 @@ scope BlessIKnowGuy initializer init
 	endglobals
 
 	private function action takes nothing returns nothing
-        set udg_logic[42] = true
-        call BlzFrameSetText( juletext[1][0], "0 G" )
+        call JuleFrame_MakeNextRefreshFree()
 	endfunction
 
 	//===========================================================================

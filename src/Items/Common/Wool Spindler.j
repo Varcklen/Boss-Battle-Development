@@ -3,7 +3,7 @@ scope WoolSpindler initializer init
 	globals
 		private constant integer ITEM_ID = 'I0EY'
 		
-		private constant integer GOLD_GAIN = 3
+		private constant integer GOLD_GAIN = 5
 	endglobals
 	
 	private function condition takes nothing returns boolean

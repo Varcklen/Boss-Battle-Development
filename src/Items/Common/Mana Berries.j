@@ -4,7 +4,7 @@ scope ManaBerries initializer init
 		private constant integer ITEM_ID = 'I01W'
 		
 		private constant integer COUNTER_REQUIRE = 3
-		private constant integer MANA_TO_RESTORE = 12
+		private constant integer MANA_TO_RESTORE = 25
 		private constant string ANIMATION = "Abilities\\Spells\\Undead\\ReplenishMana\\SpiritTouchTarget.mdl"
 		
 		private constant integer STRING_HASH = StringHash( "mana_berries" )
