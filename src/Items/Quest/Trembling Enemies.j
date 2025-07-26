@@ -3,6 +3,8 @@ scope TremblingEnemies initializer init
 	globals
 		private constant integer ITEM_ID = 'I09B'
 		private constant integer REWARD_ID = 'I092'
+		
+		private constant integer AMOUNT_REQUIRE = 25
 	endglobals
 
 	private function condition takes nothing returns boolean
@@ -17,7 +19,7 @@ scope TremblingEnemies initializer init
 		set s = LoadInteger( udg_hash, GetHandleId( caster ), StringHash( udg_QuestItemCode[6] ) ) + 1
         call SaveInteger( udg_hash, GetHandleId( caster ), StringHash( udg_QuestItemCode[6] ), s )
 
-        if s >= udg_QuestNum[6] then
+        if s >= AMOUNT_REQUIRE then
             call SetWidgetLife( GetItemOfTypeFromUnitBJ( caster, ITEM_ID), 0. )
             set bj_lastCreatedItem = CreateItem( REWARD_ID, GetUnitX(caster), GetUnitY(caster))
             call UnitAddItem(caster, bj_lastCreatedItem)
@@ -25,7 +27,7 @@ scope TremblingEnemies initializer init
             call DestroyEffect( AddSpecialEffect( "Abilities\\Spells\\Human\\ReviveHuman\\ReviveHuman.mdl", GetUnitX(caster), GetUnitY(caster) ) )
             set udg_QuestDone[i] = true
         else
-            call QuestDiscription( caster, ITEM_ID, s, udg_QuestNum[6] )
+            call QuestDiscription( caster, ITEM_ID, s, AMOUNT_REQUIRE )
         endif
 		
 		set caster = null

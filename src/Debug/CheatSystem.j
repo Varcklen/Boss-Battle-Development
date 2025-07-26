@@ -45,6 +45,7 @@ library CheatSystem initializer init requires Multiboard
 		call Cheat.create(CheatBerserk_Trigger, "-rage", "The hero enters berserk mode for 10 seconds.")
 		call Cheat.create(CheatSets_Trigger, "-sets", "Displays the number of entities from sets on the player.")
 		call Cheat.create(CheatSmallPool_Trigger, "-pool", "Set small artifact pool." )
+		call Cheat.create(CheatCheckRarity_Trigger, "-rarity", "Checks chances to get an item." )
 	endfunction
 
 	public function IsCheatsEnabled takes nothing returns boolean

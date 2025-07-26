@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.9.2T|r
+|cffbe81f7Boss Battle 1.9.4T|r
 }
 
 STRING 2
@@ -1500,19 +1500,19 @@ Caliph Salamander
 }
 
 STRING 236
-// Units: n00M (Split Artifact (Slot 6)), Hotkey (Hotkey)
+// Units: n00M (Split Artifact (Slot 6)XXXXX), Hotkey (Hotkey)
 {
 X
 }
 
 STRING 237
-// Units: n00M (Split Artifact (Slot 6)), Name (Name)
+// Units: n00M (Split Artifact (Slot 6)XXXXX), Tip (Tooltip - Basic)
 {
 Split Artifact (Slot 6)
 }
 
 STRING 238
-// Units: n00M (Split Artifact (Slot 6)), Tip (Tooltip - Basic)
+// Items: I0HL (Split Artifact (Slot 6)), Name (Name)
 {
 Split Artifact (Slot 6)
 }
@@ -1524,19 +1524,19 @@ Hero Spirit: Hero Spirit
 }
 
 STRING 240
-// Units: n00L (Split Artifact (Slot 5)), Hotkey (Hotkey)
+// Units: n00L (Split Artifact (Slot 5)XXXXX), Hotkey (Hotkey)
 {
 Z
 }
 
 STRING 241
-// Units: n00L (Split Artifact (Slot 5)), Name (Name)
+// Units: n00L (Split Artifact (Slot 5)XXXXX), Tip (Tooltip - Basic)
 {
 Split Artifact (Slot 5)
 }
 
 STRING 242
-// Units: n00L (Split Artifact (Slot 5)), Tip (Tooltip - Basic)
+// Items: I0HK (Split Artifact (Slot 5)), Name (Name)
 {
 Split Artifact (Slot 5)
 }
@@ -1548,19 +1548,19 @@ Hero Spirit
 }
 
 STRING 244
-// Units: n00K (Split Artifact (Slot 4)), Hotkey (Hotkey)
+// Units: n00K (Split Artifact (Slot 4)XXXXX), Hotkey (Hotkey)
 {
 S
 }
 
 STRING 245
-// Units: n00K (Split Artifact (Slot 4)), Name (Name)
+// Units: n00K (Split Artifact (Slot 4)XXXXX), Tip (Tooltip - Basic)
 {
 Split Artifact (Slot 4)
 }
 
 STRING 246
-// Units: n00K (Split Artifact (Slot 4)), Tip (Tooltip - Basic)
+// Items: I0HO (Split Artifact (Slot 4)), Name (Name)
 {
 Split Artifact (Slot 4)
 }
@@ -1572,19 +1572,19 @@ While your hero falls, you gain control of their spirit, which continues to figh
 }
 
 STRING 248
-// Units: n00J (Split Artifact (Slot 3)), Hotkey (Hotkey)
+// Units: n00J (Split Artifact (Slot 3)XXXXX), Hotkey (Hotkey)
 {
 A
 }
 
 STRING 249
-// Units: n00J (Split Artifact (Slot 3)), Name (Name)
+// Units: n00J (Split Artifact (Slot 3)XXXXX), Tip (Tooltip - Basic)
 {
 Split Artifact (Slot 3)
 }
 
 STRING 250
-// Units: n00J (Split Artifact (Slot 3)), Tip (Tooltip - Basic)
+// Items: I0HN (Split Artifact (Slot 3)), Name (Name)
 {
 Split Artifact (Slot 3)
 }
@@ -1597,19 +1597,19 @@ Improved by the ability "Symphony of the Damned".
 }
 
 STRING 252
-// Units: n00I (Split Artifact (Slot 2)), Hotkey (Hotkey)
+// Units: n00I (Split Artifact (Slot 2)XXXXX), Hotkey (Hotkey)
 {
 W
 }
 
 STRING 253
-// Units: n00I (Split Artifact (Slot 2)), Name (Name)
+// Units: n00I (Split Artifact (Slot 2)XXXXX), Tip (Tooltip - Basic)
 {
 Split Artifact (Slot 2)
 }
 
 STRING 254
-// Units: n00I (Split Artifact (Slot 2)), Tip (Tooltip - Basic)
+// Items: I0HM (Split Artifact (Slot 2)), Name (Name)
 {
 Split Artifact (Slot 2)
 }
@@ -1625,19 +1625,19 @@ Activation: Turns the enemy into a sheep.
 }
 
 STRING 256
-// Units: n00H (Split Artifact (Slot 1)), Hotkey (Hotkey)
+// Units: n00H (Split Artifact (Slot 1)XXXXX), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 257
-// Units: n00H (Split Artifact (Slot 1)), Name (Name)
+// Units: n00H (Split Artifact (Slot 1)XXXXX), Tip (Tooltip - Basic)
 {
 Split Artifact (Slot 1)
 }
 
 STRING 258
-// Units: n00H (Split Artifact (Slot 1)), Tip (Tooltip - Basic)
+// Items: I0HJ (Split Artifact (Slot 1)), Name (Name)
 {
 Split Artifact (Slot 1)
 }
@@ -2682,6 +2682,12 @@ STRING 429
 Erk
 }
 
+STRING 430
+// Units: n00H (Split Artifact (Slot 1)XXXXX), Name (Name)
+{
+Split Artifact (Slot 1)XXXXX
+}
+
 STRING 431
 // Units: O016 ((S) Shoggoth), Propernames (Proper Names)
 {
@@ -2875,10 +2881,9 @@ Cho
 }
 
 STRING 462
-// Items: I099 (Battle of Power), Description (Description)
+// Items: I09C (Wild Hunt), Name (Name)
 {
-|cffffcc00Quest:|r Restore 2500 mana |cFF959697(0/2500)|r.
-|cffffcc00Reward:|r Ikaros Mudstone.
+Wild Hunt
 }
 
 STRING 463
@@ -2912,10 +2917,9 @@ Blackbeard
 }
 
 STRING 468
-// Items: I099 (Battle of Power), Ubertip (Tooltip - Extended)
+// Items: I09C (Wild Hunt), Tip (Tooltip - Basic)
 {
-|cffffcc00Quest:|r Restore 2500 mana |cFF959697(0/2500)|r.
-|cffffcc00Reward:|r Ikaros Mudstone.
+Wild Hunt
 }
 
 STRING 469
@@ -3958,6 +3962,12 @@ STRING 631
 Monty Python
 }
 
+STRING 632
+// Items: I0HJ (Split Artifact (Slot 1)), Tip (Tooltip - Basic)
+{
+Split Artifact (Slot 1)
+}
+
 STRING 633
 // Items: IZ02 (Bob's Gratitude), Name (Name)
 {
@@ -3968,6 +3978,15 @@ STRING 634
 // Items: IZ02 (Bob's Gratitude), Tip (Tooltip - Basic)
 {
 Bob's Gratitude
+}
+
+STRING 635
+// Units: n00M (Split Artifact (Slot 6)XXXXX), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Cost|r - 150 Gold.
+Destroys an item.
+
+|cffffcc00Potions are destroyed for free.|r
 }
 
 STRING 636
@@ -5030,10 +5049,9 @@ Activation: Throw Billy at the enemy! The target will take |cffbe81f7500|r damag
 }
 
 STRING 797
-// Items: I0GD (Volatile Water), Description (Description)
+// Abilities: A09B (Mimic: Reflective Surface), Researchubertip (Tooltip - Learn - Extended)
 {
-|cff4169e1Rare|r
-When exchanged, it turns into the artifact with which it was exchanged.
+Reduces damage taken from attacks by 5%/10%/15%/20%/25%. Attackers take |cffbe81f7damage|r equal to the absorbed damage.
 }
 
 STRING 798
@@ -5049,10 +5067,9 @@ Volatile Water
 }
 
 STRING 800
-// Items: I0GD (Volatile Water), Ubertip (Tooltip - Extended)
+// Abilities: A09B (Mimic: Reflective Surface), Ubertip (Tooltip - Normal - Extended)
 {
-|cff4169e1Rare|r
-When exchanged, it turns into the artifact with which it was exchanged.
+Reduces damage taken from attacks by 5%. Attackers take |cffbe81f7damage|r equal to the absorbed damage.
 }
 
 STRING 801
@@ -5590,6 +5607,12 @@ When the hero attacks a minion, with a probability of |cffd7df018%|r, the target
 |cffffcc00Life time:|r 30 seconds.
 }
 
+STRING 877
+// Items: I0HK (Split Artifact (Slot 5)), Tip (Tooltip - Basic)
+{
+Split Artifact (Slot 5)
+}
+
 STRING 878
 // Items: I0FT (Blooming weed), Name (Name)
 {
@@ -5600,6 +5623,12 @@ STRING 879
 // Items: I0FT (Blooming weed), Tip (Tooltip - Basic)
 {
 Blooming weed
+}
+
+STRING 880
+// Abilities: A09B (Mimic: Reflective Surface), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces damage taken from attacks by 10%. Attackers take |cffbe81f7damage|r equal to the absorbed damage.
 }
 
 STRING 881
@@ -5630,6 +5659,15 @@ STRING 884
 Increases stats by 30.
 }
 
+STRING 885
+// Units: n00L (Split Artifact (Slot 5)XXXXX), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Cost|r - 150 Gold.
+Destroys an item.
+
+|cffffcc00Potions are destroyed for free.|r
+}
+
 STRING 886
 // Items: I0FR (Elune's Ring), Name (Name)
 {
@@ -5640,6 +5678,12 @@ STRING 887
 // Items: I0FR (Elune's Ring), Tip (Tooltip - Basic)
 {
 Elune's Ring
+}
+
+STRING 888
+// Items: I05D (Fire Storm Potion), Hotkey (Hotkey)
+{
+X
 }
 
 STRING 889
@@ -5876,6 +5920,12 @@ Activation: Restores |cffbe81f7300|r health.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 921
+// Items: I0HL (Split Artifact (Slot 6)), Tip (Tooltip - Basic)
+{
+Split Artifact (Slot 6)
+}
+
 STRING 922
 // Items: I0FI (Chameleon Eye), Name (Name)
 {
@@ -5886,6 +5936,12 @@ STRING 923
 // Items: I0FI (Chameleon Eye), Tip (Tooltip - Basic)
 {
 Chameleon Eye
+}
+
+STRING 924
+// Abilities: A09B (Mimic: Reflective Surface), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces damage taken from attacks by 15%. Attackers take |cffbe81f7damage|r equal to the absorbed damage.
 }
 
 STRING 925
@@ -6345,12 +6401,9 @@ Every 25 seconds, imposes a shield on the hero that absorbs |cffbe81f7300|r dama
 }
 
 STRING 990
-// Items: I0F1 (Orb of Cenarius), Description (Description)
+// Abilities: A09B (Mimic: Reflective Surface), Ubertip (Tooltip - Normal - Extended)
 {
-|cffe96a1cLegendary|r
-Increases mana by 200.
-When the hero restores the target's health, applies a buff to the target, which restores 50% of the last healing over time.
-|cffffcc00Duration:|r 5 seconds.
+Reduces damage taken from attacks by 20%. Attackers take |cffbe81f7damage|r equal to the absorbed damage.
 }
 
 STRING 991
@@ -6366,12 +6419,9 @@ Orb of Cenarius
 }
 
 STRING 993
-// Items: I0F1 (Orb of Cenarius), Ubertip (Tooltip - Extended)
+// Abilities: A09B (Mimic: Reflective Surface), Ubertip (Tooltip - Normal - Extended)
 {
-|cffe96a1cLegendary|r
-Increases mana by 200.
-When the hero restores the target's health, applies a buff to the target, which restores 50% of the last healing over time.
-|cffffcc00Duration:|r 5 seconds.
+Reduces damage taken from attacks by 25%. Attackers take |cffbe81f7damage|r equal to the absorbed damage.
 }
 
 STRING 994
@@ -6409,30 +6459,13 @@ Activation: Restores |cffbe81f7400|r health over time.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 998
-// Items: I0EZ (Scientist library card), Description (Description)
+STRING 1002
+// Units: n00K (Split Artifact (Slot 4)XXXXX), Ubertip (Tooltip - Extended)
 {
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corruption.|r Increases stats by 20.
-}
+|cffffcc00Cost|r - 150 Gold.
+Destroys an item.
 
-STRING 999
-// Items: I0EZ (Scientist library card), Name (Name)
-{
-Scientist library card
-}
-
-STRING 1000
-// Items: I0EZ (Scientist library card), Tip (Tooltip - Basic)
-{
-Scientist library card
-}
-
-STRING 1001
-// Items: I0EZ (Scientist library card), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corruption.|r Increases stats by 20.
+|cffffcc00Potions are destroyed for free.|r
 }
 
 STRING 1003
@@ -6445,6 +6478,40 @@ STRING 1004
 // Items: I0EY (Wool Spindler), Tip (Tooltip - Basic)
 {
 Wool Spindler
+}
+
+STRING 1005
+// Items: I0HM (Split Artifact (Slot 2)), Tip (Tooltip - Basic)
+{
+Split Artifact (Slot 2)
+}
+
+STRING 1006
+// Items: I097 (Total Destruction), Description (Description)
+{
+|cffffcc00Quest:|r Fall your hero 5 times |cFF959697(0/5)|r.
+|cffffcc00Reward at the end of the battle:|r Sandro's Gift.
+}
+
+STRING 1007
+// Units: n00J (Split Artifact (Slot 3)XXXXX), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Cost|r - 150 Gold.
+Destroys an item.
+
+|cffffcc00Potions are destroyed for free.|r
+}
+
+STRING 1008
+// Items: I0HN (Split Artifact (Slot 3)), Tip (Tooltip - Basic)
+{
+Split Artifact (Slot 3)
+}
+
+STRING 1009
+// Items: I097 (Total Destruction), Name (Name)
+{
+Total Destruction
 }
 
 STRING 1010
@@ -6504,26 +6571,27 @@ Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a quest reward.
 }
 
 STRING 1018
-// Items: I0EU (Blacksmith craft), Description (Description)
+// Items: I0EU (Blacksmith Craft), Description (Description)
 {
 |cffffcc00Quest:|r Refuse artifact-rewards 5 times |cFF959697(0/5)|r.
 |cffffcc00Reward:|r Pandora's bag.
 }
 
 STRING 1019
-// Items: I0EU (Blacksmith craft), Name (Name)
+// Items: I097 (Total Destruction), Tip (Tooltip - Basic)
 {
-Blacksmith craft
+Total Destruction
 }
 
 STRING 1020
-// Items: I0EU (Blacksmith craft), Tip (Tooltip - Basic)
+// Items: I097 (Total Destruction), Ubertip (Tooltip - Extended)
 {
-Blacksmith craft
+|cffffcc00Quest:|r Fall your hero 5 times |cFF959697(0/5)|r.
+|cffffcc00Reward at the end of the battle:|r Sandro's Gift.
 }
 
 STRING 1021
-// Items: I0EU (Blacksmith craft), Ubertip (Tooltip - Extended)
+// Items: I0EU (Blacksmith Craft), Ubertip (Tooltip - Extended)
 {
 |cffffcc00Quest:|r Refuse artifact-rewards 5 times |cFF959697(0/5)|r.
 |cffffcc00Reward:|r Pandora's bag.
@@ -6735,6 +6803,15 @@ STRING 1049
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an orb twice |cFF959697(2/2)|r.
 }
 
+STRING 1050
+// Units: n00I (Split Artifact (Slot 2)XXXXX), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Cost|r - 150 Gold.
+Destroys an item.
+
+|cffffcc00Potions are destroyed for free.|r
+}
+
 STRING 1051
 // Items: I0EM (Enchanted Thorium), Name (Name)
 {
@@ -6745,6 +6822,12 @@ STRING 1052
 // Items: I0EM (Enchanted Thorium), Tip (Tooltip - Basic)
 {
 Enchanted Thorium
+}
+
+STRING 1053
+// Items: I0HO (Split Artifact (Slot 4)), Tip (Tooltip - Basic)
+{
+Split Artifact (Slot 4)
 }
 
 STRING 1054
@@ -6860,6 +6943,13 @@ Forces the enemy to attack the caster.
 Does not work on mechs.|r
 }
 
+STRING 1070
+// Items: I09D (Espionage Training), Description (Description)
+{
+|cffffcc00Quest:|r Stay 60 seconds in invisibility |cFF959697(0/60)|r.
+|cffffcc00Reward:|r Observer Core.
+}
+
 STRING 1071
 // Items: I0EH (Ring of Life), Name (Name)
 {
@@ -6870,6 +6960,15 @@ STRING 1072
 // Items: I0EH (Ring of Life), Tip (Tooltip - Basic)
 {
 Ring of Life
+}
+
+STRING 1073
+// Units: n00H (Split Artifact (Slot 1)XXXXX), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Cost|r - 150 Gold.
+Destroys an item.
+
+|cffffcc00Potions are destroyed for free.|r
 }
 
 STRING 1074
@@ -7172,6 +7271,12 @@ STRING 1116
 Totem of Burning Gaze
 }
 
+STRING 1117
+// Items: I05R (Dark sphere), Hotkey (Hotkey)
+{
+Z
+}
+
 STRING 1118
 // Items: I044 (Magic meat), Description (Description)
 {
@@ -7200,6 +7305,12 @@ At the start of the battle, gives a |cffC71585cursed|r |cff088a08potion|r with 3
 |cff81f260[Random bonus]|r
 }
 
+STRING 1122
+// Items: I058 (Desert Potion), Hotkey (Hotkey)
+{
+A
+}
+
 STRING 1123
 // Items: I0E4 (Soul of Determination), Name (Name)
 {
@@ -7212,6 +7323,18 @@ STRING 1124
 Soul of Determination
 }
 
+STRING 1125
+// Items: I059 (Shower potion), Hotkey (Hotkey)
+{
+S
+}
+
+STRING 1126
+// Items: I03A (Change artifact (Slot 1)), Hotkey (Hotkey)
+{
+Q
+}
+
 STRING 1127
 // Items: I0E3 (Cosmic reed), Name (Name)
 {
@@ -7222,6 +7345,36 @@ STRING 1128
 // Items: I0E3 (Cosmic reed), Tip (Tooltip - Basic)
 {
 Cosmic reed
+}
+
+STRING 1129
+// Items: I055 (Water Potion), Hotkey (Hotkey)
+{
+W
+}
+
+STRING 1130
+// Units: n00M (Split Artifact (Slot 6)XXXXX), Name (Name)
+{
+Split Artifact (Slot 6)XXXXX
+}
+
+STRING 1131
+// Units: n00L (Split Artifact (Slot 5)XXXXX), Name (Name)
+{
+Split Artifact (Slot 5)XXXXX
+}
+
+STRING 1132
+// Units: n00K (Split Artifact (Slot 4)XXXXX), Name (Name)
+{
+Split Artifact (Slot 4)XXXXX
+}
+
+STRING 1133
+// Units: n00J (Split Artifact (Slot 3)XXXXX), Name (Name)
+{
+Split Artifact (Slot 3)XXXXX
 }
 
 STRING 1134
@@ -7310,6 +7463,37 @@ Your health-restoring abilities and items restore 150% more health. After healin
 |cffffcc00Duration:|r 5 seconds.
 }
 
+STRING 1146
+// Units: n00I (Split Artifact (Slot 2)XXXXX), Name (Name)
+{
+Split Artifact (Slot 2)XXXXX
+}
+
+STRING 1147
+// Items: I0F1 (Orb of Cenarius), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases mana by 200.
+When the hero restores the target's health, applies a buff to the target, which restores |cffbe81f750%|r of the last healing over time.
+|cffffcc00Duration:|r 5 seconds.
+}
+
+STRING 1148
+// Items: I0F1 (Orb of Cenarius), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases mana by 200.
+When the hero restores the target's health, applies a buff to the target, which restores |cffbe81f750%|r of the last healing over time.
+|cffffcc00Duration:|r 5 seconds.
+}
+
+STRING 1149
+// Items: I0EE (Midas Ring), Description (Description)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r
+Activation: Turns an item into gold. |cffffffff3|r charges. Charges are restored after the battle.
+}
+
 STRING 1150
 // Items: I0DX (Serrated blade), Description (Description)
 {
@@ -7381,6 +7565,13 @@ STRING 1159
 // Items: I0DV (Blood of the Ancient (Out of Pool)), Tip (Tooltip - Basic)
 {
 Blood of the Ancient
+}
+
+STRING 1160
+// Items: I0EE (Midas Ring), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r
+Activation: Turns an item into gold. |cffffffff3|r charges. Charges are restored after the battle.
 }
 
 STRING 1161
@@ -7910,6 +8101,13 @@ STRING 1233
 Activation: |cffcc0000Corrupted|r. Grants an extra attempt at a boss fight. Kills all heroes. Only works in boss fights.
 }
 
+STRING 1234
+// Items: I0GD (Volatile Water), Description (Description)
+{
+|cff4169e1Rare|r
+When exchanged with |cffe96a1cnon-legendary|r artifact, it turns into it.
+}
+
 STRING 1235
 // Items: I0DC (Totem of Exchange), Name (Name)
 {
@@ -7956,34 +8154,36 @@ Reduces physical damage taken by 10%.
 }
 
 STRING 1242
-// Items: I0DA (World clock), Description (Description)
+// Items: I09D (Espionage Training), Name (Name)
 {
-|cff4169e1Rare|r
-Activation: Freezes time for all other current creatures.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-|cffffcc00Cost:|r 35 mana.
+Espionage Training
 }
 
 STRING 1243
-// Items: I0DA (World clock), Name (Name)
+// Items: I09D (Espionage Training), Tip (Tooltip - Basic)
 {
-World clock
+Espionage Training
 }
 
 STRING 1244
-// Items: I0DA (World clock), Tip (Tooltip - Basic)
+// Items: I09D (Espionage Training), Ubertip (Tooltip - Extended)
 {
-World clock
+|cffffcc00Quest:|r Stay 60 seconds in invisibility |cFF959697(0/60)|r.
+|cffffcc00Reward:|r Observer Core.
 }
 
 STRING 1245
-// Items: I0DA (World clock), Ubertip (Tooltip - Extended)
+// Items: I06V (Split Time), Description (Description)
+{
+|cffffcc00Quest:|r Fully use 3 |cffcc0000corrupted|r artifacts |cFF959697(0/3)|r.
+|cffffcc00Reward:|r Rubedo's Belt.
+}
+
+STRING 1246
+// Items: I0GD (Volatile Water), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r
-Activation: Freezes time for all other current creatures.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
+When exchanged with |cffe96a1cnon-legendary|r artifact, it turns into it.
 }
 
 STRING 1247
@@ -7996,6 +8196,16 @@ STRING 1248
 // Items: I0D9 (Tarot Card: Wealth), Tip (Tooltip - Basic)
 {
 Tarot Card: Wealth
+}
+
+STRING 1249
+// Items: I0DA (World Clock), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Freezes all enemies in time.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 50 seconds.
+|cffffcc00Cost:|r 35 mana.
 }
 
 STRING 1250
@@ -8171,6 +8381,12 @@ Activation: Restores |cffbe81f7health|r to all heroes equal to your hero's curre
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
+STRING 1274
+// Items: I0DA (World Clock), Name (Name)
+{
+World Clock
+}
+
 STRING 1275
 // Items: I0D2 (Sharp deck), Name (Name)
 {
@@ -8181,6 +8397,12 @@ STRING 1276
 // Items: I0D2 (Sharp deck), Tip (Tooltip - Basic)
 {
 Sharp deck
+}
+
+STRING 1277
+// Items: I0DA (World Clock), Tip (Tooltip - Basic)
+{
+World Clock
 }
 
 STRING 1278
@@ -8209,6 +8431,15 @@ STRING 1281
 |cffbababcCommon|r
 Your buffs and debuffs last 50% longer.
 |cff81f260[Random bonus]|r
+}
+
+STRING 1282
+// Items: I0DA (World Clock), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Freezes all enemies in time.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 50 seconds.
 }
 
 STRING 1283
@@ -9246,12 +9477,9 @@ Activation: Transforms all minions in the area into sheeps.
 }
 
 STRING 1434
-// Items: I0BY (Granite of Science), Description (Description)
+// Items: I06V (Split Time), Name (Name)
 {
-|cffe96a1cLegendary|r
-Activation: Your next activated |cffcc0000non-corrupted|r artifact will trigger three times.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 75 mana.
+Split Time
 }
 
 STRING 1435
@@ -9275,78 +9503,81 @@ Activation: Your next activated |cffcc0000non-corrupted|r artifact will trigger 
 }
 
 STRING 1438
-// Items: I0BX (Scientific discovery), Description (Description)
+// Items: I06V (Split Time), Tip (Tooltip - Basic)
 {
-|cffffcc00Quest:|r Activate 25 |cffcc0000non-corrupted|r artifacts |cFF959697(0/25)|r.
-|cffffcc00Reward:|r Granite of Science.
+Split Time
 }
 
 STRING 1439
-// Items: I0BX (Scientific discovery), Name (Name)
+// Items: I06V (Split Time), Ubertip (Tooltip - Extended)
 {
-Scientific discovery
+|cffffcc00Quest:|r Fully use 3 |cffcc0000corrupted|r artifacts |cFF959697(0/3)|r.
+|cffffcc00Reward:|r Rubedo's Belt.
 }
 
 STRING 1440
-// Items: I0BX (Scientific discovery), Tip (Tooltip - Basic)
+// Items: I03F (Sandro's Gift), Description (Description)
 {
-Scientific discovery
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cff4169e1rare|r item 10 times |cFF959697(10/10)|r.
 }
 
 STRING 1441
-// Items: I0BX (Scientific discovery), Ubertip (Tooltip - Extended)
+// Items: I03F (Sandro's Gift), Name (Name)
 {
-|cffffcc00Quest:|r Activate 25 |cffcc0000non-corrupted|r artifacts |cFF959697(0/25)|r.
-|cffffcc00Reward:|r Granite of Science.
+Sandro's Gift
 }
 
 STRING 1442
-// Items: I0BW (Hunger for knowledge), Description (Description)
+// Items: I0BW (Hunger for Knowledge), Description (Description)
 {
 |cffffcc00Quest:|r Get level 15 |cFF959697(0/15)|r.
 |cffffcc00Reward:|r Priss's Papyrus.
 }
 
 STRING 1443
-// Items: I0BW (Hunger for knowledge), Name (Name)
+// Items: I03F (Sandro's Gift), Tip (Tooltip - Basic)
 {
-Hunger for knowledge
+Sandro's Gift
 }
 
 STRING 1444
-// Items: I0BW (Hunger for knowledge), Tip (Tooltip - Basic)
+// Items: I03F (Sandro's Gift), Ubertip (Tooltip - Extended)
 {
-Hunger for knowledge
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cff4169e1rare|r item 10 times |cFF959697(10/10)|r.
 }
 
 STRING 1445
-// Items: I0BW (Hunger for knowledge), Ubertip (Tooltip - Extended)
+// Items: I0BW (Hunger for Knowledge), Ubertip (Tooltip - Extended)
 {
 |cffffcc00Quest:|r Get level 15 |cFF959697(0/15)|r.
 |cffffcc00Reward:|r Priss's Papyrus.
 }
 
 STRING 1446
-// Items: I0BV (Reign of the legend), Description (Description)
+// Items: I0BV (Sheeppocalypse), Description (Description)
 {
 |cffffcc00Quest:|r Summon 50 sheeps under your control |cFF959697(0/50)|r.
 |cffffcc00Reward:|r Cane of Khnum.
 }
 
 STRING 1447
-// Items: I0BV (Reign of the legend), Name (Name)
+// Items: I09B (Trembling Enemies), Description (Description)
 {
-Reign of the legend
+|cffffcc00Quest:|r Use the first ability (|cffffcc00Q|r) 25 times |cFF959697(0/25)|r.
+|cffffcc00Reward:|r Mask of Dagoth Ur.
 }
 
 STRING 1448
-// Items: I0BV (Reign of the legend), Tip (Tooltip - Basic)
+// Items: I09B (Trembling Enemies), Ubertip (Tooltip - Extended)
 {
-Reign of the legend
+|cffffcc00Quest:|r Use the first ability (|cffffcc00Q|r) 25 times |cFF959697(0/25)|r.
+|cffffcc00Reward:|r Mask of Dagoth Ur.
 }
 
 STRING 1449
-// Items: I0BV (Reign of the legend), Ubertip (Tooltip - Extended)
+// Items: I0BV (Sheeppocalypse), Ubertip (Tooltip - Extended)
 {
 |cffffcc00Quest:|r Summon 50 sheeps under your control |cFF959697(0/50)|r.
 |cffffcc00Reward:|r Cane of Khnum.
@@ -9464,6 +9695,12 @@ When you kill an enemy, it absorbs their soul.
 Activation: Deals |cffbe81f2200|r damage to the enemy.
 Destroys all souls and deals an additional 200 damage per soul.
 |cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 1466
+// Abilities: A1HA (Extra: Crystallization (Crystal Mimic)), Name (Name)
+{
+Extra: Crystallization (Crystal Mimic)
 }
 
 STRING 1467
@@ -9704,6 +9941,12 @@ When the hero uses an ability or item, reduces the cooldown of the hero’s abil
 |cff81f260[Random bonus]|r
 }
 
+STRING 1502
+// Abilities: A1HA (Extra: Crystallization (Crystal Mimic)), Tip (Tooltip - Normal)
+{
+Crystallization
+}
+
 STRING 1503
 // Items: I0BH (Catalyst), Name (Name)
 {
@@ -9874,6 +10117,14 @@ STRING 1529
 Activation: |cffcc0000Corrupted|r. Increases stats by 1. If there are 6 artifacts in the hero’s inventory, destroys them and gives 6 levels.
 }
 
+STRING 1530
+// Abilities: A099 (Mimic: Crystal Barrage), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f780/120/160/200/240|r damage to the enemy. If the target dies, you get a random stat. Repeats on a random nearby enemy for each |cff00cceeCrystal|r you have.
+|cffffcc00Cooldown:|r 20 second.
+|cffffcc00Cost:|r 60 mana.
+}
+
 STRING 1531
 // Items: I0BA (Elixir of Acumen), Name (Name)
 {
@@ -9886,11 +10137,11 @@ STRING 1532
 Elixir of Acumen
 }
 
-STRING 1534
-// Items: I0B9 (Scholar's Gambit), Description (Description)
+STRING 1533
+// Abilities: A099 (Mimic: Crystal Barrage), Ubertip (Tooltip - Normal - Extended)
 {
-|cffffcc00Quest:|r Buy 30 books |cFF959697(0/30)|r.
-|cffffcc00Reward:|r Scientist library card.
+Deals |cffbe81f780|r damage to the enemy. If the target dies, you get a random stat. Repeats on a random nearby enemy for each |cff00cceeCrystal|r you have.
+|cffffcc00Cooldown:|r 20 second.
 }
 
 STRING 1535
@@ -9903,13 +10154,6 @@ STRING 1536
 // Items: I0B9 (Scholar's Gambit), Tip (Tooltip - Basic)
 {
 Scholar's Gambit
-}
-
-STRING 1537
-// Items: I0B9 (Scholar's Gambit), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Buy 30 books |cFF959697(0/30)|r.
-|cffffcc00Reward:|r Scientist library card.
 }
 
 STRING 1538
@@ -9990,6 +10234,13 @@ STRING 1549
 Activation: |cffcc0000Corrupted|r. Resets the cooldown of abilities and items and restores all mana for all heroes.
 }
 
+STRING 1550
+// Abilities: A099 (Mimic: Crystal Barrage), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7120|r damage to the enemy. If the target dies, you get a random stat. Repeats on a random nearby enemy for each |cff00cceeCrystal|r you have.
+|cffffcc00Cooldown:|r 20 second.
+}
+
 STRING 1551
 // Items: I0B5 (Trash), Name (Name)
 {
@@ -10062,6 +10313,13 @@ STRING 1561
 |cff4169e1Rare|r
 Activation: Use the first ability (|cffffcc00Q|r) on a random targets three times.
 |cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 1562
+// Abilities: A099 (Mimic: Crystal Barrage), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7160|r damage to the enemy. If the target dies, you get a random stat. Repeats on a random nearby enemy for each |cff00cceeCrystal|r you have.
+|cffffcc00Cooldown:|r 20 second.
 }
 
 STRING 1563
@@ -10190,6 +10448,13 @@ When the hero uses an ability or item, with a |cffd7df0125%|r chance, fires a bo
 |cff81f260[Random bonus]|r
 }
 
+STRING 1582
+// Abilities: A099 (Mimic: Crystal Barrage), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7200|r damage to the enemy. If the target dies, you get a random stat. Repeats on a random nearby enemy for each |cff00cceeCrystal|r you have.
+|cffffcc00Cooldown:|r 20 second.
+}
+
 STRING 1583
 // Items: I0AX (Autonavigator), Name (Name)
 {
@@ -10200,6 +10465,40 @@ STRING 1584
 // Items: I0AX (Autonavigator), Tip (Tooltip - Basic)
 {
 Autonavigator
+}
+
+STRING 1585
+// Abilities: A099 (Mimic: Crystal Barrage), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7240|r damage to the enemy. If the target dies, you get a random stat. Repeats on a random nearby enemy for each |cff00cceeCrystal|r you have.
+|cffffcc00Cooldown:|r 20 second.
+}
+
+STRING 1586
+// Abilities: A1HA (Extra: Crystallization (Crystal Mimic)), Ubertip (Tooltip - Normal - Extended)
+{
+The Hero is counted as 1 |cff00cceeCrystal|r.
+}
+
+STRING 1587
+// Items: I0EU (Blacksmith Craft), Name (Name)
+{
+Blacksmith Craft
+}
+
+STRING 1588
+// Items: I0EU (Blacksmith Craft), Tip (Tooltip - Basic)
+{
+Blacksmith Craft
+}
+
+STRING 1589
+// Items: I0BY (Granite of Science), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: Your next activated |cffcc0000non-corrupted|r artifact will trigger three times.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 35 mana.
 }
 
 STRING 1590
@@ -10354,6 +10653,13 @@ STRING 1611
 // Items: I0AQ (Egg of the Void (Out of Pool)), Tip (Tooltip - Basic)
 {
 Egg of the Void
+}
+
+STRING 1612
+// Items: I0BX (Scientific Discovery), Description (Description)
+{
+|cffffcc00Quest:|r Activate 10 |cffcc0000non-corrupted|r artifacts |cFF959697(0/10)|r.
+|cffffcc00Reward:|r Granite of Science.
 }
 
 STRING 1613
@@ -10667,6 +10973,31 @@ When an enemy dies, summons a skeleton.
 |cFF959697More effective than Skelemagic (Rank 2).|r
 }
 
+STRING 1658
+// Items: I0BX (Scientific Discovery), Name (Name)
+{
+Scientific Discovery
+}
+
+STRING 1659
+// Items: I0BX (Scientific Discovery), Tip (Tooltip - Basic)
+{
+Scientific Discovery
+}
+
+STRING 1660
+// Items: I0BX (Scientific Discovery), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Activate 10 |cffcc0000non-corrupted|r artifacts |cFF959697(0/10)|r.
+|cffffcc00Reward:|r Granite of Science.
+}
+
+STRING 1661
+// Items: I0BW (Hunger for Knowledge), Name (Name)
+{
+Hunger for Knowledge
+}
+
 STRING 1662
 // Items: I0AD (Mooncloth), Description (Description)
 {
@@ -10805,6 +11136,34 @@ When a Hero uses a |cff088a08Potion|r, gives 2 Attack for battle.
 |cff81f260[Random bonus]|r
 }
 
+STRING 1682
+// Items: I0BW (Hunger for Knowledge), Tip (Tooltip - Basic)
+{
+Hunger for Knowledge
+}
+
+STRING 1683
+// Items: I0BV (Sheeppocalypse), Name (Name)
+{
+Sheeppocalypse
+}
+
+STRING 1684
+// Items: I0BV (Sheeppocalypse), Tip (Tooltip - Basic)
+{
+Sheeppocalypse
+}
+
+STRING 1685
+// Items: I0A5 (Cane of Khnum), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: Transforms up to 30 of your sheeps into random minions.
+|cffffcc00Life time:|r 25 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
 STRING 1686
 // Items: I0A7 (Tarot Card: Wheel of Fortune), Description (Description)
 {
@@ -10860,16 +11219,6 @@ Activation: Teleports the hero a short distance.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
-STRING 1694
-// Items: I0A5 (Cane of Khnum), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: Transforms up to 30 of your sheeps into random minions.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-|cffffcc00Cost:|r 80 mana.
-}
-
 STRING 1695
 // Items: I0A5 (Cane of Khnum), Name (Name)
 {
@@ -10880,15 +11229,6 @@ STRING 1696
 // Items: I0A5 (Cane of Khnum), Tip (Tooltip - Basic)
 {
 Cane of Khnum
-}
-
-STRING 1697
-// Items: I0A5 (Cane of Khnum), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: Transforms up to 30 of your sheeps into random minions.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
 }
 
 STRING 1698
@@ -10973,6 +11313,15 @@ STRING 1709
 When the hero attacks, restore |cffbe81f710%|r mana of the damage done.
 }
 
+STRING 1710
+// Items: I0A5 (Cane of Khnum), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: Transforms up to 30 of your sheeps into random minions.
+|cffffcc00Life time:|r 25 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
 STRING 1711
 // Items: I0A1 (Huge gift), Name (Name)
 {
@@ -10983,6 +11332,12 @@ STRING 1712
 // Items: I0A1 (Huge gift), Tip (Tooltip - Basic)
 {
 Huge gift
+}
+
+STRING 1713
+// Items: I09A (Power Search), Name (Name)
+{
+Power Search
 }
 
 STRING 1714
@@ -11068,6 +11423,33 @@ STRING 1725
 |cffbababcCommon|r, |cff9001fdRing|r
 You and your allies deal double damage against stunned targets.
 |cff81f260[Random bonus]|r
+}
+
+STRING 1726
+// Items: I09A (Power Search), Tip (Tooltip - Basic)
+{
+Power Search
+}
+
+STRING 1727
+// Items: I099 (Battle of Power), Description (Description)
+{
+|cffffcc00Quest:|r Restore 2500 mana as a team |cFF959697(0/2500)|r.
+|cffffcc00Reward:|r Ikaros Mudstone.
+}
+
+STRING 1728
+// Items: I099 (Battle of Power), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Restore 2500 mana as a team |cFF959697(0/2500)|r.
+|cffffcc00Reward:|r Ikaros Mudstone.
+}
+
+STRING 1729
+// Items: I096 (Skill Show), Description (Description)
+{
+|cffffcc00Quest:|r Activate 75 abilities or items |cFF959697(0/75)|r.
+|cffffcc00Reward:|r Wabbajack.
 }
 
 STRING 1730
@@ -11199,6 +11581,32 @@ STRING 1749
 {
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corrupted|r. Increases stats by 1. All of the next reward artifacts will be of |cffe96a1clegendary|r rarity.
+}
+
+STRING 1750
+// Items: I096 (Skill Show), Name (Name)
+{
+Skill Show
+}
+
+STRING 1751
+// Items: I096 (Skill Show), Tip (Tooltip - Basic)
+{
+Skill Show
+}
+
+STRING 1752
+// Items: I096 (Skill Show), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Activate 75 abilities or items |cFF959697(0/75)|r.
+|cffffcc00Reward:|r Wabbajack.
+}
+
+STRING 1753
+// Items: I095 (Avengers Assemble), Description (Description)
+{
+|cffffcc00Quest:|r Summon 50 minions under your control |cFF959697(0/50)|r.
+|cffffcc00Reward:|r Dead Man's Chest.
 }
 
 STRING 1754
@@ -11448,6 +11856,12 @@ STRING 1790
 Stat: Phy Vampirism +15%
 }
 
+STRING 1791
+// Items: I095 (Avengers Assemble), Name (Name)
+{
+Avengers Assemble
+}
+
 STRING 1792
 // Items: I09H (Fireflower), Name (Name)
 {
@@ -11458,6 +11872,12 @@ STRING 1793
 // Items: I09H (Fireflower), Tip (Tooltip - Basic)
 {
 Fireflower
+}
+
+STRING 1794
+// Items: I095 (Avengers Assemble), Tip (Tooltip - Basic)
+{
+Avengers Assemble
 }
 
 STRING 1795
@@ -11517,6 +11937,13 @@ STRING 1802
 Increases intelligence by 4. When the hero attacks, with the probability |cffd7df015%|r, it restores |cffbe81f720|r mana.
 }
 
+STRING 1803
+// Items: I095 (Avengers Assemble), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Summon 50 minions under your control |cFF959697(0/50)|r.
+|cffffcc00Reward:|r Dead Man's Chest.
+}
+
 STRING 1804
 // Items: I09E (Bloody Figurine), Name (Name)
 {
@@ -11529,53 +11956,41 @@ STRING 1805
 Bloody Figurine
 }
 
-STRING 1807
-// Items: I09D (Espionage training), Description (Description)
+STRING 1806
+// Items: I08W (Immortal Story), Description (Description)
 {
-|cffffcc00Quest:|r Stay 100 seconds in invisibility |cFF959697(0/100)|r.
-|cffffcc00Reward:|r Core of the Watcher.
+|cffffcc00Quest:|r Gain 12 permanent Intelligence from abilities or artifacts |cFF959697(0/12)|r.
+|cffffcc00Reward:|r Kobzar.
+}
+
+STRING 1807
+// Items: I0EZ (Scientist Card), Name (Name)
+{
+Scientist Card
 }
 
 STRING 1808
-// Items: I09D (Espionage training), Name (Name)
+// Items: I0EZ (Scientist Card), Tip (Tooltip - Basic)
 {
-Espionage training
-}
-
-STRING 1809
-// Items: I09D (Espionage training), Tip (Tooltip - Basic)
-{
-Espionage training
+Scientist Card
 }
 
 STRING 1810
-// Items: I09D (Espionage training), Ubertip (Tooltip - Extended)
+// Items: I0B9 (Scholar's Gambit), Description (Description)
 {
-|cffffcc00Quest:|r Stay 100 seconds in invisibility |cFF959697(0/100)|r.
-|cffffcc00Reward:|r Core of the Watcher.
+|cffffcc00Quest:|r Buy 25 books |cFF959697(0/25)|r.
+|cffffcc00Reward:|r Scientist Card.
 }
 
 STRING 1811
-// Items: I09C (The beginning of the hunt), Description (Description)
+// Items: I09C (Wild Hunt), Description (Description)
 {
 |cffffcc00Quest:|r Activate 40 |cff60C445Unique|r |cFF959697(0/40)|r.
 |cffffcc00Reward:|r Witcher medallion.
 }
 
-STRING 1812
-// Items: I09C (The beginning of the hunt), Name (Name)
-{
-The beginning of the hunt
-}
-
-STRING 1813
-// Items: I09C (The beginning of the hunt), Tip (Tooltip - Basic)
-{
-The beginning of the hunt
-}
-
 STRING 1814
-// Items: I09C (The beginning of the hunt), Ubertip (Tooltip - Extended)
+// Items: I09C (Wild Hunt), Ubertip (Tooltip - Extended)
 {
 |cffffcc00Quest:|r Activate 40 |cff60C445Unique|r |cFF959697(0/40)|r.
 |cffffcc00Reward:|r Witcher medallion.
@@ -11606,26 +12021,31 @@ STRING 1818
 }
 
 STRING 1819
-// Items: I09A (Power search), Description (Description)
+// Items: I09A (Power Search), Description (Description)
 {
 |cffffcc00Quest:|r Split the artifact from each set and each rarity.
 |cffffcc00Reward:|r Mechatron Charizard.
 }
 
 STRING 1820
-// Items: I09A (Power search), Name (Name)
+// Items: I0B9 (Scholar's Gambit), Ubertip (Tooltip - Extended)
 {
-Power search
+|cffffcc00Quest:|r Buy 25 books |cFF959697(0/25)|r.
+|cffffcc00Reward:|r Scientist Card.
 }
 
 STRING 1821
-// Items: I09A (Power search), Tip (Tooltip - Basic)
+// Items: I092 (Mask of Dagoth Ur), Description (Description)
 {
-Power search
+|cffe96a1cLegendary|r
+Every 5 seconds, gives all heroes a buff that cancels the next damage taken.
+When you use the first ability (|cffffcc00Q|r), it is used twice.
+
+|cFF959697Any effects applied last 20 seconds. Only works in combat|r
 }
 
 STRING 1822
-// Items: I09A (Power search), Ubertip (Tooltip - Extended)
+// Items: I09A (Power Search), Ubertip (Tooltip - Extended)
 {
 |cffffcc00Quest:|r Split the artifact from each set and each rarity.
 |cffffcc00Reward:|r Mechatron Charizard.
@@ -11697,82 +12117,48 @@ The effect is cumulative.
 |cffffcc00Cooldown:|r 3 seconds.
 }
 
-STRING 1831
-// Items: I097 (Total destruction), Description (Description)
-{
-|cffffcc00Quest:|r Kill your hero 5 times |cFF959697(0/5)|r.
-|cffffcc00Reward at the end of the battle:|r Sandro's personal items.
-}
-
-STRING 1832
-// Items: I097 (Total destruction), Name (Name)
-{
-Total destruction
-}
-
-STRING 1833
-// Items: I097 (Total destruction), Tip (Tooltip - Basic)
-{
-Total destruction
-}
-
-STRING 1834
-// Items: I097 (Total destruction), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Kill your hero 5 times |cFF959697(0/5)|r.
-|cffffcc00Reward at the end of the battle:|r Sandro's personal items.
-}
-
 STRING 1835
-// Items: I096 (Skill show), Description (Description)
+// Items: I092 (Mask of Dagoth Ur), Ubertip (Tooltip - Extended)
 {
-|cffffcc00Quest:|r Activate 100 abilities or items |cFF959697(0/100)|r.
-|cffffcc00Reward:|r Wabbajack.
+|cffe96a1cLegendary|r
+Every 5 seconds, gives all heroes a buff that cancels the next damage taken.
+When you use the first ability (|cffffcc00Q|r), it is used twice.
+
+|cFF959697Any effects applied last 20 seconds. Only works in combat|r
 }
 
 STRING 1836
-// Items: I096 (Skill show), Name (Name)
+// Items: I0EZ (Scientist Card), Description (Description)
 {
-Skill show
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corruption.|r Increases stats by 15. 
+For the rest of the game, whenever you purchase a second book from the Library, you receive a random small book from it.
 }
 
 STRING 1837
-// Items: I096 (Skill show), Tip (Tooltip - Basic)
+// Items: I0EZ (Scientist Card), Ubertip (Tooltip - Extended)
 {
-Skill show
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corruption.|r Increases stats by 15. 
+For the rest of the game, whenever you purchase a second book from the Library, you receive a random small book from it.
 }
 
 STRING 1838
-// Items: I096 (Skill show), Ubertip (Tooltip - Extended)
+// Abilities: A1HB (Blessing: Speciality), Name (Name)
 {
-|cffffcc00Quest:|r Activate 100 abilities or items |cFF959697(0/100)|r.
-|cffffcc00Reward:|r Wabbajack.
+Blessing: Speciality
 }
 
 STRING 1839
-// Items: I095 (General fee), Description (Description)
+// Abilities: A1HB (Blessing: Speciality), Tip (Tooltip - Normal)
 {
-|cffffcc00Quest:|r Summon 100 minions under your control |cFF959697(0/100)|r.
-|cffffcc00Reward:|r Dead Man's Chest.
+|cffffcc00Blessing:|r Speciality
 }
 
 STRING 1840
-// Items: I095 (General fee), Name (Name)
+// Abilities: A1HB (Blessing: Speciality), Ubertip (Tooltip - Normal - Extended)
 {
-General fee
-}
-
-STRING 1841
-// Items: I095 (General fee), Tip (Tooltip - Basic)
-{
-General fee
-}
-
-STRING 1842
-// Items: I095 (General fee), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Summon 100 minions under your control |cFF959697(0/100)|r.
-|cffffcc00Reward:|r Dead Man's Chest.
+All heroes receive a random |cff8080ffSpecial|r.
 }
 
 STRING 1843
@@ -11829,13 +12215,6 @@ STRING 1850
 When the hero activates |cff60C445Unique|r, it is used three times.
 }
 
-STRING 1851
-// Items: I092 (Mask of Dagoth Ur), Description (Description)
-{
-|cffe96a1cLegendary|r
-Every 5 seconds, gives all heroes a buff that cancels the next damage taken.
-}
-
 STRING 1852
 // Items: I092 (Mask of Dagoth Ur), Name (Name)
 {
@@ -11846,13 +12225,6 @@ STRING 1853
 // Items: I092 (Mask of Dagoth Ur), Tip (Tooltip - Basic)
 {
 Mask of Dagoth Ur
-}
-
-STRING 1854
-// Items: I092 (Mask of Dagoth Ur), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Every 5 seconds, gives all heroes a buff that cancels the next damage taken.
 }
 
 STRING 1855
@@ -12009,18 +12381,6 @@ STRING 1875
 Eternal Harvest
 }
 
-STRING 1876
-// Items: I08W (Immortal story), Name (Name)
-{
-Immortal story
-}
-
-STRING 1877
-// Items: I08W (Immortal story), Tip (Tooltip - Basic)
-{
-Immortal story
-}
-
 STRING 1878
 // Items: IZ04 (Eternal Harvest), Tip (Tooltip - Basic)
 {
@@ -12108,13 +12468,6 @@ If all conditions are met, the exchange begins.
 |cffffcc00If the inventory is full, the artifact will delete a random item and move to its place.|r
 }
 
-STRING 1891
-// Items: I08S (Hand of Midas), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. Gives 1000 gold to each hero.
-}
-
 STRING 1892
 // Items: I08S (Hand of Midas), Name (Name)
 {
@@ -12125,13 +12478,6 @@ STRING 1893
 // Items: I08S (Hand of Midas), Tip (Tooltip - Basic)
 {
 Hand of Midas
-}
-
-STRING 1894
-// Items: I08S (Hand of Midas), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. Gives 1000 gold to each hero.
 }
 
 STRING 1895
@@ -12383,6 +12729,12 @@ Your mana restoring abilities and items restore 10% more mana per hero level.
 |cff81f260[Random bonus]|r
 }
 
+STRING 1932
+// Items: I08W (Immortal Story), Name (Name)
+{
+Immortal Story
+}
+
 STRING 1933
 // Items: I08H (Seal of Calm), Name (Name)
 {
@@ -12393,6 +12745,12 @@ STRING 1934
 // Items: I08H (Seal of Calm), Tip (Tooltip - Basic)
 {
 Seal of Calm
+}
+
+STRING 1935
+// Items: I08W (Immortal Story), Tip (Tooltip - Basic)
+{
+Immortal Story
 }
 
 STRING 1936
@@ -12447,6 +12805,34 @@ STRING 1943
 {
 |cff4169e1Rare|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a knight artifact.
+}
+
+STRING 1944
+// Items: I08W (Immortal Story), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Gain 12 permanent Intelligence from abilities or artifacts |cFF959697(0/12)|r.
+|cffffcc00Reward:|r Kobzar.
+}
+
+STRING 1945
+// Items: I08S (Hand of Midas), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Gives 1250 gold to each hero.
+}
+
+STRING 1946
+// Items: I08S (Hand of Midas), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Gives 1250 gold to each hero.
+}
+
+STRING 1947
+// Items: I03E (Wabbajack), Description (Description)
+{
+|cffe96a1cLegendary|r
+When cast, uses a random 4th level spell.
 }
 
 STRING 1948
@@ -12750,6 +13136,13 @@ Activation: Restores |cffbe81f240%|r health and mana to all heroes and swaps the
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 1992
+// Items: I03E (Wabbajack), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+When cast, uses a random 4th level spell.
+}
+
 STRING 1993
 // Items: I082 (Infusion of Infinity), Name (Name)
 {
@@ -12760,6 +13153,15 @@ STRING 1994
 // Items: I082 (Infusion of Infinity), Tip (Tooltip - Basic)
 {
 Infusion of Infinity
+}
+
+STRING 1995
+// Items: I03D (Dead Man's Chest), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: Summons a boss under your control (max 1).
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 35 mana.
 }
 
 STRING 1996
@@ -13087,6 +13489,14 @@ STRING 2043
 // Abilities: A0UV (Commander: Strong Spirit), Tip (Tooltip - Normal)
 {
 Strong Spirit, [|cffffcc00Level 5|r]
+}
+
+STRING 2044
+// Items: I03D (Dead Man's Chest), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: Summons a boss under your control (max 1).
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 2047
@@ -13867,32 +14277,6 @@ STRING 2163
 |cffbababcCommon|r
 When your minion dies, deals |cffbe81f750|r damage to a random enemy nearby.
 |cff81f260[Random bonus]|r
-}
-
-STRING 2164
-// Items: I06V (Splitting the World), Description (Description)
-{
-|cffffcc00Quest:|r Use and destroy 10 |cffcc0000corrupted|r artifacts |cFF959697(0/10)|r.
-|cffffcc00Reward:|r Rubedo's Belt.
-}
-
-STRING 2165
-// Items: I06V (Splitting the World), Name (Name)
-{
-Splitting the World
-}
-
-STRING 2166
-// Items: I06V (Splitting the World), Tip (Tooltip - Basic)
-{
-Splitting the World
-}
-
-STRING 2167
-// Items: I06V (Splitting the World), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Use and destroy 10 |cffcc0000corrupted|r artifacts |cFF959697(0/10)|r.
-|cffffcc00Reward:|r Rubedo's Belt.
 }
 
 STRING 2168
@@ -14813,7 +15197,7 @@ Deals |cffbe81f7100|r damage and gives invulnerability to damaging magic.
 }
 
 STRING 2324
-// Items: I05R (Dark sphere), Hotkey (Hotkey)
+// Items: I05C (Swamp Potion), Hotkey (Hotkey)
 {
 Z
 }
@@ -15157,7 +15541,7 @@ Activation: Imposes a fire storm on the area, dealing |cffbe81f775|r fire damage
 }
 
 STRING 2383
-// Items: I05D (Fire Storm Potion), Hotkey (Hotkey)
+// Items: I037 (Change artifact (Slot 6)), Hotkey (Hotkey)
 {
 X
 }
@@ -15190,7 +15574,7 @@ Activation: Restores |cffbe81f7800|r health and |cffbe81f7500|r mana to the hero
 }
 
 STRING 2388
-// Items: I05C (Swamp Potion), Hotkey (Hotkey)
+// Items: I03S (Tome of OblivionXXX), Hotkey (Hotkey)
 {
 Z
 }
@@ -15287,7 +15671,7 @@ Activation: Restores |cffbe81f7250|r mana to the hero over time.
 }
 
 STRING 2403
-// Items: I059 (Shower potion), Hotkey (Hotkey)
+// Items: I039 (Change artifact (Slot 4)), Hotkey (Hotkey)
 {
 S
 }
@@ -15321,7 +15705,7 @@ Activation: Restores |cffbe81f7400|r health to the hero over time.
 }
 
 STRING 2408
-// Items: I058 (Desert Potion), Hotkey (Hotkey)
+// Items: I03B (Change artifact (Slot 3)), Hotkey (Hotkey)
 {
 A
 }
@@ -15418,7 +15802,7 @@ Activation: Restores |cffbe81f7125|r mana to the hero.
 }
 
 STRING 2423
-// Items: I055 (Water Potion), Hotkey (Hotkey)
+// Items: I03C (Change artifact (Slot 2)), Hotkey (Hotkey)
 {
 W
 }
@@ -15450,7 +15834,7 @@ Activation: Restores |cffbe81f7225|r health to the hero.
 }
 
 STRING 2428
-// Items: I03A (Change artifact (Slot 1)), Hotkey (Hotkey)
+// Items: I01P (Book of Strength), Hotkey (Hotkey)
 {
 Q
 }
@@ -16630,7 +17014,7 @@ Gives the hero the effects of all other books from the library.
 }
 
 STRING 2619
-// Items: I03S (Tome of OblivionXXX), Hotkey (Hotkey)
+// Items: I038 (Change artifact (Slot 5)), Hotkey (Hotkey)
 {
 Z
 }
@@ -16914,39 +17298,6 @@ Activation: Increases level by 1.
 |cffffcc00Cooldown:|r 90 seconds.
 }
 
-STRING 2666
-// Items: I03F (Sandro's personal items), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cff4169e1rare|r item six times |cFF959697(6/6)|r.
-}
-
-STRING 2667
-// Items: I03F (Sandro's personal items), Name (Name)
-{
-Sandro's personal items
-}
-
-STRING 2668
-// Items: I03F (Sandro's personal items), Tip (Tooltip - Basic)
-{
-Sandro's personal items
-}
-
-STRING 2669
-// Items: I03F (Sandro's personal items), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cff4169e1rare|r item six times |cFF959697(6/6)|r.
-}
-
-STRING 2670
-// Items: I03E (Wabbajack), Description (Description)
-{
-|cffe96a1cLegendary|r
-When the hero activates an ability or item, uses a random level 3 ability.
-}
-
 STRING 2671
 // Items: I03E (Wabbajack), Name (Name)
 {
@@ -16957,24 +17308,6 @@ STRING 2672
 // Items: I03E (Wabbajack), Tip (Tooltip - Basic)
 {
 Wabbajack
-}
-
-STRING 2673
-// Items: I03E (Wabbajack), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-When the hero activates an ability or item, uses a random level 3 ability.
-}
-
-STRING 2674
-// Items: I03D (Dead Man's Chest), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: Summon boss for help.
-Only 1 boss can be active.
-|cffffcc00Life time:|r 60 seconds.
-|cffffcc00Cooldown:|r 80 seconds.
-|cffffcc00Cost:|r 100 mana.
 }
 
 STRING 2675
@@ -16989,18 +17322,8 @@ STRING 2676
 Dead Man's Chest
 }
 
-STRING 2677
-// Items: I03D (Dead Man's Chest), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: Summon boss for help.
-Only 1 boss can be active.
-|cffffcc00Life time:|r 60 seconds.
-|cffffcc00Cooldown:|r 80 seconds.
-}
-
 STRING 2678
-// Items: I03C (Change artifact (Slot 2)), Hotkey (Hotkey)
+// Items: I01N (Book of Agility), Hotkey (Hotkey)
 {
 W
 }
@@ -17024,7 +17347,7 @@ Changes your artifact in the slot to a random artifact.
 }
 
 STRING 2682
-// Items: I03B (Change artifact (Slot 3)), Hotkey (Hotkey)
+// Items: I01Q (Book of Health), Hotkey (Hotkey)
 {
 A
 }
@@ -17048,7 +17371,7 @@ Changes your artifact in the slot to a random artifact.
 }
 
 STRING 2686
-// Items: I01P (Book of Strength), Hotkey (Hotkey)
+// Items: I0HJ (Split Artifact (Slot 1)), Hotkey (Hotkey)
 {
 Q
 }
@@ -17072,7 +17395,7 @@ Changes your artifact in the slot to a random artifact.
 }
 
 STRING 2690
-// Items: I039 (Change artifact (Slot 4)), Hotkey (Hotkey)
+// Items: I01R (Book of Attack), Hotkey (Hotkey)
 {
 S
 }
@@ -17096,7 +17419,7 @@ Changes your artifact in the slot to a random artifact.
 }
 
 STRING 2694
-// Items: I038 (Change artifact (Slot 5)), Hotkey (Hotkey)
+// Items: I0HK (Split Artifact (Slot 5)), Hotkey (Hotkey)
 {
 Z
 }
@@ -17120,7 +17443,7 @@ Changes your artifact in the slot to a random artifact.
 }
 
 STRING 2698
-// Items: I037 (Change artifact (Slot 6)), Hotkey (Hotkey)
+// Items: I01S (Book of Knowledge), Hotkey (Hotkey)
 {
 X
 }
@@ -17523,7 +17846,7 @@ Spirit figurine
 }
 
 STRING 2760
-// Items: I01N (Book of Agility), Hotkey (Hotkey)
+// Items: I0HM (Split Artifact (Slot 2)), Hotkey (Hotkey)
 {
 W
 }
@@ -18440,7 +18763,7 @@ Increases stats by 1.
 }
 
 STRING 2902
-// Items: I01S (Book of Knowledge), Hotkey (Hotkey)
+// Items: I0HL (Split Artifact (Slot 6)), Hotkey (Hotkey)
 {
 X
 }
@@ -18470,7 +18793,7 @@ Increases attack power by 1.
 }
 
 STRING 2907
-// Items: I01R (Book of Attack), Hotkey (Hotkey)
+// Items: I0HO (Split Artifact (Slot 4)), Hotkey (Hotkey)
 {
 S
 }
@@ -18500,7 +18823,7 @@ Increases health by 25.
 }
 
 STRING 2912
-// Items: I01Q (Book of Health), Hotkey (Hotkey)
+// Items: I0HN (Split Artifact (Slot 3)), Hotkey (Hotkey)
 {
 A
 }
@@ -22005,13 +22328,6 @@ STRING 3460
 Aspect of Friendship
 }
 
-STRING 3461
-// Items: I09B (Trembling Enemies), Description (Description)
-{
-|cffffcc00Quest:|r Use the first ability (|cffffcc00Q|r) 35 times |cFF959697(0/35)|r.
-|cffffcc00Reward:|r Mask of Dagoth Ur.
-}
-
 STRING 3462
 // Abilities: A1CD (Aspect: Elemental: Aspect of Insanity ), Name (Name)
 {
@@ -22468,20 +22784,6 @@ STRING 3533
 {
 |cffe96a1cLegendary|r
 The Hero cast increases Spell Power by 2% for the battle. The effect is cumulative.
-}
-
-STRING 3534
-// Items: I08W (Immortal story), Description (Description)
-{
-|cffffcc00Quest:|r Gain 25 permanent Intelligence from abilities or items |cFF959697(0/25)|r.
-|cffffcc00Reward:|r Kobzar.
-}
-
-STRING 3535
-// Items: I08W (Immortal story), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Gain 25 permanent Intelligence from abilities or items |cFF959697(0/25)|r.
-|cffffcc00Reward:|r Kobzar.
 }
 
 STRING 3536
@@ -42540,13 +42842,6 @@ STRING 6621
 Trembling Enemies
 }
 
-STRING 6622
-// Items: I09B (Trembling Enemies), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Use the first ability (|cffffcc00Q|r) 35 times |cFF959697(0/35)|r.
-|cffffcc00Reward:|r Mask of Dagoth Ur.
-}
-
 STRING 6623
 // Items: I0CB (Tarot Card: The Fool), Description (Description)
 {
@@ -56906,12 +57201,6 @@ STRING 8830
 Reflective Surface, [|cffffcc00Level %d|r]
 }
 
-STRING 8831
-// Abilities: A09B (Mimic: Reflective Surface), Researchubertip (Tooltip - Learn - Extended)
-{
-The hero does not receive |cffbe81f75%/10%/15%/20%/25%|r physical damage, but redirects it back to the attacker.
-}
-
 STRING 8832
 // Abilities: A09B (Mimic: Reflective Surface), Tip (Tooltip - Normal)
 {
@@ -56940,36 +57229,6 @@ STRING 8836
 // Abilities: A09B (Mimic: Reflective Surface), Tip (Tooltip - Normal)
 {
 Reflective Surface, [|cffffcc00Level 5|r]
-}
-
-STRING 8837
-// Abilities: A09B (Mimic: Reflective Surface), Ubertip (Tooltip - Normal - Extended)
-{
-The hero does not receive |cffbe81f75%|r physical damage, but redirects it back to the attacker.
-}
-
-STRING 8838
-// Abilities: A09B (Mimic: Reflective Surface), Ubertip (Tooltip - Normal - Extended)
-{
-The hero does not receive |cffbe81f710%|r physical damage, but redirects it back to the attacker.
-}
-
-STRING 8839
-// Abilities: A09B (Mimic: Reflective Surface), Ubertip (Tooltip - Normal - Extended)
-{
-The hero does not receive |cffbe81f715%|r physical damage, but redirects it back to the attacker.
-}
-
-STRING 8840
-// Abilities: A09B (Mimic: Reflective Surface), Ubertip (Tooltip - Normal - Extended)
-{
-The hero does not receive |cffbe81f720%|r physical damage, but redirects it back to the attacker.
-}
-
-STRING 8841
-// Abilities: A09B (Mimic: Reflective Surface), Ubertip (Tooltip - Normal - Extended)
-{
-The hero does not receive |cffbe81f725%|r physical damage, but redirects it back to the attacker.
 }
 
 STRING 8842
@@ -57081,14 +57340,6 @@ STRING 8859
 Crystal Barrage, [|cffffcc00Level %d|r]
 }
 
-STRING 8860
-// Abilities: A099 (Mimic: Crystal Barrage), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f780/120/160/200/240|r damage to the enemy. If the target dies, you get a random stat. Repeats the effect on a random nearby enemy for each artifact from the |cff00cceecrystal|r set.
-|cffffcc00Cooldown:|r 20 second.
-|cffffcc00Cost:|r 60 mana.
-}
-
 STRING 8861
 // Abilities: A099 (Mimic: Crystal Barrage), Tip (Tooltip - Normal)
 {
@@ -57117,41 +57368,6 @@ STRING 8865
 // Abilities: A099 (Mimic: Crystal Barrage), Tip (Tooltip - Normal)
 {
 Crystal Barrage, [|cffffcc00Level 5|r]
-}
-
-STRING 8866
-// Abilities: A099 (Mimic: Crystal Barrage), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f780|r damage to the enemy. If the target dies, you get a random stat. Repeats the effect on a random nearby enemy for each artifact from the |cff00cceecrystal|r set.
-|cffffcc00Cooldown:|r 20 second.
-}
-
-STRING 8867
-// Abilities: A099 (Mimic: Crystal Barrage), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7120|r damage to the enemy. If the target dies, you get a random stat. Repeats the effect on a random nearby enemy for each artifact from the |cff00cceecrystal|r set.
-|cffffcc00Cooldown:|r 20 second.
-}
-
-STRING 8868
-// Abilities: A099 (Mimic: Crystal Barrage), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7160|r damage to the enemy. If the target dies, you get a random stat. Repeats the effect on a random nearby enemy for each artifact from the |cff00cceecrystal|r set.
-|cffffcc00Cooldown:|r 20 second.
-}
-
-STRING 8869
-// Abilities: A099 (Mimic: Crystal Barrage), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7200|r damage to the enemy. If the target dies, you get a random stat. Repeats the effect on a random nearby enemy for each artifact from the |cff00cceecrystal|r set.
-|cffffcc00Cooldown:|r 20 second.
-}
-
-STRING 8870
-// Abilities: A099 (Mimic: Crystal Barrage), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7240|r damage to the enemy. If the target dies, you get a random stat. Repeats the effect on a random nearby enemy for each artifact from the |cff00cceecrystal|r set.
-|cffffcc00Cooldown:|r 20 second.
 }
 
 STRING 8871
@@ -66006,7 +66222,7 @@ Aura of Light, [|cffffcc00Level 5|r]
 }
 
 STRING 10223
-// Units: n00M (Split Artifact (Slot 6)), Ubertip (Tooltip - Extended)
+// Items: I0HJ (Split Artifact (Slot 1)), Ubertip (Tooltip - Extended)
 {
 |cffffcc00Cost|r - 150 Gold.
 Destroys an item.
@@ -66287,7 +66503,7 @@ Artifact: Twin heart
 }
 
 STRING 10265
-// Units: n00L (Split Artifact (Slot 5)), Ubertip (Tooltip - Extended)
+// Items: I0HK (Split Artifact (Slot 5)), Ubertip (Tooltip - Extended)
 {
 |cffffcc00Cost|r - 150 Gold.
 Destroys an item.
@@ -66346,7 +66562,7 @@ Attack (Доспех Рыцаря)
 }
 
 STRING 10274
-// Units: n00K (Split Artifact (Slot 4)), Ubertip (Tooltip - Extended)
+// Items: I0HL (Split Artifact (Slot 6)), Ubertip (Tooltip - Extended)
 {
 |cffffcc00Cost|r - 150 Gold.
 Destroys an item.
@@ -66652,7 +66868,7 @@ STRING 10320
 }
 
 STRING 10321
-// Units: n00J (Split Artifact (Slot 3)), Ubertip (Tooltip - Extended)
+// Items: I0HM (Split Artifact (Slot 2)), Ubertip (Tooltip - Extended)
 {
 |cffffcc00Cost|r - 150 Gold.
 Destroys an item.
@@ -66661,7 +66877,7 @@ Destroys an item.
 }
 
 STRING 10322
-// Units: n00I (Split Artifact (Slot 2)), Ubertip (Tooltip - Extended)
+// Items: I0HN (Split Artifact (Slot 3)), Ubertip (Tooltip - Extended)
 {
 |cffffcc00Cost|r - 150 Gold.
 Destroys an item.
@@ -71837,20 +72053,6 @@ STRING 11175
 Gold Coin
 }
 
-STRING 11176
-// Items: I0EE (Midas Ring), Description (Description)
-{
-|cff4169e1Rare|r, |cff9001fdRing|r
-Activation: Turns a |cffcc0000non-corrupted|r item into gold. The gold you receive depends on the rarity.
-}
-
-STRING 11177
-// Items: I0EE (Midas Ring), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff9001fdRing|r
-Activation: Turns a |cffcc0000non-corrupted|r item into gold. The gold you receive depends on the rarity.
-}
-
 STRING 11178
 // Abilities: A0J2 (Invisibility), EditorSuffix (Editor Suffix)
 {
@@ -72069,7 +72271,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.9.2T|r
+|cffbe81f7Boss Battle 1.9.4T|r
 }
 
 STRING 11219
@@ -73545,7 +73747,7 @@ XXXБосс 6: Краб (Девятый вал)
 }
 
 STRING 11439
-// Units: n00H (Split Artifact (Slot 1)), Ubertip (Tooltip - Extended)
+// Items: I0HO (Split Artifact (Slot 4)), Ubertip (Tooltip - Extended)
 {
 |cffffcc00Cost|r - 150 Gold.
 Destroys an item.

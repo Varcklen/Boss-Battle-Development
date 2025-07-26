@@ -3,6 +3,8 @@ scope WabbajackQuest initializer init
 	globals
 		private constant integer QUEST_ID = 'I096'
 		private constant integer REWARD_ID = 'I03E'
+		
+		private constant integer AMOUNT_REQUIRE = 75
 	endglobals
 
 	private function condition takes nothing returns boolean
@@ -16,7 +18,7 @@ scope WabbajackQuest initializer init
 	    
 	    call SaveInteger( udg_hash, id, StringHash( udg_QuestItemCode[9] ), s )
 	
-	    if s >= udg_QuestNum[9] then
+	    if s >= AMOUNT_REQUIRE then
 	        call SetWidgetLife( GetItemOfTypeFromUnitBJ(GetSpellAbilityUnit(), QUEST_ID), 0. )
 	        set bj_lastCreatedItem = CreateItem( REWARD_ID, GetUnitX(GetSpellAbilityUnit()), GetUnitY(GetSpellAbilityUnit()))
 	        call UnitAddItem(GetSpellAbilityUnit(), bj_lastCreatedItem)
@@ -24,7 +26,7 @@ scope WabbajackQuest initializer init
 	        call DestroyEffect( AddSpecialEffect( "Abilities\\Spells\\Human\\ReviveHuman\\ReviveHuman.mdl", GetUnitX(GetSpellAbilityUnit()), GetUnitY(GetSpellAbilityUnit()) ) )
 	        set udg_QuestDone[i] = true
 	    else
-	        call QuestDiscription( GetSpellAbilityUnit(), QUEST_ID, s, udg_QuestNum[9] )
+	        call QuestDiscription( GetSpellAbilityUnit(), QUEST_ID, s, AMOUNT_REQUIRE )
 	    endif
 	endfunction
 	
