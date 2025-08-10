@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.9.4T|r
+|cffbe81f7Boss Battle 1.9.5T|r
 }
 
 STRING 2
@@ -6459,6 +6459,36 @@ Activation: Restores |cffbe81f7400|r health over time.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 998
+// Items: I0FI (Chameleon Eye), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff9001fdRing|r
+Increases |cff60C445Unique|r Spell Power by 100%.
+After the hero has used |cff60C445Unique|r, turns it into a random activated one and increases |cff60C445Unique|r Spell Power by 20% until the end of the battle.
+}
+
+STRING 999
+// Items: I0FI (Chameleon Eye), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff9001fdRing|r
+Increases |cff60C445Unique|r Spell Power by 100%.
+After the hero has used |cff60C445Unique|r, turns it into a random activated one and increases |cff60C445Unique|r Spell Power by 20% until the end of the battle.
+}
+
+STRING 1000
+// Items: I0DI (Copy-Cat), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: Choose an artifact to transform into it.
+}
+
+STRING 1001
+// Items: I0DI (Copy-Cat), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: Choose an artifact to transform into it.
+}
+
 STRING 1002
 // Units: n00K (Split Artifact (Slot 4)XXXXX), Ubertip (Tooltip - Extended)
 {
@@ -7435,14 +7465,6 @@ Activation: Gives 2 random stats for the battle.
 |cffffcc00Cost:|r 75 health.
 }
 
-STRING 1142
-// Items: I0DZ (Idol of Sin), Description (Description)
-{
-|cff4169e1Rare|r
-Your health-restoring abilities and items restore 150% more health. After healing, the target cannot restore health over time.
-|cffffcc00Duration:|r 5 seconds.
-}
-
 STRING 1143
 // Items: I0DZ (Idol of Sin), Name (Name)
 {
@@ -7453,14 +7475,6 @@ STRING 1144
 // Items: I0DZ (Idol of Sin), Tip (Tooltip - Basic)
 {
 Idol of Sin
-}
-
-STRING 1145
-// Items: I0DZ (Idol of Sin), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Your health-restoring abilities and items restore 150% more health. After healing, the target cannot restore health over time.
-|cffffcc00Duration:|r 5 seconds.
 }
 
 STRING 1146
@@ -7937,13 +7951,6 @@ When the hero moves, creates an icy ground that reduces the attack and movement 
 |cffffcc00Duration:|r 8 seconds.
 }
 
-STRING 1210
-// Items: I0DI (Copy-Cat), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: Choose an artifact. Transforms a copy-cat into it.
-}
-
 STRING 1211
 // Items: I0DI (Copy-Cat), Name (Name)
 {
@@ -7954,13 +7961,6 @@ STRING 1212
 // Items: I0DI (Copy-Cat), Tip (Tooltip - Basic)
 {
 Copy-Cat
-}
-
-STRING 1213
-// Items: I0DI (Copy-Cat), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: Choose an artifact. Transforms a copy-cat into it.
 }
 
 STRING 1214
@@ -8170,13 +8170,6 @@ STRING 1244
 {
 |cffffcc00Quest:|r Stay 60 seconds in invisibility |cFF959697(0/60)|r.
 |cffffcc00Reward:|r Observer Core.
-}
-
-STRING 1245
-// Items: I06V (Split Time), Description (Description)
-{
-|cffffcc00Quest:|r Fully use 3 |cffcc0000corrupted|r artifacts |cFF959697(0/3)|r.
-|cffffcc00Reward:|r Rubedo's Belt.
 }
 
 STRING 1246
@@ -9508,13 +9501,6 @@ STRING 1438
 Split Time
 }
 
-STRING 1439
-// Items: I06V (Split Time), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Fully use 3 |cffcc0000corrupted|r artifacts |cFF959697(0/3)|r.
-|cffffcc00Reward:|r Rubedo's Belt.
-}
-
 STRING 1440
 // Items: I03F (Sandro's Gift), Description (Description)
 {
@@ -9959,6 +9945,13 @@ STRING 1504
 Catalyst
 }
 
+STRING 1505
+// Items: I06V (Split Time), Description (Description)
+{
+|cffffcc00Quest:|r Fully use 5 |cffcc0000corrupted|r artifacts |cFF959697(0/5)|r.
+|cffffcc00Reward:|r Rubedo's Belt.
+}
+
 STRING 1506
 // Items: I0BG (Wool Gift), Description (Description)
 {
@@ -10142,6 +10135,13 @@ STRING 1533
 {
 Deals |cffbe81f780|r damage to the enemy. If the target dies, you get a random stat. Repeats on a random nearby enemy for each |cff00cceeCrystal|r you have.
 |cffffcc00Cooldown:|r 20 second.
+}
+
+STRING 1534
+// Items: I06V (Split Time), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Fully use 5 |cffcc0000corrupted|r artifacts |cFF959697(0/5)|r.
+|cffffcc00Reward:|r Rubedo's Belt.
 }
 
 STRING 1535
@@ -11231,6 +11231,14 @@ STRING 1696
 Cane of Khnum
 }
 
+STRING 1697
+// Items: I0DZ (Idol of Sin), Description (Description)
+{
+|cff4169e1Rare|r
+Your health-restoring abilities and items restore 150% more health. After healing, the target cannot restore health over time.
+|cffffcc00Duration:|r 2.5 seconds.
+}
+
 STRING 1698
 // Items: I0A4 (Glass tooth), Description (Description)
 {
@@ -11609,14 +11617,6 @@ STRING 1753
 |cffffcc00Reward:|r Dead Man's Chest.
 }
 
-STRING 1754
-// Items: I09Q (Idol of Greed), Description (Description)
-{
-|cff4169e1Rare|r
-Increases health by 1000.
-Your hero takes pure damage instead of all heroes.
-}
-
 STRING 1755
 // Items: I09Q (Idol of Greed), Name (Name)
 {
@@ -11627,14 +11627,6 @@ STRING 1756
 // Items: I09Q (Idol of Greed), Tip (Tooltip - Basic)
 {
 Idol of Greed
-}
-
-STRING 1757
-// Items: I09Q (Idol of Greed), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases health by 1000.
-Your hero takes pure damage instead of all heroes.
 }
 
 STRING 1758
@@ -11663,14 +11655,6 @@ STRING 1761
 Increases physical damage dealt and received by 100%.
 }
 
-STRING 1762
-// Items: I09O (Idol of Desires), Description (Description)
-{
-|cff4169e1Rare|r
-Increases mana regeneration by 2000%.
-When the hero uses an ability or item, burns all mana.
-}
-
 STRING 1763
 // Items: I09O (Idol of Desires), Name (Name)
 {
@@ -11681,22 +11665,6 @@ STRING 1764
 // Items: I09O (Idol of Desires), Tip (Tooltip - Basic)
 {
 Idol of Desires
-}
-
-STRING 1765
-// Items: I09O (Idol of Desires), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases mana regeneration by 2000%.
-When the hero uses an ability or item, burns all mana.
-}
-
-STRING 1766
-// Items: I09N (Idol of Gluttony), Description (Description)
-{
-|cff4169e1Rare|r
-Increases movement and attack speed by 100%. 
-The hero cannot restore health.
 }
 
 STRING 1767
@@ -11711,21 +11679,6 @@ STRING 1768
 Idol of Gluttony
 }
 
-STRING 1769
-// Items: I09N (Idol of Gluttony), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases movement and attack speed by 100%. 
-The hero cannot restore health.
-}
-
-STRING 1770
-// Items: I09M (Idol of Sorrow), Description (Description)
-{
-|cff4169e1Rare|r
-Increases the mana regeneration of allied heroes by 8. Your hero cannot use mana.
-}
-
 STRING 1771
 // Items: I09M (Idol of Sorrow), Name (Name)
 {
@@ -11736,13 +11689,6 @@ STRING 1772
 // Items: I09M (Idol of Sorrow), Tip (Tooltip - Basic)
 {
 Idol of Sorrow
-}
-
-STRING 1773
-// Items: I09M (Idol of Sorrow), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases the mana regeneration of allied heroes by 8. Your hero cannot use mana.
 }
 
 STRING 1774
@@ -11975,6 +11921,14 @@ STRING 1808
 Scientist Card
 }
 
+STRING 1809
+// Items: I0DZ (Idol of Sin), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Your health-restoring abilities and items restore 150% more health. After healing, the target cannot restore health over time.
+|cffffcc00Duration:|r 2.5 seconds.
+}
+
 STRING 1810
 // Items: I0B9 (Scholar's Gambit), Description (Description)
 {
@@ -11987,6 +11941,22 @@ STRING 1811
 {
 |cffffcc00Quest:|r Activate 40 |cff60C445Unique|r |cFF959697(0/40)|r.
 |cffffcc00Reward:|r Witcher medallion.
+}
+
+STRING 1812
+// Items: I09Q (Idol of Greed), Description (Description)
+{
+|cff4169e1Rare|r
+Increases health by 1250.
+Your hero takes pure damage instead of all heroes.
+}
+
+STRING 1813
+// Items: I09Q (Idol of Greed), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Increases health by 1250.
+Your hero takes pure damage instead of all heroes.
 }
 
 STRING 1814
@@ -12117,6 +12087,38 @@ The effect is cumulative.
 |cffffcc00Cooldown:|r 3 seconds.
 }
 
+STRING 1831
+// Items: I09O (Idol of Desires), Description (Description)
+{
+|cff4169e1Rare|r
+Increases mana regeneration by 2500%.
+When the hero uses an ability or item, burns all mana.
+}
+
+STRING 1832
+// Items: I09O (Idol of Desires), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Increases mana regeneration by 2500%.
+When the hero uses an ability or item, burns all mana.
+}
+
+STRING 1833
+// Items: I09N (Idol of Gluttony), Description (Description)
+{
+|cff4169e1Rare|r
+Increases Movement and Attack Speed by 125%. 
+Healing effects do not work on the Hero.
+}
+
+STRING 1834
+// Items: I09N (Idol of Gluttony), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Increases Movement and Attack Speed by 125%. 
+Healing effects do not work on the Hero.
+}
+
 STRING 1835
 // Items: I092 (Mask of Dagoth Ur), Ubertip (Tooltip - Extended)
 {
@@ -12159,6 +12161,20 @@ STRING 1840
 // Abilities: A1HB (Blessing: Speciality), Ubertip (Tooltip - Normal - Extended)
 {
 All heroes receive a random |cff8080ffSpecial|r.
+}
+
+STRING 1841
+// Items: I09M (Idol of Sorrow), Description (Description)
+{
+|cff4169e1Rare|r
+Increases the mana regeneration of allied heroes by 12. Your hero cannot use mana.
+}
+
+STRING 1842
+// Items: I09M (Idol of Sorrow), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Increases the mana regeneration of allied heroes by 12. Your hero cannot use mana.
 }
 
 STRING 1843
@@ -12215,6 +12231,13 @@ STRING 1850
 When the hero activates |cff60C445Unique|r, it is used three times.
 }
 
+STRING 1851
+// Items: I065 (Present), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Gives a random |cff4169e1Rare|r and |cffbababcCommon|r artifact.
+}
+
 STRING 1852
 // Items: I092 (Mask of Dagoth Ur), Name (Name)
 {
@@ -12225,6 +12248,13 @@ STRING 1853
 // Items: I092 (Mask of Dagoth Ur), Tip (Tooltip - Basic)
 {
 Mask of Dagoth Ur
+}
+
+STRING 1854
+// Items: I065 (Present), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Gives a random |cff4169e1Rare|r and |cffbababcCommon|r artifact.
 }
 
 STRING 1855
@@ -12381,6 +12411,19 @@ STRING 1875
 Eternal Harvest
 }
 
+STRING 1876
+// Items: I02H (Idol of Kusa), Description (Description)
+{
+|cffe96a1cLegendary|r
+Reduces the cooldown of abilities and items by 40%. When the hero uses an ability or item, silences for 5 seconds.
+}
+
+STRING 1877
+// Items: I02H (Idol of Kusa), Name (Name)
+{
+Idol of Kusa
+}
+
 STRING 1878
 // Items: IZ04 (Eternal Harvest), Tip (Tooltip - Basic)
 {
@@ -12468,6 +12511,12 @@ If all conditions are met, the exchange begins.
 |cffffcc00If the inventory is full, the artifact will delete a random item and move to its place.|r
 }
 
+STRING 1891
+// Items: I02H (Idol of Kusa), Tip (Tooltip - Basic)
+{
+Idol of Kusa
+}
+
 STRING 1892
 // Items: I08S (Hand of Midas), Name (Name)
 {
@@ -12478,6 +12527,13 @@ STRING 1893
 // Items: I08S (Hand of Midas), Tip (Tooltip - Basic)
 {
 Hand of Midas
+}
+
+STRING 1894
+// Items: I02H (Idol of Kusa), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Reduces the cooldown of abilities and items by 40%. When the hero uses an ability or item, silences for 5 seconds.
 }
 
 STRING 1895
@@ -13499,6 +13555,20 @@ Activation: Summons a boss under your control (max 1).
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 2045
+// Items: I02B (Idol of Hunger), Description (Description)
+{
+|cff4169e1Rare|r
+Any damage of the hero has |cffbe81f760%|r vampirism, but the hero loses 30 health per second.
+}
+
+STRING 2046
+// Items: I02B (Idol of Hunger), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Any damage of the hero has |cffbe81f760%|r vampirism, but the hero loses 30 health per second.
+}
+
 STRING 2047
 // Items: I07P (Raging Fire), Ubertip (Tooltip - Extended)
 {
@@ -14043,6 +14113,12 @@ STRING 2125
 // Items: I075 (Filzer the Fair (Out of Pool)), Tip (Tooltip - Basic)
 {
 Filzer the Fair
+}
+
+STRING 2126
+// Abilities: A1HC (Stat: Cooldown -40%), Name (Name)
+{
+Stat: Cooldown -40%
 }
 
 STRING 2127
@@ -14873,13 +14949,6 @@ STRING 2267
 Tassadar
 }
 
-STRING 2268
-// Items: I065 (Present), Description (Description)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Gives an artifact of|cff4169e1 rare|r quality.
-}
-
 STRING 2269
 // Items: I065 (Present), Name (Name)
 {
@@ -14890,13 +14959,6 @@ STRING 2270
 // Items: I065 (Present), Tip (Tooltip - Basic)
 {
 Present
-}
-
-STRING 2271
-// Items: I065 (Present), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Gives an artifact of|cff4169e1 rare|r quality.
 }
 
 STRING 2272
@@ -18128,18 +18190,6 @@ Creates 5 totally legit bananas in the area. Each banana taunts a random unit so
 |cffffcc00Cooldown:|r 40 seconds.
 }
 
-STRING 2802
-// Items: I02H (Runestone Kusa), Name (Name)
-{
-Runestone Kusa
-}
-
-STRING 2803
-// Items: I02H (Runestone Kusa), Tip (Tooltip - Basic)
-{
-Runestone Kusa
-}
-
 STRING 2804
 // Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
 {
@@ -18286,13 +18336,6 @@ STRING 2824
 Activation: |cffcc0000Corrupted|r. Destroys artifact in the inventory.
 }
 
-STRING 2825
-// Items: I02B (Idol of Hunger), Description (Description)
-{
-|cff4169e1Rare|r
-Any damage of the hero has |cffbe81f760%|r vampirism, but the hero loses 40 health per second.
-}
-
 STRING 2826
 // Items: I02B (Idol of Hunger), Name (Name)
 {
@@ -18303,13 +18346,6 @@ STRING 2827
 // Items: I02B (Idol of Hunger), Tip (Tooltip - Basic)
 {
 Idol of Hunger
-}
-
-STRING 2828
-// Items: I02B (Idol of Hunger), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Any damage of the hero has |cffbe81f760%|r vampirism, but the hero loses 40 health per second.
 }
 
 STRING 2829
@@ -61886,20 +61922,6 @@ The hero deals 30% more damage to bosses.
 |cffffffffReduces attack speed by 30%.|r
 }
 
-STRING 9564
-// Items: I02H (Runestone Kusa), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff848484Rune|r
-Reduces the cooldown of abilities and items by 30%. |cffffffffWhen the hero uses an ability or item, silences for 5 seconds.|r
-}
-
-STRING 9565
-// Items: I02H (Runestone Kusa), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff848484Rune|r
-Reduces the cooldown of abilities and items by 30%. |cffffffffWhen the hero uses an ability or item, silences for 5 seconds.|r
-}
-
 STRING 9566
 // Items: I02G (Runestone Dor), Description (Description)
 {
@@ -72271,7 +72293,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.9.4T|r
+|cffbe81f7Boss Battle 1.9.5T|r
 }
 
 STRING 11219
@@ -76706,26 +76728,6 @@ STRING 11853
 // Items: I0HI (Power Wand), Tip (Tooltip - Basic)
 {
 Power Wand
-}
-
-STRING 11854
-// Items: I0FI (Chameleon Eye), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff9001fdRing|r
-After the hero has used |cff60C445Unique|r, turns it into a random activated |cff60C445Unique|r.
-Increases spell power of |cff60C445Unique|r by 500%.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
-STRING 11855
-// Items: I0FI (Chameleon Eye), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff9001fdRing|r
-After the hero has used |cff60C445Unique|r, turns it into a random activated |cff60C445Unique|r.
-Increases spell power of |cff60C445Unique|r by 500%.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 11856

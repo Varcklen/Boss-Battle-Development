@@ -60,6 +60,7 @@ library StatAbilityDatabase initializer init requires StatAbility
 		call ConnectAbilityToStat( 'A1FL', STAT_COOLDOWN, -10 )
 		call ConnectAbilityToStat( 'A1G3', STAT_COOLDOWN, 15 )
 		call ConnectAbilityToStat( 'A1G4', STAT_COOLDOWN, 25 )
+		call ConnectAbilityToStat( 'A1HC', STAT_COOLDOWN, -40 )
 		//STAT_BUFF_DURATION
 		call ConnectAbilityToStat( 'A1FC', STAT_BUFF_DURATION, 50 )
 		//STAT_MANA_HEAL_BONUS

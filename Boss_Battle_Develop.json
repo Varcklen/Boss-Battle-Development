@@ -1,7 +1,7 @@
 {
   "Name": "Boss_Battle_Develop",
   "Version": 4,
-  "GameVersion": "2.0.3.22978",
+  "GameVersion": "2.0.3.22988",
   "Language": "jass",
   "UseRelativeMapDirectory": true,
   "Comment": "",
@@ -2632,7 +2632,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Library\\SpecialLib.trg",
           "Files": []
         },
@@ -2759,7 +2759,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "BasicCore\\Database",
           "Files": [
             {
@@ -3281,7 +3281,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\EventSystem",
           "Files": [
             {
@@ -3410,7 +3410,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\StatSystem",
           "Files": [
             {
@@ -4096,7 +4096,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Mods\\Active",
           "Files": [
             {
@@ -4109,7 +4109,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Mods\\Active\\Bless",
               "Files": [
                 {
@@ -5569,13 +5569,13 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Items",
       "Files": [
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Common",
           "Files": [
             {
@@ -8355,7 +8355,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Items\\Legendary\\Chameleon Eye.trg",
               "Files": []
             },
@@ -8607,7 +8607,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Items\\Legendary\\Orbs",
               "Files": [
                 {
@@ -8657,13 +8657,6 @@
                   "isInitiallyOn": true,
                   "isExpanded": false,
                   "path": "Items\\Legendary\\Orbs\\OrbDesecrated Land.trg",
-                  "Files": []
-                },
-                {
-                  "isEnabled": true,
-                  "isInitiallyOn": true,
-                  "isExpanded": false,
-                  "path": "Items\\Legendary\\Orbs\\OrbElderWarlock.trg",
                   "Files": []
                 },
                 {
@@ -8811,6 +8804,13 @@
                   "isInitiallyOn": true,
                   "isExpanded": false,
                   "path": "Items\\Legendary\\Orbs\\OrbWoods.trg",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Items\\Legendary\\Orbs\\OrbElderWarlock.j",
                   "Files": []
                 }
               ]
@@ -9371,7 +9371,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Extra",
           "Files": [
             {
