@@ -7465,6 +7465,13 @@ Activation: Gives 2 random stats for the battle.
 |cffffcc00Cost:|r 75 health.
 }
 
+STRING 1142
+// Items: I09L (Paragon Armor), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases stats by 35.
+}
+
 STRING 1143
 // Items: I0DZ (Idol of Sin), Name (Name)
 {
@@ -7475,6 +7482,13 @@ STRING 1144
 // Items: I0DZ (Idol of Sin), Tip (Tooltip - Basic)
 {
 Idol of Sin
+}
+
+STRING 1145
+// Items: I09L (Paragon Armor), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases stats by 35.
 }
 
 STRING 1146
@@ -7951,6 +7965,13 @@ When the hero moves, creates an icy ground that reduces the attack and movement 
 |cffffcc00Duration:|r 8 seconds.
 }
 
+STRING 1210
+// Items: I02R (Mage Armor), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases mana by 450, mana regeneration by 450%, and spell power by 45%.
+}
+
 STRING 1211
 // Items: I0DI (Copy-Cat), Name (Name)
 {
@@ -7961,6 +7982,13 @@ STRING 1212
 // Items: I0DI (Copy-Cat), Tip (Tooltip - Basic)
 {
 Copy-Cat
+}
+
+STRING 1213
+// Items: I02R (Mage Armor), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases mana by 450, mana regeneration by 450%, and spell power by 45%.
 }
 
 STRING 1214
@@ -8170,6 +8198,13 @@ STRING 1244
 {
 |cffffcc00Quest:|r Stay 60 seconds in invisibility |cFF959697(0/60)|r.
 |cffffcc00Reward:|r Observer Core.
+}
+
+STRING 1245
+// Items: I003 (Knight Armor), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases Health by 1250, Attack by 35 and Armor by 15.
 }
 
 STRING 1246
@@ -9499,6 +9534,13 @@ STRING 1438
 // Items: I06V (Split Time), Tip (Tooltip - Basic)
 {
 Split Time
+}
+
+STRING 1439
+// Items: I003 (Knight Armor), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases Health by 1250, Attack by 35 and Armor by 15.
 }
 
 STRING 1440
@@ -11691,13 +11733,6 @@ STRING 1772
 Idol of Sorrow
 }
 
-STRING 1774
-// Items: I09L (Paragon Armor), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases stats by 25.
-}
-
 STRING 1775
 // Items: I09L (Paragon Armor), Name (Name)
 {
@@ -11708,13 +11743,6 @@ STRING 1776
 // Items: I09L (Paragon Armor), Tip (Tooltip - Basic)
 {
 Paragon Armor
-}
-
-STRING 1777
-// Items: I09L (Paragon Armor), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases stats by 25.
 }
 
 STRING 1778
@@ -17913,13 +17941,6 @@ STRING 2760
 W
 }
 
-STRING 2761
-// Items: I02R (Mage Armor), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases mana by 350, mana regeneration by 350%, and spell power by 35%.
-}
-
 STRING 2762
 // Items: I02R (Mage Armor), Name (Name)
 {
@@ -17930,13 +17951,6 @@ STRING 2763
 // Items: I02R (Mage Armor), Tip (Tooltip - Basic)
 {
 Mage Armor
-}
-
-STRING 2764
-// Items: I02R (Mage Armor), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases mana by 350, mana regeneration by 350%, and spell power by 35%.
 }
 
 STRING 2765
@@ -20331,13 +20345,6 @@ If there are no |cffe96a1clegendary|r artifacts in your inventory, increase dama
 |cff81f260[Random bonus]|r
 }
 
-STRING 3149
-// Items: I003 (Knight Armor), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases health by 1000, attack power by 25 and armor by 10.
-}
-
 STRING 3150
 // Items: I003 (Knight Armor), Name (Name)
 {
@@ -20348,13 +20355,6 @@ STRING 3151
 // Items: I003 (Knight Armor), Tip (Tooltip - Basic)
 {
 Knight Armor
-}
-
-STRING 3152
-// Items: I003 (Knight Armor), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases health by 1000, attack power by 25 and armor by 10.
 }
 
 STRING 3153
