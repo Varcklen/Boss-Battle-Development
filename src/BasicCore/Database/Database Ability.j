@@ -273,7 +273,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_One[45] = gg_trg_WandererQ
 	    set udg_DB_Trigger_One[46] = trg_TrollMageQ
 	    set udg_DB_Trigger_One[47] = gg_trg_DogQ
-	    set udg_DB_Trigger_One[48] = gg_trg_PredatorQ
+	    set udg_DB_Trigger_One[48] = trg_PredatorQ
 	    set udg_DB_Trigger_One[49] = gg_trg_MaidenW
 	    set udg_DB_Trigger_One[50] = trg_WicerdQ
 	    set udg_DB_Trigger_One[51] = gg_trg_Money_BagW
@@ -353,7 +353,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Two[42] = gg_trg_IncarnationW
 	    set udg_DB_Trigger_Two[43] = trg_ShamanW
 	    set udg_DB_Trigger_Two[44] = gg_trg_GamblerW
-	    set udg_DB_Trigger_Two[45] = gg_trg_WandererW
+	    set udg_DB_Trigger_Two[45] = trg_WandererW
 	    set udg_DB_Trigger_Two[46] = trg_Troll_MageW
 	    set udg_DB_Trigger_Two[47] = gg_trg_DogW
 	    set udg_DB_Trigger_Two[48] = trg_PredatorW

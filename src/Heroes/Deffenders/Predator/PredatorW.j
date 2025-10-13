@@ -105,7 +105,7 @@ function Trig_PredatorW_Actions takes nothing returns nothing
         set caster = udg_Caster
         set lvl = udg_Level
         call textst( udg_string[0] + GetObjectName('A15N'), caster, 64, 90, 10, 1.5 )
-        set dist = GetRandomReal( 0, 730 )
+        set dist = GetRandomReal( 0, 600 )
         set angle = GetRandomReal( 0, 360 ) * bj_DEGTORAD
         set x = GetUnitX( caster ) + dist * Cos( angle )
         set y = GetUnitY( caster ) + dist * Sin( angle )
@@ -123,7 +123,7 @@ function Trig_PredatorW_Actions takes nothing returns nothing
     endif
 
     set id = GetHandleId( caster )
-    set dmg = (80 + ( 40 * lvl )) * GetUnitSpellPower(caster)
+    set dmg = (80 + ( 40 * lvl )) //* GetUnitSpellPower(caster)
     set reduce = (0.05*lvl)+0.04
     
     if GetUnitAbilityLevel( caster, 'A0DV' ) == 0 then

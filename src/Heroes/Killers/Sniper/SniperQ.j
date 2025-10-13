@@ -75,7 +75,7 @@ private function Trig_SniperQ_Actions takes nothing returns nothing
         set lvl = GetUnitAbilityLevel(caster, ABILITY_ID)
     endif
     
-    set dmg = ( 0.012 + ( 0.012 * lvl ) ) * GetUnitSpellPower(caster)
+    set dmg = ( 0.012 + ( 0.012 * lvl ) ) //* GetUnitSpellPower(caster)
     
     call dummyspawn( caster, 0, 'A10A', 'A0N5', 0 )
     call SetUnitFacing( bj_lastCreatedUnit, AngleBetweenUnits( caster, target ) )

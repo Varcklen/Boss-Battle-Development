@@ -118,7 +118,7 @@ function Trig_IncarnationR_Actions takes nothing returns nothing
     endif
 
 	call DestroyEffect( AddSpecialEffect( "war3mapImported\\Soul Discharge Purple.mdx", GetUnitX(caster), GetUnitY(caster) ) )
-	set dmgrift = ( 5 + ( 5 * lvl ) ) * GetUnitSpellPower(caster)
+	set dmgrift = ( 5 + ( 5 * lvl ) ) //* GetUnitSpellPower(caster)
 
     call IncarnationRift( caster, GetUnitX( caster ), GetUnitY( caster ), dmgrift)
 
@@ -129,7 +129,7 @@ function Trig_IncarnationR_Actions takes nothing returns nothing
     endif
 
     set id = GetHandleId( caster )
-    set dmg = (65 + ( 35 * lvl )) * GetUnitSpellPower(caster)
+    set dmg = (65 + ( 35 * lvl )) //* GetUnitSpellPower(caster)
 	set dmgr = dmg
 	
 	set bj_livingPlayerUnitsTypeId = 'u000'

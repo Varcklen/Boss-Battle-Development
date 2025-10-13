@@ -8664,22 +8664,6 @@ Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refr
 Only active outside of combat.
 }
 
-STRING 1312
-// Abilities: A082 (Outcast: Denial of the Past), Researchubertip (Tooltip - Learn - Extended)
-{
-If the hero has used Vengeful Strike no more than 4 times during the battle, gain 3/4/5/6/7 Strength at the end of the round.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
-}
-
-STRING 1313
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero has used Vengeful Strike no more than 4 times during the battle, gain 4 Strength at the end of the round.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
-}
-
 STRING 1314
 // Items: I0CS (Scorching mash), Description (Description)
 {
@@ -10198,6 +10182,12 @@ STRING 1536
 Scholar's Gambit
 }
 
+STRING 1537
+// Abilities: AODE (Аура: Denial of the Past), Name (Name)
+{
+Аура: Denial of the Past
+}
+
 STRING 1538
 // Items: I0B8 (Tarot Card: Plague), Description (Description)
 {
@@ -11261,6 +11251,15 @@ Activation: Teleports the hero a short distance.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 1694
+// Abilities: A0JG (Wanderer: Impius Imperium), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f710/15/20/25/30|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f780/110/140/170/200|r damage.
+|cffffcc00Duration:|r 7/6/5/4/3 seconds.
+|cffffcc00Cooldown:|r 9/8/7/6/5 seconds.
+|cffffcc00Cost:|r 50 mana and health.
+}
+
 STRING 1695
 // Items: I0A5 (Cane of Khnum), Name (Name)
 {
@@ -11659,6 +11658,15 @@ STRING 1753
 |cffffcc00Reward:|r Dead Man's Chest.
 }
 
+STRING 1754
+// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f710|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f780|r damage.
+|cffffcc00Duration:|r 7 seconds.
+|cffffcc00Cooldown:|r 9 seconds.
+|cffffcc00Cost:|r 50 health.
+}
+
 STRING 1755
 // Items: I09Q (Idol of Greed), Name (Name)
 {
@@ -11669,6 +11677,15 @@ STRING 1756
 // Items: I09Q (Idol of Greed), Tip (Tooltip - Basic)
 {
 Idol of Greed
+}
+
+STRING 1757
+// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f715|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f7110|r damage.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 8 seconds.
+|cffffcc00Cost:|r 50 health.
 }
 
 STRING 1758
@@ -11697,6 +11714,15 @@ STRING 1761
 Increases physical damage dealt and received by 100%.
 }
 
+STRING 1762
+// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f720|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f7140|r damage.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 7 seconds.
+|cffffcc00Cost:|r 50 health.
+}
+
 STRING 1763
 // Items: I09O (Idol of Desires), Name (Name)
 {
@@ -11707,6 +11733,24 @@ STRING 1764
 // Items: I09O (Idol of Desires), Tip (Tooltip - Basic)
 {
 Idol of Desires
+}
+
+STRING 1765
+// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f725|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f7170|r damage.
+|cffffcc00Duration:|r 4 seconds.
+|cffffcc00Cooldown:|r 6 seconds.
+|cffffcc00Cost:|r 50 health.
+}
+
+STRING 1766
+// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f730|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f7200|r damage.
+|cffffcc00Duration:|r 3 seconds.
+|cffffcc00Cooldown:|r 5 seconds.
+|cffffcc00Cost:|r 50 health.
 }
 
 STRING 1767
@@ -11721,6 +11765,14 @@ STRING 1768
 Idol of Gluttony
 }
 
+STRING 1770
+// Abilities: A082 (Outcast: Denial of the Past), Researchubertip (Tooltip - Learn - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 40/55/70/85/100% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 0/1/2/3/4 extra strength and agility if Defiance was fully successful.
+}
+
 STRING 1771
 // Items: I09M (Idol of Sorrow), Name (Name)
 {
@@ -11733,6 +11785,21 @@ STRING 1772
 Idol of Sorrow
 }
 
+STRING 1773
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 40% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+}
+
+STRING 1774
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 55% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 1 extra strength and agility if Defiance was fully successful.
+}
+
 STRING 1775
 // Items: I09L (Paragon Armor), Name (Name)
 {
@@ -11743,6 +11810,14 @@ STRING 1776
 // Items: I09L (Paragon Armor), Tip (Tooltip - Basic)
 {
 Paragon Armor
+}
+
+STRING 1777
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 70% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 2 extra strength and agility if Defiance was fully successful.
 }
 
 STRING 1778
@@ -14343,6 +14418,14 @@ STRING 2155
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cffb18904mech|r.
 }
 
+STRING 2156
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 85% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 3 extra strength and agility if Defiance was fully successful.
+}
+
 STRING 2157
 // Items: I06X (Symbol of Antonidas), Name (Name)
 {
@@ -14353,6 +14436,14 @@ STRING 2158
 // Items: I06X (Symbol of Antonidas), Tip (Tooltip - Basic)
 {
 Symbol of Antonidas
+}
+
+STRING 2159
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 100% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 4 extra strength and agility if Defiance was fully successful.
 }
 
 STRING 2160
@@ -14381,6 +14472,24 @@ STRING 2163
 |cffbababcCommon|r
 When your minion dies, deals |cffbe81f750|r damage to a random enemy nearby.
 |cff81f260[Random bonus]|r
+}
+
+STRING 2164
+// Abilities: A1H8 (Extra: Defiance (Outcast Demon)), Name (Name)
+{
+Extra: Defiance (Outcast Demon)
+}
+
+STRING 2165
+// Abilities: A1H8 (Extra: Defiance (Outcast Demon)), Tip (Tooltip - Normal)
+{
+Defiance
+}
+
+STRING 2167
+// Buffs/Effects: BODE (), Bufftip (Tooltip)
+{
+|cff00ff00Withdrawal|r
 }
 
 STRING 2168
@@ -14740,6 +14849,30 @@ STRING 2218
 // Items: I06I (Amulet of Souls), Tip (Tooltip - Basic)
 {
 Amulet of Souls
+}
+
+STRING 2219
+// Buffs/Effects: BODE (), Buffubertip (Tooltip - Extended)
+{
+Deals more damage - but loses health over time.
+}
+
+STRING 2220
+// Abilities: A15M (Predator: Stomp Out), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f7100/150/200/250/300|r damage to all enemies in front of the hero and knocks them away. Restore |cffbe81f715/25/35/45/55|r health for each enemy.
+|cffffcc00Cooldown:|r 16/15/14/13/12 seconds.
+|cffffcc00Cost:|r 40 mana.
+|cFF959697Upgrades increase the knockback distance.
+Does not work on immobile targets.|r
+}
+
+STRING 2221
+// Abilities: A1H8 (Extra: Defiance (Outcast Demon)), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 3 times during the battle, gain 3 Strength at the end of the round.
+The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r|n
+|cFF959697Defiance is fully successful if all 3 conditions are met.|r
 }
 
 STRING 2225
@@ -28627,16 +28760,6 @@ STRING 4443
 // Abilities: A15M (Predator: Stomp Out), Researchtip (Tooltip - Learn)
 {
 Stomp Out, [|cffffcc00Level %d|r]
-}
-
-STRING 4444
-// Abilities: A15M (Predator: Stomp Out), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f7100/150/200/250/300|r damage to all enemies in front of the hero and knocks them. Restore |cffbe81f715/25/35/45/55|r health for each enemy.
-|cffffcc00Cooldown:|r 16/15/14/13/12 seconds.
-|cffffcc00Cost:|r 40 mana.
-
-|cFF959697Does not work on immobile targets.|r
 }
 
 STRING 4445
@@ -47930,15 +48053,6 @@ STRING 7392
 Impius Imperium, [|cffffcc00Level %d|r]
 }
 
-STRING 7393
-// Abilities: A0JG (Wanderer: Impius Imperium), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f78/11/14/17/20|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f780/110/140/170/200|r damage.
-|cffffcc00Duration:|r 7 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-|cffffcc00Cost:|r 60 mana and 40/50/60/70/80 health.
-}
-
 STRING 7394
 // Abilities: A0JG (Wanderer: Impius Imperium), Tip (Tooltip - Normal)
 {
@@ -47967,51 +48081,6 @@ STRING 7398
 // Abilities: A0JG (Wanderer: Impius Imperium), Tip (Tooltip - Normal)
 {
 Impius Imperium, [|cffffcc00Level 5|r]
-}
-
-STRING 7399
-// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f78|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f780|r damage.
-|cffffcc00Duration:|r 7 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-|cffffcc00Cost:|r 40 health.
-}
-
-STRING 7400
-// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f711|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f7110|r damage.
-|cffffcc00Duration:|r 7 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-|cffffcc00Cost:|r 50 health.
-}
-
-STRING 7401
-// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f714|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f7140|r damage.
-|cffffcc00Duration:|r 7 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-|cffffcc00Cost:|r 60 health.
-}
-
-STRING 7402
-// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f717|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f7170|r damage.
-|cffffcc00Duration:|r 7 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-|cffffcc00Cost:|r 70 health.
-}
-
-STRING 7403
-// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f720|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f7200|r damage.
-|cffffcc00Duration:|r 7 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-|cffffcc00Cost:|r 80 health.
 }
 
 STRING 7404
@@ -74030,42 +74099,10 @@ STRING 11482
 (R) Lycanthrope Druid
 }
 
-STRING 11483
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero has used Vengeful Strike no more than 4 times during the battle, gain 3 Strength at the end of the round.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
-}
-
 STRING 11484
 // Units: N038 ((H) Harpy), Name (Name)
 {
 (H) Harpy
-}
-
-STRING 11485
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero has used Vengeful Strike no more than 4 times during the battle, gain 5 Strength at the end of the round.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
-}
-
-STRING 11486
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero has used Vengeful Strike no more than 4 times during the battle, gain 6 Strength at the end of the round.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
-}
-
-STRING 11487
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero has used Vengeful Strike no more than 4 times during the battle, gain 7 Strength at the end of the round.
-
-|cFF959697The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r
 }
 
 STRING 11488
@@ -76096,24 +76133,6 @@ STRING 11765
 |cffbababcCommon|r, |cffb40431Blood|r
 Activation: Copies the health percentage of another hero.
 |cffffcc00Cooldown:|r 35 seconds.
-}
-
-STRING 11766
-// Abilities: A1H8 (Extra: Outcast (Outcast Demon)), Name (Name)
-{
-Extra: Outcast (Outcast Demon)
-}
-
-STRING 11767
-// Abilities: A1H8 (Extra: Outcast (Outcast Demon)), Tip (Tooltip - Normal)
-{
-Outcast
-}
-
-STRING 11768
-// Abilities: A1H8 (Extra: Outcast (Outcast Demon)), Ubertip (Tooltip - Normal - Extended)
-{
-Also gains Attack from Agility and Intelligence.
 }
 
 STRING 11769
