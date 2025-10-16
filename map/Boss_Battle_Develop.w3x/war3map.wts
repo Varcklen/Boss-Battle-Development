@@ -8664,6 +8664,22 @@ Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refr
 Only active outside of combat.
 }
 
+STRING 1312
+// Items: IZ09 (Natural Deselection), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+When another hero is revived during combat, for as long as they stay alive, gain their Spell Power and Luck until end of battle. 
+|cff81f260[Random bonus]|r
+}
+
+STRING 1313
+// Items: IZ09 (Natural Deselection), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+When another hero is revived during combat, for as long as they stay alive, gain their Spell Power and Luck until end of battle. 
+|cff81f260[Random bonus]|r
+}
+
 STRING 1314
 // Items: I0CS (Scorching mash), Description (Description)
 {
@@ -11765,6 +11781,13 @@ STRING 1768
 Idol of Gluttony
 }
 
+STRING 1769
+// Items: I0HH (Energy Charge), Description (Description)
+{
+|cffffcc00Repeatable Quest:|r Spend 1200 Mana. Every completion adds 50 mana to the requirement |cFF959697(0/1200)|r.
+|cffffcc00Reward:|r Power Wand.
+}
+
 STRING 1770
 // Abilities: A082 (Outcast: Denial of the Past), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -14486,6 +14509,13 @@ STRING 2165
 Defiance
 }
 
+STRING 2166
+// Items: I0HH (Energy Charge), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Repeatable Quest:|r Spend 1200 Mana. Every completion adds 50 mana to the requirement |cFF959697(0/1200)|r.
+|cffffcc00Reward:|r Power Wand.
+}
+
 STRING 2167
 // Buffs/Effects: BODE (), Bufftip (Tooltip)
 {
@@ -14839,6 +14869,14 @@ Increases spell power by 10%.
 |cffbe81f7Spell power|r also works on your attack power.
 }
 
+STRING 2216
+// Abilities: A07Y (Outcast: Demonic Blast), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f780/120/160/200/240|r damage to all nearby enemies. If any target dies, detonates it, dealing |cffbe81f730/50/70/90/110|r damage to all enemies from the target.
+|cffffcc00Cooldown:|r 4 seconds.
+|cffffcc00Cost:|r 25 Mana.
+}
+
 STRING 2217
 // Items: I06I (Amulet of Souls), Name (Name)
 {
@@ -14875,6 +14913,27 @@ The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intel
 |cFF959697Defiance is fully successful if all 3 conditions are met.|r
 }
 
+STRING 2222
+// Abilities: A07Y (Outcast: Demonic Blast), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f780|r damage to all nearby enemies. If any target dies, detonates it, dealing |cffbe81f730|r damage to all enemies from the target.
+|cffffcc00Cooldown:|r 4 seconds.
+}
+
+STRING 2223
+// Abilities: A07Y (Outcast: Demonic Blast), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7120|r damage to all nearby enemies. If any target dies, detonates it, dealing |cffbe81f750|r damage to all enemies from the target.
+|cffffcc00Cooldown:|r 4 seconds.
+}
+
+STRING 2224
+// Abilities: A07Y (Outcast: Demonic Blast), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7160|r damage to all nearby enemies. If any target dies, detonates it, dealing |cffbe81f770|r damage to all enemies from the target.
+|cffffcc00Cooldown:|r 4 seconds.
+}
+
 STRING 2225
 // Items: I06G (Purple Liar), Name (Name)
 {
@@ -14893,6 +14952,20 @@ STRING 2227
 |cffbababcCommon|r, |cff9001fdRing|r
 Activation: Resets the hero's |cff60C445Unique|r cooldown.
 |cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 2228
+// Abilities: A07Y (Outcast: Demonic Blast), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7200|r damage to all nearby enemies. If any target dies, detonates it, dealing |cffbe81f790|r damage to all enemies from the target.
+|cffffcc00Cooldown:|r 4 seconds.
+}
+
+STRING 2229
+// Abilities: A07Y (Outcast: Demonic Blast), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7240|r damage to all nearby enemies. If any target dies, detonates it, dealing |cffbe81f7110|r damage to all enemies from the target.
+|cffffcc00Cooldown:|r 4 seconds.
 }
 
 STRING 2236
@@ -33429,14 +33502,6 @@ Activation: Increases |cff60C445Unique|r Spell Power by 200%.
 |cffffcc00Cooldown:|r 25 seconds.
 }
 
-STRING 5155
-// Items: IZ09 (Natural Deselection), Description (Description)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Whenever another hero is revived during combat, gain their Spell Power and Luck until end of battle. 
-|cff81f260[Random bonus]|r
-}
-
 STRING 5156
 // Items: IZ09 (Natural Deselection), Name (Name)
 {
@@ -33453,14 +33518,6 @@ STRING 5158
 // Abilities: A10D (Аура: Double Down), Name (Name)
 {
 Аура: Double Down
-}
-
-STRING 5159
-// Items: IZ09 (Natural Deselection), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Whenever another hero is revived during combat, gain their Spell Power and Luck until end of battle. 
-|cff81f260[Random bonus]|r
 }
 
 STRING 5160
@@ -59146,14 +59203,6 @@ STRING 9128
 Demonic Blast, [|cffffcc00Level %d|r]
 }
 
-STRING 9129
-// Abilities: A07Y (Outcast: Demonic Blast), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f780/120/160/200/240|r damage to all nearby enemies. If any target dies, detonates it, dealing |cffbe81f730/50/70/90/110|r damage to all enemies from the target.
-|cffffcc00Cooldown:|r 5 seconds.
-|cffffcc00Cost:|r 25 Mana.
-}
-
 STRING 9130
 // Abilities: A07Y (Outcast: Demonic Blast), Tip (Tooltip - Normal)
 {
@@ -59182,41 +59231,6 @@ STRING 9134
 // Abilities: A07Y (Outcast: Demonic Blast), Tip (Tooltip - Normal)
 {
 Demonic Blast, [|cffffcc00Level 5|r]
-}
-
-STRING 9135
-// Abilities: A07Y (Outcast: Demonic Blast), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f780|r damage to all nearby enemies. If any target dies, detonates it, dealing |cffbe81f730|r damage to all enemies from the target.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 9136
-// Abilities: A07Y (Outcast: Demonic Blast), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7120|r damage to all nearby enemies. If any target dies, detonates it, dealing |cffbe81f750|r damage to all enemies from the target.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 9137
-// Abilities: A07Y (Outcast: Demonic Blast), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7160|r damage to all nearby enemies. If any target dies, detonates it, dealing |cffbe81f770|r damage to all enemies from the target.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 9138
-// Abilities: A07Y (Outcast: Demonic Blast), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7200|r damage to all nearby enemies. If any target dies, detonates it, dealing |cffbe81f790|r damage to all enemies from the target.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 9139
-// Abilities: A07Y (Outcast: Demonic Blast), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7240|r damage to all nearby enemies. If any target dies, detonates it, dealing |cffbe81f7110|r damage to all enemies from the target.
-|cffffcc00Cooldown:|r 5 seconds.
 }
 
 STRING 9140
@@ -76721,20 +76735,6 @@ STRING 11849
 Activation: Pushes all creatures away from the hero and creates a shield of stones that protects them.
 |cffffcc00Lifetime:|r 10 seconds.
 |cffffcc00Cooldown:|r 45 seconds.
-}
-
-STRING 11850
-// Items: I0HH (Energy Charge), Description (Description)
-{
-|cffffcc00Repeatable Quest:|r Spend 1200 Mana |cFF959697(0/1200)|r.
-|cffffcc00Reward:|r Power Wand.
-}
-
-STRING 11851
-// Items: I0HH (Energy Charge), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Repeatable Quest:|r Spend 1200 Mana |cFF959697(0/1200)|r.
-|cffffcc00Reward:|r Power Wand.
 }
 
 STRING 11852

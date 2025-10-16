@@ -4,7 +4,8 @@ scope EnergyCharge initializer init
 		private constant integer QUEST_ID = 'I0HH'
 		private constant integer REWARD_ID = 'I0HI'
 		private constant integer HASH_KEY = StringHash("quest_energy_charge")
-		private constant integer COUNT_NEEDED = 1200
+		private constant integer COUNT_SCALE = 50
+		private integer COUNT_NEEDED = 1200
 	endglobals
 
 	private function condition takes nothing returns boolean
@@ -27,6 +28,7 @@ scope EnergyCharge initializer init
 		set isCompleted = Quest_QuestCondition( hero, QUEST_ID, REWARD_ID, currentValue, COUNT_NEEDED)
 		if isCompleted then
 			set currentValue = 0
+			set COUNT_NEEDED = COUNT_NEEDED + COUNT_SCALE
 		endif
 		call BlzSetItemExtendedTooltip( questItem, words( hero, BlzGetItemDescription(questItem), "|cFF959697(", ")|r", I2S(currentValue) + "/" + I2S(COUNT_NEEDED) ) )
 		call SaveInteger(udg_hash, id, HASH_KEY, currentValue) 

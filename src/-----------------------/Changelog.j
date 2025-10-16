@@ -1,6 +1,6 @@
 /*
 	HEROES:
-	Fixed many instances of spells scaling from spellpower twice
+	Fixed many instances of spells scaling from spellpower twice.
 	
 	Keeper otGT - 	Q : reduced range to be in line with most other teleport/movement abilities : 900 -> 600
 	
@@ -28,8 +28,13 @@
 	but health is drained every 2 seconds, starting at 1% and doubling every tick.
 	Dying or using hero abilities exists Withdrawal.
 	At the end of the round, gain 0/1/2/3/4 extra strength and agility if Defiance was fully successful.
-
-
-	KNOWN BUGS
-	Paladin W - damage has no SP scaling
+	
+	ITEMS:
+	Energy Charge quest requires 50 more mana with every completion. Reward unchanged.
+	Magic Fern and Natural Deselection should now properly add luck again.
+	Natural Deselection now copies over the stats for until the revived hero dies.
+	
+	OTHER:
+	Time command now accepts values as low as 40s.
+	Attempted to improve the stability of resurrection effects.
  */
