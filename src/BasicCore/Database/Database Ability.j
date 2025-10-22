@@ -1,7 +1,7 @@
 library LibDataAbilities requires LibDataItems
 
     globals
-        constant integer HEROES_COUNT = 79
+        constant integer HEROES_COUNT = 80
         constant integer HEROES_COUNT_ARRAYS = HEROES_COUNT + 1
         
         integer array Database_Hero_Abilities[5][HEROES_COUNT_ARRAYS]//Position/hero's index
@@ -89,6 +89,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_Database_Hero[77] = 'N03V'	//	Shepherd
 	    set udg_Database_Hero[78] = 'O01Z'	//	Runesmith
 	    set udg_Database_Hero[79] = 'N03Z'	//	Wrath Collector
+	    set udg_Database_Hero[80] = 'H01D'	//	Arcanologist
 	endfunction
 	
 	function DataAbilities takes nothing returns nothing
@@ -124,6 +125,7 @@ library LibDataAbilities requires LibDataItems
 	    //set udg_DB_Ability_Special[BaseNum()] = 'AZ01'
 	    set udg_DB_Ability_Special[BaseNum()] = 'AZ03'
 	    set udg_DB_Ability_Special[BaseNum()] = 'AZ04'
+	    set udg_DB_Ability_Special[BaseNum()] = 'A1HD'
 	    set udg_Database_NumberItems[37] = udg_base
 	    
 	    // Умение
@@ -305,7 +307,8 @@ library LibDataAbilities requires LibDataItems
 	    //set udg_DB_Trigger_One[77] = gg_trg_RandomLogicFizzle // gg_trg_ShepherdQ //might have undefined behaviour if cast by 2 different players on the same team.
 	    set udg_DB_Trigger_One[77] = gg_trg_RunesmithQ
 	    set udg_DB_Trigger_One[78] = WrathCollectorQ
-	    set udg_Database_NumberItems[14] = 78
+	    set udg_DB_Trigger_One[79] = ArcanologistQ
+	    set udg_Database_NumberItems[14] = 79
 	    
 	    
 	    // Триггеры способности №2
@@ -379,7 +382,8 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Two[68] = trg_ShepherdW
 	    set udg_DB_Trigger_Two[69] = gg_trg_RunesmithW
 	    set udg_DB_Trigger_Two[70] = WrathCollectorW
-	    set udg_Database_NumberItems[15] = 70
+	    set udg_DB_Trigger_Two[71] = ArcanologistW
+	    set udg_Database_NumberItems[15] = 71
 	    
 	    // Триггеры способности №3
 	    set udg_DB_Trigger_Three[1] = gg_trg_BeornR
@@ -457,7 +461,8 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Three[73] = gg_trg_ShepherdR
 	    set udg_DB_Trigger_Three[74] = WrathCollectorE
 	    set udg_DB_Trigger_Three[75] = WrathCollectorR
-	    set udg_Database_NumberItems[16] = 75
+	    set udg_DB_Trigger_Three[76] = ArcanologistR
+	    set udg_Database_NumberItems[16] = 75//76
 	    
 	    // First spell
 	    //udg_DB_Hero_FirstSpell
@@ -540,6 +545,7 @@ library LibDataAbilities requires LibDataItems
 	    set Database_Hero_Abilities[1][77] = 'A1DR'
 	    set Database_Hero_Abilities[1][78] = 'A1E4'
 	    set Database_Hero_Abilities[1][79] = 'A1GT'
+	    set Database_Hero_Abilities[1][80] = 'A1HE'
 	    // Second spell
 	    set Database_Hero_Abilities[2][1] = 'A08L'
 	    set Database_Hero_Abilities[2][2] = 'A093'
@@ -620,6 +626,7 @@ library LibDataAbilities requires LibDataItems
 	    set Database_Hero_Abilities[2][77] = 'A1DS'
 	    set Database_Hero_Abilities[2][78] = 'A1E5'
 	    set Database_Hero_Abilities[2][79] = 'A1GU'
+	    set Database_Hero_Abilities[2][80] = 'A1HF'
 	    
 	    // Third spell
 	    //Database_Hero_Abilities[3]
@@ -702,6 +709,7 @@ library LibDataAbilities requires LibDataItems
 	    set Database_Hero_Abilities[3][77] = 'A1DV'
 	    set Database_Hero_Abilities[3][78] = 'A1E3'
 	    set Database_Hero_Abilities[3][79] = 'A1GV'
+	    set Database_Hero_Abilities[3][80] = 'A1HG'
 	
 		//Fourth spell
 	    //udg_DB_Hero_Fourth
@@ -784,6 +792,7 @@ library LibDataAbilities requires LibDataItems
 	    set Database_Hero_Abilities[4][77] = 'A1DO'
 	    set Database_Hero_Abilities[4][78] = 'A1DW'
 	    set Database_Hero_Abilities[4][79] = 'A1GW'
+	    set Database_Hero_Abilities[4][80] = 'A1HH'
 	endfunction
 
 endlibrary

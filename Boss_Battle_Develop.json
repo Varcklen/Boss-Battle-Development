@@ -2293,7 +2293,7 @@
           "Files": []
         },
         {
-          "isEnabled": true,
+          "isEnabled": false,
           "isInitiallyOn": true,
           "isExpanded": false,
           "path": "-----------------------\\Changelog.j",
@@ -3281,7 +3281,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\EventSystem",
           "Files": [
             {
@@ -3360,7 +3360,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\DamageSystem",
           "Files": [
             {
@@ -3609,7 +3609,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\Comands",
           "Files": [
             {
@@ -3807,6 +3807,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "BasicCore\\Comands\\Set Seed.j",
+              "Files": []
+            },
+            {
+              "isEnabled": false,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "BasicCore\\Comands\\TestCheatDelete.j",
               "Files": []
             }
           ]
@@ -4124,7 +4131,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Mods\\Active",
           "Files": [
             {
@@ -4823,7 +4830,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Tower",
       "Files": [
         {
@@ -5081,7 +5088,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Frames",
       "Files": [
         {
@@ -5545,7 +5552,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Frames\\HeroChoise",
           "Files": [
             {
@@ -6100,6 +6107,13 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
+              "path": "Items\\Common\\GD Magic Hat.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Gift Alchemy.trg",
               "Files": []
             },
@@ -6205,14 +6219,14 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
-              "path": "Items\\Common\\Grave Urn.trg",
+              "path": "Items\\Common\\Grateful Dead.j",
               "Files": []
             },
             {
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
-              "path": "Items\\Common\\GD Magic Hat.j",
+              "path": "Items\\Common\\Grave Urn.trg",
               "Files": []
             },
             {
@@ -7136,7 +7150,28 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
+              "path": "Items\\Common\\Wild Yeast.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
               "path": "Items\\Common\\WindTaro.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\Wishstone.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Common\\WitnessCleaver.j",
               "Files": []
             },
             {
@@ -7150,21 +7185,14 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
+              "path": "Items\\Common\\Wool Spindler.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
               "path": "Items\\Common\\World.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Common\\Wtii.trg",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Common\\Wild Yeast.j",
               "Files": []
             },
             {
@@ -7178,14 +7206,7 @@
               "isEnabled": true,
               "isInitiallyOn": true,
               "isExpanded": false,
-              "path": "Items\\Common\\Wool Spindler.j",
-              "Files": []
-            },
-            {
-              "isEnabled": true,
-              "isInitiallyOn": true,
-              "isExpanded": false,
-              "path": "Items\\Common\\Wishstone.j",
+              "path": "Items\\Common\\Wtii.trg",
               "Files": []
             }
           ]
@@ -8287,13 +8308,20 @@
               "isExpanded": false,
               "path": "Items\\Rare\\Zuma.trg",
               "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Rare\\ImmovableMantle.j",
+              "Files": []
             }
           ]
         },
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Legendary",
           "Files": [
             {
@@ -8897,6 +8925,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Items\\Legendary\\Runestone Kusa.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Items\\Legendary\\Runestone Lous.j",
               "Files": []
             },
             {
@@ -9512,7 +9547,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Sets",
           "Files": [
             {
@@ -9687,7 +9722,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Items\\Sets\\Rune Set",
               "Files": [
                 {
@@ -9730,7 +9765,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Items\\Sets\\Weapon Set",
               "Files": [
                 {
@@ -9827,7 +9862,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Debug",
       "Files": [
         {
@@ -10255,7 +10290,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Special",
           "Files": [
             {
@@ -10466,6 +10501,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Heroes\\Special\\VoodooExplosion.j",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Heroes\\Special\\Farewell.j",
               "Files": []
             }
           ]
@@ -10806,7 +10848,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Buffers\\Comander",
               "Files": [
                 {
@@ -11031,7 +11073,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Deffenders",
           "Files": [
             {
@@ -11145,7 +11187,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Deffenders\\BlackKnight",
               "Files": [
                 {
@@ -11224,7 +11266,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Deffenders\\Predator",
               "Files": [
                 {
@@ -11318,6 +11360,42 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
+              "isExpanded": true,
+              "path": "Heroes\\Deffenders\\Arcanologist",
+              "Files": [
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Deffenders\\Arcanologist\\ArcanololgistQ.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Deffenders\\Arcanologist\\ArcanololgistW.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Deffenders\\Arcanologist\\ArcanololgistE.j",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Deffenders\\Arcanologist\\ArcanololgistR.j",
+                  "Files": []
+                }
+              ]
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Heroes\\Deffenders\\Infernal",
               "Files": [
@@ -11390,7 +11468,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Rippers\\Vampyre",
               "Files": [
                 {
@@ -11737,10 +11815,17 @@
                   "Files": []
                 },
                 {
-                  "isEnabled": true,
+                  "isEnabled": false,
                   "isInitiallyOn": true,
                   "isExpanded": false,
                   "path": "Heroes\\Rippers\\Lycanthrope\\LycanthropeR.trg",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Heroes\\Rippers\\Lycanthrope\\LycanR.j",
                   "Files": []
                 }
               ]
@@ -11943,7 +12028,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Marauders\\Gambler",
               "Files": [
                 {
@@ -12626,7 +12711,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Heroes\\Hybrids",
           "Files": [
             {
@@ -12796,7 +12881,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Hybrids\\Monk",
               "Files": [
                 {
@@ -13004,7 +13089,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Hybrids\\RealBro",
               "Files": [
                 {
@@ -13485,7 +13570,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Healers\\Angel",
               "Files": [
                 {
@@ -13600,7 +13685,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Healers\\Morloc",
               "Files": [
                 {
@@ -13636,7 +13721,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Healers\\Harpy",
               "Files": [
                 {
@@ -13715,7 +13800,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Healers\\Altar",
               "Files": [
                 {
@@ -13758,7 +13843,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Healers\\Corrupted Ent",
               "Files": [
                 {
@@ -14159,7 +14244,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Curses\\Fallen One",
               "Files": [
                 {
@@ -14263,7 +14348,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "BossesInfo",
       "Files": [
         {
@@ -16231,7 +16316,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Arenas\\InfiniteArena",
           "Files": [
             {
@@ -16302,7 +16387,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Arenas\\PvPArena",
           "Files": [
             {
@@ -16338,7 +16423,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Arenas\\Arena Lords",
           "Files": [
             {

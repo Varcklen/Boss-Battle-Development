@@ -47,6 +47,7 @@ library WeaponPieceDatabase initializer init requires WeaponPieceSystem
 		call WeaponPiece.create('I0CP', DesperadoHatchet_Trigger, BeforeAttack, "DesperadoHatchet", TRIGGER_TYPE_TRIGGER_UNIT )
 		call WeaponPiece.create('I04S', TreeShield_Trigger, AfterAttack, "TreeShield", TRIGGER_TYPE_TARGET_UNIT )
 		call WeaponPiece.create('I03Z', MiracleWall_Trigger, AfterAttack, "MiracleWall", TRIGGER_TYPE_TARGET_UNIT )
+		call WeaponPiece.create('I0HS', null, 0, "WitnessCleaver", TRIGGER_TYPE_NULL )
 	endfunction
 
 	private function delay takes nothing returns nothing

@@ -11,7 +11,7 @@ endfunction
 
 function Trig_Voodoo_explosion_Actions takes nothing returns nothing
     local unit caster
-    local integer lvl
+    //local integer lvl
     local real x
     local real y
     local real dist 
@@ -23,12 +23,12 @@ function Trig_Voodoo_explosion_Actions takes nothing returns nothing
     
     if CastLogic() then
         set caster = udg_Target
-        set lvl = udg_Level
+        //set lvl = udg_Level
         set x = GetSpellTargetX()
         set y = GetSpellTargetY()
     elseif RandomLogic() then
         set caster = udg_Caster
-        set lvl = udg_Level
+        //set lvl = udg_Level
         set dist = GetRandomReal( 0, 730 )
         set angle = GetRandomReal( 0, 360 ) * bj_DEGTORAD
         set x = GetUnitX( caster ) + dist * Cos( angle )
@@ -36,7 +36,7 @@ function Trig_Voodoo_explosion_Actions takes nothing returns nothing
         call textst( udg_string[0] + GetObjectName(ABILITY_ID), caster, 64, 90, 10, 1.5 )
     else
         set caster = GetSpellAbilityUnit()
-        set lvl = GetUnitAbilityLevel(caster, ABILITY_ID)
+        //set lvl = GetUnitAbilityLevel(caster, ABILITY_ID)
         set x = GetSpellTargetX()
         set y = GetSpellTargetY()
     endif
