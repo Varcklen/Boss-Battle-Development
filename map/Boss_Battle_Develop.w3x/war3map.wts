@@ -16807,14 +16807,6 @@ STRING 2515
 Ancient Pearl
 }
 
-STRING 2516
-// Items: I0HP (Runestone Lous), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff848484Rune|r, |cff00cceeCrystal|r
-When your shield is destroyed, deal |cffbe81f740|r damage to nearby enemies.
-|cffffffffDecreases Spell Power by 25%.|r
-}
-
 STRING 2517
 // Abilities: A141 (Soul Contract: Alchemy), Ubertip (Tooltip - Normal - Extended)
 {
@@ -16890,14 +16882,6 @@ STRING 2528
 {
 Choose an ally. Pulls all orbs towards the target, destroying those; Each orb restores |cffbe81f7180|r health to target, and deals |cffbe81f7180|r damage to nearby enemies.
 |cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 2529
-// Items: I0HP (Runestone Lous), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff848484Rune|r, |cff00cceeCrystal|r
-When your shield is destroyed, deal |cffbe81f740|r damage to nearby enemies.
-|cffffffffDecreases Spell Power by 25%.|r
 }
 
 STRING 2530
@@ -21058,6 +21042,14 @@ STRING 3143
 Repeller
 }
 
+STRING 3144
+// Items: I0HP (Runestone Lous), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff848484Rune|r, |cff00cceeCrystal|r
+When your shield is destroyed, deal |cffbe81f740|r damage to nearby enemies.
+|cffffffffDecreases Spell Power by 35%.|r
+}
+
 STRING 3145
 // Items: I004 (Vampire blood), Description (Description)
 {
@@ -21084,6 +21076,14 @@ STRING 3148
 |cff4169e1Rare|r, |cffb40431Blood|r
 If there are no |cffe96a1clegendary|r artifacts in your inventory, increase damage dealt by 40%. 
 |cff81f260[Random bonus]|r
+}
+
+STRING 3149
+// Items: I0HP (Runestone Lous), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff848484Rune|r, |cff00cceeCrystal|r
+When your shield is destroyed, deal |cffbe81f740|r damage to nearby enemies.
+|cffffffffDecreases Spell Power by 35%.|r
 }
 
 STRING 3150
