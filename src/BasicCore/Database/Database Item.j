@@ -971,7 +971,7 @@ library LibDataItems
 	    set DB_SetItems[3][BaseNum()] = 'I09Y'
 	    set DB_SetItems[3][BaseNum()] = 'I0C2'
 	    set DB_SetItems[3][BaseNum()] = 'I05F'
-	    set DB_SetItems[3][BaseNum()] = 'I0EE'
+	    //set DB_SetItems[3][BaseNum()] = 'I0EE'
 	    set DB_SetItems[3][BaseNum()] = 'I0FI'
 	    set DB_SetItems[3][BaseNum()] = 'I0FR'
 	    set DB_SetItems[3][BaseNum()] = 'I0G3'

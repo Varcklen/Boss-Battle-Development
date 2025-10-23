@@ -1,7 +1,7 @@
 {
   "Name": "Boss_Battle_Develop",
   "Version": 4,
-  "GameVersion": "2.0.3.22988",
+  "GameVersion": "2.0.3.23101",
   "Language": "jass",
   "UseRelativeMapDirectory": true,
   "Comment": "",
@@ -2759,7 +2759,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\Database",
           "Files": [
             {
@@ -3952,7 +3952,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Mods",
       "Files": [
         {
@@ -4952,7 +4952,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Tower\\Other",
           "Files": [
             {
@@ -5030,6 +5030,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Tower\\Other\\OneTime seller.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Tower\\Other\\RingOfIdentity.var",
               "Files": []
             },
             {
@@ -5569,7 +5576,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Items",
       "Files": [
         {
@@ -9826,7 +9833,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Debug\\Cheat",
           "Files": [
             {
@@ -10203,7 +10210,7 @@
           "Files": []
         },
         {
-          "isEnabled": false,
+          "isEnabled": true,
           "isInitiallyOn": true,
           "isExpanded": false,
           "path": "Debug\\Test.j",
@@ -10221,7 +10228,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Heroes",
       "Files": [
         {
@@ -12598,7 +12605,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Hybrids",
           "Files": [
             {
@@ -12711,7 +12718,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Hybrids\\Houndmaster",
               "Files": [
                 {
@@ -12768,7 +12775,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Hybrids\\Monk",
               "Files": [
                 {
@@ -12904,7 +12911,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Hybrids\\Elemental",
               "Files": [
                 {
@@ -13198,7 +13205,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Elementalists\\Pyrolord",
               "Files": [
                 {
@@ -13414,7 +13421,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Healers\\Shaman",
               "Files": [
                 {
@@ -13457,7 +13464,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Heroes\\Healers\\Angel",
               "Files": [
                 {
