@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.9.5T|r
+|cffbe81f7Boss Battle 1.10.2T|r
 }
 
 STRING 2
@@ -5613,18 +5613,6 @@ STRING 877
 Split Artifact (Slot 5)
 }
 
-STRING 878
-// Items: I0FT (Blooming weed), Name (Name)
-{
-Blooming weed
-}
-
-STRING 879
-// Items: I0FT (Blooming weed), Tip (Tooltip - Basic)
-{
-Blooming weed
-}
-
 STRING 880
 // Abilities: A09B (Mimic: Reflective Surface), Ubertip (Tooltip - Normal - Extended)
 {
@@ -6164,6 +6152,12 @@ Increases spell power by 0.3% for each point of your hero's intelligence.
 |cff81f260[Random bonus]|r
 }
 
+STRING 957
+// Items: I0FT (Blooming Weed), Name (Name)
+{
+Blooming Weed
+}
+
 STRING 958
 // Items: I0F9 (Magic Dispenser), Name (Name)
 {
@@ -6468,14 +6462,14 @@ After the hero has used |cff60C445Unique|r, turns it into a random activated one
 }
 
 STRING 1000
-// Items: I0DI (Copy-Cat), Description (Description)
+// Items: I0DI (Copy Cat), Description (Description)
 {
 |cffe96a1cLegendary|r
 Activation: Choose an artifact to transform into it.
 }
 
 STRING 1001
-// Items: I0DI (Copy-Cat), Ubertip (Tooltip - Extended)
+// Items: I0DI (Copy Cat), Ubertip (Tooltip - Extended)
 {
 |cffe96a1cLegendary|r
 Activation: Choose an artifact to transform into it.
@@ -7053,18 +7047,6 @@ Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refr
 Only active outside of combat.
 }
 
-STRING 1083
-// Items: I0EE (Midas Ring), Name (Name)
-{
-Midas Ring
-}
-
-STRING 1084
-// Items: I0EE (Midas Ring), Tip (Tooltip - Basic)
-{
-Midas Ring
-}
-
 STRING 1085
 // Items: IZ07 (Buy Order), Name (Name)
 {
@@ -7507,13 +7489,6 @@ When the hero restores the target's health, applies a buff to the target, which 
 |cffffcc00Duration:|r 5 seconds.
 }
 
-STRING 1149
-// Items: I0EE (Midas Ring), Description (Description)
-{
-|cff4169e1Rare|r, |cff9001fdRing|r
-Activation: Turns an item into gold. |cffffffff3|r charges. Charges are restored after the battle.
-}
-
 STRING 1150
 // Items: I0DX (Serrated blade), Description (Description)
 {
@@ -7585,13 +7560,6 @@ STRING 1159
 // Items: I0DV (Blood of the Ancient (Out of Pool)), Tip (Tooltip - Basic)
 {
 Blood of the Ancient
-}
-
-STRING 1160
-// Items: I0EE (Midas Ring), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff9001fdRing|r
-Activation: Turns an item into gold. |cffffffff3|r charges. Charges are restored after the battle.
 }
 
 STRING 1161
@@ -7962,18 +7930,6 @@ STRING 1210
 {
 |cffe96a1cLegendary|r
 Increases mana by 450, mana regeneration by 450%, and spell power by 45%.
-}
-
-STRING 1211
-// Items: I0DI (Copy-Cat), Name (Name)
-{
-Copy-Cat
-}
-
-STRING 1212
-// Items: I0DI (Copy-Cat), Tip (Tooltip - Basic)
-{
-Copy-Cat
 }
 
 STRING 1213
@@ -9345,27 +9301,15 @@ Every 5 seconds it gives 8 gold for each |cffe96a1clegendary|r artifact in the i
 }
 
 STRING 1414
-// Items: I0C3 (Yah's tear), Description (Description)
+// Items: I0C3 (Yah's Tear), Description (Description)
 {
 |cff4169e1Rare|r, |cff5858faMoon|r
 Activation: Fully restores the hero's mana. Each second takes 25 mana until the hero runs out of mana.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 1415
-// Items: I0C3 (Yah's tear), Name (Name)
-{
-Yah's tear
-}
-
-STRING 1416
-// Items: I0C3 (Yah's tear), Tip (Tooltip - Basic)
-{
-Yah's tear
-}
-
 STRING 1417
-// Items: I0C3 (Yah's tear), Ubertip (Tooltip - Extended)
+// Items: I0C3 (Yah's Tear), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cff5858faMoon|r
 Activation: Fully restores the hero's mana. Each second takes 25 mana until the hero runs out of mana.
@@ -10291,26 +10235,14 @@ Activation: |cffcc0000Corrupted|r. Select a hero to give them +10% Spell Power.
 }
 
 STRING 1554
-// Items: I0B4 (Barnacle blood), Description (Description)
+// Items: I0B4 (Barnacle Blood), Description (Description)
 {
 |cffbababcCommon|r, |cffb40431Blood|r
 When the hero uses an ability or item, restores |cffbe81f750|r health.
 }
 
-STRING 1555
-// Items: I0B4 (Barnacle blood), Name (Name)
-{
-Barnacle blood
-}
-
-STRING 1556
-// Items: I0B4 (Barnacle blood), Tip (Tooltip - Basic)
-{
-Barnacle blood
-}
-
 STRING 1557
-// Items: I0B4 (Barnacle blood), Ubertip (Tooltip - Extended)
+// Items: I0B4 (Barnacle Blood), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r, |cffb40431Blood|r
 When the hero uses an ability or item, restores |cffbe81f750|r health.
@@ -10579,6 +10511,12 @@ Restores |cffbe81f74|r health, |cffbe81f72|r mana and gives 2 gold to all living
 |cffffcc00Cooldown:|r 12 seconds.
 }
 
+STRING 1597
+// Items: I0FT (Blooming Weed), Tip (Tooltip - Basic)
+{
+Blooming Weed
+}
+
 STRING 1598
 // Abilities: A0UV (Commander: Strong Spirit), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -10587,18 +10525,6 @@ The effect is cumulative.
 |cffffcc00Duration:|r 20 seconds.
 |cffffcc00Cooldown:|r 28 seconds. 
 |cffffcc00Cost:|r 60 mana.
-}
-
-STRING 1599
-// Items: I0AT (Symbol of Syrinox), Name (Name)
-{
-Symbol of Syrinox
-}
-
-STRING 1600
-// Items: I0AT (Symbol of Syrinox), Tip (Tooltip - Basic)
-{
-Symbol of Syrinox
 }
 
 STRING 1601
@@ -10722,7 +10648,7 @@ Every 9th damage taken, instead of taking damage, restores |cffbe81f7health|r.
 }
 
 STRING 1618
-// Items: I0AO (Faceless-spy), Description (Description)
+// Items: I0AO (Faceless Spy), Description (Description)
 {
 |cff4169e1Rare|r
 Activation: Summons a faceless spy, capable of turning into the minion.
@@ -10731,20 +10657,8 @@ Activation: Summons a faceless spy, capable of turning into the minion.
 |cffffcc00Cost:|r 75 mana.
 }
 
-STRING 1619
-// Items: I0AO (Faceless-spy), Name (Name)
-{
-Faceless-spy
-}
-
-STRING 1620
-// Items: I0AO (Faceless-spy), Tip (Tooltip - Basic)
-{
-Faceless-spy
-}
-
 STRING 1621
-// Items: I0AO (Faceless-spy), Ubertip (Tooltip - Extended)
+// Items: I0AO (Faceless Spy), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r
 Activation: Summons a faceless spy, capable of turning into the minion.
@@ -11517,27 +11431,15 @@ When your minion is summoned, it increases attack power and health by 40% |cffff
 }
 
 STRING 1734
-// Items: I09V (Babbling pebble), Description (Description)
+// Items: I09V (Babbling Pebble), Description (Description)
 {
 |cffbababcCommon|r, |cff00cceeCrystal|r
 Increases damage dealt by 40% if mana is less than 25%.
 |cff81f260[Random bonus]|r
 }
 
-STRING 1735
-// Items: I09V (Babbling pebble), Name (Name)
-{
-Babbling pebble
-}
-
-STRING 1736
-// Items: I09V (Babbling pebble), Tip (Tooltip - Basic)
-{
-Babbling pebble
-}
-
 STRING 1737
-// Items: I09V (Babbling pebble), Ubertip (Tooltip - Extended)
+// Items: I09V (Babbling Pebble), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r, |cff00cceeCrystal|r
 Increases damage dealt by 40% if mana is less than 25%.
@@ -12632,6 +12534,13 @@ STRING 1893
 Hand of Midas
 }
 
+STRING 1894
+// Items: I0EE (Midas Bracelet), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Turns an item into gold. |cffffffff3|r charges. Charges are restored after the battle.
+}
+
 STRING 1895
 // Items: I08R (Shadow PowderXXX), Description (Description)
 {
@@ -13043,6 +12952,12 @@ STRING 1955
 {
 |cffbababcCommon|r
 Increases agility by 10. Collect all 3 Paragon artifacts to unite them.
+}
+
+STRING 1956
+// Items: I0EE (Midas Bracelet), Name (Name)
+{
+Midas Bracelet
 }
 
 STRING 1957
@@ -13877,7 +13792,7 @@ Elemental Power, [|cffffcc00Level 3|r]
 }
 
 STRING 2080
-// Items: I07G ("Pow!" machine), Description (Description)
+// Items: I07G ("Pow!" Machine), Description (Description)
 {
 |cffbababcCommon|r, |cffb18904Mech|r
 Activation: Deals |cffbe81f7200|r damage to a random enemy. Repeats for each other |cffb18904mech|r in the inventory.
@@ -13885,20 +13800,8 @@ Activation: Deals |cffbe81f7200|r damage to a random enemy. Repeats for each oth
 |cffffcc00Cost:|r 50 mana.
 }
 
-STRING 2081
-// Items: I07G ("Pow!" machine), Name (Name)
-{
-"Pow!" machine
-}
-
-STRING 2082
-// Items: I07G ("Pow!" machine), Tip (Tooltip - Basic)
-{
-"Pow!" machine
-}
-
 STRING 2083
-// Items: I07G ("Pow!" machine), Ubertip (Tooltip - Extended)
+// Items: I07G ("Pow!" Machine), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r, |cffb18904Mech|r
 Activation: Deals |cffbe81f7200|r damage to a random enemy. Repeats for each other |cffb18904mech|r in the inventory.
@@ -14217,26 +14120,14 @@ When the hero stun a target, it also stuns all enemies near the target.
 }
 
 STRING 2128
-// Items: I074 (Bloody coin), Description (Description)
+// Items: I074 (Bloody Coin), Description (Description)
 {
 |cffbababcCommon|r, |cffb40431Blood|r
 When the hero kills an enemy, gets 20 gold and restores |cffbe81f720|r health.
 }
 
-STRING 2129
-// Items: I074 (Bloody coin), Name (Name)
-{
-Bloody coin
-}
-
-STRING 2130
-// Items: I074 (Bloody coin), Tip (Tooltip - Basic)
-{
-Bloody coin
-}
-
 STRING 2131
-// Items: I074 (Bloody coin), Ubertip (Tooltip - Extended)
+// Items: I074 (Bloody Coin), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r, |cffb40431Blood|r
 When the hero kills an enemy, gets 20 gold and restores |cffbe81f720|r health.
@@ -14637,18 +14528,6 @@ When the hero attacks and kills an enemy minion, summon a copy of it.
 |cffffcc00Life time:|r 10 seconds.
 }
 
-STRING 2189
-// Items: I06P (Bloody mark), Name (Name)
-{
-Bloody mark
-}
-
-STRING 2190
-// Items: I06P (Bloody mark), Tip (Tooltip - Basic)
-{
-Bloody mark
-}
-
 STRING 2191
 // Items: I0CR (Divider), Ubertip (Tooltip - Extended)
 {
@@ -14950,6 +14829,12 @@ Apply an effect to self that restores |cffbe81f715|r mana and deals |cffbe81f715
 |cffffcc00Cost:|r 50/60/70/80/90 mana.
 }
 
+STRING 2232
+// Items: I0EE (Midas Bracelet), Tip (Tooltip - Basic)
+{
+Midas Bracelet
+}
+
 STRING 2233
 // Buffs/Effects: B04A (), Bufftip (Tooltip)
 {
@@ -15200,6 +15085,13 @@ STRING 2270
 // Items: I065 (Present), Tip (Tooltip - Basic)
 {
 Present
+}
+
+STRING 2271
+// Items: I0EE (Midas Bracelet), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Turns an item into gold. |cffffffff3|r charges. Charges are restored after the battle.
 }
 
 STRING 2272
@@ -15509,6 +15401,12 @@ STRING 2318
 Restores health.
 }
 
+STRING 2319
+// Items: I0DI (Copy Cat), Name (Name)
+{
+Copy Cat
+}
+
 STRING 2320
 // Items: I0HR (Vial of Truepaint [DISABLED]), Ubertip (Tooltip - Extended)
 {
@@ -15794,6 +15692,12 @@ Gives the target a buff. Every second, the target heals for |cffbe81f712%|r of w
 |cffffcc00Duration:|r 10 seconds.
 |cffffcc00Cooldown:|r 25 seconds.
 |cffffcc00Cost:|r 50 health.
+}
+
+STRING 2362
+// Items: I0DI (Copy Cat), Tip (Tooltip - Basic)
+{
+Copy Cat
 }
 
 STRING 2363
@@ -16410,6 +16314,12 @@ Stacks up to three times.
 |cffffcc00Duration:|r 15 seconds.
 }
 
+STRING 2456
+// Items: I0C3 (Yah's Tear), Name (Name)
+{
+Yah's Tear
+}
+
 STRING 2457
 // Items: I04X (Fighter's Gloves), Name (Name)
 {
@@ -16807,6 +16717,12 @@ STRING 2515
 Ancient Pearl
 }
 
+STRING 2516
+// Items: I0C3 (Yah's Tear), Tip (Tooltip - Basic)
+{
+Yah's Tear
+}
+
 STRING 2517
 // Abilities: A141 (Soul Contract: Alchemy), Ubertip (Tooltip - Normal - Extended)
 {
@@ -16882,6 +16798,12 @@ STRING 2528
 {
 Choose an ally. Pulls all orbs towards the target, destroying those; Each orb restores |cffbe81f7180|r health to target, and deals |cffbe81f7180|r damage to nearby enemies.
 |cffffcc00Cooldown:|r 5 seconds.
+}
+
+STRING 2529
+// Items: I0B4 (Barnacle Blood), Name (Name)
+{
+Barnacle Blood
 }
 
 STRING 2530
@@ -17375,27 +17297,15 @@ Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |
 }
 
 STRING 2601
-// Items: I03W (Rik the Greedy), Description (Description)
+// Items: I03W (Rik the Wise), Description (Description)
 {
 |cff4169e1Rare|r, |cff9001fdRing|r
 When the hero activates |cff60C445Unique|r, deals |cffbe81f7100|r damage to a random enemy and restores |cffbe81f7100|r health to a random ally.
 |cff81f260[Random bonus]|r
 }
 
-STRING 2602
-// Items: I03W (Rik the Greedy), Name (Name)
-{
-Rik the Greedy
-}
-
-STRING 2603
-// Items: I03W (Rik the Greedy), Tip (Tooltip - Basic)
-{
-Rik the Greedy
-}
-
 STRING 2604
-// Items: I03W (Rik the Greedy), Ubertip (Tooltip - Extended)
+// Items: I03W (Rik the Wise), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cff9001fdRing|r
 When the hero activates |cff60C445Unique|r, deals |cffbe81f7100|r damage to a random enemy and restores |cffbe81f7100|r health to a random ally.
@@ -19049,7 +18959,7 @@ Increases an ally's attack by |cffbe81f725%|r.
 }
 
 STRING 2849
-// Items: I025 (Battle halberd), Description (Description)
+// Items: I025 (Battle Halberd), Description (Description)
 {
 |cffbababcCommon|r, |cff2d9995Weapon|r
 Reduces hero's armor by 7.
@@ -19057,20 +18967,8 @@ When the hero attacks, reduces the target's armor by 7.
 |cffffcc00Duration:|r 7 seconds.
 }
 
-STRING 2850
-// Items: I025 (Battle halberd), Name (Name)
-{
-Battle halberd
-}
-
-STRING 2851
-// Items: I025 (Battle halberd), Tip (Tooltip - Basic)
-{
-Battle halberd
-}
-
 STRING 2852
-// Items: I025 (Battle halberd), Ubertip (Tooltip - Extended)
+// Items: I025 (Battle Halberd), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r, |cff2d9995Weapon|r
 Reduces hero's armor by 7.
@@ -21098,6 +20996,12 @@ STRING 3151
 Knight Armor
 }
 
+STRING 3152
+// Items: I0B4 (Barnacle Blood), Tip (Tooltip - Basic)
+{
+Barnacle Blood
+}
+
 STRING 3153
 // Items: I002 (Knight Spaulders), Description (Description)
 {
@@ -22430,6 +22334,12 @@ STRING 3356
 Night of the Werewolves, [|cffffcc00Level %d|r]
 }
 
+STRING 3357
+// Items: I0AT (Symbol of Searinox), Name (Name)
+{
+Symbol of Searinox
+}
+
 STRING 3358
 // Abilities: A1CR (Lycanthrope: Night of the Werewolves), Tip (Tooltip - Normal)
 {
@@ -22472,6 +22382,12 @@ STRING 3364
 // Abilities: A1GP (Aspect: Sniper: Aspect of Recess), Name (Name)
 {
 Aspect: Sniper: Aspect of Recess
+}
+
+STRING 3365
+// Items: I0AT (Symbol of Searinox), Tip (Tooltip - Basic)
+{
+Symbol of Searinox
 }
 
 STRING 3366
@@ -22573,6 +22489,12 @@ In each battle, reduces the health of the first 4 enemy minions to a minimum.
 |cff81f260[Random bonus]|r
 }
 
+STRING 3382
+// Items: I0AO (Faceless Spy), Name (Name)
+{
+Faceless Spy
+}
+
 STRING 3383
 // Abilities: A1CZ (Curse: Confusion (b31)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -22583,6 +22505,12 @@ STRING 3384
 // Abilities: A1CN (Lycanthrope: Glaubenskraft), Hotkey (Hotkey - Normal)
 {
 R
+}
+
+STRING 3385
+// Items: I0AO (Faceless Spy), Tip (Tooltip - Basic)
+{
+Faceless Spy
 }
 
 STRING 3386
@@ -22858,6 +22786,30 @@ STRING 3429
 R
 }
 
+STRING 3430
+// Items: I09V (Babbling Pebble), Name (Name)
+{
+Babbling Pebble
+}
+
+STRING 3431
+// Items: I09V (Babbling Pebble), Tip (Tooltip - Basic)
+{
+Babbling Pebble
+}
+
+STRING 3432
+// Items: I07G ("Pow!" Machine), Name (Name)
+{
+"Pow!" Machine
+}
+
+STRING 3433
+// Items: I07G ("Pow!" Machine), Tip (Tooltip - Basic)
+{
+"Pow!" Machine
+}
+
 STRING 3434
 // Abilities: A1BF (Bro: Bamboozle), Hotkey (Hotkey - Normal)
 {
@@ -23028,6 +22980,12 @@ STRING 3460
 // Abilities: A1CE (Aspect: Dealer: Aspect of Friendship), Tip (Tooltip - Normal)
 {
 Aspect of Friendship
+}
+
+STRING 3461
+// Items: I074 (Bloody Coin), Name (Name)
+{
+Bloody Coin
 }
 
 STRING 3462
@@ -23488,6 +23446,18 @@ STRING 3533
 The Hero cast increases Spell Power by 2% for the battle. The effect is cumulative.
 }
 
+STRING 3534
+// Items: I074 (Bloody Coin), Tip (Tooltip - Basic)
+{
+Bloody Coin
+}
+
+STRING 3535
+// Items: I06P (Bloody Mark), Name (Name)
+{
+Bloody Mark
+}
+
 STRING 3536
 // Abilities: A1B7 (Bro: Borrowing Blues), Name (Name)
 {
@@ -23584,6 +23554,12 @@ STRING 3551
 Borrowing Blues, [|cffffcc00Level 5|r]
 }
 
+STRING 3552
+// Items: I06P (Bloody Mark), Tip (Tooltip - Basic)
+{
+Bloody Mark
+}
+
 STRING 3553
 // Abilities: A1AV (Bard: Song of Joy), Hotkey (Hotkey - Normal)
 {
@@ -23644,6 +23620,12 @@ STRING 3562
 Bamboozle, [|cffffcc00Level 5|r]
 }
 
+STRING 3563
+// Items: I03W (Rik the Wise), Name (Name)
+{
+Rik the Wise
+}
+
 STRING 3564
 // Items: IZ05 (Oath of Resourcefulness), Name (Name)
 {
@@ -23654,6 +23636,12 @@ STRING 3565
 // Items: IZ05 (Oath of Resourcefulness), Tip (Tooltip - Basic)
 {
 Oath of Resourcefulness
+}
+
+STRING 3566
+// Items: I03W (Rik the Wise), Tip (Tooltip - Basic)
+{
+Rik the Wise
 }
 
 STRING 3567
@@ -28560,6 +28548,18 @@ STRING 4331
 // Abilities: A16G (Maiden: Divine Intervention), Tip (Tooltip - Normal)
 {
 Divine Intervention, [|cffffcc00Level 5|r]
+}
+
+STRING 4332
+// Items: I025 (Battle Halberd), Name (Name)
+{
+Battle Halberd
+}
+
+STRING 4333
+// Items: I025 (Battle Halberd), Tip (Tooltip - Basic)
+{
+Battle Halberd
 }
 
 STRING 4334
@@ -66680,7 +66680,7 @@ When you use |cffcc0000Сorrupted|r artifact, increases Health Regeneration by 3
 }
 
 STRING 10207
-// Items: I0FT (Blooming weed), Description (Description)
+// Items: I0FT (Blooming Weed), Description (Description)
 {
 |cffbababcCommon|r, |cff7cfc00Nature|r
 At least 1 Artifact Reward will be from the |cff7cfc00Nature|r set.
@@ -72830,7 +72830,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.9.5T|r
+|cffbe81f7Boss Battle 1.10.2T|r
 }
 
 STRING 11219
@@ -72848,7 +72848,7 @@ When the hero takes fatal damage, instead of death, |cffcc0000corrupted|r, fully
 }
 
 STRING 11221
-// Items: I06P (Bloody mark), Description (Description)
+// Items: I06P (Bloody Mark), Description (Description)
 {
 |cffbababcCommon|r, |cffb40431Blood|r
 Activation: Creates a copy of the allied minion.
@@ -72858,7 +72858,7 @@ Activation: Creates a copy of the allied minion.
 }
 
 STRING 11222
-// Items: I06P (Bloody mark), Ubertip (Tooltip - Extended)
+// Items: I06P (Bloody Mark), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r, |cffb40431Blood|r
 Activation: Creates a copy of the allied minion.
@@ -76665,7 +76665,7 @@ Increases Strength of a random hero by 4 + 20% of maximum Strength among all her
 }
 
 STRING 11769
-// Items: I0FT (Blooming weed), Ubertip (Tooltip - Extended)
+// Items: I0FT (Blooming Weed), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r, |cff7cfc00Nature|r
 At least 1 Artifact Reward will be from the |cff7cfc00Nature|r set.
@@ -77739,14 +77739,14 @@ Activation: Loads the hero’s weapon. The next attack will do 300% more damage.
 }
 
 STRING 11913
-// Items: I0AT (Symbol of Syrinox), Description (Description)
+// Items: I0AT (Symbol of Searinox), Description (Description)
 {
 |cff4169e1Rare|r
 The hero's attacks deal additional damage from Intelligence (150% multiplier).
 }
 
 STRING 11914
-// Items: I0AT (Symbol of Syrinox), Ubertip (Tooltip - Extended)
+// Items: I0AT (Symbol of Searinox), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r
 The hero's attacks deal additional damage from Intelligence (150% multiplier).

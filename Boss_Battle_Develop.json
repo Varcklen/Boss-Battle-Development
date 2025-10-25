@@ -2304,7 +2304,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Library",
       "Files": [
         {
@@ -3953,34 +3953,6 @@
               "Files": []
             }
           ]
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
-          "path": "BasicCore\\Buttons",
-          "Files": []
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
-          "path": "BasicCore\\Events",
-          "Files": []
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
-          "path": "BasicCore\\MMD",
-          "Files": []
-        },
-        {
-          "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
-          "path": "BasicCore\\TriggerRegister",
-          "Files": []
         }
       ]
     },
@@ -5079,6 +5051,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Tower\\Other\\TPItem.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Tower\\Other\\RingOfIdentity.var",
               "Files": []
             }
           ]
