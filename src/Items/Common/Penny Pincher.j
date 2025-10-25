@@ -3,7 +3,7 @@ scope PennyPincher initializer init
 	globals
 		private constant integer ITEM_ID = 'I0C5'
 		
-		private constant integer GOLD_GAIN = 3
+		private constant integer GOLD_GAIN = 4
 	endglobals
 
 	private function condition takes nothing returns boolean 

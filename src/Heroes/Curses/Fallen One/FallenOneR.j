@@ -80,7 +80,7 @@ function Trig_FallenOneR_Actions takes nothing returns nothing
     if lvl > 4 then
         set lvl = 4
     endif
-    set dmg = (100+(100 * lvl)) * GetUnitSpellPower(caster)
+    set dmg = (100+(100 * lvl)) //* GetUnitSpellPower(caster)
     set coef = 0.01+(lvl*0.01)
     
     call dummyspawn( caster, 0, 'A0N5', 0, 0 )

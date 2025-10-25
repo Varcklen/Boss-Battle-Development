@@ -95,7 +95,7 @@ function Trig_KingW_Actions takes nothing returns nothing
         set y = GetSpellTargetY()
     endif
     
-    set dmg = ( 100 + ( 50 * lvl ) ) * GetUnitSpellPower(caster)
+    set dmg = ( 100 + ( 50 * lvl ) ) //* GetUnitSpellPower(caster)
     
     call dummyspawn( caster, 0, 'A0PS', 0, 0 )
     call SetUnitFacing( bj_lastCreatedUnit, GetUnitFacing( caster ) )

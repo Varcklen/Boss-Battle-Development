@@ -125,7 +125,7 @@ function Trig_WicerdQ_Actions takes nothing returns nothing
         set y = GetSpellTargetY()
     endif
     
-    set dmg = ( 60 + ( 40 * lvl ) ) * GetUnitSpellPower(caster)
+    set dmg = ( 60 + ( 40 * lvl ) ) //* GetUnitSpellPower(caster)
     
     call dummyspawn( caster, 0, 'A17K', 'A0N5', 0 )
 
