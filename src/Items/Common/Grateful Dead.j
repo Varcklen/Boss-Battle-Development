@@ -39,11 +39,11 @@ endfunction
 
 
 private function conditionsDeath takes nothing returns boolean
-    return combat(AnyHeroDied.GetDataUnit("unit_died"), false, 0 ) and not(udg_fightmod[3])
+    return combat(AnyHeroDied.TriggerUnit, false, 0 ) and not(udg_fightmod[3]) and AnyHeroDied.TriggerUnit == AnyHeroDied.TargetUnit
 endfunction
 
 private function actionsDeath takes nothing returns nothing
-	local unit u  = AnyHeroDied.GetDataUnit("unit_died")
+	local unit u = AnyHeroDied.GetDataUnit("unit_died")
 	local integer index = GetUnitUserData(u)
     local integer toAdd
     local integer amount
