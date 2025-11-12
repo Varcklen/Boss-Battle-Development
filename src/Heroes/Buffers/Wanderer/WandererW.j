@@ -7,7 +7,7 @@ scope WandererW initializer init
 		private constant integer DAMAGE_SCALE = 5
 		
 		private constant integer SHIELD_BASE = 50
-		private constant integer SHIELD_SCALE = 30
+		private constant integer SHIELD_SCALE = 20
 		private constant integer SHIELD_RANGE = 110
 		
 		private constant integer DURATION_BASE = 8

@@ -1,8 +1,11 @@
 /*scope TestShieldC initializer init
 
 	private function action takes nothing returns nothing
-		call UnitAddItemById(udg_hero[1], 'I0GO')
-		call UnitAddItemById(udg_hero[1], 'I0HP')
+		//call UnitAddItemById(udg_hero[1], 'I0GO')
+		//call UnitAddItemById(udg_hero[1], 'I0HP')
+		call UnitAddItemById(udg_hero[1], 'I0HT')
+		call UnitAddItemById(udg_hero[1], 'I0DD')
+		call UnitAddItemById(udg_hero[1], 'I0ET')
 	endfunction
 	
 	//===========================================================================
@@ -11,7 +14,7 @@
 	    local trigger trig = CreateTrigger()
 	    loop
 	        exitwhen i > 3
-	        call TriggerRegisterPlayerChatEvent( trig, Player(i), "-testshield", true )
+	        call TriggerRegisterPlayerChatEvent( trig, Player(i), "-testZi", true )
 	        set i = i + 1
 	    endloop
 	    call TriggerAddAction( trig, function action )

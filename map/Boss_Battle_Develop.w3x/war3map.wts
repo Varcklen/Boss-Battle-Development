@@ -2928,13 +2928,6 @@ STRING 469
 Soren 
 }
 
-STRING 470
-// Items: I03H (Ikaros Mudstone), Description (Description)
-{
-|cffe96a1cLegendary|r
-At the start of battle, increases the main stat of each Hero by 4.
-}
-
 STRING 471
 // Units: N057 ((A) Jester), Propernames (Proper Names)
 {
@@ -2957,13 +2950,6 @@ STRING 474
 // Units: N056 (Armsmaster), Propernames (Proper Names)
 {
 Galvan
-}
-
-STRING 475
-// Items: I03H (Ikaros Mudstone), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-At the start of battle, increases the main stat of each Hero by 4.
 }
 
 STRING 476
@@ -5613,6 +5599,22 @@ STRING 877
 Split Artifact (Slot 5)
 }
 
+STRING 878
+// Items: I0DD (Tarot Card: Death), Description (Description)
+{
+|cffC71585Cursed|r
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Grants an extra attempt at a boss fight. Kills all heroes. Only works in boss fights.
+}
+
+STRING 879
+// Items: I0DD (Tarot Card: Death), Ubertip (Tooltip - Extended)
+{
+|cffC71585Cursed|r
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Grants an extra attempt at a boss fight. Kills all heroes. Only works in boss fights.
+}
+
 STRING 880
 // Abilities: A09B (Mimic: Reflective Surface), Ubertip (Tooltip - Normal - Extended)
 {
@@ -6613,17 +6615,6 @@ STRING 1021
 |cffffcc00Reward:|r Pandora's bag.
 }
 
-STRING 1022
-// Items: I0ET (Orb of the Netherstorm), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases health by 200 and spell power by 10%.
-When the hero uses an ability or item, creates an enchanted land. If the hero is standing on this ground, every second increases his spell power by 2%.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Life time:|r 20 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 1023
 // Items: I0ET (Orb of the Netherstorm), Name (Name)
 {
@@ -6634,17 +6625,6 @@ STRING 1024
 // Items: I0ET (Orb of the Netherstorm), Tip (Tooltip - Basic)
 {
 Orb of the Netherstorm
-}
-
-STRING 1025
-// Items: I0ET (Orb of the Netherstorm), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases health by 200 and spell power by 10%.
-When the hero uses an ability or item, creates an enchanted land. If the hero is standing on this ground, every second increases his spell power by 2%.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Life time:|r 20 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 1026
@@ -7045,6 +7025,20 @@ STRING 1082
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
 Only active outside of combat.
+}
+
+STRING 1083
+// Items: I08X (Kobzar), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Permanently increase your hero's Intelligence by 50%, then add an extra 10.
+}
+
+STRING 1084
+// Items: I08X (Kobzar), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Permanently increase your hero's Intelligence by 50%, then add an extra 10.
 }
 
 STRING 1085
@@ -7932,6 +7926,20 @@ STRING 1210
 Increases mana by 450, mana regeneration by 450%, and spell power by 45%.
 }
 
+STRING 1211
+// Items: I0HT (Black Egg), Description (Description)
+{
+|cff4169e1Rare|r
+After a lost battle, transform into the Radiance.
+Activation: |cffcc0000Corrupted|r. Removes |cffC71585curse|r from all items in the inventory.
+}
+
+STRING 1212
+// Items: I0HT (Black Egg), Name (Name)
+{
+Black Egg
+}
+
 STRING 1213
 // Items: I02R (Mage Armor), Ubertip (Tooltip - Extended)
 {
@@ -8051,13 +8059,6 @@ While the hero is invisible, every second deals |cffbe81f7100|r damage to all ne
 |cff81f260[Random bonus]|r
 }
 
-STRING 1230
-// Items: I0DD (Tarot Card: Death), Description (Description)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Grants an extra attempt at a boss fight. Kills all heroes. Only works in boss fights.
-}
-
 STRING 1231
 // Items: I0DD (Tarot Card: Death), Name (Name)
 {
@@ -8068,13 +8069,6 @@ STRING 1232
 // Items: I0DD (Tarot Card: Death), Tip (Tooltip - Basic)
 {
 Tarot Card: Death
-}
-
-STRING 1233
-// Items: I0DD (Tarot Card: Death), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Grants an extra attempt at a boss fight. Kills all heroes. Only works in boss fights.
 }
 
 STRING 1234
@@ -9308,6 +9302,20 @@ Activation: Fully restores the hero's mana. Each second takes 25 mana until the 
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 1415
+// Items: I0HT (Black Egg), Tip (Tooltip - Basic)
+{
+Black Egg
+}
+
+STRING 1416
+// Items: I0HT (Black Egg), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+After a lost battle, transform into the Radiance.
+Activation: |cffcc0000Corrupted|r. Removes |cffC71585curse|r from all items in the inventory.
+}
+
 STRING 1417
 // Items: I0C3 (Yah's Tear), Ubertip (Tooltip - Extended)
 {
@@ -10241,6 +10249,24 @@ STRING 1554
 When the hero uses an ability or item, restores |cffbe81f750|r health.
 }
 
+STRING 1555
+// Abilities: A0JG (Wanderer: Impius Imperium), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f710/15/20/25/30|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f770/90/110/130/150|r damage.
+|cffffcc00Duration:|r 7/6/5/4/3 seconds.
+|cffffcc00Cooldown:|r 9/8/7/6/5 seconds.
+|cffffcc00Cost:|r 50 mana and health.
+}
+
+STRING 1556
+// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f710|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f770|r damage.
+|cffffcc00Duration:|r 7 seconds.
+|cffffcc00Cooldown:|r 9 seconds.
+|cffffcc00Cost:|r 50 health.
+}
+
 STRING 1557
 // Items: I0B4 (Barnacle Blood), Ubertip (Tooltip - Extended)
 {
@@ -10527,6 +10553,24 @@ The effect is cumulative.
 |cffffcc00Cost:|r 60 mana.
 }
 
+STRING 1599
+// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f715|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f790|r damage.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 8 seconds.
+|cffffcc00Cost:|r 50 health.
+}
+
+STRING 1600
+// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f720|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f7110|r damage.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 7 seconds.
+|cffffcc00Cost:|r 50 health.
+}
+
 STRING 1601
 // Abilities: A0UV (Commander: Strong Spirit), Tip (Tooltip - Normal)
 {
@@ -10655,6 +10699,24 @@ Activation: Summons a faceless spy, capable of turning into the minion.
 |cffffcc00Life time:|r 60 seconds.
 |cffffcc00Cooldown:|r 45 seconds.
 |cffffcc00Cost:|r 75 mana.
+}
+
+STRING 1619
+// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f725|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f7130|r damage.
+|cffffcc00Duration:|r 4 seconds.
+|cffffcc00Cooldown:|r 6 seconds.
+|cffffcc00Cost:|r 50 health.
+}
+
+STRING 1620
+// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f730|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f7150|r damage.
+|cffffcc00Duration:|r 3 seconds.
+|cffffcc00Cooldown:|r 5 seconds.
+|cffffcc00Cost:|r 50 health.
 }
 
 STRING 1621
@@ -11155,15 +11217,6 @@ Activation: Teleports the hero a short distance.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
-STRING 1694
-// Abilities: A0JG (Wanderer: Impius Imperium), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f710/15/20/25/30|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f780/110/140/170/200|r damage.
-|cffffcc00Duration:|r 7/6/5/4/3 seconds.
-|cffffcc00Cooldown:|r 9/8/7/6/5 seconds.
-|cffffcc00Cost:|r 50 mana and health.
-}
-
 STRING 1695
 // Items: I0A5 (Cane of Khnum), Name (Name)
 {
@@ -11384,20 +11437,6 @@ STRING 1726
 Power Search
 }
 
-STRING 1727
-// Items: I099 (Battle of Power), Description (Description)
-{
-|cffffcc00Quest:|r Restore 2500 mana as a team |cFF959697(0/2500)|r.
-|cffffcc00Reward:|r Ikaros Mudstone.
-}
-
-STRING 1728
-// Items: I099 (Battle of Power), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Restore 2500 mana as a team |cFF959697(0/2500)|r.
-|cffffcc00Reward:|r Ikaros Mudstone.
-}
-
 STRING 1729
 // Items: I096 (Skill Show), Description (Description)
 {
@@ -11436,6 +11475,22 @@ STRING 1734
 |cffbababcCommon|r, |cff00cceeCrystal|r
 Increases damage dealt by 40% if mana is less than 25%.
 |cff81f260[Random bonus]|r
+}
+
+STRING 1735
+// Abilities: A082 (Outcast: Denial of the Past), Researchubertip (Tooltip - Learn - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 40/55/70/85/100% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 1/2/3/4/5 extra strength and agility if Defiance was fully successful.
+}
+
+STRING 1736
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 40% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 1 extra strength and agility if Defiance was fully successful.
 }
 
 STRING 1737
@@ -11550,15 +11605,6 @@ STRING 1753
 |cffffcc00Reward:|r Dead Man's Chest.
 }
 
-STRING 1754
-// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f710|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f780|r damage.
-|cffffcc00Duration:|r 7 seconds.
-|cffffcc00Cooldown:|r 9 seconds.
-|cffffcc00Cost:|r 50 health.
-}
-
 STRING 1755
 // Items: I09Q (Idol of Greed), Name (Name)
 {
@@ -11569,15 +11615,6 @@ STRING 1756
 // Items: I09Q (Idol of Greed), Tip (Tooltip - Basic)
 {
 Idol of Greed
-}
-
-STRING 1757
-// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f715|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f7110|r damage.
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-|cffffcc00Cost:|r 50 health.
 }
 
 STRING 1758
@@ -11606,15 +11643,6 @@ STRING 1761
 Increases physical damage dealt and received by 100%.
 }
 
-STRING 1762
-// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f720|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f7140|r damage.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 7 seconds.
-|cffffcc00Cost:|r 50 health.
-}
-
 STRING 1763
 // Items: I09O (Idol of Desires), Name (Name)
 {
@@ -11625,24 +11653,6 @@ STRING 1764
 // Items: I09O (Idol of Desires), Tip (Tooltip - Basic)
 {
 Idol of Desires
-}
-
-STRING 1765
-// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f725|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f7170|r damage.
-|cffffcc00Duration:|r 4 seconds.
-|cffffcc00Cooldown:|r 6 seconds.
-|cffffcc00Cost:|r 50 health.
-}
-
-STRING 1766
-// Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f730|r damage per second to the enemy. When the effect ends, creates magic orbs around the enemy. When any hero comes into contact with the orb, gains a shield that absorbs |cffbe81f7200|r damage.
-|cffffcc00Duration:|r 3 seconds.
-|cffffcc00Cooldown:|r 5 seconds.
-|cffffcc00Cost:|r 50 health.
 }
 
 STRING 1767
@@ -11664,14 +11674,6 @@ STRING 1769
 |cffffcc00Reward:|r Power Wand.
 }
 
-STRING 1770
-// Abilities: A082 (Outcast: Denial of the Past), Researchubertip (Tooltip - Learn - Extended)
-{
-After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 40/55/70/85/100% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
-|cFF959697Dying or using hero abilities exists Withdrawal.|r
-At the end of the round, gain 0/1/2/3/4 extra strength and agility if Defiance was fully successful.
-}
-
 STRING 1771
 // Items: I09M (Idol of Sorrow), Name (Name)
 {
@@ -11684,21 +11686,6 @@ STRING 1772
 Idol of Sorrow
 }
 
-STRING 1773
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 40% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
-|cFF959697Dying or using hero abilities exists Withdrawal.|r
-}
-
-STRING 1774
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 55% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
-|cFF959697Dying or using hero abilities exists Withdrawal.|r
-At the end of the round, gain 1 extra strength and agility if Defiance was fully successful.
-}
-
 STRING 1775
 // Items: I09L (Paragon Armor), Name (Name)
 {
@@ -11709,14 +11696,6 @@ STRING 1776
 // Items: I09L (Paragon Armor), Tip (Tooltip - Basic)
 {
 Paragon Armor
-}
-
-STRING 1777
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 70% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
-|cFF959697Dying or using hero abilities exists Withdrawal.|r
-At the end of the round, gain 2 extra strength and agility if Defiance was fully successful.
 }
 
 STRING 1778
@@ -11904,13 +11883,6 @@ STRING 1805
 Bloody Figurine
 }
 
-STRING 1806
-// Items: I08W (Immortal Story), Description (Description)
-{
-|cffffcc00Quest:|r Gain 12 permanent Intelligence from abilities or artifacts |cFF959697(0/12)|r.
-|cffffcc00Reward:|r Kobzar.
-}
-
 STRING 1807
 // Items: I0EZ (Scientist Card), Name (Name)
 {
@@ -11992,13 +11964,6 @@ STRING 1818
 |cff00ff00True Form|r
 }
 
-STRING 1819
-// Items: I09A (Power Search), Description (Description)
-{
-|cffffcc00Quest:|r Split the artifact from each set and each rarity.
-|cffffcc00Reward:|r Mechatron Charizard.
-}
-
 STRING 1820
 // Items: I0B9 (Scholar's Gambit), Ubertip (Tooltip - Extended)
 {
@@ -12014,15 +11979,6 @@ Every 5 seconds, gives all heroes a buff that cancels the next damage taken.
 When you use the first ability (|cffffcc00Q|r), it is used twice.
 
 |cFF959697Any effects applied last 20 seconds. Only works in combat|r
-}
-
-STRING 1822
-// Items: I09A (Power Search), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Split the artifact from each set and each rarity.
-|cffffcc00Reward:|r Mechatron Charizard.
-
-|cffffcc00Progress:|r |cffe96a1cLegendary|r, |cff4169e1Rare|r, |cffbababcCommon|r, |cffb40431Blood|r, |cff848484Rune|r, |cffb18904Mech|r, |cff5858faMoon|r, |cff7cfc00Nature|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r, |cff2d9995Weapon|r, |cff00cceeCrystal|r |cffffffff|r
 }
 
 STRING 1823
@@ -12381,13 +12337,6 @@ When using an ability or item, there is a |cffd7df0115%|r chance of spending 50%
 If there is another orb in the inventory, they merge.
 }
 
-STRING 1871
-// Items: I08X (Kobzar), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. Doubles your hero's current intelligence for the rest of the game.
-}
-
 STRING 1872
 // Items: I08X (Kobzar), Name (Name)
 {
@@ -12398,13 +12347,6 @@ STRING 1873
 // Items: I08X (Kobzar), Tip (Tooltip - Basic)
 {
 Kobzar
-}
-
-STRING 1874
-// Items: I08X (Kobzar), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. Doubles your hero's current intelligence for the rest of the game.
 }
 
 STRING 1875
@@ -12866,13 +12808,6 @@ STRING 1943
 {
 |cff4169e1Rare|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a knight artifact.
-}
-
-STRING 1944
-// Items: I08W (Immortal Story), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Gain 12 permanent Intelligence from abilities or artifacts |cFF959697(0/12)|r.
-|cffffcc00Reward:|r Kobzar.
 }
 
 STRING 1945
@@ -13800,6 +13735,22 @@ Activation: Deals |cffbe81f7200|r damage to a random enemy. Repeats for each oth
 |cffffcc00Cost:|r 50 mana.
 }
 
+STRING 2081
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 55% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 2 extra strength and agility if Defiance was fully successful.
+}
+
+STRING 2082
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 70% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 3 extra strength and agility if Defiance was fully successful.
+}
+
 STRING 2083
 // Items: I07G ("Pow!" Machine), Ubertip (Tooltip - Extended)
 {
@@ -14126,6 +14077,22 @@ STRING 2128
 When the hero kills an enemy, gets 20 gold and restores |cffbe81f720|r health.
 }
 
+STRING 2129
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 85% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 4 extra strength and agility if Defiance was fully successful.
+}
+
+STRING 2130
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 100% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 5 extra strength and agility if Defiance was fully successful.
+}
+
 STRING 2131
 // Items: I074 (Bloody Coin), Ubertip (Tooltip - Extended)
 {
@@ -14293,14 +14260,6 @@ STRING 2155
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cffb18904mech|r.
 }
 
-STRING 2156
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 85% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
-|cFF959697Dying or using hero abilities exists Withdrawal.|r
-At the end of the round, gain 3 extra strength and agility if Defiance was fully successful.
-}
-
 STRING 2157
 // Items: I06X (Symbol of Antonidas), Name (Name)
 {
@@ -14311,14 +14270,6 @@ STRING 2158
 // Items: I06X (Symbol of Antonidas), Tip (Tooltip - Basic)
 {
 Symbol of Antonidas
-}
-
-STRING 2159
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 100% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
-|cFF959697Dying or using hero abilities exists Withdrawal.|r
-At the end of the round, gain 4 extra strength and agility if Defiance was fully successful.
 }
 
 STRING 2160
@@ -14526,6 +14477,22 @@ STRING 2188
 |cff4169e1Rare|r, |cff2d9995Weapon|r
 When the hero attacks and kills an enemy minion, summon a copy of it.
 |cffffcc00Life time:|r 10 seconds.
+}
+
+STRING 2189
+// Abilities: A1H8 (Extra: Defiance (Outcast Demon)), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has used Vengeful Strike no more than 3 times during the battle, gain 2 Strength at the end of the round.
+The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r|n
+|cFF959697Defiance is fully successful if all 3 conditions are met.|r
+}
+
+STRING 2190
+// Abilities: A1HD (Special: Farewell), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Quickly jump towards target area with moderate precision.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 2191
@@ -14743,14 +14710,6 @@ Deals |cffbe81f7100/150/200/250/300|r damage to all enemies in front of the hero
 |cffffcc00Cost:|r 40 mana.
 |cFF959697Upgrades increase the knockback distance.
 Does not work on immobile targets.|r
-}
-
-STRING 2221
-// Abilities: A1H8 (Extra: Defiance (Outcast Demon)), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero has used Vengeful Strike no more than 3 times during the battle, gain 3 Strength at the end of the round.
-The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r|n
-|cFF959697Defiance is fully successful if all 3 conditions are met.|r
 }
 
 STRING 2222
@@ -17304,6 +17263,28 @@ When the hero activates |cff60C445Unique|r, deals |cffbe81f7100|r damage to a ra
 |cff81f260[Random bonus]|r
 }
 
+STRING 2602
+// Items: I0ET (Orb of the Netherstorm), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases health by 200 and spell power by 10%.
+When the hero uses an ability or item, creates an enchanted land. Heroes standing on this ground gain 0.5% spell power every second for the duration.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Life time:|r 20 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 2603
+// Items: I0ET (Orb of the Netherstorm), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases health by 200 and spell power by 10%.
+When the hero uses an ability or item, creates an enchanted land. Heroes standing on this ground gain 0.5% spell power every second for the duration.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Life time:|r 20 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 2604
 // Items: I03W (Rik the Wise), Ubertip (Tooltip - Extended)
 {
@@ -18967,6 +18948,24 @@ When the hero attacks, reduces the target's armor by 7.
 |cffffcc00Duration:|r 7 seconds.
 }
 
+STRING 2850
+// Items: I09A (Power Search), Description (Description)
+{
+|cffffcc00Passive:|r Gold gain is reduced by 25%.
+|cffffcc00Quest:|r Split the artifact from each set and each rarity.
+|cffffcc00Reward:|r Mechatron Charizard.
+}
+
+STRING 2851
+// Items: I09A (Power Search), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Passive:|r Gold gain is reduced by 25%.
+|cffffcc00Quest:|r Split the artifact from each set and each rarity.
+|cffffcc00Reward:|r Mechatron Charizard.
+
+|cffffcc00Progress:|r |cffe96a1cLegendary|r, |cff4169e1Rare|r, |cffbababcCommon|r, |cffb40431Blood|r, |cff848484Rune|r, |cffb18904Mech|r, |cff5858faMoon|r, |cff7cfc00Nature|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r, |cff2d9995Weapon|r, |cff00cceeCrystal|r |cffffffff|r
+}
+
 STRING 2852
 // Items: I025 (Battle Halberd), Ubertip (Tooltip - Extended)
 {
@@ -20520,14 +20519,6 @@ STRING 3078
 // Items: I00L (Magical Wisp), Tip (Tooltip - Basic)
 {
 Magical wisp
-}
-
-STRING 3079
-// Abilities: A1HD (Special: Farewell), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Quickly jump towards target area with moderate precision.
-|cffffcc00Cooldown:|r 25 seconds.
 }
 
 STRING 3080
@@ -28569,6 +28560,20 @@ Binds your hero to another non-invisible hero. You lose the ability to move, but
 |cffffcc00Cooldown:|r 14 seconds. 
 
 |cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
+}
+
+STRING 4335
+// Items: I099 (Battle of Power), Description (Description)
+{
+|cffffcc00Quest:|r Restore 5000 mana as a team |cFF959697(0/5000)|r.
+|cffffcc00Reward:|r Ikaros Mudstone.
+}
+
+STRING 4336
+// Items: I099 (Battle of Power), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Restore 5000 mana as a team |cFF959697(0/5000)|r.
+|cffffcc00Reward:|r Ikaros Mudstone.
 }
 
 STRING 4337
@@ -39861,6 +39866,20 @@ STRING 6061
 |cffffcc00Уровень 10:|r Рыцарь в странной броне
 }
 
+STRING 6062
+// Items: I08W (Immortal Story), Description (Description)
+{
+|cffffcc00Quest:|r Gain 17 permanent Intelligence from abilities or artifacts |cFF959697(0/17)|r.
+|cffffcc00Reward:|r Kobzar.
+}
+
+STRING 6063
+// Items: I08W (Immortal Story), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Gain 17 permanent Intelligence from abilities or artifacts |cFF959697(0/17)|r.
+|cffffcc00Reward:|r Kobzar.
+}
+
 STRING 6064
 // Abilities: A0SL (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -48551,6 +48570,13 @@ STRING 7399
 Investigate, [|cffffcc00Level %d|r]
 }
 
+STRING 7400
+// Items: I03H (Ikaros Mudstone), Description (Description)
+{
+|cffe96a1cLegendary|r
+At the start of battle, increases the main stat of each Hero by 8.
+}
+
 STRING 7401
 // Abilities: A1HF (Arcanologist: Investigate), Tip (Tooltip - Normal)
 {
@@ -55416,6 +55442,13 @@ Curses the enemy, reducing their armor by 5. Every second, the target loses |cff
 |cffffcc00Cooldown:|r 21 seconds.
 }
 
+STRING 8466
+// Items: I03H (Ikaros Mudstone), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+At the start of battle, increases the main stat of each Hero by 8.
+}
+
 STRING 8467
 // Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Ubertip (Tooltip - Normal - Extended)
 {
@@ -57843,6 +57876,12 @@ STRING 8840
 // Abilities: A1HG (Arcanologist: Runic Enchantment), Tip (Tooltip - Normal)
 {
 Runic Enchantment, [|cffffcc00Level 5|r]
+}
+
+STRING 8841
+// Abilities: A1HM (Stat: Gold Gain -25%), Name (Name)
+{
+Stat: Gold Gain -25%
 }
 
 STRING 8842

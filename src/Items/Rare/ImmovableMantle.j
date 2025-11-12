@@ -84,7 +84,7 @@ scope ImmovableMantle initializer init
     
     //===========================================================================
     private function init takes nothing returns nothing
-		set ArcanologistW = CreateNativeEvent( EVENT_PLAYER_UNIT_SPELL_EFFECT, function action, function condition )
+		call CreateNativeEvent( EVENT_PLAYER_UNIT_SPELL_EFFECT, function action, function condition )
         //call CreateEventTrigger( "Event_DeleteBuff_Real", function DeleteBuff, function DeleteBuff_Conditions )
     endfunction
 

@@ -13,7 +13,7 @@ scope ArcanologistW initializer init
         private constant integer EFFECT = 'A1HI'
         private constant integer BUFF = 'B0AT'
         
-        private constant integer SIGNATURE_AMOUNT = 2
+        private constant integer SIGNATURE_AMOUNT = 2 // +1
         
 		private integer array ID_SIGNATURE_ITEMS[SIGNATURE_AMOUNT]
         private boolean ACQUIRED = false

@@ -479,6 +479,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL3_Rare[BaseNum()] = 'I0CN'
 	    set udg_DB_Item_ForLvL3_Rare[BaseNum()] = 'IZ02'
 	    set udg_DB_Item_ForLvL3_Rare[BaseNum()] = 'IZ04'
+	    set udg_DB_Item_ForLvL3_Rare[BaseNum()] = 'I0HT'
 	    set udg_DB_NumLvLItems[6] = udg_base
 	
 	    
@@ -865,6 +866,7 @@ library LibDataItems
 	    set udg_DB_Item_Destroyed[BaseNum()] = 'IZ03'
 	    set udg_DB_Item_Destroyed[BaseNum()] = 'IZ07'
 	    set udg_DB_Item_Destroyed[BaseNum()] = 'I0HF'
+	    set udg_DB_Item_Destroyed[BaseNum()] = 'I0HT'
 	    set udg_Database_NumberItems[29] = udg_base
 	    
 	    // Овечьи артефакты

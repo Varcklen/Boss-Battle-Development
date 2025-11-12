@@ -3,7 +3,7 @@ scope OutcastPassive initializer init
 globals
 	private constant integer WITHDRAWAL_ABIL = 'AODE'
 	private constant integer WITHDRAWAL_BUFF = 'BODE'
-	private constant integer ALL_GAIN = 3
+	private constant integer ALL_GAIN = 2
 	private constant integer SAFE_TIME = 5
 	private constant integer DMG_TICK = 2
 	//Abilities\Spells\Other\Stampede\StampedeMissileDeath.mdl
@@ -150,7 +150,7 @@ endfunction
 private function endActions takes nothing returns nothing
 	local unit caster = udg_FightEnd_Unit
     local integer lvl = GetUnitAbilityLevel( caster, ID_OUTCAST_E)
-    local integer bonus = ALL_GAIN + lvl - 1
+    local integer bonus = ALL_GAIN + lvl
     local integer i = 1
     local integer gained = 0
     loop
