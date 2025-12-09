@@ -31,8 +31,11 @@ scope ReadBroW initializer init
 	    local real yCaster = LoadReal( udg_hash, id, StringHash( "real_bro_w_y_caster" ) )
 	   	local integer damage = LoadInteger( udg_hash, id, StringHash( "real_bro_w_damage" ) )
 	    
-	    call SetUnitPosition( caster, x, y )
-	    call SetUnitPosition( target, xCaster, yCaster )
+	    if not(BlzIsUnitInvulnerable(caster)) then
+	    	call SetUnitPosition( caster, x, y )
+	    	call SetUnitPosition( target, xCaster, yCaster )
+	    endif
+	    
 	    call GroupAoE( caster, x, y, damage, AREA, "enemy", ANIMATION, ANIMATION_DAMAGE )
 	    call DestroyEffect( AddSpecialEffectTarget( ANIMATION, target, "origin" ) )
 	    

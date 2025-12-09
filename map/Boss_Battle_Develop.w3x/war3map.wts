@@ -2928,6 +2928,14 @@ STRING 469
 Soren 
 }
 
+STRING 470
+// Items: I0GG (Boom Box), Description (Description)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Your buffs and debuffs last 20% longer.|nAdditionally, your buffs and debuffs last 10% longer for each other |cffb18904mech|r in the inventory.
+|cff81f260[Random bonus]|r
+}
+
 STRING 471
 // Units: N057 ((A) Jester), Propernames (Proper Names)
 {
@@ -2950,6 +2958,14 @@ STRING 474
 // Units: N056 (Armsmaster), Propernames (Proper Names)
 {
 Galvan
+}
+
+STRING 475
+// Items: I0GG (Boom Box), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Your buffs and debuffs last 20% longer.|nAdditionally, your buffs and debuffs last 10% longer for each other |cffb18904mech|r in the inventory.
+|cff81f260[Random bonus]|r
 }
 
 STRING 476
@@ -4949,14 +4965,6 @@ STRING 784
 Increases mana regeneration by 150%. Use 20 abilities per battle to further increase mana regeneration by 350% until the end of battle.
 }
 
-STRING 785
-// Items: I0GG (Boom Box), Description (Description)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r
-Your buffs and debuffs last 15% longer for each |cffb18904mech|r in the inventory.
-|cff81f260[Random bonus]|r
-}
-
 STRING 786
 // Items: I0GG (Boom Box), Name (Name)
 {
@@ -4967,14 +4975,6 @@ STRING 787
 // Items: I0GG (Boom Box), Tip (Tooltip - Basic)
 {
 Boom Box
-}
-
-STRING 788
-// Items: I0GG (Boom Box), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r
-Your buffs and debuffs last 15% longer for each |cffb18904mech|r in the inventory.
-|cff81f260[Random bonus]|r
 }
 
 STRING 789
@@ -6615,6 +6615,14 @@ STRING 1021
 |cffffcc00Reward:|r Pandora's bag.
 }
 
+STRING 1022
+// Items: I09A (Power Search), Description (Description)
+{
+|cffffcc00Passive:|r Gold gain is reduced by 20%.
+|cffffcc00Quest:|r Split the artifact from each set and each rarity.
+|cffffcc00Reward:|r Mechatron Charizard.
+}
+
 STRING 1023
 // Items: I0ET (Orb of the Netherstorm), Name (Name)
 {
@@ -6625,6 +6633,16 @@ STRING 1024
 // Items: I0ET (Orb of the Netherstorm), Tip (Tooltip - Basic)
 {
 Orb of the Netherstorm
+}
+
+STRING 1025
+// Items: I09A (Power Search), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Passive:|r Gold gain is reduced by 20%.
+|cffffcc00Quest:|r Split the artifact from each set and each rarity.
+|cffffcc00Reward:|r Mechatron Charizard.
+
+|cffffcc00Progress:|r |cffe96a1cLegendary|r, |cff4169e1Rare|r, |cffbababcCommon|r, |cffb40431Blood|r, |cff848484Rune|r, |cffb18904Mech|r, |cff5858faMoon|r, |cff7cfc00Nature|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r, |cff2d9995Weapon|r, |cff00cceeCrystal|r |cffffffff|r
 }
 
 STRING 1026
@@ -7483,6 +7501,13 @@ When the hero restores the target's health, applies a buff to the target, which 
 |cffffcc00Duration:|r 5 seconds.
 }
 
+STRING 1149
+// Items: I01V (Mechanical clock), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Reduces cooldown of abilities and items by 6%.|nAdditionally, reduces cooldown of abilities and items by 3% for each other |cffb18904mech|r in the inventory.
+}
+
 STRING 1150
 // Items: I0DX (Serrated blade), Description (Description)
 {
@@ -7554,6 +7579,13 @@ STRING 1159
 // Items: I0DV (Blood of the Ancient (Out of Pool)), Tip (Tooltip - Basic)
 {
 Blood of the Ancient
+}
+
+STRING 1160
+// Items: I01V (Mechanical clock), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Reduces cooldown of abilities and items by 6%.|nAdditionally, reduces cooldown of abilities and items by 3% for each other |cffb18904mech|r in the inventory.
 }
 
 STRING 1161
@@ -8059,6 +8091,16 @@ While the hero is invisible, every second deals |cffbe81f7100|r damage to all ne
 |cff81f260[Random bonus]|r
 }
 
+STRING 1230
+// Items: I0HQ (Immovable Brigandine), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Places the caster in stasis. The hero cannot do anything and becomes invulnerable.
+|cffffcc00Duration:|r 7 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
 STRING 1231
 // Items: I0DD (Tarot Card: Death), Name (Name)
 {
@@ -8069,6 +8111,16 @@ STRING 1232
 // Items: I0DD (Tarot Card: Death), Tip (Tooltip - Basic)
 {
 Tarot Card: Death
+}
+
+STRING 1233
+// Items: I0HQ (Immovable Brigandine), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Places the caster in stasis. The hero cannot do anything and becomes invulnerable.
+|cffffcc00Duration:|r 7 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+|cffffcc00Cost:|r 60 mana.
 }
 
 STRING 1234
@@ -11217,6 +11269,15 @@ Activation: Teleports the hero a short distance.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 1694
+// Abilities: A1BF (Bro: Bamboozle), Researchubertip (Tooltip - Learn - Extended)
+{
+Deal |cffbe81f780/105/130/155/180|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 19/18/17/16/15 seconds.
+|cffffcc00Cost:|r 20 mana.|n
+|cFF959697Does not swap locations if the caster is invulnerable.|r
+}
+
 STRING 1695
 // Items: I0A5 (Cane of Khnum), Name (Name)
 {
@@ -11437,6 +11498,22 @@ STRING 1726
 Power Search
 }
 
+STRING 1727
+// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f780|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 19 seconds.|n
+|cFF959697Does not swap locations if the caster is invulnerable.|r
+}
+
+STRING 1728
+// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7105|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 18 seconds.|n
+|cFF959697Does not swap locations if the caster is invulnerable.|r
+}
+
 STRING 1729
 // Items: I096 (Skill Show), Description (Description)
 {
@@ -11475,22 +11552,6 @@ STRING 1734
 |cffbababcCommon|r, |cff00cceeCrystal|r
 Increases damage dealt by 40% if mana is less than 25%.
 |cff81f260[Random bonus]|r
-}
-
-STRING 1735
-// Abilities: A082 (Outcast: Denial of the Past), Researchubertip (Tooltip - Learn - Extended)
-{
-After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 40/55/70/85/100% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
-|cFF959697Dying or using hero abilities exists Withdrawal.|r
-At the end of the round, gain 1/2/3/4/5 extra strength and agility if Defiance was fully successful.
-}
-
-STRING 1736
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 40% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
-|cFF959697Dying or using hero abilities exists Withdrawal.|r
-At the end of the round, gain 1 extra strength and agility if Defiance was fully successful.
 }
 
 STRING 1737
@@ -11605,6 +11666,14 @@ STRING 1753
 |cffffcc00Reward:|r Dead Man's Chest.
 }
 
+STRING 1754
+// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7130|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 17 seconds.|n
+|cFF959697Does not swap locations if the caster is invulnerable.|r
+}
+
 STRING 1755
 // Items: I09Q (Idol of Greed), Name (Name)
 {
@@ -11615,6 +11684,14 @@ STRING 1756
 // Items: I09Q (Idol of Greed), Tip (Tooltip - Basic)
 {
 Idol of Greed
+}
+
+STRING 1757
+// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7155|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 16 seconds.|n
+|cFF959697Does not swap locations if the caster is invulnerable.|r
 }
 
 STRING 1758
@@ -11643,6 +11720,14 @@ STRING 1761
 Increases physical damage dealt and received by 100%.
 }
 
+STRING 1762
+// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7180|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 15 seconds.|n
+|cFF959697Does not swap locations if the caster is invulnerable.|r
+}
+
 STRING 1763
 // Items: I09O (Idol of Desires), Name (Name)
 {
@@ -11653,6 +11738,26 @@ STRING 1764
 // Items: I09O (Idol of Desires), Tip (Tooltip - Basic)
 {
 Idol of Desires
+}
+
+STRING 1765
+// Abilities: A0JO (|cffffcc00Extra:|r Двойные неприятности), Ubertip (Tooltip - Normal - Extended)
+{
+All heroes start a battle with two bosses (the second boss is always random), but gain more gold.
+
+|cffffcc00Your heroes fight with two bosses at the same time.
+
+Battle Limit in boss battles has been increased by 2 minutes.
+
+All heroes receive 40% more gold from any sources (does not work in extra arenas).|r
+}
+
+STRING 1766
+// Abilities: A082 (Outcast: Denial of the Past), Researchubertip (Tooltip - Learn - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 30/45/60/75/90% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 1/2/3/4/5 extra strength and agility if Defiance was fully successful.
 }
 
 STRING 1767
@@ -11674,6 +11779,14 @@ STRING 1769
 |cffffcc00Reward:|r Power Wand.
 }
 
+STRING 1770
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 30% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 1 extra strength and agility if Defiance was fully successful.
+}
+
 STRING 1771
 // Items: I09M (Idol of Sorrow), Name (Name)
 {
@@ -11686,6 +11799,22 @@ STRING 1772
 Idol of Sorrow
 }
 
+STRING 1773
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 45% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 2 extra strength and agility if Defiance was fully successful.
+}
+
+STRING 1774
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 60% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 3 extra strength and agility if Defiance was fully successful.
+}
+
 STRING 1775
 // Items: I09L (Paragon Armor), Name (Name)
 {
@@ -11696,6 +11825,14 @@ STRING 1776
 // Items: I09L (Paragon Armor), Tip (Tooltip - Basic)
 {
 Paragon Armor
+}
+
+STRING 1777
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 75% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 4 extra strength and agility if Defiance was fully successful.
 }
 
 STRING 1778
@@ -11883,6 +12020,14 @@ STRING 1805
 Bloody Figurine
 }
 
+STRING 1806
+// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
+{
+After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 90% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
+|cFF959697Dying or using hero abilities exists Withdrawal.|r
+At the end of the round, gain 5 extra strength and agility if Defiance was fully successful.
+}
+
 STRING 1807
 // Items: I0EZ (Scientist Card), Name (Name)
 {
@@ -11964,6 +12109,17 @@ STRING 1818
 |cff00ff00True Form|r
 }
 
+STRING 1819
+// Abilities: A07Z (Outcast: Power Overwhelming), Researchubertip (Tooltip - Learn - Extended)
+{
+Increases the target hero's agility and intelligence equal to 30%/45%/60%/75%/90% of your hero's agility and intelligence.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 25 seconds. 
+|cffffcc00Cost:|r 100/110/120/130/140 mana.
+
+|cFF959697Reactivation resets the previous effect.|r
+}
+
 STRING 1820
 // Items: I0B9 (Scholar's Gambit), Ubertip (Tooltip - Extended)
 {
@@ -11979,6 +12135,16 @@ Every 5 seconds, gives all heroes a buff that cancels the next damage taken.
 When you use the first ability (|cffffcc00Q|r), it is used twice.
 
 |cFF959697Any effects applied last 20 seconds. Only works in combat|r
+}
+
+STRING 1822
+// Abilities: A07Z (Outcast: Power Overwhelming), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the target hero's agility and intelligence equal to 30% of your hero's agility and intelligence.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 25 seconds. 
+
+|cFF959697Reactivation resets the previous effect.|r
 }
 
 STRING 1823
@@ -12337,6 +12503,16 @@ When using an ability or item, there is a |cffd7df0115%|r chance of spending 50%
 If there is another orb in the inventory, they merge.
 }
 
+STRING 1871
+// Abilities: A07Z (Outcast: Power Overwhelming), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the target hero's agility and intelligence equal to 45% of your hero's agility and intelligence.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 25 seconds. 
+
+|cFF959697Reactivation resets the previous effect.|r
+}
+
 STRING 1872
 // Items: I08X (Kobzar), Name (Name)
 {
@@ -12349,20 +12525,20 @@ STRING 1873
 Kobzar
 }
 
+STRING 1874
+// Abilities: A07Z (Outcast: Power Overwhelming), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the target hero's agility and intelligence equal to 60% of your hero's agility and intelligence.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 25 seconds. 
+
+|cFF959697Reactivation resets the previous effect.|r
+}
+
 STRING 1875
 // Items: IZ04 (Eternal Harvest), Name (Name)
 {
 Eternal Harvest
-}
-
-STRING 1876
-// Items: I0HQ (Immovable Brigandine), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Places the caster in stasis. The hero cannot do anything and becomes invulnerable.
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 60 mana.
 }
 
 STRING 1877
@@ -12808,6 +12984,16 @@ STRING 1943
 {
 |cff4169e1Rare|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a knight artifact.
+}
+
+STRING 1944
+// Abilities: A07Z (Outcast: Power Overwhelming), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the target hero's agility and intelligence equal to 75% of your hero's agility and intelligence.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 25 seconds. 
+
+|cFF959697Reactivation resets the previous effect.|r
 }
 
 STRING 1945
@@ -13735,22 +13921,6 @@ Activation: Deals |cffbe81f7200|r damage to a random enemy. Repeats for each oth
 |cffffcc00Cost:|r 50 mana.
 }
 
-STRING 2081
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 55% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
-|cFF959697Dying or using hero abilities exists Withdrawal.|r
-At the end of the round, gain 2 extra strength and agility if Defiance was fully successful.
-}
-
-STRING 2082
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 70% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
-|cFF959697Dying or using hero abilities exists Withdrawal.|r
-At the end of the round, gain 3 extra strength and agility if Defiance was fully successful.
-}
-
 STRING 2083
 // Items: I07G ("Pow!" Machine), Ubertip (Tooltip - Extended)
 {
@@ -14077,22 +14247,6 @@ STRING 2128
 When the hero kills an enemy, gets 20 gold and restores |cffbe81f720|r health.
 }
 
-STRING 2129
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 85% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
-|cFF959697Dying or using hero abilities exists Withdrawal.|r
-At the end of the round, gain 4 extra strength and agility if Defiance was fully successful.
-}
-
-STRING 2130
-// Abilities: A082 (Outcast: Denial of the Past), Ubertip (Tooltip - Normal - Extended)
-{
-After 5 seconds of not using a hero ability, enter Withdrawal; while in that state, all damage is increased by 100% of Agility and Intelligence, but health is drained every 2 seconds, starting at 1% and doubling every tick.
-|cFF959697Dying or using hero abilities exists Withdrawal.|r
-At the end of the round, gain 5 extra strength and agility if Defiance was fully successful.
-}
-
 STRING 2131
 // Items: I074 (Bloody Coin), Ubertip (Tooltip - Extended)
 {
@@ -14258,6 +14412,16 @@ STRING 2155
 {
 |cff4169e1Rare|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cffb18904mech|r.
+}
+
+STRING 2156
+// Abilities: A07Z (Outcast: Power Overwhelming), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the target hero's agility and intelligence equal to 90% of your hero's agility and intelligence.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 25 seconds. 
+
+|cFF959697Reactivation resets the previous effect.|r
 }
 
 STRING 2157
@@ -14765,16 +14929,6 @@ STRING 2229
 {
 Deals |cffbe81f7240|r damage to all nearby enemies. If any target dies, detonates it, dealing |cffbe81f7110|r damage to all enemies from the target.
 |cffffcc00Cooldown:|r 4 seconds.
-}
-
-STRING 2230
-// Items: I0HQ (Immovable Brigandine), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Places the caster in stasis. The hero cannot do anything and becomes invulnerable.
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 60 mana.
 }
 
 STRING 2231
@@ -18948,24 +19102,6 @@ When the hero attacks, reduces the target's armor by 7.
 |cffffcc00Duration:|r 7 seconds.
 }
 
-STRING 2850
-// Items: I09A (Power Search), Description (Description)
-{
-|cffffcc00Passive:|r Gold gain is reduced by 25%.
-|cffffcc00Quest:|r Split the artifact from each set and each rarity.
-|cffffcc00Reward:|r Mechatron Charizard.
-}
-
-STRING 2851
-// Items: I09A (Power Search), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Passive:|r Gold gain is reduced by 25%.
-|cffffcc00Quest:|r Split the artifact from each set and each rarity.
-|cffffcc00Reward:|r Mechatron Charizard.
-
-|cffffcc00Progress:|r |cffe96a1cLegendary|r, |cff4169e1Rare|r, |cffbababcCommon|r, |cffb40431Blood|r, |cff848484Rune|r, |cffb18904Mech|r, |cff5858faMoon|r, |cff7cfc00Nature|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r, |cff2d9995Weapon|r, |cff00cceeCrystal|r |cffffffff|r
-}
-
 STRING 2852
 // Items: I025 (Battle Halberd), Ubertip (Tooltip - Extended)
 {
@@ -19223,13 +19359,6 @@ If it dies, gain 80 health and 2 attack. Then, for the rest of the battle, gaini
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
-STRING 2889
-// Items: I01V (Mechanical clock), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Reduces cooldown of abilities and items by 4% for each |cffb18904mech|r in the inventory.
-}
-
 STRING 2890
 // Items: I01V (Mechanical clock), Name (Name)
 {
@@ -19240,13 +19369,6 @@ STRING 2891
 // Items: I01V (Mechanical clock), Tip (Tooltip - Basic)
 {
 Mechanical clock
-}
-
-STRING 2892
-// Items: I01V (Mechanical clock), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Reduces cooldown of abilities and items by 4% for each |cffb18904mech|r in the inventory.
 }
 
 STRING 2893
@@ -37501,21 +37623,6 @@ Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seco
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
-STRING 5704
-// Abilities: A1BF (Bro: Bamboozle), Researchubertip (Tooltip - Learn - Extended)
-{
-Deal |cffbe81f780/105/130/155/180|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
-|cffffcc00Cooldown:|r 19/18/17/16/15 seconds.
-|cffffcc00Cost:|r 20 mana.
-}
-
-STRING 5705
-// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f780|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
-|cffffcc00Cooldown:|r 19 seconds.
-}
-
 STRING 5706
 // Abilities: A0UU (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -52070,18 +52177,6 @@ STRING 7943
 - |cff00cceeAt 50% health:|r A fiery explosion is created more often.
 }
 
-STRING 7944
-// Abilities: A0JO (|cffffcc00Extra:|r Двойные неприятности), Ubertip (Tooltip - Normal - Extended)
-{
-All heroes start a battle with two bosses (the second boss is always random), but they give more gold.
-
-|cffffcc00Your heroes fight with two bosses at the same time.
-
-Battle Limit in boss battles has been increased by 2 minutes.
-
-All heroes receive 50% more gold from any sources (does not work in extra arenas).|r
-}
-
 STRING 7945
 // Abilities: A044 (Босс 10: Колдун (Злобная магия)XXX), Name (Name)
 {
@@ -57386,13 +57481,6 @@ STRING 8764
 Opportunistic Reflexes, [|cffffcc00Level %d|r]
 }
 
-STRING 8765
-// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7105|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
 STRING 8766
 // Abilities: A09R (Armsmaster: Opportunistic Reflexes), Tip (Tooltip - Normal)
 {
@@ -59579,17 +59667,6 @@ STRING 9113
 Power Overwhelming, [|cffffcc00Level %d|r]
 }
 
-STRING 9114
-// Abilities: A07Z (Outcast: Power Overwhelming), Researchubertip (Tooltip - Learn - Extended)
-{
-Increases the target hero's agility and intelligence equal to 40%/55%/70%/85%/100% of your hero's agility and intelligence.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 25 seconds. 
-|cffffcc00Cost:|r 100/110/120/130/140 mana.
-
-|cFF959697Reactivation resets the previous effect.|r
-}
-
 STRING 9115
 // Abilities: A07Z (Outcast: Power Overwhelming), Tip (Tooltip - Normal)
 {
@@ -59618,56 +59695,6 @@ STRING 9119
 // Abilities: A07Z (Outcast: Power Overwhelming), Tip (Tooltip - Normal)
 {
 Power Overwhelming, [|cffffcc00Level 5|r]
-}
-
-STRING 9120
-// Abilities: A07Z (Outcast: Power Overwhelming), Ubertip (Tooltip - Normal - Extended)
-{
-Increases the target hero's agility and intelligence equal to 40% of your hero's agility and intelligence.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 25 seconds. 
-
-|cFF959697Reactivation resets the previous effect.|r
-}
-
-STRING 9121
-// Abilities: A07Z (Outcast: Power Overwhelming), Ubertip (Tooltip - Normal - Extended)
-{
-Increases the target hero's agility and intelligence equal to 55% of your hero's agility and intelligence.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 25 seconds. 
-
-|cFF959697Reactivation resets the previous effect.|r
-}
-
-STRING 9122
-// Abilities: A07Z (Outcast: Power Overwhelming), Ubertip (Tooltip - Normal - Extended)
-{
-Increases the target hero's agility and intelligence equal to 70% of your hero's agility and intelligence.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 25 seconds. 
-
-|cFF959697Reactivation resets the previous effect.|r
-}
-
-STRING 9123
-// Abilities: A07Z (Outcast: Power Overwhelming), Ubertip (Tooltip - Normal - Extended)
-{
-Increases the target hero's agility and intelligence equal to 85% of your hero's agility and intelligence.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 25 seconds. 
-
-|cFF959697Reactivation resets the previous effect.|r
-}
-
-STRING 9124
-// Abilities: A07Z (Outcast: Power Overwhelming), Ubertip (Tooltip - Normal - Extended)
-{
-Increases the target hero's agility and intelligence equal to 100% of your hero's agility and intelligence.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 25 seconds. 
-
-|cFF959697Reactivation resets the previous effect.|r
 }
 
 STRING 9125
@@ -72600,30 +72627,9 @@ When the Hero uses an ability, increases Spell Power by 3% for a short time and 
 |cffffcc00Duration:|r 7 seconds.
 }
 
-STRING 11170
-// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7130|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
-|cffffcc00Cooldown:|r 17 seconds.
-}
-
 STRING 11171
 {
 Minions take full damage from any sources.
-}
-
-STRING 11172
-// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7155|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
-|cffffcc00Cooldown:|r 16 seconds.
-}
-
-STRING 11173
-// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7180|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 11174

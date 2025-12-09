@@ -3,8 +3,9 @@ scope BoomBox initializer init
 	globals
 		private constant integer ITEM_ID = 'I0GG'
 		
-		private constant integer STAT_INCREASE = 15
+		private constant integer STAT_INCREASE = 10
 		private constant integer STAT_TYPE = STAT_BUFF_DURATION
+		private constant integer STAT_BASE_MULT = 1
 		
 		private constant integer STRING_HASH = StringHash( "boom_box" )
 		private constant string STRING_HASH_ITEM = "boom_box_item"
@@ -15,7 +16,7 @@ scope BoomBox initializer init
 	endfunction 
 	
 	private function BonusValue takes unit hero returns integer
-		return SetCount_GetPieces(hero, SET_MECH)
+		return SetCount_GetPieces(hero, SET_MECH) + STAT_BASE_MULT //* inv(hero, ITEM_ID)
 	endfunction 
 	
 	private function check takes nothing returns nothing 

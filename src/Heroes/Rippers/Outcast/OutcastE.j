@@ -9,7 +9,7 @@ globals
 	//Abilities\Spells\Other\Stampede\StampedeMissileDeath.mdl
     private constant string ANIMATION = "Abilities\\Spells\\Other\\Stampede\\StampedeMissileDeath.mdl"
     
-	private constant real DMG_BUFF_BASE = 0.25
+	private constant real DMG_BUFF_BASE = 0.15
 	private constant real DMG_BUFF_SCALE = 0.15
 
 	private constant integer ID_OUTCAST_E = 'A082'

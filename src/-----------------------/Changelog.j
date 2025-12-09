@@ -1,33 +1,16 @@
 /*
-	HEROES:
-	Wanderer - 		W : Shield 		: 50 + 30xLVL	-> 50 + 20xLVL
-			
-	Outcast Demon - E : STR/AGI scale	: LVL-1	-> LVL
-			 Defiance : Stat scale		: 3 	-> 2
-	
-	
-	ITEMS:
-	Kobzar/Immortal Story - Increase Intelligence by 50%, then add an extra 10.
-			Requirement : 12 -> 17
-	
-	Ikaros Mudstone/Battle of Power - Stat increase : 4 -> 8
-			Requirement : 2500 -> 5000
-	
-	Mechatron Charizard/Power Search - No changes to the reward;
-			Requirement : The quest now reduces gold gain by 25% while in progress
-			
-			
-	Tarot Death - Is now Cursed
-			   			
-	Orb of Netherstorm - SP/sec on land : 2% -> 0.5%
-	
-	
-		New Item - Black Egg - Rare
-	After a lost battle, transform into the Radiance.
-	Activation: Corrupted. Removes curse from all items in the inventory.
-	
-	
-	OTHER:
-	Special - Farewell	: Cooldown : 25 -> 20
-	Fixed Grateful Dead triggering as many times as there are players in the lobby.
+Real Bro - no longer swaps positions if the caster is invulnerable 
+
+Demon Outcast - Denial of the Past provides 10% less damage on all levels while in Withdrawal.
+"all damage is increased by 40/55/70/85/100% of Agility and Intelligence" -> "all damage is increased by 30/45/60/75/90% of Agility and Intelligence"
+Demon Outcast - Power Overwhelming provides 10% less stats on all levels.
+"Increases the target's AGI and INT equal to 40/55/70/85/100% of your AGI and INT." -> "Increases the target's AGI and INT equal to 30%/45%/60%/75%/90% of your AGI and INT."
+
+Immovable Brigandine - CD 45 -> 25 ; Duration 6 -> 7 --TODO tesh
+Mechatron Charizard now properly counts as 3 mechs
+Mech Clock - 4% CDR per mech -> 3% CDR and 3% CDR per mech --TODO tesh
+Boom Box - 15% BD per mech -> 10% BD and 10% BD per mech --TODO tesh
+Power Search (Charizard Quest) - -25% gold gain -> -20% gold gain 
+
+Double Trouble extra gold 50% -> 40%
 */

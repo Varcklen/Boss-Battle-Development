@@ -3,7 +3,7 @@ scope ImmovableMantle initializer init
     globals
         private constant integer ID_ABILITY = 'A1HK'
         
-        private constant integer DURATION = 6
+        private constant integer DURATION = 7
         private constant integer TICK = 1
         
         private constant integer EFFECT = 'A107'

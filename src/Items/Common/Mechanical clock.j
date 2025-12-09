@@ -3,8 +3,9 @@ scope MechanicalClock initializer init
 	globals
 		private constant integer ITEM_ID = 'I01V'
 		
-		private constant integer STAT_INCREASE = -4
+		private constant integer STAT_INCREASE = -3
 		private constant integer STAT_TYPE = STAT_COOLDOWN
+		private constant integer STAT_BASE_MULT = 1
 		
 		private constant integer STRING_HASH = StringHash( "mechanic_clock" )
 		private constant string STRING_HASH_ITEM = "mechanic_clock_item"
@@ -15,7 +16,7 @@ scope MechanicalClock initializer init
 	endfunction 
 	
 	private function BonusValue takes unit hero returns integer
-		return SetCount_GetPieces(hero, SET_MECH)
+		return SetCount_GetPieces(hero, SET_MECH) + STAT_BASE_MULT //* inv(hero, ITEM_ID)
 	endfunction 
 	
 	private function check takes nothing returns nothing 
