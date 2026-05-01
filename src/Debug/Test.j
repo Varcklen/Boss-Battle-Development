@@ -1,9 +1,9 @@
 scope Test initializer init
 	
 	private function action takes nothing returns nothing
-		set DB_SetItems[3][1] = 'I0EE'
-	    set DB_SetItems[3][2] = 'IZ08'
-	    set udg_DB_SetItems_Num[3] = 2
+		call BJDebugMsg("udg_rollbase[1]:" + I2S(udg_rollbase[1]))
+		
+		call AddRewardSelectionOption(Player(i), AMOUNT_OF_REWARD_SELECTIONS_PER_ROUND)
 	endfunction
 	
 	//===========================================================================
