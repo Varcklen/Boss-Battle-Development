@@ -24,7 +24,7 @@ library CheatSystem initializer init requires Multiboard
 		call Cheat.create(CheatCheckMods_Trigger, "-modcheck", "Displays a list of all active and inactive blessings and curses.")
 		call Cheat.create(gg_trg_CheatSwap, "-swap", "Forces players to swap souls (heroes).")
 		call Cheat.create(trig_CheatCreate, "-create", "Creates heroes for blue, teal and purple players.")
-		call Cheat.create(gg_trg_Exchange, "-exchange", "Creates an item for the blue player in the exchanger and forces to confirm the exchange.")
+		call Cheat.create(CheatExchange_Trigger, "-exchange", "Creates an item for the blue player in the exchanger and forces to confirm the exchange.")
 		call Cheat.create(CheatHalf_Trigger, "-half", "Sets the hero's health and mana to 50%.")
 		call Cheat.create(gg_trg_ManaReg, "-manareg", "Enables/disables tracking of the hero's mana.")
 		call Cheat.create(gg_trg_Cast, "-casts X Y", "The player casts a random spell [X][Y].")

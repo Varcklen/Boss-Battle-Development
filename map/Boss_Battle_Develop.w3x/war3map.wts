@@ -11566,6 +11566,12 @@ STRING 1735
 Starting Bonus Dummy
 }
 
+STRING 1736
+// Items: IV07 (SB Creation Dummy), Name (Name)
+{
+SB Creation Dummy
+}
+
 STRING 1737
 // Items: I09V (Babbling Pebble), Ubertip (Tooltip - Extended)
 {
@@ -12554,7 +12560,7 @@ Eternal Harvest
 }
 
 STRING 1876
-// Abilities: A1HD (Special: Farewell), Hotkey (Hotkey - Normal)
+// Items: I05M (Book of Luck), Hotkey (Hotkey)
 {
 F
 }
@@ -14279,6 +14285,12 @@ STRING 2128
 When the hero kills an enemy, gets 20 gold and restores |cffbe81f720|r health.
 }
 
+STRING 2129
+// Items: IV07 (SB Creation Dummy), Tip (Tooltip - Basic)
+{
+SB Creation Dummy
+}
+
 STRING 2131
 // Items: I074 (Bloody Coin), Ubertip (Tooltip - Extended)
 {
@@ -14466,6 +14478,12 @@ STRING 2158
 // Items: I06X (Symbol of Antonidas), Tip (Tooltip - Basic)
 {
 Symbol of Antonidas
+}
+
+STRING 2159
+// Abilities: A1HD (Special: Farewell), Hotkey (Hotkey - Normal)
+{
+F
 }
 
 STRING 2160
@@ -14908,6 +14926,12 @@ Deals |cffbe81f7100/150/200/250/300|r damage to all enemies in front of the hero
 Does not work on immobile targets.|r
 }
 
+STRING 2221
+// Items: IV07 (SB Creation Dummy), Description (Description)
+{
+Activation: Increases stats by |cffffffff4|r. At the end of the battle, increases the value by 4.
+}
+
 STRING 2222
 // Abilities: A07Y (Outcast: Demonic Blast), Ubertip (Tooltip - Normal - Extended)
 {
@@ -14961,6 +14985,12 @@ STRING 2229
 {
 Deals |cffbe81f7240|r damage to all nearby enemies. If any target dies, detonates it, dealing |cffbe81f7110|r damage to all enemies from the target.
 |cffffcc00Cooldown:|r 4 seconds.
+}
+
+STRING 2230
+// Items: IV07 (SB Creation Dummy), Ubertip (Tooltip - Extended)
+{
+Activation: Increases stats by |cffffffff4|r. At the end of the battle, increases the value by 4.
 }
 
 STRING 2231
@@ -15721,7 +15751,7 @@ Increases luck by 1.
 }
 
 STRING 2345
-// Items: I05M (Book of Luck), Hotkey (Hotkey)
+// Items: I05A (Geyser Potion), Hotkey (Hotkey)
 {
 F
 }
@@ -16072,7 +16102,7 @@ Activation: Restores |cffbe81f7150|r mana to the hero and deals |cffbe81f7250|r 
 }
 
 STRING 2398
-// Items: I05A (Geyser Potion), Hotkey (Hotkey)
+// Items: IV00 (Starting Bonus Dummy), Hotkey (Hotkey)
 {
 F
 }
@@ -18968,7 +18998,7 @@ Activation: |cffcc0000Corrupted|r. Destroys artifact in the inventory.
 }
 
 STRING 2825
-// Items: IV00 (Starting Bonus Dummy), Hotkey (Hotkey)
+// Items: IV07 (SB Creation Dummy), Hotkey (Hotkey)
 {
 F
 }

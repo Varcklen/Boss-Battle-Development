@@ -1,7 +1,7 @@
 scope Orange initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV00'
+		private integer ITEM_TYPE = 'IV01'
 	endglobals
 
 	private function condition takes nothing returns boolean

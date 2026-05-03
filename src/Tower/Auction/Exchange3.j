@@ -6,13 +6,14 @@ scope Exchange3 initializer init
 	    item Event_ItemExchange_OldItem
 	    unit Event_ItemExchange_Hero
 	    unit Event_ItemExchange_Friend
+	    unit Event_ItemExchange_Initiator
 	endglobals
 	
 	private function condition takes nothing returns boolean
 	    return GetItemTypeId(GetManipulatedItem()) == 'I0BJ' or GetItemTypeId(GetManipulatedItem()) == 'I07Y'
 	endfunction
 	
-	private function MakeExchange takes player owner, unit hero, integer index, player friendPlayer, unit friendHero, integer friendIndex returns nothing
+	private function MakeExchange takes player owner, unit hero, integer index, player friendPlayer, unit friendHero, integer friendIndex, unit initiator returns nothing
 		local item itemToGet = udg_auctionartif[friendIndex]
 		local integer rand
 		local item itemToLost
@@ -30,6 +31,8 @@ scope Exchange3 initializer init
         
         set Event_ItemExchange_Friend = friendHero
         set Event_ItemExchange_OldItem = udg_auctionartif[index]
+        
+        set Event_ItemExchange_Initiator = hero
         
         set Event_ItemExchange_Real = 1.00
         set Event_ItemExchange_Real = 0.00
@@ -128,8 +131,8 @@ scope Exchange3 initializer init
 
         set udg_auctionlogic[index] = true
         if udg_auctionlogic[friendIndex] then
-        	call MakeExchange( owner, hero, index, friendPlayer, friendHero, friendIndex )
-        	call MakeExchange( friendPlayer, friendHero, friendIndex, owner, hero, index )
+        	call MakeExchange( owner, hero, index, friendPlayer, friendHero, friendIndex, hero )
+        	call MakeExchange( friendPlayer, friendHero, friendIndex, owner, hero, index, hero )
         	
         	set udg_auctionartif[index] = null
         	set udg_auctionartif[friendIndex] = null
