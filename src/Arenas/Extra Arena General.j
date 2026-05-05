@@ -104,5 +104,13 @@ library ExtraArenaGeneral requires ItemRandomizerLib, Multiboard
     public function IsPvPFighter takes unit hero returns boolean
 		return udg_unit[57] == hero or udg_unit[58] == hero
     endfunction
+    
+    public function IsArenaActive takes nothing returns boolean
+		return udg_fightmod[2] or udg_fightmod[4]
+    endfunction
+    
+    public function IsPvPActive takes nothing returns boolean
+		return udg_fightmod[3]
+    endfunction
 
 endlibrary

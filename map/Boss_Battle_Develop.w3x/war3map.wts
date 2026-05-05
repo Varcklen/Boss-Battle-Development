@@ -14481,7 +14481,7 @@ Symbol of Antonidas
 }
 
 STRING 2159
-// Abilities: A1HD (Special: Farewell), Hotkey (Hotkey - Normal)
+// Items: I05A (Geyser Potion), Hotkey (Hotkey)
 {
 F
 }
@@ -15751,7 +15751,7 @@ Increases luck by 1.
 }
 
 STRING 2345
-// Items: I05A (Geyser Potion), Hotkey (Hotkey)
+// Items: IV00 (Starting Bonus Dummy), Hotkey (Hotkey)
 {
 F
 }
@@ -16102,7 +16102,7 @@ Activation: Restores |cffbe81f7150|r mana to the hero and deals |cffbe81f7250|r 
 }
 
 STRING 2398
-// Items: IV00 (Starting Bonus Dummy), Hotkey (Hotkey)
+// Items: IV07 (SB Creation Dummy), Hotkey (Hotkey)
 {
 F
 }
@@ -18998,7 +18998,7 @@ Activation: |cffcc0000Corrupted|r. Destroys artifact in the inventory.
 }
 
 STRING 2825
-// Items: IV07 (SB Creation Dummy), Hotkey (Hotkey)
+// Abilities: AZ04 (Speical: Left the Game), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -21361,7 +21361,7 @@ STRING 3178
 }
 
 STRING 3179
-// Abilities: AZ04 (Speical: Left the Game), Hotkey (Hotkey - Normal)
+// Abilities: AZ03 (Special: Last Rites), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -21387,7 +21387,7 @@ Weaken the nearby enemy with the highest health which will cause the target to t
 }
 
 STRING 3183
-// Abilities: AZ03 (Special: Last Rites), Hotkey (Hotkey - Normal)
+// Abilities: AZ02 ((т)Аура: Masochism), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -21420,7 +21420,7 @@ this is such a dumb joke
 }
 
 STRING 3188
-// Abilities: AZ02 ((т)Аура: Masochism), Hotkey (Hotkey - Normal)
+// Abilities: AZ01 (Special: Soul Marriage), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -21432,7 +21432,7 @@ STRING 3189
 }
 
 STRING 3190
-// Abilities: AZ01 (Special: Soul Marriage), Hotkey (Hotkey - Normal)
+// Abilities: AZ00 (Special: Masochism), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -21458,7 +21458,7 @@ Swap souls of all heroes. For each hero affected, apply shield worth |cffbe81f71
 }
 
 STRING 3194
-// Abilities: AZ00 (Special: Masochism), Hotkey (Hotkey - Normal)
+// Abilities: A1BY (Special: Sheep cannon), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -23308,7 +23308,7 @@ STRING 3485
 }
 
 STRING 3486
-// Abilities: A1BY (Special: Sheep cannon), Hotkey (Hotkey - Normal)
+// Abilities: A1BV (Special: Time rift), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -23379,7 +23379,7 @@ Resets the cooldown of your abilities and items.
 }
 
 STRING 3496
-// Abilities: A1BV (Special: Time rift), Hotkey (Hotkey - Normal)
+// Abilities: A1BL (Special: Cannibalism), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -23475,7 +23475,7 @@ You start the game with all possible curses.
 }
 
 STRING 3511
-// Abilities: A1BL (Special: Cannibalism), Hotkey (Hotkey - Normal)
+// Abilities: A1BK (Special: Dualism), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -23501,7 +23501,7 @@ Kills an allied minion to restore the hero's health equal to |cffbe81f7110%|r of
 }
 
 STRING 3515
-// Abilities: A1BK (Special: Dualism), Hotkey (Hotkey - Normal)
+// Abilities: A1B4 (Special: Reflection), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -24189,7 +24189,7 @@ Touching Motif can be applied to one target at a time, but provides up to 12 bon
 }
 
 STRING 3626
-// Abilities: A1B4 (Special: Reflection), Hotkey (Hotkey - Normal)
+// Abilities: A1B3 (Special: Unstable Potions), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -24215,7 +24215,7 @@ Choose another allied hero. Your hero changes percentages of health and mana wit
 }
 
 STRING 3630
-// Abilities: A1B3 (Special: Unstable Potions), Hotkey (Hotkey - Normal)
+// Abilities: A1B2 (Special: Equivalent exchange), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -24242,7 +24242,7 @@ You have 2 seconds to use it.
 }
 
 STRING 3634
-// Abilities: A1B2 (Special: Equivalent exchange), Hotkey (Hotkey - Normal)
+// Abilities: A1AF (Special: Burst of Energy), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -24889,7 +24889,7 @@ STRING 3736
 }
 
 STRING 3737
-// Abilities: A1AF (Special: Burst of Energy), Hotkey (Hotkey - Normal)
+// Abilities: A1AE (Special: Sacrifice), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -24915,7 +24915,7 @@ Restores |cffbe81f735|r mana to an ally. If it has a shield on it, it restores t
 }
 
 STRING 3741
-// Abilities: A1AE (Special: Sacrifice), Hotkey (Hotkey - Normal)
+// Abilities: A1AD (Special: Voodoo explosion), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -24941,7 +24941,7 @@ Sacrifice an artifact in your inventory to deal |cffbe81f7450|r damage to all en
 }
 
 STRING 3745
-// Abilities: A1AD (Special: Voodoo explosion), Hotkey (Hotkey - Normal)
+// Abilities: A19U (Special: Arcanology), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -25457,7 +25457,7 @@ STRING 3824
 }
 
 STRING 3825
-// Abilities: A19U (Special: Arcanology), Hotkey (Hotkey - Normal)
+// Abilities: A19S (Special: Rage), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -25490,7 +25490,7 @@ STRING 3829
 }
 
 STRING 3830
-// Abilities: A19S (Special: Rage), Hotkey (Hotkey - Normal)
+// Abilities: A19R (Special: Revitalization), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -25518,7 +25518,7 @@ If the hero killed an enemy during this battle, doubles the bonus.
 }
 
 STRING 3834
-// Abilities: A19R (Special: Revitalization), Hotkey (Hotkey - Normal)
+// Abilities: A19Q (Special: Burn), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -25545,7 +25545,7 @@ Resurrects your minion who died in this battle.
 }
 
 STRING 3838
-// Abilities: A19Q (Special: Burn), Hotkey (Hotkey - Normal)
+// Abilities: A19P (Special: Taunt), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -25571,7 +25571,7 @@ Deals |cffbe81f7100|r damage to an enemy. If it kills the target, permanently in
 }
 
 STRING 3842
-// Abilities: A19P (Special: Taunt), Hotkey (Hotkey - Normal)
+// Abilities: A19N (Special: Innervate), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -25604,7 +25604,7 @@ STRING 3846
 }
 
 STRING 3847
-// Abilities: A19N (Special: Innervate), Hotkey (Hotkey - Normal)
+// Abilities: A13S (Special: Mutation), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -30896,7 +30896,7 @@ STRING 4666
 }
 
 STRING 4667
-// Abilities: A13S (Special: Mutation), Hotkey (Hotkey - Normal)
+// Abilities: A12Y (Special: Incineration), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -31448,7 +31448,7 @@ STRING 4754
 }
 
 STRING 4755
-// Abilities: A12Y (Special: Incineration), Hotkey (Hotkey - Normal)
+// Abilities: A12G (Special: Unholy Bless), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -31953,7 +31953,7 @@ STRING 4830
 }
 
 STRING 4831
-// Abilities: A12G (Special: Unholy Bless), Hotkey (Hotkey - Normal)
+// Abilities: A0GT (Special: Multicast), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -51042,7 +51042,7 @@ The hero receives a free piece of the set three times. Current:
 }
 
 STRING 7753
-// Abilities: A0GT (Special: Multicast), Hotkey (Hotkey - Normal)
+// Abilities: A0GR (Special: Stabilization), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -51073,7 +51073,7 @@ STRING 7757
 }
 
 STRING 7758
-// Abilities: A0GR (Special: Stabilization), Hotkey (Hotkey - Normal)
+// Abilities: A0G7 (Special: Noiselessness), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -51440,7 +51440,7 @@ STRING 7816
 }
 
 STRING 7817
-// Abilities: A0G7 (Special: Noiselessness), Hotkey (Hotkey - Normal)
+// Abilities: A0EG (Special: Seal of Brotherhood), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -53280,7 +53280,7 @@ STRING 8105
 }
 
 STRING 8106
-// Abilities: A0EG (Special: Seal of Brotherhood), Hotkey (Hotkey - Normal)
+// Abilities: A0BM (Special: Financial vein), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -55897,7 +55897,7 @@ STRING 8510
 }
 
 STRING 8511
-// Abilities: A0BM (Special: Financial vein), Hotkey (Hotkey - Normal)
+// Abilities: A07H (Special: Crackle), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -60572,7 +60572,7 @@ Deals damage to the enemy equal to |cffbe81f718%|r of the maximum health of the 
 }
 
 STRING 9254
-// Abilities: A07H (Special: Crackle), Hotkey (Hotkey - Normal)
+// Abilities: A06Y (Special: Echo), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -60908,7 +60908,7 @@ STRING 9305
 }
 
 STRING 9306
-// Abilities: A06Y (Special: Echo), Hotkey (Hotkey - Normal)
+// Abilities: A1HD (Special: Farewell), Hotkey (Hotkey - Normal)
 {
 F
 }

@@ -1,9 +1,11 @@
 scope BagOfCandies initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV00'
+		private integer ITEM_TYPE = 'IV01'
 		
 		private integer HASH_KEY = StringHash( "free_exchange_bonus" )
+		private string ICON_FRAME = "war3mapImported\\BTNAbility_Mage_NetherWindPresence_result.blp"
+		private string DESCRIPTION = "Exchanging with these players will return all gold upon exchange: "
 	endglobals
 
 	private function condition takes nothing returns boolean
@@ -12,9 +14,18 @@ scope BagOfCandies initializer init
 
 	private function action takes nothing returns nothing
 		local player usedPlayer = GetOwningPlayer(GetManipulatingUnit())
+		local integer index = GetPlayerId(usedPlayer) + 1
 		local integer id = GetHandleId(usedPlayer)
+		local string characters = LoadStr(udg_hash, id, HASH_KEY)
+		
+		if characters != null then
+			set characters = characters + ", "
+		endif
+		set characters = characters + udg_Player_Color[index] + GetPlayerName(usedPlayer) + "|r"
+		call SaveStr(udg_hash, id, HASH_KEY, characters)
 
 		call SaveBoolean(udg_hash, id, HASH_KEY, true)
+		call IconFrame( "BagOfCandies", ICON_FRAME, GetItemName(GetManipulatedItem()), DESCRIPTION + characters )
 		
 		set usedPlayer = null
 	endfunction
@@ -33,12 +44,6 @@ scope BagOfCandies initializer init
 		set mainPlayer = null
 		set friendPlayer = null
 	endfunction
-	
-	/*real Event_ItemExchange_Real = 0
-	    item Event_ItemExchange_Item
-	    item Event_ItemExchange_OldItem
-	    unit Event_ItemExchange_Hero
-	    unit Event_ItemExchange_Friend*/
 
 	//===========================================================================
 	private function init takes nothing returns nothing
