@@ -128,8 +128,8 @@ scope ArcanologistR initializer init
 	        	call SaveInteger( udg_hash, idx, StringHash( "arcnr"+I2S(i) ), effsum )
 	        	call SaveInteger( udg_hash, idx, StringHash( "arcnrf"+I2S(i) ), base ) 
 	        
-	        	set id = InvokeTimerWithUnit(caster, ("arcnr"), duration, false, function tick )
-	        	call SaveUnitHandle( udg_hash, id, StringHash("arcnr"), caster ) 
+	        	set id = InvokeTimerWithUnit(u, ("arcnr"), duration, false, function tick )
+	        	call SaveUnitHandle( udg_hash, id, StringHash("arcnr"), u ) 
 	        	
 	        	set i = i + 1
 	        	exitwhen i>2
