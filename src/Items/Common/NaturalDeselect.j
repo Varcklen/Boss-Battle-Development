@@ -20,16 +20,18 @@ private function Steal takes unit hero, unit diedHero, integer amount returns no
     //local integer oldSP = Stealed_SpellPower[index][diedIndex]
     //local integer oldLUCK = Stealed_Luck[index][diedIndex]
     
-    set luck = IMaxBJ(0 , luck )
-    set spellPower = IMaxBJ(0 , spellPower )
-    
-    set IsStealed[index][diedIndex] = true
-    call PlaySpecialEffect(ANIMATION, hero)
-        
-    call spdst( hero, spellPower )
-    call luckyst( hero, luck )
-    set Stealed_SpellPower[index][diedIndex] = spellPower
-    set Stealed_Luck[index][diedIndex] = luck
+    if not(IsStealed[index][diedIndex]) then
+	    set luck = IMaxBJ(0 , luck )
+	    set spellPower = IMaxBJ(0 , spellPower )
+	    
+	    set IsStealed[index][diedIndex] = true
+	    call PlaySpecialEffect(ANIMATION, hero)
+	        
+	    call spdst( hero, spellPower )
+	    call luckyst( hero, luck )
+	    set Stealed_SpellPower[index][diedIndex] = spellPower
+	    set Stealed_Luck[index][diedIndex] = luck
+	endif
         
     set hero = null
     set diedHero = null
@@ -118,7 +120,7 @@ endfunction
 
 
 private function conditionsDeath takes nothing returns boolean
-    return combat(AnyHeroDied.GetDataUnit("unit_died"), false, 0 ) and not(udg_fightmod[3]) and GetIsStealed(udg_FightEnd_Unit, true)
+    return combat(AnyHeroDied.GetDataUnit("unit_died"), false, 0 ) and not(udg_fightmod[3]) and GetIsStealed(AnyHeroDied.GetDataUnit("unit_died"), true)
 endfunction
 
 private function actionsDeath takes nothing returns nothing
