@@ -1,8 +1,8 @@
 scope ParasiteBonus initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV01'
-		private integer ITEM_CREATED = 'IV07'
+		private integer ITEM_TYPE = 'IV19'
+		private integer ITEM_CREATED = 'IV37'
 		private integer AMOUNT_CREATED = 4
 	endglobals
 

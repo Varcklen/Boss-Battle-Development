@@ -1,7 +1,7 @@
 scope BasketOfSurprises initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV00'
+		private integer ITEM_TYPE = 'IV27'
 		private integer ITEMS_TO_CREATE = 3
 		
 		private real HP_PERCENT_REDUCTION = 0.25

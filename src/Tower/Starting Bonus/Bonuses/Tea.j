@@ -1,7 +1,7 @@
 scope Tea initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV01'
+		private integer ITEM_TYPE = 'IV00'
 		private integer GOLD_GAIN = 100
 	endglobals
 

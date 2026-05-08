@@ -1,7 +1,7 @@
 scope Roquefort initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV01'
+		private integer ITEM_TYPE = 'IV23'
 		
 		private integer ITEM_CREATED_1 = 'I0B5'
 		private integer ITEM_CREATED_2 = 'I01U'

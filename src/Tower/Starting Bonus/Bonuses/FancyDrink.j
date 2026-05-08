@@ -1,7 +1,7 @@
 scope FancyDrink initializer init
 
 	globals
-		private constant integer ITEM_TYPE = 'IV01'
+		private constant integer ITEM_TYPE = 'IV25'
 		private constant integer STAT_INCREASE = 12
 	endglobals
 

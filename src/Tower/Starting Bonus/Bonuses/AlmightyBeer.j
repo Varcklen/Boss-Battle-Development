@@ -1,9 +1,9 @@
 scope AlmightyBeer initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV01'
+		private integer ITEM_TYPE = 'IV22'
 		
-		private integer ITEM_CREATED = 'IV07'
+		private integer ITEM_CREATED = 'IV38'
 		
 		private integer GOLD_GAIN = 1500
 	endglobals

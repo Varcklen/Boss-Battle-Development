@@ -1,7 +1,7 @@
 scope CheeseBonus initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV01'
+		private integer ITEM_TYPE = 'IV09'
 		private real MESSAGE_DURATION = 10
 	endglobals
 

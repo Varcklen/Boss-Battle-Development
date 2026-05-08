@@ -1,12 +1,12 @@
 scope HeartySoup initializer init
 
 	globals
-		private constant integer ITEM_TYPE = 'IV01'
+		private constant integer ITEM_TYPE = 'IV18'
 		private constant integer GOLD_BONUS = 20
 		private constant integer DAMAGE_BONUS = 20
 		
 		private constant integer HASH_KEY = StringHash( "soup_bonus" )
-		private string ICON_FRAME = "war3mapImported\\BTNAbility_Mage_NetherWindPresence_result.blp"
+		private string ICON_FRAME = "war3mapImported\\BTNStartingBonus_15.blp"
 		private constant string DESCRIPTION = "These players are stronger in additional arenas, where they receive 20% more gold and deal 20% more damage: "
 	endglobals
 

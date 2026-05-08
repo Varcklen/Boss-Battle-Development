@@ -1,7 +1,7 @@
 scope MeatOnAStickItem initializer init
 
 	globals
-		private integer ITEM_ID = 'IV08'
+		private integer ITEM_ID = 'IV35'
 		private integer RARITY = 1
 		
 		private string PARTICLE = "Abilities\\Spells\\Human\\Polymorph\\PolyMorphDoneGround.mdl"

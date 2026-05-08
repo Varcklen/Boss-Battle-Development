@@ -1,11 +1,11 @@
 scope Chupa initializer init
 
 	globals
-		private constant integer ITEM_TYPE = 'IV01'
+		private constant integer ITEM_TYPE = 'IV15'
 		private constant integer HEALTH_GAIN = 25
 		
 		private constant integer HASH_KEY = StringHash( "chupa_bonus" )
-		private string ICON_FRAME = "war3mapImported\\BTNAbility_Mage_NetherWindPresence_result.blp"
+		private string ICON_FRAME = "war3mapImported\\BTNStartingBonus_12.blp"
 		private constant string DESCRIPTION = "When these players split the artifact, they will receive 25 Health: "
 	endglobals
 

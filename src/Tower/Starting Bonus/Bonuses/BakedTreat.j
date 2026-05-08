@@ -1,7 +1,7 @@
 scope BakedTreat initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV01'
+		private integer ITEM_TYPE = 'IV02'
 	endglobals
 
 	private function condition takes nothing returns boolean

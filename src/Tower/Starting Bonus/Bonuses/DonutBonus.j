@@ -1,8 +1,8 @@
 scope DonutBonus initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV01'
-		private integer ITEM_CREATED = 'IV07'
+		private integer ITEM_TYPE = 'IV07'
+		private integer ITEM_CREATED = 'IV36'
 	endglobals
 
 	private function condition takes nothing returns boolean

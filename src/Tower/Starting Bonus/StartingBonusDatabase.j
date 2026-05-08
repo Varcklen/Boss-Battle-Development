@@ -9,17 +9,33 @@ library StartingBonusDatabase initializer init
 	
 	private function action takes nothing returns nothing
 		set udg_base = 0
-    	set StartingBonuses_Safe[BaseNum()] = 'I03U'
-    	set StartingBonuses_Safe[BaseNum()] = 'I05E'
-    	set StartingBonuses_Safe[BaseNum()] = 'I05M'
-    	set StartingBonuses_Safe[BaseNum()] = 'I01Q'
+    	set StartingBonuses_Safe[BaseNum()] = 'IV00'
+		set StartingBonuses_Safe[BaseNum()] = 'IV01'
+		set StartingBonuses_Safe[BaseNum()] = 'IV02'
+		set StartingBonuses_Safe[BaseNum()] = 'IV03'
+		set StartingBonuses_Safe[BaseNum()] = 'IV04'
+		set StartingBonuses_Safe[BaseNum()] = 'IV05'
+		set StartingBonuses_Safe[BaseNum()] = 'IV06'
+		set StartingBonuses_Safe[BaseNum()] = 'IV07'
+		set StartingBonuses_Safe[BaseNum()] = 'IV08'
+		set StartingBonuses_Safe[BaseNum()] = 'IV09'
+		set StartingBonuses_Safe[BaseNum()] = 'IV14'
+		set StartingBonuses_Safe[BaseNum()] = 'IV15'
+		set StartingBonuses_Safe[BaseNum()] = 'IV16'
+		set StartingBonuses_Safe[BaseNum()] = 'IV17'
+		set StartingBonuses_Safe[BaseNum()] = 'IV18'
+		set StartingBonuses_Safe[BaseNum()] = 'IV19'
+		set StartingBonuses_Safe[BaseNum()] = 'IV20'
     	set StartingBonusesSafeMax = udg_base
     	
     	set udg_base = 0
-    	set StartingBonuses_Extreme[BaseNum()] = 'I02U'
-    	set StartingBonuses_Extreme[BaseNum()] = 'I04P'
-    	set StartingBonuses_Extreme[BaseNum()] = 'I04Q'
-    	set StartingBonuses_Extreme[BaseNum()] = 'I04J'
+    	set StartingBonuses_Extreme[BaseNum()] = 'IV21'
+    	set StartingBonuses_Extreme[BaseNum()] = 'IV22'
+    	set StartingBonuses_Extreme[BaseNum()] = 'IV23'
+    	set StartingBonuses_Extreme[BaseNum()] = 'IV24'
+    	set StartingBonuses_Extreme[BaseNum()] = 'IV25'
+    	set StartingBonuses_Extreme[BaseNum()] = 'IV26'
+    	set StartingBonuses_Extreme[BaseNum()] = 'IV27'
     	set StartingBonusesExtremeMax = udg_base
 	endfunction
 	

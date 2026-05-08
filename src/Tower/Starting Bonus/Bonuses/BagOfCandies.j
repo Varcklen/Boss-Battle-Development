@@ -1,10 +1,10 @@
 scope BagOfCandies initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV01'
+		private integer ITEM_TYPE = 'IV08'
 		
 		private integer HASH_KEY = StringHash( "free_exchange_bonus" )
-		private string ICON_FRAME = "war3mapImported\\BTNAbility_Mage_NetherWindPresence_result.blp"
+		private string ICON_FRAME = "war3mapImported\\BTNStartingBonus_9.blp"
 		private string DESCRIPTION = "Exchanging with these players will return all gold upon exchange: "
 	endglobals
 

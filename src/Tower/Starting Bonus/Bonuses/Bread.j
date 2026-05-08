@@ -1,7 +1,7 @@
 scope Bread initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV01'
+		private integer ITEM_TYPE = 'IV16'
 		private integer GOLD_GAIN = 350
 	endglobals
 

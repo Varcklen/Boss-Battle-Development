@@ -1,7 +1,7 @@
 scope ColdMilk initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV01'
+		private integer ITEM_TYPE = 'IV06'
 		private integer ITEM_CREATED = 'I02C'
 		private integer CREATION_AMOUNT = 2
 	endglobals

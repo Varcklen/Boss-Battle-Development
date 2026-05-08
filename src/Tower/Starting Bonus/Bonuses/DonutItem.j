@@ -1,7 +1,7 @@
 scope DonutItem initializer init
 
 	globals
-		private integer ITEM_ID = 'IV08'
+		private integer ITEM_ID = 'IV36'
 		
 		private integer BASE_STAT_INCREASE = 4
 		private integer INCREMENTAL_STAT_INCREASE = 4

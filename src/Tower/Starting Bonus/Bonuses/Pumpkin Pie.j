@@ -1,7 +1,7 @@
 scope PumpkinPie initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV01'
+		private integer ITEM_TYPE = 'IV17'
 		private integer ATTACK_GAIN = 15
 		private integer SPELL_POWER_GAIN = 10
 	endglobals

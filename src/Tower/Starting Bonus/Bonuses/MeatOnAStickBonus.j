@@ -1,8 +1,8 @@
 scope MeatOnAStickBonus initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV01'
-		private integer ITEM_CREATED = 'IV07'
+		private integer ITEM_TYPE = 'IV05'
+		private integer ITEM_CREATED = 'IV35'
 	endglobals
 
 	private function condition takes nothing returns boolean

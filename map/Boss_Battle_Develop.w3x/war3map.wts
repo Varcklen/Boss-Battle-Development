@@ -1113,27 +1113,28 @@ Crisp
 }
 
 STRING 172
-// Units: n029 (Buy artifact), Hotkey (Hotkey)
+// Units: n029 (Buy Exile Item), Hotkey (Hotkey)
 {
 D
 }
 
 STRING 173
-// Units: n029 (Buy artifact), Name (Name)
+// Items: IV01 (Orange), Description (Description)
 {
-Buy artifact
+|cffB614F0Starting Bonus|r
+Fills your inventory with random |cff088a08Potions|r.
 }
 
 STRING 174
-// Units: n029 (Buy artifact), Tip (Tooltip - Basic)
+// Items: IV01 (Orange), Name (Name)
 {
-Buy artifact
+Orange
 }
 
 STRING 175
-// Units: n029 (Buy artifact), Ubertip (Tooltip - Extended)
+// Items: IV01 (Orange), Tip (Tooltip - Basic)
 {
-You are buying a random artifact.
+Orange
 }
 
 STRING 176
@@ -4965,6 +4966,12 @@ STRING 784
 Increases mana regeneration by 150%. Use 20 abilities per battle to further increase mana regeneration by 350% until the end of battle.
 }
 
+STRING 785
+// Items: I0CR (Divider (Out of Pool)), Name (Name)
+{
+Divider (Out of Pool)
+}
+
 STRING 786
 // Items: I0GG (Boom Box), Name (Name)
 {
@@ -4978,9 +4985,10 @@ Boom Box
 }
 
 STRING 788
-// Items: IV00 (Starting Bonus Dummy), Name (Name)
+// Items: IV03 (Festive Cupcake), Description (Description)
 {
-Starting Bonus Dummy
+|cffB614F0Starting Bonus|r
+Gain 200 max Health.
 }
 
 STRING 789
@@ -8713,15 +8721,16 @@ STRING 1318
 }
 
 STRING 1319
-// Items: I0CR (Divider), Name (Name)
+// Items: I0CR (Divider (Out of Pool)), Tip (Tooltip - Basic)
 {
 Divider
 }
 
 STRING 1320
-// Items: I0CR (Divider), Tip (Tooltip - Basic)
+// Items: IV01 (Orange), Ubertip (Tooltip - Extended)
 {
-Divider
+|cffB614F0Starting Bonus|r
+Fills your inventory with random |cff088a08Potions|r.
 }
 
 STRING 1321
@@ -11561,15 +11570,17 @@ Increases damage dealt by 40% if mana is less than 25%.
 }
 
 STRING 1735
-// Items: IV00 (Starting Bonus Dummy), Tip (Tooltip - Basic)
+// Items: IV03 (Festive Cupcake), Ubertip (Tooltip - Extended)
 {
-Starting Bonus Dummy
+|cffB614F0Starting Bonus|r
+Gain 200 max Health.
 }
 
 STRING 1736
-// Items: IV07 (SB Creation Dummy), Name (Name)
+// Items: IV04 (Ice Cream), Description (Description)
 {
-SB Creation Dummy
+|cffB614F0Starting Bonus|r
+Get 75 max Mana.
 }
 
 STRING 1737
@@ -13946,17 +13957,17 @@ Activation: Deals |cffbe81f7200|r damage to a random enemy. Repeats for each oth
 }
 
 STRING 2081
-// Items: IV00 (Starting Bonus Dummy), Description (Description)
+// Items: IV25 (Fancy Drink), Description (Description)
 {
 |cffB614F0Starting Bonus|r
-Do something.
+Gain another basic |cff60C445Unique|r ability. Reduce your primary stat by 12 and increase the others by 12.
 }
 
 STRING 2082
-// Items: IV00 (Starting Bonus Dummy), Ubertip (Tooltip - Extended)
+// Items: IV25 (Fancy Drink), Ubertip (Tooltip - Extended)
 {
 |cffB614F0Starting Bonus|r
-Do something.
+Gain another basic |cff60C445Unique|r ability. Reduce your primary stat by 12 and increase the others by 12.
 }
 
 STRING 2083
@@ -14286,9 +14297,16 @@ When the hero kills an enemy, gets 20 gold and restores |cffbe81f720|r health.
 }
 
 STRING 2129
-// Items: IV07 (SB Creation Dummy), Tip (Tooltip - Basic)
+// Items: IV04 (Ice Cream), Ubertip (Tooltip - Extended)
 {
-SB Creation Dummy
+|cffB614F0Starting Bonus|r
+Get 75 max Mana.
+}
+
+STRING 2130
+// Units: n029 (Buy Exile Item), Name (Name)
+{
+Buy Exile Item
 }
 
 STRING 2131
@@ -14686,7 +14704,7 @@ Activation: Inflicts a buff on allied minions nearby. When they die, summon a co
 }
 
 STRING 2188
-// Items: I0CR (Divider), Description (Description)
+// Items: I0CR (Divider (Out of Pool)), Description (Description)
 {
 |cff4169e1Rare|r, |cff2d9995Weapon|r
 When the hero attacks and kills an enemy minion, summon a copy of it.
@@ -14710,7 +14728,7 @@ Quickly jump towards target area with moderate precision.
 }
 
 STRING 2191
-// Items: I0CR (Divider), Ubertip (Tooltip - Extended)
+// Items: I0CR (Divider (Out of Pool)), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cff2d9995Weapon|r
 When the hero attacks and kills an enemy minion, summon a copy of it.
@@ -14927,9 +14945,10 @@ Does not work on immobile targets.|r
 }
 
 STRING 2221
-// Items: IV07 (SB Creation Dummy), Description (Description)
+// Items: IV05 (Meat on a Stick), Description (Description)
 {
-Activation: Increases stats by |cffffffff4|r. At the end of the battle, increases the value by 4.
+|cffB614F0Starting Bonus|r
+Obtain an item that creates a |cffbababbсommon|r artifact at the end the battle.
 }
 
 STRING 2222
@@ -14988,9 +15007,10 @@ Deals |cffbe81f7240|r damage to all nearby enemies. If any target dies, detonate
 }
 
 STRING 2230
-// Items: IV07 (SB Creation Dummy), Ubertip (Tooltip - Extended)
+// Items: IV05 (Meat on a Stick), Ubertip (Tooltip - Extended)
 {
-Activation: Increases stats by |cffffffff4|r. At the end of the battle, increases the value by 4.
+|cffB614F0Starting Bonus|r
+Obtain an item that creates a |cffbababbсommon|r artifact at the end the battle.
 }
 
 STRING 2231
@@ -15751,7 +15771,7 @@ Increases luck by 1.
 }
 
 STRING 2345
-// Items: IV00 (Starting Bonus Dummy), Hotkey (Hotkey)
+// Items: IV00 (Tea), Hotkey (Hotkey)
 {
 F
 }
@@ -16102,7 +16122,7 @@ Activation: Restores |cffbe81f7150|r mana to the hero and deals |cffbe81f7250|r 
 }
 
 STRING 2398
-// Items: IV07 (SB Creation Dummy), Hotkey (Hotkey)
+// Items: IV01 (Orange), Hotkey (Hotkey)
 {
 F
 }
@@ -18998,7 +19018,7 @@ Activation: |cffcc0000Corrupted|r. Destroys artifact in the inventory.
 }
 
 STRING 2825
-// Abilities: AZ04 (Speical: Left the Game), Hotkey (Hotkey - Normal)
+// Items: IV02 (Baked Treat), Hotkey (Hotkey)
 {
 F
 }
@@ -19162,6 +19182,18 @@ STRING 2849
 Reduces hero's armor by 7.
 When the hero attacks, reduces the target's armor by 7.
 |cffffcc00Duration:|r 7 seconds.
+}
+
+STRING 2850
+// Units: n029 (Buy Exile Item), Tip (Tooltip - Basic)
+{
+Buy Exile Item
+}
+
+STRING 2851
+// Units: n029 (Buy Exile Item), Ubertip (Tooltip - Extended)
+{
+Obtain an Exile item. These items existed in the arena in the past, but were cast into oblivion.
 }
 
 STRING 2852
@@ -19421,6 +19453,13 @@ If it dies, gain 80 health and 2 attack. Then, for the rest of the battle, gaini
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 2889
+// Items: IV00 (Tea), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Get a random |cff8080ffSpecial|r ability, a random |cff088a08Potion|r and 100 Gold.
+}
+
 STRING 2890
 // Items: I01V (Mechanical clock), Name (Name)
 {
@@ -19431,6 +19470,13 @@ STRING 2891
 // Items: I01V (Mechanical clock), Tip (Tooltip - Basic)
 {
 Mechanical clock
+}
+
+STRING 2892
+// Items: IV00 (Tea), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Get a random |cff8080ffSpecial|r ability, a random |cff088a08Potion|r and 100 Gold.
 }
 
 STRING 2893
@@ -20705,6 +20751,13 @@ STRING 3078
 Magical wisp
 }
 
+STRING 3079
+// Items: IV06 (Cold Milk), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Gives 2 items that allow you to destroy an artifact in your inventory.
+}
+
 STRING 3080
 // Items: I0HR (Vial of Truepaint [DISABLED]), Name (Name)
 {
@@ -21361,7 +21414,7 @@ STRING 3178
 }
 
 STRING 3179
-// Abilities: AZ03 (Special: Last Rites), Hotkey (Hotkey - Normal)
+// Items: IV04 (Ice Cream), Hotkey (Hotkey)
 {
 F
 }
@@ -21387,7 +21440,7 @@ Weaken the nearby enemy with the highest health which will cause the target to t
 }
 
 STRING 3183
-// Abilities: AZ02 ((т)Аура: Masochism), Hotkey (Hotkey - Normal)
+// Items: IV06 (Cold Milk), Hotkey (Hotkey)
 {
 F
 }
@@ -21420,7 +21473,7 @@ this is such a dumb joke
 }
 
 STRING 3188
-// Abilities: AZ01 (Special: Soul Marriage), Hotkey (Hotkey - Normal)
+// Items: IV08 (Bag of Candies), Hotkey (Hotkey)
 {
 F
 }
@@ -21432,7 +21485,7 @@ STRING 3189
 }
 
 STRING 3190
-// Abilities: AZ00 (Special: Masochism), Hotkey (Hotkey - Normal)
+// Items: IV09 (Cheese), Hotkey (Hotkey)
 {
 F
 }
@@ -21458,7 +21511,7 @@ Swap souls of all heroes. For each hero affected, apply shield worth |cffbe81f71
 }
 
 STRING 3194
-// Abilities: A1BY (Special: Sheep cannon), Hotkey (Hotkey - Normal)
+// Items: IV07 (Donut), Hotkey (Hotkey)
 {
 F
 }
@@ -23308,7 +23361,7 @@ STRING 3485
 }
 
 STRING 3486
-// Abilities: A1BV (Special: Time rift), Hotkey (Hotkey - Normal)
+// Items: IV14 (Sandwich), Hotkey (Hotkey)
 {
 F
 }
@@ -23379,7 +23432,7 @@ Resets the cooldown of your abilities and items.
 }
 
 STRING 3496
-// Abilities: A1BL (Special: Cannibalism), Hotkey (Hotkey - Normal)
+// Items: IV15 (Chupa), Hotkey (Hotkey)
 {
 F
 }
@@ -23475,7 +23528,7 @@ You start the game with all possible curses.
 }
 
 STRING 3511
-// Abilities: A1BK (Special: Dualism), Hotkey (Hotkey - Normal)
+// Items: IV16 (Bread), Hotkey (Hotkey)
 {
 F
 }
@@ -23501,7 +23554,7 @@ Kills an allied minion to restore the hero's health equal to |cffbe81f7110%|r of
 }
 
 STRING 3515
-// Abilities: A1B4 (Special: Reflection), Hotkey (Hotkey - Normal)
+// Items: IV17 (Pumpkin Pie), Hotkey (Hotkey)
 {
 F
 }
@@ -24189,7 +24242,7 @@ Touching Motif can be applied to one target at a time, but provides up to 12 bon
 }
 
 STRING 3626
-// Abilities: A1B3 (Special: Unstable Potions), Hotkey (Hotkey - Normal)
+// Items: IV18 (Hearty Soup), Hotkey (Hotkey)
 {
 F
 }
@@ -24215,7 +24268,7 @@ Choose another allied hero. Your hero changes percentages of health and mana wit
 }
 
 STRING 3630
-// Abilities: A1B2 (Special: Equivalent exchange), Hotkey (Hotkey - Normal)
+// Items: IV19 (Parasite), Hotkey (Hotkey)
 {
 F
 }
@@ -24242,7 +24295,7 @@ You have 2 seconds to use it.
 }
 
 STRING 3634
-// Abilities: A1AF (Special: Burst of Energy), Hotkey (Hotkey - Normal)
+// Items: IV20 (Casserole), Hotkey (Hotkey)
 {
 F
 }
@@ -24889,7 +24942,7 @@ STRING 3736
 }
 
 STRING 3737
-// Abilities: A1AE (Special: Sacrifice), Hotkey (Hotkey - Normal)
+// Items: IV21 (Bento Set), Hotkey (Hotkey)
 {
 F
 }
@@ -24915,7 +24968,7 @@ Restores |cffbe81f735|r mana to an ally. If it has a shield on it, it restores t
 }
 
 STRING 3741
-// Abilities: A1AD (Special: Voodoo explosion), Hotkey (Hotkey - Normal)
+// Items: IV22 (Almighty Beer), Hotkey (Hotkey)
 {
 F
 }
@@ -24941,7 +24994,7 @@ Sacrifice an artifact in your inventory to deal |cffbe81f7450|r damage to all en
 }
 
 STRING 3745
-// Abilities: A19U (Special: Arcanology), Hotkey (Hotkey - Normal)
+// Items: IV23 (Roquefort), Hotkey (Hotkey)
 {
 F
 }
@@ -25457,7 +25510,7 @@ STRING 3824
 }
 
 STRING 3825
-// Abilities: A19S (Special: Rage), Hotkey (Hotkey - Normal)
+// Items: IV24 (Festive Cake), Hotkey (Hotkey)
 {
 F
 }
@@ -25490,7 +25543,7 @@ STRING 3829
 }
 
 STRING 3830
-// Abilities: A19R (Special: Revitalization), Hotkey (Hotkey - Normal)
+// Items: IV25 (Fancy Drink), Hotkey (Hotkey)
 {
 F
 }
@@ -25518,7 +25571,7 @@ If the hero killed an enemy during this battle, doubles the bonus.
 }
 
 STRING 3834
-// Abilities: A19Q (Special: Burn), Hotkey (Hotkey - Normal)
+// Items: IV35 (Meat on a Stick), Hotkey (Hotkey)
 {
 F
 }
@@ -25545,7 +25598,7 @@ Resurrects your minion who died in this battle.
 }
 
 STRING 3838
-// Abilities: A19P (Special: Taunt), Hotkey (Hotkey - Normal)
+// Items: IV26 (Lavish Meal), Hotkey (Hotkey)
 {
 F
 }
@@ -25571,7 +25624,7 @@ Deals |cffbe81f7100|r damage to an enemy. If it kills the target, permanently in
 }
 
 STRING 3842
-// Abilities: A19N (Special: Innervate), Hotkey (Hotkey - Normal)
+// Items: IV27 (Basket of Surprises), Hotkey (Hotkey)
 {
 F
 }
@@ -25604,7 +25657,7 @@ STRING 3846
 }
 
 STRING 3847
-// Abilities: A13S (Special: Mutation), Hotkey (Hotkey - Normal)
+// Items: IV36 (Donut), Hotkey (Hotkey)
 {
 F
 }
@@ -30896,7 +30949,7 @@ STRING 4666
 }
 
 STRING 4667
-// Abilities: A12Y (Special: Incineration), Hotkey (Hotkey - Normal)
+// Items: IV37 (Parasite Friend), Hotkey (Hotkey)
 {
 F
 }
@@ -31448,7 +31501,7 @@ STRING 4754
 }
 
 STRING 4755
-// Abilities: A12G (Special: Unholy Bless), Hotkey (Hotkey - Normal)
+// Items: IV38 (Sticky Trash), Hotkey (Hotkey)
 {
 F
 }
@@ -31953,7 +32006,7 @@ STRING 4830
 }
 
 STRING 4831
-// Abilities: A0GT (Special: Multicast), Hotkey (Hotkey - Normal)
+// Items: IV05 (Meat on a Stick), Hotkey (Hotkey)
 {
 F
 }
@@ -37683,6 +37736,13 @@ STRING 5703
 {
 Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f770|r damage to nearby foes while pulling.
 |cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 5704
+// Items: IV06 (Cold Milk), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Gives 2 items that allow you to destroy an artifact in your inventory.
 }
 
 STRING 5706
@@ -51042,7 +51102,7 @@ The hero receives a free piece of the set three times. Current:
 }
 
 STRING 7753
-// Abilities: A0GR (Special: Stabilization), Hotkey (Hotkey - Normal)
+// Abilities: AZ04 (Speical: Left the Game), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -51073,7 +51133,7 @@ STRING 7757
 }
 
 STRING 7758
-// Abilities: A0G7 (Special: Noiselessness), Hotkey (Hotkey - Normal)
+// Abilities: AZ03 (Special: Last Rites), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -51440,7 +51500,7 @@ STRING 7816
 }
 
 STRING 7817
-// Abilities: A0EG (Special: Seal of Brotherhood), Hotkey (Hotkey - Normal)
+// Abilities: AZ02 ((т)Аура: Masochism), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -52237,6 +52297,13 @@ STRING 7943
 - If it doesn't take damage, the boss focuses.
 - |cff00cceeAt 25% and 75% health:|r Summons a shadow for each player away from the boss. When the shadow approaches the boss, she dies and creates a fiery explosion next to each hero.
 - |cff00cceeAt 50% health:|r A fiery explosion is created more often.
+}
+
+STRING 7944
+// Items: IV08 (Bag of Candies), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Until the end of the game, exchanging with you returns the gold spent to both players.
 }
 
 STRING 7945
@@ -53280,7 +53347,7 @@ STRING 8105
 }
 
 STRING 8106
-// Abilities: A0BM (Special: Financial vein), Hotkey (Hotkey - Normal)
+// Abilities: AZ01 (Special: Soul Marriage), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -55897,7 +55964,7 @@ STRING 8510
 }
 
 STRING 8511
-// Abilities: A07H (Special: Crackle), Hotkey (Hotkey - Normal)
+// Abilities: AZ00 (Special: Masochism), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -57543,6 +57610,13 @@ STRING 8764
 Opportunistic Reflexes, [|cffffcc00Level %d|r]
 }
 
+STRING 8765
+// Items: IV08 (Bag of Candies), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Until the end of the game, exchanging with you returns the gold spent to both players.
+}
+
 STRING 8766
 // Abilities: A09R (Armsmaster: Opportunistic Reflexes), Tip (Tooltip - Normal)
 {
@@ -58171,6 +58245,20 @@ STRING 8865
 // Abilities: A099 (Mimic: Crystal Barrage), Tip (Tooltip - Normal)
 {
 Crystal Barrage, [|cffffcc00Level 5|r]
+}
+
+STRING 8867
+// Items: IV09 (Cheese), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Activates 1 random blessing.
+}
+
+STRING 8868
+// Items: IV09 (Cheese), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Activates 1 random blessing.
 }
 
 STRING 8871
@@ -59729,6 +59817,13 @@ STRING 9113
 Power Overwhelming, [|cffffcc00Level %d|r]
 }
 
+STRING 9114
+// Items: IV07 (Donut), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Obtain an item that grants 4 stats once. At the end of the battle, this value is increased by 4.
+}
+
 STRING 9115
 // Abilities: A07Z (Outcast: Power Overwhelming), Tip (Tooltip - Normal)
 {
@@ -59757,6 +59852,27 @@ STRING 9119
 // Abilities: A07Z (Outcast: Power Overwhelming), Tip (Tooltip - Normal)
 {
 Power Overwhelming, [|cffffcc00Level 5|r]
+}
+
+STRING 9120
+// Items: IV07 (Donut), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Obtain an item that grants 4 stats once. At the end of the battle, this value is increased by 4.
+}
+
+STRING 9123
+// Items: IV14 (Sandwich), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Get 1 reward option.
+}
+
+STRING 9124
+// Items: IV14 (Sandwich), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Get 1 reward option.
 }
 
 STRING 9125
@@ -59811,6 +59927,20 @@ STRING 9134
 // Abilities: A07Y (Outcast: Demonic Blast), Tip (Tooltip - Normal)
 {
 Demonic Blast, [|cffffcc00Level 5|r]
+}
+
+STRING 9136
+// Items: IV15 (Chupa), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Until the end of the game, splitting the artifact gives 25 max Health.
+}
+
+STRING 9137
+// Items: IV15 (Chupa), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Until the end of the game, splitting the artifact gives 25 max Health.
 }
 
 STRING 9140
@@ -60572,7 +60702,7 @@ Deals damage to the enemy equal to |cffbe81f718%|r of the maximum health of the 
 }
 
 STRING 9254
-// Abilities: A06Y (Special: Echo), Hotkey (Hotkey - Normal)
+// Abilities: A1BY (Special: Sheep cannon), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -60908,7 +61038,7 @@ STRING 9305
 }
 
 STRING 9306
-// Abilities: A1HD (Special: Farewell), Hotkey (Hotkey - Normal)
+// Abilities: A1BV (Special: Time rift), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -62583,6 +62713,20 @@ STRING 9563
 Increases attack power by 15.
 The hero deals 30% more damage to bosses.
 |cffffffffReduces attack speed by 30%.|r
+}
+
+STRING 9564
+// Items: IV16 (Bread), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Get 350 gold.
+}
+
+STRING 9565
+// Items: IV16 (Bread), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Get 350 gold.
 }
 
 STRING 9566
@@ -72689,9 +72833,23 @@ When the Hero uses an ability, increases Spell Power by 3% for a short time and 
 |cffffcc00Duration:|r 7 seconds.
 }
 
+STRING 11170
+// Items: IV17 (Pumpkin Pie), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Gain 15 Attack and 10% Spell Power.
+}
+
 STRING 11171
 {
 Minions take full damage from any sources.
+}
+
+STRING 11172
+// Items: IV17 (Pumpkin Pie), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Gain 15 Attack and 10% Spell Power.
 }
 
 STRING 11174
@@ -77975,5 +78133,673 @@ STRING 11931
 // Abilities: A1HH (Arcanologist: Arcane Intellect), Tip (Tooltip - Normal)
 {
 Arcane Intellect, [|cffffcc00Level 5|r]
+}
+
+STRING 11933
+// Items: IV35 (Meat on a Stick), Description (Description)
+{
+At the end of the battle, creates a |cffbababcсommon|r artifact in an empty inventory slot.
+}
+
+STRING 11934
+// Items: IV35 (Meat on a Stick), Ubertip (Tooltip - Extended)
+{
+At the end of the battle, creates a |cffbababcсommon|r artifact in an empty inventory slot.
+}
+
+STRING 11937
+// Items: IV36 (Donut), Description (Description)
+{
+Activation: |cffcc0000Corrupted|r. Increases stats by |cffffffff4|r. At the end of the battle, increases the value by 4.
+}
+
+STRING 11938
+// Items: IV36 (Donut), Ubertip (Tooltip - Extended)
+{
+Activation: |cffcc0000Corrupted|r. Increases stats by |cffffffff4|r. At the end of the battle, increases the value by 4.
+}
+
+STRING 11940
+// Items: IV37 (Parasite Friend), Description (Description)
+{
+Increases stats by 7. At the end of the battle, one of us disappears.
+}
+
+STRING 11941
+// Items: IV37 (Parasite Friend), Ubertip (Tooltip - Extended)
+{
+Increases stats by 7. At the end of the battle, one of us disappears.
+}
+
+STRING 11942
+// Items: IV38 (Sticky Trash), Description (Description)
+{
+When leaving the inventory, forcefully returns back.
+}
+
+STRING 11943
+// Items: IV38 (Sticky Trash), Ubertip (Tooltip - Extended)
+{
+When leaving the inventory, forcefully returns back.
+}
+
+STRING 11944
+// Abilities: A1HN (Stats (Friendly Parasite)), Name (Name)
+{
+Stats (Friendly Parasite)
+}
+
+STRING 11989
+// Items: IV02 (Baked Treat), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Gain 1 Level.
+}
+
+STRING 11990
+// Items: IV02 (Baked Treat), Name (Name)
+{
+Baked Treat
+}
+
+STRING 12004
+// Abilities: A1BL (Special: Cannibalism), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12005
+// Abilities: A1BK (Special: Dualism), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12006
+// Abilities: A1B4 (Special: Reflection), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12007
+// Abilities: A1B3 (Special: Unstable Potions), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12008
+// Abilities: A1B2 (Special: Equivalent exchange), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12009
+// Abilities: A1AF (Special: Burst of Energy), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12010
+// Abilities: A1AE (Special: Sacrifice), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12011
+// Abilities: A1AD (Special: Voodoo explosion), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12012
+// Abilities: A19U (Special: Arcanology), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12013
+// Abilities: A19S (Special: Rage), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12014
+// Abilities: A19R (Special: Revitalization), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12015
+// Abilities: A19Q (Special: Burn), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12016
+// Abilities: A19P (Special: Taunt), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12017
+// Abilities: A19N (Special: Innervate), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12018
+// Abilities: A13S (Special: Mutation), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12019
+// Abilities: A12Y (Special: Incineration), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12020
+// Abilities: A12G (Special: Unholy Bless), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12021
+// Abilities: A0GT (Special: Multicast), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12022
+// Abilities: A0GR (Special: Stabilization), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12023
+// Abilities: A0G7 (Special: Noiselessness), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12024
+// Abilities: A0EG (Special: Seal of Brotherhood), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12025
+// Abilities: A0BM (Special: Financial vein), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12026
+// Abilities: A07H (Special: Crackle), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12027
+// Abilities: A06Y (Special: Echo), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12028
+// Abilities: A1HD (Special: Farewell), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12030
+// Items: IV00 (Tea), Name (Name)
+{
+Tea
+}
+
+STRING 12031
+// Items: IV00 (Tea), Tip (Tooltip - Basic)
+{
+Tea
+}
+
+STRING 12032
+// Items: IV02 (Baked Treat), Tip (Tooltip - Basic)
+{
+Baked Treat
+}
+
+STRING 12033
+// Items: IV02 (Baked Treat), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Gain 1 Level.
+}
+
+STRING 12034
+// Items: IV03 (Festive Cupcake), Name (Name)
+{
+Festive Cupcake
+}
+
+STRING 12035
+// Items: IV03 (Festive Cupcake), Tip (Tooltip - Basic)
+{
+Festive Cupcake
+}
+
+STRING 12036
+// Items: IV04 (Ice Cream), Name (Name)
+{
+Ice Cream
+}
+
+STRING 12037
+// Items: IV04 (Ice Cream), Tip (Tooltip - Basic)
+{
+Ice Cream
+}
+
+STRING 12038
+// Items: IV06 (Cold Milk), Name (Name)
+{
+Cold Milk
+}
+
+STRING 12039
+// Items: IV06 (Cold Milk), Tip (Tooltip - Basic)
+{
+Cold Milk
+}
+
+STRING 12040
+// Items: IV08 (Bag of Candies), Name (Name)
+{
+Bag of Candies
+}
+
+STRING 12041
+// Items: IV08 (Bag of Candies), Tip (Tooltip - Basic)
+{
+Bag of Candies
+}
+
+STRING 12042
+// Items: IV09 (Cheese), Name (Name)
+{
+Cheese
+}
+
+STRING 12043
+// Items: IV09 (Cheese), Tip (Tooltip - Basic)
+{
+Cheese
+}
+
+STRING 12044
+// Items: IV07 (Donut), Name (Name)
+{
+Donut
+}
+
+STRING 12045
+// Items: IV07 (Donut), Tip (Tooltip - Basic)
+{
+Donut
+}
+
+STRING 12046
+// Items: IV14 (Sandwich), Name (Name)
+{
+Sandwich
+}
+
+STRING 12047
+// Items: IV14 (Sandwich), Tip (Tooltip - Basic)
+{
+Sandwich
+}
+
+STRING 12048
+// Items: IV15 (Chupa), Name (Name)
+{
+Chupa
+}
+
+STRING 12049
+// Items: IV15 (Chupa), Tip (Tooltip - Basic)
+{
+Chupa
+}
+
+STRING 12050
+// Items: IV16 (Bread), Name (Name)
+{
+Bread
+}
+
+STRING 12051
+// Items: IV16 (Bread), Tip (Tooltip - Basic)
+{
+Bread
+}
+
+STRING 12052
+// Items: IV17 (Pumpkin Pie), Name (Name)
+{
+Pumpkin Pie
+}
+
+STRING 12053
+// Items: IV17 (Pumpkin Pie), Tip (Tooltip - Basic)
+{
+Pumpkin Pie
+}
+
+STRING 12054
+// Items: IV18 (Hearty Soup), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+You become stronger in Extra Arenas. While they're active, gain 20% more gold and deal 20% more damage.
+}
+
+STRING 12055
+// Items: IV18 (Hearty Soup), Name (Name)
+{
+Hearty Soup
+}
+
+STRING 12056
+// Items: IV18 (Hearty Soup), Tip (Tooltip - Basic)
+{
+Hearty Soup
+}
+
+STRING 12057
+// Items: IV18 (Hearty Soup), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+You become stronger in Extra Arenas. While they're active, gain 20% more gold and deal 20% more damage.
+}
+
+STRING 12058
+// Items: IV19 (Parasite), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Obtain 4 parasites. Each one increases stats by 7, but one disappears at the end of the battle.
+}
+
+STRING 12059
+// Items: IV19 (Parasite), Name (Name)
+{
+Parasite
+}
+
+STRING 12060
+// Items: IV19 (Parasite), Tip (Tooltip - Basic)
+{
+Parasite
+}
+
+STRING 12061
+// Items: IV19 (Parasite), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Obtain 4 parasites. Each one increases stats by 7, but one disappears at the end of the battle.
+}
+
+STRING 12062
+// Items: IV20 (Casserole), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Get 2 Exile artifacts. These items existed in the arena in the past, but were cast into oblivion.
+}
+
+STRING 12063
+// Items: IV20 (Casserole), Name (Name)
+{
+Casserole
+}
+
+STRING 12064
+// Items: IV20 (Casserole), Tip (Tooltip - Basic)
+{
+Casserole
+}
+
+STRING 12065
+// Items: IV20 (Casserole), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Get 2 Exile artifacts. These items existed in the arena in the past, but were cast into oblivion.
+}
+
+STRING 12066
+// Items: IV21 (Bento Set), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Get 2 Trash and 2 reward options.
+}
+
+STRING 12067
+// Items: IV21 (Bento Set), Name (Name)
+{
+Bento Set
+}
+
+STRING 12068
+// Items: IV21 (Bento Set), Tip (Tooltip - Basic)
+{
+Bento Set
+}
+
+STRING 12069
+// Items: IV21 (Bento Set), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Get 2 Trash and 2 reward options.
+}
+
+STRING 12070
+// Items: IV22 (Almighty Beer), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Receive 1500 gold and Sticky Trash. Sticky Trash cannot be removed from your inventory by any means.
+}
+
+STRING 12071
+// Items: IV22 (Almighty Beer), Name (Name)
+{
+Almighty Beer
+}
+
+STRING 12072
+// Items: IV22 (Almighty Beer), Tip (Tooltip - Basic)
+{
+Almighty Beer
+}
+
+STRING 12073
+// Items: IV22 (Almighty Beer), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Receive 1500 gold and Sticky Trash. Sticky Trash cannot be removed from your inventory by any means.
+}
+
+STRING 12074
+// Items: IV23 (Roquefort), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Get Trash and an item that allows you to |cFFE16B90forge|r a |cffe96a1clegendary|r artifact.
+}
+
+STRING 12075
+// Items: IV23 (Roquefort), Name (Name)
+{
+Roquefort
+}
+
+STRING 12076
+// Items: IV23 (Roquefort), Tip (Tooltip - Basic)
+{
+Roquefort
+}
+
+STRING 12077
+// Items: IV23 (Roquefort), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Get Trash and an item that allows you to |cFFE16B90forge|r a |cffe96a1clegendary|r artifact.
+}
+
+STRING 12078
+// Items: IV24 (Festive Cake), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Gain 300 max Health and Mana. You automatically decline the next 2 rewards offered.
+}
+
+STRING 12079
+// Items: IV24 (Festive Cake), Name (Name)
+{
+Festive Cake
+}
+
+STRING 12080
+// Items: IV24 (Festive Cake), Tip (Tooltip - Basic)
+{
+Festive Cake
+}
+
+STRING 12081
+// Items: IV24 (Festive Cake), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Gain 300 max Health and Mana. You automatically decline the next 2 rewards offered.
+}
+
+STRING 12083
+// Items: IV25 (Fancy Drink), Name (Name)
+{
+Fancy Drink
+}
+
+STRING 12084
+// Items: IV25 (Fancy Drink), Tip (Tooltip - Basic)
+{
+Fancy Drink
+}
+
+STRING 12086
+// Items: IV35 (Meat on a Stick), Name (Name)
+{
+Meat on a Stick
+}
+
+STRING 12087
+// Items: IV35 (Meat on a Stick), Tip (Tooltip - Basic)
+{
+Meat on a Stick
+}
+
+STRING 12088
+// Items: IV26 (Lavish Meal), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Gain 3 Levels. Receive a Debt of 750 Gold. When you receive Gold, you pay off the Debt instead.
+}
+
+STRING 12089
+// Items: IV26 (Lavish Meal), Name (Name)
+{
+Lavish Meal
+}
+
+STRING 12090
+// Items: IV26 (Lavish Meal), Tip (Tooltip - Basic)
+{
+Lavish Meal
+}
+
+STRING 12091
+// Items: IV26 (Lavish Meal), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Gain 3 Levels. Receive a Debt of 750 Gold. When you receive Gold, you pay off the Debt instead.
+}
+
+STRING 12092
+// Items: IV27 (Basket of Surprises), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Reduce your maximum health and mana by 25%. Receive 3 random gifts.
+}
+
+STRING 12093
+// Items: IV27 (Basket of Surprises), Name (Name)
+{
+Basket of Surprises
+}
+
+STRING 12094
+// Items: IV27 (Basket of Surprises), Tip (Tooltip - Basic)
+{
+Basket of Surprises
+}
+
+STRING 12095
+// Items: IV27 (Basket of Surprises), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Reduce your maximum health and mana by 25%. Receive 3 random gifts.
+}
+
+STRING 12096
+// Items: IV36 (Donut), Name (Name)
+{
+Donut
+}
+
+STRING 12097
+// Items: IV36 (Donut), Tip (Tooltip - Basic)
+{
+Donut
+}
+
+STRING 12098
+// Items: IV37 (Parasite Friend), Name (Name)
+{
+Parasite Friend
+}
+
+STRING 12099
+// Items: IV37 (Parasite Friend), Tip (Tooltip - Basic)
+{
+Parasite Friend
+}
+
+STRING 12100
+// Items: IV38 (Sticky Trash), Name (Name)
+{
+Sticky Trash
+}
+
+STRING 12101
+// Items: IV38 (Sticky Trash), Tip (Tooltip - Basic)
+{
+Sticky Trash
+}
+
+STRING 12103
+// Items: IV05 (Meat on a Stick), Name (Name)
+{
+Meat on a Stick
+}
+
+STRING 12104
+// Items: IV05 (Meat on a Stick), Tip (Tooltip - Basic)
+{
+Meat on a Stick
 }
 

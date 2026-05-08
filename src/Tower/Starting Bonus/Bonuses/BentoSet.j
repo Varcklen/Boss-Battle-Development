@@ -1,7 +1,7 @@
 scope BentoSet initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV01'
+		private integer ITEM_TYPE = 'IV21'
 		
 		private integer ITEM_CREATED = 'I0B5'
 		private integer ITEMS_TO_CREATE = 2

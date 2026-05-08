@@ -1,7 +1,7 @@
 scope StickyTrash initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV08'
+		private integer ITEM_TYPE = 'IV38'
 	endglobals
 
 	private function condition takes nothing returns boolean

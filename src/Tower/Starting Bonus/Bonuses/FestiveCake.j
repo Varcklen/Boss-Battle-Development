@@ -1,7 +1,7 @@
 scope FestiveCake initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV01'
+		private integer ITEM_TYPE = 'IV24'
 	endglobals
 	
 	private function condition takes nothing returns boolean

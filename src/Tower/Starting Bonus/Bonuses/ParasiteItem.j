@@ -1,7 +1,7 @@
 scope ParasiteItem initializer init
 
 	globals
-		private constant integer ITEM_TYPE = 'IV08'
+		private constant integer ITEM_TYPE = 'IV37'
 	endglobals
 
 	//===========================================================================
