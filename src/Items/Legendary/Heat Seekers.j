@@ -3,7 +3,7 @@ scope HeatSeeker initializer init
 	globals
 		private constant integer ITEM_ID = 'I070'
 		
-		private constant integer DAMAGE = 125
+		private constant integer DAMAGE = 100
 		private constant integer PROJECTILE_MOVE_SPEED = 400
 		
 		private constant integer SEARCH_RANGE = 1200

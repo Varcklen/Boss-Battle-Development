@@ -4023,36 +4023,6 @@ Doubles the effect for every other Sacred Stone in your and your allies' invento
 |cffffcc00Cooldown:|r 60 seconds.
 }
 
-STRING 640
-// Items: IZ00 (Mechamechanizer), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-"Change Artifact" always transforms artifacts into random |cffb18904Mechs|r.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
-STRING 641
-// Items: IZ00 (Mechamechanizer), Name (Name)
-{
-Mechamechanizer
-}
-
-STRING 642
-// Items: IZ00 (Mechamechanizer), Tip (Tooltip - Basic)
-{
-Mechamechanizer
-}
-
-STRING 643
-// Items: IZ00 (Mechamechanizer), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-"Change Artifact" always transforms artifacts into random |cffb18904Mechs|r.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 644
 // Items: IV13 (Return artifact (Purple)), Hotkey (Hotkey)
 {
@@ -6058,13 +6028,6 @@ STRING 940
 Activation: |cffcc0000Corrupted|r. Copies another hero's agility.
 }
 
-STRING 941
-// Items: I0FD (Nehalena's Eye), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Choose a hero. |cFFE16B90Forge|r this hero's artifact reward from the last pick.
-}
-
 STRING 942
 // Items: I0FD (Nehalena's Eye), Name (Name)
 {
@@ -6075,13 +6038,6 @@ STRING 943
 // Items: I0FD (Nehalena's Eye), Tip (Tooltip - Basic)
 {
 Nehalena's Eye
-}
-
-STRING 944
-// Items: I0FD (Nehalena's Eye), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Choose a hero. |cFFE16B90Forge|r this hero's artifact reward from the last pick.
 }
 
 STRING 945
@@ -8386,35 +8342,6 @@ STRING 1269
 {
 |cffbababcCommon|r, |cff2d9995Weapon|r
 Increases armor by 3. The hero takes 60% less damage if stunned, silenced or transformed.
-}
-
-STRING 1270
-// Items: I0D3 (Light of life), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff7cfc00Nature|r
-Activation: Restores |cffbe81f7health|r to all heroes equal to your hero's current mana.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 200 mana.
-}
-
-STRING 1271
-// Items: I0D3 (Light of life), Name (Name)
-{
-Light of life
-}
-
-STRING 1272
-// Items: I0D3 (Light of life), Tip (Tooltip - Basic)
-{
-Light of life
-}
-
-STRING 1273
-// Items: I0D3 (Light of life), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff7cfc00Nature|r
-Activation: Restores |cffbe81f7health|r to all heroes equal to your hero's current mana.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 1274
@@ -12750,13 +12677,6 @@ STRING 1903
 Attack speed (Offhand shooting)
 }
 
-STRING 1904
-// Items: I0D6 (Santa's Bag), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: Places an artifact from inventory into your room. You can place up to 3 artifacts.
-}
-
 STRING 1905
 // Items: I08P (Totem of Power), Name (Name)
 {
@@ -12767,13 +12687,6 @@ STRING 1906
 // Items: I08P (Totem of Power), Tip (Tooltip - Basic)
 {
 Totem of Power
-}
-
-STRING 1907
-// Items: I0D6 (Santa's Bag), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: Places an artifact from inventory into your room. You can place up to 3 artifacts.
 }
 
 STRING 1908
@@ -14396,14 +14309,6 @@ STRING 2143
 Increases spell power by 50%. At the end of the battle transforms.
 }
 
-STRING 2144
-// Items: I070 (Heat Seekers), Description (Description)
-{
-|cffe96a1cLegendary|r, |cffb18904Mech|r
-Every 10 seconds, creates a homing missile that flies at a random enemy and deals |cffbe81f7125|r damage. 
-The effect is repeated for each other |cffb18904mech|r.
-}
-
 STRING 2145
 // Items: I070 (Heat Seekers), Name (Name)
 {
@@ -14414,14 +14319,6 @@ STRING 2146
 // Items: I070 (Heat Seekers), Tip (Tooltip - Basic)
 {
 Heat Seekers
-}
-
-STRING 2147
-// Items: I070 (Heat Seekers), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cffb18904Mech|r
-Every 10 seconds, creates a homing missile that flies at a random enemy and deals |cffbe81f7125|r damage. 
-The effect is repeated for each other |cffb18904mech|r.
 }
 
 STRING 2148
@@ -31501,7 +31398,7 @@ STRING 4754
 }
 
 STRING 4755
-// Items: IV38 (Sticky Trash), Hotkey (Hotkey)
+// Items: IV05 (Meat on a Stick), Hotkey (Hotkey)
 {
 F
 }
@@ -32006,7 +31903,7 @@ STRING 4830
 }
 
 STRING 4831
-// Items: IV05 (Meat on a Stick), Hotkey (Hotkey)
+// Abilities: AZ04 (Speical: Left the Game), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -33417,12 +33314,6 @@ STRING 5041
 // Abilities: A116 (Blessing: Всеобличие (g19)), Tip (Tooltip - Normal)
 {
 |cffffcc00Blessing:|r Identity
-}
-
-STRING 5042
-// Abilities: A116 (Blessing: Всеобличие (g19)), Ubertip (Tooltip - Normal - Extended)
-{
-Increases the chance of getting a |cff4169e1rare|r quality artifact by 10% and a |cffe96a1clegendary|r quality by 5%.
 }
 
 STRING 5043
@@ -37743,6 +37634,13 @@ STRING 5704
 {
 |cffB614F0Starting Bonus|r
 Gives 2 items that allow you to destroy an artifact in your inventory.
+}
+
+STRING 5705
+// Items: I08M (Gift of the Exiles), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r an exile artifact.
 }
 
 STRING 5706
@@ -43129,13 +43027,6 @@ STRING 6532
 // Abilities: A0P9 (12. Rarity), Tip (Tooltip - Normal)
 {
 Rarity
-}
-
-STRING 6533
-// Abilities: A0P9 (12. Rarity), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Increased likelihood of getting better artifacts.|r
-The chance of getting |cffe96a1clegendary|r and |cff4169e1rare|r artifacts increased by 1% for each player of level 12 or higher.
 }
 
 STRING 6534
@@ -51102,7 +50993,7 @@ The hero receives a free piece of the set three times. Current:
 }
 
 STRING 7753
-// Abilities: AZ04 (Speical: Left the Game), Hotkey (Hotkey - Normal)
+// Abilities: AZ03 (Special: Last Rites), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -51133,7 +51024,7 @@ STRING 7757
 }
 
 STRING 7758
-// Abilities: AZ03 (Special: Last Rites), Hotkey (Hotkey - Normal)
+// Abilities: AZ02 ((т)Аура: Masochism), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -51500,7 +51391,7 @@ STRING 7816
 }
 
 STRING 7817
-// Abilities: AZ02 ((т)Аура: Masochism), Hotkey (Hotkey - Normal)
+// Abilities: AZ01 (Special: Soul Marriage), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -53347,7 +53238,7 @@ STRING 8105
 }
 
 STRING 8106
-// Abilities: AZ01 (Special: Soul Marriage), Hotkey (Hotkey - Normal)
+// Abilities: AZ00 (Special: Masochism), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -55964,7 +55855,7 @@ STRING 8510
 }
 
 STRING 8511
-// Abilities: AZ00 (Special: Masochism), Hotkey (Hotkey - Normal)
+// Abilities: A1BY (Special: Sheep cannon), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -58217,6 +58108,12 @@ STRING 8859
 Crystal Barrage, [|cffffcc00Level %d|r]
 }
 
+STRING 8860
+// Items: I08M (Gift of the Exiles), Name (Name)
+{
+Gift of the Exiles
+}
+
 STRING 8861
 // Abilities: A099 (Mimic: Crystal Barrage), Tip (Tooltip - Normal)
 {
@@ -58247,6 +58144,12 @@ STRING 8865
 Crystal Barrage, [|cffffcc00Level 5|r]
 }
 
+STRING 8866
+// Items: I08M (Gift of the Exiles), Tip (Tooltip - Basic)
+{
+Gift of the Exiles
+}
+
 STRING 8867
 // Items: IV09 (Cheese), Description (Description)
 {
@@ -58259,6 +58162,20 @@ STRING 8868
 {
 |cffB614F0Starting Bonus|r
 Activates 1 random blessing.
+}
+
+STRING 8869
+// Items: I08M (Gift of the Exiles), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r an exile artifact.
+}
+
+STRING 8870
+// Items: I0FD (Nehalena's Eye), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Choose another hero. |cFFE16B90Forge|r this hero's artifact reward from the last pick.
 }
 
 STRING 8871
@@ -59861,6 +59778,20 @@ STRING 9120
 Obtain an item that grants 4 stats once. At the end of the battle, this value is increased by 4.
 }
 
+STRING 9121
+// Items: I0FD (Nehalena's Eye), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Choose another hero. |cFFE16B90Forge|r this hero's artifact reward from the last pick.
+}
+
+STRING 9122
+// Items: I0D6 (Santa's Bag), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Select an artifact in your inventory to store it in your room. You can store up to 3 artifacts.
+}
+
 STRING 9123
 // Items: IV14 (Sandwich), Description (Description)
 {
@@ -59899,6 +59830,13 @@ STRING 9128
 Demonic Blast, [|cffffcc00Level %d|r]
 }
 
+STRING 9129
+// Items: I0D6 (Santa's Bag), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Select an artifact in your inventory to store it in your room. You can store up to 3 artifacts.
+}
+
 STRING 9130
 // Abilities: A07Y (Outcast: Demonic Blast), Tip (Tooltip - Normal)
 {
@@ -59929,6 +59867,15 @@ STRING 9134
 Demonic Blast, [|cffffcc00Level 5|r]
 }
 
+STRING 9135
+// Items: I0D3 (Light of Life), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff7cfc00Nature|r
+Activation: Restores |cffbe81f7Health|r to all heroes equal to your current Mana.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 100 mana.
+}
+
 STRING 9136
 // Items: IV15 (Chupa), Description (Description)
 {
@@ -59941,6 +59888,18 @@ STRING 9137
 {
 |cffB614F0Starting Bonus|r
 Until the end of the game, splitting the artifact gives 25 max Health.
+}
+
+STRING 9138
+// Items: I0D3 (Light of Life), Name (Name)
+{
+Light of Life
+}
+
+STRING 9139
+// Items: I0D3 (Light of Life), Tip (Tooltip - Basic)
+{
+Light of Life
 }
 
 STRING 9140
@@ -60702,7 +60661,7 @@ Deals damage to the enemy equal to |cffbe81f718%|r of the maximum health of the 
 }
 
 STRING 9254
-// Abilities: A1BY (Special: Sheep cannon), Hotkey (Hotkey - Normal)
+// Abilities: A1BV (Special: Time rift), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -61038,7 +60997,7 @@ STRING 9305
 }
 
 STRING 9306
-// Abilities: A1BV (Special: Time rift), Hotkey (Hotkey - Normal)
+// Abilities: A1BL (Special: Cannibalism), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -68269,6 +68228,15 @@ STRING 10412
 Health is gradually being restored.
 }
 
+STRING 10413
+// Items: I0D3 (Light of Life), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff7cfc00Nature|r
+Activation: Restores |cffbe81f7Health|r to all heroes equal to your current Mana.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 100 mana.
+}
+
 STRING 10414
 // Buffs/Effects: B07V (), Buffubertip (Tooltip - Extended)
 {
@@ -70810,6 +70778,14 @@ STRING 10834
 Attack speed increased.
 }
 
+STRING 10835
+// Items: I070 (Heat Seekers), Description (Description)
+{
+|cffe96a1cLegendary|r, |cffb18904Mech|r
+Every 10 seconds, creates a homing missile that flies at a random enemy and deals |cffbe81f7100|r damage. 
+The effect is repeated for each other |cffb18904mech|r.
+}
+
 STRING 10836
 // Buffs/Effects: B04A (), Buffubertip (Tooltip - Extended)
 {
@@ -72850,6 +72826,14 @@ STRING 11172
 {
 |cffB614F0Starting Bonus|r
 Gain 15 Attack and 10% Spell Power.
+}
+
+STRING 11173
+// Items: I070 (Heat Seekers), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cffb18904Mech|r
+Every 10 seconds, creates a homing missile that flies at a random enemy and deals |cffbe81f7100|r damage. 
+The effect is repeated for each other |cffb18904mech|r.
 }
 
 STRING 11174
@@ -78135,6 +78119,15 @@ STRING 11931
 Arcane Intellect, [|cffffcc00Level 5|r]
 }
 
+STRING 11932
+// Items: IZ00 (Transformer), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Select another item in your inventory to transform it into a random |cffb18904Mech|r. |cffffffff2|r charges.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
 STRING 11933
 // Items: IV35 (Meat on a Stick), Description (Description)
 {
@@ -78147,6 +78140,18 @@ STRING 11934
 At the end of the battle, creates a |cffbababcсommon|r artifact in an empty inventory slot.
 }
 
+STRING 11935
+// Items: IZ00 (Transformer), Name (Name)
+{
+Transformer
+}
+
+STRING 11936
+// Items: IZ00 (Transformer), Tip (Tooltip - Basic)
+{
+Transformer
+}
+
 STRING 11937
 // Items: IV36 (Donut), Description (Description)
 {
@@ -78157,6 +78162,15 @@ STRING 11938
 // Items: IV36 (Donut), Ubertip (Tooltip - Extended)
 {
 Activation: |cffcc0000Corrupted|r. Increases stats by |cffffffff4|r. At the end of the battle, increases the value by 4.
+}
+
+STRING 11939
+// Items: IZ00 (Transformer), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Select another item in your inventory to transform it into a random |cffb18904Mech|r. |cffffffff2|r charges.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
 }
 
 STRING 11940
@@ -78189,6 +78203,25 @@ STRING 11944
 Stats (Friendly Parasite)
 }
 
+STRING 11945
+// Abilities: A1HO (Артефакт: Tranformer), Name (Name)
+{
+Артефакт: Tranformer
+}
+
+STRING 11946
+// Abilities: A0P9 (12. Rarity), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Increased likelihood of getting better artifacts.|r
+Increases the chance of encountering artifacts of |cffe96a1clegendary|r rarity by 1% and |cff4169e1rare|r by 4%.
+}
+
+STRING 11947
+// Abilities: A116 (Blessing: Всеобличие (g19)), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the chance of |cff4169e1Rare|r artifacts appearing by 12%.
+}
+
 STRING 11989
 // Items: IV02 (Baked Treat), Description (Description)
 {
@@ -78203,150 +78236,144 @@ Baked Treat
 }
 
 STRING 12004
-// Abilities: A1BL (Special: Cannibalism), Hotkey (Hotkey - Normal)
-{
-F
-}
-
-STRING 12005
 // Abilities: A1BK (Special: Dualism), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12006
+STRING 12005
 // Abilities: A1B4 (Special: Reflection), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12007
+STRING 12006
 // Abilities: A1B3 (Special: Unstable Potions), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12008
+STRING 12007
 // Abilities: A1B2 (Special: Equivalent exchange), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12009
+STRING 12008
 // Abilities: A1AF (Special: Burst of Energy), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12010
+STRING 12009
 // Abilities: A1AE (Special: Sacrifice), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12011
+STRING 12010
 // Abilities: A1AD (Special: Voodoo explosion), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12012
+STRING 12011
 // Abilities: A19U (Special: Arcanology), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12013
+STRING 12012
 // Abilities: A19S (Special: Rage), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12014
+STRING 12013
 // Abilities: A19R (Special: Revitalization), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12015
+STRING 12014
 // Abilities: A19Q (Special: Burn), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12016
+STRING 12015
 // Abilities: A19P (Special: Taunt), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12017
+STRING 12016
 // Abilities: A19N (Special: Innervate), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12018
+STRING 12017
 // Abilities: A13S (Special: Mutation), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12019
+STRING 12018
 // Abilities: A12Y (Special: Incineration), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12020
+STRING 12019
 // Abilities: A12G (Special: Unholy Bless), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12021
+STRING 12020
 // Abilities: A0GT (Special: Multicast), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12022
+STRING 12021
 // Abilities: A0GR (Special: Stabilization), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12023
+STRING 12022
 // Abilities: A0G7 (Special: Noiselessness), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12024
+STRING 12023
 // Abilities: A0EG (Special: Seal of Brotherhood), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12025
+STRING 12024
 // Abilities: A0BM (Special: Financial vein), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12026
+STRING 12025
 // Abilities: A07H (Special: Crackle), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12027
+STRING 12026
 // Abilities: A06Y (Special: Echo), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12028
+STRING 12027
 // Abilities: A1HD (Special: Farewell), Hotkey (Hotkey - Normal)
 {
 F

@@ -293,6 +293,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL3_Common[BaseNum()] = 'I041'
 	    set udg_DB_Item_ForLvL3_Common[BaseNum()] = 'IZ09'
 	    set udg_DB_Item_ForLvL3_Common[BaseNum()] = 'IZ10'
+	    set udg_DB_Item_ForLvL3_Common[BaseNum()] = 'I08M'
 	    set udg_DB_NumLvLItems[3] = udg_base
 	    
 	    // =======================================================
@@ -327,6 +328,7 @@ library LibDataItems
 	    set DB_Items[2][BaseNum()] = 'I0GM'
 	    set DB_Items[2][BaseNum()] = 'I0GR'
 	    set DB_Items[2][BaseNum()] = 'I0HA'
+	    set DB_Items[2][BaseNum()] = 'I0D6'
 	    set udg_Database_NumberItems[2] = udg_base
 	    
 	    // Редкий. I пак
@@ -504,7 +506,6 @@ library LibDataItems
 	    set DB_Items[3][BaseNum()] = 'I070'
 	    set DB_Items[3][BaseNum()] = 'I02S'
 	    set DB_Items[3][BaseNum()] = 'I0H9'
-	    set DB_Items[3][BaseNum()] = 'I0D6'
 	    set DB_Items[3][BaseNum()] = 'I08T'
 	    set udg_Database_NumberItems[3] = udg_base
 	    
@@ -633,6 +634,7 @@ library LibDataItems
 	    set udg_DB_Gift[BaseNum()] = 'I0BG'
 	    set udg_DB_Gift[BaseNum()] = 'I00E'
 	    set udg_DB_Gift[BaseNum()] = 'I07I'
+	    set udg_DB_Gift[BaseNum()] = 'I08M'
 	    set udg_Database_NumberItems[36] = udg_base
 	    
 	    // Орбы
@@ -782,6 +784,7 @@ library LibDataItems
 	    set udg_DB_Item_Activate[BaseNum()] = 'IZ08'
 	    set udg_DB_Item_Activate[BaseNum()] = 'I0HA'
 	    set udg_DB_Item_Activate[BaseNum()] = 'I0HQ'
+	    set udg_DB_Item_Activate[BaseNum()] = 'IZ00'
 	    set udg_Database_NumberItems[31] = udg_base
 	
 	    // Порченные
@@ -871,6 +874,7 @@ library LibDataItems
 	    set udg_DB_Item_Destroyed[BaseNum()] = 'IZ07'
 	    set udg_DB_Item_Destroyed[BaseNum()] = 'I0HF'
 	    set udg_DB_Item_Destroyed[BaseNum()] = 'I0HT'
+	    set udg_DB_Item_Destroyed[BaseNum()] = 'I08M'
 	    set udg_Database_NumberItems[29] = udg_base
 	    
 	    // Овечьи артефакты

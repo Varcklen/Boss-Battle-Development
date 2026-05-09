@@ -5,7 +5,7 @@ scope StickyTrash initializer init
 	endglobals
 
 	private function condition takes nothing returns boolean
-		return GetItemTypeId(GetManipulatedItem()) == ITEM_TYPE
+		return GetItemTypeId(GetManipulatedItem()) == ITEM_TYPE and udg_logic[36] == false
 	endfunction
 
 	private function timer_end takes nothing returns nothing
