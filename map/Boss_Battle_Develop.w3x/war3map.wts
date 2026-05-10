@@ -1866,7 +1866,7 @@ STRING 295
 }
 
 STRING 296
-// Units: h01G (Jule), Name (Name)
+// Abilities: A01M (3. Jule), Tip (Tooltip - Normal)
 {
 Jule
 }
@@ -1889,22 +1889,10 @@ STRING 299
 Player Status
 }
 
-STRING 300
-// Units: h019 (Amplifiers), Name (Name)
-{
-Amplifiers
-}
-
 STRING 301
 // Units: h018 (Cat Shrine), Name (Name)
 {
 Cat Shrine
-}
-
-STRING 302
-// Units: h016 (Modifiers), Name (Name)
-{
-Modifiers
 }
 
 STRING 303
@@ -4023,6 +4011,25 @@ Doubles the effect for every other Sacred Stone in your and your allies' invento
 |cffffcc00Cooldown:|r 60 seconds.
 }
 
+STRING 641
+// Units: h01G (Artifact Store), Name (Name)
+{
+Artifact Store
+}
+
+STRING 642
+// Units: h016 (Modifiers (Outdated)), Name (Name)
+{
+Modifiers (Outdated)
+}
+
+STRING 643
+// Items: I0GB (VIP card), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 1. Increases the number of slots for selling artifacts for Artifact Store by 1.
+}
+
 STRING 644
 // Items: IV13 (Return artifact (Purple)), Hotkey (Hotkey)
 {
@@ -5068,13 +5075,6 @@ STRING 804
 Activation: |cffcc0000Corrupted|r. Increases health by 10. Changes artifact rewards to another ones. |cffffffff10 charges|r.
 }
 
-STRING 805
-// Items: I0GB (VIP card), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Increases stats by 1. Increases the number of slots for selling artifacts for Jule by 1.
-}
-
 STRING 806
 // Items: I0GB (VIP card), Name (Name)
 {
@@ -5085,13 +5085,6 @@ STRING 807
 // Items: I0GB (VIP card), Tip (Tooltip - Basic)
 {
 VIP card
-}
-
-STRING 808
-// Items: I0GB (VIP card), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Increases stats by 1. Increases the number of slots for selling artifacts for Jule by 1.
 }
 
 STRING 809
@@ -6028,6 +6021,13 @@ STRING 940
 Activation: |cffcc0000Corrupted|r. Copies another hero's agility.
 }
 
+STRING 941
+// Items: I0GB (VIP card), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 1. Increases the number of slots for selling artifacts for Artifact Store by 1.
+}
+
 STRING 942
 // Items: I0FD (Nehalena's Eye), Name (Name)
 {
@@ -6038,6 +6038,13 @@ STRING 943
 // Items: I0FD (Nehalena's Eye), Tip (Tooltip - Basic)
 {
 Nehalena's Eye
+}
+
+STRING 944
+// Items: I0AI (Scroll of Jule), Description (Description)
+{
+|cff50ff90Use when picked up|r
+Update the assortment in the Artifact Store.
 }
 
 STRING 945
@@ -7005,14 +7012,6 @@ STRING 1081
 // Items: I01W (Mana Berries), Tip (Tooltip - Basic)
 {
 Mana Berries
-}
-
-STRING 1082
-// Items: IZ07 (Buy Order), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
-Only active outside of combat.
 }
 
 STRING 1083
@@ -8344,6 +8343,34 @@ STRING 1269
 Increases armor by 3. The hero takes 60% less damage if stunned, silenced or transformed.
 }
 
+STRING 1270
+// Items: I0AI (Scroll of Jule), Ubertip (Tooltip - Extended)
+{
+|cff50ff90Use when picked up|r
+Update the assortment in the Artifact Store.
+}
+
+STRING 1271
+// Items: I01C (Runestone Brib ), Description (Description)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Reduces the cost of future artifacts in the artifact store by 20%. At least one artifact from it will be discounted. |cffffffffYour items not obtained from Artifact Store will be |cffC71585cursed|r.|r
+}
+
+STRING 1272
+// Items: I01C (Runestone Brib ), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Reduces the cost of future artifacts in the artifact store by 20%. At least one artifact from it will be discounted. |cffffffffYour items not obtained from Artifact Store will be |cffC71585cursed|r.|r
+}
+
+STRING 1273
+// Items: IZ03 (Cheese), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Replace the assortment of Artifact Store with |cff4169e1Rare|r items. They keep the original prices.
+}
+
 STRING 1274
 // Items: I0DA (World Clock), Name (Name)
 {
@@ -8589,14 +8616,6 @@ STRING 1310
 // Items: IZ07 (Buy Order), Tip (Tooltip - Basic)
 {
 Buy Order
-}
-
-STRING 1311
-// Items: IZ07 (Buy Order), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. Choose an item. Next time Jule's shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
-Only active outside of combat.
 }
 
 STRING 1312
@@ -10857,13 +10876,6 @@ At the beginning of each battle, all heroes gain a shield that absorbs |cffbe81f
 |cffffcc00Duration:|r 60 seconds.
 }
 
-STRING 1642
-// Items: I0AI (Scroll of Jule), Description (Description)
-{
-|cff50ff90Use when picked up|r
-Refresh the goods from Jule.
-}
-
 STRING 1643
 // Items: I0AI (Scroll of Jule), Name (Name)
 {
@@ -10874,13 +10886,6 @@ STRING 1644
 // Items: I0AI (Scroll of Jule), Tip (Tooltip - Basic)
 {
 Scroll of Jule
-}
-
-STRING 1645
-// Items: I0AI (Scroll of Jule), Ubertip (Tooltip - Extended)
-{
-|cff50ff90Use when picked up|r
-Refresh the goods from Jule.
 }
 
 STRING 1646
@@ -12677,6 +12682,13 @@ STRING 1903
 Attack speed (Offhand shooting)
 }
 
+STRING 1904
+// Items: IZ03 (Cheese), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Replace the assortment of Artifact Store with |cff4169e1Rare|r items. They keep the original prices.
+}
+
 STRING 1905
 // Items: I08P (Totem of Power), Name (Name)
 {
@@ -12687,6 +12699,14 @@ STRING 1906
 // Items: I08P (Totem of Power), Tip (Tooltip - Basic)
 {
 Totem of Power
+}
+
+STRING 1907
+// Items: IZ07 (Buy Order), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Choose an item. Next time Artifact Shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
+Only active outside of combat.
 }
 
 STRING 1908
@@ -14309,6 +14329,14 @@ STRING 2143
 Increases spell power by 50%. At the end of the battle transforms.
 }
 
+STRING 2144
+// Items: IZ07 (Buy Order), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. Choose an item. Next time Artifact Shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
+Only active outside of combat.
+}
+
 STRING 2145
 // Items: I070 (Heat Seekers), Name (Name)
 {
@@ -14319,6 +14347,12 @@ STRING 2146
 // Items: I070 (Heat Seekers), Tip (Tooltip - Basic)
 {
 Heat Seekers
+}
+
+STRING 2147
+// Units: h019 (Amplifiers (Outdated)), Name (Name)
+{
+Amplifiers (Outdated)
 }
 
 STRING 2148
@@ -66428,12 +66462,6 @@ STRING 10137
 R
 }
 
-STRING 10138
-// Abilities: A01M (3. Jule), Tip (Tooltip - Normal)
-{
-Jule
-}
-
 STRING 10139
 // Abilities: A01M (3. Jule), Ubertip (Tooltip - Normal - Extended)
 {
@@ -74029,20 +74057,6 @@ STRING 11360
 E
 }
 
-STRING 11361
-// Items: I01C (Runestone Brib ), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Reduces the cost of future artifacts in the artifact store by 20%. At least one artifact from it will be discounted. |cffffffffYour items not obtained from Jule will be |cffC71585cursed|r.|r
-}
-
-STRING 11362
-// Items: I01C (Runestone Brib ), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Reduces the cost of future artifacts in the artifact store by 20%. At least one artifact from it will be discounted. |cffffffffYour items not obtained from Jule will be |cffC71585cursed|r.|r
-}
-
 STRING 11363
 // Abilities: A1HE (Arcanologist: Replenish), Hotkey (Hotkey - Normal)
 {
@@ -74348,13 +74362,6 @@ STRING 11408
 // Abilities: A0A9 (Keeper: Chaw of Chaws), Ubertip (Tooltip - Normal - Extended)
 {
 As long as there is at least one hero next to you, your hero is invisible.|n|cffffcc00Effect range:|r 900.
-}
-
-STRING 11409
-// Items: IZ03 (Cheese), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Replace the assortment of Jule with |cff4169e1Rare|r items. They keep the original prices.
 }
 
 STRING 11410
@@ -74687,13 +74694,6 @@ STRING 11460
 // Units: O00E ((T) Monk), Name (Name)
 {
 (T) Monk
-}
-
-STRING 11461
-// Items: IZ03 (Cheese), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Replace the assortment of Jule with |cff4169e1Rare|r items. They keep the original prices.
 }
 
 STRING 11462

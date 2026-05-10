@@ -615,7 +615,7 @@
           },
           {
             "ParamType": 5,
-            "value": "Allows you to change the artifact for random, buy a random artifact or buy dubious goods."
+            "value": "This merchant can transform an artifact and sell a random artifact."
           }
         ],
         "value": "SetVariable"
@@ -644,7 +644,7 @@
           },
           {
             "ParamType": 5,
-            "value": "Sells artifacts at a great price. Assortment updated after boss victory."
+            "value": "This merchant sells artifacts at fair prices. The selection changes after the boss fight."
           }
         ],
         "value": "SetVariable"
@@ -673,7 +673,7 @@
           },
           {
             "ParamType": 5,
-            "value": "Sells quests. If you complete the task, you will receive a valuable reward.|n|nIt disappears after the victory of the fourth boss."
+            "value": "This merchant sells quests that provide impressive rewards when the conditions are met. Disappears after the fourth boss is defeated."
           }
         ],
         "value": "SetVariable"
@@ -760,7 +760,7 @@
           },
           {
             "ParamType": 5,
-            "value": "Allows you to go to various arenas for earning gold and stats."
+            "value": "This person gives the option to go to additional arenas to get gold."
           }
         ],
         "value": "SetVariable"
@@ -789,7 +789,7 @@
           },
           {
             "ParamType": 5,
-            "value": "For a fee, destroys the item in your inventory."
+            "value": "This merchant can remove an item from the inventory."
           }
         ],
         "value": "SetVariable"
@@ -818,7 +818,7 @@
           },
           {
             "ParamType": 5,
-            "value": "For a fee, destroys the item in your inventory."
+            "value": "This merchant can remove an item from the inventory."
           }
         ],
         "value": "SetVariable"
@@ -847,7 +847,7 @@
           },
           {
             "ParamType": 5,
-            "value": "Sells books enhancing your hero."
+            "value": "This merchant sells books that increase the hero's stats."
           }
         ],
         "value": "SetVariable"
@@ -876,7 +876,7 @@
           },
           {
             "ParamType": 5,
-            "value": "Sells consumables for your hero."
+            "value": "This merchant sells potions that can help in combat."
           }
         ],
         "value": "SetVariable"
@@ -905,7 +905,7 @@
           },
           {
             "ParamType": 5,
-            "value": "Tells about different sets and tags on the map."
+            "value": "Tells useful information."
           }
         ],
         "value": "SetVariable"
@@ -934,7 +934,7 @@
           },
           {
             "ParamType": 5,
-            "value": "Describes the abilities of bosses with which you can fight."
+            "value": "Tells full information about the next bosses."
           }
         ],
         "value": "SetVariable"
@@ -963,7 +963,7 @@
           },
           {
             "ParamType": 5,
-            "value": "Conducts exchanges between players. To use, you need to put an artifact, choose a player’s color, have 125 gold and click \"Make an exchange\"."
+            "value": "Allows you to conduct an exchange between players. To do this, you need to place an item in the exchanger, select your friend's color, have some gold, and confirm the exchange."
           }
         ],
         "value": "SetVariable"
@@ -992,7 +992,7 @@
           },
           {
             "ParamType": 5,
-            "value": "Conducts exchanges between players. To use, you need to put an artifact, choose a player’s color, have 125 gold and click \"Make an exchange\"."
+            "value": "Allows you to conduct an exchange between players. To do this, you need to place an item in the exchanger, select your friend's color, have some gold, and confirm the exchange."
           }
         ],
         "value": "SetVariable"
@@ -1021,7 +1021,7 @@
           },
           {
             "ParamType": 5,
-            "value": "Conducts exchanges between players. To use, you need to put an artifact, choose a player’s color, have 125 gold and click \"Make an exchange\"."
+            "value": "Allows you to conduct an exchange between players. To do this, you need to place an item in the exchanger, select your friend's color, have some gold, and confirm the exchange."
           }
         ],
         "value": "SetVariable"
@@ -1050,7 +1050,7 @@
           },
           {
             "ParamType": 5,
-            "value": "Conducts exchanges between players. To use, you need to put an artifact, choose a player’s color, have 125 gold and click \"Make an exchange\"."
+            "value": "Allows you to conduct an exchange between players. To do this, you need to place an item in the exchanger, select your friend's color, have some gold, and confirm the exchange."
           }
         ],
         "value": "SetVariable"
@@ -1079,7 +1079,7 @@
           },
           {
             "ParamType": 5,
-            "value": "All your bonuses that you received for the experience gained are displayed here."
+            "value": "Displays all bonuses received for meta progression levels."
           }
         ],
         "value": "SetVariable"
@@ -1108,7 +1108,7 @@
           },
           {
             "ParamType": 5,
-            "value": "Sells |cff8080ffspecial|r abilities for heroes."
+            "value": "Sells |cff8080ffspecial|r abilities for heroes, which provide additional combat options in battle."
           }
         ],
         "value": "SetVariable"
