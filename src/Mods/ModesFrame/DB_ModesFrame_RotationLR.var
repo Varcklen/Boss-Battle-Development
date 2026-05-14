@@ -1,14 +1,15 @@
 {
-  "Id": 100663380,
+  "Id": 1485439777,
   "ArraySize": [
     1,
     1
   ],
-  "Name": "DB_ModesFrame_ModeLR",
+  "Name": "DB_ModesFrame_RotationLR",
   "Type": "integer",
   "IsArray": false,
   "IsTwoDimensions": false,
   "InitialValue": {
-    "value": null
+    "ParamType": 5,
+    "value": "5"
   }
 }

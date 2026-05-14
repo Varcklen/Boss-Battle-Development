@@ -1889,10 +1889,24 @@ STRING 299
 Player Status
 }
 
+STRING 300
+// Abilities: A0EH (Усилитель 0: Обычный), Ubertip (Tooltip - Normal - Extended)
+{
+Basic difficulty level.
+}
+
 STRING 301
 // Units: h018 (Cat Shrine), Name (Name)
 {
 Cat Shrine
+}
+
+STRING 302
+// Abilities: A09D (|cffffcc00Extra:|r Power Up!), Ubertip (Tooltip - Normal - Extended)
+{
+Enemies will become significantly stronger each time the battle begins and with each minute of combat. Replaces similar effects.
+
+|cffffcc00Experience bonus: +15%.|r
 }
 
 STRING 303
@@ -4011,6 +4025,12 @@ Doubles the effect for every other Sacred Stone in your and your allies' invento
 |cffffcc00Cooldown:|r 60 seconds.
 }
 
+STRING 640
+// Abilities: A09D (|cffffcc00Extra:|r Power Up!), Name (Name)
+{
+|cffffcc00Extra:|r Power Up!
+}
+
 STRING 641
 // Units: h01G (Artifact Store), Name (Name)
 {
@@ -5075,6 +5095,12 @@ STRING 804
 Activation: |cffcc0000Corrupted|r. Increases health by 10. Changes artifact rewards to another ones. |cffffffff10 charges|r.
 }
 
+STRING 805
+// Abilities: A09D (|cffffcc00Extra:|r Power Up!), Tip (Tooltip - Normal)
+{
+|cffffcc00Extra:|r Power Up!
+}
+
 STRING 806
 // Items: I0GB (VIP card), Name (Name)
 {
@@ -5085,6 +5111,13 @@ STRING 807
 // Items: I0GB (VIP card), Tip (Tooltip - Basic)
 {
 VIP card
+}
+
+STRING 808
+// Abilities: A048 (Усилитель 5: Ужасающий), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Experience Bonus:|r +200%.
+Upgrading and refreshing the Artifact Shop costs 200 gold more.
 }
 
 STRING 809
@@ -7012,6 +7045,14 @@ STRING 1081
 // Items: I01W (Mana Berries), Tip (Tooltip - Basic)
 {
 Mana Berries
+}
+
+STRING 1082
+// Abilities: A047 (Усилитель 3: Легендарный), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Experience Bonus:|r +120%.
+Enemies become stronger with each battle.
+Enemies become stronger every few minutes of battle.
 }
 
 STRING 1083
@@ -53260,17 +53301,6 @@ STRING 8104
 |cffffcc00Amplifier:|r Common
 }
 
-STRING 8105
-// Abilities: A0EH (Усилитель 0: Обычный), Ubertip (Tooltip - Normal - Extended)
-{
-- |cffffcc00Attack speed:|r +0%
-- |cffffcc00Movement speed:|r +0
-- |cffffcc00Spell power:|r +0%
-- |cffffcc00Magic resistance:|r +0%
-- |cffffcc00Armor:|r +0
-- |cffffcc00Experience bonus:|r +0%
-}
-
 STRING 8106
 // Abilities: AZ00 (Special: Masochism), Hotkey (Hotkey - Normal)
 {
@@ -57918,29 +57948,6 @@ STRING 8823
 Restores |cffbe81f7100/135/170/205/240|r health to a friendly target. Casts a random second (|cffffcc00W|r) ability of level 1/2/3/4/5.
 |cffffcc00Cooldown:|r 10 seconds.
 |cffffcc00Cost:|r 40 mana.
-}
-
-STRING 8824
-// Abilities: A09D (|cffffcc00Extra:|r Power up!), Name (Name)
-{
-|cffffcc00Extra:|r Power up!
-}
-
-STRING 8825
-// Abilities: A09D (|cffffcc00Extra:|r Power up!), Tip (Tooltip - Normal)
-{
-|cffffcc00Extra:|r Power up!
-}
-
-STRING 8826
-// Abilities: A09D (|cffffcc00Extra:|r Power up!), Ubertip (Tooltip - Normal - Extended)
-{
-Mode of gradually increasing difficulty.
-
-- Increases the stats of enemies at the beginning of the battle by 5%.
-- Increases the stats of enemies by 5% every 3 minutes in combat.
-
-|cffffcc00Experience bonus: +15%.|r
 }
 
 STRING 8827
@@ -65698,25 +65705,17 @@ STRING 10019
 }
 
 STRING 10020
-// Abilities: A048 (Усилитель 5: Ужасающий), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A045 (Усилитель 4: Мифический), Ubertip (Tooltip - Normal - Extended)
 {
-- |cffffcc00Attack speed:|r +200%
-- |cffffcc00Movement speed:|r +150
-- |cffffcc00Spell power:|r +200%
-- |cffffcc00Magic resistance:|r +40%
-- |cffffcc00Armor:|r +25
-- |cffffcc00Experience bonus:|r +175%
+|cffffcc00Experience Bonus:|r +160%.
+Heroes start with trash and two curses.
 }
 
 STRING 10021
-// Abilities: A047 (Усилитель 3: Легендарный), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A043 (Усилитель 1: Редкий), Ubertip (Tooltip - Normal - Extended)
 {
-- |cffffcc00Attack speed:|r +120%
-- |cffffcc00Movement speed:|r +90
-- |cffffcc00Spell power:|r +120%
-- |cffffcc00Magic resistance:|r +24%
-- |cffffcc00Armor:|r +15
-- |cffffcc00Experience bonus:|r +105%
+|cffffcc00Experience Bonus:|r +40%.
+Players receive 30% less gold from additional arenas.
 }
 
 STRING 10022
@@ -66460,6 +66459,13 @@ STRING 10137
 // Abilities: A1DO (Shepherd: Lure), Hotkey (Hotkey - Normal)
 {
 R
+}
+
+STRING 10138
+// Abilities: A046 (Усилитель 2: Эпический), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Experience Bonus:|r +80%.
+Heroes begin each battle with 35% less Health and Mana.
 }
 
 STRING 10139
@@ -69597,17 +69603,6 @@ STRING 10635
 // Buffs/Effects: B071 (), Buffubertip (Tooltip - Extended)
 {
 Mana regenerates faster.
-}
-
-STRING 10636
-// Abilities: A046 (Усилитель 2: Эпический), Ubertip (Tooltip - Normal - Extended)
-{
-- |cffffcc00Attack speed:|r +80%
-- |cffffcc00Movement speed:|r +60
-- |cffffcc00Spell power:|r +80%
-- |cffffcc00Magic resistance:|r +16%
-- |cffffcc00Armor:|r +10
-- |cffffcc00Experience bonus:|r +70%
 }
 
 STRING 10637
@@ -75277,28 +75272,6 @@ STRING 11553
 // Buffs/Effects: B00P (), Bufftip (Tooltip)
 {
 |cff00ff00Star dust|rXXX
-}
-
-STRING 11554
-// Abilities: A045 (Усилитель 4: Мифический), Ubertip (Tooltip - Normal - Extended)
-{
-- |cffffcc00Attack speed:|r +160%
-- |cffffcc00Movement speed:|r +120
-- |cffffcc00Spell power:|r +160%
-- |cffffcc00Magic resistance:|r +32%
-- |cffffcc00Armor:|r +20
-- |cffffcc00Experience bonus:|r +140%
-}
-
-STRING 11555
-// Abilities: A043 (Усилитель 1: Редкий), Ubertip (Tooltip - Normal - Extended)
-{
-- |cffffcc00Attack speed:|r +40%
-- |cffffcc00Movement speed:|r +30
-- |cffffcc00Spell power:|r +40%
-- |cffffcc00Magic resistance:|r +8%
-- |cffffcc00Armor:|r +5
-- |cffffcc00Experience bonus:|r +35%
 }
 
 STRING 11556

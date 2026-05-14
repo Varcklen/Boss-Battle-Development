@@ -9,6 +9,7 @@
   "IsArray": false,
   "IsTwoDimensions": false,
   "InitialValue": {
-    "value": null
+    "ParamType": 5,
+    "value": "2"
   }
 }

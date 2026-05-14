@@ -1,5 +1,17 @@
 library ExtraArenaGeneral requires ItemRandomizerLib, Multiboard
 
+	globals
+		private real GoldGainMultiplier = 1
+	endglobals
+	
+	public function AddGoldGainMultiplier takes real newValue returns nothing
+		set GoldGainMultiplier = GoldGainMultiplier + newValue
+	endfunction
+	
+	public function GetGoldGainMultiplier takes nothing returns real
+		return GoldGainMultiplier
+	endfunction
+
 	public function ReviveHeroes takes nothing returns nothing
 	    local unit hero
 	    local real locX
