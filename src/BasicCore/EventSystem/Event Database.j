@@ -162,6 +162,9 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         Event OnModsAwake
         /*
         */
+        Event ModStateChanged
+        /*
+        */
     endglobals
     
     private function InitCustomEvents takes nothing returns nothing
@@ -196,6 +199,7 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         set CooldownReset = Event.create("caster", null)
         set BetweenGlobal = Event.create(null, null)
         set OnModsAwake = Event.create(null, null)
+        set ModStateChanged = Event.create(null, null)
     endfunction
     
     /*Base Event Init*/

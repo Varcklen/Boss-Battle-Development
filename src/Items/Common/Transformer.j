@@ -41,7 +41,7 @@ scope Transformer initializer init
 			return
 		endif
 
-		if itemTarget == null or GetItemTypeId(itemTarget) == ITEM_ID then
+		if itemTarget == null or GetItemTypeId(itemTarget) == ITEM_ID or GetItemType(itemTarget) == ITEM_TYPE_POWERUP then
 			return
 		endif
 		

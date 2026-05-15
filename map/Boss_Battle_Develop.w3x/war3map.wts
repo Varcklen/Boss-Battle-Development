@@ -8659,6 +8659,15 @@ STRING 1310
 Buy Order
 }
 
+STRING 1311
+// Items: IZ00 (Transformer), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Select another artifact in your inventory to transform it into a random |cffb18904Mech|r. |cffffffff2|r charges.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
 STRING 1312
 // Items: IZ09 (Natural Deselection), Description (Description)
 {
@@ -10917,6 +10926,15 @@ At the beginning of each battle, all heroes gain a shield that absorbs |cffbe81f
 |cffffcc00Duration:|r 60 seconds.
 }
 
+STRING 1642
+// Items: IZ00 (Transformer), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Select another artifact in your inventory to transform it into a random |cffb18904Mech|r. |cffffffff2|r charges.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
 STRING 1643
 // Items: I0AI (Scroll of Jule), Name (Name)
 {
@@ -10927,6 +10945,12 @@ STRING 1644
 // Items: I0AI (Scroll of Jule), Tip (Tooltip - Basic)
 {
 Scroll of Jule
+}
+
+STRING 1645
+// Abilities: A0JO (|cffffcc00Extra:|r Двойные неприятности), Tip (Tooltip - Normal)
+{
+|cffffcc00Extra:|r Double Trouble
 }
 
 STRING 1646
@@ -11751,7 +11775,11 @@ All heroes start a battle with two bosses (the second boss is always random), bu
 
 Battle Limit in boss battles has been increased by 2 minutes.
 
+When the boss dies, the others become enraged, increasing their attack by 40% and movement speed by 20%.
+
 All heroes receive 40% more gold from any sources (does not work in extra arenas).|r
+
+|cffffcc00Experience bonus: +15%.|r
 }
 
 STRING 1766
@@ -43104,6 +43132,12 @@ STRING 6532
 Rarity
 }
 
+STRING 6533
+// Abilities: A1HP (Аура: Revenge), Name (Name)
+{
+Аура: Revenge
+}
+
 STRING 6534
 // Abilities: A0P8 (Aspect: Druid: Aspect of Dominance), Name (Name)
 {
@@ -48490,9 +48524,9 @@ STRING 7359
 }
 
 STRING 7360
-// Abilities: A0JO (|cffffcc00Extra:|r Двойные неприятности), Tip (Tooltip - Normal)
+// Abilities: A1HP (Аура: Revenge), EditorSuffix (Editor Suffix)
 {
-|cffffcc00Extra:|r Double trouble
+(Double Trouble)
 }
 
 STRING 7361
@@ -53301,6 +53335,12 @@ STRING 8104
 |cffffcc00Amplifier:|r Common
 }
 
+STRING 8105
+// Abilities: A1HQ (Аура: Revenge (Double Trouble)), Name (Name)
+{
+Аура: Revenge (Double Trouble)
+}
+
 STRING 8106
 // Abilities: AZ00 (Special: Masochism), Hotkey (Hotkey - Normal)
 {
@@ -57948,6 +57988,24 @@ STRING 8823
 Restores |cffbe81f7100/135/170/205/240|r health to a friendly target. Casts a random second (|cffffcc00W|r) ability of level 1/2/3/4/5.
 |cffffcc00Cooldown:|r 10 seconds.
 |cffffcc00Cost:|r 40 mana.
+}
+
+STRING 8824
+// Abilities: A1HR (.General: Revenge Ignore), EditorSuffix (Editor Suffix)
+{
+(Double Trouble)
+}
+
+STRING 8825
+// Abilities: A1HR (.General: Revenge Ignore), Name (Name)
+{
+.General: Revenge Ignore
+}
+
+STRING 8826
+// Buffs/Effects: B0AV (), Bufftip (Tooltip)
+{
+|cff00ff00Revenge|r
 }
 
 STRING 8827
@@ -69605,6 +69663,12 @@ STRING 10635
 Mana regenerates faster.
 }
 
+STRING 10636
+// Buffs/Effects: B0AV (), Buffubertip (Tooltip - Extended)
+{
+The boss is enraged! The damage and movement speed have been increased.
+}
+
 STRING 10637
 // Buffs/Effects: B070 (), Buffubertip (Tooltip - Extended)
 {
@@ -74052,6 +74116,12 @@ STRING 11360
 E
 }
 
+STRING 11361
+// Buffs/Effects: B0AV (), EditorSuffix (Editor Suffix)
+{
+(Double Trouble)
+}
+
 STRING 11363
 // Abilities: A1HE (Arcanologist: Replenish), Hotkey (Hotkey - Normal)
 {
@@ -78092,15 +78162,6 @@ STRING 11931
 Arcane Intellect, [|cffffcc00Level 5|r]
 }
 
-STRING 11932
-// Items: IZ00 (Transformer), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Select another item in your inventory to transform it into a random |cffb18904Mech|r. |cffffffff2|r charges.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 11933
 // Items: IV35 (Meat on a Stick), Description (Description)
 {
@@ -78135,15 +78196,6 @@ STRING 11938
 // Items: IV36 (Donut), Ubertip (Tooltip - Extended)
 {
 Activation: |cffcc0000Corrupted|r. Increases stats by |cffffffff4|r. At the end of the battle, increases the value by 4.
-}
-
-STRING 11939
-// Items: IZ00 (Transformer), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Select another item in your inventory to transform it into a random |cffb18904Mech|r. |cffffffff2|r charges.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 11940

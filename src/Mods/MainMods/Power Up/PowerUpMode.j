@@ -2,6 +2,7 @@ scope PowerUpMode initializer init
 
 	globals
 		private boolean isActive = false
+		private boolean isEnabledToActivate = false
 		
 		private constant real POWER_BOOST_START = 0.05
 		private constant real POWER_BOOST_TIMER = 0.01
@@ -17,11 +18,10 @@ scope PowerUpMode initializer init
 		private timer Timer = null
 		
 		private integer CurrentBonus = 0
+		
+		private constant integer BUTTON_INDEX = 4
+		private constant integer EXPERIENCE_BONUS_PERC = 15
 	endglobals
-	
-	private function OnBattleStart_Condition takes nothing returns boolean
-	    return udg_fightmod[3] == false and ExtraArenaGeneral_IsPvPActive() == false
-	endfunction
 	
 	private function PowerUp takes real powerBoost returns nothing
 		local string text
@@ -39,6 +39,10 @@ scope PowerUpMode initializer init
 	private function TimerEnd takes nothing returns nothing
 		call PowerUp(POWER_BOOST_TIMER)
 	endfunction
+	
+	private function OnBattleStart_Condition takes nothing returns boolean
+	    return udg_fightmod[3] == false and ExtraArenaGeneral_IsPvPActive() == false
+	endfunction
 
 	private function OnBattleStart takes nothing returns nothing
 		call PowerUp(POWER_BOOST_START)
@@ -46,7 +50,7 @@ scope PowerUpMode initializer init
 	endfunction
 	
 	private function OnBattleEnd_Condition takes nothing returns boolean
-	    return udg_fightmod[3] == false
+	    return udg_fightmod[3] == false and ExtraArenaGeneral_IsPvPActive() == false
 	endfunction
 
 	private function OnBattleEnd takes nothing returns nothing
@@ -55,7 +59,7 @@ scope PowerUpMode initializer init
 	
 	//===============================================================
 	private function condition takes nothing returns boolean
-	    return isActive == false and udg_logic[6]
+	    return isActive == false and isEnabledToActivate
 	endfunction
 
 	private function action takes nothing returns nothing
@@ -65,6 +69,16 @@ scope PowerUpMode initializer init
 	    call DisableTrigger(DifficultyThree_Trigger_Start)
 	    call DisableTrigger(DifficultyThree_Trigger_End)
 	    set isActive = true
+	    call SaveLoadStartLib_AddExtraExp(EXPERIENCE_BONUS_PERC)
+	endfunction
+	
+	private function OnModStateChanged_Condition takes nothing returns boolean
+	    return ModesFrame_IsExtraModeCorrect(BUTTON_INDEX)
+	endfunction
+	
+	private function OnModStateChanged takes nothing returns nothing 
+        set isEnabledToActivate = isEnabledToActivate == false
+        call ModesFrame_ExtraModeChangeIcon(BUTTON_INDEX, "Power Up!", isEnabledToActivate)
 	endfunction
 
 	private function init takes nothing returns nothing
@@ -77,6 +91,7 @@ scope PowerUpMode initializer init
 		set Timer = CreateTimer()
 		
 	    call OnModsAwake.AddListener(function action, function condition)
+	    call ModStateChanged.AddListener(function OnModStateChanged, function OnModStateChanged_Condition )
 	    
 	    set Trigger_Start = BattleStartGlobal.AddListener(function OnBattleStart, function OnBattleStart_Condition)
 	    call DisableTrigger(Trigger_Start)
