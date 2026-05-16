@@ -2,7 +2,7 @@ scope ManadragonAttack initializer init
 	
 	globals
 		private constant integer MANA_CONDITION = 30
-		private constant integer EXTRA_DAMAGE = 100
+		private constant real EXTRA_DAMAGE = 1.75
 		private constant integer MANA_BURN = 40
 		
 		private constant string ANIMATION = "Abilities\\Spells\\Other\\CrushingWave\\CrushingWaveDamage.mdl"
@@ -17,11 +17,11 @@ scope ManadragonAttack initializer init
 		local real manaToBurn = MANA_BURN * GetUnitSpellPower(udg_DamageEventSource)
 		
         if targetMana <= MANA_CONDITION then
-            set udg_DamageEventAmount = udg_DamageEventAmount + EXTRA_DAMAGE 
+            set udg_DamageEventAmount = udg_DamageEventAmount + (udg_DamageEventAmount * EXTRA_DAMAGE) 
             //call DestroyEffect( AddSpecialEffect( ANIMATION, GetUnitX(udg_DamageEventTarget), GetUnitY(udg_DamageEventTarget) ) )
         endif
         call DestroyEffect( AddSpecialEffectTarget( ANIMATION, udg_DamageEventTarget, "origin" ) )
-        call SetUnitState( udg_DamageEventTarget, UNIT_STATE_MANA, RMaxBJ(0, targetMana - manaToBurn  ) )
+        call SetUnitState( udg_DamageEventTarget, UNIT_STATE_MANA, RMaxBJ(0, targetMana - manaToBurn ) )
 	endfunction
 
 	private function init takes nothing returns nothing

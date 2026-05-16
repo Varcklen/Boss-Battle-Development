@@ -33419,6 +33419,12 @@ STRING 5041
 |cffffcc00Blessing:|r Identity
 }
 
+STRING 5042
+// Abilities: A0HF (|cffffcc00Уровень 7:|r Огромная гидра), Tip (Tooltip - Normal)
+{
+Huge Hydra
+}
+
 STRING 5043
 // Abilities: A115 (Blessing: Второй шанс (g20)), Name (Name)
 {
@@ -35415,12 +35421,6 @@ STRING 5353
 // Abilities: A0Y6 (|cffffcc00Уровень 4:|r Темный колдун), Name (Name)
 {
 |cffffcc00Уровень 4:|r Темный колдун
-}
-
-STRING 5354
-// Abilities: A0Y6 (|cffffcc00Уровень 4:|r Темный колдун), Tip (Tooltip - Normal)
-{
-Dark sorcerer
 }
 
 STRING 5355
@@ -43831,14 +43831,6 @@ STRING 6643
 Crown of Thorns, [|cffffcc00Level %d|r]
 }
 
-STRING 6644
-// Items: I0FP (Orb of the Rolling Plains), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases health regeneration by 5 and mana by 75.
-When the hero deals 100 damage or restores 100 health at once, creates a chain heal that restores |cffbe81f7100|r health to allies.
-}
-
 STRING 6645
 // Abilities: A0OF (Ent: Crown of Thorns), Tip (Tooltip - Normal)
 {
@@ -43867,14 +43859,6 @@ STRING 6649
 // Abilities: A0OF (Ent: Crown of Thorns), Tip (Tooltip - Normal)
 {
 Crown of Thorns, [|cffffcc00Level 5|r]
-}
-
-STRING 6650
-// Items: I0FP (Orb of the Rolling Plains), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases health regeneration by 5 and mana by 75.
-When the hero deals 100 damage or restores 100 health at once, creates a chain heal that restores |cffbe81f7100|r health to allies.
 }
 
 STRING 6651
@@ -50757,12 +50741,6 @@ STRING 7697
 |cffffcc00Уровень 7:|r Огромная гидра
 }
 
-STRING 7698
-// Abilities: A0HF (|cffffcc00Уровень 7:|r Огромная гидра), Tip (Tooltip - Normal)
-{
-Huge hydra
-}
-
 STRING 7699
 // Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
 {
@@ -56623,12 +56601,6 @@ STRING 8613
 |cffffcc00Уровень 5:|r Король рабов
 }
 
-STRING 8614
-// Abilities: A0AT (|cffffcc00Уровень 5:|r Король рабов), Tip (Tooltip - Normal)
-{
-King of slaves
-}
-
 STRING 8615
 // Abilities: A0IZ (Lord of Chaos: Illusions), Ubertip (Tooltip - Normal - Extended)
 {
@@ -56640,12 +56612,6 @@ STRING 8616
 // Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Name (Name)
 {
 |cffffcc00Уровень 4:|r Манадракон
-}
-
-STRING 8617
-// Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Tip (Tooltip - Normal)
-{
-Manadragon
 }
 
 STRING 8618
@@ -74122,6 +74088,16 @@ STRING 11361
 (Double Trouble)
 }
 
+STRING 11362
+// Abilities: A0HF (|cffffcc00Уровень 7:|r Огромная гидра), Ubertip (Tooltip - Normal - Extended)
+{
+- Ranged attacks.
+- The boss and the descendants do not cause Revenge.
+- Hydra health regen increased by 25.
+- After the death of the boss, creates 2 medium hydra.
+- After the death of the middle hydra, 5 small hydras are created.
+}
+
 STRING 11363
 // Abilities: A1HE (Arcanologist: Replenish), Hotkey (Hotkey - Normal)
 {
@@ -74427,6 +74403,15 @@ STRING 11408
 // Abilities: A0A9 (Keeper: Chaw of Chaws), Ubertip (Tooltip - Normal - Extended)
 {
 As long as there is at least one hero next to you, your hero is invisible.|n|cffffcc00Effect range:|r 900.
+}
+
+STRING 11409
+// Items: I0FP (Orb of the Rolling Plains), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases health regeneration by 5 and mana by 75.
+When the hero deals 100 damage or restores 100 health at once, creates a chain heal that restores |cffbe81f7100|r health to other friendly units.
+|cffffcc00Cooldown:|r 6 seconds.
 }
 
 STRING 11410
@@ -74759,6 +74744,15 @@ STRING 11460
 // Units: O00E ((T) Monk), Name (Name)
 {
 (T) Monk
+}
+
+STRING 11461
+// Items: I0FP (Orb of the Rolling Plains), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases health regeneration by 5 and mana by 75.
+When the hero deals 100 damage or restores 100 health at once, creates a chain heal that restores |cffbe81f7100|r health to other friendly units.
+|cffffcc00Cooldown:|r 6 seconds.
 }
 
 STRING 11462
@@ -75344,6 +75338,22 @@ STRING 11553
 |cff00ff00Star dust|rXXX
 }
 
+STRING 11554
+// Abilities: A1HS (Spell Shield), EditorSuffix (Editor Suffix)
+{
+(Orb of the Rolling Plains)
+}
+
+STRING 11555
+// Abilities: A135 (|cffffcc00Уровень 7:|r Заводной резак), Ubertip (Tooltip - Normal - Extended)
+{
+- Calls a huge airship that flies around the arena and scatters bombs. When the bomb touches the ground, deals |cffbe81f7100|r damage to nearby enemies.
+- Every 10 seconds, throws a saw at a random hero. When the saw reaches a point, it disappears over time.
+- |cff00cceeAt 60% health:|r The boss explodes the upper half of the arena, dealing |cffbe81f7100|r damage every second.
+|cffffcc00Duration:|r 10 seconds.
+- |cff00cceeAt 30% health:|r The boss explodes the lower half of the arena.
+}
+
 STRING 11556
 {
 Bosses take 10% less damage from minions and 5% less from magic damage.
@@ -75405,16 +75415,6 @@ STRING 11562
 - |cff00cceeAt 25% and 50% health:|r Eggs spawn near the boss. After 10 seconds, a turtle hatches from each egg. The boss teleports to a random point in the arena one time.
 }
 
-STRING 11563
-// Abilities: A135 (|cffffcc00Уровень 7:|r Заводной резак), Ubertip (Tooltip - Normal - Extended)
-{
-- Calls a huge airship that flies around the arena and scatters bombs. When the bomb touches the ground, deals |cffbe81f7100|r damage to nearby enemies.
-- |cff00cceeAt 90% health:|r Every 10 seconds, throws a saw at a random hero. When the saw reaches a point, it disappears over time.
-- |cff00cceeAt 60% health:|r The boss explodes the upper half of the arena, dealing |cffbe81f7100|r damage every second.
-|cffffcc00Duration:|r 10 seconds.
-- |cff00cceeAt 30% health:|r The boss explodes the lower half of the arena.
-}
-
 STRING 11564
 // Abilities: A0Y9 (|cffffcc00Уровень 8:|r Берсерк), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75439,16 +75439,6 @@ STRING 11566
 - |cff00cceeAt 80% health:|r Every 10 seconds, creates a zone that burns |cffbe81f74%|r mana each second.
 |cffffcc00Life time:|r 30 seconds.
 - |cff00cceeAt 40% health:|r Summons 2 Astral Beasts.
-}
-
-STRING 11567
-// Abilities: A0Y6 (|cffffcc00Уровень 4:|r Темный колдун), Ubertip (Tooltip - Normal - Extended)
-{
-- Ranged attacks.
-- |cff00cceeAt 90% health:|r Every 7 seconds it creates a shadow zone under a random hero, which deals |cffbe81f730|r damage.
-- |cff00cceeAt 60% health:|r Every 18 seconds reduces the attack speed and movement of a random hero by 80%.
-|cffffcc00Duration:|r 10 seconds.
-- |cff00cceeAt 30% health:|r Creates 20 shadow zones throughout the arena.
 }
 
 STRING 11568
@@ -75596,15 +75586,6 @@ STRING 11583
 - |cff00cceeAt 25% health:|r The boss summons 2 milady for each hero.
 }
 
-STRING 11584
-// Abilities: A0HF (|cffffcc00Уровень 7:|r Огромная гидра), Ubertip (Tooltip - Normal - Extended)
-{
-- Ranged attacks.
-- Hydra health regen increased by 25.
-- After the death of the boss, creates 2 medium hydra.
-- After the death of the middle hydra, 5 small hydras are created.
-}
-
 STRING 11585
 // Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
 {
@@ -75658,27 +75639,6 @@ STRING 11590
 - |cff00cceeAt 40% and 80% health:|r After 3 seconds, swaps Health and Mana of all heroes.
 - |cff00cceeAt 66% health:|r The world is changing.
 - |cff00cceeAt 25% health:|r The world is changing. Maybe.
-}
-
-STRING 11591
-// Abilities: A0AT (|cffffcc00Уровень 5:|r Король рабов), Ubertip (Tooltip - Normal - Extended)
-{
-- When a slave attacks, with a probability of 20%, stuns the target.
-|cffffcc00Duration:|r 0.3 seconds.
-- If there are more red slaves than green ones, they can make a revolution.
-- |cff00cceeAt 80% health:|r Summons a slave every 3.5 seconds.
-- |cff00cceeAt 60% health:|r Slaves are called more often.
-- |cff00cceeAt 40% health:|r Slaves are called more often.
-- |cff00cceeAt 20% health:|r Slaves are called more often.
-}
-
-STRING 11592
-// Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Ubertip (Tooltip - Normal - Extended)
-{
-- When it attacks a Hero, it burns |cffbe81f740|r mana. If the Hero has no mana, deals an additional 100 damage.
-- |cff00cceeAt 75% health:|r Every 10 seconds, burns |cffbe81f720|r mana for all heroes.
-- |cff00cceeAt 50% health:|r The boss burns 2 times more mana. Creates 4 zones, each of which deals |cffbe81f730|r damage to the enemy and restores |cffbe81f720|r mana.
-- |cff00cceeAt 25% health:|r Burns all mana for all heroes.
 }
 
 STRING 11593
@@ -75824,14 +75784,6 @@ STRING 11607
 - When the boss wakes up, stuns all opponents for 5 seconds.
 - After waking up every 10 seconds, the boss, after a short delay, emits a wave, causing |cffbe81f7200|r damage.
 - |cff00cceeAt 40% health:|r The boss wakes up.
-}
-
-STRING 11608
-// Abilities: A06E (|cffffcc00Уровень 3:|r Инженерный Мастер), Ubertip (Tooltip - Normal - Extended)
-{
-- Weak attack.
-- |cff00cceeAt 66% health:|r Summons 4 catapults.
-- |cff00cceeAt 33% health:|r The boss sits in a mortar. Every 10 seconds, the mortar emits 3 waves, dealing |cffbe81f740|r damage. After the mortar is destroyed, 4 more catapults appear.
 }
 
 STRING 11609
@@ -78162,6 +78114,12 @@ STRING 11931
 Arcane Intellect, [|cffffcc00Level 5|r]
 }
 
+STRING 11932
+// Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Tip (Tooltip - Normal)
+{
+Mana Dragon
+}
+
 STRING 11933
 // Items: IV35 (Meat on a Stick), Description (Description)
 {
@@ -78196,6 +78154,15 @@ STRING 11938
 // Items: IV36 (Donut), Ubertip (Tooltip - Extended)
 {
 Activation: |cffcc0000Corrupted|r. Increases stats by |cffffffff4|r. At the end of the battle, increases the value by 4.
+}
+
+STRING 11939
+// Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Ubertip (Tooltip - Normal - Extended)
+{
+- When it attacks a Hero, it burns |cffbe81f740|r mana. If the Hero has no mana, deals an additional 175% damage with attack.
+- |cff00cceeAt 75% health:|r Every 10 seconds, burns |cffbe81f720|r mana for all heroes.
+- |cff00cceeAt 50% health:|r The boss burns 2 times more mana. Creates 4 zones, each of which deals |cffbe81f730|r damage to the enemy and restores |cffbe81f720|r mana.
+- |cff00cceeAt 25% health:|r Burns all mana for all heroes.
 }
 
 STRING 11940
@@ -78245,6 +78212,73 @@ STRING 11947
 // Abilities: A116 (Blessing: Всеобличие (g19)), Ubertip (Tooltip - Normal - Extended)
 {
 Increases the chance of |cff4169e1Rare|r artifacts appearing by 12%.
+}
+
+STRING 11948
+// Abilities: A06E (|cffffcc00Уровень 3:|r Инженерный Мастер), Ubertip (Tooltip - Normal - Extended)
+{
+- Weak attack.
+- Every 15 seconds, while not in transport, increases Attack by 10.
+- |cff00cceeAt 66% health:|r Summons 4 catapults.
+- |cff00cceeAt 33% health:|r The boss sits in a mortar. Every 10 seconds, the mortar emits 3 waves, dealing |cffbe81f740|r damage. After the mortar is destroyed, 4 more catapults appear.
+}
+
+STRING 11949
+// Abilities: A0AT (|cffffcc00Уровень 5:|r Король рабов), Tip (Tooltip - Normal)
+{
+Peon King
+}
+
+STRING 11950
+// Abilities: A0AT (|cffffcc00Уровень 5:|r Король рабов), Ubertip (Tooltip - Normal - Extended)
+{
+- When a any peon attacks, with a probability of 20%, stuns the target for 0.3 seconds.
+- If there are more red peons than green ones, they can make a revolution.
+- Summons a peon every 3.5 seconds.
+- |cff00cceeAt 80% health:|r Peons are called more often.
+- |cff00cceeAt 50% health:|r Peons are called more often.
+- |cff00cceeAt 20% health:|r Peons are called more often.
+}
+
+STRING 11951
+// Abilities: A0Y6 (|cffffcc00Уровень 4:|r Темный колдун), Tip (Tooltip - Normal)
+{
+Dark Sorcerer
+}
+
+STRING 11952
+// Abilities: A0Y6 (|cffffcc00Уровень 4:|r Темный колдун), Ubertip (Tooltip - Normal - Extended)
+{
+- Ranged attacks.
+- When your units cast, they lose 25 Health.
+- |cff00cceeAt 90% health:|r Every 7 seconds it creates a shadow zone under a random hero, which deals |cffbe81f730|r damage.
+- |cff00cceeAt 60% health:|r Every 18 seconds reduces the attack speed and movement of a random hero by 80%.
+|cffffcc00Duration:|r 10 seconds.
+- |cff00cceeAt 30% health:|r Creates 20 shadow zones throughout the arena.
+}
+
+STRING 11953
+// Abilities: A1HT (Аура: Doom), Name (Name)
+{
+Аура: Doom
+}
+
+STRING 11954
+// Abilities: A1HT (Аура: Doom), EditorSuffix (Editor Suffix)
+{
+(Dark Sorcerer)
+}
+
+STRING 11955
+// Buffs/Effects: B0AW (), Bufftip (Tooltip)
+{
+|cffff0000Doom|r
+}
+
+STRING 11956
+// Buffs/Effects: B0AW (), Buffubertip (Tooltip - Extended)
+{
+Lose health when casting.
 }
 
 STRING 11989

@@ -6,7 +6,7 @@ scope QuestShopFrame initializer init
 		framehandle array quartart
 	    framehandle array quarticon
 	    
-	    private constant integer QUEST_AMOUNT = 12
+	    private constant integer QUEST_AMOUNT = 10
 	    private constant integer GOLD_COST = 100
 	endglobals
 	

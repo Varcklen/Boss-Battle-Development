@@ -227,6 +227,7 @@ library LibDataBoss
 	    set DB_Trigger_Boss[3][11] = gg_trg_Fedor1
 	    set DB_Trigger_Boss[3][12] = gg_trg_Fedor2
 	    set DB_Trigger_Boss[3][13] = gg_trg_Fedor3
+	    set DB_Trigger_Boss[3][14] = Fedor4_Trigger
 	    set DB_Trigger_Boss[3][21] = gg_trg_Arah1
 	    set DB_Trigger_Boss[3][22] = gg_trg_Arah2
 	    set DB_Trigger_Boss[3][31] = gg_trg_Thief1
@@ -251,6 +252,7 @@ library LibDataBoss
 	    set DB_Trigger_Boss[4][31] = gg_trg_DarkWarlock1
 	    set DB_Trigger_Boss[4][32] = gg_trg_DarkWarlock2
 	    set DB_Trigger_Boss[4][33] = gg_trg_DarkWarlock3
+	    set DB_Trigger_Boss[4][34] = DarkWarlock4_Trigger
 	    set DB_Trigger_Boss[4][41] = gg_trg_Blademaster1
 	    set DB_Trigger_Boss[4][42] = gg_trg_Blademaster2
 	    set DB_Trigger_Boss[4][43] = gg_trg_Blademaster3
