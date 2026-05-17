@@ -26,9 +26,9 @@ scope DifficultyThree initializer init
 	
 	private function PowerUp takes real powerBoost returns nothing
 		local string text
-	
-    	set udg_BossHP = udg_BossHP + powerBoost
-    	set udg_BossAT = udg_BossAT + powerBoost
+		
+		call EnemyPower_AddAtBonusAdditive(powerBoost)
+		call EnemyPower_AddHpBonusAdditive(powerBoost)
         call SpellPower_AddBossSpellPower(powerBoost)
         
         set CurrentBonus = CurrentBonus + R2I(powerBoost*100)

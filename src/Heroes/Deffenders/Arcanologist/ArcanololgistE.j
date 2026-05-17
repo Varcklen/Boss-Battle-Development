@@ -22,7 +22,7 @@ scope ArcanologistE initializer init
     	local unit u = udg_DamageEventTarget
     	local integer lvl = GetUnitAbilityLevel(u, ID_ABILITY)
     	local real reduce = DAMAGE_REDUCE_FIRST_LEVEL + DAMAGE_REDUCE_LEVEL_BONUS * lvl
-    	local real mp = GetUnitState( u, UNIT_STATE_MANA) / RMaxBJ(0,GetUnitState( u, UNIT_STATE_MAX_MANA))
+    	local real mp = GetUnitState( u, UNIT_STATE_MANA) / RMaxBJ(1,GetUnitState( u, UNIT_STATE_MAX_MANA))
     	
     	if mp >= DAMAGE_REDUCE_MANA_THRES then
         	call SetUnitState( u, UNIT_STATE_MANA, GetUnitState( u, UNIT_STATE_MANA) - udg_DamageEventAmount * DAMAGE_REDUCE_MANA_REDIR )

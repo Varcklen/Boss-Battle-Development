@@ -6188,34 +6188,6 @@ STRING 960
 Runestone Lous
 }
 
-STRING 961
-// Items: I0F8 (Isaac's head), Description (Description)
-{
-|cffe96a1cLegendary|r
-At the beginning of the battle, the hero increases damage and healing by 100% and reduces damage taken by 50%.
-|cffffcc00Duration:|r 20 seconds.
-}
-
-STRING 962
-// Items: I0F8 (Isaac's head), Name (Name)
-{
-Isaac's head
-}
-
-STRING 963
-// Items: I0F8 (Isaac's head), Tip (Tooltip - Basic)
-{
-Isaac's head
-}
-
-STRING 964
-// Items: I0F8 (Isaac's head), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-At the beginning of the battle, the hero increases damage and healing by 100% and reduces damage taken by 50%.
-|cffffcc00Duration:|r 20 seconds.
-}
-
 STRING 965
 // Items: I0F7 (Submit a coin), Description (Description)
 {
@@ -18740,12 +18712,6 @@ STRING 2785
 // Items: I04O (Tassadar), Tip (Tooltip - Basic)
 {
 Tassadar
-}
-
-STRING 2786
-// Abilities: A06F (|cffffcc00Уровень 4:|r Спящий огр), Tip (Tooltip - Normal)
-{
-Sleeping Ogre
 }
 
 STRING 2787
@@ -33665,15 +33631,6 @@ STRING 5081
 |cffffcc00Curse:|r Scatter
 }
 
-STRING 5082
-// Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Ubertip (Tooltip - Normal - Extended)
-{
-- Increases attack power of all creatures by 50%.
-- |cff00cceeAt 90% health:|r Silences the heroes for 10 seconds.
-- |cff00cceeAt 75% health:|r Every second, it takes all creatures next to the boss |cffbe81f71%|r of the maximum health. Minions lose |cffbe81f715%|r health instead.
-- |cff00cceeAt 25% health:|r Fully restores health ones.
-}
-
 STRING 5083
 // Abilities: A10P (Rotation: Corrupted World), Name (Name)
 {
@@ -35423,6 +35380,12 @@ STRING 5353
 |cffffcc00Уровень 4:|r Темный колдун
 }
 
+STRING 5354
+// Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Tip (Tooltip - Normal)
+{
+Ogre Mage
+}
+
 STRING 5355
 // Abilities: A00J (|cffffcc00Уровень 4:|r Мастер клинков), Tip (Tooltip - Normal)
 {
@@ -36558,12 +36521,6 @@ STRING 5525
 // Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Name (Name)
 {
 |cffffcc00Уровень 2:|r Огр-маг
-}
-
-STRING 5526
-// Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Tip (Tooltip - Normal)
-{
-Ogre mage
 }
 
 STRING 5527
@@ -43861,6 +43818,12 @@ STRING 6649
 Crown of Thorns, [|cffffcc00Level 5|r]
 }
 
+STRING 6650
+// Abilities: A1HU (Аура: Ogre Magi Cast), Name (Name)
+{
+Аура: Ogre Magi Cast
+}
+
 STRING 6651
 // Items: I09I (Moon owl), Description (Description)
 {
@@ -50741,6 +50704,12 @@ STRING 7697
 |cffffcc00Уровень 7:|r Огромная гидра
 }
 
+STRING 7698
+// Buffs/Effects: B0AX (), Bufftip (Tooltip)
+{
+|cff00ff00Ogre Magic|r
+}
+
 STRING 7699
 // Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
 {
@@ -50878,12 +50847,6 @@ STRING 7721
 // Abilities: A0H7 (Босс 8: Древний энт (Природная аура)), Ubertip (Tooltip - Normal - Extended)
 {
 Nearby enemies take |cffbe81f740|r damage per second.
-}
-
-STRING 7722
-// Abilities: A0H6 (War Stomp), EditorSuffix (Editor Suffix)
-{
-(Массовое оглушение, 5 секунд)
 }
 
 STRING 7723
@@ -56601,6 +56564,12 @@ STRING 8613
 |cffffcc00Уровень 5:|r Король рабов
 }
 
+STRING 8614
+// Buffs/Effects: B0AX (), Buffubertip (Tooltip - Extended)
+{
+Charges full heal.
+}
+
 STRING 8615
 // Abilities: A0IZ (Lord of Chaos: Illusions), Ubertip (Tooltip - Normal - Extended)
 {
@@ -56612,6 +56581,15 @@ STRING 8616
 // Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Name (Name)
 {
 |cffffcc00Уровень 4:|r Манадракон
+}
+
+STRING 8617
+// Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Ubertip (Tooltip - Normal - Extended)
+{
+- Increases attack power of all creatures by 50%.
+- |cff00cceeAt 90% health:|r Silences the heroes for 10 seconds.
+- |cff00cceeAt 75% health:|r Every second, it takes all creatures next to the boss |cffbe81f71%|r of the maximum health. Minions lose |cffbe81f715%|r health instead.
+- |cff00cceeAt 25% health:|r The boss stops and begins charging magic for 3 seconds. Upon completion, it fully restores Health (Once per battle).
 }
 
 STRING 8618
@@ -62685,24 +62663,10 @@ STRING 9556
 R
 }
 
-STRING 9557
-// Items: I053 (Runestone Isli), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-When the hero uses an ability or item, it reduces the cooldown of one of the hero abilities by 5 seconds|cffffffff, but takes 3% of mana|r.
-}
-
 STRING 9558
 // Abilities: A04K (Doctor: Reincarnation), Hotkey (Hotkey - Normal)
 {
 R
-}
-
-STRING 9559
-// Items: I053 (Runestone Isli), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-When the hero uses an ability or item, it reduces the cooldown of one of the hero abilities by 5 seconds|cffffffff, but takes 3% of mana|r.
 }
 
 STRING 9560
@@ -74006,13 +73970,6 @@ STRING 11348
 Carve Rune of the Illusionist
 }
 
-STRING 11349
-// Items: I01Y (Runestone Glas), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-When you use a |cff088a08potion|r, increases Spell Power by 6% until the end of the battle. |cffffffffReduces potion spell power by 30%.|r
-}
-
 STRING 11350
 // Abilities: A1E0 (Runesmith: Carve Rune of the Strongman), Ubertip (Tooltip - Normal - Extended)
 {
@@ -74025,13 +73982,6 @@ STRING 11351
 {
 |cff50ff90Use when picked up|r
 Gives a random stat.
-}
-
-STRING 11352
-// Items: I01Y (Runestone Glas), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-When you use a |cff088a08potion|r, increases Spell Power by 6% until the end of the battle. |cffffffffReduces potion spell power by 30%.|r
 }
 
 STRING 11353
@@ -75415,6 +75365,12 @@ STRING 11562
 - |cff00cceeAt 25% and 50% health:|r Eggs spawn near the boss. After 10 seconds, a turtle hatches from each egg. The boss teleports to a random point in the arena one time.
 }
 
+STRING 11563
+// Abilities: A0H6 (War Stomp), EditorSuffix (Editor Suffix)
+{
+(Массовое оглушение, 5 секунд) XXX
+}
+
 STRING 11564
 // Abilities: A0Y9 (|cffffcc00Уровень 8:|r Берсерк), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75439,6 +75395,12 @@ STRING 11566
 - |cff00cceeAt 80% health:|r Every 10 seconds, creates a zone that burns |cffbe81f74%|r mana each second.
 |cffffcc00Life time:|r 30 seconds.
 - |cff00cceeAt 40% health:|r Summons 2 Astral Beasts.
+}
+
+STRING 11567
+// Abilities: A06F (|cffffcc00Уровень 4:|r Спящий огр), Tip (Tooltip - Normal)
+{
+Sleepy Ogre
 }
 
 STRING 11568
@@ -75586,6 +75548,18 @@ STRING 11583
 - |cff00cceeAt 25% health:|r The boss summons 2 milady for each hero.
 }
 
+STRING 11584
+// Abilities: A06F (|cffffcc00Уровень 4:|r Спящий огр), Ubertip (Tooltip - Normal - Extended)
+{
+- Strong attacks.
+- The boss starts the fight in a dream.
+- Deals damage to nearby enemies.
+- After 40 seconds, after the start of the battle, the boss wakes up.
+- Upon awakening, reduces movement speed by 80% for all nearby boss enemies for 5 seconds.
+- After waking up every 10 seconds, the boss, after a short delay, emits a wave, causing |cffbe81f7200|r damage.
+- |cff00cceeAt 40% health:|r The boss wakes up.
+}
+
 STRING 11585
 // Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
 {
@@ -75639,6 +75613,18 @@ STRING 11590
 - |cff00cceeAt 40% and 80% health:|r After 3 seconds, swaps Health and Mana of all heroes.
 - |cff00cceeAt 66% health:|r The world is changing.
 - |cff00cceeAt 25% health:|r The world is changing. Maybe.
+}
+
+STRING 11591
+// Abilities: A1HV ((т)Аура: Dizzy), EditorSuffix (Editor Suffix)
+{
+(Sleepy Ogre)
+}
+
+STRING 11592
+// Abilities: A1HV ((т)Аура: Dizzy), Name (Name)
+{
+(т)Аура: Dizzy
 }
 
 STRING 11593
@@ -75774,16 +75760,10 @@ Makes all nearby creatures invisible for 3 seconds. Restores |cffbe81f7120|r man
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
-STRING 11607
-// Abilities: A06F (|cffffcc00Уровень 4:|r Спящий огр), Ubertip (Tooltip - Normal - Extended)
+STRING 11608
+// Buffs/Effects: B0AY (), Bufftip (Tooltip)
 {
-- Strong attacks.
-- The boss starts the fight in a dream.
-- Deals damage to nearby enemies.
-- After 40 seconds, after the start of the battle, the boss wakes up.
-- When the boss wakes up, stuns all opponents for 5 seconds.
-- After waking up every 10 seconds, the boss, after a short delay, emits a wave, causing |cffbe81f7200|r damage.
-- |cff00cceeAt 40% health:|r The boss wakes up.
+|cffff0000Dizzy|r
 }
 
 STRING 11609
@@ -78279,6 +78259,76 @@ STRING 11956
 // Buffs/Effects: B0AW (), Buffubertip (Tooltip - Extended)
 {
 Lose health when casting.
+}
+
+STRING 11957
+// Buffs/Effects: B0AY (), Buffubertip (Tooltip - Extended)
+{
+Movement speed reduced.
+}
+
+STRING 11958
+// Items: I0F8 (Isaac's Head), Description (Description)
+{
+|cffe96a1cLegendary|r
+At the beginning of the battle, the hero deals and restores 100% more, and the damage received is reduced by 50%.
+|cffffcc00Duration:|r 20 seconds.
+}
+
+STRING 11959
+// Items: I0F8 (Isaac's Head), Name (Name)
+{
+Isaac's Head
+}
+
+STRING 11960
+// Items: I0F8 (Isaac's Head), Tip (Tooltip - Basic)
+{
+Isaac's Head
+}
+
+STRING 11961
+// Items: I0F8 (Isaac's Head), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+At the beginning of the battle, the hero deals and restores 100% more, and the damage received is reduced by 50%.
+|cffffcc00Duration:|r 20 seconds.
+}
+
+STRING 11964
+// Abilities: A1HW (.General: No Modify Current Health), Name (Name)
+{
+.General: No Modify Current Health
+}
+
+STRING 11965
+// Items: I053 (Runestone Isli), Description (Description)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+When the hero uses an ability or item, it reduces the cooldown of one of the hero abilities by 3 seconds|cffffffff, but takes 3% of mana|r.
+}
+
+STRING 11966
+// Items: I053 (Runestone Isli), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+When the hero uses an ability or item, it reduces the cooldown of one of the hero abilities by 3 seconds|cffffffff, but takes 3% of mana|r.
+}
+
+STRING 11967
+// Items: I01Y (Runestone Glas), Description (Description)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+When you use a |cff088a08potion|r, increases Spell Power by 6% until the end of the battle. Effectiveness decreases with each use for the battle.
+|cffffffffReduces potion spell power by 30%.|r
+}
+
+STRING 11968
+// Items: I01Y (Runestone Glas), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+When you use a |cff088a08potion|r, increases Spell Power by 6% until the end of the battle. Effectiveness decreases with each use for the battle.
+|cffffffffReduces potion spell power by 30%.|r
 }
 
 STRING 11989

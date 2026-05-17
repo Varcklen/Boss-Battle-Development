@@ -3,7 +3,7 @@ scope RunestoneIsli initializer init
 	globals
 		private constant integer ITEM_ID = 'I053'
 		
-		private constant integer COOLDOWN_REDUCTION = 5
+		private constant integer COOLDOWN_REDUCTION = 3
 		private constant integer MANA_STEAL_PERC = 3
 	endglobals
 

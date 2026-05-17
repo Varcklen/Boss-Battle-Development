@@ -30,6 +30,7 @@ scope Fedor4 initializer init
         local unit boss = udg_DamageEventTarget
         
         call InvokeTimerWithUnit( boss, "boss_fedor_4", bosscast(COOLDOWN), true, function timer_cast )
+        call DisableTrigger( GetTriggeringTrigger() )
         
         set boss = null
     endfunction

@@ -218,7 +218,7 @@ library LibDataBoss
 	    set DB_Trigger_Boss[2][34] = gg_trg_Bandit4
 	    set DB_Trigger_Boss[2][41] = gg_trg_Ogre_Magi1
 	    set DB_Trigger_Boss[2][42] = gg_trg_Ogre_Magi2
-	    set DB_Trigger_Boss[2][43] = gg_trg_Ogre_Magi3
+	    set DB_Trigger_Boss[2][43] = OgreMagi3_Trigger
 	    set DB_Trigger_Boss[2][44] = gg_trg_Ogre_Magi4
 	    set DB_Trigger_Boss[3][1] = gg_trg_Sheep1
 	    set DB_Trigger_Boss[3][2] = gg_trg_Sheep2
