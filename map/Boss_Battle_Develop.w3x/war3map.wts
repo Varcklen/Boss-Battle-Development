@@ -576,6 +576,14 @@ STRING 86
 Random hero
 }
 
+STRING 87
+// Abilities: A0KC (Ninja: Shadow Strike), Researchubertip (Tooltip - Learn - Extended)
+{
+The hero teleports behind the enemy and deals |cffbe81f7100/140/180/220/260|r damage. If a critical hit or kills the target, the cooldown is reduced by 50%.
+|cffffcc00Cooldown:|r 7 seconds.
+|cffffcc00Cost:|r 25 mana.
+}
+
 STRING 88
 // Units: u000 (dummy), Name (Name)
 {
@@ -6180,6 +6188,13 @@ STRING 960
 // Items: I0HP (Runestone Lous), Name (Name)
 {
 Runestone Lous
+}
+
+STRING 961
+// Abilities: A0KC (Ninja: Shadow Strike), Ubertip (Tooltip - Normal - Extended)
+{
+The hero teleports behind the enemy and deals |cffbe81f7100|r damage. If a critical hit or kills the target, the cooldown is reduced by 50%.
+|cffffcc00Cooldown:|r 7 seconds.
 }
 
 STRING 962
@@ -17260,6 +17275,13 @@ When any hero dies, restores |cffbe81f720%|r of the maximum health and mana to a
 |cff81f260[Random bonus]|r
 }
 
+STRING 2569
+// Abilities: A0KC (Ninja: Shadow Strike), Ubertip (Tooltip - Normal - Extended)
+{
+The hero teleports behind the enemy and deals |cffbe81f7140|r damage. If a critical hit or kills the target, the cooldown is reduced by 50%.
+|cffffcc00Cooldown:|r 7 seconds.
+}
+
 STRING 2570
 // Items: I044 (Magic meat), Name (Name)
 {
@@ -17270,6 +17292,13 @@ STRING 2571
 // Items: I044 (Magic meat), Tip (Tooltip - Basic)
 {
 Magic meat
+}
+
+STRING 2572
+// Abilities: A0KC (Ninja: Shadow Strike), Ubertip (Tooltip - Normal - Extended)
+{
+The hero teleports behind the enemy and deals |cffbe81f7180|r damage. If a critical hit or kills the target, the cooldown is reduced by 50%.
+|cffffcc00Cooldown:|r 7 seconds.
 }
 
 STRING 2573
@@ -18337,6 +18366,13 @@ STRING 2729
 Absorbs missing artifacts from the set "|cff2d9995Weapon|r".
 }
 
+STRING 2730
+// Abilities: A0KC (Ninja: Shadow Strike), Ubertip (Tooltip - Normal - Extended)
+{
+The hero teleports behind the enemy and deals |cffbe81f7220|r damage. If a critical hit or kills the target, the cooldown is reduced by 50%.
+|cffffcc00Cooldown:|r 7 seconds.
+}
+
 STRING 2731
 // Items: I02Z (Runestone Sin), Name (Name)
 {
@@ -18347,6 +18383,13 @@ STRING 2732
 // Items: I02Z (Runestone Sin), Tip (Tooltip - Basic)
 {
 Runestone Sin
+}
+
+STRING 2733
+// Abilities: A0KC (Ninja: Shadow Strike), Ubertip (Tooltip - Normal - Extended)
+{
+The hero teleports behind the enemy and deals |cffbe81f7260|r damage. If a critical hit or kills the target, the cooldown is reduced by 50%.
+|cffffcc00Cooldown:|r 7 seconds.
 }
 
 STRING 2734
@@ -18801,6 +18844,14 @@ Activation: Summons Superbot-3000. When summoned, it upgraded depending on the l
 |cffffcc00Cooldown:|r 90 seconds.
 }
 
+STRING 2801
+// Abilities: A0LS (Ninja: Shuriken Throw), Researchubertip (Tooltip - Learn - Extended)
+{
+Throws 3 shurikens forward. Each shuriken deals |cffbe81f725/35/45/55/65|r damage. If any of them hit the enemy, repeat once after 1 second.
+|cffffcc00Cooldown:|r 8 seconds.
+|cffffcc00Cost:|r 25 mana.
+}
+
 STRING 2802
 // Abilities: A1CK (Lycanthrope: Murder at Midnight), Ubertip (Tooltip - Normal - Extended)
 {
@@ -18818,6 +18869,13 @@ The night is coming for a while. The hero turns into a wolf, changing abilities.
 
 |cffffcc00[Stossgebet]|r - Deals damage to enemies and increases their damage taken.
 |cffffcc00[Glaubenskraft]|r - Applies a buff to an ally. It deals damage around the target and restores the target's health based on damage taken while the buff is active. Health cost increased.
+}
+
+STRING 2804
+// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Throws 3 shurikens forward. Each shuriken deals |cffbe81f725|r damage. If any of them hit the enemy, repeat once after 1 second.
+|cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 2805
@@ -23115,6 +23173,13 @@ STRING 3454
 Aspect of Bananavision
 }
 
+STRING 3455
+// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Throws 3 shurikens forward. Each shuriken deals |cffbe81f735|r damage. If any of them hit the enemy, repeat once after 1 second.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
 STRING 3456
 // Abilities: A1CF (Aspect: Dealer: Aspect of Potassium), Name (Name)
 {
@@ -26915,6 +26980,13 @@ STRING 4054
 Eagle Eye, [|cffffcc00Level %d|r]
 }
 
+STRING 4055
+// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Throws 3 shurikens forward. Each shuriken deals |cffbe81f745|r damage. If any of them hit the enemy, repeat once after 1 second.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
 STRING 4056
 // Abilities: A188 (Dealer: Eagle Eye), Tip (Tooltip - Normal)
 {
@@ -26945,12 +27017,38 @@ STRING 4060
 Eagle Eye, [|cffffcc00Level 5|r]
 }
 
+STRING 4061
+// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Throws 3 shurikens forward. Each shuriken deals |cffbe81f755|r damage. If any of them hit the enemy, repeat once after 1 second.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
+STRING 4062
+// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Throws 3 shurikens forward. Each shuriken deals |cffbe81f765|r damage. If any of them hit the enemy, repeat once after 1 second.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
 STRING 4063
 // Abilities: A188 (Dealer: Eagle Eye), Ubertip (Tooltip - Normal - Extended)
 {
 When you use an ability or item, there is a |cffd7df0113%|r chance to use it again. 
 
 |cFF959697Does not affect corrupted artifacts. Second use will be level 5, and the effect will last 20 seconds.|r
+}
+
+STRING 4064
+// Abilities: A0MB (Ninja: Smoke Bomb), Name (Name)
+{
+Ninja: Smoke Bomb
+}
+
+STRING 4065
+// Abilities: A0MB (Ninja: Smoke Bomb), Researchtip (Tooltip - Learn)
+{
+Smoke Bomb, [|cffffcc00Level %d|r]
 }
 
 STRING 4066
@@ -27125,6 +27223,15 @@ STRING 4091
 // Abilities: A183 (Dealer: Explosive Goods), Researchtip (Tooltip - Learn)
 {
 Explosive Goods, [|cffffcc00Level %d|r]
+}
+
+STRING 4092
+// Abilities: A0MB (Ninja: Smoke Bomb), Researchubertip (Tooltip - Learn - Extended)
+{
+Throws a smoke bomb. Any enemy in the area has a 20% chance to miss and takes 25% more damage.
+|cffffcc00Life time:|r 10/12/14/16/18 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 50 mana.
 }
 
 STRING 4093
@@ -31255,6 +31362,12 @@ STRING 4734
 // Abilities: A133 (Прочее: Осколок души: Жатва), Tip (Tooltip - Normal)
 {
 Harvest
+}
+
+STRING 4735
+// Abilities: A0MB (Ninja: Smoke Bomb), Tip (Tooltip - Normal)
+{
+Smoke Bomb, [|cffffcc00Level 1|r]
 }
 
 STRING 4736
@@ -40542,14 +40655,6 @@ STRING 6146
 Potion "Plasebo", [|cffffcc00Level %d|r]
 }
 
-STRING 6147
-// Abilities: A0RZ (Admiral: Potion "Plasebo"), Researchubertip (Tooltip - Learn - Extended)
-{
-Restores |cffbe81f78%/11%/14%/17%/20%|r health to all heroes.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 20/25/30/35/40 gold.
-}
-
 STRING 6148
 // Abilities: A0RZ (Admiral: Potion "Plasebo"), Tip (Tooltip - Normal)
 {
@@ -40578,46 +40683,6 @@ STRING 6152
 // Abilities: A0RZ (Admiral: Potion "Plasebo"), Tip (Tooltip - Normal)
 {
 Potion "Plasebo", [|cffffcc00Level 5|r]
-}
-
-STRING 6153
-// Abilities: A0RZ (Admiral: Potion "Plasebo"), Ubertip (Tooltip - Normal - Extended)
-{
-Restores |cffbe81f78%|r health to all heroes.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 20 gold.
-}
-
-STRING 6154
-// Abilities: A0RZ (Admiral: Potion "Plasebo"), Ubertip (Tooltip - Normal - Extended)
-{
-Restores |cffbe81f711%|r health to all heroes.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 25 gold.
-}
-
-STRING 6155
-// Abilities: A0RZ (Admiral: Potion "Plasebo"), Ubertip (Tooltip - Normal - Extended)
-{
-Restores |cffbe81f714%|r health to all heroes.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 30 gold.
-}
-
-STRING 6156
-// Abilities: A0RZ (Admiral: Potion "Plasebo"), Ubertip (Tooltip - Normal - Extended)
-{
-Restores |cffbe81f717%|r health to all heroes.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 35 gold.
-}
-
-STRING 6157
-// Abilities: A0RZ (Admiral: Potion "Plasebo"), Ubertip (Tooltip - Normal - Extended)
-{
-Restores |cffbe81f720%|r health to all heroes.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 40 gold.
 }
 
 STRING 6158
@@ -42266,12 +42331,6 @@ STRING 6417
 // Abilities: A0QA (Curse: Пламя (b4)), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Flame
-}
-
-STRING 6418
-// Abilities: A0QA (Curse: Пламя (b4)), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero uses an ability or item, deals |cffbe81f725|r damage to all other allies nearby.
 }
 
 STRING 6419
@@ -45273,7 +45332,7 @@ Giant of Thought
 }
 
 STRING 6886
-// Abilities: A0MB (Ninja: Smoke bomb), Hotkey (Hotkey - Normal)
+// Abilities: A0MB (Ninja: Smoke Bomb), Hotkey (Hotkey - Normal)
 {
 R
 }
@@ -45285,7 +45344,7 @@ Smarter than it looks.
 }
 
 STRING 6888
-// Abilities: A0MB (Ninja: Smoke bomb), Researchhotkey (Hotkey - Learn)
+// Abilities: A0MB (Ninja: Smoke Bomb), Researchhotkey (Hotkey - Learn)
 {
 R
 }
@@ -45795,101 +45854,10 @@ STRING 6964
 R
 }
 
-STRING 6965
-// Abilities: A0MB (Ninja: Smoke bomb), Name (Name)
-{
-Ninja: Smoke bomb
-}
-
 STRING 6966
 // Abilities: A0LY (Metal Mage: Metallica), Researchhotkey (Hotkey - Learn)
 {
 R
-}
-
-STRING 6967
-// Abilities: A0MB (Ninja: Smoke bomb), Researchtip (Tooltip - Learn)
-{
-Smoke bomb, [|cffffcc00Level %d|r]
-}
-
-STRING 6968
-// Abilities: A0MB (Ninja: Smoke bomb), Researchubertip (Tooltip - Learn - Extended)
-{
-Throws a smoke bomb. Any enemy in the area has a 20% chance to miss, and also takes 25% more damage.
-|cffffcc00Life time:|r 10/12/14/16/18 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 60 mana.
-}
-
-STRING 6969
-// Abilities: A0MB (Ninja: Smoke bomb), Tip (Tooltip - Normal)
-{
-Smoke bomb, [|cffffcc00Level 1|r]
-}
-
-STRING 6970
-// Abilities: A0MB (Ninja: Smoke bomb), Tip (Tooltip - Normal)
-{
-Smoke bomb, [|cffffcc00Level 2|r]
-}
-
-STRING 6971
-// Abilities: A0MB (Ninja: Smoke bomb), Tip (Tooltip - Normal)
-{
-Smoke bomb, [|cffffcc00Level 3|r]
-}
-
-STRING 6972
-// Abilities: A0MB (Ninja: Smoke bomb), Tip (Tooltip - Normal)
-{
-Smoke bomb, [|cffffcc00Level 4|r]
-}
-
-STRING 6973
-// Abilities: A0MB (Ninja: Smoke bomb), Tip (Tooltip - Normal)
-{
-Smoke bomb, [|cffffcc00Level 5|r]
-}
-
-STRING 6974
-// Abilities: A0MB (Ninja: Smoke bomb), Ubertip (Tooltip - Normal - Extended)
-{
-Throws a smoke bomb. Any enemy in the area has a 20% chance to miss, and also takes 25% more damage.
-|cffffcc00Life time:|r 10 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6975
-// Abilities: A0MB (Ninja: Smoke bomb), Ubertip (Tooltip - Normal - Extended)
-{
-Throws a smoke bomb. Any enemy in the area has a 20% chance to miss, and also takes 25% more damage.
-|cffffcc00Life time:|r 12 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6976
-// Abilities: A0MB (Ninja: Smoke bomb), Ubertip (Tooltip - Normal - Extended)
-{
-Throws a smoke bomb. Any enemy in the area has a 20% chance to miss, and also takes 25% more damage.
-|cffffcc00Life time:|r 14 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6977
-// Abilities: A0MB (Ninja: Smoke bomb), Ubertip (Tooltip - Normal - Extended)
-{
-Throws a smoke bomb. Any enemy in the area has a 20% chance to miss, and also takes 25% more damage.
-|cffffcc00Life time:|r 16 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6978
-// Abilities: A0MB (Ninja: Smoke bomb), Ubertip (Tooltip - Normal - Extended)
-{
-Throws a smoke bomb. Any enemy in the area has a 20% chance to miss, and also takes 25% more damage.
-|cffffcc00Life time:|r 18 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 6979
@@ -46109,6 +46077,12 @@ STRING 7012
 Metallica, [|cffffcc00Level %d|r]
 }
 
+STRING 7013
+// Abilities: A0MB (Ninja: Smoke Bomb), Tip (Tooltip - Normal)
+{
+Smoke Bomb, [|cffffcc00Level 2|r]
+}
+
 STRING 7014
 // Abilities: A0LY (Metal Mage: Metallica), Tip (Tooltip - Normal)
 {
@@ -46137,6 +46111,40 @@ STRING 7018
 // Abilities: A0LY (Metal Mage: Metallica), Tip (Tooltip - Normal)
 {
 Metallica, [|cffffcc00Level 5|r]
+}
+
+STRING 7019
+// Abilities: A0MB (Ninja: Smoke Bomb), Tip (Tooltip - Normal)
+{
+Smoke Bomb, [|cffffcc00Level 3|r]
+}
+
+STRING 7020
+// Abilities: A0MB (Ninja: Smoke Bomb), Tip (Tooltip - Normal)
+{
+Smoke Bomb, [|cffffcc00Level 4|r]
+}
+
+STRING 7021
+// Abilities: A0MB (Ninja: Smoke Bomb), Tip (Tooltip - Normal)
+{
+Smoke Bomb, [|cffffcc00Level 5|r]
+}
+
+STRING 7022
+// Abilities: A0MB (Ninja: Smoke Bomb), Ubertip (Tooltip - Normal - Extended)
+{
+Throws a smoke bomb. Any enemy in the area has a 20% chance to miss and takes 25% more damage.
+|cffffcc00Life time:|r 10 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 7023
+// Abilities: A0MB (Ninja: Smoke Bomb), Ubertip (Tooltip - Normal - Extended)
+{
+Throws a smoke bomb. Any enemy in the area has a 20% chance to miss and takes 25% more damage.
+|cffffcc00Life time:|r 12 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 7024
@@ -47276,6 +47284,14 @@ STRING 7197
 Снаряд: Импульс
 }
 
+STRING 7198
+// Abilities: A0MB (Ninja: Smoke Bomb), Ubertip (Tooltip - Normal - Extended)
+{
+Throws a smoke bomb. Any enemy in the area has a 20% chance to miss and takes 25% more damage.
+|cffffcc00Life time:|r 14 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 7199
 // Abilities: A0KY (Аура: Усиление), Name (Name)
 {
@@ -47351,6 +47367,14 @@ STRING 7210
 Iron Maiden, [|cffffcc00Level %d|r]
 }
 
+STRING 7211
+// Abilities: A0MB (Ninja: Smoke Bomb), Ubertip (Tooltip - Normal - Extended)
+{
+Throws a smoke bomb. Any enemy in the area has a 20% chance to miss and takes 25% more damage.
+|cffffcc00Life time:|r 16 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 7212
 // Abilities: A0KS (Metal Mage: Iron Maiden), Tip (Tooltip - Normal)
 {
@@ -47379,6 +47403,38 @@ STRING 7216
 // Abilities: A0KS (Metal Mage: Iron Maiden), Tip (Tooltip - Normal)
 {
 Iron Maiden, [|cffffcc00Level 5|r]
+}
+
+STRING 7217
+// Abilities: A0MB (Ninja: Smoke Bomb), Ubertip (Tooltip - Normal - Extended)
+{
+Throws a smoke bomb. Any enemy in the area has a 20% chance to miss and takes 25% more damage.
+|cffffcc00Life time:|r 18 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 7218
+// Abilities: A0JV (Ninja: Shinobi Mastery), Researchubertip (Tooltip - Learn - Extended)
+{
+Any damage dealt by the hero has a |cffd7df018%/11%/14%/17%/20%|r chance to be a critical hit. Critical hits deal 75% more damage.
+}
+
+STRING 7219
+// Abilities: A0JV (Ninja: Shinobi Mastery), Ubertip (Tooltip - Normal - Extended)
+{
+Any damage dealt by the hero has a |cffd7df018%|r chance to be a critical hit. Critical hits deal 75% more damage.
+}
+
+STRING 7220
+// Abilities: A0JV (Ninja: Shinobi Mastery), Ubertip (Tooltip - Normal - Extended)
+{
+Any damage dealt by the hero has a |cffd7df0111%|r chance to be a critical hit. Critical hits deal 75% more damage.
+}
+
+STRING 7221
+// Abilities: A0JV (Ninja: Shinobi Mastery), Ubertip (Tooltip - Normal - Extended)
+{
+Any damage dealt by the hero has a |cffd7df0114%|r chance to be a critical hit. Critical hits deal 75% more damage.
 }
 
 STRING 7222
@@ -47433,6 +47489,12 @@ STRING 7230
 // Abilities: A0KM (Metal Mage: Slayer), Researchtip (Tooltip - Learn)
 {
 Slayer, [|cffffcc00Level %d|r]
+}
+
+STRING 7231
+// Abilities: A0JV (Ninja: Shinobi Mastery), Ubertip (Tooltip - Normal - Extended)
+{
+Any damage dealt by the hero has a |cffd7df0117%|r chance to be a critical hit. Critical hits deal 75% more damage.
 }
 
 STRING 7232
@@ -47721,14 +47783,6 @@ STRING 7273
 Shadow Strike, [|cffffcc00Level %d|r]
 }
 
-STRING 7274
-// Abilities: A0KC (Ninja: Shadow Strike), Researchubertip (Tooltip - Learn - Extended)
-{
-The hero teleports behind the enemy's back and deals |cffbe81f7100/140/180/220/260|r damage. If the ability critically hits or kills the target, it resets its cooldown and not cost mana.
-|cffffcc00Cooldown:|r 12 seconds.
-|cffffcc00Cost:|r 45 mana.
-}
-
 STRING 7275
 // Abilities: A0KC (Ninja: Shadow Strike), Tip (Tooltip - Normal)
 {
@@ -47757,41 +47811,6 @@ STRING 7279
 // Abilities: A0KC (Ninja: Shadow Strike), Tip (Tooltip - Normal)
 {
 Shadow Strike, [|cffffcc00Level 5|r]
-}
-
-STRING 7280
-// Abilities: A0KC (Ninja: Shadow Strike), Ubertip (Tooltip - Normal - Extended)
-{
-The hero teleports behind the enemy's back and deals |cffbe81f7100|r damage. If the ability critically hits or kills the target, it resets its cooldown and not cost mana.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 7281
-// Abilities: A0KC (Ninja: Shadow Strike), Ubertip (Tooltip - Normal - Extended)
-{
-The hero teleports behind the enemy's back and deals |cffbe81f7140|r damage. If the ability critically hits or kills the target, it resets its cooldown and not cost mana.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 7282
-// Abilities: A0KC (Ninja: Shadow Strike), Ubertip (Tooltip - Normal - Extended)
-{
-The hero teleports behind the enemy's back and deals |cffbe81f7180|r damage. If the ability critically hits or kills the target, it resets its cooldown and not cost mana.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 7283
-// Abilities: A0KC (Ninja: Shadow Strike), Ubertip (Tooltip - Normal - Extended)
-{
-The hero teleports behind the enemy's back and deals |cffbe81f7220|r damage. If the ability critically hits or kills the target, it resets its cooldown and not cost mana.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 7284
-// Abilities: A0KC (Ninja: Shadow Strike), Ubertip (Tooltip - Normal - Extended)
-{
-The hero teleports behind the enemy's back and deals |cffbe81f7260|r damage. If the ability critically hits or kills the target, it resets its cooldown and not cost mana.
-|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 7285
@@ -48136,12 +48155,6 @@ STRING 7334
 Shinobi Mastery, [|cffffcc00Level %d|r]
 }
 
-STRING 7335
-// Abilities: A0JV (Ninja: Shinobi Mastery), Researchubertip (Tooltip - Learn - Extended)
-{
-When the hero deals damage to a target with a health reserve of 25%/30%/35%/40%/45% or less, this damage will be critical. Critical damage deals 75% more damage.
-}
-
 STRING 7336
 // Abilities: A0JV (Ninja: Shinobi Mastery), Tip (Tooltip - Normal)
 {
@@ -48170,36 +48183,6 @@ STRING 7340
 // Abilities: A0JV (Ninja: Shinobi Mastery), Tip (Tooltip - Normal)
 {
 Shinobi Mastery, [|cffffcc00Level 5|r]
-}
-
-STRING 7341
-// Abilities: A0JV (Ninja: Shinobi Mastery), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero deals damage to a target with a health reserve of 25% or less, this damage will be critical. Critical damage deals 75% more damage.
-}
-
-STRING 7342
-// Abilities: A0JV (Ninja: Shinobi Mastery), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero deals damage to a target with a health reserve of 30% or less, this damage will be critical. Critical damage deals 75% more damage.
-}
-
-STRING 7343
-// Abilities: A0JV (Ninja: Shinobi Mastery), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero deals damage to a target with a health reserve of 35% or less, this damage will be critical. Critical damage deals 75% more damage.
-}
-
-STRING 7344
-// Abilities: A0JV (Ninja: Shinobi Mastery), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero deals damage to a target with a health reserve of 40% or less, this damage will be critical. Critical damage deals 75% more damage.
-}
-
-STRING 7345
-// Abilities: A0JV (Ninja: Shinobi Mastery), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero deals damage to a target with a health reserve of 45% or less, this damage will be critical. Critical damage deals 75% more damage.
 }
 
 STRING 7346
@@ -54786,56 +54769,16 @@ Deals |cffbe81f725/50/75/100/125|r damage to all enemies in long range and appli
 |cffffcc00Cost:|r 30 mana.
 }
 
-STRING 8370
-// Abilities: A0LS (Ninja: Shuriken Throw), Researchubertip (Tooltip - Learn - Extended)
-{
-Throws 3 shurikens forward. Each shuriken deals |cffbe81f725/35/45/55/65|r damage. If any of the projectiles deals damage, the effect repeats after 2 seconds.
-|cffffcc00Cooldown:|r 20/19/18/17/16 seconds.
-|cffffcc00Cost:|r 80 mana.
-}
-
 STRING 8371
 // Abilities: A0AB (Vampire: Way of blood), Hotkey (Hotkey - Normal)
 {
 W
 }
 
-STRING 8372
-// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Throws 3 shurikens forward. Each shuriken deals 
-|cffbe81f725|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 8373
 // Abilities: A0AB (Vampire: Way of blood), Researchhotkey (Hotkey - Learn)
 {
 W
-}
-
-STRING 8374
-// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Throws 3 shurikens forward. Each shuriken deals 
-|cffbe81f735|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
-|cffffcc00Cooldown:|r 19 seconds.
-}
-
-STRING 8375
-// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Throws 3 shurikens forward. Each shuriken deals 
-|cffbe81f745|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 8376
-// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Throws 3 shurikens forward. Each shuriken deals 
-|cffbe81f755|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
-|cffffcc00Cooldown:|r 17 seconds.
 }
 
 STRING 8377
@@ -62067,6 +62010,12 @@ STRING 9492
 Harvest, [|cffffcc00Level %d|r]
 }
 
+STRING 9493
+// Abilities: A0JV (Ninja: Shinobi Mastery), Ubertip (Tooltip - Normal - Extended)
+{
+Any damage dealt by the hero has a |cffd7df0120%|r chance to be a critical hit. Critical hits deal 75% more damage.
+}
+
 STRING 9494
 // Abilities: A05M (Reaper: Harvest), Tip (Tooltip - Normal)
 {
@@ -62095,6 +62044,41 @@ STRING 9498
 // Abilities: A05M (Reaper: Harvest), Tip (Tooltip - Normal)
 {
 Harvest, [|cffffcc00Level 5|r]
+}
+
+STRING 9499
+// Abilities: A0RZ (Admiral: Potion "Plasebo"), Researchubertip (Tooltip - Learn - Extended)
+{
+Restores |cffbe81f78%/11%/14%/17%/20%|r health to all heroes. Receive a Debt of 25 Gold. When you receive Gold, you pay off the Debt instead.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 9500
+// Abilities: A0RZ (Admiral: Potion "Plasebo"), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f78%|r health to all heroes. Receive a Debt of 25 Gold. When you receive Gold, you pay off the Debt instead.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 9501
+// Abilities: A0RZ (Admiral: Potion "Plasebo"), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f711%|r health to all heroes. Receive a Debt of 25 Gold. When you receive Gold, you pay off the Debt instead.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 9502
+// Abilities: A0RZ (Admiral: Potion "Plasebo"), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f714%|r health to all heroes. Receive a Debt of 25 Gold. When you receive Gold, you pay off the Debt instead.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 9503
+// Abilities: A0RZ (Admiral: Potion "Plasebo"), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f717%|r health to all heroes. Receive a Debt of 25 Gold. When you receive Gold, you pay off the Debt instead.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 9504
@@ -65434,14 +65418,6 @@ STRING 10011
 // Abilities: AZD3 (Усилитель 9: АдскийXXX), Name (Name)
 {
 Усилитель 9: АдскийXXX
-}
-
-STRING 10012
-// Abilities: A0LS (Ninja: Shuriken Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Throws 3 shurikens forward. Each shuriken deals 
-|cffbe81f765|r damage. If one of the projectiles deals damage, the effect repeats after 2 seconds.
-|cffffcc00Cooldown:|r 16 seconds.
 }
 
 STRING 10013
@@ -76104,6 +76080,13 @@ STRING 11682
 Suppressing Anger, [|cffffcc00Level %d|r]
 }
 
+STRING 11683
+// Abilities: A0RZ (Admiral: Potion "Plasebo"), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f720%|r health to all heroes. Receive a Debt of 25 Gold. When you receive Gold, you pay off the Debt instead.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 11684
 // Abilities: A1GV (Collector: Suppressing Anger), Tip (Tooltip - Normal)
 {
@@ -76132,6 +76115,12 @@ STRING 11688
 // Abilities: A1GV (Collector: Suppressing Anger), Tip (Tooltip - Normal)
 {
 Suppressing Anger, [|cffffcc00Level 5|r]
+}
+
+STRING 11689
+// Abilities: A0QA (Curse: Пламя (b4)), Ubertip (Tooltip - Normal - Extended)
+{
+When the hero casts, deals |cffbe81f725|r damage to other nearby heroes.
 }
 
 STRING 11694

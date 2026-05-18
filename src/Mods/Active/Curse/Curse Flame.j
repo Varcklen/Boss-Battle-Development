@@ -21,7 +21,7 @@ scope CurseFlame initializer init
 	    loop
 	        set u = FirstOfGroup(g)
 	        exitwhen u == null
-	        if unitst( u, GetSpellAbilityUnit(), "ally" ) and u != GetSpellAbilityUnit() then
+	        if unitst( u, GetSpellAbilityUnit(), "ally" ) and u != GetSpellAbilityUnit() and IsUnitType( u, UNIT_TYPE_HERO ) then
 	            call UnitDamageTarget( GetSpellAbilityUnit(), u, DAMAGE, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)
 	        endif
 	        call GroupRemoveUnit(g,u)
