@@ -165,6 +165,12 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         Event ModStateChanged
         /*
         */
+        Event InfoButtonClicked
+        /*
+        	hero
+        	player
+        	index
+        */
     endglobals
     
     private function InitCustomEvents takes nothing returns nothing
@@ -200,7 +206,15 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         set BetweenGlobal = Event.create(null, null)
         set OnModsAwake = Event.create(null, null)
         set ModStateChanged = Event.create(null, null)
+        set InfoButtonClicked = Event.create(null, null)
     endfunction
+    
+    /*
+    EventName.GetDataUnit("unit")
+    call EventName.SetDataUnit("unit", UNIT)
+	call EventName.Invoke()
+	call EventName.AddListener(function action, function condition)
+	*/
     
     /*Base Event Init*/
 	private function InitBaseEvents takes nothing returns nothing

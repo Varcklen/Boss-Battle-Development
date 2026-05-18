@@ -1,14 +1,14 @@
 library WrathBarBehaviour initializer init requires WrathBarEffect, StunLib
 
     globals
-        private constant integer DAMAGE_REQUIRES = 35
+        private constant integer DAMAGE_REQUIRES = 45
         private constant integer RESOURCE_TO_ADD = 1
         private constant integer MAX_VALUE = 100
         private constant integer ABILITY_ID = 'A1GR'
     endglobals
     
     private function condition takes nothing returns boolean
-        return GetUnitAbilityLevel( udg_DamageEventSource, ABILITY_ID) > 0 and IsUnitAlive(udg_DamageEventSource) //ADD CONDITION LATER
+        return GetUnitAbilityLevel( udg_DamageEventSource, ABILITY_ID) > 0 and IsUnitAlive(udg_DamageEventSource)
     endfunction
     
     //Stun Penalty
@@ -64,8 +64,8 @@ library WrathBarBehaviour initializer init requires WrathBarEffect, StunLib
     
     //Slow Condition
     globals
-        private constant real CHECK_COOLDOWN = 5
-        private constant real SLOW_DURATION = 3
+        private constant real CHECK_COOLDOWN = 7
+        private constant real SLOW_DURATION = 5
         private constant integer SLOW_EFFECT = 'A1GS'
         private constant integer SLOW_BUFF = 'B0AP'
         private constant integer CHARGE_GAIN_PERCENT_REQUIRE = 20

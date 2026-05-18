@@ -4,7 +4,7 @@ scope DealerE initializer init
         private constant integer ID_ABILITY = 'A188'
         
         private constant integer CHANCE_FIRST_LEVEL = 1
-        private constant integer CHANCE_LEVEL_BONUS = 4
+        private constant integer CHANCE_LEVEL_BONUS = 3
         
         private constant integer BANANA_SPAWN_SCATTER_ALTERNATIVE = 335
         

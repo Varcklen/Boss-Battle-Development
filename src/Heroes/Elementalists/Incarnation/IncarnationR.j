@@ -8,7 +8,7 @@ function Trig_IncarnationR_Conditions takes nothing returns boolean
     return GetSpellAbilityId() == 'A0V0' and combat( GetSpellAbilityUnit(), true, GetSpellAbilityId() )
 endfunction
 
-function IncarnationRAoE takes unit caster, unit dummy, real x, real y, real dmg, real area, string who, group h returns nothing
+function IncarnationRAoE takes unit caster, real x, real y, real dmg, real area, string who, group h returns nothing
     local group g = CreateGroup()
     local unit u
     
@@ -23,13 +23,9 @@ function IncarnationRAoE takes unit caster, unit dummy, real x, real y, real dmg
         call GroupRemoveUnit(g,u)
     endloop
     
-    call GroupClear( g )
     call DestroyGroup( g )
     set u = null
     set g = null
-    set caster = null
-    set dummy = null
-    set h = null
 endfunction
   
 function IncarnationRCast takes nothing returns nothing
@@ -40,7 +36,6 @@ function IncarnationRCast takes nothing returns nothing
     local integer count = LoadInteger( udg_hash, id, StringHash( "incrc" ) ) + 1
     local real dmgrift = LoadReal( udg_hash, id, StringHash( "incrf" ) )
     local unit caster = LoadUnitHandle( udg_hash, id, StringHash( "incr" ) )
-    local unit dummy = LoadUnitHandle( udg_hash, id, StringHash( "incrd" ) )
     local real x = LoadReal( udg_hash, id, StringHash( "incrx" ) )
     local real y = LoadReal( udg_hash, id, StringHash( "incry" ) )
     local real xc = GetUnitX( caster )
@@ -56,7 +51,7 @@ function IncarnationRCast takes nothing returns nothing
     if SquareRoot( IfX + IfY ) > 50 and GetUnitState( caster, UNIT_STATE_LIFE) > 0.405 and combat( caster, false, 0 ) and GetUnitAbilityLevel(caster, 'A16J') == 0 then
         call SetUnitPosition( caster, NewX, NewY )
         if count >= 5 then
-            call IncarnationRAoE(caster, dummy, NewX, NewY, dmg, 142, "enemy", h)
+            call IncarnationRAoE(caster, NewX, NewY, dmg, 142, "enemy", h)
             set count = 0
         endif
 		call SaveGroupHandle( udg_hash, id, StringHash( "incrg" ), h )
@@ -70,7 +65,6 @@ function IncarnationRCast takes nothing returns nothing
         call SetUnitPathing( caster, true )
         call UnitRemoveAbility( caster, 'Avul' )
         call PauseUnit( caster, false )
-        call RemoveUnit( dummy )
         call FlushChildHashtable( udg_hash, id )
         call DestroyTimer( GetExpiredTimer() )
     endif
@@ -154,8 +148,7 @@ function Trig_IncarnationR_Actions takes nothing returns nothing
 	
     call PauseUnit( caster, true )
 	call UnitAddAbility( caster, 'Avul' )
-    
-    call dummyspawn( caster, 0, 'A0N5', 0, 0 )
+
     call SetUnitPathing( caster, false )
     call SetUnitFacing( caster, bj_RADTODEG * Atan2(y - GetUnitY(caster), x - GetUnitX(caster) ) )
 
@@ -164,7 +157,6 @@ function Trig_IncarnationR_Actions takes nothing returns nothing
     endif
     set id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( "incr" ) ) ) 
     call SaveUnitHandle( udg_hash, id, StringHash( "incr" ), caster )
-    call SaveUnitHandle( udg_hash, id, StringHash( "incrd" ), bj_lastCreatedUnit )
 	call SaveReal( udg_hash, id, StringHash( "incrx" ), x )
 	call SaveReal( udg_hash, id, StringHash( "incry" ), y )
     call SaveReal( udg_hash, id, StringHash( "incr" ), dmg )
@@ -176,7 +168,6 @@ function Trig_IncarnationR_Actions takes nothing returns nothing
 
 	call SetUnitState( caster, UNIT_STATE_LIFE, RMaxBJ(10,GetUnitState( caster, UNIT_STATE_LIFE) - ( GetUnitState( caster, UNIT_STATE_MAX_LIFE) * (0.2 - (0.02*lvl) ) ) ) )
 
-	call GroupClear( g )
     call DestroyGroup( g )
     set u = null
 	set g = null

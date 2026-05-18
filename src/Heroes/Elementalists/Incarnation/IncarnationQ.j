@@ -13,21 +13,20 @@ function IncarnationQCast takes nothing returns nothing
     local integer counter = LoadInteger( udg_hash, id, StringHash( "incq" ) )
     local unit dummy = LoadUnitHandle( udg_hash, id, StringHash( "incq1" ) )
     local unit caster = LoadUnitHandle( udg_hash, id, StringHash( "incq" ) )
-    local group g = CreateGroup()
-    local unit u
     local real dmg = LoadReal( udg_hash, id, StringHash( "incq" ) )
     local real x = LoadReal( udg_hash, id, StringHash( "incqx" ) )
     local real y = LoadReal( udg_hash, id, StringHash( "incqy" ) )
 
-    call GroupEnumUnitsInRange( g, x, y, 142, null )
+    /*call GroupEnumUnitsInRange( g, x, y, 142, null )
     loop
         set u = FirstOfGroup(g)
         exitwhen u == null
         if unitst( u, caster, "enemy" ) then
-            call UnitDamageTarget( dummy, u, dmg, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS )
+            call UnitDamageTarget( caster, u, dmg, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS )
         endif
         call GroupRemoveUnit(g,u)
-    endloop
+    endloop*/
+    call GroupAoE( caster, x, y, dmg, 142, "enemy", "", "" )
     
     if counter > 0 and GetUnitState( dummy, UNIT_STATE_LIFE) > 0.405 then
         call SaveInteger( udg_hash, id, StringHash( "incq" ), counter - 1 )
@@ -37,10 +36,6 @@ function IncarnationQCast takes nothing returns nothing
         call FlushChildHashtable( udg_hash, id ) 
     endif
     
-    call GroupClear( g )
-    call DestroyGroup( g )
-    set u = null
-	set g = null
     set dummy = null
     set caster = null
 endfunction

@@ -576,12 +576,6 @@ STRING 86
 Random hero
 }
 
-STRING 87
-// Units: u001 (Soul shard), Name (Name)
-{
-Soul shard
-}
-
 STRING 88
 // Units: u000 (dummy), Name (Name)
 {
@@ -6186,6 +6180,27 @@ STRING 960
 // Items: I0HP (Runestone Lous), Name (Name)
 {
 Runestone Lous
+}
+
+STRING 962
+// Buffs/Effects: B0AZ (), Bufftip (Tooltip)
+{
+|cffff0000Iron Maiden|r
+}
+
+STRING 963
+// Buffs/Effects: B0AZ (), Buffubertip (Tooltip - Extended)
+{
+Takes damage over time.
+}
+
+STRING 964
+// Abilities: A0KS (Metal Mage: Iron Maiden), Researchubertip (Tooltip - Learn - Extended)
+{
+Weakens the enemy. Reduces target's movement speed by 80% and deals |cffbe81f750|r damage every second.
+|cffffcc00Duration:|r 3/4/5/6/7 seconds.
+|cffffcc00Cooldown:|r 14 seconds.
+|cffffcc00Cost:|r 60 mana.
 }
 
 STRING 965
@@ -17245,14 +17260,6 @@ When any hero dies, restores |cffbe81f720%|r of the maximum health and mana to a
 |cff81f260[Random bonus]|r
 }
 
-STRING 2569
-// Abilities: A189 (Dealer: Harmless Offering), Researchubertip (Tooltip - Learn - Extended)
-{
-Creates 2/3/4/5/6 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7100|r health to your hero.
-|cffffcc00Life time:|r 60 seconds. 
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
 STRING 2570
 // Items: I044 (Magic meat), Name (Name)
 {
@@ -17263,14 +17270,6 @@ STRING 2571
 // Items: I044 (Magic meat), Tip (Tooltip - Basic)
 {
 Magic meat
-}
-
-STRING 2572
-// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
-{
-Creates 2 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7100|r health to your hero.
-|cffffcc00Life time:|r 60 seconds. 
-|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 2573
@@ -18338,14 +18337,6 @@ STRING 2729
 Absorbs missing artifacts from the set "|cff2d9995Weapon|r".
 }
 
-STRING 2730
-// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
-{
-Creates 3 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7100|r health to your hero.
-|cffffcc00Life time:|r 60 seconds. 
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
 STRING 2731
 // Items: I02Z (Runestone Sin), Name (Name)
 {
@@ -18356,14 +18347,6 @@ STRING 2732
 // Items: I02Z (Runestone Sin), Tip (Tooltip - Basic)
 {
 Runestone Sin
-}
-
-STRING 2733
-// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
-{
-Creates 4 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7100|r health to your hero.
-|cffffcc00Life time:|r 60 seconds. 
-|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 2734
@@ -18714,6 +18697,14 @@ STRING 2785
 Tassadar
 }
 
+STRING 2786
+// Abilities: A0KS (Metal Mage: Iron Maiden), Ubertip (Tooltip - Normal - Extended)
+{
+Weakens the enemy. Reduces target's movement speed by 80% and deals |cffbe81f750|r damage every second.
+|cffffcc00Duration:|r 3 seconds.
+|cffffcc00Cooldown:|r 14 seconds.
+}
+
 STRING 2787
 // Abilities: A1EO (Lightning Attack (Energy Ball)), Name (Name)
 {
@@ -18810,14 +18801,6 @@ Activation: Summons Superbot-3000. When summoned, it upgraded depending on the l
 |cffffcc00Cooldown:|r 90 seconds.
 }
 
-STRING 2801
-// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
-{
-Creates 5 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7100|r health to your hero.
-|cffffcc00Life time:|r 60 seconds. 
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
 STRING 2802
 // Abilities: A1CK (Lycanthrope: Murder at Midnight), Ubertip (Tooltip - Normal - Extended)
 {
@@ -18835,14 +18818,6 @@ The night is coming for a while. The hero turns into a wolf, changing abilities.
 
 |cffffcc00[Stossgebet]|r - Deals damage to enemies and increases their damage taken.
 |cffffcc00[Glaubenskraft]|r - Applies a buff to an ally. It deals damage around the target and restores the target's health based on damage taken while the buff is active. Health cost increased.
-}
-
-STRING 2804
-// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
-{
-Creates 6 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7100|r health to your hero.
-|cffffcc00Life time:|r 60 seconds. 
-|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 2805
@@ -23140,12 +23115,6 @@ STRING 3454
 Aspect of Bananavision
 }
 
-STRING 3455
-// Abilities: A1CG (Aspect: Dealer: Aspect of Bananavision), Ubertip (Tooltip - Normal - Extended)
-{
-Eagle Eye now summons Totally Legit Bananas instead of doubling ability or item. Doubles the chance of triggering the effect.
-}
-
 STRING 3456
 // Abilities: A1CF (Aspect: Dealer: Aspect of Potassium), Name (Name)
 {
@@ -26946,14 +26915,6 @@ STRING 4054
 Eagle Eye, [|cffffcc00Level %d|r]
 }
 
-STRING 4055
-// Abilities: A188 (Dealer: Eagle Eye), Researchubertip (Tooltip - Learn - Extended)
-{
-When you use an ability or item, there is a |cffd7df015%/9%/13%/17%/21%|r chance to use it again. 
-
-|cFF959697Does not affect corrupted artifacts. Second use will be level 5, and the effect will last 20 seconds.|r
-}
-
 STRING 4056
 // Abilities: A188 (Dealer: Eagle Eye), Tip (Tooltip - Normal)
 {
@@ -26984,42 +26945,10 @@ STRING 4060
 Eagle Eye, [|cffffcc00Level 5|r]
 }
 
-STRING 4061
-// Abilities: A188 (Dealer: Eagle Eye), Ubertip (Tooltip - Normal - Extended)
-{
-When you use an ability or item, there is a |cffd7df015%|r chance to use it again. 
-
-|cFF959697Does not affect corrupted artifacts. Second use will be level 5, and the effect will last 20 seconds.|r
-}
-
-STRING 4062
-// Abilities: A188 (Dealer: Eagle Eye), Ubertip (Tooltip - Normal - Extended)
-{
-When you use an ability or item, there is a |cffd7df019%|r chance to use it again. 
-
-|cFF959697Does not affect corrupted artifacts. Second use will be level 5, and the effect will last 20 seconds.|r
-}
-
 STRING 4063
 // Abilities: A188 (Dealer: Eagle Eye), Ubertip (Tooltip - Normal - Extended)
 {
 When you use an ability or item, there is a |cffd7df0113%|r chance to use it again. 
-
-|cFF959697Does not affect corrupted artifacts. Second use will be level 5, and the effect will last 20 seconds.|r
-}
-
-STRING 4064
-// Abilities: A188 (Dealer: Eagle Eye), Ubertip (Tooltip - Normal - Extended)
-{
-When you use an ability or item, there is a |cffd7df0117%|r chance to use it again. 
-
-|cFF959697Does not affect corrupted artifacts. Second use will be level 5, and the effect will last 20 seconds.|r
-}
-
-STRING 4065
-// Abilities: A188 (Dealer: Eagle Eye), Ubertip (Tooltip - Normal - Extended)
-{
-When you use an ability or item, there is a |cffd7df0121%|r chance to use it again. 
 
 |cFF959697Does not affect corrupted artifacts. Second use will be level 5, and the effect will last 20 seconds.|r
 }
@@ -27196,13 +27125,6 @@ STRING 4091
 // Abilities: A183 (Dealer: Explosive Goods), Researchtip (Tooltip - Learn)
 {
 Explosive Goods, [|cffffcc00Level %d|r]
-}
-
-STRING 4092
-// Abilities: A183 (Dealer: Explosive Goods), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f7150/200/250/300/350|r damage to a target. If it dies, get 40/50/60/70/80 gold. Otherwise, summons 1/1/2/2/3 totally legit bananas.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 4093
@@ -31335,12 +31257,6 @@ STRING 4734
 Harvest
 }
 
-STRING 4735
-// Abilities: A133 (Прочее: Осколок души: Жатва), Ubertip (Tooltip - Normal - Extended)
-{
-When a warrior kills an enemy with his attack, he restores |cffbe81f7 health and mana|r from the warrior’s maximum health and mana.
-}
-
 STRING 4736
 // Abilities: A132 (Soul Contract: Blood), Name (Name)
 {
@@ -33629,6 +33545,14 @@ STRING 5081
 // Abilities: A10Q (Curse: Scatter (b15)), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Scatter
+}
+
+STRING 5082
+// Abilities: A0KS (Metal Mage: Iron Maiden), Ubertip (Tooltip - Normal - Extended)
+{
+Weakens the enemy. Reduces target's movement speed by 80% and deals |cffbe81f750|r damage every second.
+|cffffcc00Duration:|r 4 seconds.
+|cffffcc00Cooldown:|r 14 seconds.
 }
 
 STRING 5083
@@ -36521,6 +36445,14 @@ STRING 5525
 // Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Name (Name)
 {
 |cffffcc00Уровень 2:|r Огр-маг
+}
+
+STRING 5526
+// Abilities: A0KS (Metal Mage: Iron Maiden), Ubertip (Tooltip - Normal - Extended)
+{
+Weakens the enemy. Reduces target's movement speed by 80% and deals |cffbe81f750|r damage every second.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 14 seconds.
 }
 
 STRING 5527
@@ -43788,6 +43720,14 @@ STRING 6643
 Crown of Thorns, [|cffffcc00Level %d|r]
 }
 
+STRING 6644
+// Abilities: A0KS (Metal Mage: Iron Maiden), Ubertip (Tooltip - Normal - Extended)
+{
+Weakens the enemy. Reduces target's movement speed by 80% and deals |cffbe81f750|r damage every second.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 14 seconds.
+}
+
 STRING 6645
 // Abilities: A0OF (Ent: Crown of Thorns), Tip (Tooltip - Normal)
 {
@@ -46169,15 +46109,6 @@ STRING 7012
 Metallica, [|cffffcc00Level %d|r]
 }
 
-STRING 7013
-// Abilities: A0LY (Metal Mage: Metallica), Researchubertip (Tooltip - Learn - Extended)
-{
-Summons a golem of magic steel that can provoke enemies. His stats depend on the |cffbe81f7spell power|r.
-Reuse removes the old golem.
-|cffffcc00Cooldown:|r 60 seconds.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 7014
 // Abilities: A0LY (Metal Mage: Metallica), Tip (Tooltip - Normal)
 {
@@ -46206,54 +46137,6 @@ STRING 7018
 // Abilities: A0LY (Metal Mage: Metallica), Tip (Tooltip - Normal)
 {
 Metallica, [|cffffcc00Level 5|r]
-}
-
-STRING 7019
-// Abilities: A0LY (Metal Mage: Metallica), Ubertip (Tooltip - Normal - Extended)
-{
-Summons a golem of magic steel that can provoke enemies. His stats depend on the |cffbe81f7spell power|r.
-Reuse removes the old golem.
-|cffffcc00Cooldown:|r 60 seconds.
-}
-
-STRING 7020
-// Abilities: A0LY (Metal Mage: Metallica), Ubertip (Tooltip - Normal - Extended)
-{
-Summons a golem of magic steel that can provoke enemies. His stats depend on the |cffbe81f7spell power|r.
-Reuse removes the old golem.
-|cffffcc00Cooldown:|r 60 seconds.
-
-|cFF959697More effective than Metallica (Rank 1).|r
-}
-
-STRING 7021
-// Abilities: A0LY (Metal Mage: Metallica), Ubertip (Tooltip - Normal - Extended)
-{
-Summons a golem of magic steel that can provoke enemies. His stats depend on the |cffbe81f7spell power|r.
-Reuse removes the old golem.
-|cffffcc00Cooldown:|r 60 seconds.
-
-|cFF959697More effective than Metallica (Rank 2).|r
-}
-
-STRING 7022
-// Abilities: A0LY (Metal Mage: Metallica), Ubertip (Tooltip - Normal - Extended)
-{
-Summons a golem of magic steel that can provoke enemies. His stats depend on the |cffbe81f7spell power|r.
-Reuse removes the old golem.
-|cffffcc00Cooldown:|r 60 seconds.
-
-|cFF959697More effective than Metallica (Rank 3).|r
-}
-
-STRING 7023
-// Abilities: A0LY (Metal Mage: Metallica), Ubertip (Tooltip - Normal - Extended)
-{
-Summons a golem of magic steel that can provoke enemies. His stats depend on the |cffbe81f7spell power|r.
-Reuse removes the old golem.
-|cffffcc00Cooldown:|r 60 seconds.
-
-|cFF959697More effective than Metallica (Rank 4).|r
 }
 
 STRING 7024
@@ -47393,12 +47276,6 @@ STRING 7197
 Снаряд: Импульс
 }
 
-STRING 7198
-// Abilities: A0KZ (Опутывание: Iron Maiden), Name (Name)
-{
-Опутывание: Iron Maiden
-}
-
 STRING 7199
 // Abilities: A0KY (Аура: Усиление), Name (Name)
 {
@@ -47474,15 +47351,6 @@ STRING 7210
 Iron Maiden, [|cffffcc00Level %d|r]
 }
 
-STRING 7211
-// Abilities: A0KS (Metal Mage: Iron Maiden), Researchubertip (Tooltip - Learn - Extended)
-{
-Weakens the enemy. The target cannot move and every second takes |cffbe81f750|r damage.
-|cffffcc00Duration:|r 3/4/5/6/7 seconds.
-|cffffcc00Cooldown:|r 14 seconds.
-|cffffcc00Cost:|r 60/65/70/75/80 mana.
-}
-
 STRING 7212
 // Abilities: A0KS (Metal Mage: Iron Maiden), Tip (Tooltip - Normal)
 {
@@ -47511,46 +47379,6 @@ STRING 7216
 // Abilities: A0KS (Metal Mage: Iron Maiden), Tip (Tooltip - Normal)
 {
 Iron Maiden, [|cffffcc00Level 5|r]
-}
-
-STRING 7217
-// Abilities: A0KS (Metal Mage: Iron Maiden), Ubertip (Tooltip - Normal - Extended)
-{
-Weakens the enemy. The target cannot move and every second takes |cffbe81f750|r damage.
-|cffffcc00Duration:|r 3 seconds.
-|cffffcc00Cooldown:|r 14 seconds.
-}
-
-STRING 7218
-// Abilities: A0KS (Metal Mage: Iron Maiden), Ubertip (Tooltip - Normal - Extended)
-{
-Weakens the enemy. The target cannot move and every second takes |cffbe81f750|r damage.
-|cffffcc00Duration:|r 4 seconds.
-|cffffcc00Cooldown:|r 14 seconds.
-}
-
-STRING 7219
-// Abilities: A0KS (Metal Mage: Iron Maiden), Ubertip (Tooltip - Normal - Extended)
-{
-Weakens the enemy. The target cannot move and every second takes |cffbe81f750|r damage.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 14 seconds.
-}
-
-STRING 7220
-// Abilities: A0KS (Metal Mage: Iron Maiden), Ubertip (Tooltip - Normal - Extended)
-{
-Weakens the enemy. The target cannot move and every second takes |cffbe81f750|r damage.
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 14 seconds.
-}
-
-STRING 7221
-// Abilities: A0KS (Metal Mage: Iron Maiden), Ubertip (Tooltip - Normal - Extended)
-{
-Weakens the enemy. The target cannot move and every second takes |cffbe81f750|r damage.
-|cffffcc00Duration:|r 7 seconds.
-|cffffcc00Cooldown:|r 14 seconds.
 }
 
 STRING 7222
@@ -47605,17 +47433,6 @@ STRING 7230
 // Abilities: A0KM (Metal Mage: Slayer), Researchtip (Tooltip - Learn)
 {
 Slayer, [|cffffcc00Level %d|r]
-}
-
-STRING 7231
-// Abilities: A0KM (Metal Mage: Slayer), Researchubertip (Tooltip - Learn - Extended)
-{
-|cffffcc00Passive:|r Increases spell power by 2%/3%/4%/5%/6% for each armor of your hero.
-
-Your next 3 hits will do |cffbe81f750/75/100/125/150|r more damage.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 5 seconds.
-|cffffcc00Cost:|r 65 mana.
 }
 
 STRING 7232
@@ -50847,6 +50664,14 @@ STRING 7721
 // Abilities: A0H7 (Босс 8: Древний энт (Природная аура)), Ubertip (Tooltip - Normal - Extended)
 {
 Nearby enemies take |cffbe81f740|r damage per second.
+}
+
+STRING 7722
+// Abilities: A0KS (Metal Mage: Iron Maiden), Ubertip (Tooltip - Normal - Extended)
+{
+Weakens the enemy. Reduces target's movement speed by 80% and deals |cffbe81f750|r damage every second.
+|cffffcc00Duration:|r 7 seconds.
+|cffffcc00Cooldown:|r 14 seconds.
 }
 
 STRING 7723
@@ -62242,12 +62067,6 @@ STRING 9492
 Harvest, [|cffffcc00Level %d|r]
 }
 
-STRING 9493
-// Abilities: A05M (Reaper: Harvest), Researchubertip (Tooltip - Learn - Extended)
-{
-When the hero kills an enemy with an attack, heals |cffbe81f72%/4%/6%/8%/10%|r of maximum health and mana. When the hero dies, summon a soul shard with 40%/55%/70%/85%/100% health and mana.
-}
-
 STRING 9494
 // Abilities: A05M (Reaper: Harvest), Tip (Tooltip - Normal)
 {
@@ -62276,36 +62095,6 @@ STRING 9498
 // Abilities: A05M (Reaper: Harvest), Tip (Tooltip - Normal)
 {
 Harvest, [|cffffcc00Level 5|r]
-}
-
-STRING 9499
-// Abilities: A05M (Reaper: Harvest), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero kills an enemy with an attack, heals |cffbe81f72%|r of maximum health and mana. When the hero dies, summon a soul shard with 40% health and mana.
-}
-
-STRING 9500
-// Abilities: A05M (Reaper: Harvest), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero kills an enemy with an attack, heals |cffbe81f74%|r of maximum health and mana. When the hero dies, summon a soul shard with 55% health and mana.
-}
-
-STRING 9501
-// Abilities: A05M (Reaper: Harvest), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero kills an enemy with an attack, heals |cffbe81f76%|r of maximum health and mana. When the hero dies, summon a soul shard with 70% health and mana.
-}
-
-STRING 9502
-// Abilities: A05M (Reaper: Harvest), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero kills an enemy with an attack, heals |cffbe81f78%|r of maximum health and mana. When the hero dies, summon a soul shard with 85% health and mana.
-}
-
-STRING 9503
-// Abilities: A05M (Reaper: Harvest), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero kills an enemy with an attack, heals |cffbe81f710%|r of maximum health and mana. When the hero dies, summon a soul shard with 100% health and mana.
 }
 
 STRING 9504
@@ -62663,10 +62452,25 @@ STRING 9556
 R
 }
 
+STRING 9557
+// Abilities: A1HY ((т)Аура: Iron Maiden), Name (Name)
+{
+(т)Аура: Iron Maiden
+}
+
 STRING 9558
 // Abilities: A04K (Doctor: Reincarnation), Hotkey (Hotkey - Normal)
 {
 R
+}
+
+STRING 9559
+// Abilities: A0LY (Metal Mage: Metallica), Researchubertip (Tooltip - Learn - Extended)
+{
+Summons a Golem of Magic Steel that can provoke enemies. The stats depend on the |cffbe81f7Spell Power|r.
+Reuse removes the old Golem.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 75 mana.
 }
 
 STRING 9560
@@ -73970,6 +73774,14 @@ STRING 11348
 Carve Rune of the Illusionist
 }
 
+STRING 11349
+// Abilities: A0LY (Metal Mage: Metallica), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a Golem of Magic Steel that can provoke enemies. The stats depend on the |cffbe81f7Spell Power|r.
+Reuse removes the old Golem.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 11350
 // Abilities: A1E0 (Runesmith: Carve Rune of the Strongman), Ubertip (Tooltip - Normal - Extended)
 {
@@ -73982,6 +73794,14 @@ STRING 11351
 {
 |cff50ff90Use when picked up|r
 Gives a random stat.
+}
+
+STRING 11352
+// Abilities: A0LY (Metal Mage: Metallica), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a Golem of Magic Steel that can provoke enemies. The stats depend on the |cffbe81f7Spell Power|r.
+Reuse removes the old Golem.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 11353
@@ -75760,6 +75580,14 @@ Makes all nearby creatures invisible for 3 seconds. Restores |cffbe81f7120|r man
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 11607
+// Abilities: A0LY (Metal Mage: Metallica), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a Golem of Magic Steel that can provoke enemies. The stats depend on the |cffbe81f7Spell Power|r.
+Reuse removes the old Golem.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 11608
 // Buffs/Effects: B0AY (), Bufftip (Tooltip)
 {
@@ -76276,15 +76104,6 @@ STRING 11682
 Suppressing Anger, [|cffffcc00Level %d|r]
 }
 
-STRING 11683
-// Abilities: A1GV (Collector: Suppressing Anger), Researchubertip (Tooltip - Learn - Extended)
-{
-Adds an effect on the caster that restores |cffbe81f720/30/40/50/60|r health and reduces the charge of Wrath by 5% every 0.5 seconds.
-|cffffcc00Duration:|r 2 seconds.
-|cffffcc00Cooldown:|r 5 seconds.
-|cffffcc00Cost:|r 40 mana.
-}
-
 STRING 11684
 // Abilities: A1GV (Collector: Suppressing Anger), Tip (Tooltip - Normal)
 {
@@ -76313,46 +76132,6 @@ STRING 11688
 // Abilities: A1GV (Collector: Suppressing Anger), Tip (Tooltip - Normal)
 {
 Suppressing Anger, [|cffffcc00Level 5|r]
-}
-
-STRING 11689
-// Abilities: A1GV (Collector: Suppressing Anger), Ubertip (Tooltip - Normal - Extended)
-{
-Adds an effect on the caster that restores |cffbe81f720|r health and reduces the charge of Wrath by 5% every 0.5 seconds.
-|cffffcc00Duration:|r 2 seconds.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 11690
-// Abilities: A1GV (Collector: Suppressing Anger), Ubertip (Tooltip - Normal - Extended)
-{
-Adds an effect on the caster that restores |cffbe81f730|r health and reduces the charge of Wrath by 5% every 0.5 seconds.
-|cffffcc00Duration:|r 2 seconds.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 11691
-// Abilities: A1GV (Collector: Suppressing Anger), Ubertip (Tooltip - Normal - Extended)
-{
-Adds an effect on the caster that restores |cffbe81f740|r health and reduces the charge of Wrath by 5% every 0.5 seconds.
-|cffffcc00Duration:|r 2 seconds.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 11692
-// Abilities: A1GV (Collector: Suppressing Anger), Ubertip (Tooltip - Normal - Extended)
-{
-Adds an effect on the caster that restores |cffbe81f750|r health and reduces the charge of Wrath by 5% every 0.5 seconds.
-|cffffcc00Duration:|r 2 seconds.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 11693
-// Abilities: A1GV (Collector: Suppressing Anger), Ubertip (Tooltip - Normal - Extended)
-{
-Adds an effect on the caster that restores |cffbe81f760|r health and reduces the charge of Wrath by 5% every 0.5 seconds.
-|cffffcc00Duration:|r 2 seconds.
-|cffffcc00Cooldown:|r 5 seconds.
 }
 
 STRING 11694
@@ -78295,6 +78074,22 @@ At the beginning of the battle, the hero deals and restores 100% more, and the d
 |cffffcc00Duration:|r 20 seconds.
 }
 
+STRING 11962
+// Abilities: A0LY (Metal Mage: Metallica), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a Golem of Magic Steel that can provoke enemies. The stats depend on the |cffbe81f7Spell Power|r.
+Reuse removes the old Golem.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 11963
+// Abilities: A0LY (Metal Mage: Metallica), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a Golem of Magic Steel that can provoke enemies. The stats depend on the |cffbe81f7Spell Power|r.
+Reuse removes the old Golem.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 11964
 // Abilities: A1HW (.General: No Modify Current Health), Name (Name)
 {
@@ -78331,6 +78126,151 @@ When you use a |cff088a08potion|r, increases Spell Power by 6% until the end of 
 |cffffffffReduces potion spell power by 30%.|r
 }
 
+STRING 11969
+// Abilities: A0KM (Metal Mage: Slayer), Researchubertip (Tooltip - Learn - Extended)
+{
+|cffffcc00Passive:|r Increases spell power by 2%/3%/4%/5%/6% for each armor of your hero.
+
+Your next 3 hits will do |cffbe81f750/75/100/125/150|r more damage.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 5 seconds.
+|cffffcc00Cost:|r 40 mana.
+}
+
+STRING 11970
+// Abilities: A0KZ (Extra: Rolling Stone), Name (Name)
+{
+Extra: Rolling Stone
+}
+
+STRING 11971
+// Abilities: A0KZ (Extra: Rolling Stone), Tip (Tooltip - Normal)
+{
+Rolling Stone
+}
+
+STRING 11973
+// Abilities: A1HX ((т)Аура: Rolling Stone), Name (Name)
+{
+(т)Аура: Rolling Stone
+}
+
+STRING 11974
+// Buffs/Effects: B0B0 (), Bufftip (Tooltip)
+{
+|cff00ff00Rolling Stone|r
+}
+
+STRING 11975
+// Buffs/Effects: B0B0 (), Buffubertip (Tooltip - Extended)
+{
+Spell power increased.
+}
+
+STRING 11976
+// Abilities: A1GV (Collector: Suppressing Anger), Researchubertip (Tooltip - Learn - Extended)
+{
+Adds an effect on the caster that restores |cffbe81f720/30/40/50/60|r health and reduces the charge of Wrath by 5% every 0.5 seconds.
+|cffffcc00Duration:|r 2 seconds.
+|cffffcc00Cooldown:|r 3.5 seconds.
+|cffffcc00Cost:|r 40 mana.
+}
+
+STRING 11977
+// Abilities: A1GV (Collector: Suppressing Anger), Ubertip (Tooltip - Normal - Extended)
+{
+Adds an effect on the caster that restores |cffbe81f720|r health and reduces the charge of Wrath by 5% every 0.5 seconds.
+|cffffcc00Duration:|r 2 seconds.
+|cffffcc00Cooldown:|r 3.5 seconds.
+}
+
+STRING 11978
+// Abilities: A1GV (Collector: Suppressing Anger), Ubertip (Tooltip - Normal - Extended)
+{
+Adds an effect on the caster that restores |cffbe81f730|r health and reduces the charge of Wrath by 5% every 0.5 seconds.
+|cffffcc00Duration:|r 2 seconds.
+|cffffcc00Cooldown:|r 3.5 seconds.
+}
+
+STRING 11979
+// Abilities: A1GV (Collector: Suppressing Anger), Ubertip (Tooltip - Normal - Extended)
+{
+Adds an effect on the caster that restores |cffbe81f740|r health and reduces the charge of Wrath by 5% every 0.5 seconds.
+|cffffcc00Duration:|r 2 seconds.
+|cffffcc00Cooldown:|r 3.5 seconds.
+}
+
+STRING 11980
+// Abilities: A1GV (Collector: Suppressing Anger), Ubertip (Tooltip - Normal - Extended)
+{
+Adds an effect on the caster that restores |cffbe81f750|r health and reduces the charge of Wrath by 5% every 0.5 seconds.
+|cffffcc00Duration:|r 2 seconds.
+|cffffcc00Cooldown:|r 3.5 seconds.
+}
+
+STRING 11981
+// Abilities: A1GV (Collector: Suppressing Anger), Ubertip (Tooltip - Normal - Extended)
+{
+Adds an effect on the caster that restores |cffbe81f760|r health and reduces the charge of Wrath by 5% every 0.5 seconds.
+|cffffcc00Duration:|r 2 seconds.
+|cffffcc00Cooldown:|r 3.5 seconds.
+}
+
+STRING 11982
+// Abilities: A0KZ (Extra: Rolling Stone), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Spell Power by 100% until your next cast.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 11983
+// Abilities: A1CG (Aspect: Dealer: Aspect of Bananavision), Ubertip (Tooltip - Normal - Extended)
+{
+Eagle Eye now summons Totally Legit Bananas instead of doubling ability or item.
+}
+
+STRING 11984
+// Abilities: A189 (Dealer: Harmless Offering), Researchubertip (Tooltip - Learn - Extended)
+{
+Creates 2/3/4/5/6 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7135|r health to your hero.
+|cffffcc00Life time:|r 60 seconds. 
+|cffffcc00Cooldown:|r 40 seconds.
+|cffffcc00Cost:|r 100 mana.
+}
+
+STRING 11985
+// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
+{
+Creates 2 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7135|r health to your hero.
+|cffffcc00Life time:|r 60 seconds. 
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 11986
+// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
+{
+Creates 3 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7135|r health to your hero.
+|cffffcc00Life time:|r 60 seconds. 
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 11987
+// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
+{
+Creates 4 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7135|r health to your hero.
+|cffffcc00Life time:|r 60 seconds. 
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 11988
+// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
+{
+Creates 5 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7135|r health to your hero.
+|cffffcc00Life time:|r 60 seconds. 
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
 STRING 11989
 // Items: IV02 (Baked Treat), Description (Description)
 {
@@ -78342,6 +78282,104 @@ STRING 11990
 // Items: IV02 (Baked Treat), Name (Name)
 {
 Baked Treat
+}
+
+STRING 11991
+// Abilities: A189 (Dealer: Harmless Offering), Ubertip (Tooltip - Normal - Extended)
+{
+Creates 6 totally legit bananas in the area. Each banana taunts a random unit sometimes. Whenever a banana dies, gives |cffbe81f720|r gold and restores |cffbe81f7135|r health to your hero.
+|cffffcc00Life time:|r 60 seconds. 
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 11992
+// Abilities: A188 (Dealer: Eagle Eye), Researchubertip (Tooltip - Learn - Extended)
+{
+When you use an ability or item, there is a |cffd7df014%/7%/10%/13%/16%|r chance to use it again. 
+
+|cFF959697Does not affect corrupted artifacts. Second use will be level 5, and the effect will last 20 seconds.|r
+}
+
+STRING 11993
+// Abilities: A188 (Dealer: Eagle Eye), Ubertip (Tooltip - Normal - Extended)
+{
+When you use an ability or item, there is a |cffd7df014%|r chance to use it again. 
+
+|cFF959697Does not affect corrupted artifacts. Second use will be level 5, and the effect will last 20 seconds.|r
+}
+
+STRING 11994
+// Abilities: A188 (Dealer: Eagle Eye), Ubertip (Tooltip - Normal - Extended)
+{
+When you use an ability or item, there is a |cffd7df017%|r chance to use it again. 
+
+|cFF959697Does not affect corrupted artifacts. Second use will be level 5, and the effect will last 20 seconds.|r
+}
+
+STRING 11995
+// Abilities: A188 (Dealer: Eagle Eye), Ubertip (Tooltip - Normal - Extended)
+{
+When you use an ability or item, there is a |cffd7df0110%|r chance to use it again. 
+
+|cFF959697Does not affect corrupted artifacts. Second use will be level 5, and the effect will last 20 seconds.|r
+}
+
+STRING 11996
+// Abilities: A188 (Dealer: Eagle Eye), Ubertip (Tooltip - Normal - Extended)
+{
+When you use an ability or item, there is a |cffd7df0116%|r chance to use it again. 
+
+|cFF959697Does not affect corrupted artifacts. Second use will be level 5, and the effect will last 20 seconds.|r
+}
+
+STRING 11997
+// Abilities: A183 (Dealer: Explosive Goods), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f7150/200/250/300/350|r damage to a target. If it dies, get 40/50/60/70/80 gold. Otherwise, summons 1/1/2/2/3 totally legit bananas.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 11998
+// Abilities: A05M (Reaper: Harvest), Researchubertip (Tooltip - Learn - Extended)
+{
+When your Hero dies, summon their Soul with 40%/55%/70%/85%/100% of the Hero's stats.
+Each kill restores |cffbe81f74%/5.5%/7%/8.5%/10%|r Health and Mana, and permanently increases the stats of future summoned Souls by 5%.
+}
+
+STRING 11999
+// Abilities: A05M (Reaper: Harvest), Ubertip (Tooltip - Normal - Extended)
+{
+When your Hero dies, summon their Soul with 40% of the Hero's stats.
+Each kill restores |cffbe81f74%|r Health and Mana, and permanently increases the stats of future summoned Souls by 5%.
+}
+
+STRING 12000
+// Abilities: A05M (Reaper: Harvest), Ubertip (Tooltip - Normal - Extended)
+{
+When your Hero dies, summon their Soul with 55% of the Hero's stats.
+Each kill restores |cffbe81f75.5%|r Health and Mana, and permanently increases the stats of future summoned Souls by 5%.
+}
+
+STRING 12001
+// Abilities: A05M (Reaper: Harvest), Ubertip (Tooltip - Normal - Extended)
+{
+When your Hero dies, summon their Soul with 70% of the Hero's stats.
+Each kill restores |cffbe81f77%|r Health and Mana, and permanently increases the stats of future summoned Souls by 5%.
+}
+
+STRING 12002
+// Abilities: A05M (Reaper: Harvest), Ubertip (Tooltip - Normal - Extended)
+{
+When your Hero dies, summon their Soul with 85% of the Hero's stats.
+Each kill restores |cffbe81f78.5%|r Health and Mana, and permanently increases the stats of future summoned Souls by 5%.
+}
+
+STRING 12003
+// Abilities: A05M (Reaper: Harvest), Ubertip (Tooltip - Normal - Extended)
+{
+When your Hero dies, summon their Soul with 100% of the Hero's stats.
+Each kill restores |cffbe81f710%|r Health and Mana, and permanently increases the stats of future summoned Souls by 5%.
 }
 
 STRING 12004
@@ -78486,6 +78524,18 @@ STRING 12027
 // Abilities: A1HD (Special: Farewell), Hotkey (Hotkey - Normal)
 {
 F
+}
+
+STRING 12028
+// Units: u001 (Soul Shard), Name (Name)
+{
+Soul Shard
+}
+
+STRING 12029
+// Abilities: A133 (Прочее: Осколок души: Жатва), Ubertip (Tooltip - Normal - Extended)
+{
+Each kill restores |cffbe81f7Health and Mana|r, and permanently increases the stats of future summoned Souls by 5%.
 }
 
 STRING 12030
