@@ -26,6 +26,7 @@ library StartingBonusDatabase initializer init
 		set StartingBonuses_Safe[BaseNum()] = 'IV18'
 		set StartingBonuses_Safe[BaseNum()] = 'IV19'
 		set StartingBonuses_Safe[BaseNum()] = 'IV20'
+		set StartingBonuses_Safe[BaseNum()] = 'IOHU'
     	set StartingBonusesSafeMax = udg_base
     	
     	set udg_base = 0

@@ -7136,6 +7136,19 @@ Gives 50 experience.
 |cFF959697No more than 500 experience per game.|r
 }
 
+STRING 1095
+// Items: I0HU (Fresh Water), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Rerolls cost 100 gold less. Receive 1 Reroll.
+}
+
+STRING 1096
+// Items: I0HU (Fresh Water), Name (Name)
+{
+Fresh Water
+}
+
 STRING 1097
 // Items: I0EB (Big Bag of "Knowledge".), Ubertip (Tooltip - Extended)
 {
@@ -7152,6 +7165,19 @@ STRING 1098
 Gives 5 experience.
 
 |cFF959697No more than 500 experience per game.|r
+}
+
+STRING 1099
+// Items: I0HU (Fresh Water), Tip (Tooltip - Basic)
+{
+Fresh Water
+}
+
+STRING 1100
+// Items: I0HU (Fresh Water), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Rerolls cost 100 gold less. Receive 1 Reroll.
 }
 
 STRING 1101
@@ -8549,6 +8575,34 @@ STRING 1297
 {
 |cffbababcCommon|r
 If you defeated a boss during a battle, it turns into a |cffe96a1clegendary|r artifact at the end of the battle.
+}
+
+STRING 1298
+// Abilities: A1HD (Special: Farewell), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 1299
+// Abilities: A00C (Beorn: Slap), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f7100/140/180/220/260|r damage to the enemy and stuns them for 3 seconds.
+|cffffcc00Cooldown:|r 20/18/16/14/12 seconds.
+|cffffcc00Cost:|r 40/45/50/55/60 mana.
+}
+
+STRING 1300
+// Abilities: A00C (Beorn: Slap), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7100|r damage to the enemy and stuns them for 3 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 1301
+// Abilities: A00C (Beorn: Slap), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7140|r damage to the enemy and stuns them for 3 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 1302
@@ -10139,6 +10193,13 @@ STRING 1535
 // Items: I0B9 (Scholar's Gambit (Out of Pool)), Tip (Tooltip - Basic)
 {
 Scholar's Gambit
+}
+
+STRING 1536
+// Abilities: A00C (Beorn: Slap), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7180|r damage to the enemy and stuns them for 3 seconds.
+|cffffcc00Cooldown:|r 16 seconds.
 }
 
 STRING 1537
@@ -17531,6 +17592,13 @@ STRING 2613
 Increases spell power by 0.75%.
 }
 
+STRING 2614
+// Abilities: A00C (Beorn: Slap), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7220|r damage to the enemy and stuns them for 3 seconds.
+|cffffcc00Cooldown:|r 14 seconds.
+}
+
 STRING 2615
 // Items: I03T (Book of Power), Hotkey (Hotkey)
 {
@@ -17547,6 +17615,13 @@ STRING 2617
 // Items: I03T (Book of Power), Tip (Tooltip - Basic)
 {
 Book of Power
+}
+
+STRING 2618
+// Abilities: A00C (Beorn: Slap), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7260|r damage to the enemy and stuns them for 3 seconds.
+|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 2619
@@ -31933,7 +32008,7 @@ STRING 4830
 }
 
 STRING 4831
-// Abilities: AZ04 (Speical: Left the Game), Hotkey (Hotkey - Normal)
+// Items: I0HU (Fresh Water), Hotkey (Hotkey)
 {
 F
 }
@@ -48255,6 +48330,32 @@ STRING 7340
 Shinobi Mastery, [|cffffcc00Level 5|r]
 }
 
+STRING 7342
+// Abilities: A0B8 (Scarab: Death Sentence), Name (Name)
+{
+Scarab: Death Sentence
+}
+
+STRING 7343
+// Abilities: A0B8 (Scarab: Death Sentence), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f7150/200/250/300/350|r damage to an enemy. If your health is higher, kills the target. Otherwise, stuns for 1/1.5/2/2.5/3 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 45 Mana.
+}
+
+STRING 7344
+// Abilities: A0B8 (Scarab: Death Sentence), Tip (Tooltip - Normal)
+{
+Death Sentence, [|cffffcc00Level 1|r]
+}
+
+STRING 7345
+// Abilities: A0B8 (Scarab: Death Sentence), Tip (Tooltip - Normal)
+{
+Death Sentence, [|cffffcc00Level 2|r]
+}
+
 STRING 7346
 // Abilities: A0JU (Мертвенный командир (Мертвенная аура)), Name (Name)
 {
@@ -50921,7 +51022,7 @@ The hero receives a free piece of the set three times. Current:
 }
 
 STRING 7753
-// Abilities: AZ03 (Special: Last Rites), Hotkey (Hotkey - Normal)
+// Abilities: AZ04 (Speical: Left the Game), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -50952,7 +51053,7 @@ STRING 7757
 }
 
 STRING 7758
-// Abilities: AZ02 ((т)Аура: Masochism), Hotkey (Hotkey - Normal)
+// Abilities: AZ03 (Special: Last Rites), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -51319,7 +51420,7 @@ STRING 7816
 }
 
 STRING 7817
-// Abilities: AZ01 (Special: Soul Marriage), Hotkey (Hotkey - Normal)
+// Abilities: AZ02 ((т)Аура: Masochism), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -53161,7 +53262,7 @@ STRING 8105
 }
 
 STRING 8106
-// Abilities: AZ00 (Special: Masochism), Hotkey (Hotkey - Normal)
+// Abilities: AZ01 (Special: Soul Marriage), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -54839,16 +54940,48 @@ Deals |cffbe81f725/50/75/100/125|r damage to all enemies in long range and appli
 |cffffcc00Cost:|r 30 mana.
 }
 
+STRING 8370
+// Abilities: A0B8 (Scarab: Death Sentence), Tip (Tooltip - Normal)
+{
+Death Sentence, [|cffffcc00Level 3|r]
+}
+
 STRING 8371
 // Abilities: A0AB (Vampire: Way of blood), Hotkey (Hotkey - Normal)
 {
 W
 }
 
+STRING 8372
+// Abilities: A0B8 (Scarab: Death Sentence), Tip (Tooltip - Normal)
+{
+Death Sentence, [|cffffcc00Level 4|r]
+}
+
 STRING 8373
 // Abilities: A0AB (Vampire: Way of blood), Researchhotkey (Hotkey - Learn)
 {
 W
+}
+
+STRING 8374
+// Abilities: A0B8 (Scarab: Death Sentence), Tip (Tooltip - Normal)
+{
+Death Sentence, [|cffffcc00Level 5|r]
+}
+
+STRING 8375
+// Abilities: A0B8 (Scarab: Death Sentence), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7150|r damage to an enemy. If your health is higher, kills the target. Otherwise, stuns for 1 second.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 8376
+// Abilities: A0B8 (Scarab: Death Sentence), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7200|r damage to an enemy. If your health is higher, kills the target. Otherwise, stuns for 1.5 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 8377
@@ -55464,7 +55597,7 @@ The night is coming for a while. The hero turns into a wolf, changing abilities.
 }
 
 STRING 8469
-// Abilities: A0B8 (Scarab: Death sentence), Hotkey (Hotkey - Normal)
+// Abilities: A0B8 (Scarab: Death Sentence), Hotkey (Hotkey - Normal)
 {
 R
 }
@@ -55476,7 +55609,7 @@ Preacher: Justice strike
 }
 
 STRING 8471
-// Abilities: A0B8 (Scarab: Death sentence), Researchhotkey (Hotkey - Learn)
+// Abilities: A0B8 (Scarab: Death Sentence), Researchhotkey (Hotkey - Learn)
 {
 R
 }
@@ -55738,7 +55871,7 @@ STRING 8510
 }
 
 STRING 8511
-// Abilities: A1BY (Special: Sheep cannon), Hotkey (Hotkey - Normal)
+// Abilities: AZ00 (Special: Masochism), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -56026,12 +56159,6 @@ STRING 8555
 R
 }
 
-STRING 8556
-// Abilities: A0B8 (Scarab: Death sentence), Name (Name)
-{
-Scarab: Death sentence
-}
-
 STRING 8557
 // Abilities: A09S (Chronomancer: Chrono acceleration), Hotkey (Hotkey - Normal)
 {
@@ -56039,82 +56166,9 @@ R
 }
 
 STRING 8558
-// Abilities: A0B8 (Scarab: Death sentence), Researchtip (Tooltip - Learn)
+// Abilities: A0B8 (Scarab: Death Sentence), Researchtip (Tooltip - Learn)
 {
 Death sentence, [|cffffcc00Level %d|r]
-}
-
-STRING 8559
-// Abilities: A0B8 (Scarab: Death sentence), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f7100/140/180/220/260|r damage to the enemy. If a hero’s health is greater than a target’s health, with a probability of |cffd7df0120%/40%/60%/80%/100%|r, a target is killed. If target is a minion, kill anyway.
-|cffffcc00Cooldown:|r 14/13/12/11/10 seconds.
-|cffffcc00Cost:|r 35 Mana.
-}
-
-STRING 8560
-// Abilities: A0B8 (Scarab: Death sentence), Tip (Tooltip - Normal)
-{
-Death sentence, [|cffffcc00Level 1|r]
-}
-
-STRING 8561
-// Abilities: A0B8 (Scarab: Death sentence), Tip (Tooltip - Normal)
-{
-Death sentence, [|cffffcc00Level 2|r]
-}
-
-STRING 8562
-// Abilities: A0B8 (Scarab: Death sentence), Tip (Tooltip - Normal)
-{
-Death sentence, [|cffffcc00Level 3|r]
-}
-
-STRING 8563
-// Abilities: A0B8 (Scarab: Death sentence), Tip (Tooltip - Normal)
-{
-Death sentence, [|cffffcc00Level 4|r]
-}
-
-STRING 8564
-// Abilities: A0B8 (Scarab: Death sentence), Tip (Tooltip - Normal)
-{
-Death sentence, [|cffffcc00Level 5|r]
-}
-
-STRING 8565
-// Abilities: A0B8 (Scarab: Death sentence), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7100|r damage to the enemy. If a hero’s health is greater than a target’s health, with a probability of |cffd7df0120%|r, a target is killed. If target is a minion, kill anyway.
-|cffffcc00Cooldown:|r 14 seconds.
-}
-
-STRING 8566
-// Abilities: A0B8 (Scarab: Death sentence), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7140|r damage to the enemy. If a hero’s health is greater than a target’s health, with a probability of |cffd7df0140%|r, a target is killed. If target is a minion, kill anyway.
-|cffffcc00Cooldown:|r 13 seconds.
-}
-
-STRING 8567
-// Abilities: A0B8 (Scarab: Death sentence), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7180|r damage to the enemy. If a hero’s health is greater than a target’s health, with a probability of |cffd7df0160%|r, a target is killed. If target is a minion, kill anyway.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 8568
-// Abilities: A0B8 (Scarab: Death sentence), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7220|r damage to the enemy. If ahero’s health is greater than a target’s health, with a probability of |cffd7df0180%|r, a target is killed. If target is a minion, kill anyway.
-|cffffcc00Cooldown:|r 11 seconds.
-}
-
-STRING 8569
-// Abilities: A0B8 (Scarab: Death sentence), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7260|r damage to the enemy. If the hero’s health is greater than the target’s health, target is killed. If target is a minion, kill anyway.
-|cffffcc00Cooldown:|r 14 seconds.
 }
 
 STRING 8570
@@ -56581,52 +56635,6 @@ STRING 8642
 // Abilities: A0AL (Druid: Herd), Tip (Tooltip - Normal)
 {
 Herd, [|cffffcc00Level 5|r]
-}
-
-STRING 8643
-// Abilities: A1DW (Runesmith: Carve Rune), Researchubertip (Tooltip - Learn - Extended)
-{
-|cffffcc00Passive:|r Carvable rocks spawn in the arena.
-|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
-|cffffcc00Cooldown:|r 40 seconds.
-
-|cffffcc00Level 1:|r Life-Giver, Rich
-|cffffcc00Level 2:|r + Shepherd
-|cffffcc00Level 3:|r + Emperor
-|cffffcc00Level 4:|r + Strongman
-|cffffcc00Level 5:|r + Illusionist
-}
-
-STRING 8644
-// Abilities: A1DW (Runesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Carvable rocks spawn in the arena.
-|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 8645
-// Abilities: A1DW (Runesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Carvable rocks spawn in the arena.
-|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 8646
-// Abilities: A1DW (Runesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Carvable rocks spawn in the arena.
-|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 8647
-// Abilities: A1DW (Runesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Carvable rocks spawn in the arena.
-|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
-|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 8648
@@ -58907,14 +58915,6 @@ STRING 9003
 Grasp of the Dead, [|cffffcc00Level %d|r]
 }
 
-STRING 9004
-// Abilities: A1DW (Runesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Carvable rocks spawn in the arena.
-|cffffcc00Active:|r Use magic to carve a rock into a rune. The carving takes 10 seconds to finish.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
 STRING 9005
 // Abilities: A0CM (Skeletlord: Grasp of the Dead), Tip (Tooltip - Normal)
 {
@@ -60462,15 +60462,6 @@ STRING 9242
 Sap, [|cffffcc00Level %d|r]
 }
 
-STRING 9243
-// Abilities: A07I (Scarab: Sap), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals damage to the enemy equal to |cffbe81f76%/9%/12%/15%/18%|r of the maximum health of the hero. Hero's next attacks stun the target for 0.3 seconds.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 30/35/40/45/50 mana.
-}
-
 STRING 9244
 // Abilities: A07I (Scarab: Sap), Tip (Tooltip - Normal)
 {
@@ -60501,48 +60492,8 @@ STRING 9248
 Sap, [|cffffcc00Level 5|r]
 }
 
-STRING 9249
-// Abilities: A07I (Scarab: Sap), Ubertip (Tooltip - Normal - Extended)
-{
-Deals damage to the enemy equal to |cffbe81f76%|r of the maximum health of the hero. Hero's next attacks stun the target for 0.3 seconds.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 9250
-// Abilities: A07I (Scarab: Sap), Ubertip (Tooltip - Normal - Extended)
-{
-Deals damage to the enemy equal to |cffbe81f79%|r of the maximum health of the hero. Hero's next attacks stun the target for 0.3 seconds.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 9251
-// Abilities: A07I (Scarab: Sap), Ubertip (Tooltip - Normal - Extended)
-{
-Deals damage to the enemy equal to |cffbe81f712%|r of the maximum health of the hero. Hero's next attacks stun the target for 0.3 seconds.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 9252
-// Abilities: A07I (Scarab: Sap), Ubertip (Tooltip - Normal - Extended)
-{
-Deals damage to the enemy equal to |cffbe81f715%|r of the maximum health of the hero. Hero's next attacks stun the target for 0.3 seconds.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 9253
-// Abilities: A07I (Scarab: Sap), Ubertip (Tooltip - Normal - Extended)
-{
-Deals damage to the enemy equal to |cffbe81f718%|r of the maximum health of the hero. Hero's next attacks stun the target for 0.3 seconds.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 9254
-// Abilities: A1BV (Special: Time rift), Hotkey (Hotkey - Normal)
+// Abilities: A1BY (Special: Sheep cannon), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -60878,7 +60829,7 @@ STRING 9305
 }
 
 STRING 9306
-// Abilities: A1BL (Special: Cannibalism), Hotkey (Hotkey - Normal)
+// Abilities: A1BV (Special: Time rift), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -65490,6 +65441,13 @@ STRING 10011
 Усилитель 9: АдскийXXX
 }
 
+STRING 10012
+// Abilities: A0B8 (Scarab: Death Sentence), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7250|r damage to an enemy. If your health is higher, kills the target. Otherwise, stuns for 2 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 10013
 // Items: I00O (Runestone Reston), Description (Description)
 {
@@ -67684,15 +67642,6 @@ STRING 10345
 Slap, [|cffffcc00Level %d|r]
 }
 
-STRING 10346
-// Abilities: A00C (Beorn: Slap), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f7100/140/180/220/260|r damage to the enemy and stuns him.
-|cffffcc00Duration:|r 4 seconds.
-|cffffcc00Cooldown:|r 20/18/16/14/12 seconds.
-|cffffcc00Cost:|r 40/45/50/55/60 mana.
-}
-
 STRING 10347
 // Abilities: A00C (Beorn: Slap), Tip (Tooltip - Normal)
 {
@@ -67721,46 +67670,6 @@ STRING 10351
 // Abilities: A00C (Beorn: Slap), Tip (Tooltip - Normal)
 {
 Slap, [|cffffcc00Level 5|r]
-}
-
-STRING 10352
-// Abilities: A00C (Beorn: Slap), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7100|r damage to the enemy and stuns him.
-|cffffcc00Duration:|r  4 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 10353
-// Abilities: A00C (Beorn: Slap), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7140|r damage to the enemy and stuns him.
-|cffffcc00Duration:|r 4 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 10354
-// Abilities: A00C (Beorn: Slap), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7180|r damage to the enemy and stuns him.
-|cffffcc00Duration:|r 4 seconds.
-|cffffcc00Cooldown:|r 16 seconds.
-}
-
-STRING 10355
-// Abilities: A00C (Beorn: Slap), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7220|r damage to the enemy and stuns him.
-|cffffcc00Duration:|r 4 seconds.
-|cffffcc00Cooldown:|r 14 seconds.
-}
-
-STRING 10356
-// Abilities: A00C (Beorn: Slap), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7260|r damage to the enemy and stuns him.
-|cffffcc00Duration:|r 4 seconds.
-|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 10357
@@ -74083,15 +73992,6 @@ STRING 11389
 W
 }
 
-STRING 11390
-// Abilities: A1E5 (Runesmith: Take Root), Researchubertip (Tooltip - Learn - Extended)
-{
-The Runesmith takes root allowing his spirit move around the battlefield. His body retains 60%/70%/80%/90%/100% of the Runesmith's power. When the ability ends the Runesmith reforms his body at his spirit's location.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-|cffffcc00Cost:|r 60 mana.
-}
-
 STRING 11391
 // Abilities: A1E5 (Runesmith: Take Root), Tip (Tooltip - Normal)
 {
@@ -74120,46 +74020,6 @@ STRING 11395
 // Abilities: A1E5 (Runesmith: Take Root), Tip (Tooltip - Normal)
 {
 Take Root, [|cffffcc00Level 5|r]
-}
-
-STRING 11396
-// Abilities: A1E5 (Runesmith: Take Root), Ubertip (Tooltip - Normal - Extended)
-{
-The Runesmith takes root allowing his spirit move around the battlefield. His body retains 60% of the Runesmith's power. When the ability ends the Runesmith reforms his body at his spirit's location.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 11397
-// Abilities: A1E5 (Runesmith: Take Root), Ubertip (Tooltip - Normal - Extended)
-{
-The Runesmith takes root allowing his spirit move around the battlefield. His body retains 70% of the Runesmith's power. When the ability ends the Runesmith reforms his body at his spirit's location.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 11398
-// Abilities: A1E5 (Runesmith: Take Root), Ubertip (Tooltip - Normal - Extended)
-{
-The Runesmith takes root allowing his spirit move around the battlefield. His body retains 80% of the Runesmith's power. When the ability ends the Runesmith reforms his body at his spirit's location.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 11399
-// Abilities: A1E5 (Runesmith: Take Root), Ubertip (Tooltip - Normal - Extended)
-{
-The Runesmith takes root allowing his spirit move around the battlefield. His body retains 90% of the Runesmith's power. When the ability ends the Runesmith reforms his body at his spirit's location.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 11400
-// Abilities: A1E5 (Runesmith: Take Root), Ubertip (Tooltip - Normal - Extended)
-{
-The Runesmith takes root allowing his spirit move around the battlefield. His body retains 100% of the Runesmith's power. When the ability ends the Runesmith reforms his body at his spirit's location.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 11401
@@ -76193,6 +76053,37 @@ STRING 11689
 When the hero casts, deals |cffbe81f725|r damage to other nearby heroes.
 }
 
+STRING 11690
+// Abilities: A0B8 (Scarab: Death Sentence), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7300|r damage to an enemy. If your health is higher, kills the target. Otherwise, stuns for 2.5 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11691
+// Abilities: A0B8 (Scarab: Death Sentence), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7350|r damage to an enemy. If your health is higher, kills the target. Otherwise, stuns for 3 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11692
+// Abilities: A07I (Scarab: Sap), Researchubertip (Tooltip - Learn - Extended)
+{
+Enchants a basic attack. Each attack deals an additional 15/25/35/45/55 Damage and permanently reduces the target's Armor by 1. Every 300 Health the hero has increases the duration by 1 second.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 33/31/29/27/25 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
+STRING 11693
+// Abilities: A07I (Scarab: Sap), Ubertip (Tooltip - Normal - Extended)
+{
+Enchants a basic attack. Each attack deals an additional 15 Damage and permanently reduces the target's Armor by 1. Every 300 Health the hero has increases the duration by 1 second.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 33 seconds.
+}
+
 STRING 11694
 // Abilities: A1HH (Arcanologist: Arcane Intellect), Hotkey (Hotkey - Normal)
 {
@@ -76901,6 +76792,38 @@ Fire: +30 Attack Power.
 Ice: +5 Armor.
 Shadow: +25% Spell Power.
 |cff81f260[Random bonus]|r
+}
+
+STRING 11792
+// Abilities: A07I (Scarab: Sap), Ubertip (Tooltip - Normal - Extended)
+{
+Enchants a basic attack. Each attack deals an additional 25 Damage and permanently reduces the target's Armor by 1. Every 300 Health the hero has increases the duration by 1 second.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 31 seconds.
+}
+
+STRING 11793
+// Abilities: A07I (Scarab: Sap), Ubertip (Tooltip - Normal - Extended)
+{
+Enchants a basic attack. Each attack deals an additional 35 Damage and permanently reduces the target's Armor by 1. Every 300 Health the hero has increases the duration by 1 second.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 29 seconds.
+}
+
+STRING 11794
+// Abilities: A07I (Scarab: Sap), Ubertip (Tooltip - Normal - Extended)
+{
+Enchants a basic attack. Each attack deals an additional 45 Damage and permanently reduces the target's Armor by 1. Every 300 Health the hero has increases the duration by 1 second.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 27 seconds.
+}
+
+STRING 11795
+// Abilities: A07I (Scarab: Sap), Ubertip (Tooltip - Normal - Extended)
+{
+Enchants a basic attack. Each attack deals an additional 55 Damage and permanently reduces the target's Armor by 1. Every 300 Health the hero has increases the duration by 1 second.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
 }
 
 STRING 11796
@@ -78180,6 +78103,20 @@ STRING 11971
 Rolling Stone
 }
 
+STRING 11972
+// Abilities: A1DW (Runesmith: Carve Rune), Researchubertip (Tooltip - Learn - Extended)
+{
+|cffffcc00Passive:|r Carvable Rocks spawn in the arena.
+|cffffcc00Active:|r Carve a rune from the Rock. The process takes 15 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+
+|cffffcc00Level 1:|r Life-Giver, Rich
+|cffffcc00Level 2:|r + Shepherd
+|cffffcc00Level 3:|r + Emperor
+|cffffcc00Level 4:|r + Strongman
+|cffffcc00Level 5:|r + Illusionist
+}
+
 STRING 11973
 // Abilities: A1HX ((т)Аура: Rolling Stone), Name (Name)
 {
@@ -78414,145 +78351,145 @@ Each kill restores |cffbe81f710%|r Health and Mana, and permanently increases th
 }
 
 STRING 12004
-// Abilities: A1BK (Special: Dualism), Hotkey (Hotkey - Normal)
+// Abilities: A1BL (Special: Cannibalism), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12005
-// Abilities: A1B4 (Special: Reflection), Hotkey (Hotkey - Normal)
+// Abilities: A1BK (Special: Dualism), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12006
-// Abilities: A1B3 (Special: Unstable Potions), Hotkey (Hotkey - Normal)
+// Abilities: A1B4 (Special: Reflection), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12007
-// Abilities: A1B2 (Special: Equivalent exchange), Hotkey (Hotkey - Normal)
+// Abilities: A1B3 (Special: Unstable Potions), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12008
-// Abilities: A1AF (Special: Burst of Energy), Hotkey (Hotkey - Normal)
+// Abilities: A1B2 (Special: Equivalent exchange), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12009
-// Abilities: A1AE (Special: Sacrifice), Hotkey (Hotkey - Normal)
+// Abilities: A1AF (Special: Burst of Energy), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12010
-// Abilities: A1AD (Special: Voodoo explosion), Hotkey (Hotkey - Normal)
+// Abilities: A1AE (Special: Sacrifice), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12011
-// Abilities: A19U (Special: Arcanology), Hotkey (Hotkey - Normal)
+// Abilities: A1AD (Special: Voodoo explosion), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12012
-// Abilities: A19S (Special: Rage), Hotkey (Hotkey - Normal)
+// Abilities: A19U (Special: Arcanology), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12013
-// Abilities: A19R (Special: Revitalization), Hotkey (Hotkey - Normal)
+// Abilities: A19S (Special: Rage), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12014
-// Abilities: A19Q (Special: Burn), Hotkey (Hotkey - Normal)
+// Abilities: A19R (Special: Revitalization), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12015
-// Abilities: A19P (Special: Taunt), Hotkey (Hotkey - Normal)
+// Abilities: A19Q (Special: Burn), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12016
-// Abilities: A19N (Special: Innervate), Hotkey (Hotkey - Normal)
+// Abilities: A19P (Special: Taunt), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12017
-// Abilities: A13S (Special: Mutation), Hotkey (Hotkey - Normal)
+// Abilities: A19N (Special: Innervate), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12018
-// Abilities: A12Y (Special: Incineration), Hotkey (Hotkey - Normal)
+// Abilities: A13S (Special: Mutation), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12019
-// Abilities: A12G (Special: Unholy Bless), Hotkey (Hotkey - Normal)
+// Abilities: A12Y (Special: Incineration), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12020
-// Abilities: A0GT (Special: Multicast), Hotkey (Hotkey - Normal)
+// Abilities: A12G (Special: Unholy Bless), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12021
-// Abilities: A0GR (Special: Stabilization), Hotkey (Hotkey - Normal)
+// Abilities: A0GT (Special: Multicast), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12022
-// Abilities: A0G7 (Special: Noiselessness), Hotkey (Hotkey - Normal)
+// Abilities: A0GR (Special: Stabilization), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12023
-// Abilities: A0EG (Special: Seal of Brotherhood), Hotkey (Hotkey - Normal)
+// Abilities: A0G7 (Special: Noiselessness), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12024
-// Abilities: A0BM (Special: Financial vein), Hotkey (Hotkey - Normal)
+// Abilities: A0EG (Special: Seal of Brotherhood), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12025
-// Abilities: A07H (Special: Crackle), Hotkey (Hotkey - Normal)
+// Abilities: A0BM (Special: Financial vein), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12026
-// Abilities: A06Y (Special: Echo), Hotkey (Hotkey - Normal)
+// Abilities: A07H (Special: Crackle), Hotkey (Hotkey - Normal)
 {
 F
 }
 
 STRING 12027
-// Abilities: A1HD (Special: Farewell), Hotkey (Hotkey - Normal)
+// Abilities: A06Y (Special: Echo), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -78896,6 +78833,14 @@ STRING 12081
 Gain 300 max Health and Mana. You automatically decline the next 2 rewards offered.
 }
 
+STRING 12082
+// Abilities: A1DW (Runesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Carvable Rocks spawn in the arena.
+|cffffcc00Active:|r Carve a rune from the Rock. The process takes 15 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 12083
 // Items: IV25 (Fancy Drink), Name (Name)
 {
@@ -78906,6 +78851,14 @@ STRING 12084
 // Items: IV25 (Fancy Drink), Tip (Tooltip - Basic)
 {
 Fancy Drink
+}
+
+STRING 12085
+// Abilities: A1DW (Runesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Carvable Rocks spawn in the arena.
+|cffffcc00Active:|r Carve a rune from the Rock. The process takes 15 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 12086
@@ -79008,6 +78961,14 @@ STRING 12101
 Sticky Trash
 }
 
+STRING 12102
+// Abilities: A1DW (Runesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Carvable Rocks spawn in the arena.
+|cffffcc00Active:|r Carve a rune from the Rock. The process takes 15 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 12103
 // Items: IV05 (Meat on a Stick), Name (Name)
 {
@@ -79018,5 +78979,70 @@ STRING 12104
 // Items: IV05 (Meat on a Stick), Tip (Tooltip - Basic)
 {
 Meat on a Stick
+}
+
+STRING 12105
+// Abilities: A1DW (Runesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Carvable Rocks spawn in the arena.
+|cffffcc00Active:|r Carve a rune from the Rock. The process takes 15 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 12106
+// Abilities: A1DW (Runesmith: Carve Rune), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Carvable Rocks spawn in the arena.
+|cffffcc00Active:|r Carve a rune from the Rock. The process takes 15 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 12113
+// Abilities: A1E5 (Runesmith: Take Root), Researchubertip (Tooltip - Learn - Extended)
+{
+The hero separates their body and soul. The body has 80%/100%/120%/140%/160% of base stats, cannot cast or move, and the soul cannot attack or receive damage from attacks.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
+STRING 12114
+// Abilities: A1E5 (Runesmith: Take Root), Ubertip (Tooltip - Normal - Extended)
+{
+The hero separates their body and soul. The body has 80% of base stats, cannot cast or move, and the soul cannot attack or receive damage from attacks.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 12115
+// Abilities: A1E5 (Runesmith: Take Root), Ubertip (Tooltip - Normal - Extended)
+{
+The hero separates their body and soul. The body has 100% of base stats, cannot cast or move, and the soul cannot attack or receive damage from attacks.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 12116
+// Abilities: A1E5 (Runesmith: Take Root), Ubertip (Tooltip - Normal - Extended)
+{
+The hero separates their body and soul. The body has 120% of base stats, cannot cast or move, and the soul cannot attack or receive damage from attacks.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 12117
+// Abilities: A1E5 (Runesmith: Take Root), Ubertip (Tooltip - Normal - Extended)
+{
+The hero separates their body and soul. The body has 140% of base stats, cannot cast or move, and the soul cannot attack or receive damage from attacks.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 12118
+// Abilities: A1E5 (Runesmith: Take Root), Ubertip (Tooltip - Normal - Extended)
+{
+The hero separates their body and soul. The body has 160% of base stats, cannot cast or move, and the soul cannot attack or receive damage from attacks.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
 }
 

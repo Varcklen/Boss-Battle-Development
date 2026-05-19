@@ -4,7 +4,7 @@ library Trigger initializer init requires EventDatabase
         private trigger tempTrig = null
     endglobals
 
-	/*OBSOLETE. USE EVENT SYSTEM*/
+	/*OBSOLETE. USE EVENT SYSTEM IF POSSIBLE*/
     function CreateEventTrigger takes string eventReal, code action, code condition returns trigger
         set tempTrig = CreateTrigger()
         call TriggerRegisterVariableEvent( tempTrig, eventReal, EQUAL, 1.00 )
