@@ -65,6 +65,7 @@ library StatAbilityDatabase initializer init requires StatAbility
 		call ConnectAbilityToStat( 'A1FC', STAT_BUFF_DURATION, 50 )
 		//STAT_MANA_HEAL_BONUS
 		call ConnectAbilityToStat( 'A1FD', STAT_MANA_HEAL_BONUS, 100 )
+		call ConnectAbilityToStat( 'A1HZ', STAT_MANA_HEAL_BONUS, 50 )
 		//STAT_HEAL_TAKEN
 		call ConnectAbilityToStat( 'A1FX', STAT_HEAL_TAKEN, -40 )
 		//STAT_GOLD_GAIN

@@ -64,7 +64,7 @@
           },
           {
             "ParamType": 5,
-            "value": "20"
+            "value": "19"
           }
         ],
         "value": "SetVariable"
@@ -507,7 +507,7 @@
     },
     {
       "ElementType": 9,
-      "isEnabled": true,
+      "isEnabled": false,
       "function": {
         "ParamType": 1,
         "parameters": [
@@ -529,6 +529,35 @@
           {
             "ParamType": 5,
             "value": "I0B9"
+          }
+        ],
+        "value": "SetVariable"
+      }
+    },
+    {
+      "ElementType": 9,
+      "isEnabled": true,
+      "function": {
+        "ParamType": 1,
+        "parameters": [
+          {
+            "ParamType": 3,
+            "VariableId": 100663437,
+            "arrayIndexValues": [
+              {
+                "ParamType": 5,
+                "value": "16"
+              },
+              {
+                "ParamType": 5,
+                "value": "0"
+              }
+            ],
+            "value": null
+          },
+          {
+            "ParamType": 5,
+            "value": "I0HH"
           }
         ],
         "value": "SetVariable"
@@ -616,35 +645,6 @@
           {
             "ParamType": 5,
             "value": "I0GP"
-          }
-        ],
-        "value": "SetVariable"
-      }
-    },
-    {
-      "ElementType": 9,
-      "isEnabled": true,
-      "function": {
-        "ParamType": 1,
-        "parameters": [
-          {
-            "ParamType": 3,
-            "VariableId": 100663437,
-            "arrayIndexValues": [
-              {
-                "ParamType": 5,
-                "value": "20"
-              },
-              {
-                "ParamType": 5,
-                "value": "0"
-              }
-            ],
-            "value": null
-          },
-          {
-            "ParamType": 5,
-            "value": "I0HH"
           }
         ],
         "value": "SetVariable"
@@ -1058,7 +1058,7 @@
     },
     {
       "ElementType": 9,
-      "isEnabled": true,
+      "isEnabled": false,
       "function": {
         "ParamType": 1,
         "parameters": [
@@ -1080,6 +1080,35 @@
           {
             "ParamType": 5,
             "value": "30"
+          }
+        ],
+        "value": "SetVariable"
+      }
+    },
+    {
+      "ElementType": 9,
+      "isEnabled": true,
+      "function": {
+        "ParamType": 1,
+        "parameters": [
+          {
+            "ParamType": 3,
+            "VariableId": 100663438,
+            "arrayIndexValues": [
+              {
+                "ParamType": 5,
+                "value": "16"
+              },
+              {
+                "ParamType": 5,
+                "value": "0"
+              }
+            ],
+            "value": null
+          },
+          {
+            "ParamType": 5,
+            "value": "1200"
           }
         ],
         "value": "SetVariable"
@@ -1167,35 +1196,6 @@
           {
             "ParamType": 5,
             "value": "4"
-          }
-        ],
-        "value": "SetVariable"
-      }
-    },
-    {
-      "ElementType": 9,
-      "isEnabled": true,
-      "function": {
-        "ParamType": 1,
-        "parameters": [
-          {
-            "ParamType": 3,
-            "VariableId": 100663438,
-            "arrayIndexValues": [
-              {
-                "ParamType": 5,
-                "value": "20"
-              },
-              {
-                "ParamType": 5,
-                "value": "0"
-              }
-            ],
-            "value": null
-          },
-          {
-            "ParamType": 5,
-            "value": "1200"
           }
         ],
         "value": "SetVariable"
@@ -1638,7 +1638,7 @@
     },
     {
       "ElementType": 9,
-      "isEnabled": true,
+      "isEnabled": false,
       "function": {
         "ParamType": 1,
         "parameters": [
@@ -1660,6 +1660,35 @@
           {
             "ParamType": 5,
             "value": "war3mapImported\\BTNINV_Glyph_MinorPaladin.blp"
+          }
+        ],
+        "value": "SetVariable"
+      }
+    },
+    {
+      "ElementType": 9,
+      "isEnabled": true,
+      "function": {
+        "ParamType": 1,
+        "parameters": [
+          {
+            "ParamType": 3,
+            "VariableId": 100663434,
+            "arrayIndexValues": [
+              {
+                "ParamType": 5,
+                "value": "16"
+              },
+              {
+                "ParamType": 5,
+                "value": "0"
+              }
+            ],
+            "value": null
+          },
+          {
+            "ParamType": 5,
+            "value": "war3mapImported\\BTNINV_Glyph_MajorWarrior.blp"
           }
         ],
         "value": "SetVariable"
@@ -1747,35 +1776,6 @@
           {
             "ParamType": 5,
             "value": "war3mapImported\\BTNINV_Glyph_MinorShaman.blp"
-          }
-        ],
-        "value": "SetVariable"
-      }
-    },
-    {
-      "ElementType": 9,
-      "isEnabled": true,
-      "function": {
-        "ParamType": 1,
-        "parameters": [
-          {
-            "ParamType": 3,
-            "VariableId": 100663434,
-            "arrayIndexValues": [
-              {
-                "ParamType": 5,
-                "value": "20"
-              },
-              {
-                "ParamType": 5,
-                "value": "0"
-              }
-            ],
-            "value": null
-          },
-          {
-            "ParamType": 5,
-            "value": "war3mapImported\\BTNINV_Glyph_MajorWarrior.blp"
           }
         ],
         "value": "SetVariable"
@@ -2181,6 +2181,35 @@
           },
           {
             "ParamType": 5,
+            "value": "quest_energy_charge"
+          }
+        ],
+        "value": "SetVariable"
+      }
+    },
+    {
+      "ElementType": 9,
+      "isEnabled": false,
+      "function": {
+        "ParamType": 1,
+        "parameters": [
+          {
+            "ParamType": 3,
+            "VariableId": 100663433,
+            "arrayIndexValues": [
+              {
+                "ParamType": 5,
+                "value": "16"
+              },
+              {
+                "ParamType": 5,
+                "value": "0"
+              }
+            ],
+            "value": null
+          },
+          {
+            "ParamType": 5,
             "value": "lbcs"
           }
         ],
@@ -2240,35 +2269,6 @@
           {
             "ParamType": 5,
             "value": "ewnt"
-          }
-        ],
-        "value": "SetVariable"
-      }
-    },
-    {
-      "ElementType": 9,
-      "isEnabled": true,
-      "function": {
-        "ParamType": 1,
-        "parameters": [
-          {
-            "ParamType": 3,
-            "VariableId": 100663433,
-            "arrayIndexValues": [
-              {
-                "ParamType": 5,
-                "value": "20"
-              },
-              {
-                "ParamType": 5,
-                "value": "0"
-              }
-            ],
-            "value": null
-          },
-          {
-            "ParamType": 5,
-            "value": "quest_energy_charge"
           }
         ],
         "value": "SetVariable"

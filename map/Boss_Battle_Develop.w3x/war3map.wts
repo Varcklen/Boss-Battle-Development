@@ -7128,7 +7128,7 @@ Increases the attack power of all allies by 15%.
 }
 
 STRING 1094
-// Items: I0EB (A big bag of "knowledge".), Description (Description)
+// Items: I0EB (Big Bag of "Knowledge".), Description (Description)
 {
 |cff50ff90Use when picked up|r
 Gives 50 experience.
@@ -7136,20 +7136,8 @@ Gives 50 experience.
 |cFF959697No more than 500 experience per game.|r
 }
 
-STRING 1095
-// Items: I0EB (A big bag of "knowledge".), Name (Name)
-{
-A big bag of "knowledge".
-}
-
-STRING 1096
-// Items: I0EB (A big bag of "knowledge".), Tip (Tooltip - Basic)
-{
-A big bag of "knowledge".
-}
-
 STRING 1097
-// Items: I0EB (A big bag of "knowledge".), Ubertip (Tooltip - Extended)
+// Items: I0EB (Big Bag of "Knowledge".), Ubertip (Tooltip - Extended)
 {
 |cff50ff90Use when picked up|r
 Gives 50 experience.
@@ -7158,7 +7146,7 @@ Gives 50 experience.
 }
 
 STRING 1098
-// Items: I0EA (A bag of "knowledge"), Description (Description)
+// Items: I0EA (Bag of "Knowledge"), Description (Description)
 {
 |cff50ff90Use when picked up|r
 Gives 5 experience.
@@ -7166,20 +7154,8 @@ Gives 5 experience.
 |cFF959697No more than 500 experience per game.|r
 }
 
-STRING 1099
-// Items: I0EA (A bag of "knowledge"), Name (Name)
-{
-A bag of "knowledge"
-}
-
-STRING 1100
-// Items: I0EA (A bag of "knowledge"), Tip (Tooltip - Basic)
-{
-A bag of "knowledge"
-}
-
 STRING 1101
-// Items: I0EA (A bag of "knowledge"), Ubertip (Tooltip - Extended)
+// Items: I0EA (Bag of "Knowledge"), Ubertip (Tooltip - Extended)
 {
 |cff50ff90Use when picked up|r
 Gives 5 experience.
@@ -8573,32 +8549,6 @@ STRING 1297
 {
 |cffbababcCommon|r
 If you defeated a boss during a battle, it turns into a |cffe96a1clegendary|r artifact at the end of the battle.
-}
-
-STRING 1298
-// Items: I0CW (Heart of the Lady of the Lake), Description (Description)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-Your mana restoring abilities and items restore 100% more mana. When you restore the target's mana, you also restore |cffbe81f7health|r to it.
-}
-
-STRING 1299
-// Items: I0CW (Heart of the Lady of the Lake), Name (Name)
-{
-Heart of the Lady of the Lake
-}
-
-STRING 1300
-// Items: I0CW (Heart of the Lady of the Lake), Tip (Tooltip - Basic)
-{
-Heart of the Lady of the Lake
-}
-
-STRING 1301
-// Items: I0CW (Heart of the Lady of the Lake), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-Your mana restoring abilities and items restore 100% more mana. When you restore the target's mana, you also restore |cffbe81f7health|r to it.
 }
 
 STRING 1302
@@ -10186,13 +10136,7 @@ STRING 1534
 }
 
 STRING 1535
-// Items: I0B9 (Scholar's Gambit), Name (Name)
-{
-Scholar's Gambit
-}
-
-STRING 1536
-// Items: I0B9 (Scholar's Gambit), Tip (Tooltip - Basic)
+// Items: I0B9 (Scholar's Gambit (Out of Pool)), Tip (Tooltip - Basic)
 {
 Scholar's Gambit
 }
@@ -12081,7 +12025,7 @@ Your health-restoring abilities and items restore 150% more health. After healin
 }
 
 STRING 1810
-// Items: I0B9 (Scholar's Gambit), Description (Description)
+// Items: I0B9 (Scholar's Gambit (Out of Pool)), Description (Description)
 {
 |cffffcc00Quest:|r Buy 25 books |cFF959697(0/25)|r.
 |cffffcc00Reward:|r Scientist Card.
@@ -12153,7 +12097,7 @@ Increases the target hero's agility and intelligence equal to 30%/45%/60%/75%/90
 }
 
 STRING 1820
-// Items: I0B9 (Scholar's Gambit), Ubertip (Tooltip - Extended)
+// Items: I0B9 (Scholar's Gambit (Out of Pool)), Ubertip (Tooltip - Extended)
 {
 |cffffcc00Quest:|r Buy 25 books |cFF959697(0/25)|r.
 |cffffcc00Reward:|r Scientist Card.
@@ -17587,12 +17531,6 @@ STRING 2613
 Increases spell power by 0.75%.
 }
 
-STRING 2614
-// Items: I03T (Book of Power), Description (Description)
-{
-Gives the hero the effects of all other books from the library.
-}
-
 STRING 2615
 // Items: I03T (Book of Power), Hotkey (Hotkey)
 {
@@ -17609,12 +17547,6 @@ STRING 2617
 // Items: I03T (Book of Power), Tip (Tooltip - Basic)
 {
 Book of Power
-}
-
-STRING 2618
-// Items: I03T (Book of Power), Ubertip (Tooltip - Extended)
-{
-Gives the hero the effects of all other books from the library.
 }
 
 STRING 2619
@@ -35441,12 +35373,6 @@ STRING 5357
 Spell Power (Random bonus)
 }
 
-STRING 5358
-// Abilities: A0Y3 (.Выбор воина (+)), Name (Name)
-{
-.Выбор воина (+)
-}
-
 STRING 5359
 // Abilities: A0Y2 (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -40655,6 +40581,12 @@ STRING 6146
 Potion "Plasebo", [|cffffcc00Level %d|r]
 }
 
+STRING 6147
+// Items: I0CW (Heart of the Lake), Name (Name)
+{
+Heart of the Lake
+}
+
 STRING 6148
 // Abilities: A0RZ (Admiral: Potion "Plasebo"), Tip (Tooltip - Normal)
 {
@@ -40683,6 +40615,38 @@ STRING 6152
 // Abilities: A0RZ (Admiral: Potion "Plasebo"), Tip (Tooltip - Normal)
 {
 Potion "Plasebo", [|cffffcc00Level 5|r]
+}
+
+STRING 6153
+// Items: I0CW (Heart of the Lake), Tip (Tooltip - Basic)
+{
+Heart of the Lake
+}
+
+STRING 6154
+// Items: I0CW (Heart of the Lake), Description (Description)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+When you restore mana, restore 50% more and heal |cffbe81f7Health|r equal to the mana restored.
+}
+
+STRING 6155
+// Items: I0CW (Heart of the Lake), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+When you restore mana, restore 50% more and heal |cffbe81f7Health|r equal to the mana restored.
+}
+
+STRING 6156
+// Abilities: A1HZ (Stat: Mana Heal Bonus +50%), Name (Name)
+{
+Stat: Mana Heal Bonus +50%
+}
+
+STRING 6157
+// Units: h007 (Library), EditorSuffix (Name - Editor Suffix)
+{
+(Outdated)
 }
 
 STRING 6158
@@ -42331,6 +42295,12 @@ STRING 6417
 // Abilities: A0QA (Curse: Пламя (b4)), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Flame
+}
+
+STRING 6418
+// Units: h01I (Book Seller), Name (Name)
+{
+Book Seller
 }
 
 STRING 6419
@@ -45854,10 +45824,92 @@ STRING 6964
 R
 }
 
+STRING 6965
+// Items: I0B9 (Scholar's Gambit (Out of Pool)), Name (Name)
+{
+Scholar's Gambit (Out of Pool)
+}
+
 STRING 6966
 // Abilities: A0LY (Metal Mage: Metallica), Researchhotkey (Hotkey - Learn)
 {
 R
+}
+
+STRING 6967
+// Items: I0E2 (Library Pass), Description (Description)
+{
+|cffC71585Cursed|r
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Create a Book Seller in your room until the start of battle.
+}
+
+STRING 6968
+// Items: I0E2 (Library Pass), Name (Name)
+{
+Library Pass
+}
+
+STRING 6969
+// Items: I0E2 (Library Pass), Tip (Tooltip - Basic)
+{
+Library Pass
+}
+
+STRING 6970
+// Items: I0E2 (Library Pass), Ubertip (Tooltip - Extended)
+{
+|cffC71585Cursed|r
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Create a Book Seller in your room until the start of battle.
+}
+
+STRING 6971
+// Abilities: A0Y3 (.Unit Selection (900)), Name (Name)
+{
+.Unit Selection (900)
+}
+
+STRING 6972
+// Abilities: A1I0 (.Unit Selection (250)), Name (Name)
+{
+.Unit Selection (250)
+}
+
+STRING 6973
+// Items: I0EB (Big Bag of "Knowledge".), Name (Name)
+{
+Big Bag of "Knowledge".
+}
+
+STRING 6974
+// Items: I0EB (Big Bag of "Knowledge".), Tip (Tooltip - Basic)
+{
+Big Bag of "Knowledge".
+}
+
+STRING 6975
+// Items: I0EA (Bag of "Knowledge"), Name (Name)
+{
+Bag of "Knowledge"
+}
+
+STRING 6976
+// Items: I0EA (Bag of "Knowledge"), Tip (Tooltip - Basic)
+{
+Bag of "Knowledge"
+}
+
+STRING 6977
+// Items: I03T (Book of Power), Description (Description)
+{
+Gives the effects of all other books from the merchant.
+}
+
+STRING 6978
+// Items: I03T (Book of Power), Ubertip (Tooltip - Extended)
+{
+Gives the effects of all other books from the merchant.
 }
 
 STRING 6979
@@ -47783,6 +47835,12 @@ STRING 7273
 Shadow Strike, [|cffffcc00Level %d|r]
 }
 
+STRING 7274
+// Abilities: A1I1 (Blessing: Thirst for Knowledge), Name (Name)
+{
+Blessing: Thirst for Knowledge
+}
+
 STRING 7275
 // Abilities: A0KC (Ninja: Shadow Strike), Tip (Tooltip - Normal)
 {
@@ -47811,6 +47869,18 @@ STRING 7279
 // Abilities: A0KC (Ninja: Shadow Strike), Tip (Tooltip - Normal)
 {
 Shadow Strike, [|cffffcc00Level 5|r]
+}
+
+STRING 7280
+// Abilities: A1I1 (Blessing: Thirst for Knowledge), Tip (Tooltip - Normal)
+{
+|cffffcc00Blessing:|r Thirst for Knowledge
+}
+
+STRING 7281
+// Abilities: A1I1 (Blessing: Thirst for Knowledge), Ubertip (Tooltip - Normal - Extended)
+{
+All heroes receive a Library Pass without a |cffC71585Curse|r tag.
 }
 
 STRING 7285
@@ -76831,34 +76901,6 @@ Fire: +30 Attack Power.
 Ice: +5 Armor.
 Shadow: +25% Spell Power.
 |cff81f260[Random bonus]|r
-}
-
-STRING 11792
-// Items: I0E2 (Library Card), Description (Description)
-{
-|cffC71585Cursed|r
-|cffbababcCommon|r
-Every purchased item in the library gives a random bonus.
-}
-
-STRING 11793
-// Items: I0E2 (Library Card), Name (Name)
-{
-Library Card
-}
-
-STRING 11794
-// Items: I0E2 (Library Card), Tip (Tooltip - Basic)
-{
-Library Card
-}
-
-STRING 11795
-// Items: I0E2 (Library Card), Ubertip (Tooltip - Extended)
-{
-|cffC71585Cursed|r
-|cffbababcCommon|r
-Every purchased item in the library gives a random bonus.
 }
 
 STRING 11796

@@ -39,6 +39,7 @@ library ModeDatabase initializer init requires ModeClass
 		call Mode.create( 'A18S', "BlessForesight", true)
 		call Mode.create( 'A19M', "BlessRuneMaking", true)
 		call Mode.create( 'A1HB', "BlessSpeciality", true)
+		call Mode.create( 'A1I1', "BlessThirstForKnowledge", true)
 		
 		//Curse
 		call Mode.create( 'A0QA', "CurseFlame", false)

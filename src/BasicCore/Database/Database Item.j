@@ -648,7 +648,7 @@ library LibDataItems
 	    set udg_DB_Orb[BaseNum()] = 'I0FU'
 	    set udg_Database_NumberItems[8] = udg_base
 	    
-	    // Награды
+	    // Quest Rewards
 	    set udg_base = 0
 	    set udg_DB_Rewards[BaseNum()] = 'I03G'
 	    set udg_DB_Rewards[BaseNum()] = 'I03D'
@@ -665,14 +665,14 @@ library LibDataItems
 	    set udg_DB_Rewards[BaseNum()] = 'I03H'
 	    set udg_DB_Rewards[BaseNum()] = 'I0EV'
 	    set udg_DB_Rewards[BaseNum()] = 'I08S'
-	    set udg_DB_Rewards[BaseNum()] = 'I0EZ'
+	    //set udg_DB_Rewards[BaseNum()] = 'I0EZ'
 	    set udg_DB_Rewards[BaseNum()] = 'I0EJ'
 	    set udg_DB_Rewards[BaseNum()] = 'I0GO'
 	    set udg_DB_Rewards[BaseNum()] = 'I0GQ'
 	    set udg_DB_Rewards[BaseNum()] = 'I0HI'
 	    set udg_Database_NumberItems[23] = udg_base
 	    
-	    // Активируемые артефакты
+	    // Activatable
 	    set udg_base = 0
 	    set udg_DB_Item_Activate[BaseNum()] = 'I0AM'
 	    set udg_DB_Item_Activate[BaseNum()] = 'I04I'
@@ -787,7 +787,7 @@ library LibDataItems
 	    set udg_DB_Item_Activate[BaseNum()] = 'IZ00'
 	    set udg_Database_NumberItems[31] = udg_base
 	
-	    // Порченные
+	    // Corrupted
 	    set udg_base = 0
 	    set udg_DB_Item_Destroyed[BaseNum()] = 'I065'
 	    set udg_DB_Item_Destroyed[BaseNum()] = 'I0GY'
@@ -875,6 +875,7 @@ library LibDataItems
 	    set udg_DB_Item_Destroyed[BaseNum()] = 'I0HF'
 	    set udg_DB_Item_Destroyed[BaseNum()] = 'I0HT'
 	    set udg_DB_Item_Destroyed[BaseNum()] = 'I08M'
+	    set udg_DB_Item_Destroyed[BaseNum()] = 'I02E'
 	    set udg_Database_NumberItems[29] = udg_base
 	    
 	    // Овечьи артефакты

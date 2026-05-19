@@ -31,7 +31,7 @@ scope ReadBroW initializer init
 	    local real yCaster = LoadReal( udg_hash, id, StringHash( "real_bro_w_y_caster" ) )
 	   	local integer damage = LoadInteger( udg_hash, id, StringHash( "real_bro_w_damage" ) )
 	    
-	    if not(BlzIsUnitInvulnerable(caster)) then
+	    if BlzIsUnitInvulnerable(caster) == false then
 	    	call SetUnitPosition( caster, x, y )
 	    	call SetUnitPosition( target, xCaster, yCaster )
 	    endif
