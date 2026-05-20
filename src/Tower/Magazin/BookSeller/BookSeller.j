@@ -43,7 +43,7 @@ library BookSeller initializer init requires EventDatabase
 		
 		loop
 			exitwhen i >= 4
-			call ShowUnit(BookSeller[index], false)
+			call ShowUnit(BookSeller[i], false)
 			set i = i + 1
 		endloop
 	endfunction

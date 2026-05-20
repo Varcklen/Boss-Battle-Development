@@ -6,7 +6,7 @@ scope GunMasterR initializer init
         private constant integer DAMAGE_FIRST_LEVEL = 52
         private constant integer DAMAGE_LEVEL_BONUS = 12
         private constant integer ZONE_SIZE = 250
-        private constant integer AREA = 175
+        private constant integer AREA = 200
         private constant integer LIFE_TIME = 10
         
         private constant real TICK = 0.5
@@ -42,7 +42,6 @@ scope GunMasterR initializer init
             call GroupRemoveUnit(g,u)
         endloop
     
-        call GroupClear( g )
         call DestroyGroup( g )
         set g = null
         set u = null

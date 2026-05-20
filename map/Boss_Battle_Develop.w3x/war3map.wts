@@ -8578,7 +8578,7 @@ If you defeated a boss during a battle, it turns into a |cffe96a1clegendary|r ar
 }
 
 STRING 1298
-// Abilities: A1HD (Special: Farewell), Hotkey (Hotkey - Normal)
+// Items: I09J (Magic absorberXXX), Hotkey (Hotkey)
 {
 F
 }
@@ -11909,7 +11909,7 @@ Activation: Reduces received magic damage by 50%.
 }
 
 STRING 1783
-// Items: I09J (Magic absorberXXX), Hotkey (Hotkey)
+// Items: I05M (Book of Luck), Hotkey (Hotkey)
 {
 F
 }
@@ -12579,7 +12579,7 @@ Eternal Harvest
 }
 
 STRING 1876
-// Items: I05M (Book of Luck), Hotkey (Hotkey)
+// Items: I05A (Geyser Potion), Hotkey (Hotkey)
 {
 F
 }
@@ -14506,7 +14506,7 @@ Symbol of Antonidas
 }
 
 STRING 2159
-// Items: I05A (Geyser Potion), Hotkey (Hotkey)
+// Items: IV00 (Tea), Hotkey (Hotkey)
 {
 F
 }
@@ -15778,7 +15778,7 @@ Increases luck by 1.
 }
 
 STRING 2345
-// Items: IV00 (Tea), Hotkey (Hotkey)
+// Items: IV01 (Orange), Hotkey (Hotkey)
 {
 F
 }
@@ -16129,7 +16129,7 @@ Activation: Restores |cffbe81f7150|r mana to the hero and deals |cffbe81f7250|r 
 }
 
 STRING 2398
-// Items: IV01 (Orange), Hotkey (Hotkey)
+// Items: IV02 (Baked Treat), Hotkey (Hotkey)
 {
 F
 }
@@ -19024,7 +19024,7 @@ Activation: |cffcc0000Corrupted|r. Destroys artifact in the inventory.
 }
 
 STRING 2825
-// Items: IV02 (Baked Treat), Hotkey (Hotkey)
+// Items: IV04 (Ice Cream), Hotkey (Hotkey)
 {
 F
 }
@@ -21420,7 +21420,7 @@ STRING 3178
 }
 
 STRING 3179
-// Items: IV04 (Ice Cream), Hotkey (Hotkey)
+// Items: IV06 (Cold Milk), Hotkey (Hotkey)
 {
 F
 }
@@ -21446,7 +21446,7 @@ Weaken the nearby enemy with the highest health which will cause the target to t
 }
 
 STRING 3183
-// Items: IV06 (Cold Milk), Hotkey (Hotkey)
+// Items: IV08 (Bag of Candies), Hotkey (Hotkey)
 {
 F
 }
@@ -21479,7 +21479,7 @@ this is such a dumb joke
 }
 
 STRING 3188
-// Items: IV08 (Bag of Candies), Hotkey (Hotkey)
+// Items: IV09 (Cheese), Hotkey (Hotkey)
 {
 F
 }
@@ -21491,7 +21491,7 @@ STRING 3189
 }
 
 STRING 3190
-// Items: IV09 (Cheese), Hotkey (Hotkey)
+// Items: IV07 (Donut), Hotkey (Hotkey)
 {
 F
 }
@@ -21517,7 +21517,7 @@ Swap souls of all heroes. For each hero affected, apply shield worth |cffbe81f71
 }
 
 STRING 3194
-// Items: IV07 (Donut), Hotkey (Hotkey)
+// Items: IV14 (Sandwich), Hotkey (Hotkey)
 {
 F
 }
@@ -23368,7 +23368,7 @@ STRING 3485
 }
 
 STRING 3486
-// Items: IV14 (Sandwich), Hotkey (Hotkey)
+// Items: IV15 (Chupa), Hotkey (Hotkey)
 {
 F
 }
@@ -23439,7 +23439,7 @@ Resets the cooldown of your abilities and items.
 }
 
 STRING 3496
-// Items: IV15 (Chupa), Hotkey (Hotkey)
+// Items: IV16 (Bread), Hotkey (Hotkey)
 {
 F
 }
@@ -23535,7 +23535,7 @@ You start the game with all possible curses.
 }
 
 STRING 3511
-// Items: IV16 (Bread), Hotkey (Hotkey)
+// Items: IV17 (Pumpkin Pie), Hotkey (Hotkey)
 {
 F
 }
@@ -23561,7 +23561,7 @@ Kills an allied minion to restore the hero's health equal to |cffbe81f7110%|r of
 }
 
 STRING 3515
-// Items: IV17 (Pumpkin Pie), Hotkey (Hotkey)
+// Items: IV18 (Hearty Soup), Hotkey (Hotkey)
 {
 F
 }
@@ -24249,7 +24249,7 @@ Touching Motif can be applied to one target at a time, but provides up to 12 bon
 }
 
 STRING 3626
-// Items: IV18 (Hearty Soup), Hotkey (Hotkey)
+// Items: IV19 (Parasite), Hotkey (Hotkey)
 {
 F
 }
@@ -24275,7 +24275,7 @@ Choose another allied hero. Your hero changes percentages of health and mana wit
 }
 
 STRING 3630
-// Items: IV19 (Parasite), Hotkey (Hotkey)
+// Items: IV20 (Casserole), Hotkey (Hotkey)
 {
 F
 }
@@ -24302,7 +24302,7 @@ You have 2 seconds to use it.
 }
 
 STRING 3634
-// Items: IV20 (Casserole), Hotkey (Hotkey)
+// Items: IV21 (Bento Set), Hotkey (Hotkey)
 {
 F
 }
@@ -24412,7 +24412,7 @@ Collector: Demon's Grip
 }
 
 STRING 3652
-// Abilities: A19H (Gun Master: Explosive grenade), Hotkey (Hotkey - Normal)
+// Abilities: A19H (Gun Master: Explosive Grenade), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -24693,7 +24693,7 @@ STRING 3697
 }
 
 STRING 3698
-// Abilities: A19H (Gun Master: Explosive grenade), Researchhotkey (Hotkey - Learn)
+// Abilities: A19H (Gun Master: Explosive Grenade), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -24949,7 +24949,7 @@ STRING 3736
 }
 
 STRING 3737
-// Items: IV21 (Bento Set), Hotkey (Hotkey)
+// Items: IV22 (Almighty Beer), Hotkey (Hotkey)
 {
 F
 }
@@ -24975,7 +24975,7 @@ Restores |cffbe81f735|r mana to an ally. If it has a shield on it, it restores t
 }
 
 STRING 3741
-// Items: IV22 (Almighty Beer), Hotkey (Hotkey)
+// Items: IV23 (Roquefort), Hotkey (Hotkey)
 {
 F
 }
@@ -25001,7 +25001,7 @@ Sacrifice an artifact in your inventory to deal |cffbe81f7450|r damage to all en
 }
 
 STRING 3745
-// Items: IV23 (Roquefort), Hotkey (Hotkey)
+// Items: IV24 (Festive Cake), Hotkey (Hotkey)
 {
 F
 }
@@ -25143,7 +25143,7 @@ STRING 3765
 }
 
 STRING 3766
-// Abilities: A19F (Gun Master: Mode - Shotgun), Hotkey (Hotkey - Normal)
+// Abilities: A19F (Gun Master: Mode - Boomstick), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -25155,7 +25155,7 @@ Infernal: Fel Immolation
 }
 
 STRING 3768
-// Abilities: A19F (Gun Master: Mode - Shotgun), Researchhotkey (Hotkey - Learn)
+// Abilities: A19F (Gun Master: Mode - Boomstick), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -25245,7 +25245,7 @@ The hero charges himself with fel magic. Every second, deals |cffbe81f735|r dama
 }
 
 STRING 3781
-// Abilities: A19F (Gun Master: Mode - Shotgun), Unhotkey (Hotkey - Turn Off)
+// Abilities: A19F (Gun Master: Mode - Boomstick), Unhotkey (Hotkey - Turn Off)
 {
 W
 }
@@ -25379,7 +25379,7 @@ Infernal: Infernal Plating
 }
 
 STRING 3802
-// Abilities: A19J (Gun Master: Armor-piercing cartridges), Researchhotkey (Hotkey - Learn)
+// Abilities: A19J (Gun Master: Armor-Piercing Cartridges), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -25517,7 +25517,7 @@ STRING 3824
 }
 
 STRING 3825
-// Items: IV24 (Festive Cake), Hotkey (Hotkey)
+// Items: IV25 (Fancy Drink), Hotkey (Hotkey)
 {
 F
 }
@@ -25550,7 +25550,7 @@ STRING 3829
 }
 
 STRING 3830
-// Items: IV25 (Fancy Drink), Hotkey (Hotkey)
+// Items: IV35 (Meat on a Stick), Hotkey (Hotkey)
 {
 F
 }
@@ -25578,7 +25578,7 @@ If the hero killed an enemy during this battle, doubles the bonus.
 }
 
 STRING 3834
-// Items: IV35 (Meat on a Stick), Hotkey (Hotkey)
+// Items: IV26 (Lavish Meal), Hotkey (Hotkey)
 {
 F
 }
@@ -25605,7 +25605,7 @@ Resurrects your minion who died in this battle.
 }
 
 STRING 3838
-// Items: IV26 (Lavish Meal), Hotkey (Hotkey)
+// Items: IV27 (Basket of Surprises), Hotkey (Hotkey)
 {
 F
 }
@@ -25631,7 +25631,7 @@ Deals |cffbe81f7100|r damage to an enemy. If it kills the target, permanently in
 }
 
 STRING 3842
-// Items: IV27 (Basket of Surprises), Hotkey (Hotkey)
+// Items: IV36 (Donut), Hotkey (Hotkey)
 {
 F
 }
@@ -25664,7 +25664,7 @@ STRING 3846
 }
 
 STRING 3847
-// Items: IV36 (Donut), Hotkey (Hotkey)
+// Items: IV37 (Parasite Friend), Hotkey (Hotkey)
 {
 F
 }
@@ -25737,15 +25737,6 @@ STRING 3858
 Shelling, [|cffffcc00Level %d|r]
 }
 
-STRING 3859
-// Abilities: A19K (Gun Master: Shelling), Researchubertip (Tooltip - Learn - Extended)
-{
-Creates an area in which a projectile explodes every half second, dealing |cffbe81f764/76/88/100/112|r damage to enemies in a small area.
-|cffffcc00Life time:|r 10 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 70 mana.
-}
-
 STRING 3860
 // Abilities: A19K (Gun Master: Shelling), Tip (Tooltip - Normal)
 {
@@ -25776,128 +25767,10 @@ STRING 3864
 Shelling, [|cffffcc00Level 5|r]
 }
 
-STRING 3865
-// Abilities: A19K (Gun Master: Shelling), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an area in which a projectile explodes every half second, dealing |cffbe81f764|r damage to enemies in a small area.
-|cffffcc00Life time:|r 10 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 3866
-// Abilities: A19K (Gun Master: Shelling), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an area in which a projectile explodes every half second, dealing |cffbe81f776|r damage to enemies in a small area.
-|cffffcc00Life time:|r 10 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 3867
-// Abilities: A19K (Gun Master: Shelling), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an area in which a projectile explodes every half second, dealing |cffbe81f788|r damage to enemies in a small area.
-|cffffcc00Life time:|r 10 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 3868
-// Abilities: A19K (Gun Master: Shelling), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an area in which a projectile explodes every half second, dealing |cffbe81f7100|r damage to enemies in a small area.
-|cffffcc00Life time:|r 10 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 3869
-// Abilities: A19K (Gun Master: Shelling), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an area in which a projectile explodes every half second, dealing |cffbe81f7112|r damage to enemies in a small area.
-|cffffcc00Life time:|r 10 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 3870
-// Abilities: A19J (Gun Master: Armor-piercing cartridges), Name (Name)
-{
-Gun Master: Armor-piercing cartridges
-}
-
 STRING 3871
 // Abilities: A198 (Shoggoth: Entropic Energy), Researchhotkey (Hotkey - Learn)
 {
 E
-}
-
-STRING 3872
-// Abilities: A19J (Gun Master: Armor-piercing cartridges), Researchtip (Tooltip - Learn)
-{
-Armor-piercing cartridges, [|cffffcc00Level %d|r]
-}
-
-STRING 3873
-// Abilities: A19J (Gun Master: Armor-piercing cartridges), Researchubertip (Tooltip - Learn - Extended)
-{
-When the hero deals damage, with a probability of |cffd7df012%/4%/6%/8%/10%|r, reduces the target's armor by 1.
-}
-
-STRING 3874
-// Abilities: A19J (Gun Master: Armor-piercing cartridges), Tip (Tooltip - Normal)
-{
-Armor-piercing cartridges, [|cffffcc00Level 1|r]
-}
-
-STRING 3875
-// Abilities: A19J (Gun Master: Armor-piercing cartridges), Tip (Tooltip - Normal)
-{
-Armor-piercing cartridges, [|cffffcc00Level 2|r]
-}
-
-STRING 3876
-// Abilities: A19J (Gun Master: Armor-piercing cartridges), Tip (Tooltip - Normal)
-{
-Armor-piercing cartridges, [|cffffcc00Level 3|r]
-}
-
-STRING 3877
-// Abilities: A19J (Gun Master: Armor-piercing cartridges), Tip (Tooltip - Normal)
-{
-Armor-piercing cartridges, [|cffffcc00Level 4|r]
-}
-
-STRING 3878
-// Abilities: A19J (Gun Master: Armor-piercing cartridges), Tip (Tooltip - Normal)
-{
-Armor-piercing cartridges, [|cffffcc00Level 5|r]
-}
-
-STRING 3879
-// Abilities: A19J (Gun Master: Armor-piercing cartridges), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero deals damage, with a probability of |cffd7df012%|r, reduces the target's armor by 1.
-}
-
-STRING 3880
-// Abilities: A19J (Gun Master: Armor-piercing cartridges), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero deals damage, with a probability of |cffd7df014%|r, reduces the target's armor by 1.
-}
-
-STRING 3881
-// Abilities: A19J (Gun Master: Armor-piercing cartridges), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero deals damage, with a probability of |cffd7df016%|r, reduces the target's armor by 1.
-}
-
-STRING 3882
-// Abilities: A19J (Gun Master: Armor-piercing cartridges), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero deals damage, with a probability of |cffd7df018%|r, reduces the target's armor by 1.
-}
-
-STRING 3883
-// Abilities: A19J (Gun Master: Armor-piercing cartridges), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero deals damage, with a probability of |cffd7df0110%|r, reduces the target's armor by 1.
 }
 
 STRING 3884
@@ -25912,92 +25785,42 @@ STRING 3885
 Q
 }
 
-STRING 3886
-// Abilities: A19H (Gun Master: Explosive grenade), Name (Name)
-{
-Gun Master: Explosive grenade
-}
-
 STRING 3887
 // Abilities: A183 (Dealer: Explosive Goods), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
 
-STRING 3888
-// Abilities: A19H (Gun Master: Explosive grenade), Researchtip (Tooltip - Learn)
-{
-Explosive grenade, [|cffffcc00Level %d|r]
-}
-
-STRING 3889
-// Abilities: A19H (Gun Master: Explosive grenade), Researchubertip (Tooltip - Learn - Extended)
-{
-The hero throws a grenade, which explodes 2 seconds after landing, dealing |cffbe81f7150/200/250/300/350|r damage to enemies.
-|cffffcc00Cooldown:|r 8 seconds.
-|cffffcc00Cost:|r 60 mana.
-}
-
-STRING 3890
-// Abilities: A19H (Gun Master: Explosive grenade), Tip (Tooltip - Normal)
-{
-Explosive grenade, [|cffffcc00Level 1|r]
-}
-
-STRING 3891
-// Abilities: A19H (Gun Master: Explosive grenade), Tip (Tooltip - Normal)
-{
-Explosive grenade, [|cffffcc00Level 2|r]
-}
-
-STRING 3892
-// Abilities: A19H (Gun Master: Explosive grenade), Tip (Tooltip - Normal)
-{
-Explosive grenade, [|cffffcc00Level 3|r]
-}
-
-STRING 3893
-// Abilities: A19H (Gun Master: Explosive grenade), Tip (Tooltip - Normal)
-{
-Explosive grenade, [|cffffcc00Level 4|r]
-}
-
-STRING 3894
-// Abilities: A19H (Gun Master: Explosive grenade), Tip (Tooltip - Normal)
-{
-Explosive grenade, [|cffffcc00Level 5|r]
-}
-
 STRING 3895
-// Abilities: A19H (Gun Master: Explosive grenade), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A19H (Gun Master: Explosive Grenade), Ubertip (Tooltip - Normal - Extended)
 {
 The hero throws a grenade, which explodes 2 seconds after landing, dealing |cffbe81f7150|r damage to enemies.
 |cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 3896
-// Abilities: A19H (Gun Master: Explosive grenade), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A19H (Gun Master: Explosive Grenade), Ubertip (Tooltip - Normal - Extended)
 {
 The hero throws a grenade, which explodes 2 seconds after landing, dealing |cffbe81f7200|r damage to enemies.
 |cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 3897
-// Abilities: A19H (Gun Master: Explosive grenade), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A19H (Gun Master: Explosive Grenade), Ubertip (Tooltip - Normal - Extended)
 {
 The hero throws a grenade, which explodes 2 seconds after landing, dealing |cffbe81f7250|r damage to enemies.
 |cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 3898
-// Abilities: A19H (Gun Master: Explosive grenade), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A19H (Gun Master: Explosive Grenade), Ubertip (Tooltip - Normal - Extended)
 {
 The hero throws a grenade, which explodes 2 seconds after landing, dealing |cffbe81f7300|r damage to enemies.
 |cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 3899
-// Abilities: A19H (Gun Master: Explosive grenade), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A19H (Gun Master: Explosive Grenade), Ubertip (Tooltip - Normal - Extended)
 {
 The hero throws a grenade, which explodes 2 seconds after landing, dealing |cffbe81f7350|r damage to enemies.
 |cffffcc00Cooldown:|r 8 seconds.
@@ -26015,94 +25838,10 @@ STRING 3901
 W
 }
 
-STRING 3902
-// Abilities: A19F (Gun Master: Mode - Shotgun), Name (Name)
-{
-Gun Master: Mode - Shotgun
-}
-
 STRING 3903
 // Abilities: A195 (Shoggoth: Writhing Mass), Researchhotkey (Hotkey - Learn)
 {
 W
-}
-
-STRING 3904
-// Abilities: A19F (Gun Master: Mode - Shotgun), Researchtip (Tooltip - Learn)
-{
-Mode - Shotgun, [|cffffcc00Level %d|r]
-}
-
-STRING 3905
-// Abilities: A19F (Gun Master: Mode - Shotgun), Researchubertip (Tooltip - Learn - Extended)
-{
-Changes the attack mode. The hero deals |cffbe81f7magic damage|r, which is reduced by 80%, but fires 5/6/7/8/9 projectiles that fly to a random point in front of the hero.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 3906
-// Abilities: A19F (Gun Master: Mode - Shotgun), Tip (Tooltip - Normal)
-{
-Mode - Shotgun, [|cffffcc00Level 1|r]
-}
-
-STRING 3907
-// Abilities: A19F (Gun Master: Mode - Shotgun), Tip (Tooltip - Normal)
-{
-Mode - Shotgun, [|cffffcc00Level 2|r]
-}
-
-STRING 3908
-// Abilities: A19F (Gun Master: Mode - Shotgun), Tip (Tooltip - Normal)
-{
-Mode - Shotgun, [|cffffcc00Level 3|r]
-}
-
-STRING 3909
-// Abilities: A19F (Gun Master: Mode - Shotgun), Tip (Tooltip - Normal)
-{
-Mode - Shotgun, [|cffffcc00Level 4|r]
-}
-
-STRING 3910
-// Abilities: A19F (Gun Master: Mode - Shotgun), Tip (Tooltip - Normal)
-{
-Mode - Shotgun, [|cffffcc00Level 5|r]
-}
-
-STRING 3911
-// Abilities: A19F (Gun Master: Mode - Shotgun), Ubertip (Tooltip - Normal - Extended)
-{
-Changes the attack mode. The hero deals |cffbe81f7magic damage|r, which is reduced by 80%, but fires 5 projectiles that fly to a random point in front of the hero.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 3912
-// Abilities: A19F (Gun Master: Mode - Shotgun), Ubertip (Tooltip - Normal - Extended)
-{
-Changes the attack mode. The hero deals |cffbe81f7magic damage|r, which is reduced by 80%, but fires 6 projectiles that fly to a random point in front of the hero.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 3913
-// Abilities: A19F (Gun Master: Mode - Shotgun), Ubertip (Tooltip - Normal - Extended)
-{
-Changes the attack mode. The hero deals |cffbe81f7magic damage|r, which is reduced by 80%, but fires 7 projectiles that fly to a random point in front of the hero.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 3914
-// Abilities: A19F (Gun Master: Mode - Shotgun), Ubertip (Tooltip - Normal - Extended)
-{
-Changes the attack mode. The hero deals |cffbe81f7magic damage|r, which is reduced by 80%, but fires 8 projectiles that fly to a random point in front of the hero.
-|cffffcc00Cooldown:|r 5 seconds.
-}
-
-STRING 3915
-// Abilities: A19F (Gun Master: Mode - Shotgun), Ubertip (Tooltip - Normal - Extended)
-{
-Changes the attack mode. The hero deals |cffbe81f7magic damage|r, which is reduced by 80%, but fires 9 projectiles that fly to a random point in front of the hero.
-|cffffcc00Cooldown:|r 5 seconds.
 }
 
 STRING 3916
@@ -26112,17 +25851,9 @@ W
 }
 
 STRING 3917
-// Abilities: A19F (Gun Master: Mode - Shotgun), Untip (Tooltip - Turn Off)
+// Abilities: A19F (Gun Master: Mode - Boomstick), Untip (Tooltip - Turn Off)
 {
 Mode - Machine Gun
-}
-
-STRING 3918
-// Abilities: A19F (Gun Master: Mode - Shotgun), Unubertip (Tooltip - Turn Off - Extended)
-{
-Returns the standard attack mode.
-
-|cFF959697Can be activated during cooldown.|r
 }
 
 STRING 3919
@@ -30951,7 +30682,7 @@ STRING 4666
 }
 
 STRING 4667
-// Items: IV37 (Parasite Friend), Hotkey (Hotkey)
+// Items: IV05 (Meat on a Stick), Hotkey (Hotkey)
 {
 F
 }
@@ -31503,7 +31234,7 @@ STRING 4754
 }
 
 STRING 4755
-// Items: IV05 (Meat on a Stick), Hotkey (Hotkey)
+// Items: I0HU (Fresh Water), Hotkey (Hotkey)
 {
 F
 }
@@ -32008,7 +31739,7 @@ STRING 4830
 }
 
 STRING 4831
-// Items: I0HU (Fresh Water), Hotkey (Hotkey)
+// Abilities: AZ04 (Speical: Left the Game), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -35446,6 +35177,12 @@ STRING 5357
 // Abilities: A0Y4 (Spell Power (Random bonus)), Name (Name)
 {
 Spell Power (Random bonus)
+}
+
+STRING 5358
+// Buffs/Effects: B023 (), Buffubertip (Tooltip - Extended)
+{
+Extra damage. Each attack reduces armor.
 }
 
 STRING 5359
@@ -41135,12 +40872,6 @@ STRING 6221
 {
 Deals |cffbe81f7240|r damage to enemies in the area. Increases damage dealt by 9 per entropy. Restores the hero |cffbe81f77|r mana for each enemy. Every fourth hited enemy at a time increases entropy by 1.
 |cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 6222
-// Abilities: A0RL (Spell Book), EditorSuffix (Editor Suffix)
-{
-(Оживление, Принц пещер)
 }
 
 STRING 6223
@@ -47958,6 +47689,28 @@ STRING 7281
 All heroes receive a Library Pass without a |cffC71585Curse|r tag.
 }
 
+STRING 7282
+// Abilities: A0CW (Scarab: Revitalization), Researchubertip (Tooltip - Learn - Extended)
+{
+Increases the friendly target's health by 250/350/450/550/650 until the end of the battle.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 7283
+// Abilities: A0CW (Scarab: Revitalization), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the friendly target's health by 250 until the end of the battle.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 7284
+// Abilities: A0CW (Scarab: Revitalization), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the friendly target's health by 350 until the end of the battle.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 7285
 // Abilities: A0KB (Jester: Juggling), Name (Name)
 {
@@ -48300,6 +48053,13 @@ STRING 7334
 Shinobi Mastery, [|cffffcc00Level %d|r]
 }
 
+STRING 7335
+// Abilities: A0CW (Scarab: Revitalization), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the friendly target's health by 450 until the end of the battle.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 7336
 // Abilities: A0JV (Ninja: Shinobi Mastery), Tip (Tooltip - Normal)
 {
@@ -48328,6 +48088,13 @@ STRING 7340
 // Abilities: A0JV (Ninja: Shinobi Mastery), Tip (Tooltip - Normal)
 {
 Shinobi Mastery, [|cffffcc00Level 5|r]
+}
+
+STRING 7341
+// Abilities: A0CW (Scarab: Revitalization), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the friendly target's health by 550 until the end of the battle.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 7342
@@ -51022,7 +50789,7 @@ The hero receives a free piece of the set three times. Current:
 }
 
 STRING 7753
-// Abilities: AZ04 (Speical: Left the Game), Hotkey (Hotkey - Normal)
+// Abilities: AZ03 (Special: Last Rites), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -51053,7 +50820,7 @@ STRING 7757
 }
 
 STRING 7758
-// Abilities: AZ03 (Special: Last Rites), Hotkey (Hotkey - Normal)
+// Abilities: AZ02 ((т)Аура: Masochism), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -51420,7 +51187,7 @@ STRING 7816
 }
 
 STRING 7817
-// Abilities: AZ02 ((т)Аура: Masochism), Hotkey (Hotkey - Normal)
+// Abilities: AZ01 (Special: Soul Marriage), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -53262,7 +53029,7 @@ STRING 8105
 }
 
 STRING 8106
-// Abilities: AZ01 (Special: Soul Marriage), Hotkey (Hotkey - Normal)
+// Abilities: AZ00 (Special: Masochism), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -54682,15 +54449,6 @@ STRING 8329
 Revitalization, [|cffffcc00Level %d|r]
 }
 
-STRING 8330
-// Abilities: A0CW (Scarab: Revitalization), Researchubertip (Tooltip - Learn - Extended)
-{
-Every second, restores all heroes health equal to |cffbe81f70.5%|r of the maximum health of your hero. Reduces physical damage taken by 4%/6%/8%/10%/12%.
-|cffffcc00Duration:|r 10/12/14/16/18 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
 STRING 8331
 // Abilities: A0CW (Scarab: Revitalization), Tip (Tooltip - Normal)
 {
@@ -54721,62 +54479,10 @@ STRING 8335
 Revitalization, [|cffffcc00Level 5|r]
 }
 
-STRING 8336
-// Abilities: A0CW (Scarab: Revitalization), Ubertip (Tooltip - Normal - Extended)
-{
-Every second, restores all heroes health equal to |cffbe81f70.5%|r of the maximum health of your hero. Reduces physical damage taken by 4%.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 8337
-// Abilities: A0CW (Scarab: Revitalization), Ubertip (Tooltip - Normal - Extended)
-{
-Every second, restores all heroes health equal to |cffbe81f70.5%|r of the maximum health of your hero. Reduces physical damage taken by 6%.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 8338
-// Abilities: A0CW (Scarab: Revitalization), Ubertip (Tooltip - Normal - Extended)
-{
-Every second, restores all heroes health equal to |cffbe81f70.5%|r of the maximum health of your hero. Reduces physical damage taken by 8%.
-|cffffcc00Duration:|r 14 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 8339
-// Abilities: A0CW (Scarab: Revitalization), Ubertip (Tooltip - Normal - Extended)
-{
-Every second, restores all heroes health equal to |cffbe81f70.5%|r of the maximum health of your hero. Reduces physical damage taken by 10%.
-|cffffcc00Duration:|r 16 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 8340
-// Abilities: A0CW (Scarab: Revitalization), Ubertip (Tooltip - Normal - Extended)
-{
-Every second, restores all heroes health equal to |cffbe81f70.5%|r of the maximum health of your hero. Reduces physical damage taken by 12%.
-|cffffcc00Duration:|r 18 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
 STRING 8341
 // Abilities: A0CV (MP (Маначай)), Name (Name)
 {
 MP (Маначай)
-}
-
-STRING 8342
-// Abilities: A0CU (Аура: Оживление), EditorSuffix (Editor Suffix)
-{
-(Принц пещер)
-}
-
-STRING 8343
-// Abilities: A0CU (Аура: Оживление), Name (Name)
-{
-Аура: Оживление
 }
 
 STRING 8344
@@ -55871,7 +55577,7 @@ STRING 8510
 }
 
 STRING 8511
-// Abilities: AZ00 (Special: Masochism), Hotkey (Hotkey - Normal)
+// Abilities: A1BY (Special: Sheep cannon), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -56159,6 +55865,13 @@ STRING 8555
 R
 }
 
+STRING 8556
+// Abilities: A0CW (Scarab: Revitalization), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the friendly target's health by 650 until the end of the battle.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 8557
 // Abilities: A09S (Chronomancer: Chrono acceleration), Hotkey (Hotkey - Normal)
 {
@@ -56169,6 +55882,109 @@ STRING 8558
 // Abilities: A0B8 (Scarab: Death Sentence), Researchtip (Tooltip - Learn)
 {
 Death sentence, [|cffffcc00Level %d|r]
+}
+
+STRING 8559
+// Buffs/Effects: B022 (), Buffubertip (Tooltip - Extended)
+{
+Health increased.
+}
+
+STRING 8560
+// Abilities: A1E3 (Runesmith: Runic Link), Researchubertip (Tooltip - Learn - Extended)
+{
+Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
+
+|cffffcc00Level 1:|r Life-Giver provides 0.3 health regeneration.
+|cffffcc00Level 2:|r Shepherd provides 1 armor for the battle.
+|cffffcc00Level 3:|r Emperor reduces active cooldowns by 5s.
+|cffffcc00Level 4:|r Strongman provides 0.2% spell power.
+|cffffcc00Level 5:|r Illusionist provides an 10 Health or 5 Mana.
+}
+
+STRING 8561
+// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
+{
+Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
+
+- Life-Giver provides 0.3 health regeneration.
+
+}
+
+STRING 8562
+// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
+{
+Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
+
+- Life-Giver provides 0.3 health regeneration.
+- Shepherd provides 1 armor for the battle.
+|cffffcc00Level 3:|r Emperor reduces active cooldowns by 5s.
+|cffffcc00Level 4:|r Strongman provides 0.2% spell power.
+|cffffcc00Level 5:|r Illusionist provides an 10 Health or 5 Mana.
+}
+
+STRING 8563
+// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
+{
+Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
+
+- Life-Giver provides 0.3 health regeneration.
+- Shepherd provides 1 armor for the battle.
+- Emperor reduces active cooldowns by 5s.
+}
+
+STRING 8564
+// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
+{
+Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
+
+- Life-Giver provides 0.3 health regeneration.
+- Shepherd provides 1 armor for the battle.
+- Emperor reduces active cooldowns by 5s.
+- Strongman provides 0.2% spell power.
+}
+
+STRING 8565
+// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
+{
+Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
+
+- Life-Giver provides 0.3 health regeneration.
+- Shepherd provides 1 armor for the battle.
+- Emperor reduces active cooldowns by 5s.
+- Strongman provides 0.2% spell power.
+- Illusionist provides an 10 Health or 5 Mana.
+}
+
+STRING 8566
+// Abilities: A1I2 (Combat Rune Tag), Name (Name)
+{
+Combat Rune Tag
+}
+
+STRING 8567
+// Abilities: A1E4 (Runesmith: Traveler's Strike), Researchubertip (Tooltip - Learn - Extended)
+{
+Charge an attack. Your next basic attack deals |cffbe81f7magic damage|r and stuns the target for 0.5 seconds. This effect stacks for each additional charge.
+|cffffcc00Max Charges:|r 2/3/4/5/6.
+|cffffcc00Cooldown:|r 2 seconds.
+|cffffcc00Cost:|r 30 mana.
+}
+
+STRING 8568
+// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
+{
+Charge an attack. Your next basic attack deals |cffbe81f7magic damage|r and stuns the target for 0.5 seconds. This effect stacks for each additional charge.
+|cffffcc00Max Charges:|r 2.
+|cffffcc00Cooldown:|r 2 seconds.
+}
+
+STRING 8569
+// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
+{
+Charge an attack. Your next basic attack deals |cffbe81f7magic damage|r and stuns the target for 0.5 seconds. This effect stacks for each additional charge.
+|cffffcc00Max Charges:|r 3.
+|cffffcc00Cooldown:|r 2 seconds.
 }
 
 STRING 8570
@@ -56635,6 +56451,42 @@ STRING 8642
 // Abilities: A0AL (Druid: Herd), Tip (Tooltip - Normal)
 {
 Herd, [|cffffcc00Level 5|r]
+}
+
+STRING 8643
+// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
+{
+Charge an attack. Your next basic attack deals |cffbe81f7magic damage|r and stuns the target for 0.5 seconds. This effect stacks for each additional charge.
+|cffffcc00Max Charges:|r 4.
+|cffffcc00Cooldown:|r 2 seconds.
+}
+
+STRING 8644
+// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
+{
+Charge an attack. Your next basic attack deals |cffbe81f7magic damage|r and stuns the target for 0.5 seconds. This effect stacks for each additional charge.
+|cffffcc00Max Charges:|r 5.
+|cffffcc00Cooldown:|r 2 seconds.
+}
+
+STRING 8645
+// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
+{
+Charge an attack. Your next basic attack deals |cffbe81f7magic damage|r and stuns the target for 0.5 seconds. This effect stacks for each additional charge.
+|cffffcc00Max Charges:|r 6.
+|cffffcc00Cooldown:|r 2 seconds.
+}
+
+STRING 8646
+// Abilities: A1I4 (Extra: Path of the Rune (Runesmith)), Name (Name)
+{
+Extra: Path of the Rune (Runesmith)
+}
+
+STRING 8647
+// Abilities: A1I4 (Extra: Path of the Rune (Runesmith)), Tip (Tooltip - Normal)
+{
+Path of the Rune
 }
 
 STRING 8648
@@ -58915,6 +58767,12 @@ STRING 9003
 Grasp of the Dead, [|cffffcc00Level %d|r]
 }
 
+STRING 9004
+// Abilities: A1I4 (Extra: Path of the Rune (Runesmith)), Ubertip (Tooltip - Normal - Extended)
+{
+When you or an ally picks up a Rune, increase their movement speed by 20% for 10 seconds.
+}
+
 STRING 9005
 // Abilities: A0CM (Skeletlord: Grasp of the Dead), Tip (Tooltip - Normal)
 {
@@ -59109,27 +58967,6 @@ STRING 9036
 Grasp of the Dead, [|cffffcc00Level 5|r]
 }
 
-STRING 9037
-// Abilities: A1E3 (Runesmith: Runic Link), Researchubertip (Tooltip - Learn - Extended)
-{
-Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
-
-|cffffcc00Level 1:|r Life-Giver provides 0.2 health regeneration.
-|cffffcc00Level 2:|r Shepherd provides 1 armor for the battle.
-|cffffcc00Level 3:|r Emperor reduces active cooldowns by 5s.
-|cffffcc00Level 4:|r Strongman provides 0.2% spell power.
-|cffffcc00Level 5:|r Illusionist provides an 10 Health or 5 Mana.
-}
-
-STRING 9038
-// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
-{
-Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
-
-- Life-Giver provides 0.2 health regeneration.
-
-}
-
 STRING 9039
 // Abilities: A08D (Artifact: Superbot-3000), Name (Name)
 {
@@ -59234,18 +59071,6 @@ STRING 9055
 // Abilities: A088 (Unique: Provocation), Tip (Tooltip - Normal)
 {
 Provocation
-}
-
-STRING 9056
-// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
-{
-Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
-
-- Life-Giver provides 0.2 health regeneration.
-- Shepherd provides 1 armor for the battle.
-|cffffcc00Level 3:|r Emperor reduces active cooldowns by 5s.
-|cffffcc00Level 4:|r Strongman provides 0.2% spell power.
-|cffffcc00Level 5:|r Illusionist provides an 10 Health or 5 Mana.
 }
 
 STRING 9057
@@ -60462,6 +60287,12 @@ STRING 9242
 Sap, [|cffffcc00Level %d|r]
 }
 
+STRING 9243
+// Abilities: A1I3 ((т)Аура: Path of the Rune), Name (Name)
+{
+(т)Аура: Path of the Rune
+}
+
 STRING 9244
 // Abilities: A07I (Scarab: Sap), Tip (Tooltip - Normal)
 {
@@ -60492,8 +60323,38 @@ STRING 9248
 Sap, [|cffffcc00Level 5|r]
 }
 
+STRING 9249
+// Buffs/Effects: B0B1 (), Bufftip (Tooltip)
+{
+|cff00ff00Path of the Rune|r
+}
+
+STRING 9250
+// Buffs/Effects: B0B1 (), Buffubertip (Tooltip - Extended)
+{
+Increases movement speed when the rune is picked up.
+}
+
+STRING 9251
+// Buffs/Effects: B0B1 (), EditorSuffix (Editor Suffix)
+{
+(aura)
+}
+
+STRING 9252
+// Buffs/Effects: B0B2 (), Bufftip (Tooltip)
+{
+|cff00ff00Path of the Rune|r
+}
+
+STRING 9253
+// Buffs/Effects: B0B2 (), Buffubertip (Tooltip - Extended)
+{
+Movement speed increased.
+}
+
 STRING 9254
-// Abilities: A1BY (Special: Sheep cannon), Hotkey (Hotkey - Normal)
+// Abilities: A1BV (Special: Time rift), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -60829,7 +60690,7 @@ STRING 9305
 }
 
 STRING 9306
-// Abilities: A1BV (Special: Time rift), Hotkey (Hotkey - Normal)
+// Abilities: A1BL (Special: Cannibalism), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -61069,16 +60930,6 @@ STRING 9344
 // Abilities: A06H (|cffffcc00Уровень 6:|r Краб), Tip (Tooltip - Normal)
 {
 Crab
-}
-
-STRING 9345
-// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
-{
-Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
-
-- Life-Giver provides 0.2 health regeneration.
-- Shepherd provides 1 armor for the battle.
-- Emperor reduces active cooldowns by 5s.
 }
 
 STRING 9346
@@ -63334,17 +63185,6 @@ STRING 9693
 Unreachable, [|cffffcc00Level %d|r]
 }
 
-STRING 9694
-// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
-{
-Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
-
-- Life-Giver provides 0.2 health regeneration.
-- Shepherd provides 1 armor for the battle.
-- Emperor reduces active cooldowns by 5s.
-- Strongman provides 0.2% spell power.
-}
-
 STRING 9695
 // Abilities: A04L (Doctor: Unreachable), Tip (Tooltip - Normal)
 {
@@ -63832,18 +63672,6 @@ STRING 9768
 |cffffcc00Amplifier:|r Epic
 }
 
-STRING 9769
-// Abilities: A1E3 (Runesmith: Runic Link), Ubertip (Tooltip - Normal - Extended)
-{
-Whenever the Runesmith uses a Rune, the hero shares the effects to the allies. Using runes provides additional boons.
-
-- Life-Giver provides 0.2 health regeneration.
-- Shepherd provides 1 armor for the battle.
-- Emperor reduces active cooldowns by 5s.
-- Strongman provides 0.2% spell power.
-- Illusionist provides an 10 Health or 5 Mana.
-}
-
 STRING 9770
 // Abilities: A045 (Усилитель 4: Мифический), Name (Name)
 {
@@ -63854,23 +63682,6 @@ STRING 9771
 // Abilities: A045 (Усилитель 4: Мифический), Tip (Tooltip - Normal)
 {
 |cffffcc00Amplifier:|r Mythical
-}
-
-STRING 9772
-// Abilities: A1E4 (Runesmith: Traveler's Strike), Researchubertip (Tooltip - Learn - Extended)
-{
-The Runesmith charges the attack. Next attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and stun the target for 1 second per charge.
-|cffffcc00Max Charges:|r 1/2/3/4/5
-|cffffcc00Cooldown:|r 2.5 seconds.
-|cffffcc00Cost:|r 30 mana.
-}
-
-STRING 9773
-// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
-{
-The Runesmith charges the attack. Next attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and stun the target for 1 second per charge.
-|cffffcc00Max Charges:|r 1
-|cffffcc00Cooldown:|r 2.5 seconds.
 }
 
 STRING 9774
@@ -63895,14 +63706,6 @@ STRING 9777
 // Abilities: A043 (Усилитель 1: Редкий), Tip (Tooltip - Normal)
 {
 |cffffcc00Amplifier:|r Rare
-}
-
-STRING 9778
-// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
-{
-The Runesmith charges the attack. Next attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and stun the target for 1 second per charge.
-|cffffcc00Max Charges:|r 2
-|cffffcc00Cooldown:|r 2.5 seconds.
 }
 
 STRING 9779
@@ -65923,14 +65726,6 @@ STRING 10085
 Артефакт: Жертвенный клинок
 }
 
-STRING 10086
-// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
-{
-The Runesmith charges the attack. Next attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and stun the target for 1 second per charge.
-|cffffcc00Max Charges:|r 3
-|cffffcc00Cooldown:|r 2.5 seconds.
-}
-
 STRING 10087
 // Abilities: A01Y (Босс 6: Краб (Скорость боя)), Name (Name)
 {
@@ -67642,6 +67437,12 @@ STRING 10345
 Slap, [|cffffcc00Level %d|r]
 }
 
+STRING 10346
+// Buffs/Effects: B0B2 (), EditorSuffix (Editor Suffix)
+{
+(buff)
+}
+
 STRING 10347
 // Abilities: A00C (Beorn: Slap), Tip (Tooltip - Normal)
 {
@@ -67670,6 +67471,47 @@ STRING 10351
 // Abilities: A00C (Beorn: Slap), Tip (Tooltip - Normal)
 {
 Slap, [|cffffcc00Level 5|r]
+}
+
+STRING 10352
+// Abilities: A19K (Gun Master: Shelling), Researchubertip (Tooltip - Learn - Extended)
+{
+Creates an area that causes small explosions every 0.5 seconds, dealing |cffbe81f764/76/88/100/112|r damage to enemies.
+|cffffcc00Life time:|r 10 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 70 mana.
+}
+
+STRING 10353
+// Abilities: A19K (Gun Master: Shelling), Ubertip (Tooltip - Normal - Extended)
+{
+Creates an area that causes small explosions every 0.5 seconds, dealing |cffbe81f764|r damage to enemies.
+|cffffcc00Life time:|r 10 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 10354
+// Abilities: A19K (Gun Master: Shelling), Ubertip (Tooltip - Normal - Extended)
+{
+Creates an area that causes small explosions every 0.5 seconds, dealing |cffbe81f776|r damage to enemies.
+|cffffcc00Life time:|r 10 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 10355
+// Abilities: A19K (Gun Master: Shelling), Ubertip (Tooltip - Normal - Extended)
+{
+Creates an area that causes small explosions every 0.5 seconds, dealing |cffbe81f788|r damage to enemies.
+|cffffcc00Life time:|r 10 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 10356
+// Abilities: A19K (Gun Master: Shelling), Ubertip (Tooltip - Normal - Extended)
+{
+Creates an area that causes small explosions every 0.5 seconds, dealing |cffbe81f7100|r damage to enemies.
+|cffffcc00Life time:|r 10 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 10357
@@ -71190,14 +71032,6 @@ STRING 10939
 Spell power increased.
 }
 
-STRING 10940
-// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
-{
-The Runesmith charges the attack. Next attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and stun the target for 1 second per charge.
-|cffffcc00Max Charges:|r 4
-|cffffcc00Cooldown:|r 2.5 seconds.
-}
-
 STRING 10941
 // Buffs/Effects: B02W (), Buffubertip (Tooltip - Extended)
 {
@@ -71292,12 +71126,6 @@ STRING 10956
 // Buffs/Effects: B02P (), Buffubertip (Tooltip - Extended)
 {
 Warrior is gradually losing health.
-}
-
-STRING 10957
-// Buffs/Effects: B02O (), Bufftip (Tooltip)
-{
-|cff00ff00Mode - Shotgun|r
 }
 
 STRING 10958
@@ -71540,12 +71368,6 @@ STRING 10997
 |cff00ff00Sap|r
 }
 
-STRING 10998
-// Buffs/Effects: B023 (), Buffubertip (Tooltip - Extended)
-{
-Attacks stun the target.
-}
-
 STRING 10999
 // Buffs/Effects: B022 (), Bufftip (Tooltip)
 {
@@ -71553,7 +71375,7 @@ STRING 10999
 }
 
 STRING 11000
-// Buffs/Effects: B022 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B01Z (), Buffubertip (Tooltip - Extended)
 {
 Health is gradually being restored.
 }
@@ -71589,7 +71411,7 @@ STRING 11005
 }
 
 STRING 11006
-// Buffs/Effects: B01Z (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B00Z (), Buffubertip (Tooltip - Extended)
 {
 Health is gradually being restored.
 }
@@ -72021,7 +71843,7 @@ STRING 11077
 }
 
 STRING 11078
-// Buffs/Effects: B00Z (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B00X (), Buffubertip (Tooltip - Extended)
 {
 Health is gradually being restored.
 }
@@ -72042,12 +71864,6 @@ STRING 11081
 // Buffs/Effects: B00X (), Bufftip (Tooltip)
 {
 |cff00ff00Prana conversion|r
-}
-
-STRING 11082
-// Buffs/Effects: B00X (), Buffubertip (Tooltip - Extended)
-{
-Health is gradually being restored.
 }
 
 STRING 11083
@@ -72562,14 +72378,6 @@ Type: |Cffffcc00Minion|R
 STRING 11166
 {
 Тип: |Cffffcc00Minion Armor|R
-}
-
-STRING 11167
-// Abilities: A1E4 (Runesmith: Traveler's Strike), Ubertip (Tooltip - Normal - Extended)
-{
-The Runesmith charges the attack. Next attacks will cause |cffbe81f7magic damage|r based on your attack power per charge and stun the target for 1 second per charge.
-|cffffcc00Max Charges:|r 5
-|cffffcc00Cooldown:|r 2.5 seconds.
 }
 
 STRING 11168
@@ -73992,6 +73800,14 @@ STRING 11389
 W
 }
 
+STRING 11390
+// Abilities: A19K (Gun Master: Shelling), Ubertip (Tooltip - Normal - Extended)
+{
+Creates an area that causes small explosions every 0.5 seconds, dealing |cffbe81f7112|r damage to enemies.
+|cffffcc00Life time:|r 10 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 11391
 // Abilities: A1E5 (Runesmith: Take Root), Tip (Tooltip - Normal)
 {
@@ -74020,6 +73836,38 @@ STRING 11395
 // Abilities: A1E5 (Runesmith: Take Root), Tip (Tooltip - Normal)
 {
 Take Root, [|cffffcc00Level 5|r]
+}
+
+STRING 11396
+// Abilities: A19H (Gun Master: Explosive Grenade), Name (Name)
+{
+Gun Master: Explosive Grenade
+}
+
+STRING 11397
+// Abilities: A19H (Gun Master: Explosive Grenade), Researchtip (Tooltip - Learn)
+{
+Explosive Grenade, [|cffffcc00Level %d|r]
+}
+
+STRING 11398
+// Abilities: A19H (Gun Master: Explosive Grenade), Researchubertip (Tooltip - Learn - Extended)
+{
+The hero throws a grenade, which explodes 2 seconds after landing, dealing |cffbe81f7150/200/250/300/350|r damage to enemies.
+|cffffcc00Cooldown:|r 8 seconds.
+|cffffcc00Cost:|r 40 mana.
+}
+
+STRING 11399
+// Abilities: A19H (Gun Master: Explosive Grenade), Tip (Tooltip - Normal)
+{
+Explosive Grenade, [|cffffcc00Level 1|r]
+}
+
+STRING 11400
+// Abilities: A19H (Gun Master: Explosive Grenade), Tip (Tooltip - Normal)
+{
+Explosive Grenade, [|cffffcc00Level 2|r]
 }
 
 STRING 11401
@@ -78351,145 +78199,145 @@ Each kill restores |cffbe81f710%|r Health and Mana, and permanently increases th
 }
 
 STRING 12004
-// Abilities: A1BL (Special: Cannibalism), Hotkey (Hotkey - Normal)
-{
-F
-}
-
-STRING 12005
 // Abilities: A1BK (Special: Dualism), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12006
+STRING 12005
 // Abilities: A1B4 (Special: Reflection), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12007
+STRING 12006
 // Abilities: A1B3 (Special: Unstable Potions), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12008
+STRING 12007
 // Abilities: A1B2 (Special: Equivalent exchange), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12009
+STRING 12008
 // Abilities: A1AF (Special: Burst of Energy), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12010
+STRING 12009
 // Abilities: A1AE (Special: Sacrifice), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12011
+STRING 12010
 // Abilities: A1AD (Special: Voodoo explosion), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12012
+STRING 12011
 // Abilities: A19U (Special: Arcanology), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12013
+STRING 12012
 // Abilities: A19S (Special: Rage), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12014
+STRING 12013
 // Abilities: A19R (Special: Revitalization), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12015
+STRING 12014
 // Abilities: A19Q (Special: Burn), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12016
+STRING 12015
 // Abilities: A19P (Special: Taunt), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12017
+STRING 12016
 // Abilities: A19N (Special: Innervate), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12018
+STRING 12017
 // Abilities: A13S (Special: Mutation), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12019
+STRING 12018
 // Abilities: A12Y (Special: Incineration), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12020
+STRING 12019
 // Abilities: A12G (Special: Unholy Bless), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12021
+STRING 12020
 // Abilities: A0GT (Special: Multicast), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12022
+STRING 12021
 // Abilities: A0GR (Special: Stabilization), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12023
+STRING 12022
 // Abilities: A0G7 (Special: Noiselessness), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12024
+STRING 12023
 // Abilities: A0EG (Special: Seal of Brotherhood), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12025
+STRING 12024
 // Abilities: A0BM (Special: Financial vein), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12026
+STRING 12025
 // Abilities: A07H (Special: Crackle), Hotkey (Hotkey - Normal)
 {
 F
 }
 
-STRING 12027
+STRING 12026
 // Abilities: A06Y (Special: Echo), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 12027
+// Abilities: A1HD (Special: Farewell), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -78997,6 +78845,43 @@ STRING 12106
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 12107
+// Abilities: A19H (Gun Master: Explosive Grenade), Tip (Tooltip - Normal)
+{
+Explosive Grenade, [|cffffcc00Level 3|r]
+}
+
+STRING 12108
+// Abilities: A19H (Gun Master: Explosive Grenade), Tip (Tooltip - Normal)
+{
+Explosive Grenade, [|cffffcc00Level 4|r]
+}
+
+STRING 12109
+// Abilities: A19H (Gun Master: Explosive Grenade), Tip (Tooltip - Normal)
+{
+Explosive Grenade, [|cffffcc00Level 5|r]
+}
+
+STRING 12110
+// Abilities: A19F (Gun Master: Mode - Boomstick), Name (Name)
+{
+Gun Master: Mode - Boomstick
+}
+
+STRING 12111
+// Abilities: A19F (Gun Master: Mode - Boomstick), Researchtip (Tooltip - Learn)
+{
+Mode - Boomstick, [|cffffcc00Level %d|r]
+}
+
+STRING 12112
+// Abilities: A19F (Gun Master: Mode - Boomstick), Researchubertip (Tooltip - Learn - Extended)
+{
+Changes the behavior of the basic attack. Reduces attack speed by 80%, increases damage by 100%/125%/150%/175%/200%, deals damage in an area around the target, and changes the damage type to |cffbe81f7magical|r.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 12113
 // Abilities: A1E5 (Runesmith: Take Root), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -79044,5 +78929,168 @@ STRING 12118
 The hero separates their body and soul. The body has 160% of base stats, cannot cast or move, and the soul cannot attack or receive damage from attacks.
 |cffffcc00Duration:|r 20 seconds.
 |cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 12119
+// Abilities: A19F (Gun Master: Mode - Boomstick), Tip (Tooltip - Normal)
+{
+Mode - Boomstick, [|cffffcc00Level 1|r]
+}
+
+STRING 12120
+// Abilities: A19F (Gun Master: Mode - Boomstick), Tip (Tooltip - Normal)
+{
+Mode - Boomstick, [|cffffcc00Level 2|r]
+}
+
+STRING 12121
+// Abilities: A19F (Gun Master: Mode - Boomstick), Tip (Tooltip - Normal)
+{
+Mode - Boomstick, [|cffffcc00Level 3|r]
+}
+
+STRING 12122
+// Abilities: A19F (Gun Master: Mode - Boomstick), Tip (Tooltip - Normal)
+{
+Mode - Boomstick, [|cffffcc00Level 4|r]
+}
+
+STRING 12123
+// Abilities: A19F (Gun Master: Mode - Boomstick), Tip (Tooltip - Normal)
+{
+Mode - Boomstick, [|cffffcc00Level 5|r]
+}
+
+STRING 12124
+// Abilities: A19F (Gun Master: Mode - Boomstick), Ubertip (Tooltip - Normal - Extended)
+{
+Changes the behavior of the basic attack. Reduces attack speed by 80%, increases damage by 100%, deals damage in an area around the target, and changes the damage type to |cffbe81f7magical|r.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12125
+// Abilities: A19F (Gun Master: Mode - Boomstick), Ubertip (Tooltip - Normal - Extended)
+{
+Changes the behavior of the basic attack. Reduces attack speed by 80%, increases damage by 125%, deals damage in an area around the target, and changes the damage type to |cffbe81f7magical|r.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12126
+// Abilities: A19F (Gun Master: Mode - Boomstick), Ubertip (Tooltip - Normal - Extended)
+{
+Changes the behavior of the basic attack. Reduces attack speed by 80%, increases damage by 150%, deals damage in an area around the target, and changes the damage type to |cffbe81f7magical|r.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12127
+// Abilities: A19F (Gun Master: Mode - Boomstick), Ubertip (Tooltip - Normal - Extended)
+{
+Changes the behavior of the basic attack. Reduces attack speed by 80%, increases damage by 175%, deals damage in an area around the target, and changes the damage type to |cffbe81f7magical|r.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12128
+// Abilities: A19F (Gun Master: Mode - Boomstick), Ubertip (Tooltip - Normal - Extended)
+{
+Changes the behavior of the basic attack. Reduces attack speed by 80%, increases damage by 200%, deals damage in an area around the target, and changes the damage type to |cffbe81f7magical|r.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12129
+// Abilities: A19F (Gun Master: Mode - Boomstick), Unubertip (Tooltip - Turn Off - Extended)
+{
+Returns the usual attack mode.
+
+|cFF959697Can be activated during cooldown.|r
+}
+
+STRING 12130
+// Abilities: A1I5 (At. Speed (Mode - Boomstick)), Name (Name)
+{
+At. Speed (Mode - Boomstick)
+}
+
+STRING 12131
+// Buffs/Effects: B02O (), Bufftip (Tooltip)
+{
+|cff00ff00Mode - Boomstick|r
+}
+
+STRING 12132
+// Abilities: A19J (Gun Master: Armor-Piercing Cartridges), Name (Name)
+{
+Gun Master: Armor-Piercing Cartridges
+}
+
+STRING 12133
+// Abilities: A19J (Gun Master: Armor-Piercing Cartridges), Researchtip (Tooltip - Learn)
+{
+Armor-Piercing Cartridges, [|cffffcc00Level %d|r]
+}
+
+STRING 12134
+// Abilities: A19J (Gun Master: Armor-Piercing Cartridges), Researchubertip (Tooltip - Learn - Extended)
+{
+When you deal magic damage, you have a |cffd7df0115%/20%/25%/30%/35%|r chance to reduce the target's armor by 1. If the damage was 225 or more, additionally reduce it by 1.
+}
+
+STRING 12135
+// Abilities: A19J (Gun Master: Armor-Piercing Cartridges), Tip (Tooltip - Normal)
+{
+Armor-Piercing Cartridges, [|cffffcc00Level 1|r]
+}
+
+STRING 12136
+// Abilities: A19J (Gun Master: Armor-Piercing Cartridges), Tip (Tooltip - Normal)
+{
+Armor-Piercing Cartridges, [|cffffcc00Level 2|r]
+}
+
+STRING 12137
+// Abilities: A19J (Gun Master: Armor-Piercing Cartridges), Tip (Tooltip - Normal)
+{
+Armor-Piercing Cartridges, [|cffffcc00Level 3|r]
+}
+
+STRING 12138
+// Abilities: A19J (Gun Master: Armor-Piercing Cartridges), Tip (Tooltip - Normal)
+{
+Armor-Piercing Cartridges, [|cffffcc00Level 4|r]
+}
+
+STRING 12139
+// Abilities: A19J (Gun Master: Armor-Piercing Cartridges), Tip (Tooltip - Normal)
+{
+Armor-Piercing Cartridges, [|cffffcc00Level 5|r]
+}
+
+STRING 12140
+// Abilities: A19J (Gun Master: Armor-Piercing Cartridges), Ubertip (Tooltip - Normal - Extended)
+{
+When you deal magic damage, you have a |cffd7df0115%|r chance to reduce the target's armor by 1. If the damage was 225 or more, additionally reduce it by 1.
+}
+
+STRING 12141
+// Abilities: A19J (Gun Master: Armor-Piercing Cartridges), Ubertip (Tooltip - Normal - Extended)
+{
+When you deal magic damage, you have a |cffd7df0120%|r chance to reduce the target's armor by 1. If the damage was 225 or more, additionally reduce it by 1.
+}
+
+STRING 12142
+// Abilities: A19J (Gun Master: Armor-Piercing Cartridges), Ubertip (Tooltip - Normal - Extended)
+{
+When you deal magic damage, you have a |cffd7df0125%|r chance to reduce the target's armor by 1. If the damage was 225 or more, additionally reduce it by 1.
+}
+
+STRING 12143
+// Abilities: A19J (Gun Master: Armor-Piercing Cartridges), Ubertip (Tooltip - Normal - Extended)
+{
+When you deal magic damage, you have a |cffd7df0130%|r chance to reduce the target's armor by 1. If the damage was 225 or more, additionally reduce it by 1.
+}
+
+STRING 12144
+// Abilities: A19J (Gun Master: Armor-Piercing Cartridges), Ubertip (Tooltip - Normal - Extended)
+{
+When you deal magic damage, you have a |cffd7df0135%|r chance to reduce the target's armor by 1. If the damage was 225 or more, additionally reduce it by 1.
 }
 

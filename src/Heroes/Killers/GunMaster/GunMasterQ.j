@@ -11,6 +11,7 @@ endfunction
 function CommandoQEnd takes nothing returns nothing
     local integer id = GetHandleId( GetExpiredTimer( ) )
     local unit dummy = LoadUnitHandle( udg_hash, id, StringHash( "codq1" ) )
+    local unit caster = LoadUnitHandle( udg_hash, id, StringHash( "codq1c" ) )
     local real dmg = LoadReal( udg_hash, id, StringHash( "codq1dmg" ) )
     local group g = CreateGroup()
     local unit u
@@ -25,24 +26,25 @@ function CommandoQEnd takes nothing returns nothing
         set u = FirstOfGroup(g)
         exitwhen u == null
         if unitst( u, dummy, "enemy" ) then
-            call UnitDamageTarget( bj_lastCreatedUnit, u, dmg, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)
+            call UnitDamageTarget( caster, u, dmg, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)
         endif
         call GroupRemoveUnit(g,u)
     endloop
     call FlushChildHashtable( udg_hash, id )
     call RemoveUnit( dummy )
 
-    call GroupClear( g )
     call DestroyGroup( g )
     set u = null
     set g = null
     set dummy = null
+    set caster = null
     set fx = null
 endfunction
 
 function CommandoQCast takes nothing returns nothing
     local integer id = GetHandleId( GetExpiredTimer( ) )
     local unit dummy = LoadUnitHandle( udg_hash, id, StringHash( "codq" ) )
+    local unit caster = LoadUnitHandle( udg_hash, id, StringHash( "codqc" ) )
     local real dmg = LoadReal( udg_hash, id, StringHash( "codqdmg" ) )
     local real x = LoadReal( udg_hash, id, StringHash( "codqx" ) )
     local real y = LoadReal( udg_hash, id, StringHash( "codqy" ) )
@@ -71,6 +73,7 @@ function CommandoQCast takes nothing returns nothing
             endif
             set id1 = GetHandleId( LoadTimerHandle( udg_hash, id1, StringHash( "codq1" ) ) )
             call SaveUnitHandle( udg_hash, id1, StringHash( "codq1" ), dummy )
+            call SaveUnitHandle( udg_hash, id1, StringHash( "codq1c" ), caster )
             call SaveReal( udg_hash, id1, StringHash( "codq1dmg" ), dmg )
             call TimerStart( LoadTimerHandle( udg_hash, GetHandleId( dummy ), StringHash( "codq1" ) ), 2, false, function CommandoQEnd )
         endif
@@ -87,6 +90,7 @@ function CommandoQCast takes nothing returns nothing
         call SaveReal( udg_hash, id, StringHash( "codqp" ), time )
     endif
     
+    set caster = null
     set dummy = null
 endfunction
 
@@ -141,6 +145,7 @@ function Trig_GunMasterQ_Actions takes nothing returns nothing
     endif
     set id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( "codq" ) ) )
     call SaveUnitHandle( udg_hash, id, StringHash( "codq" ), bj_lastCreatedUnit)
+    call SaveUnitHandle( udg_hash, id, StringHash( "codqc" ), caster)
     call SaveReal( udg_hash, id, StringHash( "codqx" ), x )
     call SaveReal( udg_hash, id, StringHash( "codqy" ), y )
     call SaveReal( udg_hash, id, StringHash( "codqt" ), halftime)
