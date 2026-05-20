@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.10.2T|r
+|cffbe81f7Boss Battle 1.11.1T|r
 }
 
 STRING 2
@@ -60348,7 +60348,7 @@ STRING 9252
 }
 
 STRING 9253
-// Buffs/Effects: B0B2 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B06W (), Buffubertip (Tooltip - Extended)
 {
 Movement speed increased.
 }
@@ -69249,7 +69249,7 @@ STRING 10644
 }
 
 STRING 10645
-// Buffs/Effects: B06W (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B063 (), Buffubertip (Tooltip - Extended)
 {
 Movement speed increased.
 }
@@ -69586,7 +69586,7 @@ STRING 10700
 }
 
 STRING 10701
-// Buffs/Effects: B063 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B05V (), Buffubertip (Tooltip - Extended)
 {
 Movement speed increased.
 }
@@ -69689,7 +69689,7 @@ STRING 10717
 }
 
 STRING 10718
-// Buffs/Effects: B05V (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B04W (), Buffubertip (Tooltip - Extended)
 {
 Movement speed increased.
 }
@@ -70141,7 +70141,7 @@ STRING 10792
 }
 
 STRING 10793
-// Buffs/Effects: B04W (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B04R (), Buffubertip (Tooltip - Extended)
 {
 Movement speed increased.
 }
@@ -70202,7 +70202,7 @@ STRING 10802
 }
 
 STRING 10803
-// Buffs/Effects: B04R (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B04F (), Buffubertip (Tooltip - Extended)
 {
 Movement speed increased.
 }
@@ -70343,7 +70343,7 @@ Deals |cffbe81f7damage|r to the enemy equal to 10/15/20/25/30 added to the sum o
 }
 
 STRING 10826
-// Buffs/Effects: B04F (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B03P (), Buffubertip (Tooltip - Extended)
 {
 Movement speed increased.
 }
@@ -70672,7 +70672,7 @@ STRING 10879
 }
 
 STRING 10880
-// Buffs/Effects: B03P (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B02G (), Buffubertip (Tooltip - Extended)
 {
 Movement speed increased.
 }
@@ -71219,7 +71219,7 @@ STRING 10972
 }
 
 STRING 10973
-// Buffs/Effects: B02G (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B00J (), Buffubertip (Tooltip - Extended)
 {
 Movement speed increased.
 }
@@ -72037,7 +72037,7 @@ STRING 11109
 }
 
 STRING 11110
-// Buffs/Effects: B00J (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B0B2 (), Buffubertip (Tooltip - Extended)
 {
 Movement speed increased.
 }
@@ -72663,7 +72663,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.10.2T|r
+|cffbe81f7Boss Battle 1.11.1T|r
 }
 
 STRING 11219

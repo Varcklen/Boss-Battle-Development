@@ -2255,7 +2255,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Library",
       "Files": [
         {
@@ -2324,7 +2324,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Library\\RandomTarget.trg",
           "Files": []
         },
@@ -2345,7 +2345,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Library\\GroupLib.trg",
           "Files": []
         },
@@ -2443,7 +2443,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Library\\BuffDeleteLib.trg",
           "Files": []
         },
@@ -2492,7 +2492,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Library\\Healst.trg",
           "Files": []
         },
@@ -2534,7 +2534,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Library\\StunLib.trg",
           "Files": []
         },
@@ -2590,7 +2590,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Library\\TimePlayLib.trg",
           "Files": []
         },
@@ -2695,7 +2695,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Library\\MessageLib.j",
           "Files": []
         },
@@ -2760,7 +2760,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\Database.trg",
           "Files": []
         },
@@ -2781,7 +2781,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "BasicCore\\BaseTooltip.trg",
           "Files": []
         },
@@ -2816,7 +2816,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\StartTimer.j",
           "Files": []
         },
@@ -3239,7 +3239,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\EventSystem",
           "Files": [
             {
@@ -3259,7 +3259,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "BasicCore\\EventSystem\\Event Database.j",
               "Files": []
             },
@@ -3338,7 +3338,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "BasicCore\\DamageSystem\\SetDamageLib.trg",
               "Files": []
             },
@@ -3558,7 +3558,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "BasicCore\\Tag System\\TagSystem.j",
               "Files": []
             },
@@ -3806,14 +3806,14 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "BasicCore\\Counters\\Damage Absorbed.j",
               "Files": []
             },
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "BasicCore\\Counters\\Runes Collected.j",
               "Files": []
             }
@@ -3871,7 +3871,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "BasicCore\\Other\\NoBuff.trg",
               "Files": []
             },
@@ -4344,7 +4344,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Mods\\Active\\Bless\\Bless Production.j",
                   "Files": []
                 },
@@ -4491,7 +4491,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Mods\\Active\\Bless\\Bless Thirst For Knowledge.j",
                   "Files": []
                 },
@@ -4890,7 +4890,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Tower",
       "Files": [
         {
@@ -4958,7 +4958,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Tower\\Starting Bonus\\Bonuses\\Orange.j",
                   "Files": []
                 },
@@ -5229,40 +5229,40 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Tower\\Magazin",
           "Files": [
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Tower\\Magazin\\BookSeller",
               "Files": [
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": false,
+                  "isExpanded": true,
                   "path": "Tower\\Magazin\\BookSeller\\UNIT_BOOK_SELLER_RED.var",
                   "Files": []
                 },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": false,
+                  "isExpanded": true,
                   "path": "Tower\\Magazin\\BookSeller\\UNIT_BOOK_SELLER_BLUE.var",
                   "Files": []
                 },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": false,
+                  "isExpanded": true,
                   "path": "Tower\\Magazin\\BookSeller\\UNIT_BOOK_SELLER_TEAL.var",
                   "Files": []
                 },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": false,
+                  "isExpanded": true,
                   "path": "Tower\\Magazin\\BookSeller\\UNIT_BOOK_SELLER_PURPLE.var",
                   "Files": []
                 },
@@ -11311,7 +11311,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Buffers\\Maiden\\MaidenQ.j",
                   "Files": []
                 },
@@ -11325,7 +11325,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Buffers\\Maiden\\MaidenR.trg",
                   "Files": []
                 }
@@ -11491,7 +11491,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Deffenders\\Nerub\\NerubP.trg",
                   "Files": []
                 },
@@ -12292,7 +12292,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Marauders",
           "Files": [
             {
@@ -12663,48 +12663,48 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Heroes\\Marauders\\Runesmith",
               "Files": [
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Marauders\\Runesmith\\PathOfTheRune.j",
                   "Files": []
                 },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Marauders\\Runesmith\\RunesmithQ.trg",
                   "Files": []
                 },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Marauders\\Runesmith\\RunesmithQHit.trg",
                   "Files": []
                 },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": false,
+                  "isExpanded": true,
                   "path": "Heroes\\Marauders\\Runesmith\\RunesmithW.trg",
                   "Files": []
                 },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": false,
+                  "isExpanded": true,
                   "path": "Heroes\\Marauders\\Runesmith\\RunesmithWDeath.trg",
                   "Files": []
                 },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Marauders\\Runesmith\\RunesmithE.trg",
                   "Files": []
                 },
@@ -12718,7 +12718,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": false,
+                  "isExpanded": true,
                   "path": "Heroes\\Marauders\\Runesmith\\RunesmithR.trg",
                   "Files": []
                 },
@@ -12732,7 +12732,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": false,
+                  "isExpanded": true,
                   "path": "Heroes\\Marauders\\Runesmith\\RunesmithRocks.trg",
                   "Files": []
                 }
@@ -13085,21 +13085,21 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Killers\\GunMaster\\GunMasterQ.j",
                   "Files": []
                 },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Killers\\GunMaster\\GunMasterW.trg",
                   "Files": []
                 },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Killers\\GunMaster\\GunMasterW Attack.j",
                   "Files": []
                 },
@@ -13113,7 +13113,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Killers\\GunMaster\\GunMasterR.j",
                   "Files": []
                 }
@@ -13543,21 +13543,21 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Hybrids\\RealBro\\RealBroW.j",
                   "Files": []
                 },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Hybrids\\RealBro\\RealBroE.trg",
                   "Files": []
                 },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Hybrids\\RealBro\\RealBroR.trg",
                   "Files": []
                 },
@@ -16729,7 +16729,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Arenas\\Extra Arena General.j",
           "Files": []
         },
