@@ -171,6 +171,9 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         	player
         	index
         */
+        Event DefeatAnnounce
+        /*
+        */
     endglobals
     
     private function InitCustomEvents takes nothing returns nothing
@@ -207,6 +210,7 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         set OnModsAwake = Event.create(null, null)
         set ModStateChanged = Event.create(null, null)
         set InfoButtonClicked = Event.create(null, null)
+        set DefeatAnnounce = Event.create(null, null)
     endfunction
     
     /*

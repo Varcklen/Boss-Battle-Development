@@ -72,6 +72,7 @@ library ModeDatabase initializer init requires ModeClass
 		call Mode.create( 'A0SZ', "CurseZeal", false)
 		call Mode.create( 'A0T0', "CurseLaziness", false)
 		call Mode.create( 'A0YT', "CurseSeeker", false)
+		call Mode.create( 'A1I6', "CurseDebt", false)
 	endfunction
 	
 	private function init takes nothing returns nothing

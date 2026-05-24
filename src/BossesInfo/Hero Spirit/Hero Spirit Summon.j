@@ -63,11 +63,26 @@ scope HeroSpiritSummon initializer init
 	    
 	    set summon = null
 	endfunction
+	
+	//===========================================================================
+	private function OnDeath_Loop takes nothing returns nothing
+		local unit spirit = GetEnumUnit()
+		
+		call DestroyEffect( AddSpecialEffect(ANIMATION, GetUnitX(spirit), GetUnitY(spirit) ) )
+	    call RemoveUnit( spirit )
+	    
+	    set spirit = null
+	endfunction
+	
+	private function OnDefeat takes nothing returns nothing
+		call ForGroupBJ( GetUnitsOfTypeIdAll(UNIT_ID), function OnDeath_Loop )
+	endfunction
 
 	//===========================================================================
 	private function init takes nothing returns nothing
 	    call CreateNativeEvent( EVENT_PLAYER_UNIT_DEATH, function action, function condition )
 	    call CreateNativeEvent( EVENT_PLAYER_HERO_REVIVE_FINISH, function revive, function revive_condition )
+	    call DefeatAnnounce.AddListener(function OnDefeat, null)
 	endfunction
-
+	
 endscope

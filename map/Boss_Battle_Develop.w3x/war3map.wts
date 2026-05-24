@@ -25737,6 +25737,12 @@ STRING 3858
 Shelling, [|cffffcc00Level %d|r]
 }
 
+STRING 3859
+// Abilities: A1I6 (Curse: Debt), Name (Name)
+{
+Curse: Debt
+}
+
 STRING 3860
 // Abilities: A19K (Gun Master: Shelling), Tip (Tooltip - Normal)
 {
@@ -25765,6 +25771,18 @@ STRING 3864
 // Abilities: A19K (Gun Master: Shelling), Tip (Tooltip - Normal)
 {
 Shelling, [|cffffcc00Level 5|r]
+}
+
+STRING 3865
+// Abilities: A1I6 (Curse: Debt), Tip (Tooltip - Normal)
+{
+|cffffcc00Curse:|r Debt
+}
+
+STRING 3866
+// Abilities: A1I6 (Curse: Debt), Ubertip (Tooltip - Normal - Extended)
+{
+After the main battle, you will receive a Debt of 15 Gold for each main battle you win. When you receive Gold, you pay off the Debt instead.
 }
 
 STRING 3871

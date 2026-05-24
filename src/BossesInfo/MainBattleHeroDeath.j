@@ -81,9 +81,11 @@ scope MainBattleHeroDeath initializer init
         endloop
         call TriggerExecute( gg_trg_Caption )
         
+        call DefeatAnnounce.Invoke()
+        
         set pl = null
     endfunction
-	
+
 	private function action takes nothing returns nothing
 		//call BJDebugMsg("MainBattleHeroDeath")
 		call DisableTrigger( GetTriggeringTrigger() )
