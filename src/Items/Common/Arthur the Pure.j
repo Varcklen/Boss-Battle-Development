@@ -3,7 +3,7 @@ scope ArthurPure initializer init
 	globals
 		private constant integer ITEM_ID = 'I0AP'
 		
-		private constant integer COUNTER_REQUIRE = 9
+		private constant integer COUNTER_REQUIRE = 7
 		private constant real DAMAGE_INCREASE = 2
 		
 		private constant integer STRING_HASH = StringHash( "arthur_pure" )

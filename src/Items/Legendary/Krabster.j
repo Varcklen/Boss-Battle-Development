@@ -3,7 +3,7 @@ scope Krabster initializer init
 	globals
 		private constant integer ITEM_ID = 'I0H9'	
 		
-		private constant integer CHANCE = 2
+		private constant integer CHANCE = 8
 	endglobals
 
 	private function PotionCastEnd takes nothing returns nothing

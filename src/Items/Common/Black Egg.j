@@ -23,6 +23,7 @@ scope BlackEgg initializer init
 	        //endif
 	        set cyclA = cyclA + 1
 	    endloop
+	    call statst( caster, 1, 1, 1, 0, true )
 	    call stazisst( caster, GetItemOfTypeFromUnitBJ( caster, ID_ITEM ))
 	    call DestroyEffect( AddSpecialEffectTarget("Abilities\\Spells\\Human\\HolyBolt\\HolyBoltSpecialArt.mdl" , caster, "origin" ) )
 	    

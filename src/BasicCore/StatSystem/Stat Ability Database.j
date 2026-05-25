@@ -40,7 +40,8 @@ library StatAbilityDatabase initializer init requires StatAbility
 		call ConnectAbilityToStat( 'A1FQ', STAT_DAMAGE_DEALT_PHY, 100 )
 		call ConnectAbilityToStat( 'A1G1', STAT_DAMAGE_DEALT_PHY, -90 )
 		//STAT_DAMAGE_TAKEN
-		call ConnectAbilityToStat( 'A1FA', STAT_DAMAGE_TAKEN, 25 )
+		call ConnectAbilityToStat( 'A1G0', STAT_DAMAGE_TAKEN, 25 )
+		call ConnectAbilityToStat( 'A1I8', STAT_DAMAGE_TAKEN, 10 )
 		//STAT_DAMAGE_DEALT_MINIONS
 		call ConnectAbilityToStat( 'A1G2', STAT_DAMAGE_DEALT_MINIONS, -30 )
 		//STAT_DAMAGE_DEALT_MINIONS_PHY

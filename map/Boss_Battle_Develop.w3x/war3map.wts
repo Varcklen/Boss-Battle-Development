@@ -2534,29 +2534,10 @@ STRING 405
 Mephistar
 }
 
-STRING 406
-// Items: I07T (Magician's Boots), Description (Description)
-{
-|cff4169e1Rare|r
-Increases Mana by 80 and Movement Speed by 25%.
-Activation: Swaps the positions of your hero and a random hero.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 35 mana.
-}
-
 STRING 407
 // Units: O01J ((S) Fallen One), Propernames (Proper Names)
 {
 Helel Ben Shahar
-}
-
-STRING 408
-// Items: I07T (Magician's Boots), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases Mana by 80 and Movement Speed by 25%.
-Activation: Swaps the positions of your hero and a random hero.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 409
@@ -4496,14 +4477,6 @@ STRING 713
 Fire
 }
 
-STRING 714
-// Items: I0GY (Alchemist's Stone), Description (Description)
-{
-|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r
-Increases |cff088a08potion|r spell power by 50%.
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r a custom |cff088a08potion|r with 3 charges. |cFF959697(Current: Nothing)|r
-}
-
 STRING 715
 // Items: I0GY (Alchemist's Stone), Name (Name)
 {
@@ -4514,14 +4487,6 @@ STRING 716
 // Items: I0GY (Alchemist's Stone), Tip (Tooltip - Basic)
 {
 Alchemist's Stone
-}
-
-STRING 717
-// Items: I0GY (Alchemist's Stone), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r
-Increases |cff088a08potion|r spell power by 50%.
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r a custom |cff088a08potion|r with 3 charges. |cFF959697(Current: Nothing)|r
 }
 
 STRING 718
@@ -4990,14 +4955,6 @@ STRING 788
 Gain 200 max Health.
 }
 
-STRING 789
-// Items: I0GF (Cut Diamond), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-At the beginning of the battle applies the effect on your hero: "Gives |cffbe81f7100|r shield. When the shield is destroyed, imposes this effect on another hero."
-|cff81f260[Random bonus]|r
-}
-
 STRING 790
 // Items: I0GF (Cut Diamond), Name (Name)
 {
@@ -5008,14 +4965,6 @@ STRING 791
 // Items: I0GF (Cut Diamond), Tip (Tooltip - Basic)
 {
 Cut Diamond
-}
-
-STRING 792
-// Items: I0GF (Cut Diamond), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-At the beginning of the battle applies the effect on your hero: "Gives |cffbe81f7100|r shield. When the shield is destroyed, imposes this effect on another hero."
-|cff81f260[Random bonus]|r
 }
 
 STRING 793
@@ -7972,14 +7921,6 @@ STRING 1210
 Increases mana by 450, mana regeneration by 450%, and spell power by 45%.
 }
 
-STRING 1211
-// Items: I0HT (Black Egg), Description (Description)
-{
-|cff4169e1Rare|r
-After a lost battle, transform into the Radiance.
-Activation: |cffcc0000Corrupted|r. Removes |cffC71585curse|r from all items in the inventory.
-}
-
 STRING 1212
 // Items: I0HT (Black Egg), Name (Name)
 {
@@ -8105,16 +8046,6 @@ While the hero is invisible, every second deals |cffbe81f7100|r damage to all ne
 |cff81f260[Random bonus]|r
 }
 
-STRING 1230
-// Items: I0HQ (Immovable Brigandine), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Places the caster in stasis. The hero cannot do anything and becomes invulnerable.
-|cffffcc00Duration:|r 7 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-|cffffcc00Cost:|r 60 mana.
-}
-
 STRING 1231
 // Items: I0DD (Tarot Card: Death), Name (Name)
 {
@@ -8125,16 +8056,6 @@ STRING 1232
 // Items: I0DD (Tarot Card: Death), Tip (Tooltip - Basic)
 {
 Tarot Card: Death
-}
-
-STRING 1233
-// Items: I0HQ (Immovable Brigandine), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Places the caster in stasis. The hero cannot do anything and becomes invulnerable.
-|cffffcc00Duration:|r 7 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-|cffffcc00Cost:|r 60 mana.
 }
 
 STRING 1234
@@ -9363,34 +9284,10 @@ Every 5 seconds it gives 8 gold for each |cffe96a1clegendary|r artifact in the i
 |cff81f260[Random bonus]|r
 }
 
-STRING 1414
-// Items: I0C3 (Yah's Tear), Description (Description)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-Activation: Fully restores the hero's mana. Each second takes 25 mana until the hero runs out of mana.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
 STRING 1415
 // Items: I0HT (Black Egg), Tip (Tooltip - Basic)
 {
 Black Egg
-}
-
-STRING 1416
-// Items: I0HT (Black Egg), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-After a lost battle, transform into the Radiance.
-Activation: |cffcc0000Corrupted|r. Removes |cffC71585curse|r from all items in the inventory.
-}
-
-STRING 1417
-// Items: I0C3 (Yah's Tear), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-Activation: Fully restores the hero's mana. Each second takes 25 mana until the hero runs out of mana.
-|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 1418
@@ -9476,16 +9373,6 @@ STRING 1429
 Activation: |cffcc0000Corruption.|r Increases the level of all heroes by 3.
 }
 
-STRING 1430
-// Items: I0BZ (Statuette of Svirel), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: Transforms all minions in the area into sheeps.
-|cffffcc00Life time:|r 60 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 40 mana.
-}
-
 STRING 1431
 // Items: I0BZ (Statuette of Svirel), Name (Name)
 {
@@ -9496,15 +9383,6 @@ STRING 1432
 // Items: I0BZ (Statuette of Svirel), Tip (Tooltip - Basic)
 {
 Statuette of Svirel
-}
-
-STRING 1433
-// Items: I0BZ (Statuette of Svirel), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: Transforms all minions in the area into sheeps.
-|cffffcc00Life time:|r 60 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 1434
@@ -10075,13 +9953,6 @@ Activation: |cffcc0000Corrupted|r. Summons 40 sheeps under your control. Only wo
 |cffffcc00Life time:|r 60 seconds.
 }
 
-STRING 1518
-// Items: I0BD (Tarot Card: Courage), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Increases stats by 3.
-}
-
 STRING 1519
 // Items: I0BD (Tarot Card: Courage), Name (Name)
 {
@@ -10092,13 +9963,6 @@ STRING 1520
 // Items: I0BD (Tarot Card: Courage), Tip (Tooltip - Basic)
 {
 Tarot Card: Courage
-}
-
-STRING 1521
-// Items: I0BD (Tarot Card: Courage), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Increases stats by 3.
 }
 
 STRING 1522
@@ -10733,14 +10597,6 @@ When the hero dies, puts him in the sphere. Kill 7 creatures near the sphere to 
 |cff81f260[Random bonus]|r
 }
 
-STRING 1614
-// Items: I0AP (Arthur the Pure), Description (Description)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-Every 9th damage taken, instead of taking damage, restores |cffbe81f7health|r.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1615
 // Items: I0AP (Arthur the Pure), Name (Name)
 {
@@ -10751,14 +10607,6 @@ STRING 1616
 // Items: I0AP (Arthur the Pure), Tip (Tooltip - Basic)
 {
 Arthur the Pure
-}
-
-STRING 1617
-// Items: I0AP (Arthur the Pure), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-Every 9th damage taken, instead of taking damage, restores |cffbe81f7health|r.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1618
@@ -11408,18 +11256,6 @@ Activation: Transforms up to 30 of your sheeps into random minions.
 |cffffcc00Cooldown:|r 25 seconds.
 }
 
-STRING 1711
-// Items: I0A1 (Huge gift), Name (Name)
-{
-Huge gift
-}
-
-STRING 1712
-// Items: I0A1 (Huge gift), Tip (Tooltip - Basic)
-{
-Huge gift
-}
-
 STRING 1713
 // Items: I09A (Power Search), Name (Name)
 {
@@ -11979,37 +11815,6 @@ STRING 1794
 // Items: I095 (Avengers Assemble), Tip (Tooltip - Basic)
 {
 Avengers Assemble
-}
-
-STRING 1795
-// Items: I09G (Grave urn), Description (Description)
-{
-|cffbababcCommon|r
-Activation: Summons 5 random minions with one health.
-|cffffcc00Life time:|r 20 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
-STRING 1796
-// Items: I09G (Grave urn), Name (Name)
-{
-Grave urn
-}
-
-STRING 1797
-// Items: I09G (Grave urn), Tip (Tooltip - Basic)
-{
-Grave urn
-}
-
-STRING 1798
-// Items: I09G (Grave urn), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: Summons 5 random minions with one health.
-|cffffcc00Life time:|r 20 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 1799
@@ -12777,14 +12582,6 @@ STRING 1906
 Totem of Power
 }
 
-STRING 1907
-// Items: IZ07 (Buy Order), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. Choose an item. Next time Artifact Shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
-Only active outside of combat.
-}
-
 STRING 1908
 // Items: I08O (Elune's Glyph), Description (Description)
 {
@@ -13171,15 +12968,6 @@ STRING 1963
 Activation: |cffcc0000Corrupted|r. Choose a hero. The target gets 1 level and 2 to stats, but the caster will not get 1 level after defeating the boss.
 }
 
-STRING 1964
-// Items: I089 (Superbot-5000), Description (Description)
-{
-|cffe96a1cLegendary|r, |cffb18904Mech|r
-Increases mana regeneration by 1 for each |cffb18904mech|r.
-Activation: If you have 6 |cffb18904mechs|r or more, puts the hero in Superbot-5000.
-|cffffcc00Cooldown:|r 60 seconds.
-}
-
 STRING 1965
 // Items: I089 (Superbot-5000), Name (Name)
 {
@@ -13190,15 +12978,6 @@ STRING 1966
 // Items: I089 (Superbot-5000), Tip (Tooltip - Basic)
 {
 Superbot-5000
-}
-
-STRING 1967
-// Items: I089 (Superbot-5000), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cffb18904Mech|r
-Increases mana regeneration by 1 for each |cffb18904mech|r.
-Activation: If you have 6 |cffb18904mechs|r or more, puts the hero in Superbot-5000.
-|cffffcc00Cooldown:|r 60 seconds.
 }
 
 STRING 1968
@@ -13824,13 +13603,6 @@ Reduces the cooldown of the hero's abilities by 0.5 seconds every second while t
 |cff81f260[Random bonus]|r
 }
 
-STRING 2060
-// Items: I07L (Playful Spirit), Description (Description)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-Every 10 seconds, the hero burns |cffbe81f712|r mana and increases spell power by 0.5%.
-}
-
 STRING 2061
 // Abilities: A1F2 (Stat: Mag Vampirism +20%), Name (Name)
 {
@@ -13841,13 +13613,6 @@ STRING 2062
 // Abilities: A1F3 (Stat: Vampirism +60%), Name (Name)
 {
 Stat: Vampirism +60%
-}
-
-STRING 2063
-// Items: I07L (Playful Spirit), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-Every 10 seconds, the hero burns |cffbe81f712|r mana and increases spell power by 0.5%.
 }
 
 STRING 2064
@@ -14041,34 +13806,6 @@ STRING 2091
 |cffbababcCommon|r, |cff5858faMoon|r
 At the beginning of each battle, your hero becomes invisible for 30 seconds. Actions do not remove invisibility. 
 |cff81f260[Random bonus]|r
-}
-
-STRING 2092
-// Items: I07D (Fish soup), Description (Description)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Restores |cffbe81f78%|r of maximum health to all heroes.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 2093
-// Items: I07D (Fish soup), Name (Name)
-{
-Fish soup
-}
-
-STRING 2094
-// Items: I07D (Fish soup), Tip (Tooltip - Basic)
-{
-Fish soup
-}
-
-STRING 2095
-// Items: I07D (Fish soup), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Restores |cffbe81f78%|r of maximum health to all heroes.
-|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 2096
@@ -14405,14 +14142,6 @@ STRING 2143
 Increases spell power by 50%. At the end of the battle transforms.
 }
 
-STRING 2144
-// Items: IZ07 (Buy Order), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. Choose an item. Next time Artifact Shop is refreshed, there will be |cffd7df01more|r copies of it in stock.
-Only active outside of combat.
-}
-
 STRING 2145
 // Items: I070 (Heat Seekers), Name (Name)
 {
@@ -14679,16 +14408,6 @@ STRING 2183
 Increases mana regeneration by 250%.
 }
 
-STRING 2184
-// Items: I06Q (Yorick's Skull), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Inflicts a buff on allied minions nearby. When they die, summon a copy of them.
-|cffffcc00Life time:|r 20 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 2185
 // Items: I06Q (Yorick's Skull), Name (Name)
 {
@@ -14699,15 +14418,6 @@ STRING 2186
 // Items: I06Q (Yorick's Skull), Tip (Tooltip - Basic)
 {
 Yorick's Skull
-}
-
-STRING 2187
-// Items: I06Q (Yorick's Skull), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Inflicts a buff on allied minions nearby. When they die, summon a copy of them.
-|cffffcc00Life time:|r 20 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 2188
@@ -15914,13 +15624,6 @@ STRING 2364
 Witness Cleaver
 }
 
-STRING 2365
-// Items: I05H (Ditto), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact. At the end of the fight, it turns into Ditto.
-}
-
 STRING 2366
 // Items: I05H (Ditto), Name (Name)
 {
@@ -15931,13 +15634,6 @@ STRING 2367
 // Items: I05H (Ditto), Tip (Tooltip - Basic)
 {
 Ditto
-}
-
-STRING 2368
-// Items: I05H (Ditto), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact. At the end of the fight, it turns into Ditto.
 }
 
 STRING 2369
@@ -16843,14 +16539,6 @@ STRING 2504
 Mshist's Damned Fiber
 }
 
-STRING 2505
-// Items: IZ05 (Oath of Resourcefulness), Description (Description)
-{
-|cffC71585Cursed|r
-|cffe96a1cLegendary|r
-Your |cffcc0000corrupted|r items transform into "Weapon Gift" after being used instead of disappearing.
-}
-
 STRING 2506
 // Items: I04K (Bananas), Description (Description)
 {
@@ -16897,14 +16585,6 @@ STRING 2512
 // Items: I04J (Big gold coin), Tip (Tooltip - Basic)
 {
 Big gold coin
-}
-
-STRING 2513
-// Items: IZ05 (Oath of Resourcefulness), Ubertip (Tooltip - Extended)
-{
-|cffC71585Cursed|r
-|cffe96a1cLegendary|r
-Your |cffcc0000corrupted|r items transform into "Weapon Gift" after being used instead of disappearing.
 }
 
 STRING 2514
@@ -17384,32 +17064,6 @@ STRING 2584
 {
 |cffbababcCommon|r
 Activation: |cffcc0000Corrupted|r. Increases stats by 1 and removes |cffC71585curse|r from the item in the inventory.
-}
-
-STRING 2585
-// Items: I040 (Royal onyx), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff00cceeCrystal|r
-Your activated |cffcc0000non-corrupted|r artifacts are used twice.
-}
-
-STRING 2586
-// Items: I040 (Royal onyx), Name (Name)
-{
-Royal onyx
-}
-
-STRING 2587
-// Items: I040 (Royal onyx), Tip (Tooltip - Basic)
-{
-Royal onyx
-}
-
-STRING 2588
-// Items: I040 (Royal onyx), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff00cceeCrystal|r
-Your activated |cffcc0000non-corrupted|r artifacts are used twice.
 }
 
 STRING 2589
@@ -18429,13 +18083,6 @@ Activation: Increases the ally’s armor by 3. If the hero’s gold supply is 20
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 2738
-// Items: I02X (Omnipotent Ruby), Description (Description)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Increases the attack power of your hero by 40% and enemies by 10%.
-}
-
 STRING 2739
 // Items: I02X (Omnipotent Ruby), Name (Name)
 {
@@ -18446,13 +18093,6 @@ STRING 2740
 // Items: I02X (Omnipotent Ruby), Tip (Tooltip - Basic)
 {
 Omnipotent Ruby
-}
-
-STRING 2741
-// Items: I02X (Omnipotent Ruby), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Increases the attack power of your hero by 40% and enemies by 10%.
 }
 
 STRING 2742
@@ -19097,14 +18737,6 @@ STRING 2836
 E
 }
 
-STRING 2837
-// Items: I028 (Life incubator), Description (Description)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r, |cff7cfc00Nature|r, |cff5858faMoon|r
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 2838
 // Items: I028 (Life incubator), Name (Name)
 {
@@ -19115,14 +18747,6 @@ STRING 2839
 // Items: I028 (Life incubator), Tip (Tooltip - Basic)
 {
 Life incubator
-}
-
-STRING 2840
-// Items: I028 (Life incubator), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r, |cff7cfc00Nature|r, |cff5858faMoon|r
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 2841
@@ -25785,10 +25409,138 @@ STRING 3866
 After the main battle, you will receive a Debt of 15 Gold for each main battle you win. When you receive Gold, you pay off the Debt instead.
 }
 
+STRING 3867
+// Items: IZ02 (Bob's Gratitude), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Select a |cff00cceeCrystal|r in your inventory to create a basic copy of it.
+}
+
+STRING 3868
+// Items: IZ02 (Bob's Gratitude), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Select a |cff00cceeCrystal|r in your inventory to create a basic copy of it.
+}
+
+STRING 3869
+// Items: I0BZ (Statuette of Svirel), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Transforms all minions in the area into sheeps.
+|cffffcc00Life time:|r 60 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 40 mana.
+}
+
+STRING 3870
+// Items: I0BZ (Statuette of Svirel), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Transforms all minions in the area into sheeps.
+|cffffcc00Life time:|r 60 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 3871
 // Abilities: A198 (Shoggoth: Entropic Energy), Researchhotkey (Hotkey - Learn)
 {
 E
+}
+
+STRING 3872
+// Items: I06I (Amulet of Souls), Description (Description)
+{
+|cffbababcCommon|r
+Activation: Swaps the percentage of health and mana.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 3873
+// Items: I06I (Amulet of Souls), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: Swaps the percentage of health and mana.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 3874
+// Items: I05H (Ditto), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact. At the end of the battle, it transforms into Ditto.
+}
+
+STRING 3875
+// Items: I05H (Ditto), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact. At the end of the battle, it transforms into Ditto.
+}
+
+STRING 3876
+// Items: I028 (Life incubator), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r, |cff7cfc00Nature|r, |cff5858faMoon|r
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 3877
+// Items: I028 (Life incubator), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r, |cff7cfc00Nature|r, |cff5858faMoon|r
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 3878
+// Items: I021 (Amulet of Balance), Description (Description)
+{
+|cffbababcCommon|r
+Activation: Sets health and mana to 50%.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 3879
+// Items: I021 (Amulet of Balance), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: Sets health and mana to 50%.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 3880
+// Items: IZ07 (Buy Order), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Choose an item. Next time Artifact Shop is refreshed, there will be |cffd7df01more|r copies of it in stock. Only active outside of combat.
+}
+
+STRING 3881
+// Items: IZ07 (Buy Order), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Choose an item. Next time Artifact Shop is refreshed, there will be |cffd7df01more|r copies of it in stock. Only active outside of combat.
+}
+
+STRING 3882
+// Items: I0HQ (Immovable Brigandine), Description (Description)
+{
+|cffbababcCommon|r
+Activation: Enter stasis. While in stasis, you take no damage and cannot attack or cast spells.
+|cffffcc00Duration:|r 7 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 25 mana.
+}
+
+STRING 3883
+// Items: I0HQ (Immovable Brigandine), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: Enter stasis. While in stasis, you take no damage and cannot attack or cast spells.
+|cffffcc00Duration:|r 7 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 3884
@@ -25803,10 +25555,75 @@ STRING 3885
 Q
 }
 
+STRING 3886
+// Items: I02K (Unique Recipe Book), Description (Description)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r
+Increases |cff60C445Unique|r Spell Power by 40%.
+|cff60C445Unique|r Spell Power also increases |cff088a08Potion|r Spell Power by half of its value.
+}
+
 STRING 3887
 // Abilities: A183 (Dealer: Explosive Goods), Researchhotkey (Hotkey - Learn)
 {
 Q
+}
+
+STRING 3888
+// Items: I02K (Unique Recipe Book), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r
+Increases |cff60C445Unique|r Spell Power by 40%.
+|cff60C445Unique|r Spell Power also increases |cff088a08Potion|r Spell Power by half of its value.
+}
+
+STRING 3889
+// Items: I06Q (Yorick's Skull), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Buffs nearby friendly minions. When they die, summons a copy of them.
+|cffffcc00Life time:|r 20 seconds.
+|cffffcc00Cooldown:|r 35 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
+STRING 3890
+// Items: I06Q (Yorick's Skull), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Buffs nearby friendly minions. When they die, summons a copy of them.
+|cffffcc00Life time:|r 20 seconds.
+|cffffcc00Cooldown:|r 35 seconds.
+}
+
+STRING 3891
+// Items: I00W (Sword of Power), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff2d9995Weapon|r
+Increases Attack by 35% and decreases enemy Attack by 10%.
+}
+
+STRING 3892
+// Items: I00W (Sword of Power), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff2d9995Weapon|r
+Increases Attack by 35% and decreases enemy Attack by 10%.
+}
+
+STRING 3893
+// Items: I040 (Royal Onyx), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff00cceeCrystal|r
+Your other activated |cffcc0000uncorrupted|r artifacts trigger twice.
+Activation: |cFFE16B90Forge|r an activated artifact.
+|cffffcc00Cooldown:|r 60 seconds.
+|cffffcc00Cost:|r 100 mana.
+}
+
+STRING 3894
+// Items: I040 (Royal Onyx), Name (Name)
+{
+Royal Onyx
 }
 
 STRING 3895
@@ -25856,10 +25673,94 @@ STRING 3901
 W
 }
 
+STRING 3902
+// Items: I040 (Royal Onyx), Tip (Tooltip - Basic)
+{
+Royal Onyx
+}
+
 STRING 3903
 // Abilities: A195 (Shoggoth: Writhing Mass), Researchhotkey (Hotkey - Learn)
 {
 W
+}
+
+STRING 3904
+// Items: I040 (Royal Onyx), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff00cceeCrystal|r
+Your other activated |cffcc0000uncorrupted|r artifacts trigger twice.
+Activation: |cFFE16B90Forge|r an activated artifact.
+|cffffcc00Cooldown:|r 60 seconds.
+}
+
+STRING 3905
+// Abilities: A1I7 (Artifact: Royal Onyx), Name (Name)
+{
+Artifact: Royal Onyx
+}
+
+STRING 3906
+// Items: I0GY (Alchemist's Stone), Description (Description)
+{
+|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r
+Increases |cff088a08Potion|r Spell Power by 35%.
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r a custom |cff088a08potion|r with 4 charges. |cFF959697(Current: Nothing)|r
+}
+
+STRING 3907
+// Items: I0GY (Alchemist's Stone), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r
+Increases |cff088a08Potion|r Spell Power by 35%.
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r a custom |cff088a08potion|r with 4 charges. |cFF959697(Current: Nothing)|r
+}
+
+STRING 3908
+// Items: I0D9 (Tarot Card: Wealth), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corruption.|r Transforms all |cffe96a1cnon-legendary|r items in your inventory into |cffe96a1clegendary|r artifacts.
+}
+
+STRING 3909
+// Items: I0D9 (Tarot Card: Wealth), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corruption.|r Transforms all |cffe96a1cnon-legendary|r items in your inventory into |cffe96a1clegendary|r artifacts.
+}
+
+STRING 3910
+// Items: IZ08 (Deep Purple), Description (Description)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r, |cff00cceeCrystal|r
+Activation: Increases |cff60C445Unique|r Spell Power by 200%.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 3911
+// Items: IZ08 (Deep Purple), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r, |cff00cceeCrystal|r
+Activation: Increases |cff60C445Unique|r Spell Power by 200%.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 3914
+// Items: I0H9 (Krabster), Description (Description)
+{
+|cffe96a1cLegendary|r
+After an attack or cast, there is a |cffd7df018%|r chance to unleash the Crab Power.
+}
+
+STRING 3915
+// Items: I0H9 (Krabster), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+After an attack or cast, there is a |cffd7df018%|r chance to unleash the Crab Power.
 }
 
 STRING 3916
@@ -26913,16 +26814,6 @@ STRING 4081
 // Abilities: A186 (Mov. speed (Daring Escape)), Name (Name)
 {
 Mov. speed (Daring Escape)
-}
-
-STRING 4082
-// Items: IZ08 (Deep Purple), Description (Description)
-{
-|cff4169e1Rare|r, |cff9001fdRing|r, |cff00cceeCrystal|r
-Activation: Increases |cff60C445Unique|r Spell Power by 200%.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-|cffffcc00Cost:|r 50 mana.
 }
 
 STRING 4083
@@ -33482,22 +33373,6 @@ STRING 5091
 |cffffcc00Reward:|r Badge of the Gray Warden.
 }
 
-STRING 5092
-// Items: I02K (Unique Recipe Book), Description (Description)
-{
-|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r
-Increases |cff60C445Unique|r Spell Power by 50%.
-|cff60C445Unique|r Spell Power also increases |cff088a08Potion|r Spell Power by half of its value.
-}
-
-STRING 5093
-// Items: I02K (Unique Recipe Book), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r, |cff9001fdRing|r
-Increases |cff60C445Unique|r Spell Power by 50%.
-|cff60C445Unique|r Spell Power also increases |cff088a08Potion|r Spell Power by half of its value.
-}
-
 STRING 5094
 // Abilities: A10M (Gambler: Beginner’s Luck), Name (Name)
 {
@@ -33878,15 +33753,6 @@ STRING 5153
 // Items: IZ08 (Deep Purple), Tip (Tooltip - Basic)
 {
 Deep Purple
-}
-
-STRING 5154
-// Items: IZ08 (Deep Purple), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff9001fdRing|r, |cff00cceeCrystal|r
-Activation: Increases |cff60C445Unique|r Spell Power by 200%.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
 }
 
 STRING 5155
@@ -39390,13 +39256,6 @@ STRING 5989
 Blood bath, [|cffffcc00Level %d|r]
 }
 
-STRING 5990
-// Items: I0H9 (Krabster), Description (Description)
-{
-|cffe96a1cLegendary|r
-After an attack or cast, there is a |cffd7df012%|r chance to unleash the Crab Power.
-}
-
 STRING 5991
 // Abilities: A0TC (Barbarian: Blood bath), Tip (Tooltip - Normal)
 {
@@ -39437,13 +39296,6 @@ STRING 5997
 // Items: I0H9 (Krabster), Tip (Tooltip - Basic)
 {
 Krabster
-}
-
-STRING 5998
-// Items: I0H9 (Krabster), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-After an attack or cast, there is a |cffd7df012%|r chance to unleash the Crab Power.
 }
 
 STRING 5999
@@ -40388,7 +40240,7 @@ STRING 6142
 }
 
 STRING 6143
-// Abilities: A0RF (Superbotication), Hotkey (Hotkey - Normal)
+// Abilities: A0RF (Superbot: Superbotication), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -40948,40 +40800,27 @@ W
 }
 
 STRING 6232
-// Abilities: A0RF (Superbotication), Name (Name)
+// Abilities: A0RF (Superbot: Superbotication), Tip (Tooltip - Normal)
 {
 Superbotication
 }
 
 STRING 6233
-// Abilities: A0RF (Superbotication), Researchhotkey (Hotkey - Learn)
+// Abilities: A0RF (Superbot: Superbotication), Researchhotkey (Hotkey - Learn)
 {
 D
 }
 
 STRING 6234
-// Abilities: A0RF (Superbotication), Researchtip (Tooltip - Learn)
+// Abilities: A0RF (Superbot: Superbotication), Researchtip (Tooltip - Learn)
 {
 Призыв питомца, [|cffffcc00Уровень %d|r] (|cffffcc00Q|r)
 }
 
 STRING 6235
-// Abilities: A0RF (Superbotication), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A0RF (Superbot: Superbotication), Researchubertip (Tooltip - Learn - Extended)
 {
 Призывает на помощь питомца, который обладает 360/480/600/720/840 ед. здоровья, 16/24/32/40/48 ед. атаки и 20% увернутся от атаки противника. Перезарядка - 75 секунд. Стоимость - 75 маны.
-}
-
-STRING 6236
-// Abilities: A0RF (Superbotication), Tip (Tooltip - Normal)
-{
-Superbotication
-}
-
-STRING 6237
-// Abilities: A0RF (Superbotication), Ubertip (Tooltip - Normal - Extended)
-{
-Summons 3 Superbot-3000's.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 6238
@@ -50619,18 +50458,6 @@ STRING 7723
 Босс 8: Древний энт (Урон)
 }
 
-STRING 7724
-// Abilities: A0H5 (Босс 8: Древний энт (Урон)), Tip (Tooltip - Normal)
-{
-Энт
-}
-
-STRING 7725
-// Abilities: A0H5 (Босс 8: Древний энт (Урон)), Ubertip (Tooltip - Normal - Extended)
-{
-Это существо передвигается очень медленно.
-}
-
 STRING 7726
 // Abilities: A0ET (Ogre: Crush), Researchhotkey (Hotkey - Learn)
 {
@@ -54467,6 +54294,14 @@ STRING 8329
 Revitalization, [|cffffcc00Level %d|r]
 }
 
+STRING 8330
+// Items: I0AP (Arthur the Pure), Description (Description)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Every 7th damage taken, instead of taking damage, restores |cffbe81f7health|r.
+|cff81f260[Random bonus]|r
+}
+
 STRING 8331
 // Abilities: A0CW (Scarab: Revitalization), Tip (Tooltip - Normal)
 {
@@ -54497,10 +54332,62 @@ STRING 8335
 Revitalization, [|cffffcc00Level 5|r]
 }
 
+STRING 8336
+// Items: I0AP (Arthur the Pure), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Every 7th damage taken, instead of taking damage, restores |cffbe81f7health|r.
+|cff81f260[Random bonus]|r
+}
+
+STRING 8337
+// Items: I07D (Fish Soup), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Restores |cffbe81f78%|r health to all heroes. Restores 2% more for each |cff088a08potion|r in your inventory.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 8338
+// Items: I07D (Fish Soup), Name (Name)
+{
+Fish Soup
+}
+
+STRING 8339
+// Items: I07D (Fish Soup), Tip (Tooltip - Basic)
+{
+Fish Soup
+}
+
+STRING 8340
+// Items: I07D (Fish Soup), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Restores |cffbe81f78%|r health to all heroes. Restores 2% more for each |cff088a08potion|r in your inventory.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
 STRING 8341
 // Abilities: A0CV (MP (Маначай)), Name (Name)
 {
 MP (Маначай)
+}
+
+STRING 8342
+// Items: IZ05 (Oath of Resourcefulness), Description (Description)
+{
+|cffC71585Cursed|r
+|cffe96a1cLegendary|r
+When you split another item, |cFFE16B90forge|r an artifact. When you split the |cff088a08potion|r, you lose 150 gold.
+}
+
+STRING 8343
+// Items: IZ05 (Oath of Resourcefulness), Ubertip (Tooltip - Extended)
+{
+|cffC71585Cursed|r
+|cffe96a1cLegendary|r
+When you split another item, |cFFE16B90forge|r an artifact. When you split the |cff088a08potion|r, you lose 150 gold.
 }
 
 STRING 8344
@@ -58985,6 +58872,22 @@ STRING 9036
 Grasp of the Dead, [|cffffcc00Level 5|r]
 }
 
+STRING 9037
+// Items: I09G (Grave Urn), Description (Description)
+{
+|cffbababcCommon|r
+Activation: Summons 5 random minions with 25% health.
+|cffffcc00Life time:|r 20 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 9038
+// Items: I09G (Grave Urn), Name (Name)
+{
+Grave Urn
+}
+
 STRING 9039
 // Abilities: A08D (Artifact: Superbot-3000), Name (Name)
 {
@@ -59089,6 +58992,12 @@ STRING 9055
 // Abilities: A088 (Unique: Provocation), Tip (Tooltip - Normal)
 {
 Provocation
+}
+
+STRING 9056
+// Items: I09G (Grave Urn), Tip (Tooltip - Basic)
+{
+Grave Urn
 }
 
 STRING 9057
@@ -60628,12 +60537,6 @@ Inflicts |cffbe81f7290|r damage to an enemy. The hero receives 30 gold. Only wor
 |cffffcc00Cooldown:|r 7 seconds.
 }
 
-STRING 9293
-// Abilities: A079 (Аура: Филосовский камень), Name (Name)
-{
-Аура: Филосовский камень
-}
-
 STRING 9294
 // Abilities: A078 (Аура: Филосовский камень (Герой)), Name (Name)
 {
@@ -60948,6 +60851,15 @@ STRING 9344
 // Abilities: A06H (|cffffcc00Уровень 6:|r Краб), Tip (Tooltip - Normal)
 {
 Crab
+}
+
+STRING 9345
+// Items: I09G (Grave Urn), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: Summons 5 random minions with 25% health.
+|cffffcc00Life time:|r 20 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 9346
@@ -62891,7 +62803,7 @@ Nomad: Lightning energy
 }
 
 STRING 9644
-// Abilities: A02K (Super ray), Hotkey (Hotkey - Normal)
+// Abilities: A02K (Superbot: Super Ray), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -63270,7 +63182,7 @@ Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies
 }
 
 STRING 9705
-// Abilities: A02L (Destruction), Hotkey (Hotkey - Normal)
+// Abilities: A02L (Superbot: Destruction), Hotkey (Hotkey - Normal)
 {
 R
 }
@@ -63690,6 +63602,12 @@ STRING 9768
 |cffffcc00Amplifier:|r Epic
 }
 
+STRING 9769
+// Items: I0A1 (Huge Gift), Name (Name)
+{
+Huge Gift
+}
+
 STRING 9770
 // Abilities: A045 (Усилитель 4: Мифический), Name (Name)
 {
@@ -63700,6 +63618,12 @@ STRING 9771
 // Abilities: A045 (Усилитель 4: Мифический), Tip (Tooltip - Normal)
 {
 |cffffcc00Amplifier:|r Mythical
+}
+
+STRING 9772
+// Items: I0A1 (Huge Gift), Tip (Tooltip - Basic)
+{
+Huge Gift
 }
 
 STRING 9774
@@ -63724,6 +63648,12 @@ STRING 9777
 // Abilities: A043 (Усилитель 1: Редкий), Tip (Tooltip - Normal)
 {
 |cffffcc00Amplifier:|r Rare
+}
+
+STRING 9778
+// Abilities: A0H5 (Босс 8: Древний энт (Урон)), Tip (Tooltip - Normal)
+{
+Treant
 }
 
 STRING 9779
@@ -64689,7 +64619,7 @@ Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies
 }
 
 STRING 9926
-// Abilities: A02L (Destruction), Researchhotkey (Hotkey - Learn)
+// Abilities: A02L (Superbot: Destruction), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -65167,7 +65097,7 @@ R
 }
 
 STRING 9997
-// Abilities: A02L (Destruction), Name (Name)
+// Abilities: A02L (Superbot: Destruction), Tip (Tooltip - Normal)
 {
 Destruction
 }
@@ -65179,53 +65109,21 @@ D
 }
 
 STRING 9999
-// Abilities: A02L (Destruction), Researchtip (Tooltip - Learn)
+// Abilities: A02L (Superbot: Destruction), Researchtip (Tooltip - Learn)
 {
 Призыв питомца, [|cffffcc00Уровень %d|r] (|cffffcc00Q|r)
 }
 
 STRING 10000
-// Abilities: A02L (Destruction), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A02L (Superbot: Destruction), Researchubertip (Tooltip - Learn - Extended)
 {
 Призывает на помощь питомца, который обладает 360/480/600/720/840 ед. здоровья, 16/24/32/40/48 ед. атаки и 20% увернутся от атаки противника. Перезарядка - 75 секунд. Стоимость - 75 маны.
-}
-
-STRING 10001
-// Abilities: A02L (Destruction), Tip (Tooltip - Normal)
-{
-Destruction
-}
-
-STRING 10002
-// Abilities: A02L (Destruction), Ubertip (Tooltip - Normal - Extended)
-{
-Launches waves dealing |cffbe81f7100|r damage.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 10003
 // Abilities: A01F (Pirate: Black Mark), Hotkey (Hotkey - Normal)
 {
 E
-}
-
-STRING 10004
-// Abilities: A02K (Super ray), Name (Name)
-{
-Super ray
-}
-
-STRING 10005
-// Abilities: A02K (Super ray), Tip (Tooltip - Normal)
-{
-Super ray
-}
-
-STRING 10006
-// Abilities: A02K (Super ray), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7200|r damage to an enemy.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 10007
@@ -65742,6 +65640,12 @@ STRING 10085
 // Abilities: A020 (Артефакт: Жертвенный клинок), Name (Name)
 {
 Артефакт: Жертвенный клинок
+}
+
+STRING 10086
+// Abilities: A0H5 (Босс 8: Древний энт (Урон)), Ubertip (Tooltip - Normal - Extended)
+{
+This creature deals damage to nearby enemies.
 }
 
 STRING 10087
@@ -71050,6 +70954,14 @@ STRING 10939
 Spell power increased.
 }
 
+STRING 10940
+// Items: I0GF (Cut Diamond), Description (Description)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+At the start of the battle, a random hero gains |cffbe81f7135|r shield. When this shield is destroyed, repeat on another hero.
+|cff81f260[Random bonus]|r
+}
+
 STRING 10941
 // Buffs/Effects: B02W (), Buffubertip (Tooltip - Extended)
 {
@@ -71144,6 +71056,14 @@ STRING 10956
 // Buffs/Effects: B02P (), Buffubertip (Tooltip - Extended)
 {
 Warrior is gradually losing health.
+}
+
+STRING 10957
+// Items: I0GF (Cut Diamond), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+At the start of the battle, a random hero gains |cffbe81f7135|r shield. When this shield is destroyed, repeat on another hero.
+|cff81f260[Random bonus]|r
 }
 
 STRING 10958
@@ -71384,6 +71304,13 @@ STRING 10997
 // Buffs/Effects: B023 (), Bufftip (Tooltip)
 {
 |cff00ff00Sap|r
+}
+
+STRING 10998
+// Items: I0A1 (Huge Gift), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Create 4 artifacts in an empty inventory slots. Create 1 less for each other artifact in the inventory (at least 1).
 }
 
 STRING 10999
@@ -71882,6 +71809,13 @@ STRING 11081
 // Buffs/Effects: B00X (), Bufftip (Tooltip)
 {
 |cff00ff00Prana conversion|r
+}
+
+STRING 11082
+// Items: I0A1 (Huge Gift), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Create 4 artifacts in an empty inventory slots. Create 1 less for each other artifact in the inventory (at least 1).
 }
 
 STRING 11083
@@ -72396,6 +72330,16 @@ Type: |Cffffcc00Minion|R
 STRING 11166
 {
 Тип: |Cffffcc00Minion Armor|R
+}
+
+STRING 11167
+// Items: I07T (Magician's Boots), Description (Description)
+{
+|cff4169e1Rare|r
+Increases Mana by 80 and Movement Speed by 25%.
+Activation: Teleport to a random hero.
+|cffffcc00Cooldown:|r 10 seconds.
+|cffffcc00Cost:|r 35 mana.
 }
 
 STRING 11168
@@ -76692,20 +76636,6 @@ Enchants a basic attack. Each attack deals an additional 55 Damage and permanent
 |cffffcc00Cooldown:|r 25 seconds.
 }
 
-STRING 11796
-// Items: I0A1 (Huge gift), Description (Description)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Gives an artifact of |cffbababcCommon|r quality. If there are no other artifacts in the inventory, it gives three instead.
-}
-
-STRING 11797
-// Items: I0A1 (Huge gift), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Gives an artifact of |cffbababcCommon|r quality. If there are no other artifacts in the inventory, it gives three instead.
-}
-
 STRING 11798
 // Items: I00S (Jade Snake), Description (Description)
 {
@@ -77175,20 +77105,6 @@ STRING 11860
 Blood of the Ancient (Out of Pool)
 }
 
-STRING 11861
-// Items: I0D9 (Tarot Card: Wealth), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corruption.|r Turns all of your |cffe96a1cnon-legendary|r artifacts to |cffe96a1clegendary|r ones.
-}
-
-STRING 11862
-// Items: I0D9 (Tarot Card: Wealth), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corruption.|r Turns all of your |cffe96a1cnon-legendary|r artifacts to |cffe96a1clegendary|r ones.
-}
-
 STRING 11863
 // Items: I0D2 (Sharp deck), Description (Description)
 {
@@ -77205,22 +77121,6 @@ STRING 11864
 When you pick up an Artifact Reward, the other ones do not disappear.
 |cff81f260[Random bonus]|r
 |cff81f260[Random bonus]|r
-}
-
-STRING 11865
-// Items: I06I (Amulet of Souls), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Swaps the percentage of health and mana.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 11866
-// Items: I06I (Amulet of Souls), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Swaps the percentage of health and mana.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 11867
@@ -77265,22 +77165,6 @@ When anyone dies, it summons a sheep.
 |cffffcc00Life time:|r 30 seconds.
 }
 
-STRING 11873
-// Items: I021 (Amulet of Balance), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Sets the hero's health and mana to 50%.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 11874
-// Items: I021 (Amulet of Balance), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Sets the hero's health and mana to 50%.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 11875
 // Items: I020 (Cenarion Horn), Description (Description)
 {
@@ -77298,22 +77182,6 @@ STRING 11876
 Activation: Puts the Cenarion Horn on the ground, restoring |cffbe81f740|r health to heroes nearby every second.
 |cffffcc00Duration:|r 20 seconds.
 |cffffcc00Cooldown:|r 60 seconds.
-}
-
-STRING 11877
-// Items: I00W (Sword of Power), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff2d9995Weapon|r
-Increases the attack power of your hero by 50%.
-Decreases the attack power of allies by 15%.
-}
-
-STRING 11878
-// Items: I00W (Sword of Power), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff2d9995Weapon|r
-Increases the attack power of your hero by 50%.
-Decreases the attack power of allies by 15%.
 }
 
 STRING 11879
@@ -77505,20 +77373,6 @@ STRING 11905
 {
 |cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
 After a battle with a boss, if any hero died during that fight, get a random |cffb40431blood|r or |cff7cfc00nature|r item and be offered the other one as an Artifact Reward.
-}
-
-STRING 11906
-// Items: IZ02 (Bob's Gratitude), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Choose a |cff00cceeCrystal|r. You get a base copy of it.
-}
-
-STRING 11907
-// Items: IZ02 (Bob's Gratitude), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Choose a |cff00cceeCrystal|r. You get a base copy of it.
 }
 
 STRING 11908
@@ -79110,5 +78964,163 @@ STRING 12144
 // Abilities: A19J (Gun Master: Armor-Piercing Cartridges), Ubertip (Tooltip - Normal - Extended)
 {
 When you deal magic damage, you have a |cffd7df0135%|r chance to reduce the target's armor by 1. If the damage was 225 or more, additionally reduce it by 1.
+}
+
+STRING 12145
+// Items: I07T (Magician's Boots), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Increases Mana by 80 and Movement Speed by 25%.
+Activation: Teleport to a random hero.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 12146
+// Items: I07L (Playful Spirit), Description (Description)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+Every 10 seconds, burn |cffbe81f712|r mana to increase Spell Power by 4% until the end of the battle.
+}
+
+STRING 12147
+// Items: I07L (Playful Spirit), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+Every 10 seconds, burn |cffbe81f712|r mana to increase Spell Power by 4% until the end of the battle.
+}
+
+STRING 12148
+// Items: I02X (Omnipotent Ruby), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r, |cff00cceeCrystal|r
+Increases Attack by 40% and damage taken by 10%.
+}
+
+STRING 12149
+// Items: I02X (Omnipotent Ruby), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r, |cff00cceeCrystal|r
+Increases Attack by 40% and damage taken by 10%.
+}
+
+STRING 12150
+// Abilities: A079 (Аура: Филосовский камень XXXXX), Name (Name)
+{
+Аура: Филосовский камень XXXXX
+}
+
+STRING 12151
+// Abilities: A1I8 (Stat: Damage Taken +10%), Name (Name)
+{
+Stat: Damage Taken +10%
+}
+
+STRING 12152
+// Items: I0C3 (Yah's Tear), Description (Description)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+Activation: Restore all mana. Burns 15 mana every second until depleted.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 12153
+// Items: I0C3 (Yah's Tear), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+Activation: Restore all mana. Burns 15 mana every second until depleted.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 12154
+// Items: I0BD (Tarot Card: Courage), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 4.
+}
+
+STRING 12155
+// Items: I0BD (Tarot Card: Courage), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 4.
+}
+
+STRING 12156
+// Items: I089 (Superbot-5000), Description (Description)
+{
+|cffe96a1cLegendary|r, |cffb18904Mech|r
+Increases mana regeneration by 1.5 for each |cffb18904mech|r.
+Activation: If you have 6 |cffb18904mechs|r or more, puts the hero in Superbot-5000.
+|cffffcc00Cooldown:|r 60 seconds.
+}
+
+STRING 12157
+// Items: I089 (Superbot-5000), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cffb18904Mech|r
+Increases mana regeneration by 1.5 for each |cffb18904mech|r.
+Activation: If you have 6 |cffb18904mechs|r or more, puts the hero in Superbot-5000.
+|cffffcc00Cooldown:|r 60 seconds.
+}
+
+STRING 12158
+// Items: I0HT (Black Egg), Description (Description)
+{
+|cff4169e1Rare|r
+After a lost battle, transform into the Radiance.
+Activation: |cffcc0000Corrupted|r. Increases stats by 1. Removes |cffC71585curse|r tag from all items in the inventory.
+}
+
+STRING 12159
+// Items: I0HT (Black Egg), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+After a lost battle, transform into the Radiance.
+Activation: |cffcc0000Corrupted|r. Increases stats by 1. Removes |cffC71585curse|r tag from all items in the inventory.
+}
+
+STRING 12160
+// Abilities: A0RF (Superbot: Superbotication), Name (Name)
+{
+Superbot: Superbotication
+}
+
+STRING 12161
+// Abilities: A0RF (Superbot: Superbotication), Ubertip (Tooltip - Normal - Extended)
+{
+Summon 2 Superbot-3000's. They have Super Ray.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 12162
+// Abilities: A02L (Superbot: Destruction), Name (Name)
+{
+Superbot: Destruction
+}
+
+STRING 12163
+// Abilities: A02L (Superbot: Destruction), Ubertip (Tooltip - Normal - Extended)
+{
+Launches waves dealing |cffbe81f7200|r damage.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 12164
+// Abilities: A02K (Superbot: Super Ray), Name (Name)
+{
+Superbot: Super Ray
+}
+
+STRING 12165
+// Abilities: A02K (Superbot: Super Ray), Tip (Tooltip - Normal)
+{
+Super Ray
+}
+
+STRING 12166
+// Abilities: A02K (Superbot: Super Ray), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7200|r damage to an enemy. If the caster is Superbot-5000, force all Superbot-3000 to do the same on this target.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 

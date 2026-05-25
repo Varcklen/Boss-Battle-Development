@@ -1,7 +1,7 @@
 scope DeepPurple initializer init
 
 globals
-	private constant integer DURATION = 10
+	private constant integer DURATION = 15
 	private constant integer BOOST = 200
 	private constant integer ABILITY = 'AZ08'
 	private constant integer EXTRA_A = 'AZ09'
