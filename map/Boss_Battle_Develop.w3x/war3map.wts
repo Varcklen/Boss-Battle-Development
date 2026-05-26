@@ -2534,6 +2534,15 @@ STRING 405
 Mephistar
 }
 
+STRING 406
+// Items: I01X (Ruby Diamond), Description (Description)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Activation: Deals |cffbe81f7300|r damage to the enemy. Deals an additional |cffbe81f7100|r damage for each kill you make in this battle |cFF959697(0)|r.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
 STRING 407
 // Units: O01J ((S) Fallen One), Propernames (Proper Names)
 {
@@ -4475,6 +4484,14 @@ STRING 713
 // Items: I0GZ (Alchemy: Fire), Tip (Tooltip - Basic)
 {
 Fire
+}
+
+STRING 714
+// Items: I01X (Ruby Diamond), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Activation: Deals |cffbe81f7300|r damage to the enemy. Deals an additional |cffbe81f7100|r damage for each kill you make in this battle |cFF959697(0)|r.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 715
@@ -19024,15 +19041,6 @@ STRING 2880
 (Skin2)
 }
 
-STRING 2881
-// Items: I01X (Ruby Diamond), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Deals |cffbe81f7200|r damage to the enemy. If the hero’s has full health, it deals |cffbe81f7600|r damage instead.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 60 mana.
-}
-
 STRING 2882
 // Abilities: A1F6 (Stat: Phy Damage Dealt Minions +200%), Name (Name)
 {
@@ -19043,14 +19051,6 @@ STRING 2883
 // Abilities: A1F7 (Stat: Mag Damage Dealt +75%), Name (Name)
 {
 Stat: Mag Damage Dealt +75%
-}
-
-STRING 2884
-// Items: I01X (Ruby Diamond), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Deals |cffbe81f7200|r damage to the enemy. If the hero’s has full health, it deals |cffbe81f7600|r damage instead.
-|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 2885
