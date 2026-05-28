@@ -2549,6 +2549,13 @@ STRING 407
 Helel Ben Shahar
 }
 
+STRING 408
+// Items: I0EL (Tarot Card: Chameleon), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 2. Select another item in your inventory to transform it into a random artifact.
+}
+
 STRING 409
 // Units: O01I ((M) Meat Wagon), Propernames (Proper Names)
 {
@@ -4506,6 +4513,13 @@ STRING 716
 Alchemist's Stone
 }
 
+STRING 717
+// Items: I0EL (Tarot Card: Chameleon), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 2. Select another item in your inventory to transform it into a random artifact.
+}
+
 STRING 718
 // Items: I0GX (Put an artifact (Slot 1)), Hotkey (Hotkey)
 {
@@ -4972,6 +4986,13 @@ STRING 788
 Gain 200 max Health.
 }
 
+STRING 789
+// Items: I0A7 (Tarot Card: Wheel of Fortune), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Destroy all other items. |cFFE16B90Forge|r the same number of artifacts |cFF959697(0).
+}
+
 STRING 790
 // Items: I0GF (Cut Diamond), Name (Name)
 {
@@ -4982,6 +5003,13 @@ STRING 791
 // Items: I0GF (Cut Diamond), Tip (Tooltip - Basic)
 {
 Cut Diamond
+}
+
+STRING 792
+// Items: I0A7 (Tarot Card: Wheel of Fortune), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Destroy all other items. |cFFE16B90Forge|r the same number of artifacts |cFF959697(0).
 }
 
 STRING 793
@@ -6822,13 +6850,6 @@ STRING 1053
 Split Artifact (Slot 4)
 }
 
-STRING 1054
-// Items: I0EL (Tarot Card: Chameleon), Description (Description)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Increases stats by 1. All items in the inventory get the effect: "At the beginning of each battle, it turns into a random activatable artifact."
-}
-
 STRING 1055
 // Items: I0EL (Tarot Card: Chameleon), Name (Name)
 {
@@ -6839,13 +6860,6 @@ STRING 1056
 // Items: I0EL (Tarot Card: Chameleon), Tip (Tooltip - Basic)
 {
 Tarot Card: Chameleon
-}
-
-STRING 1057
-// Items: I0EL (Tarot Card: Chameleon), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Increases stats by 1. All items in the inventory get the effect: "At the beginning of each battle, it turns into a random activatable artifact."
 }
 
 STRING 1058
@@ -7938,6 +7952,13 @@ STRING 1210
 Increases mana by 450, mana regeneration by 450%, and spell power by 45%.
 }
 
+STRING 1211
+// Items: I0CY (Royal Letter), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Create a |cffcc0000corrupted|r artifact. At the end of the battle, return the letter to an empty inventory slot.
+}
+
 STRING 1212
 // Items: I0HT (Black Egg), Name (Name)
 {
@@ -8063,6 +8084,12 @@ While the hero is invisible, every second deals |cffbe81f7100|r damage to all ne
 |cff81f260[Random bonus]|r
 }
 
+STRING 1230
+// Items: I0CY (Royal Letter), Name (Name)
+{
+Royal Letter
+}
+
 STRING 1231
 // Items: I0DD (Tarot Card: Death), Name (Name)
 {
@@ -8073,6 +8100,12 @@ STRING 1232
 // Items: I0DD (Tarot Card: Death), Tip (Tooltip - Basic)
 {
 Tarot Card: Death
+}
+
+STRING 1233
+// Items: I0CY (Royal Letter), Tip (Tooltip - Basic)
+{
+Royal Letter
 }
 
 STRING 1234
@@ -8462,31 +8495,30 @@ When the hero uses an ability or item, deals |cffbe81f710|r damage to all nearby
 }
 
 STRING 1290
-// Items: I0CY (Royal letter), Description (Description)
+// Abilities: A1I9 (Tarot Card: Chameleon), Name (Name)
 {
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Gives a |cffcc0000corrupted|r artifact.
-If there are no other artifacts in the inventory, fills the inventory with |cffcc0000corrupted|r artifacts.
+Tarot Card: Chameleon
 }
 
 STRING 1291
-// Items: I0CY (Royal letter), Name (Name)
+// Items: I07Q (Evil Necklace), Description (Description)
 {
-Royal letter
+|cffbababcCommon|r
+Increases Attack by 35 and Armor by 4. Reduces Attack Speed by 50%. Kill 5 enemies to purify the item |cFF959697(0/5)|r.
 }
 
 STRING 1292
-// Items: I0CY (Royal letter), Tip (Tooltip - Basic)
+// Items: I07Q (Evil Necklace), Ubertip (Tooltip - Extended)
 {
-Royal letter
+|cffbababcCommon|r
+Increases Attack by 35 and Armor by 4. Reduces Attack Speed by 50%. Kill 5 enemies to purify the item |cFF959697(0/5)|r.
 }
 
 STRING 1293
-// Items: I0CY (Royal letter), Ubertip (Tooltip - Extended)
+// Items: I07A (Purified Necklace), Description (Description)
 {
 |cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Gives a |cffcc0000corrupted|r artifact.
-If there are no other artifacts in the inventory, fills the inventory with |cffcc0000corrupted|r artifacts.
+Increases Attack Power by 35 and Armor by 4. 
 }
 
 STRING 1294
@@ -9301,10 +9333,29 @@ Every 5 seconds it gives 8 gold for each |cffe96a1clegendary|r artifact in the i
 |cff81f260[Random bonus]|r
 }
 
+STRING 1414
+// Items: I0CY (Royal Letter), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Create a |cffcc0000corrupted|r artifact. At the end of the battle, return the letter to an empty inventory slot.
+}
+
 STRING 1415
 // Items: I0HT (Black Egg), Tip (Tooltip - Basic)
 {
 Black Egg
+}
+
+STRING 1416
+// Items: I07A (Purified Necklace), Name (Name)
+{
+Purified Necklace
+}
+
+STRING 1417
+// Items: I07A (Purified Necklace), Tip (Tooltip - Basic)
+{
+Purified Necklace
 }
 
 STRING 1418
@@ -9388,6 +9439,13 @@ STRING 1429
 {
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corruption.|r Increases the level of all heroes by 3.
+}
+
+STRING 1430
+// Items: I07A (Purified Necklace), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Increases Attack Power by 35 and Armor by 4. 
 }
 
 STRING 1431
@@ -11098,13 +11156,6 @@ Activation: Transforms up to 30 of your sheeps into random minions.
 |cffffcc00Cost:|r 80 mana.
 }
 
-STRING 1686
-// Items: I0A7 (Tarot Card: Wheel of Fortune), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Replaces all other artifacts in your inventory with random ones.
-}
-
 STRING 1687
 // Items: I0A7 (Tarot Card: Wheel of Fortune), Name (Name)
 {
@@ -11115,13 +11166,6 @@ STRING 1688
 // Items: I0A7 (Tarot Card: Wheel of Fortune), Tip (Tooltip - Basic)
 {
 Tarot Card: Wheel of Fortune
-}
-
-STRING 1689
-// Items: I0A7 (Tarot Card: Wheel of Fortune), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Replaces all other artifacts in your inventory with random ones.
 }
 
 STRING 1690
@@ -12684,14 +12728,6 @@ STRING 1919
 Activation: Increases luck by 100.
 |cffffcc00Duration:|r 15 seconds.
 |cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 1920
-// Items: I07Q (Evil Necklace), Description (Description)
-{
-|cffbababcCommon|r
-Increases Attack by 25 and Armor by 3. 
-Reduces Attack Speed by 50%. Kill someone to calm the spirit inside the necklace.
 }
 
 STRING 1921
@@ -46695,42 +46731,6 @@ STRING 7152
 // Abilities: A0LD (Wanderer: Indelebilis Sensus), Tip (Tooltip - Normal)
 {
 Indelebilis Sensus, [|cffffcc00Level 5|r]
-}
-
-STRING 7153
-// Items: I07Q (Evil Necklace), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Increases Attack by 25 and Armor by 3. 
-Reduces Attack Speed by 50%. Kill someone to calm the spirit inside the necklace.
-}
-
-STRING 7154
-// Items: I07A (Usual Necklace), Description (Description)
-{
-|cffbababcCommon|r
-Increases Attack Power by 25 and Armor by 3. 
-This item has a mysterious aura.
-}
-
-STRING 7155
-// Items: I07A (Usual Necklace), Name (Name)
-{
-Usual Necklace
-}
-
-STRING 7156
-// Items: I07A (Usual Necklace), Tip (Tooltip - Basic)
-{
-Usual Necklace
-}
-
-STRING 7157
-// Items: I07A (Usual Necklace), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Increases Attack Power by 25 and Armor by 3. 
-This item has a mysterious aura.
 }
 
 STRING 7158

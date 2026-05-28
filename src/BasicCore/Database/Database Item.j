@@ -120,7 +120,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I04I'
 	    //set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I0DH'
 	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I0EH'
-	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I07A'
+	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I07Q'
 	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I05P'
 	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I06O'
 	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I061'
