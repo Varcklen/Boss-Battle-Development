@@ -5,16 +5,15 @@ scope HucksterBuyItem initializer init
 	endglobals
 
 	private function condition takes nothing returns boolean
-	    return GetUnitTypeId(GetSoldUnit()) == 'n029'
+	    return GetItemTypeId(GetManipulatedItem()) == 'I0HV'
 	endfunction
 	
 	private function action takes nothing returns nothing
-		local unit buyingUnit = GetBuyingUnit()
+		local unit buyingUnit = GetManipulatingUnit()
 		local player user  = GetOwningPlayer(buyingUnit)
 		local integer ItemType
 		local item itemCreated
-		
-	    call RemoveUnit( GetSoldUnit() )
+
 	    if ItemManipulation_IsInventoryFull(buyingUnit) then
 	    	call ErrorMessage(user, "The inventory is full.")
 	        call SetPlayerState(user, PLAYER_STATE_RESOURCE_GOLD, GetPlayerState(user, PLAYER_STATE_RESOURCE_GOLD) + GOLD_COST )
@@ -32,7 +31,7 @@ scope HucksterBuyItem initializer init
 	
 	//===========================================================================
 	private function init takes nothing returns nothing
-	    call CreateNativeEvent( EVENT_PLAYER_UNIT_SELL, function action, function condition )
+	    call CreateNativeEvent( EVENT_PLAYER_UNIT_PICKUP_ITEM, function action, function condition )
 	endfunction
 
 endscope

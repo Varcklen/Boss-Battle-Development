@@ -13,6 +13,10 @@ library BookSeller initializer init requires EventDatabase
 		set IsActive[index] = true
 		call ShowUnit(BookSeller[index], true)
 		call DestroyEffect( AddSpecialEffect( "Abilities\\Spells\\Human\\Polymorph\\PolyMorphDoneGround.mdl", GetUnitX(BookSeller[index]), GetUnitY(BookSeller[index]) ) )
+		
+		if udg_fightmod[0] == false then
+    		call PanCameraToTimedForPlayer( GetOwningPlayer(hero), GetUnitX( BookSeller[index] ), GetUnitY( BookSeller[index] ), 0.5 )
+    	endif
 	endfunction
 	
 	public function Disable takes unit hero returns nothing

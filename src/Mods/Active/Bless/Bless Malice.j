@@ -10,7 +10,7 @@ scope BlessMalice initializer init
 	
 	private function action takes nothing returns nothing
 		call spdst( GetSpellAbilityUnit(), 0.1 )
-    	call DestroyEffect( AddSpecialEffectTarget("Abilities\\Spells\\Undead\\DeathPact\\DeathPactTarget.mdl", GetSpellAbilityUnit(), "origin" ) )
+    	//call DestroyEffect( AddSpecialEffectTarget("Abilities\\Spells\\Undead\\DeathPact\\DeathPactTarget.mdl", GetSpellAbilityUnit(), "origin" ) )
 	endfunction
 
 	//===========================================================================

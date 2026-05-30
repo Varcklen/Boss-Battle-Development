@@ -17,5 +17,18 @@ library ItemManipulation
         
         return newItem
 	endfunction
+	
+	public function IsArtifact takes item itemToCheck returns boolean
+		local itemtype itenType = GetItemType(itemToCheck)
+		
+		if itenType == ITEM_TYPE_ARTIFACT then
+			return true
+		elseif itenType == ITEM_TYPE_CAMPAIGN then
+			return true
+		elseif itenType == ITEM_TYPE_PERMANENT then
+			return true
+		endif
+		return false
+	endfunction
 
 endlibrary

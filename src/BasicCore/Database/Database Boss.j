@@ -6,6 +6,9 @@ library LibDataBoss
 	    integer array BossArenaChoise[11][7]
 	    trigger array DB_Trigger_Boss[11][70]
 	    sound array Boss_Talk[11][7]
+	    
+	    constant integer ARENA_TYPE_BIG = 1
+	    constant integer ARENA_TYPE_SMALL = 2
 	endglobals
 	
 	function DataBoss takes nothing returns nothing
@@ -127,65 +130,66 @@ library LibDataBoss
 	    set Boss_Info[10][5] = 'A0DF'
 	    set Boss_Info[10][6] = 'A0SM'
 	    
-	    //Арена для босса
-	    set BossArenaChoise[1][1] = 2
-	    set BossArenaChoise[1][2] = 2
-	    set BossArenaChoise[1][3] = 2
-	    set BossArenaChoise[1][4] = 2
-	    set BossArenaChoise[1][5] = 2
-	    set BossArenaChoise[2][1] = 2
-	    set BossArenaChoise[2][2] = 1
-	    set BossArenaChoise[2][3] = 2
-	    set BossArenaChoise[2][4] = 1
-	    set BossArenaChoise[2][5] = 2
-	    set BossArenaChoise[3][1] = 2
-	    set BossArenaChoise[3][2] = 1
-	    set BossArenaChoise[3][3] = 1
-	    set BossArenaChoise[3][4] = 2
-	    set BossArenaChoise[3][5] = 2
-	    //set BossArenaChoise[3][6] = 2
-	    set BossArenaChoise[4][1] = 2
-	    set BossArenaChoise[4][2] = 2
-	    set BossArenaChoise[4][3] = 2
-	    set BossArenaChoise[4][4] = 2
-	    set BossArenaChoise[4][5] = 2
-	    set BossArenaChoise[4][6] = 2
-	    set BossArenaChoise[5][1] = 2
-	    set BossArenaChoise[5][2] = 2
-	    set BossArenaChoise[5][3] = 2
-	    set BossArenaChoise[5][4] = 2
-	    set BossArenaChoise[5][5] = 2
-	    set BossArenaChoise[5][6] = 2
-	    set BossArenaChoise[6][1] = 1
-	    set BossArenaChoise[6][2] = 1
-	    set BossArenaChoise[6][3] = 2
-	    set BossArenaChoise[6][4] = 2
-	    set BossArenaChoise[6][5] = 1
-	    set BossArenaChoise[7][1] = 2
-	    set BossArenaChoise[7][2] = 2
-	    set BossArenaChoise[7][3] = 2
-	    set BossArenaChoise[7][4] = 1
-	    set BossArenaChoise[7][5] = 1
-	    set BossArenaChoise[7][6] = 1
-	    set BossArenaChoise[8][1] = 2
-	    set BossArenaChoise[8][2] = 1
-	    set BossArenaChoise[8][3] = 1
-	    set BossArenaChoise[8][4] = 2
-	    set BossArenaChoise[8][5] = 2
-	    set BossArenaChoise[8][6] = 2
-	    set BossArenaChoise[9][1] = 2
-	    set BossArenaChoise[9][2] = 2
-	    set BossArenaChoise[9][3] = 1
-	    set BossArenaChoise[9][4] = 1
-	    set BossArenaChoise[9][5] = 1
-	    set BossArenaChoise[9][6] = 1
-	    set BossArenaChoise[10][1] = 1
-	    set BossArenaChoise[10][2] = 1
-	    set BossArenaChoise[10][3] = 1
-	    set BossArenaChoise[10][4] = 1
-	    set BossArenaChoise[10][5] = 1
-	    set BossArenaChoise[10][6] = 1
-	    // Триггеры боссов
+	    //Arena Type
+	    set BossArenaChoise[1][1] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[1][2] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[1][3] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[1][4] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[1][5] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[2][1] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[2][2] = ARENA_TYPE_BIG
+	    set BossArenaChoise[2][3] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[2][4] = ARENA_TYPE_BIG
+	    set BossArenaChoise[2][5] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[3][1] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[3][2] = ARENA_TYPE_BIG
+	    set BossArenaChoise[3][3] = ARENA_TYPE_BIG
+	    set BossArenaChoise[3][4] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[3][5] = ARENA_TYPE_SMALL
+	    //set BossArenaChoise[3][6] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[4][1] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[4][2] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[4][3] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[4][4] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[4][5] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[4][6] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[5][1] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[5][2] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[5][3] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[5][4] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[5][5] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[5][6] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[6][1] = ARENA_TYPE_BIG
+	    set BossArenaChoise[6][2] = ARENA_TYPE_BIG
+	    set BossArenaChoise[6][3] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[6][4] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[6][5] = ARENA_TYPE_BIG
+	    set BossArenaChoise[7][1] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[7][2] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[7][3] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[7][4] = ARENA_TYPE_BIG
+	    set BossArenaChoise[7][5] = ARENA_TYPE_BIG
+	    set BossArenaChoise[7][6] = ARENA_TYPE_BIG
+	    set BossArenaChoise[8][1] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[8][2] = ARENA_TYPE_BIG
+	    set BossArenaChoise[8][3] = ARENA_TYPE_BIG
+	    set BossArenaChoise[8][4] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[8][5] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[8][6] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[9][1] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[9][2] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[9][3] = ARENA_TYPE_BIG
+	    set BossArenaChoise[9][4] = ARENA_TYPE_BIG
+	    set BossArenaChoise[9][5] = ARENA_TYPE_BIG
+	    set BossArenaChoise[9][6] = ARENA_TYPE_BIG
+	    set BossArenaChoise[10][1] = ARENA_TYPE_BIG
+	    set BossArenaChoise[10][2] = ARENA_TYPE_BIG
+	    set BossArenaChoise[10][3] = ARENA_TYPE_BIG
+	    set BossArenaChoise[10][4] = ARENA_TYPE_BIG
+	    set BossArenaChoise[10][5] = ARENA_TYPE_BIG
+	    set BossArenaChoise[10][6] = ARENA_TYPE_BIG
+	    
+	    // Bosses's Triggers
 	    set DB_Trigger_Boss[1][1] = gg_trg_Morloc1
 	    set DB_Trigger_Boss[1][2] = gg_trg_Morloc2
 	    set DB_Trigger_Boss[1][3] = gg_trg_Morloc3
@@ -415,7 +419,7 @@ library LibDataBoss
 	    set DB_Trigger_Boss[10][57] = gg_trg_Marine7
 	    set DB_Trigger_Boss[10][58] = gg_trg_Marine8
 	    
-	    // Спецэффекты боссов
+	    // Bosses's Call
 	    set Boss_Talk[1][1] = gg_snd_MurlocPissed2
 	    set Boss_Talk[1][2] = gg_snd_KoboldYes1
 	    set Boss_Talk[1][3] = gg_snd_GnollArcherReady1

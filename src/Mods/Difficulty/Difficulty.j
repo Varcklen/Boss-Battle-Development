@@ -3,12 +3,15 @@ library Difficulty initializer init requires Multiboard, SpellPower
 	globals
     	constant integer DIFFICULTY_MAX = 5
     	private constant string STATIC_DESCRIPTION = "Enemies are stronger.|n"
+    	private constant string EXP_DESCRIPTION = "|cffffcc00Experience Bonus:|r +"
     	
     	private string Difficulty_Name = "Normal"
     	
     	private framehandle modesdiftool = null
     	private framehandle modesdificon = null
     	private framehandle modesdifname = null
+    	
+    	public constant integer EXP_BONUS_PER_DIFFICULTY = 40
 	endglobals
 
 	private function Setup_DB takes nothing returns nothing
@@ -66,6 +69,7 @@ library Difficulty initializer init requires Multiboard, SpellPower
 		local string description = "- " + STATIC_DESCRIPTION
 		local integer i = 1
 		
+		set description = description + EXP_DESCRIPTION + I2S( EXP_BONUS_PER_DIFFICULTY * udg_HardNum ) + "%.|n"
 		loop
 			exitwhen i > udg_HardNum
 			set description = description + "- " + BlzGetAbilityExtendedTooltip(udg_DB_Hardest_On[i], 0)
@@ -130,6 +134,7 @@ library Difficulty initializer init requires Multiboard, SpellPower
         
         set tooltipDescription = BlzGetAbilityExtendedTooltip(udg_DB_ModesFrame_Difficulty[newValue], 0)
         if udg_HardNum > 0 then
+        	set tooltipDescription = EXP_DESCRIPTION + I2S( EXP_BONUS_PER_DIFFICULTY * udg_HardNum ) + "%.|n" + tooltipDescription
         	set tooltipDescription = STATIC_DESCRIPTION + tooltipDescription
         endif
         

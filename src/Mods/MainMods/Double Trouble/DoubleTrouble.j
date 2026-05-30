@@ -69,7 +69,7 @@ scope DoubleTrouble initializer init
 	
 	//===============================================================
 	private function OnBattleEnd_Boss_Condition takes nothing returns boolean
-	    return udg_fightmod[1]
+	    return isActive
 	endfunction
 
 	private function OnBattleEnd_Boss takes nothing returns nothing

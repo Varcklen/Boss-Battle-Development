@@ -1115,7 +1115,7 @@ Crisp
 }
 
 STRING 172
-// Units: n029 (Buy Exile Item), Hotkey (Hotkey)
+// Units: n029 (Buy Exile ItemXXXXX), Hotkey (Hotkey)
 {
 D
 }
@@ -1892,7 +1892,7 @@ Player Status
 }
 
 STRING 300
-// Abilities: A0EH (Усилитель 0: Обычный), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0EH (|cffffcc00Amplifier:|r Common), Ubertip (Tooltip - Normal - Extended)
 {
 Basic difficulty level.
 }
@@ -2780,24 +2780,10 @@ STRING 445
 Discord
 }
 
-STRING 446
-// Items: I01L (Slippers of Madness), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases Health by 150 and Movement Speed by 25%. At the end of battle |cffd7df01changes|r the hero stats (up to 10).
-}
-
 STRING 447
 // Units: O00S ((W) Commander), Propernames (Proper Names)
 {
 Kappa
-}
-
-STRING 448
-// Items: I01L (Slippers of Madness), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases Health by 150 and Movement Speed by 25%. At the end of battle |cffd7df01changes|r the hero stats (up to 10).
 }
 
 STRING 449
@@ -5109,13 +5095,6 @@ STRING 807
 VIP card
 }
 
-STRING 808
-// Abilities: A048 (Усилитель 5: Ужасающий), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Experience Bonus:|r +200%.
-Upgrading and refreshing the Artifact Shop costs 200 gold more.
-}
-
 STRING 809
 // Items: I0GA (Goat Dragon Claw), Description (Description)
 {
@@ -5513,16 +5492,6 @@ Increases attack power by 15% and spell power by 10%.
 Increases spell power by 5% for each minion you control.
 }
 
-STRING 865
-// Items: I0FV (Orb of Ner'zhul), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases attack power by 35%.
-Whenever you summon a minion, you summon an additional uncontrollable minion of that type.
-Whenever an ally attacks a minion, there is a |cffd7df018%|r chance that the target comes under your control.
-|cffffcc00Life time:|r 30 seconds.
-}
-
 STRING 866
 // Items: I0FW (Orb of Twilights Flame), Name (Name)
 {
@@ -5533,16 +5502,6 @@ STRING 867
 // Items: I0FW (Orb of Twilights Flame), Tip (Tooltip - Basic)
 {
 Orb of Twilights Flame
-}
-
-STRING 868
-// Items: I0FV (Orb of Ner'zhul), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases attack power by 35%.
-Whenever you summon a minion, you summon an additional uncontrollable minion of that type.
-Whenever an ally attacks a minion, there is a |cffd7df018%|r chance that the target comes under your control.
-|cffffcc00Life time:|r 30 seconds.
 }
 
 STRING 869
@@ -6102,15 +6061,6 @@ STRING 948
 Activation: Transforms and reveals a classified artifact.
 }
 
-STRING 949
-// Items: I0FB (D20), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: Transforms all other artifacts in the inventory to others of the same rarity.
-Only works in combat.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
 STRING 950
 // Items: I0FB (D20), Name (Name)
 {
@@ -6121,15 +6071,6 @@ STRING 951
 // Items: I0FB (D20), Tip (Tooltip - Basic)
 {
 D20
-}
-
-STRING 952
-// Items: I0FB (D20), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: Transforms all other artifacts in the inventory to others of the same rarity.
-Only works in combat.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 953
@@ -7027,14 +6968,6 @@ STRING 1081
 // Items: I01W (Mana Berries), Tip (Tooltip - Basic)
 {
 Mana Berries
-}
-
-STRING 1082
-// Abilities: A047 (Усилитель 3: Легендарный), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Experience Bonus:|r +120%.
-Enemies become stronger with each battle.
-Enemies become stronger every few minutes of battle.
 }
 
 STRING 1083
@@ -10040,6 +9973,13 @@ STRING 1520
 Tarot Card: Courage
 }
 
+STRING 1521
+// Items: I01L (Slippers of Madness), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases Health by 100 and Movement Speed by 15%. At the end of the battle, increases stats by 2.
+}
+
 STRING 1522
 // Items: I0BC (Tarot Card: Jule), Description (Description)
 {
@@ -10672,6 +10612,13 @@ When the hero dies, puts him in the sphere. Kill 7 creatures near the sphere to 
 |cff81f260[Random bonus]|r
 }
 
+STRING 1614
+// Items: I01L (Slippers of Madness), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases Health by 100 and Movement Speed by 15%. At the end of the battle, increases stats by 2.
+}
+
 STRING 1615
 // Items: I0AP (Arthur the Pure), Name (Name)
 {
@@ -11168,6 +11115,12 @@ STRING 1688
 Tarot Card: Wheel of Fortune
 }
 
+STRING 1689
+// Abilities: A1IA (Artifact: Bloody Coin), Name (Name)
+{
+Artifact: Bloody Coin
+}
+
 STRING 1690
 // Items: I0A6 (Symbol of Maiev), Description (Description)
 {
@@ -11314,6 +11267,23 @@ STRING 1710
 |cffe96a1cLegendary|r
 Activation: Transforms up to 30 of your sheeps into random minions.
 |cffffcc00Life time:|r 25 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 1711
+// Items: I074 (Bloody Coin), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Spend up to 35 gold to restore |cffbe81f7500|r health to a friendly target. Kills refund the gold |cFF959697(0)|r.
+|cffffcc00Cooldown:|r 25 seconds.
+|cffffcc00Cost:|r 35 mana.
+}
+
+STRING 1712
+// Items: I074 (Bloody Coin), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Spend up to 35 gold to restore |cffbe81f7500|r health to a friendly target. Kills refund the gold |cFF959697(0)|r.
 |cffffcc00Cooldown:|r 25 seconds.
 }
 
@@ -11876,6 +11846,30 @@ STRING 1794
 // Items: I095 (Avengers Assemble), Tip (Tooltip - Basic)
 {
 Avengers Assemble
+}
+
+STRING 1795
+// Abilities: A0EH (|cffffcc00Amplifier:|r Common), Tip (Tooltip - Normal)
+{
+|cffffcc00Amplifier:|r Common
+}
+
+STRING 1796
+// Abilities: A048 (|cffffcc00Amplifier:|r Horrific), Tip (Tooltip - Normal)
+{
+|cffffcc00Amplifier:|r Horrific
+}
+
+STRING 1797
+// Abilities: A048 (|cffffcc00Amplifier:|r Horrific), Ubertip (Tooltip - Normal - Extended)
+{
+Upgrading and refreshing the Artifact Shop costs 200 gold more.
+}
+
+STRING 1798
+// Abilities: A047 (|cffffcc00Amplifier:|r Legendary), Tip (Tooltip - Normal)
+{
+|cffffcc00Amplifier:|r Legendary
 }
 
 STRING 1799
@@ -12643,6 +12637,13 @@ STRING 1906
 Totem of Power
 }
 
+STRING 1907
+// Abilities: A047 (|cffffcc00Amplifier:|r Legendary), Ubertip (Tooltip - Normal - Extended)
+{
+Enemies become stronger with each battle.
+Enemies become stronger every few minutes of battle.
+}
+
 STRING 1908
 // Items: I08O (Elune's Glyph), Description (Description)
 {
@@ -12728,6 +12729,12 @@ STRING 1919
 Activation: Increases luck by 100.
 |cffffcc00Duration:|r 15 seconds.
 |cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 1920
+// Abilities: A046 (|cffffcc00Amplifier:|r Epic), Tip (Tooltip - Normal)
+{
+|cffffcc00Amplifier:|r Epic
 }
 
 STRING 1921
@@ -13021,6 +13028,12 @@ STRING 1963
 Activation: |cffcc0000Corrupted|r. Choose a hero. The target gets 1 level and 2 to stats, but the caster will not get 1 level after defeating the boss.
 }
 
+STRING 1964
+// Abilities: A046 (|cffffcc00Amplifier:|r Epic), Ubertip (Tooltip - Normal - Extended)
+{
+Heroes begin each battle with 35% less Health and Mana.
+}
+
 STRING 1965
 // Items: I089 (Superbot-5000), Name (Name)
 {
@@ -13031,6 +13044,12 @@ STRING 1966
 // Items: I089 (Superbot-5000), Tip (Tooltip - Basic)
 {
 Superbot-5000
+}
+
+STRING 1967
+// Abilities: A045 (|cffffcc00Amplifier:|r Mythical), Tip (Tooltip - Normal)
+{
+|cffffcc00Amplifier:|r Mythical
 }
 
 STRING 1968
@@ -13656,6 +13675,12 @@ Reduces the cooldown of the hero's abilities by 0.5 seconds every second while t
 |cff81f260[Random bonus]|r
 }
 
+STRING 2060
+// Abilities: A045 (|cffffcc00Amplifier:|r Mythical), Ubertip (Tooltip - Normal - Extended)
+{
+Heroes start with trash and two curses.
+}
+
 STRING 2061
 // Abilities: A1F2 (Stat: Mag Vampirism +20%), Name (Name)
 {
@@ -13666,6 +13691,12 @@ STRING 2062
 // Abilities: A1F3 (Stat: Vampirism +60%), Name (Name)
 {
 Stat: Vampirism +60%
+}
+
+STRING 2063
+// Abilities: A043 (|cffffcc00Amplifier:|r Rare), Tip (Tooltip - Normal)
+{
+|cffffcc00Amplifier:|r Rare
 }
 
 STRING 2064
@@ -13859,6 +13890,30 @@ STRING 2091
 |cffbababcCommon|r, |cff5858faMoon|r
 At the beginning of each battle, your hero becomes invisible for 30 seconds. Actions do not remove invisibility. 
 |cff81f260[Random bonus]|r
+}
+
+STRING 2092
+// Abilities: A043 (|cffffcc00Amplifier:|r Rare), Ubertip (Tooltip - Normal - Extended)
+{
+Players receive 30% less gold from additional arenas.
+}
+
+STRING 2093
+// Units: n029 (Buy Exile ItemXXXXX), Name (Name)
+{
+Buy Exile ItemXXXXX
+}
+
+STRING 2094
+// Items: I0HV (Buy Exile Item), Tip (Tooltip - Basic)
+{
+Buy Exile Item
+}
+
+STRING 2095
+// Items: I0HV (Buy Exile Item), Ubertip (Tooltip - Extended)
+{
+Obtain an Exile item. These items existed in the arena in the past, but were cast into oblivion.
 }
 
 STRING 2096
@@ -14088,13 +14143,6 @@ When the hero stun a target, it also stuns all enemies near the target.
 |cff81f260[Random bonus]|r
 }
 
-STRING 2128
-// Items: I074 (Bloody Coin), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-When the hero kills an enemy, gets 20 gold and restores |cffbe81f720|r health.
-}
-
 STRING 2129
 // Items: IV04 (Ice Cream), Ubertip (Tooltip - Extended)
 {
@@ -14103,16 +14151,9 @@ Get 75 max Mana.
 }
 
 STRING 2130
-// Units: n029 (Buy Exile Item), Name (Name)
+// Units: n029 (Buy Exile ItemXXXXX), Tip (Tooltip - Basic)
 {
 Buy Exile Item
-}
-
-STRING 2131
-// Items: I074 (Bloody Coin), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-When the hero kills an enemy, gets 20 gold and restores |cffbe81f720|r health.
 }
 
 STRING 2132
@@ -14193,6 +14234,12 @@ STRING 2143
 {
 |cffe96a1cLegendary|r
 Increases spell power by 50%. At the end of the battle transforms.
+}
+
+STRING 2144
+// Abilities: A1G9 (Hero Spirit: Mana Throw), Researchhotkey (Hotkey - Learn)
+{
+D
 }
 
 STRING 2145
@@ -14471,6 +14518,14 @@ STRING 2186
 // Items: I06Q (Yorick's Skull), Tip (Tooltip - Basic)
 {
 Yorick's Skull
+}
+
+STRING 2187
+// Items: I0FB (D20), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: Transforms other artifacts in your inventory into random ones.
+|cffffcc00Cooldown:|r 25 seconds.
 }
 
 STRING 2188
@@ -15677,6 +15732,15 @@ STRING 2364
 Witness Cleaver
 }
 
+STRING 2365
+// Items: I0FB (D20), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: Transforms other artifacts in your inventory into random ones.
+|cffffcc00Cooldown:|r 25 seconds.
+|cffffcc00Cost:|r 40 mana.
+}
+
 STRING 2366
 // Items: I05H (Ditto), Name (Name)
 {
@@ -15687,6 +15751,14 @@ STRING 2367
 // Items: I05H (Ditto), Tip (Tooltip - Basic)
 {
 Ditto
+}
+
+STRING 2368
+// Abilities: A0MY (Curse: Тьма (b19)), Ubertip (Tooltip - Normal - Extended)
+{
+If the enemy does not attack within 10 seconds, gains invisibility.
+
+|cFF959697Units with no attack, slow attack, and no movement are not affected.|r
 }
 
 STRING 2369
@@ -16592,6 +16664,15 @@ STRING 2504
 Mshist's Damned Fiber
 }
 
+STRING 2505
+// Abilities: A10E (Devourer: Nightmares), Researchubertip (Tooltip - Learn - Extended)
+{
+Makes an allied hero invisible and reduces the cooldown of a random ability by 15%/20%/25%/30%/35%.
+|cffffcc00Duration:|r 3/3.5/4/4.5/5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
 STRING 2506
 // Items: I04K (Bananas), Description (Description)
 {
@@ -16638,6 +16719,14 @@ STRING 2512
 // Items: I04J (Big gold coin), Tip (Tooltip - Basic)
 {
 Big gold coin
+}
+
+STRING 2513
+// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
+{
+Makes an allied hero invisible and reduces the cooldown of a random ability by 15%.
+|cffffcc00Duration:|r 3 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 2514
@@ -17117,6 +17206,38 @@ STRING 2584
 {
 |cffbababcCommon|r
 Activation: |cffcc0000Corrupted|r. Increases stats by 1 and removes |cffC71585curse|r from the item in the inventory.
+}
+
+STRING 2585
+// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
+{
+Makes an allied hero invisible and reduces the cooldown of a random ability by 20%.
+|cffffcc00Duration:|r 3.5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 2586
+// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
+{
+Makes an allied hero invisible and reduces the cooldown of a random ability by 25%.
+|cffffcc00Duration:|r 4 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 2587
+// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
+{
+Makes an allied hero invisible and reduces the cooldown of a random ability by 30%.
+|cffffcc00Duration:|r 4.5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 2588
+// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
+{
+Makes an allied hero invisible and reduces the cooldown of a random ability by 35%.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 2589
@@ -18136,6 +18257,12 @@ Activation: Increases the ally’s armor by 3. If the hero’s gold supply is 20
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 2738
+// Abilities: A0BA (Blessing: Злоба (g5)), Tip (Tooltip - Normal)
+{
+|cffffcc00Blessing:|r Malice
+}
+
 STRING 2739
 // Items: I02X (Omnipotent Ruby), Name (Name)
 {
@@ -18146,6 +18273,12 @@ STRING 2740
 // Items: I02X (Omnipotent Ruby), Tip (Tooltip - Basic)
 {
 Omnipotent Ruby
+}
+
+STRING 2741
+// Abilities: A0BA (Blessing: Злоба (g5)), Ubertip (Tooltip - Normal - Extended)
+{
+When the hero casts, permanently increases Spell Power by 0.1%.
 }
 
 STRING 2742
@@ -18790,6 +18923,14 @@ STRING 2836
 E
 }
 
+STRING 2837
+// Items: I0E2 (Library Pass), Description (Description)
+{
+|cffC71585Cursed|r
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Create a Book Seller in your room until the start of battle.
+}
+
 STRING 2838
 // Items: I028 (Life incubator), Name (Name)
 {
@@ -18800,6 +18941,14 @@ STRING 2839
 // Items: I028 (Life incubator), Tip (Tooltip - Basic)
 {
 Life incubator
+}
+
+STRING 2840
+// Items: I0E2 (Library Pass), Ubertip (Tooltip - Extended)
+{
+|cffC71585Cursed|r
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Create a Book Seller in your room until the start of battle.
 }
 
 STRING 2841
@@ -18868,13 +19017,13 @@ When the hero attacks, reduces the target's armor by 7.
 }
 
 STRING 2850
-// Units: n029 (Buy Exile Item), Tip (Tooltip - Basic)
+// Items: I0HV (Buy Exile Item), Name (Name)
 {
 Buy Exile Item
 }
 
 STRING 2851
-// Units: n029 (Buy Exile Item), Ubertip (Tooltip - Extended)
+// Units: n029 (Buy Exile ItemXXXXX), Ubertip (Tooltip - Extended)
 {
 Obtain an Exile item. These items existed in the arena in the past, but were cast into oblivion.
 }
@@ -23547,7 +23696,7 @@ Steal up to |cffbe81f760/75/90/105/120|r total of Mana from nearby Heroes. After
 }
 
 STRING 3568
-// Abilities: A1BE (Unique: Brother Rant (+)), Hotkey (Hotkey - Normal)
+// Items: I0HV (Buy Exile Item), Hotkey (Hotkey)
 {
 D
 }
@@ -23559,7 +23708,7 @@ Unique: Brother Rant (+)
 }
 
 STRING 3570
-// Abilities: A1BE (Unique: Brother Rant (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A1BE (Unique: Brother Rant (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -23590,7 +23739,7 @@ Activation: Deals |cffbe81f7300|r damage to an enemy.
 }
 
 STRING 3575
-// Abilities: A1BD (Unique: Brother Rant), Hotkey (Hotkey - Normal)
+// Abilities: A1BE (Unique: Brother Rant (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -23602,7 +23751,7 @@ Unique: Brother Rant
 }
 
 STRING 3577
-// Abilities: A1BD (Unique: Brother Rant), Researchhotkey (Hotkey - Learn)
+// Abilities: A1BD (Unique: Brother Rant), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -23646,7 +23795,7 @@ Bonnie: Random Bantering
 }
 
 STRING 3584
-// Abilities: A1BC (Bonnie: Random Bantering), Researchhotkey (Hotkey - Learn)
+// Abilities: A1BD (Unique: Brother Rant), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -23689,7 +23838,7 @@ Bunnie: Ravage
 }
 
 STRING 3591
-// Abilities: A1BB (Bunnie: Ravage), Researchhotkey (Hotkey - Learn)
+// Abilities: A1BC (Bonnie: Random Bantering), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -23720,7 +23869,7 @@ Bonnie: Right Role
 }
 
 STRING 3596
-// Abilities: A1BA (Bonnie: Right Role ), Researchhotkey (Hotkey - Learn)
+// Abilities: A1BB (Bunnie: Ravage), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -23763,7 +23912,7 @@ Bunnie: Requiem
 }
 
 STRING 3603
-// Abilities: A1B9 (Bunnie: Requiem), Researchhotkey (Hotkey - Learn)
+// Abilities: A1BA (Bonnie: Right Role ), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -24456,7 +24605,7 @@ Grants an ally |cffd7df015-6|r random bard bonuses.
 }
 
 STRING 3713
-// Abilities: A1AK (Unique: Play Note (+)), Hotkey (Hotkey - Normal)
+// Abilities: A1B9 (Bunnie: Requiem), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -24468,7 +24617,7 @@ Unique: Play Note (+)
 }
 
 STRING 3715
-// Abilities: A1AK (Unique: Play Note (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A1AK (Unique: Play Note (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -25783,6 +25932,26 @@ STRING 3911
 Activation: Increases |cff60C445Unique|r Spell Power by 200%.
 |cffffcc00Duration:|r 15 seconds.
 |cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 3912
+// Items: I0FV (Orb of Ner'zhul), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases attack power by 35%.
+When you summon, summon another uncontrollable one.
+When any hero attacks a minion, there is a |cffd7df018%|r chance that minion will become an ally.
+|cffffcc00Life time:|r 30 seconds.
+}
+
+STRING 3913
+// Items: I0FV (Orb of Ner'zhul), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases attack power by 35%.
+When you summon, summon another uncontrollable one.
+When any hero attacks a minion, there is a |cffd7df018%|r chance that minion will become an ally.
+|cffffcc00Life time:|r 30 seconds.
 }
 
 STRING 3914
@@ -30098,7 +30267,7 @@ Artifact: Old healer
 }
 
 STRING 4585
-// Abilities: A14S (Unique: Energy Orbs (+)), Hotkey (Hotkey - Normal)
+// Abilities: A1AK (Unique: Play Note (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -30714,7 +30883,7 @@ STRING 4680
 }
 
 STRING 4681
-// Abilities: A13J (Unique: Mixology (+)), Hotkey (Hotkey - Normal)
+// Abilities: A14S (Unique: Energy Orbs (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -30726,7 +30895,7 @@ Unique: Mixology (+)
 }
 
 STRING 4683
-// Abilities: A13J (Unique: Mixology (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A13J (Unique: Mixology (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -30758,7 +30927,7 @@ Adds 2 random |cff088a08potions|r to empty inventory slots.
 }
 
 STRING 4688
-// Abilities: A13I (Unique: Mixology), Hotkey (Hotkey - Normal)
+// Abilities: A13J (Unique: Mixology (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -30770,7 +30939,7 @@ Unique: Mixology
 }
 
 STRING 4690
-// Abilities: A13I (Unique: Mixology), Researchhotkey (Hotkey - Learn)
+// Abilities: A13I (Unique: Mixology), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -30808,7 +30977,7 @@ STRING 4695
 }
 
 STRING 4696
-// Abilities: A13G (Unique: Energy Orbs), Hotkey (Hotkey - Normal)
+// Abilities: A13I (Unique: Mixology), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -32830,7 +32999,7 @@ MP (Mage Armor)
 }
 
 STRING 5000
-// Abilities: A11L (Прочее: Превращение), Hotkey (Hotkey - Normal)
+// Abilities: A13G (Unique: Energy Orbs), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -40842,7 +41011,7 @@ Superbotication
 }
 
 STRING 6233
-// Abilities: A0RF (Superbot: Superbotication), Researchhotkey (Hotkey - Learn)
+// Abilities: A11L (Прочее: Превращение), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -42957,14 +43126,6 @@ Curses the enemy, reducing their armor by 3. Every second, the target loses |cff
 |cffffcc00Cooldown:|r 23 seconds.
 }
 
-STRING 6567
-// Abilities: A0MY (Curse: Тьма (b19)), Ubertip (Tooltip - Normal - Extended)
-{
-If the enemy does not attack within 6 seconds, gains invisibility.
-
-|cFF959697Units with no attack, very slow attack, and no movement are not affected by the effect.|r
-}
-
 STRING 6568
 // Abilities: A0OX (Random bonus (3)), Name (Name)
 {
@@ -44941,7 +45102,7 @@ Artillery
 }
 
 STRING 6876
-// Abilities: A0MW (Unique: Feeding), Hotkey (Hotkey - Normal)
+// Abilities: A0RF (Superbot: Superbotication), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -44953,7 +45114,7 @@ Unique: Feeding
 }
 
 STRING 6878
-// Abilities: A0MW (Unique: Feeding), Researchhotkey (Hotkey - Learn)
+// Abilities: A0MW (Unique: Feeding), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -45291,7 +45452,7 @@ STRING 6929
 }
 
 STRING 6930
-// Abilities: A0MH (Unique: Sheep call (+)), Hotkey (Hotkey - Normal)
+// Abilities: A0MW (Unique: Feeding), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -45303,7 +45464,7 @@ Unique: Sheep call (+)
 }
 
 STRING 6932
-// Abilities: A0MH (Unique: Sheep call (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A0MH (Unique: Sheep call (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -45338,7 +45499,7 @@ Summons a sheep.
 }
 
 STRING 6937
-// Abilities: A0MG (Unique: Sheep call), Hotkey (Hotkey - Normal)
+// Abilities: A0MH (Unique: Sheep call (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -45350,7 +45511,7 @@ Unique: Sheep call
 }
 
 STRING 6939
-// Abilities: A0MG (Unique: Sheep call), Researchhotkey (Hotkey - Learn)
+// Abilities: A0MG (Unique: Sheep call), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -45535,14 +45696,6 @@ STRING 6966
 R
 }
 
-STRING 6967
-// Items: I0E2 (Library Pass), Description (Description)
-{
-|cffC71585Cursed|r
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Create a Book Seller in your room until the start of battle.
-}
-
 STRING 6968
 // Items: I0E2 (Library Pass), Name (Name)
 {
@@ -45553,14 +45706,6 @@ STRING 6969
 // Items: I0E2 (Library Pass), Tip (Tooltip - Basic)
 {
 Library Pass
-}
-
-STRING 6970
-// Items: I0E2 (Library Pass), Ubertip (Tooltip - Extended)
-{
-|cffC71585Cursed|r
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Create a Book Seller in your room until the start of battle.
 }
 
 STRING 6971
@@ -48997,7 +49142,7 @@ Stats (Очищенная материя)
 }
 
 STRING 7500
-// Abilities: A0IV (Unique: Chaos (+)), Hotkey (Hotkey - Normal)
+// Abilities: A0MG (Unique: Sheep call), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -49009,7 +49154,7 @@ Unique: Chaos (+)
 }
 
 STRING 7502
-// Abilities: A0IV (Unique: Chaos (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A0IV (Unique: Chaos (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -49054,7 +49199,7 @@ STRING 7508
 }
 
 STRING 7509
-// Abilities: A0IS (Unique: Chaos), Hotkey (Hotkey - Normal)
+// Abilities: A0IV (Unique: Chaos (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -49066,7 +49211,7 @@ Unique: Chaos
 }
 
 STRING 7511
-// Abilities: A0IS (Unique: Chaos), Researchhotkey (Hotkey - Learn)
+// Abilities: A0IS (Unique: Chaos), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -49104,7 +49249,7 @@ STRING 7516
 }
 
 STRING 7517
-// Abilities: A0IQ (Unique: Summon Skeletons (+)), Hotkey (Hotkey - Normal)
+// Abilities: A0IS (Unique: Chaos), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -49130,7 +49275,7 @@ Summons 5 boars. With a probability of |cffd7df0115%|r, calls for 2 times more b
 }
 
 STRING 7521
-// Abilities: A0IP (Unique: Summon Skeletons), Hotkey (Hotkey - Normal)
+// Abilities: A0IQ (Unique: Summon Skeletons (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -50866,7 +51011,7 @@ Works 1 time per battle.
 }
 
 STRING 7790
-// Abilities: A0GF (Unique: Curse), Hotkey (Hotkey - Normal)
+// Abilities: A0IP (Unique: Summon Skeletons), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -50896,7 +51041,7 @@ STRING 7794
 }
 
 STRING 7795
-// Abilities: A0GD (Unique: Inspire), Hotkey (Hotkey - Normal)
+// Abilities: A0GF (Unique: Curse), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -50932,13 +51077,13 @@ Inspire
 }
 
 STRING 7801
-// Abilities: A0GC (Unique: Mana Throw), Hotkey (Hotkey - Normal)
+// Abilities: A0GD (Unique: Inspire), Hotkey (Hotkey - Normal)
 {
 D
 }
 
 STRING 7802
-// Abilities: A0GC (Unique: Mana Throw), Researchhotkey (Hotkey - Learn)
+// Abilities: A0GC (Unique: Mana Throw), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -50950,7 +51095,7 @@ Unique: Mana Throw
 }
 
 STRING 7804
-// Abilities: A0CR (Unique: Play Note), Hotkey (Hotkey - Normal)
+// Abilities: A0GC (Unique: Mana Throw), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -52855,14 +53000,8 @@ STRING 8102
 Аура: Кристаллизованная мана
 }
 
-STRING 8103
-// Abilities: A0EH (Усилитель 0: Обычный), Name (Name)
-{
-Усилитель 0: Обычный
-}
-
 STRING 8104
-// Abilities: A0EH (Усилитель 0: Обычный), Tip (Tooltip - Normal)
+// Abilities: A0EH (|cffffcc00Amplifier:|r Common), Name (Name)
 {
 |cffffcc00Amplifier:|r Common
 }
@@ -54403,7 +54542,7 @@ STRING 8345
 }
 
 STRING 8346
-// Abilities: A0CR (Unique: Play Note), Researchhotkey (Hotkey - Learn)
+// Abilities: A0CR (Unique: Play Note), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -54415,7 +54554,7 @@ Unique: Play Note
 }
 
 STRING 8348
-// Abilities: A0AG (Unique: Small heal), Hotkey (Hotkey - Normal)
+// Abilities: A0CR (Unique: Play Note), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -55649,18 +55788,6 @@ STRING 8537
 Blessing: Злоба (g5)
 }
 
-STRING 8538
-// Abilities: A0BA (Blessing: Злоба (g5)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Anger
-}
-
-STRING 8539
-// Abilities: A0BA (Blessing: Злоба (g5)), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero uses an ability or item, increases spell power by 0.1% until the end of the game.
-}
-
 STRING 8540
 // Abilities: A0B7 (Admiral: Fencing Master), Researchhotkey (Hotkey - Learn)
 {
@@ -56413,7 +56540,7 @@ When the hero uses an ability or item, with a 4% chance, resets the cooldown of 
 }
 
 STRING 8651
-// Abilities: A088 (Unique: Provocation), Hotkey (Hotkey - Normal)
+// Abilities: A0AG (Unique: Small heal), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -56455,7 +56582,7 @@ STRING 8657
 }
 
 STRING 8658
-// Abilities: A084 (Unique: Feeding (+)), Hotkey (Hotkey - Normal)
+// Abilities: A088 (Unique: Provocation), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -58977,7 +59104,7 @@ STRING 9052
 }
 
 STRING 9053
-// Abilities: A084 (Unique: Feeding (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A084 (Unique: Feeding (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -59105,7 +59232,7 @@ After 2 seconds, an explosion occurs, which deals |cffbe81f7500|r damage to all 
 }
 
 STRING 9073
-// Abilities: A05Z (Unique: Inspire (+)), Hotkey (Hotkey - Normal)
+// Abilities: A084 (Unique: Feeding (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -59117,7 +59244,7 @@ Unique: Feeding (+)
 }
 
 STRING 9075
-// Abilities: A036 (Unique: Provocation (+)), Hotkey (Hotkey - Normal)
+// Abilities: A05Z (Unique: Inspire (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -59141,7 +59268,7 @@ Feeding
 }
 
 STRING 9079
-// Abilities: A035 (Unique: Curse (+)), Hotkey (Hotkey - Normal)
+// Abilities: A036 (Unique: Provocation (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -61177,7 +61304,7 @@ Artifact: Tarot Card: Doppelganger
 }
 
 STRING 9395
-// Abilities: A02W (Unique: Small heal (+)), Hotkey (Hotkey - Normal)
+// Abilities: A035 (Unique: Curse (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -63551,14 +63678,8 @@ Restore the ally |cffbe85f7550|r health over time, but takes 13 mana every secon
 |cffffcc00Cooldown:|r 5 seconds.
 }
 
-STRING 9761
-// Abilities: A048 (Усилитель 5: Ужасающий), Name (Name)
-{
-Усилитель 5: Ужасающий
-}
-
 STRING 9762
-// Abilities: A048 (Усилитель 5: Ужасающий), Tip (Tooltip - Normal)
+// Abilities: A048 (|cffffcc00Amplifier:|r Horrific), Name (Name)
 {
 |cffffcc00Amplifier:|r Horrific
 }
@@ -63569,14 +63690,8 @@ STRING 9763
 Second Chance
 }
 
-STRING 9764
-// Abilities: A047 (Усилитель 3: Легендарный), Name (Name)
-{
-Усилитель 3: Легендарный
-}
-
 STRING 9765
-// Abilities: A047 (Усилитель 3: Легендарный), Tip (Tooltip - Normal)
+// Abilities: A047 (|cffffcc00Amplifier:|r Legendary), Name (Name)
 {
 |cffffcc00Amplifier:|r Legendary
 }
@@ -63590,14 +63705,8 @@ Summons a Skeleton.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
-STRING 9767
-// Abilities: A046 (Усилитель 2: Эпический), Name (Name)
-{
-Усилитель 2: Эпический
-}
-
 STRING 9768
-// Abilities: A046 (Усилитель 2: Эпический), Tip (Tooltip - Normal)
+// Abilities: A046 (|cffffcc00Amplifier:|r Epic), Name (Name)
 {
 |cffffcc00Amplifier:|r Epic
 }
@@ -63608,14 +63717,8 @@ STRING 9769
 Huge Gift
 }
 
-STRING 9770
-// Abilities: A045 (Усилитель 4: Мифический), Name (Name)
-{
-Усилитель 4: Мифический
-}
-
 STRING 9771
-// Abilities: A045 (Усилитель 4: Мифический), Tip (Tooltip - Normal)
+// Abilities: A045 (|cffffcc00Amplifier:|r Mythical), Name (Name)
 {
 |cffffcc00Amplifier:|r Mythical
 }
@@ -63638,14 +63741,8 @@ STRING 9775
 Злобная магия
 }
 
-STRING 9776
-// Abilities: A043 (Усилитель 1: Редкий), Name (Name)
-{
-Усилитель 1: Редкий
-}
-
 STRING 9777
-// Abilities: A043 (Усилитель 1: Редкий), Tip (Tooltip - Normal)
+// Abilities: A043 (|cffffcc00Amplifier:|r Rare), Name (Name)
 {
 |cffffcc00Amplifier:|r Rare
 }
@@ -64594,7 +64691,7 @@ The hero's melee attacks also damage nearby foes. The damage is equal to 80% of 
 }
 
 STRING 9922
-// Abilities: A02V (Unique: Mana Throw (+)), Hotkey (Hotkey - Normal)
+// Abilities: A02W (Unique: Small heal (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -64619,7 +64716,7 @@ Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies
 }
 
 STRING 9926
-// Abilities: A02L (Superbot: Destruction), Researchhotkey (Hotkey - Learn)
+// Abilities: A02V (Unique: Mana Throw (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -64788,7 +64885,7 @@ STRING 9951
 }
 
 STRING 9952
-// Abilities: A01U (Unique: Burning gaze (+)), Hotkey (Hotkey - Normal)
+// Abilities: A02L (Superbot: Destruction), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -64814,7 +64911,7 @@ Restores |cffbe81f7200|r health to an ally.
 }
 
 STRING 9956
-// Abilities: A01U (Unique: Burning gaze (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A01U (Unique: Burning gaze (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -65103,7 +65200,7 @@ Destruction
 }
 
 STRING 9998
-// Abilities: A00N (Unique: Burning gaze), Hotkey (Hotkey - Normal)
+// Abilities: A01U (Unique: Burning gaze (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -65217,20 +65314,6 @@ STRING 10019
 // Abilities: A04H (Усилитель 6: МонструозныйXXX), Name (Name)
 {
 Усилитель 6: МонструозныйXXX
-}
-
-STRING 10020
-// Abilities: A045 (Усилитель 4: Мифический), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Experience Bonus:|r +160%.
-Heroes start with trash and two curses.
-}
-
-STRING 10021
-// Abilities: A043 (Усилитель 1: Редкий), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Experience Bonus:|r +40%.
-Players receive 30% less gold from additional arenas.
 }
 
 STRING 10022
@@ -65770,7 +65853,7 @@ STRING 10104
 }
 
 STRING 10105
-// Abilities: A00N (Unique: Burning gaze), Researchhotkey (Hotkey - Learn)
+// Abilities: A00N (Unique: Burning gaze), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -65782,7 +65865,7 @@ Unique: Burning gaze (+)
 }
 
 STRING 10107
-// Abilities: A1EA (Unique: Murderousness), Hotkey (Hotkey - Normal)
+// Abilities: A00N (Unique: Burning gaze), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -65972,13 +66055,6 @@ STRING 10137
 // Abilities: A1DO (Shepherd: Lure), Hotkey (Hotkey - Normal)
 {
 R
-}
-
-STRING 10138
-// Abilities: A046 (Усилитель 2: Эпический), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Experience Bonus:|r +80%.
-Heroes begin each battle with 35% less Health and Mana.
 }
 
 STRING 10139
@@ -67026,7 +67102,7 @@ HP (Random bonus)
 }
 
 STRING 10294
-// Abilities: A1EA (Unique: Murderousness), Researchhotkey (Hotkey - Learn)
+// Abilities: A1EA (Unique: Murderousness), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -67038,7 +67114,7 @@ Unique: Burning gaze
 }
 
 STRING 10296
-// Abilities: A1EB (Unique: Murderousness (+)), Hotkey (Hotkey - Normal)
+// Abilities: A1EA (Unique: Murderousness), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -73695,7 +73771,7 @@ STRING 11378
 }
 
 STRING 11379
-// Abilities: A1EB (Unique: Murderousness (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A1EB (Unique: Murderousness (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -73833,7 +73909,7 @@ Explosive Grenade, [|cffffcc00Level 2|r]
 }
 
 STRING 11401
-// Abilities: A1G9 (Hero Spirit: Mana Throw), Researchhotkey (Hotkey - Learn)
+// Abilities: A1EB (Unique: Murderousness (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -74701,55 +74777,6 @@ STRING 11535
 // Buffs/Effects: B006 (), Bufftip (Tooltip)
 {
 |cff00ff00Muddy waters|rXXX
-}
-
-STRING 11536
-// Abilities: A10E (Devourer: Nightmares), Researchubertip (Tooltip - Learn - Extended)
-{
-Makes an allied hero invisible and reduces the cooldown of a random ability by 15%/20%/25%/30%/35%.
-|cffffcc00Duration:|r 4/5/6/7/8 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-|cffffcc00Cost:|r 60 mana.
-}
-
-STRING 11537
-// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
-{
-Makes an allied hero invisible and reduces the cooldown of a random ability by 15%.
-|cffffcc00Duration:|r 4 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 11538
-// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
-{
-Makes an allied hero invisible and reduces the cooldown of a random ability by 20%.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 11539
-// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
-{
-Makes an allied hero invisible and reduces the cooldown of a random ability by 25%.
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 11540
-// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
-{
-Makes an allied hero invisible and reduces the cooldown of a random ability by 30%.
-|cffffcc00Duration:|r 7 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 11541
-// Abilities: A10E (Devourer: Nightmares), Ubertip (Tooltip - Normal - Extended)
-{
-Makes an allied hero invisible and reduces the cooldown of a random ability by 35%.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 11542

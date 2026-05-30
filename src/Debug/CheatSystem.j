@@ -48,6 +48,7 @@ library CheatSystem initializer init requires Multiboard
 		call Cheat.create(CheatCheckRarity_Trigger, "-rarity", "Checks chances to get an item." )
 		call Cheat.create(CheatAddRewardOption_Trigger, "-addreward", "Add 1 extra reward option." )
 		call Cheat.create(CheatRemoveRewardOption_Trigger, "-removereward", "Remove 1 future reward option." )
+		call Cheat.create(CheatLuck_Trigger, "-luck", "Add 50 luck." )
 	endfunction
 
 	public function IsCheatsEnabled takes nothing returns boolean

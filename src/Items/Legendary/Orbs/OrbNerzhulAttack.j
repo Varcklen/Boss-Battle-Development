@@ -13,6 +13,10 @@ scope OrbNerzhulAttack initializer init
 	        return false
 	    elseif IsUnitDead(AfterAttack.TargetUnit) then
 	        return false
+        elseif GetUnitState( AfterAttack.TargetUnit, UNIT_STATE_LIFE ) > 1000 then
+        	return false
+    	elseif IsUnitEnemy(AfterAttack.TriggerUnit, GetOwningPlayer(AfterAttack.TargetUnit) ) == false then
+    		return false
 	    endif
 	
 	    return true
