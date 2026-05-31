@@ -17789,6 +17789,12 @@ STRING 2653
 Increases level by 1.
 }
 
+STRING 2654
+// Abilities: A1ID (.General: No SpawnBoss trigger), Name (Name)
+{
+.General: No SpawnBoss trigger
+}
+
 STRING 2655
 // Items: I03I (Mechatron Charizard), Name (Name)
 {
@@ -17799,6 +17805,12 @@ STRING 2656
 // Items: I03I (Mechatron Charizard), Tip (Tooltip - Basic)
 {
 Mechatron Charizard
+}
+
+STRING 2657
+// Abilities: A1IE (Extra: Combination), Name (Name)
+{
+Extra: Combination
 }
 
 STRING 2658
@@ -18272,6 +18284,12 @@ Deals |cffbe81f7105|r damage to enemies in front of the hero and increases their
 |cffffcc00Cooldown:|r 6 seconds.
 }
 
+STRING 2726
+// Abilities: A1IE (Extra: Combination), Tip (Tooltip - Normal)
+{
+Combination
+}
+
 STRING 2727
 // Items: I030 (Ultimate Weapon), Name (Name)
 {
@@ -18282,6 +18300,13 @@ STRING 2728
 // Items: I030 (Ultimate Weapon), Tip (Tooltip - Basic)
 {
 Ultimate Weapon
+}
+
+STRING 2729
+// Abilities: A1IE (Extra: Combination), Ubertip (Tooltip - Normal - Extended)
+{
+Kills all copies. Reduces the cooldown of the Split ability by 25% for each killed copy.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 2730
