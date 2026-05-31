@@ -288,7 +288,6 @@ library LibDataBoss
 	    set DB_Trigger_Boss[5][43] = gg_trg_SlaveKing3
 	    set DB_Trigger_Boss[5][44] = gg_trg_SlaveKing4
 	    set DB_Trigger_Boss[5][51] = gg_trg_Salamander1
-	    set DB_Trigger_Boss[5][52] = gg_trg_Salamander2
 	    set DB_Trigger_Boss[6][1] = gg_trg_Crab1
 	    set DB_Trigger_Boss[6][2] = gg_trg_Crab2
 	    set DB_Trigger_Boss[6][3] = gg_trg_Crab3

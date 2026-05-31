@@ -8,7 +8,7 @@ scope BuyOrder initializer init
     endglobals
     
 	private function condition takes nothing returns boolean
-    	return GetSpellAbilityId() == ID_BUYORDER_CAST and notCombat( GetSpellAbilityUnit(), true, ID_BUYORDER_CAST ) and GetItemTypeId(GetSpellTargetItem()) != ID_BUYORDER and GetItemTypeId(GetSpellTargetItem()) != 'I030' and GetItemType(GetSpellTargetItem()) != ITEM_TYPE_POWERUP and GetItemType(GetSpellTargetItem()) != ITEM_TYPE_PURCHASABLE and GetItemType(GetSpellTargetItem()) != ITEM_TYPE_MISCELLANEOUS
+    	return GetSpellAbilityId() == ID_BUYORDER_CAST and notCombat( GetSpellAbilityUnit(), true, ID_BUYORDER_CAST ) and GetItemTypeId(GetSpellTargetItem()) != ID_BUYORDER and Inventory_IsCanCopied(GetSpellTargetItem()) and ItemManipulation_IsArtifact(GetSpellTargetItem())
 	endfunction
 	
 	private function AfterRefresh takes nothing returns nothing

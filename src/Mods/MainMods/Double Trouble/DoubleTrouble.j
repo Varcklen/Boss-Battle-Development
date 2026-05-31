@@ -3,10 +3,10 @@ scope DoubleTrouble initializer init
 	globals
 		private boolean isActive = false
 		private boolean isEnabledToActivate = false
-		private boolean isMoneyBonusDisabled = false
+		//private boolean isMoneyBonusDisabled = false
 		
-		private trigger Trigger_Start_Extra = null
-		private trigger Trigger_End_Extra = null
+		/*private trigger Trigger_Start_Extra = null
+		private trigger Trigger_End_Extra = null*/
 		private trigger Trigger_End_Boss = null
 		private trigger Trigger_OnBossDeath = null
 		
@@ -69,15 +69,24 @@ scope DoubleTrouble initializer init
 	
 	//===============================================================
 	private function OnBattleEnd_Boss_Condition takes nothing returns boolean
-	    return isActive
+	    return isActive and BattleEndGlobal.GetDataBoolean("is_win")
 	endfunction
 
 	private function OnBattleEnd_Boss takes nothing returns nothing
-		call IconFrameDel( "second boss" )
+		local integer i
+
+		set i = 1
+	    loop 
+	        exitwhen i > 4
+	        if GetPlayerSlotState(Player( i - 1) ) == PLAYER_SLOT_STATE_PLAYING then
+				call moneyst( udg_hero[i], ( udg_Boss_LvL - 1 ) * 50 )
+			endif
+			set i = i + 1
+		endloop
 	endfunction
 	
 	//===============================================================
-	private function OnBattleStart_Extra_Condition takes nothing returns boolean
+	/*private function OnBattleStart_Extra_Condition takes nothing returns boolean
 	    return ExtraArenaGeneral_IsArenaActive()
 	endfunction
 
@@ -85,17 +94,17 @@ scope DoubleTrouble initializer init
 		call Money_AddMoneyGainMultiplierGlobal(-MONEY_GAIN_MULTIPLIER)
 		//call BJDebugMsg("Multiplier -")
 		set isMoneyBonusDisabled = true
-	endfunction
+	endfunction*/
 	
-	private function OnBattleEnd_Extra_Condition takes nothing returns boolean
-	    return isMoneyBonusDisabled
+	/*private function OnBattleEnd_Extra_Condition takes nothing returns boolean
+	    return //isMoneyBonusDisabled
 	endfunction
 
 	private function OnBattleEnd_Extra takes nothing returns nothing
-		call Money_AddMoneyGainMultiplierGlobal(MONEY_GAIN_MULTIPLIER)
+		//call Money_AddMoneyGainMultiplierGlobal(MONEY_GAIN_MULTIPLIER)
 		//call BJDebugMsg("Multiplier +")
-		set isMoneyBonusDisabled = false
-	endfunction
+		//set isMoneyBonusDisabled = false
+	endfunction*/
 	
 	//===============================================================
 	private function condition takes nothing returns boolean
@@ -107,9 +116,9 @@ scope DoubleTrouble initializer init
         call IconFrame( "DT", BlzGetAbilityIcon(ABILITY_USED), BlzGetAbilityTooltip(ABILITY_USED, 0), BlzGetAbilityExtendedTooltip(ABILITY_USED, 0) )
         call CombatTimer_AddBattleTime(ADDITIONAL_BATTLE_TIME, true)
         call SaveLoadStartLib_AddExtraExp(EXPERIENCE_BONUS_PERC)
-        call Money_AddMoneyGainMultiplierGlobal(MONEY_GAIN_MULTIPLIER)
-        call EnableTrigger(Trigger_Start_Extra)
-	    call EnableTrigger(Trigger_End_Extra)
+        //call Money_AddMoneyGainMultiplierGlobal(MONEY_GAIN_MULTIPLIER)
+        //call EnableTrigger(Trigger_Start_Extra)
+	    //call EnableTrigger(Trigger_End_Extra)
 	    call EnableTrigger(Trigger_End_Boss)
 	    call EnableTrigger(Trigger_OnBossDeath)
 	    set isActive = true
@@ -130,11 +139,11 @@ scope DoubleTrouble initializer init
 	    call OnModsAwake.AddListener(function action, function condition)
 	    call ModStateChanged.AddListener(function OnModStateChanged, function OnModStateChanged_Condition )
 	    
-	    set Trigger_Start_Extra = BattleStartGlobal.AddListener(function OnBattleStart_Extra, function OnBattleStart_Extra_Condition)
+	    /*set Trigger_Start_Extra = BattleStartGlobal.AddListener(function OnBattleStart_Extra, function OnBattleStart_Extra_Condition)
 	    call DisableTrigger(Trigger_Start_Extra)
 	    
 	    set Trigger_End_Extra = BattleEndGlobal.AddListener(function OnBattleEnd_Extra, function OnBattleEnd_Extra_Condition)
-	    call DisableTrigger(Trigger_End_Extra)
+	    call DisableTrigger(Trigger_End_Extra)*/
 	    
 	    set Trigger_End_Boss = BattleEndGlobal.AddListener(function OnBattleEnd_Boss, function OnBattleEnd_Boss_Condition)
 	    call DisableTrigger(Trigger_End_Boss)

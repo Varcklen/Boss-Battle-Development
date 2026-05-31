@@ -7,6 +7,36 @@ library StartingBonusDatabase initializer init
 		private integer StartingBonusesExtremeMax = 0
 	endglobals
 	
+	private function debugCheck takes nothing returns nothing
+		local integer i
+		local item itemCheck
+		
+		call BJDebugMsg("Normal")
+		call BJDebugMsg("=========================")
+		set i = 1
+		loop
+			exitwhen i > StartingBonusesSafeMax
+			set itemCheck = CreateItem(StartingBonuses_Safe[i], 0, 0)
+			call BJDebugMsg(I2S(i) + " " + GetItemName(itemCheck))
+			call RemoveItem(itemCheck)
+			set i = i + 1
+		endloop
+		
+		call BJDebugMsg("")
+		call BJDebugMsg("Risky")
+		call BJDebugMsg("=========================")
+		set i = 1
+		loop
+			exitwhen i > StartingBonusesExtremeMax
+			set itemCheck = CreateItem(StartingBonuses_Extreme[i], 0, 0)
+			call BJDebugMsg(I2S(i) + " " + GetItemName(itemCheck))
+			call RemoveItem(itemCheck)
+			set i = i + 1
+		endloop
+		
+		set itemCheck = null
+	endfunction
+	
 	private function action takes nothing returns nothing
 		set udg_base = 0
     	set StartingBonuses_Safe[BaseNum()] = 'IV00'
@@ -26,7 +56,7 @@ library StartingBonusDatabase initializer init
 		set StartingBonuses_Safe[BaseNum()] = 'IV18'
 		set StartingBonuses_Safe[BaseNum()] = 'IV19'
 		set StartingBonuses_Safe[BaseNum()] = 'IV20'
-		set StartingBonuses_Safe[BaseNum()] = 'IOHU'
+		set StartingBonuses_Safe[BaseNum()] = 'I0HU'
     	set StartingBonusesSafeMax = udg_base
     	
     	set udg_base = 0
@@ -38,6 +68,8 @@ library StartingBonusDatabase initializer init
     	set StartingBonuses_Extreme[BaseNum()] = 'IV26'
     	set StartingBonuses_Extreme[BaseNum()] = 'IV27'
     	set StartingBonusesExtremeMax = udg_base
+    	
+    	//call debugCheck()
 	endfunction
 	
 	private function IsBonusExcepted takes ListInt exceptions, integer bonus returns boolean

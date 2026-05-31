@@ -2780,10 +2780,22 @@ STRING 445
 Discord
 }
 
+STRING 446
+// Abilities: A0NR (Monk: Frantic Fists), Name (Name)
+{
+Monk: Frantic Fists
+}
+
 STRING 447
 // Units: O00S ((W) Commander), Propernames (Proper Names)
 {
 Kappa
+}
+
+STRING 448
+// Abilities: A0NR (Monk: Frantic Fists), Researchtip (Tooltip - Learn)
+{
+Frantic Fists, [|cffffcc00Level %d|r]
 }
 
 STRING 449
@@ -5095,6 +5107,15 @@ STRING 807
 VIP card
 }
 
+STRING 808
+// Abilities: A0NR (Monk: Frantic Fists), Researchubertip (Tooltip - Learn - Extended)
+{
+Increases attack speed of the next 6/8/10/12/14 attacks by 150%.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 35 mana.
+}
+
 STRING 809
 // Items: I0GA (Goat Dragon Claw), Description (Description)
 {
@@ -5492,6 +5513,12 @@ Increases attack power by 15% and spell power by 10%.
 Increases spell power by 5% for each minion you control.
 }
 
+STRING 865
+// Abilities: A0NR (Monk: Frantic Fists), Tip (Tooltip - Normal)
+{
+Frantic Fists, [|cffffcc00Level 1|r]
+}
+
 STRING 866
 // Items: I0FW (Orb of Twilights Flame), Name (Name)
 {
@@ -5502,6 +5529,12 @@ STRING 867
 // Items: I0FW (Orb of Twilights Flame), Tip (Tooltip - Basic)
 {
 Orb of Twilights Flame
+}
+
+STRING 868
+// Abilities: A0NR (Monk: Frantic Fists), Tip (Tooltip - Normal)
+{
+Frantic Fists, [|cffffcc00Level 2|r]
 }
 
 STRING 869
@@ -6061,6 +6094,12 @@ STRING 948
 Activation: Transforms and reveals a classified artifact.
 }
 
+STRING 949
+// Abilities: A0NR (Monk: Frantic Fists), Tip (Tooltip - Normal)
+{
+Frantic Fists, [|cffffcc00Level 3|r]
+}
+
 STRING 950
 // Items: I0FB (D20), Name (Name)
 {
@@ -6071,6 +6110,12 @@ STRING 951
 // Items: I0FB (D20), Tip (Tooltip - Basic)
 {
 D20
+}
+
+STRING 952
+// Abilities: A0NR (Monk: Frantic Fists), Tip (Tooltip - Normal)
+{
+Frantic Fists, [|cffffcc00Level 4|r]
 }
 
 STRING 953
@@ -6791,6 +6836,12 @@ STRING 1053
 Split Artifact (Slot 4)
 }
 
+STRING 1054
+// Abilities: A0NR (Monk: Frantic Fists), Tip (Tooltip - Normal)
+{
+Frantic Fists, [|cffffcc00Level 5|r]
+}
+
 STRING 1055
 // Items: I0EL (Tarot Card: Chameleon), Name (Name)
 {
@@ -6801,6 +6852,14 @@ STRING 1056
 // Items: I0EL (Tarot Card: Chameleon), Tip (Tooltip - Basic)
 {
 Tarot Card: Chameleon
+}
+
+STRING 1057
+// Abilities: A0NR (Monk: Frantic Fists), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack speed of the next 6 attacks by 150%.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 1058
@@ -6968,6 +7027,14 @@ STRING 1081
 // Items: I01W (Mana Berries), Tip (Tooltip - Basic)
 {
 Mana Berries
+}
+
+STRING 1082
+// Abilities: A0NR (Monk: Frantic Fists), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack speed of the next 8 attacks by 150%.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 1083
@@ -9393,6 +9460,14 @@ STRING 1432
 Statuette of Svirel
 }
 
+STRING 1433
+// Abilities: A0NR (Monk: Frantic Fists), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack speed of the next 10 attacks by 150%.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 1434
 // Items: I06V (Split Time), Name (Name)
 {
@@ -9959,6 +10034,14 @@ STRING 1517
 |cffbababcCommon|r
 Activation: |cffcc0000Corrupted|r. Summons 40 sheeps under your control. Only works in combat.
 |cffffcc00Life time:|r 60 seconds.
+}
+
+STRING 1518
+// Abilities: A0NR (Monk: Frantic Fists), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack speed of the next 12 attacks by 150%.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 1519
@@ -10631,6 +10714,14 @@ STRING 1616
 Arthur the Pure
 }
 
+STRING 1617
+// Abilities: A0NR (Monk: Frantic Fists), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack speed of the next 14 attacks by 150%.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 1618
 // Items: I0AO (Faceless Spy), Description (Description)
 {
@@ -10825,7 +10916,7 @@ Scroll of Jule
 }
 
 STRING 1645
-// Abilities: A0JO (|cffffcc00Extra:|r Двойные неприятности), Tip (Tooltip - Normal)
+// Abilities: A0JO (|cffffcc00Extra:|r Double Trouble), Name (Name)
 {
 |cffffcc00Extra:|r Double Trouble
 }
@@ -11101,6 +11192,14 @@ Activation: Transforms up to 30 of your sheeps into random minions.
 |cffffcc00Life time:|r 25 seconds.
 |cffffcc00Cooldown:|r 25 seconds.
 |cffffcc00Cost:|r 80 mana.
+}
+
+STRING 1686
+// Abilities: A093 (Monk: Leap), Researchubertip (Tooltip - Learn - Extended)
+{
+The hero jumps to a point, dealing |cffbe81f7100/140/180/220/260|r damage to enemies. Restores |cffbe81f720/28/36/44/52|r health for each enemy hit.
+|cffffcc00Cooldown:|r 1.5 seconds.
+|cffffcc00Cost:|r 40 mana.
 }
 
 STRING 1687
@@ -11641,19 +11740,10 @@ Idol of Desires
 }
 
 STRING 1765
-// Abilities: A0JO (|cffffcc00Extra:|r Двойные неприятности), Ubertip (Tooltip - Normal - Extended)
+// Items: I04L (Mshist's Damned Fiber), Description (Description)
 {
-All heroes start a battle with two bosses (the second boss is always random), but gain more gold.
-
-|cffffcc00Your heroes fight with two bosses at the same time.
-
-Battle Limit in boss battles has been increased by 2 minutes.
-
-When the boss dies, the others become enraged, increasing their attack by 40% and movement speed by 20%.
-
-All heroes receive 40% more gold from any sources (does not work in extra arenas).|r
-
-|cffffcc00Experience bonus: +15%.|r
+|cffe96a1cLegendary|r
+At the start of the battle, summons 4 immortal sheep. They return after death.
 }
 
 STRING 1766
@@ -11849,13 +11939,13 @@ Avengers Assemble
 }
 
 STRING 1795
-// Abilities: A0EH (|cffffcc00Amplifier:|r Common), Tip (Tooltip - Normal)
+// Abilities: A0EH (|cffffcc00Amplifier:|r Common), Name (Name)
 {
 |cffffcc00Amplifier:|r Common
 }
 
 STRING 1796
-// Abilities: A048 (|cffffcc00Amplifier:|r Horrific), Tip (Tooltip - Normal)
+// Abilities: A048 (|cffffcc00Amplifier:|r Horrific), Name (Name)
 {
 |cffffcc00Amplifier:|r Horrific
 }
@@ -11867,7 +11957,7 @@ Upgrading and refreshing the Artifact Shop costs 200 gold more.
 }
 
 STRING 1798
-// Abilities: A047 (|cffffcc00Amplifier:|r Legendary), Tip (Tooltip - Normal)
+// Abilities: A047 (|cffffcc00Amplifier:|r Legendary), Name (Name)
 {
 |cffffcc00Amplifier:|r Legendary
 }
@@ -12732,7 +12822,7 @@ Activation: Increases luck by 100.
 }
 
 STRING 1920
-// Abilities: A046 (|cffffcc00Amplifier:|r Epic), Tip (Tooltip - Normal)
+// Abilities: A046 (|cffffcc00Amplifier:|r Epic), Name (Name)
 {
 |cffffcc00Amplifier:|r Epic
 }
@@ -13047,7 +13137,7 @@ Superbot-5000
 }
 
 STRING 1967
-// Abilities: A045 (|cffffcc00Amplifier:|r Mythical), Tip (Tooltip - Normal)
+// Abilities: A045 (|cffffcc00Amplifier:|r Mythical), Name (Name)
 {
 |cffffcc00Amplifier:|r Mythical
 }
@@ -13694,7 +13784,7 @@ Stat: Vampirism +60%
 }
 
 STRING 2063
-// Abilities: A043 (|cffffcc00Amplifier:|r Rare), Tip (Tooltip - Normal)
+// Abilities: A043 (|cffffcc00Amplifier:|r Rare), Name (Name)
 {
 |cffffcc00Amplifier:|r Rare
 }
@@ -13905,13 +13995,13 @@ Buy Exile ItemXXXXX
 }
 
 STRING 2094
-// Items: I0HV (Buy Exile Item), Tip (Tooltip - Basic)
+// Units: n029 (Buy Exile ItemXXXXX), Tip (Tooltip - Basic)
 {
 Buy Exile Item
 }
 
 STRING 2095
-// Items: I0HV (Buy Exile Item), Ubertip (Tooltip - Extended)
+// Units: n029 (Buy Exile ItemXXXXX), Ubertip (Tooltip - Extended)
 {
 Obtain an Exile item. These items existed in the arena in the past, but were cast into oblivion.
 }
@@ -14143,6 +14233,13 @@ When the hero stun a target, it also stuns all enemies near the target.
 |cff81f260[Random bonus]|r
 }
 
+STRING 2128
+// Abilities: A093 (Monk: Leap), Ubertip (Tooltip - Normal - Extended)
+{
+The hero jumps to a point, dealing |cffbe81f7100|r damage to enemies. Restores |cffbe81f720|r health for each enemy hit.
+|cffffcc00Cooldown:|r 1.5 seconds.
+}
+
 STRING 2129
 // Items: IV04 (Ice Cream), Ubertip (Tooltip - Extended)
 {
@@ -14151,9 +14248,16 @@ Get 75 max Mana.
 }
 
 STRING 2130
-// Units: n029 (Buy Exile ItemXXXXX), Tip (Tooltip - Basic)
+// Items: I0HV (Buy Exile Item), Name (Name)
 {
 Buy Exile Item
+}
+
+STRING 2131
+// Abilities: A093 (Monk: Leap), Ubertip (Tooltip - Normal - Extended)
+{
+The hero jumps to a point, dealing |cffbe81f7140|r damage to enemies. Restores |cffbe81f728|r health for each enemy hit.
+|cffffcc00Cooldown:|r 1.5 seconds.
 }
 
 STRING 2132
@@ -14237,7 +14341,7 @@ Increases spell power by 50%. At the end of the battle transforms.
 }
 
 STRING 2144
-// Abilities: A1G9 (Hero Spirit: Mana Throw), Researchhotkey (Hotkey - Learn)
+// Items: I05B (Volcano Potion), Hotkey (Hotkey)
 {
 D
 }
@@ -14506,6 +14610,13 @@ STRING 2183
 {
 |cffbababcCommon|r, |cff9001fdRing|r
 Increases mana regeneration by 250%.
+}
+
+STRING 2184
+// Abilities: A093 (Monk: Leap), Ubertip (Tooltip - Normal - Extended)
+{
+The hero jumps to a point, dealing |cffbe81f7180|r damage to enemies. Restores |cffbe81f736|r health for each enemy hit.
+|cffffcc00Cooldown:|r 1.5 seconds.
 }
 
 STRING 2185
@@ -15918,7 +16029,7 @@ Activation: Restores |cffbe81f7300|r health to the hero and deals |cffbe81f7250|
 }
 
 STRING 2393
-// Items: I05B (Volcano Potion), Hotkey (Hotkey)
+// Items: I03U (Book of Magic), Hotkey (Hotkey)
 {
 D
 }
@@ -17397,7 +17508,7 @@ Increases spell power by 0.75%.
 }
 
 STRING 2610
-// Items: I03U (Book of Magic), Hotkey (Hotkey)
+// Items: I0HV (Buy Exile Item), Hotkey (Hotkey)
 {
 D
 }
@@ -17678,13 +17789,6 @@ STRING 2653
 Increases level by 1.
 }
 
-STRING 2654
-// Items: I03I (Mechatron Charizard), Description (Description)
-{
-|cffe96a1cLegendary|r
-Counts as 3 artifacts from the sets |cffb40431blood|r, |cff848484rune|r, |cffb18904mech|r, |cff5858famoon|r, |cff7cfc00nature|r, |cfffe9a2ealchemy|r, |cff9001fdring|r and |cff00cceecrystal|r. Cannot be split.
-}
-
 STRING 2655
 // Items: I03I (Mechatron Charizard), Name (Name)
 {
@@ -17695,13 +17799,6 @@ STRING 2656
 // Items: I03I (Mechatron Charizard), Tip (Tooltip - Basic)
 {
 Mechatron Charizard
-}
-
-STRING 2657
-// Items: I03I (Mechatron Charizard), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Counts as 3 artifacts from the sets |cffb40431blood|r, |cff848484rune|r, |cffb18904mech|r, |cff5858famoon|r, |cff7cfc00nature|r, |cfffe9a2ealchemy|r, |cff9001fdring|r and |cff00cceecrystal|r. Cannot be split.
 }
 
 STRING 2658
@@ -18175,13 +18272,6 @@ Deals |cffbe81f7105|r damage to enemies in front of the hero and increases their
 |cffffcc00Cooldown:|r 6 seconds.
 }
 
-STRING 2726
-// Items: I030 (Ultimate Weapon), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff2d9995Weapon|r
-Absorbs missing artifacts from the set "|cff2d9995Weapon|r".
-}
-
 STRING 2727
 // Items: I030 (Ultimate Weapon), Name (Name)
 {
@@ -18192,13 +18282,6 @@ STRING 2728
 // Items: I030 (Ultimate Weapon), Tip (Tooltip - Basic)
 {
 Ultimate Weapon
-}
-
-STRING 2729
-// Items: I030 (Ultimate Weapon), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff2d9995Weapon|r
-Absorbs missing artifacts from the set "|cff2d9995Weapon|r".
 }
 
 STRING 2730
@@ -19017,13 +19100,13 @@ When the hero attacks, reduces the target's armor by 7.
 }
 
 STRING 2850
-// Items: I0HV (Buy Exile Item), Name (Name)
+// Items: I0HV (Buy Exile Item), Tip (Tooltip - Basic)
 {
 Buy Exile Item
 }
 
 STRING 2851
-// Units: n029 (Buy Exile ItemXXXXX), Ubertip (Tooltip - Extended)
+// Items: I0HV (Buy Exile Item), Ubertip (Tooltip - Extended)
 {
 Obtain an Exile item. These items existed in the arena in the past, but were cast into oblivion.
 }
@@ -19226,6 +19309,13 @@ STRING 2880
 (Skin2)
 }
 
+STRING 2881
+// Abilities: A093 (Monk: Leap), Ubertip (Tooltip - Normal - Extended)
+{
+The hero jumps to a point, dealing |cffbe81f7220|r damage to enemies. Restores |cffbe81f744|r health for each enemy hit.
+|cffffcc00Cooldown:|r 1.5 seconds.
+}
+
 STRING 2882
 // Abilities: A1F6 (Stat: Phy Damage Dealt Minions +200%), Name (Name)
 {
@@ -19236,6 +19326,13 @@ STRING 2883
 // Abilities: A1F7 (Stat: Mag Damage Dealt +75%), Name (Name)
 {
 Stat: Mag Damage Dealt +75%
+}
+
+STRING 2884
+// Abilities: A093 (Monk: Leap), Ubertip (Tooltip - Normal - Extended)
+{
+The hero jumps to a point, dealing |cffbe81f7260|r damage to enemies. Restores |cffbe81f752|r health for each enemy hit.
+|cffffcc00Cooldown:|r 1.5 seconds.
 }
 
 STRING 2885
@@ -23696,7 +23793,7 @@ Steal up to |cffbe81f760/75/90/105/120|r total of Mana from nearby Heroes. After
 }
 
 STRING 3568
-// Items: I0HV (Buy Exile Item), Hotkey (Hotkey)
+// Abilities: A1BE (Unique: Brother Rant (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -23708,7 +23805,7 @@ Unique: Brother Rant (+)
 }
 
 STRING 3570
-// Abilities: A1BE (Unique: Brother Rant (+)), Hotkey (Hotkey - Normal)
+// Abilities: A1BE (Unique: Brother Rant (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -23739,7 +23836,7 @@ Activation: Deals |cffbe81f7300|r damage to an enemy.
 }
 
 STRING 3575
-// Abilities: A1BE (Unique: Brother Rant (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A1BD (Unique: Brother Rant), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -23751,7 +23848,7 @@ Unique: Brother Rant
 }
 
 STRING 3577
-// Abilities: A1BD (Unique: Brother Rant), Hotkey (Hotkey - Normal)
+// Abilities: A1BD (Unique: Brother Rant), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -23795,7 +23892,7 @@ Bonnie: Random Bantering
 }
 
 STRING 3584
-// Abilities: A1BD (Unique: Brother Rant), Researchhotkey (Hotkey - Learn)
+// Abilities: A1BC (Bonnie: Random Bantering), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -23838,7 +23935,7 @@ Bunnie: Ravage
 }
 
 STRING 3591
-// Abilities: A1BC (Bonnie: Random Bantering), Researchhotkey (Hotkey - Learn)
+// Abilities: A1BB (Bunnie: Ravage), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -23869,7 +23966,7 @@ Bonnie: Right Role
 }
 
 STRING 3596
-// Abilities: A1BB (Bunnie: Ravage), Researchhotkey (Hotkey - Learn)
+// Abilities: A1BA (Bonnie: Right Role ), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -23912,7 +24009,7 @@ Bunnie: Requiem
 }
 
 STRING 3603
-// Abilities: A1BA (Bonnie: Right Role ), Researchhotkey (Hotkey - Learn)
+// Abilities: A1B9 (Bunnie: Requiem), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -24605,7 +24702,7 @@ Grants an ally |cffd7df015-6|r random bard bonuses.
 }
 
 STRING 3713
-// Abilities: A1B9 (Bunnie: Requiem), Researchhotkey (Hotkey - Learn)
+// Abilities: A1AK (Unique: Play Note (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -24617,7 +24714,7 @@ Unique: Play Note (+)
 }
 
 STRING 3715
-// Abilities: A1AK (Unique: Play Note (+)), Hotkey (Hotkey - Normal)
+// Abilities: A1AK (Unique: Play Note (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -25980,6 +26077,12 @@ STRING 3917
 Mode - Machine Gun
 }
 
+STRING 3918
+// Abilities: A08W (Monk: Healthy Blow), Name (Name)
+{
+Monk: Healthy Blow
+}
+
 STRING 3919
 // Abilities: A19E (|cffffcc00Уровень 10:|r Angry Bob), Name (Name)
 {
@@ -27019,6 +27122,12 @@ STRING 4081
 // Abilities: A186 (Mov. speed (Daring Escape)), Name (Name)
 {
 Mov. speed (Daring Escape)
+}
+
+STRING 4082
+// Abilities: A08W (Monk: Healthy Blow), Researchtip (Tooltip - Learn)
+{
+Healthy Blow, [|cffffcc00Level %d|r]
 }
 
 STRING 4083
@@ -30267,7 +30376,7 @@ Artifact: Old healer
 }
 
 STRING 4585
-// Abilities: A1AK (Unique: Play Note (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A14S (Unique: Energy Orbs (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -30883,7 +30992,7 @@ STRING 4680
 }
 
 STRING 4681
-// Abilities: A14S (Unique: Energy Orbs (+)), Hotkey (Hotkey - Normal)
+// Abilities: A13J (Unique: Mixology (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -30895,7 +31004,7 @@ Unique: Mixology (+)
 }
 
 STRING 4683
-// Abilities: A13J (Unique: Mixology (+)), Hotkey (Hotkey - Normal)
+// Abilities: A13J (Unique: Mixology (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -30927,7 +31036,7 @@ Adds 2 random |cff088a08potions|r to empty inventory slots.
 }
 
 STRING 4688
-// Abilities: A13J (Unique: Mixology (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A13I (Unique: Mixology), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -30939,7 +31048,7 @@ Unique: Mixology
 }
 
 STRING 4690
-// Abilities: A13I (Unique: Mixology), Hotkey (Hotkey - Normal)
+// Abilities: A13I (Unique: Mixology), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -30977,7 +31086,7 @@ STRING 4695
 }
 
 STRING 4696
-// Abilities: A13I (Unique: Mixology), Researchhotkey (Hotkey - Learn)
+// Abilities: A13G (Unique: Energy Orbs), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -32999,7 +33108,7 @@ MP (Mage Armor)
 }
 
 STRING 5000
-// Abilities: A13G (Unique: Energy Orbs), Hotkey (Hotkey - Normal)
+// Abilities: A11L (Прочее: Превращение), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -33578,6 +33687,18 @@ STRING 5091
 |cffffcc00Reward:|r Badge of the Gray Warden.
 }
 
+STRING 5092
+// Abilities: A08W (Monk: Healthy Blow), Researchubertip (Tooltip - Learn - Extended)
+{
+Your Basic Attacks restore |cffbe81f720/30/40/50/60|r Health to the nearest friendly Hero with the lowest Health.
+}
+
+STRING 5093
+// Abilities: A08W (Monk: Healthy Blow), Tip (Tooltip - Normal)
+{
+Healthy Blow, [|cffffcc00Level 1|r] 
+}
+
 STRING 5094
 // Abilities: A10M (Gambler: Beginner’s Luck), Name (Name)
 {
@@ -33958,6 +34079,12 @@ STRING 5153
 // Items: IZ08 (Deep Purple), Tip (Tooltip - Basic)
 {
 Deep Purple
+}
+
+STRING 5154
+// Abilities: A08W (Monk: Healthy Blow), Tip (Tooltip - Normal)
+{
+Healthy Blow, [|cffffcc00Level 2|r] 
 }
 
 STRING 5155
@@ -37835,7 +37962,7 @@ Dealing with Gold
 }
 
 STRING 5746
-// Abilities: A0U3 (Monk: Beer day), Hotkey (Hotkey - Normal)
+// Abilities: A0U3 (Monk: Beer Day), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -38127,7 +38254,7 @@ Artifact: Midas Ring
 }
 
 STRING 5790
-// Abilities: A0U3 (Monk: Beer day), Researchhotkey (Hotkey - Learn)
+// Abilities: A0U3 (Monk: Beer Day), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -38622,9 +38749,10 @@ Q
 }
 
 STRING 5859
-// Abilities: A0U3 (Monk: Beer day), Name (Name)
+// Items: I04L (Mshist's Damned Fiber), Ubertip (Tooltip - Extended)
 {
-Monk: Beer day
+|cffe96a1cLegendary|r
+At the start of the battle, summons 4 immortal sheep. They return after death.
 }
 
 STRING 5860
@@ -38634,88 +38762,67 @@ Q
 }
 
 STRING 5861
-// Abilities: A0U3 (Monk: Beer day), Researchtip (Tooltip - Learn)
+// Abilities: A1IB ((т)Аура: Mshist's Damned Fiber), Name (Name)
 {
-Beer day, [|cffffcc00Level %d|r]
+(т)Аура: Mshist's Damned Fiber
 }
 
 STRING 5862
-// Abilities: A0U3 (Monk: Beer day), Researchubertip (Tooltip - Learn - Extended)
+// Buffs/Effects: B0B3 (), Bufftip (Tooltip)
 {
-Imposes a debuff on the enemy, because of which he begins to miss with a probability of |cffd7df0130%/40%/50%/60%/70%|r.
-|cffffcc00Duration:|r 14 seconds.
-|cffffcc00Cooldown:|r 16 seconds.
-|cffffcc00Cost:|r 60 mana.
+|cff00ff00Mshist's Damned Fiber|r
 }
 
 STRING 5863
-// Abilities: A0U3 (Monk: Beer day), Tip (Tooltip - Normal)
+// Buffs/Effects: B0B3 (), Buffubertip (Tooltip - Extended)
 {
-Beer day, [|cffffcc00Level 1|r]
+Returns after death.
 }
 
 STRING 5864
-// Abilities: A0U3 (Monk: Beer day), Tip (Tooltip - Normal)
+// Abilities: A0QA (Curse: Flame), Name (Name)
 {
-Beer day, [|cffffcc00Level 2|r]
+Curse: Flame
 }
 
 STRING 5865
-// Abilities: A0U3 (Monk: Beer day), Tip (Tooltip - Normal)
+// Abilities: A0QA (Curse: Flame), Ubertip (Tooltip - Normal - Extended)
 {
-Beer day, [|cffffcc00Level 3|r]
+Whenever a hero casts, burn 5 mana.
 }
 
 STRING 5866
-// Abilities: A0U3 (Monk: Beer day), Tip (Tooltip - Normal)
+// Items: I03I (Mechatron Charizard), Description (Description)
 {
-Beer day, [|cffffcc00Level 4|r]
+|cffe96a1cLegendary|r
+Counts as 3 artifacts from the sets |cffb40431blood|r, |cff848484rune|r, |cffb18904mech|r, |cff5858famoon|r, |cff7cfc00nature|r, |cfffe9a2ealchemy|r, |cff9001fdring|r and |cff00cceecrystal|r. Cannot be split. Cannot be copied.
 }
 
 STRING 5867
-// Abilities: A0U3 (Monk: Beer day), Tip (Tooltip - Normal)
+// Items: I03I (Mechatron Charizard), Ubertip (Tooltip - Extended)
 {
-Beer day, [|cffffcc00Level 5|r]
+|cffe96a1cLegendary|r
+Counts as 3 artifacts from the sets |cffb40431blood|r, |cff848484rune|r, |cffb18904mech|r, |cff5858famoon|r, |cff7cfc00nature|r, |cfffe9a2ealchemy|r, |cff9001fdring|r and |cff00cceecrystal|r. Cannot be split. Cannot be copied.
 }
 
 STRING 5868
-// Abilities: A0U3 (Monk: Beer day), Ubertip (Tooltip - Normal - Extended)
+// Items: I030 (Ultimate Weapon), Description (Description)
 {
-Imposes a debuff on the enemy, because of which he begins to miss with a probability of |cffd7df0130%|r.
-|cffffcc00Duration:|r 14 seconds.
-|cffffcc00Cooldown:|r 16 seconds.
+|cffe96a1cLegendary|r, |cff2d9995Weapon|r
+Absorbs missing |cff2d9995weapons|r. Cannot be copied.
 }
 
 STRING 5869
-// Abilities: A0U3 (Monk: Beer day), Ubertip (Tooltip - Normal - Extended)
+// Items: I030 (Ultimate Weapon), Ubertip (Tooltip - Extended)
 {
-Imposes a debuff on the enemy, because of which he begins to miss with a probability of |cffd7df0140%|r.
-|cffffcc00Duration:|r 14 seconds.
-|cffffcc00Cooldown:|r 16 seconds.
+|cffe96a1cLegendary|r, |cff2d9995Weapon|r
+Absorbs missing |cff2d9995weapons|r. Cannot be copied.
 }
 
 STRING 5870
-// Abilities: A0U3 (Monk: Beer day), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1IC (.General-Item: Not Copyable), Name (Name)
 {
-Imposes a debuff on the enemy, because of which he begins to miss with a probability of |cffd7df0150%|r.
-|cffffcc00Duration:|r 14 seconds.
-|cffffcc00Cooldown:|r 16 seconds.
-}
-
-STRING 5871
-// Abilities: A0U3 (Monk: Beer day), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a debuff on the enemy, because of which he begins to miss with a probability of |cffd7df0160%|r.
-|cffffcc00Duration:|r 14 seconds.
-|cffffcc00Cooldown:|r 16 seconds.
-}
-
-STRING 5872
-// Abilities: A0U3 (Monk: Beer day), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a debuff on the enemy, because of which he begins to miss with a probability of |cffd7df0170%|r.
-|cffffcc00Duration:|r 14 seconds.
-|cffffcc00Cooldown:|r 16 seconds.
+.General-Item: Not Copyable
 }
 
 STRING 5873
@@ -39461,6 +39568,12 @@ STRING 5989
 Blood bath, [|cffffcc00Level %d|r]
 }
 
+STRING 5990
+// Abilities: A08W (Monk: Healthy Blow), Tip (Tooltip - Normal)
+{
+Healthy Blow, [|cffffcc00Level 3|r] 
+}
+
 STRING 5991
 // Abilities: A0TC (Barbarian: Blood bath), Tip (Tooltip - Normal)
 {
@@ -39501,6 +39614,12 @@ STRING 5997
 // Items: I0H9 (Krabster), Tip (Tooltip - Basic)
 {
 Krabster
+}
+
+STRING 5998
+// Abilities: A08W (Monk: Healthy Blow), Tip (Tooltip - Normal)
+{
+Healthy Blow, [|cffffcc00Level 4|r] 
 }
 
 STRING 5999
@@ -40949,6 +41068,12 @@ Deals |cffbe81f7240|r damage to enemies in the area. Increases damage dealt by 9
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
+STRING 6222
+// Abilities: A08W (Monk: Healthy Blow), Tip (Tooltip - Normal)
+{
+Healthy Blow, [|cffffcc00Level 5|r] 
+}
+
 STRING 6223
 // Abilities: A0RK (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -41011,7 +41136,7 @@ Superbotication
 }
 
 STRING 6233
-// Abilities: A11L (Прочее: Превращение), Hotkey (Hotkey - Normal)
+// Abilities: A0RF (Superbot: Superbotication), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -41026,6 +41151,18 @@ STRING 6235
 // Abilities: A0RF (Superbot: Superbotication), Researchubertip (Tooltip - Learn - Extended)
 {
 Призывает на помощь питомца, который обладает 360/480/600/720/840 ед. здоровья, 16/24/32/40/48 ед. атаки и 20% увернутся от атаки противника. Перезарядка - 75 секунд. Стоимость - 75 маны.
+}
+
+STRING 6236
+// Abilities: A08W (Monk: Healthy Blow), Ubertip (Tooltip - Normal - Extended)
+{
+Your Basic Attacks restore |cffbe81f720|r Health to the nearest friendly Hero with the lowest Health.
+}
+
+STRING 6237
+// Abilities: A08W (Monk: Healthy Blow), Ubertip (Tooltip - Normal - Extended)
+{
+Your Basic Attacks restore |cffbe81f730|r Health to the nearest friendly Hero with the lowest Health.
 }
 
 STRING 6238
@@ -42153,14 +42290,8 @@ STRING 6415
 MP/sec (Знак Лордера)
 }
 
-STRING 6416
-// Abilities: A0QA (Curse: Пламя (b4)), Name (Name)
-{
-Curse: Пламя (b4)
-}
-
 STRING 6417
-// Abilities: A0QA (Curse: Пламя (b4)), Tip (Tooltip - Normal)
+// Abilities: A0QA (Curse: Flame), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Flame
 }
@@ -43126,6 +43257,12 @@ Curses the enemy, reducing their armor by 3. Every second, the target loses |cff
 |cffffcc00Cooldown:|r 23 seconds.
 }
 
+STRING 6567
+// Abilities: A08W (Monk: Healthy Blow), Ubertip (Tooltip - Normal - Extended)
+{
+Your Basic Attacks restore |cffbe81f740|r Health to the nearest friendly Hero with the lowest Health.
+}
+
 STRING 6568
 // Abilities: A0OX (Random bonus (3)), Name (Name)
 {
@@ -43993,7 +44130,7 @@ Armor (Random bonus)
 }
 
 STRING 6704
-// Abilities: A0NR (Monk: Frantic fists), Hotkey (Hotkey - Normal)
+// Abilities: A0NR (Monk: Frantic Fists), Hotkey (Hotkey - Normal)
 {
 R
 }
@@ -44005,7 +44142,7 @@ Mentor: Gifting
 }
 
 STRING 6706
-// Abilities: A0NR (Monk: Frantic fists), Researchhotkey (Hotkey - Learn)
+// Abilities: A0NR (Monk: Frantic Fists), Researchhotkey (Hotkey - Learn)
 {
 R
 }
@@ -44179,101 +44316,10 @@ STRING 6733
 R
 }
 
-STRING 6734
-// Abilities: A0NR (Monk: Frantic fists), Name (Name)
-{
-Monk: Frantic fists
-}
-
 STRING 6735
 // Abilities: A0NM (Pyrolord: Fire arrows), Researchhotkey (Hotkey - Learn)
 {
 R
-}
-
-STRING 6736
-// Abilities: A0NR (Monk: Frantic fists), Researchtip (Tooltip - Learn)
-{
-Frantic fists, [|cffffcc00Level %d|r]
-}
-
-STRING 6737
-// Abilities: A0NR (Monk: Frantic fists), Researchubertip (Tooltip - Learn - Extended)
-{
-Increases attack speed of the next 6/8/10/12/14 attacks of the hero by 80%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
-STRING 6738
-// Abilities: A0NR (Monk: Frantic fists), Tip (Tooltip - Normal)
-{
-Frantic fists, [|cffffcc00Level 1|r]
-}
-
-STRING 6739
-// Abilities: A0NR (Monk: Frantic fists), Tip (Tooltip - Normal)
-{
-Frantic fists, [|cffffcc00Level 2|r]
-}
-
-STRING 6740
-// Abilities: A0NR (Monk: Frantic fists), Tip (Tooltip - Normal)
-{
-Frantic fists, [|cffffcc00Level 3|r]
-}
-
-STRING 6741
-// Abilities: A0NR (Monk: Frantic fists), Tip (Tooltip - Normal)
-{
-Frantic fists, [|cffffcc00Level 4|r]
-}
-
-STRING 6742
-// Abilities: A0NR (Monk: Frantic fists), Tip (Tooltip - Normal)
-{
-Frantic fists, [|cffffcc00Level 5|r]
-}
-
-STRING 6743
-// Abilities: A0NR (Monk: Frantic fists), Ubertip (Tooltip - Normal - Extended)
-{
-Increases attack speed of the next 6 attacks of the hero by 80%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 6744
-// Abilities: A0NR (Monk: Frantic fists), Ubertip (Tooltip - Normal - Extended)
-{
-Increases attack speed of the next 8 attacks of the hero by 80%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 6745
-// Abilities: A0NR (Monk: Frantic fists), Ubertip (Tooltip - Normal - Extended)
-{
-Increases attack speed of the next 10 attacks of the hero by 80%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 6746
-// Abilities: A0NR (Monk: Frantic fists), Ubertip (Tooltip - Normal - Extended)
-{
-Increases attack speed of the next 12 attacks of the hero by 80%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 6747
-// Abilities: A0NR (Monk: Frantic fists), Ubertip (Tooltip - Normal - Extended)
-{
-Increases attack speed of the next 14 attacks of the hero by 80%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 6748
@@ -45102,7 +45148,7 @@ Artillery
 }
 
 STRING 6876
-// Abilities: A0RF (Superbot: Superbotication), Researchhotkey (Hotkey - Learn)
+// Abilities: A0MW (Unique: Feeding), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -45114,7 +45160,7 @@ Unique: Feeding
 }
 
 STRING 6878
-// Abilities: A0MW (Unique: Feeding), Hotkey (Hotkey - Normal)
+// Abilities: A0MW (Unique: Feeding), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -45452,7 +45498,7 @@ STRING 6929
 }
 
 STRING 6930
-// Abilities: A0MW (Unique: Feeding), Researchhotkey (Hotkey - Learn)
+// Abilities: A0MH (Unique: Sheep call (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -45464,7 +45510,7 @@ Unique: Sheep call (+)
 }
 
 STRING 6932
-// Abilities: A0MH (Unique: Sheep call (+)), Hotkey (Hotkey - Normal)
+// Abilities: A0MH (Unique: Sheep call (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -45499,7 +45545,7 @@ Summons a sheep.
 }
 
 STRING 6937
-// Abilities: A0MH (Unique: Sheep call (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A0MG (Unique: Sheep call), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -45511,7 +45557,7 @@ Unique: Sheep call
 }
 
 STRING 6939
-// Abilities: A0MG (Unique: Sheep call), Hotkey (Hotkey - Normal)
+// Abilities: A0MG (Unique: Sheep call), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -45696,6 +45742,12 @@ STRING 6966
 R
 }
 
+STRING 6967
+// Abilities: A08W (Monk: Healthy Blow), Ubertip (Tooltip - Normal - Extended)
+{
+Your Basic Attacks restore |cffbe81f750|r Health to the nearest friendly Hero with the lowest Health.
+}
+
 STRING 6968
 // Items: I0E2 (Library Pass), Name (Name)
 {
@@ -45706,6 +45758,12 @@ STRING 6969
 // Items: I0E2 (Library Pass), Tip (Tooltip - Basic)
 {
 Library Pass
+}
+
+STRING 6970
+// Abilities: A08W (Monk: Healthy Blow), Ubertip (Tooltip - Normal - Extended)
+{
+Your Basic Attacks restore |cffbe81f760|r Health to the nearest friendly Hero with the lowest Health.
 }
 
 STRING 6971
@@ -46876,6 +46934,39 @@ STRING 7152
 // Abilities: A0LD (Wanderer: Indelebilis Sensus), Tip (Tooltip - Normal)
 {
 Indelebilis Sensus, [|cffffcc00Level 5|r]
+}
+
+STRING 7153
+// Abilities: A0U3 (Monk: Beer Day), Name (Name)
+{
+Monk: Beer Day
+}
+
+STRING 7154
+// Abilities: A0U3 (Monk: Beer Day), Researchtip (Tooltip - Learn)
+{
+Beer Day, [|cffffcc00Level %d|r]
+}
+
+STRING 7155
+// Abilities: A0U3 (Monk: Beer Day), Researchubertip (Tooltip - Learn - Extended)
+{
+Choose an enemy. Your basic attacks deal an additional 80/90/100/110/120 damage to them. This bonus decreases by 10 with each attack.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
+STRING 7156
+// Abilities: A0U3 (Monk: Beer Day), Tip (Tooltip - Normal)
+{
+Beer Day, [|cffffcc00Level 1|r]
+}
+
+STRING 7157
+// Abilities: A0U3 (Monk: Beer Day), Tip (Tooltip - Normal)
+{
+Beer Day, [|cffffcc00Level 2|r]
 }
 
 STRING 7158
@@ -48167,12 +48258,6 @@ STRING 7352
 |cffffcc00Curse:|r Anger
 }
 
-STRING 7353
-// Abilities: A0JR (Curse: Anger (b26)), Ubertip (Tooltip - Normal - Extended)
-{
-Increases attack power of bosses by 25%.
-}
-
 STRING 7354
 // Abilities: A0JG (Wanderer: Impius Imperium), Hotkey (Hotkey - Normal)
 {
@@ -48202,12 +48287,6 @@ STRING 7358
 // Abilities: A0JP (Аура: Скарабей), Name (Name)
 {
 Аура: Скарабей
-}
-
-STRING 7359
-// Abilities: A0JO (|cffffcc00Extra:|r Двойные неприятности), Name (Name)
-{
-|cffffcc00Extra:|r Двойные неприятности
 }
 
 STRING 7360
@@ -49142,7 +49221,7 @@ Stats (Очищенная материя)
 }
 
 STRING 7500
-// Abilities: A0MG (Unique: Sheep call), Researchhotkey (Hotkey - Learn)
+// Abilities: A0IV (Unique: Chaos (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -49154,7 +49233,7 @@ Unique: Chaos (+)
 }
 
 STRING 7502
-// Abilities: A0IV (Unique: Chaos (+)), Hotkey (Hotkey - Normal)
+// Abilities: A0IV (Unique: Chaos (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -49199,7 +49278,7 @@ STRING 7508
 }
 
 STRING 7509
-// Abilities: A0IV (Unique: Chaos (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A0IS (Unique: Chaos), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -49211,7 +49290,7 @@ Unique: Chaos
 }
 
 STRING 7511
-// Abilities: A0IS (Unique: Chaos), Hotkey (Hotkey - Normal)
+// Abilities: A0IS (Unique: Chaos), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -49234,14 +49313,6 @@ STRING 7514
 Chaos
 }
 
-STRING 7515
-// Abilities: A0AQ (|cffffcc00Уровень 2:|r Белый медведь), Ubertip (Tooltip - Normal - Extended)
-{
-- When attacking, with a probability of 25%, stuns the target for 1 second.
-- Every 14 seconds, jumps to a random enemy and stunning all nearby enemies for 2 seconds.
-- |cff00cceeAt 40% health:|r Starts jumping 2 times more often.
-}
-
 STRING 7516
 // Abilities: A0IR (Аура: Неистовые кулаки), Name (Name)
 {
@@ -49249,7 +49320,7 @@ STRING 7516
 }
 
 STRING 7517
-// Abilities: A0IS (Unique: Chaos), Researchhotkey (Hotkey - Learn)
+// Abilities: A0IQ (Unique: Summon Skeletons (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -49275,7 +49346,7 @@ Summons 5 boars. With a probability of |cffd7df0115%|r, calls for 2 times more b
 }
 
 STRING 7521
-// Abilities: A0IQ (Unique: Summon Skeletons (+)), Hotkey (Hotkey - Normal)
+// Abilities: A0IP (Unique: Summon Skeletons), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -50603,6 +50674,18 @@ STRING 7723
 Босс 8: Древний энт (Урон)
 }
 
+STRING 7724
+// Abilities: A0U3 (Monk: Beer Day), Tip (Tooltip - Normal)
+{
+Beer Day, [|cffffcc00Level 3|r]
+}
+
+STRING 7725
+// Abilities: A0U3 (Monk: Beer Day), Tip (Tooltip - Normal)
+{
+Beer Day, [|cffffcc00Level 4|r]
+}
+
 STRING 7726
 // Abilities: A0ET (Ogre: Crush), Researchhotkey (Hotkey - Learn)
 {
@@ -51011,7 +51094,7 @@ Works 1 time per battle.
 }
 
 STRING 7790
-// Abilities: A0IP (Unique: Summon Skeletons), Hotkey (Hotkey - Normal)
+// Abilities: A0GF (Unique: Curse), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -51041,7 +51124,7 @@ STRING 7794
 }
 
 STRING 7795
-// Abilities: A0GF (Unique: Curse), Hotkey (Hotkey - Normal)
+// Abilities: A0GD (Unique: Inspire), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -51077,13 +51160,13 @@ Inspire
 }
 
 STRING 7801
-// Abilities: A0GD (Unique: Inspire), Hotkey (Hotkey - Normal)
+// Abilities: A0GC (Unique: Mana Throw), Hotkey (Hotkey - Normal)
 {
 D
 }
 
 STRING 7802
-// Abilities: A0GC (Unique: Mana Throw), Hotkey (Hotkey - Normal)
+// Abilities: A0GC (Unique: Mana Throw), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -51095,7 +51178,7 @@ Unique: Mana Throw
 }
 
 STRING 7804
-// Abilities: A0GC (Unique: Mana Throw), Researchhotkey (Hotkey - Learn)
+// Abilities: A0CR (Unique: Play Note), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -51920,15 +52003,6 @@ STRING 7935
 Despicable, [|cffffcc00Level %d|r]
 }
 
-STRING 7936
-// Abilities: A06B (|cffffcc00Уровень 2:|r Благородный рыцарь), Ubertip (Tooltip - Normal - Extended)
-{
-- Reduces the armor of enemies and increases its own by 1.
-- |cff00cceeAt 75% health:|r Enhances the effects of armor by 1. Every 10 seconds, makes a charge at a random enemy nearby, stunning for 1.5 seconds.
-- |cff00cceeAt 50% health:|r Enhances the effects of armor by 1. Summons a knight at the edge of the arena.
-- |cff00cceeAt 25% health:|r Enhances the effects of armor by 1.
-}
-
 STRING 7937
 // Abilities: A0FB (Lord of Chaos: Despicable), Tip (Tooltip - Normal)
 {
@@ -51963,17 +52037,6 @@ STRING 7942
 // Abilities: A1G7 (Босс 2: Totem (Annoy)), Name (Name)
 {
 Босс 2: Totem (Annoy)
-}
-
-STRING 7943
-// Abilities: A06C (|cffffcc00Уровень 2:|r Злобный тотем), Ubertip (Tooltip - Normal - Extended)
-{
-- No attack.
-- When the boss is attacked, the attacker takes |cffbe81f710|r damage.
-- Every 5 seconds it creates a fiery explosion that deals |cffbe81f745|r damage every half second within 5 seconds.
-- If it doesn't take damage, the boss focuses.
-- |cff00cceeAt 25% and 75% health:|r Summons a shadow for each player away from the boss. When the shadow approaches the boss, she dies and creates a fiery explosion next to each hero.
-- |cff00cceeAt 50% health:|r A fiery explosion is created more often.
 }
 
 STRING 7944
@@ -53000,8 +53063,14 @@ STRING 8102
 Аура: Кристаллизованная мана
 }
 
+STRING 8103
+// Abilities: A0U3 (Monk: Beer Day), Tip (Tooltip - Normal)
+{
+Beer Day, [|cffffcc00Level 5|r]
+}
+
 STRING 8104
-// Abilities: A0EH (|cffffcc00Amplifier:|r Common), Name (Name)
+// Abilities: A0EH (|cffffcc00Amplifier:|r Common), Tip (Tooltip - Normal)
 {
 |cffffcc00Amplifier:|r Common
 }
@@ -54542,7 +54611,7 @@ STRING 8345
 }
 
 STRING 8346
-// Abilities: A0CR (Unique: Play Note), Hotkey (Hotkey - Normal)
+// Abilities: A0CR (Unique: Play Note), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -54554,7 +54623,7 @@ Unique: Play Note
 }
 
 STRING 8348
-// Abilities: A0CR (Unique: Play Note), Researchhotkey (Hotkey - Learn)
+// Abilities: A0AG (Unique: Small heal), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -55788,6 +55857,22 @@ STRING 8537
 Blessing: Злоба (g5)
 }
 
+STRING 8538
+// Abilities: A0U3 (Monk: Beer Day), Ubertip (Tooltip - Normal - Extended)
+{
+Choose an enemy. Your basic attacks deal an additional 80 damage to them. This bonus decreases by 10 with each attack.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 8539
+// Abilities: A0U3 (Monk: Beer Day), Ubertip (Tooltip - Normal - Extended)
+{
+Choose an enemy. Your basic attacks deal an additional 90 damage to them. This bonus decreases by 10 with each attack.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
 STRING 8540
 // Abilities: A0B7 (Admiral: Fencing Master), Researchhotkey (Hotkey - Learn)
 {
@@ -56323,15 +56408,6 @@ STRING 8616
 |cffffcc00Уровень 4:|r Манадракон
 }
 
-STRING 8617
-// Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Ubertip (Tooltip - Normal - Extended)
-{
-- Increases attack power of all creatures by 50%.
-- |cff00cceeAt 90% health:|r Silences the heroes for 10 seconds.
-- |cff00cceeAt 75% health:|r Every second, it takes all creatures next to the boss |cffbe81f71%|r of the maximum health. Minions lose |cffbe81f715%|r health instead.
-- |cff00cceeAt 25% health:|r The boss stops and begins charging magic for 3 seconds. Upon completion, it fully restores Health (Once per battle).
-}
-
 STRING 8618
 // Abilities: A0CN (Skeletlord: Parish), Ubertip (Tooltip - Normal - Extended)
 {
@@ -56361,12 +56437,6 @@ STRING 8622
 // Abilities: A0AQ (|cffffcc00Уровень 2:|r Белый медведь), Name (Name)
 {
 |cffffcc00Уровень 2:|r Белый медведь
-}
-
-STRING 8623
-// Abilities: A0AQ (|cffffcc00Уровень 2:|r Белый медведь), Tip (Tooltip - Normal)
-{
-Polar bear
 }
 
 STRING 8624
@@ -56540,7 +56610,7 @@ When the hero uses an ability or item, with a 4% chance, resets the cooldown of 
 }
 
 STRING 8651
-// Abilities: A0AG (Unique: Small heal), Hotkey (Hotkey - Normal)
+// Abilities: A088 (Unique: Provocation), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -56582,7 +56652,7 @@ STRING 8657
 }
 
 STRING 8658
-// Abilities: A088 (Unique: Provocation), Hotkey (Hotkey - Normal)
+// Abilities: A084 (Unique: Feeding (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -57531,7 +57601,7 @@ Armsmaster: Weapons Training
 }
 
 STRING 8803
-// Abilities: A08W (Monk: Healthy blow), Researchhotkey (Hotkey - Learn)
+// Abilities: A08W (Monk: Healthy Blow), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -58095,14 +58165,6 @@ STRING 8894
 Leap, [|cffffcc00Level %d|r]
 }
 
-STRING 8895
-// Abilities: A093 (Monk: Leap), Researchubertip (Tooltip - Learn - Extended)
-{
-The hero makes a jump up. When it lands, it deals |cffbe81f7100/140/180/220/260|r damage to nearby enemies. Heals the hero |cffbe81f720/28/36/44/52|r health for each enemy.
-|cffffcc00Cooldown:|r 1.5 seconds.
-|cffffcc00Cost:|r 40 mana.
-}
-
 STRING 8896
 // Abilities: A093 (Monk: Leap), Tip (Tooltip - Normal)
 {
@@ -58131,41 +58193,6 @@ STRING 8900
 // Abilities: A093 (Monk: Leap), Tip (Tooltip - Normal)
 {
 Leap, [|cffffcc00Level 5|r]
-}
-
-STRING 8901
-// Abilities: A093 (Monk: Leap), Ubertip (Tooltip - Normal - Extended)
-{
-The hero makes a jump up. When it lands, it deals |cffbe81f7100|r damage to nearby enemies. Heals the hero |cffbe81f720|r health for each enemy.
-|cffffcc00Cooldown:|r 1.5 seconds.
-}
-
-STRING 8902
-// Abilities: A093 (Monk: Leap), Ubertip (Tooltip - Normal - Extended)
-{
-The hero makes a jump up. When it lands, it deals |cffbe81f7140|r damage to nearby enemies. Heals the hero |cffbe81f728|r health for each enemy.
-|cffffcc00Cooldown:|r 1.5 seconds.
-}
-
-STRING 8903
-// Abilities: A093 (Monk: Leap), Ubertip (Tooltip - Normal - Extended)
-{
-The hero makes a jump up. When it lands, it deals |cffbe81f7180|r damage to nearby enemies. Heals the hero |cffbe81f736|r health for each enemy.
-|cffffcc00Cooldown:|r 1.5 seconds.
-}
-
-STRING 8904
-// Abilities: A093 (Monk: Leap), Ubertip (Tooltip - Normal - Extended)
-{
-The hero makes a jump up. When it lands, it deals |cffbe81f7220|r damage to nearby enemies. Heals the hero |cffbe81f744|r health for each enemy.
-|cffffcc00Cooldown:|r 1.5 seconds.
-}
-
-STRING 8905
-// Abilities: A093 (Monk: Leap), Ubertip (Tooltip - Normal - Extended)
-{
-The hero makes a jump up. When it lands, it deals |cffbe81f7260|r damage to nearby enemies. Heals the hero |cffbe81f752|r health for each enemy.
-|cffffcc00Cooldown:|r 1.5 seconds.
 }
 
 STRING 8906
@@ -58204,88 +58231,10 @@ STRING 8911
 Босс 7: Огромная гидра (Сер)
 }
 
-STRING 8912
-// Abilities: A08W (Monk: Healthy blow), Name (Name)
-{
-Monk: Healthy blow
-}
-
 STRING 8913
 // Abilities: A08E (Legionary: Flaming crystal), Researchhotkey (Hotkey - Learn)
 {
 E
-}
-
-STRING 8914
-// Abilities: A08W (Monk: Healthy blow), Researchtip (Tooltip - Learn)
-{
-Healthy blow, [|cffffcc00Level %d|r]
-}
-
-STRING 8915
-// Abilities: A08W (Monk: Healthy blow), Researchubertip (Tooltip - Learn - Extended)
-{
-When the hero attacks, heals the ally with the least health |cffbe81f712/21/32/45/60|r health.
-}
-
-STRING 8916
-// Abilities: A08W (Monk: Healthy blow), Tip (Tooltip - Normal)
-{
-Healthy blow, [|cffffcc00Level 1|r] 
-}
-
-STRING 8917
-// Abilities: A08W (Monk: Healthy blow), Tip (Tooltip - Normal)
-{
-Healthy blow, [|cffffcc00Level 2|r] 
-}
-
-STRING 8918
-// Abilities: A08W (Monk: Healthy blow), Tip (Tooltip - Normal)
-{
-Healthy blow, [|cffffcc00Level 3|r] 
-}
-
-STRING 8919
-// Abilities: A08W (Monk: Healthy blow), Tip (Tooltip - Normal)
-{
-Healthy blow, [|cffffcc00Level 4|r] 
-}
-
-STRING 8920
-// Abilities: A08W (Monk: Healthy blow), Tip (Tooltip - Normal)
-{
-Healthy blow, [|cffffcc00Level 5|r] 
-}
-
-STRING 8921
-// Abilities: A08W (Monk: Healthy blow), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, heals the ally with the least health |cffbe81f712|r health.
-}
-
-STRING 8922
-// Abilities: A08W (Monk: Healthy blow), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, heals the ally with the least health |cffbe81f721|r health.
-}
-
-STRING 8923
-// Abilities: A08W (Monk: Healthy blow), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, heals the ally with the least health |cffbe81f732|r health.
-}
-
-STRING 8924
-// Abilities: A08W (Monk: Healthy blow), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, heals the ally with the least health |cffbe81f745|r health.
-}
-
-STRING 8925
-// Abilities: A08W (Monk: Healthy blow), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, heals the ally with the least health |cffbe81f760|r health.
 }
 
 STRING 8926
@@ -59104,7 +59053,7 @@ STRING 9052
 }
 
 STRING 9053
-// Abilities: A084 (Unique: Feeding (+)), Hotkey (Hotkey - Normal)
+// Abilities: A084 (Unique: Feeding (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -59232,7 +59181,7 @@ After 2 seconds, an explosion occurs, which deals |cffbe81f7500|r damage to all 
 }
 
 STRING 9073
-// Abilities: A084 (Unique: Feeding (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A05Z (Unique: Inspire (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -59244,7 +59193,7 @@ Unique: Feeding (+)
 }
 
 STRING 9075
-// Abilities: A05Z (Unique: Inspire (+)), Hotkey (Hotkey - Normal)
+// Abilities: A036 (Unique: Provocation (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -59268,7 +59217,7 @@ Feeding
 }
 
 STRING 9079
-// Abilities: A036 (Unique: Provocation (+)), Hotkey (Hotkey - Normal)
+// Abilities: A035 (Unique: Curse (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -60664,6 +60613,14 @@ Inflicts |cffbe81f7290|r damage to an enemy. The hero receives 30 gold. Only wor
 |cffffcc00Cooldown:|r 7 seconds.
 }
 
+STRING 9293
+// Abilities: A0U3 (Monk: Beer Day), Ubertip (Tooltip - Normal - Extended)
+{
+Choose an enemy. Your basic attacks deal an additional 100 damage to them. This bonus decreases by 10 with each attack.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
 STRING 9294
 // Abilities: A078 (Аура: Филосовский камень (Герой)), Name (Name)
 {
@@ -61074,12 +61031,6 @@ STRING 9358
 |cffffcc00Уровень 2:|r Злобный тотем
 }
 
-STRING 9359
-// Abilities: A06C (|cffffcc00Уровень 2:|r Злобный тотем), Tip (Tooltip - Normal)
-{
-Evil totem
-}
-
 STRING 9360
 // Items: I0HB (Small Coin), Description (Description)
 {
@@ -61091,12 +61042,6 @@ STRING 9361
 // Abilities: A06B (|cffffcc00Уровень 2:|r Благородный рыцарь), Name (Name)
 {
 |cffffcc00Уровень 2:|r Благородный рыцарь
-}
-
-STRING 9362
-// Abilities: A06B (|cffffcc00Уровень 2:|r Благородный рыцарь), Tip (Tooltip - Normal)
-{
-Noble knight
 }
 
 STRING 9363
@@ -61304,7 +61249,7 @@ Artifact: Tarot Card: Doppelganger
 }
 
 STRING 9395
-// Abilities: A035 (Unique: Curse (+)), Hotkey (Hotkey - Normal)
+// Abilities: A02W (Unique: Small heal (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -62157,7 +62102,7 @@ Wagon: Plague Run
 }
 
 STRING 9526
-// Abilities: A049 (Doctor: Transformation of prana), Hotkey (Hotkey - Normal)
+// Abilities: A049 (Doctor: Transformation of Prana), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -62254,7 +62199,7 @@ Increases hero movement speed by 50%. Every 3 seconds, creates a poisonous cloud
 }
 
 STRING 9539
-// Abilities: A049 (Doctor: Transformation of prana), Researchhotkey (Hotkey - Learn)
+// Abilities: A049 (Doctor: Transformation of Prana), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -63242,6 +63187,14 @@ STRING 9693
 Unreachable, [|cffffcc00Level %d|r]
 }
 
+STRING 9694
+// Abilities: A0U3 (Monk: Beer Day), Ubertip (Tooltip - Normal - Extended)
+{
+Choose an enemy. Your basic attacks deal an additional 110 damage to them. This bonus decreases by 10 with each attack.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
 STRING 9695
 // Abilities: A04L (Doctor: Unreachable), Tip (Tooltip - Normal)
 {
@@ -63581,26 +63534,14 @@ STRING 9746
 W
 }
 
-STRING 9747
-// Abilities: A049 (Doctor: Transformation of prana), Name (Name)
-{
-Doctor: Transformation of prana
-}
-
 STRING 9748
 // Abilities: A02U (Sun King: Heating UpXXX), Hotkey (Hotkey - Normal)
 {
 W
 }
 
-STRING 9749
-// Abilities: A049 (Doctor: Transformation of prana), Researchtip (Tooltip - Learn)
-{
-Transformation of prana, [|cffffcc00Level %d|r]
-}
-
 STRING 9750
-// Abilities: A049 (Doctor: Transformation of prana), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A049 (Doctor: Transformation of Prana), Researchubertip (Tooltip - Learn - Extended)
 {
 Restore the ally |cffbe81f7250/325/400/475/550|r health over time, but takes 5/7/9/11/13 mana every second.
 |cffffcc00Duration:|r 5 seconds.
@@ -63608,38 +63549,8 @@ Restore the ally |cffbe81f7250/325/400/475/550|r health over time, but takes 5/7
 |cffffcc00Cost:|r 20/30/40/50/60 mana.
 }
 
-STRING 9751
-// Abilities: A049 (Doctor: Transformation of prana), Tip (Tooltip - Normal)
-{
-Transformation of prana, [|cffffcc00Level 1|r]
-}
-
-STRING 9752
-// Abilities: A049 (Doctor: Transformation of prana), Tip (Tooltip - Normal)
-{
-Transformation of prana, [|cffffcc00Level 2|r]
-}
-
-STRING 9753
-// Abilities: A049 (Doctor: Transformation of prana), Tip (Tooltip - Normal)
-{
-Transformation of prana, [|cffffcc00Level 3|r]
-}
-
-STRING 9754
-// Abilities: A049 (Doctor: Transformation of prana), Tip (Tooltip - Normal)
-{
-Transformation of prana, [|cffffcc00Level 4|r]
-}
-
-STRING 9755
-// Abilities: A049 (Doctor: Transformation of prana), Tip (Tooltip - Normal)
-{
-Transformation of prana, [|cffffcc00Level 5|r]
-}
-
 STRING 9756
-// Abilities: A049 (Doctor: Transformation of prana), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A049 (Doctor: Transformation of Prana), Ubertip (Tooltip - Normal - Extended)
 {
 Restore the ally |cffbe81f7250|r health over time, but takes 5 mana every second.
 |cffffcc00Duration:|r 5 seconds.
@@ -63647,7 +63558,7 @@ Restore the ally |cffbe81f7250|r health over time, but takes 5 mana every second
 }
 
 STRING 9757
-// Abilities: A049 (Doctor: Transformation of prana), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A049 (Doctor: Transformation of Prana), Ubertip (Tooltip - Normal - Extended)
 {
 Restore the ally |cffbe82f7325|r health over time, but takes 7 mana every second.
 |cffffcc00Duration:|r 5 seconds.
@@ -63655,7 +63566,7 @@ Restore the ally |cffbe82f7325|r health over time, but takes 7 mana every second
 }
 
 STRING 9758
-// Abilities: A049 (Doctor: Transformation of prana), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A049 (Doctor: Transformation of Prana), Ubertip (Tooltip - Normal - Extended)
 {
 Restore the ally |cffbe83f7400|r health over time, but takes 9 mana every second.
 |cffffcc00Duration:|r 5 seconds.
@@ -63663,7 +63574,7 @@ Restore the ally |cffbe83f7400|r health over time, but takes 9 mana every second
 }
 
 STRING 9759
-// Abilities: A049 (Doctor: Transformation of prana), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A049 (Doctor: Transformation of Prana), Ubertip (Tooltip - Normal - Extended)
 {
 Restore the ally |cffbe84f7475|r health over time, but takes 11 mana every second.
 |cffffcc00Duration:|r 5 seconds.
@@ -63671,15 +63582,23 @@ Restore the ally |cffbe84f7475|r health over time, but takes 11 mana every secon
 }
 
 STRING 9760
-// Abilities: A049 (Doctor: Transformation of prana), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A049 (Doctor: Transformation of Prana), Ubertip (Tooltip - Normal - Extended)
 {
 Restore the ally |cffbe85f7550|r health over time, but takes 13 mana every second.
 |cffffcc00Duration:|r 5 seconds.
 |cffffcc00Cooldown:|r 5 seconds.
 }
 
+STRING 9761
+// Abilities: A0U3 (Monk: Beer Day), Ubertip (Tooltip - Normal - Extended)
+{
+Choose an enemy. Your basic attacks deal an additional 120 damage to them. This bonus decreases by 10 with each attack.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
 STRING 9762
-// Abilities: A048 (|cffffcc00Amplifier:|r Horrific), Name (Name)
+// Abilities: A048 (|cffffcc00Amplifier:|r Horrific), Tip (Tooltip - Normal)
 {
 |cffffcc00Amplifier:|r Horrific
 }
@@ -63690,8 +63609,14 @@ STRING 9763
 Second Chance
 }
 
+STRING 9764
+// Buffs/Effects: B01N (), Buffubertip (Tooltip - Extended)
+{
+The buff caster deals more damage to you with basic attacks.
+}
+
 STRING 9765
-// Abilities: A047 (|cffffcc00Amplifier:|r Legendary), Name (Name)
+// Abilities: A047 (|cffffcc00Amplifier:|r Legendary), Tip (Tooltip - Normal)
 {
 |cffffcc00Amplifier:|r Legendary
 }
@@ -63705,8 +63630,14 @@ Summons a Skeleton.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 9767
+// Abilities: A049 (Doctor: Transformation of Prana), Name (Name)
+{
+Doctor: Transformation of Prana
+}
+
 STRING 9768
-// Abilities: A046 (|cffffcc00Amplifier:|r Epic), Name (Name)
+// Abilities: A046 (|cffffcc00Amplifier:|r Epic), Tip (Tooltip - Normal)
 {
 |cffffcc00Amplifier:|r Epic
 }
@@ -63717,8 +63648,14 @@ STRING 9769
 Huge Gift
 }
 
+STRING 9770
+// Abilities: A049 (Doctor: Transformation of Prana), Researchtip (Tooltip - Learn)
+{
+Transformation of Prana, [|cffffcc00Level %d|r]
+}
+
 STRING 9771
-// Abilities: A045 (|cffffcc00Amplifier:|r Mythical), Name (Name)
+// Abilities: A045 (|cffffcc00Amplifier:|r Mythical), Tip (Tooltip - Normal)
 {
 |cffffcc00Amplifier:|r Mythical
 }
@@ -63727,6 +63664,12 @@ STRING 9772
 // Items: I0A1 (Huge Gift), Tip (Tooltip - Basic)
 {
 Huge Gift
+}
+
+STRING 9773
+// Abilities: A049 (Doctor: Transformation of Prana), Tip (Tooltip - Normal)
+{
+Transformation of Prana, [|cffffcc00Level 1|r]
 }
 
 STRING 9774
@@ -63741,8 +63684,14 @@ STRING 9775
 Злобная магия
 }
 
+STRING 9776
+// Abilities: A049 (Doctor: Transformation of Prana), Tip (Tooltip - Normal)
+{
+Transformation of Prana, [|cffffcc00Level 2|r]
+}
+
 STRING 9777
-// Abilities: A043 (|cffffcc00Amplifier:|r Rare), Name (Name)
+// Abilities: A043 (|cffffcc00Amplifier:|r Rare), Tip (Tooltip - Normal)
 {
 |cffffcc00Amplifier:|r Rare
 }
@@ -64691,7 +64640,7 @@ The hero's melee attacks also damage nearby foes. The damage is equal to 80% of 
 }
 
 STRING 9922
-// Abilities: A02W (Unique: Small heal (+)), Hotkey (Hotkey - Normal)
+// Abilities: A02V (Unique: Mana Throw (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -64716,7 +64665,7 @@ Plant a pod at a location. After 2 seconds, the pod blooms and causes all allies
 }
 
 STRING 9926
-// Abilities: A02V (Unique: Mana Throw (+)), Hotkey (Hotkey - Normal)
+// Abilities: A02L (Superbot: Destruction), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -64885,7 +64834,7 @@ STRING 9951
 }
 
 STRING 9952
-// Abilities: A02L (Superbot: Destruction), Researchhotkey (Hotkey - Learn)
+// Abilities: A01U (Unique: Burning gaze (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -64911,7 +64860,7 @@ Restores |cffbe81f7200|r health to an ally.
 }
 
 STRING 9956
-// Abilities: A01U (Unique: Burning gaze (+)), Hotkey (Hotkey - Normal)
+// Abilities: A01U (Unique: Burning gaze (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -65200,7 +65149,7 @@ Destruction
 }
 
 STRING 9998
-// Abilities: A01U (Unique: Burning gaze (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A00N (Unique: Burning gaze), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -65217,10 +65166,44 @@ STRING 10000
 Призывает на помощь питомца, который обладает 360/480/600/720/840 ед. здоровья, 16/24/32/40/48 ед. атаки и 20% увернутся от атаки противника. Перезарядка - 75 секунд. Стоимость - 75 маны.
 }
 
+STRING 10001
+// Abilities: A049 (Doctor: Transformation of Prana), Tip (Tooltip - Normal)
+{
+Transformation of Prana, [|cffffcc00Level 3|r]
+}
+
+STRING 10002
+// Abilities: A049 (Doctor: Transformation of Prana), Tip (Tooltip - Normal)
+{
+Transformation of Prana, [|cffffcc00Level 4|r]
+}
+
 STRING 10003
 // Abilities: A01F (Pirate: Black Mark), Hotkey (Hotkey - Normal)
 {
 E
+}
+
+STRING 10004
+// Abilities: A049 (Doctor: Transformation of Prana), Tip (Tooltip - Normal)
+{
+Transformation of Prana, [|cffffcc00Level 5|r]
+}
+
+STRING 10005
+// Items: I077 (Falka), Description (Description)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r
+Increases |cff60C445Unique|r Spell Power by 100%.
+|cff81f260[Random bonus]|r
+}
+
+STRING 10006
+// Items: I077 (Falka), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r
+Increases |cff60C445Unique|r Spell Power by 100%.
+|cff81f260[Random bonus]|r
 }
 
 STRING 10007
@@ -65314,6 +65297,21 @@ STRING 10019
 // Abilities: A04H (Усилитель 6: МонструозныйXXX), Name (Name)
 {
 Усилитель 6: МонструозныйXXX
+}
+
+STRING 10020
+// Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Ubertip (Tooltip - Normal - Extended)
+{
+- Increases attack power of all units by 50%.
+- |cff00cceeAt 90% health:|r Silences the heroes for 10 seconds.
+- |cff00cceeAt 75% health:|r Every 1.5 seconds, deals damage to nearby enemies equal to |cffbe81f71%|r of their health.
+- |cff00cceeAt 25% health:|r The boss stops and begins charging magic for 3 seconds. Upon completion, it fully restores Health (Once per battle).
+}
+
+STRING 10021
+// Abilities: A0AQ (|cffffcc00Уровень 2:|r Белый медведь), Tip (Tooltip - Normal)
+{
+Polar Bear
 }
 
 STRING 10022
@@ -65643,14 +65641,6 @@ STRING 10072
 Turbid waters, [|cffffcc00Level %d|r]
 }
 
-STRING 10073
-// Items: I077 (Falka), Description (Description)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-Increases |cff60C445Unique|r Spell Power by 100%.
-|cff81f260[Random bonus]|r
-}
-
 STRING 10074
 // Abilities: A022 (Mermaid: Turbid waters), Tip (Tooltip - Normal)
 {
@@ -65679,14 +65669,6 @@ STRING 10078
 // Abilities: A022 (Mermaid: Turbid waters), Tip (Tooltip - Normal)
 {
 Turbid waters, [|cffffcc00Level 5|r]
-}
-
-STRING 10079
-// Items: I077 (Falka), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-Increases |cff60C445Unique|r Spell Power by 100%.
-|cff81f260[Random bonus]|r
 }
 
 STRING 10080
@@ -65853,7 +65835,7 @@ STRING 10104
 }
 
 STRING 10105
-// Abilities: A00N (Unique: Burning gaze), Hotkey (Hotkey - Normal)
+// Abilities: A00N (Unique: Burning gaze), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -65865,7 +65847,7 @@ Unique: Burning gaze (+)
 }
 
 STRING 10107
-// Abilities: A00N (Unique: Burning gaze), Researchhotkey (Hotkey - Learn)
+// Abilities: A1EA (Unique: Murderousness), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -66055,6 +66037,14 @@ STRING 10137
 // Abilities: A1DO (Shepherd: Lure), Hotkey (Hotkey - Normal)
 {
 R
+}
+
+STRING 10138
+// Abilities: A0AQ (|cffffcc00Уровень 2:|r Белый медведь), Ubertip (Tooltip - Normal - Extended)
+{
+- When attacking, with a probability of 25%, stuns the target for 1 second.
+- Every 10 seconds, jumps to a random enemy and stunning all nearby enemies for 0.5 second.
+- |cff00cceeAt 40% health:|r Starts jumping 2 times more often.
 }
 
 STRING 10139
@@ -67102,7 +67092,7 @@ HP (Random bonus)
 }
 
 STRING 10294
-// Abilities: A1EA (Unique: Murderousness), Hotkey (Hotkey - Normal)
+// Abilities: A1EA (Unique: Murderousness), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -67114,7 +67104,7 @@ Unique: Burning gaze
 }
 
 STRING 10296
-// Abilities: A1EA (Unique: Murderousness), Researchhotkey (Hotkey - Learn)
+// Abilities: A1EB (Unique: Murderousness (+)), Hotkey (Hotkey - Normal)
 {
 D
 }
@@ -71581,12 +71571,6 @@ STRING 11030
 |cffff0000Beer day|r
 }
 
-STRING 11031
-// Buffs/Effects: B01N (), Buffubertip (Tooltip - Extended)
-{
-Warrior misses.
-}
-
 STRING 11032
 // Buffs/Effects: B01M (), Bufftip (Tooltip)
 {
@@ -73771,7 +73755,7 @@ STRING 11378
 }
 
 STRING 11379
-// Abilities: A1EB (Unique: Murderousness (+)), Hotkey (Hotkey - Normal)
+// Abilities: A1EB (Unique: Murderousness (+)), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -73909,7 +73893,7 @@ Explosive Grenade, [|cffffcc00Level 2|r]
 }
 
 STRING 11401
-// Abilities: A1EB (Unique: Murderousness (+)), Researchhotkey (Hotkey - Learn)
+// Abilities: A1G9 (Hero Spirit: Mana Throw), Researchhotkey (Hotkey - Learn)
 {
 D
 }
@@ -74779,6 +74763,55 @@ STRING 11535
 |cff00ff00Muddy waters|rXXX
 }
 
+STRING 11536
+// Abilities: A06B (|cffffcc00Уровень 2:|r Благородный рыцарь), Tip (Tooltip - Normal)
+{
+Noble Knight
+}
+
+STRING 11537
+// Abilities: A06B (|cffffcc00Уровень 2:|r Благородный рыцарь), Ubertip (Tooltip - Normal - Extended)
+{
+- Reduces the armor of enemies and increases its own by 1.
+- |cff00cceeAt 75% health:|r Enhances the effects of armor by 1. Every 10 seconds, makes a charge at a random enemy nearby, stunning for 0.75 seconds.
+- |cff00cceeAt 50% health:|r Enhances the effects of armor by 1. Summons a knight at the edge of the arena.
+- |cff00cceeAt 25% health:|r Enhances the effects of armor by 1.
+}
+
+STRING 11538
+// Abilities: A0JR (Curse: Anger (b26)), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Attack Damage of bosses by 15%.
+}
+
+STRING 11539
+// Abilities: A06C (|cffffcc00Уровень 2:|r Злобный тотем), Tip (Tooltip - Normal)
+{
+Evil Totem
+}
+
+STRING 11540
+// Abilities: A06C (|cffffcc00Уровень 2:|r Злобный тотем), Ubertip (Tooltip - Normal - Extended)
+{
+- No attack.
+- When the boss is attacked, the attacker takes |cffbe81f715|r damage.
+- Every 4 seconds it creates a fiery explosion that deals |cffbe81f745|r damage every half second within 5 seconds.
+- If it doesn't take damage, the boss focuses.
+- |cff00cceeAt 25% and 75% health:|r Summons a shadow for each player away from the boss. When the shadow approaches the boss, she dies and creates a fiery explosion next to each hero.
+- |cff00cceeAt 50% health:|r A fiery explosion is created more often.
+}
+
+STRING 11541
+// Abilities: A0JX (|cffffcc00Уровень 5:|r Саламандра), Ubertip (Tooltip - Normal - Extended)
+{
+- Ranged attacks.
+- Receives 40% less damage from magic.
+- Every second deals 20 damage to all enemies nearby.
+- The boss constantly runs around the arena for a random hero.
+- |cff00cceeAt 75% health:|r When confronted with an enemy, stuns them for 1.5 seconds and deals |cffbe81f7125|r damage.
+- |cff00cceeAt 50% health:|r Occasionally creates a fiery trail.
+}
+
 STRING 11542
 // Abilities: A0QG (Permanent Invisibility), EditorSuffix (Editor Suffix)
 {
@@ -75060,17 +75093,6 @@ STRING 11578
 - |cff00cceeAt 60% health:|r Summons a small phoenix. The small phoenix deals 8 damage to the nearest enemy every 0.1 seconds.
 - |cff00cceeAt 25% health:|r The boss teleports and starts casting a spell for 12 seconds. After 12 seconds, summon a firestorm throughout the arena, dealing |cffbe81f7200|r damage every second.
 |cffffcc00Duration:|r 15 seconds.
-}
-
-STRING 11579
-// Abilities: A0JX (|cffffcc00Уровень 5:|r Саламандра), Ubertip (Tooltip - Normal - Extended)
-{
-- Ranged attacks.
-- Receives 40% less damage from magic.
-- Every second deals 20 damage to all enemies nearby.
-- The boss constantly runs around the arena for a random hero.
-- |cff00cceeAt 75% health:|r When confronted with an enemy, stuns him for 3 seconds and deals |cffbe81f7125|r damage.
-- |cff00cceeAt 50% health:|r Occasionally creates a fiery trail.
 }
 
 STRING 11580
@@ -75884,12 +75906,6 @@ STRING 11688
 Suppressing Anger, [|cffffcc00Level 5|r]
 }
 
-STRING 11689
-// Abilities: A0QA (Curse: Пламя (b4)), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero casts, deals |cffbe81f725|r damage to other nearby heroes.
-}
-
 STRING 11690
 // Abilities: A0B8 (Scarab: Death Sentence), Ubertip (Tooltip - Normal - Extended)
 {
@@ -76663,6 +76679,12 @@ Enchants a basic attack. Each attack deals an additional 55 Damage and permanent
 |cffffcc00Cooldown:|r 25 seconds.
 }
 
+STRING 11796
+// Abilities: A0JO (|cffffcc00Extra:|r Double Trouble), Tip (Tooltip - Normal)
+{
+|cffffcc00Extra:|r Double Trouble
+}
+
 STRING 11798
 // Items: I00S (Jade Snake), Description (Description)
 {
@@ -77150,6 +77172,16 @@ When you pick up an Artifact Reward, the other ones do not disappear.
 |cff81f260[Random bonus]|r
 }
 
+STRING 11865
+// Abilities: A0JO (|cffffcc00Extra:|r Double Trouble), Ubertip (Tooltip - Normal - Extended)
+{
+All heroes start a battle with two bosses, but gain more gold.
+
+|cffffcc00Your heroes fight with two bosses at the same time. When the boss dies, the others become enraged, increasing their attack by 40% and movement speed by 20%.
+
+Players receive an additional 50% gold for defeating bosses. Experience bonus: +15%.|r
+}
+
 STRING 11867
 // Items: I05I (Gnomish Army Knife), Description (Description)
 {
@@ -77174,22 +77206,6 @@ STRING 11870
 {
 |cffe96a1cLegendary|r, |cffb18904Mech|r
 Counts as 4 |cffb18904mechs|r.
-}
-
-STRING 11871
-// Items: I04L (Mshist's Damned Fiber), Description (Description)
-{
-|cffe96a1cLegendary|r
-When anyone dies, it summons a sheep.
-|cffffcc00Life time:|r 30 seconds.
-}
-
-STRING 11872
-// Items: I04L (Mshist's Damned Fiber), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-When anyone dies, it summons a sheep.
-|cffffcc00Life time:|r 30 seconds.
 }
 
 STRING 11875

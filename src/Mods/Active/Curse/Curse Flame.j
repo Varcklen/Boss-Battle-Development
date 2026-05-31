@@ -3,9 +3,7 @@ scope CurseFlame initializer init
 	globals
 		private trigger Trigger = null
 		
-		private constant integer DAMAGE = 25 
-		private constant integer RANGE = 250
-		private constant string ANIMATION = "Abilities\\Spells\\Other\\Incinerate\\FireLordDeathExplode.mdl"
+		private constant integer DAMAGE = 5
 	endglobals
 	
 	private function condition takes nothing returns boolean
@@ -13,23 +11,7 @@ scope CurseFlame initializer init
 	endfunction
 	
 	private function action takes nothing returns nothing
-		local group g = CreateGroup()
-	    local unit u
-	    
-	    call DestroyEffect( AddSpecialEffectTarget(ANIMATION, GetSpellAbilityUnit(), "origin" ) )
-	    call GroupEnumUnitsInRange( g, GetUnitX( GetSpellAbilityUnit() ), GetUnitY( GetSpellAbilityUnit() ), RANGE, null )
-	    loop
-	        set u = FirstOfGroup(g)
-	        exitwhen u == null
-	        if unitst( u, GetSpellAbilityUnit(), "ally" ) and u != GetSpellAbilityUnit() and IsUnitType( u, UNIT_TYPE_HERO ) then
-	            call UnitDamageTarget( GetSpellAbilityUnit(), u, DAMAGE, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)
-	        endif
-	        call GroupRemoveUnit(g,u)
-	    endloop
-	    
-	    call DestroyGroup( g )
-	    set u = null
-	    set g = null
+		call SetUnitState( GetSpellAbilityUnit(), UNIT_STATE_MANA, RMaxBJ(0, GetUnitState( GetSpellAbilityUnit(), UNIT_STATE_MANA) - DAMAGE ) )
 	endfunction
 
 	//===========================================================================
