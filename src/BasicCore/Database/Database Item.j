@@ -546,7 +546,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL2_Legendary[BaseNum()] = 'I0CO'
 	    set udg_DB_Item_ForLvL2_Legendary[BaseNum()] = 'I0D7'
 	    set udg_DB_Item_ForLvL2_Legendary[BaseNum()] = 'I012'
-	    set udg_DB_Item_ForLvL2_Legendary[BaseNum()] = 'I083'
+	    //set udg_DB_Item_ForLvL2_Legendary[BaseNum()] = 'I083'
 	    set udg_DB_Item_ForLvL2_Legendary[BaseNum()] = 'I0FI'
 	    set udg_DB_Item_ForLvL2_Legendary[BaseNum()] = 'I01E'
 	    //set udg_DB_Item_ForLvL2_Legendary[BaseNum()] = 'I01F'
@@ -1296,6 +1296,7 @@ library LibDataItems
 	    set DB_ExileItems[3][BaseNum()] = 'I0AR'
 	    set DB_ExileItems[3][BaseNum()] = 'I0D2'
 	    set DB_ExileItems[3][BaseNum()] = 'I0HP'
+	    set DB_ExileItems[3][BaseNum()] = 'I083'
 	    set DB_ExileItems_Max[3] = udg_base
 	    
 	endfunction

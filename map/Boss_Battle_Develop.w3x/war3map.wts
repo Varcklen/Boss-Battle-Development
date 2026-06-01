@@ -7288,7 +7288,7 @@ Z
 }
 
 STRING 1118
-// Items: I044 (Magic meat), Description (Description)
+// Items: I044 (Magic Meat), Description (Description)
 {
 |cff4169e1Rare|r, |cfffe9a2eAlchemy|r
 At the start of the battle, gives a |cffC71585cursed|r |cff088a08potion|r with 3 charges (or places it on the ground).
@@ -7308,7 +7308,7 @@ Runestone Zolo
 }
 
 STRING 1121
-// Items: I044 (Magic meat), Ubertip (Tooltip - Extended)
+// Items: I044 (Magic Meat), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cfffe9a2eAlchemy|r
 At the start of the battle, gives a |cffC71585cursed|r |cff088a08potion|r with 3 charges (or places it on the ground).
@@ -13496,26 +13496,14 @@ The Hero cannot deal less than 30 damage.
 }
 
 STRING 2020
-// Items: I07V (Steam generator), Description (Description)
+// Items: I07V (Steam Generator), Description (Description)
 {
 |cff4169e1Rare|r, |cffb18904Mech|r
 Increases spell power by 7% for each |cffb18904mech|r.
 }
 
-STRING 2021
-// Items: I07V (Steam generator), Name (Name)
-{
-Steam generator
-}
-
-STRING 2022
-// Items: I07V (Steam generator), Tip (Tooltip - Basic)
-{
-Steam generator
-}
-
 STRING 2023
-// Items: I07V (Steam generator), Ubertip (Tooltip - Extended)
+// Items: I07V (Steam Generator), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cffb18904Mech|r
 Increases spell power by 7% for each |cffb18904mech|r.
@@ -15758,7 +15746,7 @@ Choose an ally. Pulls all orbs towards the target, destroying those; Each orb re
 }
 
 STRING 2353
-// Items: I05K (Old healer), Description (Description)
+// Items: I05K (Old Healer), Description (Description)
 {
 |cff4169e1Rare|r, |cffb18904Mech|r
 Activation: Restores |cffbe81f7300|r health to the ally. Additionally restores 100 health for each other |cffb18904mech|r.
@@ -15766,20 +15754,8 @@ Activation: Restores |cffbe81f7300|r health to the ally. Additionally restores 1
 |cffffcc00Cost:|r 80 mana.
 }
 
-STRING 2354
-// Items: I05K (Old healer), Name (Name)
-{
-Old healer
-}
-
-STRING 2355
-// Items: I05K (Old healer), Tip (Tooltip - Basic)
-{
-Old healer
-}
-
 STRING 2356
-// Items: I05K (Old healer), Ubertip (Tooltip - Extended)
+// Items: I05K (Old Healer), Ubertip (Tooltip - Extended)
 {
 |cff4169e1Rare|r, |cffb18904Mech|r
 Activation: Restores |cffbe81f7300|r health to the ally. Additionally restores 100 health for each other |cffb18904mech|r.
@@ -17218,18 +17194,6 @@ STRING 2569
 {
 The hero teleports behind the enemy and deals |cffbe81f7140|r damage. If a critical hit or kills the target, the cooldown is reduced by 50%.
 |cffffcc00Cooldown:|r 7 seconds.
-}
-
-STRING 2570
-// Items: I044 (Magic meat), Name (Name)
-{
-Magic meat
-}
-
-STRING 2571
-// Items: I044 (Magic meat), Tip (Tooltip - Basic)
-{
-Magic meat
 }
 
 STRING 2572
@@ -38850,6 +38814,18 @@ STRING 5870
 .General-Item: Not Copyable
 }
 
+STRING 5871
+// Items: I07V (Steam Generator), Name (Name)
+{
+Steam Generator
+}
+
+STRING 5872
+// Items: I07V (Steam Generator), Tip (Tooltip - Basic)
+{
+Steam Generator
+}
+
 STRING 5873
 // Abilities: A0U2 (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -42315,6 +42291,12 @@ STRING 6415
 MP/sec (Знак Лордера)
 }
 
+STRING 6416
+// Items: I05K (Old Healer), Name (Name)
+{
+Old Healer
+}
+
 STRING 6417
 // Abilities: A0QA (Curse: Flame), Tip (Tooltip - Normal)
 {
@@ -44341,10 +44323,42 @@ STRING 6733
 R
 }
 
+STRING 6734
+// Items: I05K (Old Healer), Tip (Tooltip - Basic)
+{
+Old Healer
+}
+
 STRING 6735
 // Abilities: A0NM (Pyrolord: Fire arrows), Researchhotkey (Hotkey - Learn)
 {
 R
+}
+
+STRING 6736
+// Items: I05I (Gnomish Army Knife), Description (Description)
+{
+|cffe96a1cLegendary|r, |cffb18904Mech|r
+Increases stats by 6 for each |cffb18904Mech|r in your inventory.
+}
+
+STRING 6737
+// Items: I05I (Gnomish Army Knife), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cffb18904Mech|r
+Increases stats by 6 for each |cffb18904Mech|r in your inventory.
+}
+
+STRING 6738
+// Items: I044 (Magic Meat), Name (Name)
+{
+Magic Meat
+}
+
+STRING 6739
+// Items: I044 (Magic Meat), Tip (Tooltip - Basic)
+{
+Magic Meat
 }
 
 STRING 6748
@@ -77207,13 +77221,6 @@ All heroes start a battle with two bosses, but gain more gold.
 Players receive an additional 50% gold for defeating bosses. Experience bonus: +15%.|r
 }
 
-STRING 11867
-// Items: I05I (Gnomish Army Knife), Description (Description)
-{
-|cffe96a1cLegendary|r, |cffb18904Mech|r
-Counts as 4 |cffb18904mechs|r.
-}
-
 STRING 11868
 // Items: I05I (Gnomish Army Knife), Name (Name)
 {
@@ -77224,13 +77231,6 @@ STRING 11869
 // Items: I05I (Gnomish Army Knife), Tip (Tooltip - Basic)
 {
 Gnomish Army Knife
-}
-
-STRING 11870
-// Items: I05I (Gnomish Army Knife), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cffb18904Mech|r
-Counts as 4 |cffb18904mechs|r.
 }
 
 STRING 11875
