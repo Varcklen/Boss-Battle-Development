@@ -133,7 +133,7 @@ scope GunMasterWAttack initializer init
 		local real extraDamage = EXTRA_DAMAGE_INITIAL + EXTRA_DAMAGE_PER_LEVEL * level
 		local integer id
 
-        set udg_DamageEventAmount = udg_DamageEventAmount + extraDamage * udg_DamageEventAmount
+        set udg_DamageEventAmount = udg_DamageEventAmount + extraDamage * Event_OnDamageChange_StaticDamage
 		set udg_IsDamageSpell = true
 		
 		set id = InvokeTimerWithUnit( hero, "gun_master_w_delay", 0.04, false, function AoE_Delay )
@@ -148,7 +148,7 @@ scope GunMasterWAttack initializer init
 
 	//===========================================================================
 	private function init takes nothing returns nothing
-	    call CreateEventTrigger( "udg_DamageModifierEvent", function OnDealDamage, function OnDealDamage_Conditions )
+	    call CreateEventTrigger( "Event_OnDamageChange_Real", function OnDealDamage, function OnDealDamage_Conditions )
 	endfunction
 
 endscope

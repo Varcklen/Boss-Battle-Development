@@ -17,6 +17,7 @@ scope SludgeQ initializer init
 		local real hp
 		local real at
 		local integer d
+		local real scale
 	    
 	    if CastLogic() then
 	        set caster = udg_Caster
@@ -56,11 +57,9 @@ scope SludgeQ initializer init
 	
 	    if GetUnitAbilityLevel( caster, 'A0T8') > 0 then
 	        call UnitAddAbility( bj_lastCreatedUnit, 'A0T6')
+	        call UnitAddAbility( bj_lastCreatedUnit, 'A0RW')
 	        if GetUnitAbilityLevel( caster, 'A0T8') >= 2 then
 	            call UnitAddAbility( bj_lastCreatedUnit, 'A0S6')
-	        endif
-	        if GetUnitAbilityLevel( caster, 'A0T8') >= 3 then
-	            call UnitAddAbility( bj_lastCreatedUnit, 'A0RW')
 	        endif
 	        if GetUnitAbilityLevel( caster, 'A0T8') >= 4 then
 	            call UnitAddAbility( bj_lastCreatedUnit, 'A0SD')
@@ -71,7 +70,8 @@ scope SludgeQ initializer init
 		if d > 20 then
 			set d = 20
 		endif
-		call SetUnitScale( bj_lastCreatedUnit, 1 + (d * 0.03), 1 + (d * 0.03), 1 + (d * 0.03) )
+		set scale = 1 + (d * 0.03)
+		call SetUnitScale( bj_lastCreatedUnit, scale, scale, scale )
 	
 	    call UnitAddAbility( bj_lastCreatedUnit, udg_Ability_Uniq[GetPlayerId(GetOwningPlayer(caster)) + 1] )
 	

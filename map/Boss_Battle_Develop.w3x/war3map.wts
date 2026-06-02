@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.11.1T|r
+|cffbe81f7Boss Battle 1.11.2T|r
 }
 
 STRING 2
@@ -13502,6 +13502,18 @@ STRING 2020
 Increases spell power by 7% for each |cffb18904mech|r.
 }
 
+STRING 2021
+// Items: I05M (Book of Luck), Description (Description)
+{
+Increases luck by 3.
+}
+
+STRING 2022
+// Items: I05M (Book of Luck), Ubertip (Tooltip - Extended)
+{
+Increases luck by 3.
+}
+
 STRING 2023
 // Items: I07V (Steam Generator), Ubertip (Tooltip - Extended)
 {
@@ -15689,9 +15701,9 @@ Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |
 }
 
 STRING 2344
-// Items: I05M (Book of Luck), Description (Description)
+// Abilities: A0T6 (Sludge Copy: Adaptation), Name (Name)
 {
-Increases luck by 1.
+Sludge Copy: Adaptation
 }
 
 STRING 2345
@@ -15713,9 +15725,9 @@ Book of Luck
 }
 
 STRING 2348
-// Items: I05M (Book of Luck), Ubertip (Tooltip - Extended)
+// Abilities: A0SS (Sludge Copy: Poison Touch), Name (Name)
 {
-Increases luck by 1.
+Sludge Copy: Poison Touch
 }
 
 STRING 2349
@@ -15752,6 +15764,18 @@ STRING 2353
 Activation: Restores |cffbe81f7300|r health to the ally. Additionally restores 100 health for each other |cffb18904mech|r.
 |cffffcc00Cooldown:|r 45 seconds.
 |cffffcc00Cost:|r 80 mana.
+}
+
+STRING 2354
+// Abilities: A0SO (Sludge Copy: Devouring Flesh), Name (Name)
+{
+Sludge Copy: Devouring Flesh
+}
+
+STRING 2355
+// Abilities: A0SO (Sludge Copy: Devouring Flesh), Tip (Tooltip - Normal)
+{
+Devouring Flesh
 }
 
 STRING 2356
@@ -17194,6 +17218,19 @@ STRING 2569
 {
 The hero teleports behind the enemy and deals |cffbe81f7140|r damage. If a critical hit or kills the target, the cooldown is reduced by 50%.
 |cffffcc00Cooldown:|r 7 seconds.
+}
+
+STRING 2570
+// Abilities: A0SO (Sludge Copy: Devouring Flesh), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7damage|r damage to the target. Increases Health and Attack for the rest of the battle.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 2571
+// Abilities: A0R7 (Sludge: Devouring Flesh), Name (Name)
+{
+Sludge: Devouring Flesh
 }
 
 STRING 2572
@@ -19324,36 +19361,6 @@ The hero jumps to a point, dealing |cffbe81f7260|r damage to enemies. Restores |
 |cffffcc00Cooldown:|r 1.5 seconds.
 }
 
-STRING 2885
-// Abilities: A0SS (Poison Touch), Ubertip (Tooltip - Normal - Extended)
-{
-When this is attacked, inflicts poison on the enemy, which slows down attack and movement speed by 20% and deals |cffbe81f715|r damage every second.
-}
-
-STRING 2886
-// Abilities: A0SO (Devouring flesh), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7damage|r to target. If it dies, gain health and attack. Then, for the rest of the battle, gaining health this way becomes 50% less effective.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 2887
-// Abilities: A0R7 (Sludge: Devouring flesh), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f7160/200/240/280/320|r damage to target.
-If it dies, gain 80/90/100/110/120 health and 2 attack. Then, for the rest of the battle, gaining health this way becomes 50% less effective, up to 10 health at lowest.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
-STRING 2888
-// Abilities: A0R7 (Sludge: Devouring flesh), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7160|r damage to target.
-If it dies, gain 80 health and 2 attack. Then, for the rest of the battle, gaining health this way becomes 50% less effective, up to 10 health at lowest.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 2889
 // Items: IV00 (Tea), Description (Description)
 {
@@ -20683,14 +20690,6 @@ STRING 3083
 Gefest
 }
 
-STRING 3084
-// Abilities: A0R7 (Sludge: Devouring flesh), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7200|r damage to target.
-If it dies, gain 90 health and 2 attack. Then, for the rest of the battle, gaining health this way becomes 50% less effective, up to 10 health at lowest.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 3085
 // Items: I00J (Teleportation Stone), Description (Description)
 {
@@ -21227,14 +21226,6 @@ STRING 3167
 Босс 3: Инженерный мастер (Мортира, Пассажир)
 }
 
-STRING 3168
-// Abilities: A0R7 (Sludge: Devouring flesh), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7240|r damage to target.
-If it dies, gain 100 health and 2 attack. Then, for the rest of the battle, gaining health this way becomes 50% less effective, up to 10 health at lowest.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 3169
 // Abilities: AZD3 (Усилитель 9: АдскийXXX), Tip (Tooltip - Normal)
 {
@@ -21252,14 +21243,6 @@ STRING 3170
 - |cffffcc00Experience bonus:|r +180%
 }
 
-STRING 3171
-// Abilities: A0R7 (Sludge: Devouring flesh), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7280|r damage to target.
-If it dies, gain 110 health and 2 attack. Then, for the rest of the battle, gaining health this way becomes 50% less effective, up to 10 health at lowest.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 3172
 // Abilities: AZD2 (Усилитель 8: ДьявольскийXXX), Tip (Tooltip - Normal)
 {
@@ -21275,14 +21258,6 @@ STRING 3173
 - |cffffcc00Magic resistance:|r +40%
 - |cffffcc00Armor:|r +24
 - |cffffcc00Experience bonus:|r +160%
-}
-
-STRING 3174
-// Abilities: A0R7 (Sludge: Devouring flesh), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7320|r damage to target.
-If it dies, gain 120 health and 2 attack. Then, for the rest of the battle, gaining health this way becomes 50% less effective, up to 10 health at lowest.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 3175
@@ -39116,7 +39091,7 @@ Harpy: Soul of the forest
 }
 
 STRING 5920
-// Abilities: A0SO (Devouring flesh), Hotkey (Hotkey - Normal)
+// Abilities: A0SO (Sludge Copy: Devouring Flesh), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -39558,7 +39533,7 @@ Barbarian: Blood bath
 }
 
 STRING 5988
-// Abilities: A0T6 (Adaptation), Researchhotkey (Hotkey - Learn)
+// Abilities: A0T6 (Sludge Copy: Adaptation), Researchhotkey (Hotkey - Learn)
 {
 R
 }
@@ -39674,18 +39649,6 @@ STRING 6006
 Adaptation, [|cffffcc00Level %d|r]
 }
 
-STRING 6007
-// Abilities: A0T8 (Sludge: Adaptation), Researchubertip (Tooltip - Learn - Extended)
-{
-Depending on the level of the ability, it gives certain bonuses:
-
-|cffffcc00Level 1|r - 400 range attack.
-|cffffcc00Level 2|r - 3 armor.
-|cffffcc00Level 3|r - 3 health regeneration.
-|cffffcc00Level 4|r - 40 movement speed.
-|cffffcc00Level 5|r - 20% spell resistance.
-}
-
 STRING 6008
 // Abilities: A0T8 (Sludge: Adaptation), Tip (Tooltip - Normal)
 {
@@ -39716,56 +39679,6 @@ STRING 6012
 Adaptation, [|cffffcc00Level 5|r]
 }
 
-STRING 6013
-// Abilities: A0T8 (Sludge: Adaptation), Ubertip (Tooltip - Normal - Extended)
-{
-Depending on the level of the ability, it gives certain bonuses:
-
-|cffffcc00Level 1|r - 400 range attack.
-}
-
-STRING 6014
-// Abilities: A0T8 (Sludge: Adaptation), Ubertip (Tooltip - Normal - Extended)
-{
-Depending on the level of the ability, it gives certain bonuses:
-
-|cffffcc00Level 1|r - 400 range attack.
-|cffffcc00Level 2|r - 3 armor.
-}
-
-STRING 6015
-// Abilities: A0T8 (Sludge: Adaptation), Ubertip (Tooltip - Normal - Extended)
-{
-Depending on the level of the ability, it gives certain bonuses:
-
-|cffffcc00Level 1|r - 400 range attack.
-|cffffcc00Level 2|r - 3 armor.
-|cffffcc00Level 3|r - 3 health regeneration.
-}
-
-STRING 6016
-// Abilities: A0T8 (Sludge: Adaptation), Ubertip (Tooltip - Normal - Extended)
-{
-Depending on the level of the ability, it gives certain bonuses:
-
-|cffffcc00Level 1|r - 400 range attack.
-|cffffcc00Level 2|r - 3 armor.
-|cffffcc00Level 3|r - 3 health regeneration.
-|cffffcc00Level 4|r - 40 movement speed.
-}
-
-STRING 6017
-// Abilities: A0T8 (Sludge: Adaptation), Ubertip (Tooltip - Normal - Extended)
-{
-Depending on the level of the ability, it gives certain bonuses:
-
-|cffffcc00Level 1|r - 400 range attack.
-|cffffcc00Level 2|r - 3 armor.
-|cffffcc00Level 3|r - 3 health regeneration.
-|cffffcc00Level 4|r - 40 movement speed.
-|cffffcc00Level 5|r - 20% spell resistance.
-}
-
 STRING 6018
 // Abilities: A0T7 (Artifact: Cosmic reed), Name (Name)
 {
@@ -39773,7 +39686,7 @@ Artifact: Cosmic reed
 }
 
 STRING 6019
-// Abilities: A0T6 (Adaptation), Name (Name)
+// Abilities: A0T6 (Sludge Copy: Adaptation), Tip (Tooltip - Normal)
 {
 Adaptation
 }
@@ -39784,14 +39697,8 @@ STRING 6020
 R
 }
 
-STRING 6021
-// Abilities: A0T6 (Adaptation), Tip (Tooltip - Normal)
-{
-Adaptation
-}
-
 STRING 6022
-// Abilities: A0T6 (Adaptation), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0T6 (Sludge Copy: Adaptation), Ubertip (Tooltip - Normal - Extended)
 {
 Depending on the level of the ability, it gives certain bonuses.
 }
@@ -39935,13 +39842,7 @@ STRING 6045
 }
 
 STRING 6046
-// Abilities: A0SS (Poison Touch), Name (Name)
-{
-Poison Touch
-}
-
-STRING 6047
-// Abilities: A0SS (Poison Touch), Tip (Tooltip - Normal)
+// Abilities: A0SS (Sludge Copy: Poison Touch), Tip (Tooltip - Normal)
 {
 Poison Touch
 }
@@ -39975,18 +39876,6 @@ STRING 6052
 // Abilities: A0RZ (Admiral: Potion "Plasebo"), Hotkey (Hotkey - Normal)
 {
 W
-}
-
-STRING 6053
-// Abilities: A0SO (Devouring flesh), Name (Name)
-{
-Devouring flesh
-}
-
-STRING 6054
-// Abilities: A0SO (Devouring flesh), Tip (Tooltip - Normal)
-{
-Devouring flesh
 }
 
 STRING 6055
@@ -40540,12 +40429,6 @@ STRING 6138
 (Морпех. Метка)
 }
 
-STRING 6139
-// Abilities: A0S3 (Бонус: Ядовитое касание), Name (Name)
-{
-Бонус: Ядовитое касание
-}
-
 STRING 6140
 // Abilities: A0S2 (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -40577,7 +40460,7 @@ Admiral: Potion "Plasebo"
 }
 
 STRING 6145
-// Abilities: A0R7 (Sludge: Devouring flesh), Hotkey (Hotkey - Normal)
+// Abilities: A0R7 (Sludge: Devouring Flesh), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -41044,7 +40927,7 @@ STRING 6217
 }
 
 STRING 6218
-// Abilities: A0R7 (Sludge: Devouring flesh), Researchhotkey (Hotkey - Learn)
+// Abilities: A0R7 (Sludge: Devouring Flesh), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -41311,22 +41194,10 @@ STRING 6261
 W
 }
 
-STRING 6262
-// Abilities: A0R7 (Sludge: Devouring flesh), Name (Name)
-{
-Sludge: Devouring flesh
-}
-
 STRING 6263
 // Abilities: A0R0 (Barbarian: Recklessness), Hotkey (Hotkey - Normal)
 {
 W
-}
-
-STRING 6264
-// Abilities: A0R7 (Sludge: Devouring flesh), Researchtip (Tooltip - Learn)
-{
-Devouring flesh, [|cffffcc00Level %d|r]
 }
 
 STRING 6265
@@ -41334,36 +41205,6 @@ STRING 6265
 {
 Hero throws 10%/15%/20%/25%/30% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
 |cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6266
-// Abilities: A0R7 (Sludge: Devouring flesh), Tip (Tooltip - Normal)
-{
-Devouring flesh, [|cffffcc00Level 1|r]
-}
-
-STRING 6267
-// Abilities: A0R7 (Sludge: Devouring flesh), Tip (Tooltip - Normal)
-{
-Devouring flesh, [|cffffcc00Level 2|r]
-}
-
-STRING 6268
-// Abilities: A0R7 (Sludge: Devouring flesh), Tip (Tooltip - Normal)
-{
-Devouring flesh, [|cffffcc00Level 3|r]
-}
-
-STRING 6269
-// Abilities: A0R7 (Sludge: Devouring flesh), Tip (Tooltip - Normal)
-{
-Devouring flesh, [|cffffcc00Level 4|r]
-}
-
-STRING 6270
-// Abilities: A0R7 (Sludge: Devouring flesh), Tip (Tooltip - Normal)
-{
-Devouring flesh, [|cffffcc00Level 5|r]
 }
 
 STRING 6271
@@ -41444,14 +41285,6 @@ STRING 6282
 Split, [|cffffcc00Level %d|r]
 }
 
-STRING 6283
-// Abilities: A0R5 (Sludge: Split), Researchubertip (Tooltip - Learn - Extended)
-{
-Divides your hero. Give your copy 30%/35%/40%/45%/50% of your maximum health and attack power. When this copy dies, return your stats to your hero. A copy can have all of your hero's other basic abilities.
-|cffffcc00Cooldown:|r 40/35/30/25/20 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
 STRING 6284
 // Abilities: A0R5 (Sludge: Split), Tip (Tooltip - Normal)
 {
@@ -41480,41 +41313,6 @@ STRING 6288
 // Abilities: A0R5 (Sludge: Split), Tip (Tooltip - Normal)
 {
 Split, [|cffffcc00Level 5|r]
-}
-
-STRING 6289
-// Abilities: A0R5 (Sludge: Split), Ubertip (Tooltip - Normal - Extended)
-{
-Divides your hero. Give your copy 30% of your maximum health and attack power. When this copy dies, return your stats to your hero. A copy can have all of your hero's other basic abilities.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 6290
-// Abilities: A0R5 (Sludge: Split), Ubertip (Tooltip - Normal - Extended)
-{
-Divides your hero. Give your copy 35% of your maximum health and attack power. When this copy dies, return your stats to your hero. A copy can have all of your hero's other basic abilities.
-|cffffcc00Cooldown:|r 35 seconds.
-}
-
-STRING 6291
-// Abilities: A0R5 (Sludge: Split), Ubertip (Tooltip - Normal - Extended)
-{
-Divides your hero. Give your copy 40% of your maximum health and attack power. When this copy dies, return your stats to your hero. A copy can have all of your hero's other basic abilities.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 6292
-// Abilities: A0R5 (Sludge: Split), Ubertip (Tooltip - Normal - Extended)
-{
-Divides your hero. Give your copy 45% of your maximum health and attack power. When this copy dies, return your stats to your hero. A copy can have all of your hero's other basic abilities.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
-STRING 6293
-// Abilities: A0R5 (Sludge: Split), Ubertip (Tooltip - Normal - Extended)
-{
-Divides your hero. Give your copy 50% of your maximum health and attack power. When this copy dies, return your stats to your hero. A copy can have all of your hero's other basic abilities.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 6294
@@ -44359,6 +44157,57 @@ STRING 6739
 // Items: I044 (Magic Meat), Tip (Tooltip - Basic)
 {
 Magic Meat
+}
+
+STRING 6740
+// Abilities: A0R7 (Sludge: Devouring Flesh), Researchtip (Tooltip - Learn)
+{
+Devouring Flesh, [|cffffcc00Level %d|r]
+}
+
+STRING 6741
+// Abilities: A0R7 (Sludge: Devouring Flesh), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f7200/240/280/320/360|r damage to the target. Increases Health by 60/75/90/105/120 and Attack by 2 for the rest of the battle.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
+STRING 6742
+// Abilities: A0R7 (Sludge: Devouring Flesh), Tip (Tooltip - Normal)
+{
+Devouring Flesh, [|cffffcc00Level 1|r]
+}
+
+STRING 6743
+// Abilities: A0R7 (Sludge: Devouring Flesh), Tip (Tooltip - Normal)
+{
+Devouring Flesh, [|cffffcc00Level 2|r]
+}
+
+STRING 6744
+// Abilities: A0R7 (Sludge: Devouring Flesh), Tip (Tooltip - Normal)
+{
+Devouring Flesh, [|cffffcc00Level 3|r]
+}
+
+STRING 6745
+// Abilities: A0R7 (Sludge: Devouring Flesh), Tip (Tooltip - Normal)
+{
+Devouring Flesh, [|cffffcc00Level 4|r]
+}
+
+STRING 6746
+// Abilities: A0R7 (Sludge: Devouring Flesh), Tip (Tooltip - Normal)
+{
+Devouring Flesh, [|cffffcc00Level 5|r]
+}
+
+STRING 6747
+// Abilities: A0R7 (Sludge: Devouring Flesh), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7200|r damage to the target. Increases Health by 60 and Attack by 2 for the rest of the battle.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 6748
@@ -48297,6 +48146,13 @@ STRING 7352
 |cffffcc00Curse:|r Anger
 }
 
+STRING 7353
+// Abilities: A0R7 (Sludge: Devouring Flesh), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7240|r damage to the target. Increases Health by 75 and Attack by 2 for the rest of the battle.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 7354
 // Abilities: A0JG (Wanderer: Impius Imperium), Hotkey (Hotkey - Normal)
 {
@@ -48326,6 +48182,13 @@ STRING 7358
 // Abilities: A0JP (Аура: Скарабей), Name (Name)
 {
 Аура: Скарабей
+}
+
+STRING 7359
+// Abilities: A0R7 (Sludge: Devouring Flesh), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7280|r damage to the target. Increases Health by 90 and Attack by 2 for the rest of the battle.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 7360
@@ -49350,6 +49213,13 @@ STRING 7514
 // Abilities: A0IS (Unique: Chaos), Tip (Tooltip - Normal)
 {
 Chaos
+}
+
+STRING 7515
+// Abilities: A0R7 (Sludge: Devouring Flesh), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7320|r damage to the target. Increases Health by 105 and Attack by 2 for the rest of the battle.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 7516
@@ -52042,6 +51912,13 @@ STRING 7935
 Despicable, [|cffffcc00Level %d|r]
 }
 
+STRING 7936
+// Abilities: A0R7 (Sludge: Devouring Flesh), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7360|r damage to the target. Increases Health by 120 and Attack by 2 for the rest of the battle.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 7937
 // Abilities: A0FB (Lord of Chaos: Despicable), Tip (Tooltip - Normal)
 {
@@ -52076,6 +51953,14 @@ STRING 7942
 // Abilities: A1G7 (Босс 2: Totem (Annoy)), Name (Name)
 {
 Босс 2: Totem (Annoy)
+}
+
+STRING 7943
+// Abilities: A0R5 (Sludge: Split), Researchubertip (Tooltip - Learn - Extended)
+{
+Split the hero in two. The original loses half of its stats to transfer them to the duplicate. The duplicate retains the hero's basic abilities. Stats are restored upon the duplicate's death.
+|cffffcc00Cooldown:|r 60/50/40/30/20 seconds.
+|cffffcc00Cost:|r 80/60/40/20/0 mana.
 }
 
 STRING 7944
@@ -56447,6 +56332,13 @@ STRING 8616
 |cffffcc00Уровень 4:|r Манадракон
 }
 
+STRING 8617
+// Abilities: A0R5 (Sludge: Split), Ubertip (Tooltip - Normal - Extended)
+{
+Split the hero in two. The original loses half of its stats to transfer them to the duplicate. The duplicate retains the hero's basic abilities. Stats are restored upon the duplicate's death.
+|cffffcc00Cooldown:|r 60 seconds.
+}
+
 STRING 8618
 // Abilities: A0CN (Skeletlord: Parish), Ubertip (Tooltip - Normal - Extended)
 {
@@ -56476,6 +56368,13 @@ STRING 8622
 // Abilities: A0AQ (|cffffcc00Уровень 2:|r Белый медведь), Name (Name)
 {
 |cffffcc00Уровень 2:|r Белый медведь
+}
+
+STRING 8623
+// Abilities: A0R5 (Sludge: Split), Ubertip (Tooltip - Normal - Extended)
+{
+Split the hero in two. The original loses half of its stats to transfer them to the duplicate. The duplicate retains the hero's basic abilities. Stats are restored upon the duplicate's death.
+|cffffcc00Cooldown:|r 50 seconds.
 }
 
 STRING 8624
@@ -58204,6 +58103,13 @@ STRING 8894
 Leap, [|cffffcc00Level %d|r]
 }
 
+STRING 8895
+// Abilities: A0R5 (Sludge: Split), Ubertip (Tooltip - Normal - Extended)
+{
+Split the hero in two. The original loses half of its stats to transfer them to the duplicate. The duplicate retains the hero's basic abilities. Stats are restored upon the duplicate's death.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
 STRING 8896
 // Abilities: A093 (Monk: Leap), Tip (Tooltip - Normal)
 {
@@ -58232,6 +58138,38 @@ STRING 8900
 // Abilities: A093 (Monk: Leap), Tip (Tooltip - Normal)
 {
 Leap, [|cffffcc00Level 5|r]
+}
+
+STRING 8901
+// Abilities: A0R5 (Sludge: Split), Ubertip (Tooltip - Normal - Extended)
+{
+Split the hero in two. The original loses half of its stats to transfer them to the duplicate. The duplicate retains the hero's basic abilities. Stats are restored upon the duplicate's death.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 8902
+// Abilities: A0R5 (Sludge: Split), Ubertip (Tooltip - Normal - Extended)
+{
+Split the hero in two. The original loses half of its stats to transfer them to the duplicate. The duplicate retains the hero's basic abilities. Stats are restored upon the duplicate's death.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 8903
+// Abilities: A1IF (Sludge Copy: Destruction), Name (Name)
+{
+Sludge Copy: Destruction
+}
+
+STRING 8904
+// Abilities: A1IF (Sludge Copy: Destruction), Tip (Tooltip - Normal)
+{
+Destruction
+}
+
+STRING 8905
+// Abilities: A1IF (Sludge Copy: Destruction), Ubertip (Tooltip - Normal - Extended)
+{
+Kills the caster. The original reduces the cooldown of the Split ability by 25%.
 }
 
 STRING 8906
@@ -58274,6 +58212,53 @@ STRING 8913
 // Abilities: A08E (Legionary: Flaming crystal), Researchhotkey (Hotkey - Learn)
 {
 E
+}
+
+STRING 8919
+// Abilities: A0SS (Sludge Copy: Poison Touch), Ubertip (Tooltip - Normal - Extended)
+{
+When your hero is attacked, apply poison to the attacker. The poison slows attack and movement speed and deals |cffbe81f7damage|r every second.
+}
+
+STRING 8920
+// Abilities: A0S3 (Бонус: Poison Touch), Name (Name)
+{
+Бонус: Poison Touch
+}
+
+STRING 8921
+// Abilities: A0RA (Sludge: Poison Touch), Researchubertip (Tooltip - Learn - Extended)
+{
+When your hero is attacked, apply poison to the attacker. The poison slows attack and movement speed by 10% and deals |cffbe81f78/11/14/17/20|r damage every second.
+|cffffcc00Duration:|r 4 seconds.
+}
+
+STRING 8922
+// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
+{
+When your hero is attacked, apply poison to the attacker. The poison slows attack and movement speed by 10% and deals |cffbe81f78|r damage every second.
+|cffffcc00Duration:|r 4 seconds.
+}
+
+STRING 8923
+// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
+{
+When your hero is attacked, apply poison to the attacker. The poison slows attack and movement speed by 10% and deals |cffbe81f711|r damage every second.
+|cffffcc00Duration:|r 4 seconds.
+}
+
+STRING 8924
+// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
+{
+When your hero is attacked, apply poison to the attacker. The poison slows attack and movement speed by 10% and deals |cffbe81f714|r damage every second.
+|cffffcc00Duration:|r 4 seconds.
+}
+
+STRING 8925
+// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
+{
+When your hero is attacked, apply poison to the attacker. The poison slows attack and movement speed by 10% and deals |cffbe81f717|r damage every second.
+|cffffcc00Duration:|r 4 seconds.
 }
 
 STRING 8926
@@ -61070,6 +61055,13 @@ STRING 9358
 |cffffcc00Уровень 2:|r Злобный тотем
 }
 
+STRING 9359
+// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
+{
+When your hero is attacked, apply poison to the attacker. The poison slows attack and movement speed by 10% and deals |cffbe81f720|r damage every second.
+|cffffcc00Duration:|r 4 seconds.
+}
+
 STRING 9360
 // Items: I0HB (Small Coin), Description (Description)
 {
@@ -61081,6 +61073,18 @@ STRING 9361
 // Abilities: A06B (|cffffcc00Уровень 2:|r Благородный рыцарь), Name (Name)
 {
 |cffffcc00Уровень 2:|r Благородный рыцарь
+}
+
+STRING 9362
+// Abilities: A0T8 (Sludge: Adaptation), Researchubertip (Tooltip - Learn - Extended)
+{
+Depending on the ability level, receive bonuses:
+
+|cffffcc00Level 1|r - 3 health regeneration.
+|cffffcc00Level 2|r - 5 armor.
+|cffffcc00Level 3|r - Deals |cffbe81f7450|r damage to nearby enemies upon death.
+|cffffcc00Level 4|r - 75 movement speed.
+|cffffcc00Level 5|r - 20% magic damage resistance.
 }
 
 STRING 9363
@@ -63573,10 +63577,27 @@ STRING 9746
 W
 }
 
+STRING 9747
+// Abilities: A0T8 (Sludge: Adaptation), Ubertip (Tooltip - Normal - Extended)
+{
+Depending on the ability level, receive bonuses:
+
+|cffffcc00Level 1|r - 3 health regeneration.
+}
+
 STRING 9748
 // Abilities: A02U (Sun King: Heating UpXXX), Hotkey (Hotkey - Normal)
 {
 W
+}
+
+STRING 9749
+// Abilities: A0T8 (Sludge: Adaptation), Ubertip (Tooltip - Normal - Extended)
+{
+Depending on the ability level, receive bonuses:
+
+|cffffcc00Level 1|r - 3 health regeneration.
+|cffffcc00Level 2|r - 5 armor.
 }
 
 STRING 9750
@@ -63586,6 +63607,39 @@ Restore the ally |cffbe81f7250/325/400/475/550|r health over time, but takes 5/7
 |cffffcc00Duration:|r 5 seconds.
 |cffffcc00Cooldown:|r 5 seconds.
 |cffffcc00Cost:|r 20/30/40/50/60 mana.
+}
+
+STRING 9751
+// Abilities: A0T8 (Sludge: Adaptation), Ubertip (Tooltip - Normal - Extended)
+{
+Depending on the ability level, receive bonuses:
+
+|cffffcc00Level 1|r - 3 health regeneration.
+|cffffcc00Level 2|r - 5 armor.
+|cffffcc00Level 3|r - Deals |cffbe81f7450|r damage to nearby enemies upon death.
+}
+
+STRING 9752
+// Abilities: A0T8 (Sludge: Adaptation), Ubertip (Tooltip - Normal - Extended)
+{
+Depending on the ability level, receive bonuses:
+
+|cffffcc00Level 1|r - 3 health regeneration.
+|cffffcc00Level 2|r - 5 armor.
+|cffffcc00Level 3|r - Deals |cffbe81f7450|r damage to nearby enemies upon death.
+|cffffcc00Level 4|r - 75 movement speed.
+}
+
+STRING 9753
+// Abilities: A0T8 (Sludge: Adaptation), Ubertip (Tooltip - Normal - Extended)
+{
+Depending on the ability level, receive bonuses:
+
+|cffffcc00Level 1|r - 3 health regeneration.
+|cffffcc00Level 2|r - 5 armor.
+|cffffcc00Level 3|r - Deals |cffbe81f7450|r damage to nearby enemies upon death.
+|cffffcc00Level 4|r - 75 movement speed.
+|cffffcc00Level 5|r - 20% magic damage resistance.
 }
 
 STRING 9756
@@ -67325,13 +67379,6 @@ Destroys an item.
 |cffffcc00Potions are destroyed for free.|r
 }
 
-STRING 10323
-// Abilities: A0RA (Sludge: Poison Touch), Researchubertip (Tooltip - Learn - Extended)
-{
-When your hero is attacked, inflicts poison on the enemy, which slows down attack and movement speed by 20% and deals |cffbe81f715|r damage every second.
-|cffffcc00Duration:|r 2/4/6/8/10 seconds.
-}
-
 STRING 10324
 // Abilities: A00H (Артефакт: Сундук мертвеца), Name (Name)
 {
@@ -69004,13 +69051,6 @@ STRING 10599
 Charged.
 }
 
-STRING 10600
-// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero is attacked, inflicts poison on the enemy, which slows down attack and movement speed by 20% and deals |cffbe81f715|r damage every second.
-|cffffcc00Duration:|r 2 seconds.
-}
-
 STRING 10601
 // Buffs/Effects: B07N (), Buffubertip (Tooltip - Extended)
 {
@@ -69401,13 +69441,6 @@ STRING 10665
 Your next activated non-corrupted artifact will trigger three times.
 }
 
-STRING 10666
-// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero is attacked, inflicts poison on the enemy, which slows down attack and movement speed by 20% and deals |cffbe81f715|r damage every second.
-|cffffcc00Duration:|r 4 seconds.
-}
-
 STRING 10667
 // Buffs/Effects: B06K (), Buffubertip (Tooltip - Extended)
 {
@@ -69646,13 +69679,6 @@ STRING 10706
 // Buffs/Effects: B061 (), Buffubertip (Tooltip - Extended)
 {
 Attack power reduced.
-}
-
-STRING 10707
-// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero is attacked, inflicts poison on the enemy, which slows down attack and movement speed by 20% and deals |cffbe81f715|r damage every second.
-|cffffcc00Duration:|r 6 seconds.
 }
 
 STRING 10708
@@ -70197,13 +70223,6 @@ STRING 10797
 Mana regenerates faster.
 }
 
-STRING 10798
-// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero is attacked, inflicts poison on the enemy, which slows down attack and movement speed by 20% and deals |cffbe81f715|r damage every second.
-|cffffcc00Duration:|r 8 seconds.
-}
-
 STRING 10799
 // Buffs/Effects: B04T (), Buffubertip (Tooltip - Extended)
 {
@@ -70280,13 +70299,6 @@ STRING 10811
 // Buffs/Effects: B04M (), Buffubertip (Tooltip - Extended)
 {
 Attack power increased.
-}
-
-STRING 10812
-// Abilities: A0RA (Sludge: Poison Touch), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero is attacked, inflicts poison on the enemy, which slows down attack and movement speed by 20% and deals |cffbe81f715|r damage every second.
-|cffffcc00Duration:|r 10 seconds.
 }
 
 STRING 10813
@@ -72340,12 +72352,6 @@ STRING 11151
 Armor increased.
 }
 
-STRING 11152
-// Upgrades: R004 (Long Rifles), Name (Name)
-{
-Adaptation
-}
-
 STRING 11153
 // Upgrades: R003 (Iron Plating,Steel Plating,Mithril Plating), effect1 (Effect 1)
 {
@@ -72724,7 +72730,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.11.1T|r
+|cffbe81f7Boss Battle 1.11.2T|r
 }
 
 STRING 11219
