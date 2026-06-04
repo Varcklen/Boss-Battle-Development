@@ -36,6 +36,7 @@ scope QuestShopFrame initializer init
 	    local integer index = GetPlayerId( triggerPlayer ) + 1
 	    local unit hero = udg_hero[index]
 	    local integer questIndex = LoadInteger(udg_hash, GetHandleId(BlzGetTriggerFrame()), StringHash("quest_sell_button_item_index") )
+	    local integer positionIndex = LoadInteger(udg_hash, GetHandleId(BlzGetTriggerFrame()), StringHash("quest_sell_button_position_index") )
 	    
 	    if GetLocalPlayer() == triggerPlayer then
 	        call BlzFrameSetVisible( BlzGetTriggerFrame(),false)
@@ -48,12 +49,14 @@ scope QuestShopFrame initializer init
 			return
 		endif
 		
-		//call BJDebugMsg("questIndex: " + I2S(questIndex))
+		/*call BJDebugMsg("questIndex: " + I2S(questIndex))
+		call BJDebugMsg("positionIndex: " + I2S(positionIndex))*/
 
-        call BlzFrameSetVisible( quartart[questIndex],false)
-        call BlzFrameSetVisible( quarticon[questIndex],false)
+        call BlzFrameSetVisible( quartart[positionIndex],false)
+        call BlzFrameSetVisible( quarticon[positionIndex],false)
         if inv(hero, udg_QuestItem[questIndex]) == 0 then
             call UnitAddItem( hero, CreateItem( udg_QuestItem[questIndex], GetUnitX(hero), GetUnitY(hero) ) )
+
             set udg_QuestLimit[index] = true
             call SetPlayerState( triggerPlayer, PLAYER_STATE_RESOURCE_GOLD, IMaxBJ( 0, GetPlayerState(triggerPlayer, PLAYER_STATE_RESOURCE_GOLD) - GOLD_COST ) )
             if GetLocalPlayer() == triggerPlayer then
@@ -84,6 +87,7 @@ scope QuestShopFrame initializer init
         call BlzFrameSetSize( quartart[index], 0.04, 0.04 )
         call BlzFrameSetPoint( quartart[index], FRAMEPOINT_CENTER, quarticon[index], FRAMEPOINT_CENTER, 0, 0 )
         call SaveInteger(udg_hash, GetHandleId(quartart[index]), StringHash("quest_sell_button_item_index"), questIndex)
+        call SaveInteger(udg_hash, GetHandleId(quartart[index]), StringHash("quest_sell_button_position_index"), index)
         
         set trig = CreateTrigger()
         call BlzTriggerRegisterFrameEvent(trig, quartart[index], FRAMEEVENT_CONTROL_CLICK)

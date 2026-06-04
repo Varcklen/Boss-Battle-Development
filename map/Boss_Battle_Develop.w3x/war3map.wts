@@ -19361,6 +19361,20 @@ The hero jumps to a point, dealing |cffbe81f7260|r damage to enemies. Restores |
 |cffffcc00Cooldown:|r 1.5 seconds.
 }
 
+STRING 2885
+// Items: IV24 (Festive Cake), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Gain 300 Health and 100 Mana. You automatically decline the next 2 rewards offered.
+}
+
+STRING 2886
+// Items: IV24 (Festive Cake), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Gain 300 Health and 100 Mana. You automatically decline the next 2 rewards offered.
+}
+
 STRING 2889
 // Items: IV00 (Tea), Description (Description)
 {
@@ -21243,6 +21257,13 @@ STRING 3170
 - |cffffcc00Experience bonus:|r +180%
 }
 
+STRING 3171
+// Items: IV14 (Sandwich), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Get 1 artifact reward.
+}
+
 STRING 3172
 // Abilities: AZD2 (Усилитель 8: ДьявольскийXXX), Tip (Tooltip - Normal)
 {
@@ -21258,6 +21279,13 @@ STRING 3173
 - |cffffcc00Magic resistance:|r +40%
 - |cffffcc00Armor:|r +24
 - |cffffcc00Experience bonus:|r +160%
+}
+
+STRING 3174
+// Items: IV14 (Sandwich), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Get 1 artifact reward.
 }
 
 STRING 3175
@@ -39649,6 +39677,13 @@ STRING 6006
 Adaptation, [|cffffcc00Level %d|r]
 }
 
+STRING 6007
+// Items: IV21 (Bento Set), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Get 2 Trash and 2 artifact rewards.
+}
+
 STRING 6008
 // Abilities: A0T8 (Sludge: Adaptation), Tip (Tooltip - Normal)
 {
@@ -39677,6 +39712,13 @@ STRING 6012
 // Abilities: A0T8 (Sludge: Adaptation), Tip (Tooltip - Normal)
 {
 Adaptation, [|cffffcc00Level 5|r]
+}
+
+STRING 6013
+// Items: IV21 (Bento Set), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Get 2 Trash and 2 artifact rewards.
 }
 
 STRING 6018
@@ -58161,7 +58203,7 @@ Sludge Copy: Destruction
 }
 
 STRING 8904
-// Abilities: A1IF (Sludge Copy: Destruction), Tip (Tooltip - Normal)
+// Abilities: A02L (Superbot: Destruction), Tip (Tooltip - Normal)
 {
 Destruction
 }
@@ -59523,20 +59565,6 @@ STRING 9122
 {
 |cff4169e1Rare|r
 Activation: Select an artifact in your inventory to store it in your room. You can store up to 3 artifacts.
-}
-
-STRING 9123
-// Items: IV14 (Sandwich), Description (Description)
-{
-|cffB614F0Starting Bonus|r
-Get 1 reward option.
-}
-
-STRING 9124
-// Items: IV14 (Sandwich), Ubertip (Tooltip - Extended)
-{
-|cffB614F0Starting Bonus|r
-Get 1 reward option.
 }
 
 STRING 9125
@@ -65236,7 +65264,7 @@ R
 }
 
 STRING 9997
-// Abilities: A02L (Superbot: Destruction), Tip (Tooltip - Normal)
+// Abilities: A1IF (Sludge Copy: Destruction), Tip (Tooltip - Normal)
 {
 Destruction
 }
@@ -78523,13 +78551,6 @@ STRING 12065
 Get 2 Exile artifacts. These items existed in the arena in the past, but were cast into oblivion.
 }
 
-STRING 12066
-// Items: IV21 (Bento Set), Description (Description)
-{
-|cffB614F0Starting Bonus|r
-Get 2 Trash and 2 reward options.
-}
-
 STRING 12067
 // Items: IV21 (Bento Set), Name (Name)
 {
@@ -78540,13 +78561,6 @@ STRING 12068
 // Items: IV21 (Bento Set), Tip (Tooltip - Basic)
 {
 Bento Set
-}
-
-STRING 12069
-// Items: IV21 (Bento Set), Ubertip (Tooltip - Extended)
-{
-|cffB614F0Starting Bonus|r
-Get 2 Trash and 2 reward options.
 }
 
 STRING 12070
@@ -78601,13 +78615,6 @@ STRING 12077
 Get Trash and an item that allows you to |cFFE16B90forge|r a |cffe96a1clegendary|r artifact.
 }
 
-STRING 12078
-// Items: IV24 (Festive Cake), Description (Description)
-{
-|cffB614F0Starting Bonus|r
-Gain 300 max Health and Mana. You automatically decline the next 2 rewards offered.
-}
-
 STRING 12079
 // Items: IV24 (Festive Cake), Name (Name)
 {
@@ -78618,13 +78625,6 @@ STRING 12080
 // Items: IV24 (Festive Cake), Tip (Tooltip - Basic)
 {
 Festive Cake
-}
-
-STRING 12081
-// Items: IV24 (Festive Cake), Ubertip (Tooltip - Extended)
-{
-|cffB614F0Starting Bonus|r
-Gain 300 max Health and Mana. You automatically decline the next 2 rewards offered.
 }
 
 STRING 12082

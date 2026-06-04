@@ -1,0 +1,15 @@
+{
+  "Id": 1601305120,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "DamageTypeIgnore",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "ParamType": 5,
+    "value": "3"
+  }
+}
