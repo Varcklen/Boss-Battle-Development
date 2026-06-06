@@ -15,6 +15,7 @@ scope FreshWater initializer init
 		local integer index = GetPlayerId( user ) + 1
 		
 		set udg_rollbase[index] = udg_rollbase[index] + 1
+		set udg_roll[index] = udg_roll[index] + 1
 		call BaseTooltip_AddRefreshCost( user, -GOLD_DISCOUNT )
 		
 		set hero = null

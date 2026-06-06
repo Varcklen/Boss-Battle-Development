@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.11.2T|r
+|cffbe81f7Boss Battle 1.11.3T|r
 }
 
 STRING 2
@@ -11306,34 +11306,6 @@ At the beginning of each battle, after 20 seconds, fully restores health and man
 |cff81f260[Random bonus]|r
 }
 
-STRING 1702
-// Items: I0A3 (Discount coupon), Description (Description)
-{
-|cffbababcCommon|r
-When you split artifacts, it gives 150 gold.
-|cff81f260[Random bonus]|r
-}
-
-STRING 1703
-// Items: I0A3 (Discount coupon), Name (Name)
-{
-Discount coupon
-}
-
-STRING 1704
-// Items: I0A3 (Discount coupon), Tip (Tooltip - Basic)
-{
-Discount coupon
-}
-
-STRING 1705
-// Items: I0A3 (Discount coupon), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-When you split artifacts, it gives 150 gold.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1706
 // Items: I0A2 (Manawyrm fang), Description (Description)
 {
@@ -19375,6 +19347,20 @@ STRING 2886
 Gain 300 Health and 100 Mana. You automatically decline the next 2 rewards offered.
 }
 
+STRING 2887
+// Items: I0A3 (Discount Coupon), Description (Description)
+{
+|cffbababcCommon|r
+When you split an artifact, receive 150 gold. |cffffffff3|r charges. Restores charges after the battle.
+|cff81f260[Random bonus]|r
+}
+
+STRING 2888
+// Items: I0A3 (Discount Coupon), Name (Name)
+{
+Discount Coupon
+}
+
 STRING 2889
 // Items: IV00 (Tea), Description (Description)
 {
@@ -20704,6 +20690,12 @@ STRING 3083
 Gefest
 }
 
+STRING 3084
+// Items: I0A3 (Discount Coupon), Tip (Tooltip - Basic)
+{
+Discount Coupon
+}
+
 STRING 3085
 // Items: I00J (Teleportation Stone), Description (Description)
 {
@@ -21238,6 +21230,14 @@ STRING 3167
 // Abilities: S001 (Босс 3: Инженерный мастер (Мортира, Пассажир), Name (Name)
 {
 Босс 3: Инженерный мастер (Мортира, Пассажир)
+}
+
+STRING 3168
+// Items: I0A3 (Discount Coupon), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+When you split an artifact, receive 150 gold. |cffffffff3|r charges. Restores charges after the battle.
+|cff81f260[Random bonus]|r
 }
 
 STRING 3169
@@ -72758,7 +72758,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.11.2T|r
+|cffbe81f7Boss Battle 1.11.3T|r
 }
 
 STRING 11219

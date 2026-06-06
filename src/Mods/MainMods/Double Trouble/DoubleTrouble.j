@@ -69,7 +69,7 @@ scope DoubleTrouble initializer init
 	
 	//===============================================================
 	private function OnBattleEnd_Boss_Condition takes nothing returns boolean
-	    return isActive and BattleEndGlobal.GetDataBoolean("is_win")
+	    return isActive and BattleEndGlobal.GetDataBoolean("is_win") and ExtraArenaGeneral_IsPvPActive() == false
 	endfunction
 
 	private function OnBattleEnd_Boss takes nothing returns nothing
