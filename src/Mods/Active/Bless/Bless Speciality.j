@@ -6,7 +6,7 @@ scope BlessSpeciality initializer init
 		
 		loop
 			exitwhen i > 4
-			if udg_hero[i] != null then
+			if udg_hero[i] != null and SpecialLib_GetCurrectSpecial(udg_hero[i]) == 0 then
 				call NewSpecial( udg_hero[i], udg_DB_Ability_Special[GetRandomInt(1, udg_Database_NumberItems[37])] )
 			endif
 			set i = i + 1

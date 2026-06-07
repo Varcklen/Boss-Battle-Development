@@ -37,13 +37,7 @@ scope DealerE initializer init
     private function Main takes unit caster, unit target returns nothing 
     
         call PlaySpecialEffect(ANIMATION, caster)
-        set udg_CastLogic = true
-        set udg_Caster = caster
-        set udg_Target = target
-
-        set udg_Level = 5
-        set udg_Time = 20
-        call TriggerExecute( udg_TrigNow )
+        call CastLib_CastAbility( caster, target, udg_TrigNow, 5, 20 )
         
         set caster = null 
         set target = null

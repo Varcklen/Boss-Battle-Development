@@ -45,10 +45,8 @@ private function actions takes nothing returns nothing
 	    	set cyclA = 1
 	    	set cyclAEnd = procs
 	    	loop
-	    	exitwhen cyclA > cyclAEnd
-				set udg_RandomLogic = true
-	        	set udg_Caster = u
-	        	call TriggerExecute( udg_DB_Trigger_Spec[i] )
+	    		exitwhen cyclA > cyclAEnd
+	        	call CastLib_CastRandomAbility( u, udg_DB_Trigger_Spec[i], 1 )
     			//call textst( "|c00FFFF00Cast!", u, 64, 90, 15, 1.5 )
 	        	set cyclA = cyclA + 1
 	        endloop

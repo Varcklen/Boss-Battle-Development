@@ -1,4 +1,4 @@
-scope UsualNecklace initializer init
+scope EvilNecklace initializer init
 
 	globals
 		private constant integer ITEM_ID = 'I07Q'
@@ -10,7 +10,7 @@ scope UsualNecklace initializer init
 	endglobals
 
 	private function condition takes nothing returns boolean
-		return udg_fightmod[3] == false and IsUnitAlive(UnitDied.TriggerUnit) and IsUnitEnemy( UnitDied.GetDataUnit("killer"), GetOwningPlayer( UnitDied.GetDataUnit("unit_died") ) )
+		return combat(UnitDied.GetDataUnit("killer"), false, 0) and udg_fightmod[3] == false and IsUnitAlive(UnitDied.TriggerUnit) and IsUnitEnemy( UnitDied.GetDataUnit("killer"), GetOwningPlayer( UnitDied.GetDataUnit("unit_died") ) )
 	endfunction
 
 	private function SwapItem takes unit caster, integer oldItemId, integer newItemId returns nothing

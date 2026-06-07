@@ -50,7 +50,7 @@ scope PowerUpMode initializer init
 	endfunction
 	
 	private function OnBattleEnd_Condition takes nothing returns boolean
-	    return udg_fightmod[3] == false and ExtraArenaGeneral_IsPvPActive() == false
+	    return ExtraArenaGeneral_IsPvPActive() == false
 	endfunction
 
 	private function OnBattleEnd takes nothing returns nothing

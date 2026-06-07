@@ -10,9 +10,7 @@ scope Krabster initializer init
 	    local integer id = GetHandleId( GetExpiredTimer( ) )
 	    local unit caster = LoadUnitHandle( udg_hash, id, StringHash( "krabster_potion" ) ) 
 	    
-	    set udg_Caster = caster
-	    set udg_RandomLogic = true
-	    call TriggerExecute( udg_DB_Trigger_Pot[GetRandomInt(1, 10)] )
+	    call CastLib_CastRandomAbility(caster, udg_DB_Trigger_Pot[GetRandomInt(1, 10)], 1 )
 	    call FlushChildHashtable( udg_hash, id )
 	    
 	    set caster = null

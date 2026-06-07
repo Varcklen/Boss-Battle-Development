@@ -60,7 +60,7 @@ scope CurseSeeker initializer init
         call DestroyEffect( AddSpecialEffect( "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageDeathCaster.mdl", GetUnitX( bj_lastCreatedUnit ), GetUnitY( bj_lastCreatedUnit ) ) )
         call SetUnitScale(bj_lastCreatedUnit, 2, 2, 2 )
         call UnitAddAbility( bj_lastCreatedUnit, 'A0Z7')
-        call SetUnitMoveSpeed( bj_lastCreatedUnit, 200 )
+        call SetUnitMoveSpeed( bj_lastCreatedUnit, 175 )
         call IssuePointOrder( bj_lastCreatedUnit, "move", GetUnitX( target ), GetUnitY( target ) )
         
         set id = InvokeTimerWithUnit( bj_lastCreatedUnit, "curse_seeker_end", 0.2, true, function end )

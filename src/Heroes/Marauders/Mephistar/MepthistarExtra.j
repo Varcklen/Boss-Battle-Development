@@ -103,9 +103,7 @@ scope MepthistarExtra initializer init
 	    loop
 	        exitwhen i > PLAYERS_LIMIT
 	        if unitst( udg_hero[i], udg_Mephistar, "ally" ) then 
-	            set udg_Caster = udg_hero[i]
-	            set udg_RandomLogic = true
-	            call TriggerExecute( udg_DB_Trigger_Pot[GetRandomInt( 1, udg_Database_NumberItems[9] )] )
+	            call CastLib_CastRandomAbility( udg_hero[i], udg_DB_Trigger_Pot[GetRandomInt( 1, udg_Database_NumberItems[9] )], 1 )
 	        endif
 	        set i = i + 1
 	    endloop

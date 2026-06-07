@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.11.3T|r
+|cffbe81f7Boss Battle 1.11.4T|r
 }
 
 STRING 2
@@ -5932,36 +5932,6 @@ STRING 924
 Reduces damage taken from attacks by 15%. Attackers take |cffbe81f7damage|r equal to the absorbed damage.
 }
 
-STRING 925
-// Items: I0FH (Fortune-telling ball), Description (Description)
-{
-|cffbababcCommon|r
-Activation: |cFFE16B90Forges|r an item. The item is guaranteed to be one of your reward artifacts.
-|cFF959697(Future: Nothing)|r
-|cffffcc00Cooldown:|r 60 seconds.
-}
-
-STRING 926
-// Items: I0FH (Fortune-telling ball), Name (Name)
-{
-Fortune-telling ball
-}
-
-STRING 927
-// Items: I0FH (Fortune-telling ball), Tip (Tooltip - Basic)
-{
-Fortune-telling ball
-}
-
-STRING 928
-// Items: I0FH (Fortune-telling ball), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: |cFFE16B90Forges|r an item. The item is guaranteed to be one of your reward artifacts.
-|cFF959697(Future: Nothing)|r
-|cffffcc00Cooldown:|r 60 seconds.
-}
-
 STRING 929
 // Items: I0FG (Royal Chameleon), Description (Description)
 {
@@ -11306,6 +11276,37 @@ At the beginning of each battle, after 20 seconds, fully restores health and man
 |cff81f260[Random bonus]|r
 }
 
+STRING 1702
+// Abilities: A06K (|cffffcc00Уровень 9:|r Поглотитель), Ubertip (Tooltip - Normal - Extended)
+{
+- Removes a random item from each hero's inventory and teleports them to hero rooms.
+- Takes 40% less magic damage.
+- Burns 4 mana from each hero every second.
+- |cff00cceeAt 75% health:|r Every 12 seconds, it rains fire from the sky, dealing |cffbe81f7200|r damage after a 3 second delay.
+- |cff00cceeAt 50% health:|r The boss summons 2 burners. They have all the boss powers.
+- |cff00cceeAt 25% health:|r Every 6 seconds, it rains fire from the sky, dealing |cffbe81f7200|r damage.
+}
+
+STRING 1703
+// Abilities: A1HB (Blessing: Speciality), Ubertip (Tooltip - Normal - Extended)
+{
+All heroes receive a random |cff8080ffSpecial|r (if they don't have it).
+}
+
+STRING 1704
+// Items: I0FH (Fortune-Telling Ball), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cFFE16B90Forge|r an artifact and place it in the future artifact reward |cFF959697(Future: Nothing)|r.
+|cffffcc00Cooldown:|r 60 seconds.
+}
+
+STRING 1705
+// Items: I0FH (Fortune-Telling Ball), Name (Name)
+{
+Fortune-Telling Ball
+}
+
 STRING 1706
 // Items: I0A2 (Manawyrm fang), Description (Description)
 {
@@ -12241,9 +12242,9 @@ STRING 1839
 }
 
 STRING 1840
-// Abilities: A1HB (Blessing: Speciality), Ubertip (Tooltip - Normal - Extended)
+// Items: I0FH (Fortune-Telling Ball), Tip (Tooltip - Basic)
 {
-All heroes receive a random |cff8080ffSpecial|r.
+Fortune-Telling Ball
 }
 
 STRING 1841
@@ -39719,6 +39720,14 @@ STRING 6013
 {
 |cffB614F0Starting Bonus|r
 Get 2 Trash and 2 artifact rewards.
+}
+
+STRING 6014
+// Items: I0FH (Fortune-Telling Ball), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cFFE16B90Forge|r an artifact and place it in the future artifact reward |cFF959697(Future: Nothing)|r.
+|cffffcc00Cooldown:|r 60 seconds.
 }
 
 STRING 6018
@@ -72758,7 +72767,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.11.3T|r
+|cffbe81f7Boss Battle 1.11.4T|r
 }
 
 STRING 11219
@@ -75367,17 +75376,6 @@ STRING 11601
 - Every 15 seconds, invokes fire lines, inflicting 80 damage every second.
 |cffffcc00Duration:|r 5 seconds.
 - |cff00cceeAt 30% health:|r The boss takes on the form of a spirit and creates 4 portals on the edges of the arena, from which the minions constantly appear. When the portals are destroyed, the boss descends to the ground and starts summoning portals every 12 seconds.
-}
-
-STRING 11602
-// Abilities: A06K (|cffffcc00Уровень 9:|r Поглотитель), Ubertip (Tooltip - Normal - Extended)
-{
-- Removes a random item from each hero's inventory and teleports them to hero rooms.
-- Takes 40% less magic damage.
-- Burns 4 mana from each hero every second.
-- |cff00cceeAt 75% health:|r Every 12 seconds, it rains fire from the sky, dealing |cffbe81f7200|r damage.
-- |cff00cceeAt 50% health:|r The boss summons 2 burners. They have all the boss powers.
-- |cff00cceeAt 25% health:|r Every 6 seconds, it rains fire from the sky, dealing |cffbe81f7200|r damage.
 }
 
 STRING 11603

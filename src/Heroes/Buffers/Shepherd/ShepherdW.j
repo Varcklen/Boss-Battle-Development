@@ -167,13 +167,9 @@ scope ShepherdW initializer init
                 set u = FirstOfGroup(g)
                 exitwhen u == null
                 //
-                    set udg_Target = u
-                    set udg_Caster = caster
-                    set udg_CastLogic = true
                     set udg_CareLogic = true
-                    call TriggerExecute( udg_DB_Trigger_Spec[i] )
+                    call CastLib_CastAbility( caster, u, udg_DB_Trigger_Spec[i], lvl, 20 )
                     set udg_CareLogic = false
-                    set udg_CastLogic = false
                 //
                 call GroupRemoveUnit(g,u)
             endloop

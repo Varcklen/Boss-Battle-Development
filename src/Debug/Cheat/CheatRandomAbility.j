@@ -34,7 +34,7 @@ scope CheatRandomAbility initializer init
     		call SaveInteger( udg_hash, id, StringHash( "cheat_cast_index" ), abilityIndex )
 	    endif
 	    
-	    call CastRandomAbility(caster, 5, trig )
+	    call CastLib_CastRandomAbility(caster, trig, 5 )
 	    
 	    set trig = null
 	    set caster = null

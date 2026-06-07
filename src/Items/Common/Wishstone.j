@@ -5,11 +5,11 @@ scope Wishstone initializer init
 	endglobals
 	
 	private function condition takes nothing returns boolean
-		return inv(Event_ItemRewardCreate_Hero, ITEM_ID) > 0 and ItemCreate_ItemPosition(Event_ItemRewardCreate_Position, 2)
+		return inv(Event_ItemRewardCreate_Hero, ITEM_ID) > 0
 	endfunction
 	
 	private function action takes nothing returns nothing
-		set Event_ItemRewardCreate_ItemReward = udg_DB_Item_Destroyed[GetRandomInt(1,udg_Database_NumberItems[29])]
+		call ItemRandomizerLib_OfferItemLater( Event_ItemRewardCreate_Hero, udg_DB_Item_Destroyed[GetRandomInt(1,udg_Database_NumberItems[29])] )
 	endfunction
 	
 	private function init takes nothing returns nothing
