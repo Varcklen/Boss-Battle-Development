@@ -2226,7 +2226,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Library\\List.trg",
           "Files": []
         },
@@ -2296,7 +2296,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Library\\Combat.trg",
           "Files": []
         },
@@ -2408,7 +2408,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Library\\BuffDeleteLib.trg",
           "Files": []
         },
@@ -2429,7 +2429,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Library\\CommonTimer.trg",
           "Files": []
         },
@@ -2660,14 +2660,14 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Library\\ItemManipulation.j",
           "Files": []
         },
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Library\\CastLib.j",
           "Files": []
         }
@@ -2702,7 +2702,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "BasicCore\\Database\\Database Ability.j",
               "Files": []
             },
@@ -2725,14 +2725,14 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "BasicCore\\Database.trg",
           "Files": []
         },
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "BasicCore\\Start.trg",
           "Files": []
         },
@@ -3217,7 +3217,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "BasicCore\\EventSystem\\Event System.j",
               "Files": []
             },
@@ -3238,7 +3238,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "BasicCore\\EventSystem\\Trigger.j",
               "Files": []
             },
@@ -3779,7 +3779,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BasicCore\\Counters",
           "Files": [
             {
@@ -4034,7 +4034,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Mods\\Difficulty\\DifficultyEffects\\DifficultyThree.j",
                   "Files": []
                 },
@@ -4188,7 +4188,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Mods\\MainMods\\Power Up\\PowerUpMode.j",
                   "Files": []
                 }
@@ -4902,7 +4902,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Tower\\Reward Selection\\ItemRandomizerLib.trg",
               "Files": []
             },
@@ -5719,7 +5719,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Frames\\ForgeFon\\ForgeInit.trg",
               "Files": []
             },
@@ -6071,7 +6071,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Ancient Necklace.j",
               "Files": []
             },
@@ -6267,14 +6267,14 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Breastplate of Judgement.j",
               "Files": []
             },
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Blooming Weed.j",
               "Files": []
             },
@@ -6379,7 +6379,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Exile skull.trg",
               "Files": []
             },
@@ -6414,7 +6414,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Filosofy Potion.trg",
               "Files": []
             },
@@ -6442,14 +6442,14 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Frozen Blood.j",
               "Files": []
             },
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Fortune-Telling Ball.j",
               "Files": []
             },
@@ -7471,7 +7471,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Transformer.j",
               "Files": []
             },
@@ -7506,7 +7506,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Evil Necklace.j",
               "Files": []
             },
@@ -7534,7 +7534,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Items\\Common\\Wishstone.j",
               "Files": []
             },
@@ -7906,7 +7906,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Items\\Rare\\EternalHarvest.trg",
               "Files": []
             },
@@ -8557,7 +8557,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Items\\Rare\\Treasure Map.trg",
               "Files": []
             },
@@ -9041,7 +9041,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Items\\Legendary\\OathOfResourcefullness.j",
               "Files": []
             },
@@ -11792,7 +11792,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Deffenders\\Armsmaster\\ArmsE.trg",
                   "Files": []
                 }
@@ -13055,7 +13055,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Killers\\Jester\\JesterQ.trg",
                   "Files": []
                 },
@@ -13356,7 +13356,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": true,
+                  "isExpanded": false,
                   "path": "Heroes\\Hybrids\\Monk\\MonkW.trg",
                   "Files": []
                 },
@@ -16978,7 +16978,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "FichInEnd\\Cristal.trg",
           "Files": []
         },
