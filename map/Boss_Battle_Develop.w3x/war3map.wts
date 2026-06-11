@@ -704,12 +704,6 @@ STRING 107
 (Федор)
 }
 
-STRING 108
-// Units: o007 (Evil totem), Name (Name)
-{
-Evil totem
-}
-
 STRING 109
 // Units: o006 (Seiber), EditorSuffix (Name - Editor Suffix)
 {
@@ -5930,6 +5924,35 @@ STRING 924
 // Abilities: A09B (Mimic: Reflective Surface), Ubertip (Tooltip - Normal - Extended)
 {
 Reduces damage taken from attacks by 15%. Attackers take |cffbe81f7damage|r equal to the absorbed damage.
+}
+
+STRING 925
+// Units: o007 (Evily), Name (Name)
+{
+Evily
+}
+
+STRING 926
+// Abilities: A0XX (|cffffcc00Уровень 3:|r Вор душ), Tip (Tooltip - Normal)
+{
+Soul Thief
+}
+
+STRING 927
+// Abilities: A0XX (|cffffcc00Уровень 3:|r Вор душ), Ubertip (Tooltip - Normal - Extended)
+{
+- It has a maximum speed of movement.
+- |cff00cceeAt 75% health:|r Every 7 seconds, zones appear under the heroes. After 3 seconds, they explode, inflicting |cffbe81f7250|r damage.
+- |cff00cceeAt 50% health:|r Every 5 seconds reduces the movement speed of heroes by 50% for 2 seconds.
+- |cff00cceeAt 25% health:|r Movement speed decreases more often.
+}
+
+STRING 928
+// Abilities: A0HG (|cffffcc00Уровень 7:|r Суккуб), Ubertip (Tooltip - Normal - Extended)
+{
+- Every 6 seconds, jumps to a random enemy, causing |cffbe81f775|r damage and restoring |cffbe81f775|r health to the jumper. Summons a Milady who has the same ability.
+- |cff00cceeAt 50% health:|r The boss summons 2 Milady for each hero.
+- |cff00cceeAt 25% health:|r The boss summons 2 Milady for each hero.
 }
 
 STRING 929
@@ -35430,12 +35453,6 @@ STRING 5364
 |cffffcc00Уровень 3:|r Вор душ
 }
 
-STRING 5365
-// Abilities: A0XX (|cffffcc00Уровень 3:|r Вор душ), Tip (Tooltip - Normal)
-{
-Soul thief
-}
-
 STRING 5366
 // Abilities: A00J (|cffffcc00Уровень 4:|r Мастер клинков), Ubertip (Tooltip - Normal - Extended)
 {
@@ -39728,6 +39745,12 @@ STRING 6014
 |cffbababcCommon|r
 Activation: |cFFE16B90Forge|r an artifact and place it in the future artifact reward |cFF959697(Future: Nothing)|r.
 |cffffcc00Cooldown:|r 60 seconds.
+}
+
+STRING 6015
+// Abilities: A06D (|cffffcc00Уровень 3:|r Великий герой), Tip (Tooltip - Normal)
+{
+Mysterious Hero
 }
 
 STRING 6018
@@ -61072,12 +61095,6 @@ STRING 9355
 |cffffcc00Уровень 3:|r Великий герой
 }
 
-STRING 9356
-// Abilities: A06D (|cffffcc00Уровень 3:|r Великий герой), Tip (Tooltip - Normal)
-{
-Mysterious hero
-}
-
 STRING 9357
 // Abilities: A0IS (Unique: Chaos), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75081,16 +75098,6 @@ STRING 11567
 Sleepy Ogre
 }
 
-STRING 11568
-// Abilities: A0XX (|cffffcc00Уровень 3:|r Вор душ), Ubertip (Tooltip - Normal - Extended)
-{
-- It has a maximum speed of movement.
-- |cff00cceeAt 75% health:|r Every 7 seconds, zones appear under the heroes. After 3 seconds, they explode, inflicting |cffbe81f7250|r damage.
-- |cff00cceeAt 50% health:|r Every 5 seconds reduces the movement speed of heroes by 50%.
-|cffffcc00Duration:|r 2.5 seconds.
-- |cff00cceeAt 25% health:|r Movement speed decreases more often.
-}
-
 STRING 11569
 // Abilities: A0XW (|cffffcc00Уровень 2:|r Разбойник), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75205,14 +75212,6 @@ STRING 11582
 - |cff00cceeAt 75% health:|r Summons a magical forest. Each nearby tree deals 40 damage per second.
 - |cff00cceeAt 50% health:|r All trees come to life and become ents.
 - |cff00cceeAt 25% health: |rIncreases the movement speed of minions by 200%. Braids all the heroes for 5 seconds.
-}
-
-STRING 11583
-// Abilities: A0HG (|cffffcc00Уровень 7:|r Суккуб), Ubertip (Tooltip - Normal - Extended)
-{
-- Every 8 seconds, jumps to a random enemy, causing him |cffbe81f775|r damage and restoring |cffbe81f775|r health to himself. Summons a milady who has the same ability.
-- |cff00cceeAt 50% health:|r The boss summons 2 milady for each hero.
-- |cff00cceeAt 25% health:|r The boss summons 2 milady for each hero.
 }
 
 STRING 11584
