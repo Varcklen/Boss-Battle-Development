@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.11.5T|r
+|cffbe81f7Boss Battle 1.11.6T|r
 }
 
 STRING 2
@@ -702,6 +702,13 @@ STRING 107
 // Units: o008 (Demolisher), EditorSuffix (Name - Editor Suffix)
 {
 (Федор)
+}
+
+STRING 108
+// Items: I09C (Wild Hunt), Description (Description)
+{
+|cffffcc00Quest:|r Activate 40 |cff60C445Unique|r |cFF959697(0/40)|r.
+|cffffcc00Reward:|r Witcher Medallion.
 }
 
 STRING 109
@@ -8120,13 +8127,6 @@ STRING 1236
 Totem of Exchange
 }
 
-STRING 1237
-// Abilities: A09R (Armsmaster: Opportunistic Reflexes), Researchubertip (Tooltip - Learn - Extended)
-{
-The hero has a |cffd7df016%/8%/10%/12%/14%|r chance to critically hit or reduces damage taken by 80%. Critical damage deals 75% more damage and reduces armor by 3.
-|cffffcc00Duration:|r 8 seconds.
-}
-
 STRING 1238
 // Items: I0DB (Blockade), Description (Description)
 {
@@ -12038,13 +12038,6 @@ STRING 1810
 |cffffcc00Reward:|r Scientist Card.
 }
 
-STRING 1811
-// Items: I09C (Wild Hunt), Description (Description)
-{
-|cffffcc00Quest:|r Activate 40 |cff60C445Unique|r |cFF959697(0/40)|r.
-|cffffcc00Reward:|r Witcher medallion.
-}
-
 STRING 1812
 // Items: I09Q (Idol of Greed), Description (Description)
 {
@@ -12059,13 +12052,6 @@ STRING 1813
 |cff4169e1Rare|r
 Increases health by 1250.
 Your hero takes pure damage instead of all heroes.
-}
-
-STRING 1814
-// Items: I09C (Wild Hunt), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Activate 40 |cff60C445Unique|r |cFF959697(0/40)|r.
-|cffffcc00Reward:|r Witcher medallion.
 }
 
 STRING 1815
@@ -13546,12 +13532,6 @@ Activation: Increases the number of charges of |cff088a08potions|r in your inven
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
-STRING 2028
-// Abilities: A1EH (Extra: Rubies (Legionary)), Ubertip (Tooltip - Normal - Extended)
-{
-The hero can receive rubies from some abilities. Each ruby increases Attack by 1.
-}
-
 STRING 2029
 // Items: I07T (Magician's Boots), Name (Name)
 {
@@ -13562,12 +13542,6 @@ STRING 2030
 // Items: I07T (Magician's Boots), Tip (Tooltip - Basic)
 {
 Magician's Boots
-}
-
-STRING 2031
-// Abilities: A08E (Legionary: Flaming crystal), Researchubertip (Tooltip - Learn - Extended)
-{
-With a probability of |cffd7df012%/4%/6%/8%/10%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
 }
 
 STRING 2032
@@ -17810,12 +17784,6 @@ STRING 2657
 Extra: Combination
 }
 
-STRING 2658
-// Abilities: A08E (Legionary: Flaming crystal), Ubertip (Tooltip - Normal - Extended)
-{
-With a probability of |cffd7df012%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
-}
-
 STRING 2659
 // Items: I03H (Ikaros Mudstone), Name (Name)
 {
@@ -17826,12 +17794,6 @@ STRING 2660
 // Items: I03H (Ikaros Mudstone), Tip (Tooltip - Basic)
 {
 Ikaros Mudstone
-}
-
-STRING 2661
-// Abilities: A08E (Legionary: Flaming crystal), Ubertip (Tooltip - Normal - Extended)
-{
-With a probability of |cffd7df014%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
 }
 
 STRING 2662
@@ -19657,12 +19619,6 @@ STRING 2932
 Tome of Oblivion
 }
 
-STRING 2933
-// Abilities: A08E (Legionary: Flaming crystal), Ubertip (Tooltip - Normal - Extended)
-{
-With a probability of |cffd7df016%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
-}
-
 STRING 2934
 // Items: I01L (Slippers of Madness), Name (Name)
 {
@@ -19676,7 +19632,7 @@ Slippers of Madness
 }
 
 STRING 2936
-// Abilities: A08E (Legionary: Flaming crystal), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A08E (Legionary: Flaming Crystal), Ubertip (Tooltip - Normal - Extended)
 {
 With a probability of |cffd7df018%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
 }
@@ -20948,12 +20904,6 @@ STRING 3120
 // Abilities: A1GL (Aspect: Skeletor: Aspect of Grateful Dead), Ubertip (Tooltip - Normal - Extended)
 {
 Skeleportation no longer teleports the hero, but summons a skeleton for each of the ability instead.
-}
-
-STRING 3121
-// Abilities: A08E (Legionary: Flaming crystal), Ubertip (Tooltip - Normal - Extended)
-{
-With a probability of |cffd7df0110%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
 }
 
 STRING 3122
@@ -26561,20 +26511,6 @@ STRING 3988
 // Abilities: A1EM (Mephistar: Soul Split), Name (Name)
 {
 Mephistar: Soul Split
-}
-
-STRING 3989
-// Abilities: A04L (Doctor: Unreachable), Researchubertip (Tooltip - Learn - Extended)
-{
-Increases Health by 75/150/225/300/375.
-When a Hero's ability is used, reduces the Attack of nearby enemies by 2/3/4/5/6.
-}
-
-STRING 3990
-// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Health by 75.
-When a Hero's ability is used, reduces the Attack of nearby enemies by 2.
 }
 
 STRING 3991
@@ -35453,6 +35389,13 @@ STRING 5364
 |cffffcc00Уровень 3:|r Вор душ
 }
 
+STRING 5365
+// Items: I09C (Wild Hunt), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Activate 40 |cff60C445Unique|r |cFF959697(0/40)|r.
+|cffffcc00Reward:|r Witcher Medallion.
+}
+
 STRING 5366
 // Abilities: A00J (|cffffcc00Уровень 4:|r Мастер клинков), Ubertip (Tooltip - Normal - Extended)
 {
@@ -39753,6 +39696,23 @@ STRING 6015
 Mysterious Hero
 }
 
+STRING 6016
+// Abilities: A1IG (.General: Difficulty Stat Ignore), Name (Name)
+{
+.General: Difficulty Stat Ignore
+}
+
+STRING 6017
+// Abilities: A06C (|cffffcc00Уровень 2:|r Злобный тотем), Ubertip (Tooltip - Normal - Extended)
+{
+- No attack.
+- When the boss is attacked, the attacker takes |cffbe81f715|r damage.
+- Every 4 seconds it creates a fiery explosion that deals |cffbe81f745|r damage every half second within 5 seconds.
+- If it doesn't take damage, the boss focuses.
+- |cff00cceeAt 25% and 75% health:|r Summons 4 shadows. When the shadow approaches the boss, it dies and creates a fiery explosion next to each hero.
+- |cff00cceeAt 50% health:|r A fiery explosion is created more often.
+}
+
 STRING 6018
 // Abilities: A0T7 (Artifact: Cosmic reed), Name (Name)
 {
@@ -39769,6 +39729,15 @@ STRING 6020
 // Abilities: A0SJ (Demoman: Goblin mood), Researchhotkey (Hotkey - Learn)
 {
 R
+}
+
+STRING 6021
+// Abilities: A0OC (Legionary: Encouragement), Researchubertip (Tooltip - Learn - Extended)
+{
+Increases attack power by 15/20/25/30/35 and attack speed by 5%/10%/15%/20%/25% for all heroes. Increases duration by 1 second for each ruby.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 12 seconds.
+|cffffcc00Cost:|r 60 mana.
 }
 
 STRING 6022
@@ -39921,6 +39890,14 @@ STRING 6046
 Poison Touch
 }
 
+STRING 6047
+// Abilities: A0OC (Legionary: Encouragement), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack power by 15 and attack speed by 5% for all heroes. Increases duration by 1 second for each ruby.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 6048
 // Items: I0HI (Power Wand), Ubertip (Tooltip - Extended)
 {
@@ -39950,6 +39927,22 @@ STRING 6052
 // Abilities: A0RZ (Admiral: Potion "Plasebo"), Hotkey (Hotkey - Normal)
 {
 W
+}
+
+STRING 6053
+// Abilities: A0OC (Legionary: Encouragement), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack power by 20 and attack speed by 10% for all heroes. Increases duration by 1 second for each ruby.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 6054
+// Abilities: A0OC (Legionary: Encouragement), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack power by 25 and attack speed by 15% for all heroes. Increases duration by 1 second for each ruby.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 6055
@@ -40501,6 +40494,14 @@ STRING 6138
 // Abilities: A0S4 (Spell Book), EditorSuffix (Editor Suffix)
 {
 (Морпех. Метка)
+}
+
+STRING 6139
+// Abilities: A0OC (Legionary: Encouragement), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack power by 30 and attack speed by 20% for all heroes. Increases duration by 1 second for each ruby.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 6140
@@ -41268,10 +41269,24 @@ STRING 6261
 W
 }
 
+STRING 6262
+// Abilities: A0OC (Legionary: Encouragement), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack power by 35 and attack speed by 25% for all heroes. Increases duration by 1 second for each ruby.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 6263
 // Abilities: A0R0 (Barbarian: Recklessness), Hotkey (Hotkey - Normal)
 {
 W
+}
+
+STRING 6264
+// Abilities: A08L (Legionary: Blade of Fire), Name (Name)
+{
+Legionary: Blade of Fire
 }
 
 STRING 6265
@@ -41279,6 +41294,38 @@ STRING 6265
 {
 Hero throws 10%/15%/20%/25%/30% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
 |cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 6266
+// Abilities: A08L (Legionary: Blade of Fire), Researchtip (Tooltip - Learn)
+{
+Blade of Fire, [|cffffcc00Level %d|r]
+}
+
+STRING 6267
+// Abilities: A08L (Legionary: Blade of Fire), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f7150/200/250/300/350|r damage to an enemy and creates a ruby. There's a |cffd7df0130%/45%/60%/75%/90%|r chance to gain another one.
+|cffffcc00Cooldown:|r 12 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 6268
+// Abilities: A08L (Legionary: Blade of Fire), Tip (Tooltip - Normal)
+{
+Blade of Fire, [|cffffcc00Level 1|r]
+}
+
+STRING 6269
+// Abilities: A08L (Legionary: Blade of Fire), Tip (Tooltip - Normal)
+{
+Blade of Fire, [|cffffcc00Level 2|r]
+}
+
+STRING 6270
+// Abilities: A08L (Legionary: Blade of Fire), Tip (Tooltip - Normal)
+{
+Blade of Fire, [|cffffcc00Level 3|r]
 }
 
 STRING 6271
@@ -41359,6 +41406,12 @@ STRING 6282
 Split, [|cffffcc00Level %d|r]
 }
 
+STRING 6283
+// Abilities: A08L (Legionary: Blade of Fire), Tip (Tooltip - Normal)
+{
+Blade of Fire, [|cffffcc00Level 4|r]
+}
+
 STRING 6284
 // Abilities: A0R5 (Sludge: Split), Tip (Tooltip - Normal)
 {
@@ -41387,6 +41440,40 @@ STRING 6288
 // Abilities: A0R5 (Sludge: Split), Tip (Tooltip - Normal)
 {
 Split, [|cffffcc00Level 5|r]
+}
+
+STRING 6289
+// Abilities: A08L (Legionary: Blade of Fire), Tip (Tooltip - Normal)
+{
+Blade of Fire, [|cffffcc00Level 5|r]
+}
+
+STRING 6290
+// Abilities: A08L (Legionary: Blade of Fire), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7150|r damage to an enemy and creates a ruby. There's a |cffd7df0130%|r chance to gain another one.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 6291
+// Abilities: A08L (Legionary: Blade of Fire), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7200|r damage to an enemy and creates a ruby. There's a |cffd7df0145%|r chance to gain another one.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 6292
+// Abilities: A08L (Legionary: Blade of Fire), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7250|r damage to an enemy and creates a ruby. There's a |cffd7df0160%|r chance to gain another one.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 6293
+// Abilities: A08L (Legionary: Blade of Fire), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7300|r damage to an enemy and creates a ruby. There's a |cffd7df0175%|r chance to gain another one.
+|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 6294
@@ -43821,15 +43908,6 @@ STRING 6674
 Encouragement, [|cffffcc00Level %d|r]
 }
 
-STRING 6675
-// Abilities: A0OC (Legionary: Encouragement), Researchubertip (Tooltip - Learn - Extended)
-{
-Increases ally attack power by 15/20/25/30/35 and attack speed by 5%/10%/15%/20%/25%. Increases duration of effect by 1 second for each hero ruby.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 12 seconds.
-|cffffcc00Cost:|r 60 mana.
-}
-
 STRING 6676
 // Abilities: A0OC (Legionary: Encouragement), Tip (Tooltip - Normal)
 {
@@ -43858,46 +43936,6 @@ STRING 6680
 // Abilities: A0OC (Legionary: Encouragement), Tip (Tooltip - Normal)
 {
 Encouragement, [|cffffcc00Level 5|r]
-}
-
-STRING 6681
-// Abilities: A0OC (Legionary: Encouragement), Ubertip (Tooltip - Normal - Extended)
-{
-Increases ally attack power by 15 and attack speed by 5%. Increases duration of effect by 1 second for each hero ruby.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 6682
-// Abilities: A0OC (Legionary: Encouragement), Ubertip (Tooltip - Normal - Extended)
-{
-Increases ally attack power by 20 and attack speed by 10%. Increases duration of effect by 1 second for each hero ruby.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 6683
-// Abilities: A0OC (Legionary: Encouragement), Ubertip (Tooltip - Normal - Extended)
-{
-Increases ally attack power by 25 and attack speed by 15%. Increases duration of effect by 1 second for each hero ruby.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 6684
-// Abilities: A0OC (Legionary: Encouragement), Ubertip (Tooltip - Normal - Extended)
-{
-Increases ally attack power by 30 and attack speed by 20%. Increases duration of effect by 1 second for each hero ruby.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 6685
-// Abilities: A0OC (Legionary: Encouragement), Ubertip (Tooltip - Normal - Extended)
-{
-Increases ally attack power by 35 and attack speed by 25%. Increases duration of effect by 1 second for each hero ruby.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 6686
@@ -45185,34 +45223,6 @@ STRING 6888
 // Abilities: A0MB (Ninja: Smoke Bomb), Researchhotkey (Hotkey - Learn)
 {
 R
-}
-
-STRING 6889
-// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Health by 150.
-When a Hero's ability is used, reduces the Attack of nearby enemies by 3.
-}
-
-STRING 6890
-// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Health by 225.
-When a Hero's ability is used, reduces the Attack of nearby enemies by 4.
-}
-
-STRING 6891
-// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Health by 300.
-When a Hero's ability is used, reduces the Attack of nearby enemies by 5.
-}
-
-STRING 6892
-// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Health by 375.
-When a Hero's ability is used, reduces the Attack of nearby enemies by 6.
 }
 
 STRING 6893
@@ -55245,13 +55255,6 @@ STRING 8442
 Illusionist
 }
 
-STRING 8443
-// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a shield on all heroes, absorbing |cffbe81f715|r health for each ruby of your hero.
-|cffffcc00Cooldown:|r 50 seconds.
-}
-
 STRING 8444
 // Items: I07L (Playful Spirit), Name (Name)
 {
@@ -57010,7 +57013,7 @@ STRING 8712
 }
 
 STRING 8713
-// Abilities: A08L (Legionary: Blade of fire), Hotkey (Hotkey - Normal)
+// Abilities: A08L (Legionary: Blade of Fire), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -57022,7 +57025,7 @@ Keeper: Starsight
 }
 
 STRING 8715
-// Abilities: A08L (Legionary: Blade of fire), Researchhotkey (Hotkey - Learn)
+// Abilities: A08L (Legionary: Blade of Fire), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -57396,41 +57399,6 @@ STRING 8770
 // Abilities: A09R (Armsmaster: Opportunistic Reflexes), Tip (Tooltip - Normal)
 {
 Opportunistic Reflexes, [|cffffcc00Level 5|r]
-}
-
-STRING 8771
-// Abilities: A09R (Armsmaster: Opportunistic Reflexes), Ubertip (Tooltip - Normal - Extended)
-{
-The hero has a |cffd7df016%|r chance to critically hit or reduces damage taken by 80%. Critical damage deals 75% more damage and reduces armor by 3.
-|cffffcc00Duration:|r 8 seconds.
-}
-
-STRING 8772
-// Abilities: A09R (Armsmaster: Opportunistic Reflexes), Ubertip (Tooltip - Normal - Extended)
-{
-The hero has a |cffd7df018%|r chance to critically hit or reduces damage taken by 80%. Critical damage deals 75% more damage and reduces armor by 3.
-|cffffcc00Duration:|r 8 seconds.
-}
-
-STRING 8773
-// Abilities: A09R (Armsmaster: Opportunistic Reflexes), Ubertip (Tooltip - Normal - Extended)
-{
-The hero has a |cffd7df0110%|r chance to critically hit or reduces damage taken by 80%. Critical damage deals 75% more damage and reduces armor by 3.
-|cffffcc00Duration:|r 8 seconds.
-}
-
-STRING 8774
-// Abilities: A09R (Armsmaster: Opportunistic Reflexes), Ubertip (Tooltip - Normal - Extended)
-{
-The hero has a |cffd7df0112%|r chance to critically hit or reduces damage taken by 80%. Critical damage deals 75% more damage and reduces armor by 3.
-|cffffcc00Duration:|r 8 seconds.
-}
-
-STRING 8775
-// Abilities: A09R (Armsmaster: Opportunistic Reflexes), Ubertip (Tooltip - Normal - Extended)
-{
-The hero has a |cffd7df0114%|r chance to critically hit or reduces damage taken by 80%. Critical damage deals 75% more damage and reduces armor by 3.
-|cffffcc00Duration:|r 8 seconds.
 }
 
 STRING 8776
@@ -57872,13 +57840,6 @@ STRING 8844
 Shattering, [|cffffcc00Level %d|r]
 }
 
-STRING 8845
-// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a shield on all heroes, absorbing |cffbe81f720|r health for each ruby of your hero.
-|cffffcc00Cooldown:|r 50 seconds.
-}
-
 STRING 8846
 // Abilities: A09A (Mimic: Shattering), Tip (Tooltip - Normal)
 {
@@ -58282,10 +58243,47 @@ STRING 8911
 Босс 7: Огромная гидра (Сер)
 }
 
+STRING 8912
+// Abilities: A08L (Legionary: Blade of Fire), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7350|r damage to an enemy and creates a ruby. There's a |cffd7df0190%|r chance to gain another one.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 8913
-// Abilities: A08E (Legionary: Flaming crystal), Researchhotkey (Hotkey - Learn)
+// Abilities: A08E (Legionary: Flaming Crystal), Researchhotkey (Hotkey - Learn)
 {
 E
+}
+
+STRING 8914
+// Abilities: A08E (Legionary: Flaming Crystal), Name (Name)
+{
+Legionary: Flaming Crystal
+}
+
+STRING 8915
+// Abilities: A08E (Legionary: Flaming Crystal), Researchtip (Tooltip - Learn)
+{
+Flaming Crystal, [|cffffcc00Level %d|r]
+}
+
+STRING 8916
+// Abilities: A08E (Legionary: Flaming Crystal), Researchubertip (Tooltip - Learn - Extended)
+{
+With a probability of |cffd7df015%/8%/11%/14%/17%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
+}
+
+STRING 8917
+// Abilities: A08E (Legionary: Flaming Crystal), Tip (Tooltip - Normal)
+{
+Flaming Crystal, [|cffffcc00Level 1|r]
+}
+
+STRING 8918
+// Abilities: A08E (Legionary: Flaming Crystal), Tip (Tooltip - Normal)
+{
+Flaming Crystal, [|cffffcc00Level 2|r]
 }
 
 STRING 8919
@@ -58772,22 +58770,10 @@ STRING 8991
 W
 }
 
-STRING 8992
-// Abilities: A08L (Legionary: Blade of fire), Name (Name)
-{
-Legionary: Blade of fire
-}
-
 STRING 8993
 // Abilities: A07F (Preacher: Touch of the Light), Researchhotkey (Hotkey - Learn)
 {
 W
-}
-
-STRING 8994
-// Abilities: A08L (Legionary: Blade of fire), Researchtip (Tooltip - Learn)
-{
-Blade of fire, [|cffffcc00Level %d|r]
 }
 
 STRING 8995
@@ -58795,36 +58781,6 @@ STRING 8995
 {
 Restores |cffbe81f7425|r Health to an ally. Summons a Scared Citizen near the target.
 |cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 8996
-// Abilities: A08L (Legionary: Blade of fire), Tip (Tooltip - Normal)
-{
-Blade of fire, [|cffffcc00Level 1|r]
-}
-
-STRING 8997
-// Abilities: A08L (Legionary: Blade of fire), Tip (Tooltip - Normal)
-{
-Blade of fire, [|cffffcc00Level 2|r]
-}
-
-STRING 8998
-// Abilities: A08L (Legionary: Blade of fire), Tip (Tooltip - Normal)
-{
-Blade of fire, [|cffffcc00Level 3|r]
-}
-
-STRING 8999
-// Abilities: A08L (Legionary: Blade of fire), Tip (Tooltip - Normal)
-{
-Blade of fire, [|cffffcc00Level 4|r]
-}
-
-STRING 9000
-// Abilities: A08L (Legionary: Blade of fire), Tip (Tooltip - Normal)
-{
-Blade of fire, [|cffffcc00Level 5|r]
 }
 
 STRING 9001
@@ -58974,58 +58930,16 @@ STRING 9024
 When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 200.
 }
 
-STRING 9025
-// Abilities: A08E (Legionary: Flaming crystal), Name (Name)
-{
-Legionary: Flaming crystal
-}
-
 STRING 9026
 // Abilities: A07T (Owl: Owl magic), Researchhotkey (Hotkey - Learn)
 {
 E
 }
 
-STRING 9027
-// Abilities: A08E (Legionary: Flaming crystal), Researchtip (Tooltip - Learn)
-{
-Flaming crystal, [|cffffcc00Level %d|r]
-}
-
 STRING 9028
 // Abilities: A0CM (Skeletlord: Grasp of the Dead), Tip (Tooltip - Normal)
 {
 Grasp of the Dead, [|cffffcc00Level 2|r]
-}
-
-STRING 9029
-// Abilities: A08E (Legionary: Flaming crystal), Tip (Tooltip - Normal)
-{
-Flaming crystal, [|cffffcc00Level 1|r]
-}
-
-STRING 9030
-// Abilities: A08E (Legionary: Flaming crystal), Tip (Tooltip - Normal)
-{
-Flaming crystal, [|cffffcc00Level 2|r]
-}
-
-STRING 9031
-// Abilities: A08E (Legionary: Flaming crystal), Tip (Tooltip - Normal)
-{
-Flaming crystal, [|cffffcc00Level 3|r]
-}
-
-STRING 9032
-// Abilities: A08E (Legionary: Flaming crystal), Tip (Tooltip - Normal)
-{
-Flaming crystal, [|cffffcc00Level 4|r]
-}
-
-STRING 9033
-// Abilities: A08E (Legionary: Flaming crystal), Tip (Tooltip - Normal)
-{
-Flaming crystal, [|cffffcc00Level 5|r]
 }
 
 STRING 9034
@@ -59428,13 +59342,6 @@ STRING 9096
 Denial of the Past, [|cffffcc00Level %d|r]
 }
 
-STRING 9097
-// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a shield on all heroes, absorbing |cffbe81f725|r health for each ruby of your hero.
-|cffffcc00Cooldown:|r 50 seconds.
-}
-
 STRING 9098
 // Abilities: A082 (Outcast: Denial of the Past), Tip (Tooltip - Normal)
 {
@@ -59597,6 +59504,18 @@ STRING 9122
 {
 |cff4169e1Rare|r
 Activation: Select an artifact in your inventory to store it in your room. You can store up to 3 artifacts.
+}
+
+STRING 9123
+// Abilities: A08E (Legionary: Flaming Crystal), Tip (Tooltip - Normal)
+{
+Flaming Crystal, [|cffffcc00Level 3|r]
+}
+
+STRING 9124
+// Abilities: A08E (Legionary: Flaming Crystal), Tip (Tooltip - Normal)
+{
+Flaming Crystal, [|cffffcc00Level 4|r]
 }
 
 STRING 9125
@@ -60033,15 +59952,6 @@ STRING 9190
 Spar, [|cffffcc00Level %d|r]
 }
 
-STRING 9191
-// Abilities: A07R (Armsmaster: Spar), Researchubertip (Tooltip - Learn - Extended)
-{
-Provokes the enemy to attack you. The target is forced to attack you. During this time, both deal 8%/11%/15%/17%/20% less damage. When you attack a target, the effect is refreshed.
-|cffffcc00Duration:|r 4 seconds.
-|cffffcc00Cooldown:|r 24/23/22/21/20 seconds.
-|cffffcc00Cost:|r 65 mana.
-}
-
 STRING 9192
 // Abilities: A07R (Armsmaster: Spar), Tip (Tooltip - Normal)
 {
@@ -60070,46 +59980,6 @@ STRING 9196
 // Abilities: A07R (Armsmaster: Spar), Tip (Tooltip - Normal)
 {
 Spar, [|cffffcc00Level 5|r]
-}
-
-STRING 9197
-// Abilities: A07R (Armsmaster: Spar), Ubertip (Tooltip - Normal - Extended)
-{
-Provokes the enemy to attack you. The target is forced to attack you. During this time, both deal 8% less damage. When you attack a target, the effect is refreshed.
-|cffffcc00Duration:|r 4 seconds.
-|cffffcc00Cooldown:|r 24 seconds.
-}
-
-STRING 9198
-// Abilities: A07R (Armsmaster: Spar), Ubertip (Tooltip - Normal - Extended)
-{
-Provokes the enemy to attack you. The target is forced to attack you. During this time, both deal 11% less damage. When you attack a target, the effect is refreshed.
-|cffffcc00Duration:|r 4 seconds.
-|cffffcc00Cooldown:|r 23 seconds.
-}
-
-STRING 9199
-// Abilities: A07R (Armsmaster: Spar), Ubertip (Tooltip - Normal - Extended)
-{
-Provokes the enemy to attack you. The target is forced to attack you. During this time, both deal 14% less damage. When you attack a target, the effect is refreshed.
-|cffffcc00Duration:|r 4 seconds.
-|cffffcc00Cooldown:|r 22 seconds.
-}
-
-STRING 9200
-// Abilities: A07R (Armsmaster: Spar), Ubertip (Tooltip - Normal - Extended)
-{
-Provokes the enemy to attack you. The target is forced to attack you. During this time, both deal 17% less damage. When you attack a target, the effect is refreshed.
-|cffffcc00Duration:|r 4 seconds.
-|cffffcc00Cooldown:|r 21 seconds.
-}
-
-STRING 9201
-// Abilities: A07R (Armsmaster: Spar), Ubertip (Tooltip - Normal - Extended)
-{
-Provokes the enemy to attack you. The target is forced to attack you. During this time, both deal 20% less damage. When you attack a target, the effect is refreshed.
-|cffffcc00Duration:|r 4 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 9202
@@ -61095,6 +60965,12 @@ STRING 9355
 |cffffcc00Уровень 3:|r Великий герой
 }
 
+STRING 9356
+// Abilities: A08E (Legionary: Flaming Crystal), Tip (Tooltip - Normal)
+{
+Flaming Crystal, [|cffffcc00Level 5|r]
+}
+
 STRING 9357
 // Abilities: A0IS (Unique: Chaos), Ubertip (Tooltip - Normal - Extended)
 {
@@ -61770,7 +61646,7 @@ Armsmaster: Defensive Jab
 }
 
 STRING 9460
-// Abilities: A032 (Doctor: Plague impact), Hotkey (Hotkey - Normal)
+// Abilities: A032 (Doctor: Plague Impact), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -61867,7 +61743,7 @@ Armor (Haze2)
 }
 
 STRING 9475
-// Abilities: A032 (Doctor: Plague impact), Researchhotkey (Hotkey - Learn)
+// Abilities: A032 (Doctor: Plague Impact), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -63382,15 +63258,6 @@ STRING 9708
 Reincarnation, [|cffffcc00Level %d|r]
 }
 
-STRING 9709
-// Abilities: A04K (Doctor: Reincarnation), Researchubertip (Tooltip - Learn - Extended)
-{
-Imposes a buff on the hero. Reduces the attack speed of enemies near the target by 8%/14%/20%/26%/32%. When the target dies, resurrects it from |cffbe81f715%/20%/25%/30%/35%|r of health and mana.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 28/26/24/22/20 seconds.
-|cffffcc00Cost:|r 80 mana.
-}
-
 STRING 9710
 // Abilities: A04K (Doctor: Reincarnation), Tip (Tooltip - Normal)
 {
@@ -63694,6 +63561,18 @@ Depending on the ability level, receive bonuses:
 |cffffcc00Level 3|r - Deals |cffbe81f7450|r damage to nearby enemies upon death.
 |cffffcc00Level 4|r - 75 movement speed.
 |cffffcc00Level 5|r - 20% magic damage resistance.
+}
+
+STRING 9754
+// Abilities: A08E (Legionary: Flaming Crystal), Ubertip (Tooltip - Normal - Extended)
+{
+With a probability of |cffd7df015%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
+}
+
+STRING 9755
+// Abilities: A08E (Legionary: Flaming Crystal), Ubertip (Tooltip - Normal - Extended)
+{
+With a probability of |cffd7df0111%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
 }
 
 STRING 9756
@@ -64853,101 +64732,10 @@ STRING 9932
 Q
 }
 
-STRING 9933
-// Abilities: A032 (Doctor: Plague impact), Name (Name)
-{
-Doctor: Plague impact
-}
-
 STRING 9934
 // Abilities: A01G (Wagon: Corpse Toss), Hotkey (Hotkey - Normal)
 {
 Q
-}
-
-STRING 9935
-// Abilities: A032 (Doctor: Plague impact), Researchtip (Tooltip - Learn)
-{
-Plague impact, [|cffffcc00Level %d|r]
-}
-
-STRING 9936
-// Abilities: A032 (Doctor: Plague impact), Researchubertip (Tooltip - Learn - Extended)
-{
-Increases the ally's attack speed by 20%/35%/50%/65%/80%, but every second takes 5/7/9/11/13 health.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Coldown:|r 5 seconds.
-|cffffcc00Cost:|r 20/25/30/35/40 mana.
-}
-
-STRING 9937
-// Abilities: A032 (Doctor: Plague impact), Tip (Tooltip - Normal)
-{
-Plague impact, [|cffffcc00Level 1|r]
-}
-
-STRING 9938
-// Abilities: A032 (Doctor: Plague impact), Tip (Tooltip - Normal)
-{
-Plague impact, [|cffffcc00Level 2|r]
-}
-
-STRING 9939
-// Abilities: A032 (Doctor: Plague impact), Tip (Tooltip - Normal)
-{
-Plague impact, [|cffffcc00Level 3|r]
-}
-
-STRING 9940
-// Abilities: A032 (Doctor: Plague impact), Tip (Tooltip - Normal)
-{
-Plague impact, [|cffffcc00Level 4|r]
-}
-
-STRING 9941
-// Abilities: A032 (Doctor: Plague impact), Tip (Tooltip - Normal)
-{
-Plague impact, [|cffffcc00Level 5|r]
-}
-
-STRING 9942
-// Abilities: A032 (Doctor: Plague impact), Ubertip (Tooltip - Normal - Extended)
-{
-Increases the ally's attack speed by 20%, but every second takes 5 health.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Coldown:|r 5 seconds.
-}
-
-STRING 9943
-// Abilities: A032 (Doctor: Plague impact), Ubertip (Tooltip - Normal - Extended)
-{
-Increases the ally's attack speed by 35%, but every second takes 7 health.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Coldown:|r 5 seconds.
-}
-
-STRING 9944
-// Abilities: A032 (Doctor: Plague impact), Ubertip (Tooltip - Normal - Extended)
-{
-Increases the ally's attack speed by 50%, but every second takes 9 health.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Coldown:|r 5 seconds.
-}
-
-STRING 9945
-// Abilities: A032 (Doctor: Plague impact), Ubertip (Tooltip - Normal - Extended)
-{
-Increases the ally's attack speed by 65%, but every second takes 11 health.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Coldown:|r 5 seconds.
-}
-
-STRING 9946
-// Abilities: A032 (Doctor: Plague impact), Ubertip (Tooltip - Normal - Extended)
-{
-Increases the ally's attack speed by 80%, but every second takes 13 health.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Coldown:|r 5 seconds.
 }
 
 STRING 9947
@@ -65788,6 +65576,12 @@ STRING 10072
 Turbid waters, [|cffffcc00Level %d|r]
 }
 
+STRING 10073
+// Abilities: A08E (Legionary: Flaming Crystal), Ubertip (Tooltip - Normal - Extended)
+{
+With a probability of |cffd7df0114%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
+}
+
 STRING 10074
 // Abilities: A022 (Mermaid: Turbid waters), Tip (Tooltip - Normal)
 {
@@ -65816,6 +65610,12 @@ STRING 10078
 // Abilities: A022 (Mermaid: Turbid waters), Tip (Tooltip - Normal)
 {
 Turbid waters, [|cffffcc00Level 5|r]
+}
+
+STRING 10079
+// Abilities: A08E (Legionary: Flaming Crystal), Ubertip (Tooltip - Normal - Extended)
+{
+With a probability of |cffd7df0117%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
 }
 
 STRING 10080
@@ -66131,7 +65931,7 @@ STRING 10128
 }
 
 STRING 10129
-// Abilities: A00M (Legionary: Dragon heart), Hotkey (Hotkey - Normal)
+// Abilities: A00M (Legionary: Dragon Heart), Hotkey (Hotkey - Normal)
 {
 R
 }
@@ -66156,7 +65956,7 @@ STRING 10132
 }
 
 STRING 10133
-// Abilities: A00M (Legionary: Dragon heart), Researchhotkey (Hotkey - Learn)
+// Abilities: A00M (Legionary: Dragon Heart), Researchhotkey (Hotkey - Learn)
 {
 R
 }
@@ -67289,58 +67089,16 @@ STRING 10301
 R
 }
 
-STRING 10302
-// Abilities: A00M (Legionary: Dragon heart), Name (Name)
-{
-Legionary: Dragon heart
-}
-
 STRING 10303
 // Abilities: A1DW (Runesmith: Carve Rune), Researchhotkey (Hotkey - Learn)
 {
 R
 }
 
-STRING 10304
-// Abilities: A00M (Legionary: Dragon heart), Researchtip (Tooltip - Learn)
-{
-Dragon heart, [|cffffcc00Level %d|r]
-}
-
 STRING 10305
 // Abilities: A0L2 (Invisibility), EditorSuffix (Editor Suffix)
 {
 (Передышка)XXX
-}
-
-STRING 10306
-// Abilities: A00M (Legionary: Dragon heart), Tip (Tooltip - Normal)
-{
-Dragon heart, [|cffffcc00Level 1|r]
-}
-
-STRING 10307
-// Abilities: A00M (Legionary: Dragon heart), Tip (Tooltip - Normal)
-{
-Dragon heart, [|cffffcc00Level 2|r]
-}
-
-STRING 10308
-// Abilities: A00M (Legionary: Dragon heart), Tip (Tooltip - Normal)
-{
-Dragon heart, [|cffffcc00Level 3|r]
-}
-
-STRING 10309
-// Abilities: A00M (Legionary: Dragon heart), Tip (Tooltip - Normal)
-{
-Dragon heart, [|cffffcc00Level 4|r]
-}
-
-STRING 10310
-// Abilities: A00M (Legionary: Dragon heart), Tip (Tooltip - Normal)
-{
-Dragon heart, [|cffffcc00Level 5|r]
 }
 
 STRING 10311
@@ -67431,6 +67189,12 @@ STRING 10322
 Destroys an item.
 
 |cffffcc00Potions are destroyed for free.|r
+}
+
+STRING 10323
+// Abilities: A00M (Legionary: Dragon Heart), Name (Name)
+{
+Legionary: Dragon Heart
 }
 
 STRING 10324
@@ -69105,6 +68869,12 @@ STRING 10599
 Charged.
 }
 
+STRING 10600
+// Abilities: A00M (Legionary: Dragon Heart), Researchtip (Tooltip - Learn)
+{
+Dragon Heart, [|cffffcc00Level %d|r]
+}
+
 STRING 10601
 // Buffs/Effects: B07N (), Buffubertip (Tooltip - Extended)
 {
@@ -69495,6 +69265,14 @@ STRING 10665
 Your next activated non-corrupted artifact will trigger three times.
 }
 
+STRING 10666
+// Abilities: A00M (Legionary: Dragon Heart), Researchubertip (Tooltip - Learn - Extended)
+{
+Creates a shield for all heroes that absorbs |cffbe81f7250/300/350/400/450|r damage. Grants an additional |cffbe81f75/7/9/11/13|r shield per ruby.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
 STRING 10667
 // Buffs/Effects: B06K (), Buffubertip (Tooltip - Extended)
 {
@@ -69733,6 +69511,12 @@ STRING 10706
 // Buffs/Effects: B061 (), Buffubertip (Tooltip - Extended)
 {
 Attack power reduced.
+}
+
+STRING 10707
+// Abilities: A00M (Legionary: Dragon Heart), Tip (Tooltip - Normal)
+{
+Dragon Heart, [|cffffcc00Level 1|r]
 }
 
 STRING 10708
@@ -70277,6 +70061,12 @@ STRING 10797
 Mana regenerates faster.
 }
 
+STRING 10798
+// Abilities: A00M (Legionary: Dragon Heart), Tip (Tooltip - Normal)
+{
+Dragon Heart, [|cffffcc00Level 2|r]
+}
+
 STRING 10799
 // Buffs/Effects: B04T (), Buffubertip (Tooltip - Extended)
 {
@@ -70353,6 +70143,12 @@ STRING 10811
 // Buffs/Effects: B04M (), Buffubertip (Tooltip - Extended)
 {
 Attack power increased.
+}
+
+STRING 10812
+// Abilities: A00M (Legionary: Dragon Heart), Tip (Tooltip - Normal)
+{
+Dragon Heart, [|cffffcc00Level 3|r]
 }
 
 STRING 10813
@@ -71676,6 +71472,12 @@ STRING 11030
 |cffff0000Beer day|r
 }
 
+STRING 11031
+// Abilities: A00M (Legionary: Dragon Heart), Tip (Tooltip - Normal)
+{
+Dragon Heart, [|cffffcc00Level 4|r]
+}
+
 STRING 11032
 // Buffs/Effects: B01M (), Bufftip (Tooltip)
 {
@@ -72406,6 +72208,12 @@ STRING 11151
 Armor increased.
 }
 
+STRING 11152
+// Abilities: A00M (Legionary: Dragon Heart), Tip (Tooltip - Normal)
+{
+Dragon Heart, [|cffffcc00Level 5|r]
+}
+
 STRING 11153
 // Upgrades: R003 (Iron Plating,Steel Plating,Mithril Plating), effect1 (Effect 1)
 {
@@ -72784,7 +72592,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.11.5T|r
+|cffbe81f7Boss Battle 1.11.6T|r
 }
 
 STRING 11219
@@ -72903,38 +72711,6 @@ STRING 11235
 Summons a small uncontrollable spirit that chases the hero and constantly attacks nearby enemies, dealing |cffbe81f715|r damage. This spirit also uses waves created by the "|cff5858faMoon|r" set bonus.
 }
 
-STRING 11236
-// Abilities: A04K (Doctor: Reincarnation), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a buff on the hero. Reduces the attack speed of enemies near the target by 8%. When the target dies, resurrects it from |cffbe81f715%|r of health and mana.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 28 seconds.
-}
-
-STRING 11237
-// Abilities: A04K (Doctor: Reincarnation), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a buff on the hero. Reduces the attack speed of enemies near the target by 14%. When the target dies, resurrects it from |cffbe81f720%|r of health and mana.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 26 seconds.
-}
-
-STRING 11238
-// Abilities: A04K (Doctor: Reincarnation), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a buff on the hero. Reduces the attack speed of enemies near the target by 20%. When the target dies, resurrects it from |cffbe81f725%|r of health and mana.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 24 seconds.
-}
-
-STRING 11239
-// Abilities: A04K (Doctor: Reincarnation), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a buff on the hero. Reduces the attack speed of enemies near the target by 26%. When the target dies, resurrects it from |cffbe81f730%|r of health and mana.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 22 seconds.
-}
-
 STRING 11240
 // Abilities: A1DT (Shepherd Q: Spirit Journey Buff Dummy), Name (Name)
 {
@@ -72968,14 +72744,6 @@ STRING 11244
 {
 Summons unique Bonnie with abilities. Bonnie's abilities improve from the hero's abilities.
 |cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 11245
-// Abilities: A04K (Doctor: Reincarnation), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a buff on the hero. Reduces the attack speed of enemies near the target by 32%. When the target dies, resurrects it from |cffbe81f735%|r of maximum health and mana.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 11246
@@ -74889,17 +74657,6 @@ STRING 11539
 Evil Totem
 }
 
-STRING 11540
-// Abilities: A06C (|cffffcc00Уровень 2:|r Злобный тотем), Ubertip (Tooltip - Normal - Extended)
-{
-- No attack.
-- When the boss is attacked, the attacker takes |cffbe81f715|r damage.
-- Every 4 seconds it creates a fiery explosion that deals |cffbe81f745|r damage every half second within 5 seconds.
-- If it doesn't take damage, the boss focuses.
-- |cff00cceeAt 25% and 75% health:|r Summons a shadow for each player away from the boss. When the shadow approaches the boss, she dies and creates a fiery explosion next to each hero.
-- |cff00cceeAt 50% health:|r A fiery explosion is created more often.
-}
-
 STRING 11541
 // Abilities: A0JX (|cffffcc00Уровень 5:|r Саламандра), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75098,6 +74855,13 @@ STRING 11567
 Sleepy Ogre
 }
 
+STRING 11568
+// Abilities: A00M (Legionary: Dragon Heart), Ubertip (Tooltip - Normal - Extended)
+{
+Creates a shield for all heroes that absorbs |cffbe81f7250|r damage. Grants an additional |cffbe81f75|r shield per ruby.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 11569
 // Abilities: A0XW (|cffffcc00Уровень 2:|r Разбойник), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75184,6 +74948,13 @@ STRING 11578
 |cffffcc00Duration:|r 15 seconds.
 }
 
+STRING 11579
+// Abilities: A00M (Legionary: Dragon Heart), Ubertip (Tooltip - Normal - Extended)
+{
+Creates a shield for all heroes that absorbs |cffbe81f7300|r damage. Grants an additional |cffbe81f77|r shield per ruby.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 11580
 // Abilities: A0HJ (|cffffcc00Уровень 8:|r Королева пауков), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75214,6 +74985,13 @@ STRING 11582
 - |cff00cceeAt 25% health: |rIncreases the movement speed of minions by 200%. Braids all the heroes for 5 seconds.
 }
 
+STRING 11583
+// Abilities: A00M (Legionary: Dragon Heart), Ubertip (Tooltip - Normal - Extended)
+{
+Creates a shield for all heroes that absorbs |cffbe81f7350|r damage. Grants an additional |cffbe81f79|r shield per ruby.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 11584
 // Abilities: A06F (|cffffcc00Уровень 4:|r Спящий огр), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75230,14 +75008,6 @@ STRING 11585
 // Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
 {
 Moon Blinking, [|cffffcc00Level 5|r]
-}
-
-STRING 11586
-// Abilities: A08L (Legionary: Blade of fire), Researchubertip (Tooltip - Learn - Extended)
-{
-Inflict |cffbe81f7150/200/250/300/350|r fire damage to an enemy and get a ruby. With a probability of |cffd7df0130%/45%/60%/75%/90%|r, get another one.
-|cffffcc00Cooldown:|r 12 seconds.
-|cffffcc00Cost:|r 30/40/50/60/70 mana.
 }
 
 STRING 11587
@@ -75377,6 +75147,13 @@ STRING 11601
 - |cff00cceeAt 30% health:|r The boss takes on the form of a spirit and creates 4 portals on the edges of the arena, from which the minions constantly appear. When the portals are destroyed, the boss descends to the ground and starts summoning portals every 12 seconds.
 }
 
+STRING 11602
+// Abilities: A00M (Legionary: Dragon Heart), Ubertip (Tooltip - Normal - Extended)
+{
+Creates a shield for all heroes that absorbs |cffbe81f7400|r damage. Grants an additional |cffbe81f711|r shield per ruby.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 11603
 // Abilities: A0EF (Keeper: Moon Blinking), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75478,34 +75255,6 @@ STRING 11615
 // Buffs/Effects: B02W (), Bufftip (Tooltip)
 {
 |cffff0000Slammed|r
-}
-
-STRING 11616
-// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
-{
-Inflict |cffbe81f7150|r fire damage to an enemy and get a ruby. With a probability of |cffd7df0130%|r, get another one.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 11617
-// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
-{
-Inflict |cffbe81f7200|r fire damage to an enemy and get a ruby. With a probability of |cffd7df0145%|r, get another one.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 11618
-// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
-{
-Inflict |cffbe81f7250|r fire damage to an enemy and get a ruby. With a probability of |cffd7df0160%|r, get another one.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 11619
-// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
-{
-Inflict |cffbe81f7300|r fire damage to an enemy and get a ruby. With a probability of |cffd7df0175%|r, get another one.
-|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 11620
@@ -75762,35 +75511,6 @@ STRING 11657
 Seal of Fate, [|cffffcc00Level 5|r]
 }
 
-STRING 11658
-// Abilities: A08L (Legionary: Blade of fire), Ubertip (Tooltip - Normal - Extended)
-{
-Inflict |cffbe81f7350|r fire damage to an enemy and get a ruby. With a probability of |cffd7df0190%|r, get another one.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 11659
-// Abilities: A00M (Legionary: Dragon heart), Researchubertip (Tooltip - Learn - Extended)
-{
-Imposes a shield on all heroes, absorbing |cffbe81f715/20/25/30/35|r health for each crystal of your hero.
-|cffffcc00Cooldown:|r 50 seconds.
-|cffffcc00Cost:|r 120 mana.
-}
-
-STRING 11660
-// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a shield on all heroes, absorbing |cffbe81f730|r health for each ruby of your hero.
-|cffffcc00Cooldown:|r 50 seconds.
-}
-
-STRING 11661
-// Abilities: A00M (Legionary: Dragon heart), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes a shield on all heroes, absorbing |cffbe81f735|r health for each ruby of your hero.
-|cffffcc00Cooldown:|r 50 seconds.
-}
-
 STRING 11662
 // Abilities: A1B0 (Bard: Ballad of a Hero), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -75974,6 +75694,13 @@ STRING 11688
 // Abilities: A1GV (Collector: Suppressing Anger), Tip (Tooltip - Normal)
 {
 Suppressing Anger, [|cffffcc00Level 5|r]
+}
+
+STRING 11689
+// Abilities: A00M (Legionary: Dragon Heart), Ubertip (Tooltip - Normal - Extended)
+{
+Creates a shield for all heroes that absorbs |cffbe81f7450|r damage. Grants an additional |cffbe81f713|r shield per ruby.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 11690
@@ -76755,6 +76482,12 @@ STRING 11796
 |cffffcc00Extra:|r Double Trouble
 }
 
+STRING 11797
+// Abilities: A1EH (Extra: Rubies (Legionary)), Ubertip (Tooltip - Normal - Extended)
+{
+The hero can receive rubies from some abilities. Each ruby increases Attack by 2. They disappear at the end of the battle.
+}
+
 STRING 11798
 // Items: I00S (Jade Snake), Description (Description)
 {
@@ -77224,6 +76957,20 @@ STRING 11860
 Blood of the Ancient (Out of Pool)
 }
 
+STRING 11861
+// Abilities: A04L (Doctor: Unreachable), Researchubertip (Tooltip - Learn - Extended)
+{
+Increases Health by 75/150/225/300/375.
+When a Hero's ability is used, reduces the Attack of nearby enemies by 2/3/4/5/6. Cannot reduce bosses' attack below 40.
+}
+
+STRING 11862
+// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Health by 75.
+When a Hero's ability is used, reduces the Attack of nearby enemies by 2. Cannot reduce bosses' attack below 40.
+}
+
 STRING 11863
 // Items: I0D2 (Sharp deck), Description (Description)
 {
@@ -77252,6 +76999,20 @@ All heroes start a battle with two bosses, but gain more gold.
 Players receive an additional 50% gold for defeating bosses. Experience bonus: +15%.|r
 }
 
+STRING 11866
+// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Health by 150.
+When a Hero's ability is used, reduces the Attack of nearby enemies by 3. Cannot reduce bosses' attack below 40.
+}
+
+STRING 11867
+// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Health by 225.
+When a Hero's ability is used, reduces the Attack of nearby enemies by 4. Cannot reduce bosses' attack below 40.
+}
+
 STRING 11868
 // Items: I05I (Gnomish Army Knife), Name (Name)
 {
@@ -77262,6 +77023,41 @@ STRING 11869
 // Items: I05I (Gnomish Army Knife), Tip (Tooltip - Basic)
 {
 Gnomish Army Knife
+}
+
+STRING 11870
+// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Health by 300.
+When a Hero's ability is used, reduces the Attack of nearby enemies by 5. Cannot reduce bosses' attack below 40.
+}
+
+STRING 11871
+// Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Health by 375.
+When a Hero's ability is used, reduces the Attack of nearby enemies by 6. Cannot reduce bosses' attack below 40.
+}
+
+STRING 11872
+// Abilities: A032 (Doctor: Plague Impact), Name (Name)
+{
+Doctor: Plague Impact
+}
+
+STRING 11873
+// Abilities: A032 (Doctor: Plague Impact), Researchtip (Tooltip - Learn)
+{
+Plague Impact, [|cffffcc00Level %d|r]
+}
+
+STRING 11874
+// Abilities: A032 (Doctor: Plague Impact), Researchubertip (Tooltip - Learn - Extended)
+{
+Increases the ally's attack speed by 35%/50%/65%/80%/95%, but every second takes 8 health.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Coldown:|r 5 seconds.
+|cffffcc00Cost:|r 20/25/30/35/40 mana.
 }
 
 STRING 11875
@@ -77281,6 +77077,18 @@ STRING 11876
 Activation: Puts the Cenarion Horn on the ground, restoring |cffbe81f740|r health to heroes nearby every second.
 |cffffcc00Duration:|r 20 seconds.
 |cffffcc00Cooldown:|r 60 seconds.
+}
+
+STRING 11877
+// Abilities: A032 (Doctor: Plague Impact), Tip (Tooltip - Normal)
+{
+Plague Impact, [|cffffcc00Level 1|r]
+}
+
+STRING 11878
+// Abilities: A032 (Doctor: Plague Impact), Tip (Tooltip - Normal)
+{
+Plague Impact, [|cffffcc00Level 2|r]
 }
 
 STRING 11879
@@ -77472,6 +77280,18 @@ STRING 11905
 {
 |cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
 After a battle with a boss, if any hero died during that fight, get a random |cffb40431blood|r or |cff7cfc00nature|r item and be offered the other one as an Artifact Reward.
+}
+
+STRING 11906
+// Abilities: A032 (Doctor: Plague Impact), Tip (Tooltip - Normal)
+{
+Plague Impact, [|cffffcc00Level 3|r]
+}
+
+STRING 11907
+// Abilities: A032 (Doctor: Plague Impact), Tip (Tooltip - Normal)
+{
+Plague Impact, [|cffffcc00Level 4|r]
 }
 
 STRING 11908
@@ -78548,6 +78368,12 @@ STRING 12065
 Get 2 Exile artifacts. These items existed in the arena in the past, but were cast into oblivion.
 }
 
+STRING 12066
+// Abilities: A032 (Doctor: Plague Impact), Tip (Tooltip - Normal)
+{
+Plague Impact, [|cffffcc00Level 5|r]
+}
+
 STRING 12067
 // Items: IV21 (Bento Set), Name (Name)
 {
@@ -78558,6 +78384,14 @@ STRING 12068
 // Items: IV21 (Bento Set), Tip (Tooltip - Basic)
 {
 Bento Set
+}
+
+STRING 12069
+// Abilities: A032 (Doctor: Plague Impact), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the ally's attack speed by 35%, but every second takes 8 health.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Coldown:|r 5 seconds.
 }
 
 STRING 12070
@@ -78612,6 +78446,14 @@ STRING 12077
 Get Trash and an item that allows you to |cFFE16B90forge|r a |cffe96a1clegendary|r artifact.
 }
 
+STRING 12078
+// Abilities: A032 (Doctor: Plague Impact), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the ally's attack speed by 50%, but every second takes 8 health.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Coldown:|r 5 seconds.
+}
+
 STRING 12079
 // Items: IV24 (Festive Cake), Name (Name)
 {
@@ -78622,6 +78464,14 @@ STRING 12080
 // Items: IV24 (Festive Cake), Tip (Tooltip - Basic)
 {
 Festive Cake
+}
+
+STRING 12081
+// Abilities: A032 (Doctor: Plague Impact), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the ally's attack speed by 65%, but every second takes 8 health.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Coldown:|r 5 seconds.
 }
 
 STRING 12082
@@ -79193,5 +79043,161 @@ STRING 12166
 {
 Deals |cffbe81f7200|r damage to an enemy. If the caster is Superbot-5000, force all Superbot-3000 to do the same on this target.
 |cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 12167
+// Abilities: A032 (Doctor: Plague Impact), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the ally's attack speed by 80%, but every second takes 8 health.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Coldown:|r 5 seconds.
+}
+
+STRING 12168
+// Abilities: A032 (Doctor: Plague Impact), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the ally's attack speed by 95%, but every second takes 8 health.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Coldown:|r 5 seconds.
+}
+
+STRING 12169
+// Abilities: A09R (Armsmaster: Opportunistic Reflexes), Researchubertip (Tooltip - Learn - Extended)
+{
+The hero has a |cffd7df016%/8%/10%/12%/14%|r chance to critically hit or reduces damage taken by 80%. Critical damage deals 75% more damage and reduces armor by 6.
+|cffffcc00Duration:|r 8 seconds.
+}
+
+STRING 12170
+// Abilities: A09R (Armsmaster: Opportunistic Reflexes), Ubertip (Tooltip - Normal - Extended)
+{
+The hero has a |cffd7df016%|r chance to critically hit or reduces damage taken by 80%. Critical damage deals 75% more damage and reduces armor by 6.
+|cffffcc00Duration:|r 8 seconds.
+}
+
+STRING 12171
+// Abilities: A09R (Armsmaster: Opportunistic Reflexes), Ubertip (Tooltip - Normal - Extended)
+{
+The hero has a |cffd7df018%|r chance to critically hit or reduces damage taken by 80%. Critical damage deals 75% more damage and reduces armor by 6.
+|cffffcc00Duration:|r 8 seconds.
+}
+
+STRING 12172
+// Abilities: A09R (Armsmaster: Opportunistic Reflexes), Ubertip (Tooltip - Normal - Extended)
+{
+The hero has a |cffd7df0110%|r chance to critically hit or reduces damage taken by 80%. Critical damage deals 75% more damage and reduces armor by 6.
+|cffffcc00Duration:|r 8 seconds.
+}
+
+STRING 12173
+// Abilities: A09R (Armsmaster: Opportunistic Reflexes), Ubertip (Tooltip - Normal - Extended)
+{
+The hero has a |cffd7df0112%|r chance to critically hit or reduces damage taken by 80%. Critical damage deals 75% more damage and reduces armor by 6.
+|cffffcc00Duration:|r 8 seconds.
+}
+
+STRING 12174
+// Abilities: A09R (Armsmaster: Opportunistic Reflexes), Ubertip (Tooltip - Normal - Extended)
+{
+The hero has a |cffd7df0114%|r chance to critically hit or reduces damage taken by 80%. Critical damage deals 75% more damage and reduces armor by 6.
+|cffffcc00Duration:|r 8 seconds.
+}
+
+STRING 12175
+// Abilities: A07R (Armsmaster: Spar), Researchubertip (Tooltip - Learn - Extended)
+{
+Challenge the enemy to a sparring match. During this time, both deal 10%/14%/18%/22%/26% less damage. When you attack it, the effect is refreshed. Provokes it to attack you for 4 seconds.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 24/23/22/21/20 seconds.
+|cffffcc00Cost:|r 65 mana.
+}
+
+STRING 12176
+// Abilities: A07R (Armsmaster: Spar), Ubertip (Tooltip - Normal - Extended)
+{
+Challenge the enemy to a sparring match. During this time, both deal 10% less damage. When you attack it, the effect is refreshed. Provokes it to attack you for 4 seconds.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 24 seconds.
+}
+
+STRING 12177
+// Abilities: A07R (Armsmaster: Spar), Ubertip (Tooltip - Normal - Extended)
+{
+Challenge the enemy to a sparring match. During this time, both deal 14% less damage. When you attack it, the effect is refreshed. Provokes it to attack you for 4 seconds.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 24 seconds.
+}
+
+STRING 12178
+// Abilities: A07R (Armsmaster: Spar), Ubertip (Tooltip - Normal - Extended)
+{
+Challenge the enemy to a sparring match. During this time, both deal 18% less damage. When you attack it, the effect is refreshed. Provokes it to attack you for 4 seconds.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 24 seconds.
+}
+
+STRING 12179
+// Abilities: A07R (Armsmaster: Spar), Ubertip (Tooltip - Normal - Extended)
+{
+Challenge the enemy to a sparring match. During this time, both deal 22% less damage. When you attack it, the effect is refreshed. Provokes it to attack you for 4 seconds.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 24 seconds.
+}
+
+STRING 12180
+// Abilities: A07R (Armsmaster: Spar), Ubertip (Tooltip - Normal - Extended)
+{
+Challenge the enemy to a sparring match. During this time, both deal 26% less damage. When you attack it, the effect is refreshed. Provokes it to attack you for 4 seconds.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 24 seconds.
+}
+
+STRING 12181
+// Abilities: A04K (Doctor: Reincarnation), Researchubertip (Tooltip - Learn - Extended)
+{
+Imposes a buff on the hero. Reduces the attack speed of enemies near the target by 8%/14%/20%/26%/32%. When the target dies, resurrects it from |cffbe81f715%/20%/25%/30%/35%|r of health and mana.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
+STRING 12182
+// Abilities: A04K (Doctor: Reincarnation), Ubertip (Tooltip - Normal - Extended)
+{
+Imposes a buff on the hero. Reduces the attack speed of enemies near the target by 8%. When the target dies, resurrects it from |cffbe81f715%|r of health and mana.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 12183
+// Abilities: A04K (Doctor: Reincarnation), Ubertip (Tooltip - Normal - Extended)
+{
+Imposes a buff on the hero. Reduces the attack speed of enemies near the target by 14%. When the target dies, resurrects it from |cffbe81f720%|r of health and mana.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 12184
+// Abilities: A04K (Doctor: Reincarnation), Ubertip (Tooltip - Normal - Extended)
+{
+Imposes a buff on the hero. Reduces the attack speed of enemies near the target by 20%. When the target dies, resurrects it from |cffbe81f725%|r of health and mana.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 12185
+// Abilities: A04K (Doctor: Reincarnation), Ubertip (Tooltip - Normal - Extended)
+{
+Imposes a buff on the hero. Reduces the attack speed of enemies near the target by 26%. When the target dies, resurrects it from |cffbe81f730%|r of health and mana.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 12186
+// Abilities: A04K (Doctor: Reincarnation), Ubertip (Tooltip - Normal - Extended)
+{
+Imposes a buff on the hero. Reduces the attack speed of enemies near the target by 32%. When the target dies, resurrects it from |cffbe81f735%|r of maximum health and mana.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 

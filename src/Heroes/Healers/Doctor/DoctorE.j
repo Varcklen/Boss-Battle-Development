@@ -10,12 +10,22 @@ scope DoctorE initializer init
 		private constant integer ATTACK_REDUCTION_INITIAL = 1
 		private constant integer ATTACK_REDUCTION_PER_LEVEL = 1
 		
+		private constant integer BOSS_ATTACK_LIMIT = 40
+		
 		private constant integer RANGE = 500
 	endglobals
 
 	private function condition takes nothing returns boolean
 	    return GetUnitAbilityLevel( Event_DoctorE_Hero, ABILITY_ID) > 0
 	endfunction
+	
+	private function AttackReduction takes unit target, integer attack, integer attackReduction returns nothing
+		if IsUnitType( target, UNIT_TYPE_ANCIENT) and attack <= BOSS_ATTACK_LIMIT then
+			return
+    	endif
+        call BlzSetUnitBaseDamage( target, attack - attackReduction, 0 )
+        call DestroyEffect( AddSpecialEffectTarget( ANIMATION, target, "origin" ) )
+    endfunction
     
     private function action takes nothing returns nothing
     	local unit caster = Event_DoctorE_Hero
@@ -31,8 +41,7 @@ scope DoctorE initializer init
             exitwhen u == null
             set attack = BlzGetUnitBaseDamage(u, 0)
             if unitst( u, caster, "enemy" ) and attack > attackReduction and IsUnitType( u, UNIT_TYPE_HERO ) == false then
-                call BlzSetUnitBaseDamage( u, attack - attackReduction, 0 )
-                call DestroyEffect( AddSpecialEffectTarget( ANIMATION, u, "origin" ) )
+            	call AttackReduction(u, attack, attackReduction)
             endif
             call GroupRemoveUnit(g,u)
         endloop

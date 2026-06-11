@@ -2,10 +2,12 @@ scope DifficultyUnitSpawn initializer init
 
 	globals
 		public trigger Trigger = null
+		
+		private constant integer DIFFICULTY_STAT_IGNORE_ABILITY = 'A1IG'
 	endglobals
 
 	private function condition takes nothing returns boolean
-		return Difficulty_GetIndex() > 0
+		return /*Difficulty_GetIndex() > 0 and*/ GetUnitAbilityLevel( EnemyUnitSummoned.GetDataUnit("unit"), DIFFICULTY_STAT_IGNORE_ABILITY ) == 0 
 	endfunction
 
 	private function action takes nothing returns nothing
@@ -27,7 +29,7 @@ scope DifficultyUnitSpawn initializer init
 	endfunction
 
 	private function init takes nothing returns nothing
-		set Trigger = EnemyUnitSummoned.AddListener(function action, null)
+		set Trigger = EnemyUnitSummoned.AddListener(function action, function condition)
 		call DisableTrigger(Trigger)
 	endfunction
 
