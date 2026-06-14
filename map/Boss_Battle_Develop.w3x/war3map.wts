@@ -638,12 +638,6 @@ STRING 96
 Chaos Totem
 }
 
-STRING 97
-// Units: o00V (Kodo feed), Name (Name)
-{
-Kodo feed
-}
-
 STRING 98
 // Units: o00R (Power Totem), Name (Name)
 {
@@ -1848,12 +1842,6 @@ STRING 292
 // Units: h01L (Chest), Name (Name)
 {
 Chest
-}
-
-STRING 293
-// Units: h01K (Baby), Name (Name)
-{
-Baby
 }
 
 STRING 294
@@ -8108,13 +8096,6 @@ STRING 1233
 Royal Letter
 }
 
-STRING 1234
-// Items: I0GD (Volatile Water), Description (Description)
-{
-|cff4169e1Rare|r
-When exchanged with |cffe96a1cnon-legendary|r artifact, it turns into it.
-}
-
 STRING 1235
 // Items: I0DC (Totem of Exchange), Name (Name)
 {
@@ -8125,6 +8106,15 @@ STRING 1236
 // Items: I0DC (Totem of Exchange), Tip (Tooltip - Basic)
 {
 Totem of Exchange
+}
+
+STRING 1237
+// Items: I0GO (Battlemaster's Bulwark), Description (Description)
+{
+|cffe96a1cLegendary|r
+Reduces damage taken by 20%.
+Activation: Target another hero to make them invulnerable for 10 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 1238
@@ -8177,13 +8167,6 @@ STRING 1245
 {
 |cffe96a1cLegendary|r
 Increases Health by 1250, Attack by 35 and Armor by 15.
-}
-
-STRING 1246
-// Items: I0GD (Volatile Water), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-When exchanged with |cffe96a1cnon-legendary|r artifact, it turns into it.
 }
 
 STRING 1247
@@ -9480,7 +9463,7 @@ Granite of Science
 }
 
 STRING 1437
-// Items: I0BY (Granite of Science), Ubertip (Tooltip - Extended)
+// Items: I0BY (Granite of Science), Description (Description)
 {
 |cffe96a1cLegendary|r
 Activation: Your next activated |cffcc0000non-corrupted|r artifact will trigger three times.
@@ -10503,15 +10486,6 @@ STRING 1588
 // Items: I0EU (Blacksmith Craft), Tip (Tooltip - Basic)
 {
 Blacksmith Craft
-}
-
-STRING 1589
-// Items: I0BY (Granite of Science), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: Your next activated |cffcc0000non-corrupted|r artifact will trigger three times.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 35 mana.
 }
 
 STRING 1590
@@ -12038,6 +12012,15 @@ STRING 1810
 |cffffcc00Reward:|r Scientist Card.
 }
 
+STRING 1811
+// Items: I0GO (Battlemaster's Bulwark), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Reduces damage taken by 20%.
+Activation: Target another hero to make them invulnerable for 10 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 1812
 // Items: I09Q (Idol of Greed), Description (Description)
 {
@@ -13532,6 +13515,12 @@ Activation: Increases the number of charges of |cff088a08potions|r in your inven
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
+STRING 2028
+// Items: I01T (Spring Water), Name (Name)
+{
+Spring Water
+}
+
 STRING 2029
 // Items: I07T (Magician's Boots), Name (Name)
 {
@@ -13542,6 +13531,12 @@ STRING 2030
 // Items: I07T (Magician's Boots), Tip (Tooltip - Basic)
 {
 Magician's Boots
+}
+
+STRING 2031
+// Items: I01T (Spring Water), Tip (Tooltip - Basic)
+{
+Spring Water
 }
 
 STRING 2032
@@ -14228,34 +14223,6 @@ STRING 2131
 {
 The hero jumps to a point, dealing |cffbe81f7140|r damage to enemies. Restores |cffbe81f728|r health for each enemy hit.
 |cffffcc00Cooldown:|r 1.5 seconds.
-}
-
-STRING 2132
-// Items: I073 (Explosive moss), Description (Description)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-When the hero dies, deals |cffbe81f7750|r damage to all nearby enemies.
-|cff81f260[Random bonus]|r
-}
-
-STRING 2133
-// Items: I073 (Explosive moss), Name (Name)
-{
-Explosive moss
-}
-
-STRING 2134
-// Items: I073 (Explosive moss), Tip (Tooltip - Basic)
-{
-Explosive moss
-}
-
-STRING 2135
-// Items: I073 (Explosive moss), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-When the hero dies, deals |cffbe81f7750|r damage to all nearby enemies.
-|cff81f260[Random bonus]|r
 }
 
 STRING 2136
@@ -14980,16 +14947,6 @@ STRING 2239
 Increases attack power by 50. At the end of the battle transforms.
 }
 
-STRING 2240
-// Items: I06C (Newt's Magic Casket), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: Summons one of the exotic creatures.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 2241
 // Items: I06C (Newt's Magic Casket), Name (Name)
 {
@@ -15000,15 +14957,6 @@ STRING 2242
 // Items: I06C (Newt's Magic Casket), Tip (Tooltip - Basic)
 {
 Newt's Magic Casket
-}
-
-STRING 2243
-// Items: I06C (Newt's Magic Casket), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: Summons one of the exotic creatures.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 2244
@@ -17796,6 +17744,12 @@ STRING 2660
 Ikaros Mudstone
 }
 
+STRING 2661
+// Abilities: A1IH (Artifact: Battlemaster's Bulwark), Name (Name)
+{
+Artifact: Battlemaster's Bulwark
+}
+
 STRING 2662
 // Items: I03G (Badge of the Gray Warden), Description (Description)
 {
@@ -19213,14 +19167,6 @@ STRING 2868
 The warrior deals damage and restores health over time.
 }
 
-STRING 2869
-// Items: I0C5 (Penny Pincher), Description (Description)
-{
-|cffbababcCommon|r
-When the hero attacks the enemy, gets 4 gold.
-|cff81f260[Random bonus]|r
-}
-
 STRING 2870
 // Items: I020 (Cenarion Horn), Name (Name)
 {
@@ -19231,14 +19177,6 @@ STRING 2871
 // Items: I020 (Cenarion Horn), Tip (Tooltip - Basic)
 {
 Cenarion Horn
-}
-
-STRING 2872
-// Items: I0C5 (Penny Pincher), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-When the hero attacks the enemy, gets 4 gold.
-|cff81f260[Random bonus]|r
 }
 
 STRING 2873
@@ -19397,34 +19335,6 @@ STRING 2896
 {
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cffe96a1clegendary|r artifact.
-}
-
-STRING 2897
-// Items: I01T (Spring water), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Restores |cffbe81f25%|r of maximum health and mana. If there are no other artifacts in the inventory, it fully restores health and mana.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 2898
-// Items: I01T (Spring water), Name (Name)
-{
-Spring water
-}
-
-STRING 2899
-// Items: I01T (Spring water), Tip (Tooltip - Basic)
-{
-Spring water
-}
-
-STRING 2900
-// Items: I01T (Spring water), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Restores |cffbe81f25%|r of maximum health and mana. If there are no other artifacts in the inventory, it fully restores health and mana.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2901
@@ -19617,6 +19527,12 @@ STRING 2932
 // Items: I01M (Книга Забвения (Акт.)), Tip (Tooltip - Basic)
 {
 Tome of Oblivion
+}
+
+STRING 2933
+// Abilities: A1II (Stat: Damage Taken -20%), Name (Name)
+{
+Stat: Damage Taken -20%
 }
 
 STRING 2934
@@ -20904,6 +20820,12 @@ STRING 3120
 // Abilities: A1GL (Aspect: Skeletor: Aspect of Grateful Dead), Ubertip (Tooltip - Normal - Extended)
 {
 Skeleportation no longer teleports the hero, but summons a skeleton for each of the ability instead.
+}
+
+STRING 3121
+// Abilities: A1IJ ((т)Аура: Battlemaster's Bulwark), Name (Name)
+{
+(т)Аура: Battlemaster's Bulwark
 }
 
 STRING 3122
@@ -26511,6 +26433,18 @@ STRING 3988
 // Abilities: A1EM (Mephistar: Soul Split), Name (Name)
 {
 Mephistar: Soul Split
+}
+
+STRING 3989
+// Abilities: A1IK (Invulnerable), EditorSuffix (Editor Suffix)
+{
+(Battlemaster's Bulwark)
+}
+
+STRING 3990
+// Buffs/Effects: B0B4 (), Bufftip (Tooltip)
+{
+|cff00ff00Battlemaster's Bulwark|r
 }
 
 STRING 3991
@@ -36257,12 +36191,6 @@ STRING 5495
 |cffffcc00Уровень 9:|r Большой кодой
 }
 
-STRING 5496
-// Abilities: A0W9 (|cffffcc00Уровень 9:|r Большой кодой), Tip (Tooltip - Normal)
-{
-Big codo
-}
-
 STRING 5497
 // Buffs/Effects: B0AI (), Buffubertip (Tooltip - Extended)
 {
@@ -43908,6 +43836,12 @@ STRING 6674
 Encouragement, [|cffffcc00Level %d|r]
 }
 
+STRING 6675
+// Buffs/Effects: B0B4 (), Buffubertip (Tooltip - Extended)
+{
+Invulnerability.
+}
+
 STRING 6676
 // Abilities: A0OC (Legionary: Encouragement), Tip (Tooltip - Normal)
 {
@@ -43936,6 +43870,40 @@ STRING 6680
 // Abilities: A0OC (Legionary: Encouragement), Tip (Tooltip - Normal)
 {
 Encouragement, [|cffffcc00Level 5|r]
+}
+
+STRING 6681
+// Items: I0BY (Granite of Science), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: Your next activated |cffcc0000non-corrupted|r artifact will trigger three times.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 6682
+// Units: o00V (Kodo Food), Name (Name)
+{
+Kodo Food
+}
+
+STRING 6683
+// Units: h01K (Chompy), Name (Name)
+{
+Chompy
+}
+
+STRING 6684
+// Items: I0GD (Volatile Water), Description (Description)
+{
+|cff4169e1Rare|r
+When exchanged with another player, it turns into what was exchanged with.
+}
+
+STRING 6685
+// Items: I0GD (Volatile Water), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+When exchanged with another player, it turns into what was exchanged with.
 }
 
 STRING 6686
@@ -45223,6 +45191,39 @@ STRING 6888
 // Abilities: A0MB (Ninja: Smoke Bomb), Researchhotkey (Hotkey - Learn)
 {
 R
+}
+
+STRING 6889
+// Items: I01T (Spring Water), Description (Description)
+{
+|cffbababcCommon|r
+Activation: Restore |cffbe81f25%|r of Health and Mana. If there are no other artifacts in the inventory, fully restore instead.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 6890
+// Items: I01T (Spring Water), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: Restore |cffbe81f25%|r of Health and Mana. If there are no other artifacts in the inventory, fully restore instead.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 6891
+// Abilities: A0W9 (|cffffcc00Уровень 9:|r Большой кодой), Tip (Tooltip - Normal)
+{
+Big Codo
+}
+
+STRING 6892
+// Abilities: A0W9 (|cffffcc00Уровень 9:|r Большой кодой), Ubertip (Tooltip - Normal - Extended)
+{
+- Extremely strong attacks. Slow attacks.
+- The boss is immune to taunts and partially to stuns.
+- When boss attacks a minion, eat them and restores health equal to the maximum health of a minion.
+- Every 8 seconds creates a trap nearby. When an adversary steps on it, it deals |cffbe81f7300|r damage and stuns it for 3 seconds.
+- |cff00cceeAt 60% health:|r Creates a Kodo Food. The boss is going to eat one of them. Every 12 seconds goes to eat kodo food. Each Kodo Food eaten increases the boss's attack by 100.
+- |cff00cceeAt 40% health:|r Increases the attack and movement speed of the boss by 50%.
 }
 
 STRING 6893
@@ -55255,6 +55256,12 @@ STRING 8442
 Illusionist
 }
 
+STRING 8443
+// Units: u004 (dummy (Blade Master Glaives)), Name (Name)
+{
+dummy (Blade Master Glaives)
+}
+
 STRING 8444
 // Items: I07L (Playful Spirit), Name (Name)
 {
@@ -57401,6 +57408,42 @@ STRING 8770
 Opportunistic Reflexes, [|cffffcc00Level 5|r]
 }
 
+STRING 8771
+// Items: I0C5 (Penny Pincher), Description (Description)
+{
+|cff4169e1Rare|r
+When your hero attacks an enemy, gain 4 gold.
+|cff81f260[Random bonus]|r
+}
+
+STRING 8772
+// Items: I0C5 (Penny Pincher), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+When your hero attacks an enemy, gain 4 gold.
+|cff81f260[Random bonus]|r
+}
+
+STRING 8773
+// Items: I073 (Explosive Moss), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+When your hero dies, deals |cffbe81f7750|r damage to all nearby enemies.
+|cff81f260[Random bonus]|r
+}
+
+STRING 8774
+// Items: I073 (Explosive Moss), Name (Name)
+{
+Explosive Moss
+}
+
+STRING 8775
+// Items: I073 (Explosive Moss), Tip (Tooltip - Basic)
+{
+Explosive Moss
+}
+
 STRING 8776
 // Abilities: A09Q (Артефакт: Фарик Хитрый), Name (Name)
 {
@@ -57838,6 +57881,14 @@ STRING 8844
 // Abilities: A09A (Mimic: Shattering), Researchtip (Tooltip - Learn)
 {
 Shattering, [|cffffcc00Level %d|r]
+}
+
+STRING 8845
+// Items: I073 (Explosive Moss), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+When your hero dies, deals |cffbe81f7750|r damage to all nearby enemies.
+|cff81f260[Random bonus]|r
 }
 
 STRING 8846
@@ -58770,10 +58821,29 @@ STRING 8991
 W
 }
 
+STRING 8992
+// Items: I06C (Newt's Magic Casket), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: Summons one of the exotic creatures.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
 STRING 8993
 // Abilities: A07F (Preacher: Touch of the Light), Researchhotkey (Hotkey - Learn)
 {
 W
+}
+
+STRING 8994
+// Items: I06C (Newt's Magic Casket), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: Summons one of the exotic creatures.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 8995
@@ -70415,13 +70485,6 @@ Every 5 seconds, creates a Gold Coin in the arena.
 |cff81f260[Random bonus]|r
 }
 
-STRING 10856
-// Items: I0GO (Battlemaster's Bulwark), Description (Description)
-{
-|cffe96a1cLegendary|r
-When the Hero deal damage, creates a Shield equal to |cffbe81f725%|r of the damage dealt.
-}
-
 STRING 10857
 // Buffs/Effects: B040 (), Bufftip (Tooltip)
 {
@@ -71783,13 +71846,6 @@ STRING 11082
 {
 |cffbababcCommon|r
 Activation: |cffcc0000Corrupted|r. Create 4 artifacts in an empty inventory slots. Create 1 less for each other artifact in the inventory (at least 1).
-}
-
-STRING 11083
-// Items: I0GO (Battlemaster's Bulwark), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-When the Hero deal damage, creates a Shield equal to |cffbe81f725%|r of the damage dealt.
 }
 
 STRING 11084
@@ -74880,17 +74936,6 @@ STRING 11570
 - The intoxicated hero, with a probability of 25%, misses and periodically loses control.
 - |cff00cceeAt 50% health:|r Instead, intoxicate up to four random opponents.
 - |cff00cceeAt 25% health:|r Increases your attack and movement speed by 20%.
-}
-
-STRING 11571
-// Abilities: A0W9 (|cffffcc00Уровень 9:|r Большой кодой), Ubertip (Tooltip - Normal - Extended)
-{
-- Extremely strong attacks. Slow attacks.
-- The boss is immune to taunts and partially to stuns.
-- When boss attacks a minion, eat him and restores health equal to the maximum health of a minion.
-- Every 8 seconds creates a trap nearby. When an adversary steps on it, it deals |cffbe81f7200|r damage and stuns it for 5 seconds.
-- |cff00cceeAt 50% health:|r Creates kodo food. The boss is going to eat one of them. Every 10 seconds goes to eat kodo food.
-- |cff00cceeAt 40% health:|r Increases the attack and movement speed of the boss by 50%.
 }
 
 STRING 11572

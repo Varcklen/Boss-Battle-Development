@@ -74,6 +74,11 @@ library IndicatorSystem initializer init requires CommonTimer
 		endloop
 		set ParticlesCreated_Max = 0
 	endfunction
+	
+	public function Remove takes effect particle returns nothing
+		call BlzSetSpecialEffectZ( particle, -1000 )
+		call DestroyEffect( particle )
+	endfunction
 
 	private function end takes nothing returns nothing
 		local integer id = GetHandleId( GetExpiredTimer() )
@@ -98,8 +103,10 @@ library IndicatorSystem initializer init requires CommonTimer
 		call BlzSetSpecialEffectScale( temp_Effect, area / 100 * indicator.BaseSize )
 		call BlzSetSpecialEffectColorByPlayer( temp_Effect, Player(12) ) //Red Color
 		
-		set id = InvokeTimerWithEffect( temp_Effect, STRING_HASH_STRING, duration, false, function end )
-		call SaveInteger(udg_hash, id, STRING_HASH, indicator)
+		if duration > 0 then
+			set id = InvokeTimerWithEffect( temp_Effect, STRING_HASH_STRING, duration, false, function end )
+			call SaveInteger(udg_hash, id, STRING_HASH, indicator)
+		endif
 		
 		set ParticlesCreated[ParticlesCreated_Max] = temp_Effect
 		set ParticlesCreated_Max = ParticlesCreated_Max + 1
