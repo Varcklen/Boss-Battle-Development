@@ -638,6 +638,12 @@ STRING 96
 Chaos Totem
 }
 
+STRING 97
+// Abilities: A16U (|cffffcc00Уровень 7:|r Горный великан), Tip (Tooltip - Normal)
+{
+Mountain Giant
+}
+
 STRING 98
 // Units: o00R (Power Totem), Name (Name)
 {
@@ -759,18 +765,6 @@ All heroes teleport to the arena, where they earn gold for killing enemy minions
 
 Works only once, but is refreshed after completing:
 - Fourth boss
-}
-
-STRING 115
-// Abilities: A16U (|cffffcc00Уровень 7:|r Горный великан), Ubertip (Tooltip - Normal - Extended)
-{
-- A lot of Health.
-- Takes +300% damage from heroes.
-- Every 12 seconds, creates a stone rift that gradually moves to the edges of the map in four directions. Stone rift deals |cffbe81f7150|r damage.
-- |cff00cceeAt 90% health:|r Every 12 seconds, the boss stops and charges. After 3 seconds, he hits all enemies to the front, dealing |cffbe81f71000|r damage.
-- |cff00cceeAt 70% health:|r Creates an area under a random hero. After 2.5 seconds it explodes, stunning all enemies for 10 seconds.
-- |cff00cceeAt 60% health:|r Stone rifts spawn twice as often.
-- |cff00cceeAt 30% health:|r Removes from all heroes 20% of their maximum health and mana.
 }
 
 STRING 116
@@ -1748,12 +1742,6 @@ STRING 276
 Target dummy
 }
 
-STRING 277
-// Units: h022 (Box of gold), Name (Name)
-{
-Box of gold
-}
-
 STRING 278
 // Units: h021 (Witch's Cauldron), Name (Name)
 {
@@ -1842,6 +1830,17 @@ STRING 292
 // Units: h01L (Chest), Name (Name)
 {
 Chest
+}
+
+STRING 293
+// Abilities: A16U (|cffffcc00Уровень 7:|r Горный великан), Ubertip (Tooltip - Normal - Extended)
+{
+- Takes 70% less damage from minions.
+- Every 12 seconds, creates a stone rift that gradually moves to the edges of the map in four directions. Stone rift deals |cffbe81f7200|r damage.
+- |cff00cceeAt 90% health:|r Every 12 seconds, the boss stops and charges. After 2 seconds, it hits all boss enemies to the front, dealing |cffbe81f7800|r damage.
+- |cff00cceeAt 70% health:|r Creates an area under a random hero. After 2.5 seconds it explodes, stunning all boss enemies for 7 seconds.
+- |cff00cceeAt 60% health:|r Stone rifts spawn twice as often.
+- |cff00cceeAt 30% health:|r Takes away 20% health from all heroes.
 }
 
 STRING 294
@@ -2177,13 +2176,13 @@ Wizardo
 }
 
 STRING 349
-// Units: h002 (Choptrouble), EditorSuffix (Name - Editor Suffix)
+// Units: h002 (ChoptroubleXXX), EditorSuffix (Name - Editor Suffix)
 {
 (Бодрствует)
 }
 
 STRING 350
-// Units: h002 (Choptrouble), Name (Name)
+// Units: h001 (Choptrouble), Name (Name)
 {
 Choptrouble
 }
@@ -2195,7 +2194,7 @@ STRING 351
 }
 
 STRING 352
-// Units: h001 (Choptrouble), Name (Name)
+// Units: h01N (Choptrouble), Name (Name)
 {
 Choptrouble
 }
@@ -6657,15 +6656,6 @@ When the hero's health drops below 20%, it puts the hero in stasis for 3 seconds
 |cffffcc00Cooldown:|r 90 seconds.
 }
 
-STRING 1030
-// Items: I0BT (Steel Rose), Description (Description)
-{
-|cff4169e1Rare|r, |cff7cfc00Nature|r
-If all artifacts in your inventory are from the "|cff7cfc00Nature|r" set, gives 4 resurrections.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 1031
 // Items: I0ER (Orb of Volcano), Name (Name)
 {
@@ -6676,15 +6666,6 @@ STRING 1032
 // Items: I0ER (Orb of Volcano), Tip (Tooltip - Basic)
 {
 Orb of Volcano
-}
-
-STRING 1033
-// Items: I0BT (Steel Rose), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff7cfc00Nature|r
-If all artifacts in your inventory are from the "|cff7cfc00Nature|r" set, gives 4 resurrections.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 1034
@@ -8096,6 +8077,12 @@ STRING 1233
 Royal Letter
 }
 
+STRING 1234
+// Units: h002 (ChoptroubleXXX), Name (Name)
+{
+ChoptroubleXXX
+}
+
 STRING 1235
 // Items: I0DC (Totem of Exchange), Name (Name)
 {
@@ -8167,6 +8154,12 @@ STRING 1245
 {
 |cffe96a1cLegendary|r
 Increases Health by 1250, Attack by 35 and Armor by 15.
+}
+
+STRING 1246
+// Units: h01N (Choptrouble), EditorSuffix (Name - Editor Suffix)
+{
+(Бодрствует)
 }
 
 STRING 1247
@@ -10488,6 +10481,16 @@ STRING 1588
 Blacksmith Craft
 }
 
+STRING 1589
+// Abilities: A1BH (Bro: Bazinga!), Researchubertip (Tooltip - Learn - Extended)
+{
+Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7150/200/250/300/350|r damage to nearby enemies. Bonnie always throws a priority.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 50 mana.
+
+|cFF959697Does not work on invulnerable units.|r
+}
+
 STRING 1590
 // Items: I0AV (Aggressive Shield), Description (Description)
 {
@@ -11216,15 +11219,6 @@ Activation: Teleports the hero a short distance.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
-STRING 1694
-// Abilities: A1BF (Bro: Bamboozle), Researchubertip (Tooltip - Learn - Extended)
-{
-Deal |cffbe81f780/105/130/155/180|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
-|cffffcc00Cooldown:|r 19/18/17/16/15 seconds.
-|cffffcc00Cost:|r 20 mana.|n
-|cFF959697Does not swap locations if the caster is invulnerable.|r
-}
-
 STRING 1695
 // Items: I0A5 (Cane of Khnum), Name (Name)
 {
@@ -11453,22 +11447,6 @@ STRING 1726
 Power Search
 }
 
-STRING 1727
-// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f780|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
-|cffffcc00Cooldown:|r 19 seconds.|n
-|cFF959697Does not swap locations if the caster is invulnerable.|r
-}
-
-STRING 1728
-// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7105|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
-|cffffcc00Cooldown:|r 18 seconds.|n
-|cFF959697Does not swap locations if the caster is invulnerable.|r
-}
-
 STRING 1729
 // Items: I096 (Skill Show), Description (Description)
 {
@@ -11635,14 +11613,6 @@ STRING 1753
 |cffffcc00Reward:|r Dead Man's Chest.
 }
 
-STRING 1754
-// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7130|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
-|cffffcc00Cooldown:|r 17 seconds.|n
-|cFF959697Does not swap locations if the caster is invulnerable.|r
-}
-
 STRING 1755
 // Items: I09Q (Idol of Greed), Name (Name)
 {
@@ -11653,14 +11623,6 @@ STRING 1756
 // Items: I09Q (Idol of Greed), Tip (Tooltip - Basic)
 {
 Idol of Greed
-}
-
-STRING 1757
-// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7155|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
-|cffffcc00Cooldown:|r 16 seconds.|n
-|cFF959697Does not swap locations if the caster is invulnerable.|r
 }
 
 STRING 1758
@@ -11687,14 +11649,6 @@ STRING 1761
 {
 |cff4169e1Rare|r
 Increases physical damage dealt and received by 100%.
-}
-
-STRING 1762
-// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
-{
-Deal |cffbe81f7180|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
-|cffffcc00Cooldown:|r 15 seconds.|n
-|cFF959697Does not swap locations if the caster is invulnerable.|r
 }
 
 STRING 1763
@@ -12035,6 +11989,15 @@ STRING 1813
 |cff4169e1Rare|r
 Increases health by 1250.
 Your hero takes pure damage instead of all heroes.
+}
+
+STRING 1814
+// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
+{
+Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7150|r damage to nearby enemies. Bonnie always throws a priority.
+|cffffcc00Cooldown:|r 15 seconds.
+
+|cFF959697Does not work on invulnerable units.|r
 }
 
 STRING 1815
@@ -14225,6 +14188,42 @@ The hero jumps to a point, dealing |cffbe81f7140|r damage to enemies. Restores |
 |cffffcc00Cooldown:|r 1.5 seconds.
 }
 
+STRING 2132
+// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
+{
+Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7200|r damage to nearby enemies. Bonnie always throws a priority.
+|cffffcc00Cooldown:|r 15 seconds.
+
+|cFF959697Does not work on invulnerable units.|r
+}
+
+STRING 2133
+// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
+{
+Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7250|r damage to nearby enemies. Bonnie always throws a priority.
+|cffffcc00Cooldown:|r 15 seconds.
+
+|cFF959697Does not work on invulnerable units.|r
+}
+
+STRING 2134
+// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
+{
+Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7300|r damage to nearby enemies. Bonnie always throws a priority.
+|cffffcc00Cooldown:|r 15 seconds.
+
+|cFF959697Does not work on invulnerable units.|r
+}
+
+STRING 2135
+// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
+{
+Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7350|r damage to nearby enemies. Bonnie always throws a priority.
+|cffffcc00Cooldown:|r 15 seconds.
+
+|cFF959697Does not work on invulnerable units.|r
+}
+
 STRING 2136
 // Items: I072 (Braccus Dex), Description (Description)
 {
@@ -14592,14 +14591,6 @@ The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intel
 |cFF959697Defiance is fully successful if all 3 conditions are met.|r
 }
 
-STRING 2190
-// Abilities: A1HD (Special: Farewell), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Quickly jump towards target area with moderate precision.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 2191
 // Items: I0CR (Divider (Out of Pool)), Ubertip (Tooltip - Extended)
 {
@@ -14947,6 +14938,16 @@ STRING 2239
 Increases attack power by 50. At the end of the battle transforms.
 }
 
+STRING 2240
+// Abilities: A1BG (Bro: Brutal Blunder), Researchubertip (Tooltip - Learn - Extended)
+{
+Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f730/40/50/60/70|r damage to nearby foes while pulling.
+|cffffcc00Cooldown:|r 19/18/17/16/15 seconds.
+|cffffcc00Cost:|r 45 mana.
+
+|cFF959697Does not work on invulnerable and immovable targets.|r
+}
+
 STRING 2241
 // Items: I06C (Newt's Magic Casket), Name (Name)
 {
@@ -14957,6 +14958,15 @@ STRING 2242
 // Items: I06C (Newt's Magic Casket), Tip (Tooltip - Basic)
 {
 Newt's Magic Casket
+}
+
+STRING 2243
+// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
+{
+Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f730|r damage to nearby foes while pulling.
+|cffffcc00Cooldown:|r 19 seconds.
+
+|cFF959697Does not work on invulnerable and immovable targets.|r
 }
 
 STRING 2244
@@ -17732,6 +17742,15 @@ STRING 2657
 Extra: Combination
 }
 
+STRING 2658
+// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
+{
+Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f740|r damage to nearby foes while pulling.
+|cffffcc00Cooldown:|r 18 seconds.
+
+|cFF959697Does not work on invulnerable and immovable targets.|r
+}
+
 STRING 2659
 // Items: I03H (Ikaros Mudstone), Name (Name)
 {
@@ -19167,6 +19186,15 @@ STRING 2868
 The warrior deals damage and restores health over time.
 }
 
+STRING 2869
+// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
+{
+Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f750|r damage to nearby foes while pulling.
+|cffffcc00Cooldown:|r 17 seconds.
+
+|cFF959697Does not work on invulnerable and immovable targets.|r
+}
+
 STRING 2870
 // Items: I020 (Cenarion Horn), Name (Name)
 {
@@ -19177,6 +19205,15 @@ STRING 2871
 // Items: I020 (Cenarion Horn), Tip (Tooltip - Basic)
 {
 Cenarion Horn
+}
+
+STRING 2872
+// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
+{
+Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f760|r damage to nearby foes while pulling.
+|cffffcc00Cooldown:|r 16 seconds.
+
+|cFF959697Does not work on invulnerable and immovable targets.|r
 }
 
 STRING 2873
@@ -19335,6 +19372,40 @@ STRING 2896
 {
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cffe96a1clegendary|r artifact.
+}
+
+STRING 2897
+// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
+{
+Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f770|r damage to nearby foes while pulling.
+|cffffcc00Cooldown:|r 15 seconds.
+
+|cFF959697Does not work on invulnerable and immovable targets.|r
+}
+
+STRING 2898
+// Abilities: A1BF (Bro: Bamboozle), Researchubertip (Tooltip - Learn - Extended)
+{
+Deal |cffbe81f780/105/130/155/180|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 19/18/17/16/15 seconds.
+|cffffcc00Cost:|r 20 mana.|n
+|cFF959697Do not swap if the caster is invulnerable.|r
+}
+
+STRING 2899
+// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f780|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 19 seconds.|n
+|cFF959697Do not swap if the caster is invulnerable.|r
+}
+
+STRING 2900
+// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7105|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 18 seconds.|n
+|cFF959697Do not swap if the caster is invulnerable.|r
 }
 
 STRING 2901
@@ -20094,14 +20165,6 @@ STRING 3011
 |cffbababcCommon|r, |cff848484Rune|r
 Increases attack power by 20 and armor by 2.
 |cffffffffThe hero receives 20% less gold from any sources.|r
-}
-
-STRING 3012
-// Items: I0DU (Runestone Chad), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases attack speed by 90%.
-|cffffffffReduces attack power by 90%.|r
 }
 
 STRING 3013
@@ -21290,24 +21353,10 @@ STRING 3190
 F
 }
 
-STRING 3191
-// Abilities: AZ01 (Special: Soul Marriage), Name (Name)
-{
-Special: Soul Marriage
-}
-
 STRING 3192
-// Abilities: AZ01 (Special: Soul Marriage), Tip (Tooltip - Normal)
+// Abilities: AZ01 (Special: Soul MarriageXXX), Tip (Tooltip - Normal)
 {
 Soul Marriage
-}
-
-STRING 3193
-// Abilities: AZ01 (Special: Soul Marriage), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Swap souls of all heroes. For each hero affected, apply shield worth |cffbe81f7100|r health on your hero. |nThere is no reason to do this.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 3194
@@ -23759,14 +23808,6 @@ STRING 3580
 Brother Rant
 }
 
-STRING 3581
-// Items: I0DU (Runestone Chad), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases attack speed by 90%.
-|cffffffffReduces attack power by 90%.|r
-}
-
 STRING 3582
 // Abilities: A1B0 (Bard: Ballad of a Hero), Researchhotkey (Hotkey - Learn)
 {
@@ -24086,15 +24127,6 @@ STRING 3632
 Unstable Potions
 }
 
-STRING 3633
-// Abilities: A1B3 (Special: Unstable Potions), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Adds a Fire Potion to an empty inventory slot.
-You have 2 seconds to use it.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 3634
 // Items: IV21 (Bento Set), Hotkey (Hotkey)
 {
@@ -24105,20 +24137,6 @@ STRING 3635
 // Abilities: A1B2 (Special: Equivalent exchange), Name (Name)
 {
 Special: Equivalent exchange
-}
-
-STRING 3636
-// Abilities: A1B2 (Special: Equivalent exchange), Tip (Tooltip - Normal)
-{
-Equivalent exchange
-}
-
-STRING 3637
-// Abilities: A1B2 (Special: Equivalent exchange), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-The hero loses |cffbe81f7100|r health to restore |cffbe81f760|r mana.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 3638
@@ -24760,14 +24778,6 @@ STRING 3739
 Burst of Energy
 }
 
-STRING 3740
-// Abilities: A1AF (Special: Burst of Energy), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Restores |cffbe81f735|r mana to an ally. If it has a shield on it, it restores twice as much.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 3741
 // Items: IV23 (Roquefort), Hotkey (Hotkey)
 {
@@ -24786,39 +24796,10 @@ STRING 3743
 Sacrifice
 }
 
-STRING 3744
-// Abilities: A1AE (Special: Sacrifice), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Sacrifice an artifact in your inventory to deal |cffbe81f7450|r damage to all enemies nearby.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 3745
 // Items: IV24 (Festive Cake), Hotkey (Hotkey)
 {
 F
-}
-
-STRING 3746
-// Abilities: A1AD (Special: Voodoo explosion), Name (Name)
-{
-Special: Voodoo explosion
-}
-
-STRING 3747
-// Abilities: A1AD (Special: Voodoo explosion), Tip (Tooltip - Normal)
-{
-Voodoo explosion
-}
-
-STRING 3748
-// Abilities: A1AD (Special: Voodoo explosion), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Deals |cffbe81f775|r damage to all units in the area.
-If 3 or more enemies were hit, increases luck by 1.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 3749
@@ -25361,16 +25342,6 @@ STRING 3832
 Rage
 }
 
-STRING 3833
-// Abilities: A19S (Special: Rage), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Increases the attack power of the hero by 25%.
-If the hero killed an enemy during this battle, doubles the bonus.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 3834
 // Items: IV26 (Lavish Meal), Hotkey (Hotkey)
 {
@@ -25473,14 +25444,6 @@ STRING 3849
 // Abilities: A19N (Special: Innervate), Tip (Tooltip - Normal)
 {
 Innervate
-}
-
-STRING 3850
-// Abilities: A19N (Special: Innervate), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Restores |cffbe81f7150|r health to an ally. If the target's health is less than 40%, it also grants |cffbe81f7150|r shield.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 3851
@@ -27040,14 +27003,6 @@ STRING 4086
 Provocation
 }
 
-STRING 4087
-// Abilities: A1BH (Bro: Bazinga!), Researchubertip (Tooltip - Learn - Extended)
-{
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7150/200/250/300/350|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
 STRING 4088
 // Abilities: A17J (Wicerd: Nah-ice! ), Researchhotkey (Hotkey - Learn)
 {
@@ -28188,12 +28143,6 @@ STRING 4265
 // Abilities: A16U (|cffffcc00Уровень 7:|r Горный великан), Name (Name)
 {
 |cffffcc00Уровень 7:|r Горный великан
-}
-
-STRING 4266
-// Abilities: A16U (|cffffcc00Уровень 7:|r Горный великан), Tip (Tooltip - Normal)
-{
-Mountain giant
 }
 
 STRING 4267
@@ -30808,15 +30757,6 @@ STRING 4669
 Mutation
 }
 
-STRING 4670
-// Abilities: A13S (Special: Mutation), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Transforms an allied minion into another minion.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 4671
 // Abilities: A13R (Босс 5: Баньши (Москиты)), Name (Name)
 {
@@ -31863,14 +31803,6 @@ STRING 4833
 // Abilities: A12G (Special: Unholy Bless), Tip (Tooltip - Normal)
 {
 Unholy Bless
-}
-
-STRING 4834
-// Abilities: A12G (Special: Unholy Bless), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Target restores up to |cffbe81f750%|r of its maximum health. Extends cooldown by 1 second for every 20 health that has been restored.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 4835
@@ -36191,6 +36123,14 @@ STRING 5495
 |cffffcc00Уровень 9:|r Большой кодой
 }
 
+STRING 5496
+// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7130|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 17 seconds.|n
+|cFF959697Do not swap if the caster is invulnerable.|r
+}
+
 STRING 5497
 // Buffs/Effects: B0AI (), Buffubertip (Tooltip - Extended)
 {
@@ -37485,88 +37425,10 @@ STRING 5691
 R
 }
 
-STRING 5692
-// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
-{
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7150|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 5693
 // Abilities: A0UD (Harpy: Rebirth), Researchhotkey (Hotkey - Learn)
 {
 R
-}
-
-STRING 5694
-// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
-{
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7200|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 5695
-// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
-{
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7250|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 5696
-// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
-{
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7300|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 5697
-// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
-{
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7350|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 5698
-// Abilities: A1BG (Bro: Brutal Blunder), Researchubertip (Tooltip - Learn - Extended)
-{
-Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f730/40/50/60/70|r damage to nearby foes while pulling.
-|cffffcc00Cooldown:|r 19/18/17/16/15 seconds.
-|cffffcc00Cost:|r 45 mana.
-}
-
-STRING 5699
-// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
-{
-Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f730|r damage to nearby foes while pulling.
-|cffffcc00Cooldown:|r 19 seconds.
-}
-
-STRING 5700
-// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
-{
-Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f740|r damage to nearby foes while pulling.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 5701
-// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
-{
-Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f750|r damage to nearby foes while pulling.
-|cffffcc00Cooldown:|r 17 seconds.
-}
-
-STRING 5702
-// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
-{
-Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f760|r damage to nearby foes while pulling.
-|cffffcc00Cooldown:|r 16 seconds.
-}
-
-STRING 5703
-// Abilities: A1BG (Bro: Brutal Blunder), Ubertip (Tooltip - Normal - Extended)
-{
-Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seconds. If the target is Bonnie, the target constantly deals |cffbe81f770|r damage to nearby foes while pulling.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 5704
@@ -40735,12 +40597,6 @@ Deals |cffbe81f7200|r damage to the enemy and additionally damage equal to |cffb
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
-STRING 6189
-// Abilities: A0RU (Босс 4: Манадракон (Аура)), Name (Name)
-{
-Босс 4: Манадракон (Аура)
-}
-
 STRING 6190
 // Abilities: A0RH (20. Matter), Researchhotkey (Hotkey - Learn)
 {
@@ -43088,12 +42944,6 @@ STRING 6556
 Take My Money!, [|cffffcc00Level %d|r]
 }
 
-STRING 6557
-// Abilities: A1G1 (Stat: Phy Damage Dealt -90%), Name (Name)
-{
-Stat: Phy Damage Dealt -90%
-}
-
 STRING 6558
 // Abilities: A0OY (Wagon: Take My Money!), Tip (Tooltip - Normal)
 {
@@ -43837,7 +43687,7 @@ Encouragement, [|cffffcc00Level %d|r]
 }
 
 STRING 6675
-// Buffs/Effects: B0B4 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B09W (), Buffubertip (Tooltip - Extended)
 {
 Invulnerability.
 }
@@ -51254,7 +51104,7 @@ STRING 7816
 }
 
 STRING 7817
-// Abilities: AZ01 (Special: Soul Marriage), Hotkey (Hotkey - Normal)
+// Abilities: AZ01 (Special: Soul MarriageXXX), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -51269,14 +51119,6 @@ STRING 7819
 // Abilities: A0G7 (Special: Noiselessness), Tip (Tooltip - Normal)
 {
 Noiselessness
-}
-
-STRING 7820
-// Abilities: A0G7 (Special: Noiselessness), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Restores |cffbe81f7100|r health to your hero and makes you invisible for 4 seconds. No actions can interrupt the effect.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 7821
@@ -55703,26 +55545,6 @@ STRING 8511
 F
 }
 
-STRING 8512
-// Abilities: A0BM (Special: Financial vein), Name (Name)
-{
-Special: Financial vein
-}
-
-STRING 8513
-// Abilities: A0BM (Special: Financial vein), Tip (Tooltip - Normal)
-{
-Financial vein
-}
-
-STRING 8514
-// Abilities: A0BM (Special: Financial vein), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Gives |cffffffff3|r gold. Increases the gold received from this ability by 3 until the end of the battle.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 8515
 // Abilities: A0BL (Artifact: Perfectly Cut Lens), EditorSuffix (Editor Suffix)
 {
@@ -58853,6 +58675,43 @@ Restores |cffbe81f7425|r Health to an ally. Summons a Scared Citizen near the ta
 |cffffcc00Cooldown:|r 12 seconds.
 }
 
+STRING 8996
+// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7155|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 16 seconds.|n
+|cFF959697Do not swap if the caster is invulnerable.|r
+}
+
+STRING 8997
+// Abilities: A1BF (Bro: Bamboozle), Ubertip (Tooltip - Normal - Extended)
+{
+Deal |cffbe81f7180|r damage to nearby enemies, then swap positions with the target and deal that much damage at the new location.
+|cffffcc00Cooldown:|r 15 seconds.|n
+|cFF959697Do not swap if the caster is invulnerable.|r
+}
+
+STRING 8998
+// Abilities: A0RU (Босс 4: Манадракон (Аура)XXX), Name (Name)
+{
+Босс 4: Манадракон (Аура)XXX
+}
+
+STRING 8999
+// Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Ubertip (Tooltip - Normal - Extended)
+{
+- When it attacks a Hero, it burns |cffbe81f740|r mana. If the Hero has no mana, deals an additional 175% damage with attack.
+- |cff00cceeAt 75% health:|r Every 10 seconds, burns |cffbe81f720|r mana for all heroes.
+- |cff00cceeAt 50% health:|r The boss burns 100% more mana. Creates 6 mana sources, each of which deals |cffbe81f730|r damage to restore |cffbe81f730|r mana.
+- |cff00cceeAt 25% health:|r Burns all mana for all heroes.
+}
+
+STRING 9000
+// Units: h022 (Box of Gold), Name (Name)
+{
+Box of Gold
+}
+
 STRING 9001
 // Abilities: A0CN (Skeletlord: Parish), Ubertip (Tooltip - Normal - Extended)
 {
@@ -59000,16 +58859,73 @@ STRING 9024
 When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 200.
 }
 
+STRING 9025
+// Items: I0DU (Runestone Chad), Description (Description)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases attack speed by 50%.
+|cffffffffReduces attack power by 50%.|r
+}
+
 STRING 9026
 // Abilities: A07T (Owl: Owl magic), Researchhotkey (Hotkey - Learn)
 {
 E
 }
 
+STRING 9027
+// Items: I0DU (Runestone Chad), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases attack speed by 50%.
+|cffffffffReduces attack power by 50%.|r
+}
+
 STRING 9028
 // Abilities: A0CM (Skeletlord: Grasp of the Dead), Tip (Tooltip - Normal)
 {
 Grasp of the Dead, [|cffffcc00Level 2|r]
+}
+
+STRING 9029
+// Items: I0BT (Steel Rose), Description (Description)
+{
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+If you have 6 artifacts from the |cff7cfc00Nature|r set in the inventory, gives 4 resurrections.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 9030
+// Items: I0BT (Steel Rose), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+If you have 6 artifacts from the |cff7cfc00Nature|r set in the inventory, gives 4 resurrections.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
+STRING 9031
+// Abilities: AZ01 (Special: Soul MarriageXXX), Name (Name)
+{
+Special: Soul MarriageXXX
+}
+
+STRING 9032
+// Abilities: AZ01 (Special: Soul MarriageXXX), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Gives the target and caster |cffbe81f7100|r shield.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 9033
+// Abilities: A1B3 (Special: Unstable Potions), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Adds a Fire Potion to an empty inventory slot.
+You have 3 seconds to use it.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 9034
@@ -59410,6 +59326,12 @@ STRING 9096
 // Abilities: A082 (Outcast: Denial of the Past), Researchtip (Tooltip - Learn)
 {
 Denial of the Past, [|cffffcc00Level %d|r]
+}
+
+STRING 9097
+// Abilities: A1B2 (Special: Equivalent exchange), Tip (Tooltip - Normal)
+{
+Equivalent Exchange
 }
 
 STRING 9098
@@ -60022,6 +59944,14 @@ STRING 9190
 Spar, [|cffffcc00Level %d|r]
 }
 
+STRING 9191
+// Abilities: A1B2 (Special: Equivalent exchange), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Lose |cffbe81f7100|r health to restore |cffbe81f760|r mana.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 9192
 // Abilities: A07R (Armsmaster: Spar), Tip (Tooltip - Normal)
 {
@@ -60050,6 +59980,43 @@ STRING 9196
 // Abilities: A07R (Armsmaster: Spar), Tip (Tooltip - Normal)
 {
 Spar, [|cffffcc00Level 5|r]
+}
+
+STRING 9197
+// Abilities: A1AF (Special: Burst of Energy), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Restores |cffbe81f735|r mana to another friendly unit. If it has a shield, it restores twice as much.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 9198
+// Abilities: A1AE (Special: Sacrifice), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Sacrifice an item in your inventory to deal |cffbe81f7450|r damage to all enemies nearby.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 9199
+// Abilities: A1AD (Special: Voodoo Explosion), Name (Name)
+{
+Special: Voodoo Explosion
+}
+
+STRING 9200
+// Abilities: A1AD (Special: Voodoo Explosion), Tip (Tooltip - Normal)
+{
+Voodoo Explosion
+}
+
+STRING 9201
+// Abilities: A1AD (Special: Voodoo Explosion), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Deals |cffbe81f775|r damage to enemies in the area.
+If 3 or more enemies were hit, increases luck by 1.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 9202
@@ -60398,14 +60365,6 @@ STRING 9256
 Crackle
 }
 
-STRING 9257
-// Abilities: A07H (Special: Crackle), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Stuns an enemy for 1.5 seconds. If the target's health is 40% or less, doubles the stun duration.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 9258
 // Abilities: A07G (Артефакт: Синяя призма), Name (Name)
 {
@@ -60734,14 +60693,6 @@ STRING 9308
 // Abilities: A06Y (Special: Echo), Tip (Tooltip - Normal)
 {
 Echo
-}
-
-STRING 9309
-// Abilities: A06Y (Special: Echo), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Uses your |cff60C445Unique|r ability on the target. |nDoes not work with passive |cff60C445Uniques|r.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 9310
@@ -63328,6 +63279,16 @@ STRING 9708
 Reincarnation, [|cffffcc00Level %d|r]
 }
 
+STRING 9709
+// Abilities: A19S (Special: Rage), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Increases the attack power of the hero by 20%.
+If the hero killed an enemy during this battle, doubles the bonus.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 9710
 // Abilities: A04K (Doctor: Reincarnation), Tip (Tooltip - Normal)
 {
@@ -64802,10 +64763,92 @@ STRING 9932
 Q
 }
 
+STRING 9933
+// Abilities: A19N (Special: Innervate), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Restores |cffbe81f7150|r health to an ally. If the target's health is less than 40%, it also gives |cffbe81f7150|r shield.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 9934
 // Abilities: A01G (Wagon: Corpse Toss), Hotkey (Hotkey - Normal)
 {
 Q
+}
+
+STRING 9935
+// Abilities: A13S (Special: Mutation), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Transforms an allied minion into another minion.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 9936
+// Abilities: A12G (Special: Unholy Bless), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Target restores up to |cffbe81f750%|r of its maximum health. Extends cooldown by 1 second for every 20 health that has been restored.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 9937
+// Abilities: A0G7 (Special: Noiselessness), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Restores |cffbe81f7125|r health to your hero and makes you invisible for 2 seconds. No actions can interrupt the effect.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 9938
+// Abilities: A0BM (Special: Financial Vein), Name (Name)
+{
+Special: Financial Vein
+}
+
+STRING 9939
+// Abilities: A0BM (Special: Financial Vein), Tip (Tooltip - Normal)
+{
+Financial Vein
+}
+
+STRING 9940
+// Abilities: A0BM (Special: Financial Vein), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Gives |cffffffff5|r gold. Increases the gold received from this ability by 3 until the end of the battle.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 9941
+// Abilities: A07H (Special: Crackle), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Stuns an enemy for 2 seconds. If the target's health is 50% or less, doubles the stun duration.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 9942
+// Abilities: A06Y (Special: Echo), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Use your active |cff60C445Unique|r ability on the target.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 9943
+// Abilities: A1G1 (Stat: Phy Damage Dealt -50%), Name (Name)
+{
+Stat: Phy Damage Dealt -50%
+}
+
+STRING 9944
+// Abilities: A1HD (Special: Farewell), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Quickly jump towards target area with moderate precision.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 9947
@@ -67943,7 +67986,7 @@ STRING 10433
 }
 
 STRING 10434
-// Buffs/Effects: B09W (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B08F (), Buffubertip (Tooltip - Extended)
 {
 Invulnerability.
 }
@@ -68597,7 +68640,7 @@ STRING 10542
 }
 
 STRING 10543
-// Buffs/Effects: B08F (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B0B4 (), Buffubertip (Tooltip - Extended)
 {
 Invulnerability.
 }
@@ -77553,15 +77596,6 @@ STRING 11938
 Activation: |cffcc0000Corrupted|r. Increases stats by |cffffffff4|r. At the end of the battle, increases the value by 4.
 }
 
-STRING 11939
-// Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Ubertip (Tooltip - Normal - Extended)
-{
-- When it attacks a Hero, it burns |cffbe81f740|r mana. If the Hero has no mana, deals an additional 175% damage with attack.
-- |cff00cceeAt 75% health:|r Every 10 seconds, burns |cffbe81f720|r mana for all heroes.
-- |cff00cceeAt 50% health:|r The boss burns 2 times more mana. Creates 4 zones, each of which deals |cffbe81f730|r damage to the enemy and restores |cffbe81f720|r mana.
-- |cff00cceeAt 25% health:|r Burns all mana for all heroes.
-}
-
 STRING 11940
 // Items: IV37 (Parasite Friend), Description (Description)
 {
@@ -78071,7 +78105,7 @@ F
 }
 
 STRING 12010
-// Abilities: A1AD (Special: Voodoo explosion), Hotkey (Hotkey - Normal)
+// Abilities: A1AD (Special: Voodoo Explosion), Hotkey (Hotkey - Normal)
 {
 F
 }
@@ -78155,7 +78189,7 @@ F
 }
 
 STRING 12024
-// Abilities: A0BM (Special: Financial vein), Hotkey (Hotkey - Normal)
+// Abilities: A0BM (Special: Financial Vein), Hotkey (Hotkey - Normal)
 {
 F
 }

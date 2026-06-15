@@ -48,7 +48,7 @@ scope WeaponGain initializer init
 	endfunction
 	
 	private function GetItemText takes item it returns string
-		return "|n> "+ WeaponWord( BlzGetItemExtendedTooltip(it) )
+		return "|n|cffffcc00>|r "+ WeaponWord( BlzGetItemExtendedTooltip(it) )
 	endfunction
 	
 	public function AddWeapon takes unit hero, item itemUsed returns nothing

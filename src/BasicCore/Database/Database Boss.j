@@ -169,7 +169,7 @@ library LibDataBoss
 	    set BossArenaChoise[7][3] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[7][4] = ARENA_TYPE_BIG
 	    set BossArenaChoise[7][5] = ARENA_TYPE_BIG
-	    set BossArenaChoise[7][6] = ARENA_TYPE_BIG
+	    set BossArenaChoise[7][6] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[8][1] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[8][2] = ARENA_TYPE_BIG
 	    set BossArenaChoise[8][3] = ARENA_TYPE_BIG
@@ -179,7 +179,7 @@ library LibDataBoss
 	    set BossArenaChoise[9][1] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[9][2] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[9][3] = ARENA_TYPE_BIG
-	    set BossArenaChoise[9][4] = ARENA_TYPE_BIG
+	    set BossArenaChoise[9][4] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[9][5] = ARENA_TYPE_BIG
 	    set BossArenaChoise[9][6] = ARENA_TYPE_BIG
 	    set BossArenaChoise[10][1] = ARENA_TYPE_BIG

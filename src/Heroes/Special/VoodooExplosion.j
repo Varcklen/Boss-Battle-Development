@@ -46,12 +46,10 @@ function Trig_Voodoo_explosion_Actions takes nothing returns nothing
     loop
         set u = FirstOfGroup(g)
         exitwhen u == null
-        if unitst( u, caster, "all" ) then
+        if unitst( u, caster, "enemy" ) then
             call DestroyEffect( AddSpecialEffect("Abilities\\Spells\\Other\\HealingSpray\\HealBottleMissile.mdl", GetUnitX(u), GetUnitY(u) ) )
             call UnitTakeDamage( caster, u, dmg, DAMAGE_TYPE_MAGIC)
-            if IsUnitEnemy( u, GetOwningPlayer( caster ) ) then
-                set k = k + 1
-            endif
+            set k = k + 1
         endif
         call GroupRemoveUnit(g,u)
     endloop
