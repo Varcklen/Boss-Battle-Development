@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.11.6T|r
+|cffbe81f7Boss Battle 1.11.7T|r
 }
 
 STRING 2
@@ -2203,12 +2203,6 @@ STRING 353
 // Units: h000 (Maximilius), Name (Name)
 {
 Maximilius
-}
-
-STRING 354
-// Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Tip (Tooltip - Normal)
-{
-Moon priestess
 }
 
 STRING 355
@@ -6656,6 +6650,16 @@ When the hero's health drops below 20%, it puts the hero in stasis for 3 seconds
 |cffffcc00Cooldown:|r 90 seconds.
 }
 
+STRING 1030
+// Items: I01J (Golden Lamp), Description (Description)
+{
+|cffe96a1cLegendary|r
+When the hero cast, increases the damage by 10.
+Activation: Deals |cffbe81f7100|r damage to an enemy.
+|cffffcc00Cooldown:|r 60 seconds.
+|cffffcc00Cost:|r 100 mana.
+}
+
 STRING 1031
 // Items: I0ER (Orb of Volcano), Name (Name)
 {
@@ -7559,18 +7563,6 @@ Activation: Gives the hero a buff:
 "Abilities and items cost health instead of mana."
 |cffffcc00Duration:|r 25 seconds.
 |cffffcc00Cooldown:|r 60 seconds.
-}
-
-STRING 1162
-// Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Ubertip (Tooltip - Normal - Extended)
-{
-- Ranged attacks.
-- Each boss projectile bounces to the nearest enemy (up to three times).
-- Summons a crystal every 8 seconds. After 7 seconds, the crystal is destroyed and releases the power of the Moon Priestess.
-- |cff00cceeAt 60% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall, dealing 50 damage every 1.5 seconds until all the moon priestesses die.
-- |cff00cceeAt 40% health:|r Increases the attack speed of the boss and moon priestesses by 30%.
-- |cff00cceeAt 30% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall.
-- |cff00cceeAt 20% health:|r Summons 4 crystals.
 }
 
 STRING 1163
@@ -11219,6 +11211,15 @@ Activation: Teleports the hero a short distance.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 1694
+// Items: I01J (Golden Lamp), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+When the hero cast, increases the damage by 10.
+Activation: Deals |cffbe81f7100|r damage to an enemy.
+|cffffcc00Cooldown:|r 60 seconds.
+}
+
 STRING 1695
 // Items: I0A5 (Cane of Khnum), Name (Name)
 {
@@ -11447,6 +11448,12 @@ STRING 1726
 Power Search
 }
 
+STRING 1728
+// Items: I01A (Deadly Spores), Name (Name)
+{
+Deadly Spores
+}
+
 STRING 1729
 // Items: I096 (Skill Show), Description (Description)
 {
@@ -11613,6 +11620,12 @@ STRING 1753
 |cffffcc00Reward:|r Dead Man's Chest.
 }
 
+STRING 1754
+// Items: I01A (Deadly Spores), Tip (Tooltip - Basic)
+{
+Deadly Spores
+}
+
 STRING 1755
 // Items: I09Q (Idol of Greed), Name (Name)
 {
@@ -11649,6 +11662,12 @@ STRING 1761
 {
 |cff4169e1Rare|r
 Increases physical damage dealt and received by 100%.
+}
+
+STRING 1762
+// Abilities: A02S (Аура: Deadly spores (2)XXX), Tip (Tooltip - Normal)
+{
+Эффект Могущеста
 }
 
 STRING 1763
@@ -14589,6 +14608,12 @@ STRING 2189
 If the hero has used Vengeful Strike no more than 3 times during the battle, gain 2 Strength at the end of the round.
 The effect is the same for Demonic Blast (Agility) and Power Overwhelming (Intelligence).|r|n
 |cFF959697Defiance is fully successful if all 3 conditions are met.|r
+}
+
+STRING 2190
+// Abilities: A02S (Аура: Deadly spores (2)XXX), Tip (Tooltip - Normal)
+{
+Эффект Могущеста
 }
 
 STRING 2191
@@ -19648,16 +19673,6 @@ STRING 2940
 Lye Insanios
 }
 
-STRING 2941
-// Items: I01J (Golden Lamp), Description (Description)
-{
-|cffe96a1cLegendary|r
-When the hero uses an ability or item, increases the damage dealt by 10.
-Activation: Deals |cffbe81f70|r damage to an enemy.
-|cffffcc00Cooldown:|r 60 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
 STRING 2942
 // Items: I01J (Golden Lamp), Name (Name)
 {
@@ -19668,15 +19683,6 @@ STRING 2943
 // Items: I01J (Golden Lamp), Tip (Tooltip - Basic)
 {
 Golden Lamp
-}
-
-STRING 2944
-// Items: I01J (Golden Lamp), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-When the hero uses an ability or item, increases the damage dealt by 10.
-Activation: Deals |cffbe81f70|r damage to an enemy.
-|cffffcc00Cooldown:|r 60 seconds.
 }
 
 STRING 2945
@@ -19903,32 +19909,6 @@ STRING 2976
 |cffbababcCommon|r
 When the hero attacks, imposes poison on the target, which reduces the attack speed by 10% and deals |cffbe81f715|r damage every second.
 |cffffcc00Duration:|r 15 seconds.
-}
-
-STRING 2977
-// Items: I01A (Deadly spores), Description (Description)
-{
-|cff4169e1Rare|r, |cff7cfc00Nature|r
-Activation: Kills your hero. Your allies gain +40% attack power and 3 armor once until the end of battle.
-}
-
-STRING 2978
-// Items: I01A (Deadly spores), Name (Name)
-{
-Deadly spores
-}
-
-STRING 2979
-// Items: I01A (Deadly spores), Tip (Tooltip - Basic)
-{
-Deadly spores
-}
-
-STRING 2980
-// Items: I01A (Deadly spores), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff7cfc00Nature|r
-Activation: Kills your hero. Your allies gain +40% attack power and 3 armor once until the end of battle.
 }
 
 STRING 2981
@@ -20165,6 +20145,12 @@ STRING 3011
 |cffbababcCommon|r, |cff848484Rune|r
 Increases attack power by 20 and armor by 2.
 |cffffffffThe hero receives 20% less gold from any sources.|r
+}
+
+STRING 3012
+// Abilities: A02S (Аура: Deadly spores (2)XXX), Tip (Tooltip - Normal)
+{
+Эффект Могущеста
 }
 
 STRING 3013
@@ -21353,10 +21339,22 @@ STRING 3190
 F
 }
 
+STRING 3191
+// Abilities: A02S (Аура: Deadly spores (2)XXX), Tip (Tooltip - Normal)
+{
+Эффект Могущеста
+}
+
 STRING 3192
 // Abilities: AZ01 (Special: Soul MarriageXXX), Tip (Tooltip - Normal)
 {
 Soul Marriage
+}
+
+STRING 3193
+// Abilities: A02S (Аура: Deadly spores (2)XXX), Tip (Tooltip - Normal)
+{
+Эффект Могущеста
 }
 
 STRING 3194
@@ -23808,6 +23806,12 @@ STRING 3580
 Brother Rant
 }
 
+STRING 3581
+// Abilities: A02S (Аура: Deadly spores (2)XXX), Tip (Tooltip - Normal)
+{
+Эффект Могущеста
+}
+
 STRING 3582
 // Abilities: A1B0 (Bard: Ballad of a Hero), Researchhotkey (Hotkey - Learn)
 {
@@ -24127,6 +24131,12 @@ STRING 3632
 Unstable Potions
 }
 
+STRING 3633
+// Abilities: A02S (Аура: Deadly spores (2)XXX), Tip (Tooltip - Normal)
+{
+Эффект Могущеста
+}
+
 STRING 3634
 // Items: IV21 (Bento Set), Hotkey (Hotkey)
 {
@@ -24137,6 +24147,18 @@ STRING 3635
 // Abilities: A1B2 (Special: Equivalent exchange), Name (Name)
 {
 Special: Equivalent exchange
+}
+
+STRING 3636
+// Abilities: A02S (Аура: Deadly spores (2)XXX), Tip (Tooltip - Normal)
+{
+Эффект Могущеста
+}
+
+STRING 3637
+// Abilities: A02S (Аура: Deadly spores (2)XXX), Name (Name)
+{
+Аура: Deadly spores (2)XXX
 }
 
 STRING 3638
@@ -24778,6 +24800,12 @@ STRING 3739
 Burst of Energy
 }
 
+STRING 3740
+// Abilities: A02B (Аура: Меч Могущества (Снижение урона)), Tip (Tooltip - Normal)
+{
+Эффект Могущеста
+}
+
 STRING 3741
 // Items: IV23 (Roquefort), Hotkey (Hotkey)
 {
@@ -24796,10 +24824,36 @@ STRING 3743
 Sacrifice
 }
 
+STRING 3744
+// Buffs/Effects: B00B (), Bufftip (Tooltip)
+{
+|cff00ff00Deadly spores|rXXX
+}
+
 STRING 3745
 // Items: IV24 (Festive Cake), Hotkey (Hotkey)
 {
 F
+}
+
+STRING 3746
+// Buffs/Effects: B00A (), Buffubertip (Tooltip - Extended)
+{
+Damage and Armor increased.
+}
+
+STRING 3747
+// Items: I01A (Deadly Spores), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Activation: Kills your hero to increase your allies Attack Damage by 40% until the end of battle. 
+}
+
+STRING 3748
+// Items: I01A (Deadly Spores), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Activation: Kills your hero to increase your allies Attack Damage by 40% until the end of battle. 
 }
 
 STRING 3749
@@ -25342,6 +25396,12 @@ STRING 3832
 Rage
 }
 
+STRING 3833
+// Abilities: A0MQ (Curse: Непоколебимость (b18)), Ubertip (Tooltip - Normal - Extended)
+{
+Enemies with 80% or more health take 15% less damage.
+}
+
 STRING 3834
 // Items: IV26 (Lavish Meal), Hotkey (Hotkey)
 {
@@ -25444,6 +25504,12 @@ STRING 3849
 // Abilities: A19N (Special: Innervate), Tip (Tooltip - Normal)
 {
 Innervate
+}
+
+STRING 3850
+// Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Tip (Tooltip - Normal)
+{
+Moon Priestess
 }
 
 STRING 3851
@@ -27001,6 +27067,18 @@ STRING 4086
 // Abilities: A184 (Прочее: Провокация (Банан)), Tip (Tooltip - Normal)
 {
 Provocation
+}
+
+STRING 4087
+// Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Ubertip (Tooltip - Normal - Extended)
+{
+- Ranged attacks.
+- Each boss projectile bounces to the nearest enemy (up to three times).
+- Summons a crystal every 8 seconds. After 7 seconds, destroys the crystal to release the power of the Moon Priestess.
+- |cff00cceeAt 60% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall, dealing 50 damage every 1.5 seconds until all the moon priestesses die.
+- |cff00cceeAt 40% health:|r Increases the attack speed of the boss and moon priestesses by 30%.
+- |cff00cceeAt 30% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall.
+- |cff00cceeAt 20% health:|r Summons 4 crystals.
 }
 
 STRING 4088
@@ -65142,14 +65220,8 @@ The hero weakens targets in front, reducing enemies attack and movement speed by
 |cffffcc00Cooldown:|r 16 seconds.
 }
 
-STRING 9989
-// Abilities: A02S (Аура: Deadly spores (2)), Name (Name)
-{
-Аура: Deadly spores (2)
-}
-
 STRING 9990
-// Abilities: A02S (Аура: Deadly spores (2)), Tip (Tooltip - Normal)
+// Abilities: A02S (Аура: Deadly spores (2)XXX), Tip (Tooltip - Normal)
 {
 Эффект Могущеста
 }
@@ -65508,7 +65580,7 @@ STRING 10043
 }
 
 STRING 10044
-// Abilities: A02B (Аура: Меч Могущества (Снижение урона)), Tip (Tooltip - Normal)
+// Abilities: A02S (Аура: Deadly spores (2)XXX), Tip (Tooltip - Normal)
 {
 Эффект Могущеста
 }
@@ -72145,7 +72217,7 @@ Attack power increased.
 }
 
 STRING 11125
-// Buffs/Effects: B00B (), Bufftip (Tooltip)
+// Buffs/Effects: B00A (), Bufftip (Tooltip)
 {
 |cff00ff00Deadly spores|r
 }
@@ -72160,18 +72232,6 @@ STRING 11127
 // Buffs/Effects: B00B (), EditorSuffix (Editor Suffix)
 {
 (2)
-}
-
-STRING 11128
-// Buffs/Effects: B00A (), Bufftip (Tooltip)
-{
-|cff00ff00Deadly spores|r
-}
-
-STRING 11129
-// Buffs/Effects: B00A (), Buffubertip (Tooltip - Extended)
-{
-Attack power increased.
 }
 
 STRING 11130
@@ -72691,7 +72751,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.11.6T|r
+|cffbe81f7Boss Battle 1.11.7T|r
 }
 
 STRING 11219
@@ -72776,12 +72836,6 @@ STRING 11230
 // Abilities: A0FM (Curse: Медлительность (b2)), Ubertip (Tooltip - Normal - Extended)
 {
 Reduces hero Attack Speed by 10%.
-}
-
-STRING 11231
-// Abilities: A0MQ (Curse: Непоколебимость (b18)), Ubertip (Tooltip - Normal - Extended)
-{
-Enemies take 5% less damage.
 }
 
 STRING 11232

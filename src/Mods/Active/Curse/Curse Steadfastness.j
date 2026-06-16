@@ -3,17 +3,17 @@ scope CurseSteadfastness initializer init
 	globals
 		private trigger Trigger = null
 		
-		private constant real DAMAGE_REDUCTION = -0.05
+		private constant real DAMAGE_REDUCTION = 0.15
 	endglobals
 	
 	private function condition takes nothing returns boolean
-		return GetOwningPlayer(udg_DamageEventTarget) == Player(10)
+		return GetOwningPlayer(udg_DamageEventTarget) == Player(10) and GetUnitLifePercent(udg_DamageEventTarget) >= 80
 	endfunction
 	
 	private function action takes nothing returns nothing
 		local real damageGain = Event_OnDamageChange_StaticDamage * DAMAGE_REDUCTION
 	
-		set udg_DamageEventAmount = udg_DamageEventAmount + damageGain
+		set udg_DamageEventAmount = udg_DamageEventAmount - damageGain
 	endfunction
 	
 	//===========================================================================
