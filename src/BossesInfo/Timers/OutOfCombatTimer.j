@@ -9,7 +9,7 @@ scope OutOfCombatTimer initializer init
 		private constant integer WARNING_TIME_DEVIATION = 20
 		private constant integer FIRST_TIMER_TIME = 120
 		private constant integer REPICK_DISABLE_TIME = 115
-		private constant string DIALOG_DESCRIPTION = "Start of the battle:"
+		private constant string DIALOG_DESCRIPTION = "Start of the Battle:"
 		
 		private boolean Debug = false
 	endglobals

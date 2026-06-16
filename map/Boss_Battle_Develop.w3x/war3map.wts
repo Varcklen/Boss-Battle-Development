@@ -24801,7 +24801,7 @@ Burst of Energy
 }
 
 STRING 3740
-// Abilities: A02B (Аура: Меч Могущества (Снижение урона)), Tip (Tooltip - Normal)
+// Abilities: A02S (Аура: Deadly spores (2)XXX), Tip (Tooltip - Normal)
 {
 Эффект Могущеста
 }
@@ -65580,7 +65580,7 @@ STRING 10043
 }
 
 STRING 10044
-// Abilities: A02S (Аура: Deadly spores (2)XXX), Tip (Tooltip - Normal)
+// Abilities: A02B (Аура: Меч Могущества (Снижение урона)), Tip (Tooltip - Normal)
 {
 Эффект Могущеста
 }

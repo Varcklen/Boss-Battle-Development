@@ -2,6 +2,8 @@ scope MainBattleHeroDeath initializer init
 
 	globals
 		private trigger Trigger
+		
+		boolean IsDefeat = false
 	endglobals
 	
 	public function Enable takes nothing returns nothing
@@ -57,7 +59,7 @@ scope MainBattleHeroDeath initializer init
         local player pl
         local integer i
     
-        set udg_logic[1] = true
+        set IsDefeat = true
         set udg_logic[36] = false
         set udg_fightmod[0] = false
         call SaveLoadStart()
