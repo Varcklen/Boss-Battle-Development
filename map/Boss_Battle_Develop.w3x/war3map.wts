@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.11.7T|r
+|cffbe81f7Boss Battle 1.11.8T|r
 }
 
 STRING 2
@@ -765,6 +765,16 @@ All heroes teleport to the arena, where they earn gold for killing enemy minions
 
 Works only once, but is refreshed after completing:
 - Fourth boss
+}
+
+STRING 115
+// Items: I040 (Royal Onyx), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff00cceeCrystal|r
+Your activated |cffcc0000non-corrupted|r artifacts trigger twice.
+Activation: |cFFE16B90Forge|r an activated artifact.
+|cffffcc00Cooldown:|r 60 seconds.
+|cffffcc00Cost:|r 100 mana.
 }
 
 STRING 116
@@ -1742,6 +1752,15 @@ STRING 276
 Target dummy
 }
 
+STRING 277
+// Items: I040 (Royal Onyx), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff00cceeCrystal|r
+Your activated |cffcc0000non-corrupted|r artifacts trigger twice.
+Activation: |cFFE16B90Forge|r an activated artifact.
+|cffffcc00Cooldown:|r 60 seconds.
+}
+
 STRING 278
 // Units: h021 (Witch's Cauldron), Name (Name)
 {
@@ -2203,6 +2222,12 @@ STRING 353
 // Units: h000 (Maximilius), Name (Name)
 {
 Maximilius
+}
+
+STRING 354
+// Items: IV36 (Donut), Description (Description)
+{
+Activation: Consume to increase stats by |cffffffff4|r. At the end of the battle, increases the value by 4.
 }
 
 STRING 355
@@ -6672,6 +6697,12 @@ STRING 1032
 Orb of Volcano
 }
 
+STRING 1033
+// Items: IV36 (Donut), Ubertip (Tooltip - Extended)
+{
+Activation: Consume to increase stats by |cffffffff4|r. At the end of the battle, increases the value by 4.
+}
+
 STRING 1034
 // Items: I0EQ (Orb of Cairne Bloodhoof), Description (Description)
 {
@@ -7563,6 +7594,14 @@ Activation: Gives the hero a buff:
 "Abilities and items cost health instead of mana."
 |cffffcc00Duration:|r 25 seconds.
 |cffffcc00Cooldown:|r 60 seconds.
+}
+
+STRING 1162
+// Abilities: A07H (Special: Crackle), Ubertip (Tooltip - Normal - Extended)
+{
+|cff8080ffSpecial|r
+Stuns an enemy for 1,5 seconds. If the target's health is 50% or less, doubles the stun duration.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 1163
@@ -25809,16 +25848,6 @@ STRING 3892
 Increases Attack by 35% and decreases enemy Attack by 10%.
 }
 
-STRING 3893
-// Items: I040 (Royal Onyx), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff00cceeCrystal|r
-Your other activated |cffcc0000uncorrupted|r artifacts trigger twice.
-Activation: |cFFE16B90Forge|r an activated artifact.
-|cffffcc00Cooldown:|r 60 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
 STRING 3894
 // Items: I040 (Royal Onyx), Name (Name)
 {
@@ -25882,15 +25911,6 @@ STRING 3903
 // Abilities: A195 (Shoggoth: Writhing Mass), Researchhotkey (Hotkey - Learn)
 {
 W
-}
-
-STRING 3904
-// Items: I040 (Royal Onyx), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff00cceeCrystal|r
-Your other activated |cffcc0000uncorrupted|r artifacts trigger twice.
-Activation: |cFFE16B90Forge|r an activated artifact.
-|cffffcc00Cooldown:|r 60 seconds.
 }
 
 STRING 3905
@@ -64899,14 +64919,6 @@ Gives |cffffffff5|r gold. Increases the gold received from this ability by 3 unt
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
-STRING 9941
-// Abilities: A07H (Special: Crackle), Ubertip (Tooltip - Normal - Extended)
-{
-|cff8080ffSpecial|r
-Stuns an enemy for 2 seconds. If the target's health is 50% or less, doubles the stun duration.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 9942
 // Abilities: A06Y (Special: Echo), Ubertip (Tooltip - Normal - Extended)
 {
@@ -72751,7 +72763,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.11.7T|r
+|cffbe81f7Boss Battle 1.11.8T|r
 }
 
 STRING 11219
@@ -77636,18 +77648,6 @@ STRING 11936
 // Items: IZ00 (Transformer), Tip (Tooltip - Basic)
 {
 Transformer
-}
-
-STRING 11937
-// Items: IV36 (Donut), Description (Description)
-{
-Activation: |cffcc0000Corrupted|r. Increases stats by |cffffffff4|r. At the end of the battle, increases the value by 4.
-}
-
-STRING 11938
-// Items: IV36 (Donut), Ubertip (Tooltip - Extended)
-{
-Activation: |cffcc0000Corrupted|r. Increases stats by |cffffffff4|r. At the end of the battle, increases the value by 4.
 }
 
 STRING 11940

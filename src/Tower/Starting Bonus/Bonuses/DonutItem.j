@@ -44,7 +44,7 @@ scope DonutItem initializer init
 	
 	    call statst( hero, statIncrease, statIncrease, statIncrease, 0, true )
 	    call DestroyEffect( AddSpecialEffect( PARTICLE, GetUnitX( hero ), GetUnitY( hero ) ) )
-	    call stazisst( hero, usedItem )
+	    call RemoveItem( usedItem )
 	    
 	    set usedItem = null
 	    set hero = null

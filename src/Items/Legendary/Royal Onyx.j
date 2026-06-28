@@ -13,6 +13,7 @@ scope RoyalOnyx initializer init
         local integer cyclA
 		local integer array it
 	
+		call eyest( caster )
 		set it[0] = 0
 		set it[1] = 0
 		set cyclA = 2

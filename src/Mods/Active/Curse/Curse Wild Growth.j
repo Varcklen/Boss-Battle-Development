@@ -24,7 +24,7 @@ scope CurseWildGrowth initializer init
 	        loop
 	            set u = FirstOfGroup(g)
 	            exitwhen u == null
-	            if IsUnitAlly(u, Player(4)) then
+	            if IsUnitAlly(u, Player(4)) and BlzIsUnitInvulnerable(u) == false then
 	                call GroupAddUnit(affected, u)
 	            endif
 	            call GroupRemoveUnit(g,u)

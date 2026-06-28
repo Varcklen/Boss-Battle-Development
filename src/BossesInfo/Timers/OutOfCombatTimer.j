@@ -11,6 +11,9 @@ scope OutOfCombatTimer initializer init
 		private constant integer REPICK_DISABLE_TIME = 115
 		private constant string DIALOG_DESCRIPTION = "Start of the Battle:"
 		
+		private constant integer ADDITIONAL_TIME_WHEN = 2
+		private constant integer ADDITIONAL_TIME = 60
+		
 		private boolean Debug = false
 	endglobals
 
@@ -46,7 +49,13 @@ scope OutOfCombatTimer initializer init
 	endfunction
 	
 	private function OnFightEnd takes nothing returns nothing
-		call Launch(udg_real[1])
+		local real time = udg_real[1]
+	
+		if udg_Boss_LvL == ADDITIONAL_TIME_WHEN then
+			set time = time + ADDITIONAL_TIME
+		endif
+	
+		call Launch(time)
         /*call TimerStart( Timer, udg_real[1], false, null )
         call TimerStart( TimerWarning, udg_real[1] - WARNING_TIME_DEVIATION, false, null )
         
