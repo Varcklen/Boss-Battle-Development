@@ -22,6 +22,11 @@ scope Skins
         set skinlvl[6][1] = 19
         set skiniconBTN[6][1] = "war3mapImported\\BTNjudgment.paladin.blp"
         set skiniconDIS[6][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNjudgment.paladin.blp"
+        //Preacher of the Light
+        set skinmodel[7][1] = 'N040'
+        set skinlvl[7][1] = 5
+        set skiniconBTN[7][1] = "ReplaceableTextures\\CommandButtons\\BTNFurbolgTracker.blp"
+        set skiniconDIS[7][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNFurbolgTracker.blp"
         //===============
         set skinmodel[10][1] = 'N04T'
         set skinlvl[10][1] = 11

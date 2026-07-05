@@ -2702,14 +2702,14 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "BasicCore\\Database\\Database Ability.j",
               "Files": []
             },
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "BasicCore\\Database\\Database Skin.j",
               "Files": []
             },
@@ -3567,7 +3567,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "BasicCore\\Comands",
           "Files": [
             {
@@ -3946,7 +3946,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Mods",
       "Files": [
         {
@@ -4890,7 +4890,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Tower",
       "Files": [
         {
@@ -4945,7 +4945,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Tower\\Starting Bonus\\Bonuses",
               "Files": [
                 {
@@ -5894,7 +5894,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Frames\\HeroChoise\\HeroesTableDatabase.trg",
               "Files": []
             },
@@ -5940,7 +5940,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Items",
       "Files": [
         {
@@ -8692,7 +8692,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Items\\Legendary",
           "Files": [
             {
@@ -9273,7 +9273,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": true,
+              "isExpanded": false,
               "path": "Items\\Legendary\\Pandoras Box.trg",
               "Files": []
             },
@@ -10261,7 +10261,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Debug",
       "Files": [
         {
@@ -10711,13 +10711,13 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Heroes",
       "Files": [
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Heroes\\Special",
           "Files": [
             {
@@ -12918,7 +12918,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": false,
+                  "isExpanded": true,
                   "path": "Heroes\\Killers\\ShadowArcher\\ShadowArcherQ.trg",
                   "Files": []
                 },
@@ -12939,7 +12939,7 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": false,
+                  "isExpanded": true,
                   "path": "Heroes\\Killers\\ShadowArcher\\ShadowArcherR.trg",
                   "Files": []
                 }
@@ -13652,7 +13652,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Heroes\\Elementalists",
           "Files": [
             {
@@ -13886,14 +13886,14 @@
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": false,
+                  "isExpanded": true,
                   "path": "Heroes\\Elementalists\\Metal Mage\\Metal MageW.trg",
                   "Files": []
                 },
                 {
                   "isEnabled": true,
                   "isInitiallyOn": true,
-                  "isExpanded": false,
+                  "isExpanded": true,
                   "path": "Heroes\\Elementalists\\Metal Mage\\Metal MageE.trg",
                   "Files": []
                 },
@@ -15051,14 +15051,14 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BossesInfo\\SpawnUnit.trg",
           "Files": []
         },
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "BossesInfo\\SpawnBoss.trg",
           "Files": []
         }
@@ -15503,7 +15503,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Bosses\\Bosses4",
           "Files": [
             {
@@ -15558,14 +15558,14 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Bosses\\Bosses4\\Ogre1.trg",
               "Files": []
             },
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Bosses\\Bosses4\\Ogre2.j",
               "Files": []
             },
@@ -16779,7 +16779,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": true,
+      "isExpanded": false,
       "path": "Arenas",
       "Files": [
         {
@@ -16884,7 +16884,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": true,
+          "isExpanded": false,
           "path": "Arenas\\PvPArena",
           "Files": [
             {

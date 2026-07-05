@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.11.8T|r
+|cffbe81f7Boss Battle 1.11.9T|r
 }
 
 STRING 2
@@ -11487,6 +11487,12 @@ STRING 1726
 Power Search
 }
 
+STRING 1727
+// Units: N040 ((D) Furbolg Chieftain), Name (Name)
+{
+(D) Furbolg Chieftain
+}
+
 STRING 1728
 // Items: I01A (Deadly Spores), Name (Name)
 {
@@ -11675,6 +11681,12 @@ STRING 1756
 // Items: I09Q (Idol of Greed), Tip (Tooltip - Basic)
 {
 Idol of Greed
+}
+
+STRING 1757
+// Units: N040 ((D) Furbolg Chieftain), Propernames (Proper Names)
+{
+Medved
 }
 
 STRING 1758
@@ -13776,26 +13788,14 @@ STRING 2063
 }
 
 STRING 2064
-// Items: I07K (Frozen blood), Description (Description)
+// Items: I07K (Frozen Blood), Description (Description)
 {
 |cffbababcCommon|r, |cffb40431Blood|r
 When another hero dies, increases stats of your hero by 1.
 }
 
-STRING 2065
-// Items: I07K (Frozen blood), Name (Name)
-{
-Frozen blood
-}
-
-STRING 2066
-// Items: I07K (Frozen blood), Tip (Tooltip - Basic)
-{
-Frozen blood
-}
-
 STRING 2067
-// Items: I07K (Frozen blood), Ubertip (Tooltip - Extended)
+// Items: I07K (Frozen Blood), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r, |cffb40431Blood|r
 When another hero dies, increases stats of your hero by 1.
@@ -18385,13 +18385,6 @@ STRING 2741
 When the hero casts, permanently increases Spell Power by 0.1%.
 }
 
-STRING 2742
-// Items: I02W (Gift), Description (Description)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Gives 250 gold and an artifact of |cffbababccommon|r quality.
-}
-
 STRING 2743
 // Items: I02W (Gift), Name (Name)
 {
@@ -18402,13 +18395,6 @@ STRING 2744
 // Items: I02W (Gift), Tip (Tooltip - Basic)
 {
 Gift
-}
-
-STRING 2745
-// Items: I02W (Gift), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Gives 250 gold and an artifact of |cffbababccommon|r quality.
 }
 
 STRING 2746
@@ -19712,6 +19698,12 @@ STRING 2940
 Lye Insanios
 }
 
+STRING 2941
+// Units: N040 ((D) Furbolg Chieftain), EditorSuffix (Name - Editor Suffix)
+{
+(Skin 1)
+}
+
 STRING 2942
 // Items: I01J (Golden Lamp), Name (Name)
 {
@@ -19722,6 +19714,13 @@ STRING 2943
 // Items: I01J (Golden Lamp), Tip (Tooltip - Basic)
 {
 Golden Lamp
+}
+
+STRING 2944
+// Items: I066 (Nekroskull), Description (Description)
+{
+|cffbababcCommon|r
+Increases the Armor of the owner and nearby allies by 5.
 }
 
 STRING 2945
@@ -19948,6 +19947,38 @@ STRING 2976
 |cffbababcCommon|r
 When the hero attacks, imposes poison on the target, which reduces the attack speed by 10% and deals |cffbe81f715|r damage every second.
 |cffffcc00Duration:|r 15 seconds.
+}
+
+STRING 2977
+// Items: I066 (Nekroskull), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Increases the Armor of the owner and nearby allies by 5.
+}
+
+STRING 2978
+// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
+{
+Enters the hero into invisibility and increases the Movement Speed by 80%.
+|cffffcc00Duration:|r 4.5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 2979
+// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
+{
+Enters the hero into invisibility and increases the Movement Speed by 80%.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 2980
+// Abilities: A0NG (Metal Mage: Black Sabbath), Researchubertip (Tooltip - Learn - Extended)
+{
+|cffffcc00Passive:|r Every 10th/9th/8th/7th/6th damage to your hero does no damage.
+
+Enters the hero into a trance. His attack and movement speed is reduced by 35%, but every second heals all nearby allies |cffbe81f70.4%/0.8%/1.2%/1.6%/2%|r of their maximum health and mana.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2981
@@ -25848,6 +25879,15 @@ STRING 3892
 Increases Attack by 35% and decreases enemy Attack by 10%.
 }
 
+STRING 3893
+// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Every 10th damage to your hero does no damage.
+
+Enters the hero into a trance. His attack and movement speed is reduced by 35%, but every second heals all nearby allies |cffbe81f70.4%|r of their maximum health and mana.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 3894
 // Items: I040 (Royal Onyx), Name (Name)
 {
@@ -25911,6 +25951,15 @@ STRING 3903
 // Abilities: A195 (Shoggoth: Writhing Mass), Researchhotkey (Hotkey - Learn)
 {
 W
+}
+
+STRING 3904
+// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Every 9th damage to your hero does no damage.
+
+Enters the hero into a trance. His attack and movement speed is reduced by 35%, but every second heals all nearby allies |cffbe81f70.8%|r of their maximum health and mana.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 3905
@@ -28241,6 +28290,15 @@ STRING 4265
 // Abilities: A16U (|cffffcc00Уровень 7:|r Горный великан), Name (Name)
 {
 |cffffcc00Уровень 7:|r Горный великан
+}
+
+STRING 4266
+// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Every 8th damage to your hero does no damage.
+
+Enters the hero into a trance. His attack and movement speed is reduced by 35%, but every second heals all nearby allies |cffbe81f71.2%|r of their maximum health and mana.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 4267
@@ -30855,6 +30913,15 @@ STRING 4669
 Mutation
 }
 
+STRING 4670
+// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Every 7th damage to your hero does no damage.
+
+Enters the hero into a trance. His attack and movement speed is reduced by 35%, but every second heals all nearby allies |cffbe81f71.6%|r of their maximum health and mana.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 4671
 // Abilities: A13R (Босс 5: Баньши (Москиты)), Name (Name)
 {
@@ -31901,6 +31968,15 @@ STRING 4833
 // Abilities: A12G (Special: Unholy Bless), Tip (Tooltip - Normal)
 {
 Unholy Bless
+}
+
+STRING 4834
+// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Every 6th damage to your hero does no damage.
+
+Enters the hero into a trance. His attack and movement speed is reduced by 35%, but every second heals all nearby allies |cffbe81f72%|r of their maximum health and mana.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 4835
@@ -34574,13 +34650,6 @@ STRING 5241
 // Abilities: A0ZL (Soul Contract: Nature), Tip (Tooltip - Normal)
 {
 Nature
-}
-
-STRING 5242
-// Items: I066 (Nekroskull), Description (Description)
-{
-|cffbababcCommon|r
-Increases the Armor of the Hero and allies next to them by 5.
 }
 
 STRING 5243
@@ -37523,10 +37592,36 @@ STRING 5691
 R
 }
 
+STRING 5692
+// Items: I07K (Frozen Blood), Name (Name)
+{
+Frozen Blood
+}
+
 STRING 5693
 // Abilities: A0UD (Harpy: Rebirth), Researchhotkey (Hotkey - Learn)
 {
 R
+}
+
+STRING 5694
+// Items: I07K (Frozen Blood), Tip (Tooltip - Basic)
+{
+Frozen Blood
+}
+
+STRING 5695
+// Items: I02W (Gift), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Gives 250 gold and a |cffbababccommon|r artifact.
+}
+
+STRING 5696
+// Items: I02W (Gift), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Gives 250 gold and a |cffbababccommon|r artifact.
 }
 
 STRING 5704
@@ -44704,15 +44799,6 @@ STRING 6819
 Black Sabbath, [|cffffcc00Level %d|r]
 }
 
-STRING 6820
-// Abilities: A0NG (Metal Mage: Black Sabbath), Researchubertip (Tooltip - Learn - Extended)
-{
-|cffffcc00Passive:|r Every 10th/9th/8th/7th/6th damage to your hero does no damage.
-
-Enters the hero into a trance. His attack and movement speed is reduced by 50%, but every second heals all nearby allies |cffbe81f70.4%/0.8%/1.2%/1.6%/2%|r of their maximum health and mana.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 6821
 // Abilities: A0NG (Metal Mage: Black Sabbath), Tip (Tooltip - Normal)
 {
@@ -44741,51 +44827,6 @@ STRING 6825
 // Abilities: A0NG (Metal Mage: Black Sabbath), Tip (Tooltip - Normal)
 {
 Black Sabbath, [|cffffcc00Level 5|r]
-}
-
-STRING 6826
-// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Every 10th damage to your hero does no damage.
-
-Enters the hero into a trance. His attack and movement speed is reduced by 50%, but every second heals all nearby allies |cffbe81f70.4%|r of their maximum health and mana.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 6827
-// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Every 9th damage to your hero does no damage.
-
-Enters the hero into a trance. His attack and movement speed is reduced by 50%, but every second heals all nearby allies |cffbe81f70.8%|r of their maximum health and mana.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 6828
-// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Every 8th damage to your hero does no damage.
-
-Enters the hero into a trance. His attack and movement speed is reduced by 50%, but every second heals all nearby allies |cffbe81f71.2%|r of their maximum health and mana.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 6829
-// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Every 7th damage to your hero does no damage.
-
-Enters the hero into a trance. His attack and movement speed is reduced by 50%, but every second heals all nearby allies |cffbe81f71.6%|r of their maximum health and mana.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 6830
-// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Every 6th damage to your hero does no damage.
-
-Enters the hero into a trance. His attack and movement speed is reduced by 50%, but every second heals all nearby allies |cffbe81f72%|r of their maximum health and mana.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 6831
@@ -45184,13 +45225,6 @@ STRING 6894
 // Abilities: A1EL (Extra: Soul Contract (Mephistar)), Tip (Tooltip - Normal)
 {
 Soul Contract
-}
-
-STRING 6895
-// Items: I066 (Nekroskull), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Increases the Armor of the Hero and allies next to them by 5.
 }
 
 STRING 6896
@@ -72763,7 +72797,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.11.8T|r
+|cffbe81f7Boss Battle 1.11.9T|r
 }
 
 STRING 11219
@@ -74569,18 +74603,6 @@ STRING 11500
 Enters the hero into invisibility and increases the Movement Speed by 80%.
 |cffffcc00Duration:|r 7.5 seconds.
 |cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 11501
-// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
-{
-(A) Samurai
-}
-
-STRING 11502
-// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
-{
-(H) Corrupted Ent
 }
 
 STRING 11503
