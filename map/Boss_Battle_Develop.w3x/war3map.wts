@@ -712,9 +712,10 @@ STRING 108
 }
 
 STRING 109
-// Units: o006 (Seiber), EditorSuffix (Name - Editor Suffix)
+// Abilities: A0GQ (Sun King: Child of the Sun), Ubertip (Tooltip - Normal - Extended)
 {
-(Облик духа)
+Increases attack power, spell power and healing by 16%. The bonus is doubled at night.
+When the hero deals or heals a total of 1750 health, activate night for 6 seconds.
 }
 
 STRING 110
@@ -1681,9 +1682,10 @@ Zerefar
 }
 
 STRING 265
-// Units: n00B (Mr. Bonnie), EditorSuffix (Name - Editor Suffix)
+// Abilities: A0GQ (Sun King: Child of the Sun), Ubertip (Tooltip - Normal - Extended)
 {
-(Boss)
+Increases attack power, spell power and healing by 20%. The bonus is doubled at night.
+When the hero deals or heals a total of 1750 health, activate night for 6 seconds.
 }
 
 STRING 266
@@ -1711,9 +1713,10 @@ Phantasm
 }
 
 STRING 270
-// Units: n007 (Mysterious hero), Name (Name)
+// Abilities: A0GQ (Sun King: Child of the Sun), Ubertip (Tooltip - Normal - Extended)
 {
-Mysterious hero
+Increases attack power, spell power and healing by 24%. The bonus is doubled at night.
+When the hero deals or heals a total of 1750 health, activate night for 6 seconds.
 }
 
 STRING 271
@@ -2195,9 +2198,12 @@ Wizardo
 }
 
 STRING 349
-// Units: h002 (ChoptroubleXXX), EditorSuffix (Name - Editor Suffix)
+// Abilities: A03H (Sun King: Solar Eclipse), Researchubertip (Tooltip - Learn - Extended)
 {
-(Бодрствует)
+Day changes to night. Increases your hero's spell power by 10%/15%/20%/25%/30%, resets the cooldowns and resurrects a random hero.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 130/120/110/100/90 seconds.
+|cffffcc00Cost:|r 150 mana.
 }
 
 STRING 350
@@ -2207,9 +2213,11 @@ Choptrouble
 }
 
 STRING 351
-// Units: h001 (Choptrouble), EditorSuffix (Name - Editor Suffix)
+// Abilities: A03H (Sun King: Solar Eclipse), Ubertip (Tooltip - Normal - Extended)
 {
-(Спит)
+Day changes to night. Increases your hero's spell power by 10%, resets the cooldowns and resurrects a random hero.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 130 seconds.
 }
 
 STRING 352
@@ -7286,7 +7294,7 @@ Totem of Burning Gaze
 }
 
 STRING 1117
-// Items: I05R (Dark sphere), Hotkey (Hotkey)
+// Items: I05R (Dark Sphere), Hotkey (Hotkey)
 {
 Z
 }
@@ -7625,29 +7633,35 @@ After the caster uses Small Heal (|cffffcc00Q|r) or Magic Throw (|cffffcc00W|r) 
 }
 
 STRING 1166
-// Items: I0DT (Breastplate of Judgement), Description (Description)
+// Abilities: A03H (Sun King: Solar Eclipse), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r
-Any damage from your hero deals 15 more damage.
+Day changes to night. Increases your hero's spell power by 15%, resets the cooldowns and resurrects a random hero.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 120 seconds.
 }
 
 STRING 1167
-// Items: I0DT (Breastplate of Judgement), Name (Name)
+// Abilities: A03H (Sun King: Solar Eclipse), Ubertip (Tooltip - Normal - Extended)
 {
-Breastplate of Judgement
+Day changes to night. Increases your hero's spell power by 20%, resets the cooldowns and resurrects a random hero.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 110 seconds.
 }
 
 STRING 1168
-// Items: I0DT (Breastplate of Judgement), Tip (Tooltip - Basic)
+// Abilities: A03H (Sun King: Solar Eclipse), Ubertip (Tooltip - Normal - Extended)
 {
-Breastplate of Judgement
+Day changes to night. Increases your hero's spell power by 25%, resets the cooldowns and resurrects a random hero.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 100 seconds.
 }
 
 STRING 1169
-// Items: I0DT (Breastplate of Judgement), Ubertip (Tooltip - Extended)
+// Abilities: A03H (Sun King: Solar Eclipse), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r
-Any damage from your hero deals 15 more damage.
+Day changes to night. Increases your hero's spell power by 30%, resets the cooldowns and resurrects a random hero.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 90 seconds.
 }
 
 STRING 1170
@@ -8188,9 +8202,9 @@ Increases Health by 1250, Attack by 35 and Armor by 15.
 }
 
 STRING 1246
-// Units: h01N (Choptrouble), EditorSuffix (Name - Editor Suffix)
+// Buffs/Effects: B08S (), Buffubertip (Tooltip - Extended)
 {
-(Бодрствует)
+Deals periodic damage.
 }
 
 STRING 1247
@@ -8409,34 +8423,6 @@ STRING 1277
 // Items: I0DA (World Clock), Tip (Tooltip - Basic)
 {
 World Clock
-}
-
-STRING 1278
-// Items: I0D1 (Libram of Knowledge), Description (Description)
-{
-|cffbababcCommon|r
-Your buffs and debuffs last 50% longer.
-|cff81f260[Random bonus]|r
-}
-
-STRING 1279
-// Items: I0D1 (Libram of Knowledge), Name (Name)
-{
-Libram of Knowledge
-}
-
-STRING 1280
-// Items: I0D1 (Libram of Knowledge), Tip (Tooltip - Basic)
-{
-Libram of Knowledge
-}
-
-STRING 1281
-// Items: I0D1 (Libram of Knowledge), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Your buffs and debuffs last 50% longer.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1282
@@ -11488,7 +11474,7 @@ Power Search
 }
 
 STRING 1727
-// Units: N040 ((D) Furbolg Chieftain), Name (Name)
+// Units: N000 ((D) Furbolg Chieftain), Name (Name)
 {
 (D) Furbolg Chieftain
 }
@@ -13661,20 +13647,6 @@ Activation: Summons a boss under your control (max 1).
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 2045
-// Items: I02B (Idol of Hunger), Description (Description)
-{
-|cff4169e1Rare|r
-Any damage of the hero has |cffbe81f760%|r vampirism, but the hero loses 30 health per second.
-}
-
-STRING 2046
-// Items: I02B (Idol of Hunger), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Any damage of the hero has |cffbe81f760%|r vampirism, but the hero loses 30 health per second.
-}
-
 STRING 2047
 // Items: I07P (Raging Fire), Ubertip (Tooltip - Extended)
 {
@@ -13792,6 +13764,20 @@ STRING 2064
 {
 |cffbababcCommon|r, |cffb40431Blood|r
 When another hero dies, increases stats of your hero by 1.
+}
+
+STRING 2065
+// Items: I02B (Idol of Hunger), Description (Description)
+{
+|cff4169e1Rare|r
+Your hero's damage dealt has |cffbe81f750%|r lifesteal, but constantly loses 30 health.
+}
+
+STRING 2066
+// Items: I02B (Idol of Hunger), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Your hero's damage dealt has |cffbe81f750%|r lifesteal, but constantly loses 30 health.
 }
 
 STRING 2067
@@ -14549,37 +14535,6 @@ Activation: Inflicts a positive effect on allied minions nearby. When they die, 
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 2176
-// Items: I06S (Cloud horn), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: Summons an army of sheeps.
-|cffffcc00Life time:|r 25 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
-STRING 2177
-// Items: I06S (Cloud horn), Name (Name)
-{
-Cloud horn
-}
-
-STRING 2178
-// Items: I06S (Cloud horn), Tip (Tooltip - Basic)
-{
-Cloud horn
-}
-
-STRING 2179
-// Items: I06S (Cloud horn), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: Summons an army of sheeps.
-|cffffcc00Life time:|r 25 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
-}
-
 STRING 2180
 // Items: I06R (Wedding ring), Description (Description)
 {
@@ -14872,13 +14827,6 @@ Deals |cffbe81f7100/150/200/250/300|r damage to all enemies in front of the hero
 Does not work on immobile targets.|r
 }
 
-STRING 2221
-// Items: IV05 (Meat on a Stick), Description (Description)
-{
-|cffB614F0Starting Bonus|r
-Obtain an item that creates a |cffbababbсommon|r artifact at the end the battle.
-}
-
 STRING 2222
 // Abilities: A07Y (Outcast: Demonic Blast), Ubertip (Tooltip - Normal - Extended)
 {
@@ -14932,13 +14880,6 @@ STRING 2229
 {
 Deals |cffbe81f7240|r damage to all nearby enemies. If any target dies, detonates it, dealing |cffbe81f7110|r damage to all enemies from the target.
 |cffffcc00Cooldown:|r 4 seconds.
-}
-
-STRING 2230
-// Items: IV05 (Meat on a Stick), Ubertip (Tooltip - Extended)
-{
-|cffB614F0Starting Bonus|r
-Obtain an item that creates a |cffbababbсommon|r artifact at the end the battle.
 }
 
 STRING 2231
@@ -15556,7 +15497,7 @@ Gives the target a buff. Every second, the target heals for |cffbe81f712%|r of w
 }
 
 STRING 2323
-// Items: I05R (Dark sphere), Description (Description)
+// Items: I05R (Dark Sphere), Description (Description)
 {
 |cff50ff90Use when picked up|r
 Deals |cffbe81f7100|r damage and gives invulnerability to damaging magic.
@@ -15569,20 +15510,8 @@ STRING 2324
 Z
 }
 
-STRING 2325
-// Items: I05R (Dark sphere), Name (Name)
-{
-Dark sphere
-}
-
-STRING 2326
-// Items: I05R (Dark sphere), Tip (Tooltip - Basic)
-{
-Dark sphere
-}
-
 STRING 2327
-// Items: I05R (Dark sphere), Ubertip (Tooltip - Extended)
+// Items: I05R (Dark Sphere), Ubertip (Tooltip - Extended)
 {
 Deals |cffbe81f7100|r damage and gives invulnerability to damaging magic.
 |cffffcc00Duration:|r 5 seconds.
@@ -18385,6 +18314,12 @@ STRING 2741
 When the hero casts, permanently increases Spell Power by 0.1%.
 }
 
+STRING 2742
+// Abilities: A101 (HP/sec (Idol of Hunger)), Name (Name)
+{
+HP/sec (Idol of Hunger)
+}
+
 STRING 2743
 // Items: I02W (Gift), Name (Name)
 {
@@ -18395,6 +18330,12 @@ STRING 2744
 // Items: I02W (Gift), Tip (Tooltip - Basic)
 {
 Gift
+}
+
+STRING 2745
+// Abilities: A069 (|cffffcc00Уровень 1:|r Murloc Chieftain), Name (Name)
+{
+|cffffcc00Уровень 1:|r Murloc Chieftain
 }
 
 STRING 2746
@@ -21513,46 +21454,6 @@ STRING 3207
 Heating Up, [|cffffcc00Level 5|r]
 }
 
-STRING 3208
-// Abilities: AV00 (Sun King: Heating Up), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f725|r damage to all enemies in long range and applies sunburn, dealing |cffbe81f71|r damage per second and increasing magic damage taken by 1%. Stacks up to three times. 3 charges.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
-STRING 3209
-// Abilities: AV00 (Sun King: Heating Up), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f750|r damage to all enemies in long range and applies sunburn, dealing |cffbe81f72|r damage per second and increasing magic damage taken by 2%. Stacks up to three times. 3 charges.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
-STRING 3210
-// Abilities: AV00 (Sun King: Heating Up), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f775|r damage to all enemies in long range and applies sunburn, dealing |cffbe81f73|r damage per second and increasing magic damage taken by 3%. Stacks up to three times. 3 charges.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
-STRING 3211
-// Abilities: AV00 (Sun King: Heating Up), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7100|r damage to all enemies in long range and applies sunburn, dealing |cffbe81f74|r damage per second and increasing magic damage taken by 4%. Stacks up to three times. 3 charges.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
-STRING 3212
-// Abilities: AV00 (Sun King: Heating Up), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7125|r damage to all enemies in long range and applies sunburn, dealing |cffbe81f75|r damage per second and increasing magic damage taken by 5%. Stacks up to three times. 3 charges.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
 STRING 3213
 // Abilities: AAO4 (Камушек: Фиолетовый), Name (Name)
 {
@@ -22074,14 +21975,6 @@ STRING 3296
 Sidewinder, [|cffffcc00Level %d|r]
 }
 
-STRING 3297
-// Abilities: A1CX (The Plague: Sidewinder), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f7150/200/250/300/350|r damage to all enemies between the caster and the point. Increases damage by 70%/90%/110%/130%/150% for each The Plague's debuff.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 200 mana.
-}
-
 STRING 3298
 // Abilities: A1CX (The Plague: Sidewinder), Tip (Tooltip - Normal)
 {
@@ -22089,25 +21982,25 @@ Sidewinder, [|cffffcc00Level 1|r]
 }
 
 STRING 3299
-// Abilities: A1CX (The Plague: Sidewinder), Tip (Tooltip - Normal)
+// Abilities: A1CS (The Plague: Neurotoxin), Tip (Tooltip - Normal)
 {
 Neurotoxin, [|cffffcc00Level 2|r]
 }
 
 STRING 3300
-// Abilities: A1CX (The Plague: Sidewinder), Tip (Tooltip - Normal)
+// Abilities: A1CS (The Plague: Neurotoxin), Tip (Tooltip - Normal)
 {
 Neurotoxin, [|cffffcc00Level 3|r]
 }
 
 STRING 3301
-// Abilities: A1CX (The Plague: Sidewinder), Tip (Tooltip - Normal)
+// Abilities: A1CS (The Plague: Neurotoxin), Tip (Tooltip - Normal)
 {
 Neurotoxin, [|cffffcc00Level 4|r]
 }
 
 STRING 3302
-// Abilities: A1CX (The Plague: Sidewinder), Tip (Tooltip - Normal)
+// Abilities: A1CS (The Plague: Neurotoxin), Tip (Tooltip - Normal)
 {
 Neurotoxin, [|cffffcc00Level 5|r]
 }
@@ -22165,14 +22058,6 @@ STRING 3310
 Corrosive Skin, [|cffffcc00Level %d|r]
 }
 
-STRING 3311
-// Abilities: A1CW (The Plague: Corrosive Skin), Researchubertip (Tooltip - Learn - Extended)
-{
-When the hero uses an ability or item, there is a |cffd7df0115%/20%/25%/30%/35%|r chance to create a poisonous mist, similar to the "Neurotoxin" (|cffffcc00Q|r) ability.
-Enemies in a poisonous mist when damaged have a |cffd7df0110%/15%/20%/25%/30%|r chance to be stunned for 0.5 seconds and take 35% more damage.
-|cffffcc00Life time:|r 5 seconds.
-}
-
 STRING 3312
 // Abilities: A1CW (The Plague: Corrosive Skin), Tip (Tooltip - Normal)
 {
@@ -22201,46 +22086,6 @@ STRING 3316
 // Abilities: A1CW (The Plague: Corrosive Skin), Tip (Tooltip - Normal)
 {
 Corrosive Skin, [|cffffcc00Level 5|r]
-}
-
-STRING 3317
-// Abilities: A1CW (The Plague: Corrosive Skin), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero uses an ability or item, there is a |cffd7df0115%|r chance to create a poisonous mist, similar to the "Neurotoxin" (|cffffcc00Q|r) ability.
-Enemies in a poisonous mist when damaged have a |cffd7df0110%|r chance to be stunned for 0.5 seconds and take 35% more damage.
-|cffffcc00Life time:|r 5 seconds.
-}
-
-STRING 3318
-// Abilities: A1CW (The Plague: Corrosive Skin), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero uses an ability or item, there is a |cffd7df0120%|r chance to create a poisonous mist, similar to the "Neurotoxin" (|cffffcc00Q|r) ability.
-Enemies in a poisonous mist when damaged have a |cffd7df0115%|r chance to be stunned for 0.5 seconds and take 35% more damage.
-|cffffcc00Life time:|r 5 seconds.
-}
-
-STRING 3319
-// Abilities: A1CW (The Plague: Corrosive Skin), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero uses an ability or item, there is a |cffd7df0125%|r chance to create a poisonous mist, similar to the "Neurotoxin" (|cffffcc00Q|r) ability.
-Enemies in a poisonous mist when damaged have a |cffd7df0120%|r chance to be stunned for 0.5 seconds and take 35% more damage.
-|cffffcc00Life time:|r 5 seconds.
-}
-
-STRING 3320
-// Abilities: A1CW (The Plague: Corrosive Skin), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero uses an ability or item, there is a |cffd7df0130%|r chance to create a poisonous mist, similar to the "Neurotoxin" (|cffffcc00Q|r) ability.
-Enemies in a poisonous mist when damaged have a |cffd7df0125%|r chance to be stunned for 0.5 seconds and take 35% more damage.
-|cffffcc00Life time:|r 5 seconds.
-}
-
-STRING 3321
-// Abilities: A1CW (The Plague: Corrosive Skin), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero uses an ability or item, there is a |cffd7df0135%|r chance to create a poisonous mist, similar to the "Neurotoxin" (|cffffcc00Q|r) ability.
-Enemies in a poisonous mist when damaged have a |cffd7df0130%|r chance to be stunned for 0.5 seconds and take 35% more damage.
-|cffffcc00Life time:|r 5 seconds.
 }
 
 STRING 3322
@@ -22382,83 +22227,10 @@ STRING 3342
 Neurotoxin, [|cffffcc00Level %d|r]
 }
 
-STRING 3343
-// Abilities: A1CS (The Plague: Neurotoxin), Researchubertip (Tooltip - Learn - Extended)
-{
-Creates an orb of poison that flies to a specific point. Reached a point, explodes, creating a poisonous mist that reduces the attack speed of enemies by 10%/15%/20%/25%/30% and deals |cffbe81f710/18/26/34/42|r damage per second.
-|cffffcc00Life time:|r 18 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 70 mana.
-}
-
 STRING 3344
 // Abilities: A1CS (The Plague: Neurotoxin), Tip (Tooltip - Normal)
 {
 Neurotoxin, [|cffffcc00Level 1|r]
-}
-
-STRING 3345
-// Abilities: A1CS (The Plague: Neurotoxin), Tip (Tooltip - Normal)
-{
-Neurotoxin, [|cffffcc00Level 2|r]
-}
-
-STRING 3346
-// Abilities: A1CS (The Plague: Neurotoxin), Tip (Tooltip - Normal)
-{
-Neurotoxin, [|cffffcc00Level 3|r]
-}
-
-STRING 3347
-// Abilities: A1CS (The Plague: Neurotoxin), Tip (Tooltip - Normal)
-{
-Neurotoxin, [|cffffcc00Level 4|r]
-}
-
-STRING 3348
-// Abilities: A1CS (The Plague: Neurotoxin), Tip (Tooltip - Normal)
-{
-Neurotoxin, [|cffffcc00Level 5|r]
-}
-
-STRING 3349
-// Abilities: A1CS (The Plague: Neurotoxin), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an orb of poison that flies to a specific point. Reached a point, explodes, creating a poisonous mist that reduces the attack speed of enemies by 10% and deals |cffbe81f710|r damage per second.
-|cffffcc00Life time:|r 18 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 3350
-// Abilities: A1CS (The Plague: Neurotoxin), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an orb of poison that flies to a specific point. Reached a point, explodes, creating a poisonous mist that reduces the attack speed of enemies by 15% and deals |cffbe81f718|r damage per second.
-|cffffcc00Life time:|r 18 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 3351
-// Abilities: A1CS (The Plague: Neurotoxin), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an orb of poison that flies to a specific point. Reached a point, explodes, creating a poisonous mist that reduces the attack speed of enemies by 20% and deals |cffbe81f726|r damage per second.
-|cffffcc00Life time:|r 18 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 3352
-// Abilities: A1CS (The Plague: Neurotoxin), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an orb of poison that flies to a specific point. Reached a point, explodes, creating a poisonous mist that reduces the attack speed of enemies by 25% and deals |cffbe81f734|r damage per second.
-|cffffcc00Life time:|r 18 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 3353
-// Abilities: A1CS (The Plague: Neurotoxin), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an orb of poison that flies to a specific point. Reached a point, explodes, creating a poisonous mist that reduces the attack speed of enemies by 30% and deals |cffbe81f742|r damage per second.
-|cffffcc00Life time:|r 18 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 3354
@@ -34287,12 +34059,6 @@ STRING 5185
 Artifact: Billy
 }
 
-STRING 5186
-// Abilities: A101 (HP/sec (Glass of wine from Toussaint)), Name (Name)
-{
-HP/sec (Glass of wine from Toussaint)
-}
-
 STRING 5187
 // Abilities: A0XH (Shaman: Plague Gift), Hotkey (Hotkey - Normal)
 {
@@ -34650,6 +34416,12 @@ STRING 5241
 // Abilities: A0ZL (Soul Contract: Nature), Tip (Tooltip - Normal)
 {
 Nature
+}
+
+STRING 5242
+// Abilities: A1IL (Stat: Vampirism +50%), Name (Name)
+{
+Stat: Vampirism +50%
 }
 
 STRING 5243
@@ -37624,6 +37396,36 @@ STRING 5696
 Activation: |cffcc0000Corrupted|r. Gives 250 gold and a |cffbababccommon|r artifact.
 }
 
+STRING 5698
+// Items: I06S (Cloud Horn), Name (Name)
+{
+Cloud Horn
+}
+
+STRING 5699
+// Items: I06S (Cloud Horn), Tip (Tooltip - Basic)
+{
+Cloud Horn
+}
+
+STRING 5701
+// Units: o011 (War), EditorSuffix (Name - Editor Suffix)
+{
+(Level 8)
+}
+
+STRING 5702
+// Units: o00M (Howler), EditorSuffix (Name - Editor Suffix)
+{
+(Level 7)
+}
+
+STRING 5703
+// Units: o00F (Pharaoh Billy), EditorSuffix (Name - Editor Suffix)
+{
+(Level 5)
+}
+
 STRING 5704
 // Items: IV06 (Cold Milk), Ubertip (Tooltip - Extended)
 {
@@ -39674,7 +39476,7 @@ Activation: |cFFE16B90Forge|r an artifact and place it in the future artifact re
 }
 
 STRING 6015
-// Abilities: A06D (|cffffcc00Уровень 3:|r Великий герой), Tip (Tooltip - Normal)
+// Units: n007 (Mysterious Hero), Name (Name)
 {
 Mysterious Hero
 }
@@ -40788,6 +40590,12 @@ STRING 6188
 {
 Deals |cffbe81f7200|r damage to the enemy and additionally damage equal to |cffbe81f740%|r of your gold supply.
 |cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 6189
+// Units: o009 (Wulf), EditorSuffix (Name - Editor Suffix)
+{
+(Level 4)
 }
 
 STRING 6190
@@ -43137,6 +42945,12 @@ STRING 6556
 Take My Money!, [|cffffcc00Level %d|r]
 }
 
+STRING 6557
+// Units: o007 (Evily), EditorSuffix (Name - Editor Suffix)
+{
+(Level 2)
+}
+
 STRING 6558
 // Abilities: A0OY (Wagon: Take My Money!), Tip (Tooltip - Normal)
 {
@@ -44799,6 +44613,12 @@ STRING 6819
 Black Sabbath, [|cffffcc00Level %d|r]
 }
 
+STRING 6820
+// Units: o006 (Seiber), EditorSuffix (Name - Editor Suffix)
+{
+(Level 10, Spirit)
+}
+
 STRING 6821
 // Abilities: A0NG (Metal Mage: Black Sabbath), Tip (Tooltip - Normal)
 {
@@ -44827,6 +44647,36 @@ STRING 6825
 // Abilities: A0NG (Metal Mage: Black Sabbath), Tip (Tooltip - Normal)
 {
 Black Sabbath, [|cffffcc00Level 5|r]
+}
+
+STRING 6826
+// Units: o000 (Ch'Zargo), EditorSuffix (Name - Editor Suffix)
+{
+(Level 8)
+}
+
+STRING 6827
+// Units: n04O (Aku), EditorSuffix (Name - Editor Suffix)
+{
+(Level 8)
+}
+
+STRING 6828
+// Units: n04N (Lt. Explode), EditorSuffix (Name - Editor Suffix)
+{
+(Level 10)
+}
+
+STRING 6829
+// Units: n04F (Baal), EditorSuffix (Name - Editor Suffix)
+{
+(Level 9)
+}
+
+STRING 6830
+// Units: n041 (Saramai), EditorSuffix (Name - Editor Suffix)
+{
+(Level 5)
 }
 
 STRING 6831
@@ -45227,6 +45077,12 @@ STRING 6894
 Soul Contract
 }
 
+STRING 6895
+// Units: n03M (Gorgon), EditorSuffix (Name - Editor Suffix)
+{
+(Level 5)
+}
+
 STRING 6896
 // Abilities: A1EM (Mephistar: Soul Split), Researchtip (Tooltip - Learn)
 {
@@ -45420,24 +45276,6 @@ STRING 6924
 // Abilities: A0ML (Spell Book), EditorSuffix (Editor Suffix)
 {
 (Ускорение времени)
-}
-
-STRING 6925
-// Abilities: A0MK (Blessing: Хорошие связи (g27)), Name (Name)
-{
-Blessing: Хорошие связи (g27)
-}
-
-STRING 6926
-// Abilities: A0MK (Blessing: Хорошие связи (g27)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r I know a guy
-}
-
-STRING 6927
-// Abilities: A0MK (Blessing: Хорошие связи (g27)), Ubertip (Tooltip - Normal - Extended)
-{
-At the end of the battle with the boss, you get the opportunity to refresh Jule's goods for free.
 }
 
 STRING 6928
@@ -50238,12 +50076,6 @@ STRING 7657
 Аура: Orb of Kel'Thuzad
 }
 
-STRING 7658
-// Abilities: A0HQ (MP (Насыщение)), Name (Name)
-{
-MP (Насыщение)
-}
-
 STRING 7659
 // Abilities: A0FN (Soulstealer: Debilitating Presence), Hotkey (Hotkey - Normal)
 {
@@ -50576,14 +50408,8 @@ STRING 7711
 Волна от Феникса
 }
 
-STRING 7712
-// Abilities: A0HA (Curse: Могила (b3)), Name (Name)
-{
-Curse: Могила (b3)
-}
-
 STRING 7713
-// Abilities: A0HA (Curse: Могила (b3)), Tip (Tooltip - Normal)
+// Abilities: A0HA (Curse: Grave), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Grave
 }
@@ -50912,13 +50738,6 @@ STRING 7764
 Child of the Sun, [|cffffcc00Level %d|r]
 }
 
-STRING 7765
-// Abilities: A0GQ (Sun King: Child of the Sun), Researchubertip (Tooltip - Learn - Extended)
-{
-Increases attack power, spell power and healing by 8%/12%/16%/20%/24%. The bonus is doubled at night.
-When the hero deals or heals a total of 1800/1700/1600/1500/1400 health, activate night for 6 seconds.
-}
-
 STRING 7766
 // Abilities: A0GQ (Sun King: Child of the Sun), Tip (Tooltip - Normal)
 {
@@ -50947,41 +50766,6 @@ STRING 7770
 // Abilities: A0GQ (Sun King: Child of the Sun), Tip (Tooltip - Normal)
 {
 Child of the Sun, [|cffffcc00Level 5|r]
-}
-
-STRING 7771
-// Abilities: A0GQ (Sun King: Child of the Sun), Ubertip (Tooltip - Normal - Extended)
-{
-Increases attack power, spell power and healing by 8%. The bonus is doubled at night.
-When the hero deals or heals a total of 1800 health, activate night for 6 seconds.
-}
-
-STRING 7772
-// Abilities: A0GQ (Sun King: Child of the Sun), Ubertip (Tooltip - Normal - Extended)
-{
-Increases attack power, spell power and healing by 12%. The bonus is doubled at night.
-When the hero deals or heals a total of 1700 health, activate night for 6 seconds.
-}
-
-STRING 7773
-// Abilities: A0GQ (Sun King: Child of the Sun), Ubertip (Tooltip - Normal - Extended)
-{
-Increases attack power, spell power and healing by 16%. The bonus is doubled at night.
-When the hero deals or heals a total of 1600 health, activate night for 6 seconds.
-}
-
-STRING 7774
-// Abilities: A0GQ (Sun King: Child of the Sun), Ubertip (Tooltip - Normal - Extended)
-{
-Increases attack power, spell power and healing by 20%. The bonus is doubled at night.
-When the hero deals or heals a total of 1500 health, activate night for 6 seconds.
-}
-
-STRING 7775
-// Abilities: A0GQ (Sun King: Child of the Sun), Ubertip (Tooltip - Normal - Extended)
-{
-Increases attack power, spell power and healing by 24%. The bonus is doubled at night.
-When the hero deals or heals a total of 1400 health, activate night for 6 seconds.
 }
 
 STRING 7776
@@ -51253,6 +51037,12 @@ STRING 7819
 Noiselessness
 }
 
+STRING 7820
+// Units: n03L (Strange), EditorSuffix (Name - Editor Suffix)
+{
+(Level 3)
+}
+
 STRING 7821
 // Abilities: A0G6 (Mov. Speed (Shark Scales)), Name (Name)
 {
@@ -51301,22 +51091,10 @@ STRING 7828
 Armor (Blood Infusion)
 }
 
-STRING 7829
-// Abilities: A0FY (Blessing: Насыщение (g9)), Name (Name)
-{
-Blessing: Насыщение (g9)
-}
-
 STRING 7830
-// Abilities: A0FY (Blessing: Насыщение (g9)), Tip (Tooltip - Normal)
+// Abilities: A0FY (Blessing: Saturation), Tip (Tooltip - Normal)
 {
 |cffffcc00Blessing:|r Saturation
-}
-
-STRING 7831
-// Abilities: A0FY (Blessing: Насыщение (g9)), Ubertip (Tooltip - Normal - Extended)
-{
-Increases the mana of all heroes by 75.
 }
 
 STRING 7832
@@ -52161,12 +51939,6 @@ STRING 7966
 Humanity Will Rise Again, [|cffffcc00Level %d|r]
 }
 
-STRING 7967
-// Abilities: A0F7 (Marshal: Humanity Will Rise Again), Researchubertip (Tooltip - Learn - Extended)
-{
-Reduces attack cooldown by 10%/13%/16%/19%/22%. If the hero has not killed anyone during the battle, increases strength and agility by 1/2/3/4/5. Doubles the bonus to stats if the hero did not kill anyone during the game.
-}
-
 STRING 7968
 // Abilities: A0F7 (Marshal: Humanity Will Rise Again), Tip (Tooltip - Normal)
 {
@@ -52195,36 +51967,6 @@ STRING 7972
 // Abilities: A0F7 (Marshal: Humanity Will Rise Again), Tip (Tooltip - Normal)
 {
 Humanity Will Rise Again, [|cffffcc00Level 5|r]
-}
-
-STRING 7973
-// Abilities: A0F7 (Marshal: Humanity Will Rise Again), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces attack cooldown by 10%. If the hero has not killed anyone during the battle, increases strength and agility by 1. Doubles the bonus to stats if the hero did not kill anyone during the game.
-}
-
-STRING 7974
-// Abilities: A0F7 (Marshal: Humanity Will Rise Again), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces attack cooldown by 13%. If the hero has not killed anyone during the battle, increases strength and agility by 2. Doubles the bonus to stats if the hero did not kill anyone during the game.
-}
-
-STRING 7975
-// Abilities: A0F7 (Marshal: Humanity Will Rise Again), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces attack cooldown by 16%. If the hero has not killed anyone during the battle, increases strength and agility by 3. Doubles the bonus to stats if the hero did not kill anyone during the game.
-}
-
-STRING 7976
-// Abilities: A0F7 (Marshal: Humanity Will Rise Again), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces attack cooldown by 19%. If the hero has not killed anyone during the battle, increases strength and agility by 4. Doubles the bonus to stats if the hero did not kill anyone during the game.
-}
-
-STRING 7977
-// Abilities: A0F7 (Marshal: Humanity Will Rise Again), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces attack cooldown by 22%. If the hero has not killed anyone during the battle, increases strength and agility by 5. Doubles the bonus to stats if the hero did not kill anyone during the game.
 }
 
 STRING 7978
@@ -54733,15 +54475,6 @@ STRING 8368
 When a Hero effects a target with Fear (|cffffcc00Q|r), Shadow Zone (|cffffcc00W|r) or Curse, increases Spell Power by 0.75% until the end of the game.
 }
 
-STRING 8369
-// Abilities: AV00 (Sun King: Heating Up), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f725/50/75/100/125|r damage to all enemies in long range and applies sunburn, dealing |cffbe81f71/2/3/4/5|r damage per second and increasing magic damage taken by 1%/2%/3%/4%/5%. Stacks up to three times. 3 charges.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-|cffffcc00Cost:|r 30 mana.
-}
-
 STRING 8370
 // Abilities: A0B8 (Scarab: Death Sentence), Tip (Tooltip - Normal)
 {
@@ -55675,6 +55408,24 @@ STRING 8511
 // Abilities: A1BY (Special: Sheep cannon), Hotkey (Hotkey - Normal)
 {
 F
+}
+
+STRING 8512
+// Units: n03J (Rockman), EditorSuffix (Name - Editor Suffix)
+{
+(Level 1)
+}
+
+STRING 8513
+// Units: n03I (Chronomial), EditorSuffix (Name - Editor Suffix)
+{
+(Level 10)
+}
+
+STRING 8514
+// Units: n02W (Facecapture), EditorSuffix (Name - Editor Suffix)
+{
+(Level 5)
 }
 
 STRING 8515
@@ -60497,6 +60248,12 @@ STRING 9256
 Crackle
 }
 
+STRING 9257
+// Units: n02U (George), EditorSuffix (Name - Editor Suffix)
+{
+(Level 1)
+}
+
 STRING 9258
 // Abilities: A07G (Артефакт: Синяя призма), Name (Name)
 {
@@ -60825,6 +60582,12 @@ STRING 9308
 // Abilities: A06Y (Special: Echo), Tip (Tooltip - Normal)
 {
 Echo
+}
+
+STRING 9309
+// Units: n01X (Weaver Viva), EditorSuffix (Name - Editor Suffix)
+{
+(Level 8)
 }
 
 STRING 9310
@@ -61194,14 +60957,8 @@ STRING 9366
 Small Coin
 }
 
-STRING 9367
-// Abilities: A069 (|cffffcc00Уровень 1:|r Вождь мурлоков), Name (Name)
-{
-|cffffcc00Уровень 1:|r Вождь мурлоков
-}
-
 STRING 9368
-// Abilities: A069 (|cffffcc00Уровень 1:|r Вождь мурлоков), Tip (Tooltip - Normal)
+// Abilities: A069 (|cffffcc00Уровень 1:|r Murloc Chieftain), Tip (Tooltip - Normal)
 {
 Murloc Chieftain
 }
@@ -64512,15 +64269,6 @@ STRING 9873
 Solar Eclipse, [|cffffcc00Level %d|r]
 }
 
-STRING 9874
-// Abilities: A03H (Sun King: Solar Eclipse), Researchubertip (Tooltip - Learn - Extended)
-{
-Day changes to night. Increases your hero's spell power by 10%/20%/30%/40%/50%, resets the cooldown of abilities and resurrects a random hero.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 130/120/110/100/90 seconds.
-|cffffcc00Cost:|r 150 mana.
-}
-
 STRING 9875
 // Abilities: A03H (Sun King: Solar Eclipse), Tip (Tooltip - Normal)
 {
@@ -64549,46 +64297,6 @@ STRING 9879
 // Abilities: A03H (Sun King: Solar Eclipse), Tip (Tooltip - Normal)
 {
 Solar Eclipse, [|cffffcc00Level 5|r]
-}
-
-STRING 9880
-// Abilities: A03H (Sun King: Solar Eclipse), Ubertip (Tooltip - Normal - Extended)
-{
-Day changes to night. Increases your hero's spell power by 10%, resets the cooldown of abilities and resurrects a random hero.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 130 seconds.
-}
-
-STRING 9881
-// Abilities: A03H (Sun King: Solar Eclipse), Ubertip (Tooltip - Normal - Extended)
-{
-Day changes to night. Increases your hero's spell power by 20%, resets the cooldown of abilities and resurrects a random hero.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 120 seconds.
-}
-
-STRING 9882
-// Abilities: A03H (Sun King: Solar Eclipse), Ubertip (Tooltip - Normal - Extended)
-{
-Day changes to night. Increases your hero's spell power by 30%, resets the cooldown of abilities and resurrects a random hero.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 110 seconds.
-}
-
-STRING 9883
-// Abilities: A03H (Sun King: Solar Eclipse), Ubertip (Tooltip - Normal - Extended)
-{
-Day changes to night. Increases your hero's spell power by 40%, resets the cooldown of abilities and resurrects a random hero.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 100 seconds.
-}
-
-STRING 9884
-// Abilities: A03H (Sun King: Solar Eclipse), Ubertip (Tooltip - Normal - Extended)
-{
-Day changes to night. Increases your hero's spell power by 50%, resets the cooldown of abilities and resurrects a random hero.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 90 seconds.
 }
 
 STRING 9885
@@ -64953,6 +64661,12 @@ Gives |cffffffff5|r gold. Increases the gold received from this ability by 3 unt
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
+STRING 9941
+// Units: n01T (Serber), EditorSuffix (Name - Editor Suffix)
+{
+(Level 7)
+}
+
 STRING 9942
 // Abilities: A06Y (Special: Echo), Ubertip (Tooltip - Normal - Extended)
 {
@@ -64973,6 +64687,18 @@ STRING 9944
 |cff8080ffSpecial|r
 Quickly jump towards target area with moderate precision.
 |cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 9945
+// Units: n01S (Mistress), EditorSuffix (Name - Editor Suffix)
+{
+(Level 7)
+}
+
+STRING 9946
+// Units: n010 (Whitepaw), EditorSuffix (Name - Editor Suffix)
+{
+(Level 2)
 }
 
 STRING 9947
@@ -65264,6 +64990,12 @@ STRING 9988
 The hero weakens targets in front, reducing enemies attack and movement speed by 50% and dealing |cffbe81f770|r damage per second. if the target is an ally, the hero restores |cffbe81f711%|r of health and mana to the target.
 |cffffcc00Duration:|r 5 seconds.
 |cffffcc00Cooldown:|r 16 seconds.
+}
+
+STRING 9989
+// Units: n00Z (Electrocoat), EditorSuffix (Name - Editor Suffix)
+{
+(Level 1)
 }
 
 STRING 9990
@@ -67320,16 +67052,58 @@ STRING 10301
 R
 }
 
+STRING 10302
+// Units: n00W (Waterking), EditorSuffix (Name - Editor Suffix)
+{
+(Level 10)
+}
+
 STRING 10303
 // Abilities: A1DW (Runesmith: Carve Rune), Researchhotkey (Hotkey - Learn)
 {
 R
 }
 
+STRING 10304
+// Units: n00R (Oxymithron), EditorSuffix (Name - Editor Suffix)
+{
+(Level 5)
+}
+
 STRING 10305
 // Abilities: A0L2 (Invisibility), EditorSuffix (Editor Suffix)
 {
 (Передышка)XXX
+}
+
+STRING 10306
+// Units: n00Q (Robbie Steel Head), EditorSuffix (Name - Editor Suffix)
+{
+(Level 7)
+}
+
+STRING 10307
+// Units: n00P (Togwaggle), EditorSuffix (Name - Editor Suffix)
+{
+(Level 1)
+}
+
+STRING 10308
+// Units: n00F (Seiber), EditorSuffix (Name - Editor Suffix)
+{
+(Level 10)
+}
+
+STRING 10309
+// Units: n00C (Zerefar), EditorSuffix (Name - Editor Suffix)
+{
+(Level 10)
+}
+
+STRING 10310
+// Units: n00B (Mr. Bonnie), EditorSuffix (Name - Editor Suffix)
+{
+(Level 10, Boss)
 }
 
 STRING 10311
@@ -68577,12 +68351,6 @@ STRING 10512
 |cffff0000Heating Up|r
 }
 
-STRING 10513
-// Buffs/Effects: B08S (), Buffubertip (Tooltip - Extended)
-{
-Magic damage taken increased. Health periodically decreases.
-}
-
 STRING 10514
 // Buffs/Effects: B08R (), Bufftip (Tooltip)
 {
@@ -69612,12 +69380,6 @@ STRING 10684
 |cff00ff00Humanity Will Rise Again|r
 }
 
-STRING 10685
-// Buffs/Effects: B06B (), Buffubertip (Tooltip - Extended)
-{
-Bonus is active.
-}
-
 STRING 10686
 // Buffs/Effects: B06A (), Bufftip (Tooltip)
 {
@@ -70644,6 +70406,12 @@ STRING 10855
 |cffbababcCommon|r
 Every 5 seconds, creates a Gold Coin in the arena.
 |cff81f260[Random bonus]|r
+}
+
+STRING 10856
+// Units: n00A (Angry Bob), EditorSuffix (Name - Editor Suffix)
+{
+(Level 10)
 }
 
 STRING 10857
@@ -72009,6 +71777,12 @@ STRING 11082
 Activation: |cffcc0000Corrupted|r. Create 4 artifacts in an empty inventory slots. Create 1 less for each other artifact in the inventory (at least 1).
 }
 
+STRING 11083
+// Units: n009 (Rapu), EditorSuffix (Name - Editor Suffix)
+{
+(Level 6)
+}
+
 STRING 11084
 // Abilities: A0LD (Wanderer: Indelebilis Sensus), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -72278,6 +72052,18 @@ STRING 11127
 // Buffs/Effects: B00B (), EditorSuffix (Editor Suffix)
 {
 (2)
+}
+
+STRING 11128
+// Units: n008 (Phantasm), EditorSuffix (Name - Editor Suffix)
+{
+(Level 5)
+}
+
+STRING 11129
+// Units: n007 (Mysterious Hero), EditorSuffix (Name - Editor Suffix)
+{
+(Level 3)
 }
 
 STRING 11130
@@ -72872,16 +72658,16 @@ STRING 11228
 Attack speed reduced.
 }
 
-STRING 11229
-// Abilities: A0HA (Curse: Могила (b3)), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero dies, it takes 50 gold.
-}
-
 STRING 11230
 // Abilities: A0FM (Curse: Медлительность (b2)), Ubertip (Tooltip - Normal - Extended)
 {
 Reduces hero Attack Speed by 10%.
+}
+
+STRING 11231
+// Units: n005 (Mrgl), EditorSuffix (Name - Editor Suffix)
+{
+(Level 1)
 }
 
 STRING 11232
@@ -72908,6 +72694,30 @@ STRING 11235
 {
 |cffe96a1cLegendary|r, |cff5858faMoon|r
 Summons a small uncontrollable spirit that chases the hero and constantly attacks nearby enemies, dealing |cffbe81f715|r damage. This spirit also uses waves created by the "|cff5858faMoon|r" set bonus.
+}
+
+STRING 11236
+// Units: h020 (Akhalaia), EditorSuffix (Name - Editor Suffix)
+{
+(Level 3)
+}
+
+STRING 11237
+// Units: h01X (Teralas), EditorSuffix (Name - Editor Suffix)
+{
+(Level 4)
+}
+
+STRING 11238
+// Units: h01R (Tortolla), EditorSuffix (Name - Editor Suffix)
+{
+(Level 6)
+}
+
+STRING 11239
+// Units: h01K (Chompy), EditorSuffix (Name - Editor Suffix)
+{
+(Level 9)
 }
 
 STRING 11240
@@ -72943,6 +72753,12 @@ STRING 11244
 {
 Summons unique Bonnie with abilities. Bonnie's abilities improve from the hero's abilities.
 |cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 11245
+// Units: h015 (Rafaam), EditorSuffix (Name - Editor Suffix)
+{
+(Level 3)
 }
 
 STRING 11246
@@ -74605,6 +74421,18 @@ Enters the hero into invisibility and increases the Movement Speed by 80%.
 |cffffcc00Cooldown:|r 18 seconds.
 }
 
+STRING 11501
+// Units: h014 (Nightingale), EditorSuffix (Name - Editor Suffix)
+{
+(Level 2)
+}
+
+STRING 11502
+// Units: h011 (Azgalor), EditorSuffix (Name - Editor Suffix)
+{
+(Level 9)
+}
+
 STRING 11503
 // Units: N014 ((R) Marshal), Name (Name)
 {
@@ -74652,7 +74480,7 @@ Enters the hero into invisibility and restores |cffbe81f72%/3.5%/5%/6.5%/8%|r of
 }
 
 STRING 11510
-// Units: N000 ((D) Furbolg Chieftain), Name (Name)
+// Units: N040 ((D) Furbolg Chieftain), Name (Name)
 {
 (D) Furbolg Chieftain
 }
@@ -74842,6 +74670,12 @@ STRING 11539
 // Abilities: A06C (|cffffcc00Уровень 2:|r Злобный тотем), Tip (Tooltip - Normal)
 {
 Evil Totem
+}
+
+STRING 11540
+// Units: h010 (Taggie Demolition), EditorSuffix (Name - Editor Suffix)
+{
+(Level 6)
 }
 
 STRING 11541
@@ -75069,6 +74903,12 @@ STRING 11570
 - |cff00cceeAt 25% health:|r Increases your attack and movement speed by 20%.
 }
 
+STRING 11571
+// Units: h00Z (Farus), EditorSuffix (Name - Editor Suffix)
+{
+(Level 9)
+}
+
 STRING 11572
 // Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
 {
@@ -75184,6 +75024,12 @@ STRING 11585
 // Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
 {
 Moon Blinking, [|cffffcc00Level 5|r]
+}
+
+STRING 11586
+// Units: h00Q (Mob and Bob), EditorSuffix (Name - Editor Suffix)
+{
+(Level 2)
 }
 
 STRING 11587
@@ -75414,7 +75260,7 @@ STRING 11612
 }
 
 STRING 11613
-// Abilities: A069 (|cffffcc00Уровень 1:|r Вождь мурлоков), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A069 (|cffffcc00Уровень 1:|r Murloc Chieftain), Ubertip (Tooltip - Normal - Extended)
 {
 - |cff00cceeAt 75% health:|r Summons 4 murlocs.
 - |cff00cceeAt 50% health:|r Increases minion attack power by 50%.
@@ -75431,6 +75277,30 @@ STRING 11615
 // Buffs/Effects: B02W (), Bufftip (Tooltip)
 {
 |cffff0000Slammed|r
+}
+
+STRING 11616
+// Units: h00M (Uther), EditorSuffix (Name - Editor Suffix)
+{
+(Level 6)
+}
+
+STRING 11617
+// Units: h00K (Arach), EditorSuffix (Name - Editor Suffix)
+{
+(Level 3)
+}
+
+STRING 11618
+// Units: h00B (Fedor), EditorSuffix (Name - Editor Suffix)
+{
+(Level 3)
+}
+
+STRING 11619
+// Units: h003 (Wizardo), EditorSuffix (Name - Editor Suffix)
+{
+(Level 7)
 }
 
 STRING 11620
@@ -75687,37 +75557,28 @@ STRING 11657
 Seal of Fate, [|cffffcc00Level 5|r]
 }
 
-STRING 11662
-// Abilities: A1B0 (Bard: Ballad of a Hero), Researchubertip (Tooltip - Learn - Extended)
+STRING 11658
+// Units: h001 (Choptrouble), EditorSuffix (Name - Editor Suffix)
 {
-Temporarily resurrects a random hero and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
-|cffffcc00Life time:|r 7/10/13/16/19 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-|cffffcc00Cost:|r 80 mana.
+(Level 4, Sleep)
 }
 
-STRING 11663
-// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
+STRING 11659
+// Units: h000 (Maximilius), EditorSuffix (Name - Editor Suffix)
 {
-Temporarily resurrects a random hero and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
-|cffffcc00Life time:|r 7 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
+(Level 2)
 }
 
-STRING 11664
-// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
+STRING 11660
+// Units: e00F (Bolwerk), EditorSuffix (Name - Editor Suffix)
 {
-Temporarily resurrects a random hero and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
-|cffffcc00Life time:|r 10 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
+(Level 8)
 }
 
-STRING 11665
-// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
+STRING 11661
+// Units: e00D (Evillar), EditorSuffix (Name - Editor Suffix)
 {
-Temporarily resurrects a random hero and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
-|cffffcc00Life time:|r 13 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
+(Level 4)
 }
 
 STRING 11666
@@ -75726,22 +75587,6 @@ STRING 11666
 Fires a wave in the target direction. Enemies take |cffbe81f7150/175/200/225/250|r damage and are slowed by 40% for 1.5/1.75/2/2.25/2.5 seconds. When the wrath charge is 50% or more, the area of ​​effect and damage are doubled.
 |cffffcc00Cooldown:|r 12 seconds.
 |cffffcc00Cost:|r 60 mana.
-}
-
-STRING 11667
-// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
-{
-Temporarily resurrects a random hero and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
-|cffffcc00Life time:|r 19 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
-STRING 11668
-// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
-{
-Temporarily resurrects a random hero and increases his mana by 15. If there are no dead heroes, instead, applies "Bardic Inspiration" (|cffffcc00E|r) on all heroes.
-|cffffcc00Life time:|r 16 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
 }
 
 STRING 11669
@@ -77648,18 +77493,6 @@ STRING 11932
 Mana Dragon
 }
 
-STRING 11933
-// Items: IV35 (Meat on a Stick), Description (Description)
-{
-At the end of the battle, creates a |cffbababcсommon|r artifact in an empty inventory slot.
-}
-
-STRING 11934
-// Items: IV35 (Meat on a Stick), Ubertip (Tooltip - Extended)
-{
-At the end of the battle, creates a |cffbababcсommon|r artifact in an empty inventory slot.
-}
-
 STRING 11935
 // Items: IZ00 (Transformer), Name (Name)
 {
@@ -77670,6 +77503,24 @@ STRING 11936
 // Items: IZ00 (Transformer), Tip (Tooltip - Basic)
 {
 Transformer
+}
+
+STRING 11937
+// Units: e008 (Green Haze), EditorSuffix (Name - Editor Suffix)
+{
+(Level 9)
+}
+
+STRING 11938
+// Units: e006 (Scraptree), EditorSuffix (Name - Editor Suffix)
+{
+(Level 8)
+}
+
+STRING 11939
+// Units: e005 (Alana), EditorSuffix (Name - Editor Suffix)
+{
+(Level 6)
 }
 
 STRING 11940
@@ -79354,5 +79205,484 @@ STRING 12186
 Imposes a buff on the hero. Reduces the attack speed of enemies near the target by 32%. When the target dies, resurrects it from |cffbe81f735%|r of maximum health and mana.
 |cffffcc00Duration:|r 20 seconds.
 |cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 12187
+// Units: e004 (Sarkani), EditorSuffix (Name - Editor Suffix)
+{
+(Level 4)
+}
+
+STRING 12188
+// Units: e002 (Hor Ror), EditorSuffix (Name - Editor Suffix)
+{
+(Level 9)
+}
+
+STRING 12189
+// Units: e001 (Han), EditorSuffix (Name - Editor Suffix)
+{
+(Level 4)
+}
+
+STRING 12190
+// Units: e000 (High Rock), EditorSuffix (Name - Editor Suffix)
+{
+(Level 7)
+}
+
+STRING 12191
+// Units: h01N (Choptrouble), EditorSuffix (Name - Editor Suffix)
+{
+(Level 4, Awake)
+}
+
+STRING 12192
+// Items: I06S (Cloud Horn), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: Summons an army of sheeps.
+|cffffcc00Life time:|r 18 seconds.
+|cffffcc00Cooldown:|r 60 seconds.
+|cffffcc00Cost:|r 100 mana.
+}
+
+STRING 12193
+// Items: I06S (Cloud Horn), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: Summons an army of sheeps.
+|cffffcc00Life time:|r 18 seconds.
+|cffffcc00Cooldown:|r 60 seconds.
+}
+
+STRING 12194
+// Abilities: A06D (|cffffcc00Уровень 3:|r Великий герой), Tip (Tooltip - Normal)
+{
+Mysterious Hero
+}
+
+STRING 12195
+// Abilities: A0HA (Curse: Grave), Name (Name)
+{
+Curse: Grave
+}
+
+STRING 12196
+// Abilities: A0HA (Curse: Grave), Ubertip (Tooltip - Normal - Extended)
+{
+Hero spirits deal and restore 20% less health.
+}
+
+STRING 12197
+// Abilities: A1B0 (Bard: Ballad of a Hero), Researchubertip (Tooltip - Learn - Extended)
+{
+Resurrects a random hero and increases their Mana by 15. After 7/10/13/16/19 seconds, they die. If this fails, cast "Bardic Inspiration (Level 1/2/3/4/5)" (|cffffcc00E|r) on all heroes instead.
+|cffffcc00Cooldown:|r 25 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
+STRING 12198
+// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
+{
+Resurrects a random hero and increases their Mana by 15. After 7 seconds, they die. If this fails, cast "Bardic Inspiration (Level 1)" (|cffffcc00E|r) on all heroes instead.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 12199
+// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
+{
+Resurrects a random hero and increases their Mana by 15. After 10 seconds, they die. If this fails, cast "Bardic Inspiration (Level 2)" (|cffffcc00E|r) on all heroes instead.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 12200
+// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
+{
+Resurrects a random hero and increases their Mana by 15. After 13 seconds, they die. If this fails, cast "Bardic Inspiration (Level 3)" (|cffffcc00E|r) on all heroes instead.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 12201
+// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
+{
+Resurrects a random hero and increases their Mana by 15. After 16 seconds, they die. If this fails, cast "Bardic Inspiration (Level 4)" (|cffffcc00E|r) on all heroes instead.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 12202
+// Abilities: A1B0 (Bard: Ballad of a Hero), Ubertip (Tooltip - Normal - Extended)
+{
+Resurrects a random hero and increases their Mana by 15. After 19 seconds, they die. If this fails, cast "Bardic Inspiration (Level 5)" (|cffffcc00E|r) on all heroes instead.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 12203
+// Items: I05R (Dark Sphere), Name (Name)
+{
+Dark Sphere
+}
+
+STRING 12204
+// Items: I05R (Dark Sphere), Tip (Tooltip - Basic)
+{
+Dark Sphere
+}
+
+STRING 12205
+// Abilities: A0MK (Blessing I Know a Guy), Name (Name)
+{
+Blessing I Know a Guy
+}
+
+STRING 12206
+// Abilities: A0MK (Blessing I Know a Guy), Tip (Tooltip - Normal)
+{
+|cffffcc00Blessing:|r I Know a Guy
+}
+
+STRING 12207
+// Abilities: A0MK (Blessing I Know a Guy), Ubertip (Tooltip - Normal - Extended)
+{
+After defeating the boss, you can refresh the Artifact Shop for free.
+}
+
+STRING 12208
+// Abilities: A0HQ (MP (Saturation)), Name (Name)
+{
+MP (Saturation)
+}
+
+STRING 12209
+// Abilities: A0FY (Blessing: Saturation), Name (Name)
+{
+Blessing: Saturation
+}
+
+STRING 12210
+// Abilities: A0FY (Blessing: Saturation), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the hero's mana by 50.
+}
+
+STRING 12211
+// Abilities: A1CX (The Plague: Sidewinder), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f7150/200/250/300/350|r damage to all enemies between the caster and the point. Increases damage by 70%/90%/110%/130%/150% for each The Plague's debuff.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 135 mana.
+}
+
+STRING 12212
+// Abilities: A1CX (The Plague: Sidewinder), Tip (Tooltip - Normal)
+{
+Sidewinder, [|cffffcc00Level 2|r]
+}
+
+STRING 12213
+// Abilities: A1CX (The Plague: Sidewinder), Tip (Tooltip - Normal)
+{
+Sidewinder, [|cffffcc00Level 3|r]
+}
+
+STRING 12214
+// Abilities: A1CX (The Plague: Sidewinder), Tip (Tooltip - Normal)
+{
+Sidewinder, [|cffffcc00Level 4|r]
+}
+
+STRING 12215
+// Abilities: A1CX (The Plague: Sidewinder), Tip (Tooltip - Normal)
+{
+Sidewinder, [|cffffcc00Level 5|r]
+}
+
+STRING 12216
+// Abilities: A1CW (The Plague: Corrosive Skin), Researchubertip (Tooltip - Learn - Extended)
+{
+When cast, the hero has a |cffd7df0110%/13%/16%/19%/22%|r chance to create a poison cloud, similar to the "Neurotoxin" (|cffffcc00Q|r) ability.
+Enemies within the poison cloud have a |cffd7df0110%/15%/20%/25%/30%|r chance to take 45% more damage.
+|cffffcc00Life time:|r 5 seconds.
+}
+
+STRING 12217
+// Abilities: A1CW (The Plague: Corrosive Skin), Ubertip (Tooltip - Normal - Extended)
+{
+When cast, the hero has a |cffd7df0110%|r chance to create a poison cloud, similar to the "Neurotoxin" (|cffffcc00Q|r) ability.
+Enemies within the poison cloud have a |cffd7df0110%|r chance to take 45% more damage.
+|cffffcc00Life time:|r 5 seconds.
+}
+
+STRING 12218
+// Abilities: A1CW (The Plague: Corrosive Skin), Ubertip (Tooltip - Normal - Extended)
+{
+When cast, the hero has a |cffd7df0113%|r chance to create a poison cloud, similar to the "Neurotoxin" (|cffffcc00Q|r) ability.
+Enemies within the poison cloud have a |cffd7df0115%|r chance to take 45% more damage.
+|cffffcc00Life time:|r 5 seconds.
+}
+
+STRING 12219
+// Abilities: A1CW (The Plague: Corrosive Skin), Ubertip (Tooltip - Normal - Extended)
+{
+When cast, the hero has a |cffd7df0116%|r chance to create a poison cloud, similar to the "Neurotoxin" (|cffffcc00Q|r) ability.
+Enemies within the poison cloud have a |cffd7df0120%|r chance to take 45% more damage.
+|cffffcc00Life time:|r 5 seconds.
+}
+
+STRING 12220
+// Abilities: A1CW (The Plague: Corrosive Skin), Ubertip (Tooltip - Normal - Extended)
+{
+When cast, the hero has a |cffd7df0119%|r chance to create a poison cloud, similar to the "Neurotoxin" (|cffffcc00Q|r) ability.
+Enemies within the poison cloud have a |cffd7df0125%|r chance to take 45% more damage.
+|cffffcc00Life time:|r 5 seconds.
+}
+
+STRING 12221
+// Abilities: A1CW (The Plague: Corrosive Skin), Ubertip (Tooltip - Normal - Extended)
+{
+When cast, the hero has a |cffd7df0122%|r chance to create a poison cloud, similar to the "Neurotoxin" (|cffffcc00Q|r) ability.
+Enemies within the poison cloud have a |cffd7df0130%|r chance to take 45% more damage.
+|cffffcc00Life time:|r 5 seconds.
+}
+
+STRING 12222
+// Abilities: A1CS (The Plague: Neurotoxin), Researchubertip (Tooltip - Learn - Extended)
+{
+The hero throws a projectile at a point to create a toxic cloud. While in the cloud, enemies constantly take |cffbe81f712/18/24/30/36|r damage and their attack speed is reduced by 10%/13%/16%/19%/22%.
+|cffffcc00Life time:|r 18 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 70 mana.
+}
+
+STRING 12223
+// Abilities: A1CS (The Plague: Neurotoxin), Ubertip (Tooltip - Normal - Extended)
+{
+The hero throws a projectile at a point to create a toxic cloud. While in the cloud, enemies constantly take |cffbe81f712|r damage and their attack speed is reduced by 10%.
+|cffffcc00Life time:|r 18 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12224
+// Abilities: A1CS (The Plague: Neurotoxin), Ubertip (Tooltip - Normal - Extended)
+{
+The hero throws a projectile at a point to create a toxic cloud. While in the cloud, enemies constantly take |cffbe81f718|r damage and their attack speed is reduced by 13%.
+|cffffcc00Life time:|r 18 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12225
+// Abilities: A1CS (The Plague: Neurotoxin), Ubertip (Tooltip - Normal - Extended)
+{
+The hero throws a projectile at a point to create a toxic cloud. While in the cloud, enemies constantly take |cffbe81f724|r damage and their attack speed is reduced by 16%.
+|cffffcc00Life time:|r 18 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12226
+// Abilities: A1CS (The Plague: Neurotoxin), Ubertip (Tooltip - Normal - Extended)
+{
+The hero throws a projectile at a point to create a toxic cloud. While in the cloud, enemies constantly take |cffbe81f730|r damage and their attack speed is reduced by 19%.
+|cffffcc00Life time:|r 18 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12227
+// Abilities: A1CS (The Plague: Neurotoxin), Ubertip (Tooltip - Normal - Extended)
+{
+The hero throws a projectile at a point to create a toxic cloud. While in the cloud, enemies constantly take |cffbe81f736|r damage and their attack speed is reduced by 22%.
+|cffffcc00Life time:|r 18 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12228
+// Items: IV35 (Meat on a Stick), Description (Description)
+{
+At the end of the battle, creates a |cffbabab0сommon|r artifact in an empty inventory slot.
+}
+
+STRING 12229
+// Items: IV35 (Meat on a Stick), Ubertip (Tooltip - Extended)
+{
+At the end of the battle, creates a |cffbabab0сommon|r artifact in an empty inventory slot.
+}
+
+STRING 12236
+// Items: IV05 (Meat on a Stick), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Obtain an item that creates a |cffbabab0common|r artifact at the end the battle.
+}
+
+STRING 12237
+// Items: IV05 (Meat on a Stick), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Obtain an item that creates a |cffbabab0common|r artifact at the end the battle.
+}
+
+STRING 12238
+// Abilities: A0F7 (Marshal: Humanity Will Rise Again), Researchubertip (Tooltip - Learn - Extended)
+{
+Reduces attack cooldown by 10%/13%/16%/19%/22%. At the end of combat, increases Strength by 2/3/4/5/6. If you kill someone in this combat, increases Agility instead.
+}
+
+STRING 12239
+// Abilities: A0F7 (Marshal: Humanity Will Rise Again), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces attack cooldown by 10%. At the end of combat, increases Strength by 2. If you kill someone in this combat, increases Agility instead.
+}
+
+STRING 12240
+// Abilities: A0F7 (Marshal: Humanity Will Rise Again), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces attack cooldown by 13%. At the end of combat, increases Strength by 3. If you kill someone in this combat, increases Agility instead.
+}
+
+STRING 12241
+// Abilities: A0F7 (Marshal: Humanity Will Rise Again), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces attack cooldown by 16%. At the end of combat, increases Strength by 4. If you kill someone in this combat, increases Agility instead.
+}
+
+STRING 12242
+// Abilities: A0F7 (Marshal: Humanity Will Rise Again), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces attack cooldown by 19%. At the end of combat, increases Strength by 5. If you kill someone in this combat, increases Agility instead.
+}
+
+STRING 12243
+// Abilities: A0F7 (Marshal: Humanity Will Rise Again), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces attack cooldown by 22%. At the end of combat, increases Strength by 6. If you kill someone in this combat, increases Agility instead.
+}
+
+STRING 12244
+// Buffs/Effects: B06B (), Buffubertip (Tooltip - Extended)
+{
+You didn't kill anyone in this fight.
+}
+
+STRING 12245
+// Items: I0DT (Breastplate), Description (Description)
+{
+|cff4169e1Rare|r
+Any damage from your hero deals 15 more damage.
+}
+
+STRING 12246
+// Items: I0DT (Breastplate), Name (Name)
+{
+Breastplate
+}
+
+STRING 12247
+// Items: I0DT (Breastplate), Tip (Tooltip - Basic)
+{
+Breastplate
+}
+
+STRING 12248
+// Items: I0DT (Breastplate), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Any damage from your hero deals 15 more damage.
+}
+
+STRING 12249
+// Items: I0D1 (Sacred Libram), Description (Description)
+{
+|cff4169e1Rare|r
+Your buffs and debuffs last 50% longer.
+|cff81f260[Random bonus]|r
+}
+
+STRING 12250
+// Items: I0D1 (Sacred Libram), Name (Name)
+{
+Sacred Libram
+}
+
+STRING 12251
+// Items: I0D1 (Sacred Libram), Tip (Tooltip - Basic)
+{
+Sacred Libram
+}
+
+STRING 12252
+// Items: I0D1 (Sacred Libram), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Your buffs and debuffs last 50% longer.
+|cff81f260[Random bonus]|r
+}
+
+STRING 12253
+// Abilities: AV00 (Sun King: Heating Up), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f735/50/65/80/95|r damage to enemies in a large area and applies a burn that periodically deals |cffbe81f72/3/4/5/6|r damage (stacks up to 5 times). 3 charges.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 8 seconds.
+|cffffcc00Cost:|r 30 mana.
+}
+
+STRING 12254
+// Abilities: AV00 (Sun King: Heating Up), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f735|r damage to enemies in a large area and applies a burn that periodically deals |cffbe81f72|r damage (stacks up to 5 times). 3 charges.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
+STRING 12255
+// Abilities: AV00 (Sun King: Heating Up), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f750|r damage to enemies in a large area and applies a burn that periodically deals |cffbe81f73|r damage (stacks up to 5 times). 3 charges.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
+STRING 12256
+// Abilities: AV00 (Sun King: Heating Up), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f765|r damage to enemies in a large area and applies a burn that periodically deals |cffbe81f74|r damage (stacks up to 5 times). 3 charges.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
+STRING 12257
+// Abilities: AV00 (Sun King: Heating Up), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f780|r damage to enemies in a large area and applies a burn that periodically deals |cffbe81f75|r damage (stacks up to 5 times). 3 charges.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
+STRING 12258
+// Abilities: AV00 (Sun King: Heating Up), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f795|r damage to enemies in a large area and applies a burn that periodically deals |cffbe81f76|r damage (stacks up to 5 times). 3 charges.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 8 seconds.
+}
+
+STRING 12259
+// Abilities: A0GQ (Sun King: Child of the Sun), Researchubertip (Tooltip - Learn - Extended)
+{
+Increases attack power, spell power and healing by 8%/12%/16%/20%/24%. The bonus is doubled at night.
+When the hero deals or heals a total of 1750 health, activate night for 6 seconds.
+}
+
+STRING 12260
+// Abilities: A0GQ (Sun King: Child of the Sun), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack power, spell power and healing by 8%. The bonus is doubled at night.
+When the hero deals or heals a total of 1750 health, activate night for 6 seconds.
+}
+
+STRING 12261
+// Abilities: A0GQ (Sun King: Child of the Sun), Ubertip (Tooltip - Normal - Extended)
+{
+Increases attack power, spell power and healing by 12%. The bonus is doubled at night.
+When the hero deals or heals a total of 1750 health, activate night for 6 seconds.
 }
 

@@ -30,6 +30,7 @@ library StatAbilityDatabase initializer init requires StatAbility
 		call ConnectAbilityToStat( 'A1F2', STAT_VAMPIRISM_MAG, 20 )
 		//STAT_VAMPIRISM
 		call ConnectAbilityToStat( 'A1F3', STAT_VAMPIRISM, 60 )
+		call ConnectAbilityToStat( 'A1IL', STAT_VAMPIRISM, 50 )
 		//STAT_HEAL_BONUS
 		call ConnectAbilityToStat( 'A1F4', STAT_HEAL_BONUS, 150 )
 		call ConnectAbilityToStat( 'A1FM', STAT_HEAL_BONUS, 20 )

@@ -1,4 +1,4 @@
-scope HeroSpiritSummon initializer init
+library HeroSpiritSummon initializer init requires CombatLib, Trigger, DeathLib
 
 	globals
 		private constant integer UNIT_ID = 'o021'	
@@ -6,8 +6,20 @@ scope HeroSpiritSummon initializer init
 		
 		private constant string ANIMATION = "Abilities\\Spells\\Orc\\FeralSpirit\\feralspirittarget.mdl"
 		public constant integer STRING_HASH = StringHash("hero_spirit")
+		
+		private real GlobalSpiritPower = 1
 	endglobals
 
+	public function GetSpiritPower takes nothing returns real
+		return GlobalSpiritPower
+	endfunction
+	
+	public function AddSpiritPower takes integer toAdd returns nothing
+		set GlobalSpiritPower = GlobalSpiritPower + (toAdd / 100.)
+		//call BJDebugMsg("value: " + R2S(GlobalSpiritPower))
+	endfunction
+
+	//===========================================================================
 	private function condition takes nothing returns boolean
 	    return IsUnitType( GetDyingUnit(), UNIT_TYPE_HERO) and combat(GetDyingUnit(), false, 0) and udg_fightmod[3] == false and NoSpirit == false
 	endfunction
@@ -85,4 +97,4 @@ scope HeroSpiritSummon initializer init
 	    call DefeatAnnounce.AddListener(function OnDefeat, null)
 	endfunction
 	
-endscope
+endlibrary

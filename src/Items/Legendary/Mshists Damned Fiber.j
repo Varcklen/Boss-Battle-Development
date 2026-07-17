@@ -37,8 +37,10 @@ scope MshistDamnedFiber initializer init
 		call SaveReal( udg_hash, id, StringHash( "damned_fiber_y" ), y)
 	endfunction
 	
-	private function action takes nothing returns nothing
-		local unit caster = BattleStart.GetDataUnit("caster")
+	//===========================================================================
+	private function Delay takes nothing returns nothing
+		local integer id = GetHandleId( GetExpiredTimer( ) )
+		local unit caster = LoadUnitHandle(udg_hash, id, StringHash( "damned_fiber_delay_unit" ) )
 		local integer i
 		local real dist 
 		local real angle
@@ -60,8 +62,20 @@ scope MshistDamnedFiber initializer init
 			set i = i + 1
 		endloop
 		
+		set caster = null
+		set newUnit = null
+	endfunction
+	
+	private function action takes nothing returns nothing
+		local unit caster = BattleStart.GetDataUnit("caster")
+		local item itemUsed = Trigger_GetItemUsed()
+		local integer id 
+		
+		set id = InvokeTimerWithItem( itemUsed, "damned_fiber_delay", 1, false, function Delay )
+		call SaveUnitHandle(udg_hash, id, StringHash( "damned_fiber_delay_unit" ), caster )
+
         set caster = null
-        set newUnit = null
+        set itemUsed = null
 	endfunction
 
 	//===========================================================================
@@ -71,9 +85,9 @@ scope MshistDamnedFiber initializer init
 	
 	private function OnDie takes nothing returns nothing
 		local unit unitDied = AnyUnitDied.GetDataUnit("unit_died")
-		
+
 		call SpawnImmortal(unitDied, GetUnitX(unitDied), GetUnitY(unitDied))
-		
+
 		set unitDied = null
 	endfunction
 

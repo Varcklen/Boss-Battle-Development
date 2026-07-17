@@ -19,7 +19,7 @@ scope CheatCreate initializer init
 	    set temp = CreateUnitAtLoc( Player(3), 'N01M', OffsetLocation(GetRectCenter(gg_rct_HeroTp), 120.00, 120.00), bj_UNIT_FACING )
 	    //set udg_hero[4] = temp
 	    call HeroesChoise_SetHero(temp, Player(3), 6, 7)
-	    call UnitAddItem( temp, CreateItem('I05Z', GetUnitX(temp), GetUnitY(temp) ) )
+	    //call UnitAddItem( temp, CreateItem('I05Z', GetUnitX(temp), GetUnitY(temp) ) )
 	    
 	    /*set udg_Ability_Uniq[2] = 'A0AG'
 	    set udg_Ability_Uniq[3] = 'A0GC'
@@ -29,17 +29,17 @@ scope CheatCreate initializer init
 	    call SetUnitUserData(udg_hero[4], 4)
 	    call SaveReal(udg_hash, GetHandleId(udg_hero[2]), StringHash("spd"), 1 )
 	    call SaveReal(udg_hash, GetHandleId(udg_hero[3]), StringHash("spd"), 1 )
-	    call SaveReal(udg_hash, GetHandleId(udg_hero[4]), StringHash("spd"), 1 )
-	    set i = 1
+	    call SaveReal(udg_hash, GetHandleId(udg_hero[4]), StringHash("spd"), 1 )*/
+	    
+	    set i = 2 //<===
 	    loop
 	        exitwhen i > 4
 	        if udg_hero[i] != null then
 	            set udg_combatlogic[i] = true
 	            call DeathSystem_DEBUG(udg_hero[i])
-	            call GroupAddUnitSimple( udg_hero[i], udg_heroinfo )
 	        endif
 	        set i = i + 1
-	    endloop*/
+	    endloop
 	    set temp = null
 	endfunction
 	

@@ -1,7 +1,8 @@
 scope MagicThrowHS initializer init
 
 	globals
-		public constant integer ANILITY_ID = 'A1G9'	
+		public constant integer ANILITY_ID = 'A1G9'
+		private constant integer DAMAGE = 85
 	endglobals
 
 	private function condition takes nothing returns boolean
@@ -29,7 +30,7 @@ scope MagicThrowHS initializer init
 	    endif
 
 	    call spectimeunit( target, "Abilities\\Spells\\Undead\\ReplenishMana\\ReplenishManaCaster.mdl", "head", 1 )
-	    call UnitTakeDamage( caster, target, 85, DAMAGE_TYPE_MAGIC)
+	    call UnitTakeDamage( caster, target, DAMAGE * HeroSpiritSummon_GetSpiritPower(), DAMAGE_TYPE_MAGIC)
 	    
 	    set caster = null
 	    set target = null

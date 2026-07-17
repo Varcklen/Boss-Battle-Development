@@ -14,8 +14,8 @@ scope ThePlagueQ initializer init
         
         private constant integer EFFECT = 'A1CT'
         
-        public constant integer DAMAGE_FIRST_LEVEL = 2
-        public constant integer DAMAGE_LEVEL_BONUS = 8
+        public constant integer DAMAGE_FIRST_LEVEL = 6
+        public constant integer DAMAGE_LEVEL_BONUS = 6
         
         private constant string ORB_ANIMATION = "Abilities\\Weapons\\GreenDragonMissile\\GreenDragonMissile.mdl"
         private constant string ANIMATION = "Abilities\\Spells\\NightElf\\Blink\\BlinkTarget.mdl"

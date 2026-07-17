@@ -2,6 +2,7 @@ scope SmallHealHS initializer init
 
 	globals
 		public constant integer ANILITY_ID = 'A1G8'	
+		private constant integer HEAL = 85
 	endglobals
 
 	private function condition takes nothing returns boolean
@@ -28,7 +29,7 @@ scope SmallHealHS initializer init
 	        set target = GetSpellTargetUnit()
 	    endif
 
-	    call healst( caster, target, 85 )
+	    call healst( caster, target, HEAL * HeroSpiritSummon_GetSpiritPower() )
 	    call DestroyEffect( AddSpecialEffectTarget("Abilities\\Spells\\Human\\HolyBolt\\HolyBoltSpecialArt.mdl" , target, "origin" ) )
 	    
 	    set caster = null
