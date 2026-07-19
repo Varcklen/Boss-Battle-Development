@@ -23,6 +23,7 @@ scope ImmovableMantle initializer init
 	    
 	    if GetUnitAbilityLevel( u, EFFECT ) > 0 then
 	        call pausest( u, -1 )
+	        call IssueImmediateOrder( u, "stop" )
 	        call UnitRemoveAbility( u, EFFECT )
 	        call UnitRemoveAbility( u, BUFF )
 	    endif
@@ -69,23 +70,27 @@ scope ImmovableMantle initializer init
     endfunction
     
     
-    /*private function DeleteBuff_Conditions takes nothing returns boolean
+    private function DeleteBuff_Conditions takes nothing returns boolean
         return GetUnitAbilityLevel( Event_DeleteBuff_Unit, EFFECT) > 0
     endfunction
     
     private function DeleteBuff takes nothing returns nothing
-        local unit hero = Event_DeleteBuff_Unit
+        local unit u = Event_DeleteBuff_Unit
 
-        call UnitRemoveAbility( hero, EFFECT )
-        call UnitRemoveAbility( hero, BUFF )
+        if GetUnitAbilityLevel( u, EFFECT ) > 0 then
+	        call pausest( u, -1 )
+	        call IssueImmediateOrder( u, "stop" )
+	        call UnitRemoveAbility( u, EFFECT )
+	        call UnitRemoveAbility( u, BUFF )
+	    endif
         
-        set hero = null
-    endfunction*/
+        set u = null
+    endfunction
     
     //===========================================================================
     private function init takes nothing returns nothing
 		call CreateNativeEvent( EVENT_PLAYER_UNIT_SPELL_EFFECT, function action, function condition )
-        //call CreateEventTrigger( "Event_DeleteBuff_Real", function DeleteBuff, function DeleteBuff_Conditions )
+        call CreateEventTrigger( "Event_DeleteBuff_Real", function DeleteBuff, function DeleteBuff_Conditions )
     endfunction
 
 endscope

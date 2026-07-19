@@ -2,6 +2,17 @@ scope CurseSupport initializer init
 
 	globals
 		private trigger Trigger = null
+		private constant integer UNIT_ID = 'u00I'
+		private constant string ANIMATION = "Abilities\\Spells\\Orc\\FeralSpirit\\feralspirittarget.mdl"
+		
+		private constant integer HEALTH_START = 200
+		private constant integer HEALTH_LEVEL = 100
+		
+		private constant integer DAMAGE_START = 5
+		private constant integer DAMAGE_LEVEL = 5
+		
+		private constant real SIZE_INITIAL = 1.1
+		private constant real SIZE_INCREASE = 0.05
 	endglobals
 	
 	private function condition takes nothing returns boolean
@@ -9,24 +20,27 @@ scope CurseSupport initializer init
 	endfunction
 	
 	private function Summon takes unit boss returns nothing
-		set bj_lastCreatedUnit = CreateUnit(GetOwningPlayer(boss), udg_Database_RandomUnit[GetRandomInt(1, udg_Database_NumberItems[5])], GetUnitX(boss), GetUnitY(boss), GetUnitFacing(boss))
-        call DestroyEffect(AddSpecialEffectTarget( "Abilities\\Spells\\Orc\\FeralSpirit\\feralspirittarget.mdl", bj_lastCreatedUnit, "origin"))
-        call UnitApplyTimedLife(bj_lastCreatedUnit, 'BTLF', 20 )
+		local unit newUnit
+		local real scale
+		
+		set newUnit = CreateUnit(GetOwningPlayer(boss), UNIT_ID, GetUnitX(boss), GetUnitY(boss), GetUnitFacing(boss))
+        call DestroyEffect(AddSpecialEffectTarget( ANIMATION, newUnit, "origin"))
+        
+        call BlzSetUnitBaseDamage( newUnit, DAMAGE_START + (udg_Boss_LvL - 1) * DAMAGE_LEVEL, 0 ) 
+        call BlzSetUnitMaxHP( newUnit, HEALTH_START + (udg_Boss_LvL - 1) * HEALTH_LEVEL )
+		call SetUnitState( newUnit, UNIT_STATE_LIFE, GetUnitState( newUnit, UNIT_STATE_MAX_LIFE ) )
+		
+		set scale = SIZE_INITIAL + udg_Boss_LvL * SIZE_INCREASE
+		call SetUnitScale( newUnit, scale, scale, scale )
+        
+        set newUnit = null
 	endfunction
 	
 	private function end takes nothing returns nothing
 	    local unit boss = MainBoss
-	    local integer i
-	    local integer iMax
 
 	    if IsUnitAlive(boss) then
-		    set i = 1
-	        set iMax = IMaxBJ(1, udg_Boss_LvL - 1 )
-	        loop
-	            exitwhen i > iMax
-	            call Summon(boss)
-	            set i = i + 1
-	        endloop
+		    call Summon(boss)
 	    endif
 
 	    set boss = null

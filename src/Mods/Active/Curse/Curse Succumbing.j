@@ -2,14 +2,15 @@ scope CurseSuccumbing initializer init
 
 	globals
 		private trigger Trigger = null
+		private constant real RESOURSE_LOSE = 0.1
 	endglobals
 	
 	private function use takes nothing returns nothing
 	    local integer id = GetHandleId( GetExpiredTimer( ) )
 	    local unit target = LoadUnitHandle( udg_hash, id, StringHash( "curse_succumbing" ) )
 	
-	    call SetUnitState( target, UNIT_STATE_LIFE, GetUnitState( target, UNIT_STATE_LIFE) - (GetUnitState( target, UNIT_STATE_MAX_LIFE) * 0.3) )
-        call SetUnitState( target, UNIT_STATE_MANA, GetUnitState( target, UNIT_STATE_MANA) - (GetUnitState( target, UNIT_STATE_MAX_MANA) * 0.3) )
+	    call SetUnitState( target, UNIT_STATE_LIFE, GetUnitState( target, UNIT_STATE_LIFE) - (GetUnitState( target, UNIT_STATE_MAX_LIFE) * RESOURSE_LOSE) )
+        call SetUnitState( target, UNIT_STATE_MANA, GetUnitState( target, UNIT_STATE_MANA) - (GetUnitState( target, UNIT_STATE_MAX_MANA) * RESOURSE_LOSE) )
         call DestroyEffect( AddSpecialEffectTarget( "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageCaster.mdl", target, "origin") )
 	    call FlushChildHashtable( udg_hash, id )
 	    
@@ -17,11 +18,18 @@ scope CurseSuccumbing initializer init
 	endfunction
 	
 	private function action takes nothing returns nothing
-        local unit target = DeathSystem_GetRandomAliveHero()
+        local unit target
+        local integer i
         
-        if target != null then
-        	call InvokeTimerWithUnit( target, "curse_succumbing", 1, false, function use )
-        endif
+        set i = 1
+		loop
+			exitwhen i > 4
+			set target = udg_hero[i]
+			if target != null and IsUnitAlive(target) then
+				call InvokeTimerWithUnit( target, "curse_succumbing", 1, false, function use )
+			endif
+			set i = i + 1
+		endloop
         
         set target = null
 	endfunction

@@ -5,7 +5,7 @@ scope AlmightyBeer initializer init
 		
 		private integer ITEM_CREATED = 'IV38'
 		
-		private integer GOLD_GAIN = 1500
+		private integer GOLD_GAIN = 2000
 	endglobals
 
 	private function condition takes nothing returns boolean

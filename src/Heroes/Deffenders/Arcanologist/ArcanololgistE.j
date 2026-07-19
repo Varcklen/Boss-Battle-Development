@@ -3,11 +3,8 @@ scope ArcanologistE initializer init
     globals
         private constant integer ID_ABILITY = 'A1HG'
         
-        private constant integer LEARN_FIRST_LEVEL = 100
-        private constant integer LEARN_AFTER_BONUS = 15
-        
         private constant real DAMAGE_REDUCE_FIRST_LEVEL = 0.05
-        private constant real DAMAGE_REDUCE_LEVEL_BONUS = 0.04
+        private constant real DAMAGE_REDUCE_LEVEL_BONUS = 0.05
         
         private constant real DAMAGE_REDUCE_MANA_THRES = 0.30
         private constant real DAMAGE_REDUCE_MANA_REDIR = 0.40
@@ -33,24 +30,9 @@ scope ArcanologistE initializer init
         set u = null
     endfunction
     
-    private function learnCondition takes nothing returns boolean
-    	return GetLearnedSkill() == ID_ABILITY
-	endfunction
-
-	private function learnAction takes nothing returns nothing
-		local unit u = GetLearningUnit()
-		if GetUnitAbilityLevel( u, ID_ABILITY) == 1 then
-	        //call BlzSetUnitMaxMana( u, BlzGetUnitMaxMana(u) + LEARN_FIRST_LEVEL )
-	    else
-	    	call BlzSetUnitMaxMana( u, BlzGetUnitMaxMana(u) + LEARN_AFTER_BONUS )
-		endif
-	    set u = null
-	endfunction
-
     //===========================================================================
     private function init takes nothing returns nothing
         call CreateEventTrigger( "Event_OnDamageChange_Real", function damageAction, function damageCondition )
-		call CreateNativeEvent( EVENT_PLAYER_HERO_SKILL, function learnAction, function learnCondition )
     endfunction
 
 endscope

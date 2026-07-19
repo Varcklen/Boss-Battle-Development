@@ -3,12 +3,15 @@ scope ArcanologistW initializer init
     globals
         private constant integer ID_ABILITY = 'A1HF'
         
-        private constant integer DURATION_FIRST_LEVEL = 5
-        private constant integer DURATION_LEVEL_BONUS = 2
+        private constant integer DURATION_FIRST_LEVEL = 15
+        private constant integer DURATION_LEVEL_BONUS = 0
         private constant integer TICK = 1
         
-        private constant real MANA = 15
-        private constant real DAMAGE = 15
+        private constant integer MANA = 8
+        private constant integer MANA_LEVEL = 2
+        
+        private constant integer DAMAGE = 13
+        private constant integer DAMAGE_LEVEL = 2
         
         private constant integer EFFECT = 'A1HI'
         private constant integer BUFF = 'B0AT'
@@ -17,6 +20,8 @@ scope ArcanologistW initializer init
         
 		private integer array ID_SIGNATURE_ITEMS[SIGNATURE_AMOUNT]
         private boolean ACQUIRED = false
+        
+        private constant integer LEVEL_REQIURED = 6
     
         private constant string RESEARCH_ANIMATION = "Abilities\\Spells\\Human\\DispelMagic\\DispelMagicTarget.mdl"
         
@@ -32,10 +37,12 @@ scope ArcanologistW initializer init
     private function tick takes nothing returns nothing
         local integer id = GetHandleId( GetExpiredTimer() )
         local unit caster = LoadUnitHandle(udg_hash, id, StringHash("arcnw") )
+        local integer damage = LoadInteger(udg_hash, id, StringHash("arcnw_damage") )
+        local integer mana = LoadInteger(udg_hash, id, StringHash("arcnw_mana") )
 
         if IsUnitAlive(caster) and IsUnitHasAbility(caster, EFFECT) then
-            call manast(caster, null, MANA )
-            call GroupAoE( caster, 0, 0, DAMAGE, 300, "enemy", null, null )
+            call manast(caster, null, mana )
+            call GroupAoE( caster, 0, 0, damage, 300, "enemy", null, null )
         else
             call UnitRemoveAbility(caster, EFFECT)
             call UnitRemoveAbility(caster, BUFF)
@@ -50,6 +57,8 @@ scope ArcanologistW initializer init
         local unit caster
         local real duration
         local integer id
+        local integer damage
+        local integer mana
         
         if CastLogic() then
             set caster = udg_Caster
@@ -66,11 +75,15 @@ scope ArcanologistW initializer init
             set duration = DURATION_FIRST_LEVEL + ( lvl * DURATION_LEVEL_BONUS)
         endif
     	set duration = timebonus(caster, duration)
+    	set damage = DAMAGE + DAMAGE_LEVEL * lvl
+    	set mana = MANA + MANA_LEVEL * lvl
         
         call bufallst(caster, caster, EFFECT, 0, 0, 0, 0, BUFF, "arcnwb", duration)
         
         set id = InvokeTimerWithUnit(caster, "arcnw", TICK, true, function tick )
-        call SaveUnitHandle( udg_hash, id, StringHash("arcnw"), caster ) 
+        call SaveUnitHandle( udg_hash, id, StringHash("arcnw"), caster )
+        call SaveInteger(udg_hash, id, StringHash("arcnw_damage"), damage )
+        call SaveInteger(udg_hash, id, StringHash("arcnw_mana"), mana )
         
         set caster = null
     endfunction
@@ -93,11 +106,11 @@ scope ArcanologistW initializer init
     //---------------------------------------------------------------
     
     private function learnCondition takes nothing returns boolean
-    	return GetLearnedSkill() == ID_ABILITY and not(ACQUIRED) and GetUnitAbilityLevel(GetLearningUnit(), ID_ABILITY)==5
+    	return not(ACQUIRED) and GetHeroLevel(GetLevelingUnit()) >= LEVEL_REQIURED
 	endfunction
 
 	private function learnAction takes nothing returns nothing
-		local unit u = GetLearningUnit()
+		local unit u = GetLevelingUnit()
 		local integer rng = GetRandomInt(0, SIGNATURE_AMOUNT)
     	local integer k = GetPlayerId( GetOwningPlayer( u ) ) + 1
 			
@@ -108,7 +121,7 @@ scope ArcanologistW initializer init
 	    else
 	        set bj_lastCreatedItem = CreateItem(ID_SIGNATURE_ITEMS[rng], GetLocationX(udg_point[21+k]), GetLocationY(udg_point[21+k]))
 	        call DestroyEffect( AddSpecialEffect( RESEARCH_ANIMATION, GetItemX( bj_lastCreatedItem ), GetItemY( bj_lastCreatedItem ) ) )
-	        call DisplayTimedTextToPlayer( GetOwningPlayer(u), 0, 0, 10, "The artifact was teleported to the |cffffcc00preparation room|r." )
+	        call DisplayTimedTextToPlayer( GetOwningPlayer(u), 0, 0, 10, "The artifact was moved to the |cffffcc00preparation room|r." )
 	    endif
 			
 	    set u = null
@@ -119,7 +132,7 @@ scope ArcanologistW initializer init
     	set ID_SIGNATURE_ITEMS[0] = 'I0HP'
     	set ID_SIGNATURE_ITEMS[1] = 'I0HQ'
     	set ID_SIGNATURE_ITEMS[2] = 'I0HS'
-		call CreateNativeEvent( EVENT_PLAYER_HERO_SKILL, function learnAction, function learnCondition )
+		call CreateNativeEvent( EVENT_PLAYER_HERO_LEVEL, function learnAction, function learnCondition )
 		
 		set ArcanologistW = CreateNativeEvent( EVENT_PLAYER_UNIT_SPELL_EFFECT, function action, function condition )
         call CreateEventTrigger( "Event_DeleteBuff_Real", function DeleteBuff, function DeleteBuff_Conditions )

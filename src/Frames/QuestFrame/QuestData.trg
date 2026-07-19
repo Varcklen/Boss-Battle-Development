@@ -992,7 +992,7 @@
           },
           {
             "ParamType": 5,
-            "value": "15"
+            "value": "10"
           }
         ],
         "value": "SetVariable"

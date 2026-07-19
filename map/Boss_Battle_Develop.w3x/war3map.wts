@@ -1939,12 +1939,6 @@ STRING 305
 (Колдун, малый портал)
 }
 
-STRING 306
-// Units: h012 (Phoenix egg), Name (Name)
-{
-Phoenix egg
-}
-
 STRING 307
 // Units: h011 (Azgalor), Name (Name)
 {
@@ -5025,15 +5019,6 @@ STRING 792
 Activation: |cffcc0000Corrupted|r. Destroy all other items. |cFFE16B90Forge|r the same number of artifacts |cFF959697(0).
 }
 
-STRING 793
-// Items: I0GE (Billy), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Throw Billy at the enemy! The target will take |cffbe81f7500|r damage.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 794
 // Items: I0GE (Billy), Name (Name)
 {
@@ -5044,14 +5029,6 @@ STRING 795
 // Items: I0GE (Billy), Tip (Tooltip - Basic)
 {
 Billy
-}
-
-STRING 796
-// Items: I0GE (Billy), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Throw Billy at the enemy! The target will take |cffbe81f7500|r damage.
-|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 797
@@ -8425,6 +8402,31 @@ STRING 1277
 World Clock
 }
 
+STRING 1278
+// Units: h012 (Phoenix Egg), Name (Name)
+{
+Phoenix Egg
+}
+
+STRING 1279
+// Items: I05U (Phoenix Egg), Description (Description)
+{
+|cff4169e1Rare|r
+When your hero dies for the first time in battle, spawn a phoenix egg with 500 Health. When the egg is destroyed, fully revive your hero.
+}
+
+STRING 1280
+// Items: I05U (Phoenix Egg), Name (Name)
+{
+Phoenix Egg
+}
+
+STRING 1281
+// Items: I05U (Phoenix Egg), Tip (Tooltip - Basic)
+{
+Phoenix Egg
+}
+
 STRING 1282
 // Items: I0DA (World Clock), Ubertip (Tooltip - Extended)
 {
@@ -9506,13 +9508,6 @@ STRING 1441
 Sandro's Gift
 }
 
-STRING 1442
-// Items: I0BW (Hunger for Knowledge), Description (Description)
-{
-|cffffcc00Quest:|r Get level 15 |cFF959697(0/15)|r.
-|cffffcc00Reward:|r Priss's Papyrus.
-}
-
 STRING 1443
 // Items: I03F (Sandro's Gift), Tip (Tooltip - Basic)
 {
@@ -9524,13 +9519,6 @@ STRING 1444
 {
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cff4169e1rare|r item 10 times |cFF959697(10/10)|r.
-}
-
-STRING 1445
-// Items: I0BW (Hunger for Knowledge), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Get level 15 |cFF959697(0/15)|r.
-|cffffcc00Reward:|r Priss's Papyrus.
 }
 
 STRING 1446
@@ -13647,6 +13635,19 @@ Activation: Summons a boss under your control (max 1).
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 2045
+// Items: I05U (Phoenix Egg), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+When your hero dies for the first time in battle, spawn a phoenix egg with 500 Health. When the egg is destroyed, fully revive your hero.
+}
+
+STRING 2046
+// Abilities: A0H9 (Curse: Succumbing), Name (Name)
+{
+Curse: Succumbing
+}
+
 STRING 2047
 // Items: I07P (Raging Fire), Ubertip (Tooltip - Extended)
 {
@@ -14535,6 +14536,30 @@ Activation: Inflicts a positive effect on allied minions nearby. When they die, 
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 2176
+// Abilities: A0H9 (Curse: Succumbing), Ubertip (Tooltip - Normal - Extended)
+{
+At the start of the battle, remove 10% of current health and mana from all heroes.
+}
+
+STRING 2177
+// Units: u00I (Ghoul), EditorSuffix (Name - Editor Suffix)
+{
+(Support Curse)
+}
+
+STRING 2178
+// Abilities: A10R (Curse: Support), Name (Name)
+{
+Curse: Support
+}
+
+STRING 2179
+// Abilities: A10R (Curse: Support), Ubertip (Tooltip - Normal - Extended)
+{
+Bosses begin each fight with a ghoul. Its stats increases after defeating the bosses.
+}
+
 STRING 2180
 // Items: I06R (Wedding ring), Description (Description)
 {
@@ -14827,6 +14852,15 @@ Deals |cffbe81f7100/150/200/250/300|r damage to all enemies in front of the hero
 Does not work on immobile targets.|r
 }
 
+STRING 2221
+// Abilities: A0UL (Commander: Mark of the Chosen), Researchubertip (Tooltip - Learn - Extended)
+{
+Increases health regeneration by 15, attack power by 5/10/15/20/25 and armor by 1/2/3/4/5 of the ally.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 5 seconds.
+|cffffcc00Cost:|r 35 mana.
+}
+
 STRING 2222
 // Abilities: A07Y (Outcast: Demonic Blast), Ubertip (Tooltip - Normal - Extended)
 {
@@ -14882,15 +14916,12 @@ Deals |cffbe81f7240|r damage to all nearby enemies. If any target dies, detonate
 |cffffcc00Cooldown:|r 4 seconds.
 }
 
-STRING 2231
-// Abilities: A1HF (Arcanologist: Investigate), Researchubertip (Tooltip - Learn - Extended)
+STRING 2230
+// Abilities: A1HH (Arcanologist: Arcane Intellect), Researchubertip (Tooltip - Learn - Extended)
 {
-|cffffcc00Passive:|r When the hero first reaches the fifth level of this ability, a random signature artifact is granted.
-
-Apply an effect to self that restores |cffbe81f715|r mana and deals |cffbe81f715|r damage to all nearby enemies every second.
-|cffffcc00Duration:|r 7/9/11/13/15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 50/60/70/80/90 mana.
+Increases a friendly hero's Intelligence by 15/20/25/30/35 until the end of the battle. Not cumulative.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 60 mana.
 }
 
 STRING 2232
@@ -15422,18 +15453,6 @@ STRING 2311
 Snupi
 }
 
-STRING 2312
-// Items: I05U (Phoenix egg), Name (Name)
-{
-Phoenix egg
-}
-
-STRING 2313
-// Items: I05U (Phoenix egg), Tip (Tooltip - Basic)
-{
-Phoenix egg
-}
-
 STRING 2314
 // Units: n03Y (Follower), Name (Name)
 {
@@ -15508,6 +15527,20 @@ STRING 2324
 // Items: I05C (Swamp Potion), Hotkey (Hotkey)
 {
 Z
+}
+
+STRING 2325
+// Abilities: A1HH (Arcanologist: Arcane Intellect), Ubertip (Tooltip - Normal - Extended)
+{
+Increases a friendly hero's Intelligence by 15 until the end of the battle. Not cumulative.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 2326
+// Abilities: A1HH (Arcanologist: Arcane Intellect), Ubertip (Tooltip - Normal - Extended)
+{
+Increases a friendly hero's Intelligence by 20 until the end of the battle. Not cumulative.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2327
@@ -16909,13 +16942,6 @@ STRING 2536
 Increases attack power of non-hero allies by 35%.
 }
 
-STRING 2537
-// Items: I04C (Student Book), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Increases stats by 2. If the hero's level is 5 or less, also gives 1 level.
-}
-
 STRING 2538
 // Items: I04C (Student Book), Name (Name)
 {
@@ -16926,13 +16952,6 @@ STRING 2539
 // Items: I04C (Student Book), Tip (Tooltip - Basic)
 {
 Student Book
-}
-
-STRING 2540
-// Items: I04C (Student Book), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Increases stats by 2. If the hero's level is 5 or less, also gives 1 level.
 }
 
 STRING 2541
@@ -20704,13 +20723,6 @@ STRING 3092
 When the hero takes damage, with a |cffd7df0115%|r chance, deals |cffbe81f730|r damage to all nearby enemies. Increases damage by 15 for each other |cffb18904mech|r in the inventory.
 }
 
-STRING 3093
-// Items: I00H (Book of Knowledge), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Gives 1 level.
-}
-
 STRING 3094
 // Items: I00H (Book of Knowledge), Name (Name)
 {
@@ -20721,13 +20733,6 @@ STRING 3095
 // Items: I00H (Book of Knowledge), Tip (Tooltip - Basic)
 {
 Book of Knowledge
-}
-
-STRING 3096
-// Items: I00H (Book of Knowledge), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Gives 1 level.
 }
 
 STRING 3097
@@ -21454,6 +21459,41 @@ STRING 3207
 Heating Up, [|cffffcc00Level 5|r]
 }
 
+STRING 3208
+// Abilities: A1HH (Arcanologist: Arcane Intellect), Ubertip (Tooltip - Normal - Extended)
+{
+Increases a friendly hero's Intelligence by 25 until the end of the battle. Not cumulative.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 3209
+// Abilities: A1HH (Arcanologist: Arcane Intellect), Ubertip (Tooltip - Normal - Extended)
+{
+Increases a friendly hero's Intelligence by 30 until the end of the battle. Not cumulative.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 3210
+// Abilities: A1HH (Arcanologist: Arcane Intellect), Ubertip (Tooltip - Normal - Extended)
+{
+Increases a friendly hero's Intelligence by 35 until the end of the battle. Not cumulative.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 3211
+// Buffs/Effects: B0AU (), Buffubertip (Tooltip - Extended)
+{
+Intelligence increased.
+}
+
+STRING 3212
+// Abilities: A1HE (Arcanologist: Replenish), Researchubertip (Tooltip - Learn - Extended)
+{
+Taunt an enemy to attack you for 5 seconds and gain |cffbe81f7160/200/240/280/320|r Shield.
+|cffffcc00Cooldown:|r 12 seconds.
+|cffffcc00Cost:|r 40 mana.
+}
+
 STRING 3213
 // Abilities: AAO4 (Камушек: Фиолетовый), Name (Name)
 {
@@ -21975,6 +22015,13 @@ STRING 3296
 Sidewinder, [|cffffcc00Level %d|r]
 }
 
+STRING 3297
+// Abilities: A1HE (Arcanologist: Replenish), Ubertip (Tooltip - Normal - Extended)
+{
+Taunt an enemy to attack you for 5 seconds and gain |cffbe81f7160|r Shield.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 3298
 // Abilities: A1CX (The Plague: Sidewinder), Tip (Tooltip - Normal)
 {
@@ -22058,6 +22105,13 @@ STRING 3310
 Corrosive Skin, [|cffffcc00Level %d|r]
 }
 
+STRING 3311
+// Abilities: A1HE (Arcanologist: Replenish), Ubertip (Tooltip - Normal - Extended)
+{
+Taunt an enemy to attack you for 5 seconds and gain |cffbe81f7200|r Shield.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 3312
 // Abilities: A1CW (The Plague: Corrosive Skin), Tip (Tooltip - Normal)
 {
@@ -22086,6 +22140,27 @@ STRING 3316
 // Abilities: A1CW (The Plague: Corrosive Skin), Tip (Tooltip - Normal)
 {
 Corrosive Skin, [|cffffcc00Level 5|r]
+}
+
+STRING 3317
+// Abilities: A1HE (Arcanologist: Replenish), Ubertip (Tooltip - Normal - Extended)
+{
+Taunt an enemy to attack you for 5 seconds and gain |cffbe81f7240|r Shield.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 3318
+// Abilities: A1HE (Arcanologist: Replenish), Ubertip (Tooltip - Normal - Extended)
+{
+Taunt an enemy to attack you for 5 seconds and gain |cffbe81f7280|r Shield.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 3319
+// Abilities: A1HE (Arcanologist: Replenish), Ubertip (Tooltip - Normal - Extended)
+{
+Taunt an enemy to attack you for 5 seconds and gain |cffbe81f7320|r Shield.
+|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 3322
@@ -22231,6 +22306,42 @@ STRING 3344
 // Abilities: A1CS (The Plague: Neurotoxin), Tip (Tooltip - Normal)
 {
 Neurotoxin, [|cffffcc00Level 1|r]
+}
+
+STRING 3348
+// Abilities: A1HG (Arcanologist: Runic Enchantment), Researchubertip (Tooltip - Learn - Extended)
+{
+Reduces damage taken by 10%/15%/20%/25%/30%. If you have 30% or more mana, 40% of the damage is dealt to mana.
+}
+
+STRING 3349
+// Abilities: A1HG (Arcanologist: Runic Enchantment), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces damage taken by 10%. If you have 30% or more mana, 40% of the damage is dealt to mana.
+}
+
+STRING 3350
+// Abilities: A1HG (Arcanologist: Runic Enchantment), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces damage taken by 15%. If you have 30% or more mana, 40% of the damage is dealt to mana.
+}
+
+STRING 3351
+// Abilities: A1HG (Arcanologist: Runic Enchantment), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces damage taken by 20%. If you have 30% or more mana, 40% of the damage is dealt to mana.
+}
+
+STRING 3352
+// Abilities: A1HG (Arcanologist: Runic Enchantment), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces damage taken by 25%. If you have 30% or more mana, 40% of the damage is dealt to mana.
+}
+
+STRING 3353
+// Abilities: A1HG (Arcanologist: Runic Enchantment), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces damage taken by 30%. If you have 30% or more mana, 40% of the damage is dealt to mana.
 }
 
 STRING 3354
@@ -30101,13 +30212,6 @@ STRING 4578
 Resolve, [|cffffcc00Level 5|r]
 }
 
-STRING 4579
-// Abilities: A1HE (Arcanologist: Replenish), Researchubertip (Tooltip - Learn - Extended)
-{
-Applies a Shield effect worth |cffbe81f7120/160/200/240/280|r health and restores |cffbe81f740/50/60/70/80|r mana. Provoke a random nearby enemy.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
 STRING 4580
 // Abilities: A1HE (Arcanologist: Replenish), Tip (Tooltip - Normal)
 {
@@ -33352,25 +33456,10 @@ STRING 5076
 Artifact: Orb of Nature
 }
 
-STRING 5077
-// Abilities: A10R (Curse: Поддержка (b14)), Name (Name)
-{
-Curse: Поддержка (b14)
-}
-
 STRING 5078
-// Abilities: A10R (Curse: Поддержка (b14)), Tip (Tooltip - Normal)
+// Abilities: A10R (Curse: Support), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Support
-}
-
-STRING 5079
-// Abilities: A10R (Curse: Поддержка (b14)), Ubertip (Tooltip - Normal - Extended)
-{
-When the main boss appears, calls on the minions to help. 
-|cffffcc00Life time:|r 20 seconds.
-
-|cFF959697The number of summoned minions is equal to the current level.|r
 }
 
 STRING 5080
@@ -33851,13 +33940,6 @@ STRING 5154
 Healthy Blow, [|cffffcc00Level 2|r] 
 }
 
-STRING 5155
-// Abilities: A1HE (Arcanologist: Replenish), Ubertip (Tooltip - Normal - Extended)
-{
-Applies a Shield effect worth |cffbe81f7120|r health and restores |cffbe81f740|r mana. Provoke a random nearby enemy.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
 STRING 5156
 // Items: IZ09 (Natural Deselection), Name (Name)
 {
@@ -33874,13 +33956,6 @@ STRING 5158
 // Abilities: A10D (Аура: Double Down), Name (Name)
 {
 Аура: Double Down
-}
-
-STRING 5159
-// Abilities: A1HE (Arcanologist: Replenish), Ubertip (Tooltip - Normal - Extended)
-{
-Applies a Shield effect worth |cffbe81f7160|r health and restores |cffbe81f750|r mana. Provoke a random nearby enemy.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 5160
@@ -34057,6 +34132,17 @@ STRING 5185
 // Abilities: A102 (Artifact: Billy), Name (Name)
 {
 Artifact: Billy
+}
+
+STRING 5186
+// Abilities: A1HF (Arcanologist: Investigate), Researchubertip (Tooltip - Learn - Extended)
+{
+|cffffcc00Passive:|r When the hero reaches level 6, receive the hero's signature artifact.
+
+Charges the caster. Every second, restore |cffbe81f710/12/14/16/18|r mana and deal |cffbe81f715/17/19/21/23|r damage to all nearby enemies.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+|cffffcc00Cost:|r 50/55/60/65/70 mana.
 }
 
 STRING 5187
@@ -37396,6 +37482,16 @@ STRING 5696
 Activation: |cffcc0000Corrupted|r. Gives 250 gold and a |cffbababccommon|r artifact.
 }
 
+STRING 5697
+// Abilities: A1HF (Arcanologist: Investigate), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r When the hero reaches level 6, receive the hero's signature artifact.
+
+Charges the caster. Every second, restore |cffbe81f710|r mana and deal |cffbe81f715|r damage to all nearby enemies.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
 STRING 5698
 // Items: I06S (Cloud Horn), Name (Name)
 {
@@ -37406,6 +37502,16 @@ STRING 5699
 // Items: I06S (Cloud Horn), Tip (Tooltip - Basic)
 {
 Cloud Horn
+}
+
+STRING 5700
+// Abilities: A1HF (Arcanologist: Investigate), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r When the hero reaches level 6, receive the hero's signature artifact.
+
+Charges the caster. Every second, restore |cffbe81f712|r mana and deal |cffbe81f717|r damage to all nearby enemies.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
 }
 
 STRING 5701
@@ -37606,15 +37712,6 @@ STRING 5732
 // Abilities: A0UL (Commander: Mark of the Chosen), Researchtip (Tooltip - Learn)
 {
 Mark of the Chosen, [|cffffcc00Level %d|r]
-}
-
-STRING 5733
-// Abilities: A0UL (Commander: Mark of the Chosen), Researchubertip (Tooltip - Learn - Extended)
-{
-Increases health regeneration by 15, attack power by 5/10/15/20/25 and armor by 1/2/3/4/5 of the ally.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 5 seconds.
-|cffffcc00Cost:|r 50/55/60/65/70 mana.
 }
 
 STRING 5734
@@ -43314,13 +43411,6 @@ STRING 6613
 Black Thumb, [|cffffcc00Level %d|r]
 }
 
-STRING 6614
-// Abilities: A1HE (Arcanologist: Replenish), Ubertip (Tooltip - Normal - Extended)
-{
-Applies a Shield effect worth |cffbe81f7200|r health and restores |cffbe81f760|r mana. Provoke a random nearby enemy.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
 STRING 6615
 // Abilities: A0OJ (Ent: Black Thumb), Tip (Tooltip - Normal)
 {
@@ -43361,13 +43451,6 @@ STRING 6621
 // Items: I09B (Trembling Enemies), Tip (Tooltip - Basic)
 {
 Trembling Enemies
-}
-
-STRING 6622
-// Abilities: A1HE (Arcanologist: Replenish), Ubertip (Tooltip - Normal - Extended)
-{
-Applies a Shield effect worth |cffbe81f7240|r health and restores |cffbe81f770|r mana. Provoke a random nearby enemy.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 6623
@@ -45278,6 +45361,36 @@ STRING 6924
 (Ускорение времени)
 }
 
+STRING 6925
+// Abilities: A1HF (Arcanologist: Investigate), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r When the hero reaches level 6, receive the hero's signature artifact.
+
+Charges the caster. Every second, restore |cffbe81f714|r mana and deal |cffbe81f719|r damage to all nearby enemies.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 6926
+// Abilities: A1HF (Arcanologist: Investigate), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r When the hero reaches level 6, receive the hero's signature artifact.
+
+Charges the caster. Every second, restore |cffbe81f716|r mana and deal |cffbe81f721|r damage to all nearby enemies.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 6927
+// Abilities: A1HF (Arcanologist: Investigate), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r When the hero reaches level 6, receive the hero's signature artifact.
+
+Charges the caster. Every second, restore |cffbe81f718|r mana and deal |cffbe81f723|r damage to all nearby enemies.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
 STRING 6928
 // Abilities: A0MJ (Invulnerable), EditorSuffix (Editor Suffix)
 {
@@ -45801,7 +45914,7 @@ STRING 7008
 }
 
 STRING 7009
-// Abilities: A0LN (Shooter: Health care), Hotkey (Hotkey - Normal)
+// Abilities: A0LN (Shooter: Health Care), Hotkey (Hotkey - Normal)
 {
 R
 }
@@ -45813,7 +45926,7 @@ Metal Mage: Metallica
 }
 
 STRING 7011
-// Abilities: A0LN (Shooter: Health care), Researchhotkey (Hotkey - Learn)
+// Abilities: A0LN (Shooter: Health Care), Researchhotkey (Hotkey - Learn)
 {
 R
 }
@@ -46330,92 +46443,50 @@ STRING 7091
 R
 }
 
-STRING 7092
-// Abilities: A0LN (Shooter: Health care), Name (Name)
-{
-Shooter: Health care
-}
-
 STRING 7093
 // Abilities: A0LF (Wanderer: Regnum Irae), Researchhotkey (Hotkey - Learn)
 {
 R
 }
 
-STRING 7094
-// Abilities: A0LN (Shooter: Health care), Researchtip (Tooltip - Learn)
-{
-Health care, [|cffffcc00Level %d|r]
-}
-
 STRING 7095
-// Abilities: A0LN (Shooter: Health care), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A0LN (Shooter: Health Care), Researchubertip (Tooltip - Learn - Extended)
 {
 You place a first aid kit on the ground. This first-aid kit restores |cffbe81f7180/270/360/450/540|r health.
 |cffffcc00Cooldown:|r 20 seconds.
 |cffffcc00Cost:|r 45/50/55/60/65 mana.
 }
 
-STRING 7096
-// Abilities: A0LN (Shooter: Health care), Tip (Tooltip - Normal)
-{
-Health care, [|cffffcc00Level 1|r]
-}
-
-STRING 7097
-// Abilities: A0LN (Shooter: Health care), Tip (Tooltip - Normal)
-{
-Health care, [|cffffcc00Level 2|r]
-}
-
-STRING 7098
-// Abilities: A0LN (Shooter: Health care), Tip (Tooltip - Normal)
-{
-Health care, [|cffffcc00Level 3|r]
-}
-
-STRING 7099
-// Abilities: A0LN (Shooter: Health care), Tip (Tooltip - Normal)
-{
-Health care, [|cffffcc00Level 4|r]
-}
-
-STRING 7100
-// Abilities: A0LN (Shooter: Health care), Tip (Tooltip - Normal)
-{
-Health care, [|cffffcc00Level 5|r]
-}
-
 STRING 7101
-// Abilities: A0LN (Shooter: Health care), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0LN (Shooter: Health Care), Ubertip (Tooltip - Normal - Extended)
 {
 You place a first aid kit on the ground. This first-aid kit restores |cffbe81f7180|r health.
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 7102
-// Abilities: A0LN (Shooter: Health care), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0LN (Shooter: Health Care), Ubertip (Tooltip - Normal - Extended)
 {
 You place a first aid kit on the ground. This first-aid kit restores |cffbe81f7270|r health.
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 7103
-// Abilities: A0LN (Shooter: Health care), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0LN (Shooter: Health Care), Ubertip (Tooltip - Normal - Extended)
 {
 You place a first aid kit on the ground. This first-aid kit restores |cffbe81f7360|r health.
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 7104
-// Abilities: A0LN (Shooter: Health care), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0LN (Shooter: Health Care), Ubertip (Tooltip - Normal - Extended)
 {
 You place a first aid kit on the ground. This first-aid kit restores |cffbe81f7450|r health.
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 7105
-// Abilities: A0LN (Shooter: Health care), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0LN (Shooter: Health Care), Ubertip (Tooltip - Normal - Extended)
 {
 You place a first aid kit on the ground. This first-aid kit restores |cffbe81f7540|r health.
 |cffffcc00Cooldown:|r 20 seconds.
@@ -47690,13 +47761,6 @@ Deals |cffbe81f7400|r damage to the enemy.
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
-STRING 7298
-// Items: I05U (Phoenix egg), Description (Description)
-{
-|cffe96a1cLegendary|r
-When your Hero dies for the first time in battle, it is placed in an Egg (500 Health). Destroy the Egg to resurrect the Hero. Works as long as there are living Heroes.
-}
-
 STRING 7299
 // Abilities: A0KA (Тотем Жизни: Энергия жизни), Name (Name)
 {
@@ -48327,13 +48391,6 @@ STRING 7392
 // Abilities: A0JG (Wanderer: Impius Imperium), Researchtip (Tooltip - Learn)
 {
 Impius Imperium, [|cffffcc00Level %d|r]
-}
-
-STRING 7393
-// Abilities: A1HE (Arcanologist: Replenish), Ubertip (Tooltip - Normal - Extended)
-{
-Applies a Shield effect worth |cffbe81f7280|r health and restores |cffbe81f780|r mana. Provoke a random nearby enemy.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 7394
@@ -50076,6 +50133,15 @@ STRING 7657
 Аура: Orb of Kel'Thuzad
 }
 
+STRING 7658
+// Items: I0GE (Billy), Description (Description)
+{
+|cffbababcCommon|r
+Activation: Throw Billy at the enemy! The target will take |cffbe81f7500|r damage.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
 STRING 7659
 // Abilities: A0FN (Soulstealer: Debilitating Presence), Hotkey (Hotkey - Normal)
 {
@@ -50383,13 +50449,6 @@ STRING 7707
 Huge arachnid
 }
 
-STRING 7708
-// Items: I05U (Phoenix egg), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-When your Hero dies for the first time in battle, it is placed in an Egg (500 Health). Destroy the Egg to resurrect the Hero. Works as long as there are living Heroes.
-}
-
 STRING 7709
 // Abilities: A0HB (Босс 9: Пиромант (Волна пламени)), Name (Name)
 {
@@ -50408,6 +50467,14 @@ STRING 7711
 Волна от Феникса
 }
 
+STRING 7712
+// Items: I0GE (Billy), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: Throw Billy at the enemy! The target will take |cffbe81f7500|r damage.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 7713
 // Abilities: A0HA (Curse: Grave), Tip (Tooltip - Normal)
 {
@@ -50420,22 +50487,10 @@ STRING 7714
 Increases |cff088a08potion|r spell power by 45% and spell power by 9%.
 }
 
-STRING 7715
-// Abilities: A0H9 (Curse: Поддавание (b6)), Name (Name)
-{
-Curse: Поддавание (b6)
-}
-
 STRING 7716
-// Abilities: A0H9 (Curse: Поддавание (b6)), Tip (Tooltip - Normal)
+// Abilities: A0H9 (Curse: Succumbing), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Succumbing
-}
-
-STRING 7717
-// Abilities: A0H9 (Curse: Поддавание (b6)), Ubertip (Tooltip - Normal - Extended)
-{
-At the beginning of the battle, it takes 30% of health and mana from a random hero.
 }
 
 STRING 7718
@@ -50738,6 +50793,13 @@ STRING 7764
 Child of the Sun, [|cffffcc00Level %d|r]
 }
 
+STRING 7765
+// Items: I0BW (Hunger for Knowledge), Description (Description)
+{
+|cffffcc00Quest:|r Get level 10 |cFF959697(0/10)|r.
+|cffffcc00Reward:|r Priss's Papyrus.
+}
+
 STRING 7766
 // Abilities: A0GQ (Sun King: Child of the Sun), Tip (Tooltip - Normal)
 {
@@ -50766,6 +50828,41 @@ STRING 7770
 // Abilities: A0GQ (Sun King: Child of the Sun), Tip (Tooltip - Normal)
 {
 Child of the Sun, [|cffffcc00Level 5|r]
+}
+
+STRING 7771
+// Items: I0BW (Hunger for Knowledge), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Get level 10 |cFF959697(0/10)|r.
+|cffffcc00Reward:|r Priss's Papyrus.
+}
+
+STRING 7772
+// Items: I04C (Student Book), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 2. If the hero's level is 5 or less, also gives 1 level.
+}
+
+STRING 7773
+// Items: I04C (Student Book), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 2. If the hero's level is 5 or less, also gives 1 level.
+}
+
+STRING 7774
+// Items: I00H (Book of Knowledge), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Gives 1 level.
+}
+
+STRING 7775
+// Items: I00H (Book of Knowledge), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Gives 1 level.
 }
 
 STRING 7776
@@ -51091,10 +51188,24 @@ STRING 7828
 Armor (Blood Infusion)
 }
 
+STRING 7829
+// Items: IV22 (Almighty Beer), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Receive 2000 gold and Sticky Trash. Sticky Trash cannot be removed from your inventory by any means.
+}
+
 STRING 7830
 // Abilities: A0FY (Blessing: Saturation), Tip (Tooltip - Normal)
 {
 |cffffcc00Blessing:|r Saturation
+}
+
+STRING 7831
+// Items: IV22 (Almighty Beer), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Receive 2000 gold and Sticky Trash. Sticky Trash cannot be removed from your inventory by any means.
 }
 
 STRING 7832
@@ -51939,6 +52050,15 @@ STRING 7966
 Humanity Will Rise Again, [|cffffcc00Level %d|r]
 }
 
+STRING 7967
+// Abilities: AV00 (Sun King: Heating Up), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f735/50/65/80/95|r damage to enemies in a large area and applies a burn that periodically deals |cffbe81f72/3/4/5/6|r damage (stacks up to 5 times). 3 charges.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 8 seconds.
+|cffffcc00Cost:|r 25/30/35/40/45 mana.
+}
+
 STRING 7968
 // Abilities: A0F7 (Marshal: Humanity Will Rise Again), Tip (Tooltip - Normal)
 {
@@ -51967,6 +52087,36 @@ STRING 7972
 // Abilities: A0F7 (Marshal: Humanity Will Rise Again), Tip (Tooltip - Normal)
 {
 Humanity Will Rise Again, [|cffffcc00Level 5|r]
+}
+
+STRING 7973
+// Abilities: A0LN (Shooter: Health Care), Name (Name)
+{
+Shooter: Health Care
+}
+
+STRING 7974
+// Abilities: A0LN (Shooter: Health Care), Researchtip (Tooltip - Learn)
+{
+Health Care, [|cffffcc00Level %d|r]
+}
+
+STRING 7975
+// Abilities: A0LN (Shooter: Health Care), Tip (Tooltip - Normal)
+{
+Health Care, [|cffffcc00Level 1|r]
+}
+
+STRING 7976
+// Abilities: A0LN (Shooter: Health Care), Tip (Tooltip - Normal)
+{
+Health Care, [|cffffcc00Level 2|r]
+}
+
+STRING 7977
+// Abilities: A0LN (Shooter: Health Care), Tip (Tooltip - Normal)
+{
+Health Care, [|cffffcc00Level 3|r]
 }
 
 STRING 7978
@@ -54475,6 +54625,12 @@ STRING 8368
 When a Hero effects a target with Fear (|cffffcc00Q|r), Shadow Zone (|cffffcc00W|r) or Curse, increases Spell Power by 0.75% until the end of the game.
 }
 
+STRING 8369
+// Abilities: A0LN (Shooter: Health Care), Tip (Tooltip - Normal)
+{
+Health Care, [|cffffcc00Level 4|r]
+}
+
 STRING 8370
 // Abilities: A0B8 (Scarab: Death Sentence), Tip (Tooltip - Normal)
 {
@@ -54712,14 +54868,6 @@ STRING 8403
 Skelemagic, [|cffffcc00Level %d|r]
 }
 
-STRING 8404
-// Abilities: A1HF (Arcanologist: Investigate), Ubertip (Tooltip - Normal - Extended)
-{
-Apply an effect to self that restores |cffbe81f715|r mana and deals |cffbe81f715|r damage to all nearby enemies every second.
-|cffffcc00Duration:|r 7 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 8405
 // Abilities: A0CK (Skeletlord: Skelemagic), Tip (Tooltip - Normal)
 {
@@ -54756,38 +54904,6 @@ STRING 8410
 |cff4169e1Rare|r
 Activation: Summons a unique pet with the Hero's Attack and Health.
 |cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 8411
-// Abilities: A1HF (Arcanologist: Investigate), Ubertip (Tooltip - Normal - Extended)
-{
-Apply an effect to self that restores |cffbe81f715|r mana and deals |cffbe81f715|r damage to all nearby enemies every second.
-|cffffcc00Duration:|r 9 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 8412
-// Abilities: A1HF (Arcanologist: Investigate), Ubertip (Tooltip - Normal - Extended)
-{
-Apply an effect to self that restores |cffbe81f715|r mana and deals |cffbe81f715|r damage to all nearby enemies every second.
-|cffffcc00Duration:|r 11 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 8413
-// Abilities: A1HF (Arcanologist: Investigate), Ubertip (Tooltip - Normal - Extended)
-{
-Apply an effect to self that restores |cffbe81f715|r mana and deals |cffbe81f715|r damage to all nearby enemies every second.
-|cffffcc00Duration:|r 13 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 8414
-// Abilities: A1HF (Arcanologist: Investigate), Ubertip (Tooltip - Normal - Extended)
-{
-Apply an effect to self that restores |cffbe81f715|r mana and deals |cffbe81f715|r damage to all nearby enemies every second.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 8415
@@ -60955,6 +61071,12 @@ STRING 9366
 // Items: I0HB (Small Coin), Tip (Tooltip - Basic)
 {
 Small Coin
+}
+
+STRING 9367
+// Abilities: A0LN (Shooter: Health Care), Tip (Tooltip - Normal)
+{
+Health Care, [|cffffcc00Level 5|r]
 }
 
 STRING 9368
@@ -74333,12 +74455,6 @@ STRING 11486
 |cff00ff00Arcane Intellect|r
 }
 
-STRING 11487
-// Buffs/Effects: B0AU (), Buffubertip (Tooltip - Extended)
-{
-Hero attributes increased.
-}
-
 STRING 11488
 // Abilities: AZ07 (Artifact: Buy Order), Name (Name)
 {
@@ -76257,37 +76373,6 @@ Activation: Copies the health percentage of another hero.
 |cffffcc00Cooldown:|r 35 seconds.
 }
 
-STRING 11766
-// Abilities: A1HH (Arcanologist: Arcane Intellect), Researchubertip (Tooltip - Learn - Extended)
-{
-Increases Strength of a random hero by 3/4/5/6/7 + 15/20/25/30/35% of maximum Strength among all heroes. Repeat for Agility and Intelligence.
-|cffffcc00Duration:|r 19 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 70/85/100/115/130 mana.
-
-|cFF959697Effects are cumulative, but have a significantly reduced effectiveness beyond the first stack.|r
-}
-
-STRING 11767
-// Abilities: A1HH (Arcanologist: Arcane Intellect), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Strength of a random hero by 3 + 15% of maximum Strength among all heroes. Repeat for Agility and Intelligence.
-|cffffcc00Duration:|r 19 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-
-|cFF959697Effects are cumulative, but have a significantly reduced effectiveness beyond the first stack.|r
-}
-
-STRING 11768
-// Abilities: A1HH (Arcanologist: Arcane Intellect), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Strength of a random hero by 4 + 20% of maximum Strength among all heroes. Repeat for Agility and Intelligence.
-|cffffcc00Duration:|r 19 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-
-|cFF959697Effects are cumulative, but have a significantly reduced effectiveness beyond the first stack.|r
-}
-
 STRING 11769
 // Items: I0FT (Blooming Weed), Ubertip (Tooltip - Extended)
 {
@@ -76339,26 +76424,6 @@ STRING 11775
 |cffbababcCommon|r, |cfffe9a2eAlchemy|r
 Increases Spell Power for |cff088a08Potions|r by 25%.
 |cff81f260[Random bonus]|r
-}
-
-STRING 11776
-// Abilities: A1HH (Arcanologist: Arcane Intellect), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Strength of a random hero by 5 + 25% of maximum Strength among all heroes. Repeat for Agility and Intelligence.
-|cffffcc00Duration:|r 19 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-
-|cFF959697Effects are cumulative, but have a significantly reduced effectiveness beyond the first stack.|r
-}
-
-STRING 11777
-// Abilities: A1HH (Arcanologist: Arcane Intellect), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Strength of a random hero by 6 + 30% of maximum Strength among all heroes. Repeat for Agility and Intelligence.
-|cffffcc00Duration:|r 19 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-
-|cFF959697Effects are cumulative, but have a significantly reduced effectiveness beyond the first stack.|r
 }
 
 STRING 11778
@@ -76898,23 +76963,6 @@ Activation: Pushes all creatures away from the hero and creates a shield of ston
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
-STRING 11850
-// Abilities: A1HH (Arcanologist: Arcane Intellect), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Strength of a random hero by 7 + 35% of maximum Strength among all heroes. Repeat for Agility and Intelligence.
-|cffffcc00Duration:|r 19 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-
-|cFF959697Effects are cumulative, but have a significantly reduced effectiveness beyond the first stack.|r
-}
-
-STRING 11851
-// Abilities: A1HG (Arcanologist: Runic Enchantment), Researchubertip (Tooltip - Learn - Extended)
-{
-Reduces damage taken by 9/13/17/21/25%. While your mana capacity is at 30% or more, redirects 40% damage taken to mana.
-Increases maximum mana by 100/115/130/145/160.
-}
-
 STRING 11852
 // Items: I0HI (Power Wand), Name (Name)
 {
@@ -76925,20 +76973,6 @@ STRING 11853
 // Items: I0HI (Power Wand), Tip (Tooltip - Basic)
 {
 Power Wand
-}
-
-STRING 11854
-// Abilities: A1HG (Arcanologist: Runic Enchantment), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces damage taken by 9%. While your mana capacity is at 30% or more, redirects 40% damage taken to mana.
-Increases maximum mana by 100.
-}
-
-STRING 11855
-// Abilities: A1HG (Arcanologist: Runic Enchantment), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces damage taken by 13%. While your mana capacity is at 30% or more, redirects 40% damage taken to mana.
-Increases maximum mana by 115.
 }
 
 STRING 11856
@@ -77232,20 +77266,6 @@ STRING 11895
 The hero's attacks deal +200% damage to minions.
 }
 
-STRING 11896
-// Abilities: A1HG (Arcanologist: Runic Enchantment), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces damage taken by 17%. While your mana capacity is at 30% or more, redirects 40% damage taken to mana.
-Increases maximum mana by 130.
-}
-
-STRING 11897
-// Abilities: A1HG (Arcanologist: Runic Enchantment), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces damage taken by 25%. While your mana capacity is at 30% or more, redirects 40% damage taken to mana.
-Increases maximum mana by 145.
-}
-
 STRING 11898
 // Items: I06E (Big Red Button), Description (Description)
 {
@@ -77436,13 +77456,6 @@ STRING 11923
 Instead of the usual effect, the Fire Potion deals massive damage and additional damage equal to |cffbe81f76%|r of the health of enemies.
 |cff81f260[Random bonus]|r
 |cff81f260[Random bonus]|r
-}
-
-STRING 11924
-// Abilities: A1HG (Arcanologist: Runic Enchantment), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces damage taken by 25%. While your mana capacity is at 30% or more, redirects 40% damage taken to mana.
-Increases maximum mana by 160.
 }
 
 STRING 11925
@@ -78400,13 +78413,6 @@ Increases the ally's attack speed by 35%, but every second takes 8 health.
 |cffffcc00Coldown:|r 5 seconds.
 }
 
-STRING 12070
-// Items: IV22 (Almighty Beer), Description (Description)
-{
-|cffB614F0Starting Bonus|r
-Receive 1500 gold and Sticky Trash. Sticky Trash cannot be removed from your inventory by any means.
-}
-
 STRING 12071
 // Items: IV22 (Almighty Beer), Name (Name)
 {
@@ -78417,13 +78423,6 @@ STRING 12072
 // Items: IV22 (Almighty Beer), Tip (Tooltip - Basic)
 {
 Almighty Beer
-}
-
-STRING 12073
-// Items: IV22 (Almighty Beer), Ubertip (Tooltip - Extended)
-{
-|cffB614F0Starting Bonus|r
-Receive 1500 gold and Sticky Trash. Sticky Trash cannot be removed from your inventory by any means.
 }
 
 STRING 12074
@@ -79614,15 +79613,6 @@ STRING 12252
 |cff4169e1Rare|r
 Your buffs and debuffs last 50% longer.
 |cff81f260[Random bonus]|r
-}
-
-STRING 12253
-// Abilities: AV00 (Sun King: Heating Up), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f735/50/65/80/95|r damage to enemies in a large area and applies a burn that periodically deals |cffbe81f72/3/4/5/6|r damage (stacks up to 5 times). 3 charges.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 8 seconds.
-|cffffcc00Cost:|r 30 mana.
 }
 
 STRING 12254
