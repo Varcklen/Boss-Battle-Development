@@ -56,12 +56,14 @@ library InvisibilitySystem initializer init requires TimebonusLib, Trigger
 	endfunction*/
 
 	public function LaunchEvent takes unit u returns nothing
-	    local integer i = GetPlayerId( GetOwningPlayer( u ) ) + 1
 	    local integer id = GetHandleId( u )
 	    
 	    if IsUnitType( u, UNIT_TYPE_HERO) == false then
 	    	return
 	    endif
+	    
+	    call EnterInvisibility.SetDataUnit("unit", u )
+		call EnterInvisibility.Invoke()
 	    
 	    if inv( u, 'I07F') > 0 then
 	        call UnitAddAbility( u, 'A0E7' )

@@ -167,12 +167,21 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         */
         Event InfoButtonClicked
         /*
-        	hero
-        	player
-        	index
+        	hero (unit)
+        	player (player)
+        	index (integer)
         */
         Event DefeatAnnounce
         /*
+        */
+        Event EnterInvisibility
+        /*
+        	unit (unit)
+        */
+        Event ManaSpent
+        /*
+        	unit (unit)
+        	amount (integer)
         */
     endglobals
     
@@ -211,6 +220,8 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         set ModStateChanged = Event.create(null, null)
         set InfoButtonClicked = Event.create(null, null)
         set DefeatAnnounce = Event.create(null, null)
+        set EnterInvisibility = Event.create(null, null)
+        set ManaSpent = Event.create(null, null)
     endfunction
     
     /*

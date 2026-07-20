@@ -5031,6 +5031,12 @@ STRING 795
 Billy
 }
 
+STRING 796
+// Abilities: A0FK (Artifact: Sheep Mantle), Name (Name)
+{
+Artifact: Sheep Mantle
+}
+
 STRING 797
 // Abilities: A09B (Mimic: Reflective Surface), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -9508,6 +9514,16 @@ STRING 1441
 Sandro's Gift
 }
 
+STRING 1442
+// Items: I050 (Sheep Mantle), Description (Description)
+{
+|cff4169e1Rare|r
+Transforms all nearby enemies into sheep for 5 seconds. Summon 2 sheep for each affected target.
+|cffffcc00Life time:|r 20 seconds.
+|cffffcc00Cooldown:|r 35 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
 STRING 1443
 // Items: I03F (Sandro's Gift), Tip (Tooltip - Basic)
 {
@@ -9519,6 +9535,15 @@ STRING 1444
 {
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cff4169e1rare|r item 10 times |cFF959697(10/10)|r.
+}
+
+STRING 1445
+// Items: I050 (Sheep Mantle), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Transforms all nearby enemies into sheep for 5 seconds. Summon 2 sheep for each affected target.
+|cffffcc00Life time:|r 20 seconds.
+|cffffcc00Cooldown:|r 35 seconds.
 }
 
 STRING 1446
@@ -9843,13 +9868,6 @@ STRING 1492
 // Items: I0BK (Thief's Footpads), Tip (Tooltip - Basic)
 {
 Thief's Footpads
-}
-
-STRING 1493
-// Abilities: A053 (Набор "|cff5858faЛуна|r"), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Condition:|r Collect 3 artifacts from the set "|cff5858faMoon|r".
-|cffffcc00Reward:|r When the hero uses an ability or item, it emits 8 waves, each of which deals |cffbe81f750|r damage and an additional |cffbe81f71|r damage for each 15 mana.
 }
 
 STRING 1494
@@ -14924,6 +14942,13 @@ Increases a friendly hero's Intelligence by 15/20/25/30/35 until the end of the 
 |cffffcc00Cost:|r 60 mana.
 }
 
+STRING 2231
+// Items: I03X (Weapon Gift), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r an artifact from the |cff2d9995Weapon|r set.
+}
+
 STRING 2232
 // Items: I0EE (Midas Bracelet), Tip (Tooltip - Basic)
 {
@@ -15451,6 +15476,18 @@ STRING 2311
 // Units: n03X (Snupi), Name (Name)
 {
 Snupi
+}
+
+STRING 2312
+// Items: I03X (Weapon Gift), Name (Name)
+{
+Weapon Gift
+}
+
+STRING 2313
+// Items: I03X (Weapon Gift), Tip (Tooltip - Basic)
+{
+Weapon Gift
 }
 
 STRING 2314
@@ -16313,16 +16350,6 @@ STRING 2443
 The hero takes 40% less physical damage, but gets 90% less gold from any sources.
 }
 
-STRING 2444
-// Items: I050 (Sheep Mantle), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Turns non-sheep creatures nearby into sheeps for 5 seconds. Summons a sheep for each creature transformed.
-|cffffcc00Life time:|r 60 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
 STRING 2445
 // Items: I050 (Sheep Mantle), Name (Name)
 {
@@ -16333,15 +16360,6 @@ STRING 2446
 // Items: I050 (Sheep Mantle), Tip (Tooltip - Basic)
 {
 Sheep Mantle
-}
-
-STRING 2447
-// Items: I050 (Sheep Mantle), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Turns non-sheep creatures nearby into sheeps for 5 seconds. Summons a sheep for each creature transformed.
-|cffffcc00Life time:|r 60 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2448
@@ -16942,6 +16960,13 @@ STRING 2536
 Increases attack power of non-hero allies by 35%.
 }
 
+STRING 2537
+// Items: I03X (Weapon Gift), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r an artifact from the |cff2d9995Weapon|r set.
+}
+
 STRING 2538
 // Items: I04C (Student Book), Name (Name)
 {
@@ -16952,6 +16977,13 @@ STRING 2539
 // Items: I04C (Student Book), Tip (Tooltip - Basic)
 {
 Student Book
+}
+
+STRING 2540
+// Items: IV08 (Bag of Candies), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Until the end of the game, exchanging with you gives both heroes 2 random stats.
 }
 
 STRING 2541
@@ -17348,32 +17380,6 @@ Every 37 seconds, if it is day, the hero uses Murder at Midnight (|cffffcc00Q|r)
 At night, each hero attack with a |cffd7df0140%|r chance increases agility by 1 until daytime.
 
 |cFF959697Blood for Blood prioritizes heroes, especially oneself.|r
-}
-
-STRING 2597
-// Items: I03X (Weapon gift), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff2d9995weapon|r.
-}
-
-STRING 2598
-// Items: I03X (Weapon gift), Name (Name)
-{
-Weapon gift
-}
-
-STRING 2599
-// Items: I03X (Weapon gift), Tip (Tooltip - Basic)
-{
-Weapon gift
-}
-
-STRING 2600
-// Items: I03X (Weapon gift), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff2d9995weapon|r.
 }
 
 STRING 2601
@@ -20723,6 +20729,13 @@ STRING 3092
 When the hero takes damage, with a |cffd7df0115%|r chance, deals |cffbe81f730|r damage to all nearby enemies. Increases damage by 15 for each other |cffb18904mech|r in the inventory.
 }
 
+STRING 3093
+// Items: IV08 (Bag of Candies), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Until the end of the game, exchanging with you gives both heroes 2 random stats.
+}
+
 STRING 3094
 // Items: I00H (Book of Knowledge), Name (Name)
 {
@@ -20733,6 +20746,12 @@ STRING 3095
 // Items: I00H (Book of Knowledge), Tip (Tooltip - Basic)
 {
 Book of Knowledge
+}
+
+STRING 3096
+// Abilities: A09I (Armsmaster: Weapons Training), Researchubertip (Tooltip - Learn - Extended)
+{
+Increases Armor by 2/3/4/5/6. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0115%/20%/25%/30%/35%|r probability, one of the rewards will be a Weapon Gift.
 }
 
 STRING 3097
@@ -22163,6 +22182,18 @@ Taunt an enemy to attack you for 5 seconds and gain |cffbe81f7320|r Shield.
 |cffffcc00Cooldown:|r 12 seconds.
 }
 
+STRING 3320
+// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Armor by 2. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0115%|r probability, one of the rewards will be a Weapon Gift.
+}
+
+STRING 3321
+// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Armor by 3. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0120%|r probability, one of the rewards will be a Weapon Gift.
+}
+
 STRING 3322
 // Abilities: A1CV ((т)Аура: Spinal Blast), Name (Name)
 {
@@ -22302,10 +22333,35 @@ STRING 3342
 Neurotoxin, [|cffffcc00Level %d|r]
 }
 
+STRING 3343
+// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Armor by 4. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0125%|r probability, one of the rewards will be a Weapon Gift.
+}
+
 STRING 3344
 // Abilities: A1CS (The Plague: Neurotoxin), Tip (Tooltip - Normal)
 {
 Neurotoxin, [|cffffcc00Level 1|r]
+}
+
+STRING 3345
+// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Armor by 5. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0130%|r probability, one of the rewards will be a Weapon Gift.
+}
+
+STRING 3346
+// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Armor by 6. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0135%|r probability, one of the rewards will be a Weapon Gift.
+}
+
+STRING 3347
+// Abilities: A0R6 (Набор "|cff2d9995Оружие|r"), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Condition:|r Collect 3 artifacts from the set "|cff2d9995Weapon|r".
+|cffffcc00Reward:|r Get the Ultimate Weapon that absorbs all weapons.
 }
 
 STRING 3348
@@ -30212,6 +30268,13 @@ STRING 4578
 Resolve, [|cffffcc00Level 5|r]
 }
 
+STRING 4579
+// Abilities: A0AU (Набор "|cff7cfc00Природа|r"), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Condition:|r Collect 3 artifacts from the set "|cff7cfc00Nature|r".
+|cffffcc00Reward:|r When any hero dies, they are resurrected with 50% health and mana. 2 charges.
+}
+
 STRING 4580
 // Abilities: A1HE (Arcanologist: Replenish), Tip (Tooltip - Normal)
 {
@@ -33456,10 +33519,24 @@ STRING 5076
 Artifact: Orb of Nature
 }
 
+STRING 5077
+// Abilities: A08C (Набор "|cffb18904Механизм|r"), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Condition:|r Collect X artifacts from the set "|cffb18904Mech|r".
+|cffffcc00Reward:|r Enhances |cffb18904mech|r bonuses X times. 
+}
+
 STRING 5078
 // Abilities: A10R (Curse: Support), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Support
+}
+
+STRING 5079
+// Abilities: A08A (Набор "|cff9001fdКольцо|r"), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Condition:|r Collect 3 artifacts from the set "|cff9001fdRing|r".
+|cffffcc00Reward:|r Upgrades your |cff60C445Unique|r ability.
 }
 
 STRING 5080
@@ -33940,6 +34017,13 @@ STRING 5154
 Healthy Blow, [|cffffcc00Level 2|r] 
 }
 
+STRING 5155
+// Abilities: A053 (Набор "|cff5858faЛуна|r"), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Condition:|r Collect 3 artifacts from the set "|cff5858faMoon|r".
+|cffffcc00Reward:|r When you spend a total of 40 mana or enter invisibility, create 6 waves that deal |cffbe81f760|r damage.
+}
+
 STRING 5156
 // Items: IZ09 (Natural Deselection), Name (Name)
 {
@@ -33956,6 +34040,13 @@ STRING 5158
 // Abilities: A10D (Аура: Double Down), Name (Name)
 {
 Аура: Double Down
+}
+
+STRING 5159
+// Abilities: A052 (Набор "|cff848484Руна|r"), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Condition:|r Collect 3 artifacts from the set "|cff848484Rune|r".
+|cffffcc00Reward:|r All your runes lose their negative effects.
 }
 
 STRING 5160
@@ -37714,6 +37805,13 @@ STRING 5732
 Mark of the Chosen, [|cffffcc00Level %d|r]
 }
 
+STRING 5733
+// Abilities: A051 (Набор "|cffb40431Кровь|r"), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Condition:|r Collect 3 artifacts from the set "|cffb40431Blood|r".
+|cffffcc00Reward:|r The hero's attacks restore |cffbe81f740%|r of the damage dealt to health.
+}
+
 STRING 5734
 // Abilities: A0UL (Commander: Mark of the Chosen), Tip (Tooltip - Normal)
 {
@@ -41257,13 +41355,6 @@ STRING 6277
 Set "|cff2d9995Weapon|r"
 }
 
-STRING 6278
-// Abilities: A0R6 (Набор "|cff2d9995Оружие|r"), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Condition:|r Collect 3 artifacts from the set "|cff2d9995Weapon|r".
-|cffffcc00Reward:|r Your hero receives the Ultimate Weapon artifact.
-}
-
 STRING 6279
 // Abilities: A0QH (Samurai: Harnessing anger), Researchhotkey (Hotkey - Learn)
 {
@@ -43411,6 +43502,13 @@ STRING 6613
 Black Thumb, [|cffffcc00Level %d|r]
 }
 
+STRING 6614
+// Abilities: A026 (Набор "|cfffe9a2eАлхимия|r"), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Condition:|r Collect 3 artifacts from the set |cfffe9a2eAlchemy|r".
+|cffffcc00Reward:|r When the hero casts or attacks, there is an |cffd7df018%|r chance to use a random |cff088a08potion|r.
+}
+
 STRING 6615
 // Abilities: A0OJ (Ent: Black Thumb), Tip (Tooltip - Normal)
 {
@@ -43451,6 +43549,12 @@ STRING 6621
 // Items: I09B (Trembling Enemies), Tip (Tooltip - Basic)
 {
 Trembling Enemies
+}
+
+STRING 6622
+// Buffs/Effects: B08W (), Buffubertip (Tooltip - Extended)
+{
+Create waves of energy when you enter invisibility or spend mana.
 }
 
 STRING 6623
@@ -46457,6 +46561,13 @@ You place a first aid kit on the ground. This first-aid kit restores |cffbe81f71
 |cffffcc00Cost:|r 45/50/55/60/65 mana.
 }
 
+STRING 7100
+// Abilities: A0DW (Minotaur: Courage), Researchubertip (Tooltip - Learn - Extended)
+{
+Spend up to half of your current mana. Restore |cffbe81f7200%/300%/400%/500%/600%|r of the consumed mana as health.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 7101
 // Abilities: A0LN (Shooter: Health Care), Ubertip (Tooltip - Normal - Extended)
 {
@@ -47761,6 +47872,13 @@ Deals |cffbe81f7400|r damage to the enemy.
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 7298
+// Abilities: A0DW (Minotaur: Courage), Ubertip (Tooltip - Normal - Extended)
+{
+Spend up to half of your current mana. Restore |cffbe81f7200%|r of the consumed mana as health.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 7299
 // Abilities: A0KA (Тотем Жизни: Энергия жизни), Name (Name)
 {
@@ -48391,6 +48509,13 @@ STRING 7392
 // Abilities: A0JG (Wanderer: Impius Imperium), Researchtip (Tooltip - Learn)
 {
 Impius Imperium, [|cffffcc00Level %d|r]
+}
+
+STRING 7393
+// Abilities: A0DW (Minotaur: Courage), Ubertip (Tooltip - Normal - Extended)
+{
+Spend up to half of your current mana. Restore |cffbe81f7300%|r of the consumed mana as health.
+|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 7394
@@ -50449,6 +50574,13 @@ STRING 7707
 Huge arachnid
 }
 
+STRING 7708
+// Abilities: A0DW (Minotaur: Courage), Ubertip (Tooltip - Normal - Extended)
+{
+Spend up to half of your current mana. Restore |cffbe81f7400%|r of the consumed mana as health.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 7709
 // Abilities: A0HB (Босс 9: Пиромант (Волна пламени)), Name (Name)
 {
@@ -50487,10 +50619,24 @@ STRING 7714
 Increases |cff088a08potion|r spell power by 45% and spell power by 9%.
 }
 
+STRING 7715
+// Abilities: A0DW (Minotaur: Courage), Ubertip (Tooltip - Normal - Extended)
+{
+Spend up to half of your current mana. Restore |cffbe81f7500%|r of the consumed mana as health.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 7716
 // Abilities: A0H9 (Curse: Succumbing), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Succumbing
+}
+
+STRING 7717
+// Abilities: A0DW (Minotaur: Courage), Ubertip (Tooltip - Normal - Extended)
+{
+Spend up to half of your current mana. Restore |cffbe81f7600%|r of the consumed mana as health.
+|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 7718
@@ -51517,12 +51663,6 @@ STRING 7879
 (т)Аура: Uneasy Alliance 
 }
 
-STRING 7880
-// Abilities: A0FK (Артефакт: Мантия овцевода), Name (Name)
-{
-Артефакт: Мантия овцевода
-}
-
 STRING 7881
 // Abilities: A0FJ (Аура: Длинный лук), Name (Name)
 {
@@ -51909,13 +52049,6 @@ STRING 7943
 Split the hero in two. The original loses half of its stats to transfer them to the duplicate. The duplicate retains the hero's basic abilities. Stats are restored upon the duplicate's death.
 |cffffcc00Cooldown:|r 60/50/40/30/20 seconds.
 |cffffcc00Cost:|r 80/60/40/20/0 mana.
-}
-
-STRING 7944
-// Items: IV08 (Bag of Candies), Description (Description)
-{
-|cffB614F0Starting Bonus|r
-Until the end of the game, exchanging with you returns the gold spent to both players.
 }
 
 STRING 7945
@@ -53546,14 +53679,6 @@ STRING 8196
 Courage, [|cffffcc00Level %d|r]
 }
 
-STRING 8197
-// Abilities: A0DW (Minotaur: Courage), Researchubertip (Tooltip - Learn - Extended)
-{
-Burns half mana.
-Restores the hero’s health equal to |cffbe81f7200%/300%/400%/500%/600%|r of the mana spent.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
 STRING 8198
 // Abilities: A0DW (Minotaur: Courage), Tip (Tooltip - Normal)
 {
@@ -53582,46 +53707,6 @@ STRING 8202
 // Abilities: A0DW (Minotaur: Courage), Tip (Tooltip - Normal)
 {
 Courage, [|cffffcc00Level 5|r]
-}
-
-STRING 8203
-// Abilities: A0DW (Minotaur: Courage), Ubertip (Tooltip - Normal - Extended)
-{
-Burns half mana.
-Restores the hero’s health equal to |cffbe81f7200%|r of the mana spent.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 8204
-// Abilities: A0DW (Minotaur: Courage), Ubertip (Tooltip - Normal - Extended)
-{
-Burns half mana.
-Restores the hero’s health equal to |cffbe81f7300%|r of the mana spent.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 8205
-// Abilities: A0DW (Minotaur: Courage), Ubertip (Tooltip - Normal - Extended)
-{
-Burns half mana.
-Restores the hero’s health equal to |cffbe81f7400%|r of the mana spent.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 8206
-// Abilities: A0DW (Minotaur: Courage), Ubertip (Tooltip - Normal - Extended)
-{
-Burns half mana.
-Restores the hero’s health equal to |cffbe81f7500%|r of the mana spent.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 8207
-// Abilities: A0DW (Minotaur: Courage), Ubertip (Tooltip - Normal - Extended)
-{
-Burns half mana.
-Restores the hero’s health equal to |cffbe81f7600%|r of the mana spent.
-|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 8208
@@ -56203,15 +56288,6 @@ STRING 8611
 Set "|cff7cfc00Nature|r"
 }
 
-STRING 8612
-// Abilities: A0AU (Набор "|cff7cfc00Природа|r"), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Condition:|r Collect 3 artifacts from the set "|cff7cfc00Nature|r".
-|cffffcc00Reward:|r You and your allies get the opportunity to resurrect two heroes during each battle.
-
-|cFF959697Summarizes with other similar effects.|r
-}
-
 STRING 8613
 // Abilities: A0AT (|cffffcc00Уровень 5:|r Король рабов), Name (Name)
 {
@@ -57192,13 +57268,6 @@ STRING 8764
 Opportunistic Reflexes, [|cffffcc00Level %d|r]
 }
 
-STRING 8765
-// Items: IV08 (Bag of Candies), Ubertip (Tooltip - Extended)
-{
-|cffB614F0Starting Bonus|r
-Until the end of the game, exchanging with you returns the gold spent to both players.
-}
-
 STRING 8766
 // Abilities: A09R (Armsmaster: Opportunistic Reflexes), Tip (Tooltip - Normal)
 {
@@ -57456,13 +57525,6 @@ STRING 8804
 Weapons Training, [|cffffcc00Level %d|r]
 }
 
-STRING 8805
-// Abilities: A09I (Armsmaster: Weapons Training), Researchubertip (Tooltip - Learn - Extended)
-{
-Increases armor by 2/3/4/5/6. Each |cff2d9995weapon|r in your inventory increases attack power by 4.
-With a probability of |cffd7df016%/8%/10%/12%/14%|r, one of the artifact rewards will be "Weapon gift".
-}
-
 STRING 8806
 // Abilities: A09I (Armsmaster: Weapons Training), Tip (Tooltip - Normal)
 {
@@ -57491,41 +57553,6 @@ STRING 8810
 // Abilities: A09I (Armsmaster: Weapons Training), Tip (Tooltip - Normal)
 {
 Weapons Training, [|cffffcc00Level 5|r]
-}
-
-STRING 8811
-// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
-{
-Increases armor by 2. Each |cff2d9995weapon|r in your inventory increases attack power by 4.
-With a probability of |cffd7df016%|r, one of the artifact rewards will be "Weapon gift".
-}
-
-STRING 8812
-// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
-{
-Increases armor by 3. Each |cff2d9995weapon|r in your inventory increases attack power by 4.
-With a probability of |cffd7df018%|r, one of the artifact rewards will be "Weapon gift".
-}
-
-STRING 8813
-// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
-{
-Increases armor by 4. Each |cff2d9995weapon|r in your inventory increases attack power by 4.
-With a probability of |cffd7df0110%|r, one of the artifact rewards will be "Weapon gift".
-}
-
-STRING 8814
-// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
-{
-Increases armor by 5. Each |cff2d9995weapon|r in your inventory increases attack power by 4.
-With a probability of |cffd7df0112%|r, one of the artifact rewards will be "Weapon gift".
-}
-
-STRING 8815
-// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
-{
-Increases armor by 6. Each |cff2d9995weapon|r in your inventory increases attack power by 4.
-With a probability of |cffd7df0114%|r, one of the artifact rewards will be "Weapon gift".
 }
 
 STRING 8816
@@ -58979,15 +59006,6 @@ STRING 9041
 Set "|cffb18904Mech|r"
 }
 
-STRING 9042
-// Abilities: A08C (Набор "|cffb18904Механизм|r"), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Condition:|r Collect |cffbe81f7X|r artifacts from the set "|cffb18904Mech|r".
-|cffffcc00Reward:|r Enhances |cffb18904mech|r bonuses |cffbe81f7X|r times.
-
-|cFF959697Works on any number of mechs. The number of mechs can be tracked in statistics (Value next to sets).|r
-}
-
 STRING 9043
 // Abilities: A07I (Scarab: Sap), Hotkey (Hotkey - Normal)
 {
@@ -59022,13 +59040,6 @@ STRING 9048
 // Abilities: A08A (Набор "|cff9001fdКольцо|r"), Tip (Tooltip - Normal)
 {
 Set "|cff9001fdRing|r"
-}
-
-STRING 9049
-// Abilities: A08A (Набор "|cff9001fdКольцо|r"), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Condition:|r Collect 3 artifacts from the set "|cff9001fdRing|r".
-|cffffcc00Reward:|r Improves |cff60C445Unique|r of a hero.
 }
 
 STRING 9050
@@ -62643,13 +62654,6 @@ STRING 9604
 Set "|cff848484Rune|r"
 }
 
-STRING 9605
-// Abilities: A052 (Набор "|cff848484Руна|r"), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Condition:|r Collect 3 artifacts from the set "|cff848484Rune|r".
-|cffffcc00Reward:|r All your runestones lose their negative effects.
-}
-
 STRING 9606
 // Abilities: A051 (Набор "|cffb40431Кровь|r"), Name (Name)
 {
@@ -62660,13 +62664,6 @@ STRING 9607
 // Abilities: A051 (Набор "|cffb40431Кровь|r"), Tip (Tooltip - Normal)
 {
 Set "|cffb40431Blood|r"
-}
-
-STRING 9608
-// Abilities: A051 (Набор "|cffb40431Кровь|r"), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Condition:|r Collect 3 artifacts from the set "|cffb40431Blood|r".
-|cffffcc00Reward:|r When the hero attacks, heals the hero |cffbe81f740%|r health from the damage done.
 }
 
 STRING 9609
@@ -65519,13 +65516,6 @@ STRING 10050
 // Abilities: A026 (Набор "|cfffe9a2eАлхимия|r"), Tip (Tooltip - Normal)
 {
 Set "|cfffe9a2eAlchemy|r"
-}
-
-STRING 10051
-// Abilities: A026 (Набор "|cfffe9a2eАлхимия|r"), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Condition:|r Collect 3 artifacts from the set |cfffe9a2eAlchemy|r".
-|cffffcc00Reward:|r When the hero does any action, with the probability |cffd7df018%|r, a random |cff088a08potion|r is played.
 }
 
 STRING 10052
@@ -68423,12 +68413,6 @@ STRING 10504
 // Buffs/Effects: B08W (), Bufftip (Tooltip)
 {
 |cff00ff00Moon|r
-}
-
-STRING 10505
-// Buffs/Effects: B08W (), Buffubertip (Tooltip - Extended)
-{
-Creates waves when cast.
 }
 
 STRING 10506

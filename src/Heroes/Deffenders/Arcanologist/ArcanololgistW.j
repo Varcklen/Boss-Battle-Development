@@ -106,7 +106,7 @@ scope ArcanologistW initializer init
     //---------------------------------------------------------------
     
     private function learnCondition takes nothing returns boolean
-    	return not(ACQUIRED) and GetHeroLevel(GetLevelingUnit()) >= LEVEL_REQIURED
+    	return GetUnitAbilityLevel( GetLevelingUnit(), ID_ABILITY) > 0 and not(ACQUIRED) and GetHeroLevel(GetLevelingUnit()) >= LEVEL_REQIURED
 	endfunction
 
 	private function learnAction takes nothing returns nothing

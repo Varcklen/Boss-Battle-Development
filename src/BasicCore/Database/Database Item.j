@@ -406,7 +406,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I06E'
 	    set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I043'
 	    set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I0C3'
-	    //set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I050'
+	    set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I050'
 	    //set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I06I'
 	    set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I047'
 	    //set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I0CR'
@@ -486,7 +486,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL3_Rare[BaseNum()] = 'I04V'
 	    set udg_DB_Item_ForLvL3_Rare[BaseNum()] = 'I04N'
 	    set udg_DB_Item_ForLvL3_Rare[BaseNum()] = 'I04M'
-	    set udg_DB_Item_ForLvL3_Rare[BaseNum()] = 'I03X'
+	    //set udg_DB_Item_ForLvL3_Rare[BaseNum()] = 'I03X'
 	    set udg_DB_Item_ForLvL3_Rare[BaseNum()] = 'I0FD'
 	    set udg_DB_Item_ForLvL3_Rare[BaseNum()] = 'I0FE'
 	    set udg_DB_Item_ForLvL3_Rare[BaseNum()] = 'I0EE'
@@ -741,7 +741,7 @@ library LibDataItems
 	    set udg_DB_Item_Activate[BaseNum()] = 'I01T'
 	    set udg_DB_Item_Activate[BaseNum()] = 'I06C'
 	    set udg_DB_Item_Activate[BaseNum()] = 'I0AR'
-	    //set udg_DB_Item_Activate[BaseNum()] = 'I050'
+	    set udg_DB_Item_Activate[BaseNum()] = 'I050'
 	    set udg_DB_Item_Activate[BaseNum()] = 'I04E'
 	    set udg_DB_Item_Activate[BaseNum()] = 'I089'
 	    set udg_DB_Item_Activate[BaseNum()] = 'I016'
@@ -907,7 +907,7 @@ library LibDataItems
 	    set udg_BD_Item_Sheep[BaseNum()] = 'I00Y'
 	    set udg_BD_Item_Sheep[BaseNum()] = 'I04Z'
 	    set udg_BD_Item_Sheep[BaseNum()] = 'I01H'
-	    //set udg_BD_Item_Sheep[BaseNum()] = 'I050'
+	    set udg_BD_Item_Sheep[BaseNum()] = 'I050'
 	    set udg_BD_Item_Sheep[BaseNum()] = 'I0BZ'
 	    set udg_BD_Item_Sheep[BaseNum()] = 'I06S'
 	    set udg_BD_Item_Sheep[BaseNum()] = 'I06X'
@@ -1296,6 +1296,7 @@ library LibDataItems
 		set DB_ExileItems[2][BaseNum()] = 'I0DE'
 		set DB_ExileItems[2][BaseNum()] = 'I05S'
 		set DB_ExileItems[2][BaseNum()] = 'I0DA'
+		set DB_ExileItems[2][BaseNum()] = 'I03X'
 	    set DB_ExileItems_Max[2] = udg_base
 	    
 	    //Legendary
