@@ -95,7 +95,7 @@ constant integer HeroesTableDatabase_HEROES_IN_COLUMN_MAX= 9
         
 // processed:         ClassFramehandle array ClassFrame[HeroesTableDatabase_CLASSES]
 // processed:         HeroFramehandle array HeroFrame[HeroesTableDatabase_CLASSES][HeroesTableDatabase_HEROES_IN_COLUMN_MAX]//Class/Position
-constant integer HeroesTableDatabase___ALL_ROLES= 7
+constant integer HeroesTableDatabase__ALL_ROLES= 7
 constant integer ROLE_DEFEND= 1
 constant integer ROLE_SUPPORT= 2
 constant integer ROLE_HEAL= 3
@@ -211,9 +211,9 @@ constant integer Multiboard__NAME_SYMBOLS_LIMIT= 10
 //endglobals from Multiboard
 //globals from Other:
 constant boolean LIBRARY_Other=true
-constant integer Other__GLOW_NORMAL= 'A0D8'
-constant integer Other__GLOW_SMALL= 'A0UI'
-constant integer Other__GLOW_BIG= 'A062'
+constant integer Other___GLOW_NORMAL= 'A0D8'
+constant integer Other___GLOW_SMALL= 'A0UI'
+constant integer Other___GLOW_BIG= 'A062'
 //endglobals from Other
 //globals from OutcastLib:
 constant boolean LIBRARY_OutcastLib=true
@@ -353,7 +353,7 @@ unit Event_WaveHit_Caster
 unit Event_WaveHit_Target
 effect Event_WaveHit_Wave
         
-effect Wave__tempEffect= null
+effect Wave___tempEffect= null
 //endglobals from Wave
 //globals from AspectFrames:
 constant boolean LIBRARY_AspectFrames=true
@@ -682,24 +682,24 @@ constant boolean LIBRARY_SoulSwap=true
 //endglobals from SoulSwap
 //globals from HeroesTable:
 constant boolean LIBRARY_HeroesTable=true
-constant integer HeroesTable___CLASSES= HeroesTableDatabase_CLASSES
-constant integer HeroesTable___HEROES_IN_COLUMN_MAX= HeroesTableDatabase_HEROES_IN_COLUMN_MAX
-// processed:         framehandle array HeroesTable___heroButton[HeroesTable___CLASSES][HeroesTable___HEROES_IN_COLUMN_MAX]//Class/Position in Column
-// processed:         framehandle array HeroesTable___heroIcon[HeroesTable___CLASSES][HeroesTable___HEROES_IN_COLUMN_MAX]//Class/Position in Column
+constant integer HeroesTable__CLASSES= HeroesTableDatabase_CLASSES
+constant integer HeroesTable__HEROES_IN_COLUMN_MAX= HeroesTableDatabase_HEROES_IN_COLUMN_MAX
+// processed:         framehandle array HeroesTable__heroButton[HeroesTable__CLASSES][HeroesTable__HEROES_IN_COLUMN_MAX]//Class/Position in Column
+// processed:         framehandle array HeroesTable__heroIcon[HeroesTable__CLASSES][HeroesTable__HEROES_IN_COLUMN_MAX]//Class/Position in Column
     
-framehandle HeroesTable___HeroTable
-framehandle HeroesTable___ChooseButton
-framehandle HeroesTable___BanButton
-framehandle array HeroesTable___LevelTextFrame
-framehandle array HeroesTable___LevelHeroIcon
-framehandle HeroesTable___MainSkinButton
-framehandle HeroesTable___MainSkinIcon
-framehandle HeroesTable___AbilityBackground
+framehandle HeroesTable__HeroTable
+framehandle HeroesTable__ChooseButton
+framehandle HeroesTable__BanButton
+framehandle array HeroesTable__LevelTextFrame
+framehandle array HeroesTable__LevelHeroIcon
+framehandle HeroesTable__MainSkinButton
+framehandle HeroesTable__MainSkinIcon
+framehandle HeroesTable__AbilityBackground
         
-framehandle array HeroesTable___Skins_Button
-framehandle array HeroesTable___Skins_Icon
-framehandle array HeroesTable___Skins_LockFrame
-framehandle array HeroesTable___Skins_Text
+framehandle array HeroesTable__Skins_Button
+framehandle array HeroesTable__Skins_Icon
+framehandle array HeroesTable__Skins_LockFrame
+framehandle array HeroesTable__Skins_Text
         
 real Event_HeroPicked_Real
 unit Event_HeroPicked_Hero
@@ -707,20 +707,20 @@ player Event_HeroPicked_Player
 integer Event_HeroPicked_HeroKey
 integer Event_HeroPicked_Class
         
-constant real HeroesTable___BUTTON_SIZE= 0.032
-constant real HeroesTable___START_POSITION_X= 0.66
-constant real HeroesTable___START_POSITION_Y= 0.5
-constant integer HeroesTable___POTION_BONUSES_ADDED_TO_HEROES= 4
+constant real HeroesTable__BUTTON_SIZE= 0.032
+constant real HeroesTable__START_POSITION_X= 0.66
+constant real HeroesTable__START_POSITION_Y= 0.5
+constant integer HeroesTable__POTION_BONUSES_ADDED_TO_HEROES= 4
         
-// processed:         framehandle array HeroesTable___AspectVision[3]
-// processed:         framehandle array HeroesTable___AspectButton[3]
-constant real HeroesTable___ASPECTS_SIZE= 0.03
-constant real HeroesTable___ASPECTS_INDENT= 0.035
+// processed:         framehandle array HeroesTable__AspectVision[3]
+// processed:         framehandle array HeroesTable__AspectButton[3]
+constant real HeroesTable__ASPECTS_SIZE= 0.03
+constant real HeroesTable__ASPECTS_INDENT= 0.035
         
-constant integer HeroesTable___KEY_CLASS= StringHash("kclss")
-constant integer HeroesTable___KEY_POSITION= StringHash("kpstn")
+constant integer HeroesTable__KEY_CLASS= StringHash("kclss")
+constant integer HeroesTable__KEY_POSITION= StringHash("kpstn")
         
-// processed:         ChoosedHeroTemplate array HeroesTable___ChoosedHero[PLAYERS_LIMIT_ARRAYS]
+// processed:         ChoosedHeroTemplate array HeroesTable__ChoosedHero[PLAYERS_LIMIT_ARRAYS]
 // processed:         framehandle array HeroesTable_ChoosedHeroButton[PLAYERS_LIMIT_ARRAYS]
 // processed:         string array HeroesTable_ChoosedHeroIcon[PLAYERS_LIMIT_ARRAYS]
         
@@ -728,15 +728,15 @@ constant integer HeroesTable___KEY_POSITION= StringHash("kpstn")
         
 // processed:         boolean array IsBanned[HEROES_COUNT_ARRAYS]
         
-framehandle HeroesTable___InfoBackground= null
-framehandle HeroesTable___InfoButton= null
-framehandle HeroesTable___InfoPanel_Icon= null
-framehandle HeroesTable___StoryTextArea= null
+framehandle HeroesTable__InfoBackground= null
+framehandle HeroesTable__InfoButton= null
+framehandle HeroesTable__InfoPanel_Icon= null
+framehandle HeroesTable__StoryTextArea= null
         
-constant integer HeroesTable___TEXT_NUMBERS= 8
-// processed:         framehandle array HeroesTable___InfoPanelText[HeroesTable___TEXT_NUMBERS]
-string HeroesTable___TempRole
-integer HeroesTable___TempRoleNumber
+constant integer HeroesTable__TEXT_NUMBERS= 8
+// processed:         framehandle array HeroesTable__InfoPanelText[HeroesTable__TEXT_NUMBERS]
+string HeroesTable__TempRole
+integer HeroesTable__TempRoleNumber
 // processed:         AbilityFrame array abilityFrame[6]
 //endglobals from HeroesTable
 //globals from Mods:
@@ -3207,32 +3207,32 @@ constant integer CharizardQuest___ITEMS_NEEDED_ARRAYS= CharizardQuest___ITEMS_NE
 // processed:         string array CharizardQuest___RarityColors[3]
 // processed:         itemtype array CharizardQuest___checkedItemType[3]
 // processed:         boolean array CharizardQuest___isConditionActive[CharizardQuest___ITEMS_NEEDED_ARRAYS]
-constant integer OrbCenarius___ID_ITEM= 'I0F1'
+constant integer OrbCenarius__ID_ITEM= 'I0F1'
         
-constant integer OrbCenarius___DURATION= 5
-constant integer OrbCenarius___TICK= 1
-constant real OrbCenarius___HEAL_EFFECTIVENESS= 0.1
+constant integer OrbCenarius__DURATION= 5
+constant integer OrbCenarius__TICK= 1
+constant real OrbCenarius__HEAL_EFFECTIVENESS= 0.1
         
-constant integer OrbCenarius___EFFECT= 'A12H'
-constant integer OrbCenarius___BUFF= 'B09F'
+constant integer OrbCenarius__EFFECT= 'A12H'
+constant integer OrbCenarius__BUFF= 'B09F'
         
-boolean OrbCenarius___IsFromOrbOfCenarius= false
-constant integer OrbRollingPlains___ID_ITEM= 'I0FP'
+boolean OrbCenarius__IsFromOrbOfCenarius= false
+constant integer OrbRollingPlains__ID_ITEM= 'I0FP'
 
-constant integer OrbRollingPlains___COUNT_NEEDED= 100
-constant integer OrbRollingPlains___JUMPS_LIMIT= 4
-constant integer OrbRollingPlains___HEAL= 100
-constant integer OrbRollingPlains___AREA_FIRST_JUMP= 600
-constant integer OrbRollingPlains___AREA_JUMP= 400
-constant integer OrbRollingPlains___LIGHTNING_LIFE_TIME= 1
+constant integer OrbRollingPlains__COUNT_NEEDED= 100
+constant integer OrbRollingPlains__JUMPS_LIMIT= 4
+constant integer OrbRollingPlains__HEAL= 100
+constant integer OrbRollingPlains__AREA_FIRST_JUMP= 600
+constant integer OrbRollingPlains__AREA_JUMP= 400
+constant integer OrbRollingPlains__LIGHTNING_LIFE_TIME= 1
         
-boolean OrbRollingPlains___IsLoop= false
-constant integer OrbFrozenThundra___ID_ITEM= 'I0F5'
-boolean OrbFrozenThundra___isLoop= false
+boolean OrbRollingPlains__IsLoop= false
+constant integer OrbFrozenThundra__ID_ITEM= 'I0F5'
+boolean OrbFrozenThundra__isLoop= false
         
-constant integer OrbFrozenThundra___HEALTH_PERCENT_NEEDED= 40
-constant integer OrbFrozenThundra___COOLDOWN= 60
-constant string OrbFrozenThundra___ANIMATION= "Abilities\\Spells\\Human\\ReviveHuman\\ReviveHuman.mdl"
+constant integer OrbFrozenThundra__HEALTH_PERCENT_NEEDED= 40
+constant integer OrbFrozenThundra__COOLDOWN= 60
+constant string OrbFrozenThundra__ANIMATION= "Abilities\\Spells\\Human\\ReviveHuman\\ReviveHuman.mdl"
 constant integer DEVILFLAME_POTION_DAMAGE= 750
     
 constant string DEVILFLAME_POTION_ANIMATION= "Abilities\\Spells\\Other\\Incinerate\\FireLordDeathExplode.mdl"
@@ -3563,50 +3563,50 @@ constant integer SAMURAI_R_DURATION_FIRST_LEVEL= 2
 constant integer SAMURAI_R_DURATION_LEVEL_BONUS= 2
     
 constant integer SAMURAI_R_DURATION_BONUS_ALTERNATIVE= 2
-constant integer GunMasterR__ID_ABILITY= 'A19K'
+constant integer GunMasterR___ID_ABILITY= 'A19K'
         
-constant integer GunMasterR__DAMAGE_FIRST_LEVEL= 52
-constant integer GunMasterR__DAMAGE_LEVEL_BONUS= 12
-constant integer GunMasterR__ZONE_SIZE= 250
-constant integer GunMasterR__AREA= 175
-constant integer GunMasterR__LIFE_TIME= 10
+constant integer GunMasterR___DAMAGE_FIRST_LEVEL= 52
+constant integer GunMasterR___DAMAGE_LEVEL_BONUS= 12
+constant integer GunMasterR___ZONE_SIZE= 250
+constant integer GunMasterR___AREA= 175
+constant integer GunMasterR___LIFE_TIME= 10
         
-constant real GunMasterR__TICK= 0.5
+constant real GunMasterR___TICK= 0.5
         
-constant string GunMasterR__EXPLODE_ANIMATION= "Abilities\\Spells\\Other\\Incinerate\\FireLordDeathExplode.mdl"
-constant string GunMasterR__ZONE_ANIMATION= "war3mapImported\\Spell Marker Gray.mdx"
-constant integer GamblerE__ID_ABILITY= 'A10M'
-constant integer GamblerE__ID_ABILITY_ALT= 'A11T'
+constant string GunMasterR___EXPLODE_ANIMATION= "Abilities\\Spells\\Other\\Incinerate\\FireLordDeathExplode.mdl"
+constant string GunMasterR___ZONE_ANIMATION= "war3mapImported\\Spell Marker Gray.mdx"
+constant integer GamblerE___ID_ABILITY= 'A10M'
+constant integer GamblerE___ID_ABILITY_ALT= 'A11T'
         
-constant integer GamblerE__CHANCE= 30
+constant integer GamblerE___CHANCE= 30
         
-constant integer GamblerE__MANA_FIRST_LEVEL= 15
-constant integer GamblerE__MANA_LEVEL_BONUS= 4
+constant integer GamblerE___MANA_FIRST_LEVEL= 15
+constant integer GamblerE___MANA_LEVEL_BONUS= 4
         
-constant integer GamblerE__HEALTH_FIRST_LEVEL= 13
-constant integer GamblerE__HEALTH_LEVEL_BONUS= 13
+constant integer GamblerE___HEALTH_FIRST_LEVEL= 13
+constant integer GamblerE___HEALTH_LEVEL_BONUS= 13
         
-constant integer GamblerE__GOLD_FIRST_LEVEL= 0
-constant integer GamblerE__GOLD_LEVEL_BONUS= 7
+constant integer GamblerE___GOLD_FIRST_LEVEL= 0
+constant integer GamblerE___GOLD_LEVEL_BONUS= 7
         
-constant integer GamblerE__STUN_FIRST_LEVEL= 0
-constant real GamblerE__STUN_LEVEL_BONUS= 0.25
+constant integer GamblerE___STUN_FIRST_LEVEL= 0
+constant real GamblerE___STUN_LEVEL_BONUS= 0.25
         
-constant integer GamblerE__EFFECT= 'A11H'
-constant integer GamblerE__BUFF= 'B06R'
-constant integer GamblerE__DURATION= 10
+constant integer GamblerE___EFFECT= 'A11H'
+constant integer GamblerE___BUFF= 'B06R'
+constant integer GamblerE___DURATION= 10
         
-constant string GamblerE__ANIMATION= "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageDeathCaster.mdl"
-constant integer GamblerR__ID_ABILITY= 'A11J'
+constant string GamblerE___ANIMATION= "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageDeathCaster.mdl"
+constant integer GamblerR___ID_ABILITY= 'A11J'
         
-constant integer GamblerR__LUCK_BONUS= 100
-constant integer GamblerR__DURATION_FIRST_LEVEL= 8
-constant integer GamblerR__DURATION_LEVEL_BONUS= 2
+constant integer GamblerR___LUCK_BONUS= 100
+constant integer GamblerR___DURATION_FIRST_LEVEL= 8
+constant integer GamblerR___DURATION_LEVEL_BONUS= 2
         
-constant integer GamblerR__EFFECT= 'A11Q'
-constant integer GamblerR__BUFF= 'B06S'
+constant integer GamblerR___EFFECT= 'A11Q'
+constant integer GamblerR___BUFF= 'B06S'
         
-constant string GamblerR__ANIMATION= "Abilities\\Spells\\Human\\Slow\\SlowCaster.mdl"
+constant string GamblerR___ANIMATION= "Abilities\\Spells\\Human\\Slow\\SlowCaster.mdl"
 constant integer MONEY_BAG_Q_X_DEVIATION= - 150
 constant integer MONEY_BAG_Q_Y_DEVIATION= 150
     
@@ -3616,21 +3616,21 @@ constant integer MONEY_BAG_Q_DAMAGE_FIRST_LEVEL_BONUS= 100
 constant real MONEY_BAG_Q_AOE= 400
 constant integer MONEY_BAG_R_MONEY_MULTIPLIER= 7
 constant real BERRY_DEALER_R_BANANA_LIFE_TIME= 60
-constant integer DealerE__ID_ABILITY= 'A188'
+constant integer DealerE___ID_ABILITY= 'A188'
         
-constant integer DealerE__CHANCE_FIRST_LEVEL= 1
-constant integer DealerE__CHANCE_LEVEL_BONUS= 4
+constant integer DealerE___CHANCE_FIRST_LEVEL= 1
+constant integer DealerE___CHANCE_LEVEL_BONUS= 4
         
-constant integer DealerE__BANANA_SPAWN_SCATTER_ALTERNATIVE= 300
+constant integer DealerE___BANANA_SPAWN_SCATTER_ALTERNATIVE= 300
         
-constant string DealerE__ANIMATION= "war3mapImported\\TimeUpheaval.mdx"
-constant integer BananaDeath__ID_BANANA= 'o01B'
+constant string DealerE___ANIMATION= "war3mapImported\\TimeUpheaval.mdx"
+constant integer BananaDeath___ID_BANANA= 'o01B'
         
-constant real BananaDeath__GOLD_TO_HERO_ALTERNATIVE_03= 0.55
-constant real BananaDeath__GOLD_TO_OTHERS_ALTERNATIVE_03= 0.25
+constant real BananaDeath___GOLD_TO_HERO_ALTERNATIVE_03= 0.55
+constant real BananaDeath___GOLD_TO_OTHERS_ALTERNATIVE_03= 0.25
         
-constant integer BananaDeath__HEAL= 100
-constant integer BananaDeath__GOLD= 25
+constant integer BananaDeath___HEAL= 100
+constant integer BananaDeath___GOLD= 25
 constant real MEAT_WAGON_W_DURATION= 20
 constant real MEAT_WAGON_R_GOLD_DISCOUNT= 0.8
 framehandle array mephbut
@@ -3879,29 +3879,29 @@ constant real DRUID_R_BOAR_SIZE_LIMIT_BIG= 3
 constant real DRUID_R_BOAR_SIZE_LIMIT_SMALL= 1.6
     
 constant string DRUID_R_SPAWN_ANIMATION= "Abilities\\Spells\\Other\\Silence\\SilenceAreaBirth.mdl"
-constant integer MentorE___ID_ABILITY= 'A0NS'
-constant integer MentorE___MANA_CASTER_FIRST_LEVEL= 0
-constant integer MentorE___MANA_CASTER_LEVEL_BONUS= 2
-constant integer MentorE___MANA_ALLIES_FIRST_LEVEL= 1
-constant integer MentorE___MANA_ALLIES_LEVEL_BONUS= 1
+constant integer MentorE__ID_ABILITY= 'A0NS'
+constant integer MentorE__MANA_CASTER_FIRST_LEVEL= 0
+constant integer MentorE__MANA_CASTER_LEVEL_BONUS= 2
+constant integer MentorE__MANA_ALLIES_FIRST_LEVEL= 1
+constant integer MentorE__MANA_ALLIES_LEVEL_BONUS= 1
         
-constant string MentorE___ANIMATION= "Abilities\\Spells\\Undead\\ReplenishMana\\ReplenishManaCaster.mdl"
+constant string MentorE__ANIMATION= "Abilities\\Spells\\Undead\\ReplenishMana\\ReplenishManaCaster.mdl"
 // processed:     string array DestroyerTool[4][6]//Способность/уровни
 // processed:     integer array DestroyerMana[4][6]//Способность/уровни
-constant integer CorruptedEntQ___ID_ABILITY= 'A0OE'
+constant integer CorruptedEntQ__ID_ABILITY= 'A0OE'
     
-constant integer CorruptedEntQ___AREA= 200
-constant integer CorruptedEntQ___HEAL_FIRST_LEVEL= 50
-constant integer CorruptedEntQ___HEAL_LEVEL_BONUS= 25
-constant integer CorruptedEntQ___DAMAGE_FIRST_LEVEL= 0
-constant integer CorruptedEntQ___DAMAGE_LEVEL_BONUS= 25
+constant integer CorruptedEntQ__AREA= 200
+constant integer CorruptedEntQ__HEAL_FIRST_LEVEL= 50
+constant integer CorruptedEntQ__HEAL_LEVEL_BONUS= 25
+constant integer CorruptedEntQ__DAMAGE_FIRST_LEVEL= 0
+constant integer CorruptedEntQ__DAMAGE_LEVEL_BONUS= 25
 constant integer CorruptedEntQ_CHARGE_LIMIT= 3
-constant integer CorruptedEntQ___DELAY= 2
+constant integer CorruptedEntQ__DELAY= 2
         
-constant string CorruptedEntQ___BLOOM_EFFECT= "Objects\\Spawnmodels\\Undead\\CryptFiendEggsack\\CryptFiendEggsack.mdl"
-constant string CorruptedEntQ___EXPLODE_EFFECT= "war3mapImported\\ArcaneExplosion.mdx"
+constant string CorruptedEntQ__BLOOM_EFFECT= "Objects\\Spawnmodels\\Undead\\CryptFiendEggsack\\CryptFiendEggsack.mdl"
+constant string CorruptedEntQ__EXPLODE_EFFECT= "war3mapImported\\ArcaneExplosion.mdx"
         
-constant real CorruptedEntQ___ALT_DELAY= 0.1
+constant real CorruptedEntQ__ALT_DELAY= 0.1
         
 real Event_Corrupted_End_Q_Real
 unit Event_Corrupted_End_Q_Unit
@@ -3918,51 +3918,51 @@ constant integer CORRUPTED_ENT_W_BONUS_DURATION= 2
     
 constant integer CORRUPTED_ENT_W_DAMAGE_STUN_LIMIT= 200
 constant integer CORRUPTED_ENT_W_DAMAGE_STUN_DURATION= 3
-constant integer CorruptedEntE___ID_HERO= 'N017'
-constant integer CorruptedEntE___ID_ABILITY= 'A0OI'
-constant integer CorruptedEntE___BUFF= 'B09Z'
+constant integer CorruptedEntE__ID_HERO= 'N017'
+constant integer CorruptedEntE__ID_ABILITY= 'A0OI'
+constant integer CorruptedEntE__BUFF= 'B09Z'
     
-constant integer CorruptedEntE___HEAL_FIRST_LEVEL_BONUS= 150
-constant integer CorruptedEntE___HEAL_LEVEL_BONUS= 100
-constant integer CorruptedEntE___DAMAGE= 5
-constant integer CorruptedEntE___AREA= 600
-constant integer CorruptedEntE___INTERVAL= 1
-constant integer CorruptedEntE___LIMIT_TO_HEAL= 200
+constant integer CorruptedEntE__HEAL_FIRST_LEVEL_BONUS= 150
+constant integer CorruptedEntE__HEAL_LEVEL_BONUS= 100
+constant integer CorruptedEntE__DAMAGE= 5
+constant integer CorruptedEntE__AREA= 600
+constant integer CorruptedEntE__INTERVAL= 1
+constant integer CorruptedEntE__LIMIT_TO_HEAL= 200
         
-constant integer CorruptedEntE___ALT_LIMIT_TO_HEAL= 600
+constant integer CorruptedEntE__ALT_LIMIT_TO_HEAL= 600
         
-boolean CorruptedEntE___DamageCount= false
-boolean CorruptedEntE___IsHealFromIt= false
-real CorruptedEntE___Limit_to_Heal= CorruptedEntE___LIMIT_TO_HEAL
-constant integer CorruptedR___ID_ABILITY= 'A0OJ'
+boolean CorruptedEntE__DamageCount= false
+boolean CorruptedEntE__IsHealFromIt= false
+real CorruptedEntE__Limit_to_Heal= CorruptedEntE__LIMIT_TO_HEAL
+constant integer CorruptedR__ID_ABILITY= 'A0OJ'
     
-constant integer CorruptedR___ID_ARMOR_REDUCE= 'A0OJ'
-constant integer CorruptedR___EFFECT= 'A0P7'
-constant integer CorruptedR___BUFF= 'B0A0'
+constant integer CorruptedR__ID_ARMOR_REDUCE= 'A0OJ'
+constant integer CorruptedR__EFFECT= 'A0P7'
+constant integer CorruptedR__BUFF= 'B0A0'
     
-constant integer CorruptedR___DURATION= 5
-constant integer CorruptedR___INTERVAL= 1
-constant integer CorruptedR___DAMAGE_FIRST_LEVEL= 30
-constant integer CorruptedR___DAMAGE_LEVEL_BONUS= 10
-constant integer CorruptedR___HEAL_AREA= 600
+constant integer CorruptedR__DURATION= 5
+constant integer CorruptedR__INTERVAL= 1
+constant integer CorruptedR__DAMAGE_FIRST_LEVEL= 30
+constant integer CorruptedR__DAMAGE_LEVEL_BONUS= 10
+constant integer CorruptedR__HEAL_AREA= 600
         
-constant integer CorruptedR___ALT_AREA= 400
-constant integer CircusW___ID_ABILITY= 'A0SI'
+constant integer CorruptedR__ALT_AREA= 400
+constant integer CircusW__ID_ABILITY= 'A0SI'
         
-constant integer CircusW___WAVES= 8
-constant integer CircusW___ANGLE_DIFFERENCE= 45
-constant integer CircusW___DAMAGE_FIRST_LEVEL= 100
-constant integer CircusW___DAMAGE_LEVEL_BONUS= 25
-constant real CircusW___TICK= 0.04
+constant integer CircusW__WAVES= 8
+constant integer CircusW__ANGLE_DIFFERENCE= 45
+constant integer CircusW__DAMAGE_FIRST_LEVEL= 100
+constant integer CircusW__DAMAGE_LEVEL_BONUS= 25
+constant real CircusW__TICK= 0.04
         
-constant integer CircusW___FLIGHT_LENGTH= 30
-constant integer CircusW___AREA= 128
-constant integer CircusW___SPEED= 30
+constant integer CircusW__FLIGHT_LENGTH= 30
+constant integer CircusW__AREA= 128
+constant integer CircusW__SPEED= 30
         
-constant string CircusW___WAVE_ANIMATION= "Abilities\\Spells\\Orc\\Shockwave\\ShockwaveMissile.mdl"
+constant string CircusW__WAVE_ANIMATION= "Abilities\\Spells\\Orc\\Shockwave\\ShockwaveMissile.mdl"
         
-trigger CircusW___Wave_Use= null
-integer ShoggothQ___EntropyCount= 0
+trigger CircusW__Wave_Use= null
+integer ShoggothQ__EntropyCount= 0
 constant real COOL_WICERD_W_STUN_DURATION= 5
 constant integer ThePlagueQ__ID_ABILITY= 'A1CS'
         
@@ -4177,18 +4177,18 @@ constant integer IADatabase_WAVES_UNTIL_UPGRADE= 2
         
 // processed:         UnitIA array IADatabase_Units[IADatabase_UNIT_TYPES_MAX]
 // processed:         integer array IADatabase_PackUnit[IADatabase_PACK_AMOUNT][IADatabase_PACK_CAPACITY]
-integer InfiniteArena__round
-integer InfiniteArena__pack
-integer InfiniteArena__upgrade_counter
+integer InfiniteArena___round
+integer InfiniteArena___pack
+integer InfiniteArena___upgrade_counter
         
-integer InfiniteArena__enemySpawnLimit
-constant integer AbominationExplosion__ABILITY_ID= 'A0D0'
+integer InfiniteArena___enemySpawnLimit
+constant integer AbominationExplosion___ABILITY_ID= 'A0D0'
         
-constant integer AbominationExplosion__DAMAGE_INITIAL= 75
-constant integer AbominationExplosion__DAMAGE_PER_ROUND= 25
-constant real AbominationExplosion__RADIUS= 250
-constant integer PAStart__BATTLE_TIME= 120
-constant integer PAStart__BUTTON_COOLDOWN= 3
+constant integer AbominationExplosion___DAMAGE_INITIAL= 75
+constant integer AbominationExplosion___DAMAGE_PER_ROUND= 25
+constant real AbominationExplosion___RADIUS= 250
+constant integer PAStart___BATTLE_TIME= 120
+constant integer PAStart___BUTTON_COOLDOWN= 3
 constant integer OverloadArena_GOLD_INITIAL_FIRST= 60
 constant integer OverloadArena_GOLD_INITIAL_SECOND= 120
 constant integer OverloadArena_GOLD_EXTRA_PER_KILL= 5
@@ -4338,15 +4338,15 @@ integer array s__Database_Hero_Abilities
 string array s__RandomTargetLib___RandomTargetTypes
 string array s__JuleLib_Item_Name
 string array s__JuleLib_Item_Description
-framehandle array s__HeroesTable___heroButton
-framehandle array s__HeroesTable___heroIcon
-framehandle array s__HeroesTable___AspectVision
-framehandle array s__HeroesTable___AspectButton
-integer array s__HeroesTable___ChoosedHero
+framehandle array s__HeroesTable__heroButton
+framehandle array s__HeroesTable__heroIcon
+framehandle array s__HeroesTable__AspectVision
+framehandle array s__HeroesTable__AspectButton
+integer array s__HeroesTable__ChoosedHero
 framehandle array s__HeroesTable_ChoosedHeroButton
 string array s__HeroesTable_ChoosedHeroIcon
 boolean array s__IsBanned
-framehandle array s__HeroesTable___InfoPanelText
+framehandle array s__HeroesTable__InfoPanelText
 integer array s__abilityFrame
 integer array s__PotionsUsedPerBattle
 integer array s__skinmodel
@@ -4900,43 +4900,43 @@ endfunction
 //library Aspects:
 
 
-    function Aspects__SetAspect takes integer index,integer abilityOne,integer abilityTwo,integer abilityThree returns nothing
+    function Aspects___SetAspect takes integer index,integer abilityOne,integer abilityTwo,integer abilityThree returns nothing
         set s__IsHeroCanUseAspect[index]= true
         set s__Aspect[(index)*(4)+1]= abilityOne
         set s__Aspect[(index)*(4)+2]= abilityTwo
         set s__Aspect[(index)*(4)+3]= abilityThree
     endfunction
 
-    function Aspects__init takes nothing returns nothing
+    function Aspects___init takes nothing returns nothing
         //Beorn Patriarch
-        call Aspects__SetAspect(7 , 'A0WG' , 'A0X3' , 'A0X4')
+        call Aspects___SetAspect(7 , 'A0WG' , 'A0X3' , 'A0X4')
         
         //Druid-Naturalist
-        call Aspects__SetAspect(10 , 'A0TR' , 'A0TS' , 'A0P8')
+        call Aspects___SetAspect(10 , 'A0TR' , 'A0TS' , 'A0P8')
         
         //Samurai
-        call Aspects__SetAspect(32 , 'A0V9' , 'A0VY' , 'A0TT')
+        call Aspects___SetAspect(32 , 'A0V9' , 'A0VY' , 'A0TT')
         
         //Berry Dealer
-        call Aspects__SetAspect(36 , 'A1CF' , 'A1CG' , 'A1CE')
+        call Aspects___SetAspect(36 , 'A1CF' , 'A1CG' , 'A1CE')
         
         //Toxic Elemental
-        call Aspects__SetAspect(56 , 'A1CB' , 'A1CC' , 'A1CD')
+        call Aspects___SetAspect(56 , 'A1CB' , 'A1CC' , 'A1CD')
         
         //Armsmaster
-        call Aspects__SetAspect(63 , 'A16B' , 'A16A' , 'A16C')
+        call Aspects___SetAspect(63 , 'A16B' , 'A16A' , 'A16C')
         
         //Wanderer
-        call Aspects__SetAspect(67 , 'A16E' , 'A16F' , 'A16D')
+        call Aspects___SetAspect(67 , 'A16E' , 'A16F' , 'A16D')
         
         //Bard
-        call Aspects__SetAspect(70 , 'A1B5' , 'A1C0' , 'A1C1')
+        call Aspects___SetAspect(70 , 'A1B5' , 'A1C0' , 'A1C1')
         
         //Ent
-        call Aspects__SetAspect(74 , 'A1DF' , 'A1DD' , 'A1DE')
+        call Aspects___SetAspect(74 , 'A1DF' , 'A1DD' , 'A1DE')
         
         //Lycanthrope
-        call Aspects__SetAspect(75 , 'A1DB' , 'A1DA' , 'A1DC')
+        call Aspects___SetAspect(75 , 'A1DB' , 'A1DA' , 'A1DC')
     endfunction
 
     function Aspects_IsHeroCanUseAspects takes unit hero returns boolean
@@ -5808,16 +5808,16 @@ endfunction
         endfunction
 
         function s__HeroFramehandle_AddRoles takes integer this,integer role1,integer role2,integer role3,integer role4 returns nothing
-            if role1 > 0 and role1 <= HeroesTableDatabase___ALL_ROLES then
+            if role1 > 0 and role1 <= HeroesTableDatabase__ALL_ROLES then
                 set s___HeroFramehandle_role[s__HeroFramehandle_role[this]+role1]=true
             endif
-            if role2 > 0 and role2 <= HeroesTableDatabase___ALL_ROLES then
+            if role2 > 0 and role2 <= HeroesTableDatabase__ALL_ROLES then
                 set s___HeroFramehandle_role[s__HeroFramehandle_role[this]+role2]=true
             endif
-            if role3 > 0 and role3 <= HeroesTableDatabase___ALL_ROLES then
+            if role3 > 0 and role3 <= HeroesTableDatabase__ALL_ROLES then
                 set s___HeroFramehandle_role[s__HeroFramehandle_role[this]+role3]=true
             endif
-            if role4 > 0 and role4 <= HeroesTableDatabase___ALL_ROLES then
+            if role4 > 0 and role4 <= HeroesTableDatabase__ALL_ROLES then
                 set s___HeroFramehandle_role[s__HeroFramehandle_role[this]+role4]=true
             endif
         endfunction
@@ -5833,7 +5833,7 @@ endfunction
             return this
         endfunction
 
-    function HeroesTableDatabase___Database takes nothing returns nothing
+    function HeroesTableDatabase__Database takes nothing returns nothing
         set s__ClassFrame[0]= s__ClassFramehandle_create("Encouragers" , "ReplaceableTextures\\PassiveButtons\\PASBTNCommand.blp" , 'A0GD')
         set s__ClassFrame[1]= s__ClassFramehandle_create("Defenders" , "ReplaceableTextures\\PassiveButtons\\PASBTNUnholyAura.blp" , 'A088')
         set s__ClassFrame[2]= s__ClassFramehandle_create("Rippers" , "ReplaceableTextures\\PassiveButtons\\PASBTNCleavingAttack.blp" , 'A05L')
@@ -6144,11 +6144,11 @@ endfunction
     endfunction
 
     //===========================================================================
-    function HeroesTableDatabase___init takes nothing returns nothing
+    function HeroesTableDatabase__init takes nothing returns nothing
         local trigger delay= CreateTrigger()
         
         call TriggerRegisterTimerEvent(delay, 1., false)
-		call TriggerAddAction(delay, function HeroesTableDatabase___Database)
+		call TriggerAddAction(delay, function HeroesTableDatabase__Database)
         
         set delay=null
     endfunction
@@ -8988,7 +8988,7 @@ endfunction
 //library Other:
 
     
-    function Other__Refresh takes unit whichUnit,integer skinId returns nothing
+    function Other___Refresh takes unit whichUnit,integer skinId returns nothing
         call UnitRemoveAbility(whichUnit, skinId)
         call UnitAddAbility(whichUnit, skinId)
         set whichUnit=null
@@ -8997,12 +8997,12 @@ endfunction
     function SetUnitSkin takes unit whichUnit,integer skinId returns nothing
         call BlzSetUnitSkin(whichUnit, skinId)
             
-        if IsUnitHasAbility(whichUnit , Other__GLOW_NORMAL) then
-            call Other__Refresh(whichUnit , Other__GLOW_NORMAL)
-        elseif IsUnitHasAbility(whichUnit , Other__GLOW_SMALL) then
-            call Other__Refresh(whichUnit , Other__GLOW_SMALL)
-        elseif IsUnitHasAbility(whichUnit , Other__GLOW_BIG) then
-            call Other__Refresh(whichUnit , Other__GLOW_BIG)
+        if IsUnitHasAbility(whichUnit , Other___GLOW_NORMAL) then
+            call Other___Refresh(whichUnit , Other___GLOW_NORMAL)
+        elseif IsUnitHasAbility(whichUnit , Other___GLOW_SMALL) then
+            call Other___Refresh(whichUnit , Other___GLOW_SMALL)
+        elseif IsUnitHasAbility(whichUnit , Other___GLOW_BIG) then
+            call Other___Refresh(whichUnit , Other___GLOW_BIG)
         endif
         
         set whichUnit=null
@@ -10482,7 +10482,7 @@ endfunction
 //library Wave:
 
     
-    function Wave__AddGroupCount takes group waveGroup,boolean isAdded returns nothing
+    function Wave___AddGroupCount takes group waveGroup,boolean isAdded returns nothing
         local integer count
         local integer add= - 1
         
@@ -10505,11 +10505,11 @@ endfunction
         set waveGroup=null
     endfunction
 
-    function Wave__End takes integer id,effect wave returns nothing
+    function Wave___End takes integer id,effect wave returns nothing
         local group nodmg= LoadGroupHandle(udg_hash, id, StringHash("waveg"))
         local group waveGroup= LoadGroupHandle(udg_hash, id, StringHash("wavewg"))
     
-        call Wave__AddGroupCount(waveGroup , false)
+        call Wave___AddGroupCount(waveGroup , false)
         call DestroyEffect(wave)
         call GroupClear(nodmg)
         call DestroyGroup(nodmg)
@@ -10517,7 +10517,7 @@ endfunction
         set wave=null
     endfunction
     
-    function Wave__DealDamage takes integer id,effect wave returns nothing
+    function Wave___DealDamage takes integer id,effect wave returns nothing
         local unit mainer= LoadUnitHandle(udg_hash, id, StringHash("wavem"))
         local group nodmg= LoadGroupHandle(udg_hash, id, StringHash("waveg"))
         local group waveGroup= LoadGroupHandle(udg_hash, id, StringHash("wavewg"))
@@ -10554,7 +10554,7 @@ endfunction
         set waveGroup=null
     endfunction
     
-    function Wave__ChangePosition takes integer id,effect wave returns nothing
+    function Wave___ChangePosition takes integer id,effect wave returns nothing
         local real speed= LoadReal(udg_hash, id, StringHash("waves"))
         local real yaw= LoadReal(udg_hash, id, StringHash("wavey"))
         local integer newPoint= 0
@@ -10566,19 +10566,19 @@ endfunction
         set wave=null
     endfunction
 
-    function Wave__WaveUse takes nothing returns nothing
+    function Wave___WaveUse takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local integer counter= LoadInteger(udg_hash, id, StringHash("wave")) + 1
         local effect wave= LoadEffectHandle(udg_hash, id, StringHash("wave"))
         local integer range= LoadInteger(udg_hash, id, StringHash("waver"))
         
         if counter >= range or wave == null then
-            call Wave__End(id , wave)
+            call Wave___End(id , wave)
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
         else
-            call Wave__ChangePosition(id , wave)
-            call Wave__DealDamage(id , wave)
+            call Wave___ChangePosition(id , wave)
+            call Wave___DealDamage(id , wave)
             call SaveInteger(udg_hash, id, StringHash("wave"), counter)
         endif
         
@@ -10602,11 +10602,11 @@ endfunction
             return null
         endif
         
-        set Wave__tempEffect=AddSpecialEffect(waveAnimation, x, y)
+        set Wave___tempEffect=AddSpecialEffect(waveAnimation, x, y)
         set yaw=Deg2Rad(angle)
-        call BlzSetSpecialEffectYaw(Wave__tempEffect, yaw)
+        call BlzSetSpecialEffectYaw(Wave___tempEffect, yaw)
         
-        set id=InvokeTimerWithEffect(Wave__tempEffect , "wave" , tick , true , function Wave__WaveUse)
+        set id=InvokeTimerWithEffect(Wave___tempEffect , "wave" , tick , true , function Wave___WaveUse)
         call SaveUnitHandle(udg_hash, id, StringHash("wavem"), mainer)
         call SaveReal(udg_hash, id, StringHash("wavey"), yaw)
         call SaveReal(udg_hash, id, StringHash("waves"), speed)
@@ -10617,13 +10617,13 @@ endfunction
         call SaveTriggerHandle(udg_hash, id, StringHash("wavet"), usedTrigger)
         if waveGroup != null then
             call SaveGroupHandle(udg_hash, id, StringHash("wavewg"), waveGroup)
-            call Wave__AddGroupCount(waveGroup , true)
+            call Wave___AddGroupCount(waveGroup , true)
         endif
     
         set mainer=null
         set waveGroup=null
         set nodmg=null
-        return Wave__tempEffect
+        return Wave___tempEffect
     endfunction
 
 //library Wave ends
@@ -16987,7 +16987,7 @@ endfunction
 
     
     
-    function HeroesTable___GetDifficulty takes integer index returns string
+    function HeroesTable__GetDifficulty takes integer index returns string
         if index == 2 then
             return "|cffff3300Hard|r"
         elseif index == 1 then
@@ -16998,7 +16998,7 @@ endfunction
         return "|cffff00ffUNKNOWN!|r"
     endfunction
     
-    function HeroesTable___IsCanChoosedManyTimes takes integer heroId returns boolean
+    function HeroesTable__IsCanChoosedManyTimes takes integer heroId returns boolean
         if heroId == udg_Database_Hero[31] then
             return true
         elseif heroId == udg_Database_Hero[34] then
@@ -17007,17 +17007,17 @@ endfunction
         return false
     endfunction
     
-    function HeroesTable___StringSizeSmall takes string s returns real
+    function HeroesTable__StringSizeSmall takes string s returns real
         return ( 0.0002 * StringLength(s) ) + 0.05
     endfunction
     
     function HeroesTable_SetLevelNumberFrame takes player owner,integer level returns nothing
         local integer index= GetPlayerId(owner) + 1
-        call BlzFrameSetText(HeroesTable___LevelTextFrame[index], I2S(level))
+        call BlzFrameSetText(HeroesTable__LevelTextFrame[index], I2S(level))
         set owner=null
     endfunction
     
-    function HeroesTable___ReturnActiveIcon takes unit hero returns nothing
+    function HeroesTable__ReturnActiveIcon takes unit hero returns nothing
         local integer index= GetUnitUserData(hero)
         local integer heroPosition= udg_HeroNum[index]
         local integer unitType= GetUnitTypeId(hero)
@@ -17030,13 +17030,13 @@ endfunction
         
         set i=0
         loop
-            exitwhen i > HeroesTable___CLASSES or end
+            exitwhen i > HeroesTable__CLASSES or end
             set k=0
-            set kEnd=s__HeroesTableDatabase_HEROES_IN_CLASS[HeroesTable___HEROES_IN_COLUMN_MAX]
+            set kEnd=s__HeroesTableDatabase_HEROES_IN_CLASS[HeroesTable__HEROES_IN_COLUMN_MAX]
             loop
-                exitwhen k > HeroesTable___CLASSES or end
+                exitwhen k > HeroesTable__CLASSES or end
                 if unitType == s__HeroFrame[(i)*(9)+k] then //NEED ADD!
-                    call BlzFrameSetTexture(s__HeroesTable___heroIcon[(i)*(9)+k], BlzGetAbilityIcon(GetUnitTypeId(hero)), 0, true) //heroIcon[CLASSES][HEROES_IN_COLUMN_MAX] NEED ADD!
+                    call BlzFrameSetTexture(s__HeroesTable__heroIcon[(i)*(9)+k], BlzGetAbilityIcon(GetUnitTypeId(hero)), 0, true) //heroIcon[CLASSES][HEROES_IN_COLUMN_MAX] NEED ADD!
                     set end=true
                 endif
                 set k=k + 1
@@ -17047,27 +17047,27 @@ endfunction
         set hero=null
     endfunction
     
-    function HeroesTable___HeroRepick takes nothing returns nothing
+    function HeroesTable__HeroRepick takes nothing returns nothing
         local unit hero= Event_HeroRepick_Hero
         local player owner= GetOwningPlayer(hero)
         local integer index= GetPlayerId(owner) + 1
     
-        call HeroesTable___ReturnActiveIcon(hero)
+        call HeroesTable__ReturnActiveIcon(hero)
         
-        call BlzFrameSetTexture(HeroesTable___LevelHeroIcon[index], "ReplaceableTextures\\CommandButtons\\BTNSelectHeroOn.blp", 0, true)
+        call BlzFrameSetTexture(HeroesTable__LevelHeroIcon[index], "ReplaceableTextures\\CommandButtons\\BTNSelectHeroOn.blp", 0, true)
         
         //Десинк?
         if GetLocalPlayer() == owner and udg_UntilFirstFight then
-            call BlzFrameSetVisible(HeroesTable___AbilityBackground, false)
-            call BlzFrameSetVisible(HeroesTable___MainSkinButton, false)
-            call BlzFrameSetVisible(HeroesTable___ChooseButton, false)
-            call BlzFrameSetVisible(HeroesTable___BanButton, false)
-            call BlzFrameSetVisible(HeroesTable___InfoBackground, false)
-            call BlzFrameSetVisible(HeroesTable___InfoButton, false)
-            call BlzFrameSetVisible(HeroesTable___HeroTable, true)
+            call BlzFrameSetVisible(HeroesTable__AbilityBackground, false)
+            call BlzFrameSetVisible(HeroesTable__MainSkinButton, false)
+            call BlzFrameSetVisible(HeroesTable__ChooseButton, false)
+            call BlzFrameSetVisible(HeroesTable__BanButton, false)
+            call BlzFrameSetVisible(HeroesTable__InfoBackground, false)
+            call BlzFrameSetVisible(HeroesTable__InfoButton, false)
+            call BlzFrameSetVisible(HeroesTable__HeroTable, true)
             
             if udg_Host == owner then
-                call BlzFrameSetVisible(HeroesTable___BanButton, true)
+                call BlzFrameSetVisible(HeroesTable__BanButton, true)
             endif
         endif
         
@@ -17075,23 +17075,23 @@ endfunction
         set hero=null
     endfunction
     
-    function HeroesTable___HeroLeave takes nothing returns nothing
+    function HeroesTable__HeroLeave takes nothing returns nothing
         local unit hero= Event_HeroRepick_Hero
         local player owner= GetOwningPlayer(hero)
         local integer index= GetPlayerId(owner) + 1
     
         if udg_UntilFirstFight then
-            call HeroesTable___ReturnActiveIcon(hero)
+            call HeroesTable__ReturnActiveIcon(hero)
         endif
         
-        call BlzFrameSetVisible(HeroesTable___LevelTextFrame[index], false)
-        call BlzFrameSetTexture(HeroesTable___LevelHeroIcon[index], "war3mapImported\\BTNDivineShieldOff-Reforged.blp", 0, true)
+        call BlzFrameSetVisible(HeroesTable__LevelTextFrame[index], false)
+        call BlzFrameSetTexture(HeroesTable__LevelHeroIcon[index], "war3mapImported\\BTNDivineShieldOff-Reforged.blp", 0, true)
         
         set owner=null
         set hero=null
     endfunction
     
-    function HeroesTable___SetHeroColor takes unit hero returns nothing
+    function HeroesTable__SetHeroColor takes unit hero returns nothing
         if BlzGetUnitIntegerField(hero, UNIT_IF_PRIMARY_ATTRIBUTE) == 1 then
             call SetUnitColor(hero, GetPlayerColor(Player(12)))
         elseif BlzGetUnitIntegerField(hero, UNIT_IF_PRIMARY_ATTRIBUTE) == 2 then
@@ -17102,7 +17102,7 @@ endfunction
         set hero=null
     endfunction
     
-    function HeroesTable___SetAbilitiesInfo takes player owner,unit hero,integer heroIndex,integer alternativeUnique,integer class returns nothing
+    function HeroesTable__SetAbilitiesInfo takes player owner,unit hero,integer heroIndex,integer alternativeUnique,integer class returns nothing
         local integer unique
         local integer i
      
@@ -17114,7 +17114,7 @@ endfunction
         endif
 
         if GetLocalPlayer() == owner then
-            call BlzFrameSetVisible(HeroesTable___AbilityBackground, true)
+            call BlzFrameSetVisible(HeroesTable__AbilityBackground, true)
             //МОЖЕТ ВЫЗВАТЬ ДЕСИНК?
             set i=1
             loop
@@ -17126,13 +17126,13 @@ endfunction
                 
             call BlzFrameSetTexture(s__AbilityFrame_icon[s__abilityFrame[5]], BlzGetAbilityIcon(unique), 0, true)
             call sc__AbilityFrame_SetNameAndDescription(s__abilityFrame[5],GetAbilityName(unique) , BlzGetAbilityExtendedTooltip(unique, 0))
-            call BlzFrameSetTexture(HeroesTable___MainSkinIcon, BlzGetAbilityIcon(GetUnitTypeId(hero)), 0, true)
+            call BlzFrameSetTexture(HeroesTable__MainSkinIcon, BlzGetAbilityIcon(GetUnitTypeId(hero)), 0, true)
         endif
         set owner=null
         set hero=null
     endfunction
     
-    function HeroesTable___SetAspectButtons takes player localPlayer,integer whichButton,integer aspectAbility returns nothing
+    function HeroesTable__SetAspectButtons takes player localPlayer,integer whichButton,integer aspectAbility returns nothing
         local integer playerIndex= GetPlayerId(localPlayer)
     
         if whichButton < 1 or whichButton > 3 then
@@ -17144,64 +17144,64 @@ endfunction
         set s__AspectDescription[(playerIndex)*(4)+whichButton]= BlzGetAbilityExtendedTooltip(aspectAbility, 0)
 
         if GetLocalPlayer() == localPlayer then
-            call BlzFrameSetTexture(s__HeroesTable___AspectVision[whichButton - 1], BlzGetAbilityIcon(aspectAbility), 0, true)
-            call BlzFrameSetVisible(s__HeroesTable___AspectVision[whichButton - 1], true)
+            call BlzFrameSetTexture(s__HeroesTable__AspectVision[whichButton - 1], BlzGetAbilityIcon(aspectAbility), 0, true)
+            call BlzFrameSetVisible(s__HeroesTable__AspectVision[whichButton - 1], true)
         endif
         
         set localPlayer=null
     endfunction 
     
-    function HeroesTable___SetAspectsInfo takes player owner,integer heroIndex returns nothing
+    function HeroesTable__SetAspectsInfo takes player owner,integer heroIndex returns nothing
         local integer i
     
         if Aspects_IsHeroIndexCanUseAspects(heroIndex) then
             set i=1
             loop
                 exitwhen i > ASPECT_LIMIT
-                call HeroesTable___SetAspectButtons(owner , i , s__Aspect[(heroIndex)*(4)+i])
+                call HeroesTable__SetAspectButtons(owner , i , s__Aspect[(heroIndex)*(4)+i])
                 set i=i + 1
             endloop
             if GetLocalPlayer() == owner then
-                call BlzFrameSetVisible(s__HeroesTable___InfoPanelText[HeroesTable___TEXT_NUMBERS - 2], false)
+                call BlzFrameSetVisible(s__HeroesTable__InfoPanelText[HeroesTable__TEXT_NUMBERS - 2], false)
             endif
         else
             if GetLocalPlayer() == owner then
-                call BlzFrameSetVisible(s__HeroesTable___AspectVision[0], false)
-                call BlzFrameSetVisible(s__HeroesTable___AspectVision[1], false)
-                call BlzFrameSetVisible(s__HeroesTable___AspectVision[2], false)
-                call BlzFrameSetVisible(s__HeroesTable___InfoPanelText[HeroesTable___TEXT_NUMBERS - 2], true)
+                call BlzFrameSetVisible(s__HeroesTable__AspectVision[0], false)
+                call BlzFrameSetVisible(s__HeroesTable__AspectVision[1], false)
+                call BlzFrameSetVisible(s__HeroesTable__AspectVision[2], false)
+                call BlzFrameSetVisible(s__HeroesTable__InfoPanelText[HeroesTable__TEXT_NUMBERS - 2], true)
             endif
         endif
         set owner=null
     endfunction
     
-    function HeroesTable___SetSkinInfo takes player owner,integer heroIndex,integer index,string mainIconPath returns nothing
+    function HeroesTable__SetSkinInfo takes player owner,integer heroIndex,integer index,string mainIconPath returns nothing
         local integer i= 1
 
         loop
             exitwhen i > udg_DB_Skin_Limit
             if GetLocalPlayer() == owner then
                 if s__skiniconBTN[(heroIndex)*(6)+i] != null and StringLength(s__skiniconBTN[(heroIndex)*(6)+i]) > 3 then
-                    if BlzFrameIsVisible(HeroesTable___Skins_Icon[1]) then
-                        call BlzFrameSetVisible(HeroesTable___Skins_Button[i], true)
+                    if BlzFrameIsVisible(HeroesTable__Skins_Icon[1]) then
+                        call BlzFrameSetVisible(HeroesTable__Skins_Button[i], true)
                     endif
-                    call BlzFrameSetVisible(HeroesTable___MainSkinButton, true)
-                    call BlzFrameSetTexture(HeroesTable___MainSkinIcon, mainIconPath, 0, true)
+                    call BlzFrameSetVisible(HeroesTable__MainSkinButton, true)
+                    call BlzFrameSetTexture(HeroesTable__MainSkinIcon, mainIconPath, 0, true)
                     if udg_LvL[index] < s__skinlvl[(heroIndex)*(6)+i] then
-                        call BlzFrameSetText(HeroesTable___Skins_Text[i], I2S(s__skinlvl[(heroIndex)*(6)+i]))
-                        call BlzFrameSetTexture(HeroesTable___Skins_Icon[i], s__skiniconDIS[(heroIndex)*(6)+i], 0, true)
-                        call BlzFrameSetVisible(HeroesTable___Skins_LockFrame[i], true)
-                        call BlzFrameSetVisible(HeroesTable___Skins_Text[i], true)
+                        call BlzFrameSetText(HeroesTable__Skins_Text[i], I2S(s__skinlvl[(heroIndex)*(6)+i]))
+                        call BlzFrameSetTexture(HeroesTable__Skins_Icon[i], s__skiniconDIS[(heroIndex)*(6)+i], 0, true)
+                        call BlzFrameSetVisible(HeroesTable__Skins_LockFrame[i], true)
+                        call BlzFrameSetVisible(HeroesTable__Skins_Text[i], true)
                     else
-                        call BlzFrameSetTexture(HeroesTable___Skins_Icon[i], s__skiniconBTN[(heroIndex)*(6)+i], 0, true)
-                        call BlzFrameSetVisible(HeroesTable___Skins_LockFrame[i], false)
-                        call BlzFrameSetVisible(HeroesTable___Skins_Text[i], false)
+                        call BlzFrameSetTexture(HeroesTable__Skins_Icon[i], s__skiniconBTN[(heroIndex)*(6)+i], 0, true)
+                        call BlzFrameSetVisible(HeroesTable__Skins_LockFrame[i], false)
+                        call BlzFrameSetVisible(HeroesTable__Skins_Text[i], false)
                     endif
                 else
                     if i == 1 then
-                        call BlzFrameSetVisible(HeroesTable___MainSkinButton, false)
+                        call BlzFrameSetVisible(HeroesTable__MainSkinButton, false)
                     endif
-                    call BlzFrameSetVisible(HeroesTable___Skins_Button[i], false)
+                    call BlzFrameSetVisible(HeroesTable__Skins_Button[i], false)
                 endif
             endif
             set i=i + 1
@@ -17210,57 +17210,57 @@ endfunction
         set owner=null
     endfunction
     
-    function HeroesTable___DisableInfoFrames takes player owner returns nothing
+    function HeroesTable__DisableInfoFrames takes player owner returns nothing
         if GetLocalPlayer() == owner then
-            call BlzFrameSetVisible(HeroesTable___AbilityBackground, false)
-            call BlzFrameSetVisible(HeroesTable___BanButton, false)
-            call BlzFrameSetVisible(HeroesTable___InfoButton, false)
-            call BlzFrameSetVisible(HeroesTable___InfoBackground, false)
+            call BlzFrameSetVisible(HeroesTable__AbilityBackground, false)
+            call BlzFrameSetVisible(HeroesTable__BanButton, false)
+            call BlzFrameSetVisible(HeroesTable__InfoButton, false)
+            call BlzFrameSetVisible(HeroesTable__InfoBackground, false)
         endif
     
         set owner=null
     endfunction
     
     
-    function HeroesTable___AddRole takes string role returns nothing
-        if HeroesTable___TempRoleNumber > 0 then
-            set HeroesTable___TempRole=HeroesTable___TempRole + ", "
+    function HeroesTable__AddRole takes string role returns nothing
+        if HeroesTable__TempRoleNumber > 0 then
+            set HeroesTable__TempRole=HeroesTable__TempRole + ", "
         endif
-        set HeroesTable___TempRoleNumber=HeroesTable___TempRoleNumber + 1
-        set HeroesTable___TempRole=HeroesTable___TempRole + role
+        set HeroesTable__TempRoleNumber=HeroesTable__TempRoleNumber + 1
+        set HeroesTable__TempRole=HeroesTable__TempRole + role
     endfunction
     
-    function HeroesTable___GetUnitRoles takes integer heroFrame returns string
-        set HeroesTable___TempRole=""
-        set HeroesTable___TempRoleNumber=0
+    function HeroesTable__GetUnitRoles takes integer heroFrame returns string
+        set HeroesTable__TempRole=""
+        set HeroesTable__TempRoleNumber=0
     
         if s___HeroFramehandle_role[s__HeroFramehandle_role[heroFrame]+ROLE_DEFEND] then
-            call HeroesTable___AddRole("|cFFD74D0EDefender|r")
+            call HeroesTable__AddRole("|cFFD74D0EDefender|r")
         endif
         if s___HeroFramehandle_role[s__HeroFramehandle_role[heroFrame]+ROLE_SUPPORT] then
-            call HeroesTable___AddRole("|cFF4D94B5Support|r")
+            call HeroesTable__AddRole("|cFF4D94B5Support|r")
         endif
         if s___HeroFramehandle_role[s__HeroFramehandle_role[heroFrame]+ROLE_HEAL] then
-            call HeroesTable___AddRole("|cFF399014Healer|r")
+            call HeroesTable__AddRole("|cFF399014Healer|r")
         endif
         if s___HeroFramehandle_role[s__HeroFramehandle_role[heroFrame]+ROLE_MAGIC_DAMAGE] then
-            call HeroesTable___AddRole("|cFF0A5EC6Mage|r")
+            call HeroesTable__AddRole("|cFF0A5EC6Mage|r")
         endif
         if s___HeroFramehandle_role[s__HeroFramehandle_role[heroFrame]+ROLE_PHYSICAL_DAMAGE] then
-            call HeroesTable___AddRole("|cFFC60303Warrior|r")
+            call HeroesTable__AddRole("|cFFC60303Warrior|r")
         endif
         if s___HeroFramehandle_role[s__HeroFramehandle_role[heroFrame]+ROLE_SUMMONER] then
-            call HeroesTable___AddRole("|cFFC0D001Summoner|r")
+            call HeroesTable__AddRole("|cFFC0D001Summoner|r")
         endif
         if s___HeroFramehandle_role[s__HeroFramehandle_role[heroFrame]+ROLE_CONTROL] then
-            call HeroesTable___AddRole("|cFFB95BB0Disabler|r")
+            call HeroesTable__AddRole("|cFFB95BB0Disabler|r")
         endif
     
         call s__HeroFramehandle_deallocate(heroFrame)
-        return HeroesTable___TempRole
+        return HeroesTable__TempRole
     endfunction
     
-    function HeroesTable___GetHeroMainStat takes unit hero returns string
+    function HeroesTable__GetHeroMainStat takes unit hero returns string
         local string stat= ""
         if BlzGetUnitIntegerField(hero, UNIT_IF_PRIMARY_ATTRIBUTE) == 1 then
             set stat="|cFFC82323Strength|r"
@@ -17273,7 +17273,7 @@ endfunction
         return stat
     endfunction
     
-    function HeroesTable___GetUnitType takes unit hero returns string
+    function HeroesTable__GetUnitType takes unit hero returns string
         local string unitType= ""
         if IsUnitType(hero, UNIT_TYPE_UNDEAD) then
             set unitType="|cffff1493Undead|r"
@@ -17281,31 +17281,31 @@ endfunction
             set unitType="Normal"
         endif
         
-        if HeroesTable___IsCanChoosedManyTimes(GetUnitTypeId(hero)) then
+        if HeroesTable__IsCanChoosedManyTimes(GetUnitTypeId(hero)) then
             set unitType=unitType + " |cFFF2AF8DCloneable|r"
         endif
         set hero=null
         return unitType
     endfunction
     
-    function HeroesTable___SetInfoPanel takes player owner,unit hero,integer heroFrame returns nothing
-        local string roles= HeroesTable___GetUnitRoles(heroFrame)
-        local string stat= HeroesTable___GetHeroMainStat(hero)
-        local string unitType= HeroesTable___GetUnitType(hero)
+    function HeroesTable__SetInfoPanel takes player owner,unit hero,integer heroFrame returns nothing
+        local string roles= HeroesTable__GetUnitRoles(heroFrame)
+        local string stat= HeroesTable__GetHeroMainStat(hero)
+        local string unitType= HeroesTable__GetUnitType(hero)
         
         if GetLocalPlayer() == owner then
-            call BlzFrameSetText(s__HeroesTable___InfoPanelText[0], GetUnitName(hero))
-            call BlzFrameSetText(s__HeroesTable___InfoPanelText[1], HeroesTable___GetDifficulty(s__HeroFramehandle_difficulty[heroFrame]))
-            call BlzFrameSetText(s__HeroesTable___InfoPanelText[2], s__HeroFramehandle_author[heroFrame])
-            call BlzFrameSetText(s__HeroesTable___InfoPanelText[3], stat)
-            call BlzFrameSetText(s__HeroesTable___InfoPanelText[4], unitType)
-            call BlzFrameSetText(s__HeroesTable___InfoPanelText[5], roles)
+            call BlzFrameSetText(s__HeroesTable__InfoPanelText[0], GetUnitName(hero))
+            call BlzFrameSetText(s__HeroesTable__InfoPanelText[1], HeroesTable__GetDifficulty(s__HeroFramehandle_difficulty[heroFrame]))
+            call BlzFrameSetText(s__HeroesTable__InfoPanelText[2], s__HeroFramehandle_author[heroFrame])
+            call BlzFrameSetText(s__HeroesTable__InfoPanelText[3], stat)
+            call BlzFrameSetText(s__HeroesTable__InfoPanelText[4], unitType)
+            call BlzFrameSetText(s__HeroesTable__InfoPanelText[5], roles)
             
-            call BlzFrameSetTexture(HeroesTable___InfoPanel_Icon, BlzGetAbilityIcon(GetUnitTypeId(hero)), 0, true)
+            call BlzFrameSetTexture(HeroesTable__InfoPanel_Icon, BlzGetAbilityIcon(GetUnitTypeId(hero)), 0, true)
             if s__HeroFramehandle_story[heroFrame] == null then
-                call BlzFrameSetText(HeroesTable___StoryTextArea, "None")
+                call BlzFrameSetText(HeroesTable__StoryTextArea, "None")
             else
-                call BlzFrameSetText(HeroesTable___StoryTextArea, s__HeroFramehandle_story[heroFrame])
+                call BlzFrameSetText(HeroesTable__StoryTextArea, s__HeroFramehandle_story[heroFrame])
             endif
         endif
         
@@ -17315,11 +17315,11 @@ endfunction
     endfunction
     
     //Hero choosing
-    function HeroesTable___HeroChooseButton takes nothing returns nothing
+    function HeroesTable__HeroChooseButton takes nothing returns nothing
         local integer heroId= 0
         local integer frameId= GetHandleId(BlzGetTriggerFrame())
-        local integer class= LoadInteger(udg_hash, frameId, HeroesTable___KEY_CLASS)
-        local integer position= LoadInteger(udg_hash, frameId, HeroesTable___KEY_POSITION)
+        local integer class= LoadInteger(udg_hash, frameId, HeroesTable__KEY_CLASS)
+        local integer position= LoadInteger(udg_hash, frameId, HeroesTable__KEY_POSITION)
         local player owner= GetTriggerPlayer()
         local integer index= GetPlayerId(owner) + 1
         local integer heroFrame= s__HeroFrame[(class)*(9)+position]
@@ -17331,26 +17331,26 @@ endfunction
             call BlzFrameSetVisible(BlzGetTriggerFrame(), true)
         endif
 
-        call ShowUnit(s__ChoosedHeroTemplate_hero[s__HeroesTable___ChoosedHero[index]], false)
+        call ShowUnit(s__ChoosedHeroTemplate_hero[s__HeroesTable__ChoosedHero[index]], false)
         if s___HeroFramehandle_hero[s__HeroFramehandle_hero[heroFrame]+index - 1] == null then
             set s___HeroFramehandle_hero[s__HeroFramehandle_hero[heroFrame]+index - 1]=CreateUnit(Player(PLAYER_NEUTRAL_PASSIVE), s__HeroFramehandle_heroId[heroFrame], GetLocationX(udg_point[25 + index]), GetLocationY(udg_point[25 + index]), bj_UNIT_FACING)
-            set s__ChoosedHeroTemplate_hero[s__HeroesTable___ChoosedHero[index]]=s___HeroFramehandle_hero[s__HeroFramehandle_hero[heroFrame]+index - 1]
+            set s__ChoosedHeroTemplate_hero[s__HeroesTable__ChoosedHero[index]]=s___HeroFramehandle_hero[s__HeroFramehandle_hero[heroFrame]+index - 1]
             //call BlzShowUnitTeamGlow( ChoosedHero[index].hero, false ) 
         else
-            set s__ChoosedHeroTemplate_hero[s__HeroesTable___ChoosedHero[index]]=s___HeroFramehandle_hero[s__HeroFramehandle_hero[heroFrame]+index - 1]
-            call ShowUnit(s__ChoosedHeroTemplate_hero[s__HeroesTable___ChoosedHero[index]], true)
+            set s__ChoosedHeroTemplate_hero[s__HeroesTable__ChoosedHero[index]]=s___HeroFramehandle_hero[s__HeroFramehandle_hero[heroFrame]+index - 1]
+            call ShowUnit(s__ChoosedHeroTemplate_hero[s__HeroesTable__ChoosedHero[index]], true)
         endif
         
-        set hero=s__ChoosedHeroTemplate_hero[s__HeroesTable___ChoosedHero[index]]
+        set hero=s__ChoosedHeroTemplate_hero[s__HeroesTable__ChoosedHero[index]]
         set unitType=GetUnitTypeId(hero)
         set heroId=GetHeroNumber(unitType)
-        set s__ChoosedHeroTemplate_position[s__HeroesTable___ChoosedHero[index]]=position
-        set s__ChoosedHeroTemplate_class[s__HeroesTable___ChoosedHero[index]]=class
-        set s__ChoosedHeroTemplate_heroKey[s__HeroesTable___ChoosedHero[index]]=heroId
+        set s__ChoosedHeroTemplate_position[s__HeroesTable__ChoosedHero[index]]=position
+        set s__ChoosedHeroTemplate_class[s__HeroesTable__ChoosedHero[index]]=class
+        set s__ChoosedHeroTemplate_heroKey[s__HeroesTable__ChoosedHero[index]]=heroId
         set udg_SkinUsed[index]=0
         
         call SetUnitSkin(hero , s__HeroFramehandle_heroId[heroFrame])
-        call HeroesTable___SetHeroColor(hero)
+        call HeroesTable__SetHeroColor(hero)
         call QueueUnitAnimationBJ(hero, "stand")
         call QueueUnitAnimationBJ(hero, "attack")
         call QueueUnitAnimationBJ(hero, "stand")
@@ -17360,24 +17360,24 @@ endfunction
         call CameraSetupApplyForPlayer(true, udg_CameraChoose[index], Player(index - 1), 0)
         call SetCameraTargetControllerNoZForPlayer(Player(index - 1), hero, 210.00, - 150.00, false)
 
-        if class == HeroesTable___CLASSES then
-            call HeroesTable___DisableInfoFrames(owner)
+        if class == HeroesTable__CLASSES then
+            call HeroesTable__DisableInfoFrames(owner)
         else
-            call HeroesTable___SetAspectsInfo(owner , heroId)
-            call HeroesTable___SetSkinInfo(owner , heroId , index , BlzGetAbilityIcon(unitType))
-            call HeroesTable___SetAbilitiesInfo(owner , hero , heroId , s__HeroFramehandle_alternativeUnique[heroFrame] , class)
-            call HeroesTable___SetInfoPanel(owner , hero , heroFrame)
+            call HeroesTable__SetAspectsInfo(owner , heroId)
+            call HeroesTable__SetSkinInfo(owner , heroId , index , BlzGetAbilityIcon(unitType))
+            call HeroesTable__SetAbilitiesInfo(owner , hero , heroId , s__HeroFramehandle_alternativeUnique[heroFrame] , class)
+            call HeroesTable__SetInfoPanel(owner , hero , heroFrame)
 
             if GetLocalPlayer() == owner then
                 if udg_Host == owner then
-                    call BlzFrameSetVisible(HeroesTable___BanButton, true)
+                    call BlzFrameSetVisible(HeroesTable__BanButton, true)
                 endif
-                call BlzFrameSetVisible(HeroesTable___InfoButton, true)
+                call BlzFrameSetVisible(HeroesTable__InfoButton, true)
             endif
         endif
 
         if GetLocalPlayer() == owner then
-            call BlzFrameSetVisible(HeroesTable___ChooseButton, true)
+            call BlzFrameSetVisible(HeroesTable__ChooseButton, true)
         endif
 
         call s__HeroFramehandle_deallocate(heroFrame)
@@ -17385,7 +17385,7 @@ endfunction
         set owner=null
     endfunction
     
-    function HeroesTable___IsHeroCanBeChosen takes integer heroId,integer heroIndex,integer playerIndex,boolean isRandomPick returns boolean
+    function HeroesTable__IsHeroCanBeChosen takes integer heroId,integer heroIndex,integer playerIndex,boolean isRandomPick returns boolean
         
         if s__IsBanned[heroIndex] then
             //call BJDebugMsg("IsBanned")
@@ -17396,7 +17396,7 @@ endfunction
         elseif heroId == 0 then
             //call BJDebugMsg("no hero")
             return false
-        elseif not ( udg_UnitHeroLogic[heroIndex] == false or HeroesTable___IsCanChoosedManyTimes(heroId) ) then
+        elseif not ( udg_UnitHeroLogic[heroIndex] == false or HeroesTable__IsCanChoosedManyTimes(heroId) ) then
             
             return false
         endif
@@ -17404,17 +17404,17 @@ endfunction
         return true
     endfunction
     
-    function HeroesTable___GetChoosedHero takes nothing returns nothing
+    function HeroesTable__GetChoosedHero takes nothing returns nothing
         local player owner= GetTriggerPlayer()
         local integer index= GetPlayerId(owner) + 1
-        local unit hero= s__ChoosedHeroTemplate_hero[s__HeroesTable___ChoosedHero[index]]
-        local integer class= s__ChoosedHeroTemplate_class[s__HeroesTable___ChoosedHero[index]]
-        local integer position= s__ChoosedHeroTemplate_position[s__HeroesTable___ChoosedHero[index]]
-        local integer heroKey= s__ChoosedHeroTemplate_heroKey[s__HeroesTable___ChoosedHero[index]]
+        local unit hero= s__ChoosedHeroTemplate_hero[s__HeroesTable__ChoosedHero[index]]
+        local integer class= s__ChoosedHeroTemplate_class[s__HeroesTable__ChoosedHero[index]]
+        local integer position= s__ChoosedHeroTemplate_position[s__HeroesTable__ChoosedHero[index]]
+        local integer heroKey= s__ChoosedHeroTemplate_heroKey[s__HeroesTable__ChoosedHero[index]]
         local integer heroRawcode= GetUnitTypeId(hero)
         local boolean isRandomPick= heroRawcode == s__HeroFramehandle_heroId[s__HeroFrame[(9)*(9)+0]]
 
-        if HeroesTable___IsHeroCanBeChosen(heroRawcode , s__ChoosedHeroTemplate_heroKey[s__HeroesTable___ChoosedHero[index]] , index , isRandomPick) then
+        if HeroesTable__IsHeroCanBeChosen(heroRawcode , s__ChoosedHeroTemplate_heroKey[s__HeroesTable__ChoosedHero[index]] , index , isRandomPick) then
             if isRandomPick then
                 set hero=RandomHero_GetRandomHero(owner)
                 set heroKey=GetHeroNumber(GetUnitTypeId(hero))
@@ -17427,14 +17427,14 @@ endfunction
             set Event_HeroPicked_Real=1.00
             set Event_HeroPicked_Real=0.00
             
-            set s__HeroesTable_ChoosedHeroButton[index]= s__HeroesTable___heroIcon[(class)*(9)+position]
+            set s__HeroesTable_ChoosedHeroButton[index]= s__HeroesTable__heroIcon[(class)*(9)+position]
             set s__HeroesTable_ChoosedHeroIcon[index]= BlzGetAbilityIcon(GetUnitTypeId(hero))
             
             call BlzFrameSetTexture(s__HeroesTable_ChoosedHeroButton[index], "ReplaceableTextures\\CommandButtons\\BTNCancel.blp", 0, true)
-            call BlzFrameSetTexture(HeroesTable___LevelHeroIcon[index], s__HeroesTable_ChoosedHeroIcon[index], 0, true)
+            call BlzFrameSetTexture(HeroesTable__LevelHeroIcon[index], s__HeroesTable_ChoosedHeroIcon[index], 0, true)
             
             if GetLocalPlayer() == owner then
-                call BlzFrameSetVisible(HeroesTable___HeroTable, false)
+                call BlzFrameSetVisible(HeroesTable__HeroTable, false)
             endif
         elseif isRandomPick then
             call DisplayTimedTextToPlayer(owner, 0, 0, 5, "Attempts exhausted.")
@@ -17446,28 +17446,28 @@ endfunction
         set owner=null
     endfunction
 
-    function HeroesTable___SkinButton takes nothing returns nothing
+    function HeroesTable__SkinButton takes nothing returns nothing
         local player owner= GetTriggerPlayer()
         local integer index= GetPlayerId(owner) + 1
-        local unit hero= s__ChoosedHeroTemplate_hero[s__HeroesTable___ChoosedHero[index]]
+        local unit hero= s__ChoosedHeroTemplate_hero[s__HeroesTable__ChoosedHero[index]]
         local integer heroRawcode= GetUnitTypeId(hero)
-        local integer heroKey= s__ChoosedHeroTemplate_heroKey[s__HeroesTable___ChoosedHero[index]]
+        local integer heroKey= s__ChoosedHeroTemplate_heroKey[s__HeroesTable__ChoosedHero[index]]
         local integer i
 
-        if HeroesTable___MainSkinButton == BlzGetTriggerFrame() then
+        if HeroesTable__MainSkinButton == BlzGetTriggerFrame() then
             set udg_SkinUsed[index]=0
             set i=1
             loop
                 exitwhen i > udg_DB_Skin_Limit
-                if BlzFrameIsVisible(HeroesTable___Skins_Icon[i]) then
+                if BlzFrameIsVisible(HeroesTable__Skins_Icon[i]) then
                     call BlzSetUnitSkin(hero, heroRawcode)
                     if GetLocalPlayer() == owner then
-                        call BlzFrameSetVisible(HeroesTable___Skins_Button[i], false)
+                        call BlzFrameSetVisible(HeroesTable__Skins_Button[i], false)
                     endif
                 else
                     if GetLocalPlayer() == owner then
                         if s__skiniconBTN[(heroKey)*(6)+i] != null then
-                            call BlzFrameSetVisible(HeroesTable___Skins_Button[i], true)
+                            call BlzFrameSetVisible(HeroesTable__Skins_Button[i], true)
                         endif
                     endif
                 endif
@@ -17477,7 +17477,7 @@ endfunction
             set i=1
             loop
                 exitwhen i > udg_DB_Skin_Limit
-                if HeroesTable___Skins_Button[i] == BlzGetTriggerFrame() then
+                if HeroesTable__Skins_Button[i] == BlzGetTriggerFrame() then
                     if udg_LvL[index] >= s__skinlvl[(heroKey)*(6)+i] then
                         set udg_SkinUsed[index]=s__skinmodel[(heroKey)*(6)+i]
                         call BlzFrameSetTexture(faceframe[index], s__skiniconBTN[(heroKey)*(6)+i], 0, false)
@@ -17495,14 +17495,14 @@ endfunction
         set owner=null
     endfunction
 
-    function HeroesTable___HeroBan takes nothing returns nothing
+    function HeroesTable__HeroBan takes nothing returns nothing
         local player owner= GetTriggerPlayer()
         local integer index= GetPlayerId(owner) + 1
-        local integer heroKey= s__ChoosedHeroTemplate_heroKey[s__HeroesTable___ChoosedHero[index]]
+        local integer heroKey= s__ChoosedHeroTemplate_heroKey[s__HeroesTable__ChoosedHero[index]]
         //local integer frameId = GetHandleId(BlzGetTriggerFrame())
-        local integer class= s__ChoosedHeroTemplate_class[s__HeroesTable___ChoosedHero[index]]
-        local integer position= s__ChoosedHeroTemplate_position[s__HeroesTable___ChoosedHero[index]]
-        local integer heroRawcode= GetUnitTypeId(s__ChoosedHeroTemplate_hero[s__HeroesTable___ChoosedHero[index]])
+        local integer class= s__ChoosedHeroTemplate_class[s__HeroesTable__ChoosedHero[index]]
+        local integer position= s__ChoosedHeroTemplate_position[s__HeroesTable__ChoosedHero[index]]
+        local integer heroRawcode= GetUnitTypeId(s__ChoosedHeroTemplate_hero[s__HeroesTable__ChoosedHero[index]])
         local integer i
 
         if GetLocalPlayer() == owner then
@@ -17517,12 +17517,12 @@ endfunction
             if s__IsBanned[heroKey] then
                 //call BJDebugMsg("isBanned: false")
                 set s__IsBanned[heroKey]= false
-                call BlzFrameSetTexture(s__HeroesTable___heroIcon[(class)*(9)+position], BlzGetAbilityIcon(GetUnitTypeId(s__ChoosedHeroTemplate_hero[s__HeroesTable___ChoosedHero[index]])), 0, true)
+                call BlzFrameSetTexture(s__HeroesTable__heroIcon[(class)*(9)+position], BlzGetAbilityIcon(GetUnitTypeId(s__ChoosedHeroTemplate_hero[s__HeroesTable__ChoosedHero[index]])), 0, true)
                 set udg_BanLimit=udg_BanLimit + 1
             elseif udg_BanLimit > 0 then
                 //call BJDebugMsg("isBanned: true")
                 set s__IsBanned[heroKey]= true
-                call BlzFrameSetTexture(s__HeroesTable___heroIcon[(class)*(9)+position], "war3mapImported\\BTNban.blp", 0, true)
+                call BlzFrameSetTexture(s__HeroesTable__heroIcon[(class)*(9)+position], "war3mapImported\\BTNban.blp", 0, true)
                 set udg_BanLimit=udg_BanLimit - 1
                 set i=0
                 loop
@@ -17542,7 +17542,7 @@ endfunction
     endfunction
     
     //Tooltip
-    function HeroesTable___TooltipEnable takes integer index returns nothing
+    function HeroesTable__TooltipEnable takes integer index returns nothing
         local player owner= GetTriggerPlayer()
         local integer playerIndex= GetPlayerId(owner)
     
@@ -17554,19 +17554,19 @@ endfunction
         set owner=null
     endfunction 
     
-    function HeroesTable___TooltipEnable0 takes nothing returns nothing
-        call HeroesTable___TooltipEnable(1)
+    function HeroesTable__TooltipEnable0 takes nothing returns nothing
+        call HeroesTable__TooltipEnable(1)
     endfunction
     
-    function HeroesTable___TooltipEnable1 takes nothing returns nothing
-        call HeroesTable___TooltipEnable(2)
+    function HeroesTable__TooltipEnable1 takes nothing returns nothing
+        call HeroesTable__TooltipEnable(2)
     endfunction
     
-    function HeroesTable___TooltipEnable2 takes nothing returns nothing
-        call HeroesTable___TooltipEnable(3)
+    function HeroesTable__TooltipEnable2 takes nothing returns nothing
+        call HeroesTable__TooltipEnable(3)
     endfunction
     
-    function HeroesTable___CreatePotionIcon takes framehandle parent returns nothing
+    function HeroesTable__CreatePotionIcon takes framehandle parent returns nothing
         local framehandle newframe
         
         set newframe=BlzCreateFrameByType("BACKDROP", "", parent, "", 0)
@@ -17577,7 +17577,7 @@ endfunction
         set newframe=null
     endfunction
     
-    function HeroesTable___CreateIconNew takes framehandle parent returns nothing
+    function HeroesTable__CreateIconNew takes framehandle parent returns nothing
         local framehandle newframe
         
         set newframe=BlzCreateFrameByType("BACKDROP", "", parent, "", 0)
@@ -17588,7 +17588,7 @@ endfunction
         set newframe=null
     endfunction
     
-    function HeroesTable___CreateHeroButton takes trigger trigclass,integer class,integer position returns nothing
+    function HeroesTable__CreateHeroButton takes trigger trigclass,integer class,integer position returns nothing
         local integer heroFrame= s__HeroFrame[(class)*(9)+position]
         local integer i
         local framehandle buttonFrame
@@ -17603,11 +17603,11 @@ endfunction
             return
         endif
         
-        set buttonFrame=BlzCreateFrameByType("GLUEBUTTON", "", HeroesTable___HeroTable, "ScoreScreenTabButtonTemplate", 0)
-        call BlzFrameSetAbsPoint(buttonFrame, FRAMEPOINT_CENTER, HeroesTable___START_POSITION_X - ( HeroesTable___BUTTON_SIZE * class ), HeroesTable___START_POSITION_Y - ( HeroesTable___BUTTON_SIZE * position ))
-        call BlzFrameSetSize(buttonFrame, HeroesTable___BUTTON_SIZE, HeroesTable___BUTTON_SIZE)
-        call SaveInteger(udg_hash, GetHandleId(buttonFrame), HeroesTable___KEY_CLASS, class)
-        call SaveInteger(udg_hash, GetHandleId(buttonFrame), HeroesTable___KEY_POSITION, position)
+        set buttonFrame=BlzCreateFrameByType("GLUEBUTTON", "", HeroesTable__HeroTable, "ScoreScreenTabButtonTemplate", 0)
+        call BlzFrameSetAbsPoint(buttonFrame, FRAMEPOINT_CENTER, HeroesTable__START_POSITION_X - ( HeroesTable__BUTTON_SIZE * class ), HeroesTable__START_POSITION_Y - ( HeroesTable__BUTTON_SIZE * position ))
+        call BlzFrameSetSize(buttonFrame, HeroesTable__BUTTON_SIZE, HeroesTable__BUTTON_SIZE)
+        call SaveInteger(udg_hash, GetHandleId(buttonFrame), HeroesTable__KEY_CLASS, class)
+        call SaveInteger(udg_hash, GetHandleId(buttonFrame), HeroesTable__KEY_POSITION, position)
 
         set icon=BlzCreateFrameByType("BACKDROP", "", buttonFrame, "StandartFrameTemplate", 0)
         call BlzFrameSetAllPoints(icon, buttonFrame)
@@ -17615,21 +17615,21 @@ endfunction
         call BlzTriggerRegisterFrameEvent(trigclass, buttonFrame, FRAMEEVENT_CONTROL_CLICK)
         call BlzFrameSetTexture(icon, s__HeroFramehandle_icon[heroFrame], 0, true)
 
-        set s__HeroesTable___heroIcon[(class)*(9)+position]= icon
-        set s__HeroesTable___heroButton[(class)*(9)+position]= buttonFrame
+        set s__HeroesTable__heroIcon[(class)*(9)+position]= icon
+        set s__HeroesTable__heroButton[(class)*(9)+position]= buttonFrame
 
         if s__HeroFramehandle_heroId[heroFrame] == udg_Database_Hero[udg_Database_InfoNumberHeroes] then
-            call HeroesTable___CreateIconNew(buttonFrame)
+            call HeroesTable__CreateIconNew(buttonFrame)
             call BlzFrameSetLevel(buttonFrame, 2)
         endif
         
         set i=1
         loop
-            exitwhen i > HeroesTable___POTION_BONUSES_ADDED_TO_HEROES
+            exitwhen i > HeroesTable__POTION_BONUSES_ADDED_TO_HEROES
             if udg_HeroBonusPotion[i] == position and udg_HeroBonusPotionClass[i] == class then
-                call HeroesTable___CreatePotionIcon(buttonFrame)
+                call HeroesTable__CreatePotionIcon(buttonFrame)
                 set udg_HeroBonusPotionHero[i]=s__HeroFramehandle_heroId[heroFrame]
-                set i=HeroesTable___POTION_BONUSES_ADDED_TO_HEROES
+                set i=HeroesTable__POTION_BONUSES_ADDED_TO_HEROES
             endif
             set i=i + 1
         endloop
@@ -17640,12 +17640,12 @@ endfunction
         set icon=null
     endfunction
     
-    function HeroesTable___CreateHeroButtons takes nothing returns nothing
+    function HeroesTable__CreateHeroButtons takes nothing returns nothing
         local trigger trigclass= CreateTrigger()
         local framehandle buttonFrame
         local framehandle icon
         local integer i= 0
-        local integer iEnd= HeroesTable___CLASSES - 1
+        local integer iEnd= HeroesTable__CLASSES - 1
         local integer k
         local integer kEnd
         
@@ -17655,44 +17655,44 @@ endfunction
             set kEnd=s__HeroesTableDatabase_HEROES_IN_CLASS[i] - 1
             loop
                 exitwhen k > kEnd
-                call HeroesTable___CreateHeroButton(trigclass , i , k)
+                call HeroesTable__CreateHeroButton(trigclass , i , k)
                 set k=k + 1
             endloop
             set i=i + 1
         endloop
     
         //Random Hero
-        set buttonFrame=BlzCreateFrameByType("GLUEBUTTON", "", HeroesTable___HeroTable, "ScoreScreenTabButtonTemplate", 0)
-        call BlzFrameSetAbsPoint(buttonFrame, FRAMEPOINT_CENTER, ( HeroesTable___START_POSITION_X + HeroesTable___BUTTON_SIZE ) - ( HeroesTable___BUTTON_SIZE * 10 ), HeroesTable___START_POSITION_Y + HeroesTable___BUTTON_SIZE)
-        call BlzFrameSetSize(buttonFrame, HeroesTable___BUTTON_SIZE, HeroesTable___BUTTON_SIZE)
+        set buttonFrame=BlzCreateFrameByType("GLUEBUTTON", "", HeroesTable__HeroTable, "ScoreScreenTabButtonTemplate", 0)
+        call BlzFrameSetAbsPoint(buttonFrame, FRAMEPOINT_CENTER, ( HeroesTable__START_POSITION_X + HeroesTable__BUTTON_SIZE ) - ( HeroesTable__BUTTON_SIZE * 10 ), HeroesTable__START_POSITION_Y + HeroesTable__BUTTON_SIZE)
+        call BlzFrameSetSize(buttonFrame, HeroesTable__BUTTON_SIZE, HeroesTable__BUTTON_SIZE)
         call BlzTriggerRegisterFrameEvent(trigclass, buttonFrame, FRAMEEVENT_CONTROL_CLICK)
-        call SaveInteger(udg_hash, GetHandleId(buttonFrame), HeroesTable___KEY_CLASS, 9)
-        call SaveInteger(udg_hash, GetHandleId(buttonFrame), HeroesTable___KEY_POSITION, 0)
+        call SaveInteger(udg_hash, GetHandleId(buttonFrame), HeroesTable__KEY_CLASS, 9)
+        call SaveInteger(udg_hash, GetHandleId(buttonFrame), HeroesTable__KEY_POSITION, 0)
 
         set icon=BlzCreateFrameByType("BACKDROP", "", buttonFrame, "StandartFrameTemplate", 0)
         call BlzFrameSetAllPoints(icon, buttonFrame)
         call BlzFrameSetTexture(icon, "war3mapImported\\PASBTNSelectHeroOn.blp", 0, true)
         
-        call TriggerAddAction(trigclass, function HeroesTable___HeroChooseButton)
+        call TriggerAddAction(trigclass, function HeroesTable__HeroChooseButton)
         
         set trigclass=null
         set buttonFrame=null
         set icon=null
     endfunction
     
-    function HeroesTable___CreateClassFrames takes nothing returns nothing
+    function HeroesTable__CreateClassFrames takes nothing returns nothing
         local framehandle class
         local framehandle buttool
         local integer index= 0
         
         loop
-            exitwhen index > HeroesTable___CLASSES - 1
-            set class=BlzCreateFrameByType("BACKDROP", "", HeroesTable___HeroTable, "", 0)
-            call BlzFrameSetSize(class, HeroesTable___BUTTON_SIZE, HeroesTable___BUTTON_SIZE)
-            call BlzFrameSetAbsPoint(class, FRAMEPOINT_CENTER, HeroesTable___START_POSITION_X - ( HeroesTable___BUTTON_SIZE * index ), HeroesTable___START_POSITION_Y + HeroesTable___BUTTON_SIZE) //+BUTTON_SIZE
+            exitwhen index > HeroesTable__CLASSES - 1
+            set class=BlzCreateFrameByType("BACKDROP", "", HeroesTable__HeroTable, "", 0)
+            call BlzFrameSetSize(class, HeroesTable__BUTTON_SIZE, HeroesTable__BUTTON_SIZE)
+            call BlzFrameSetAbsPoint(class, FRAMEPOINT_CENTER, HeroesTable__START_POSITION_X - ( HeroesTable__BUTTON_SIZE * index ), HeroesTable__START_POSITION_Y + HeroesTable__BUTTON_SIZE) //+BUTTON_SIZE
             call BlzFrameSetTexture(class, s__ClassFramehandle_icon[s__ClassFrame[index]], 0, true)
 
-            set buttool=BlzCreateFrameByType("FRAME", "", HeroesTable___HeroTable, "", 0)
+            set buttool=BlzCreateFrameByType("FRAME", "", HeroesTable__HeroTable, "", 0)
             call BlzFrameSetAllPoints(buttool, class)
             call SetStableTool(buttool , s__ClassFramehandle_className[s__ClassFrame[index]] , s__ClassFramehandle_description[s__ClassFrame[index]])
             set index=index + 1
@@ -17702,57 +17702,57 @@ endfunction
         set buttool=null
     endfunction
     
-    function HeroesTable___MainStartFrames takes nothing returns nothing
+    function HeroesTable__MainStartFrames takes nothing returns nothing
         local integer i
         local integer rand
         local trigger chooseButtonTrigger
 
         set i=1
         loop
-            exitwhen i > HeroesTable___POTION_BONUSES_ADDED_TO_HEROES
-            set rand=GetRandomInt(0, HeroesTable___CLASSES - 1)
+            exitwhen i > HeroesTable__POTION_BONUSES_ADDED_TO_HEROES
+            set rand=GetRandomInt(0, HeroesTable__CLASSES - 1)
             set udg_HeroBonusPotion[i]=GetRandomInt(0, s__HeroesTableDatabase_HEROES_IN_CLASS[rand] - 1)
             set udg_HeroBonusPotionClass[i]=rand
             set i=i + 1
         endloop
         
-        set HeroesTable___HeroTable=BlzCreateFrameByType("FRAME", "HeroTable", BlzGetOriginFrame(ORIGIN_FRAME_GAME_UI, 0), "StandartFrameTemplate", 0)
-        call BlzFrameSetLevel(HeroesTable___HeroTable, - 1)
-        call BlzFrameSetVisible(HeroesTable___HeroTable, false)
+        set HeroesTable__HeroTable=BlzCreateFrameByType("FRAME", "HeroTable", BlzGetOriginFrame(ORIGIN_FRAME_GAME_UI, 0), "StandartFrameTemplate", 0)
+        call BlzFrameSetLevel(HeroesTable__HeroTable, - 1)
+        call BlzFrameSetVisible(HeroesTable__HeroTable, false)
 
-        set HeroesTable___ChooseButton=BlzCreateFrame("ScriptDialogButton", HeroesTable___HeroTable, 0, 0)
-        call BlzFrameSetSize(HeroesTable___ChooseButton, 0.07, 0.04)
-        call BlzFrameSetAbsPoint(HeroesTable___ChooseButton, FRAMEPOINT_CENTER, 0.18, 0.185)
-        call BlzFrameSetText(HeroesTable___ChooseButton, "Choose")
-        call BlzFrameSetLevel(HeroesTable___ChooseButton, - 1)
-        call BlzFrameSetVisible(HeroesTable___ChooseButton, false)
+        set HeroesTable__ChooseButton=BlzCreateFrame("ScriptDialogButton", HeroesTable__HeroTable, 0, 0)
+        call BlzFrameSetSize(HeroesTable__ChooseButton, 0.07, 0.04)
+        call BlzFrameSetAbsPoint(HeroesTable__ChooseButton, FRAMEPOINT_CENTER, 0.18, 0.185)
+        call BlzFrameSetText(HeroesTable__ChooseButton, "Choose")
+        call BlzFrameSetLevel(HeroesTable__ChooseButton, - 1)
+        call BlzFrameSetVisible(HeroesTable__ChooseButton, false)
         
         set chooseButtonTrigger=CreateTrigger()
-        call BlzTriggerRegisterFrameEvent(chooseButtonTrigger, HeroesTable___ChooseButton, FRAMEEVENT_CONTROL_CLICK)
-        call TriggerAddAction(chooseButtonTrigger, function HeroesTable___GetChoosedHero)
+        call BlzTriggerRegisterFrameEvent(chooseButtonTrigger, HeroesTable__ChooseButton, FRAMEEVENT_CONTROL_CLICK)
+        call TriggerAddAction(chooseButtonTrigger, function HeroesTable__GetChoosedHero)
         
         set chooseButtonTrigger=null
     endfunction
     
-    function HeroesTable___CreateSkinButtons takes nothing returns nothing
+    function HeroesTable__CreateSkinButtons takes nothing returns nothing
         local trigger skinButtonTrigger= CreateTrigger()
         local framehandle background
         local framehandle skinName
         local integer i
         
-        set HeroesTable___MainSkinButton=BlzCreateFrameByType("GLUEBUTTON", "", HeroesTable___HeroTable, "ScoreScreenTabButtonTemplate", 0)
-        call BlzFrameSetAbsPoint(HeroesTable___MainSkinButton, FRAMEPOINT_CENTER, 0.02, 0.2)
-        call BlzFrameSetSize(HeroesTable___MainSkinButton, 0.035, 0.035)
-        call BlzFrameSetVisible(HeroesTable___MainSkinButton, false)
+        set HeroesTable__MainSkinButton=BlzCreateFrameByType("GLUEBUTTON", "", HeroesTable__HeroTable, "ScoreScreenTabButtonTemplate", 0)
+        call BlzFrameSetAbsPoint(HeroesTable__MainSkinButton, FRAMEPOINT_CENTER, 0.02, 0.2)
+        call BlzFrameSetSize(HeroesTable__MainSkinButton, 0.035, 0.035)
+        call BlzFrameSetVisible(HeroesTable__MainSkinButton, false)
         
-        call TriggerAddAction(skinButtonTrigger, function HeroesTable___SkinButton)
-        call BlzTriggerRegisterFrameEvent(skinButtonTrigger, HeroesTable___MainSkinButton, FRAMEEVENT_CONTROL_CLICK)
+        call TriggerAddAction(skinButtonTrigger, function HeroesTable__SkinButton)
+        call BlzTriggerRegisterFrameEvent(skinButtonTrigger, HeroesTable__MainSkinButton, FRAMEEVENT_CONTROL_CLICK)
 
-        set HeroesTable___MainSkinIcon=BlzCreateFrameByType("BACKDROP", "", HeroesTable___MainSkinButton, "StandartFrameTemplate", 0)
-        call BlzFrameSetAllPoints(HeroesTable___MainSkinIcon, HeroesTable___MainSkinButton)
-        call BlzFrameSetTexture(HeroesTable___MainSkinIcon, "", 0, true)
+        set HeroesTable__MainSkinIcon=BlzCreateFrameByType("BACKDROP", "", HeroesTable__MainSkinButton, "StandartFrameTemplate", 0)
+        call BlzFrameSetAllPoints(HeroesTable__MainSkinIcon, HeroesTable__MainSkinButton)
+        call BlzFrameSetTexture(HeroesTable__MainSkinIcon, "", 0, true)
         
-        set background=BlzCreateFrame("QuestButtonBaseTemplate", HeroesTable___MainSkinButton, 0, 0)
+        set background=BlzCreateFrame("QuestButtonBaseTemplate", HeroesTable__MainSkinButton, 0, 0)
         call BlzFrameSetAbsPoint(background, FRAMEPOINT_CENTER, 0.02, 0.17)
         call BlzFrameSetSize(background, 0.04, 0.03)
 
@@ -17764,25 +17764,25 @@ endfunction
         set i=1
         loop
             exitwhen i > udg_DB_Skin_Limit
-            set HeroesTable___Skins_Button[i]=BlzCreateFrameByType("GLUEBUTTON", "", HeroesTable___MainSkinButton, "ScoreScreenTabButtonTemplate", 0)
-            call BlzFrameSetAbsPoint(HeroesTable___Skins_Button[i], FRAMEPOINT_CENTER, 0.02, 0.2 + ( 0.03 * i ))
-            call BlzFrameSetSize(HeroesTable___Skins_Button[i], 0.03, 0.03)
-            call BlzFrameSetVisible(HeroesTable___Skins_Button[i], false)
-            call BlzTriggerRegisterFrameEvent(skinButtonTrigger, HeroesTable___Skins_Button[i], FRAMEEVENT_CONTROL_CLICK)
-            call BlzFrameSetLevel(HeroesTable___Skins_Button[i], - 1)
+            set HeroesTable__Skins_Button[i]=BlzCreateFrameByType("GLUEBUTTON", "", HeroesTable__MainSkinButton, "ScoreScreenTabButtonTemplate", 0)
+            call BlzFrameSetAbsPoint(HeroesTable__Skins_Button[i], FRAMEPOINT_CENTER, 0.02, 0.2 + ( 0.03 * i ))
+            call BlzFrameSetSize(HeroesTable__Skins_Button[i], 0.03, 0.03)
+            call BlzFrameSetVisible(HeroesTable__Skins_Button[i], false)
+            call BlzTriggerRegisterFrameEvent(skinButtonTrigger, HeroesTable__Skins_Button[i], FRAMEEVENT_CONTROL_CLICK)
+            call BlzFrameSetLevel(HeroesTable__Skins_Button[i], - 1)
 
-            set HeroesTable___Skins_Icon[i]=BlzCreateFrameByType("BACKDROP", "", HeroesTable___Skins_Button[i], "StandartFrameTemplate", 0)
-            call BlzFrameSetAllPoints(HeroesTable___Skins_Icon[i], HeroesTable___Skins_Button[i])
-            call BlzFrameSetTexture(HeroesTable___Skins_Icon[i], "", 0, true)
+            set HeroesTable__Skins_Icon[i]=BlzCreateFrameByType("BACKDROP", "", HeroesTable__Skins_Button[i], "StandartFrameTemplate", 0)
+            call BlzFrameSetAllPoints(HeroesTable__Skins_Icon[i], HeroesTable__Skins_Button[i])
+            call BlzFrameSetTexture(HeroesTable__Skins_Icon[i], "", 0, true)
             
-            set HeroesTable___Skins_LockFrame[i]=BlzCreateFrameByType("BACKDROP", "", HeroesTable___Skins_Button[i], "StandartFrameTemplate", 0)
-            call BlzFrameSetSize(HeroesTable___Skins_LockFrame[i], 0.015, 0.015)
-            call BlzFrameSetPoint(HeroesTable___Skins_LockFrame[i], FRAMEPOINT_CENTER, HeroesTable___Skins_Button[i], FRAMEPOINT_CENTER, 0, 0)
-            call BlzFrameSetTexture(HeroesTable___Skins_LockFrame[i], "framelock.blp", 0, true)
+            set HeroesTable__Skins_LockFrame[i]=BlzCreateFrameByType("BACKDROP", "", HeroesTable__Skins_Button[i], "StandartFrameTemplate", 0)
+            call BlzFrameSetSize(HeroesTable__Skins_LockFrame[i], 0.015, 0.015)
+            call BlzFrameSetPoint(HeroesTable__Skins_LockFrame[i], FRAMEPOINT_CENTER, HeroesTable__Skins_Button[i], FRAMEPOINT_CENTER, 0, 0)
+            call BlzFrameSetTexture(HeroesTable__Skins_LockFrame[i], "framelock.blp", 0, true)
             
-            set HeroesTable___Skins_Text[i]=BlzCreateFrameByType("TEXT", "", HeroesTable___Skins_Button[i], "StandartFrameTemplate", 0)
-            call BlzFrameSetSize(HeroesTable___Skins_Text[i], 0.01, 0.01)
-            call BlzFrameSetPoint(HeroesTable___Skins_Text[i], FRAMEPOINT_CENTER, HeroesTable___Skins_Button[i], FRAMEPOINT_CENTER, 0.002, - 0.005)
+            set HeroesTable__Skins_Text[i]=BlzCreateFrameByType("TEXT", "", HeroesTable__Skins_Button[i], "StandartFrameTemplate", 0)
+            call BlzFrameSetSize(HeroesTable__Skins_Text[i], 0.01, 0.01)
+            call BlzFrameSetPoint(HeroesTable__Skins_Text[i], FRAMEPOINT_CENTER, HeroesTable__Skins_Button[i], FRAMEPOINT_CENTER, 0.002, - 0.005)
             set i=i + 1
         endloop
         
@@ -17823,25 +17823,25 @@ endfunction
         endfunction
     
     
-    function HeroesTable___CreateAbilityButtons takes nothing returns nothing
+    function HeroesTable__CreateAbilityButtons takes nothing returns nothing
         local integer i
 
-        set HeroesTable___AbilityBackground=BlzCreateFrame("EscMenuBackdrop", HeroesTable___HeroTable, 0, 0)
-        call BlzFrameSetAbsPoint(HeroesTable___AbilityBackground, FRAMEPOINT_CENTER, 0.398, 0.16)
-        call BlzFrameSetSize(HeroesTable___AbilityBackground, 0.3, 0.075)
-        call BlzFrameSetVisible(HeroesTable___AbilityBackground, false)
+        set HeroesTable__AbilityBackground=BlzCreateFrame("EscMenuBackdrop", HeroesTable__HeroTable, 0, 0)
+        call BlzFrameSetAbsPoint(HeroesTable__AbilityBackground, FRAMEPOINT_CENTER, 0.398, 0.16)
+        call BlzFrameSetSize(HeroesTable__AbilityBackground, 0.3, 0.075)
+        call BlzFrameSetVisible(HeroesTable__AbilityBackground, false)
 
         set i=1
         loop
             exitwhen i > 5
-            set s__abilityFrame[i]= s__AbilityFrame_create(HeroesTable___AbilityBackground)
+            set s__abilityFrame[i]= s__AbilityFrame_create(HeroesTable__AbilityBackground)
             
             call BlzFrameSetSize(s__AbilityFrame_icon[s__abilityFrame[i]], 0.04, 0.04)
             
             if i == 5 then
-                call BlzFrameSetPoint(s__AbilityFrame_icon[s__abilityFrame[i]], FRAMEPOINT_CENTER, HeroesTable___AbilityBackground, FRAMEPOINT_CENTER, 0.04 * ( i - 3 ) + 0.02, 0)
+                call BlzFrameSetPoint(s__AbilityFrame_icon[s__abilityFrame[i]], FRAMEPOINT_CENTER, HeroesTable__AbilityBackground, FRAMEPOINT_CENTER, 0.04 * ( i - 3 ) + 0.02, 0)
             else
-                call BlzFrameSetPoint(s__AbilityFrame_icon[s__abilityFrame[i]], FRAMEPOINT_CENTER, HeroesTable___AbilityBackground, FRAMEPOINT_CENTER, 0.04 * ( i - 3 ), 0)
+                call BlzFrameSetPoint(s__AbilityFrame_icon[s__abilityFrame[i]], FRAMEPOINT_CENTER, HeroesTable__AbilityBackground, FRAMEPOINT_CENTER, 0.04 * ( i - 3 ), 0)
             endif
 
             call BlzFrameSetLevel(s__AbilityFrame_name[s__abilityFrame[i]], 1)
@@ -17856,49 +17856,49 @@ endfunction
         
     endfunction
             
-    function HeroesTable___CreatePlayerLevelInfoFrames takes nothing returns nothing
+    function HeroesTable__CreatePlayerLevelInfoFrames takes nothing returns nothing
         local integer i
         local framehandle textBackground
     
         set i=1
         loop
             exitwhen i > PLAYERS_LIMIT
-            set HeroesTable___LevelHeroIcon[i]=BlzCreateFrameByType("BACKDROP", "", HeroesTable___HeroTable, "", 0)
-            call BlzFrameSetAbsPoint(HeroesTable___LevelHeroIcon[i], FRAMEPOINT_CENTER, 0.57 + ( i * 0.03 ), 0.2)
-            call BlzFrameSetSize(HeroesTable___LevelHeroIcon[i], 0.03, 0.03)
+            set HeroesTable__LevelHeroIcon[i]=BlzCreateFrameByType("BACKDROP", "", HeroesTable__HeroTable, "", 0)
+            call BlzFrameSetAbsPoint(HeroesTable__LevelHeroIcon[i], FRAMEPOINT_CENTER, 0.57 + ( i * 0.03 ), 0.2)
+            call BlzFrameSetSize(HeroesTable__LevelHeroIcon[i], 0.03, 0.03)
             
             if GetPlayerSlotState(Player(i - 1)) == PLAYER_SLOT_STATE_PLAYING then
-                call BlzFrameSetTexture(HeroesTable___LevelHeroIcon[i], "ReplaceableTextures\\CommandButtons\\BTNSelectHeroOn.blp", 0, true)
+                call BlzFrameSetTexture(HeroesTable__LevelHeroIcon[i], "ReplaceableTextures\\CommandButtons\\BTNSelectHeroOn.blp", 0, true)
             else
-                call BlzFrameSetTexture(HeroesTable___LevelHeroIcon[i], "war3mapImported\\BTNDivineShieldOff-Reforged.blp", 0, true)
-                call BlzFrameSetVisible(HeroesTable___LevelTextFrame[i], false)
+                call BlzFrameSetTexture(HeroesTable__LevelHeroIcon[i], "war3mapImported\\BTNDivineShieldOff-Reforged.blp", 0, true)
+                call BlzFrameSetVisible(HeroesTable__LevelTextFrame[i], false)
             endif
             
-            set textBackground=BlzCreateFrameByType("BACKDROP", "", HeroesTable___HeroTable, "", 0)
-            call BlzFrameSetPoint(textBackground, FRAMEPOINT_CENTER, HeroesTable___LevelHeroIcon[i], FRAMEPOINT_CENTER, 0, - 0.025)
+            set textBackground=BlzCreateFrameByType("BACKDROP", "", HeroesTable__HeroTable, "", 0)
+            call BlzFrameSetPoint(textBackground, FRAMEPOINT_CENTER, HeroesTable__LevelHeroIcon[i], FRAMEPOINT_CENTER, 0, - 0.025)
             call BlzFrameSetSize(textBackground, 0.02, 0.02)
             call BlzFrameSetTexture(textBackground, "war3mapImported\\BTNfeed-icon-red-1_result.blp", 0, true)
             
-            set HeroesTable___LevelTextFrame[i]=BlzCreateFrameByType("TEXT", "", HeroesTable___HeroTable, "StandartFrameTemplate", 0)
-            call BlzFrameSetSize(HeroesTable___LevelTextFrame[i], 0.02, 0.01)
-            call BlzFrameSetPoint(HeroesTable___LevelTextFrame[i], FRAMEPOINT_CENTER, textBackground, FRAMEPOINT_CENTER, 0.005, 0)
+            set HeroesTable__LevelTextFrame[i]=BlzCreateFrameByType("TEXT", "", HeroesTable__HeroTable, "StandartFrameTemplate", 0)
+            call BlzFrameSetSize(HeroesTable__LevelTextFrame[i], 0.02, 0.01)
+            call BlzFrameSetPoint(HeroesTable__LevelTextFrame[i], FRAMEPOINT_CENTER, textBackground, FRAMEPOINT_CENTER, 0.005, 0)
             set i=i + 1
         endloop
         
         set textBackground=null
     endfunction
     
-    function HeroesTable___CreateBanButton takes nothing returns nothing
+    function HeroesTable__CreateBanButton takes nothing returns nothing
         local trigger trig= CreateTrigger()
     
-        set HeroesTable___BanButton=BlzCreateFrame("ScriptDialogButton", HeroesTable___HeroTable, 0, 0)
-        call BlzFrameSetSize(HeroesTable___BanButton, 0.04, 0.03)
-        call BlzFrameSetAbsPoint(HeroesTable___BanButton, FRAMEPOINT_BOTTOMLEFT, 0.035, 0.195)
-        call BlzFrameSetText(HeroesTable___BanButton, "Ban")
-        call BlzFrameSetVisible(HeroesTable___BanButton, false)
+        set HeroesTable__BanButton=BlzCreateFrame("ScriptDialogButton", HeroesTable__HeroTable, 0, 0)
+        call BlzFrameSetSize(HeroesTable__BanButton, 0.04, 0.03)
+        call BlzFrameSetAbsPoint(HeroesTable__BanButton, FRAMEPOINT_BOTTOMLEFT, 0.035, 0.195)
+        call BlzFrameSetText(HeroesTable__BanButton, "Ban")
+        call BlzFrameSetVisible(HeroesTable__BanButton, false)
          
-        call BlzTriggerRegisterFrameEvent(trig, HeroesTable___BanButton, FRAMEEVENT_CONTROL_CLICK)
-        call TriggerAddAction(trig, function HeroesTable___HeroBan)
+        call BlzTriggerRegisterFrameEvent(trig, HeroesTable__BanButton, FRAMEEVENT_CONTROL_CLICK)
+        call TriggerAddAction(trig, function HeroesTable__HeroBan)
         
         set trig=null
     endfunction
@@ -17906,55 +17906,55 @@ endfunction
     //Info Panel
     function InfoButtonClick takes nothing returns nothing
         if GetLocalPlayer() == GetTriggerPlayer() then
-            call BlzFrameSetEnable(HeroesTable___InfoButton, false)
-            call BlzFrameSetEnable(HeroesTable___InfoButton, true)
-            if BlzFrameIsVisible(HeroesTable___InfoBackground) then
-                call BlzFrameSetVisible(HeroesTable___InfoBackground, false)
+            call BlzFrameSetEnable(HeroesTable__InfoButton, false)
+            call BlzFrameSetEnable(HeroesTable__InfoButton, true)
+            if BlzFrameIsVisible(HeroesTable__InfoBackground) then
+                call BlzFrameSetVisible(HeroesTable__InfoBackground, false)
             else
-                call BlzFrameSetVisible(HeroesTable___InfoBackground, true)
+                call BlzFrameSetVisible(HeroesTable__InfoBackground, true)
             endif
         endif
     endfunction 
     
-    function HeroesTable___CreateAspects takes framehandle parent returns nothing
+    function HeroesTable__CreateAspects takes framehandle parent returns nothing
         local framehandle passiveOutline
         local integer i
     
         set i=0
         loop
             exitwhen i > 2
-            set s__HeroesTable___AspectVision[i]= BlzCreateFrameByType("BACKDROP", "AspectVision0" + I2S(i), parent, "", 1)
-            call BlzFrameSetPoint(s__HeroesTable___AspectVision[i], FRAMEPOINT_LEFT, parent, FRAMEPOINT_RIGHT, i * HeroesTable___ASPECTS_INDENT, 0)
-            call BlzFrameSetSize(s__HeroesTable___AspectVision[i], HeroesTable___ASPECTS_SIZE, HeroesTable___ASPECTS_SIZE)
-            call BlzFrameSetTexture(s__HeroesTable___AspectVision[i], "", 0, true)
+            set s__HeroesTable__AspectVision[i]= BlzCreateFrameByType("BACKDROP", "AspectVision0" + I2S(i), parent, "", 1)
+            call BlzFrameSetPoint(s__HeroesTable__AspectVision[i], FRAMEPOINT_LEFT, parent, FRAMEPOINT_RIGHT, i * HeroesTable__ASPECTS_INDENT, 0)
+            call BlzFrameSetSize(s__HeroesTable__AspectVision[i], HeroesTable__ASPECTS_SIZE, HeroesTable__ASPECTS_SIZE)
+            call BlzFrameSetTexture(s__HeroesTable__AspectVision[i], "", 0, true)
             
-            set s__HeroesTable___AspectButton[i]= BlzCreateFrameByType("BUTTON", "", s__HeroesTable___AspectVision[i], "", 1)
-            call BlzFrameSetAllPoints(s__HeroesTable___AspectButton[i], s__HeroesTable___AspectVision[i])
+            set s__HeroesTable__AspectButton[i]= BlzCreateFrameByType("BUTTON", "", s__HeroesTable__AspectVision[i], "", 1)
+            call BlzFrameSetAllPoints(s__HeroesTable__AspectButton[i], s__HeroesTable__AspectVision[i])
             
-            set passiveOutline=BlzCreateFrameByType("BACKDROP", "", s__HeroesTable___AspectVision[i], "StandartFrameTemplate", 0)
+            set passiveOutline=BlzCreateFrameByType("BACKDROP", "", s__HeroesTable__AspectVision[i], "StandartFrameTemplate", 0)
             call BlzFrameSetTexture(passiveOutline, "war3mapImported\\PAS_Effect.blp", 0, true)
-            call BlzFrameSetAllPoints(passiveOutline, s__HeroesTable___AspectVision[i])
+            call BlzFrameSetAllPoints(passiveOutline, s__HeroesTable__AspectVision[i])
             set i=i + 1
         endloop
         
-        call Tooltip_AddEvent(s__HeroesTable___AspectButton[0] , function HeroesTable___TooltipEnable0)
-        call Tooltip_AddEvent(s__HeroesTable___AspectButton[1] , function HeroesTable___TooltipEnable1)
-        call Tooltip_AddEvent(s__HeroesTable___AspectButton[2] , function HeroesTable___TooltipEnable2)
+        call Tooltip_AddEvent(s__HeroesTable__AspectButton[0] , function HeroesTable__TooltipEnable0)
+        call Tooltip_AddEvent(s__HeroesTable__AspectButton[1] , function HeroesTable__TooltipEnable1)
+        call Tooltip_AddEvent(s__HeroesTable__AspectButton[2] , function HeroesTable__TooltipEnable2)
         
         set parent=null
         set passiveOutline=null
     endfunction 
     
-    function HeroesTable___CreateStory takes framehandle parent returns nothing
-        set HeroesTable___StoryTextArea=BlzCreateFrame("MyTextArea", parent, 0, 0)
-        call BlzFrameSetSize(HeroesTable___StoryTextArea, 0.32, 0.12)
-        call BlzFrameSetPoint(HeroesTable___StoryTextArea, FRAMEPOINT_TOPLEFT, parent, FRAMEPOINT_BOTTOMLEFT, 0, - 0.005)
-        call BlzFrameSetText(HeroesTable___StoryTextArea, "None")
+    function HeroesTable__CreateStory takes framehandle parent returns nothing
+        set HeroesTable__StoryTextArea=BlzCreateFrame("MyTextArea", parent, 0, 0)
+        call BlzFrameSetSize(HeroesTable__StoryTextArea, 0.32, 0.12)
+        call BlzFrameSetPoint(HeroesTable__StoryTextArea, FRAMEPOINT_TOPLEFT, parent, FRAMEPOINT_BOTTOMLEFT, 0, - 0.005)
+        call BlzFrameSetText(HeroesTable__StoryTextArea, "None")
     
         set parent=null
     endfunction 
     
-    function HeroesTable___CreateInfoPanel takes nothing returns nothing
+    function HeroesTable__CreateInfoPanel takes nothing returns nothing
         local framehandle firstFrame
         local framehandle secondFrame
         local trigger trig
@@ -17962,21 +17962,21 @@ endfunction
         local integer i
         local integer iEnd
     
-        set HeroesTable___InfoButton=BlzCreateFrame("ScriptDialogButton", HeroesTable___HeroTable, 0, 0)
-        call BlzFrameSetSize(HeroesTable___InfoButton, 0.04, 0.03)
-        call BlzFrameSetAbsPoint(HeroesTable___InfoButton, FRAMEPOINT_BOTTOMLEFT, 0.035, 0.165)
-        call BlzFrameSetText(HeroesTable___InfoButton, "|cffFCD20DInfo|r")
-        call BlzFrameSetVisible(HeroesTable___InfoButton, false)
+        set HeroesTable__InfoButton=BlzCreateFrame("ScriptDialogButton", HeroesTable__HeroTable, 0, 0)
+        call BlzFrameSetSize(HeroesTable__InfoButton, 0.04, 0.03)
+        call BlzFrameSetAbsPoint(HeroesTable__InfoButton, FRAMEPOINT_BOTTOMLEFT, 0.035, 0.165)
+        call BlzFrameSetText(HeroesTable__InfoButton, "|cffFCD20DInfo|r")
+        call BlzFrameSetVisible(HeroesTable__InfoButton, false)
 
         set trig=CreateTrigger()
-        call BlzTriggerRegisterFrameEvent(trig, HeroesTable___InfoButton, FRAMEEVENT_CONTROL_CLICK)
+        call BlzTriggerRegisterFrameEvent(trig, HeroesTable__InfoButton, FRAMEEVENT_CONTROL_CLICK)
         call TriggerAddAction(trig, function InfoButtonClick)
 
-        set HeroesTable___InfoBackground=BlzCreateFrame("QuestButtonBaseTemplate", HeroesTable___HeroTable, 0, 0)
-        call BlzFrameSetAbsPoint(HeroesTable___InfoBackground, FRAMEPOINT_TOPLEFT, 0.015, 0.52)
-        call BlzFrameSetSize(HeroesTable___InfoBackground, 0.34, 0.3)
-        call BlzFrameSetVisible(HeroesTable___InfoBackground, false)
-        call BlzFrameSetLevel(HeroesTable___InfoBackground, 2)
+        set HeroesTable__InfoBackground=BlzCreateFrame("QuestButtonBaseTemplate", HeroesTable__HeroTable, 0, 0)
+        call BlzFrameSetAbsPoint(HeroesTable__InfoBackground, FRAMEPOINT_TOPLEFT, 0.015, 0.52)
+        call BlzFrameSetSize(HeroesTable__InfoBackground, 0.34, 0.3)
+        call BlzFrameSetVisible(HeroesTable__InfoBackground, false)
+        call BlzFrameSetLevel(HeroesTable__InfoBackground, 2)
 
         set names[0]="|cffe1a019Name:|r"
         set names[1]="|cffe1a019Difficulty:|r"
@@ -17987,32 +17987,32 @@ endfunction
         set names[6]="|cffe1a019Aspects:|r"
         set names[7]="|cffe1a019Story:|r"
 
-        set secondFrame=HeroesTable___InfoBackground
+        set secondFrame=HeroesTable__InfoBackground
         set i=0
-        set iEnd=HeroesTable___TEXT_NUMBERS - 1
+        set iEnd=HeroesTable__TEXT_NUMBERS - 1
         loop
             exitwhen i > iEnd
             set firstFrame=secondFrame
-            set secondFrame=BlzCreateFrameByType("TEXT", "name", HeroesTable___InfoBackground, "", 0)
+            set secondFrame=BlzCreateFrameByType("TEXT", "name", HeroesTable__InfoBackground, "", 0)
             
             if i == iEnd then
                 call BlzFrameSetPoint(secondFrame, FRAMEPOINT_TOPRIGHT, firstFrame, FRAMEPOINT_BOTTOMRIGHT, 0, - 0.01)
-                call HeroesTable___CreateStory(secondFrame)
-                set s__HeroesTable___InfoPanelText[i]= null
+                call HeroesTable__CreateStory(secondFrame)
+                set s__HeroesTable__InfoPanelText[i]= null
             else
-                if i == HeroesTable___TEXT_NUMBERS - 2 then
+                if i == HeroesTable__TEXT_NUMBERS - 2 then
                     call BlzFrameSetPoint(secondFrame, FRAMEPOINT_TOPRIGHT, firstFrame, FRAMEPOINT_BOTTOMRIGHT, 0, - 0.01)
-                    call HeroesTable___CreateAspects(secondFrame)
+                    call HeroesTable__CreateAspects(secondFrame)
                 elseif i == 0 then
                     call BlzFrameSetPoint(secondFrame, FRAMEPOINT_LEFT, firstFrame, FRAMEPOINT_TOPLEFT, 0.01, - 0.015)
                 else
                     call BlzFrameSetPoint(secondFrame, FRAMEPOINT_TOPRIGHT, firstFrame, FRAMEPOINT_BOTTOMRIGHT, 0, 0)
                 endif
-                set s__HeroesTable___InfoPanelText[i]= BlzCreateFrameByType("TEXT", "name", secondFrame, "", 0)
-                call BlzFrameSetPoint(s__HeroesTable___InfoPanelText[i], FRAMEPOINT_LEFT, secondFrame, FRAMEPOINT_RIGHT, 0.005, 0)
-                call BlzFrameSetSize(s__HeroesTable___InfoPanelText[i], 0.18, 0.015)
-                call BlzFrameSetText(s__HeroesTable___InfoPanelText[i], "None")
-                call BlzFrameSetTextAlignment(s__HeroesTable___InfoPanelText[i], TEXT_JUSTIFY_CENTER, TEXT_JUSTIFY_LEFT)
+                set s__HeroesTable__InfoPanelText[i]= BlzCreateFrameByType("TEXT", "name", secondFrame, "", 0)
+                call BlzFrameSetPoint(s__HeroesTable__InfoPanelText[i], FRAMEPOINT_LEFT, secondFrame, FRAMEPOINT_RIGHT, 0.005, 0)
+                call BlzFrameSetSize(s__HeroesTable__InfoPanelText[i], 0.18, 0.015)
+                call BlzFrameSetText(s__HeroesTable__InfoPanelText[i], "None")
+                call BlzFrameSetTextAlignment(s__HeroesTable__InfoPanelText[i], TEXT_JUSTIFY_CENTER, TEXT_JUSTIFY_LEFT)
             endif
             
             call BlzFrameSetSize(secondFrame, 0.05, 0.015)
@@ -18023,10 +18023,10 @@ endfunction
             set i=i + 1
         endloop
         
-        set HeroesTable___InfoPanel_Icon=BlzCreateFrameByType("BACKDROP", "InfoPanelIcon", HeroesTable___InfoBackground, "", 1)
-        call BlzFrameSetPoint(HeroesTable___InfoPanel_Icon, FRAMEPOINT_TOPRIGHT, HeroesTable___InfoBackground, FRAMEPOINT_TOPRIGHT, - 0.01, - 0.01)
-        call BlzFrameSetSize(HeroesTable___InfoPanel_Icon, 0.05, 0.05)
-        call BlzFrameSetTexture(HeroesTable___InfoPanel_Icon, "", 0, true)
+        set HeroesTable__InfoPanel_Icon=BlzCreateFrameByType("BACKDROP", "InfoPanelIcon", HeroesTable__InfoBackground, "", 1)
+        call BlzFrameSetPoint(HeroesTable__InfoPanel_Icon, FRAMEPOINT_TOPRIGHT, HeroesTable__InfoBackground, FRAMEPOINT_TOPRIGHT, - 0.01, - 0.01)
+        call BlzFrameSetSize(HeroesTable__InfoPanel_Icon, 0.05, 0.05)
+        call BlzFrameSetTexture(HeroesTable__InfoPanel_Icon, "", 0, true)
          
         set trig=null
         set firstFrame=null
@@ -18034,41 +18034,41 @@ endfunction
     endfunction 
     
     //Init All Peices
-    function HeroesTable___InitTable takes nothing returns nothing
-        call HeroesTable___MainStartFrames()
-        call HeroesTable___CreateBanButton()
-        call HeroesTable___CreateSkinButtons()
-        call HeroesTable___CreateAbilityButtons()
-        call HeroesTable___CreateClassFrames()
-        call HeroesTable___CreateHeroButtons()
-        call HeroesTable___CreatePlayerLevelInfoFrames()
-        call HeroesTable___CreateInfoPanel()
+    function HeroesTable__InitTable takes nothing returns nothing
+        call HeroesTable__MainStartFrames()
+        call HeroesTable__CreateBanButton()
+        call HeroesTable__CreateSkinButtons()
+        call HeroesTable__CreateAbilityButtons()
+        call HeroesTable__CreateClassFrames()
+        call HeroesTable__CreateHeroButtons()
+        call HeroesTable__CreatePlayerLevelInfoFrames()
+        call HeroesTable__CreateInfoPanel()
         
-        call BlzFrameSetVisible(HeroesTable___HeroTable, true)
+        call BlzFrameSetVisible(HeroesTable__HeroTable, true)
     endfunction
     
     //===========================================================================
-    function HeroesTable___StartInit takes nothing returns nothing
+    function HeroesTable__StartInit takes nothing returns nothing
         local integer i
-        call CreateEventTrigger("Event_HeroRepick_Real" , function HeroesTable___HeroRepick , null)
-        call CreateEventTrigger("Event_PlayerLeave_Real" , function HeroesTable___HeroLeave , null)
+        call CreateEventTrigger("Event_HeroRepick_Real" , function HeroesTable__HeroRepick , null)
+        call CreateEventTrigger("Event_PlayerLeave_Real" , function HeroesTable__HeroLeave , null)
         //call CreateEventTrigger( "Event_HeroChoose_Real", function HeroChoose, null )
         
-        call HeroesTable___InitTable()
+        call HeroesTable__InitTable()
         
         set i=1
         loop
             exitwhen i > PLAYERS_LIMIT
             set s__HeroesTable_ChoosedHeroButton[i]= null
             set s__HeroesTable_ChoosedHeroIcon[i]= ""
-            set s__HeroesTable___ChoosedHero[i]= s__ChoosedHeroTemplate__allocate()
+            set s__HeroesTable__ChoosedHero[i]= s__ChoosedHeroTemplate__allocate()
             set i=i + 1
         endloop
     endfunction
     
-    function HeroesTable___init takes nothing returns nothing
+    function HeroesTable__init takes nothing returns nothing
         call BlzLoadTOCFile("war3mapImported\\TextAreaTemplate.toc")
-        call CreateEventTrigger("Event_DatabaseLoaded" , function HeroesTable___StartInit , null)
+        call CreateEventTrigger("Event_DatabaseLoaded" , function HeroesTable__StartInit , null)
     endfunction
 
 
@@ -20219,7 +20219,6 @@ function CreateAllItems takes nothing returns nothing
     local integer itemID
 
     call BlzCreateItemWithSkin('I052', - 5929.0, 7328.9, 'I052')
-    call BlzCreateItemWithSkin('IV08', 4827.4, 4900.0, 'IV08')
 endfunction
 
 //***************************************************************************
@@ -25061,7 +25060,7 @@ endfunction
         return i
     endfunction
     
-    function PlayerLeave__DeleteItems takes unit hero returns nothing
+    function PlayerLeave___DeleteItems takes unit hero returns nothing
         local integer i= 0
         local item it
         
@@ -25128,7 +25127,7 @@ endfunction
             set udg_BossAT=0.2
         endif
 
-        call PlayerLeave__DeleteItems(udg_hero[i])
+        call PlayerLeave___DeleteItems(udg_hero[i])
 
         set udg_Heroes_Amount=- 1
         set cyclA=0
@@ -25816,7 +25815,7 @@ endfunction
     endfunction
 
     //===========================================================================
-    function BaseTooltip__init takes nothing returns nothing
+    function BaseTooltip___init takes nothing returns nothing
         call TimerStart(CreateTimer(), 0.1, false, function Trig_BaseTooltip_Actions)
     endfunction
 
@@ -55951,19 +55950,19 @@ endfunction
 // scope OrbCenarius begins
 
 
-    function OrbCenarius___OrbCenariusCast takes nothing returns nothing
+    function OrbCenarius__OrbCenariusCast takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local real heal= LoadReal(udg_hash, id, StringHash("orbnc"))
         local unit caster= LoadUnitHandle(udg_hash, id, StringHash("orbncc"))
         local unit target= LoadUnitHandle(udg_hash, id, StringHash("orbnc"))
         
-        if IsUnitAlive(target) and IsUnitHasAbility(target , OrbCenarius___EFFECT) then
-            set OrbCenarius___IsFromOrbOfCenarius=true
+        if IsUnitAlive(target) and IsUnitHasAbility(target , OrbCenarius__EFFECT) then
+            set OrbCenarius__IsFromOrbOfCenarius=true
             call healst(caster , target , heal)
-            set OrbCenarius___IsFromOrbOfCenarius=false
+            set OrbCenarius__IsFromOrbOfCenarius=false
         else
-            call UnitRemoveAbility(target, OrbCenarius___EFFECT)
-            call UnitRemoveAbility(target, OrbCenarius___BUFF)
+            call UnitRemoveAbility(target, OrbCenarius__EFFECT)
+            call UnitRemoveAbility(target, OrbCenarius__BUFF)
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
         endif
@@ -55972,20 +55971,20 @@ endfunction
         set target=null
     endfunction
 
-    function OrbCenarius___AfterHeal_Conditions takes nothing returns boolean
-        return IsHeroHasItem(Event_AfterHeal_Caster , OrbCenarius___ID_ITEM) and OrbCenarius___IsFromOrbOfCenarius == false
+    function OrbCenarius__AfterHeal_Conditions takes nothing returns boolean
+        return IsHeroHasItem(Event_AfterHeal_Caster , OrbCenarius__ID_ITEM) and OrbCenarius__IsFromOrbOfCenarius == false
     endfunction
     
-    function OrbCenarius___AfterHeal takes nothing returns nothing
+    function OrbCenarius__AfterHeal takes nothing returns nothing
         local unit caster= Event_AfterHeal_Caster
         local unit target= Event_AfterHeal_Target
-        local real heal= Event_AfterHeal_Heal * OrbCenarius___HEAL_EFFECTIVENESS
-        local real duration= timebonus(caster , OrbCenarius___DURATION)
+        local real heal= Event_AfterHeal_Heal * OrbCenarius__HEAL_EFFECTIVENESS
+        local real duration= timebonus(caster , OrbCenarius__DURATION)
         local integer id
     
-        call bufallst(caster , target , OrbCenarius___EFFECT , 0 , 0 , 0 , 0 , OrbCenarius___BUFF , "orbn" , duration)
+        call bufallst(caster , target , OrbCenarius__EFFECT , 0 , 0 , 0 , 0 , OrbCenarius__BUFF , "orbn" , duration)
         
-        set id=InvokeTimerWithUnit(target , "orbnc" , OrbCenarius___TICK , true , function OrbCenarius___OrbCenariusCast)
+        set id=InvokeTimerWithUnit(target , "orbnc" , OrbCenarius__TICK , true , function OrbCenarius__OrbCenariusCast)
         call SaveUnitHandle(udg_hash, id, StringHash("orbncc"), caster)
         call SaveReal(udg_hash, id, StringHash("orbnc"), heal)
         
@@ -55994,17 +55993,17 @@ endfunction
     endfunction
     
     //Delete buff
-    function OrbCenarius___DeleteBuff_Conditions takes nothing returns boolean
-        return IsUnitHasAbility(Event_DeleteBuff_Unit , OrbCenarius___EFFECT)
+    function OrbCenarius__DeleteBuff_Conditions takes nothing returns boolean
+        return IsUnitHasAbility(Event_DeleteBuff_Unit , OrbCenarius__EFFECT)
     endfunction
     
-    function OrbCenarius___DeleteBuff takes nothing returns nothing
-        call RemoveEffect(Event_DeleteBuff_Unit , OrbCenarius___EFFECT , OrbCenarius___BUFF)
+    function OrbCenarius__DeleteBuff takes nothing returns nothing
+        call RemoveEffect(Event_DeleteBuff_Unit , OrbCenarius__EFFECT , OrbCenarius__BUFF)
     endfunction
     
-    function OrbCenarius___init takes nothing returns nothing
-        call CreateEventTrigger("Event_AfterHeal_Real" , function OrbCenarius___AfterHeal , function OrbCenarius___AfterHeal_Conditions)
-        call CreateEventTrigger("Event_DeleteBuff_Real" , function OrbCenarius___DeleteBuff , function OrbCenarius___DeleteBuff_Conditions)
+    function OrbCenarius__init takes nothing returns nothing
+        call CreateEventTrigger("Event_AfterHeal_Real" , function OrbCenarius__AfterHeal , function OrbCenarius__AfterHeal_Conditions)
+        call CreateEventTrigger("Event_DeleteBuff_Real" , function OrbCenarius__DeleteBuff , function OrbCenarius__DeleteBuff_Conditions)
     endfunction
 
 // scope OrbCenarius ends
@@ -56014,12 +56013,12 @@ endfunction
 // scope OrbRollingPlains begins
 
 
-    function OrbRollingPlains___AddPotencialTargets takes unit caster,unit target,group potencialTarget,group affected returns nothing
+    function OrbRollingPlains__AddPotencialTargets takes unit caster,unit target,group potencialTarget,group affected returns nothing
         local group g= CreateGroup()
         local unit u
     
         call GroupClear(potencialTarget)
-        call GroupEnumUnitsInRange(g, GetUnitX(target), GetUnitY(target), OrbRollingPlains___AREA_JUMP, null)
+        call GroupEnumUnitsInRange(g, GetUnitX(target), GetUnitY(target), OrbRollingPlains__AREA_JUMP, null)
         loop
             set u=FirstOfGroup(g)
             exitwhen u == null
@@ -56037,25 +56036,25 @@ endfunction
         set u=null
     endfunction
 
-    function OrbRollingPlains___ChainHeal takes unit caster returns nothing
+    function OrbRollingPlains__ChainHeal takes unit caster returns nothing
         local unit target
         local unit lastunit
         local group potencialTarget= CreateGroup()
         local group affected= CreateGroup()
         local integer i
         
-        set target=randomtarget(caster , OrbRollingPlains___AREA_FIRST_JUMP , TARGET_ALLY , RANDOM_TARGET_NOT_FULL_HEALTH , "" , "" , "")
+        set target=randomtarget(caster , OrbRollingPlains__AREA_FIRST_JUMP , TARGET_ALLY , RANDOM_TARGET_NOT_FULL_HEALTH , "" , "" , "")
         
         if target != null then
             set lastunit=caster
             set i=1
             loop
-                call Lightning_CreateLightning("HWPB" , GetUnitX(lastunit) , GetUnitY(lastunit) , GetUnitFlyHeight(lastunit) + 50 , GetUnitX(target) , GetUnitY(target) , GetUnitFlyHeight(target) + 50 , OrbRollingPlains___LIGHTNING_LIFE_TIME)
+                call Lightning_CreateLightning("HWPB" , GetUnitX(lastunit) , GetUnitY(lastunit) , GetUnitFlyHeight(lastunit) + 50 , GetUnitX(target) , GetUnitY(target) , GetUnitFlyHeight(target) + 50 , OrbRollingPlains__LIGHTNING_LIFE_TIME)
                 
-                call healst(caster , target , OrbRollingPlains___HEAL)
+                call healst(caster , target , OrbRollingPlains__HEAL)
                 
-                call OrbRollingPlains___AddPotencialTargets(caster , target , potencialTarget , affected)
-                exitwhen i >= OrbRollingPlains___JUMPS_LIMIT or IsUnitGroupEmptyBJ(potencialTarget)
+                call OrbRollingPlains__AddPotencialTargets(caster , target , potencialTarget , affected)
+                exitwhen i >= OrbRollingPlains__JUMPS_LIMIT or IsUnitGroupEmptyBJ(potencialTarget)
                 set lastunit=target
                 set target=GroupPickRandomUnit(potencialTarget)
                 call GroupAddUnit(affected, target)
@@ -56076,31 +56075,31 @@ endfunction
 
 
     //Damage Trigger
-    function OrbRollingPlains___AfterDamageEvent_Conditions takes nothing returns boolean
-        return IsHeroHasItem(udg_DamageEventSource , OrbRollingPlains___ID_ITEM) and udg_DamageEventAmount >= OrbRollingPlains___COUNT_NEEDED and OrbRollingPlains___IsLoop == false
+    function OrbRollingPlains__AfterDamageEvent_Conditions takes nothing returns boolean
+        return IsHeroHasItem(udg_DamageEventSource , OrbRollingPlains__ID_ITEM) and udg_DamageEventAmount >= OrbRollingPlains__COUNT_NEEDED and OrbRollingPlains__IsLoop == false
     endfunction
     
-    function OrbRollingPlains___AfterDamageEvent takes nothing returns nothing
-        set OrbRollingPlains___IsLoop=true
-        call OrbRollingPlains___ChainHeal(udg_DamageEventSource)
-        set OrbRollingPlains___IsLoop=false
+    function OrbRollingPlains__AfterDamageEvent takes nothing returns nothing
+        set OrbRollingPlains__IsLoop=true
+        call OrbRollingPlains__ChainHeal(udg_DamageEventSource)
+        set OrbRollingPlains__IsLoop=false
     endfunction
 
 
     //Heal Trigger
-    function OrbRollingPlains___AfterHeal_Conditions takes nothing returns boolean
-        return IsHeroHasItem(Event_AfterHeal_Caster , OrbRollingPlains___ID_ITEM) and Event_AfterHeal_Heal >= OrbRollingPlains___COUNT_NEEDED and OrbRollingPlains___IsLoop == false
+    function OrbRollingPlains__AfterHeal_Conditions takes nothing returns boolean
+        return IsHeroHasItem(Event_AfterHeal_Caster , OrbRollingPlains__ID_ITEM) and Event_AfterHeal_Heal >= OrbRollingPlains__COUNT_NEEDED and OrbRollingPlains__IsLoop == false
     endfunction
     
-    function OrbRollingPlains___AfterHeal takes nothing returns nothing
-        set OrbRollingPlains___IsLoop=true
-        call OrbRollingPlains___ChainHeal(Event_AfterHeal_Caster)
-        set OrbRollingPlains___IsLoop=false
+    function OrbRollingPlains__AfterHeal takes nothing returns nothing
+        set OrbRollingPlains__IsLoop=true
+        call OrbRollingPlains__ChainHeal(Event_AfterHeal_Caster)
+        set OrbRollingPlains__IsLoop=false
     endfunction
     
-    function OrbRollingPlains___init takes nothing returns nothing
-        call CreateEventTrigger("Event_AfterHeal_Real" , function OrbRollingPlains___AfterHeal , function OrbRollingPlains___AfterHeal_Conditions)
-        call CreateEventTrigger("udg_AfterDamageEvent" , function OrbRollingPlains___AfterDamageEvent , function OrbRollingPlains___AfterDamageEvent_Conditions)
+    function OrbRollingPlains__init takes nothing returns nothing
+        call CreateEventTrigger("Event_AfterHeal_Real" , function OrbRollingPlains__AfterHeal , function OrbRollingPlains__AfterHeal_Conditions)
+        call CreateEventTrigger("udg_AfterDamageEvent" , function OrbRollingPlains__AfterDamageEvent , function OrbRollingPlains__AfterDamageEvent_Conditions)
     endfunction
 
 // scope OrbRollingPlains ends
@@ -56110,14 +56109,14 @@ endfunction
 // scope OrbFrozenThundra begins
 
 
-    function OrbFrozenThundra___AfterHeal_Conditions takes nothing returns boolean
-        if IsHeroHasItem(Event_AfterHeal_Caster , OrbFrozenThundra___ID_ITEM) == false then
+    function OrbFrozenThundra__AfterHeal_Conditions takes nothing returns boolean
+        if IsHeroHasItem(Event_AfterHeal_Caster , OrbFrozenThundra__ID_ITEM) == false then
             return false
-        elseif GetHealthPercent(Event_AfterHeal_Target) - Event_AfterHeal_Heal > OrbFrozenThundra___HEALTH_PERCENT_NEEDED then
+        elseif GetHealthPercent(Event_AfterHeal_Target) - Event_AfterHeal_Heal > OrbFrozenThundra__HEALTH_PERCENT_NEEDED then
             return false
         elseif LoadBoolean(udg_hash, GetHandleId(Event_AfterHeal_Caster), StringHash("orbth")) then
             return false
-        elseif OrbFrozenThundra___isLoop then
+        elseif OrbFrozenThundra__isLoop then
             return false
         elseif IsUnitType(Event_AfterHeal_Target, UNIT_TYPE_HERO) == false then
             return false
@@ -56135,27 +56134,27 @@ endfunction
         set u=null
     endfunction    
     
-    function OrbFrozenThundra___AfterHeal takes nothing returns nothing
+    function OrbFrozenThundra__AfterHeal takes nothing returns nothing
         local unit caster= Event_AfterHeal_Caster
         local unit target= Event_AfterHeal_Target
         
         call SaveBoolean(udg_hash, GetHandleId(caster), StringHash("orbth"), true)
-        call BlzStartUnitAbilityCooldown(caster, 'A15D', OrbFrozenThundra___COOLDOWN)
+        call BlzStartUnitAbilityCooldown(caster, 'A15D', OrbFrozenThundra__COOLDOWN)
         
-        call PlaySpecialEffect(OrbFrozenThundra___ANIMATION , target)
-        set OrbFrozenThundra___isLoop=true
+        call PlaySpecialEffect(OrbFrozenThundra__ANIMATION , target)
+        set OrbFrozenThundra__isLoop=true
         call healst(caster , target , GetUnitState(target, UNIT_STATE_MAX_LIFE))
-        set OrbFrozenThundra___isLoop=false
+        set OrbFrozenThundra__isLoop=false
         
-        call InvokeTimerWithUnit(caster , "orbth" , OrbFrozenThundra___COOLDOWN , false , function OrbThundraEnd)
+        call InvokeTimerWithUnit(caster , "orbth" , OrbFrozenThundra__COOLDOWN , false , function OrbThundraEnd)
     
         set caster=null
         set target=null
     endfunction
 
     //===========================================================================
-    function OrbFrozenThundra___init takes nothing returns nothing
-        call CreateEventTrigger("Event_AfterHeal_Real" , function OrbFrozenThundra___AfterHeal , function OrbFrozenThundra___AfterHeal_Conditions)
+    function OrbFrozenThundra__init takes nothing returns nothing
+        call CreateEventTrigger("Event_AfterHeal_Real" , function OrbFrozenThundra__AfterHeal , function OrbFrozenThundra__AfterHeal_Conditions)
     endfunction
 // scope OrbFrozenThundra ends
 //===========================================================================
@@ -74977,10 +74976,10 @@ endfunction
 
 
     function Trig_GunMasterR_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == GunMasterR__ID_ABILITY
+        return GetSpellAbilityId() == GunMasterR___ID_ABILITY
     endfunction
 
-    function GunMasterR__DealDamage takes effect zone,integer id returns nothing
+    function GunMasterR___DealDamage takes effect zone,integer id returns nothing
         local unit caster= LoadUnitHandle(udg_hash, id, StringHash("codrc"))
         local real dmg= LoadReal(udg_hash, id, StringHash("codrdmg"))
         local group g= CreateGroup()
@@ -74988,10 +74987,10 @@ endfunction
         local real x
         local real y
 
-        set x=Math_GetRandomX(BlzGetLocalSpecialEffectX(zone) , GunMasterR__ZONE_SIZE)
-        set y=Math_GetRandomY(BlzGetLocalSpecialEffectY(zone) , GunMasterR__ZONE_SIZE)
-        call DestroyEffect(AddSpecialEffect(GunMasterR__EXPLODE_ANIMATION, x, y))
-        call GroupEnumUnitsInRange(g, x, y, GunMasterR__AREA, null)
+        set x=Math_GetRandomX(BlzGetLocalSpecialEffectX(zone) , GunMasterR___ZONE_SIZE)
+        set y=Math_GetRandomY(BlzGetLocalSpecialEffectY(zone) , GunMasterR___ZONE_SIZE)
+        call DestroyEffect(AddSpecialEffect(GunMasterR___EXPLODE_ANIMATION, x, y))
+        call GroupEnumUnitsInRange(g, x, y, GunMasterR___AREA, null)
         loop
             set u=FirstOfGroup(g)
             exitwhen u == null
@@ -75019,23 +75018,23 @@ endfunction
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
         else
-            call GunMasterR__DealDamage(zone , id)
+            call GunMasterR___DealDamage(zone , id)
             call SaveInteger(udg_hash, id, StringHash("codr"), count)
         endif
         
         set zone=null
     endfunction
     
-    function GunMasterR__SpawnZone takes unit caster,real x,real y,integer level returns nothing
-        local real damage= GunMasterR__DAMAGE_FIRST_LEVEL + ( GunMasterR__DAMAGE_LEVEL_BONUS * level )
+    function GunMasterR___SpawnZone takes unit caster,real x,real y,integer level returns nothing
+        local real damage= GunMasterR___DAMAGE_FIRST_LEVEL + ( GunMasterR___DAMAGE_LEVEL_BONUS * level )
         local integer id
         local effect zone
-        local integer count= R2I(GunMasterR__LIFE_TIME / GunMasterR__TICK)
+        local integer count= R2I(GunMasterR___LIFE_TIME / GunMasterR___TICK)
         
-        set zone=AddSpecialEffect(GunMasterR__ZONE_ANIMATION, x, y)
-        call BlzSetSpecialEffectScale(zone, GunMasterR__ZONE_SIZE / 100)
+        set zone=AddSpecialEffect(GunMasterR___ZONE_ANIMATION, x, y)
+        call BlzSetSpecialEffectScale(zone, GunMasterR___ZONE_SIZE / 100)
         
-        set id=InvokeTimerWithEffect(zone , "codr" , GunMasterR__TICK , true , function GunMasterRCast)
+        set id=InvokeTimerWithEffect(zone , "codr" , GunMasterR___TICK , true , function GunMasterRCast)
         call SaveReal(udg_hash, id, StringHash("codrdmg"), damage)
         call SaveInteger(udg_hash, id, StringHash("codr"), count)
         call SaveUnitHandle(udg_hash, id, StringHash("codrc"), caster)
@@ -75060,7 +75059,7 @@ endfunction
             set lvl=udg_Level
             set x=GetUnitX(caster) + GetRandomReal(- 650, 650)
             set y=GetUnitY(caster) + GetRandomReal(- 650, 650)
-            call textst(udg_string[0] + GetObjectName(GunMasterR__ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
+            call textst(udg_string[0] + GetObjectName(GunMasterR___ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
         else
             set caster=GetSpellAbilityUnit()
             set lvl=GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())
@@ -75068,12 +75067,12 @@ endfunction
             set y=GetLocationY(GetSpellTargetLoc())
         endif
         
-        call GunMasterR__SpawnZone(caster , x , y , lvl)
+        call GunMasterR___SpawnZone(caster , x , y , lvl)
         set caster=null
     endfunction
 
     //===========================================================================
-    function GunMasterR__init takes nothing returns nothing
+    function GunMasterR___init takes nothing returns nothing
         set gg_trg_GunMasterR=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_GunMasterR, EVENT_PLAYER_UNIT_SPELL_EFFECT)
         call TriggerAddCondition(gg_trg_GunMasterR, Condition(function Trig_GunMasterR_Conditions))
@@ -75973,20 +75972,20 @@ endfunction
 // scope GamblerE begins
 
 
-    function GamblerE__DamageModifierEvent_Conditions takes nothing returns boolean
+    function GamblerE___DamageModifierEvent_Conditions takes nothing returns boolean
         if udg_IsDamageSpell then
             return false
-        elseif IsUnitHasAbility(udg_DamageEventSource , GamblerE__ID_ABILITY) == false and IsUnitHasAbility(udg_DamageEventSource , GamblerE__ID_ABILITY_ALT) == false then
+        elseif IsUnitHasAbility(udg_DamageEventSource , GamblerE___ID_ABILITY) == false and IsUnitHasAbility(udg_DamageEventSource , GamblerE___ID_ABILITY_ALT) == false then
             return false
         elseif IsUnitAlly(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget)) then
             return false
-        elseif (luckylogic((udg_DamageEventSource ) , ( GamblerE__CHANCE) , 1 , 100)) == false then // INLINED!!
+        elseif (luckylogic((udg_DamageEventSource ) , ( GamblerE___CHANCE) , 1 , 100)) == false then // INLINED!!
             return false
         endif
         return true
     endfunction
 
-    function GamblerE__DamageModifierEvent takes nothing returns nothing
+    function GamblerE___DamageModifierEvent takes nothing returns nothing
         local unit caster= udg_DamageEventSource
         local unit target= udg_DamageEventTarget
         local integer lvl
@@ -75994,31 +75993,31 @@ endfunction
         local integer id
         local integer p
 
-        if IsUnitHasAbility(caster , GamblerE__ID_ABILITY_ALT) then
+        if IsUnitHasAbility(caster , GamblerE___ID_ABILITY_ALT) then
             set lvl=LoadInteger(udg_hash, GetHandleId(caster), StringHash("gmbwe"))
         else
-            set lvl=GetUnitAbilityLevel(caster, GamblerE__ID_ABILITY)
+            set lvl=GetUnitAbilityLevel(caster, GamblerE___ID_ABILITY)
         endif
         
-        call PlaySpecialEffect(GamblerE__ANIMATION , caster)
+        call PlaySpecialEffect(GamblerE___ANIMATION , caster)
         if rand == 1 then
-            set p=GamblerE__MANA_FIRST_LEVEL + ( GamblerE__MANA_LEVEL_BONUS * lvl )
+            set p=GamblerE___MANA_FIRST_LEVEL + ( GamblerE___MANA_LEVEL_BONUS * lvl )
             call manast(caster , null , p)
             call textst("|c002020FF +" + I2S(p) + " mana" , caster , 64 , 90 , 10 , 1)
         elseif rand == 2 then
-            set p=GamblerE__HEALTH_FIRST_LEVEL + ( GamblerE__HEALTH_LEVEL_BONUS * lvl )
+            set p=GamblerE___HEALTH_FIRST_LEVEL + ( GamblerE___HEALTH_LEVEL_BONUS * lvl )
             call healst(caster , null , p)
             call textst("|c0020FF20 +" + I2S(p) + " health" , caster , 64 , 90 , 10 , 1)
         elseif rand == 3 and combat(caster , false , 0) and not ( udg_fightmod[3] ) then
-            set p=GamblerE__GOLD_FIRST_LEVEL + ( GamblerE__GOLD_LEVEL_BONUS * lvl )
+            set p=GamblerE___GOLD_FIRST_LEVEL + ( GamblerE___GOLD_LEVEL_BONUS * lvl )
             call moneyst(caster , p)
             call textst("|cFFFFFC01 +" + I2S(p) + " gold" , caster , 64 , 90 , 10 , 1)
         elseif rand == 4 then
-            call UnitStun(caster , target , GamblerE__STUN_FIRST_LEVEL + ( GamblerE__STUN_LEVEL_BONUS * lvl ))
+            call UnitStun(caster , target , GamblerE___STUN_FIRST_LEVEL + ( GamblerE___STUN_LEVEL_BONUS * lvl ))
             call textst("|cFF7EBFF1stun" , caster , 64 , 90 , 10 , 1)
         elseif rand == 5 then
-            call bufst(caster , target , GamblerE__EFFECT , GamblerE__BUFF , "gmbe" , GamblerE__DURATION)
-            call debuffst(caster , target , null , 1 , GamblerE__DURATION)
+            call bufst(caster , target , GamblerE___EFFECT , GamblerE___BUFF , "gmbe" , GamblerE___DURATION)
+            call debuffst(caster , target , null , 1 , GamblerE___DURATION)
             call textst("armor" , caster , 64 , 90 , 10 , 1)
         endif
         
@@ -76027,8 +76026,8 @@ endfunction
     endfunction
 
     //===========================================================================
-    function GamblerE__init takes nothing returns nothing
-        call CreateEventTrigger("udg_DamageModifierEvent" , function GamblerE__DamageModifierEvent , function GamblerE__DamageModifierEvent_Conditions)
+    function GamblerE___init takes nothing returns nothing
+        call CreateEventTrigger("udg_DamageModifierEvent" , function GamblerE___DamageModifierEvent , function GamblerE___DamageModifierEvent_Conditions)
     endfunction
     
 // scope GamblerE ends
@@ -76039,7 +76038,7 @@ endfunction
 
 
     function Trig_GamblerR_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == GamblerR__ID_ABILITY and combat(GetSpellAbilityUnit() , true , GetSpellAbilityId()) and not ( udg_fightmod[3] )
+        return GetSpellAbilityId() == GamblerR___ID_ABILITY and combat(GetSpellAbilityUnit() , true , GetSpellAbilityId()) and not ( udg_fightmod[3] )
     endfunction
 
     function GamblerRCast takes nothing returns nothing
@@ -76048,8 +76047,8 @@ endfunction
         local integer luckBonus= LoadInteger(udg_hash, GetHandleId(u), StringHash("gmbr"))
         
         call luckyst(u , - luckBonus)
-        call UnitRemoveAbility(u, GamblerR__EFFECT)
-        call UnitRemoveAbility(u, GamblerR__BUFF)
+        call UnitRemoveAbility(u, GamblerR___EFFECT)
+        call UnitRemoveAbility(u, GamblerR___BUFF)
         
         call RemoveSavedInteger(udg_hash, GetHandleId(u), StringHash("gmbr"))
         call FlushChildHashtable(udg_hash, id)
@@ -76070,21 +76069,21 @@ endfunction
         elseif RandomLogic() then
             set caster=udg_Caster
             set lvl=udg_Level
-            call textst(udg_string[0] + GetObjectName(GamblerR__ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
-            set t=GamblerR__DURATION_FIRST_LEVEL + ( GamblerR__DURATION_LEVEL_BONUS * lvl )
+            call textst(udg_string[0] + GetObjectName(GamblerR___ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
+            set t=GamblerR___DURATION_FIRST_LEVEL + ( GamblerR___DURATION_LEVEL_BONUS * lvl )
         else
             set caster=GetSpellAbilityUnit()
             set lvl=GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())
-            set t=GamblerR__DURATION_FIRST_LEVEL + ( GamblerR__DURATION_LEVEL_BONUS * lvl )
+            set t=GamblerR___DURATION_FIRST_LEVEL + ( GamblerR___DURATION_LEVEL_BONUS * lvl )
         endif
         set t=timebonus(caster , t)
 
         if IsUnitType(caster, UNIT_TYPE_HERO) then
-            call luckyst(caster , GamblerR__LUCK_BONUS)
-            set isum=LoadInteger(udg_hash, GetHandleId(caster), StringHash("gmbr")) + GamblerR__LUCK_BONUS
+            call luckyst(caster , GamblerR___LUCK_BONUS)
+            set isum=LoadInteger(udg_hash, GetHandleId(caster), StringHash("gmbr")) + GamblerR___LUCK_BONUS
             
-            call UnitAddAbility(caster, GamblerR__EFFECT)
-            call DestroyEffect(AddSpecialEffectTarget(GamblerR__ANIMATION, caster, "overhead"))
+            call UnitAddAbility(caster, GamblerR___EFFECT)
+            call DestroyEffect(AddSpecialEffectTarget(GamblerR___ANIMATION, caster, "overhead"))
             
             call InvokeTimerWithUnit(caster , "gmbr" , t , false , function GamblerRCast)
             call SaveInteger(udg_hash, GetHandleId(caster), StringHash("gmbr"), isum)
@@ -76095,30 +76094,30 @@ endfunction
         set caster=null
     endfunction
     
-    function GamblerR__DeleteBuff_Conditions takes nothing returns boolean
-        return GetUnitAbilityLevel(Event_DeleteBuff_Unit, GamblerR__EFFECT) > 0
+    function GamblerR___DeleteBuff_Conditions takes nothing returns boolean
+        return GetUnitAbilityLevel(Event_DeleteBuff_Unit, GamblerR___EFFECT) > 0
     endfunction
     
-    function GamblerR__DeleteBuff takes nothing returns nothing
+    function GamblerR___DeleteBuff takes nothing returns nothing
         local unit hero= Event_DeleteBuff_Unit
         local integer luckBonus= LoadInteger(udg_hash, GetHandleId(hero), StringHash("gmbr"))
 
         call luckyst(hero , - luckBonus)
-        call UnitRemoveAbility(hero, GamblerR__EFFECT)
-        call UnitRemoveAbility(hero, GamblerR__BUFF)
+        call UnitRemoveAbility(hero, GamblerR___EFFECT)
+        call UnitRemoveAbility(hero, GamblerR___BUFF)
         call RemoveSavedInteger(udg_hash, GetHandleId(hero), StringHash("gmbr"))
         
         set hero=null
     endfunction
 
     //===========================================================================
-    function GamblerR__init takes nothing returns nothing
+    function GamblerR___init takes nothing returns nothing
         set gg_trg_GamblerR=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_GamblerR, EVENT_PLAYER_UNIT_SPELL_EFFECT)
         call TriggerAddCondition(gg_trg_GamblerR, Condition(function Trig_GamblerR_Conditions))
         call TriggerAddAction(gg_trg_GamblerR, function Trig_GamblerR_Actions)
         
-        call CreateEventTrigger("Event_DeleteBuff_Real" , function GamblerR__DeleteBuff , function GamblerR__DeleteBuff_Conditions)
+        call CreateEventTrigger("Event_DeleteBuff_Real" , function GamblerR___DeleteBuff , function GamblerR___DeleteBuff_Conditions)
     endfunction
 
 // scope GamblerR ends
@@ -76686,25 +76685,25 @@ endfunction
 
 
     function Trig_DealerE_Conditions takes nothing returns boolean
-        if IsUnitHasAbility(GetSpellAbilityUnit() , DealerE__ID_ABILITY) == false then
+        if IsUnitHasAbility(GetSpellAbilityUnit() , DealerE___ID_ABILITY) == false then
             return false
         elseif combat(GetSpellAbilityUnit() , false , 0) == false then
             return false
-        elseif (luckylogic((GetSpellAbilityUnit() ) , ( DealerE__CHANCE_FIRST_LEVEL + ( DealerE__CHANCE_LEVEL_BONUS * GetUnitAbilityLevel(GetSpellAbilityUnit(), DealerE__ID_ABILITY) )) , 1 , 100)) == false then // INLINED!!
+        elseif (luckylogic((GetSpellAbilityUnit() ) , ( DealerE___CHANCE_FIRST_LEVEL + ( DealerE___CHANCE_LEVEL_BONUS * GetUnitAbilityLevel(GetSpellAbilityUnit(), DealerE___ID_ABILITY) )) , 1 , 100)) == false then // INLINED!!
             return false
         endif
         return true
     endfunction
 
-    function DealerE__Alternative takes unit caster returns nothing
-        call SpawnBanana(caster , Math_GetRandomX(GetUnitX(caster) , DealerE__BANANA_SPAWN_SCATTER_ALTERNATIVE) , Math_GetRandomY(GetUnitY(caster) , DealerE__BANANA_SPAWN_SCATTER_ALTERNATIVE))
+    function DealerE___Alternative takes unit caster returns nothing
+        call SpawnBanana(caster , Math_GetRandomX(GetUnitX(caster) , DealerE___BANANA_SPAWN_SCATTER_ALTERNATIVE) , Math_GetRandomY(GetUnitY(caster) , DealerE___BANANA_SPAWN_SCATTER_ALTERNATIVE))
         
         set caster=null
     endfunction
     
-    function DealerE__Main takes unit caster,unit target returns nothing
+    function DealerE___Main takes unit caster,unit target returns nothing
     
-        call PlaySpecialEffect(DealerE__ANIMATION , caster)
+        call PlaySpecialEffect(DealerE___ANIMATION , caster)
         set udg_CastLogic=true
         set udg_Caster=caster
         set udg_Target=target
@@ -76721,9 +76720,9 @@ endfunction
         local unit hero= GetSpellAbilityUnit()
         
         if Aspects_IsHeroAspectActive(hero , ASPECT_02) then
-            call DealerE__Alternative(hero)
+            call DealerE___Alternative(hero)
         else
-            call DealerE__Main(hero , GetSpellTargetUnit())
+            call DealerE___Main(hero , GetSpellTargetUnit())
         endif
         
         set hero=null
@@ -76790,10 +76789,10 @@ endfunction
 
 
     function Trig_BananaDeath_Conditions takes nothing returns boolean
-        return GetUnitTypeId(GetDyingUnit()) == BananaDeath__ID_BANANA
+        return GetUnitTypeId(GetDyingUnit()) == BananaDeath___ID_BANANA
     endfunction
     
-    function BananaDeath__BananaBonus takes unit hero,unit target,real heal,real gold returns nothing
+    function BananaDeath___BananaBonus takes unit hero,unit target,real heal,real gold returns nothing
         call healst(hero , target , heal)
         if combat(target , false , 0) and udg_fightmod[3] == false and gold > 0 then
             call moneyst(target , R2I(gold * GetUnitSpellPower(hero)))
@@ -76803,14 +76802,14 @@ endfunction
         set target=null
     endfunction
         
-    function BananaDeath__Alternative_01 takes unit hero returns nothing
+    function BananaDeath___Alternative_01 takes unit hero returns nothing
         local integer i
         
         set i=1
         loop
             exitwhen i > PLAYERS_LIMIT
             if unitst(udg_hero[i] , hero , TARGET_ALLY) then
-                call BananaDeath__BananaBonus(hero , udg_hero[i] , BananaDeath__HEAL , 0)
+                call BananaDeath___BananaBonus(hero , udg_hero[i] , BananaDeath___HEAL , 0)
             endif
             set i=i + 1
         endloop
@@ -76818,9 +76817,9 @@ endfunction
         set hero=null
     endfunction
     
-    function BananaDeath__Alternative_03 takes unit hero,unit killer returns nothing
-        local integer goldToHero= R2I(BananaDeath__GOLD * BananaDeath__GOLD_TO_HERO_ALTERNATIVE_03)
-        local integer goldToOthers= R2I(BananaDeath__GOLD * BananaDeath__GOLD_TO_OTHERS_ALTERNATIVE_03)
+    function BananaDeath___Alternative_03 takes unit hero,unit killer returns nothing
+        local integer goldToHero= R2I(BananaDeath___GOLD * BananaDeath___GOLD_TO_HERO_ALTERNATIVE_03)
+        local integer goldToOthers= R2I(BananaDeath___GOLD * BananaDeath___GOLD_TO_OTHERS_ALTERNATIVE_03)
         local integer i= 0
     
         if hero != killer and IsUnitType(killer, UNIT_TYPE_HERO) and unitst(killer , hero , TARGET_ALLY) and killer != null then
@@ -76828,23 +76827,23 @@ endfunction
             loop
                 exitwhen i > PLAYERS_LIMIT
                 if hero == udg_hero[i] then
-                    call BananaDeath__BananaBonus(hero , hero , BananaDeath__HEAL , goldToHero)
+                    call BananaDeath___BananaBonus(hero , hero , BananaDeath___HEAL , goldToHero)
                 elseif unitst(udg_hero[i] , hero , TARGET_ALLY) then
-                    call BananaDeath__BananaBonus(hero , udg_hero[i] , BananaDeath__HEAL , goldToOthers)
+                    call BananaDeath___BananaBonus(hero , udg_hero[i] , BananaDeath___HEAL , goldToOthers)
                 endif
                 set i=i + 1
             endloop
         elseif IsUnitAlive(hero) then
-            call BananaDeath__BananaBonus(hero , hero , BananaDeath__HEAL , goldToHero)
+            call BananaDeath___BananaBonus(hero , hero , BananaDeath___HEAL , goldToHero)
         endif
     
         set hero=null
         set killer=null
     endfunction
     
-    function BananaDeath__Main takes unit hero returns nothing
+    function BananaDeath___Main takes unit hero returns nothing
         if IsUnitAlive(hero) then
-            call BananaDeath__BananaBonus(hero , hero , BananaDeath__HEAL , BananaDeath__GOLD)
+            call BananaDeath___BananaBonus(hero , hero , BananaDeath___HEAL , BananaDeath___GOLD)
         endif
         
         set hero=null
@@ -76854,18 +76853,18 @@ endfunction
         local unit ownerHero= udg_hero[GetPlayerId(GetOwningPlayer(GetDyingUnit())) + 1]
         
         if Aspects_IsHeroAspectActive(ownerHero , ASPECT_01) then
-            call BananaDeath__Alternative_01(ownerHero)
+            call BananaDeath___Alternative_01(ownerHero)
         elseif Aspects_IsHeroAspectActive(ownerHero , ASPECT_03) then
-            call BananaDeath__Alternative_03(ownerHero , GetKillingUnit())
+            call BananaDeath___Alternative_03(ownerHero , GetKillingUnit())
         else
-            call BananaDeath__Main(ownerHero)
+            call BananaDeath___Main(ownerHero)
         endif
 
         set ownerHero=null
     endfunction
 
     //===========================================================================
-    function BananaDeath__init takes nothing returns nothing
+    function BananaDeath___init takes nothing returns nothing
         set gg_trg_BananaDeath=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_BananaDeath, EVENT_PLAYER_UNIT_DEATH)
         call TriggerAddCondition(gg_trg_BananaDeath, Condition(function Trig_BananaDeath_Conditions))
@@ -77381,7 +77380,7 @@ endfunction
         return GetSpellAbilityId() == 'A14P'
     endfunction
 
-    function MephistarQ__SummonNewUnit takes unit caster,integer lvl returns nothing
+    function MephistarQ___SummonNewUnit takes unit caster,integer lvl returns nothing
         local unit newUnit
         local real sp
     
@@ -77427,7 +77426,7 @@ endfunction
             call h__RemoveUnit(oldpet)
         endif
 
-        call MephistarQ__SummonNewUnit(caster , lvl)
+        call MephistarQ___SummonNewUnit(caster , lvl)
 
         set caster=null
         set oldpet=null
@@ -85888,11 +85887,11 @@ function InitTrig_DruidQ takes nothing returns nothing
 endfunction
 
 // scope DruidQ begins
-    function DruidQ___DeleteBuff_Conditions takes nothing returns boolean
+    function DruidQ__DeleteBuff_Conditions takes nothing returns boolean
         return GetUnitAbilityLevel(Event_DeleteBuff_Unit, 'A0F7') > 0
     endfunction
     
-    function DruidQ___DeleteBuff takes nothing returns nothing
+    function DruidQ__DeleteBuff takes nothing returns nothing
         local unit hero= Event_DeleteBuff_Unit
 
         call UnitRemoveAbility(hero, 'A0M2')
@@ -85901,8 +85900,8 @@ endfunction
         set hero=null
     endfunction
 
-    function DruidQ___Triggs takes nothing returns nothing
-        call CreateEventTrigger("Event_DeleteBuff_Real" , function DruidQ___DeleteBuff , function DruidQ___DeleteBuff_Conditions)
+    function DruidQ__Triggs takes nothing returns nothing
+        call CreateEventTrigger("Event_DeleteBuff_Real" , function DruidQ__DeleteBuff , function DruidQ__DeleteBuff_Conditions)
     endfunction
 // scope DruidQ ends
 
@@ -86000,11 +85999,11 @@ function InitTrig_DruidW takes nothing returns nothing
 endfunction
 
 // scope DruidW begins
-    function DruidW___DeleteBuff_Conditions takes nothing returns boolean
+    function DruidW__DeleteBuff_Conditions takes nothing returns boolean
         return GetUnitAbilityLevel(Event_DeleteBuff_Unit, 'A0U8') > 0
     endfunction
     
-    function DruidW___DeleteBuff takes nothing returns nothing
+    function DruidW__DeleteBuff takes nothing returns nothing
         local unit hero= Event_DeleteBuff_Unit
 
         call UnitRemoveAbility(hero, 'A0U8')
@@ -86014,8 +86013,8 @@ endfunction
         set hero=null
     endfunction
 
-    function DruidW___Triggs takes nothing returns nothing
-        call CreateEventTrigger("Event_DeleteBuff_Real" , function DruidW___DeleteBuff , function DruidW___DeleteBuff_Conditions)
+    function DruidW__Triggs takes nothing returns nothing
+        call CreateEventTrigger("Event_DeleteBuff_Real" , function DruidW__DeleteBuff , function DruidW__DeleteBuff_Conditions)
     endfunction
 // scope DruidW ends
 
@@ -86298,20 +86297,20 @@ endfunction
 // scope MentorE begins
 
 
-    function MentorE___AfterDamageEvent_Conditions takes nothing returns boolean
-        return udg_IsDamageSpell == false and IsUnitHasAbility(udg_DamageEventSource , MentorE___ID_ABILITY) and IsUnitEnemy(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget))
+    function MentorE__AfterDamageEvent_Conditions takes nothing returns boolean
+        return udg_IsDamageSpell == false and IsUnitHasAbility(udg_DamageEventSource , MentorE__ID_ABILITY) and IsUnitEnemy(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget))
     endfunction
     
-    function MentorE___Caster takes unit caster,integer level returns nothing
-        local real r= MentorE___MANA_CASTER_FIRST_LEVEL + ( MentorE___MANA_CASTER_LEVEL_BONUS * level )
+    function MentorE__Caster takes unit caster,integer level returns nothing
+        local real r= MentorE__MANA_CASTER_FIRST_LEVEL + ( MentorE__MANA_CASTER_LEVEL_BONUS * level )
     
         call manast(caster , null , r)
-        call spectimeunit(caster , MentorE___ANIMATION , "origin" , 2)
+        call spectimeunit(caster , MentorE__ANIMATION , "origin" , 2)
         
         set caster=null
     endfunction
     
-    function MentorE___IsCount takes unit caster,unit target returns boolean
+    function MentorE__IsCount takes unit caster,unit target returns boolean
         local boolean isWork= true
     
         if IsUnitDead(target) then
@@ -86330,15 +86329,15 @@ endfunction
         return isWork
     endfunction
     
-    function MentorE___Allies takes unit caster,integer level returns nothing
-        local real r= MentorE___MANA_ALLIES_FIRST_LEVEL + ( MentorE___MANA_ALLIES_LEVEL_BONUS * level )
+    function MentorE__Allies takes unit caster,integer level returns nothing
+        local real r= MentorE__MANA_ALLIES_FIRST_LEVEL + ( MentorE__MANA_ALLIES_LEVEL_BONUS * level )
         local integer i= 1
     
         loop
             exitwhen i > PLAYERS_LIMIT
-            if MentorE___IsCount(caster , udg_hero[i]) then
+            if MentorE__IsCount(caster , udg_hero[i]) then
                 call manast(caster , udg_hero[i] , r)
-                call spectimeunit(udg_hero[i] , MentorE___ANIMATION , "origin" , 2)
+                call spectimeunit(udg_hero[i] , MentorE__ANIMATION , "origin" , 2)
             endif
             set i=i + 1
         endloop
@@ -86346,18 +86345,18 @@ endfunction
         set caster=null
     endfunction
 
-    function MentorE___AfterDamageEvent takes nothing returns nothing
-        local integer level= GetUnitAbilityLevel(udg_DamageEventSource, MentorE___ID_ABILITY)
+    function MentorE__AfterDamageEvent takes nothing returns nothing
+        local integer level= GetUnitAbilityLevel(udg_DamageEventSource, MentorE__ID_ABILITY)
         if IsUnitManaIsFull(udg_DamageEventSource) then
-            call MentorE___Allies(udg_DamageEventSource , level)
+            call MentorE__Allies(udg_DamageEventSource , level)
         else
-            call MentorE___Caster(udg_DamageEventSource , level)
+            call MentorE__Caster(udg_DamageEventSource , level)
         endif
     endfunction
 
     //===========================================================================
-    function MentorE___init takes nothing returns nothing
-         call CreateEventTrigger("udg_AfterDamageEvent" , function MentorE___AfterDamageEvent , function MentorE___AfterDamageEvent_Conditions)
+    function MentorE__init takes nothing returns nothing
+         call CreateEventTrigger("udg_AfterDamageEvent" , function MentorE__AfterDamageEvent , function MentorE__AfterDamageEvent_Conditions)
     endfunction
 
 // scope MentorE ends
@@ -87855,14 +87854,14 @@ endfunction
 
 
     function Trig_Corrupted_EntQ_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == CorruptedEntQ___ID_ABILITY
+        return GetSpellAbilityId() == CorruptedEntQ__ID_ABILITY
     endfunction
     
-    function CorruptedEntQ___Explode takes unit caster,real x,real y,real damage,real heal returns nothing
+    function CorruptedEntQ__Explode takes unit caster,real x,real y,real damage,real heal returns nothing
         local group g= CreateGroup()
         local unit u
     
-        call GroupEnumUnitsInRange(g, x, y, CorruptedEntQ___AREA, null)
+        call GroupEnumUnitsInRange(g, x, y, CorruptedEntQ__AREA, null)
         loop
             set u=FirstOfGroup(g)
             exitwhen u == null
@@ -87888,7 +87887,7 @@ endfunction
         set caster=null
     endfunction
 
-    function CorruptedEntQ___Corrupted_EntQExplode takes nothing returns nothing
+    function CorruptedEntQ__Corrupted_EntQExplode takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local effect bloom= LoadEffectHandle(udg_hash, id, StringHash("entq"))
         local unit caster= LoadUnitHandle(udg_hash, id, StringHash("entqc"))
@@ -87897,8 +87896,8 @@ endfunction
         local real x= BlzGetLocalSpecialEffectX(bloom)
         local real y= BlzGetLocalSpecialEffectY(bloom)
 
-        call DestroyEffect(AddSpecialEffect(CorruptedEntQ___EXPLODE_EFFECT, x, y))
-        call CorruptedEntQ___Explode(caster , x , y , damage , heal)
+        call DestroyEffect(AddSpecialEffect(CorruptedEntQ__EXPLODE_EFFECT, x, y))
+        call CorruptedEntQ__Explode(caster , x , y , damage , heal)
         call DestroyEffect(bloom)
         call FlushChildHashtable(udg_hash, id)
         
@@ -87906,12 +87905,12 @@ endfunction
         set caster=null
     endfunction
 
-    function CorruptedEntQ___Corrupted_EntQ_Alternative takes unit caster,real x,real y,real heal returns nothing
+    function CorruptedEntQ__Corrupted_EntQ_Alternative takes unit caster,real x,real y,real heal returns nothing
         local effect bloom
         local integer id
     
-        set bloom=AddSpecialEffect(CorruptedEntQ___BLOOM_EFFECT, x, y)
-        set id=InvokeTimerWithEffect(bloom , "entq" , CorruptedEntQ___ALT_DELAY , false , function CorruptedEntQ___Corrupted_EntQExplode)
+        set bloom=AddSpecialEffect(CorruptedEntQ__BLOOM_EFFECT, x, y)
+        set id=InvokeTimerWithEffect(bloom , "entq" , CorruptedEntQ__ALT_DELAY , false , function CorruptedEntQ__Corrupted_EntQExplode)
         call SaveUnitHandle(udg_hash, id, StringHash("entqc"), caster)
         call SaveReal(udg_hash, id, StringHash("entqdmg"), 0)
         call SaveReal(udg_hash, id, StringHash("entqhl"), heal)
@@ -87920,12 +87919,12 @@ endfunction
         set bloom=null
     endfunction
 
-    function CorruptedEntQ___Corrupted_EntQ takes unit caster,real x,real y,real damage,real heal returns nothing
+    function CorruptedEntQ__Corrupted_EntQ takes unit caster,real x,real y,real damage,real heal returns nothing
         local effect bloom
         local integer id
     
-        set bloom=AddSpecialEffect(CorruptedEntQ___BLOOM_EFFECT, x, y)
-        set id=InvokeTimerWithEffect(bloom , "entq" , CorruptedEntQ___DELAY , false , function CorruptedEntQ___Corrupted_EntQExplode)
+        set bloom=AddSpecialEffect(CorruptedEntQ__BLOOM_EFFECT, x, y)
+        set id=InvokeTimerWithEffect(bloom , "entq" , CorruptedEntQ__DELAY , false , function CorruptedEntQ__Corrupted_EntQExplode)
         call SaveUnitHandle(udg_hash, id, StringHash("entqc"), caster)
         call SaveReal(udg_hash, id, StringHash("entqdmg"), damage)
         call SaveReal(udg_hash, id, StringHash("entqhl"), heal)
@@ -87952,7 +87951,7 @@ endfunction
             set lvl=udg_Level
             set x=GetUnitX(caster) + GetRandomReal(- 650, 650)
             set y=GetUnitY(caster) + GetRandomReal(- 650, 650)
-            call textst(udg_string[0] + GetObjectName(CorruptedEntQ___ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
+            call textst(udg_string[0] + GetObjectName(CorruptedEntQ__ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
         else
             set caster=GetSpellAbilityUnit()
             set lvl=GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())
@@ -87960,20 +87959,20 @@ endfunction
             set y=GetLocationY(GetSpellTargetLoc())
         endif
         
-        set damage=CorruptedEntQ___DAMAGE_FIRST_LEVEL + ( lvl * CorruptedEntQ___DAMAGE_LEVEL_BONUS )
-        set heal=CorruptedEntQ___HEAL_FIRST_LEVEL + ( lvl * CorruptedEntQ___HEAL_LEVEL_BONUS )
+        set damage=CorruptedEntQ__DAMAGE_FIRST_LEVEL + ( lvl * CorruptedEntQ__DAMAGE_LEVEL_BONUS )
+        set heal=CorruptedEntQ__HEAL_FIRST_LEVEL + ( lvl * CorruptedEntQ__HEAL_LEVEL_BONUS )
         
         if Aspects_IsHeroAspectActive(caster , ASPECT_01) then
-            call CorruptedEntQ___Corrupted_EntQ_Alternative(caster , x , y , heal)
+            call CorruptedEntQ__Corrupted_EntQ_Alternative(caster , x , y , heal)
         else
-            call CorruptedEntQ___Corrupted_EntQ(caster , x , y , damage , heal)
+            call CorruptedEntQ__Corrupted_EntQ(caster , x , y , damage , heal)
         endif
 
         set caster=null
     endfunction
 
     //===========================================================================
-    function CorruptedEntQ___init takes nothing returns nothing
+    function CorruptedEntQ__init takes nothing returns nothing
         set gg_trg_Corrupted_EntQ=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_Corrupted_EntQ, EVENT_PLAYER_UNIT_SPELL_EFFECT)
         call TriggerAddCondition(gg_trg_Corrupted_EntQ, Condition(function Trig_Corrupted_EntQ_Conditions))
@@ -88146,21 +88145,21 @@ function InitTrig_CorruptedEnt_Upgrade takes nothing returns nothing
 endfunction
 
 // scope CorruptedEntUpgrade begins
-    function CorruptedEntUpgrade___Conditions takes nothing returns boolean
+    function CorruptedEntUpgrade__Conditions takes nothing returns boolean
         return GetUnitAbilityLevel(udg_Event_NullingAbility_Unit, 'A0OE') > 0
     endfunction
 
-    function CorruptedEntUpgrade___Use takes nothing returns nothing
+    function CorruptedEntUpgrade__Use takes nothing returns nothing
         if GetLocalPlayer() == GetOwningPlayer(udg_Event_NullingAbility_Unit) then
             call BlzFrameSetVisible(entQBackdrop, false)
         endif
     endfunction
 
-    function CorruptedEntUpgrade___Triggs takes nothing returns nothing
+    function CorruptedEntUpgrade__Triggs takes nothing returns nothing
         local trigger trig= CreateTrigger()
         call TriggerRegisterVariableEvent(trig, "udg_Event_NullingAbility_Real", EQUAL, 1.00)
-        call TriggerAddCondition(trig, Condition(function CorruptedEntUpgrade___Conditions))
-        call TriggerAddAction(trig, function CorruptedEntUpgrade___Use)
+        call TriggerAddCondition(trig, Condition(function CorruptedEntUpgrade__Conditions))
+        call TriggerAddAction(trig, function CorruptedEntUpgrade__Use)
         
         set trig=null
     endfunction
@@ -88245,33 +88244,33 @@ function InitTrig_Corrupted_EntW takes nothing returns nothing
 endfunction
 
 // scope CorruptedEntW begins
-    function CorruptedEntW___BuffDelete takes nothing returns nothing
+    function CorruptedEntW__BuffDelete takes nothing returns nothing
         if GetUnitAbilityLevel(Event_DeleteBuff_Unit, 'A0OG') > 0 then
             call UnitRemoveAbility(Event_DeleteBuff_Unit, 'A0OG')
             call UnitRemoveAbility(Event_DeleteBuff_Unit, 'B09Y')
         endif
     endfunction
 
-    function CorruptedEntW___Use_Condition takes nothing returns boolean
+    function CorruptedEntW__Use_Condition takes nothing returns boolean
         return GetUnitAbilityLevel(Event_Corrupted_End_Q_Unit, 'A0OG') > 0
     endfunction
     
-    function CorruptedEntW___Use takes nothing returns nothing
+    function CorruptedEntW__Use takes nothing returns nothing
         local integer unitId= GetHandleId(Event_Corrupted_End_Q_Unit)
         local integer bonusTime= LoadInteger(udg_hash, unitId, StringHash("entw"))
 
         call SaveInteger(udg_hash, unitId, StringHash("entw"), bonusTime + CORRUPTED_ENT_W_BONUS_DURATION)
     endfunction
 
-    function CorruptedEntW___Triggs takes nothing returns nothing
+    function CorruptedEntW__Triggs takes nothing returns nothing
         local trigger trig= CreateTrigger()
         call TriggerRegisterVariableEvent(trig, "Event_Corrupted_End_Q_Real", EQUAL, 1.00)
-        call TriggerAddCondition(trig, Condition(function CorruptedEntW___Use_Condition))
-        call TriggerAddAction(trig, function CorruptedEntW___Use)
+        call TriggerAddCondition(trig, Condition(function CorruptedEntW__Use_Condition))
+        call TriggerAddAction(trig, function CorruptedEntW__Use)
         
         set trig=CreateTrigger()
         call TriggerRegisterVariableEvent(trig, "Event_DeleteBuff_Real", EQUAL, 1.00)
-        call TriggerAddAction(trig, function CorruptedEntW___BuffDelete)
+        call TriggerAddAction(trig, function CorruptedEntW__BuffDelete)
         
         set trig=null
     endfunction
@@ -88284,7 +88283,7 @@ endfunction
 
 
     function Trig_CorruptedEntE_Conditions takes nothing returns boolean
-        return GetLearnedSkill() == CorruptedEntE___ID_ABILITY
+        return GetLearnedSkill() == CorruptedEntE__ID_ABILITY
     endfunction
 
     function CorruptedEntECast takes nothing returns nothing
@@ -88294,15 +88293,15 @@ endfunction
         local unit u
 
         if IsUnitAlive(caster) and IsUnitLoaded(caster) == false and combat(caster , false , 0) then
-            call GroupEnumUnitsInRange(g, GetUnitX(caster), GetUnitY(caster), CorruptedEntE___AREA, null)
+            call GroupEnumUnitsInRange(g, GetUnitX(caster), GetUnitY(caster), CorruptedEntE__AREA, null)
             loop
                 set u=FirstOfGroup(g)
                 exitwhen u == null
                 if unitst(u , caster , "ally") and IsUnitType(u, UNIT_TYPE_HERO) then
                     call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Undead\\CarrionSwarm\\CarrionSwarmDamage.mdl", u, "origin"))
-                    set CorruptedEntE___DamageCount=true
-                    call UnitTakeDamage(caster , u , CorruptedEntE___DAMAGE , DAMAGE_TYPE_MAGIC)
-                    set CorruptedEntE___DamageCount=false
+                    set CorruptedEntE__DamageCount=true
+                    call UnitTakeDamage(caster , u , CorruptedEntE__DAMAGE , DAMAGE_TYPE_MAGIC)
+                    set CorruptedEntE__DamageCount=false
                 endif
                 call GroupRemoveUnit(g, u)
             endloop
@@ -88317,25 +88316,25 @@ endfunction
 
     function Trig_CorruptedEntE_Actions takes nothing returns nothing
         local unit hero= GetLearningUnit()
-        local integer lvl= GetUnitAbilityLevel(hero, CorruptedEntE___ID_ABILITY)
+        local integer lvl= GetUnitAbilityLevel(hero, CorruptedEntE__ID_ABILITY)
         local integer heal
         local integer id
         
-        set heal=CorruptedEntE___HEAL_FIRST_LEVEL_BONUS + ( lvl * CorruptedEntE___HEAL_LEVEL_BONUS )
+        set heal=CorruptedEntE__HEAL_FIRST_LEVEL_BONUS + ( lvl * CorruptedEntE__HEAL_LEVEL_BONUS )
         
-        set id=InvokeTimerWithUnit(hero , "ente" , CorruptedEntE___INTERVAL , true , function CorruptedEntECast)
+        set id=InvokeTimerWithUnit(hero , "ente" , CorruptedEntE__INTERVAL , true , function CorruptedEntECast)
         call SaveInteger(udg_hash, GetHandleId(hero), StringHash("entehl"), heal)
         
         set hero=null
     endfunction
 
-    function CorruptedEntE___NullingAbility takes nothing returns nothing
-        if GetUnitAbilityLevel(udg_Event_NullingAbility_Unit, CorruptedEntE___ID_ABILITY) > 0 then
+    function CorruptedEntE__NullingAbility takes nothing returns nothing
+        if GetUnitAbilityLevel(udg_Event_NullingAbility_Unit, CorruptedEntE__ID_ABILITY) > 0 then
             call DestroyTimer(LoadTimerHandle(udg_hash, GetHandleId(udg_Event_NullingAbility_Unit), StringHash("ente")))
         endif
     endfunction
     
-    function CorruptedEntE___AddToHeal takes unit caster,real toAdd returns nothing
+    function CorruptedEntE__AddToHeal takes unit caster,real toAdd returns nothing
         local integer casterId= GetHandleId(caster)
         local integer heal= LoadInteger(udg_hash, casterId, StringHash("entehl"))
         local real damageCount= LoadReal(udg_hash, casterId, StringHash("ente"))
@@ -88343,13 +88342,13 @@ endfunction
     
         set damageCount=damageCount + toAdd
     
-        if damageCount >= CorruptedEntE___Limit_to_Heal then
-            set damageCount=damageCount - CorruptedEntE___Limit_to_Heal
+        if damageCount >= CorruptedEntE__Limit_to_Heal then
+            set damageCount=damageCount - CorruptedEntE__Limit_to_Heal
             set target=HeroLessHP(caster)
             if target != null then
-                set CorruptedEntE___IsHealFromIt=true
+                set CorruptedEntE__IsHealFromIt=true
                 call healst(caster , target , heal)
-                set CorruptedEntE___IsHealFromIt=false
+                set CorruptedEntE__IsHealFromIt=false
                 call DestroyEffect(AddSpecialEffectTarget("Objects\\Spawnmodels\\NightElf\\EntBirthTarget\\EntBirthTarget.mdl", target, "origin"))
             endif
         endif
@@ -88360,67 +88359,67 @@ endfunction
     endfunction
     
     //After ability deal damage
-    function CorruptedEntE___AfterDamageEvent_Conditions takes nothing returns boolean
-        return CorruptedEntE___DamageCount == true
+    function CorruptedEntE__AfterDamageEvent_Conditions takes nothing returns boolean
+        return CorruptedEntE__DamageCount == true
     endfunction
     
-    function CorruptedEntE___AfterDamageEvent takes nothing returns nothing
-        call CorruptedEntE___AddToHeal(udg_DamageEventSource , udg_DamageEventAmount)
+    function CorruptedEntE__AfterDamageEvent takes nothing returns nothing
+        call CorruptedEntE__AddToHeal(udg_DamageEventSource , udg_DamageEventAmount)
     endfunction
     
     //Aspect Added
-    function CorruptedEntE___AspectAdded_Conditions takes nothing returns boolean
-        return GetUnitTypeId(Event_AspectAdded_Hero) == CorruptedEntE___ID_HERO and Event_AspectAdded_Key02 == 2
+    function CorruptedEntE__AspectAdded_Conditions takes nothing returns boolean
+        return GetUnitTypeId(Event_AspectAdded_Hero) == CorruptedEntE__ID_HERO and Event_AspectAdded_Key02 == 2
     endfunction
     
-    function CorruptedEntE___AspectAdded takes nothing returns nothing
-        set CorruptedEntE___Limit_to_Heal=CorruptedEntE___ALT_LIMIT_TO_HEAL
+    function CorruptedEntE__AspectAdded takes nothing returns nothing
+        set CorruptedEntE__Limit_to_Heal=CorruptedEntE__ALT_LIMIT_TO_HEAL
     endfunction
     
     //Aspect Removed
-    function CorruptedEntE___AspectRemoved_Conditions takes nothing returns boolean
-        return GetUnitTypeId(Event_AspectRemoved_Hero) == CorruptedEntE___ID_HERO and Event_AspectAdded_Key02 == 2
+    function CorruptedEntE__AspectRemoved_Conditions takes nothing returns boolean
+        return GetUnitTypeId(Event_AspectRemoved_Hero) == CorruptedEntE__ID_HERO and Event_AspectAdded_Key02 == 2
     endfunction
     
-    function CorruptedEntE___AspectRemoved takes nothing returns nothing
-        set CorruptedEntE___Limit_to_Heal=CorruptedEntE___LIMIT_TO_HEAL
+    function CorruptedEntE__AspectRemoved takes nothing returns nothing
+        set CorruptedEntE__Limit_to_Heal=CorruptedEntE__LIMIT_TO_HEAL
     endfunction
 
     //After heal to add
-    function CorruptedEntE___AfterHeal_Conditions takes nothing returns boolean
-        if IsUnitHasAbility(Event_AfterHeal_Target , CorruptedEntE___BUFF) == false then
+    function CorruptedEntE__AfterHeal_Conditions takes nothing returns boolean
+        if IsUnitHasAbility(Event_AfterHeal_Target , CorruptedEntE__BUFF) == false then
             return false
-        elseif IsUnitHasAbility(Event_AfterHeal_Caster , CorruptedEntE___ID_ABILITY) == false then
+        elseif IsUnitHasAbility(Event_AfterHeal_Caster , CorruptedEntE__ID_ABILITY) == false then
             return false
         elseif Aspects_IsHeroAspectActive(Event_AfterHeal_Caster , ASPECT_02) == false then
             return false
         elseif Event_AfterHeal_Heal <= 0 then
             return false
-        elseif CorruptedEntE___IsHealFromIt then
+        elseif CorruptedEntE__IsHealFromIt then
             return false
         endif
     
         return true
     endfunction
     
-    function CorruptedEntE___AfterHeal takes nothing returns nothing
-        call CorruptedEntE___AddToHeal(Event_AfterHeal_Caster , Event_AfterHeal_Heal)
+    function CorruptedEntE__AfterHeal takes nothing returns nothing
+        call CorruptedEntE__AddToHeal(Event_AfterHeal_Caster , Event_AfterHeal_Heal)
     endfunction
     
     //===========================================================================
-    function CorruptedEntE___init takes nothing returns nothing
+    function CorruptedEntE__init takes nothing returns nothing
         set gg_trg_CorruptedEntE=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_CorruptedEntE, EVENT_PLAYER_HERO_SKILL)
         call TriggerAddCondition(gg_trg_CorruptedEntE, Condition(function Trig_CorruptedEntE_Conditions))
         call TriggerAddAction(gg_trg_CorruptedEntE, function Trig_CorruptedEntE_Actions)
         
-        call CreateEventTrigger("udg_AfterDamageEvent" , function CorruptedEntE___AfterDamageEvent , function CorruptedEntE___AfterDamageEvent_Conditions)
-        call CreateEventTrigger("udg_Event_NullingAbility_Real" , function CorruptedEntE___NullingAbility , null)
+        call CreateEventTrigger("udg_AfterDamageEvent" , function CorruptedEntE__AfterDamageEvent , function CorruptedEntE__AfterDamageEvent_Conditions)
+        call CreateEventTrigger("udg_Event_NullingAbility_Real" , function CorruptedEntE__NullingAbility , null)
         
-        call CreateEventTrigger("Event_AspectAdded_Real" , function CorruptedEntE___AspectAdded , function CorruptedEntE___AspectAdded_Conditions)
-        call CreateEventTrigger("Event_AspectRemoved_Real" , function CorruptedEntE___AspectRemoved , function CorruptedEntE___AspectRemoved_Conditions)
+        call CreateEventTrigger("Event_AspectAdded_Real" , function CorruptedEntE__AspectAdded , function CorruptedEntE__AspectAdded_Conditions)
+        call CreateEventTrigger("Event_AspectRemoved_Real" , function CorruptedEntE__AspectRemoved , function CorruptedEntE__AspectRemoved_Conditions)
         
-        call CreateEventTrigger("Event_AfterHeal_Real" , function CorruptedEntE___AfterHeal , function CorruptedEntE___AfterHeal_Conditions)
+        call CreateEventTrigger("Event_AfterHeal_Real" , function CorruptedEntE__AfterHeal , function CorruptedEntE__AfterHeal_Conditions)
     endfunction
 
 // scope CorruptedEntE ends
@@ -88433,7 +88432,7 @@ endfunction
 
 
     function Trig_CorruptedEntR_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == CorruptedR___ID_ABILITY
+        return GetSpellAbilityId() == CorruptedR__ID_ABILITY
     endfunction
 
     function CorruptedEnrRHeal takes unit caster,real x,real y,integer id returns nothing
@@ -88442,7 +88441,7 @@ endfunction
         local unit u
         
         if heal > 0 then
-            call GroupEnumUnitsInRange(g, x, y, CorruptedR___HEAL_AREA, null)
+            call GroupEnumUnitsInRange(g, x, y, CorruptedR__HEAL_AREA, null)
             loop
                 set u=FirstOfGroup(g)
                 exitwhen u == null
@@ -88465,7 +88464,7 @@ endfunction
         local unit target= LoadUnitHandle(udg_hash, id, StringHash("entr"))
         local real damage= LoadReal(udg_hash, id, StringHash("entr"))
         
-        if IsUnitAlive(target) and IsUnitHasAbility(target , CorruptedR___EFFECT) then
+        if IsUnitAlive(target) and IsUnitHasAbility(target , CorruptedR__EFFECT) then
             call CorruptedEnrRHeal(caster , GetUnitX(target) , GetUnitY(target) , id)
             set IsDisableSpellPower=true
             call UnitTakeDamage(caster , target , damage , DAMAGE_TYPE_MAGIC)
@@ -88478,23 +88477,23 @@ endfunction
         set caster=null
     endfunction
 
-    function CorruptedR___Corrupted_EntR_Alternative takes unit caster,unit target,real damage,real duration,integer level returns nothing
+    function CorruptedR__Corrupted_EntR_Alternative takes unit caster,unit target,real damage,real duration,integer level returns nothing
         local group g= CreateGroup()
         local unit u
         local integer id
         
-        call GroupEnumUnitsInRange(g, GetUnitX(target), GetUnitY(target), CorruptedR___ALT_AREA, null)
+        call GroupEnumUnitsInRange(g, GetUnitX(target), GetUnitY(target), CorruptedR__ALT_AREA, null)
         loop
             set u=FirstOfGroup(g)
             exitwhen u == null
             if unitst(u , caster , "enemy") then
-                set id=InvokeTimerWithUnit(u , "entr" , CorruptedR___INTERVAL , true , function CorruptedEnrRCast)
+                set id=InvokeTimerWithUnit(u , "entr" , CorruptedR__INTERVAL , true , function CorruptedEnrRCast)
                 call SaveUnitHandle(udg_hash, id, StringHash("entrc"), caster)
                 call SaveReal(udg_hash, id, StringHash("entr"), damage)
                 call SaveReal(udg_hash, id, StringHash("entrh"), 0)
                 
-                call bufallst(caster , u , CorruptedR___EFFECT , CorruptedR___ID_ARMOR_REDUCE , 0 , 0 , 0 , CorruptedR___BUFF , "entrb" , duration)
-                call SetUnitAbilityLevel(u, CorruptedR___ID_ARMOR_REDUCE, level)
+                call bufallst(caster , u , CorruptedR__EFFECT , CorruptedR__ID_ARMOR_REDUCE , 0 , 0 , 0 , CorruptedR__BUFF , "entrb" , duration)
+                call SetUnitAbilityLevel(u, CorruptedR__ID_ARMOR_REDUCE, level)
                 
                 call debuffst(caster , u , null , level , duration)
             endif
@@ -88509,16 +88508,16 @@ endfunction
         set target=null
     endfunction
 
-    function CorruptedR___Corrupted_EntR takes unit caster,unit target,real damage,real duration,integer level,real heal returns nothing
+    function CorruptedR__Corrupted_EntR takes unit caster,unit target,real damage,real duration,integer level,real heal returns nothing
         local integer id
 
-        set id=InvokeTimerWithUnit(target , "entr" , CorruptedR___INTERVAL , true , function CorruptedEnrRCast)
+        set id=InvokeTimerWithUnit(target , "entr" , CorruptedR__INTERVAL , true , function CorruptedEnrRCast)
         call SaveUnitHandle(udg_hash, id, StringHash("entrc"), caster)
         call SaveReal(udg_hash, id, StringHash("entr"), damage)
         call SaveReal(udg_hash, id, StringHash("entrh"), heal)
         
-        call bufallst(caster , target , CorruptedR___EFFECT , CorruptedR___ID_ARMOR_REDUCE , 0 , 0 , 0 , CorruptedR___BUFF , "entrb" , duration)
-        call SetUnitAbilityLevel(target, CorruptedR___ID_ARMOR_REDUCE, level)
+        call bufallst(caster , target , CorruptedR__EFFECT , CorruptedR__ID_ARMOR_REDUCE , 0 , 0 , 0 , CorruptedR__BUFF , "entrb" , duration)
+        call SetUnitAbilityLevel(target, CorruptedR__ID_ARMOR_REDUCE, level)
         
         call debuffst(caster , target , null , level , duration)
     
@@ -88543,8 +88542,8 @@ endfunction
             set caster=udg_Caster
             set target=randomtarget(caster , 900 , "enemy" , "" , "" , "" , "")
             set lvl=udg_Level
-            call textst(udg_string[0] + GetObjectName(CorruptedR___ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
-            set t=CorruptedR___DURATION
+            call textst(udg_string[0] + GetObjectName(CorruptedR__ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
+            set t=CorruptedR__DURATION
             if target == null then
                 set caster=null
                 return
@@ -88553,49 +88552,49 @@ endfunction
             set caster=GetSpellAbilityUnit()
             set target=GetSpellTargetUnit()
             set lvl=GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())
-            set t=CorruptedR___DURATION
+            set t=CorruptedR__DURATION
         endif
 
-        set damage=( CorruptedR___DAMAGE_FIRST_LEVEL + ( CorruptedR___DAMAGE_LEVEL_BONUS * lvl ) ) * GetUnitSpellPower(caster)
+        set damage=( CorruptedR__DAMAGE_FIRST_LEVEL + ( CorruptedR__DAMAGE_LEVEL_BONUS * lvl ) ) * GetUnitSpellPower(caster)
         set heal=damage
         
         if Aspects_IsHeroAspectActive(caster , ASPECT_03) then
-            call CorruptedR___Corrupted_EntR_Alternative(caster , target , damage , t , lvl)
+            call CorruptedR__Corrupted_EntR_Alternative(caster , target , damage , t , lvl)
         else
-            call CorruptedR___Corrupted_EntR(caster , target , damage , t , lvl , heal)
+            call CorruptedR__Corrupted_EntR(caster , target , damage , t , lvl , heal)
         endif
 
         set caster=null
         set target=null
     endfunction
 
-    function CorruptedR___BuffDelete_Condition takes nothing returns boolean
-        return GetUnitAbilityLevel(Event_DeleteBuff_Unit, CorruptedR___EFFECT) > 0
+    function CorruptedR__BuffDelete_Condition takes nothing returns boolean
+        return GetUnitAbilityLevel(Event_DeleteBuff_Unit, CorruptedR__EFFECT) > 0
     endfunction
 
-    function CorruptedR___BuffDelete takes nothing returns nothing
-        call UnitRemoveAbility(Event_DeleteBuff_Unit, CorruptedR___EFFECT)
-        call UnitRemoveAbility(Event_DeleteBuff_Unit, CorruptedR___ID_ARMOR_REDUCE)
-        call UnitRemoveAbility(Event_DeleteBuff_Unit, CorruptedR___BUFF)
+    function CorruptedR__BuffDelete takes nothing returns nothing
+        call UnitRemoveAbility(Event_DeleteBuff_Unit, CorruptedR__EFFECT)
+        call UnitRemoveAbility(Event_DeleteBuff_Unit, CorruptedR__ID_ARMOR_REDUCE)
+        call UnitRemoveAbility(Event_DeleteBuff_Unit, CorruptedR__BUFF)
     endfunction
 
-    function CorruptedR___Corrupted_End_Q_Condition takes nothing returns boolean
-        return IsUnitHasAbility(Event_Corrupted_End_Q_Unit , CorruptedR___EFFECT)
+    function CorruptedR__Corrupted_End_Q_Condition takes nothing returns boolean
+        return IsUnitHasAbility(Event_Corrupted_End_Q_Unit , CorruptedR__EFFECT)
     endfunction
     
-    function CorruptedR___Corrupted_End_Q takes nothing returns nothing
-        call bufallst(Event_Corrupted_End_Q_Caster , Event_Corrupted_End_Q_Unit , CorruptedR___EFFECT , CorruptedR___ID_ARMOR_REDUCE , 0 , 0 , 0 , CorruptedR___BUFF , "entrb" , CorruptedR___DURATION)
+    function CorruptedR__Corrupted_End_Q takes nothing returns nothing
+        call bufallst(Event_Corrupted_End_Q_Caster , Event_Corrupted_End_Q_Unit , CorruptedR__EFFECT , CorruptedR__ID_ARMOR_REDUCE , 0 , 0 , 0 , CorruptedR__BUFF , "entrb" , CorruptedR__DURATION)
     endfunction
 
     //===========================================================================
-    function CorruptedR___init takes nothing returns nothing
+    function CorruptedR__init takes nothing returns nothing
         set gg_trg_CorruptedEntR=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_CorruptedEntR, EVENT_PLAYER_UNIT_SPELL_EFFECT)
         call TriggerAddCondition(gg_trg_CorruptedEntR, Condition(function Trig_CorruptedEntR_Conditions))
         call TriggerAddAction(gg_trg_CorruptedEntR, function Trig_CorruptedEntR_Actions)
         
-        call CreateEventTrigger("Event_Corrupted_End_Q_Real" , function CorruptedR___Corrupted_End_Q , function CorruptedR___Corrupted_End_Q_Condition)
-        call CreateEventTrigger("Event_DeleteBuff_Real" , function CorruptedR___BuffDelete , function CorruptedR___BuffDelete_Condition)
+        call CreateEventTrigger("Event_Corrupted_End_Q_Real" , function CorruptedR__Corrupted_End_Q , function CorruptedR__Corrupted_End_Q_Condition)
+        call CreateEventTrigger("Event_DeleteBuff_Real" , function CorruptedR__BuffDelete , function CorruptedR__BuffDelete_Condition)
     endfunction
 
 // scope CorruptedR ends
@@ -89073,12 +89072,12 @@ endfunction
 
 
     function Trig_CircusW_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == CircusW___ID_ABILITY
+        return GetSpellAbilityId() == CircusW__ID_ABILITY
     endfunction
     
     
     
-    function CircusW___DealDamage takes nothing returns nothing
+    function CircusW__DealDamage takes nothing returns nothing
         local unit caster= Event_WaveHit_Caster
         local unit target= Event_WaveHit_Target
         local real damage= LoadReal(udg_hash, GetHandleId(Event_WaveHit_Wave), StringHash("crcwd"))
@@ -89118,20 +89117,20 @@ endfunction
         elseif RandomLogic() then
             set caster=udg_Caster
             set lvl=udg_Level
-            call textst(udg_string[0] + GetObjectName(CircusW___ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
+            call textst(udg_string[0] + GetObjectName(CircusW__ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
         else
             set caster=GetSpellAbilityUnit()
             set lvl=GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())
         endif
 
-        set damage=( CircusW___DAMAGE_FIRST_LEVEL + ( CircusW___DAMAGE_LEVEL_BONUS * lvl ) ) * GetUnitSpellPower(caster)
+        set damage=( CircusW__DAMAGE_FIRST_LEVEL + ( CircusW__DAMAGE_LEVEL_BONUS * lvl ) ) * GetUnitSpellPower(caster)
         set affected=CreateGroup()
         
         set i=1
         loop
-            exitwhen i > CircusW___WAVES
+            exitwhen i > CircusW__WAVES
             //call CreateWave(caster, ANGLE_DIFFERENCE * i, damage, affected)
-            set wave=Wave_CreateWave(caster , GetUnitX(caster) , GetUnitY(caster) , CircusW___ANGLE_DIFFERENCE * i , CircusW___TICK , CircusW___AREA , CircusW___FLIGHT_LENGTH , CircusW___SPEED , TARGET_ENEMY , WAVE_BASE_ANIMATION , CircusW___Wave_Use , affected)
+            set wave=Wave_CreateWave(caster , GetUnitX(caster) , GetUnitY(caster) , CircusW__ANGLE_DIFFERENCE * i , CircusW__TICK , CircusW__AREA , CircusW__FLIGHT_LENGTH , CircusW__SPEED , TARGET_ENEMY , WAVE_BASE_ANIMATION , CircusW__Wave_Use , affected)
             call SaveReal(udg_hash, GetHandleId(wave), StringHash("crcwd"), damage)
             set i=i + 1
         endloop
@@ -89142,14 +89141,14 @@ endfunction
     endfunction
 
     //===========================================================================
-    function CircusW___init takes nothing returns nothing
+    function CircusW__init takes nothing returns nothing
         set gg_trg_CircusW=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_CircusW, EVENT_PLAYER_UNIT_SPELL_EFFECT)
         call TriggerAddCondition(gg_trg_CircusW, Condition(function Trig_CircusW_Conditions))
         call TriggerAddAction(gg_trg_CircusW, function Trig_CircusW_Actions)
         
-        set CircusW___Wave_Use=CreateTrigger()
-        call TriggerAddAction(CircusW___Wave_Use, function CircusW___DealDamage)
+        set CircusW__Wave_Use=CreateTrigger()
+        call TriggerAddAction(CircusW__Wave_Use, function CircusW__DealDamage)
     endfunction
 
 // scope CircusW ends
@@ -89809,11 +89808,11 @@ endfunction
     endfunction
     
     //When choose hero
-    function Shoggoth___HeroChoose_Conditions takes nothing returns boolean
+    function Shoggoth__HeroChoose_Conditions takes nothing returns boolean
         return GetUnitTypeId(Event_HeroChoose_Hero) == 'O016'
     endfunction
     
-    function Shoggoth___HeroChoose takes nothing returns nothing
+    function Shoggoth__HeroChoose takes nothing returns nothing
         set udg_panel[3]=CreateLeaderboardBJ(GetForceOfPlayer(GetOwningPlayer(Event_HeroChoose_Hero)), "")
         call LeaderboardSetLabelColor(udg_panel[3], 250, 200, 50, 250)
         call LeaderboardAddItemBJ(Player(4), udg_panel[3], "Entropies: ", udg_entropy[GetPlayerId(GetOwningPlayer(Event_HeroChoose_Hero)) + 1])
@@ -89821,11 +89820,11 @@ endfunction
     
     
     //When hero repicked
-    function Shoggoth___HeroRepick_Conditions takes nothing returns boolean
+    function Shoggoth__HeroRepick_Conditions takes nothing returns boolean
         return GetUnitTypeId(Event_HeroRepick_Hero) == 'O016'
     endfunction
     
-    function Shoggoth___HeroRepick takes nothing returns nothing
+    function Shoggoth__HeroRepick takes nothing returns nothing
         call DestroyLeaderboard(udg_panel[3])
     endfunction
     
@@ -89836,8 +89835,8 @@ endfunction
         call TriggerAddCondition(gg_trg_ShoggothA, Condition(function Trig_ShoggothA_Conditions))
         call TriggerAddAction(gg_trg_ShoggothA, function Trig_ShoggothA_Actions)
         
-        call CreateEventTrigger("Event_HeroChoose_Real" , function Shoggoth___HeroChoose , function Shoggoth___HeroChoose_Conditions)
-        call CreateEventTrigger("Event_HeroRepick_Real" , function Shoggoth___HeroRepick , function Shoggoth___HeroRepick_Conditions)
+        call CreateEventTrigger("Event_HeroChoose_Real" , function Shoggoth__HeroChoose , function Shoggoth__HeroChoose_Conditions)
+        call CreateEventTrigger("Event_HeroRepick_Real" , function Shoggoth__HeroRepick , function Shoggoth__HeroRepick_Conditions)
     endfunction
 
 // scope Shoggoth ends
@@ -89895,10 +89894,10 @@ endfunction
                 call DestroyEffect(AddSpecialEffect("war3mapImported\\Soul Discharge.mdx", GetUnitX(u), GetUnitY(u)))
                 call UnitDamageTarget(bj_lastCreatedUnit, u, dmg, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)
                 set mana=mana + mnbn
-                set ShoggothQ___EntropyCount=ShoggothQ___EntropyCount + 1
-                if ShoggothQ___EntropyCount >= 4 then
+                set ShoggothQ__EntropyCount=ShoggothQ__EntropyCount + 1
+                if ShoggothQ__EntropyCount >= 4 then
                     set entdone=entdone + 1
-                    set ShoggothQ___EntropyCount=0
+                    set ShoggothQ__EntropyCount=0
                 endif
             endif
             call GroupRemoveUnit(g, u)
@@ -107222,7 +107221,7 @@ endfunction
         endfunction
         
     
-    function IADatabase__init takes nothing returns nothing
+    function IADatabase___init takes nothing returns nothing
                 set s__IADatabase_Units[0]= s__UnitIA_create('u00B' , 3 , 1 , 20 , 10 , 100 , 75 , 0)
                set s__IADatabase_Units[1]= s__UnitIA_create('n022' , 5 , 2 , 25 , 12 , 90 , 60 , 5)
                  set s__IADatabase_Units[2]= s__UnitIA_create('u00P' , 5 , 2 , 15 , 8 , 70 , 50 , 5)
@@ -107257,11 +107256,11 @@ endfunction
 
     
     function InfiniteArena_GetRound takes nothing returns integer
-        return InfiniteArena__round
+        return InfiniteArena___round
     endfunction
 
     //=========Aggro===========
-    function InfiniteArena__unit_search takes nothing returns boolean
+    function InfiniteArena___unit_search takes nothing returns boolean
         local unit filtered= GetFilterUnit()
         local boolean b
         
@@ -107279,7 +107278,7 @@ endfunction
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
         else
-            call GroupEnumUnitsInRect(g, gg_rct_RandomItem, Condition(function InfiniteArena__unit_search))
+            call GroupEnumUnitsInRect(g, gg_rct_RandomItem, Condition(function InfiniteArena___unit_search))
             loop
                 set u=FirstOfGroup(g)
                 exitwhen u == null
@@ -107294,31 +107293,31 @@ endfunction
     endfunction
     //=========================
     
-    function InfiniteArena__SpawnRune takes nothing returns nothing
+    function InfiniteArena___SpawnRune takes nothing returns nothing
         set bj_lastCreatedItem=CreateItem('I03J' + GetRandomInt(1, 6), GetRandomReal(GetRectMinX(udg_Boss_Rect), GetRectMaxX(udg_Boss_Rect)), GetRandomReal(GetRectMinY(udg_Boss_Rect), GetRectMaxY(udg_Boss_Rect)))
         call DestroyEffect(AddSpecialEffect("Abilities\\Spells\\Orc\\FeralSpirit\\feralspirittarget.mdl", GetItemX(bj_lastCreatedItem), GetItemY(bj_lastCreatedItem)))
     endfunction
     
-    function InfiniteArena__SpawnUnit takes integer unitNumber,integer spawnPosition returns nothing
+    function InfiniteArena___SpawnUnit takes integer unitNumber,integer spawnPosition returns nothing
         local integer unitSctruct= s__IADatabase_Units[unitNumber]
         local integer id
         
         set bj_lastCreatedUnit=CreateUnitAtLoc(Player(10), s__UnitIA_Rawcode[unitSctruct], udg_point[spawnPosition + 13], 90 * spawnPosition - 45)
         call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Orc\\FeralSpirit\\feralspirittarget.mdl", bj_lastCreatedUnit, "origin"))
         
-        call BlzSetUnitMaxHP(bj_lastCreatedUnit, s__UnitIA_Health_Initial[unitSctruct] + ( s__UnitIA_Health_Increase[unitSctruct] * InfiniteArena__round ))
-        call BlzSetUnitBaseDamage(bj_lastCreatedUnit, s__UnitIA_Attack_Initial[unitSctruct] + ( s__UnitIA_Attack_Increase[unitSctruct] * InfiniteArena__round ), 0)
-        call SetUnitMoveSpeed(bj_lastCreatedUnit, GetUnitDefaultMoveSpeed(bj_lastCreatedUnit) + ( s__UnitIA_Speed_Increase[unitSctruct] * InfiniteArena__round ))
+        call BlzSetUnitMaxHP(bj_lastCreatedUnit, s__UnitIA_Health_Initial[unitSctruct] + ( s__UnitIA_Health_Increase[unitSctruct] * InfiniteArena___round ))
+        call BlzSetUnitBaseDamage(bj_lastCreatedUnit, s__UnitIA_Attack_Initial[unitSctruct] + ( s__UnitIA_Attack_Increase[unitSctruct] * InfiniteArena___round ), 0)
+        call SetUnitMoveSpeed(bj_lastCreatedUnit, GetUnitDefaultMoveSpeed(bj_lastCreatedUnit) + ( s__UnitIA_Speed_Increase[unitSctruct] * InfiniteArena___round ))
         call SetUnitLifePercentBJ(bj_lastCreatedUnit, 100)
         
         set id=GetHandleId(bj_lastCreatedUnit)
-        call SaveInteger(udg_hash, id, StringHash("roundIA"), InfiniteArena__round)
-        call SaveInteger(udg_hash, id, StringHash("goldIA"), s__UnitIA_Gold_Initial[unitSctruct] + ( s__UnitIA_Gold_Increase[unitSctruct] * InfiniteArena__round ))
+        call SaveInteger(udg_hash, id, StringHash("roundIA"), InfiniteArena___round)
+        call SaveInteger(udg_hash, id, StringHash("goldIA"), s__UnitIA_Gold_Initial[unitSctruct] + ( s__UnitIA_Gold_Increase[unitSctruct] * InfiniteArena___round ))
         
         set unitSctruct=0
     endfunction
 
-    function InfiniteArena__StartSpawn takes nothing returns nothing
+    function InfiniteArena___StartSpawn takes nothing returns nothing
         
         local integer id= GetHandleId(GetExpiredTimer())
         
@@ -107335,24 +107334,24 @@ endfunction
             call DestroyTimer(GetExpiredTimer())
         else
             set minionAmount=CountUnitsInGroup(GetUnitsInRectOfPlayer(gg_rct_RandomItem, Player(10)))
-            if minionAmount <= InfiniteArena__enemySpawnLimit then
+            if minionAmount <= InfiniteArena___enemySpawnLimit then
                 set i=1
                 loop
                     exitwhen i > 4
-                    call InfiniteArena__SpawnUnit(s__IADatabase_PackUnit[(InfiniteArena__pack)*(4)+i - 1] , i)
+                    call InfiniteArena___SpawnUnit(s__IADatabase_PackUnit[(InfiniteArena___pack)*(4)+i - 1] , i)
                     set i=i + 1
                 endloop
             endif
             
-            set InfiniteArena__pack=InfiniteArena__pack + 1
-            if InfiniteArena__pack >= IADatabase_PACK_AMOUNT then
-                set InfiniteArena__pack=0
+            set InfiniteArena___pack=InfiniteArena___pack + 1
+            if InfiniteArena___pack >= IADatabase_PACK_AMOUNT then
+                set InfiniteArena___pack=0
             endif
             
-            set InfiniteArena__upgrade_counter=InfiniteArena__upgrade_counter + 1
-            if InfiniteArena__upgrade_counter >= IADatabase_WAVES_UNTIL_UPGRADE then
-                set InfiniteArena__upgrade_counter=0
-                set InfiniteArena__round=InfiniteArena__round + 1
+            set InfiniteArena___upgrade_counter=InfiniteArena___upgrade_counter + 1
+            if InfiniteArena___upgrade_counter >= IADatabase_WAVES_UNTIL_UPGRADE then
+                set InfiniteArena___upgrade_counter=0
+                set InfiniteArena___round=InfiniteArena___round + 1
             endif
             
             
@@ -107362,9 +107361,9 @@ endfunction
             
             //===============
             
-            call InfiniteArena__SpawnRune()
+            call InfiniteArena___SpawnRune()
             if udg_modgood[21] then
-                call InfiniteArena__SpawnRune()
+                call InfiniteArena___SpawnRune()
             endif
             
         endif
@@ -107398,10 +107397,10 @@ endfunction
         endloop
         
         //Arena Starter
-        set InfiniteArena__round=( udg_Arena_LvL[0] * 2 )
-        set InfiniteArena__pack=0
-        set InfiniteArena__upgrade_counter=0
-        set InfiniteArena__enemySpawnLimit=IADatabase_ENEMY_LIMIT_BASE * udg_Heroes_Amount + IADatabase_ENEMY_LIMIT_PER_HERO
+        set InfiniteArena___round=( udg_Arena_LvL[0] * 2 )
+        set InfiniteArena___pack=0
+        set InfiniteArena___upgrade_counter=0
+        set InfiniteArena___enemySpawnLimit=IADatabase_ENEMY_LIMIT_BASE * udg_Heroes_Amount + IADatabase_ENEMY_LIMIT_PER_HERO
         set id=StringHash("IA_spawner")
         
         if LoadTimerHandle(udg_hash, 1, id) == null then
@@ -107409,7 +107408,7 @@ endfunction
         endif
         //call SaveInteger( udg_hash, id, StringHash( "IAtime" ), 7 )
         //call SaveInteger( udg_hash, id, StringHash( "IAhard" ), (udg_Arena_LvL[0]*2)+1 )
-        call TimerStart(LoadTimerHandle(udg_hash, 1, id), IADatabase_PACK_SPAWN_COOLDOWN, true, function InfiniteArena__StartSpawn)
+        call TimerStart(LoadTimerHandle(udg_hash, 1, id), IADatabase_PACK_SPAWN_COOLDOWN, true, function InfiniteArena___StartSpawn)
         
         call EnableTrigger(gg_trg_IA_End)
         //==================
@@ -107452,7 +107451,7 @@ endfunction
     endfunction
 
     //===========================================================================
-    function InfiniteArena__init takes nothing returns nothing
+    function InfiniteArena___init takes nothing returns nothing
         set gg_trg_IA_StartWork=CreateTrigger()
         call TriggerAddAction(gg_trg_IA_StartWork, function Trig_IA_StartWork_Actions)
     endfunction
@@ -107499,10 +107498,10 @@ endfunction
 
 
     function Trig_AbomDeath_Conditions takes nothing returns boolean
-        return GetUnitAbilityLevel(GetDyingUnit(), AbominationExplosion__ABILITY_ID) > 0
+        return GetUnitAbilityLevel(GetDyingUnit(), AbominationExplosion___ABILITY_ID) > 0
     endfunction
     
-    function AbominationExplosion__unit_search takes nothing returns boolean
+    function AbominationExplosion___unit_search takes nothing returns boolean
         local unit filtered= GetFilterUnit()
         local unit caster= GetDyingUnit()
         local boolean b
@@ -107519,7 +107518,7 @@ endfunction
         local unit u
         local effect fx
         local integer round= IMaxBJ(LoadInteger(udg_hash, GetHandleId(caster), StringHash("roundIA")), 1)
-        local real dmg= AbominationExplosion__DAMAGE_INITIAL + ( AbominationExplosion__DAMAGE_PER_ROUND * round )
+        local real dmg= AbominationExplosion___DAMAGE_INITIAL + ( AbominationExplosion___DAMAGE_PER_ROUND * round )
         
         call ShowUnit(caster, false)
         set fx=AddSpecialEffectToUnit("Units\\Undead\\Abomination\\AbominationExplosion.mdl" , caster)
@@ -107527,7 +107526,7 @@ endfunction
         call DestroyEffect(fx)
         
         call dummyspawn(caster , 1 , 0 , 0 , 0)
-        call GroupEnumUnitsInRange(g, GetUnitX(caster), GetUnitY(caster), AbominationExplosion__RADIUS, Condition(function AbominationExplosion__unit_search))
+        call GroupEnumUnitsInRange(g, GetUnitX(caster), GetUnitY(caster), AbominationExplosion___RADIUS, Condition(function AbominationExplosion___unit_search))
         loop
             set u=FirstOfGroup(g)
             exitwhen u == null
@@ -107542,7 +107541,7 @@ endfunction
     endfunction
 
     //===========================================================================
-    function AbominationExplosion__init takes nothing returns nothing
+    function AbominationExplosion___init takes nothing returns nothing
         set gg_trg_AbomDeath=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_AbomDeath, EVENT_PLAYER_UNIT_DEATH)
         call TriggerAddCondition(gg_trg_AbomDeath, Condition(function Trig_AbomDeath_Conditions))
@@ -107653,7 +107652,7 @@ endfunction
 // scope PAStart begins
 
 
-    function PAStart__PA_TimerEnd takes nothing returns nothing
+    function PAStart___PA_TimerEnd takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
     
         if udg_fightmod[3] then
@@ -107665,7 +107664,7 @@ endfunction
         call FlushChildHashtable(udg_hash, id)
     endfunction
     
-    function PAStart__BattleStart takes integer playerIndex,integer opponentIndex returns nothing
+    function PAStart___BattleStart takes integer playerIndex,integer opponentIndex returns nothing
         local integer id
         local integer i
 
@@ -107691,7 +107690,7 @@ endfunction
         if LoadTimerHandle(udg_hash, id, StringHash("PA")) == null then
             call SaveTimerHandle(udg_hash, id, StringHash("PA"), CreateTimer())
         endif
-        call TimerStart(LoadTimerHandle(udg_hash, id, StringHash("PA")), PAStart__BATTLE_TIME, false, function PAStart__PA_TimerEnd)
+        call TimerStart(LoadTimerHandle(udg_hash, id, StringHash("PA")), PAStart___BATTLE_TIME, false, function PAStart___PA_TimerEnd)
 
         set bj_lastCreatedTimerDialog=CreateTimerDialog(LoadTimerHandle(udg_hash, GetHandleId(gg_unit_h00A_0034), StringHash("PA")))
         call TimerDialogSetTitle(bj_lastCreatedTimerDialog, "End of battle:")
@@ -107713,7 +107712,7 @@ endfunction
         endloop
     endfunction
     
-    function PAStart__WaitForBattle takes player pl,integer playerIndex returns nothing
+    function PAStart___WaitForBattle takes player pl,integer playerIndex returns nothing
         if GetLocalPlayer() == pl then
             call BlzFrameSetTexture(pvpbk, "ReplaceableTextures\\CommandButtons\\BTNCancel.blp", 0, true)
         endif
@@ -107722,7 +107721,7 @@ endfunction
         set pl=null
     endfunction
     
-    function PAStart__Use takes player mainPlayer,integer playerIndex returns nothing
+    function PAStart___Use takes player mainPlayer,integer playerIndex returns nothing
         local integer i
         local integer opponentIndex= - 1
         local player opponent= null
@@ -107739,16 +107738,16 @@ endfunction
         endloop
     
         if GetPlayerSlotState(mainPlayer) == PLAYER_SLOT_STATE_PLAYING and GetPlayerSlotState(opponent) == PLAYER_SLOT_STATE_PLAYING and udg_logic[36 + playerIndex] and udg_logic[36 + opponentIndex] then
-            call PAStart__BattleStart(playerIndex , opponentIndex)
+            call PAStart___BattleStart(playerIndex , opponentIndex)
         else
-            call PAStart__WaitForBattle(mainPlayer , playerIndex)
+            call PAStart___WaitForBattle(mainPlayer , playerIndex)
         endif
         
         set mainPlayer=null
         set opponent=null
     endfunction
     
-    function PAStart__End_Cooldown takes nothing returns nothing
+    function PAStart___End_Cooldown takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local player pl= LoadPlayerHandle(udg_hash, id, StringHash("cool"))
     
@@ -107760,7 +107759,7 @@ endfunction
         set pl=null
     endfunction
     
-    function PAStart__Cancel takes player pl,integer playerIndex returns nothing
+    function PAStart___Cancel takes player pl,integer playerIndex returns nothing
         local integer id
 
         if GetLocalPlayer() == pl then
@@ -107777,27 +107776,27 @@ endfunction
         endif
         set id=GetHandleId(LoadTimerHandle(udg_hash, id, StringHash("cool")))
         call SavePlayerHandle(udg_hash, id, StringHash("cool"), pl)
-        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(pl), StringHash("cool")), PAStart__BUTTON_COOLDOWN, false, function PAStart__End_Cooldown)
+        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(pl), StringHash("cool")), PAStart___BUTTON_COOLDOWN, false, function PAStart___End_Cooldown)
         
         set pl=null
     endfunction
 
-    function PAStart__PvPButtonClicked takes nothing returns nothing
+    function PAStart___PvPButtonClicked takes nothing returns nothing
         local player pl= Event_PvPButtonClicked_Player
         local integer i= GetPlayerId(pl) + 1
 
         if udg_logic[36 + i] == false then
-            call PAStart__Use(pl , i)
+            call PAStart___Use(pl , i)
         else
-            call PAStart__Cancel(pl , i)
+            call PAStart___Cancel(pl , i)
         endif
 
         set pl=null
     endfunction
 
     //===========================================================================
-    function PAStart__init takes nothing returns nothing
-        call CreateEventTrigger("Event_PvPButtonClicked_Real" , function PAStart__PvPButtonClicked , null)
+    function PAStart___init takes nothing returns nothing
+        call CreateEventTrigger("Event_PvPButtonClicked_Real" , function PAStart___PvPButtonClicked , null)
     endfunction
 // scope PAStart ends
 
@@ -108111,7 +108110,7 @@ endfunction
     endfunction
 
     //===========================================================================
-    function OverloadArena__init takes nothing returns nothing
+    function OverloadArena___init takes nothing returns nothing
         set gg_trg_AL_StartWork=CreateTrigger()
         call TriggerAddAction(gg_trg_AL_StartWork, function Trig_AL_StartWork_Actions)
     endfunction
@@ -108125,11 +108124,11 @@ endfunction
 //===========================================================================
 // scope MoneyAL begins
 
-    function MoneyAL__Trig_AL_Money_Conditions takes nothing returns boolean
+    function MoneyAL___Trig_AL_Money_Conditions takes nothing returns boolean
         return udg_fightmod[4] and GetOwningPlayer(GetDyingUnit()) == Player(10) and IsUnitInGroup(GetDyingUnit(), udg_Bosses)
     endfunction
     
-    function MoneyAL__UnitCheck takes unit u returns boolean
+    function MoneyAL___UnitCheck takes unit u returns boolean
         local integer unitType= GetUnitTypeId(u)
         if unitType == 'h01D' then
             return false
@@ -108158,12 +108157,12 @@ endfunction
         return true
     endfunction
 
-    function MoneyAL__Trig_AL_Money_Actions takes nothing returns nothing
+    function MoneyAL___Trig_AL_Money_Actions takes nothing returns nothing
         local integer i
         local real money= udg_number[9]
         
         call BossKill_Actions_on_u(GetDyingUnit()) // also removes u from udg_Bosses
-        if MoneyAL__UnitCheck(GetDyingUnit()) then
+        if MoneyAL___UnitCheck(GetDyingUnit()) then
             if udg_number[9] < OverloadArena_GOLD_CAP then
                 set udg_number[9]=udg_number[9] + OverloadArena_GOLD_EXTRA_PER_KILL
             endif
@@ -108183,11 +108182,11 @@ endfunction
     endfunction
 
     //===========================================================================
-    function MoneyAL__init takes nothing returns nothing
+    function MoneyAL___init takes nothing returns nothing
         set gg_trg_AL_Money=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_AL_Money, EVENT_PLAYER_UNIT_DEATH)
-        call TriggerAddCondition(gg_trg_AL_Money, Condition(function MoneyAL__Trig_AL_Money_Conditions))
-        call TriggerAddAction(gg_trg_AL_Money, function MoneyAL__Trig_AL_Money_Actions)
+        call TriggerAddCondition(gg_trg_AL_Money, Condition(function MoneyAL___Trig_AL_Money_Conditions))
+        call TriggerAddAction(gg_trg_AL_Money, function MoneyAL___Trig_AL_Money_Actions)
     endfunction
 
 // scope MoneyAL ends
@@ -108197,7 +108196,7 @@ endfunction
 // scope ArenaLordsEnd begins
 
 
-    function ArenaLordsEnd__EndBattle takes nothing returns nothing
+    function ArenaLordsEnd___EndBattle takes nothing returns nothing
         local group g= CreateGroup()
         local unit u
     
@@ -108240,13 +108239,13 @@ endfunction
         call GroupAddUnit(udg_DeadHero, died)
         set udg_Heroes_Deaths=udg_Heroes_Deaths + 1
         if udg_Heroes_Deaths == udg_Heroes_Amount then
-            call ArenaLordsEnd__EndBattle()
+            call ArenaLordsEnd___EndBattle()
         endif
         
         set died=null
     endfunction
     
-    function ArenaLordsEnd__IsLastBossKilled takes nothing returns boolean
+    function ArenaLordsEnd___IsLastBossKilled takes nothing returns boolean
         if udg_fightmod[4] == false then
             return false
         elseif GetUnitTypeId(GetDyingUnit()) == 'n00F' then
@@ -108257,12 +108256,12 @@ endfunction
         return false
     endfunction
     
-    function ArenaLordsEnd__BossKilled takes nothing returns nothing
-        call ArenaLordsEnd__EndBattle()
+    function ArenaLordsEnd___BossKilled takes nothing returns nothing
+        call ArenaLordsEnd___EndBattle()
     endfunction
 
     //===========================================================================
-    function ArenaLordsEnd__init takes nothing returns nothing
+    function ArenaLordsEnd___init takes nothing returns nothing
         set gg_trg_AL_End=CreateTrigger()
         call DisableTrigger(gg_trg_AL_End)
         call TriggerRegisterAnyUnitEventBJ(gg_trg_AL_End, EVENT_PLAYER_UNIT_DEATH)
@@ -108272,8 +108271,8 @@ endfunction
         set ArenaLordsEnd_LastBossKilled=CreateTrigger()
         call DisableTrigger(ArenaLordsEnd_LastBossKilled)
         call TriggerRegisterAnyUnitEventBJ(ArenaLordsEnd_LastBossKilled, EVENT_PLAYER_UNIT_DEATH)
-        call TriggerAddCondition(ArenaLordsEnd_LastBossKilled, Condition(function ArenaLordsEnd__IsLastBossKilled))
-        call TriggerAddAction(ArenaLordsEnd_LastBossKilled, function ArenaLordsEnd__BossKilled)
+        call TriggerAddCondition(ArenaLordsEnd_LastBossKilled, Condition(function ArenaLordsEnd___IsLastBossKilled))
+        call TriggerAddAction(ArenaLordsEnd_LastBossKilled, function ArenaLordsEnd___BossKilled)
     endfunction
 
 // scope ArenaLordsEnd ends
@@ -110478,9 +110477,9 @@ function main takes nothing returns nothing
     call CreateAllUnits()
     call InitBlizzard()
 
-call ExecuteFunc("jasshelper__initstructs25088656")
-call ExecuteFunc("Aspects__init")
-call ExecuteFunc("HeroesTableDatabase___init")
+call ExecuteFunc("jasshelper__initstructs26549671")
+call ExecuteFunc("Aspects___init")
+call ExecuteFunc("HeroesTableDatabase__init")
 call ExecuteFunc("MMD__init")
 call ExecuteFunc("Math___init")
 call ExecuteFunc("ModsData_init")
@@ -110491,7 +110490,7 @@ call ExecuteFunc("MetaEvents__init")
 call ExecuteFunc("RandomTargetLib___init")
 call ExecuteFunc("SpellPower___init")
 call ExecuteFunc("PolyLib___init")
-call ExecuteFunc("HeroesTable___init")
+call ExecuteFunc("HeroesTable__init")
 call BetterTriggerCheck___init()
 call TimerStart(CreateTimer(), 0.1, false, function Trig_BaseTooltip_Actions) // INLINED!!
 call KillsBattleEndCount__Triggs()
@@ -110544,9 +110543,9 @@ call CreateEventTrigger("Event_AfterHeal_Real" , function HungryLeech___AfterHea
 call CreateEventTrigger("udg_AfterDamageEvent" , function BattlemasterBulwark___AfterDamageEvent , function BattlemasterBulwark___AfterDamageEvent_Conditions) // INLINED!!
 call Enlightenment___init()
 call CharizardQuest___init()
-call OrbCenarius___init()
-call OrbRollingPlains___init()
-call CreateEventTrigger("Event_AfterHeal_Real" , function OrbFrozenThundra___AfterHeal , function OrbFrozenThundra___AfterHeal_Conditions) // INLINED!!
+call OrbCenarius__init()
+call OrbRollingPlains__init()
+call CreateEventTrigger("Event_AfterHeal_Real" , function OrbFrozenThundra__AfterHeal , function OrbFrozenThundra__AfterHeal_Conditions) // INLINED!!
 call CreateEventTrigger("udg_AfterDamageEvent" , function BloodSet__AfterDamageEvent , function BloodSet__AfterDamageEvent_Conditions) // INLINED!!
 call FinancialVein__Triggs()
 call Noiselessness__Triggs()
@@ -110580,10 +110579,10 @@ call MarshalE__Triggs()
 call ShadowArcherE__Triggs()
 call SamuraiW__Triggs()
 call SamuraiR__init()
-call GunMasterR__init()
-call CreateEventTrigger("udg_DamageModifierEvent" , function GamblerE__DamageModifierEvent , function GamblerE__DamageModifierEvent_Conditions) // INLINED!!
-call GamblerR__init()
-call BananaDeath__init()
+call GunMasterR___init()
+call CreateEventTrigger("udg_DamageModifierEvent" , function GamblerE___DamageModifierEvent , function GamblerE___DamageModifierEvent_Conditions) // INLINED!!
+call GamblerR___init()
+call BananaDeath___init()
 call RunesmithQ___init()
 call CreateEventTrigger("udg_AfterDamageEvent" , function Trig_RunesmithQHit_Actions , function RunesmithQHit___Trig_RunesmithQHit_Conditions) // INLINED!!
 call RunesmithW___init()
@@ -110602,15 +110601,15 @@ call BardR___init()
 call CreateEventTrigger("Event_OnDamageChange_Real" , function IncarnationE___OnDamageChange , function IncarnationE___OnDamageChange_Conditions) // INLINED!!
 call OwlE___init()
 call CreateEventTrigger("udg_AfterDamageEvent" , function ShamanWCheese___AfterDamageEvent , function ShamanWCheese___AfterDamageEvent_Conditions) // INLINED!!
-call CreateEventTrigger("Event_DeleteBuff_Real" , function DruidQ___DeleteBuff , function DruidQ___DeleteBuff_Conditions) // INLINED!!
-call CreateEventTrigger("Event_DeleteBuff_Real" , function DruidW___DeleteBuff , function DruidW___DeleteBuff_Conditions) // INLINED!!
-call CreateEventTrigger("udg_AfterDamageEvent" , function MentorE___AfterDamageEvent , function MentorE___AfterDamageEvent_Conditions) // INLINED!!
-call CorruptedEntQ___init()
-call CorruptedEntUpgrade___Triggs()
-call CorruptedEntW___Triggs()
-call CorruptedEntE___init()
-call CorruptedR___init()
-call CircusW___init()
+call CreateEventTrigger("Event_DeleteBuff_Real" , function DruidQ__DeleteBuff , function DruidQ__DeleteBuff_Conditions) // INLINED!!
+call CreateEventTrigger("Event_DeleteBuff_Real" , function DruidW__DeleteBuff , function DruidW__DeleteBuff_Conditions) // INLINED!!
+call CreateEventTrigger("udg_AfterDamageEvent" , function MentorE__AfterDamageEvent , function MentorE__AfterDamageEvent_Conditions) // INLINED!!
+call CorruptedEntQ__init()
+call CorruptedEntUpgrade__Triggs()
+call CorruptedEntW__Triggs()
+call CorruptedEntE__init()
+call CorruptedR__init()
+call CircusW__init()
 call ThePlagueQ__init()
 call ThePlagueW__init()
 call ThePlagueE__init()
@@ -110632,13 +110631,13 @@ call War03__init()
 call War04__init()
 call War05__init()
 call BossAku1__init()
-call IADatabase__init()
-call InfiniteArena__init()
-call AbominationExplosion__init()
-call CreateEventTrigger("Event_PvPButtonClicked_Real" , function PAStart__PvPButtonClicked , null) // INLINED!!
-call OverloadArena__init()
-call MoneyAL__init()
-call ArenaLordsEnd__init()
+call IADatabase___init()
+call InfiniteArena___init()
+call AbominationExplosion___init()
+call CreateEventTrigger("Event_PvPButtonClicked_Real" , function PAStart___PvPButtonClicked , null) // INLINED!!
+call OverloadArena___init()
+call MoneyAL___init()
+call ArenaLordsEnd___init()
 
     call InitGlobals()
     call InitCustomTriggers()
@@ -110706,7 +110705,7 @@ function sa___prototype84_onRemovalBoss takes nothing returns boolean
     return true
 endfunction
 
-function jasshelper__initstructs25088656 takes nothing returns nothing
+function jasshelper__initstructs26549671 takes nothing returns nothing
     set st__AbilityFrame_SetNameAndDescription=CreateTrigger()
     call TriggerAddCondition(st__AbilityFrame_SetNameAndDescription,Condition( function sa__AbilityFrame_SetNameAndDescription))
     set st__MMD__QueueNode_onDestroy=CreateTrigger()

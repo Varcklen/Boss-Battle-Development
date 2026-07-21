@@ -1,14 +1,12 @@
 library Potion requires Trigger
 
 	globals
-	    
-	    
 	    real Event_PotionUsed = 0
 	    unit Event_PotionUsed_Unit
 	endglobals
 	
 	function potionst takes unit caster returns nothing
-	    local integer id = GetHandleId( LoadTimerHandle( udg_hash, GetHandleId( caster ), StringHash( "lqsf" ) ) )
+	    //local integer id = GetHandleId( LoadTimerHandle( udg_hash, GetHandleId( caster ), StringHash( "lqsf" ) ) )
 	    local integer i = GetPlayerId( GetOwningPlayer( caster ) ) + 1
 	    local string str
 	    local item it

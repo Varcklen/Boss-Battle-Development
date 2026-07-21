@@ -597,6 +597,8 @@ library LibDataItems
 	    set udg_Database_Item_Potion[BaseNum()] = 'I05A'
 	    set udg_Database_Item_Potion[BaseNum()] = 'I05C'
 	    set udg_Database_Item_Potion[BaseNum()] = 'I05D'
+	    set udg_Database_Item_Potion[BaseNum()] = 'I0HW'
+	    set udg_Database_Item_Potion[BaseNum()] = 'I0HX'
 	    set udg_Database_NumberItems[9] = udg_base
 	    
 	    // Триггеры зелий
@@ -610,6 +612,8 @@ library LibDataItems
 	    set udg_DB_Trigger_Pot[8] = gg_trg_GeizerPot
 	    set udg_DB_Trigger_Pot[9] = gg_trg_SwampPot
 	    set udg_DB_Trigger_Pot[10] = gg_trg_StormPot
+	    set udg_DB_Trigger_Pot[11] = RagePotion_Trigger
+	    set udg_DB_Trigger_Pot[12] = CalmPotion_Trigger
 	    
 	    //Карты Таро
 	    set udg_base = 0

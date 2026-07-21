@@ -336,12 +336,6 @@ STRING 46
 (4)
 }
 
-STRING 47
-// Units: u016 (Essence of Air), Name (Name)
-{
-Essence of Air
-}
-
 STRING 48
 // Units: u015 (Крыса), Name (Name)
 {
@@ -1937,6 +1931,13 @@ STRING 305
 // Units: h013 (Portal), EditorSuffix (Name - Editor Suffix)
 {
 (Колдун, малый портал)
+}
+
+STRING 306
+// Items: I0HW (Rage Potion), Description (Description)
+{
+|cff088a08Potion|r
+Increases Attack Damage by 35% for battle (Stacks). Works only in combat.
 }
 
 STRING 307
@@ -5019,6 +5020,12 @@ STRING 792
 Activation: |cffcc0000Corrupted|r. Destroy all other items. |cFFE16B90Forge|r the same number of artifacts |cFF959697(0).
 }
 
+STRING 793
+// Items: I0HW (Rage Potion), Name (Name)
+{
+Rage Potion
+}
+
 STRING 794
 // Items: I0GE (Billy), Name (Name)
 {
@@ -7329,7 +7336,7 @@ Soul of Determination
 }
 
 STRING 1125
-// Items: I059 (Shower potion), Hotkey (Hotkey)
+// Items: I059 (Shower Potion), Hotkey (Hotkey)
 {
 S
 }
@@ -9868,6 +9875,12 @@ STRING 1492
 // Items: I0BK (Thief's Footpads), Tip (Tooltip - Basic)
 {
 Thief's Footpads
+}
+
+STRING 1493
+// Items: I0HW (Rage Potion), Tip (Tooltip - Basic)
+{
+Rage Potion
 }
 
 STRING 1494
@@ -14860,16 +14873,6 @@ STRING 2219
 Deals more damage - but loses health over time.
 }
 
-STRING 2220
-// Abilities: A15M (Predator: Stomp Out), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f7100/150/200/250/300|r damage to all enemies in front of the hero and knocks them away. Restore |cffbe81f715/25/35/45/55|r health for each enemy.
-|cffffcc00Cooldown:|r 16/15/14/13/12 seconds.
-|cffffcc00Cost:|r 40 mana.
-|cFF959697Upgrades increase the knockback distance.
-Does not work on immobile targets.|r
-}
-
 STRING 2221
 // Abilities: A0UL (Commander: Mark of the Chosen), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -15946,14 +15949,6 @@ STRING 2381
 The hero goes into a rage, increasing Attack Speed by 40%, but loses 10 mana every second. If there is no mana, it spends health instead.
 }
 
-STRING 2382
-// Items: I05D (Fire Storm Potion), Description (Description)
-{
-|cff088a08Potion|r
-Activation: Imposes a fire storm on the area, dealing |cffbe81f775|r fire damage to enemies every second.
-|cffffcc00Duration:|r 12 seconds.
-}
-
 STRING 2383
 // Items: I037 (Change artifact (Slot 6)), Hotkey (Hotkey)
 {
@@ -15970,21 +15965,6 @@ STRING 2385
 // Items: I05D (Fire Storm Potion), Tip (Tooltip - Basic)
 {
 Fire Storm Potion
-}
-
-STRING 2386
-// Items: I05D (Fire Storm Potion), Ubertip (Tooltip - Extended)
-{
-|cff088a08Potion|r
-Activation: Imposes a fire storm on the area, dealing |cffbe81f775|r fire damage to enemies every second.
-|cffffcc00Duration:|r 12 seconds.
-}
-
-STRING 2387
-// Items: I05C (Swamp Potion), Description (Description)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7800|r health and |cffbe81f7500|r mana to the hero.
 }
 
 STRING 2388
@@ -16005,20 +15985,6 @@ STRING 2390
 Swamp Potion
 }
 
-STRING 2391
-// Items: I05C (Swamp Potion), Ubertip (Tooltip - Extended)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7800|r health and |cffbe81f7500|r mana to the hero.
-}
-
-STRING 2392
-// Items: I05B (Volcano Potion), Description (Description)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7300|r health to the hero and deals |cffbe81f7250|r damage to the enemy.
-}
-
 STRING 2393
 // Items: I03U (Book of Magic), Hotkey (Hotkey)
 {
@@ -16035,20 +16001,6 @@ STRING 2395
 // Items: I05B (Volcano Potion), Tip (Tooltip - Basic)
 {
 Volcano Potion
-}
-
-STRING 2396
-// Items: I05B (Volcano Potion), Ubertip (Tooltip - Extended)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7300|r health to the hero and deals |cffbe81f7250|r damage to the enemy.
-}
-
-STRING 2397
-// Items: I05A (Geyser Potion), Description (Description)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7150|r mana to the hero and deals |cffbe81f7250|r damage to the enemy.
 }
 
 STRING 2398
@@ -16069,53 +16021,10 @@ STRING 2400
 Geyser Potion
 }
 
-STRING 2401
-// Items: I05A (Geyser Potion), Ubertip (Tooltip - Extended)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7150|r mana to the hero and deals |cffbe81f7250|r damage to the enemy.
-}
-
-STRING 2402
-// Items: I059 (Shower potion), Description (Description)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7250|r mana to the hero over time.
-|cffffcc00Duration:|r 5 seconds.
-}
-
 STRING 2403
 // Items: I039 (Change artifact (Slot 4)), Hotkey (Hotkey)
 {
 S
-}
-
-STRING 2404
-// Items: I059 (Shower potion), Name (Name)
-{
-Shower potion
-}
-
-STRING 2405
-// Items: I059 (Shower potion), Tip (Tooltip - Basic)
-{
-Shower potion
-}
-
-STRING 2406
-// Items: I059 (Shower potion), Ubertip (Tooltip - Extended)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7250|r mana to the hero over time.
-|cffffcc00Duration:|r 5 seconds.
-}
-
-STRING 2407
-// Items: I058 (Desert Potion), Description (Description)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7400|r health to the hero over time.
-|cffffcc00Duration:|r 5 seconds.
 }
 
 STRING 2408
@@ -16136,22 +16045,6 @@ STRING 2410
 Desert Potion
 }
 
-STRING 2411
-// Items: I058 (Desert Potion), Ubertip (Tooltip - Extended)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7400|r health to the hero over time.
-|cffffcc00Duration:|r 5 seconds.
-}
-
-STRING 2412
-// Items: I057 (Air Potion), Description (Description)
-{
-|cff088a08Potion|r
-Activation: Summons 2 essences of air.
-|cffffcc00Life time:|r 30 seconds.
-}
-
 STRING 2413
 // Items: I057 (Air Potion), Hotkey (Hotkey)
 {
@@ -16168,14 +16061,6 @@ STRING 2415
 // Items: I057 (Air Potion), Tip (Tooltip - Basic)
 {
 Air Potion
-}
-
-STRING 2416
-// Items: I057 (Air Potion), Ubertip (Tooltip - Extended)
-{
-|cff088a08Potion|r
-Activation: Summons 2 essences of air.
-|cffffcc00Life time:|r 30 seconds.
 }
 
 STRING 2417
@@ -16240,13 +16125,6 @@ STRING 2426
 Activation: Restores |cffbe81f7125|r mana to the hero.
 }
 
-STRING 2427
-// Items: I054 (Earth Potion), Description (Description)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7225|r health to the hero.
-}
-
 STRING 2428
 // Abilities: A1DG (Sun King: Solar Flare), Hotkey (Hotkey - Normal)
 {
@@ -16263,13 +16141,6 @@ STRING 2430
 // Items: I054 (Earth Potion), Tip (Tooltip - Basic)
 {
 Earth Potion
-}
-
-STRING 2431
-// Items: I054 (Earth Potion), Ubertip (Tooltip - Extended)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7225|r health to the hero.
 }
 
 STRING 2432
@@ -16350,6 +16221,13 @@ STRING 2443
 The hero takes 40% less physical damage, but gets 90% less gold from any sources.
 }
 
+STRING 2444
+// Items: I0HW (Rage Potion), Ubertip (Tooltip - Extended)
+{
+|cff088a08Potion|r
+Increases Attack Damage by 35% for battle (Stacks). Works only in combat.
+}
+
 STRING 2445
 // Items: I050 (Sheep Mantle), Name (Name)
 {
@@ -16360,6 +16238,13 @@ STRING 2446
 // Items: I050 (Sheep Mantle), Tip (Tooltip - Basic)
 {
 Sheep Mantle
+}
+
+STRING 2447
+// Items: I0HX (Calm Potion), Description (Description)
+{
+|cff088a08Potion|r
+Increases Spell Power by 20% for battle (Stacks). Works only in combat.
 }
 
 STRING 2448
@@ -17380,6 +17265,31 @@ Every 37 seconds, if it is day, the hero uses Murder at Midnight (|cffffcc00Q|r)
 At night, each hero attack with a |cffd7df0140%|r chance increases agility by 1 until daytime.
 
 |cFF959697Blood for Blood prioritizes heroes, especially oneself.|r
+}
+
+STRING 2597
+// Items: I0HX (Calm Potion), Hotkey (Hotkey)
+{
+A
+}
+
+STRING 2598
+// Items: I0HX (Calm Potion), Name (Name)
+{
+Calm Potion
+}
+
+STRING 2599
+// Items: I0HX (Calm Potion), Tip (Tooltip - Basic)
+{
+Calm Potion
+}
+
+STRING 2600
+// Items: I0HX (Calm Potion), Ubertip (Tooltip - Extended)
+{
+|cff088a08Potion|r
+Increases Spell Power by 20% for battle (Stacks). Works only in combat.
 }
 
 STRING 2601
@@ -28810,36 +28720,6 @@ STRING 4354
 Spar now affects an area, however hero's damage is reduced by twice as much.
 }
 
-STRING 4355
-// Abilities: A169 (Зелье: Obsidian Potion), Name (Name)
-{
-Зелье: Obsidian Potion
-}
-
-STRING 4356
-// Abilities: A168 (Зелье: Tsunami Potion), Name (Name)
-{
-Зелье: Tsunami Potion
-}
-
-STRING 4357
-// Abilities: A167 (Зелье: Waterfall Potion), Name (Name)
-{
-Зелье: Waterfall Potion
-}
-
-STRING 4358
-// Abilities: A166 (Зелье: Earthquake Potion), Name (Name)
-{
-Зелье: Earthquake Potion
-}
-
-STRING 4359
-// Abilities: A165 (Зелье: Lava Potion), Name (Name)
-{
-Зелье: Lava Potion
-}
-
 STRING 4360
 // Abilities: A164 (Артефакт: Трость Хнума), Name (Name)
 {
@@ -29167,13 +29047,6 @@ STRING 4411
 Shark Scales, [|cffffcc00Level %d|r]
 }
 
-STRING 4412
-// Abilities: A15Q (Predator: Shark Scales), Researchubertip (Tooltip - Learn - Extended)
-{
-Reduces damage taken by 6%/9%/12%/15%/18%.
-Increases movement speed by 20/40/60/80/100.
-}
-
 STRING 4413
 // Abilities: A15Q (Predator: Shark Scales), Tip (Tooltip - Normal)
 {
@@ -29202,36 +29075,6 @@ STRING 4417
 // Abilities: A15Q (Predator: Shark Scales), Tip (Tooltip - Normal)
 {
 Shark Scales, [|cffffcc00Level 5|r]
-}
-
-STRING 4418
-// Abilities: A15Q (Predator: Shark Scales), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces damage taken by 6%. Increases movement speed by 20.
-}
-
-STRING 4419
-// Abilities: A15Q (Predator: Shark Scales), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces damage taken by 9%. Increases movement speed by 40.
-}
-
-STRING 4420
-// Abilities: A15Q (Predator: Shark Scales), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces damage taken by 12%. Increases movement speed by 60.
-}
-
-STRING 4421
-// Abilities: A15Q (Predator: Shark Scales), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces damage taken by 15%. Increases movement speed by 80.
-}
-
-STRING 4422
-// Abilities: A15Q (Predator: Shark Scales), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces damage taken by 18%. Increases movement speed by 100.
 }
 
 STRING 4423
@@ -29270,15 +29113,6 @@ STRING 4428
 Aqua Jet, [|cffffcc00Level %d|r]
 }
 
-STRING 4429
-// Abilities: A15N (Predator: Aqua Jet), Researchubertip (Tooltip - Learn - Extended)
-{
-The hero dashes towards the target area, inflicting |cffbe81f7120/160/200/240/280|r damage to all affected enemies. When the hero stops, fortifies himself, reducing the damage taken by 9%/13%/17%/21%/25%.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 55 mana.
-}
-
 STRING 4430
 // Abilities: A15N (Predator: Aqua Jet), Tip (Tooltip - Normal)
 {
@@ -29307,46 +29141,6 @@ STRING 4434
 // Abilities: A15N (Predator: Aqua Jet), Tip (Tooltip - Normal)
 {
 Aqua Jet, [|cffffcc00Level 5|r]
-}
-
-STRING 4435
-// Abilities: A15N (Predator: Aqua Jet), Ubertip (Tooltip - Normal - Extended)
-{
-The hero dashes towards the target area, inflicting |cffbe81f7120|r damage to all affected enemies. When the hero stops, fortifies himself, reducing the damage taken by 9%.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 4436
-// Abilities: A15N (Predator: Aqua Jet), Ubertip (Tooltip - Normal - Extended)
-{
-The hero dashes towards the target area, inflicting |cffbe81f7160|r damage to all affected enemies. When the hero stops, fortifies himself, reducing the damage taken by 13%.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 4437
-// Abilities: A15N (Predator: Aqua Jet), Ubertip (Tooltip - Normal - Extended)
-{
-The hero dashes towards the target area, inflicting |cffbe81f7200|r damage to all affected enemies. When the hero stops, fortifies himself, reducing the damage taken by 17%.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 4438
-// Abilities: A15N (Predator: Aqua Jet), Ubertip (Tooltip - Normal - Extended)
-{
-The hero dashes towards the target area, inflicting |cffbe81f7240|r damage to all affected enemies. When the hero stops, fortifies himself, reducing the damage taken by 21%.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 4439
-// Abilities: A15N (Predator: Aqua Jet), Ubertip (Tooltip - Normal - Extended)
-{
-The hero dashes towards the target area, inflicting |cffbe81f7280|r damage to all affected enemies. When the hero stops, fortifies himself, reducing the damage taken by 25%.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 4440
@@ -29407,51 +29201,6 @@ STRING 4449
 // Abilities: A15M (Predator: Stomp Out), Tip (Tooltip - Normal)
 {
 Stomp Out, [|cffffcc00Level 5|r]
-}
-
-STRING 4450
-// Abilities: A15M (Predator: Stomp Out), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7100|r damage to all enemies in front of the hero and knocks them. Restore |cffbe81f715|r health for each enemy.
-|cffffcc00Cooldown:|r 16 seconds.
-
-|cFF959697Does not work on immobile targets.|r
-}
-
-STRING 4451
-// Abilities: A15M (Predator: Stomp Out), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7150|r damage to all enemies in front of the hero and knocks them. Restore |cffbe81f725|r health for each enemy.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Does not work on immobile targets.|r
-}
-
-STRING 4452
-// Abilities: A15M (Predator: Stomp Out), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7200|r damage to all enemies in front of the hero and knocks them. Restore |cffbe81f735|r health for each enemy.
-|cffffcc00Cooldown:|r 14 seconds.
-
-|cFF959697Does not work on immobile targets.|r
-}
-
-STRING 4453
-// Abilities: A15M (Predator: Stomp Out), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7250|r damage to all enemies in front of the hero and knocks them. Restore |cffbe81f745|r health for each enemy.
-|cffffcc00Cooldown:|r 13 seconds.
-
-|cFF959697Does not work on immobile targets.|r
-}
-
-STRING 4454
-// Abilities: A15M (Predator: Stomp Out), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7300|r damage to all enemies in front of the hero and knocks them. Restore |cffbe81f755|r health for each enemy.
-|cffffcc00Cooldown:|r 12 seconds.
-
-|cFF959697Does not work on immobile targets.|r
 }
 
 STRING 4455
@@ -30184,12 +29933,6 @@ Select a point. Creates an orb, teleports the hero and restores |cffbe81f735|r m
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
-STRING 4565
-// Abilities: A14W (Зелье: Devilflame Potion), Name (Name)
-{
-Зелье: Devilflame Potion
-}
-
 STRING 4566
 // Abilities: A14V (Инкуб: Dark past), Name (Name)
 {
@@ -30808,12 +30551,6 @@ STRING 4662
 // Abilities: A13X (Артефакт: Бурлящий коктейль Пшикса), Name (Name)
 {
 Артефакт: Бурлящий коктейль Пшикса
-}
-
-STRING 4663
-// Abilities: A13W (Зелье: Вулкан), Name (Name)
-{
-Зелье: Вулкан
 }
 
 STRING 4664
@@ -40946,37 +40683,31 @@ STRING 6211
 }
 
 STRING 6212
-// Abilities: A0RN (Зелье: Огненный шторм), EditorSuffix (Editor Suffix)
+// Abilities: A0RN (Potion: Огненный шторм), EditorSuffix (Editor Suffix)
 {
 (Радиус)
 }
 
-STRING 6213
-// Abilities: A0RN (Зелье: Огненный шторм), Name (Name)
-{
-Зелье: Огненный шторм
-}
-
 STRING 6214
-// Abilities: A0RN (Зелье: Огненный шторм), Researchtip (Tooltip - Learn)
+// Abilities: A0RN (Potion: Огненный шторм), Researchtip (Tooltip - Learn)
 {
 Поле спокойствия, [|cffffcc00Уровень %d|r] (|cffffcc00Q|r)
 }
 
 STRING 6215
-// Abilities: A0RN (Зелье: Огненный шторм), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A0RN (Potion: Огненный шторм), Researchubertip (Tooltip - Learn - Extended)
 {
 Создаёт зону, в которой все союзники восстанавливают |cffbe81f720/30/40/50/60|r здоровья, а противники получают урон. В этой зоне нельзя использовать способности.|n|cffffcc00Время жизни:|r 15 секунд.|n|cffffcc00Перезарядка:|r 24 секунды.|n|cffffcc00Стоимость:|r 80/95/110/125/140 маны.
 }
 
 STRING 6216
-// Abilities: A0RN (Зелье: Огненный шторм), Tip (Tooltip - Normal)
+// Abilities: A0RN (Potion: Огненный шторм), Tip (Tooltip - Normal)
 {
 Поле спокойствия, [|cffffcc00Уровень 1|r] (|cffffcc00Q|r)
 }
 
 STRING 6217
-// Abilities: A0RN (Зелье: Огненный шторм), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0RN (Potion: Огненный шторм), Ubertip (Tooltip - Normal - Extended)
 {
 Создаёт зону, в которой все союзники восстанавливают |cffbe81f720|r здоровья, а противники получают урон. В этой зоне нельзя использовать способности.|n|cffffcc00Время жизни:|r 15 секунд.|n|cffffcc00Перезарядка:|r 24 секунды.
 }
@@ -41269,13 +41000,6 @@ STRING 6264
 Legionary: Blade of Fire
 }
 
-STRING 6265
-// Abilities: A0OY (Wagon: Take My Money!), Researchubertip (Tooltip - Learn - Extended)
-{
-Hero throws 10%/15%/20%/25%/30% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 6266
 // Abilities: A08L (Legionary: Blade of Fire), Researchtip (Tooltip - Learn)
 {
@@ -41308,41 +41032,6 @@ STRING 6270
 Blade of Fire, [|cffffcc00Level 3|r]
 }
 
-STRING 6271
-// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
-{
-Hero throws 10% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6272
-// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
-{
-Hero throws 15% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6273
-// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
-{
-Hero throws 20% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6274
-// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
-{
-Hero throws 25% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6275
-// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
-{
-Hero throws 30% of gold at the target which, upon landing, deals damage equal to |cffbe81f7300%|r of the used gold. This gold falls to the ground and can be picked up.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 6276
 // Abilities: A0R6 (Набор "|cff2d9995Оружие|r"), Name (Name)
 {
@@ -41353,6 +41042,12 @@ STRING 6277
 // Abilities: A0R6 (Набор "|cff2d9995Оружие|r"), Tip (Tooltip - Normal)
 {
 Set "|cff2d9995Weapon|r"
+}
+
+STRING 6278
+// Abilities: A169 (Potion: Obsidian Potion), Name (Name)
+{
+Potion: Obsidian Potion
 }
 
 STRING 6279
@@ -41828,18 +41523,6 @@ STRING 6352
 // Abilities: A0QU (Spell Book), EditorSuffix (Editor Suffix)
 {
 (Длинный лук)
-}
-
-STRING 6353
-// Abilities: A0QT (Зелье: Болото), Name (Name)
-{
-Зелье: Болото
-}
-
-STRING 6354
-// Abilities: A0QS (Зелье: Ливень), Name (Name)
-{
-Зелье: Ливень
 }
 
 STRING 6355
@@ -46547,10 +46230,22 @@ STRING 7091
 R
 }
 
+STRING 7092
+// Abilities: A168 (Potion: Tsunami Potion), Name (Name)
+{
+Potion: Tsunami Potion
+}
+
 STRING 7093
 // Abilities: A0LF (Wanderer: Regnum Irae), Researchhotkey (Hotkey - Learn)
 {
 R
+}
+
+STRING 7094
+// Abilities: A167 (Potion: Waterfall Potion), Name (Name)
+{
+Potion: Waterfall Potion
 }
 
 STRING 7095
@@ -46559,6 +46254,30 @@ STRING 7095
 You place a first aid kit on the ground. This first-aid kit restores |cffbe81f7180/270/360/450/540|r health.
 |cffffcc00Cooldown:|r 20 seconds.
 |cffffcc00Cost:|r 45/50/55/60/65 mana.
+}
+
+STRING 7096
+// Abilities: A166 (Potion: Earthquake Potion), Name (Name)
+{
+Potion: Earthquake Potion
+}
+
+STRING 7097
+// Abilities: A165 (Potion: Lava Potion), Name (Name)
+{
+Potion: Lava Potion
+}
+
+STRING 7098
+// Abilities: A14W (Potion: Devilflame Potion), Name (Name)
+{
+Potion: Devilflame Potion
+}
+
+STRING 7099
+// Abilities: A13W (Potion: Вулкан), Name (Name)
+{
+Potion: Вулкан
 }
 
 STRING 7100
@@ -47667,12 +47386,6 @@ Increases all damage dealt by the casting and the target hero by 36%, but causes
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
-STRING 7267
-// Abilities: A0KF (Зелье: Пустыня), Name (Name)
-{
-Зелье: Пустыня
-}
-
 STRING 7268
 // Abilities: A0KE (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -48033,12 +47746,6 @@ Increases stats by 48 for a while (сurrent health and mana remain the same).
 |cffffcc00Duration:|r 30 seconds.
 |cffffcc00Cooldown:|r 65 seconds.
 |cffffcc00Cost:|r 300 health.
-}
-
-STRING 7322
-// Abilities: A0K3 (Зелье: Воздух), Name (Name)
-{
-Зелье: Воздух
 }
 
 STRING 7323
@@ -48479,12 +48186,6 @@ STRING 7387
 // Abilities: A0JI (Кабан: Поддержка), Ubertip (Tooltip - Normal - Extended)
 {
 Every fourth attack deals additional damage equal to the hero agility.
-}
-
-STRING 7388
-// Abilities: A0JH (Зелье: Вода), Name (Name)
-{
-Зелье: Вода
 }
 
 STRING 7389
@@ -49191,12 +48892,6 @@ STRING 7496
 - |cff00cceeAt 20% health:|r Summons all totems.
 }
 
-STRING 7497
-// Abilities: A0IY (Зелье: Земля), Name (Name)
-{
-Зелье: Земля
-}
-
 STRING 7498
 // Abilities: A0IX (Артефакт: Фиолетовая призма), Name (Name)
 {
@@ -49740,12 +49435,6 @@ STRING 7578
 Throws a dagger at an enemy, dealing |cffbe81f790|r damage. Gives the hero a Fool stack. Each fool stack reduces attack cooldown by 3%. Stacks up to 25 times.
 |cffffcc00Duration:|r 15 seconds.
 |cffffcc00Cooldown:|r 1.5 seconds.
-}
-
-STRING 7579
-// Abilities: A0IB (Зелье: Пустышка), Name (Name)
-{
-Зелье: Пустышка
 }
 
 STRING 7580
@@ -51059,12 +50748,6 @@ STRING 7783
 Red Poppy
 }
 
-STRING 7784
-// Abilities: A0GJ (Зелье: Гейзер), Name (Name)
-{
-Зелье: Гейзер
-}
-
 STRING 7785
 // Abilities: A0GI (Artifact: Ash Cinder M-16), Name (Name)
 {
@@ -51663,6 +51346,12 @@ STRING 7879
 (т)Аура: Uneasy Alliance 
 }
 
+STRING 7880
+// Abilities: A0RN (Potion: Огненный шторм), Name (Name)
+{
+Potion: Огненный шторм
+}
+
 STRING 7881
 // Abilities: A0FJ (Аура: Длинный лук), Name (Name)
 {
@@ -52049,6 +51738,12 @@ STRING 7943
 Split the hero in two. The original loses half of its stats to transfer them to the duplicate. The duplicate retains the hero's basic abilities. Stats are restored upon the duplicate's death.
 |cffffcc00Cooldown:|r 60/50/40/30/20 seconds.
 |cffffcc00Cost:|r 80/60/40/20/0 mana.
+}
+
+STRING 7944
+// Abilities: A0QT (Potion: Болото), Name (Name)
+{
+Potion: Болото
 }
 
 STRING 7945
@@ -53227,12 +52922,6 @@ STRING 8125
 (Единение с луной)
 }
 
-STRING 8126
-// Abilities: A0ED (Зелья: ГКД), Name (Name)
-{
-Зелья: ГКД
-}
-
 STRING 8127
 // Abilities: A0EC (Attack speed (Orb of Ragnaros)), Name (Name)
 {
@@ -53679,6 +53368,12 @@ STRING 8196
 Courage, [|cffffcc00Level %d|r]
 }
 
+STRING 8197
+// Abilities: A0QS (Potion: Ливень), Name (Name)
+{
+Potion: Ливень
+}
+
 STRING 8198
 // Abilities: A0DW (Minotaur: Courage), Tip (Tooltip - Normal)
 {
@@ -53707,6 +53402,36 @@ STRING 8202
 // Abilities: A0DW (Minotaur: Courage), Tip (Tooltip - Normal)
 {
 Courage, [|cffffcc00Level 5|r]
+}
+
+STRING 8203
+// Abilities: A0KF (Potion: Пустыня), Name (Name)
+{
+Potion: Пустыня
+}
+
+STRING 8204
+// Abilities: A0K3 (Potion: Воздух), Name (Name)
+{
+Potion: Воздух
+}
+
+STRING 8205
+// Abilities: A0JH (Potion: Вода), Name (Name)
+{
+Potion: Вода
+}
+
+STRING 8206
+// Abilities: A0IY (Potion: Земля), Name (Name)
+{
+Potion: Земля
+}
+
+STRING 8207
+// Abilities: A0IB (Potion: Пустышка), Name (Name)
+{
+Potion: Пустышка
 }
 
 STRING 8208
@@ -53878,13 +53603,6 @@ STRING 8234
 Unholy Greed, [|cffffcc00Level %d|r]
 }
 
-STRING 8235
-// Abilities: A0DN (Wagon: Unholy Greed), Researchubertip (Tooltip - Learn - Extended)
-{
-Every 7 seconds, it gives the hero 6/8/10/12/14 gold and restores |cffbe81f78/12/16/20/24|r health.
-The closer the hero is to the enemies, the less health and gold he gets, but the further the hero is from the enemies, the more health and gold he gets.
-}
-
 STRING 8236
 // Abilities: A0DN (Wagon: Unholy Greed), Tip (Tooltip - Normal)
 {
@@ -53913,41 +53631,6 @@ STRING 8240
 // Abilities: A0DN (Wagon: Unholy Greed), Tip (Tooltip - Normal)
 {
 Unholy Greed, [|cffffcc00Level 5|r]
-}
-
-STRING 8241
-// Abilities: A0DN (Wagon: Unholy Greed), Ubertip (Tooltip - Normal - Extended)
-{
-Every 7 seconds, it gives the hero 6 gold and restores |cffbe81f78|r health.
-The closer the hero is to the enemies, the less health and gold he gets, but the further the hero is from the enemies, the more health and gold he gets.
-}
-
-STRING 8242
-// Abilities: A0DN (Wagon: Unholy Greed), Ubertip (Tooltip - Normal - Extended)
-{
-Every 7 seconds, it gives the hero 8 gold and restores |cffbe81f712|r health.
-The closer the hero is to the enemies, the less health and gold he gets, but the further the hero is from the enemies, the more health and gold he gets.
-}
-
-STRING 8243
-// Abilities: A0DN (Wagon: Unholy Greed), Ubertip (Tooltip - Normal - Extended)
-{
-Every 7 seconds, it gives the hero 10 gold and restores |cffbe81f716|r health.
-The closer the hero is to the enemies, the less health and gold he gets, but the further the hero is from the enemies, the more health and gold he gets.
-}
-
-STRING 8244
-// Abilities: A0DN (Wagon: Unholy Greed), Ubertip (Tooltip - Normal - Extended)
-{
-Every 7 seconds, it gives the hero 12 gold and restores |cffbe81f720|r health.
-The closer the hero is to the enemies, the less health and gold he gets, but the further the hero is from the enemies, the more health and gold he gets.
-}
-
-STRING 8245
-// Abilities: A0DN (Wagon: Unholy Greed), Ubertip (Tooltip - Normal - Extended)
-{
-Every 7 seconds, it gives the hero 14 gold and restores |cffbe81f724|r health.
-The closer the hero is to the enemies, the less health and gold he gets, but the further the hero is from the enemies, the more health and gold he gets.
 }
 
 STRING 8246
@@ -54953,6 +54636,12 @@ STRING 8403
 Skelemagic, [|cffffcc00Level %d|r]
 }
 
+STRING 8404
+// Abilities: A0GJ (Potion: Гейзер), Name (Name)
+{
+Potion: Гейзер
+}
+
 STRING 8405
 // Abilities: A0CK (Skeletlord: Skelemagic), Tip (Tooltip - Normal)
 {
@@ -54989,6 +54678,30 @@ STRING 8410
 |cff4169e1Rare|r
 Activation: Summons a unique pet with the Hero's Attack and Health.
 |cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 8411
+// Abilities: A0ED (Potion: ГКД), Name (Name)
+{
+Potion: ГКД
+}
+
+STRING 8412
+// Abilities: A04E (Potion: Огонь), Name (Name)
+{
+Potion: Огонь
+}
+
+STRING 8413
+// Abilities: A1E0 (Runesmith: Carve Rune of the Strongman), Hotkey (Hotkey - Normal)
+{
+A
+}
+
+STRING 8414
+// Abilities: A1IM ((т)Аура: Rage Potion), Name (Name)
+{
+(т)Аура: Rage Potion
 }
 
 STRING 8415
@@ -56288,6 +56001,12 @@ STRING 8611
 Set "|cff7cfc00Nature|r"
 }
 
+STRING 8612
+// Abilities: A1IN ((т)Аура: Calm Potion), Name (Name)
+{
+(т)Аура: Calm Potion
+}
+
 STRING 8613
 // Abilities: A0AT (|cffffcc00Уровень 5:|r Король рабов), Name (Name)
 {
@@ -57268,6 +56987,12 @@ STRING 8764
 Opportunistic Reflexes, [|cffffcc00Level %d|r]
 }
 
+STRING 8765
+// Abilities: A1IO (Potion: Rage), Name (Name)
+{
+Potion: Rage
+}
+
 STRING 8766
 // Abilities: A09R (Armsmaster: Opportunistic Reflexes), Tip (Tooltip - Normal)
 {
@@ -57525,6 +57250,12 @@ STRING 8804
 Weapons Training, [|cffffcc00Level %d|r]
 }
 
+STRING 8805
+// Abilities: A1IP (Potion: Calm), Name (Name)
+{
+Potion: Calm
+}
+
 STRING 8806
 // Abilities: A09I (Armsmaster: Weapons Training), Tip (Tooltip - Normal)
 {
@@ -57553,6 +57284,36 @@ STRING 8810
 // Abilities: A09I (Armsmaster: Weapons Training), Tip (Tooltip - Normal)
 {
 Weapons Training, [|cffffcc00Level 5|r]
+}
+
+STRING 8811
+// Buffs/Effects: B0B5 (), Bufftip (Tooltip)
+{
+|cff00ff00Rage Potion|r
+}
+
+STRING 8812
+// Buffs/Effects: B0B5 (), Buffubertip (Tooltip - Extended)
+{
+Attack Damage increased.
+}
+
+STRING 8813
+// Buffs/Effects: B0B6 (), Bufftip (Tooltip)
+{
+|cff00ff00Calm Potion|r
+}
+
+STRING 8814
+// Buffs/Effects: B0B6 (), Buffubertip (Tooltip - Extended)
+{
+Spell Power increased.
+}
+
+STRING 8815
+// Units: u016 (Air Spirit), Name (Name)
+{
+Air Spirit
 }
 
 STRING 8816
@@ -59006,6 +58767,14 @@ STRING 9041
 Set "|cffb18904Mech|r"
 }
 
+STRING 9042
+// Items: I057 (Air Potion), Description (Description)
+{
+|cff088a08Potion|r
+Activation: Summon 2 Air Spirits.
+|cffffcc00Life time:|r 30 seconds.
+}
+
 STRING 9043
 // Abilities: A07I (Scarab: Sap), Hotkey (Hotkey - Normal)
 {
@@ -59040,6 +58809,14 @@ STRING 9048
 // Abilities: A08A (Набор "|cff9001fdКольцо|r"), Tip (Tooltip - Normal)
 {
 Set "|cff9001fdRing|r"
+}
+
+STRING 9049
+// Items: I057 (Air Potion), Ubertip (Tooltip - Extended)
+{
+|cff088a08Potion|r
+Activation: Summon 2 Air Spirits.
+|cffffcc00Life time:|r 30 seconds.
 }
 
 STRING 9050
@@ -62129,16 +61906,6 @@ STRING 9527
 Plague Run, [|cffffcc00Level %d|r]
 }
 
-STRING 9528
-// Abilities: A05G (Wagon: Plague Run), Researchubertip (Tooltip - Learn - Extended)
-{
-Increases hero movement speed by 50%. Every 3 seconds, creates a poisonous cloud that deals |cffbe81f712/16/20/24/28|r damage to enemies.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 70/65/60/55/50 mana.
-}
-
 STRING 9529
 // Abilities: A05G (Wagon: Plague Run), Tip (Tooltip - Normal)
 {
@@ -62167,51 +61934,6 @@ STRING 9533
 // Abilities: A05G (Wagon: Plague Run), Tip (Tooltip - Normal)
 {
 Plague Run, [|cffffcc00Level 5|r]
-}
-
-STRING 9534
-// Abilities: A05G (Wagon: Plague Run), Ubertip (Tooltip - Normal - Extended)
-{
-Increases hero movement speed by 50%. Every 3 seconds, creates a poisonous cloud that deals |cffbe81f712|r damage to enemies.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 9535
-// Abilities: A05G (Wagon: Plague Run), Ubertip (Tooltip - Normal - Extended)
-{
-Increases hero movement speed by 50%. Every 3 seconds, creates a poisonous cloud that deals |cffbe81f716|r damage to enemies.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 9536
-// Abilities: A05G (Wagon: Plague Run), Ubertip (Tooltip - Normal - Extended)
-{
-Increases hero movement speed by 50%. Every 3 seconds, creates a poisonous cloud that deals |cffbe81f720|r damage to enemies.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 9537
-// Abilities: A05G (Wagon: Plague Run), Ubertip (Tooltip - Normal - Extended)
-{
-Increases hero movement speed by 50%. Every 3 seconds, creates a poisonous cloud that deals |cffbe81f724|r damage to enemies.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 9538
-// Abilities: A05G (Wagon: Plague Run), Ubertip (Tooltip - Normal - Extended)
-{
-Increases hero movement speed by 50%. Every 3 seconds, creates a poisonous cloud that deals |cffbe81f728|r damage to enemies.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 9539
@@ -62654,6 +62376,14 @@ STRING 9604
 Set "|cff848484Rune|r"
 }
 
+STRING 9605
+// Items: I05D (Fire Storm Potion), Description (Description)
+{
+|cff088a08Potion|r
+Activation: Sets an area on fire, causing enemies to take |cffbe81f750|r damage every second within it.
+|cffffcc00Duration:|r 12 seconds.
+}
+
 STRING 9606
 // Abilities: A051 (Набор "|cffb40431Кровь|r"), Name (Name)
 {
@@ -62664,6 +62394,14 @@ STRING 9607
 // Abilities: A051 (Набор "|cffb40431Кровь|r"), Tip (Tooltip - Normal)
 {
 Set "|cffb40431Blood|r"
+}
+
+STRING 9608
+// Items: I05D (Fire Storm Potion), Ubertip (Tooltip - Extended)
+{
+|cff088a08Potion|r
+Activation: Sets an area on fire, causing enemies to take |cffbe81f750|r damage every second within it.
+|cffffcc00Duration:|r 12 seconds.
 }
 
 STRING 9609
@@ -63499,12 +63237,6 @@ STRING 9740
 // Abilities: A04F ((т)Аура: Alchemy), Name (Name)
 {
 (т)Аура: Alchemy
-}
-
-STRING 9741
-// Abilities: A04E (Зелье: Огонь), Name (Name)
-{
-Зелье: Огонь
 }
 
 STRING 9742
@@ -64388,6 +64120,13 @@ STRING 9873
 Solar Eclipse, [|cffffcc00Level %d|r]
 }
 
+STRING 9874
+// Items: I05C (Swamp Potion), Description (Description)
+{
+|cff088a08Potion|r
+Activation: Restores |cffbe81f730%|r health and |cffbe81f720%|r mana (at least 600 health and 200 mana).
+}
+
 STRING 9875
 // Abilities: A03H (Sun King: Solar Eclipse), Tip (Tooltip - Normal)
 {
@@ -64416,6 +64155,41 @@ STRING 9879
 // Abilities: A03H (Sun King: Solar Eclipse), Tip (Tooltip - Normal)
 {
 Solar Eclipse, [|cffffcc00Level 5|r]
+}
+
+STRING 9880
+// Items: I05C (Swamp Potion), Ubertip (Tooltip - Extended)
+{
+|cff088a08Potion|r
+Activation: Restores |cffbe81f730%|r health and |cffbe81f720%|r mana (at least 600 health and 200 mana).
+}
+
+STRING 9881
+// Items: I05B (Volcano Potion), Description (Description)
+{
+|cff088a08Potion|r
+Activation: Restores |cffbe81f7300|r health to the hero and deals |cffbe81f7350|r damage to the enemy.
+}
+
+STRING 9882
+// Items: I05B (Volcano Potion), Ubertip (Tooltip - Extended)
+{
+|cff088a08Potion|r
+Activation: Restores |cffbe81f7300|r health to the hero and deals |cffbe81f7350|r damage to the enemy.
+}
+
+STRING 9883
+// Items: I05A (Geyser Potion), Description (Description)
+{
+|cff088a08Potion|r
+Activation: Restores |cffbe81f7165|r mana to the hero and deals |cffbe81f7350|r damage to the enemy.
+}
+
+STRING 9884
+// Items: I05A (Geyser Potion), Ubertip (Tooltip - Extended)
+{
+|cff088a08Potion|r
+Activation: Restores |cffbe81f7165|r mana to the hero and deals |cffbe81f7350|r damage to the enemy.
 }
 
 STRING 9885
@@ -65518,6 +65292,14 @@ STRING 10050
 Set "|cfffe9a2eAlchemy|r"
 }
 
+STRING 10051
+// Items: I059 (Shower Potion), Description (Description)
+{
+|cff088a08Potion|r
+Activation: Restores |cffbe81f7300|r mana to the hero over time.
+|cffffcc00Duration:|r 5 seconds.
+}
+
 STRING 10052
 // Abilities: A025 (HP/sec (Повязка)), Name (Name)
 {
@@ -66246,14 +66028,6 @@ STRING 10165
 Corpse Toss, [|cffffcc00Level %d|r]
 }
 
-STRING 10166
-// Abilities: A01G (Wagon: Corpse Toss), Researchubertip (Tooltip - Learn - Extended)
-{
-The hero throws a corpse at an enemy, which, upon landing, deals |cffbe81f7130/180/230/280/330|r to all nearby enemies. While the corpse is flying, creates coins that give 10 gold.
-|cffffcc00Cooldown:|r 20/19/18/17/16 seconds.
-|cffffcc00Cost:|r 70 mana.
-}
-
 STRING 10167
 // Abilities: A01G (Wagon: Corpse Toss), Tip (Tooltip - Normal)
 {
@@ -66282,41 +66056,6 @@ STRING 10171
 // Abilities: A01G (Wagon: Corpse Toss), Tip (Tooltip - Normal)
 {
 Corpse Toss, [|cffffcc00Level 5|r]
-}
-
-STRING 10172
-// Abilities: A01G (Wagon: Corpse Toss), Ubertip (Tooltip - Normal - Extended)
-{
-The hero throws a corpse at an enemy, which, upon landing, deals |cffbe81f7130|r to all nearby enemies. While the corpse is flying, creates coins that give 10 gold.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 10173
-// Abilities: A01G (Wagon: Corpse Toss), Ubertip (Tooltip - Normal - Extended)
-{
-The hero throws a corpse at an enemy, which, upon landing, deals |cffbe81f7180|r to all nearby enemies. While the corpse is flying, creates coins that give 10 gold.
-|cffffcc00Cooldown:|r 19 seconds.
-}
-
-STRING 10174
-// Abilities: A01G (Wagon: Corpse Toss), Ubertip (Tooltip - Normal - Extended)
-{
-The hero throws a corpse at an enemy, which, upon landing, deals |cffbe81f7230|r to all nearby enemies. While the corpse is flying, creates coins that give 10 gold.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 10175
-// Abilities: A01G (Wagon: Corpse Toss), Ubertip (Tooltip - Normal - Extended)
-{
-The hero throws a corpse at an enemy, which, upon landing, deals |cffbe81f7280|r to all nearby enemies. While the corpse is flying, creates coins that give 10 gold.
-|cffffcc00Cooldown:|r 17 seconds.
-}
-
-STRING 10176
-// Abilities: A01G (Wagon: Corpse Toss), Ubertip (Tooltip - Normal - Extended)
-{
-The hero throws a corpse at an enemy, which, upon landing, deals |cffbe81f7330|r to all nearby enemies. While the corpse is flying, creates coins that give 10 gold.
-|cffffcc00Cooldown:|r 16 seconds.
 }
 
 STRING 10177
@@ -68415,6 +68154,12 @@ STRING 10504
 |cff00ff00Moon|r
 }
 
+STRING 10505
+// Items: I059 (Shower Potion), Name (Name)
+{
+Shower Potion
+}
+
 STRING 10506
 // Buffs/Effects: B08V (), Bufftip (Tooltip)
 {
@@ -68455,6 +68200,12 @@ STRING 10512
 // Buffs/Effects: B08S (), Bufftip (Tooltip)
 {
 |cffff0000Heating Up|r
+}
+
+STRING 10513
+// Items: I059 (Shower Potion), Tip (Tooltip - Basic)
+{
+Shower Potion
 }
 
 STRING 10514
@@ -69484,6 +69235,14 @@ STRING 10684
 // Buffs/Effects: B06B (), Bufftip (Tooltip)
 {
 |cff00ff00Humanity Will Rise Again|r
+}
+
+STRING 10685
+// Items: I059 (Shower Potion), Ubertip (Tooltip - Extended)
+{
+|cff088a08Potion|r
+Activation: Restores |cffbe81f7300|r mana to the hero over time.
+|cffffcc00Duration:|r 5 seconds.
 }
 
 STRING 10686
@@ -72764,6 +72523,13 @@ STRING 11228
 Attack speed reduced.
 }
 
+STRING 11229
+// Items: I058 (Desert Potion), Description (Description)
+{
+|cff088a08Potion|r
+Activation: Restores |cffbe81f7500|r health over 5 seconds.
+}
+
 STRING 11230
 // Abilities: A0FM (Curse: Медлительность (b2)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -73485,7 +73251,7 @@ Runesmith: Carve Rune of the Strongman
 }
 
 STRING 11339
-// Abilities: A1E0 (Runesmith: Carve Rune of the Strongman), Hotkey (Hotkey - Normal)
+// Items: I0HW (Rage Potion), Hotkey (Hotkey)
 {
 A
 }
@@ -74437,6 +74203,13 @@ STRING 11486
 // Buffs/Effects: B0AU (), Bufftip (Tooltip)
 {
 |cff00ff00Arcane Intellect|r
+}
+
+STRING 11487
+// Items: I058 (Desert Potion), Ubertip (Tooltip - Extended)
+{
+|cff088a08Potion|r
+Activation: Restores |cffbe81f7500|r health over 5 seconds.
 }
 
 STRING 11488
@@ -75681,12 +75454,51 @@ STRING 11661
 (Level 4)
 }
 
+STRING 11662
+// Items: I054 (Earth Potion), Description (Description)
+{
+|cff088a08Potion|r
+Activation: Restores |cffbe81f7225|r Health.
+}
+
+STRING 11663
+// Items: I054 (Earth Potion), Ubertip (Tooltip - Extended)
+{
+|cff088a08Potion|r
+Activation: Restores |cffbe81f7225|r Health.
+}
+
+STRING 11664
+// Abilities: A15Q (Predator: Shark Scales), Researchubertip (Tooltip - Learn - Extended)
+{
+Reduces damage taken by 6%/9%/12%/15%/18%.
+Increases movement speed by 35/60/85/110/135.
+}
+
+STRING 11665
+// Abilities: A15Q (Predator: Shark Scales), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces damage taken by 6%. Increases movement speed by 35.
+}
+
 STRING 11666
 // Abilities: A1GU (Collector: Incinerating Wave), Researchubertip (Tooltip - Learn - Extended)
 {
 Fires a wave in the target direction. Enemies take |cffbe81f7150/175/200/225/250|r damage and are slowed by 40% for 1.5/1.75/2/2.25/2.5 seconds. When the wrath charge is 50% or more, the area of ​​effect and damage are doubled.
 |cffffcc00Cooldown:|r 12 seconds.
 |cffffcc00Cost:|r 60 mana.
+}
+
+STRING 11667
+// Abilities: A15Q (Predator: Shark Scales), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces damage taken by 9%. Increases movement speed by 60.
+}
+
+STRING 11668
+// Abilities: A15Q (Predator: Shark Scales), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces damage taken by 12%. Increases movement speed by 85.
 }
 
 STRING 11669
@@ -76357,6 +76169,26 @@ Activation: Copies the health percentage of another hero.
 |cffffcc00Cooldown:|r 35 seconds.
 }
 
+STRING 11766
+// Abilities: A15Q (Predator: Shark Scales), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces damage taken by 15%. Increases movement speed by 110.
+}
+
+STRING 11767
+// Abilities: A15Q (Predator: Shark Scales), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces damage taken by 18%. Increases movement speed by 135.
+}
+
+STRING 11768
+// Abilities: A15N (Predator: Aqua Jet), Researchubertip (Tooltip - Learn - Extended)
+{
+The hero dashes to a target location, dealing |cffbe81f7150/200/250/300/350|r damage to enemies hit. At the end of the dash, reduces hero's damage taken by 9%/13%/17%/21%/25% for 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 55 mana.
+}
+
 STRING 11769
 // Items: I0FT (Blooming Weed), Ubertip (Tooltip - Extended)
 {
@@ -76408,6 +76240,20 @@ STRING 11775
 |cffbababcCommon|r, |cfffe9a2eAlchemy|r
 Increases Spell Power for |cff088a08Potions|r by 25%.
 |cff81f260[Random bonus]|r
+}
+
+STRING 11776
+// Abilities: A15N (Predator: Aqua Jet), Ubertip (Tooltip - Normal - Extended)
+{
+The hero dashes to a target location, dealing |cffbe81f7150|r damage to enemies hit. At the end of the dash, reduces hero's damage taken by 9% for 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11777
+// Abilities: A15N (Predator: Aqua Jet), Ubertip (Tooltip - Normal - Extended)
+{
+The hero dashes to a target location, dealing |cffbe81f7200|r damage to enemies hit. At the end of the dash, reduces hero's damage taken by 13% for 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 11778
@@ -76947,6 +76793,20 @@ Activation: Pushes all creatures away from the hero and creates a shield of ston
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
+STRING 11850
+// Abilities: A15N (Predator: Aqua Jet), Ubertip (Tooltip - Normal - Extended)
+{
+The hero dashes to a target location, dealing |cffbe81f7250|r damage to enemies hit. At the end of the dash, reduces hero's damage taken by 17% for 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11851
+// Abilities: A15N (Predator: Aqua Jet), Ubertip (Tooltip - Normal - Extended)
+{
+The hero dashes to a target location, dealing |cffbe81f7300|r damage to enemies hit. At the end of the dash, reduces hero's damage taken by 21% for 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 11852
 // Items: I0HI (Power Wand), Name (Name)
 {
@@ -76957,6 +76817,23 @@ STRING 11853
 // Items: I0HI (Power Wand), Tip (Tooltip - Basic)
 {
 Power Wand
+}
+
+STRING 11854
+// Abilities: A15N (Predator: Aqua Jet), Ubertip (Tooltip - Normal - Extended)
+{
+The hero dashes to a target location, dealing |cffbe81f7350|r damage to enemies hit. At the end of the dash, reduces hero's damage taken by 25% for 15 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11855
+// Abilities: A15M (Predator: Stomp Out), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f7180/220/260/300/340|r damage to all enemies in front of the hero and knocks them away. Restore |cffbe81f740/50/60/70/80|r health for each enemy affected.
+|cffffcc00Cooldown:|r 14 seconds.
+|cffffcc00Cost:|r 40 mana.
+
+|cFF959697Does not work on immobile targets.|r
 }
 
 STRING 11856
@@ -77250,6 +77127,24 @@ STRING 11895
 The hero's attacks deal +200% damage to minions.
 }
 
+STRING 11896
+// Abilities: A15M (Predator: Stomp Out), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7180|r damage to all enemies in front of the hero and knocks them away. Restore |cffbe81f740|r health for each enemy affected.
+|cffffcc00Cooldown:|r 14 seconds.
+
+|cFF959697Does not work on immobile targets.|r
+}
+
+STRING 11897
+// Abilities: A15M (Predator: Stomp Out), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7220|r damage to all enemies in front of the hero and knocks them away. Restore |cffbe81f750|r health for each enemy affected.
+|cffffcc00Cooldown:|r 14 seconds.
+
+|cFF959697Does not work on immobile targets.|r
+}
+
 STRING 11898
 // Items: I06E (Big Red Button), Description (Description)
 {
@@ -77442,6 +77337,15 @@ Instead of the usual effect, the Fire Potion deals massive damage and additional
 |cff81f260[Random bonus]|r
 }
 
+STRING 11924
+// Abilities: A15M (Predator: Stomp Out), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7260|r damage to all enemies in front of the hero and knocks them away. Restore |cffbe81f760|r health for each enemy affected.
+|cffffcc00Cooldown:|r 14 seconds.
+
+|cFF959697Does not work on immobile targets.|r
+}
+
 STRING 11925
 // Abilities: A1HH (Arcanologist: Arcane Intellect), Name (Name)
 {
@@ -77488,6 +77392,24 @@ STRING 11932
 // Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Tip (Tooltip - Normal)
 {
 Mana Dragon
+}
+
+STRING 11933
+// Abilities: A15M (Predator: Stomp Out), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7300|r damage to all enemies in front of the hero and knocks them away. Restore |cffbe81f770|r health for each enemy affected.
+|cffffcc00Cooldown:|r 14 seconds.
+
+|cFF959697Does not work on immobile targets.|r
+}
+
+STRING 11934
+// Abilities: A15M (Predator: Stomp Out), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7340|r damage to all enemies in front of the hero and knocks them away. Restore |cffbe81f780|r health for each enemy affected.
+|cffffcc00Cooldown:|r 14 seconds.
+
+|cFF959697Does not work on immobile targets.|r
 }
 
 STRING 11935
@@ -78397,6 +78319,14 @@ Increases the ally's attack speed by 35%, but every second takes 8 health.
 |cffffcc00Coldown:|r 5 seconds.
 }
 
+STRING 12070
+// Abilities: A0OY (Wagon: Take My Money!), Researchubertip (Tooltip - Learn - Extended)
+{
+Throw a projectile that deals |cffbe81f7150/200/250/300/350|r damage to nearby enemies. Additionally, it deals damage equal to 10%/15%/20%/25%/30% of the hero's gold.
+|cffffcc00Cooldown:|r 40 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
 STRING 12071
 // Items: IV22 (Almighty Beer), Name (Name)
 {
@@ -78407,6 +78337,13 @@ STRING 12072
 // Items: IV22 (Almighty Beer), Tip (Tooltip - Basic)
 {
 Almighty Beer
+}
+
+STRING 12073
+// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+{
+Throw a projectile that deals |cffbe81f7150|r damage to nearby enemies. Additionally, it deals damage equal to 10% of the hero's gold.
+|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 12074
@@ -79489,6 +79426,46 @@ STRING 12229
 At the end of the battle, creates a |cffbabab0сommon|r artifact in an empty inventory slot.
 }
 
+STRING 12230
+// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+{
+Throw a projectile that deals |cffbe81f7200|r damage to nearby enemies. Additionally, it deals damage equal to 15% of the hero's gold.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 12231
+// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+{
+Throw a projectile that deals |cffbe81f7250|r damage to nearby enemies. Additionally, it deals damage equal to 20% of the hero's gold.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 12232
+// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+{
+Throw a projectile that deals |cffbe81f7300|r damage to nearby enemies. Additionally, it deals damage equal to 25% of the hero's gold.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 12233
+// Abilities: A0OY (Wagon: Take My Money!), Ubertip (Tooltip - Normal - Extended)
+{
+Throw a projectile that deals |cffbe81f7350|r damage to nearby enemies. Additionally, it deals damage equal to 30% of the hero's gold.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 12234
+// Abilities: A0DN (Wagon: Unholy Greed), Researchubertip (Tooltip - Learn - Extended)
+{
+Every 6 seconds, gain 2/3/4/5/6 gold and restore |cffbe81f76/8/10/12/14|r health. Increase gold gain by 1 and health by 2 until the end of the battle.
+}
+
+STRING 12235
+// Abilities: A0DN (Wagon: Unholy Greed), Ubertip (Tooltip - Normal - Extended)
+{
+Every 6 seconds, gain 2 gold and restore |cffbe81f76|r health. Increase gold gain by 1 and health by 2 until the end of the battle.
+}
+
 STRING 12236
 // Items: IV05 (Meat on a Stick), Description (Description)
 {
@@ -79599,6 +79576,12 @@ Your buffs and debuffs last 50% longer.
 |cff81f260[Random bonus]|r
 }
 
+STRING 12253
+// Abilities: A0DN (Wagon: Unholy Greed), Ubertip (Tooltip - Normal - Extended)
+{
+Every 6 seconds, gain 3 gold and restore |cffbe81f78|r health. Increase gold gain by 1 and health by 2 until the end of the battle.
+}
+
 STRING 12254
 // Abilities: AV00 (Sun King: Heating Up), Ubertip (Tooltip - Normal - Extended)
 {
@@ -79658,5 +79641,121 @@ STRING 12261
 {
 Increases attack power, spell power and healing by 12%. The bonus is doubled at night.
 When the hero deals or heals a total of 1750 health, activate night for 6 seconds.
+}
+
+STRING 12262
+// Abilities: A0DN (Wagon: Unholy Greed), Ubertip (Tooltip - Normal - Extended)
+{
+Every 6 seconds, gain 4 gold and restore |cffbe81f710|r health. Increase gold gain by 1 and health by 2 until the end of the battle.
+}
+
+STRING 12263
+// Abilities: A0DN (Wagon: Unholy Greed), Ubertip (Tooltip - Normal - Extended)
+{
+Every 6 seconds, gain 5 gold and restore |cffbe81f712|r health. Increase gold gain by 1 and health by 2 until the end of the battle.
+}
+
+STRING 12264
+// Abilities: A0DN (Wagon: Unholy Greed), Ubertip (Tooltip - Normal - Extended)
+{
+Every 6 seconds, gain 6 gold and restore |cffbe81f714|r health. Increase gold gain by 1 and health by 2 until the end of the battle.
+}
+
+STRING 12265
+// Abilities: A05G (Wagon: Plague Run), Researchubertip (Tooltip - Learn - Extended)
+{
+Increases hero movement speed by 50%. Every 1.5 seconds, creates a poisonous cloud that deals |cffbe81f712/16/20/24/28|r damage to enemies.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 12266
+// Abilities: A05G (Wagon: Plague Run), Ubertip (Tooltip - Normal - Extended)
+{
+Increases hero movement speed by 50%. Every 1.5 seconds, creates a poisonous cloud that deals |cffbe81f712|r damage to enemies.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12267
+// Abilities: A05G (Wagon: Plague Run), Ubertip (Tooltip - Normal - Extended)
+{
+Increases hero movement speed by 50%. Every 1.5 seconds, creates a poisonous cloud that deals |cffbe81f716|r damage to enemies.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12268
+// Abilities: A05G (Wagon: Plague Run), Ubertip (Tooltip - Normal - Extended)
+{
+Increases hero movement speed by 50%. Every 1.5 seconds, creates a poisonous cloud that deals |cffbe81f720|r damage to enemies.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12269
+// Abilities: A05G (Wagon: Plague Run), Ubertip (Tooltip - Normal - Extended)
+{
+Increases hero movement speed by 50%. Every 1.5 seconds, creates a poisonous cloud that deals |cffbe81f724|r damage to enemies.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12270
+// Abilities: A05G (Wagon: Plague Run), Ubertip (Tooltip - Normal - Extended)
+{
+Increases hero movement speed by 50%. Every 1.5 seconds, creates a poisonous cloud that deals |cffbe81f728|r damage to enemies.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12271
+// Abilities: A01G (Wagon: Corpse Toss), Researchubertip (Tooltip - Learn - Extended)
+{
+Throw a projectile at an enemy, dealing |cffbe81f7150/200/250/300/350|r damage to nearby enemies. While in flight, the projectile generates gold coins.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 70 mana.
+}
+
+STRING 12272
+// Abilities: A01G (Wagon: Corpse Toss), Ubertip (Tooltip - Normal - Extended)
+{
+Throw a projectile at an enemy, dealing |cffbe81f7150|r damage to nearby enemies. While in flight, the projectile generates gold coins.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12273
+// Abilities: A01G (Wagon: Corpse Toss), Ubertip (Tooltip - Normal - Extended)
+{
+Throw a projectile at an enemy, dealing |cffbe81f7200|r damage to nearby enemies. While in flight, the projectile generates gold coins.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12274
+// Abilities: A01G (Wagon: Corpse Toss), Ubertip (Tooltip - Normal - Extended)
+{
+Throw a projectile at an enemy, dealing |cffbe81f7250|r damage to nearby enemies. While in flight, the projectile generates gold coins.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12275
+// Abilities: A01G (Wagon: Corpse Toss), Ubertip (Tooltip - Normal - Extended)
+{
+Throw a projectile at an enemy, dealing |cffbe81f7300|r damage to nearby enemies. While in flight, the projectile generates gold coins.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12276
+// Abilities: A01G (Wagon: Corpse Toss), Ubertip (Tooltip - Normal - Extended)
+{
+Throw a projectile at an enemy, dealing |cffbe81f7350|r damage to nearby enemies. While in flight, the projectile generates gold coins.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 

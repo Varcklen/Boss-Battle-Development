@@ -3,14 +3,17 @@ scope PredatorQ initializer init
     globals
     	private constant integer ABILITY_ID = 'A15M'
 	
-		private constant integer DAMAGE_BASE = 50
-		private constant integer DAMAGE_SCALE = 50
+		private constant integer DAMAGE_BASE = 140
+		private constant integer DAMAGE_SCALE = 40
 		
-		private constant integer HEAL_BASE = 5
+		private constant integer HEAL_BASE = 30
 		private constant integer HEAL_SCALE = 10
 		
-		private constant integer KNOCK_BASE = 22
-		private constant integer KNOCK_SCALE = 4
+		private constant integer KNOCK_BASE = 35
+		private constant integer KNOCK_SCALE = 0
+		
+		private constant integer AREA = 350
+		private constant integer FRONT_RANGE = 250
 		
 		trigger trg_PredatorQ = null
     endglobals
@@ -85,14 +88,14 @@ function Trig_PredatorQ_Actions takes nothing returns nothing
         set lvl = GetUnitAbilityLevel(caster, ABILITY_ID )
     endif
     
-    set x = GetUnitX( caster ) + 200 * Cos( 0.017 * GetUnitFacing( caster ) )
-    set y = GetUnitY( caster ) + 200 * Sin( 0.017 * GetUnitFacing( caster ) )
+    set x = GetUnitX( caster ) + FRONT_RANGE * Cos( 0.017 * GetUnitFacing( caster ) )
+    set y = GetUnitY( caster ) + FRONT_RANGE * Sin( 0.017 * GetUnitFacing( caster ) )
     
     set dmg = DAMAGE_BASE + ( DAMAGE_SCALE * lvl )
     set heal = (HEAL_SCALE * lvl) + HEAL_BASE
 
     call DestroyEffect( AddSpecialEffect( "Objects\\Spawnmodels\\Naga\\NagaDeath\\NagaDeath.mdl", x, y ) )
-    call GroupEnumUnitsInRange( g, x, y, 250, null )
+    call GroupEnumUnitsInRange( g, x, y, AREA, null )
     loop
         set u = FirstOfGroup(g)
         exitwhen u == null
