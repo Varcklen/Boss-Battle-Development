@@ -1,38 +1,18 @@
 scope RunestoneLous initializer init
 	globals
-	    private constant integer DAMAGE = 40
-	    private constant integer RANGE = 600
-		private constant integer REDUCTION = 35
+	    private constant integer SHIELD_TO_GAIN = 400
+		private constant integer REDUCTION = 25
 		private constant integer ITEM = 'I0HP'
-    	private constant string ANIMATION = "Units\\NightElf\\Wisp\\WispExplode.mdl"
 	endglobals
 	
-    private function ShieldDestroyed_Conditions takes nothing returns boolean
-        return true//GetUnitAbilityLevel( Event_ShieldDestroyed_Hero, 'A10G') > 0
-    endfunction
-    
-    private function ShieldDestroyedProxy takes nothing returns nothing
-    	local integer id = GetHandleId( GetExpiredTimer() )
-    	local unit hero = LoadUnitHandle( udg_hash, id, StringHash( "rune_lous_amount" ) )
-    	local integer amount = LoadInteger( udg_hash, id, StringHash( "rune_lous_amount" ) )
-    	
-        call GroupAoE( hero, 0, 0, DAMAGE * amount, RANGE, "enemy", ANIMATION, null )
-            
-        set hero = null
-    endfunction
-    private function ShieldDestroyed takes nothing returns nothing
-        local unit hero = Event_ShieldDestroyed_Hero
-    	local integer amount
-    	local integer id
-	    
-	    set amount = inv( hero, ITEM )
-	    if amount > 0 then
-	        set id = InvokeTimerWithUnit( hero, "rune_lous_amount", 0.04, false, function ShieldDestroyedProxy )
-	        call SaveInteger( udg_hash, id, StringHash( "rune_lous_amount" ), amount )
-	    endif
-            
-        set hero = null
-    endfunction
+    private function action takes nothing returns nothing
+		local unit caster = BattleStart.GetDataUnit("caster")
+		local integer shieldGain = SHIELD_TO_GAIN * SetCount_GetPieces(caster, SET_RUNE)
+
+        call shield( caster, null, shieldGain )
+
+        set caster = null
+	endfunction
     
 	//===========================================================================
     private function ItemAdd takes nothing returns nothing
@@ -101,6 +81,6 @@ scope RunestoneLous initializer init
     	call CreateNativeEvent( EVENT_PLAYER_UNIT_DROP_ITEM, function ItemRemove, null )
         call RuneSetGain.AddListener(function ItemSetAdd, null)
         call RuneSetLose.AddListener(function ItemSetRemove, null)
-        call CreateEventTrigger( "Event_ShieldDestroyed_Real", function ShieldDestroyed, null )
+        call RegisterDuplicatableItemTypeCustom( ITEM, BattleStart, function action, null, null)
     endfunction
 endscope

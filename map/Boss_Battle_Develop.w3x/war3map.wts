@@ -336,6 +336,14 @@ STRING 46
 (4)
 }
 
+STRING 47
+// Abilities: A17Y (Money Bag: Digest), Researchubertip (Tooltip - Learn - Extended)
+{
+Give 40/55/70/85/100 gold to yourself and the attached hero. Restore |cffbe81f7200/250/300/350/400|r health.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
 STRING 48
 // Units: u015 (Крыса), Name (Name)
 {
@@ -2544,15 +2552,6 @@ STRING 405
 Mephistar
 }
 
-STRING 406
-// Items: I01X (Ruby Diamond), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Deals |cffbe81f7300|r damage to the enemy. Deals an additional |cffbe81f7100|r damage for each kill you make in this battle |cFF959697(0)|r.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 60 mana.
-}
-
 STRING 407
 // Units: O01J ((S) Fallen One), Propernames (Proper Names)
 {
@@ -4001,16 +4000,6 @@ Destroys an item.
 |cffffcc00Potions are destroyed for free.|r
 }
 
-STRING 636
-// Items: IZ01 (Sacred Stone), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff00cceeCrystal|r
-Activation: Deals |cffbe81f7160|r damage to an enemy, restores |cffbe81f7160|r health and mana, and imposes a shield that absorbs |cffbe81f7160|r damage. 
-Doubles the effect for every other Sacred Stone in your and your allies' inventories.
-|cffffcc00Cooldown:|r 60 seconds.
-|cffffcc00Cost:|r 300 mana.
-}
-
 STRING 637
 // Items: IZ01 (Sacred Stone), Name (Name)
 {
@@ -4021,15 +4010,6 @@ STRING 638
 // Items: IZ01 (Sacred Stone), Tip (Tooltip - Basic)
 {
 Sacred Stone
-}
-
-STRING 639
-// Items: IZ01 (Sacred Stone), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff00cceeCrystal|r
-Activation: Deals |cffbe81f7160|r damage to an enemy, restores |cffbe81f7160|r health and mana, and imposes a shield that absorbs |cffbe81f7160|r damage. 
-Doubles the effect for every other Sacred Stone in your and your allies' inventories.
-|cffffcc00Cooldown:|r 60 seconds.
 }
 
 STRING 640
@@ -4501,14 +4481,6 @@ STRING 713
 Fire
 }
 
-STRING 714
-// Items: I01X (Ruby Diamond), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Deals |cffbe81f7300|r damage to the enemy. Deals an additional |cffbe81f7100|r damage for each kill you make in this battle |cFF959697(0)|r.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
 STRING 715
 // Items: I0GY (Alchemist's Stone), Name (Name)
 {
@@ -4684,15 +4656,6 @@ You put an artifact in a circle of exchange. At the beginning of the battle, the
 |cffffcc00If the inventory is full, it will delete a random item and move to its place.|r
 }
 
-STRING 742
-// Items: I0GR (Zuma), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Deals |cffbe81f7300|r damage to the target. Increases zuma's damage by 100 until the end of the battle.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 743
 // Items: I0GR (Zuma), Name (Name)
 {
@@ -4703,14 +4666,6 @@ STRING 744
 // Items: I0GR (Zuma), Tip (Tooltip - Basic)
 {
 Zuma
-}
-
-STRING 745
-// Items: I0GR (Zuma), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Deals |cffbe81f7300|r damage to the target. Increases zuma's damage by 100 until the end of the battle.
-|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 746
@@ -4943,13 +4898,6 @@ Restores |cffbe81f7100%|r health to an allied minion and increases its attack by
 |cffffcc00Cooldown:|r 7 seconds.
 }
 
-STRING 781
-// Items: I0GH (Tear of As'ha), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Increases mana regeneration by 150%. Use 20 abilities per battle to further increase mana regeneration by 350% until the end of battle.
-}
-
 STRING 782
 // Items: I0GH (Tear of As'ha), Name (Name)
 {
@@ -4960,13 +4908,6 @@ STRING 783
 // Items: I0GH (Tear of As'ha), Tip (Tooltip - Basic)
 {
 Tear of As'ha
-}
-
-STRING 784
-// Items: I0GH (Tear of As'ha), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Increases mana regeneration by 150%. Use 20 abilities per battle to further increase mana regeneration by 350% until the end of battle.
 }
 
 STRING 785
@@ -7826,37 +7767,6 @@ STRING 1193
 |cff81f260[Random bonus]|r
 }
 
-STRING 1194
-// Items: I0DM (Chrysolite of Control), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Doubles the stats of an allied minion.
-|cffffcc00Duration:|r 60 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
-|cffffcc00Cost:|r 75 mana.
-}
-
-STRING 1195
-// Items: I0DM (Chrysolite of Control), Name (Name)
-{
-Chrysolite of Control
-}
-
-STRING 1196
-// Items: I0DM (Chrysolite of Control), Tip (Tooltip - Basic)
-{
-Chrysolite of Control
-}
-
-STRING 1197
-// Items: I0DM (Chrysolite of Control), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Doubles the stats of an allied minion.
-|cffffcc00Duration:|r 60 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
-}
-
 STRING 1198
 // Items: I0DL (Pentagram), Description (Description)
 {
@@ -9662,39 +9572,6 @@ STRING 1461
 Increases spell power by 0.5% for each point of your hero's strength.
 }
 
-STRING 1462
-// Items: I0BR (Soul Crystal), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-When you kill an enemy, it absorbs their soul.
-Activation: Deals |cffbe81f2200|r damage to the enemy.
-Destroys all souls and deals an additional 200 damage per soul.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 75 mana.
-}
-
-STRING 1463
-// Items: I0BR (Soul Crystal), Name (Name)
-{
-Soul Crystal
-}
-
-STRING 1464
-// Items: I0BR (Soul Crystal), Tip (Tooltip - Basic)
-{
-Soul Crystal
-}
-
-STRING 1465
-// Items: I0BR (Soul Crystal), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-When you kill an enemy, it absorbs their soul.
-Activation: Deals |cffbe81f2200|r damage to the enemy.
-Destroys all souls and deals an additional 200 damage per soul.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
 STRING 1466
 // Abilities: A1HA (Extra: Crystallization (Crystal Mimic)), Name (Name)
 {
@@ -9723,14 +9600,6 @@ STRING 1470
 // Abilities: AZ08 (Artifact: Deep Purple), Name (Name)
 {
 Artifact: Deep Purple
-}
-
-STRING 1471
-// Items: IZ06 (Blue Sky), Description (Description)
-{
-|cff4169e1Rare|r, |cff9001fdRing|r, |cff00cceeCrystal|r
-Every fifth activated ability or item also activates your |cff60C445Unique|r.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1472
@@ -10795,15 +10664,6 @@ Activation: Releases energy and deals up to |cffbe81f72000|r damage to the enemy
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
-STRING 1626
-// Items: I0AM (Amalgam), Description (Description)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Deals |cffbe81f7150|r damage to an enemy, restores |cffbe81f7150|r health, and imposes a shield that absorbs |cffbe81f7150|r damage.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 1627
 // Items: I0AM (Amalgam), Name (Name)
 {
@@ -10816,30 +10676,10 @@ STRING 1628
 Amalgam
 }
 
-STRING 1629
-// Items: I0AM (Amalgam), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Deals |cffbe81f7150|r damage to an enemy, restores |cffbe81f7150|r health, and imposes a shield that absorbs |cffbe81f7150|r damage.
-|cffffcc00Cooldown:|r 45 seconds.
-}
-
 STRING 1630
 // Abilities: A1EZ ((т)Аура: Invisibility), Name (Name)
 {
 (т)Аура: Invisibility
-}
-
-STRING 1631
-// Items: I0AL (Stone of Shadows), Name (Name)
-{
-Stone of Shadows
-}
-
-STRING 1632
-// Items: I0AL (Stone of Shadows), Tip (Tooltip - Basic)
-{
-Stone of Shadows
 }
 
 STRING 1633
@@ -10852,18 +10692,6 @@ STRING 1634
 // Buffs/Effects: B0AL (), Bufftip (Tooltip)
 {
 |cff00ff00Invisibility|r
-}
-
-STRING 1635
-// Items: I0AK (Aquamarin), Name (Name)
-{
-Aquamarin
-}
-
-STRING 1636
-// Items: I0AK (Aquamarin), Tip (Tooltip - Basic)
-{
-Aquamarin
 }
 
 STRING 1637
@@ -11536,14 +11364,6 @@ STRING 1733
 When your minion is summoned, it increases attack power and health by 40% |cffffffffand reduces movement speed by 20%|r.
 }
 
-STRING 1734
-// Items: I09V (Babbling Pebble), Description (Description)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Increases damage dealt by 40% if mana is less than 25%.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1735
 // Items: IV03 (Festive Cupcake), Ubertip (Tooltip - Extended)
 {
@@ -11556,14 +11376,6 @@ STRING 1736
 {
 |cffB614F0Starting Bonus|r
 Get 75 max Mana.
-}
-
-STRING 1737
-// Items: I09V (Babbling Pebble), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Increases damage dealt by 40% if mana is less than 25%.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1738
@@ -13145,13 +12957,6 @@ STRING 1967
 |cffffcc00Amplifier:|r Mythical
 }
 
-STRING 1968
-// Items: I088 (Ventusite), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Every second while moving, gain a shield that absorbs |cffbe81f710|r damage.
-}
-
 STRING 1969
 // Items: I088 (Ventusite), Name (Name)
 {
@@ -13162,13 +12967,6 @@ STRING 1970
 // Items: I088 (Ventusite), Tip (Tooltip - Basic)
 {
 Ventusite
-}
-
-STRING 1971
-// Items: I088 (Ventusite), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Every second while moving, gain a shield that absorbs |cffbe81f710|r damage.
 }
 
 STRING 1972
@@ -14873,6 +14671,13 @@ STRING 2219
 Deals more damage - but loses health over time.
 }
 
+STRING 2220
+// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
+{
+Give 40 gold to yourself and the attached hero. Restore |cffbe81f7200|r health.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 2221
 // Abilities: A0UL (Commander: Mark of the Chosen), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -15271,14 +15076,6 @@ STRING 2279
 Activation: |cffcc0000Corrupted|r. Gives an artifact of |cffbababccommon|r quality. If the hero does not have a |cffe96a1clegendary|r artifact, gives a |cffe96a1clegendary|r artifact instead.
 }
 
-STRING 2280
-// Items: I062 (Sapphire), Description (Description)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Restores |cffbe81f740|r mana to the hero. With probability |cffd7df0125%|r, restores |cffbe81f740|r mana to an allied hero.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
 STRING 2281
 // Items: I062 (Sapphire), Name (Name)
 {
@@ -15289,14 +15086,6 @@ STRING 2282
 // Items: I062 (Sapphire), Tip (Tooltip - Basic)
 {
 Sapphire
-}
-
-STRING 2283
-// Items: I062 (Sapphire), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Restores |cffbe81f740|r mana to the hero. With probability |cffd7df0125%|r, restores |cffbe81f740|r mana to an allied hero.
-|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 2284
@@ -15949,6 +15738,13 @@ STRING 2381
 The hero goes into a rage, increasing Attack Speed by 40%, but loses 10 mana every second. If there is no mana, it spends health instead.
 }
 
+STRING 2382
+// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
+{
+Give 55 gold to yourself and the attached hero. Restore |cffbe81f7250|r health.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 2383
 // Items: I037 (Change artifact (Slot 6)), Hotkey (Hotkey)
 {
@@ -15965,6 +15761,20 @@ STRING 2385
 // Items: I05D (Fire Storm Potion), Tip (Tooltip - Basic)
 {
 Fire Storm Potion
+}
+
+STRING 2386
+// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
+{
+Give 70 gold to yourself and the attached hero. Restore |cffbe81f7300|r health.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 2387
+// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
+{
+Give 85 gold to yourself and the attached hero. Restore |cffbe81f7350|r health.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2388
@@ -15985,6 +15795,19 @@ STRING 2390
 Swamp Potion
 }
 
+STRING 2391
+// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
+{
+Give 100 gold to yourself and the attached hero. Restore |cffbe81f7400|r health.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 2392
+// Abilities: A17V (Money Bag: Slurp Up), Name (Name)
+{
+Money Bag: Slurp Up
+}
+
 STRING 2393
 // Items: I03U (Book of Magic), Hotkey (Hotkey)
 {
@@ -16001,6 +15824,19 @@ STRING 2395
 // Items: I05B (Volcano Potion), Tip (Tooltip - Basic)
 {
 Volcano Potion
+}
+
+STRING 2396
+// Abilities: A17V (Money Bag: Slurp Up), Researchtip (Tooltip - Learn)
+{
+Slurp Up, [|cffffcc00Level %d|r]
+}
+
+STRING 2397
+// Abilities: A17V (Money Bag: Slurp Up), Researchubertip (Tooltip - Learn - Extended)
+{
+Consume a minion to gain |cffbe81f750/65/80/95/110|r mana for yourself and the attached hero.
+|cffffcc00Cooldown:|r 12 seconds. 
 }
 
 STRING 2398
@@ -16021,10 +15857,47 @@ STRING 2400
 Geyser Potion
 }
 
+STRING 2401
+// Abilities: A17V (Money Bag: Slurp Up), Tip (Tooltip - Normal)
+{
+Slurp Up, [|cffffcc00Level 1|r]
+}
+
+STRING 2402
+// Abilities: A17V (Money Bag: Slurp Up), Tip (Tooltip - Normal)
+{
+Slurp Up, [|cffffcc00Level 2|r]
+}
+
 STRING 2403
 // Items: I039 (Change artifact (Slot 4)), Hotkey (Hotkey)
 {
 S
+}
+
+STRING 2404
+// Abilities: A17V (Money Bag: Slurp Up), Tip (Tooltip - Normal)
+{
+Slurp Up, [|cffffcc00Level 3|r]
+}
+
+STRING 2405
+// Abilities: A17V (Money Bag: Slurp Up), Tip (Tooltip - Normal)
+{
+Slurp Up, [|cffffcc00Level 4|r]
+}
+
+STRING 2406
+// Abilities: A17V (Money Bag: Slurp Up), Tip (Tooltip - Normal)
+{
+Slurp Up, [|cffffcc00Level 5|r]
+}
+
+STRING 2407
+// Abilities: A17V (Money Bag: Slurp Up), Ubertip (Tooltip - Normal - Extended)
+{
+Consume a minion to gain |cffbe81f750|r mana for yourself and the attached hero.
+|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 2408
@@ -16045,6 +15918,20 @@ STRING 2410
 Desert Potion
 }
 
+STRING 2411
+// Abilities: A17V (Money Bag: Slurp Up), Ubertip (Tooltip - Normal - Extended)
+{
+Consume a minion to gain |cffbe81f765|r mana for yourself and the attached hero.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 2412
+// Abilities: A17V (Money Bag: Slurp Up), Ubertip (Tooltip - Normal - Extended)
+{
+Consume a minion to gain |cffbe81f780|r mana for yourself and the attached hero.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 2413
 // Items: I057 (Air Potion), Hotkey (Hotkey)
 {
@@ -16061,6 +15948,13 @@ STRING 2415
 // Items: I057 (Air Potion), Tip (Tooltip - Basic)
 {
 Air Potion
+}
+
+STRING 2416
+// Abilities: A17V (Money Bag: Slurp Up), Ubertip (Tooltip - Normal - Extended)
+{
+Consume a minion to gain |cffbe81f795|r mana for yourself and the attached hero.
+|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 2417
@@ -16125,6 +16019,13 @@ STRING 2426
 Activation: Restores |cffbe81f7125|r mana to the hero.
 }
 
+STRING 2427
+// Abilities: A17V (Money Bag: Slurp Up), Ubertip (Tooltip - Normal - Extended)
+{
+Consume a minion to gain |cffbe81f7110|r mana for yourself and the attached hero.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 2428
 // Abilities: A1DG (Sun King: Solar Flare), Hotkey (Hotkey - Normal)
 {
@@ -16141,6 +16042,12 @@ STRING 2430
 // Items: I054 (Earth Potion), Tip (Tooltip - Basic)
 {
 Earth Potion
+}
+
+STRING 2431
+// Abilities: A17T (Money Bag: Acid Throw), Name (Name)
+{
+Money Bag: Acid Throw
 }
 
 STRING 2432
@@ -16471,13 +16378,6 @@ Stacks up to five times.
 |cffffcc00Duration:|r 18 seconds.
 }
 
-STRING 2480
-// Items: I04R (Tesseract), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-When the hero kills an enemy, increases spell power by 0.3%.
-}
-
 STRING 2481
 // Items: I04R (Tesseract), Name (Name)
 {
@@ -16488,13 +16388,6 @@ STRING 2482
 // Items: I04R (Tesseract), Tip (Tooltip - Basic)
 {
 Tesseract
-}
-
-STRING 2483
-// Items: I04R (Tesseract), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-When the hero kills an enemy, increases spell power by 0.3%.
 }
 
 STRING 2484
@@ -17268,7 +17161,7 @@ At night, each hero attack with a |cffd7df0140%|r chance increases agility by 1 
 }
 
 STRING 2597
-// Items: I0HX (Calm Potion), Hotkey (Hotkey)
+// Items: I01Q (Book of Health), Hotkey (Hotkey)
 {
 A
 }
@@ -17848,7 +17741,7 @@ Changes your artifact in the slot to a random artifact.
 }
 
 STRING 2682
-// Items: I01Q (Book of Health), Hotkey (Hotkey)
+// Items: I0HN (Split Artifact (Slot 3)), Hotkey (Hotkey)
 {
 A
 }
@@ -19401,7 +19294,7 @@ Increases health by 25.
 }
 
 STRING 2912
-// Items: I0HN (Split Artifact (Slot 3)), Hotkey (Hotkey)
+// Items: I0HW (Rage Potion), Hotkey (Hotkey)
 {
 A
 }
@@ -19653,17 +19546,6 @@ STRING 2952
 The base chance for |cffd7df01luck|r-based effects to proc is doubled.
 }
 
-STRING 2953
-// Items: I01G (Majyte), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Increases spell power by 150%.
-Lasts for 1 cast or until the effect ends.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 2954
 // Items: I01G (Majyte), Name (Name)
 {
@@ -19674,17 +19556,6 @@ STRING 2955
 // Items: I01G (Majyte), Tip (Tooltip - Basic)
 {
 Majyte
-}
-
-STRING 2956
-// Items: I01G (Majyte), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Increases spell power by 150%.
-Lasts for 1 cast or until the effect ends.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 75 mana.
 }
 
 STRING 2957
@@ -19945,16 +19816,6 @@ When the hero attacks, there is a |cffd7df018%|r chance to summon a random minio
 |cffffcc00Life time:|r 15 seconds.
 }
 
-STRING 2993
-// Items: I016 (Echosis), Description (Description)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Deals |cffbe81f7200|r damage to the target.
-Grants the hero a shield that absorbs |cffbe81f650|r damage. Additionally grants 25 shields for each use of the artifact.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
 STRING 2994
 // Items: I016 (Echosis), Name (Name)
 {
@@ -19965,15 +19826,6 @@ STRING 2995
 // Items: I016 (Echosis), Tip (Tooltip - Basic)
 {
 Echosis
-}
-
-STRING 2996
-// Items: I016 (Echosis), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Deals |cffbe81f7200|r damage to the target.
-Grants the hero a shield that absorbs |cffbe81f650|r damage. Additionally grants 25 shields for each use of the artifact.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 2997
@@ -20259,15 +20111,6 @@ STRING 3035
 Sword of Power
 }
 
-STRING 3036
-// Items: I04I (Ancient Pearl), Description (Description)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Restores the ally |cffbe81f7100|r health. Additionally restores 50 health for each level of your hero.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
 STRING 3037
 // Items: I00V (Sheep bait), Description (Description)
 {
@@ -20295,14 +20138,6 @@ STRING 3040
 |cffbababcCommon|r
 Activation: Increases attack power by 8 and health by 150 for all current sheeps under your control.
 |cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 3041
-// Items: I04I (Ancient Pearl), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Restores the ally |cffbe81f7100|r health. Additionally restores 50 health for each level of your hero.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 3042
@@ -20341,23 +20176,6 @@ STRING 3047
 // Items: I00T (Book of Darkness), Tip (Tooltip - Basic)
 {
 Book of Darkness
-}
-
-STRING 3048
-// Items: I00F (Celestial Quartz), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Increases maximum mana by 20.
-|cffffcc00Cooldown:|r 40 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
-STRING 3049
-// Items: I00F (Celestial Quartz), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Increases maximum mana by 20.
-|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 3050
@@ -20435,14 +20253,6 @@ Activation: Deals |cffbe81f7150|r damage to the hero and restores |cffbe81f7100|
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
-STRING 3061
-// Items: I00P (Mana Crystal), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Deals |cffbe81f7100|r damage to the enemy. Restores the hero’s mana equal to the damage dealt.
-|cffffcc00Cooldown:|r 45 seconds.
-}
-
 STRING 3062
 // Abilities: A1F8 (Stat: Dodge +15%), Name (Name)
 {
@@ -20453,14 +20263,6 @@ STRING 3063
 // Abilities: A1F9 (Stat: Damage Dealt Bosses +30%), Name (Name)
 {
 Stat: Damage Dealt Bosses +30%
-}
-
-STRING 3064
-// Items: I00P (Mana Crystal), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Deals |cffbe81f7100|r damage to the enemy. Restores the hero’s mana equal to the damage dealt.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 3065
@@ -20964,14 +20766,6 @@ STRING 3143
 Repeller
 }
 
-STRING 3144
-// Items: I0HP (Runestone Lous), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff848484Rune|r, |cff00cceeCrystal|r
-When your shield is destroyed, deal |cffbe81f740|r damage to nearby enemies.
-|cffffffffDecreases Spell Power by 35%.|r
-}
-
 STRING 3145
 // Items: I004 (Vampire blood), Description (Description)
 {
@@ -20998,14 +20792,6 @@ STRING 3148
 |cff4169e1Rare|r, |cffb40431Blood|r
 If there are no |cffe96a1clegendary|r artifacts in your inventory, increase damage dealt by 40%. 
 |cff81f260[Random bonus]|r
-}
-
-STRING 3149
-// Items: I0HP (Runestone Lous), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff848484Rune|r, |cff00cceeCrystal|r
-When your shield is destroyed, deal |cffbe81f740|r damage to nearby enemies.
-|cffffffffDecreases Spell Power by 35%.|r
 }
 
 STRING 3150
@@ -24590,14 +24376,6 @@ STRING 3719
 Stat: Buff Duration +50%
 }
 
-STRING 3720
-// Items: IZ06 (Blue Sky), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff9001fdRing|r, |cff00cceeCrystal|r
-Every fifth activated ability or item also activates your |cff60C445Unique|r.
-|cff81f260[Random bonus]|r
-}
-
 STRING 3721
 // Abilities: A1AI (Murloc: Murlocpool), Researchhotkey (Hotkey - Learn)
 {
@@ -25847,25 +25625,6 @@ STRING 3909
 Activation: |cffcc0000Corruption.|r Transforms all |cffe96a1cnon-legendary|r items in your inventory into |cffe96a1clegendary|r artifacts.
 }
 
-STRING 3910
-// Items: IZ08 (Deep Purple), Description (Description)
-{
-|cff4169e1Rare|r, |cff9001fdRing|r, |cff00cceeCrystal|r
-Activation: Increases |cff60C445Unique|r Spell Power by 200%.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
-STRING 3911
-// Items: IZ08 (Deep Purple), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff9001fdRing|r, |cff00cceeCrystal|r
-Activation: Increases |cff60C445Unique|r Spell Power by 200%.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
 STRING 3912
 // Items: I0FV (Orb of Ner'zhul), Description (Description)
 {
@@ -26304,7 +26063,7 @@ Restores |cffbe81f725%|r Health and Mana to the Hero with the lowest percentage 
 }
 
 STRING 3976
-// Abilities: A17T (Money Bag: Vore), Hotkey (Hotkey - Normal)
+// Abilities: A17T (Money Bag: Acid Throw), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -26316,7 +26075,7 @@ Shoggoth: Void Blast
 }
 
 STRING 3978
-// Abilities: A17T (Money Bag: Vore), Researchhotkey (Hotkey - Learn)
+// Abilities: A17T (Money Bag: Acid Throw), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -26401,7 +26160,7 @@ Artifact: Orb of Desecrated Land
 }
 
 STRING 3992
-// Abilities: A17V (Money Bag: Slurp it up), Hotkey (Hotkey - Normal)
+// Abilities: A17V (Money Bag: Slurp Up), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -26850,7 +26609,7 @@ Smoke Bomb, [|cffffcc00Level %d|r]
 }
 
 STRING 4066
-// Abilities: A17V (Money Bag: Slurp it up), Researchhotkey (Hotkey - Learn)
+// Abilities: A17V (Money Bag: Slurp Up), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -27097,12 +26856,6 @@ Deals |cffbe81f7350|r damage to a target. If it dies, get 80 gold. Otherwise, su
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
-STRING 4103
-// Abilities: A182 (Artifact: Chrysolite of Control), Name (Name)
-{
-Artifact: Chrysolite of Control
-}
-
 STRING 4104
 // Abilities: A181 (Attack (Prophet mask)), Name (Name)
 {
@@ -27145,14 +26898,6 @@ STRING 4110
 Digest, [|cffffcc00Level %d|r]
 }
 
-STRING 4111
-// Abilities: A17Y (Money Bag: Digest), Researchubertip (Tooltip - Learn - Extended)
-{
-Gives 24/36/48/60/72 gold. If you have a binded hero, kill it, but get 7 times more gold and |cffbe81f7steals|r his health and mana.
-|cffffcc00Cooldown:|r 14 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
 STRING 4112
 // Abilities: A17Y (Money Bag: Digest), Tip (Tooltip - Normal)
 {
@@ -27181,41 +26926,6 @@ STRING 4116
 // Abilities: A17Y (Money Bag: Digest), Tip (Tooltip - Normal)
 {
 Digest, [|cffffcc00Level 5|r]
-}
-
-STRING 4117
-// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
-{
-Gives 24 gold. If you have a binded hero, kill it, but get 7 times more gold and |cffbe81f7steals|r his health and mana.
-|cffffcc00Cooldown:|r 14 seconds.
-}
-
-STRING 4118
-// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
-{
-Gives 36 gold. If you have a binded hero, kill it, but get 7 times more gold and |cffbe81f7steals|r his health and mana.
-|cffffcc00Cooldown:|r 14 seconds.
-}
-
-STRING 4119
-// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
-{
-Gives 48 gold. If you have a binded hero, kill it, but get 7 times more gold and |cffbe81f7steals|r his health and mana.
-|cffffcc00Cooldown:|r 14 seconds.
-}
-
-STRING 4120
-// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
-{
-Gives 60 gold. If you have a binded hero, kill it, but get 7 times more gold and |cffbe81f7steals|r his health and mana.
-|cffffcc00Cooldown:|r 14 seconds.
-}
-
-STRING 4121
-// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
-{
-Gives 72 gold. If you have a binded hero, kill it, but get 7 times more gold and |cffbe81f7steals|r his health and mana.
-|cffffcc00Cooldown:|r 14 seconds.
 }
 
 STRING 4122
@@ -27279,135 +26989,16 @@ STRING 4131
 Composure, [|cffffcc00Level 5|r]
 }
 
-STRING 4132
-// Abilities: A17W (Money Bag: Composure), Ubertip (Tooltip - Normal - Extended)
-{
-Increases armor by 2.
-The hero receives 4%/8%/12%/16%/20% more gold from any sources and an additional 2% for each point of armor.
-}
-
-STRING 4133
-// Abilities: A17W (Money Bag: Composure), Ubertip (Tooltip - Normal - Extended)
-{
-Increases armor by 4.
-The hero receives 4%/8%/12%/16%/20% more gold from any sources and an additional 2% for each point of armor.
-}
-
-STRING 4134
-// Abilities: A17W (Money Bag: Composure), Ubertip (Tooltip - Normal - Extended)
-{
-Increases armor by 6.
-The hero receives 4%/8%/12%/16%/20% more gold from any sources and an additional 2% for each point of armor.
-}
-
-STRING 4135
-// Abilities: A17W (Money Bag: Composure), Ubertip (Tooltip - Normal - Extended)
-{
-Increases armor by 8.
-The hero receives 4%/8%/12%/16%/20% more gold from any sources and an additional 2% for each point of armor.
-}
-
-STRING 4136
-// Abilities: A17W (Money Bag: Composure), Ubertip (Tooltip - Normal - Extended)
-{
-Increases armor by 10.
-The hero receives 4%/8%/12%/16%/20% more gold from any sources and an additional 2% for each point of armor.
-}
-
 STRING 4137
 // Abilities: A17M (Wicerd: Ice-olation), Researchhotkey (Hotkey - Learn)
 {
 W
 }
 
-STRING 4138
-// Abilities: A17V (Money Bag: Slurp it up), Name (Name)
-{
-Money Bag: Slurp it up
-}
-
 STRING 4139
 // Abilities: A16K (Maiden: Blessings), Hotkey (Hotkey - Normal)
 {
 W
-}
-
-STRING 4140
-// Abilities: A17V (Money Bag: Slurp it up), Researchtip (Tooltip - Learn)
-{
-Slurp it up, [|cffffcc00Level %d|r]
-}
-
-STRING 4141
-// Abilities: A17V (Money Bag: Slurp it up), Researchubertip (Tooltip - Learn - Extended)
-{
-Steals 50 mana from another hero and gives an additional |cffbe81f70/15/30/45/60|r mana. If you have a binded hero and it is not a target, it also gives him mana.
-|cffffcc00Cooldown:|r 8 seconds. 
-}
-
-STRING 4142
-// Abilities: A17V (Money Bag: Slurp it up), Tip (Tooltip - Normal)
-{
-Slurp it up, [|cffffcc00Level 1|r]
-}
-
-STRING 4143
-// Abilities: A17V (Money Bag: Slurp it up), Tip (Tooltip - Normal)
-{
-Slurp it up, [|cffffcc00Level 2|r]
-}
-
-STRING 4144
-// Abilities: A17V (Money Bag: Slurp it up), Tip (Tooltip - Normal)
-{
-Slurp it up, [|cffffcc00Level 3|r]
-}
-
-STRING 4145
-// Abilities: A17V (Money Bag: Slurp it up), Tip (Tooltip - Normal)
-{
-Slurp it up, [|cffffcc00Level 4|r]
-}
-
-STRING 4146
-// Abilities: A17V (Money Bag: Slurp it up), Tip (Tooltip - Normal)
-{
-Slurp it up, [|cffffcc00Level 5|r]
-}
-
-STRING 4147
-// Abilities: A17V (Money Bag: Slurp it up), Ubertip (Tooltip - Normal - Extended)
-{
-Steals 50 mana from another hero. If you have a binded hero and it is not a target, it also gives him mana.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
-STRING 4148
-// Abilities: A17V (Money Bag: Slurp it up), Ubertip (Tooltip - Normal - Extended)
-{
-Steals 50 mana from another hero and gives an additional |cffbe81f715|r mana. If you have a binded hero and it is not a target, it also gives him mana.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
-STRING 4149
-// Abilities: A17V (Money Bag: Slurp it up), Ubertip (Tooltip - Normal - Extended)
-{
-Steals 50 mana from another hero and gives an additional |cffbe81f730|r mana. If you have a binded hero and it is not a target, it also gives him mana.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
-STRING 4150
-// Abilities: A17V (Money Bag: Slurp it up), Ubertip (Tooltip - Normal - Extended)
-{
-Steals 50 mana from another hero and gives an additional |cffbe81f745|r mana. If you have a binded hero and it is not a target, it also gives him mana.
-|cffffcc00Cooldown:|r 8 seconds.
-}
-
-STRING 4151
-// Abilities: A17V (Money Bag: Slurp it up), Ubertip (Tooltip - Normal - Extended)
-{
-Steals 50 mana from another hero and gives an additional |cffbe81f760|r mana. If you have a binded hero and it is not a target, it also gives him mana.
-|cffffcc00Cooldown:|r 8 seconds.
 }
 
 STRING 4152
@@ -27422,107 +27013,10 @@ STRING 4153
 Q
 }
 
-STRING 4154
-// Abilities: A17T (Money Bag: Vore), Name (Name)
-{
-Money Bag: Vore
-}
-
 STRING 4155
 // Abilities: A15V (Инкуб: Intoxicating love), Hotkey (Hotkey - Normal)
 {
 Q
-}
-
-STRING 4156
-// Abilities: A17T (Money Bag: Vore), Researchtip (Tooltip - Learn)
-{
-Vore, [|cffffcc00Level %d|r]
-}
-
-STRING 4157
-// Abilities: A17T (Money Bag: Vore), Researchubertip (Tooltip - Learn - Extended)
-{
-Binds another hero to your hero. Target lose the ability to move, but now target are dependent on your movement and become invulnerable. When you binds another hero or unbind the current one, it deals |cffbe81f7150/200/250/300/350|r damage to all enemies nearby.
-|cffffcc00Cooldown:|r 5 seconds. 
-|cffffcc00Cost:|r 40 mana.
-
-|cFF959697Re-using it on a binded target will unbind current target. Doesn't work if the target is invulnerable.|r
-}
-
-STRING 4158
-// Abilities: A17T (Money Bag: Vore), Tip (Tooltip - Normal)
-{
-Vore, [|cffffcc00Level 1|r]
-}
-
-STRING 4159
-// Abilities: A17T (Money Bag: Vore), Tip (Tooltip - Normal)
-{
-Vore, [|cffffcc00Level 2|r]
-}
-
-STRING 4160
-// Abilities: A17T (Money Bag: Vore), Tip (Tooltip - Normal)
-{
-Vore, [|cffffcc00Level 3|r]
-}
-
-STRING 4161
-// Abilities: A17T (Money Bag: Vore), Tip (Tooltip - Normal)
-{
-Vore, [|cffffcc00Level 4|r]
-}
-
-STRING 4162
-// Abilities: A17T (Money Bag: Vore), Tip (Tooltip - Normal)
-{
-Vore, [|cffffcc00Level 5|r]
-}
-
-STRING 4163
-// Abilities: A17T (Money Bag: Vore), Ubertip (Tooltip - Normal - Extended)
-{
-Binds another hero to your hero. Target lose the ability to move, but now target are dependent on your movement and become invulnerable. When you binds another hero or unbind the current one, it deals |cffbe81f7150|r damage to all enemies nearby.
-|cffffcc00Cooldown:|r 5 seconds. 
-
-|cFF959697Re-using it on a binded target will unbind current target. Doesn't work if the target is invulnerable.|r
-}
-
-STRING 4164
-// Abilities: A17T (Money Bag: Vore), Ubertip (Tooltip - Normal - Extended)
-{
-Binds another hero to your hero. Target lose the ability to move, but now target are dependent on your movement and become invulnerable. When you binds another hero or unbind the current one, it deals |cffbe81f7200|r damage to all enemies nearby.
-|cffffcc00Cooldown:|r 5 seconds. 
-
-|cFF959697Re-using it on a binded target will unbind current target. Doesn't work if the target is invulnerable.|r
-}
-
-STRING 4165
-// Abilities: A17T (Money Bag: Vore), Ubertip (Tooltip - Normal - Extended)
-{
-Binds another hero to your hero. Target lose the ability to move, but now target are dependent on your movement and become invulnerable. When you binds another hero or unbind the current one, it deals |cffbe81f7250|r damage to all enemies nearby.
-|cffffcc00Cooldown:|r 5 seconds. 
-
-|cFF959697Re-using it on a binded target will unbind current target. Doesn't work if the target is invulnerable.|r
-}
-
-STRING 4166
-// Abilities: A17T (Money Bag: Vore), Ubertip (Tooltip - Normal - Extended)
-{
-Binds another hero to your hero. Target lose the ability to move, but now target are dependent on your movement and become invulnerable. When you binds another hero or unbind the current one, it deals |cffbe81f7300|r damage to all enemies nearby.
-|cffffcc00Cooldown:|r 5 seconds. 
-
-|cFF959697Re-using it on a binded target will unbind current target. Doesn't work if the target is invulnerable.|r
-}
-
-STRING 4167
-// Abilities: A17T (Money Bag: Vore), Ubertip (Tooltip - Normal - Extended)
-{
-Binds another hero to your hero. Target lose the ability to move, but now target are dependent on your movement and become invulnerable. When you binds another hero or unbind the current one, it deals |cffbe81f7350|r damage to all enemies nearby.
-|cffffcc00Cooldown:|r 5 seconds. 
-
-|cFF959697Re-using it on a binded target will unbind current target. Doesn't work if the target is invulnerable.|r
 }
 
 STRING 4168
@@ -28720,6 +28214,30 @@ STRING 4354
 Spar now affects an area, however hero's damage is reduced by twice as much.
 }
 
+STRING 4355
+// Abilities: A17T (Money Bag: Acid Throw), Researchtip (Tooltip - Learn)
+{
+Acid Throw, [|cffffcc00Level %d|r]
+}
+
+STRING 4357
+// Abilities: A17T (Money Bag: Acid Throw), Tip (Tooltip - Normal)
+{
+Acid Throw, [|cffffcc00Level 1|r]
+}
+
+STRING 4358
+// Abilities: A17T (Money Bag: Acid Throw), Tip (Tooltip - Normal)
+{
+Acid Throw, [|cffffcc00Level 2|r]
+}
+
+STRING 4359
+// Abilities: A17T (Money Bag: Acid Throw), Tip (Tooltip - Normal)
+{
+Acid Throw, [|cffffcc00Level 3|r]
+}
+
 STRING 4360
 // Abilities: A164 (Артефакт: Трость Хнума), Name (Name)
 {
@@ -29047,6 +28565,12 @@ STRING 4411
 Shark Scales, [|cffffcc00Level %d|r]
 }
 
+STRING 4412
+// Abilities: A17T (Money Bag: Acid Throw), Tip (Tooltip - Normal)
+{
+Acid Throw, [|cffffcc00Level 4|r]
+}
+
 STRING 4413
 // Abilities: A15Q (Predator: Shark Scales), Tip (Tooltip - Normal)
 {
@@ -29075,6 +28599,12 @@ STRING 4417
 // Abilities: A15Q (Predator: Shark Scales), Tip (Tooltip - Normal)
 {
 Shark Scales, [|cffffcc00Level 5|r]
+}
+
+STRING 4418
+// Abilities: A17T (Money Bag: Acid Throw), Tip (Tooltip - Normal)
+{
+Acid Throw, [|cffffcc00Level 5|r]
 }
 
 STRING 4423
@@ -29141,6 +28671,33 @@ STRING 4434
 // Abilities: A15N (Predator: Aqua Jet), Tip (Tooltip - Normal)
 {
 Aqua Jet, [|cffffcc00Level 5|r]
+}
+
+STRING 4435
+// Abilities: A1IQ (Extra: Vore), Name (Name)
+{
+Extra: Vore
+}
+
+STRING 4436
+// Abilities: A1IQ (Extra: Vore), Tip (Tooltip - Normal)
+{
+Vore
+}
+
+STRING 4437
+// Abilities: A1IQ (Extra: Vore), Ubertip (Tooltip - Normal - Extended)
+{
+Links another hero to you. The target becomes invulnerable and moves with you.
+|cffffcc00Cooldown:|r 5 seconds.
+
+|cFF959697Does not work on invulnerable targets. Using it again on the same target will unbind it.|r
+}
+
+STRING 4438
+// Abilities: A1IR (Invulnerable), EditorSuffix (Editor Suffix)
+{
+(Acid Throw)
 }
 
 STRING 4440
@@ -29933,6 +29490,15 @@ Select a point. Creates an orb, teleports the hero and restores |cffbe81f735|r m
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
+STRING 4565
+// Abilities: A17T (Money Bag: Acid Throw), Researchubertip (Tooltip - Learn - Extended)
+{
+Create a random minion and hurl it at an enemy, dealing |cffbe81f7150/200/250/300/350|r damage and stunning the target for 1 second.
+|cffffcc00Life time:|r 15 seconds. 
+|cffffcc00Cooldown:|r 15 seconds. 
+|cffffcc00Cost:|r 70 mana.
+}
+
 STRING 4566
 // Abilities: A14V (Инкуб: Dark past), Name (Name)
 {
@@ -30553,6 +30119,14 @@ STRING 4662
 Артефакт: Бурлящий коктейль Пшикса
 }
 
+STRING 4663
+// Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Create a random minion and hurl it at an enemy, dealing |cffbe81f7150|r damage and stunning the target for 1 second.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 15 seconds. 
+}
+
 STRING 4664
 // Abilities: A13V (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -30638,12 +30212,6 @@ STRING 4677
 // Abilities: A13N (Mov. Speed (Карта Таро: Ветра)), Name (Name)
 {
 Mov. Speed (Карта Таро: Ветра)
-}
-
-STRING 4678
-// Abilities: A13M (Artifact: Soul Crystal), Name (Name)
-{
-Artifact: Soul Crystal
 }
 
 STRING 4679
@@ -32906,12 +32474,6 @@ STRING 5019
 Increases luck by 100.
 |cffffcc00Duration:|r 18 seconds.
 |cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 5020
-// Abilities: A11I (Артефакт: Камень Теней), Name (Name)
-{
-Артефакт: Камень Теней
 }
 
 STRING 5021
@@ -40688,6 +40250,14 @@ STRING 6212
 (Радиус)
 }
 
+STRING 6213
+// Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Create a random minion and hurl it at an enemy, dealing |cffbe81f7200|r damage and stunning the target for 1 second.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 15 seconds. 
+}
+
 STRING 6214
 // Abilities: A0RN (Potion: Огненный шторм), Researchtip (Tooltip - Learn)
 {
@@ -41000,6 +40570,14 @@ STRING 6264
 Legionary: Blade of Fire
 }
 
+STRING 6265
+// Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Create a random minion and hurl it at an enemy, dealing |cffbe81f7250|r damage and stunning the target for 1 second.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 15 seconds. 
+}
+
 STRING 6266
 // Abilities: A08L (Legionary: Blade of Fire), Researchtip (Tooltip - Learn)
 {
@@ -41030,6 +40608,43 @@ STRING 6270
 // Abilities: A08L (Legionary: Blade of Fire), Tip (Tooltip - Normal)
 {
 Blade of Fire, [|cffffcc00Level 3|r]
+}
+
+STRING 6271
+// Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Create a random minion and hurl it at an enemy, dealing |cffbe81f7300|r damage and stunning the target for 1 second.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 15 seconds. 
+}
+
+STRING 6272
+// Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Create a random minion and hurl it at an enemy, dealing |cffbe81f7350|r damage and stunning the target for 1 second.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 15 seconds. 
+}
+
+STRING 6273
+// Abilities: A17W (Money Bag: Composure), Ubertip (Tooltip - Normal - Extended)
+{
+Increases armor by 2.
+The hero receives 4% more gold from any sources and an additional 2% for each point of armor.
+}
+
+STRING 6274
+// Abilities: A17W (Money Bag: Composure), Ubertip (Tooltip - Normal - Extended)
+{
+Increases armor by 4.
+The hero receives 8% more gold from any sources and an additional 2% for each point of armor.
+}
+
+STRING 6275
+// Abilities: A17W (Money Bag: Composure), Ubertip (Tooltip - Normal - Extended)
+{
+Increases armor by 6.
+The hero receives 12% more gold from any sources and an additional 2% for each point of armor.
 }
 
 STRING 6276
@@ -41523,6 +41138,20 @@ STRING 6352
 // Abilities: A0QU (Spell Book), EditorSuffix (Editor Suffix)
 {
 (Длинный лук)
+}
+
+STRING 6353
+// Abilities: A17W (Money Bag: Composure), Ubertip (Tooltip - Normal - Extended)
+{
+Increases armor by 8.
+The hero receives 16% more gold from any sources and an additional 2% for each point of armor.
+}
+
+STRING 6354
+// Abilities: A17W (Money Bag: Composure), Ubertip (Tooltip - Normal - Extended)
+{
+Increases armor by 10.
+The hero receives 20% more gold from any sources and an additional 2% for each point of armor.
 }
 
 STRING 6355
@@ -47386,6 +47015,16 @@ Increases all damage dealt by the casting and the target hero by 36%, but causes
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 7267
+// Items: I0DY (Frozen Flame), Description (Description)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Costs 1 less for every 2 shield points gained in this battle.
+Activation: Deal |cffbe81f71000|r damage to the enemy.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 500 mana.
+}
+
 STRING 7268
 // Abilities: A0KE (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -47746,6 +47385,15 @@ Increases stats by 48 for a while (сurrent health and mana remain the same).
 |cffffcc00Duration:|r 30 seconds.
 |cffffcc00Cooldown:|r 65 seconds.
 |cffffcc00Cost:|r 300 health.
+}
+
+STRING 7322
+// Items: I0DY (Frozen Flame), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Costs 1 less for every 2 shield points gained in this battle.
+Activation: Deal |cffbe81f71000|r damage to the enemy.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 7323
@@ -48186,6 +47834,14 @@ STRING 7387
 // Abilities: A0JI (Кабан: Поддержка), Ubertip (Tooltip - Normal - Extended)
 {
 Every fourth attack deals additional damage equal to the hero agility.
+}
+
+STRING 7388
+// Items: I0HP (Runestone Lous), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff848484Rune|r
+At the start of the battle, gain |cffbe81f7400|r Shield for each |cff848484rune|r in your inventory.
+|cffffffffDecreases Spell Power by 25%.|r
 }
 
 STRING 7389
@@ -48892,6 +48548,14 @@ STRING 7496
 - |cff00cceeAt 20% health:|r Summons all totems.
 }
 
+STRING 7497
+// Items: I0HP (Runestone Lous), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff848484Rune|r
+At the start of the battle, gain |cffbe81f7400|r Shield for each |cff848484rune|r in your inventory.
+|cffffffffDecreases Spell Power by 25%.|r
+}
+
 STRING 7498
 // Abilities: A0IX (Артефакт: Фиолетовая призма), Name (Name)
 {
@@ -49435,6 +49099,16 @@ STRING 7578
 Throws a dagger at an enemy, dealing |cffbe81f790|r damage. Gives the hero a Fool stack. Each fool stack reduces attack cooldown by 3%. Stacks up to 25 times.
 |cffffcc00Duration:|r 15 seconds.
 |cffffcc00Cooldown:|r 1.5 seconds.
+}
+
+STRING 7579
+// Items: IZ01 (Sacred Stone), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff00cceeCrystal|r
+Activation: Deals |cffbe81f7160|r damage to an enemy, restores |cffbe81f7160|r Health and gain |cffbe81f7160|r Shield.
+Doubles the effect for every other Sacred Stone in any inventory.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 50 mana.
 }
 
 STRING 7580
@@ -50736,16 +50410,19 @@ STRING 7781
 Artifact: Amalgam
 }
 
-STRING 7782
-// Abilities: A0GL (Artifact: Aquamarin), Name (Name)
-{
-Artifact: Aquamarin
-}
-
 STRING 7783
 // Items: I0AU (Red Poppy), Name (Name)
 {
 Red Poppy
+}
+
+STRING 7784
+// Items: IZ01 (Sacred Stone), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff00cceeCrystal|r
+Activation: Deals |cffbe81f7160|r damage to an enemy, restores |cffbe81f7160|r Health and gain |cffbe81f7160|r Shield.
+Doubles the effect for every other Sacred Stone in any inventory.
+|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 7785
@@ -52922,6 +52599,16 @@ STRING 8125
 (Единение с луной)
 }
 
+STRING 8126
+// Items: I0DM (Chrysalis), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Doubles the stats of an allied minion (do not stack).
+|cffffcc00Duration:|r 60 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 35 mana.
+}
+
 STRING 8127
 // Abilities: A0EC (Attack speed (Orb of Ragnaros)), Name (Name)
 {
@@ -53603,6 +53290,12 @@ STRING 8234
 Unholy Greed, [|cffffcc00Level %d|r]
 }
 
+STRING 8235
+// Items: I0DM (Chrysalis), Name (Name)
+{
+Chrysalis
+}
+
 STRING 8236
 // Abilities: A0DN (Wagon: Unholy Greed), Tip (Tooltip - Normal)
 {
@@ -53631,6 +53324,44 @@ STRING 8240
 // Abilities: A0DN (Wagon: Unholy Greed), Tip (Tooltip - Normal)
 {
 Unholy Greed, [|cffffcc00Level 5|r]
+}
+
+STRING 8241
+// Items: I0DM (Chrysalis), Tip (Tooltip - Basic)
+{
+Chrysalis
+}
+
+STRING 8242
+// Items: I0DM (Chrysalis), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Doubles the stats of an allied minion (do not stack).
+|cffffcc00Duration:|r 60 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 8243
+// Items: I00F (Celestial Quartz), Description (Description)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Activation: Permanently increases mana by 20.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 100 mana.
+}
+
+STRING 8244
+// Items: I00F (Celestial Quartz), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Activation: Permanently increases mana by 20.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 8245
+// Abilities: A182 (Artifact: Chrysalis), Name (Name)
+{
+Artifact: Chrysalis
 }
 
 STRING 8246
@@ -54693,7 +54424,7 @@ Potion: Огонь
 }
 
 STRING 8413
-// Abilities: A1E0 (Runesmith: Carve Rune of the Strongman), Hotkey (Hotkey - Normal)
+// Items: I0HX (Calm Potion), Hotkey (Hotkey)
 {
 A
 }
@@ -57065,12 +56796,6 @@ STRING 8776
 Артефакт: Фарик Хитрый
 }
 
-STRING 8777
-// Abilities: A09P (Артефакт: Резонатор), Name (Name)
-{
-Артефакт: Резонатор
-}
-
 STRING 8778
 // Abilities: A09O (Armor: Дар мертвых), Name (Name)
 {
@@ -59149,23 +58874,6 @@ STRING 9102
 // Abilities: A082 (Outcast: Denial of the Past), Tip (Tooltip - Normal)
 {
 Denial of the Past, [|cffffcc00Level 5|r]
-}
-
-STRING 9103
-// Items: I0AL (Stone of Shadows), Description (Description)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Set your health to 10%. Gain a |cffbe81f7shield|r that absorbs damage equal to the health lost.
-|cffffcc00Cooldown:|r 60 seconds.
-|cffffcc00Cost:|r 25 mana.
-}
-
-STRING 9104
-// Items: I0AL (Stone of Shadows), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Set your health to 10%. Gain a |cffbe81f7shield|r that absorbs damage equal to the health lost.
-|cffffcc00Cooldown:|r 60 seconds.
 }
 
 STRING 9105
@@ -61906,6 +61614,15 @@ STRING 9527
 Plague Run, [|cffffcc00Level %d|r]
 }
 
+STRING 9528
+// Items: I01X (Worldstone), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Deals |cffbe81f7300|r damage to the enemy. Deals an additional |cffbe81f7100|r damage for each kill you make in this battle |cFF959697(0)|r.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
 STRING 9529
 // Abilities: A05G (Wagon: Plague Run), Tip (Tooltip - Normal)
 {
@@ -61934,6 +61651,45 @@ STRING 9533
 // Abilities: A05G (Wagon: Plague Run), Tip (Tooltip - Normal)
 {
 Plague Run, [|cffffcc00Level 5|r]
+}
+
+STRING 9534
+// Items: I01X (Worldstone), Name (Name)
+{
+Worldstone
+}
+
+STRING 9535
+// Items: I01X (Worldstone), Tip (Tooltip - Basic)
+{
+Worldstone
+}
+
+STRING 9536
+// Items: I01X (Worldstone), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Deals |cffbe81f7300|r damage to the enemy. Deals an additional |cffbe81f7100|r damage for each kill you make in this battle |cFF959697(0)|r.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 9537
+// Items: I01G (Majyte), Description (Description)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Activation: Increases Spell Power by 150% for the next cast.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 9538
+// Items: I01G (Majyte), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Activation: Increases Spell Power by 150% for the next cast.
+|cffffcc00Duration:|r 10 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 9539
@@ -63237,6 +62993,14 @@ STRING 9740
 // Abilities: A04F ((т)Аура: Alchemy), Name (Name)
 {
 (т)Аура: Alchemy
+}
+
+STRING 9741
+// Items: I00P (Mana Crystal), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Deals |cffbe81f7100|r damage to the enemy. Restores mana equal to the damage dealt.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 9742
@@ -65475,18 +65239,6 @@ STRING 10079
 With a probability of |cffd7df0117%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
 }
 
-STRING 10080
-// Items: I01X (Ruby Diamond), Name (Name)
-{
-Ruby Diamond
-}
-
-STRING 10081
-// Items: I01X (Ruby Diamond), Tip (Tooltip - Basic)
-{
-Ruby Diamond
-}
-
 STRING 10082
 // Items: I00P (Mana Crystal), Name (Name)
 {
@@ -66028,6 +65780,14 @@ STRING 10165
 Corpse Toss, [|cffffcc00Level %d|r]
 }
 
+STRING 10166
+// Items: I00P (Mana Crystal), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Deals |cffbe81f7100|r damage to the enemy. Restores mana equal to the damage dealt.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 10167
 // Abilities: A01G (Wagon: Corpse Toss), Tip (Tooltip - Normal)
 {
@@ -66056,6 +65816,43 @@ STRING 10171
 // Abilities: A01G (Wagon: Corpse Toss), Tip (Tooltip - Normal)
 {
 Corpse Toss, [|cffffcc00Level 5|r]
+}
+
+STRING 10172
+// Items: I0BR (Soul Shard), Description (Description)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+When you kill an enemy, absorb a soul.
+Activation: Deals |cffbe81f2200|r damage, plus an additional 200 for each soul. If the target is a boss, consume all souls.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 10173
+// Items: I0BR (Soul Shard), Name (Name)
+{
+Soul Shard
+}
+
+STRING 10174
+// Items: I0BR (Soul Shard), Tip (Tooltip - Basic)
+{
+Soul Shard
+}
+
+STRING 10175
+// Items: I0BR (Soul Shard), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+When you kill an enemy, absorb a soul.
+Activation: Deals |cffbe81f2200|r damage, plus an additional 200 for each soul. If the target is a boss, consume all souls.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 10176
+// Abilities: A13M (Artifact: Soul Shard), Name (Name)
+{
+Artifact: Soul Shard
 }
 
 STRING 10177
@@ -66214,23 +66011,6 @@ STRING 10198
 Activation: Summons uncontrollable minion that attack the enemy and additional one for each |cffb18904Mech|r in your inventory.
 |cffffcc00Life time:|r 30 seconds.
 |cffffcc00Cooldown:|r 45 seconds.
-}
-
-STRING 10199
-// Items: I0AK (Aquamarin), Description (Description)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Gives a friendly hero |cffbe81f7300|r Shield.
-|cffffcc00Cooldown:|r 40 seconds.
-|cffffcc00Cost:|r 65 mana.
-}
-
-STRING 10200
-// Items: I0AK (Aquamarin), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Gives a friendly hero |cffbe81f7300|r Shield.
-|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 10201
@@ -73251,7 +73031,7 @@ Runesmith: Carve Rune of the Strongman
 }
 
 STRING 11339
-// Items: I0HW (Rage Potion), Hotkey (Hotkey)
+// Abilities: A1E0 (Runesmith: Carve Rune of the Strongman), Hotkey (Hotkey - Normal)
 {
 A
 }
@@ -75856,14 +75636,6 @@ When you restore a target's health, the less health the target has, the more you
 |cff81f260[Random bonus]|r
 }
 
-STRING 11721
-// Items: I0HE (Red Sugar), Description (Description)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r, |cff00cceeCrystal|r
-When your Health is restored, gain 1 Max Health.
-|cff81f260[Random bonus]|r
-}
-
 STRING 11722
 // Items: I0HE (Red Sugar), Name (Name)
 {
@@ -75874,14 +75646,6 @@ STRING 11723
 // Items: I0HE (Red Sugar), Tip (Tooltip - Basic)
 {
 Red Sugar
-}
-
-STRING 11724
-// Items: I0HE (Red Sugar), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r, |cff00cceeCrystal|r
-When your Health is restored, gain 1 Max Health.
-|cff81f260[Random bonus]|r
 }
 
 STRING 11725
@@ -76674,23 +76438,6 @@ Activation: Deals |cffbe81f7225|r damage to all enemies near the target.
 |cffffcc00Cooldown:|r 35 seconds.
 }
 
-STRING 11835
-// Items: I03R (Perfectly Cut Lens), Description (Description)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Select an area. Deals |cffbe81f7100|r damage to enemies in an area with a size of |cffffffff100|r. Increases damage and size by 100 for each other artifact from the |cff00cceeCrystal|r set.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 40 mana.
-}
-
-STRING 11836
-// Items: I03R (Perfectly Cut Lens), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Activation: Select an area. Deals |cffbe81f7100|r damage to enemies in an area with a size of |cffffffff100|r. Increases damage and size by 100 for each other artifact from the |cff00cceeCrystal|r set.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 11837
 // Items: I031 (Prism), Description (Description)
 {
@@ -77214,16 +76961,6 @@ STRING 11907
 Plague Impact, [|cffffcc00Level 4|r]
 }
 
-STRING 11908
-// Items: I0DY (Frozen Flame), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Costs 5 less mana for each ability or item you use while that item is in your inventory.
-Activation: Deal |cffbe81f71000|r damage to the enemy.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 1000 mana.
-}
-
 STRING 11909
 // Items: I0DY (Frozen Flame), Name (Name)
 {
@@ -77234,15 +76971,6 @@ STRING 11910
 // Items: I0DY (Frozen Flame), Tip (Tooltip - Basic)
 {
 Frozen Flame
-}
-
-STRING 11911
-// Items: I0DY (Frozen Flame), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Costs 5 less mana for each ability or item you use while that item is in your inventory.
-Activation: Deal |cffbe81f71000|r damage to the enemy.
-|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 11912
@@ -79757,5 +79485,289 @@ STRING 12276
 {
 Throw a projectile at an enemy, dealing |cffbe81f7350|r damage to nearby enemies. While in flight, the projectile generates gold coins.
 |cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 12277
+// Items: I0GH (Tear of As'ha), Description (Description)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Increases mana regeneration by 100%. Cast 12 times to gain an additional 250% regeneration for this fight.
+}
+
+STRING 12278
+// Items: I0GH (Tear of As'ha), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Increases mana regeneration by 100%. Cast 12 times to gain an additional 250% regeneration for this fight.
+}
+
+STRING 12279
+// Items: I0GR (Zuma), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Deals |cffbe81f7300|r damage to the target. Increases zuma's damage by 100 until the end of the battle.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 12280
+// Items: I0GR (Zuma), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Deals |cffbe81f7300|r damage to the target. Increases zuma's damage by 100 until the end of the battle.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 12281
+// Items: I088 (Ventusite), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+While moving, the hero constantly gains |cffbe81f712|r Shield.
+}
+
+STRING 12282
+// Items: I088 (Ventusite), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+While moving, the hero constantly gains |cffbe81f712|r Shield.
+}
+
+STRING 12283
+// Items: I04R (Tesseract), Description (Description)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+When you kill an enemy, permanently increase Spell Power by 0.4%.
+}
+
+STRING 12284
+// Items: I04R (Tesseract), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+When you kill an enemy, permanently increase Spell Power by 0.4%.
+}
+
+STRING 12285
+// Items: I0AM (Amalgam), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Deals |cffbe81f7150|r damage to an enemy, restores |cffbe81f7150|r health and gain |cffbe81f7150|r shield.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 35 mana.
+}
+
+STRING 12286
+// Items: I0AM (Amalgam), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Deals |cffbe81f7150|r damage to an enemy, restores |cffbe81f7150|r health and gain |cffbe81f7150|r shield.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 12287
+// Items: I0AK (Aquamarine), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Gives a friendly hero |cffbe81f7300|r Shield.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 35 mana.
+}
+
+STRING 12288
+// Items: I0AK (Aquamarine), Name (Name)
+{
+Aquamarine
+}
+
+STRING 12289
+// Items: I0AK (Aquamarine), Tip (Tooltip - Basic)
+{
+Aquamarine
+}
+
+STRING 12290
+// Items: I0AK (Aquamarine), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Gives a friendly hero |cffbe81f7300|r Shield.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 12291
+// Items: I09V (Babbling Pebble), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+While the hero has 200 mana or less, Damage Dealt is increased by 40%.
+}
+
+STRING 12292
+// Items: I09V (Babbling Pebble), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+While the hero has 200 mana or less, Damage Dealt is increased by 40%.
+}
+
+STRING 12293
+// Items: I04I (Ancient Pearl), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Restore |cffbe81f7160|r Health to friendly target. Additionally restores 40 health for each hero level.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 12294
+// Items: I04I (Ancient Pearl), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Restore |cffbe81f7160|r Health to friendly target. Additionally restores 40 health for each hero level.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 12295
+// Items: I016 (Echosis), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Deals |cffbe81f7300|r damage to the target and gives the caster |cffbe81f650|r Shield. Permanently increases Shield received by 25.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 12296
+// Items: I016 (Echosis), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Deals |cffbe81f7300|r damage to the target and gives the caster |cffbe81f650|r Shield. Permanently increases Shield received by 25.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 12297
+// Items: IZ06 (Blue Sky), Description (Description)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r
+Every 5th cast uses a |cff60C445Unique|r ability.
+|cff81f260[Random bonus]|r
+}
+
+STRING 12298
+// Items: IZ06 (Blue Sky), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r
+Every 5th cast uses a |cff60C445Unique|r ability.
+|cff81f260[Random bonus]|r
+}
+
+STRING 12299
+// Items: IZ08 (Deep Purple), Description (Description)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r
+Activation: Increases |cff60C445Unique|r Spell Power by 200%.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+|cffffcc00Cost:|r 25 mana.
+}
+
+STRING 12300
+// Items: IZ08 (Deep Purple), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff9001fdRing|r
+Activation: Increases |cff60C445Unique|r Spell Power by 200%.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 12301
+// Items: I0HE (Red Sugar), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+When your Health is restored, gain 1 Max Health.
+|cff81f260[Random bonus]|r
+}
+
+STRING 12302
+// Items: I0HE (Red Sugar), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+When your Health is restored, gain 1 Max Health.
+|cff81f260[Random bonus]|r
+}
+
+STRING 12303
+// Abilities: A0GL (Artifact: Aquamarine), Name (Name)
+{
+Artifact: Aquamarine
+}
+
+STRING 12304
+// Abilities: A09P (Артефакт: Echosis), Name (Name)
+{
+Артефакт: Echosis
+}
+
+STRING 12305
+// Items: I0AL (Shadow Stone), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Set your health to 10%. Gain a |cffbe81f7shield|r that absorbs damage equal to the health lost.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 25 mana.
+}
+
+STRING 12306
+// Items: I0AL (Shadow Stone), Name (Name)
+{
+Shadow Stone
+}
+
+STRING 12307
+// Items: I0AL (Shadow Stone), Tip (Tooltip - Basic)
+{
+Shadow Stone
+}
+
+STRING 12308
+// Items: I0AL (Shadow Stone), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Set your health to 10%. Gain a |cffbe81f7shield|r that absorbs damage equal to the health lost.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 12309
+// Items: I062 (Sapphire), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Restore |cffbe81f740|r mana to the caster and another random hero.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 12310
+// Items: I062 (Sapphire), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Restore |cffbe81f740|r mana to the caster and another random hero.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 12311
+// Items: I03R (Perfectly Cut Lens), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Select an area. Deals |cffbe81f7150|r damage to enemies in an area with a size of |cffffffff150|r. Increases damage and size by 100 for each other artifact from the |cff00cceeCrystal|r set.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 40 mana.
+}
+
+STRING 12312
+// Items: I03R (Perfectly Cut Lens), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Select an area. Deals |cffbe81f7150|r damage to enemies in an area with a size of |cffffffff150|r. Increases damage and size by 100 for each other artifact from the |cff00cceeCrystal|r set.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 12313
+// Abilities: A11I (Артефакт: Shadow Stone), Name (Name)
+{
+Артефакт: Shadow Stone
 }
 

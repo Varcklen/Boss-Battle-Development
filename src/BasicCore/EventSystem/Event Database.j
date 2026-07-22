@@ -183,6 +183,12 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         	unit (unit)
         	amount (integer)
         */
+        Event ShieldGain
+        /*
+        	caster (unit)
+        	target (unit)
+        	amount (integer)
+        */
     endglobals
     
     private function InitCustomEvents takes nothing returns nothing
@@ -222,6 +228,7 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         set DefeatAnnounce = Event.create(null, null)
         set EnterInvisibility = Event.create(null, null)
         set ManaSpent = Event.create(null, null)
+        set ShieldGain = Event.create("caster", "target")
     endfunction
     
     /*

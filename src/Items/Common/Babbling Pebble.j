@@ -6,7 +6,7 @@ scope BabblingPebble initializer init
 		private constant integer STAT_INCREASE = 40
 		private constant integer STAT_TYPE = STAT_DAMAGE_DEALT
 		
-		private constant integer MAX_MANA_REQUIRE_PERC = 25
+		private constant integer MANA_REQUIRE = 200
 		
 		private constant integer STRING_HASH = StringHash( "babbling_pebble" )
 	endglobals
@@ -16,7 +16,7 @@ scope BabblingPebble initializer init
 	endfunction 
 	
 	private function IsBonusFound takes unit hero returns boolean 
-		return GetUnitStatePercent(hero, UNIT_STATE_MANA, UNIT_STATE_MAX_MANA) <= MAX_MANA_REQUIRE_PERC
+		return GetUnitState( hero, UNIT_STATE_MANA) <= MANA_REQUIRE
 	endfunction
 	
 	private function check takes nothing returns nothing 

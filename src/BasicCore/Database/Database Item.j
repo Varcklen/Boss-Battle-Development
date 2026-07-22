@@ -87,6 +87,9 @@ library LibDataItems
 	    set DB_Items[1][BaseNum()] = 'I0HS'
 	    set DB_Items[1][BaseNum()] = 'I021'
 	    set DB_Items[1][BaseNum()] = 'I00H'
+	    set DB_Items[1][BaseNum()] = 'I00P'
+	    set DB_Items[1][BaseNum()] = 'I01X'
+	    set DB_Items[1][BaseNum()] = 'I0GR'
 	    set udg_Database_NumberItems[1] = udg_base
 	    
 	    // Обычный. I пак. 6+
@@ -168,6 +171,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I01T'
 	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I04C'
 	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I0GE'
+	    set udg_DB_Item_ForLvL1_Common[BaseNum()] = 'I088'
 	    set udg_DB_NumLvLItems[1] = udg_base
 	
 	    // Обычные. II пак. 8+
@@ -251,6 +255,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL2_Common[BaseNum()] = 'I06I'
 	    set udg_DB_Item_ForLvL2_Common[BaseNum()] = 'I028'
 	    set udg_DB_Item_ForLvL2_Common[BaseNum()] = 'I01A'
+	    set udg_DB_Item_ForLvL2_Common[BaseNum()] = 'I0DM'
 	    set udg_DB_NumLvLItems[2] = udg_base
 	
 	    // Обычные. III пак. 11+
@@ -319,8 +324,8 @@ library LibDataItems
 	    set DB_Items[2][BaseNum()] = 'I02V'
 	    //set DB_Items[2][BaseNum()] = 'I00H'
 	    set DB_Items[2][BaseNum()] = 'I04A'
-	    set DB_Items[2][BaseNum()] = 'I00P'
-	    set DB_Items[2][BaseNum()] = 'I01X'
+	    //set DB_Items[2][BaseNum()] = 'I00P'
+	    //set DB_Items[2][BaseNum()] = 'I01X'
 	    set DB_Items[2][BaseNum()] = 'I045'
 	    set DB_Items[2][BaseNum()] = 'I09H'
 	    set DB_Items[2][BaseNum()] = 'I0BI'
@@ -337,7 +342,7 @@ library LibDataItems
 	    set DB_Items[2][BaseNum()] = 'I02B'
 	    set DB_Items[2][BaseNum()] = 'I0GH'
 	    set DB_Items[2][BaseNum()] = 'I0GM'
-	    set DB_Items[2][BaseNum()] = 'I0GR'
+	    //set DB_Items[2][BaseNum()] = 'I0GR'
 	    set DB_Items[2][BaseNum()] = 'I0HA'
 	    set DB_Items[2][BaseNum()] = 'I0D6'
 	    set DB_Items[2][BaseNum()] = 'I05U'
@@ -346,7 +351,7 @@ library LibDataItems
 	    // Редкий. I пак
 	    set udg_base = 0
 	    set udg_DB_Item_ForLvL1_Rare[BaseNum()] = 'I05K'
-	    //set udg_DB_Item_ForLvL1_Rare[BaseNum()] = 'I0DY'
+	    set udg_DB_Item_ForLvL1_Rare[BaseNum()] = 'I0DY'
 	    //set udg_DB_Item_ForLvL1_Rare[BaseNum()] = 'I04C'
 	    //set udg_DB_Item_ForLvL1_Rare[BaseNum()] = 'I028'
 	    set udg_DB_Item_ForLvL1_Rare[BaseNum()] = 'I0DZ'
@@ -365,7 +370,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL1_Rare[BaseNum()] = 'I0AT'
 	    set udg_DB_Item_ForLvL1_Rare[BaseNum()] = 'I0BD'
 	    set udg_DB_Item_ForLvL1_Rare[BaseNum()] = 'I082'
-	    set udg_DB_Item_ForLvL1_Rare[BaseNum()] = 'I088'
+	    //set udg_DB_Item_ForLvL1_Rare[BaseNum()] = 'I088'
 	    set udg_DB_Item_ForLvL1_Rare[BaseNum()] = 'I0BQ'
 	    set udg_DB_Item_ForLvL1_Rare[BaseNum()] = 'I0CA'
 	    set udg_DB_Item_ForLvL1_Rare[BaseNum()] = 'I0CJ'
@@ -425,7 +430,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I0FA'
 	    set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I0F9'
 	    //set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I0DE'
-	    set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I0DM'
+	    //set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I0DM'
 	    set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I00F'
 	    set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I0BM'
 	    set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I05O'
@@ -559,7 +564,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL2_Legendary[BaseNum()] = 'I0FI'
 	    set udg_DB_Item_ForLvL2_Legendary[BaseNum()] = 'I01E'
 	    //set udg_DB_Item_ForLvL2_Legendary[BaseNum()] = 'I01F'
-	    //set udg_DB_Item_ForLvL2_Legendary[BaseNum()] = 'I0HP'
+	    set udg_DB_Item_ForLvL2_Legendary[BaseNum()] = 'I0HP'
 	    set udg_DB_NumLvLItems[8] = udg_base
 	    
 	    // Легендарный. III пак
@@ -1059,6 +1064,7 @@ library LibDataItems
 	    set DB_SetItems[4][BaseNum()] = 'IZ04'
 	    set DB_SetItems[4][BaseNum()] = 'I0HE'
 	    set DB_SetItems[4][BaseNum()] = 'I052'
+	    set DB_SetItems[4][BaseNum()] = 'I01X'
 	    set udg_DB_SetItems_Num[4] = udg_base
 	    
 	    // Руна
@@ -1216,20 +1222,20 @@ library LibDataItems
 	    set DB_SetItems[9][BaseNum()] = 'I0BR'
 	    set DB_SetItems[9][BaseNum()] = 'I0CZ'
 	    set DB_SetItems[9][BaseNum()] = 'I0DM'
-	    set DB_SetItems[9][BaseNum()] = 'I01X'
+	    //set DB_SetItems[9][BaseNum()] = 'I01X'
 	    set DB_SetItems[9][BaseNum()] = 'I00F'
 	    set DB_SetItems[9][BaseNum()] = 'I03R'
 	    set DB_SetItems[9][BaseNum()] = 'I0GF'
 	    set DB_SetItems[9][BaseNum()] = 'I0GH'
 	    set DB_SetItems[9][BaseNum()] = 'I0GR'
 	    set DB_SetItems[9][BaseNum()] = 'IZ01'
-	    set DB_SetItems[9][BaseNum()] = 'IZ06'
-	    set DB_SetItems[9][BaseNum()] = 'IZ08'
-	    set DB_SetItems[9][BaseNum()] = 'I0HE'
+	    //set DB_SetItems[9][BaseNum()] = 'IZ06'
+	    //set DB_SetItems[9][BaseNum()] = 'IZ08'
+	    //set DB_SetItems[9][BaseNum()] = 'I0HE'
 	    set DB_SetItems[9][BaseNum()] = 'I0HG'
 	    set DB_SetItems[9][BaseNum()] = 'I052'
 	    set DB_SetItems[9][BaseNum()] = 'I0DY'
-	    set DB_SetItems[9][BaseNum()] = 'I0HP'
+	    //set DB_SetItems[9][BaseNum()] = 'I0HP'
 	    set DB_SetItems[9][BaseNum()] = 'I02X'
 	    set udg_DB_SetItems_Num[9] = udg_base
 	    
@@ -1291,7 +1297,7 @@ library LibDataItems
 	    set udg_base = 0
 	    set DB_ExileItems[2][BaseNum()] = 'I0AO'
 	    set DB_ExileItems[2][BaseNum()] = 'I00K'
-	    set DB_ExileItems[2][BaseNum()] = 'I0DY'
+	    //set DB_ExileItems[2][BaseNum()] = 'I0DY'
 	    set DB_ExileItems[2][BaseNum()] = 'I07U'
 	    set DB_ExileItems[2][BaseNum()] = 'I08D'
 	    set DB_ExileItems[2][BaseNum()] = 'I0B2'
@@ -1309,7 +1315,7 @@ library LibDataItems
 	    set DB_ExileItems[3][BaseNum()] = 'I0E3'
 	    set DB_ExileItems[3][BaseNum()] = 'I0AR'
 	    set DB_ExileItems[3][BaseNum()] = 'I0D2'
-	    set DB_ExileItems[3][BaseNum()] = 'I0HP'
+	    //set DB_ExileItems[3][BaseNum()] = 'I0HP'
 	    set DB_ExileItems[3][BaseNum()] = 'I083'
 	    set DB_ExileItems[3][BaseNum()] = 'I052'
 	    set DB_ExileItems_Max[3] = udg_base

@@ -68,7 +68,7 @@ scope Mechanic1A initializer init
         local integer id1
         
         if IsUnitAlive(caster) then
-        	call IndicatorSystem_Create( INDICATOR_AIM, BlzGetLocalSpecialEffectX( area ), BlzGetLocalSpecialEffectY( area ), AREA, DAMAGE_TICK * TICKS )
+        	call IndicatorSystem_Create( INDICATOR_AIM, BlzGetLocalSpecialEffectX( area ), BlzGetLocalSpecialEffectY( area ), AREA, DAMAGE_TICK * TICKS, caster )
             set fire = AddSpecialEffect(FIRE_ANIMATION, BlzGetLocalSpecialEffectX( area ), BlzGetLocalSpecialEffectY( area ) )
             call BlzSetSpecialEffectScale( fire, AREA/200 )
             set id1 = InvokeTimerWithEffect(fire, "mechanic_firestorm", DAMAGE_TICK, true, function CastFire )

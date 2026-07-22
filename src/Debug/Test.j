@@ -1,9 +1,12 @@
 scope Test initializer init
 	
 	private function action takes nothing returns nothing
-		call BJDebugMsg("udg_rollbase[1]:" + I2S(udg_rollbase[1]))
+		call BJDebugMsg("Test Enable")
+		call IndicatorSystem_Create( INDICATOR_SAFE, GetUnitX(udg_hero[1]), GetUnitY(udg_hero[1]), 100, 5, null )
+		call IndicatorSystem_Create( INDICATOR_AIM, GetUnitX(udg_hero[1]), GetUnitY(udg_hero[1]), 100, 5, null )
 		
-		call AddRewardSelectionOption(Player(i), AMOUNT_OF_REWARD_SELECTIONS_PER_ROUND)
+		//call AddSpecialEffect( "war3mapImported\\Magic_Aura_02.mdx", GetUnitX(udg_hero[1]), GetUnitY(udg_hero[1]) )
+		//call AddSpecialEffect( "Abilities\\Spells\\Human\\Thunderclap\\ThunderClapCaster.mdl", GetUnitX(udg_hero[1]), GetUnitY(udg_hero[1]) )
 	endfunction
 	
 	//===========================================================================

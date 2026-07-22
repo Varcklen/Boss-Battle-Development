@@ -9,6 +9,7 @@ library IndicatorSystem initializer init requires CommonTimer
 		constant integer INDICATOR_SKULL = 0
 		constant integer INDICATOR_AIM = 1
 		constant integer INDICATOR_WARNING = 2
+		constant integer INDICATOR_SAFE = 3
 		
 		private Indicator array Indicators
 		private integer Indicators_Max = 0
@@ -61,6 +62,7 @@ library IndicatorSystem initializer init requires CommonTimer
 		set indicator = Indicator.create(1,false, "war3mapImported\\Indicator_Aim.mdx")
 		call indicator.SetAlt( 150, "war3mapImported\\Indicator_Aim_Thin.mdx")
 		call Indicator.create(1.25, true, "war3mapImported\\BossColor.mdx")
+		call Indicator.create(2, true, "war3mapImported\\Magic_Aura_02.mdx")
 	endfunction
 	
 	private function ClearParticles takes nothing returns nothing
@@ -95,10 +97,15 @@ library IndicatorSystem initializer init requires CommonTimer
 		set particle = null
 	endfunction
 
-	public function Create takes integer indicatorType, real x, real y, real area, real duration returns effect
-		local Indicator indicator = Indicators[indicatorType]
+	public function Create takes integer indicatorType, real x, real y, real area, real duration, unit owner returns effect
+		local Indicator indicator 
 		local integer id
 		
+		if owner != null and GetOwningPlayer(owner) != Player(10) then
+			set indicatorType = INDICATOR_SAFE
+		endif
+		
+		set indicator = Indicators[indicatorType]
 		set temp_Effect = AddSpecialEffect( indicator.GetPath(area), x, y )
 		call BlzSetSpecialEffectScale( temp_Effect, area / 100 * indicator.BaseSize )
 		call BlzSetSpecialEffectColorByPlayer( temp_Effect, Player(12) ) //Red Color

@@ -3,7 +3,7 @@ scope Tesseract initializer init
 	globals
 		private constant integer ITEM_ID = 'I04R'
 		
-		private constant real SPELL_POWER_GAIN = 0.3
+		private constant real SPELL_POWER_GAIN = 0.4
 	endglobals
 
 	private function condition takes nothing returns boolean

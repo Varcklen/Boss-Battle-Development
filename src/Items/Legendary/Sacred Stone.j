@@ -11,7 +11,7 @@ scope SacredStone initializer init
         return GetSpellAbilityId() == ID_ABILITY
     endfunction
     
-    private function ManaRestore takes nothing returns nothing
+    /*private function ManaRestore takes nothing returns nothing
     	local integer id = GetHandleId( GetExpiredTimer() )
     	local unit caster = LoadUnitHandle( udg_hash, id, StringHash( "sacred_stone_mana" ) )
     	local integer manaRestore = LoadInteger( udg_hash, id, StringHash( "sacred_stone_mana" ) )
@@ -19,7 +19,7 @@ scope SacredStone initializer init
     	call manast( caster, null, manaRestore )
     
     	set caster = null
-    endfunction
+    endfunction*/
 
 	private function action takes nothing returns nothing
 	    local unit caster
@@ -48,16 +48,16 @@ scope SacredStone initializer init
 	    
 	    set cyclAEnd = 0
 	    if udg_hero[1] != null then 
-	    set cyclAEnd = cyclAEnd + inv(udg_hero[1], ID_ITEM)
+	    	set cyclAEnd = cyclAEnd + inv(udg_hero[1], ID_ITEM)
 	    endif
 	    if udg_hero[2] != null then 
-	    set cyclAEnd = cyclAEnd + inv(udg_hero[2], ID_ITEM)
+	   		set cyclAEnd = cyclAEnd + inv(udg_hero[2], ID_ITEM)
 	    endif
 	    if udg_hero[3] != null then 
-	    set cyclAEnd = cyclAEnd + inv(udg_hero[3], ID_ITEM)
+	    	set cyclAEnd = cyclAEnd + inv(udg_hero[3], ID_ITEM)
 	    endif
 	    if udg_hero[4] != null then 
-	    set cyclAEnd = cyclAEnd + inv(udg_hero[4], ID_ITEM)
+	    	set cyclAEnd = cyclAEnd + inv(udg_hero[4], ID_ITEM)
 	    endif
 	    set cyclAEnd = IMinBJ(cyclAEnd, 20)
 	    loop
@@ -77,9 +77,9 @@ scope SacredStone initializer init
 	        
 	        //call manast( caster, null, pwr )
 	        
-	        call CommonTimer_CreateAnotherCopy()
+	        /*call CommonTimer_CreateAnotherCopy()
 	        set id = InvokeTimerWithUnit( caster, "sacred_stone_mana", 0.04, false, function ManaRestore )
-	        call SaveInteger( udg_hash, id, StringHash( "sacred_stone_mana" ), pwr )
+	        call SaveInteger( udg_hash, id, StringHash( "sacred_stone_mana" ), pwr )*/
 	        
 	        set cyclA = cyclA + 1
 	    endloop
