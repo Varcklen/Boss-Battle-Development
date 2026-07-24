@@ -3,8 +3,8 @@ scope WitnessCleaver initializer init
     globals
         private constant integer ITEM_ID = 'I0HS'
         
-        private constant integer EXTRA_SP = 2
-        private constant integer COOLDOWN = 15
+        private constant integer EXTRA_SP = 3
+        private constant integer COOLDOWN = 10
     endglobals
 
     private function condition takes nothing returns boolean 

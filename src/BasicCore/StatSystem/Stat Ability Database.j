@@ -19,7 +19,9 @@ library StatAbilityDatabase initializer init requires StatAbility
 	constant integer STAT_VAMPIRISM = 16
 	constant integer STAT_VAMPIRISM_MAG = 17
 	constant integer STAT_VAMPIRISM_PHY = 18
-	constant integer STAT_SHOP_DISCOUNT = 19*/
+	constant integer STAT_SHOP_DISCOUNT = 19
+	constant integer STAT_DAMAGE_TAKEN_FROM_MINIONS = 20
+	*/
 
 	private function delay takes nothing returns nothing
 		//STAT_VAMPIRISM_PHY
@@ -85,6 +87,8 @@ library StatAbilityDatabase initializer init requires StatAbility
 		call ConnectAbilityToStat( 'A1FG', STAT_MOON_SET_DAMAGE_DEALT, 50 )
 		//STAT_SHOP_DISCOUNT
 		call ConnectAbilityToStat( 'A1FH', STAT_SHOP_DISCOUNT, -20 )
+		//STAT_DAMAGE_TAKEN_FROM_MINIONS
+		call ConnectAbilityToStat( 'A1IV', STAT_DAMAGE_TAKEN_FROM_MINIONS, -20 )
 	endfunction
 
 	private function init takes nothing returns nothing

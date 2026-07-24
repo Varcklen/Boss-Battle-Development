@@ -22,8 +22,9 @@ library StatSystem initializer init requires HeroesTable
 		constant integer STAT_VAMPIRISM_MAG = 17
 		constant integer STAT_VAMPIRISM_PHY = 18
 		constant integer STAT_SHOP_DISCOUNT = 19
+		constant integer STAT_DAMAGE_TAKEN_FROM_MINIONS = 20
 		//
-		constant integer STAT_AMOUNT = 20
+		constant integer STAT_AMOUNT = 21
 		
 		constant real BASE_VALUE = 0
 	endglobals

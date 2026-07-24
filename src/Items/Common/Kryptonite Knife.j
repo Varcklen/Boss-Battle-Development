@@ -3,8 +3,8 @@ scope KryptoniteKnife initializer init
 	globals
 		private constant integer ITEM_ID = 'I05Z'
 		
-		private constant integer SPELL_POWER_BONUS = -30
-		private constant integer VALUE_TO_ADD = 45
+		private constant integer SPELL_POWER_BONUS = -25
+		private constant integer VALUE_TO_ADD = 40
 		private constant integer STAT_TYPE = STAT_DAMAGE_DEALT_PHY
 	endglobals
 

@@ -7,7 +7,7 @@ scope HeavyAx initializer init
 	endglobals
 
 	private function condition takes nothing returns boolean 
-		return udg_IsDamageSpell == false and luckylogic( BeforeAttack.TriggerUnit, 10, 1, 100 )
+		return udg_IsDamageSpell == false and luckylogic( BeforeAttack.TriggerUnit, 15, 1, 100 )
 	endfunction 
 
 	private function action takes nothing returns nothing

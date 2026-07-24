@@ -285,7 +285,7 @@ constant boolean LIBRARY_SetRaritySpawnLib=true
 //endglobals from SetRaritySpawnLib
 //globals from SetStableToolLib:
 constant boolean LIBRARY_SetStableToolLib=true
-framehandle SetStableToolLib___description= null
+framehandle SetStableToolLib__description= null
 //endglobals from SetStableToolLib
 //globals from ShamanBallLib:
 constant boolean LIBRARY_ShamanBallLib=true
@@ -1294,10 +1294,7 @@ sound gg_snd_phoenix_objection= null
 sound gg_snd_bonk= null
 sound gg_snd_Error= null
 trigger gg_trg_Templates= null
-trigger gg_trg_Untitled_Trigger_001= null
 trigger gg_trg_Untitled_Trigger_002= null
-trigger gg_trg_Untitled_Trigger_003= null
-trigger gg_trg_Untitled_Trigger_004= null
 trigger gg_trg_List= null
 trigger gg_trg_Text= null
 trigger gg_trg_Enum_TargetRelation= null
@@ -2765,6 +2762,7 @@ destructable gg_dest_LTg1_0396= null
 destructable gg_dest_LTg1_0395= null
 destructable gg_dest_LTg1_0394= null
 destructable gg_dest_LTg1_0180= null
+trigger gg_trg_Untitled_Trigger_005= null
 unit uret
 boolean RandomMode= false
 real Event_CooldownReset_Real
@@ -3039,18 +3037,18 @@ constant integer AncientSword__SPEED= 44
 constant string AncientSword__WAVE_ANIMATION= "Abilities\\Spells\\Orc\\Shockwave\\ShockwaveMissile.mdl"
         
 trigger AncientSword__Wave_Use= null
-constant integer BoStaff___ID_ITEM= 'I0H8'
-constant integer BoStaff___ULT_WEAPON= 'I030'
-constant integer BoStaff___ULT_NUMBER= 20
+constant integer BoStaff__ID_ITEM= 'I0H8'
+constant integer BoStaff__ULT_WEAPON= 'I030'
+constant integer BoStaff__ULT_NUMBER= 20
         
-constant integer BoStaff___EXTRA_ATTACK= 1
-constant integer BoStaff___COOLDOWN= 10
-constant integer BloodyMary___ID_ITEM= 'I0DO'
+constant integer BoStaff__EXTRA_ATTACK= 1
+constant integer BoStaff__COOLDOWN= 10
+constant integer BloodyMary__ID_ITEM= 'I0DO'
 
-constant integer BloodyMary___HEAL= 10
-constant real BloodyMary___COOLDOWN= 0.5
-constant integer DiscountCoupon___ID_ITEM= 'I0A3'
-constant integer DiscountCoupon___GOLD_BONUS= 150
+constant integer BloodyMary__HEAL= 10
+constant real BloodyMary__COOLDOWN= 0.5
+constant integer DiscountCoupon__ID_ITEM= 'I0A3'
+constant integer DiscountCoupon__GOLD_BONUS= 150
 constant integer FAKE_COIN_GOLD= 300
 constant integer MOON_WELL_MANA_CONDITION_02= 90
 constant integer MOON_WELL_MANA_CONDITION_03= 70
@@ -3158,7 +3156,7 @@ constant integer CloudHorn___SPAWN_MIN= 20
 constant integer CloudHorn___SPAWN_MAX= 30
         
 constant string CloudHorn___ANIMATION= "Abilities\\Spells\\Other\\Silence\\SilenceAreaBirth.mdl"
-constant integer BraccusWex___BRACCUS_WEX_SPELL_POWER_BONUS= 50
+constant integer BraccusWex__BRACCUS_WEX_SPELL_POWER_BONUS= 50
 constant integer THIEF_ARMOR_CHANCE= 30
 constant integer THIEF_ARMOR_GOLD= 30
 constant integer AlchemistsStone__ID_ALCHEMISTS_STONE_ITEM= 'I0GY'
@@ -3947,109 +3945,109 @@ constant integer CorruptedR___DAMAGE_LEVEL_BONUS= 10
 constant integer CorruptedR___HEAL_AREA= 600
         
 constant integer CorruptedR___ALT_AREA= 400
-constant integer CircusW___ID_ABILITY= 'A0SI'
+constant integer CircusW__ID_ABILITY= 'A0SI'
         
-constant integer CircusW___WAVES= 8
-constant integer CircusW___ANGLE_DIFFERENCE= 45
-constant integer CircusW___DAMAGE_FIRST_LEVEL= 100
-constant integer CircusW___DAMAGE_LEVEL_BONUS= 25
-constant real CircusW___TICK= 0.04
+constant integer CircusW__WAVES= 8
+constant integer CircusW__ANGLE_DIFFERENCE= 45
+constant integer CircusW__DAMAGE_FIRST_LEVEL= 100
+constant integer CircusW__DAMAGE_LEVEL_BONUS= 25
+constant real CircusW__TICK= 0.04
         
-constant integer CircusW___FLIGHT_LENGTH= 30
-constant integer CircusW___AREA= 128
-constant integer CircusW___SPEED= 30
+constant integer CircusW__FLIGHT_LENGTH= 30
+constant integer CircusW__AREA= 128
+constant integer CircusW__SPEED= 30
         
-constant string CircusW___WAVE_ANIMATION= "Abilities\\Spells\\Orc\\Shockwave\\ShockwaveMissile.mdl"
+constant string CircusW__WAVE_ANIMATION= "Abilities\\Spells\\Orc\\Shockwave\\ShockwaveMissile.mdl"
         
-trigger CircusW___Wave_Use= null
-integer ShoggothQ___EntropyCount= 0
+trigger CircusW__Wave_Use= null
+integer ShoggothQ__EntropyCount= 0
 constant real COOL_WICERD_W_STUN_DURATION= 5
-constant integer ThePlagueQ___ID_ABILITY= 'A1CS'
+constant integer ThePlagueQ__ID_ABILITY= 'A1CS'
         
-constant integer ThePlagueQ___LIFE_TIME= 18
-constant integer ThePlagueQ___AREA= 300
-constant real ThePlagueQ___TICK= 0.04
-constant integer ThePlagueQ___TICK_DAMAGE= 1
-constant integer ThePlagueQ___FLIGHT_LIMIT= 200
-constant integer ThePlagueQ___DISTANCE_TO_ACTIVATE= 50
-constant integer ThePlagueQ___SPEED= 40
-constant integer ThePlagueQ___WAVE_Z= 60
+constant integer ThePlagueQ__LIFE_TIME= 18
+constant integer ThePlagueQ__AREA= 300
+constant real ThePlagueQ__TICK= 0.04
+constant integer ThePlagueQ__TICK_DAMAGE= 1
+constant integer ThePlagueQ__FLIGHT_LIMIT= 200
+constant integer ThePlagueQ__DISTANCE_TO_ACTIVATE= 50
+constant integer ThePlagueQ__SPEED= 40
+constant integer ThePlagueQ__WAVE_Z= 60
         
-constant integer ThePlagueQ___EFFECT= 'A1CT'
+constant integer ThePlagueQ__EFFECT= 'A1CT'
         
 constant integer ThePlagueQ_DAMAGE_FIRST_LEVEL= 2
 constant integer ThePlagueQ_DAMAGE_LEVEL_BONUS= 8
         
-constant string ThePlagueQ___ORB_ANIMATION= "Abilities\\Weapons\\GreenDragonMissile\\GreenDragonMissile.mdl"
-constant string ThePlagueQ___ANIMATION= "Abilities\\Spells\\NightElf\\Blink\\BlinkTarget.mdl"
-constant integer ThePlagueW___ID_ABILITY= 'A1CU'
+constant string ThePlagueQ__ORB_ANIMATION= "Abilities\\Weapons\\GreenDragonMissile\\GreenDragonMissile.mdl"
+constant string ThePlagueQ__ANIMATION= "Abilities\\Spells\\NightElf\\Blink\\BlinkTarget.mdl"
+constant integer ThePlagueW__ID_ABILITY= 'A1CU'
         
-constant integer ThePlagueW___DURATION= 15
-constant integer ThePlagueW___DISTANCE= 200
-constant integer ThePlagueW___AREA= 300
-constant integer ThePlagueW___CHARGE_LIMIT= 10
-constant integer ThePlagueW___DAMAGE_NEEDED= 500
+constant integer ThePlagueW__DURATION= 15
+constant integer ThePlagueW__DISTANCE= 200
+constant integer ThePlagueW__AREA= 300
+constant integer ThePlagueW__CHARGE_LIMIT= 10
+constant integer ThePlagueW__DAMAGE_NEEDED= 500
         
 constant integer ThePlagueW_EFFECT= 'A1CV'
-constant integer ThePlagueW___BUFF= 'B0A9'
+constant integer ThePlagueW__BUFF= 'B0A9'
         
-constant integer ThePlagueW___DAMAGE_FIRST_LEVEL= 75
-constant integer ThePlagueW___DAMAGE_LEVEL_BONUS= 25
+constant integer ThePlagueW__DAMAGE_FIRST_LEVEL= 75
+constant integer ThePlagueW__DAMAGE_LEVEL_BONUS= 25
 
-constant string ThePlagueW___ANIMATION= "Abilities\\Spells\\Orc\\FeralSpirit\\feralspiritdone.mdl"
-constant string ThePlagueW___DAMAGE_ANIMATION= "Acid Ex.mdx"
-constant integer ThePlagueE___ID_ABILITY= 'A1CW'
+constant string ThePlagueW__ANIMATION= "Abilities\\Spells\\Orc\\FeralSpirit\\feralspiritdone.mdl"
+constant string ThePlagueW__DAMAGE_ANIMATION= "Acid Ex.mdx"
+constant integer ThePlagueE__ID_ABILITY= 'A1CW'
 constant integer ThePlagueE_BUFF= 'B0A8'
         
-constant integer ThePlagueE___CAST_CHANCE_FIRST_LEVEL= 10
-constant integer ThePlagueE___CAST_CHANCE_LEVEL_BONUS= 5
+constant integer ThePlagueE__CAST_CHANCE_FIRST_LEVEL= 10
+constant integer ThePlagueE__CAST_CHANCE_LEVEL_BONUS= 5
         
-constant integer ThePlagueE___LIFE_TIME= 5
-constant real ThePlagueE___STUN_DURATION= 0.5
+constant integer ThePlagueE__LIFE_TIME= 5
+constant real ThePlagueE__STUN_DURATION= 0.5
         
-constant integer ThePlagueE___DAMAGE_CHANCE_FIRST_LEVEL= 5
-constant integer ThePlagueE___DAMAGE_CHANCE_LEVEL_BONUS= 5
-constant real ThePlagueE___DAMAGE_BONUS= 0.35
+constant integer ThePlagueE__DAMAGE_CHANCE_FIRST_LEVEL= 5
+constant integer ThePlagueE__DAMAGE_CHANCE_LEVEL_BONUS= 5
+constant real ThePlagueE__DAMAGE_BONUS= 0.35
         
-integer ThePlagueE___Level= 0
-constant integer ThePlagueR___ID_ABILITY= 'A1CX'
+integer ThePlagueE__Level= 0
+constant integer ThePlagueR__ID_ABILITY= 'A1CX'
         
-constant integer ThePlagueR___DAMAGE_FIRST_LEVEL= 100
-constant integer ThePlagueR___DAMAGE_LEVEL_BONUS= 50
-constant integer ThePlagueR___STEP_SIZE= 150
+constant integer ThePlagueR__DAMAGE_FIRST_LEVEL= 100
+constant integer ThePlagueR__DAMAGE_LEVEL_BONUS= 50
+constant integer ThePlagueR__STEP_SIZE= 150
         
-constant real ThePlagueR___DAMAGE_BONUS_FIRST_LEVEL= 0.5
-constant real ThePlagueR___DAMAGE_BONUS_LEVEL_BONUS= 0.2
+constant real ThePlagueR__DAMAGE_BONUS_FIRST_LEVEL= 0.5
+constant real ThePlagueR__DAMAGE_BONUS_LEVEL_BONUS= 0.2
         
-constant string ThePlagueR___ANIMATION= "war3mapImported\\Soul Discharge.mdx"
-constant string ThePlagueR___LIGHTNING= "DNKL"
+constant string ThePlagueR__ANIMATION= "war3mapImported\\Soul Discharge.mdx"
+constant string ThePlagueR__LIGHTNING= "DNKL"
 real Event_GlobalBossFightWin_Real
-constant integer LowHP___HEALTH_NEEDED= 35
+constant integer LowHP__HEALTH_NEEDED= 35
 // processed:     real array dps[5][11]//герой/позиция
 constant integer Totem1_ID_BOSS= 'o007'
         
-constant integer Totem1___HEALTH_CHECK= 90
-constant integer Totem1___DAMAGE= 45
-constant integer Totem1___SCATTER= 400
-constant integer Totem1___AREA= 200
-constant integer Totem1___EXPLODE_DELAY= 1
-constant integer Totem1___EXPLODE_COOLDOWN= 5
-constant integer Totem1___TICKS= 8
+constant integer Totem1__HEALTH_CHECK= 90
+constant integer Totem1__DAMAGE= 45
+constant integer Totem1__SCATTER= 400
+constant integer Totem1__AREA= 200
+constant integer Totem1__EXPLODE_DELAY= 1
+constant integer Totem1__EXPLODE_COOLDOWN= 5
+constant integer Totem1__TICKS= 8
         
-constant real Totem1___DAMAGE_TICK= 0.5
+constant real Totem1__DAMAGE_TICK= 0.5
         
-constant string Totem1___FIRE_ANIMATION= "Abilities\\Spells\\Human\\FlameStrike\\FlameStrike1.mdl"
-constant integer Totem2___ID_SHADOW= 'n035'
+constant string Totem1__FIRE_ANIMATION= "Abilities\\Spells\\Human\\FlameStrike\\FlameStrike1.mdl"
+constant integer Totem2__ID_SHADOW= 'n035'
     
-constant integer Totem2___ACTIVATE_DISTANCE= 300
-constant integer Totem2___DISTANCE= 1200
-constant integer Totem2___HEALTH_CHECK= 75
-constant integer Totem2___DAMAGE= 45
+constant integer Totem2__ACTIVATE_DISTANCE= 300
+constant integer Totem2__DISTANCE= 1200
+constant integer Totem2__HEALTH_CHECK= 75
+constant integer Totem2__DAMAGE= 45
         
-constant real Totem2___TICK_CHECK= 0.5
-constant integer Totem3___HEALTH_CHECK= 50
-constant integer Totem3___EXPLODE_COOLDOWN= 3
-constant integer Totem4___HEALTH_CHECK= 25
+constant real Totem2__TICK_CHECK= 0.5
+constant integer Totem3__HEALTH_CHECK= 50
+constant integer Totem3__EXPLODE_COOLDOWN= 3
+constant integer Totem4__HEALTH_CHECK= 25
 constant integer Totem5__DAMAGE= 10
     
 constant string Totem5__ANIMATION= "Abilities\\Spells\\Undead\\DeathandDecay\\DeathandDecayDamage.mdl"
@@ -4134,38 +4132,38 @@ constant real TURTLE3_AOE_DAMAGE= 250
 constant real TURTLE3_AOE_RANGE= 300
 constant integer War01_ID_BOSS= 'o011'
         
-constant real War01__LIGHTNING_LIFE_TIME= 0.5
-constant integer War01__LIGHTNING_Z_DEVIATION= 50
-constant integer War01__CONSUMED_PERCENT_HEALTH= - 50
-constant integer War01__COOLDOWN= 20
-constant integer War02__HEALTH_CHECK= 90
-constant integer War02__SUMMONED_MINION= 'n03T'
-constant integer War02__SUMMON_DEVIATION= 400
+constant real War01___LIGHTNING_LIFE_TIME= 0.5
+constant integer War01___LIGHTNING_Z_DEVIATION= 50
+constant integer War01___CONSUMED_PERCENT_HEALTH= - 50
+constant integer War01___COOLDOWN= 20
+constant integer War02___HEALTH_CHECK= 90
+constant integer War02___SUMMONED_MINION= 'n03T'
+constant integer War02___SUMMON_DEVIATION= 400
         
-constant string War02__ANIMATION= "Abilities\\Spells\\NightElf\\BattleRoar\\RoarCaster.mdl"
-constant integer War03__HEALTH_CHECK= 70
-constant integer War03__AREA= 300
-constant integer War03__BERSERK_DURATION= 10
-constant integer War03__AREA_DEVIATION= 400
-constant integer War03__COOLDOWN= 15
-constant integer War03__DELAY= 3
+constant string War02___ANIMATION= "Abilities\\Spells\\NightElf\\BattleRoar\\RoarCaster.mdl"
+constant integer War03___HEALTH_CHECK= 70
+constant integer War03___AREA= 300
+constant integer War03___BERSERK_DURATION= 10
+constant integer War03___AREA_DEVIATION= 400
+constant integer War03___COOLDOWN= 15
+constant integer War03___DELAY= 3
         
-constant string War03__ANIMATION= "Abilities\\Spells\\NightElf\\BattleRoar\\RoarCaster.mdl"
-constant integer War04__HEALTH_CHECK= 50
-constant integer War04__SUMMONED_MINION= 'n03U'
-constant integer War04__SUMMON_DEVIATION= 400
+constant string War03___ANIMATION= "Abilities\\Spells\\NightElf\\BattleRoar\\RoarCaster.mdl"
+constant integer War04___HEALTH_CHECK= 50
+constant integer War04___SUMMONED_MINION= 'n03U'
+constant integer War04___SUMMON_DEVIATION= 400
         
-constant string War04__ANIMATION= "Abilities\\Spells\\NightElf\\BattleRoar\\RoarCaster.mdl"
-constant integer War05__HEALTH_CHECK= 30
-constant string War05__ANIMATION= "Abilities\\Spells\\NightElf\\BattleRoar\\RoarCaster.mdl"
-constant integer BossAku1__BOSS_ID= 'n04O'
-constant real BossAku1__TICK= 1
+constant string War04___ANIMATION= "Abilities\\Spells\\NightElf\\BattleRoar\\RoarCaster.mdl"
+constant integer War05___HEALTH_CHECK= 30
+constant string War05___ANIMATION= "Abilities\\Spells\\NightElf\\BattleRoar\\RoarCaster.mdl"
+constant integer BossAku1___BOSS_ID= 'n04O'
+constant real BossAku1___TICK= 1
         
-constant real BossAku1__SEARCH_RANGE_INITIAL= 600
-constant real BossAku1__SEARCH_RANGE_ADDITIVE= 50
-constant real BossAku1__SEARCH_RANGE_MAX= 3000
+constant real BossAku1___SEARCH_RANGE_INITIAL= 600
+constant real BossAku1___SEARCH_RANGE_ADDITIVE= 50
+constant real BossAku1___SEARCH_RANGE_MAX= 3000
         
-constant integer BossAku1__STRING_HASH= StringHash("bsdl")
+constant integer BossAku1___STRING_HASH= StringHash("bsdl")
 unit heuz= null
 constant integer IADatabase_UNIT_TYPES_MAX= 5
 constant integer IADatabase_PACK_AMOUNT= 4
@@ -4177,16 +4175,16 @@ constant integer IADatabase_WAVES_UNTIL_UPGRADE= 2
         
 // processed:         UnitIA array IADatabase_Units[IADatabase_UNIT_TYPES_MAX]
 // processed:         integer array IADatabase_PackUnit[IADatabase_PACK_AMOUNT][IADatabase_PACK_CAPACITY]
-integer InfiniteArena__round
-integer InfiniteArena__pack
-integer InfiniteArena__upgrade_counter
+integer InfiniteArena___round
+integer InfiniteArena___pack
+integer InfiniteArena___upgrade_counter
         
-integer InfiniteArena__enemySpawnLimit
-constant integer AbominationExplosion__ABILITY_ID= 'A0D0'
+integer InfiniteArena___enemySpawnLimit
+constant integer AbominationExplosion___ABILITY_ID= 'A0D0'
         
-constant integer AbominationExplosion__DAMAGE_INITIAL= 75
-constant integer AbominationExplosion__DAMAGE_PER_ROUND= 25
-constant real AbominationExplosion__RADIUS= 250
+constant integer AbominationExplosion___DAMAGE_INITIAL= 75
+constant integer AbominationExplosion___DAMAGE_PER_ROUND= 25
+constant real AbominationExplosion___RADIUS= 250
 constant integer PAStart___BATTLE_TIME= 120
 constant integer PAStart___BUTTON_COOLDOWN= 3
 constant integer OverloadArena_GOLD_INITIAL_FIRST= 60
@@ -6326,7 +6324,7 @@ endfunction
         return hasItem
     endfunction
 
-    function Inventory___SetModificators takes unit owner,item oldItem,item newItem returns nothing
+    function Inventory__SetModificators takes unit owner,item oldItem,item newItem returns nothing
         if SubString(BlzGetItemExtendedTooltip(oldItem), 0, 19) == "|cff00cceeChameleon" then
             call BlzSetItemExtendedTooltip(newItem, "|cff00cceeChameleon|r|n" + BlzGetItemExtendedTooltip(newItem)) // sadtwig
             //call BlzSetItemIconPath( newItem, "|cff00cceeChameleon|r|n" + BlzGetItemExtendedTooltip(newItem) )
@@ -6350,7 +6348,7 @@ endfunction
 
         call UnitRemoveItem(owner, oldItem)
         set bj_lastCreatedItem=CreateItem(newItem, GetUnitX(owner), GetUnitY(owner))
-        call Inventory___SetModificators(owner , oldItem , bj_lastCreatedItem)
+        call Inventory__SetModificators(owner , oldItem , bj_lastCreatedItem)
         call RemoveItem(oldItem)
         call UnitAddItem(owner, bj_lastCreatedItem)
         
@@ -6362,7 +6360,7 @@ endfunction
     function Inventory_ReplaceItem takes unit owner,item oldItem,item newItem returns nothing
         
         call UnitRemoveItem(owner, oldItem)
-        call Inventory___SetModificators(owner , oldItem , newItem)
+        call Inventory__SetModificators(owner , oldItem , newItem)
         call RemoveItem(oldItem)
         if IsItemOwned(newItem) == false then
             call UnitAddItem(owner, newItem)
@@ -10034,15 +10032,15 @@ endfunction
         call BlzFrameSetSize(frame, 0.25, (0.05 + ( 0.0003 * StringLength((disc)) )) + 0.05) // INLINED!!
         call BlzFrameSetText(frame, name)
 
-        set SetStableToolLib___description=BlzCreateFrameByType("TEXT", "", tool, "StandartFrameTemplate", 0)
-        call BlzFrameSetPoint(SetStableToolLib___description, FRAMEPOINT_TOPLEFT, tool, FRAMEPOINT_TOPLEFT, 0.008, - 0.023)
-        call BlzFrameSetSize(SetStableToolLib___description, 0.25, (0.05 + ( 0.0003 * StringLength((disc)) )) + 0.05) // INLINED!!
-        call BlzFrameSetText(SetStableToolLib___description, disc)
+        set SetStableToolLib__description=BlzCreateFrameByType("TEXT", "", tool, "StandartFrameTemplate", 0)
+        call BlzFrameSetPoint(SetStableToolLib__description, FRAMEPOINT_TOPLEFT, tool, FRAMEPOINT_TOPLEFT, 0.008, - 0.023)
+        call BlzFrameSetSize(SetStableToolLib__description, 0.25, (0.05 + ( 0.0003 * StringLength((disc)) )) + 0.05) // INLINED!!
+        call BlzFrameSetText(SetStableToolLib__description, disc)
 
         set tool=null
         set frame=null
         set f=null
-        return SetStableToolLib___description
+        return SetStableToolLib__description
     endfunction
     
     function SetStableToolDescription takes framehandle f,string disc returns nothing
@@ -20218,19 +20216,23 @@ endfunction
 function CreateAllItems takes nothing returns nothing
     local integer itemID
 
-    call BlzCreateItemWithSkin('I016', 4779.3, 4719.0, 'I016')
-    call BlzCreateItemWithSkin('I01X', 5182.8, 4632.8, 'I01X')
-    call BlzCreateItemWithSkin('I03R', 4584.0, 4921.9, 'I03R')
+    call BlzCreateItemWithSkin('I00X', 5201.0, 4804.9, 'I00X')
+    call BlzCreateItemWithSkin('I025', 5206.5, 4667.6, 'I025')
+    call BlzCreateItemWithSkin('I02E', 4619.3, 4838.0, 'I02E')
+    call BlzCreateItemWithSkin('I02O', 5353.7, 4714.0, 'I02O')
+    call BlzCreateItemWithSkin('I046', 5324.6, 4616.9, 'I046')
+    call BlzCreateItemWithSkin('I04S', 4632.2, 4678.2, 'I04S')
+    call BlzCreateItemWithSkin('I04T', 5330.4, 4925.9, 'I04T')
     call BlzCreateItemWithSkin('I052', - 5929.0, 7328.9, 'I052')
-    call BlzCreateItemWithSkin('I09V', 4890.2, 4874.1, 'I09V')
-    call BlzCreateItemWithSkin('I0BR', 4930.7, 4644.1, 'I0BR')
-    call BlzCreateItemWithSkin('I0DM', 5158.2, 4754.5, 'I0DM')
-    call BlzCreateItemWithSkin('I0DY', 5390.4, 4877.2, 'I0DY')
-    call BlzCreateItemWithSkin('I0HP', 5392.1, 4954.4, 'I0HP')
-    call BlzCreateItemWithSkin('IZ01', 5114.7, 4990.6, 'IZ01')
-    call BlzCreateItemWithSkin('IZ01', 5030.3, 4994.0, 'IZ01')
-    call BlzCreateItemWithSkin('IZ01', 5109.7, 4886.7, 'IZ01')
-    call BlzCreateItemWithSkin('IZ01', 5051.1, 4896.3, 'IZ01')
+    call BlzCreateItemWithSkin('I05Z', 5297.9, 4778.4, 'I05Z')
+    call BlzCreateItemWithSkin('I079', 5080.6, 4903.6, 'I079')
+    call BlzCreateItemWithSkin('I08U', 4710.5, 4532.4, 'I08U')
+    call BlzCreateItemWithSkin('I09F', 5108.6, 4750.1, 'I09F')
+    call BlzCreateItemWithSkin('I09T', 5133.5, 4574.2, 'I09T')
+    call BlzCreateItemWithSkin('I0DB', 5205.1, 4502.2, 'I0DB')
+    call BlzCreateItemWithSkin('I0DX', 5161.6, 4932.0, 'I0DX')
+    call BlzCreateItemWithSkin('I0GA', 5462.2, 4784.4, 'I0GA')
+    call BlzCreateItemWithSkin('I0H8', 5406.3, 4890.9, 'I0H8')
 endfunction
 
 //***************************************************************************
@@ -23780,21 +23782,6 @@ endfunction
 //***************************************************************************
 
 //===========================================================================
-// Trigger: Untitled Trigger 001
-//===========================================================================
-function Trig_Untitled_Trigger_001_Actions takes nothing returns nothing
-    call ShowUnitHide(null)
-    call ShowUnitShow(null)
-endfunction
-
-//===========================================================================
-function InitTrig_Untitled_Trigger_001 takes nothing returns nothing
-    set gg_trg_Untitled_Trigger_001=CreateTrigger()
-    call TriggerAddAction(gg_trg_Untitled_Trigger_001, function Trig_Untitled_Trigger_001_Actions)
-endfunction
-
-
-//===========================================================================
 // Trigger: Untitled Trigger 002
 //===========================================================================
 function Trig_Untitled_Trigger_002_Func001A takes nothing returns nothing
@@ -23813,30 +23800,16 @@ endfunction
 
 
 //===========================================================================
-// Trigger: Untitled Trigger 003
+// Trigger: Untitled Trigger 005
 //===========================================================================
-function Trig_Untitled_Trigger_003_Actions takes nothing returns nothing
-    call SetUnitAbilityLevelSwapped('A0RZ', GetTriggerUnit(), 1)
+function Trig_Untitled_Trigger_005_Actions takes nothing returns nothing
+    call CameraSetupApplyForPlayer(true, GetCurrentCameraSetup(), Player(0), BlzGetUnitRealField(GetTriggerUnit(), UNIT_RF_HIT_POINTS_REGENERATION_RATE))
 endfunction
 
 //===========================================================================
-function InitTrig_Untitled_Trigger_003 takes nothing returns nothing
-    set gg_trg_Untitled_Trigger_003=CreateTrigger()
-    call TriggerAddAction(gg_trg_Untitled_Trigger_003, function Trig_Untitled_Trigger_003_Actions)
-endfunction
-
-
-//===========================================================================
-// Trigger: Untitled Trigger 004
-//===========================================================================
-function Trig_Untitled_Trigger_004_Actions takes nothing returns nothing
-    call CreateNUnitsAtLoc(1, 'hfoo', Player(0), PolarProjectionBJ(GetRectCenter(GetPlayableMapRect()), AngleBetweenPoints(GetUnitLoc(GetTriggerUnit()), GetUnitLoc(GetTriggerUnit())), 0), bj_UNIT_FACING)
-endfunction
-
-//===========================================================================
-function InitTrig_Untitled_Trigger_004 takes nothing returns nothing
-    set gg_trg_Untitled_Trigger_004=CreateTrigger()
-    call TriggerAddAction(gg_trg_Untitled_Trigger_004, function Trig_Untitled_Trigger_004_Actions)
+function InitTrig_Untitled_Trigger_005 takes nothing returns nothing
+    set gg_trg_Untitled_Trigger_005=CreateTrigger()
+    call TriggerAddAction(gg_trg_Untitled_Trigger_005, function Trig_Untitled_Trigger_005_Actions)
 endfunction
 
 
@@ -38069,7 +38042,7 @@ endfunction
 
 
     function Trig_Bo_Staff_Conditions takes nothing returns boolean
-        return GetItemTypeId(GetManipulatedItem()) == BoStaff___ID_ITEM or ( GetItemTypeId(GetManipulatedItem()) == BoStaff___ULT_WEAPON and udg_Set_Weapon_Logic[GetPlayerId(GetOwningPlayer(GetManipulatingUnit())) + 1 + BoStaff___ULT_NUMBER] )
+        return GetItemTypeId(GetManipulatedItem()) == BoStaff__ID_ITEM or ( GetItemTypeId(GetManipulatedItem()) == BoStaff__ULT_WEAPON and udg_Set_Weapon_Logic[GetPlayerId(GetOwningPlayer(GetManipulatingUnit())) + 1 + BoStaff__ULT_NUMBER] )
     endfunction 
 
     function Bo_StaffCast takes nothing returns nothing
@@ -38083,8 +38056,8 @@ endfunction
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
         elseif IsUnitAlive(hero) and combat(hero , false , 0) then
-            call BlzSetUnitBaseDamage(hero, BlzGetUnitBaseDamage(hero, 0) + BoStaff___EXTRA_ATTACK, 0)
-            call SaveInteger(udg_hash, heroId, StringHash("bstat"), bonusAttack + BoStaff___EXTRA_ATTACK)
+            call BlzSetUnitBaseDamage(hero, BlzGetUnitBaseDamage(hero, 0) + BoStaff__EXTRA_ATTACK, 0)
+            call SaveInteger(udg_hash, heroId, StringHash("bstat"), bonusAttack + BoStaff__EXTRA_ATTACK)
         endif
         
         set hero=null
@@ -38105,18 +38078,18 @@ endfunction
             set it=GetManipulatedItem()
         endif
 
-        set id=InvokeTimerWithItem(it , "bsta" , BoStaff___COOLDOWN , true , function Bo_StaffCast)
+        set id=InvokeTimerWithItem(it , "bsta" , BoStaff__COOLDOWN , true , function Bo_StaffCast)
         call SaveUnitHandle(udg_hash, id, StringHash("bstac"), caster)
 
         set caster=null
         set it=null
     endfunction
     
-    function BoStaff___FightEnd_Conditions takes nothing returns boolean
+    function BoStaff__FightEnd_Conditions takes nothing returns boolean
         return LoadInteger(udg_hash, GetHandleId(udg_FightEnd_Unit), StringHash("bstat")) > 0
     endfunction
     
-    function BoStaff___FightEnd takes nothing returns nothing
+    function BoStaff__FightEnd takes nothing returns nothing
         local unit hero= udg_FightEnd_Unit
         local integer heroId=  GetHandleId(hero)
         local integer bonusAttack= LoadInteger(udg_hash, heroId, StringHash("bstat"))
@@ -38128,13 +38101,13 @@ endfunction
     endfunction
 
     //===========================================================================
-    function BoStaff___init takes nothing returns nothing
+    function BoStaff__init takes nothing returns nothing
         set gg_trg_Bo_Staff=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_Bo_Staff, EVENT_PLAYER_UNIT_PICKUP_ITEM)
         call TriggerAddCondition(gg_trg_Bo_Staff, Condition(function Trig_Bo_Staff_Conditions))
         call TriggerAddAction(gg_trg_Bo_Staff, function Trig_Bo_Staff_Actions)
         
-        call CreateEventTrigger("udg_FightEnd_Real" , function BoStaff___FightEnd , function BoStaff___FightEnd_Conditions)
+        call CreateEventTrigger("udg_FightEnd_Real" , function BoStaff__FightEnd , function BoStaff__FightEnd_Conditions)
     endfunction
 
 // scope BoStaff ends
@@ -38147,10 +38120,10 @@ endfunction
     
     function Trig_Bloody_Mary_Conditions takes nothing returns boolean
         local integer index= GetPlayerId(GetOwningPlayer(udg_DamageEventSource)) + 1
-        return IsHeroHasItem(udg_hero[index] , BloodyMary___ID_ITEM) and ( GetUnitTypeId(udg_DamageEventSource) == 'u000' or udg_DamageEventSource == udg_hero[index] ) and LoadBoolean(udg_hash, GetHandleId(udg_hero[index]), StringHash("blmr")) == false
+        return IsHeroHasItem(udg_hero[index] , BloodyMary__ID_ITEM) and ( GetUnitTypeId(udg_DamageEventSource) == 'u000' or udg_DamageEventSource == udg_hero[index] ) and LoadBoolean(udg_hash, GetHandleId(udg_hero[index]), StringHash("blmr")) == false
     endfunction
     
-    function BloodyMary___Cooldown takes nothing returns nothing
+    function BloodyMary__Cooldown takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local unit hero= LoadUnitHandle(udg_hash, id, StringHash("blmr"))
         
@@ -38163,16 +38136,16 @@ endfunction
     function Trig_Bloody_Mary_Actions takes nothing returns nothing
         local unit hero= udg_hero[GetPlayerId(GetOwningPlayer(udg_DamageEventSource)) + 1]
         
-        call healst(hero , null , BloodyMary___HEAL)
+        call healst(hero , null , BloodyMary__HEAL)
         
-        call InvokeTimerWithUnit(hero , "blmr" , BloodyMary___COOLDOWN , false , function BloodyMary___Cooldown)
+        call InvokeTimerWithUnit(hero , "blmr" , BloodyMary__COOLDOWN , false , function BloodyMary__Cooldown)
         call SaveBoolean(udg_hash, GetHandleId(hero), StringHash("blmr"), true)
         
         set hero=null
     endfunction
 
     //===========================================================================
-    function BloodyMary___init takes nothing returns nothing
+    function BloodyMary__init takes nothing returns nothing
         call CreateEventTrigger("udg_AfterDamageEvent" , function Trig_Bloody_Mary_Actions , function Trig_Bloody_Mary_Conditions)
     endfunction
 // scope BloodyMary ends
@@ -38554,14 +38527,14 @@ endfunction
 
 
     function ItemSplit_Conditions takes nothing returns boolean
-        return IsHeroHasItem(Event_ItemSplit_Hero , DiscountCoupon___ID_ITEM) and GetItemType(Event_ItemSplit_Item) != ITEM_TYPE_POWERUP and GetItemType(Event_ItemSplit_Item) != ITEM_TYPE_PURCHASABLE
+        return IsHeroHasItem(Event_ItemSplit_Hero , DiscountCoupon__ID_ITEM) and GetItemType(Event_ItemSplit_Item) != ITEM_TYPE_POWERUP and GetItemType(Event_ItemSplit_Item) != ITEM_TYPE_PURCHASABLE
     endfunction
     
     function ItemSplit takes nothing returns nothing
-        call moneyst(Event_ItemSplit_Hero , DiscountCoupon___GOLD_BONUS)
+        call moneyst(Event_ItemSplit_Hero , DiscountCoupon__GOLD_BONUS)
     endfunction
 
-    function DiscountCoupon___init takes nothing returns nothing
+    function DiscountCoupon__init takes nothing returns nothing
         call CreateEventTrigger("Event_ItemSplit_Real" , function ItemSplit , function ItemSplit_Conditions)
     endfunction
 // scope DiscountCoupon ends
@@ -39215,26 +39188,26 @@ endfunction
 // Trigger: Enchanted Thorium
 //===========================================================================
 // scope EnchantedThorium begins
-    function EnchantedThorium___ItemAdd takes nothing returns nothing
+    function EnchantedThorium__ItemAdd takes nothing returns nothing
         if GetItemTypeId(GetManipulatedItem()) == 'I0EM' then
             call SetRaritySpawn(udg_RarityChance[3] + 4 , udg_RarityChance[2] + 4)
         endif
     endfunction
     
-    function EnchantedThorium___ItemRemove takes nothing returns nothing
+    function EnchantedThorium__ItemRemove takes nothing returns nothing
         if GetItemTypeId(GetManipulatedItem()) == 'I0EM' then
             call SetRaritySpawn(udg_RarityChance[3] - 4 , udg_RarityChance[2] - 4)
         endif
     endfunction
 
-    function EnchantedThorium___Triggs takes nothing returns nothing
+    function EnchantedThorium__Triggs takes nothing returns nothing
         local trigger trig= CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(trig, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-        call TriggerAddAction(trig, function EnchantedThorium___ItemAdd)
+        call TriggerAddAction(trig, function EnchantedThorium__ItemAdd)
         
         set trig=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(trig, EVENT_PLAYER_UNIT_DROP_ITEM)
-        call TriggerAddAction(trig, function EnchantedThorium___ItemRemove)
+        call TriggerAddAction(trig, function EnchantedThorium__ItemRemove)
         set trig=null
     endfunction
 // scope EnchantedThorium ends
@@ -52909,31 +52882,31 @@ function InitTrig_Pandoras_Box takes nothing returns nothing
 endfunction
 
 // scope PandorasBoxInvul begins
-    function PandorasBoxInvul___AddInvul takes nothing returns nothing
+    function PandorasBoxInvul__AddInvul takes nothing returns nothing
         call UnitAddAbility(GetEnteringUnit(), 'A0A2')
     endfunction
     
-    function PandorasBoxInvul___RemoveInvul takes nothing returns nothing
+    function PandorasBoxInvul__RemoveInvul takes nothing returns nothing
         call UnitRemoveAbility(GetLeavingUnit(), 'A0A2')
     endfunction
     
-    function PandorasBoxInvul___RemoveInvulStartFight takes nothing returns nothing
+    function PandorasBoxInvul__RemoveInvulStartFight takes nothing returns nothing
         call UnitRemoveAbility(udg_FightStart_Unit, 'A0A2')
     endfunction
 
-    function PandorasBoxInvul___Triggs takes nothing returns nothing
+    function PandorasBoxInvul__Triggs takes nothing returns nothing
         local trigger trig= CreateTrigger()
         call TriggerRegisterEnterRectSimple(trig, gg_rct_Vision5)
-        call TriggerAddAction(trig, function PandorasBoxInvul___AddInvul)
+        call TriggerAddAction(trig, function PandorasBoxInvul__AddInvul)
         
         set trig=CreateTrigger()
         call TriggerRegisterLeaveRectSimple(trig, gg_rct_Vision5)
-        call TriggerAddAction(trig, function PandorasBoxInvul___RemoveInvul)
+        call TriggerAddAction(trig, function PandorasBoxInvul__RemoveInvul)
         
         set trig=CreateTrigger()
         call TriggerRegisterLeaveRectSimple(trig, gg_rct_Vision5)
         call TriggerRegisterVariableEvent(trig, "udg_FightStart_Real", EQUAL, 1.00)
-        call TriggerAddAction(trig, function PandorasBoxInvul___RemoveInvulStartFight)
+        call TriggerAddAction(trig, function PandorasBoxInvul__RemoveInvulStartFight)
         
         set trig=null
     endfunction
@@ -53109,28 +53082,28 @@ endfunction
 //===========================================================================
 // scope BraccusWex begins
 
-    function BraccusWex___Conditions takes nothing returns boolean
+    function BraccusWex__Conditions takes nothing returns boolean
         return GetItemTypeId(GetManipulatedItem()) == 'I071'
     endfunction
 
-    function BraccusWex___PickUp takes nothing returns nothing
-        call spdst(GetManipulatingUnit() , BraccusWex___BRACCUS_WEX_SPELL_POWER_BONUS)
+    function BraccusWex__PickUp takes nothing returns nothing
+        call spdst(GetManipulatingUnit() , BraccusWex__BRACCUS_WEX_SPELL_POWER_BONUS)
     endfunction
     
-    function BraccusWex___Drop takes nothing returns nothing
-        call spdst(GetManipulatingUnit() , - BraccusWex___BRACCUS_WEX_SPELL_POWER_BONUS)
+    function BraccusWex__Drop takes nothing returns nothing
+        call spdst(GetManipulatingUnit() , - BraccusWex__BRACCUS_WEX_SPELL_POWER_BONUS)
     endfunction
 
-    function BraccusWex___Triggs takes nothing returns nothing
+    function BraccusWex__Triggs takes nothing returns nothing
         local trigger trig= CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(trig, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-        call TriggerAddCondition(trig, Condition(function BraccusWex___Conditions))
-        call TriggerAddAction(trig, function BraccusWex___PickUp)
+        call TriggerAddCondition(trig, Condition(function BraccusWex__Conditions))
+        call TriggerAddAction(trig, function BraccusWex__PickUp)
         
         set trig=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(trig, EVENT_PLAYER_UNIT_DROP_ITEM)
-        call TriggerAddCondition(trig, Condition(function BraccusWex___Conditions))
-        call TriggerAddAction(trig, function BraccusWex___Drop)
+        call TriggerAddCondition(trig, Condition(function BraccusWex__Conditions))
+        call TriggerAddAction(trig, function BraccusWex__Drop)
         
         set trig=null
     endfunction
@@ -72155,7 +72128,7 @@ function InitTrig_MarshalE takes nothing returns nothing
 endfunction
 
 // scope MarshalE begins
-    function MarshalE__Use takes nothing returns nothing
+    function MarshalE___Use takes nothing returns nothing
         local unit hero= udg_Event_NullingAbility_Unit
         local integer lvl= GetUnitAbilityLevel(hero, 'A0F7')
         
@@ -72169,11 +72142,11 @@ endfunction
         set hero=null
     endfunction
     
-    function MarshalE__StartFight_Conditions takes nothing returns boolean
+    function MarshalE___StartFight_Conditions takes nothing returns boolean
         return GetUnitAbilityLevel(udg_FightStart_Unit, 'A0F7') > 0
     endfunction
     
-    function MarshalE__StartFight takes nothing returns nothing
+    function MarshalE___StartFight takes nothing returns nothing
         local unit hero= udg_FightStart_Unit
 
         call UnitAddAbility(hero, 'A0G0')
@@ -72182,15 +72155,15 @@ endfunction
         set hero=null
     endfunction
 
-    function MarshalE__Triggs takes nothing returns nothing
+    function MarshalE___Triggs takes nothing returns nothing
         local trigger trig= CreateTrigger()
         call TriggerRegisterVariableEvent(trig, "udg_Event_NullingAbility_Real", EQUAL, 1.00)
-        call TriggerAddAction(trig, function MarshalE__Use)
+        call TriggerAddAction(trig, function MarshalE___Use)
         
         set trig=CreateTrigger()
         call TriggerRegisterVariableEvent(trig, "udg_FightStart_Real", EQUAL, 1.00)
-        call TriggerAddCondition(trig, Condition(function MarshalE__StartFight_Conditions))
-        call TriggerAddAction(trig, function MarshalE__StartFight)
+        call TriggerAddCondition(trig, Condition(function MarshalE___StartFight_Conditions))
+        call TriggerAddAction(trig, function MarshalE___StartFight)
         
         set trig=null
     endfunction
@@ -73145,7 +73118,7 @@ function InitTrig_ShadowArcherP takes nothing returns nothing
 endfunction
 
 // scope ShadowArcherE begins
-    function ShadowArcherE__DeleteBonusDamage takes unit hero returns nothing
+    function ShadowArcherE___DeleteBonusDamage takes unit hero returns nothing
         local integer attackBonus= LoadInteger(udg_hash, GetHandleId(hero), StringHash("sdapb"))
         
         if attackBonus <= 0 then
@@ -73158,27 +73131,27 @@ endfunction
         set hero=null
     endfunction
     
-    function ShadowArcherE__Cast takes nothing returns nothing
+    function ShadowArcherE___Cast takes nothing returns nothing
         if GetUnitAbilityLevel(udg_DamageEventSource, 'A0ID') > 0 and GetUnitState(udg_DamageEventSource, UNIT_STATE_LIFE) > 0.405 and udg_IsDamageSpell == false then
-            call ShadowArcherE__DeleteBonusDamage(udg_DamageEventSource)
+            call ShadowArcherE___DeleteBonusDamage(udg_DamageEventSource)
         endif
     endfunction
     
-    function ShadowArcherE__FightEnd takes nothing returns nothing
+    function ShadowArcherE___FightEnd takes nothing returns nothing
         if GetUnitAbilityLevel(udg_FightEnd_Unit, 'A0ID') > 0 then
-            call ShadowArcherE__DeleteBonusDamage(udg_FightEnd_Unit)
+            call ShadowArcherE___DeleteBonusDamage(udg_FightEnd_Unit)
         endif
     endfunction
 
-    function ShadowArcherE__Triggs takes nothing returns nothing
+    function ShadowArcherE___Triggs takes nothing returns nothing
         local trigger trig= CreateTrigger()
         
         call TriggerRegisterVariableEvent(trig, "udg_DamageEvent", EQUAL, 1.00)
-        call TriggerAddAction(trig, function ShadowArcherE__Cast)
+        call TriggerAddAction(trig, function ShadowArcherE___Cast)
         
         set trig=CreateTrigger()
         call TriggerRegisterVariableEvent(trig, "udg_FightEnd_Real", EQUAL, 1.00)
-        call TriggerAddAction(trig, function ShadowArcherE__FightEnd)
+        call TriggerAddAction(trig, function ShadowArcherE___FightEnd)
         
         set trig=null
     endfunction
@@ -73395,18 +73368,18 @@ endfunction
 
 // scope SamuraiW begins
     //OnAttackEvent
-    function SamuraiW__Conditions takes nothing returns boolean
+    function SamuraiW___Conditions takes nothing returns boolean
         return GetUnitAbilityLevel(udg_DamageEventSource, 'A0VS') > 0 and udg_IsDamageSpell == false
     endfunction
     
-    function SamuraiW__SamuraiW_Alternative takes real bonus returns nothing
+    function SamuraiW___SamuraiW_Alternative takes real bonus returns nothing
         if IsUnitType(udg_DamageEventTarget, UNIT_TYPE_ANCIENT) == false then
             set udg_DamageEventType=udg_DamageTypeCriticalStrike
             set udg_DamageEventAmount=udg_DamageEventAmount + ( Event_OnDamageChange_StaticDamage * bonus )
         endif
     endfunction
     
-    function SamuraiW__SamuraiW takes unit hero,real bonus returns nothing
+    function SamuraiW___SamuraiW takes unit hero,real bonus returns nothing
         set udg_DamageEventType=udg_DamageTypeCriticalStrike
         set udg_DamageEventAmount=udg_DamageEventAmount + ( Event_OnDamageChange_StaticDamage * bonus )
         call UnitRemoveAbility(hero, 'A0VS')
@@ -73415,25 +73388,25 @@ endfunction
         set hero=null
     endfunction
     
-    function SamuraiW__Action takes nothing returns nothing
+    function SamuraiW___Action takes nothing returns nothing
         local unit hero= udg_DamageEventSource
         local real bonus= LoadReal(udg_hash, GetHandleId(hero), StringHash("smrw"))
 
         if Aspects_IsHeroAspectActive(hero , ASPECT_02) then
-            call SamuraiW__SamuraiW_Alternative(bonus)
+            call SamuraiW___SamuraiW_Alternative(bonus)
         else
-            call SamuraiW__SamuraiW(hero , bonus)
+            call SamuraiW___SamuraiW(hero , bonus)
         endif
 
         set hero=null
     endfunction
     
     //DeleteBuff
-    function SamuraiW__DeleteBuff_Conditions takes nothing returns boolean
+    function SamuraiW___DeleteBuff_Conditions takes nothing returns boolean
         return GetUnitAbilityLevel(Event_DeleteBuff_Unit, 'A0VS') > 0
     endfunction
     
-    function SamuraiW__DeleteBuff takes nothing returns nothing
+    function SamuraiW___DeleteBuff takes nothing returns nothing
         local unit hero= Event_DeleteBuff_Unit
 
         call UnitRemoveAbility(hero, 'A0VS')
@@ -73443,9 +73416,9 @@ endfunction
     endfunction
 
     //Init
-    function SamuraiW__Triggs takes nothing returns nothing
-        call CreateEventTrigger("Event_OnDamageChange_Real" , function SamuraiW__Action , function SamuraiW__Conditions)
-        call CreateEventTrigger("Event_DeleteBuff_Real" , function SamuraiW__DeleteBuff , function SamuraiW__DeleteBuff_Conditions)
+    function SamuraiW___Triggs takes nothing returns nothing
+        call CreateEventTrigger("Event_OnDamageChange_Real" , function SamuraiW___Action , function SamuraiW___Conditions)
+        call CreateEventTrigger("Event_DeleteBuff_Real" , function SamuraiW___DeleteBuff , function SamuraiW___DeleteBuff_Conditions)
     endfunction
 // scope SamuraiW ends
 //===========================================================================
@@ -73514,20 +73487,20 @@ endfunction
 
 // scope SamuraiR begins
     //OnHealChange
-    function SamuraiR__Conditions takes nothing returns boolean
+    function SamuraiR___Conditions takes nothing returns boolean
         return GetUnitAbilityLevel(Event_OnHealChange_Caster, 'A0VT') > 0 and Aspects_IsHeroAspectActive(Event_OnHealChange_Caster , ASPECT_03) == false
     endfunction
     
-    function SamuraiR__Action takes nothing returns nothing
+    function SamuraiR___Action takes nothing returns nothing
         set Event_OnHealChange_Heal=Event_OnHealChange_Heal + ( Event_OnHealChange_StaticHeal * ( SAMURAI_R_HEAL_BONUS_LEVEL_BONUS * GetUnitAbilityLevel(Event_OnHealChange_Caster, 'A0VT') ) )
     endfunction
 
     //DeleteBuff
-    function SamuraiR__DeleteBuff_Conditions takes nothing returns boolean
+    function SamuraiR___DeleteBuff_Conditions takes nothing returns boolean
         return GetUnitAbilityLevel(Event_DeleteBuff_Unit, 'A0VV') > 0
     endfunction
     
-    function SamuraiR__DeleteBuff takes nothing returns nothing
+    function SamuraiR___DeleteBuff takes nothing returns nothing
         local unit hero= Event_DeleteBuff_Unit
 
         call UnitRemoveAbility(hero, 'A0VV')
@@ -73537,9 +73510,9 @@ endfunction
     endfunction
 
     //Init
-    function SamuraiR__init takes nothing returns nothing
-        call CreateEventTrigger("Event_OnHealChange_Real" , function SamuraiR__Action , function SamuraiR__Conditions)
-        call CreateEventTrigger("Event_DeleteBuff_Real" , function SamuraiR__DeleteBuff , function SamuraiR__DeleteBuff_Conditions)
+    function SamuraiR___init takes nothing returns nothing
+        call CreateEventTrigger("Event_OnHealChange_Real" , function SamuraiR___Action , function SamuraiR___Conditions)
+        call CreateEventTrigger("Event_DeleteBuff_Real" , function SamuraiR___DeleteBuff , function SamuraiR___DeleteBuff_Conditions)
     endfunction
 // scope SamuraiR ends
 
@@ -89084,12 +89057,12 @@ endfunction
 
 
     function Trig_CircusW_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == CircusW___ID_ABILITY
+        return GetSpellAbilityId() == CircusW__ID_ABILITY
     endfunction
     
     
     
-    function CircusW___DealDamage takes nothing returns nothing
+    function CircusW__DealDamage takes nothing returns nothing
         local unit caster= Event_WaveHit_Caster
         local unit target= Event_WaveHit_Target
         local real damage= LoadReal(udg_hash, GetHandleId(Event_WaveHit_Wave), StringHash("crcwd"))
@@ -89129,20 +89102,20 @@ endfunction
         elseif RandomLogic() then
             set caster=udg_Caster
             set lvl=udg_Level
-            call textst(udg_string[0] + GetObjectName(CircusW___ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
+            call textst(udg_string[0] + GetObjectName(CircusW__ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
         else
             set caster=GetSpellAbilityUnit()
             set lvl=GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())
         endif
 
-        set damage=( CircusW___DAMAGE_FIRST_LEVEL + ( CircusW___DAMAGE_LEVEL_BONUS * lvl ) ) * GetUnitSpellPower(caster)
+        set damage=( CircusW__DAMAGE_FIRST_LEVEL + ( CircusW__DAMAGE_LEVEL_BONUS * lvl ) ) * GetUnitSpellPower(caster)
         set affected=CreateGroup()
         
         set i=1
         loop
-            exitwhen i > CircusW___WAVES
+            exitwhen i > CircusW__WAVES
             //call CreateWave(caster, ANGLE_DIFFERENCE * i, damage, affected)
-            set wave=Wave_CreateWave(caster , GetUnitX(caster) , GetUnitY(caster) , CircusW___ANGLE_DIFFERENCE * i , CircusW___TICK , CircusW___AREA , CircusW___FLIGHT_LENGTH , CircusW___SPEED , TARGET_ENEMY , WAVE_BASE_ANIMATION , CircusW___Wave_Use , affected)
+            set wave=Wave_CreateWave(caster , GetUnitX(caster) , GetUnitY(caster) , CircusW__ANGLE_DIFFERENCE * i , CircusW__TICK , CircusW__AREA , CircusW__FLIGHT_LENGTH , CircusW__SPEED , TARGET_ENEMY , WAVE_BASE_ANIMATION , CircusW__Wave_Use , affected)
             call SaveReal(udg_hash, GetHandleId(wave), StringHash("crcwd"), damage)
             set i=i + 1
         endloop
@@ -89153,14 +89126,14 @@ endfunction
     endfunction
 
     //===========================================================================
-    function CircusW___init takes nothing returns nothing
+    function CircusW__init takes nothing returns nothing
         set gg_trg_CircusW=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_CircusW, EVENT_PLAYER_UNIT_SPELL_EFFECT)
         call TriggerAddCondition(gg_trg_CircusW, Condition(function Trig_CircusW_Conditions))
         call TriggerAddAction(gg_trg_CircusW, function Trig_CircusW_Actions)
         
-        set CircusW___Wave_Use=CreateTrigger()
-        call TriggerAddAction(CircusW___Wave_Use, function CircusW___DealDamage)
+        set CircusW__Wave_Use=CreateTrigger()
+        call TriggerAddAction(CircusW__Wave_Use, function CircusW__DealDamage)
     endfunction
 
 // scope CircusW ends
@@ -89820,11 +89793,11 @@ endfunction
     endfunction
     
     //When choose hero
-    function Shoggoth___HeroChoose_Conditions takes nothing returns boolean
+    function Shoggoth__HeroChoose_Conditions takes nothing returns boolean
         return GetUnitTypeId(Event_HeroChoose_Hero) == 'O016'
     endfunction
     
-    function Shoggoth___HeroChoose takes nothing returns nothing
+    function Shoggoth__HeroChoose takes nothing returns nothing
         set udg_panel[3]=CreateLeaderboardBJ(GetForceOfPlayer(GetOwningPlayer(Event_HeroChoose_Hero)), "")
         call LeaderboardSetLabelColor(udg_panel[3], 250, 200, 50, 250)
         call LeaderboardAddItemBJ(Player(4), udg_panel[3], "Entropies: ", udg_entropy[GetPlayerId(GetOwningPlayer(Event_HeroChoose_Hero)) + 1])
@@ -89832,11 +89805,11 @@ endfunction
     
     
     //When hero repicked
-    function Shoggoth___HeroRepick_Conditions takes nothing returns boolean
+    function Shoggoth__HeroRepick_Conditions takes nothing returns boolean
         return GetUnitTypeId(Event_HeroRepick_Hero) == 'O016'
     endfunction
     
-    function Shoggoth___HeroRepick takes nothing returns nothing
+    function Shoggoth__HeroRepick takes nothing returns nothing
         call DestroyLeaderboard(udg_panel[3])
     endfunction
     
@@ -89847,8 +89820,8 @@ endfunction
         call TriggerAddCondition(gg_trg_ShoggothA, Condition(function Trig_ShoggothA_Conditions))
         call TriggerAddAction(gg_trg_ShoggothA, function Trig_ShoggothA_Actions)
         
-        call CreateEventTrigger("Event_HeroChoose_Real" , function Shoggoth___HeroChoose , function Shoggoth___HeroChoose_Conditions)
-        call CreateEventTrigger("Event_HeroRepick_Real" , function Shoggoth___HeroRepick , function Shoggoth___HeroRepick_Conditions)
+        call CreateEventTrigger("Event_HeroChoose_Real" , function Shoggoth__HeroChoose , function Shoggoth__HeroChoose_Conditions)
+        call CreateEventTrigger("Event_HeroRepick_Real" , function Shoggoth__HeroRepick , function Shoggoth__HeroRepick_Conditions)
     endfunction
 
 // scope Shoggoth ends
@@ -89906,10 +89879,10 @@ endfunction
                 call DestroyEffect(AddSpecialEffect("war3mapImported\\Soul Discharge.mdx", GetUnitX(u), GetUnitY(u)))
                 call UnitDamageTarget(bj_lastCreatedUnit, u, dmg, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)
                 set mana=mana + mnbn
-                set ShoggothQ___EntropyCount=ShoggothQ___EntropyCount + 1
-                if ShoggothQ___EntropyCount >= 4 then
+                set ShoggothQ__EntropyCount=ShoggothQ__EntropyCount + 1
+                if ShoggothQ__EntropyCount >= 4 then
                     set entdone=entdone + 1
-                    set ShoggothQ___EntropyCount=0
+                    set ShoggothQ__EntropyCount=0
                 endif
             endif
             call GroupRemoveUnit(g, u)
@@ -91111,10 +91084,10 @@ endfunction
 
 
     function Trig_The_PlagueQ_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == ThePlagueQ___ID_ABILITY
+        return GetSpellAbilityId() == ThePlagueQ__ID_ABILITY
     endfunction
     
-    function ThePlagueQ___FogDamage takes nothing returns nothing
+    function ThePlagueQ__FogDamage takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local unit fog= LoadUnitHandle(udg_hash, id, StringHash("tplqf"))
         local real damage= LoadReal(udg_hash, id, StringHash("tplqfd"))
@@ -91125,7 +91098,7 @@ endfunction
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
         else
-            call GroupAoE(caster , null , GetUnitX(fog) , GetUnitY(fog) , damage , ThePlagueQ___AREA , "enemy" , null , null)
+            call GroupAoE(caster , null , GetUnitX(fog) , GetUnitY(fog) , damage , ThePlagueQ__AREA , "enemy" , null , null)
         endif
 
         set fog=null
@@ -91136,13 +91109,13 @@ endfunction
         local unit fog
         local integer id1
     
-        call DestroyEffect(AddSpecialEffect(ThePlagueQ___ANIMATION, x, y))
+        call DestroyEffect(AddSpecialEffect(ThePlagueQ__ANIMATION, x, y))
         set fog=CreateUnit(GetOwningPlayer(caster), 'u000', x, y, 270)
         call UnitApplyTimedLife(fog, 'BTLF', duration)
-        call UnitAddAbility(fog, ThePlagueQ___EFFECT)
-        call SetUnitAbilityLevel(fog, ThePlagueQ___EFFECT, level)
+        call UnitAddAbility(fog, ThePlagueQ__EFFECT)
+        call SetUnitAbilityLevel(fog, ThePlagueQ__EFFECT, level)
         
-        set id1=InvokeTimerWithUnit(fog , "tplqf" , ThePlagueQ___TICK_DAMAGE , true , function ThePlagueQ___FogDamage)
+        set id1=InvokeTimerWithUnit(fog , "tplqf" , ThePlagueQ__TICK_DAMAGE , true , function ThePlagueQ__FogDamage)
         call SaveReal(udg_hash, id1, StringHash("tplqfd"), damage)
         call SaveUnitHandle(udg_hash, id1, StringHash("tplqfc"), caster)
         
@@ -91150,17 +91123,17 @@ endfunction
         set caster=null
     endfunction
     
-    function ThePlagueQ___CreateFog takes integer id,real x,real y returns nothing
+    function ThePlagueQ__CreateFog takes integer id,real x,real y returns nothing
         local unit caster= LoadUnitHandle(udg_hash, id, StringHash("tplqc"))
         local real damage= LoadReal(udg_hash, id, StringHash("tplqd"))
         local integer level= LoadInteger(udg_hash, id, StringHash("tplqlvl"))
         
-        call ThePlagueQ_CreatePoisonousFog(caster , damage , level , x , y , ThePlagueQ___LIFE_TIME)
+        call ThePlagueQ_CreatePoisonousFog(caster , damage , level , x , y , ThePlagueQ__LIFE_TIME)
         
         set caster=null
     endfunction
     
-    function ThePlagueQ___WaveMove takes nothing returns nothing
+    function ThePlagueQ__WaveMove takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local integer counter= LoadInteger(udg_hash, id, StringHash("tplq")) + 1
         local effect wave= LoadEffectHandle(udg_hash, id, StringHash("tplq"))
@@ -91174,18 +91147,18 @@ endfunction
         call s__point_Set(wavePoint,BlzGetLocalSpecialEffectX(wave) , BlzGetLocalSpecialEffectY(wave))
         call s__point_Set(endPoint,x , y)
 
-        if counter >= ThePlagueQ___FLIGHT_LIMIT or wave == null then
+        if counter >= ThePlagueQ__FLIGHT_LIMIT or wave == null then
             call DestroyEffect(wave)
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
-        elseif DistanceBetweenCustomPoints(wavePoint , endPoint) <= ThePlagueQ___DISTANCE_TO_ACTIVATE then
-            call ThePlagueQ___CreateFog(id , x , y)
+        elseif DistanceBetweenCustomPoints(wavePoint , endPoint) <= ThePlagueQ__DISTANCE_TO_ACTIVATE then
+            call ThePlagueQ__CreateFog(id , x , y)
         
             call DestroyEffect(wave)
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
         else
-            set newPoint=GetMovedPoint(wave , yaw , ThePlagueQ___SPEED)
+            set newPoint=GetMovedPoint(wave , yaw , ThePlagueQ__SPEED)
             call BlzSetSpecialEffectPosition(wave, s__point_x[newPoint], s__point_y[newPoint], BlzGetLocalSpecialEffectZ(wave))
             call SaveInteger(udg_hash, id, StringHash("tplq"), counter)
         endif
@@ -91195,7 +91168,7 @@ endfunction
         set wave=null
     endfunction
     
-    function ThePlagueQ___CreateOrb takes unit caster,real damage,real x,real y,integer level returns nothing
+    function ThePlagueQ__CreateOrb takes unit caster,real damage,real x,real y,integer level returns nothing
         local integer id
         local effect wave
         local real yaw
@@ -91205,12 +91178,12 @@ endfunction
         call s__point_Set(startPoint,GetUnitX(caster) , GetUnitY(caster))
         call s__point_Set(endPoint,x , y)
     
-        set wave=AddSpecialEffect(ThePlagueQ___ORB_ANIMATION, s__point_x[startPoint], s__point_y[startPoint])
+        set wave=AddSpecialEffect(ThePlagueQ__ORB_ANIMATION, s__point_x[startPoint], s__point_y[startPoint])
         set yaw=Deg2Rad(GetAngleBetweenPoints(endPoint , startPoint))
         call BlzSetSpecialEffectYaw(wave, yaw)
-        call BlzSetSpecialEffectZ(wave, ThePlagueQ___WAVE_Z)
+        call BlzSetSpecialEffectZ(wave, ThePlagueQ__WAVE_Z)
         
-        set id=InvokeTimerWithEffect(wave , "tplq" , ThePlagueQ___TICK , true , function ThePlagueQ___WaveMove)
+        set id=InvokeTimerWithEffect(wave , "tplq" , ThePlagueQ__TICK , true , function ThePlagueQ__WaveMove)
         call SaveUnitHandle(udg_hash, id, StringHash("tplqc"), caster)
         call SaveInteger(udg_hash, id, StringHash("tplqlvl"), level)
         call SaveReal(udg_hash, id, StringHash("tplq"), yaw)
@@ -91241,7 +91214,7 @@ endfunction
             set level=udg_Level
             set x=GetUnitX(caster) + GetRandomReal(- 650, 650)
             set y=GetUnitY(caster) + GetRandomReal(- 650, 650)
-            call textst(udg_string[0] + GetObjectName(ThePlagueQ___ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
+            call textst(udg_string[0] + GetObjectName(ThePlagueQ__ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
         else
             set caster=GetSpellAbilityUnit()
             set level=GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())
@@ -91251,13 +91224,13 @@ endfunction
         
         set damage=( ThePlagueQ_DAMAGE_FIRST_LEVEL + ( ThePlagueQ_DAMAGE_LEVEL_BONUS * level ) )
         
-        call ThePlagueQ___CreateOrb(caster , damage , x , y , level)
+        call ThePlagueQ__CreateOrb(caster , damage , x , y , level)
 
         set caster=null
     endfunction
 
     //===========================================================================
-    function ThePlagueQ___init takes nothing returns nothing
+    function ThePlagueQ__init takes nothing returns nothing
         set gg_trg_The_PlagueQ=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_The_PlagueQ, EVENT_PLAYER_UNIT_SPELL_EFFECT)
         call TriggerAddCondition(gg_trg_The_PlagueQ, Condition(function Trig_The_PlagueQ_Conditions))
@@ -91274,16 +91247,16 @@ endfunction
 
 
     function Trig_The_PlagueW_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == ThePlagueW___ID_ABILITY
+        return GetSpellAbilityId() == ThePlagueW__ID_ABILITY
     endfunction
 
-    function ThePlagueW___Spike_End takes nothing returns nothing
+    function ThePlagueW__Spike_End takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local unit target= LoadUnitHandle(udg_hash, id, StringHash("tplw"))
         local integer unitId= GetHandleId(target)
 
         call UnitRemoveAbility(target, ThePlagueW_EFFECT)
-        call UnitRemoveAbility(target, ThePlagueW___BUFF)
+        call UnitRemoveAbility(target, ThePlagueW__BUFF)
         call RemoveSavedReal(udg_hash, unitId, StringHash("tplw"))
         call RemoveSavedInteger(udg_hash, unitId, StringHash("tplw"))
         call FlushChildHashtable(udg_hash, id)
@@ -91291,22 +91264,22 @@ endfunction
         set target=null
     endfunction
     
-    function ThePlagueW___Spike takes unit caster,real damage,real x,real y,real duration returns nothing
+    function ThePlagueW__Spike takes unit caster,real damage,real x,real y,real duration returns nothing
         local group g= CreateGroup()
         local unit u
         local integer id
         local integer charges
     
-        call GroupEnumUnitsInRange(g, x, y, ThePlagueW___AREA, null)
+        call GroupEnumUnitsInRange(g, x, y, ThePlagueW__AREA, null)
         loop
             set u=FirstOfGroup(g)
             exitwhen u == null
             if unitst(u , caster , "enemy") then
                 set id=GetHandleId(u)
-                call PlaySpecialEffect(ThePlagueW___ANIMATION , u)
+                call PlaySpecialEffect(ThePlagueW__ANIMATION , u)
                 call UnitAddAbility(u, ThePlagueW_EFFECT)
-                call InvokeTimerWithUnit(u , "tplw" , duration , false , function ThePlagueW___Spike_End)
-                set charges=IMinBJ(LoadInteger(udg_hash, id, StringHash("tplw")) + 1, ThePlagueW___CHARGE_LIMIT)
+                call InvokeTimerWithUnit(u , "tplw" , duration , false , function ThePlagueW__Spike_End)
+                set charges=IMinBJ(LoadInteger(udg_hash, id, StringHash("tplw")) + 1, ThePlagueW__CHARGE_LIMIT)
                 call SaveInteger(udg_hash, id, StringHash("tplw"), charges)
                 call SaveReal(udg_hash, id, StringHash("tplwd"), damage)
                 call SaveUnitHandle(udg_hash, id, StringHash("tplwc"), caster)
@@ -91338,29 +91311,29 @@ endfunction
         elseif RandomLogic() then
             set caster=udg_Caster
             set lvl=udg_Level
-            call textst(udg_string[0] + GetObjectName(ThePlagueW___ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
-            set duration=ThePlagueW___DURATION
+            call textst(udg_string[0] + GetObjectName(ThePlagueW__ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
+            set duration=ThePlagueW__DURATION
         else
             set caster=GetSpellAbilityUnit()
             set lvl=GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())
-            set duration=ThePlagueW___DURATION
+            set duration=ThePlagueW__DURATION
         endif
         
         set duration=timebonus(caster , duration)
-        set dmg=ThePlagueW___DAMAGE_FIRST_LEVEL + ( ThePlagueW___DAMAGE_LEVEL_BONUS * lvl )
-        set x=GetUnitX(caster) + ThePlagueW___DISTANCE * Cos(0.017 * GetUnitFacing(caster))
-        set y=GetUnitY(caster) + ThePlagueW___DISTANCE * Sin(0.017 * GetUnitFacing(caster))
+        set dmg=ThePlagueW__DAMAGE_FIRST_LEVEL + ( ThePlagueW__DAMAGE_LEVEL_BONUS * lvl )
+        set x=GetUnitX(caster) + ThePlagueW__DISTANCE * Cos(0.017 * GetUnitFacing(caster))
+        set y=GetUnitY(caster) + ThePlagueW__DISTANCE * Sin(0.017 * GetUnitFacing(caster))
         
-        call ThePlagueW___Spike(caster , dmg , x , y , duration)
+        call ThePlagueW__Spike(caster , dmg , x , y , duration)
         
         set caster=null
     endfunction
     
-    function ThePlagueW___AfterDamageEvent_Conditions takes nothing returns boolean
+    function ThePlagueW__AfterDamageEvent_Conditions takes nothing returns boolean
         return IsUnitHasAbility(udg_DamageEventTarget , ThePlagueW_EFFECT) and udg_DamageEventAmount > 0
     endfunction
     
-    function ThePlagueW___Damage takes nothing returns nothing
+    function ThePlagueW__Damage takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local unit target= LoadUnitHandle(udg_hash, id, StringHash("tplw1"))
         local unit dealer= LoadUnitHandle(udg_hash, id, StringHash("tplw1c"))
@@ -91373,13 +91346,13 @@ endfunction
         set target=null
     endfunction
     
-    function ThePlagueW___DealDamage takes unit target,integer unitId returns nothing
+    function ThePlagueW__DealDamage takes unit target,integer unitId returns nothing
         local real damage= LoadReal(udg_hash, unitId, StringHash("tplwd"))
         local integer charges= LoadInteger(udg_hash, unitId, StringHash("tplw"))
         local unit caster= LoadUnitHandle(udg_hash, unitId, StringHash("tplwc"))
         local integer id
         
-        set id=InvokeTimerWithUnit(target , "tplw1" , 0.01 , false , function ThePlagueW___Damage)
+        set id=InvokeTimerWithUnit(target , "tplw1" , 0.01 , false , function ThePlagueW__Damage)
         call SaveUnitHandle(udg_hash, id, StringHash("tplw1c"), caster)
         call SaveReal(udg_hash, id, StringHash("tplw1d"), damage * charges)
         
@@ -91387,17 +91360,17 @@ endfunction
         set target=null
     endfunction
     
-    function ThePlagueW___AfterDamageEvent takes nothing returns nothing
+    function ThePlagueW__AfterDamageEvent takes nothing returns nothing
         local unit target= udg_DamageEventTarget
         local integer unitId= GetHandleId(target)
         local real damageDealed= LoadReal(udg_hash, unitId, StringHash("tplw")) + udg_DamageEventAmount
         local integer id
 
-        if damageDealed >= ThePlagueW___DAMAGE_NEEDED then
-            call DestroyEffect(AddSpecialEffect(ThePlagueW___DAMAGE_ANIMATION, GetUnitX(target), GetUnitY(target)))
+        if damageDealed >= ThePlagueW__DAMAGE_NEEDED then
+            call DestroyEffect(AddSpecialEffect(ThePlagueW__DAMAGE_ANIMATION, GetUnitX(target), GetUnitY(target)))
             call UnitRemoveAbility(target, ThePlagueW_EFFECT)
-            call UnitRemoveAbility(target, ThePlagueW___BUFF)
-            call ThePlagueW___DealDamage(target , unitId)
+            call UnitRemoveAbility(target, ThePlagueW__BUFF)
+            call ThePlagueW__DealDamage(target , unitId)
             call RemoveSavedReal(udg_hash, unitId, StringHash("tplw"))
             call RemoveSavedInteger(udg_hash, unitId, StringHash("tplw"))
         else
@@ -91407,15 +91380,15 @@ endfunction
         set target=null
     endfunction
     
-    function ThePlagueW___DeleteBuff_Conditions takes nothing returns boolean
+    function ThePlagueW__DeleteBuff_Conditions takes nothing returns boolean
         return GetUnitAbilityLevel(Event_DeleteBuff_Unit, ThePlagueW_EFFECT) > 0
     endfunction
     
-    function ThePlagueW___DeleteBuff takes nothing returns nothing
+    function ThePlagueW__DeleteBuff takes nothing returns nothing
         local unit hero= Event_DeleteBuff_Unit
 
         call UnitRemoveAbility(hero, ThePlagueW_EFFECT)
-        call UnitRemoveAbility(hero, ThePlagueW___BUFF)
+        call UnitRemoveAbility(hero, ThePlagueW__BUFF)
         call RemoveSavedReal(udg_hash, GetHandleId(hero), StringHash("tplw"))
         call RemoveSavedInteger(udg_hash, GetHandleId(hero), StringHash("tplw"))
         
@@ -91423,14 +91396,14 @@ endfunction
     endfunction
 
     //===========================================================================
-    function ThePlagueW___init takes nothing returns nothing
+    function ThePlagueW__init takes nothing returns nothing
         set gg_trg_The_PlagueW=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_The_PlagueW, EVENT_PLAYER_UNIT_SPELL_EFFECT)
         call TriggerAddCondition(gg_trg_The_PlagueW, Condition(function Trig_The_PlagueW_Conditions))
         call TriggerAddAction(gg_trg_The_PlagueW, function Trig_The_PlagueW_Actions)
         
-        call CreateEventTrigger("Event_DeleteBuff_Real" , function ThePlagueW___DeleteBuff , function ThePlagueW___DeleteBuff_Conditions)
-        call CreateEventTrigger("udg_AfterDamageEvent" , function ThePlagueW___AfterDamageEvent , function ThePlagueW___AfterDamageEvent_Conditions)
+        call CreateEventTrigger("Event_DeleteBuff_Real" , function ThePlagueW__DeleteBuff , function ThePlagueW__DeleteBuff_Conditions)
+        call CreateEventTrigger("udg_AfterDamageEvent" , function ThePlagueW__AfterDamageEvent , function ThePlagueW__AfterDamageEvent_Conditions)
     endfunction
 
 // scope ThePlagueW ends
@@ -91441,66 +91414,66 @@ endfunction
 
 
     function Trig_The_PlagueE_Conditions takes nothing returns boolean
-        local integer level= GetUnitAbilityLevel(GetSpellAbilityUnit(), ThePlagueE___ID_ABILITY)
-        return GetUnitAbilityLevel(GetSpellAbilityUnit(), ThePlagueE___ID_ABILITY) > 0 and (luckylogic((GetSpellAbilityUnit() ) , ( ThePlagueE___CAST_CHANCE_FIRST_LEVEL + ( ThePlagueE___CAST_CHANCE_LEVEL_BONUS * level )) , 1 , 100)) // INLINED!!
+        local integer level= GetUnitAbilityLevel(GetSpellAbilityUnit(), ThePlagueE__ID_ABILITY)
+        return GetUnitAbilityLevel(GetSpellAbilityUnit(), ThePlagueE__ID_ABILITY) > 0 and (luckylogic((GetSpellAbilityUnit() ) , ( ThePlagueE__CAST_CHANCE_FIRST_LEVEL + ( ThePlagueE__CAST_CHANCE_LEVEL_BONUS * level )) , 1 , 100)) // INLINED!!
     endfunction
 
     function Trig_The_PlagueE_Actions takes nothing returns nothing
         local unit caster= GetSpellAbilityUnit()
-        local integer level= GetUnitAbilityLevel(caster, ThePlagueE___ID_ABILITY)
+        local integer level= GetUnitAbilityLevel(caster, ThePlagueE__ID_ABILITY)
         local real damage= ThePlagueQ_DAMAGE_FIRST_LEVEL + ( ThePlagueQ_DAMAGE_LEVEL_BONUS * level )
         
-        call ThePlagueQ_CreatePoisonousFog(caster , damage , level , GetUnitX(caster) , GetUnitY(caster) , ThePlagueE___LIFE_TIME)
+        call ThePlagueQ_CreatePoisonousFog(caster , damage , level , GetUnitX(caster) , GetUnitY(caster) , ThePlagueE__LIFE_TIME)
         
         set caster=null
     endfunction
     
     
-    function ThePlagueE___LearnSkill_Conditions takes nothing returns boolean
-        return GetLearnedSkill() == ThePlagueE___ID_ABILITY
+    function ThePlagueE__LearnSkill_Conditions takes nothing returns boolean
+        return GetLearnedSkill() == ThePlagueE__ID_ABILITY
     endfunction
 
-    function ThePlagueE___LearnSkill takes nothing returns nothing
-        set ThePlagueE___Level=GetUnitAbilityLevel(GetLearningUnit(), ThePlagueE___ID_ABILITY)
+    function ThePlagueE__LearnSkill takes nothing returns nothing
+        set ThePlagueE__Level=GetUnitAbilityLevel(GetLearningUnit(), ThePlagueE__ID_ABILITY)
     endfunction
     
     
-    function ThePlagueE___NullingAbility_Conditions takes nothing returns boolean
-        return IsUnitHasAbility(udg_Event_NullingAbility_Unit , ThePlagueE___ID_ABILITY)
+    function ThePlagueE__NullingAbility_Conditions takes nothing returns boolean
+        return IsUnitHasAbility(udg_Event_NullingAbility_Unit , ThePlagueE__ID_ABILITY)
     endfunction
     
-    function ThePlagueE___NullingAbility takes nothing returns nothing
-        set ThePlagueE___Level=0
+    function ThePlagueE__NullingAbility takes nothing returns nothing
+        set ThePlagueE__Level=0
     endfunction
     
     
-    function ThePlagueE___OnDamageChange_Conditions takes nothing returns boolean
-        return IsUnitHasAbility(udg_DamageEventTarget , ThePlagueE_BUFF) and ThePlagueE___Level > 0 and (luckylogic((GetSpellAbilityUnit() ) , ( ThePlagueE___DAMAGE_CHANCE_FIRST_LEVEL + ( ThePlagueE___DAMAGE_CHANCE_LEVEL_BONUS * ThePlagueE___Level )) , 1 , 100)) // INLINED!!
+    function ThePlagueE__OnDamageChange_Conditions takes nothing returns boolean
+        return IsUnitHasAbility(udg_DamageEventTarget , ThePlagueE_BUFF) and ThePlagueE__Level > 0 and (luckylogic((GetSpellAbilityUnit() ) , ( ThePlagueE__DAMAGE_CHANCE_FIRST_LEVEL + ( ThePlagueE__DAMAGE_CHANCE_LEVEL_BONUS * ThePlagueE__Level )) , 1 , 100)) // INLINED!!
     endfunction
     
-    function ThePlagueE___Stun takes nothing returns nothing
+    function ThePlagueE__Stun takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local unit target= LoadUnitHandle(udg_hash, id, StringHash("tple"))
         local unit dealer= LoadUnitHandle(udg_hash, id, StringHash("tpled"))
 
-        call UnitStun(dealer , target , ThePlagueE___STUN_DURATION)
+        call UnitStun(dealer , target , ThePlagueE__STUN_DURATION)
         call FlushChildHashtable(udg_hash, id)
 
         set dealer=null
         set target=null
     endfunction
     
-    function ThePlagueE___OnDamageChange takes nothing returns nothing
+    function ThePlagueE__OnDamageChange takes nothing returns nothing
         local integer id
         
-        set udg_DamageEventAmount=udg_DamageEventAmount + ( Event_OnDamageChange_StaticDamage * ThePlagueE___DAMAGE_BONUS )
+        set udg_DamageEventAmount=udg_DamageEventAmount + ( Event_OnDamageChange_StaticDamage * ThePlagueE__DAMAGE_BONUS )
         
-        set id=InvokeTimerWithUnit(udg_DamageEventTarget , "tple" , 0.01 , false , function ThePlagueE___Stun)
+        set id=InvokeTimerWithUnit(udg_DamageEventTarget , "tple" , 0.01 , false , function ThePlagueE__Stun)
         call SaveUnitHandle(udg_hash, id, StringHash("tpled"), udg_DamageEventSource)
     endfunction
 
     //===========================================================================
-    function ThePlagueE___init takes nothing returns nothing
+    function ThePlagueE__init takes nothing returns nothing
         local trigger trig
     
         set gg_trg_The_PlagueE=CreateTrigger()
@@ -91510,11 +91483,11 @@ endfunction
         
         set trig=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(trig, EVENT_PLAYER_HERO_SKILL)
-        call TriggerAddCondition(trig, Condition(function ThePlagueE___LearnSkill_Conditions))
-        call TriggerAddAction(trig, function ThePlagueE___LearnSkill)
+        call TriggerAddCondition(trig, Condition(function ThePlagueE__LearnSkill_Conditions))
+        call TriggerAddAction(trig, function ThePlagueE__LearnSkill)
         
-        call CreateEventTrigger("udg_Event_NullingAbility_Real" , function ThePlagueE___NullingAbility , function ThePlagueE___NullingAbility_Conditions)
-        call CreateEventTrigger("Event_OnDamageChange_Real" , function ThePlagueE___OnDamageChange , function ThePlagueE___OnDamageChange_Conditions)
+        call CreateEventTrigger("udg_Event_NullingAbility_Real" , function ThePlagueE__NullingAbility , function ThePlagueE__NullingAbility_Conditions)
+        call CreateEventTrigger("Event_OnDamageChange_Real" , function ThePlagueE__OnDamageChange , function ThePlagueE__OnDamageChange_Conditions)
         
         set trig=null
     endfunction
@@ -91527,40 +91500,40 @@ endfunction
 
 
     function Trig_The_PlagueR_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == ThePlagueR___ID_ABILITY
+        return GetSpellAbilityId() == ThePlagueR__ID_ABILITY
     endfunction
     
-    function ThePlagueR___DestroyLight takes nothing returns nothing
+    function ThePlagueR__DestroyLight takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         call DestroyLightning(LoadLightningHandle(udg_hash, id, StringHash("light")))
         call FlushChildHashtable(udg_hash, id)
     endfunction
     
-    function ThePlagueR___CreateLightning takes unit caster,unit target returns nothing
+    function ThePlagueR__CreateLightning takes unit caster,unit target returns nothing
         local lightning light
         local integer id
         
-        call PlaySpecialEffect(ThePlagueR___ANIMATION , target)
-        set light=AddLightningEx(ThePlagueR___LIGHTNING, true, GetUnitX(caster), GetUnitY(caster), GetUnitFlyHeight(caster) + 50, GetUnitX(target), GetUnitY(target), GetUnitFlyHeight(target) + 50)
+        call PlaySpecialEffect(ThePlagueR__ANIMATION , target)
+        set light=AddLightningEx(ThePlagueR__LIGHTNING, true, GetUnitX(caster), GetUnitY(caster), GetUnitFlyHeight(caster) + 50, GetUnitX(target), GetUnitY(target), GetUnitFlyHeight(target) + 50)
         set id=GetHandleId(light)
         call SaveTimerHandle(udg_hash, id, StringHash("light"), CreateTimer())
         set id=GetHandleId(LoadTimerHandle(udg_hash, id, StringHash("light")))
         call SaveLightningHandle(udg_hash, id, StringHash("light"), light)
-        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(light), StringHash("light")), 0.5, false, function ThePlagueR___DestroyLight)
+        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(light), StringHash("light")), 0.5, false, function ThePlagueR__DestroyLight)
     
         set light=null
         set target=null
         set caster=null
     endfunction
     
-    function ThePlagueR___UseLightning takes unit caster,group units,real damage,real bonus returns nothing
+    function ThePlagueR__UseLightning takes unit caster,group units,real damage,real bonus returns nothing
         local unit u
         local real bonusDamage
         
         loop
             set u=FirstOfGroup(units)
             exitwhen u == null
-            call ThePlagueR___CreateLightning(caster , u)
+            call ThePlagueR__CreateLightning(caster , u)
             
             set bonusDamage=1
             if IsUnitHasAbility(u , ThePlagueE_BUFF) then
@@ -91578,11 +91551,11 @@ endfunction
         set caster=null
     endfunction
     
-    function ThePlagueR___AddToGroup takes unit caster,group units,real x,real y returns nothing
+    function ThePlagueR__AddToGroup takes unit caster,group units,real x,real y returns nothing
         local group g= CreateGroup()
         local unit u
         
-        call GroupEnumUnitsInRange(g, x, y, ThePlagueR___STEP_SIZE * 2, null)
+        call GroupEnumUnitsInRange(g, x, y, ThePlagueR__STEP_SIZE * 2, null)
         loop
             set u=FirstOfGroup(g)
             exitwhen u == null
@@ -91600,7 +91573,7 @@ endfunction
         set caster=null
     endfunction
 
-    function ThePlagueR___AddUnitsToGroup takes unit caster,real x,real y,real damage,real bonus returns nothing
+    function ThePlagueR__AddUnitsToGroup takes unit caster,real x,real y,real damage,real bonus returns nothing
         local group units= CreateGroup()
         local integer newPoint= 0
         local integer casterPoint= s__point__allocate()
@@ -91617,15 +91590,15 @@ endfunction
 
         call s__point_SetFromPoint(newPoint,casterPoint)
         set i=1
-        set iEnd=R2I(distance / ThePlagueR___STEP_SIZE) + 1
+        set iEnd=R2I(distance / ThePlagueR__STEP_SIZE) + 1
         loop
             exitwhen i > iEnd
-            set newPoint=GetMovedPointByPoint(newPoint , angle , ThePlagueR___STEP_SIZE)
-            call ThePlagueR___AddToGroup(caster , units , s__point_x[newPoint] , s__point_y[newPoint])
+            set newPoint=GetMovedPointByPoint(newPoint , angle , ThePlagueR__STEP_SIZE)
+            call ThePlagueR__AddToGroup(caster , units , s__point_x[newPoint] , s__point_y[newPoint])
             set i=i + 1
         endloop
         
-        call ThePlagueR___UseLightning(caster , units , damage , bonus)
+        call ThePlagueR__UseLightning(caster , units , damage , bonus)
         
         call s__point_deallocate(casterPoint)
         call s__point_deallocate(targetPoint)
@@ -91654,7 +91627,7 @@ endfunction
             set level=udg_Level
             set x=GetUnitX(caster) + GetRandomReal(- 650, 650)
             set y=GetUnitY(caster) + GetRandomReal(- 650, 650)
-            call textst(udg_string[0] + GetObjectName(ThePlagueR___ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
+            call textst(udg_string[0] + GetObjectName(ThePlagueR__ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
         else
             set caster=GetSpellAbilityUnit()
             set level=GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())
@@ -91662,15 +91635,15 @@ endfunction
             set y=GetLocationY(GetSpellTargetLoc())
         endif
         
-        set damage=ThePlagueR___DAMAGE_FIRST_LEVEL + ( ThePlagueR___DAMAGE_LEVEL_BONUS * level )
-        set bonus=ThePlagueR___DAMAGE_BONUS_FIRST_LEVEL + ( level * ThePlagueR___DAMAGE_BONUS_LEVEL_BONUS )
-        call ThePlagueR___AddUnitsToGroup(caster , x , y , damage , bonus)
+        set damage=ThePlagueR__DAMAGE_FIRST_LEVEL + ( ThePlagueR__DAMAGE_LEVEL_BONUS * level )
+        set bonus=ThePlagueR__DAMAGE_BONUS_FIRST_LEVEL + ( level * ThePlagueR__DAMAGE_BONUS_LEVEL_BONUS )
+        call ThePlagueR__AddUnitsToGroup(caster , x , y , damage , bonus)
 
         set caster=null
     endfunction
 
     //===========================================================================
-    function ThePlagueR___init takes nothing returns nothing
+    function ThePlagueR__init takes nothing returns nothing
         set gg_trg_The_PlagueR=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_The_PlagueR, EVENT_PLAYER_UNIT_SPELL_EFFECT)
         call TriggerAddCondition(gg_trg_The_PlagueR, Condition(function Trig_The_PlagueR_Conditions))
@@ -91938,13 +91911,13 @@ endfunction
         return udg_fightmod[1] and DeathIf(GetDyingUnit())
     endfunction
 
-    function HeroDeath___Del takes nothing returns nothing
+    function HeroDeath__Del takes nothing returns nothing
         if not ( IsUnitType(GetEnumUnit(), UNIT_TYPE_HERO) ) then
             call h__RemoveUnit(GetEnumUnit())
         endif
     endfunction
     
-    function HeroDeath___SecondChance takes nothing returns nothing
+    function HeroDeath__SecondChance takes nothing returns nothing
         local boolean l
         local integer j
         local integer i
@@ -91979,7 +91952,7 @@ endfunction
         set u=null
     endfunction
     
-    function HeroDeath___Defeat takes nothing returns nothing
+    function HeroDeath__Defeat takes nothing returns nothing
         local player pl
         local integer i
     
@@ -91999,7 +91972,7 @@ endfunction
             if GetPlayerSlotState(pl) == PLAYER_SLOT_STATE_PLAYING then
                 call MMD_FlagPlayer(pl , MMD_FLAG_LOSER)
             endif
-            call ForGroupBJ(GetUnitsInRectOfPlayer(gg_rct_ArenaBoss, pl), function HeroDeath___Del)
+            call ForGroupBJ(GetUnitsInRectOfPlayer(gg_rct_ArenaBoss, pl), function HeroDeath__Del)
             set i=i + 1
         endloop
         call TriggerExecute(gg_trg_Caption)
@@ -92017,15 +91990,15 @@ endfunction
         if udg_Heroes_Deaths == udg_Heroes_Amount then
             call DisableTrigger(GetTriggeringTrigger())
             if udg_Heroes_Chanse > 0 then
-                call HeroDeath___SecondChance()
+                call HeroDeath__SecondChance()
             else
-                call HeroDeath___Defeat()
+                call HeroDeath__Defeat()
             endif
         endif
     endfunction
 
     //===========================================================================
-    function HeroDeath___init takes nothing returns nothing
+    function HeroDeath__init takes nothing returns nothing
         set gg_trg_HeroDeath=CreateTrigger()
         call DisableTrigger(gg_trg_HeroDeath)
         call TriggerRegisterAnyUnitEventBJ(gg_trg_HeroDeath, EVENT_PLAYER_UNIT_DEATH)
@@ -92590,7 +92563,7 @@ endfunction
 // scope LowHP begins
 
 
-    function LowHP___SetCineFilter takes player owner,boolean isActive returns nothing
+    function LowHP__SetCineFilter takes player owner,boolean isActive returns nothing
         if GetLocalPlayer() == owner then
             call DisplayCineFilter(isActive)
         endif
@@ -92599,7 +92572,7 @@ endfunction
         set owner=null
     endfunction
 
-    function LowHP___HPVision takes nothing returns nothing
+    function LowHP__HPVision takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local unit hero= LoadUnitHandle(udg_hash, id, StringHash("hpvis"))
         local player owner= GetOwningPlayer(hero)
@@ -92608,29 +92581,29 @@ endfunction
         local boolean isActive= LoadBoolean(udg_hash, GetHandleId(owner), StringHash("hpvis"))
         
         if udg_combatlogic[GetUnitUserData(hero)] == false then
-            call LowHP___SetCineFilter(owner , false)
+            call LowHP__SetCineFilter(owner , false)
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
-        elseif healthPercent <= LowHP___HEALTH_NEEDED and IsUnitAlive(hero) and not ( isActive ) then
-            call LowHP___SetCineFilter(owner , true)
-        elseif ( healthPercent > LowHP___HEALTH_NEEDED or IsUnitDead(hero) ) and isActive then
-            call LowHP___SetCineFilter(owner , false)
+        elseif healthPercent <= LowHP__HEALTH_NEEDED and IsUnitAlive(hero) and not ( isActive ) then
+            call LowHP__SetCineFilter(owner , true)
+        elseif ( healthPercent > LowHP__HEALTH_NEEDED or IsUnitDead(hero) ) and isActive then
+            call LowHP__SetCineFilter(owner , false)
         endif
         
         set hero=null
         set owner=null
     endfunction
     
-    function LowHP___FightStart_Conditions takes nothing returns boolean
+    function LowHP__FightStart_Conditions takes nothing returns boolean
         return udg_FightStart_Unit != null and udg_combatlogic[GetUnitUserData(udg_FightStart_Unit)]
     endfunction
 
-    function LowHP___FightStart takes nothing returns nothing
-        call InvokeTimerWithUnit(udg_FightStart_Unit , "hpvis" , 1 , true , function LowHP___HPVision)
+    function LowHP__FightStart takes nothing returns nothing
+        call InvokeTimerWithUnit(udg_FightStart_Unit , "hpvis" , 1 , true , function LowHP__HPVision)
     endfunction
 
-    function LowHP___init takes nothing returns nothing
-        call CreateEventTrigger("udg_FightStart_Real" , function LowHP___FightStart , function LowHP___FightStart_Conditions)
+    function LowHP__init takes nothing returns nothing
+        call CreateEventTrigger("udg_FightStart_Real" , function LowHP__FightStart , function LowHP__FightStart_Conditions)
     endfunction
 // scope LowHP ends
 //===========================================================================
@@ -94007,17 +93980,17 @@ endfunction
 // scope Totem1 begins
 
 
-    function Totem1___Trig_Totem1_Conditions takes nothing returns boolean
-        return GetUnitTypeId(udg_DamageEventTarget) == Totem1_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= Totem1___HEALTH_CHECK
+    function Totem1__Trig_Totem1_Conditions takes nothing returns boolean
+        return GetUnitTypeId(udg_DamageEventTarget) == Totem1_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= Totem1__HEALTH_CHECK
     endfunction
     
-    function Totem1___DealDamage takes effect area,integer id returns nothing
+    function Totem1__DealDamage takes effect area,integer id returns nothing
         local unit boss= LoadUnitHandle(udg_hash, id, StringHash("bstmeb"))
         local real damage= LoadReal(udg_hash, id, StringHash("bstme"))
         local group g= CreateGroup()
         local unit u
     
-        call GroupEnumUnitsInRange(g, BlzGetLocalSpecialEffectX(area), BlzGetLocalSpecialEffectY(area), Totem1___AREA, null)
+        call GroupEnumUnitsInRange(g, BlzGetLocalSpecialEffectX(area), BlzGetLocalSpecialEffectY(area), Totem1__AREA, null)
         loop
             set u=FirstOfGroup(g)
             exitwhen u == null
@@ -94034,24 +94007,24 @@ endfunction
         set area=null
     endfunction
 
-    function Totem1___CastFire takes nothing returns nothing
+    function Totem1__CastFire takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local effect area= LoadEffectHandle(udg_hash, id, StringHash("bstme"))
         local integer counter= LoadInteger(udg_hash, id, StringHash("bstme")) + 1
         
-        if counter >= Totem1___TICKS or area == null then
+        if counter >= Totem1__TICKS or area == null then
             call DestroyEffect(area)
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
         else
-            call Totem1___DealDamage(area , id)
+            call Totem1__DealDamage(area , id)
             call SaveInteger(udg_hash, id, StringHash("bstme"), counter)
         endif
         
         set area=null
     endfunction
 
-    function Totem1___DelayEnd takes nothing returns nothing
+    function Totem1__DelayEnd takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local effect area= LoadEffectHandle(udg_hash, id, StringHash("bstmf"))
         local unit caster= LoadUnitHandle(udg_hash, id, StringHash("bstmfb"))
@@ -94060,8 +94033,8 @@ endfunction
         local integer id1
         
         if IsUnitAlive(caster) then
-            set fire=AddSpecialEffect(Totem1___FIRE_ANIMATION, BlzGetLocalSpecialEffectX(area), BlzGetLocalSpecialEffectY(area))
-            set id1=InvokeTimerWithEffect(fire , "bstme" , Totem1___EXPLODE_DELAY , true , function Totem1___CastFire)
+            set fire=AddSpecialEffect(Totem1__FIRE_ANIMATION, BlzGetLocalSpecialEffectX(area), BlzGetLocalSpecialEffectY(area))
+            set id1=InvokeTimerWithEffect(fire , "bstme" , Totem1__EXPLODE_DELAY , true , function Totem1__CastFire)
             call SaveUnitHandle(udg_hash, id1, StringHash("bstmeb"), caster)
             call SaveReal(udg_hash, id1, StringHash("bstme"), damage)
         endif
@@ -94077,9 +94050,9 @@ endfunction
         local integer id
         local effect area= AddSpecialEffect(DEATH_AREA, x, y)
         
-        call BlzSetSpecialEffectScale(area, Totem1___AREA / 100)
+        call BlzSetSpecialEffectScale(area, Totem1__AREA / 100)
         
-        set id=InvokeTimerWithEffect(area , "bstmf" , Totem1___EXPLODE_DELAY , false , function Totem1___DelayEnd)
+        set id=InvokeTimerWithEffect(area , "bstmf" , Totem1__EXPLODE_DELAY , false , function Totem1__DelayEnd)
         call SaveUnitHandle(udg_hash, id, StringHash("bstmfb"), caster)
         call SaveReal(udg_hash, id, StringHash("bstmf"), damage)
         
@@ -94098,9 +94071,9 @@ endfunction
         else
             set target=GroupPickRandomUnit(udg_otryad)
             if GetRandomInt(1, 3) == 1 and target != null then
-                call Totem1_SpawnFireArea(boss , GetUnitX(target) , GetUnitY(target) , Totem1___DAMAGE)
+                call Totem1_SpawnFireArea(boss , GetUnitX(target) , GetUnitY(target) , Totem1__DAMAGE)
             else
-                call Totem1_SpawnFireArea(boss , Math_GetUnitRandomX(boss , Totem1___SCATTER) , Math_GetUnitRandomY(boss , Totem1___SCATTER) , Totem1___DAMAGE)
+                call Totem1_SpawnFireArea(boss , Math_GetUnitRandomX(boss , Totem1__SCATTER) , Math_GetUnitRandomY(boss , Totem1__SCATTER) , Totem1__DAMAGE)
             endif
         endif
         
@@ -94108,14 +94081,14 @@ endfunction
         set boss=null
     endfunction
 
-    function Totem1___Trig_Totem1_Actions takes nothing returns nothing
+    function Totem1__Trig_Totem1_Actions takes nothing returns nothing
         call DisableTrigger(GetTriggeringTrigger())
-        call InvokeTimerWithUnit(udg_DamageEventTarget , "bstm1" , bosscast(Totem1___EXPLODE_COOLDOWN) , true , function Totem1_TotemCast)
+        call InvokeTimerWithUnit(udg_DamageEventTarget , "bstm1" , bosscast(Totem1__EXPLODE_COOLDOWN) , true , function Totem1_TotemCast)
     endfunction
 
     //===========================================================================
-    function Totem1___init takes nothing returns nothing
-        set gg_trg_Totem1=CreateEventTrigger("udg_AfterDamageEvent" , function Totem1___Trig_Totem1_Actions , function Totem1___Trig_Totem1_Conditions)
+    function Totem1__init takes nothing returns nothing
+        set gg_trg_Totem1=CreateEventTrigger("udg_AfterDamageEvent" , function Totem1__Trig_Totem1_Actions , function Totem1__Trig_Totem1_Conditions)
         call DisableTrigger(gg_trg_Totem1)
     endfunction
 
@@ -94126,11 +94099,11 @@ endfunction
 // scope Totem2 begins
 
 
-    function Totem2___Trig_Totem2_Conditions takes nothing returns boolean
-        return GetUnitTypeId(udg_DamageEventTarget) == Totem1_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= Totem2___HEALTH_CHECK
+    function Totem2__Trig_Totem2_Conditions takes nothing returns boolean
+        return GetUnitTypeId(udg_DamageEventTarget) == Totem1_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= Totem2__HEALTH_CHECK
     endfunction
 
-    function Totem2___Totem2Cast takes nothing returns nothing
+    function Totem2__Totem2Cast takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local integer i= 1
         local unit boss= LoadUnitHandle(udg_hash, id, StringHash("bstm3t"))
@@ -94139,12 +94112,12 @@ endfunction
         if IsUnitDead(boss) or IsUnitDead(shadow) or udg_fightmod[0] == false then
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
-        elseif DistanceBetweenUnits(boss , shadow) <= Totem2___ACTIVATE_DISTANCE then
+        elseif DistanceBetweenUnits(boss , shadow) <= Totem2__ACTIVATE_DISTANCE then
             call KillUnit(shadow)
             loop
                 exitwhen i > PLAYERS_LIMIT
                 if IsUnitAlive(udg_hero[i]) then
-                    call Totem1_SpawnFireArea(boss , GetUnitX(udg_hero[i]) , GetUnitY(udg_hero[i]) , Totem2___DAMAGE)
+                    call Totem1_SpawnFireArea(boss , GetUnitX(udg_hero[i]) , GetUnitY(udg_hero[i]) , Totem2__DAMAGE)
                 endif
                 set i=i + 1
             endloop
@@ -94165,13 +94138,13 @@ endfunction
         loop
             exitwhen i > PLAYERS_LIMIT
             if IsUnitAlive(udg_hero[i]) then
-                set x=GetUnitX(boss) + Totem2___DISTANCE * Cos(( 45 + ( 90 * i ) ) * bj_DEGTORAD)
-                set y=GetUnitY(boss) + Totem2___DISTANCE * Sin(( 45 + ( 90 * i ) ) * bj_DEGTORAD)
-                set bj_lastCreatedUnit=CreateUnit(GetOwningPlayer(boss), Totem2___ID_SHADOW, x, y, 270)
+                set x=GetUnitX(boss) + Totem2__DISTANCE * Cos(( 45 + ( 90 * i ) ) * bj_DEGTORAD)
+                set y=GetUnitY(boss) + Totem2__DISTANCE * Sin(( 45 + ( 90 * i ) ) * bj_DEGTORAD)
+                set bj_lastCreatedUnit=CreateUnit(GetOwningPlayer(boss), Totem2__ID_SHADOW, x, y, 270)
                 call PingMinimapLocForForceEx(bj_FORCE_ALL_PLAYERS, GetUnitLoc(bj_lastCreatedUnit), 5, bj_MINIMAPPINGSTYLE_ATTACK, 100, 50, 50)
                 call IssuePointOrder(bj_lastCreatedUnit, "move", GetUnitX(boss), GetUnitY(boss))
 
-                set id=InvokeTimerWithUnit(bj_lastCreatedUnit , "bstm3" , Totem2___TICK_CHECK , true , function Totem2___Totem2Cast)
+                set id=InvokeTimerWithUnit(bj_lastCreatedUnit , "bstm3" , Totem2__TICK_CHECK , true , function Totem2__Totem2Cast)
                 call SaveUnitHandle(udg_hash, id, StringHash("bstm3t"), boss)
             endif
             set i=i + 1
@@ -94180,14 +94153,14 @@ endfunction
         set boss=null
     endfunction
     
-    function Totem2___Trig_Totem2_Actions takes nothing returns nothing
+    function Totem2__Trig_Totem2_Actions takes nothing returns nothing
         call DisableTrigger(GetTriggeringTrigger())
         call Totem2_SpawnShadows(udg_DamageEventTarget)
     endfunction
 
     //===========================================================================
-    function Totem2___init takes nothing returns nothing
-        set gg_trg_Totem2=CreateEventTrigger("udg_AfterDamageEvent" , function Totem2___Trig_Totem2_Actions , function Totem2___Trig_Totem2_Conditions)
+    function Totem2__init takes nothing returns nothing
+        set gg_trg_Totem2=CreateEventTrigger("udg_AfterDamageEvent" , function Totem2__Trig_Totem2_Actions , function Totem2__Trig_Totem2_Conditions)
         call DisableTrigger(gg_trg_Totem2)
     endfunction
 
@@ -94198,18 +94171,18 @@ endfunction
 // scope Totem3 begins
 
 
-    function Totem3___Trig_Totem3_Conditions takes nothing returns boolean
-        return GetUnitTypeId(udg_DamageEventTarget) == Totem1_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= Totem3___HEALTH_CHECK
+    function Totem3__Trig_Totem3_Conditions takes nothing returns boolean
+        return GetUnitTypeId(udg_DamageEventTarget) == Totem1_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= Totem3__HEALTH_CHECK
     endfunction
 
-    function Totem3___Trig_Totem3_Actions takes nothing returns nothing
+    function Totem3__Trig_Totem3_Actions takes nothing returns nothing
         call DisableTrigger(GetTriggeringTrigger())
-        call InvokeTimerWithUnit(udg_DamageEventTarget , "bstm1" , bosscast(Totem3___EXPLODE_COOLDOWN) , true , function Totem1_TotemCast)
+        call InvokeTimerWithUnit(udg_DamageEventTarget , "bstm1" , bosscast(Totem3__EXPLODE_COOLDOWN) , true , function Totem1_TotemCast)
     endfunction
 
     //===========================================================================
-    function Totem3___init takes nothing returns nothing
-        set gg_trg_Totem3=CreateEventTrigger("udg_AfterDamageEvent" , function Totem3___Trig_Totem3_Actions , function Totem3___Trig_Totem3_Conditions)
+    function Totem3__init takes nothing returns nothing
+        set gg_trg_Totem3=CreateEventTrigger("udg_AfterDamageEvent" , function Totem3__Trig_Totem3_Actions , function Totem3__Trig_Totem3_Conditions)
         call DisableTrigger(gg_trg_Totem3)
     endfunction
 
@@ -94221,7 +94194,7 @@ endfunction
 
 
     function Trig_Totem4_Conditions takes nothing returns boolean
-        return GetUnitTypeId(udg_DamageEventTarget) == Totem1_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= Totem4___HEALTH_CHECK
+        return GetUnitTypeId(udg_DamageEventTarget) == Totem1_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= Totem4__HEALTH_CHECK
     endfunction
 
     function Trig_Totem4_Actions takes nothing returns nothing
@@ -94230,7 +94203,7 @@ endfunction
     endfunction
 
     //===========================================================================
-    function Totem4___init takes nothing returns nothing
+    function Totem4__init takes nothing returns nothing
         set gg_trg_Totem4=CreateEventTrigger("udg_AfterDamageEvent" , function Trig_Totem4_Actions , function Trig_Totem4_Conditions)
         call DisableTrigger(gg_trg_Totem4)
     endfunction
@@ -102158,9 +102131,9 @@ endfunction
         else
             set u=HeroMoreHP(null)
             if u != null then
-                call Lightning_CreateLightning("AFOD" , GetUnitX(boss) , GetUnitY(boss) , GetUnitFlyHeight(boss) + War01__LIGHTNING_Z_DEVIATION , GetUnitX(u) , GetUnitY(u) , GetUnitFlyHeight(u) + War01__LIGHTNING_Z_DEVIATION , War01__LIGHTNING_LIFE_TIME)
+                call Lightning_CreateLightning("AFOD" , GetUnitX(boss) , GetUnitY(boss) , GetUnitFlyHeight(boss) + War01___LIGHTNING_Z_DEVIATION , GetUnitX(u) , GetUnitY(u) , GetUnitFlyHeight(u) + War01___LIGHTNING_Z_DEVIATION , War01___LIGHTNING_LIFE_TIME)
                 call DestroyEffect(AddSpecialEffect("Objects\\Spawnmodels\\Orc\\OrcSmallDeathExplode\\OrcSmallDeathExplode.mdl", GetUnitX(u), GetUnitY(u)))
-                call AddHealthPercent(u , War01__CONSUMED_PERCENT_HEALTH)
+                call AddHealthPercent(u , War01___CONSUMED_PERCENT_HEALTH)
             endif
         endif
         
@@ -102170,11 +102143,11 @@ endfunction
 
     function Trig_War1_Actions takes nothing returns nothing
         call DisableTrigger(GetTriggeringTrigger())
-        call InvokeTimerWithUnit(udg_DamageEventTarget , "bswr" , bosscast(War01__COOLDOWN) , true , function War1Cast)
+        call InvokeTimerWithUnit(udg_DamageEventTarget , "bswr" , bosscast(War01___COOLDOWN) , true , function War1Cast)
     endfunction
 
     //===========================================================================
-    function War01__init takes nothing returns nothing
+    function War01___init takes nothing returns nothing
         set gg_trg_War1=CreateEventTrigger("udg_AfterDamageEvent" , function Trig_War1_Actions , function Trig_War1_Conditions)
         call DisableTrigger(gg_trg_War1)
     endfunction
@@ -102188,7 +102161,7 @@ endfunction
 
 
     function Trig_War2_Conditions takes nothing returns boolean
-        return GetUnitTypeId(udg_DamageEventTarget) == War01_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= War02__HEALTH_CHECK
+        return GetUnitTypeId(udg_DamageEventTarget) == War01_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= War02___HEALTH_CHECK
     endfunction
 
     function Trig_War2_Actions takes nothing returns nothing
@@ -102198,15 +102171,15 @@ endfunction
         loop
             exitwhen i > PLAYERS_LIMIT
             if IsUnitAlive(udg_hero[i]) then
-                set bj_lastCreatedUnit=CreateUnit(GetOwningPlayer(udg_DamageEventTarget), War02__SUMMONED_MINION, Math_GetUnitRandomX(udg_DamageEventTarget , War02__SUMMON_DEVIATION), Math_GetUnitRandomY(udg_DamageEventTarget , War02__SUMMON_DEVIATION), GetRandomReal(0, 360))
-                call PlaySpecialEffect(War02__ANIMATION , bj_lastCreatedUnit)
+                set bj_lastCreatedUnit=CreateUnit(GetOwningPlayer(udg_DamageEventTarget), War02___SUMMONED_MINION, Math_GetUnitRandomX(udg_DamageEventTarget , War02___SUMMON_DEVIATION), Math_GetUnitRandomY(udg_DamageEventTarget , War02___SUMMON_DEVIATION), GetRandomReal(0, 360))
+                call PlaySpecialEffect(War02___ANIMATION , bj_lastCreatedUnit)
             endif
             set i=i + 1
         endloop
     endfunction
 
     //===========================================================================
-    function War02__init takes nothing returns nothing
+    function War02___init takes nothing returns nothing
         set gg_trg_War2=CreateEventTrigger("udg_AfterDamageEvent" , function Trig_War2_Actions , function Trig_War2_Conditions)
         call DisableTrigger(gg_trg_War2)
     endfunction
@@ -102219,7 +102192,7 @@ endfunction
 
 
     function Trig_War3_Conditions takes nothing returns boolean
-        return GetUnitTypeId(udg_DamageEventTarget) == War01_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= War03__HEALTH_CHECK
+        return GetUnitTypeId(udg_DamageEventTarget) == War01_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= War03___HEALTH_CHECK
     endfunction
 
     function War3End takes nothing returns nothing
@@ -102229,17 +102202,17 @@ endfunction
         local group g= CreateGroup()
         local unit u
         
-        call GroupEnumUnitsInRange(g, BlzGetLocalSpecialEffectX(area), BlzGetLocalSpecialEffectY(area), War03__AREA, null)
+        call GroupEnumUnitsInRange(g, BlzGetLocalSpecialEffectX(area), BlzGetLocalSpecialEffectY(area), War03___AREA, null)
         loop
             set u=FirstOfGroup(g)
             exitwhen u == null
             if unitst(u , boss , TARGET_ENEMY) and combat(u , false , 0) then
                 if not ( IsUnitType(u, UNIT_TYPE_ANCIENT) ) and not ( IsUnitType(u, UNIT_TYPE_HERO) ) then
                     call SetUnitOwner(u, Player(PLAYER_NEUTRAL_AGGRESSIVE), true)
-                    call PlaySpecialEffect(War03__ANIMATION , u)
+                    call PlaySpecialEffect(War03___ANIMATION , u)
                 else
-                    call AddTemporaryBerserk(u , War03__BERSERK_DURATION)
-                    call PlaySpecialEffect(War03__ANIMATION , u)
+                    call AddTemporaryBerserk(u , War03___BERSERK_DURATION)
+                    call PlaySpecialEffect(War03___ANIMATION , u)
                 endif
             endif
             call GroupRemoveUnit(g, u)
@@ -102266,10 +102239,10 @@ endfunction
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
         else
-            set area=AddSpecialEffect(DEATH_AREA, Math_GetUnitRandomX(boss , War03__AREA_DEVIATION), Math_GetUnitRandomY(boss , War03__AREA_DEVIATION))
-            call BlzSetSpecialEffectScale(area, War03__AREA / 100)
+            set area=AddSpecialEffect(DEATH_AREA, Math_GetUnitRandomX(boss , War03___AREA_DEVIATION), Math_GetUnitRandomY(boss , War03___AREA_DEVIATION))
+            call BlzSetSpecialEffectScale(area, War03___AREA / 100)
             
-            set id1=InvokeTimerWithEffect(area , "bswr4" , bosscast(War03__DELAY) , false , function War3End)
+            set id1=InvokeTimerWithEffect(area , "bswr4" , bosscast(War03___DELAY) , false , function War3End)
             call SaveUnitHandle(udg_hash, id1, StringHash("bswr4b"), boss)
         endif
         
@@ -102279,11 +102252,11 @@ endfunction
 
     function Trig_War3_Actions takes nothing returns nothing
         call DisableTrigger(GetTriggeringTrigger())
-        call InvokeTimerWithUnit(udg_DamageEventTarget , "bswr3" , bosscast(War03__COOLDOWN) , true , function War3Cast)
+        call InvokeTimerWithUnit(udg_DamageEventTarget , "bswr3" , bosscast(War03___COOLDOWN) , true , function War3Cast)
     endfunction
 
     //===========================================================================
-    function War03__init takes nothing returns nothing
+    function War03___init takes nothing returns nothing
         set gg_trg_War3=CreateEventTrigger("udg_AfterDamageEvent" , function Trig_War3_Actions , function Trig_War3_Conditions)
         call DisableTrigger(gg_trg_War3)
     endfunction
@@ -102298,17 +102271,17 @@ endfunction
 
 
     function Trig_War4_Conditions takes nothing returns boolean
-        return GetUnitTypeId(udg_DamageEventTarget) == War01_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= War04__HEALTH_CHECK
+        return GetUnitTypeId(udg_DamageEventTarget) == War01_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= War04___HEALTH_CHECK
     endfunction
 
     function Trig_War4_Actions takes nothing returns nothing
         call DisableTrigger(GetTriggeringTrigger())
-        set bj_lastCreatedUnit=CreateUnit(GetOwningPlayer(udg_DamageEventTarget), War04__SUMMONED_MINION, Math_GetUnitRandomX(udg_DamageEventTarget , War04__SUMMON_DEVIATION), Math_GetUnitRandomY(udg_DamageEventTarget , War04__SUMMON_DEVIATION), GetRandomReal(0, 360))
-        call PlaySpecialEffect(War04__ANIMATION , bj_lastCreatedUnit)
+        set bj_lastCreatedUnit=CreateUnit(GetOwningPlayer(udg_DamageEventTarget), War04___SUMMONED_MINION, Math_GetUnitRandomX(udg_DamageEventTarget , War04___SUMMON_DEVIATION), Math_GetUnitRandomY(udg_DamageEventTarget , War04___SUMMON_DEVIATION), GetRandomReal(0, 360))
+        call PlaySpecialEffect(War04___ANIMATION , bj_lastCreatedUnit)
     endfunction
 
     //===========================================================================
-    function War04__init takes nothing returns nothing
+    function War04___init takes nothing returns nothing
         set gg_trg_War4=CreateEventTrigger("udg_AfterDamageEvent" , function Trig_War4_Actions , function Trig_War4_Conditions)
         call DisableTrigger(gg_trg_War4)
     endfunction
@@ -102321,7 +102294,7 @@ endfunction
 
 
     function Trig_War5_Conditions takes nothing returns boolean
-        return GetUnitTypeId(udg_DamageEventTarget) == War01_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= War05__HEALTH_CHECK
+        return GetUnitTypeId(udg_DamageEventTarget) == War01_ID_BOSS and GetUnitLifePercent(udg_DamageEventTarget) <= War05___HEALTH_CHECK
     endfunction
 
     function Trig_War5_Actions takes nothing returns nothing
@@ -102331,7 +102304,7 @@ endfunction
         local integer kEnd
 
         call DisableTrigger(GetTriggeringTrigger())
-        call DestroyEffect(AddSpecialEffectTarget(War05__ANIMATION, udg_DamageEventTarget, "origin"))
+        call DestroyEffect(AddSpecialEffectTarget(War05___ANIMATION, udg_DamageEventTarget, "origin"))
         
         set i=0
         set iEnd=PLAYERS_LIMIT - 1
@@ -102347,14 +102320,14 @@ endfunction
                 set k=k + 1
             endloop
             if IsUnitAlive(udg_hero[i + 1]) then
-                call PlaySpecialEffect(War05__ANIMATION , udg_hero[i + 1])
+                call PlaySpecialEffect(War05___ANIMATION , udg_hero[i + 1])
             endif
             set i=i + 1
         endloop
     endfunction
 
     //===========================================================================
-    function War05__init takes nothing returns nothing
+    function War05___init takes nothing returns nothing
         set gg_trg_War5=CreateEventTrigger("udg_AfterDamageEvent" , function Trig_War5_Actions , function Trig_War5_Conditions)
         call DisableTrigger(gg_trg_War5)
     endfunction
@@ -102366,15 +102339,15 @@ endfunction
 // scope BossAku1 begins
 
 
-    function BossAku1__condition takes nothing returns boolean
-        return GetUnitTypeId(udg_DamageEventTarget) == BossAku1__BOSS_ID
+    function BossAku1___condition takes nothing returns boolean
+        return GetUnitTypeId(udg_DamageEventTarget) == BossAku1___BOSS_ID
     endfunction
 
-    function BossAku1__cast takes nothing returns nothing
+    function BossAku1___cast takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
-        local unit boss= LoadUnitHandle(udg_hash, id, BossAku1__STRING_HASH)
-        local real range= LoadReal(udg_hash, id, BossAku1__STRING_HASH)
-        local unit champion= LoadUnitHandle(udg_hash, GetHandleId(boss), BossAku1__STRING_HASH)
+        local unit boss= LoadUnitHandle(udg_hash, id, BossAku1___STRING_HASH)
+        local real range= LoadReal(udg_hash, id, BossAku1___STRING_HASH)
+        local unit champion= LoadUnitHandle(udg_hash, GetHandleId(boss), BossAku1___STRING_HASH)
 
         if IsUnitDeadBJ(boss) or not ( udg_fightmod[0] ) then
             call FlushChildHashtable(udg_hash, id)
@@ -102383,9 +102356,9 @@ endfunction
             set champion=randomtarget(boss , range , "enemy" , "hero" , "" , "" , "")
             if champion != null then
                 call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS, 8, "|cffffcc00CHAMPION: " + udg_Player_Color[GetConvertedPlayerId(GetOwningPlayer(champion))] + GetUnitName(champion) + "|r.")
-                call SaveUnitHandle(udg_hash, GetHandleId(boss), BossAku1__STRING_HASH, champion)
-            elseif range < BossAku1__SEARCH_RANGE_MAX then
-                call SaveReal(udg_hash, id, BossAku1__STRING_HASH, range + BossAku1__SEARCH_RANGE_ADDITIVE)
+                call SaveUnitHandle(udg_hash, GetHandleId(boss), BossAku1___STRING_HASH, champion)
+            elseif range < BossAku1___SEARCH_RANGE_MAX then
+                call SaveReal(udg_hash, id, BossAku1___STRING_HASH, range + BossAku1___SEARCH_RANGE_ADDITIVE)
             endif
         else
             call IssueTargetOrder(boss, "attack", champion)
@@ -102395,28 +102368,28 @@ endfunction
         set champion=null
     endfunction
 
-    function BossAku1__action takes nothing returns nothing
+    function BossAku1___action takes nothing returns nothing
         local integer id= GetHandleId(udg_DamageEventTarget)
         local integer timerId
         local timer t
         
         call DisableTrigger(GetTriggeringTrigger())
         
-        if LoadTimerHandle(udg_hash, id, BossAku1__STRING_HASH) == null then
-            call SaveTimerHandle(udg_hash, id, BossAku1__STRING_HASH, CreateTimer())
+        if LoadTimerHandle(udg_hash, id, BossAku1___STRING_HASH) == null then
+            call SaveTimerHandle(udg_hash, id, BossAku1___STRING_HASH, CreateTimer())
         endif
-        set t=LoadTimerHandle(udg_hash, id, BossAku1__STRING_HASH)
+        set t=LoadTimerHandle(udg_hash, id, BossAku1___STRING_HASH)
         set timerId=GetHandleId(t)
-        call SaveUnitHandle(udg_hash, timerId, BossAku1__STRING_HASH, udg_DamageEventTarget)
-        call SaveReal(udg_hash, timerId, BossAku1__STRING_HASH, BossAku1__SEARCH_RANGE_INITIAL)
-        call TimerStart(t, BossAku1__TICK, true, function BossAku1__cast)
+        call SaveUnitHandle(udg_hash, timerId, BossAku1___STRING_HASH, udg_DamageEventTarget)
+        call SaveReal(udg_hash, timerId, BossAku1___STRING_HASH, BossAku1___SEARCH_RANGE_INITIAL)
+        call TimerStart(t, BossAku1___TICK, true, function BossAku1___cast)
         
         set t=null
     endfunction
 
     //===========================================================================
-    function BossAku1__init takes nothing returns nothing
-        set gg_trg_Aku1=CreateEventTrigger("udg_AfterDamageEvent" , function BossAku1__action , function BossAku1__condition)
+    function BossAku1___init takes nothing returns nothing
+        set gg_trg_Aku1=CreateEventTrigger("udg_AfterDamageEvent" , function BossAku1___action , function BossAku1___condition)
         call DisableTrigger(gg_trg_Aku1)
     endfunction
 
@@ -107233,7 +107206,7 @@ endfunction
         endfunction
         
     
-    function IADatabase__init takes nothing returns nothing
+    function IADatabase___init takes nothing returns nothing
                 set s__IADatabase_Units[0]= s__UnitIA_create('u00B' , 3 , 1 , 20 , 10 , 100 , 75 , 0)
                set s__IADatabase_Units[1]= s__UnitIA_create('n022' , 5 , 2 , 25 , 12 , 90 , 60 , 5)
                  set s__IADatabase_Units[2]= s__UnitIA_create('u00P' , 5 , 2 , 15 , 8 , 70 , 50 , 5)
@@ -107268,11 +107241,11 @@ endfunction
 
     
     function InfiniteArena_GetRound takes nothing returns integer
-        return InfiniteArena__round
+        return InfiniteArena___round
     endfunction
 
     //=========Aggro===========
-    function InfiniteArena__unit_search takes nothing returns boolean
+    function InfiniteArena___unit_search takes nothing returns boolean
         local unit filtered= GetFilterUnit()
         local boolean b
         
@@ -107290,7 +107263,7 @@ endfunction
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
         else
-            call GroupEnumUnitsInRect(g, gg_rct_RandomItem, Condition(function InfiniteArena__unit_search))
+            call GroupEnumUnitsInRect(g, gg_rct_RandomItem, Condition(function InfiniteArena___unit_search))
             loop
                 set u=FirstOfGroup(g)
                 exitwhen u == null
@@ -107305,31 +107278,31 @@ endfunction
     endfunction
     //=========================
     
-    function InfiniteArena__SpawnRune takes nothing returns nothing
+    function InfiniteArena___SpawnRune takes nothing returns nothing
         set bj_lastCreatedItem=CreateItem('I03J' + GetRandomInt(1, 6), GetRandomReal(GetRectMinX(udg_Boss_Rect), GetRectMaxX(udg_Boss_Rect)), GetRandomReal(GetRectMinY(udg_Boss_Rect), GetRectMaxY(udg_Boss_Rect)))
         call DestroyEffect(AddSpecialEffect("Abilities\\Spells\\Orc\\FeralSpirit\\feralspirittarget.mdl", GetItemX(bj_lastCreatedItem), GetItemY(bj_lastCreatedItem)))
     endfunction
     
-    function InfiniteArena__SpawnUnit takes integer unitNumber,integer spawnPosition returns nothing
+    function InfiniteArena___SpawnUnit takes integer unitNumber,integer spawnPosition returns nothing
         local integer unitSctruct= s__IADatabase_Units[unitNumber]
         local integer id
         
         set bj_lastCreatedUnit=CreateUnitAtLoc(Player(10), s__UnitIA_Rawcode[unitSctruct], udg_point[spawnPosition + 13], 90 * spawnPosition - 45)
         call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Orc\\FeralSpirit\\feralspirittarget.mdl", bj_lastCreatedUnit, "origin"))
         
-        call BlzSetUnitMaxHP(bj_lastCreatedUnit, s__UnitIA_Health_Initial[unitSctruct] + ( s__UnitIA_Health_Increase[unitSctruct] * InfiniteArena__round ))
-        call BlzSetUnitBaseDamage(bj_lastCreatedUnit, s__UnitIA_Attack_Initial[unitSctruct] + ( s__UnitIA_Attack_Increase[unitSctruct] * InfiniteArena__round ), 0)
-        call SetUnitMoveSpeed(bj_lastCreatedUnit, GetUnitDefaultMoveSpeed(bj_lastCreatedUnit) + ( s__UnitIA_Speed_Increase[unitSctruct] * InfiniteArena__round ))
+        call BlzSetUnitMaxHP(bj_lastCreatedUnit, s__UnitIA_Health_Initial[unitSctruct] + ( s__UnitIA_Health_Increase[unitSctruct] * InfiniteArena___round ))
+        call BlzSetUnitBaseDamage(bj_lastCreatedUnit, s__UnitIA_Attack_Initial[unitSctruct] + ( s__UnitIA_Attack_Increase[unitSctruct] * InfiniteArena___round ), 0)
+        call SetUnitMoveSpeed(bj_lastCreatedUnit, GetUnitDefaultMoveSpeed(bj_lastCreatedUnit) + ( s__UnitIA_Speed_Increase[unitSctruct] * InfiniteArena___round ))
         call SetUnitLifePercentBJ(bj_lastCreatedUnit, 100)
         
         set id=GetHandleId(bj_lastCreatedUnit)
-        call SaveInteger(udg_hash, id, StringHash("roundIA"), InfiniteArena__round)
-        call SaveInteger(udg_hash, id, StringHash("goldIA"), s__UnitIA_Gold_Initial[unitSctruct] + ( s__UnitIA_Gold_Increase[unitSctruct] * InfiniteArena__round ))
+        call SaveInteger(udg_hash, id, StringHash("roundIA"), InfiniteArena___round)
+        call SaveInteger(udg_hash, id, StringHash("goldIA"), s__UnitIA_Gold_Initial[unitSctruct] + ( s__UnitIA_Gold_Increase[unitSctruct] * InfiniteArena___round ))
         
         set unitSctruct=0
     endfunction
 
-    function InfiniteArena__StartSpawn takes nothing returns nothing
+    function InfiniteArena___StartSpawn takes nothing returns nothing
         
         local integer id= GetHandleId(GetExpiredTimer())
         
@@ -107346,24 +107319,24 @@ endfunction
             call DestroyTimer(GetExpiredTimer())
         else
             set minionAmount=CountUnitsInGroup(GetUnitsInRectOfPlayer(gg_rct_RandomItem, Player(10)))
-            if minionAmount <= InfiniteArena__enemySpawnLimit then
+            if minionAmount <= InfiniteArena___enemySpawnLimit then
                 set i=1
                 loop
                     exitwhen i > 4
-                    call InfiniteArena__SpawnUnit(s__IADatabase_PackUnit[(InfiniteArena__pack)*(4)+i - 1] , i)
+                    call InfiniteArena___SpawnUnit(s__IADatabase_PackUnit[(InfiniteArena___pack)*(4)+i - 1] , i)
                     set i=i + 1
                 endloop
             endif
             
-            set InfiniteArena__pack=InfiniteArena__pack + 1
-            if InfiniteArena__pack >= IADatabase_PACK_AMOUNT then
-                set InfiniteArena__pack=0
+            set InfiniteArena___pack=InfiniteArena___pack + 1
+            if InfiniteArena___pack >= IADatabase_PACK_AMOUNT then
+                set InfiniteArena___pack=0
             endif
             
-            set InfiniteArena__upgrade_counter=InfiniteArena__upgrade_counter + 1
-            if InfiniteArena__upgrade_counter >= IADatabase_WAVES_UNTIL_UPGRADE then
-                set InfiniteArena__upgrade_counter=0
-                set InfiniteArena__round=InfiniteArena__round + 1
+            set InfiniteArena___upgrade_counter=InfiniteArena___upgrade_counter + 1
+            if InfiniteArena___upgrade_counter >= IADatabase_WAVES_UNTIL_UPGRADE then
+                set InfiniteArena___upgrade_counter=0
+                set InfiniteArena___round=InfiniteArena___round + 1
             endif
             
             
@@ -107373,9 +107346,9 @@ endfunction
             
             //===============
             
-            call InfiniteArena__SpawnRune()
+            call InfiniteArena___SpawnRune()
             if udg_modgood[21] then
-                call InfiniteArena__SpawnRune()
+                call InfiniteArena___SpawnRune()
             endif
             
         endif
@@ -107409,10 +107382,10 @@ endfunction
         endloop
         
         //Arena Starter
-        set InfiniteArena__round=( udg_Arena_LvL[0] * 2 )
-        set InfiniteArena__pack=0
-        set InfiniteArena__upgrade_counter=0
-        set InfiniteArena__enemySpawnLimit=IADatabase_ENEMY_LIMIT_BASE * udg_Heroes_Amount + IADatabase_ENEMY_LIMIT_PER_HERO
+        set InfiniteArena___round=( udg_Arena_LvL[0] * 2 )
+        set InfiniteArena___pack=0
+        set InfiniteArena___upgrade_counter=0
+        set InfiniteArena___enemySpawnLimit=IADatabase_ENEMY_LIMIT_BASE * udg_Heroes_Amount + IADatabase_ENEMY_LIMIT_PER_HERO
         set id=StringHash("IA_spawner")
         
         if LoadTimerHandle(udg_hash, 1, id) == null then
@@ -107420,7 +107393,7 @@ endfunction
         endif
         //call SaveInteger( udg_hash, id, StringHash( "IAtime" ), 7 )
         //call SaveInteger( udg_hash, id, StringHash( "IAhard" ), (udg_Arena_LvL[0]*2)+1 )
-        call TimerStart(LoadTimerHandle(udg_hash, 1, id), IADatabase_PACK_SPAWN_COOLDOWN, true, function InfiniteArena__StartSpawn)
+        call TimerStart(LoadTimerHandle(udg_hash, 1, id), IADatabase_PACK_SPAWN_COOLDOWN, true, function InfiniteArena___StartSpawn)
         
         call EnableTrigger(gg_trg_IA_End)
         //==================
@@ -107463,7 +107436,7 @@ endfunction
     endfunction
 
     //===========================================================================
-    function InfiniteArena__init takes nothing returns nothing
+    function InfiniteArena___init takes nothing returns nothing
         set gg_trg_IA_StartWork=CreateTrigger()
         call TriggerAddAction(gg_trg_IA_StartWork, function Trig_IA_StartWork_Actions)
     endfunction
@@ -107510,10 +107483,10 @@ endfunction
 
 
     function Trig_AbomDeath_Conditions takes nothing returns boolean
-        return GetUnitAbilityLevel(GetDyingUnit(), AbominationExplosion__ABILITY_ID) > 0
+        return GetUnitAbilityLevel(GetDyingUnit(), AbominationExplosion___ABILITY_ID) > 0
     endfunction
     
-    function AbominationExplosion__unit_search takes nothing returns boolean
+    function AbominationExplosion___unit_search takes nothing returns boolean
         local unit filtered= GetFilterUnit()
         local unit caster= GetDyingUnit()
         local boolean b
@@ -107530,7 +107503,7 @@ endfunction
         local unit u
         local effect fx
         local integer round= IMaxBJ(LoadInteger(udg_hash, GetHandleId(caster), StringHash("roundIA")), 1)
-        local real dmg= AbominationExplosion__DAMAGE_INITIAL + ( AbominationExplosion__DAMAGE_PER_ROUND * round )
+        local real dmg= AbominationExplosion___DAMAGE_INITIAL + ( AbominationExplosion___DAMAGE_PER_ROUND * round )
         
         call ShowUnit(caster, false)
         set fx=AddSpecialEffectToUnit("Units\\Undead\\Abomination\\AbominationExplosion.mdl" , caster)
@@ -107538,7 +107511,7 @@ endfunction
         call DestroyEffect(fx)
         
         call dummyspawn(caster , 1 , 0 , 0 , 0)
-        call GroupEnumUnitsInRange(g, GetUnitX(caster), GetUnitY(caster), AbominationExplosion__RADIUS, Condition(function AbominationExplosion__unit_search))
+        call GroupEnumUnitsInRange(g, GetUnitX(caster), GetUnitY(caster), AbominationExplosion___RADIUS, Condition(function AbominationExplosion___unit_search))
         loop
             set u=FirstOfGroup(g)
             exitwhen u == null
@@ -107553,7 +107526,7 @@ endfunction
     endfunction
 
     //===========================================================================
-    function AbominationExplosion__init takes nothing returns nothing
+    function AbominationExplosion___init takes nothing returns nothing
         set gg_trg_AbomDeath=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_AbomDeath, EVENT_PLAYER_UNIT_DEATH)
         call TriggerAddCondition(gg_trg_AbomDeath, Condition(function Trig_AbomDeath_Conditions))
@@ -108901,10 +108874,8 @@ endfunction
 
 //===========================================================================
 function InitCustomTriggers takes nothing returns nothing
-    call InitTrig_Untitled_Trigger_001()
     call InitTrig_Untitled_Trigger_002()
-    call InitTrig_Untitled_Trigger_003()
-    call InitTrig_Untitled_Trigger_004()
+    call InitTrig_Untitled_Trigger_005()
     //Function not found: call InitTrig_List()
     //Function not found: call InitTrig_Text()
     //Function not found: call InitTrig_Spd()
@@ -110489,7 +110460,7 @@ function main takes nothing returns nothing
     call CreateAllUnits()
     call InitBlizzard()
 
-call ExecuteFunc("jasshelper__initstructs24843984")
+call ExecuteFunc("jasshelper__initstructs21628296")
 call ExecuteFunc("Aspects__init")
 call ExecuteFunc("HeroesTableDatabase__init")
 call ExecuteFunc("MMD__init")
@@ -110522,10 +110493,10 @@ call TimerStart(CreateTimer(), 0.05, false, function JuleFrame__Action) // INLIN
 call HeroesChoise__init()
 call ManaReg__init()
 call AncientSword__init()
-call BoStaff___init()
+call BoStaff__init()
 call CreateEventTrigger("udg_AfterDamageEvent" , function Trig_Bloody_Mary_Actions , function Trig_Bloody_Mary_Conditions) // INLINED!!
 call CreateEventTrigger("Event_ItemSplit_Real" , function ItemSplit , function ItemSplit_Conditions) // INLINED!!
-call EnchantedThorium___Triggs()
+call EnchantedThorium__Triggs()
 call CreateEventTrigger("Event_AfterHeal_Real" , function MixtureOfIllusions___AfterHeal , function MixtureOfIllusions___AfterHeal_Conditions) // INLINED!!
 call CreateEventTrigger("udg_AfterDamageEvent" , function Trig_Runestone_Ston_Actions , function Trig_Runestone_Ston_Conditions) // INLINED!!
 call ShadowGenerator___init()
@@ -110545,8 +110516,8 @@ call Zuma___init()
 call GoldenLamp___Triggs()
 call SuperbotLeg___init()
 call CloudHorn___init()
-call PandorasBoxInvul___Triggs()
-call BraccusWex___Triggs()
+call PandorasBoxInvul__Triggs()
+call BraccusWex__Triggs()
 call AlchemistsStone__init()
 call ChameleonEye__init()
 call CreateEventTrigger("Event_AfterHeal_Real" , function AfterHeal , function AfterHeal_Conditions) // INLINED!!
@@ -110587,10 +110558,10 @@ call ArmsmasterW__init()
 call ArmsmasterE__init()
 call KnightR__init()
 call CreateEventTrigger("udg_AfterDamageEvent" , function BarbarianE__Trig_BarbarianE_Actions , function BarbarianE__Trig_BarbarianE_Conditions) // INLINED!!
-call MarshalE__Triggs()
-call ShadowArcherE__Triggs()
-call SamuraiW__Triggs()
-call SamuraiR__init()
+call MarshalE___Triggs()
+call ShadowArcherE___Triggs()
+call SamuraiW___Triggs()
+call SamuraiR___init()
 call GunMasterR___init()
 call CreateEventTrigger("udg_DamageModifierEvent" , function GamblerE___DamageModifierEvent , function GamblerE___DamageModifierEvent_Conditions) // INLINED!!
 call GamblerR___init()
@@ -110621,31 +110592,31 @@ call CorruptedEntUpgrade___Triggs()
 call CorruptedEntW___Triggs()
 call CorruptedEntE___init()
 call CorruptedR___init()
-call CircusW___init()
-call ThePlagueQ___init()
-call ThePlagueW___init()
-call ThePlagueE___init()
-call ThePlagueR___init()
-call HeroDeath___init()
-call CreateEventTrigger("udg_FightStart_Real" , function LowHP___FightStart , function LowHP___FightStart_Conditions) // INLINED!!
-call Totem1___init()
-call Totem2___init()
-call Totem3___init()
-call Totem4___init()
+call CircusW__init()
+call ThePlagueQ__init()
+call ThePlagueW__init()
+call ThePlagueE__init()
+call ThePlagueR__init()
+call HeroDeath__init()
+call CreateEventTrigger("udg_FightStart_Real" , function LowHP__FightStart , function LowHP__FightStart_Conditions) // INLINED!!
+call Totem1__init()
+call Totem2__init()
+call Totem3__init()
+call Totem4__init()
 call Totem5__init()
 call Fedor2__init()
 call CreateEventTrigger("udg_FightEndGlobal_Real" , function FightEndGlobal , null) // INLINED!!
 call Ogre__init()
 call Banshee2__init()
-call War01__init()
-call War02__init()
-call War03__init()
-call War04__init()
-call War05__init()
-call BossAku1__init()
-call IADatabase__init()
-call InfiniteArena__init()
-call AbominationExplosion__init()
+call War01___init()
+call War02___init()
+call War03___init()
+call War04___init()
+call War05___init()
+call BossAku1___init()
+call IADatabase___init()
+call InfiniteArena___init()
+call AbominationExplosion___init()
 call CreateEventTrigger("Event_PvPButtonClicked_Real" , function PAStart___PvPButtonClicked , null) // INLINED!!
 call OverloadArena___init()
 call MoneyAL___init()
@@ -110717,7 +110688,7 @@ function sa___prototype84_onRemovalBoss takes nothing returns boolean
     return true
 endfunction
 
-function jasshelper__initstructs24843984 takes nothing returns nothing
+function jasshelper__initstructs21628296 takes nothing returns nothing
     set st__AbilityFrame_SetNameAndDescription=CreateTrigger()
     call TriggerAddCondition(st__AbilityFrame_SetNameAndDescription,Condition( function sa__AbilityFrame_SetNameAndDescription))
     set st__MMD__QueueNode_onDestroy=CreateTrigger()

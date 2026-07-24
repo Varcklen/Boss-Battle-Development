@@ -2552,6 +2552,16 @@ STRING 405
 Mephistar
 }
 
+STRING 406
+// Items: I049 (Crystallized Life), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Increases the Health Regeneration of all heroes by 5.
+Activation: Restore |cffbe81f7300|r health to another hero.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 35 mana.
+}
+
 STRING 407
 // Units: O01J ((S) Fallen One), Propernames (Proper Names)
 {
@@ -4000,6 +4010,15 @@ Destroys an item.
 |cffffcc00Potions are destroyed for free.|r
 }
 
+STRING 636
+// Items: I049 (Crystallized Life), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Increases the Health Regeneration of all heroes by 5.
+Activation: Restore |cffbe81f7300|r health to another hero.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 637
 // Items: IZ01 (Sacred Stone), Name (Name)
 {
@@ -4010,6 +4029,15 @@ STRING 638
 // Items: IZ01 (Sacred Stone), Tip (Tooltip - Basic)
 {
 Sacred Stone
+}
+
+STRING 639
+// Items: I048 (Crystallized Mana), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Increases Mana Regeneration of all heroes by 3.
+Activation: Restore |cffbe81f7100|r mana to another hero.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 640
@@ -4245,13 +4273,6 @@ STRING 676
 |cffff0000Swap!|r
 }
 
-STRING 677
-// Items: I0H8 (Bo Staff), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases attack power by 3. Every 10 seconds, increases attack power by 1 until end of battle.
-}
-
 STRING 678
 // Items: I0H8 (Bo Staff), Name (Name)
 {
@@ -4262,13 +4283,6 @@ STRING 679
 // Items: I0H8 (Bo Staff), Tip (Tooltip - Basic)
 {
 Bo Staff
-}
-
-STRING 680
-// Items: I0H8 (Bo Staff), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases attack power by 3. Every 10 seconds, increases attack power by 1 until end of battle.
 }
 
 STRING 681
@@ -4481,6 +4495,15 @@ STRING 713
 Fire
 }
 
+STRING 714
+// Items: I048 (Crystallized Mana), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Increases Mana Regeneration of all heroes by 3.
+Activation: Restore |cffbe81f7100|r mana to another hero.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 715
 // Items: I0GY (Alchemist's Stone), Name (Name)
 {
@@ -4656,6 +4679,12 @@ You put an artifact in a circle of exchange. At the beginning of the battle, the
 |cffffcc00If the inventory is full, it will delete a random item and move to its place.|r
 }
 
+STRING 742
+// Abilities: A1IS (Artifact: Crystallized Life), Name (Name)
+{
+Artifact: Crystallized Life
+}
+
 STRING 743
 // Items: I0GR (Zuma), Name (Name)
 {
@@ -4666,6 +4695,12 @@ STRING 744
 // Items: I0GR (Zuma), Tip (Tooltip - Basic)
 {
 Zuma
+}
+
+STRING 745
+// Abilities: A1IT (Artifact: Crystallized Mana), Name (Name)
+{
+Artifact: Crystallized Mana
 }
 
 STRING 746
@@ -4898,6 +4933,14 @@ Restores |cffbe81f7100%|r health to an allied minion and increases its attack by
 |cffffcc00Cooldown:|r 7 seconds.
 }
 
+STRING 781
+// Items: I06J (Resonator), Description (Description)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+Increases Spell Power by 10%.
+|cffbe81f7Spell Power|r also works on your Attack Damage.
+}
+
 STRING 782
 // Items: I0GH (Tear of As'ha), Name (Name)
 {
@@ -4908,6 +4951,14 @@ STRING 783
 // Items: I0GH (Tear of As'ha), Tip (Tooltip - Basic)
 {
 Tear of As'ha
+}
+
+STRING 784
+// Items: I06J (Resonator), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+Increases Spell Power by 10%.
+|cffbe81f7Spell Power|r also works on your Attack Damage.
 }
 
 STRING 785
@@ -5062,13 +5113,6 @@ Increases attack speed of the next 6/8/10/12/14 attacks by 150%.
 |cffffcc00Cost:|r 35 mana.
 }
 
-STRING 809
-// Items: I0GA (Goat Dragon Claw), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-When the hero attacks, with a |cffd7df0110%|r chance, increases the spell power for |cff60C445Unique|r by 20% until the end of the battle. Stacks up to 10 times.
-}
-
 STRING 810
 // Items: I0GA (Goat Dragon Claw), Name (Name)
 {
@@ -5079,13 +5123,6 @@ STRING 811
 // Items: I0GA (Goat Dragon Claw), Tip (Tooltip - Basic)
 {
 Goat Dragon Claw
-}
-
-STRING 812
-// Items: I0GA (Goat Dragon Claw), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-When the hero attacks, with a |cffd7df0110%|r chance, increases the spell power for |cff60C445Unique|r by 20% until the end of the battle. Stacks up to 10 times.
 }
 
 STRING 813
@@ -7445,34 +7482,6 @@ STRING 1149
 Reduces cooldown of abilities and items by 6%.|nAdditionally, reduces cooldown of abilities and items by 3% for each other |cffb18904mech|r in the inventory.
 }
 
-STRING 1150
-// Items: I0DX (Serrated blade), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-When the hero attacks, inflicts bleeding on the enemy, which deals damage every second equal to |cffbe81f71.6%|r of the hero's maximum health.
-|cffffcc00Duration:|r 5 seconds.
-}
-
-STRING 1151
-// Items: I0DX (Serrated blade), Name (Name)
-{
-Serrated blade
-}
-
-STRING 1152
-// Items: I0DX (Serrated blade), Tip (Tooltip - Basic)
-{
-Serrated blade
-}
-
-STRING 1153
-// Items: I0DX (Serrated blade), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-When the hero attacks, inflicts bleeding on the enemy, which deals damage every second equal to |cffbe81f71.6%|r of the hero's maximum health.
-|cffffcc00Duration:|r 5 seconds.
-}
-
 STRING 1154
 // Items: I0DW (Purified matter), Description (Description)
 {
@@ -7767,6 +7776,18 @@ STRING 1193
 |cff81f260[Random bonus]|r
 }
 
+STRING 1195
+// Items: I0CZ (Thunder Citrine), Name (Name)
+{
+Thunder Citrine
+}
+
+STRING 1196
+// Items: I0CZ (Thunder Citrine), Tip (Tooltip - Basic)
+{
+Thunder Citrine
+}
+
 STRING 1198
 // Items: I0DL (Pentagram), Description (Description)
 {
@@ -8049,13 +8070,6 @@ Activation: Target another hero to make them invulnerable for 10 seconds.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 1238
-// Items: I0DB (Blockade), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Reduces physical damage taken by 10%.
-}
-
 STRING 1239
 // Items: I0DB (Blockade), Name (Name)
 {
@@ -8066,13 +8080,6 @@ STRING 1240
 // Items: I0DB (Blockade), Tip (Tooltip - Basic)
 {
 Blockade
-}
-
-STRING 1241
-// Items: I0DB (Blockade), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Reduces physical damage taken by 10%.
 }
 
 STRING 1242
@@ -8375,34 +8382,6 @@ STRING 1285
 // Items: I0HH (Energy Charge), Name (Name)
 {
 Energy Charge
-}
-
-STRING 1286
-// Items: I0CZ (Thundering citrine), Description (Description)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-When the hero uses an ability or item, deals |cffbe81f710|r damage to all nearby enemies for each nearby enemy.
-|cff81f260[Random bonus]|r
-}
-
-STRING 1287
-// Items: I0CZ (Thundering citrine), Name (Name)
-{
-Thundering citrine
-}
-
-STRING 1288
-// Items: I0CZ (Thundering citrine), Tip (Tooltip - Basic)
-{
-Thundering citrine
-}
-
-STRING 1289
-// Items: I0CZ (Thundering citrine), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-When the hero uses an ability or item, deals |cffbe81f710|r damage to all nearby enemies for each nearby enemy.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1290
@@ -9572,6 +9551,32 @@ STRING 1461
 Increases spell power by 0.5% for each point of your hero's strength.
 }
 
+STRING 1462
+// Abilities: A1IU (Artifact: Thunder Citrine), Name (Name)
+{
+Artifact: Thunder Citrine
+}
+
+STRING 1463
+// Items: I0DX (Serrated Blade), Description (Description)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+The hero's attacks inflict bleeding, periodically dealing damage equal to |cffbe81f72%|r of the attacker's health.
+|cffffcc00Duration:|r 5 seconds.
+}
+
+STRING 1464
+// Items: I0DX (Serrated Blade), Name (Name)
+{
+Serrated Blade
+}
+
+STRING 1465
+// Items: I0DX (Serrated Blade), Tip (Tooltip - Basic)
+{
+Serrated Blade
+}
+
 STRING 1466
 // Abilities: A1HA (Extra: Crystallization (Crystal Mimic)), Name (Name)
 {
@@ -9600,6 +9605,14 @@ STRING 1470
 // Abilities: AZ08 (Artifact: Deep Purple), Name (Name)
 {
 Artifact: Deep Purple
+}
+
+STRING 1471
+// Items: I0DX (Serrated Blade), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+The hero's attacks inflict bleeding, periodically dealing damage equal to |cffbe81f72%|r of the attacker's health.
+|cffffcc00Duration:|r 5 seconds.
 }
 
 STRING 1472
@@ -10664,6 +10677,15 @@ Activation: Releases energy and deals up to |cffbe81f72000|r damage to the enemy
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
+STRING 1626
+// Items: I0CZ (Thunder Citrine), Description (Description)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Deal |cffbe81f7250|r damage to an enemy. The next activated artifact triggers twice.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
 STRING 1627
 // Items: I0AM (Amalgam), Name (Name)
 {
@@ -10676,10 +10698,32 @@ STRING 1628
 Amalgam
 }
 
+STRING 1629
+// Items: I0CZ (Thunder Citrine), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff00cceeCrystal|r
+Activation: Deal |cffbe81f7250|r damage to an enemy. The next activated artifact triggers twice.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 1630
 // Abilities: A1EZ ((т)Аура: Invisibility), Name (Name)
 {
 (т)Аура: Invisibility
+}
+
+STRING 1631
+// Items: I05Z (Kryptonite Knife), Description (Description)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+Increases Attack Damage by 40%. Reduces Spell Power by 25%.
+}
+
+STRING 1632
+// Items: I05Z (Kryptonite Knife), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+Increases Attack Damage by 40%. Reduces Spell Power by 25%.
 }
 
 STRING 1633
@@ -10692,6 +10736,20 @@ STRING 1634
 // Buffs/Effects: B0AL (), Bufftip (Tooltip)
 {
 |cff00ff00Invisibility|r
+}
+
+STRING 1635
+// Items: I04T (Shield of Lo'Gosh), Description (Description)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+When the hero takes damage, there is a |cffd7df0115%|r chance to increase Armor by 1 and Attack Damage by 8%. Stacks up to 5 times.
+|cffffcc00Duration:|r 30 seconds.
+}
+
+STRING 1636
+// Items: I04T (Shield of Lo'Gosh), Name (Name)
+{
+Shield of Lo'Gosh
 }
 
 STRING 1637
@@ -11364,6 +11422,12 @@ STRING 1733
 When your minion is summoned, it increases attack power and health by 40% |cffffffffand reduces movement speed by 20%|r.
 }
 
+STRING 1734
+// Items: I04T (Shield of Lo'Gosh), Tip (Tooltip - Basic)
+{
+Shield of Lo'Gosh
+}
+
 STRING 1735
 // Items: IV03 (Festive Cupcake), Ubertip (Tooltip - Extended)
 {
@@ -11376,6 +11440,14 @@ STRING 1736
 {
 |cffB614F0Starting Bonus|r
 Get 75 max Mana.
+}
+
+STRING 1737
+// Items: I04T (Shield of Lo'Gosh), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+When the hero takes damage, there is a |cffd7df0115%|r chance to increase Armor by 1 and Attack Damage by 8%. Stacks up to 5 times.
+|cffffcc00Duration:|r 30 seconds.
 }
 
 STRING 1738
@@ -11404,13 +11476,6 @@ STRING 1741
 Reduces the attack and movement speed of enemy minions near the hero by 80%.
 }
 
-STRING 1742
-// Items: I09T (Spiked Shield), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases strength by 4. When the hero is attacked, deals |cffbe81f78|r damage to the enemy.
-}
-
 STRING 1743
 // Items: I09T (Spiked Shield), Name (Name)
 {
@@ -11421,13 +11486,6 @@ STRING 1744
 // Items: I09T (Spiked Shield), Tip (Tooltip - Basic)
 {
 Spiked Shield
-}
-
-STRING 1745
-// Items: I09T (Spiked Shield), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases strength by 4. When the hero is attacked, deals |cffbe81f78|r damage to the enemy.
 }
 
 STRING 1746
@@ -11773,13 +11831,6 @@ STRING 1798
 |cffffcc00Amplifier:|r Legendary
 }
 
-STRING 1799
-// Items: I09F (Ogre Staff), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases intelligence by 4. When the hero attacks, with the probability |cffd7df015%|r, it restores |cffbe81f720|r mana.
-}
-
 STRING 1800
 // Items: I09F (Ogre Staff), Name (Name)
 {
@@ -11790,13 +11841,6 @@ STRING 1801
 // Items: I09F (Ogre Staff), Tip (Tooltip - Basic)
 {
 Ogre Staff
-}
-
-STRING 1802
-// Items: I09F (Ogre Staff), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases intelligence by 4. When the hero attacks, with the probability |cffd7df015%|r, it restores |cffbe81f720|r mana.
 }
 
 STRING 1803
@@ -12387,14 +12431,6 @@ STRING 1882
 When you summon a minion, it increases its attack power by 5. If it is a sheep, it also doubles its attack power and health.
 }
 
-STRING 1883
-// Items: I08U (Crystal Barrier), Description (Description)
-{
-|cff4169e1Rare|r, |cff2d9995Weapon|r
-Gain a barrier every 30 seconds, which reduces damage taken by 15% and enemies take damage equal to their |cffbe81f7attack power|r. If the hero has the "|cff00cceeCrystal|r" set bonus, all heroes gain the barrier.
-|cffffcc00Duration:|r 10 seconds.
-}
-
 STRING 1884
 // Items: I08U (Crystal Barrier), Name (Name)
 {
@@ -12405,14 +12441,6 @@ STRING 1885
 // Items: I08U (Crystal Barrier), Tip (Tooltip - Basic)
 {
 Crystal Barrier
-}
-
-STRING 1886
-// Items: I08U (Crystal Barrier), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff2d9995Weapon|r
-Gain a barrier every 30 seconds, which reduces damage taken by 15% and enemies take damage equal to their |cffbe81f7attack power|r. If the hero has the "|cff00cceeCrystal|r" set bonus, all heroes gain the barrier.
-|cffffcc00Duration:|r 10 seconds.
 }
 
 STRING 1887
@@ -12957,6 +12985,12 @@ STRING 1967
 |cffffcc00Amplifier:|r Mythical
 }
 
+STRING 1968
+// Buffs/Effects: B032 (), Bufftip (Tooltip)
+{
+|cff00ff00Activation|r
+}
+
 STRING 1969
 // Items: I088 (Ventusite), Name (Name)
 {
@@ -12967,6 +13001,12 @@ STRING 1970
 // Items: I088 (Ventusite), Tip (Tooltip - Basic)
 {
 Ventusite
+}
+
+STRING 1971
+// Buffs/Effects: B032 (), Buffubertip (Tooltip - Extended)
+{
+The next activated artifact triggers twice.
 }
 
 STRING 1972
@@ -13511,13 +13551,6 @@ STRING 2051
 Increases intelligence by 10. Collect all 3 Paragon artifacts to unite them.
 }
 
-STRING 2052
-// Items: I07N (Scimitar), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases attack speed by 30%. If the hero’s health is less than 50%, it is reduced instead.
-}
-
 STRING 2053
 // Items: I07N (Scimitar), Name (Name)
 {
@@ -13528,13 +13561,6 @@ STRING 2054
 // Items: I07N (Scimitar), Tip (Tooltip - Basic)
 {
 Scimitar
-}
-
-STRING 2055
-// Items: I07N (Scimitar), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases attack speed by 30%. If the hero’s health is less than 50%, it is reduced instead.
 }
 
 STRING 2056
@@ -13900,13 +13926,6 @@ The effect is cumulative.
 |cffffcc00Cooldown:|r 28 seconds.
 }
 
-STRING 2108
-// Items: I079 (Hook Hands), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases physical damage by 10%.
-}
-
 STRING 2109
 // Items: I079 (Hook Hands), Name (Name)
 {
@@ -13917,13 +13936,6 @@ STRING 2110
 // Items: I079 (Hook Hands), Tip (Tooltip - Basic)
 {
 Hook Hands
-}
-
-STRING 2111
-// Items: I079 (Hook Hands), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases physical damage by 10%.
 }
 
 STRING 2112
@@ -14613,11 +14625,10 @@ With a |cffd7df0125%|r chance, the hero can dodge an attack, deal critical damag
 }
 
 STRING 2212
-// Items: I06J (Resonator), Description (Description)
+// Items: I0DB (Blockade), Description (Description)
 {
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Increases spell power by 10%.
-|cffbe81f7Spell power|r also works on your attack power.
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Reduces damage taken from minions by 20%.
 }
 
 STRING 2213
@@ -14638,11 +14649,10 @@ Stat: Phy Damage Taken -10%
 }
 
 STRING 2215
-// Items: I06J (Resonator), Ubertip (Tooltip - Extended)
+// Items: I0DB (Blockade), Ubertip (Tooltip - Extended)
 {
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Increases spell power by 10%.
-|cffbe81f7Spell power|r also works on your attack power.
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Reduces damage taken from minions by 20%.
 }
 
 STRING 2216
@@ -15076,6 +15086,13 @@ STRING 2279
 Activation: |cffcc0000Corrupted|r. Gives an artifact of |cffbababccommon|r quality. If the hero does not have a |cffe96a1clegendary|r artifact, gives a |cffe96a1clegendary|r artifact instead.
 }
 
+STRING 2280
+// Items: I02P (Ancient Sword), Description (Description)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+The hero's attacks have an |cffd7df018%|r chance to trigger a wave that deals |cffbe81f760|r damage. Each hero level increases this chance by 1%.
+}
+
 STRING 2281
 // Items: I062 (Sapphire), Name (Name)
 {
@@ -15086,6 +15103,13 @@ STRING 2282
 // Items: I062 (Sapphire), Tip (Tooltip - Basic)
 {
 Sapphire
+}
+
+STRING 2283
+// Items: I02P (Ancient Sword), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+The hero's attacks have an |cffd7df018%|r chance to trigger a wave that deals |cffbe81f760|r damage. Each hero level increases this chance by 1%.
 }
 
 STRING 2284
@@ -15130,14 +15154,6 @@ STRING 2290
 Rune of the Illusionist
 }
 
-STRING 2291
-// Items: I05Z (Kryptonite Knife), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Reduces spell power by 30%. 
-Increases attack power by 45%.
-}
-
 STRING 2292
 // Items: I05Z (Kryptonite Knife), Name (Name)
 {
@@ -15148,14 +15164,6 @@ STRING 2293
 // Items: I05Z (Kryptonite Knife), Tip (Tooltip - Basic)
 {
 Kryptonite Knife
-}
-
-STRING 2294
-// Items: I05Z (Kryptonite Knife), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Reduces spell power by 30%. 
-Increases attack power by 45%.
 }
 
 STRING 2295
@@ -16182,36 +16190,6 @@ When the hero takes damage, with a probability of |cffd7df0133%|r, summon a shee
 |cffffcc00Life time:|r 60 seconds.
 }
 
-STRING 2452
-// Items: I04Y (Long bow), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-When the hero attacks, with a probability of |cffd7df0110%|r, increases the attack speed by 10%.
-Stacks up to three times.
-|cffffcc00Duration:|r 15 seconds.
-}
-
-STRING 2453
-// Items: I04Y (Long bow), Name (Name)
-{
-Long bow
-}
-
-STRING 2454
-// Items: I04Y (Long bow), Tip (Tooltip - Basic)
-{
-Long bow
-}
-
-STRING 2455
-// Items: I04Y (Long bow), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-When the hero attacks, with a probability of |cffd7df0110%|r, increases the attack speed by 10%.
-Stacks up to three times.
-|cffffcc00Duration:|r 15 seconds.
-}
-
 STRING 2456
 // Items: I0C3 (Yah's Tear), Name (Name)
 {
@@ -16238,13 +16216,6 @@ At least one Artifact Reward will be |cffcc0000corrupted|r.
 When you use a |cffcc0000corrupted|r artifact, this is destroyed instead.
 }
 
-STRING 2460
-// Items: I04W (Heavy ax), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-When the hero attacks, with a probability of |cffd7df0110%|r, deals 3 times more damage.
-}
-
 STRING 2461
 // Items: I04W (Heavy ax), Name (Name)
 {
@@ -16255,13 +16226,6 @@ STRING 2462
 // Items: I04W (Heavy ax), Tip (Tooltip - Basic)
 {
 Heavy ax
-}
-
-STRING 2463
-// Items: I04W (Heavy ax), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-When the hero attacks, with a probability of |cffd7df0110%|r, deals 3 times more damage.
 }
 
 STRING 2464
@@ -16320,43 +16284,6 @@ Increases spell power based on missing health
 |cff81f260[Random bonus]|r
 }
 
-STRING 2472
-// Items: I04T (Lo'Gosh's Shield), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff2d9995Weapon|r
-When the hero takes damage, with a probability of |cffd7df0115%|r, increases armor by 1 and attack power by 8%. Stacks up to five times.
-|cffffcc00Duration:|r 30 seconds.
-}
-
-STRING 2473
-// Items: I04T (Lo'Gosh's Shield), Name (Name)
-{
-Lo'Gosh's Shield
-}
-
-STRING 2474
-// Items: I04T (Lo'Gosh's Shield), Tip (Tooltip - Basic)
-{
-Lo'Gosh's Shield
-}
-
-STRING 2475
-// Items: I04T (Lo'Gosh's Shield), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff2d9995Weapon|r
-When the hero takes damage, with a probability of |cffd7df0115%|r, increases armor by 1 and attack power by 8%. Stacks up to five times.
-|cffffcc00Duration:|r 30 seconds.
-}
-
-STRING 2476
-// Items: I04S (Great Tree Shield), Description (Description)
-{
-|cff4169e1Rare|r, |cff2d9995Weapon|r
-When the hero takes damage, with a probability of |cffd7df0110%|r, increases health regeneration by 2.
-Stacks up to five times.
-|cffffcc00Duration:|r 18 seconds.
-}
-
 STRING 2477
 // Items: I04S (Great Tree Shield), Name (Name)
 {
@@ -16369,13 +16296,11 @@ STRING 2478
 Great Tree Shield
 }
 
-STRING 2479
-// Items: I04S (Great Tree Shield), Ubertip (Tooltip - Extended)
+STRING 2480
+// Items: I025 (Battle Halberd), Description (Description)
 {
-|cff4169e1Rare|r, |cff2d9995Weapon|r
-When the hero takes damage, with a probability of |cffd7df0110%|r, increases health regeneration by 2.
-Stacks up to five times.
-|cffffcc00Duration:|r 18 seconds.
+|cffbababcCommon|r, |cff2d9995Weapon|r
+The hero's attacks reduce the target's armor by 5 for 7 seconds. There's an |cffd7df018%|r chance to permanently reduce the target's armor by 1.
 }
 
 STRING 2481
@@ -16388,6 +16313,13 @@ STRING 2482
 // Items: I04R (Tesseract), Tip (Tooltip - Basic)
 {
 Tesseract
+}
+
+STRING 2483
+// Items: I025 (Battle Halberd), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+The hero's attacks reduce the target's armor by 5 for 7 seconds. There's an |cffd7df018%|r chance to permanently reduce the target's armor by 1.
 }
 
 STRING 2484
@@ -16909,13 +16841,6 @@ STRING 2560
 When the hero attacks, with a probability of |cffd7df012%|r, it increases the random stat.
 }
 
-STRING 2561
-// Items: I046 (Chakrum), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases attack speed by 10% and intelligence by 3.
-}
-
 STRING 2562
 // Items: I046 (Chakrum), Name (Name)
 {
@@ -16926,13 +16851,6 @@ STRING 2563
 // Items: I046 (Chakrum), Tip (Tooltip - Basic)
 {
 Chakrum
-}
-
-STRING 2564
-// Items: I046 (Chakrum), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases attack speed by 10% and intelligence by 3.
 }
 
 STRING 2565
@@ -17102,13 +17020,6 @@ Makes an allied hero invisible and reduces the cooldown of a random ability by 3
 |cffffcc00Cooldown:|r 18 seconds.
 }
 
-STRING 2589
-// Items: I03Z (Miracle Wall), Description (Description)
-{
-|cff4169e1Rare|r, |cff2d9995Weapon|r
-When the hero takes damage, with a probability of |cffd7df018%|r, uses a random first-level spell.
-}
-
 STRING 2590
 // Items: I03Z (Miracle Wall), Name (Name)
 {
@@ -17119,13 +17030,6 @@ STRING 2591
 // Items: I03Z (Miracle Wall), Tip (Tooltip - Basic)
 {
 Miracle Wall
-}
-
-STRING 2592
-// Items: I03Z (Miracle Wall), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff2d9995Weapon|r
-When the hero takes damage, with a probability of |cffd7df018%|r, uses a random first-level spell.
 }
 
 STRING 2593
@@ -18317,13 +18221,6 @@ STRING 2768
 Increases mana regeneration by 150%. Collect all 3 Mage artifacts to unite them.
 }
 
-STRING 2769
-// Items: I02P (Ancient Sword), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-When the hero attacks, with a probability of |cffd7df015%|r, emits a wave that deals |cffbe81f760|r damage to enemies. Increases the chance by 1% for each level of the hero.
-}
-
 STRING 2770
 // Items: I02P (Ancient Sword), Name (Name)
 {
@@ -18334,41 +18231,6 @@ STRING 2771
 // Items: I02P (Ancient Sword), Tip (Tooltip - Basic)
 {
 Ancient Sword
-}
-
-STRING 2772
-// Items: I02P (Ancient Sword), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-When the hero attacks, with a probability of |cffd7df015%|r, emits a wave that deals |cffbe81f760|r damage to enemies. Increases the chance by 1% for each level of the hero.
-}
-
-STRING 2773
-// Items: I02O (Brass knuckles), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases attack power by 7. 
-When the hero attacks, with a probability of |cffd7df0115%|r, stuns the target for 0.75 seconds.
-}
-
-STRING 2774
-// Items: I02O (Brass knuckles), Name (Name)
-{
-Brass knuckles
-}
-
-STRING 2775
-// Items: I02O (Brass knuckles), Tip (Tooltip - Basic)
-{
-Brass knuckles
-}
-
-STRING 2776
-// Items: I02O (Brass knuckles), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases attack power by 7. 
-When the hero attacks, with a probability of |cffd7df0115%|r, stuns the target for 0.75 seconds.
 }
 
 STRING 2777
@@ -18628,34 +18490,6 @@ Throws a projectile at a certain point, which explodes after 3 seconds, causing 
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
-STRING 2813
-// Items: I02E (Ogre club), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases strength by 12.
-Decreases intelligence by 7.
-}
-
-STRING 2814
-// Items: I02E (Ogre club), Name (Name)
-{
-Ogre club
-}
-
-STRING 2815
-// Items: I02E (Ogre club), Tip (Tooltip - Basic)
-{
-Ogre club
-}
-
-STRING 2816
-// Items: I02E (Ogre club), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases strength by 12.
-Decreases intelligence by 7.
-}
-
 STRING 2817
 // Items: I02D (Mage Shoes), Description (Description)
 {
@@ -18866,15 +18700,6 @@ Increases an ally's attack by |cffbe81f725%|r.
 |cffffcc00Cooldown:|r 12 seconds.
 }
 
-STRING 2849
-// Items: I025 (Battle Halberd), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Reduces hero's armor by 7.
-When the hero attacks, reduces the target's armor by 7.
-|cffffcc00Duration:|r 7 seconds.
-}
-
 STRING 2850
 // Items: I0HV (Buy Exile Item), Tip (Tooltip - Basic)
 {
@@ -18885,15 +18710,6 @@ STRING 2851
 // Items: I0HV (Buy Exile Item), Ubertip (Tooltip - Extended)
 {
 Obtain an Exile item. These items existed in the arena in the past, but were cast into oblivion.
-}
-
-STRING 2852
-// Items: I025 (Battle Halberd), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Reduces hero's armor by 7.
-When the hero attacks, reduces the target's armor by 7.
-|cffffcc00Duration:|r 7 seconds.
 }
 
 STRING 2853
@@ -19546,6 +19362,13 @@ STRING 2952
 The base chance for |cffd7df01luck|r-based effects to proc is doubled.
 }
 
+STRING 2953
+// Items: I00X (Spellbreaker Shield), Description (Description)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+Every 12 seconds increases armor by 35 for 3 seconds.
+}
+
 STRING 2954
 // Items: I01G (Majyte), Name (Name)
 {
@@ -19556,6 +19379,13 @@ STRING 2955
 // Items: I01G (Majyte), Tip (Tooltip - Basic)
 {
 Majyte
+}
+
+STRING 2956
+// Items: I00X (Spellbreaker Shield), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+Every 12 seconds increases armor by 35 for 3 seconds.
 }
 
 STRING 2957
@@ -19816,6 +19646,12 @@ When the hero attacks, there is a |cffd7df018%|r chance to summon a random minio
 |cffffcc00Life time:|r 15 seconds.
 }
 
+STRING 2993
+// Abilities: A1IV (Stat: Damage Taken From Minions -20%), Name (Name)
+{
+Stat: Damage Taken From Minions -20%
+}
+
 STRING 2994
 // Items: I016 (Echosis), Name (Name)
 {
@@ -19826,6 +19662,12 @@ STRING 2995
 // Items: I016 (Echosis), Tip (Tooltip - Basic)
 {
 Echosis
+}
+
+STRING 2996
+// Abilities: A0EB (Armor (Spellbreaker Shield)), Name (Name)
+{
+Armor (Spellbreaker Shield)
 }
 
 STRING 2997
@@ -20064,14 +19906,6 @@ Activation: Summons 3 sheeps.
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
-STRING 3029
-// Items: I00X (Spellbreaker Shield), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Every 12 seconds increases armor by 25.
-|cffffcc00Duration:|r 3 seconds.
-}
-
 STRING 3030
 // Items: I00X (Spellbreaker Shield), Name (Name)
 {
@@ -20082,14 +19916,6 @@ STRING 3031
 // Items: I00X (Spellbreaker Shield), Tip (Tooltip - Basic)
 {
 Spellbreaker Shield
-}
-
-STRING 3032
-// Items: I00X (Spellbreaker Shield), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Every 12 seconds increases armor by 25.
-|cffffcc00Duration:|r 3 seconds.
 }
 
 STRING 3033
@@ -20109,6 +19935,13 @@ STRING 3035
 // Items: I00W (Sword of Power), Tip (Tooltip - Basic)
 {
 Sword of Power
+}
+
+STRING 3036
+// Items: I0H8 (Bo Staff), Description (Description)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+Increases Attack Damage by 10. Every 10 seconds, increases Attack Damage by 2 until end of battle.
 }
 
 STRING 3037
@@ -20138,6 +19971,13 @@ STRING 3040
 |cffbababcCommon|r
 Activation: Increases attack power by 8 and health by 150 for all current sheeps under your control.
 |cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 3041
+// Items: I0H8 (Bo Staff), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+Increases Attack Damage by 10. Every 10 seconds, increases Attack Damage by 2 until end of battle.
 }
 
 STRING 3042
@@ -20176,6 +20016,19 @@ STRING 3047
 // Items: I00T (Book of Darkness), Tip (Tooltip - Basic)
 {
 Book of Darkness
+}
+
+STRING 3048
+// Items: I02O (Brass Knuckles), Description (Description)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+Increases Attack Damage by 10. Each hero's attack has a |cffd7df0110%|r chance of creating a |cff088a08Potion|r in an empty inventory slot.
+}
+
+STRING 3049
+// Items: I02O (Brass Knuckles), Name (Name)
+{
+Brass Knuckles
 }
 
 STRING 3050
@@ -20253,6 +20106,12 @@ Activation: Deals |cffbe81f7150|r damage to the hero and restores |cffbe81f7100|
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 3061
+// Items: I02O (Brass Knuckles), Tip (Tooltip - Basic)
+{
+Brass Knuckles
+}
+
 STRING 3062
 // Abilities: A1F8 (Stat: Dodge +15%), Name (Name)
 {
@@ -20263,6 +20122,13 @@ STRING 3063
 // Abilities: A1F9 (Stat: Damage Dealt Bosses +30%), Name (Name)
 {
 Stat: Damage Dealt Bosses +30%
+}
+
+STRING 3064
+// Items: I02O (Brass Knuckles), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+Increases Attack Damage by 10. Each hero's attack has a |cffd7df0110%|r chance of creating a |cff088a08Potion|r in an empty inventory slot.
 }
 
 STRING 3065
@@ -20513,13 +20379,6 @@ STRING 3103
 Celestial Quartz
 }
 
-STRING 3104
-// Items: I0HS (Witness Cleaver), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases strength by 4. Every 15 seconds, increases spell power by 2% until end of battle.
-}
-
 STRING 3105
 // Items: I00E (Coal Gift), Description (Description)
 {
@@ -20723,13 +20582,6 @@ Activation: Uses a random activated |cffb18904mech|r.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 3137
-// Items: I0HS (Witness Cleaver), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-Increases strength by 4. Every 15 seconds, increases spell power by 2% until end of battle.
-}
-
 STRING 3138
 // Items: I006 (Approximatron), Name (Name)
 {
@@ -20766,6 +20618,12 @@ STRING 3143
 Repeller
 }
 
+STRING 3144
+// Abilities: A0QX (Attack (Brass Knuckles)), Name (Name)
+{
+Attack (Brass Knuckles)
+}
+
 STRING 3145
 // Items: I004 (Vampire blood), Description (Description)
 {
@@ -20792,6 +20650,13 @@ STRING 3148
 |cff4169e1Rare|r, |cffb40431Blood|r
 If there are no |cffe96a1clegendary|r artifacts in your inventory, increase damage dealt by 40%. 
 |cff81f260[Random bonus]|r
+}
+
+STRING 3149
+// Items: I0GA (Goat Dragon Claw), Description (Description)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Increases Agility by 5. The hero's attacks have a |cffd7df0110%|r chance to increase |cff60C445Unique|r Spell Power by 20% for the rest of the battle. Stacks up to 10 times.
 }
 
 STRING 3150
@@ -24376,6 +24241,13 @@ STRING 3719
 Stat: Buff Duration +50%
 }
 
+STRING 3720
+// Items: I0GA (Goat Dragon Claw), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Increases Agility by 5. The hero's attacks have a |cffd7df0110%|r chance to increase |cff60C445Unique|r Spell Power by 20% for the rest of the battle. Stacks up to 10 times.
+}
+
 STRING 3721
 // Abilities: A1AI (Murloc: Murlocpool), Researchhotkey (Hotkey - Learn)
 {
@@ -25625,6 +25497,20 @@ STRING 3909
 Activation: |cffcc0000Corruption.|r Transforms all |cffe96a1cnon-legendary|r items in your inventory into |cffe96a1clegendary|r artifacts.
 }
 
+STRING 3910
+// Items: I046 (Chakrum), Description (Description)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Increases Attack Speed by 10% and Intelligence by 3. The hero's attacks also deal damage to one random nearby enemy.
+}
+
+STRING 3911
+// Items: I046 (Chakrum), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Increases Attack Speed by 10% and Intelligence by 3. The hero's attacks also deal damage to one random nearby enemy.
+}
+
 STRING 3912
 // Items: I0FV (Orb of Ner'zhul), Description (Description)
 {
@@ -26856,6 +26742,12 @@ Deals |cffbe81f7350|r damage to a target. If it dies, get 80 gold. Otherwise, su
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 4103
+// Abilities: A1IW (Stats (Goat Dragon Claw)), Name (Name)
+{
+Stats (Goat Dragon Claw)
+}
+
 STRING 4104
 // Abilities: A181 (Attack (Prophet mask)), Name (Name)
 {
@@ -26898,6 +26790,13 @@ STRING 4110
 Digest, [|cffffcc00Level %d|r]
 }
 
+STRING 4111
+// Items: I09T (Spiked Shield), Description (Description)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Increases Strength by 5. When minions attack the hero, they take |cffbe81f725|r damage.
+}
+
 STRING 4112
 // Abilities: A17Y (Money Bag: Digest), Tip (Tooltip - Normal)
 {
@@ -26926,6 +26825,41 @@ STRING 4116
 // Abilities: A17Y (Money Bag: Digest), Tip (Tooltip - Normal)
 {
 Digest, [|cffffcc00Level 5|r]
+}
+
+STRING 4117
+// Items: I09T (Spiked Shield), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Increases Strength by 5. When minions attack the hero, they take |cffbe81f725|r damage.
+}
+
+STRING 4118
+// Items: I09F (Ogre Staff), Description (Description)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Increases Intelligence by 5. The hero's attacks on minions restore |cffbe81f75|r mana.
+}
+
+STRING 4119
+// Items: I09F (Ogre Staff), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Increases Intelligence by 5. The hero's attacks on minions restore |cffbe81f75|r mana.
+}
+
+STRING 4120
+// Items: I079 (Hook Hands), Description (Description)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Increases Attack Damage by 10%. The hero's attacks stun minions for 0.75 seconds.
+}
+
+STRING 4121
+// Items: I079 (Hook Hands), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Increases Attack Damage by 10%. The hero's attacks stun minions for 0.75 seconds.
 }
 
 STRING 4122
@@ -26989,16 +26923,122 @@ STRING 4131
 Composure, [|cffffcc00Level 5|r]
 }
 
+STRING 4132
+// Items: I04Y (Long Bow), Description (Description)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Hero attacks have a |cffd7df0115%|r chance to increase Attack Speed by 10% for 15 seconds. Stacks up to 3 times.
+}
+
+STRING 4133
+// Items: I04Y (Long Bow), Name (Name)
+{
+Long Bow
+}
+
+STRING 4134
+// Items: I04Y (Long Bow), Tip (Tooltip - Basic)
+{
+Long Bow
+}
+
+STRING 4135
+// Items: I04Y (Long Bow), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Hero attacks have a |cffd7df0115%|r chance to increase Attack Speed by 10% for 15 seconds. Stacks up to 3 times.
+}
+
+STRING 4136
+// Items: I04W (Heavy ax), Description (Description)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+The hero's attacks have a |cffd7df0115%|r chance to deal 200% more damage.
+}
+
 STRING 4137
 // Abilities: A17M (Wicerd: Ice-olation), Researchhotkey (Hotkey - Learn)
 {
 W
 }
 
+STRING 4138
+// Items: I04W (Heavy ax), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+The hero's attacks have a |cffd7df0115%|r chance to deal 200% more damage.
+}
+
 STRING 4139
 // Abilities: A16K (Maiden: Blessings), Hotkey (Hotkey - Normal)
 {
 W
+}
+
+STRING 4140
+// Abilities: A0X7 (Stats (Spiked Shield)), Name (Name)
+{
+Stats (Spiked Shield)
+}
+
+STRING 4141
+// Abilities: A0WH (Stats (Ogre Staff)), Name (Name)
+{
+Stats (Ogre Staff)
+}
+
+STRING 4142
+// Items: I07N (Scimitar), Description (Description)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Increases Attack Speed by 40%. If the hero's health is 50% or less, it decreases instead.
+}
+
+STRING 4143
+// Items: I07N (Scimitar), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Increases Attack Speed by 40%. If the hero's health is 50% or less, it decreases instead.
+}
+
+STRING 4146
+// Items: I02E (Ogre Club), Description (Description)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Increases Strength by 15 and decreases Intelligence by 10. If the hero's Intelligence is 20 or less, their attacks restore |cffbe81f75|r mana.
+}
+
+STRING 4147
+// Items: I02E (Ogre Club), Name (Name)
+{
+Ogre Club
+}
+
+STRING 4148
+// Items: I02E (Ogre Club), Tip (Tooltip - Basic)
+{
+Ogre Club
+}
+
+STRING 4149
+// Items: I02E (Ogre Club), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+Increases Strength by 15 and decreases Intelligence by 10. If the hero's Intelligence is 20 or less, their attacks restore |cffbe81f75|r mana.
+}
+
+STRING 4150
+// Items: I0HS (Witness Cleaver), Description (Description)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+Increases Strength by 4. Every 10 seconds, increases Spell Power by 3% until the end of the battle.
+}
+
+STRING 4151
+// Items: I0HS (Witness Cleaver), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+Increases Strength by 4. Every 10 seconds, increases Spell Power by 3% until the end of the battle.
 }
 
 STRING 4152
@@ -27013,10 +27053,84 @@ STRING 4153
 Q
 }
 
+STRING 4154
+// Abilities: A0QN (Аура: Great Tree Shield), Name (Name)
+{
+Аура: Great Tree Shield
+}
+
 STRING 4155
 // Abilities: A15V (Инкуб: Intoxicating love), Hotkey (Hotkey - Normal)
 {
 Q
+}
+
+STRING 4156
+// Abilities: A0O2 (At. Speed: Scimitar), Name (Name)
+{
+At. Speed: Scimitar
+}
+
+STRING 4157
+// Abilities: A05I (Stats (Ogre Club)), Name (Name)
+{
+Stats (Ogre Club)
+}
+
+STRING 4158
+// Abilities: A1IX (HP/sec (Great Tree Shield)), Name (Name)
+{
+HP/sec (Great Tree Shield)
+}
+
+STRING 4159
+// Items: I08U (Crystal Barrier), Description (Description)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+Reduces damage taken from attacks by 10%. Each |cff00cceeCrystal|r in your inventory increases Armor by 5.
+}
+
+STRING 4160
+// Items: I08U (Crystal Barrier), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+Reduces damage taken from attacks by 10%. Each |cff00cceeCrystal|r in your inventory increases Armor by 5.
+}
+
+STRING 4161
+// Items: I04S (Great Tree Shield), Description (Description)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+When you take damage, you have a |cffd7df0115%|r chance to increase your Health Regeneration by 2. Stacks up to 15 times.
+|cffffcc00Duration:|r 20 seconds.
+}
+
+STRING 4162
+// Items: I04S (Great Tree Shield), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+When you take damage, you have a |cffd7df0115%|r chance to increase your Health Regeneration by 2. Stacks up to 15 times.
+|cffffcc00Duration:|r 20 seconds.
+}
+
+STRING 4163
+// Items: I03Z (Miracle Wall), Description (Description)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+When the hero takes damage, there is a |cffd7df0112%|r chance to cast a random level 1 ability.
+}
+
+STRING 4164
+// Items: I03Z (Miracle Wall), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+When the hero takes damage, there is a |cffd7df0112%|r chance to cast a random level 1 ability.
+}
+
+STRING 4165
+// Abilities: A1IY (Armor (Crystal Barrier)), Name (Name)
+{
+Armor (Crystal Barrier)
 }
 
 STRING 4168
@@ -35062,12 +35176,6 @@ STRING 5425
 Armor (Зот)
 }
 
-STRING 5426
-// Abilities: A0X7 (Stats (Шипастый щит)), Name (Name)
-{
-Stats (Шипастый щит)
-}
-
 STRING 5427
 // Abilities: A0X6 (Артефакт: Кровавый нож), Name (Name)
 {
@@ -35458,12 +35566,6 @@ STRING 5482
 // Abilities: A0WI (Артефакт: Могильная урна), Name (Name)
 {
 Артефакт: Могильная урна
-}
-
-STRING 5483
-// Abilities: A0WH (Stats (Посох огра)), Name (Name)
-{
-Stats (Посох огра)
 }
 
 STRING 5484
@@ -41097,12 +41199,6 @@ STRING 6345
 Attack (Меч)
 }
 
-STRING 6346
-// Abilities: A0QX (Attack (Кастет)), Name (Name)
-{
-Attack (Кастет)
-}
-
 STRING 6347
 // Abilities: A0QW (Артефакт: Супер-Оружие), Name (Name)
 {
@@ -41213,12 +41309,6 @@ STRING 6364
 // Abilities: A0QO (14. Roll +1), Ubertip (Tooltip - Normal - Extended)
 {
 |cffffcc00You gain +1 charge to your roll.|r
-}
-
-STRING 6365
-// Abilities: A0QN (Аура: Щит из Великого Древа), Name (Name)
-{
-Аура: Щит из Великого Древа
 }
 
 STRING 6366
@@ -43314,12 +43404,6 @@ STRING 6694
 // Abilities: A0O3 (Armor (Braccus Dex)), Name (Name)
 {
 Armor (Braccus Dex)
-}
-
-STRING 6695
-// Abilities: A0O2 (At. Speed: Ятаган), Name (Name)
-{
-At. Speed: Ятаган
 }
 
 STRING 6696
@@ -52615,12 +52699,6 @@ STRING 8127
 Attack speed (Orb of Ragnaros)
 }
 
-STRING 8128
-// Abilities: A0EB (Armor (Щит Ведьмака, 25 брони)), Name (Name)
-{
-Armor (Щит Ведьмака, 25 брони)
-}
-
 STRING 8129
 // Abilities: A0EA (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -61487,12 +61565,6 @@ STRING 9508
 (Stun)
 }
 
-STRING 9509
-// Abilities: A05I (Stats (Дубина огра)), Name (Name)
-{
-Stats (Дубина огра)
-}
-
 STRING 9510
 // Abilities: A04T (Nomad: Lightning energy), Researchhotkey (Hotkey - Learn)
 {
@@ -65829,13 +65901,13 @@ Activation: Deals |cffbe81f2200|r damage, plus an additional 200 for each soul. 
 }
 
 STRING 10173
-// Items: I0BR (Soul Shard), Name (Name)
+// Units: u001 (Soul Shard), Name (Name)
 {
 Soul Shard
 }
 
 STRING 10174
-// Items: I0BR (Soul Shard), Tip (Tooltip - Basic)
+// Items: I0BR (Soul Shard), Name (Name)
 {
 Soul Shard
 }
@@ -70471,18 +70543,6 @@ STRING 10925
 // Buffs/Effects: B033 (), Buffubertip (Tooltip - Extended)
 {
 Chance to dodge attack increased.
-}
-
-STRING 10926
-// Buffs/Effects: B032 (), Bufftip (Tooltip)
-{
-|cff00ff00Double activation|r
-}
-
-STRING 10927
-// Buffs/Effects: B032 (), Buffubertip (Tooltip - Extended)
-{
-Your activated non-corrupted artifacts fire twice.
 }
 
 STRING 10928
@@ -76034,13 +76094,6 @@ STRING 11779
 Increases stats by 7. Cannot be exchanged or destroyed in the store.
 }
 
-STRING 11780
-// Items: I049 (Crystallized Life), Description (Description)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Increases the Health Regeneration of all heroes by 5.
-}
-
 STRING 11781
 // Items: I049 (Crystallized Life), Name (Name)
 {
@@ -76053,20 +76106,6 @@ STRING 11782
 Crystallized Life
 }
 
-STRING 11783
-// Items: I049 (Crystallized Life), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Increases the Health Regeneration of all heroes by 5.
-}
-
-STRING 11784
-// Items: I048 (Crystallized Mana), Description (Description)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Increases Mana Regeneration of all heroes by 3.
-}
-
 STRING 11785
 // Items: I048 (Crystallized Mana), Name (Name)
 {
@@ -76077,13 +76116,6 @@ STRING 11786
 // Items: I048 (Crystallized Mana), Tip (Tooltip - Basic)
 {
 Crystallized Mana
-}
-
-STRING 11787
-// Items: I048 (Crystallized Mana), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff00cceeCrystal|r
-Increases Mana Regeneration of all heroes by 3.
 }
 
 STRING 11788
@@ -77787,7 +77819,7 @@ F
 }
 
 STRING 12028
-// Units: u001 (Soul Shard), Name (Name)
+// Items: I0BR (Soul Shard), Tip (Tooltip - Basic)
 {
 Soul Shard
 }
