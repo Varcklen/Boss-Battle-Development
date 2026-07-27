@@ -1,9 +1,8 @@
-scope ManaNeedle initializer init
+scope CrownOfNight initializer init
 
 	globals
-		private constant integer DURATION = 5
-		private constant integer ABILITY = 'A1J2'
-		private constant integer MANA_TO_RESTORE = 40
+		private constant integer DURATION = 3
+		private constant integer ABILITY = 'A1J1'
 		private constant string ANIMATION = "Abilities\\Spells\\Human\\Invisibility\\InvisibilityTarget.mdl"
 	endglobals
 	
@@ -14,8 +13,6 @@ scope ManaNeedle initializer init
 	private function actions takes nothing returns nothing
 	    local unit caster
 	    local real t = DURATION
-	    local integer i
-	    local integer iMax
 	    
 	    if CastLogic() then
 	        set caster = udg_Caster
@@ -28,15 +25,9 @@ scope ManaNeedle initializer init
 	    endif
 	    set t = timebonus(caster, t)
 	    
-	    set i = 1
-	    set iMax = eyest( caster )
-	    loop
-	    	exitwhen i > iMax
-	    	call manast(caster, null, MANA_TO_RESTORE )
-	    	call InvisibilitySystem_Apply(caster, null, t)
-	    	call DestroyEffect( AddSpecialEffectTarget( ANIMATION, caster, "origin") )
-	    	set i = i + 1
-    	endloop
+	    call eyest( caster )
+	    call InvisibilitySystem_Apply(caster, null, t)
+	    call DestroyEffect( AddSpecialEffectTarget( ANIMATION, caster, "origin") )
 	    
 	    set caster = null
 	endfunction
@@ -49,5 +40,5 @@ scope ManaNeedle initializer init
 	    call TriggerAddAction( trig, function actions )
 	    set trig = null
 	endfunction
-	
+
 endscope

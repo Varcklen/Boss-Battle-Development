@@ -227,7 +227,7 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         set InfoButtonClicked = Event.create(null, null)
         set DefeatAnnounce = Event.create(null, null)
         set EnterInvisibility = Event.create(null, null)
-        set ManaSpent = Event.create(null, null)
+        set ManaSpent = Event.create("caster", null)
         set ShieldGain = Event.create("caster", "target")
     endfunction
     

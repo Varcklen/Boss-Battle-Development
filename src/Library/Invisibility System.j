@@ -12,18 +12,6 @@ library InvisibilitySystem initializer init requires TimebonusLib, Trigger
 
 	//Invisibility Applying
     //===========================================================================
-	private function RiverEyeCast takes nothing returns nothing
-	    local integer id = GetHandleId( GetExpiredTimer() )
-	    local unit u = LoadUnitHandle( udg_hash, id, StringHash( "rvey" ) )
-	    
-	    if IsUnitVisible( u, Player(PLAYER_NEUTRAL_AGGRESSIVE)) then
-	        call UnitRemoveAbility( u, 'A0E7' )
-	        call DestroyTimer( GetExpiredTimer() )
-	    endif
-	    
-	    set u = null
-	endfunction
-	
 	private function LorderBadgeCast takes nothing returns nothing
 	    local integer id = GetHandleId( GetExpiredTimer() )
 	    local unit u = LoadUnitHandle( udg_hash, id, StringHash( "ldbg" ) )
@@ -41,7 +29,7 @@ library InvisibilitySystem initializer init requires TimebonusLib, Trigger
 	    local unit u = LoadUnitHandle( udg_hash, id, StringHash( "crwn" ) )
 	    
 	    if IsUnitInvisible( u, Player(PLAYER_NEUTRAL_AGGRESSIVE)) then
-	        call bufst( u, u, 'A0YE', 'B088', "crwn1", 6 )
+	        call bufst( u, u, 'A0YE', 'B088', "crwn1", 4 )
 	    else
 	        call DestroyTimer( GetExpiredTimer() )
 	    endif
@@ -65,16 +53,6 @@ library InvisibilitySystem initializer init requires TimebonusLib, Trigger
 	    call EnterInvisibility.SetDataUnit("unit", u )
 		call EnterInvisibility.Invoke()
 	    
-	    if inv( u, 'I07F') > 0 then
-	        call UnitAddAbility( u, 'A0E7' )
-	
-	        if LoadTimerHandle( udg_hash, id, StringHash( "rvey" ) ) == null then
-	            call SaveTimerHandle( udg_hash, id, StringHash( "rvey" ), CreateTimer() )
-	        endif
-	        set id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( "rvey" ) ) ) 
-	        call SaveUnitHandle( udg_hash, id, StringHash( "rvey" ), u )
-	        call TimerStart( LoadTimerHandle( udg_hash, GetHandleId( u ), StringHash( "rvey" ) ), 1, true, function RiverEyeCast )
-	    endif
 	    if inv( u, 'I08O') > 0 then
 	        call UnitAddAbility( u, 'A0TQ' )
 	
@@ -86,7 +64,7 @@ library InvisibilitySystem initializer init requires TimebonusLib, Trigger
 	        call TimerStart( LoadTimerHandle( udg_hash, GetHandleId( u ), StringHash( "ldbg" ) ), 1, true, function LorderBadgeCast )
 	    endif
 	    if inv( u, 'I00R') > 0 then
-	        call bufst( u, u, 'A0YE', 'B088', "crwn1", 6 )
+	        call bufst( u, u, 'A0YE', 'B088', "crwn1", 4 )
 	        set id = GetHandleId( u )
 	        if LoadTimerHandle( udg_hash, id, StringHash( "crwn" ) ) == null then
 	            call SaveTimerHandle( udg_hash, id, StringHash( "crwn" ), CreateTimer() )
@@ -119,15 +97,20 @@ library InvisibilitySystem initializer init requires TimebonusLib, Trigger
             call UnitRemoveAbility( target, 'A1F0' )
         endif
 	endfunction
+	
+	public function ReduceCounter takes unit target returns nothing
+		local integer counter = IMaxBJ( 0, LoadInteger( udg_hash, GetHandleId( target ), STRING_HASH ) - 1 )
+		
+		call SetCounter(target, counter)
+	endfunction
 
 	private function BuffEnd takes nothing returns nothing
         local integer id = GetHandleId( GetExpiredTimer() )
         local unit target = LoadUnitHandle( udg_hash, id, STRING_HASH )
-        local integer counter = IMaxBJ( 0, LoadInteger( udg_hash, GetHandleId( target ), STRING_HASH ) - 1 )
         local integer pattern = LoadInteger( udg_hash, id, STRING_HASH )
 
 		if pattern == udg_Pattern then
-        	call SetCounter(target, counter)
+        	call ReduceCounter(target)
     	endif
         call FlushChildHashtable( udg_hash, id )
 
@@ -156,14 +139,15 @@ library InvisibilitySystem initializer init requires TimebonusLib, Trigger
         call UnitAddAbility( target, 'A1F0' )
         call LaunchEvent(target)
         
-        //Without condition as intended
-        set timerUsed = CreateTimer()
-        call SaveTimerHandle( udg_hash, id, STRING_HASH, timerUsed )
-        
-        set id = GetHandleId( timerUsed )
-        call SaveUnitHandle( udg_hash, id, STRING_HASH, target )
-        call SaveInteger( udg_hash, id, STRING_HASH, udg_Pattern )
-        call TimerStart( timerUsed, duration, false, function BuffEnd )
+        if duration > 0.5 then
+	        set timerUsed = CreateTimer()
+	        call SaveTimerHandle( udg_hash, id, STRING_HASH, timerUsed )
+	        
+	        set id = GetHandleId( timerUsed )
+	        call SaveUnitHandle( udg_hash, id, STRING_HASH, target )
+	        call SaveInteger( udg_hash, id, STRING_HASH, udg_Pattern )
+	        call TimerStart( timerUsed, duration, false, function BuffEnd )
+        endif
 
 		set timerUsed = null
     endfunction

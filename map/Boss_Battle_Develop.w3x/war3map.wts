@@ -4273,6 +4273,17 @@ STRING 676
 |cffff0000Swap!|r
 }
 
+STRING 677
+// Items: I04E (Staff of Arcana), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff5858faMoon|r
+Your hero is invisible near vulnerable heroes.
+Activation: Increases Spell Power by 30%. While invisible, doubles it.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
 STRING 678
 // Items: I0H8 (Bo Staff), Name (Name)
 {
@@ -4283,6 +4294,12 @@ STRING 679
 // Items: I0H8 (Bo Staff), Tip (Tooltip - Basic)
 {
 Bo Staff
+}
+
+STRING 680
+// Items: I04E (Staff of Arcana), Name (Name)
+{
+Staff of Arcana
 }
 
 STRING 681
@@ -5113,6 +5130,12 @@ Increases attack speed of the next 6/8/10/12/14 attacks by 150%.
 |cffffcc00Cost:|r 35 mana.
 }
 
+STRING 809
+// Items: I04E (Staff of Arcana), Tip (Tooltip - Basic)
+{
+Staff of Arcana
+}
+
 STRING 810
 // Items: I0GA (Goat Dragon Claw), Name (Name)
 {
@@ -5125,14 +5148,14 @@ STRING 811
 Goat Dragon Claw
 }
 
-STRING 813
-// Items: I0G9 (Twilight Meat), Description (Description)
+STRING 812
+// Items: I04E (Staff of Arcana), Ubertip (Tooltip - Extended)
 {
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r, |cff5858faMoon|r
-"|cff5858faMoon|r" set bonus now works with |cff088a08potion|r spell power.
-Activation: Triggers the "|cff5858faMoon|r" set bonus.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 50 mana.
+|cffe96a1cLegendary|r, |cff5858faMoon|r
+Your hero is invisible near vulnerable heroes.
+Activation: Increases Spell Power by 30%. While invisible, doubles it.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 814
@@ -5145,15 +5168,6 @@ STRING 815
 // Items: I0G9 (Twilight Meat), Tip (Tooltip - Basic)
 {
 Twilight Meat
-}
-
-STRING 816
-// Items: I0G9 (Twilight Meat), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r, |cff5858faMoon|r
-"|cff5858faMoon|r" set bonus now works with |cff088a08potion|r spell power.
-Activation: Triggers the "|cff5858faMoon|r" set bonus.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 817
@@ -7482,6 +7496,32 @@ STRING 1149
 Reduces cooldown of abilities and items by 6%.|nAdditionally, reduces cooldown of abilities and items by 3% for each other |cffb18904mech|r in the inventory.
 }
 
+STRING 1150
+// Items: I02S (Spirit Figurine), Name (Name)
+{
+Spirit Figurine
+}
+
+STRING 1151
+// Items: I02S (Spirit Figurine), Tip (Tooltip - Basic)
+{
+Spirit Figurine
+}
+
+STRING 1152
+// Abilities: A0ER (Артефакт: Staff of Arcana), Name (Name)
+{
+Артефакт: Staff of Arcana
+}
+
+STRING 1153
+// Items: I0FR (Elune's Ring), Description (Description)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r, |cff9001fdRing|r
+When you cast |cff60C445Unique|r ability, use |cff5858faMoon|r set bonus.
+|cff81f260[Random bonus]|r
+}
+
 STRING 1154
 // Items: I0DW (Purified matter), Description (Description)
 {
@@ -7717,15 +7757,6 @@ Activation: Deals |cffbe81f720|r damage to an enemy 15 times.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 1186
-// Items: I08B (Moon lamp), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Activation: Deals |cffbe81f7200|r damage to a random nearby enemy twice.
-|cffffcc00Cooldown:|r 35 seconds.
-|cffffcc00Cost:|r 60 mana.
-}
-
 STRING 1187
 // Items: I0DO (Bloody Mary), Name (Name)
 {
@@ -7736,14 +7767,6 @@ STRING 1188
 // Items: I0DO (Bloody Mary), Tip (Tooltip - Basic)
 {
 Bloody Mary
-}
-
-STRING 1189
-// Items: I08B (Moon lamp), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Activation: Deals |cffbe81f7200|r damage to a random nearby enemy twice.
-|cffffcc00Cooldown:|r 35 seconds.
 }
 
 STRING 1190
@@ -7776,6 +7799,14 @@ STRING 1193
 |cff81f260[Random bonus]|r
 }
 
+STRING 1194
+// Items: I0FR (Elune's Ring), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r, |cff9001fdRing|r
+When you cast |cff60C445Unique|r ability, use |cff5858faMoon|r set bonus.
+|cff81f260[Random bonus]|r
+}
+
 STRING 1195
 // Items: I0CZ (Thunder Citrine), Name (Name)
 {
@@ -7786,6 +7817,15 @@ STRING 1196
 // Items: I0CZ (Thunder Citrine), Tip (Tooltip - Basic)
 {
 Thunder Citrine
+}
+
+STRING 1197
+// Items: I07J (Living Mana), Description (Description)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+Activation: Spend all your mana to create 3 elementals. The more mana you spend, the stronger they become.
+|cffffcc00Life time:|r 45 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 1198
@@ -7913,14 +7953,6 @@ STRING 1214
 All players can take this hero.
 }
 
-STRING 1215
-// Items: I0BN (Mana Needle), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-When the Hero takes damage, restores |cffbe81f72|r Mana.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1216
 // Items: I0BN (Mana Needle), Name (Name)
 {
@@ -7991,14 +8023,6 @@ When the hero attacks, slows down the target, reducing their attack and movement
 |cffffcc00Duration:|r 4 seconds.
 }
 
-STRING 1226
-// Items: I0DE (Sheep's Tear), Description (Description)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-While the hero is invisible, every second deals |cffbe81f7100|r damage to all nearby enemies.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1227
 // Items: I0DE (Sheep's Tear), Name (Name)
 {
@@ -8009,14 +8033,6 @@ STRING 1228
 // Items: I0DE (Sheep's Tear), Tip (Tooltip - Basic)
 {
 Sheep's Tear
-}
-
-STRING 1229
-// Items: I0DE (Sheep's Tear), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-While the hero is invisible, every second deals |cffbe81f7100|r damage to all nearby enemies.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1230
@@ -8070,6 +8086,15 @@ Activation: Target another hero to make them invulnerable for 10 seconds.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 1238
+// Items: I07J (Living Mana), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+Activation: Spend all your mana to create 3 elementals. The more mana you spend, the stronger they become.
+|cffffcc00Life time:|r 45 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 1239
 // Items: I0DB (Blockade), Name (Name)
 {
@@ -8080,6 +8105,12 @@ STRING 1240
 // Items: I0DB (Blockade), Tip (Tooltip - Basic)
 {
 Blockade
+}
+
+STRING 1241
+// Abilities: A0NX (Артефакт: Living Mana), Name (Name)
+{
+Артефакт: Living Mana
 }
 
 STRING 1242
@@ -8193,14 +8224,6 @@ STRING 1257
 Activation: Charges the hero with chaos energy. Every second you use a random ability.
 |cffffcc00Duration:|r 10 seconds.
 |cffffcc00Cooldown:|r 60 seconds.
-}
-
-STRING 1258
-// Items: I0BN (Mana Needle), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-When the Hero takes damage, restores |cffbe81f72|r Mana.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1259
@@ -8382,6 +8405,38 @@ STRING 1285
 // Items: I0HH (Energy Charge), Name (Name)
 {
 Energy Charge
+}
+
+STRING 1286
+// Items: I0E8 (Magic Fern), Description (Description)
+{
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+When another Hero dies for the first time in a battle, gain their Spell Power and Luck for the battle.
+Activation: Kill and resurrect another hero with 65% health and mana.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 1287
+// Items: I0E8 (Magic Fern), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+When another Hero dies for the first time in a battle, gain their Spell Power and Luck for the battle.
+Activation: Kill and resurrect another hero with 65% health and mana.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 1288
+// Abilities: A1IZ (Artifact: Magic Fern), Name (Name)
+{
+Artifact: Magic Fern
+}
+
+STRING 1289
+// Items: I0DE (Sheep's Tear), Description (Description)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+When the hero takes damage, deal |cffbe81f7100|r damage to nearby enemies and become invisible for 2 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 1290
@@ -11476,6 +11531,14 @@ STRING 1741
 Reduces the attack and movement speed of enemy minions near the hero by 80%.
 }
 
+STRING 1742
+// Items: I0DE (Sheep's Tear), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+When the hero takes damage, deal |cffbe81f7100|r damage to nearby enemies and become invisible for 2 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 1743
 // Items: I09T (Spiked Shield), Name (Name)
 {
@@ -11486,6 +11549,13 @@ STRING 1744
 // Items: I09T (Spiked Shield), Tip (Tooltip - Basic)
 {
 Spiked Shield
+}
+
+STRING 1745
+// Items: I07L (Playful Spirit), Description (Description)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+Every 10 seconds, spend |cffbe81f712|r mana to increase Spell Power by 4% until the end of the battle.
 }
 
 STRING 1746
@@ -11831,6 +11901,13 @@ STRING 1798
 |cffffcc00Amplifier:|r Legendary
 }
 
+STRING 1799
+// Items: I07L (Playful Spirit), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+Every 10 seconds, spend |cffbe81f712|r mana to increase Spell Power by 4% until the end of the battle.
+}
+
 STRING 1800
 // Items: I09F (Ogre Staff), Name (Name)
 {
@@ -11841,6 +11918,12 @@ STRING 1801
 // Items: I09F (Ogre Staff), Tip (Tooltip - Basic)
 {
 Ogre Staff
+}
+
+STRING 1802
+// Abilities: A1J0 (Spell Shield), EditorSuffix (Editor Suffix)
+{
+(Sheep's Tear)
 }
 
 STRING 1803
@@ -12431,6 +12514,13 @@ STRING 1882
 When you summon a minion, it increases its attack power by 5. If it is a sheep, it also doubles its attack power and health.
 }
 
+STRING 1883
+// Items: I04U (Strange Tail), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Increases Spell Power based on missing Health (up to 125%).
+}
+
 STRING 1884
 // Items: I08U (Crystal Barrier), Name (Name)
 {
@@ -12441,6 +12531,13 @@ STRING 1885
 // Items: I08U (Crystal Barrier), Tip (Tooltip - Basic)
 {
 Crystal Barrier
+}
+
+STRING 1886
+// Items: I04U (Strange Tail), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Increases Spell Power based on missing Health (up to 125%).
 }
 
 STRING 1887
@@ -12913,18 +13010,6 @@ STRING 1956
 // Items: I0EE (Midas Bracelet), Name (Name)
 {
 Midas Bracelet
-}
-
-STRING 1957
-// Items: I08B (Moon lamp), Name (Name)
-{
-Moon lamp
-}
-
-STRING 1958
-// Items: I08B (Moon lamp), Tip (Tooltip - Basic)
-{
-Moon lamp
 }
 
 STRING 1959
@@ -13551,6 +13636,16 @@ STRING 2051
 Increases intelligence by 10. Collect all 3 Paragon artifacts to unite them.
 }
 
+STRING 2052
+// Items: I0G9 (Twilight Meat), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r, |cff5858faMoon|r
+|cff5858faMoon|r set bonus works with |cff088a08Potion|r Spell Power.
+Activation: Use the |cff5858faMoon|r set bonus.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 15 mana.
+}
+
 STRING 2053
 // Items: I07N (Scimitar), Name (Name)
 {
@@ -13561,6 +13656,15 @@ STRING 2054
 // Items: I07N (Scimitar), Tip (Tooltip - Basic)
 {
 Scimitar
+}
+
+STRING 2055
+// Items: I0G9 (Twilight Meat), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r, |cff5858faMoon|r
+|cff5858faMoon|r set bonus works with |cff088a08Potion|r Spell Power.
+Activation: Use the |cff5858faMoon|r set bonus.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2056
@@ -13754,34 +13858,6 @@ Activation: Deals |cffbe81f7200|r damage to a random enemy. Repeats for each oth
 |cffffcc00Cooldown:|r 35 seconds.
 }
 
-STRING 2084
-// Items: I07F (River Eyeball), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-While the hero is invisible, you and your allies gain +50% attack power.
-|cff81f260[Random bonus]|r
-}
-
-STRING 2085
-// Items: I07F (River Eyeball), Name (Name)
-{
-River Eyeball
-}
-
-STRING 2086
-// Items: I07F (River Eyeball), Tip (Tooltip - Basic)
-{
-River Eyeball
-}
-
-STRING 2087
-// Items: I07F (River Eyeball), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-While the hero is invisible, you and your allies gain +50% attack power.
-|cff81f260[Random bonus]|r
-}
-
 STRING 2088
 // Items: I07E (Moon moth), Description (Description)
 {
@@ -13926,6 +14002,14 @@ The effect is cumulative.
 |cffffcc00Cooldown:|r 28 seconds.
 }
 
+STRING 2108
+// Items: I0C3 (Yah's Tear), Description (Description)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+Activation: Restore all mana. Spends 15 mana every second until depleted.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 2109
 // Items: I079 (Hook Hands), Name (Name)
 {
@@ -13936,6 +14020,14 @@ STRING 2110
 // Items: I079 (Hook Hands), Tip (Tooltip - Basic)
 {
 Hook Hands
+}
+
+STRING 2111
+// Items: I0C3 (Yah's Tear), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+Activation: Restore all mana. Spends 15 mana every second until depleted.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 2112
@@ -15154,6 +15246,16 @@ STRING 2290
 Rune of the Illusionist
 }
 
+STRING 2291
+// Items: I00R (Crown of Night), Description (Description)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+While the hero is invisible and for 4 seconds after invisibility ends, increases any damage dealt by 75%.
+Activation: Make the owner invisible for 3 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
 STRING 2292
 // Items: I05Z (Kryptonite Knife), Name (Name)
 {
@@ -15164,6 +15266,15 @@ STRING 2293
 // Items: I05Z (Kryptonite Knife), Tip (Tooltip - Basic)
 {
 Kryptonite Knife
+}
+
+STRING 2294
+// Items: I00R (Crown of Night), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff5858faMoon|r
+While the hero is invisible and for 4 seconds after invisibility ends, increases any damage dealt by 75%.
+Activation: Make the owner invisible for 3 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 2295
@@ -16190,6 +16301,37 @@ When the hero takes damage, with a probability of |cffd7df0133%|r, summon a shee
 |cffffcc00Life time:|r 60 seconds.
 }
 
+STRING 2452
+// Abilities: A1J1 (Artifact: Crown of Night), Name (Name)
+{
+Artifact: Crown of Night
+}
+
+STRING 2453
+// Items: I0BN (Mana Needle), Description (Description)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Activation: Restore |cffbe81f740|r mana and become invisible for 5 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 2454
+// Items: I0BN (Mana Needle), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Activation: Restore |cffbe81f740|r mana and become invisible for 5 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 2455
+// Items: I08B (Moon Lamp), Description (Description)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Activation: Deals |cffbe81f7200|r damage to all nearby enemies.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
 STRING 2456
 // Items: I0C3 (Yah's Tear), Name (Name)
 {
@@ -16216,6 +16358,12 @@ At least one Artifact Reward will be |cffcc0000corrupted|r.
 When you use a |cffcc0000corrupted|r artifact, this is destroyed instead.
 }
 
+STRING 2460
+// Items: I08B (Moon Lamp), Name (Name)
+{
+Moon Lamp
+}
+
 STRING 2461
 // Items: I04W (Heavy ax), Name (Name)
 {
@@ -16226,6 +16374,12 @@ STRING 2462
 // Items: I04W (Heavy ax), Tip (Tooltip - Basic)
 {
 Heavy ax
+}
+
+STRING 2463
+// Items: I08B (Moon Lamp), Tip (Tooltip - Basic)
+{
+Moon Lamp
 }
 
 STRING 2464
@@ -16254,15 +16408,6 @@ STRING 2467
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff7cfc00nature|r.
 }
 
-STRING 2468
-// Items: I04U (Strange Tail), Description (Description)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r, |cffb40431Blood|r
-Increases spell power based on missing health
-(up to 100%).
-|cff81f260[Random bonus]|r
-}
-
 STRING 2469
 // Items: I04U (Strange Tail), Name (Name)
 {
@@ -16275,13 +16420,43 @@ STRING 2470
 Strange Tail
 }
 
-STRING 2471
-// Items: I04U (Strange Tail), Ubertip (Tooltip - Extended)
+STRING 2472
+// Items: I08B (Moon Lamp), Ubertip (Tooltip - Extended)
 {
-|cff4169e1Rare|r, |cff5858faMoon|r, |cffb40431Blood|r
-Increases spell power based on missing health
-(up to 100%).
-|cff81f260[Random bonus]|r
+|cffbababcCommon|r, |cff5858faMoon|r
+Activation: Deals |cffbe81f7200|r damage to all nearby enemies.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 2473
+// Abilities: A0CC (Артефакт: Moon Lamp), Name (Name)
+{
+Артефакт: Moon Lamp
+}
+
+STRING 2474
+// Abilities: A1J2 (Artifact: Mana Needle), Name (Name)
+{
+Artifact: Mana Needle
+}
+
+STRING 2475
+// Items: I0BP (Night Butterfly), Description (Description)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Increases Mana by 50.
+Activation: Makes a friendly target invisible for 5 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 25 mana.
+}
+
+STRING 2476
+// Items: I0BP (Night Butterfly), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Increases Mana by 50.
+Activation: Makes a friendly target invisible for 5 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 2477
@@ -16294,6 +16469,13 @@ STRING 2478
 // Items: I04S (Great Tree Shield), Tip (Tooltip - Basic)
 {
 Great Tree Shield
+}
+
+STRING 2479
+// Items: I07F (Macropinna), Description (Description)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+When you spend a total of 500 mana per battle, increases stats by 1.
 }
 
 STRING 2480
@@ -16623,18 +16805,6 @@ STRING 2529
 Barnacle Blood
 }
 
-STRING 2530
-// Items: I04E (Staff of Phenomenal Power), Name (Name)
-{
-Staff of Phenomenal Power
-}
-
-STRING 2531
-// Items: I04E (Staff of Phenomenal Power), Tip (Tooltip - Basic)
-{
-Staff of Phenomenal Power
-}
-
 STRING 2532
 // Abilities: A1CJ (Lycanthrope: Stossgebet), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -16841,6 +17011,12 @@ STRING 2560
 When the hero attacks, with a probability of |cffd7df012%|r, it increases the random stat.
 }
 
+STRING 2561
+// Items: I07F (Macropinna), Name (Name)
+{
+Macropinna
+}
+
 STRING 2562
 // Items: I046 (Chakrum), Name (Name)
 {
@@ -16851,6 +17027,12 @@ STRING 2563
 // Items: I046 (Chakrum), Tip (Tooltip - Basic)
 {
 Chakrum
+}
+
+STRING 2564
+// Items: I07F (Macropinna), Tip (Tooltip - Basic)
+{
+Macropinna
 }
 
 STRING 2565
@@ -17020,6 +17202,13 @@ Makes an allied hero invisible and reduces the cooldown of a random ability by 3
 |cffffcc00Cooldown:|r 18 seconds.
 }
 
+STRING 2589
+// Items: I07F (Macropinna), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+When you spend a total of 500 mana per battle, increases stats by 1.
+}
+
 STRING 2590
 // Items: I03Z (Miracle Wall), Name (Name)
 {
@@ -17030,6 +17219,12 @@ STRING 2591
 // Items: I03Z (Miracle Wall), Tip (Tooltip - Basic)
 {
 Miracle Wall
+}
+
+STRING 2592
+// Abilities: A0N0 (Артефакт: Night Butterfly), Name (Name)
+{
+Артефакт: Night Butterfly
 }
 
 STRING 2593
@@ -18149,18 +18344,6 @@ Kills a minion. Restores the hero |cffbe81f1125%|r of the target's health. If th
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
-STRING 2758
-// Items: I02S (Spirit figurine), Name (Name)
-{
-Spirit figurine
-}
-
-STRING 2759
-// Items: I02S (Spirit figurine), Tip (Tooltip - Basic)
-{
-Spirit figurine
-}
-
 STRING 2760
 // Abilities: AV00 (Sun King: Heating Up), Researchhotkey (Hotkey - Learn)
 {
@@ -18219,6 +18402,12 @@ STRING 2768
 {
 |cffbababcCommon|r
 Increases mana regeneration by 150%. Collect all 3 Mage artifacts to unite them.
+}
+
+STRING 2769
+// Abilities: A0MO (Mana (Night Butterfly)), Name (Name)
+{
+Mana (Night Butterfly)
 }
 
 STRING 2770
@@ -20050,14 +20239,6 @@ STRING 3052
 Grateful Dead
 }
 
-STRING 3053
-// Items: I00R (Crown of Night), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-While the hero is invisible and for 6 seconds after invisibility ends, increases any damage dealt by 75%.
-|cff81f260[Random bonus]|r
-}
-
 STRING 3054
 // Items: I00R (Crown of Night), Name (Name)
 {
@@ -20068,14 +20249,6 @@ STRING 3055
 // Items: I00R (Crown of Night), Tip (Tooltip - Basic)
 {
 Crown of Night
-}
-
-STRING 3056
-// Items: I00R (Crown of Night), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-While the hero is invisible and for 6 seconds after invisibility ends, increases any damage dealt by 75%.
-|cff81f260[Random bonus]|r
 }
 
 STRING 3057
@@ -43430,12 +43603,6 @@ STRING 6699
 Аура: Приободрение
 }
 
-STRING 6700
-// Abilities: A0NX (Артефакт: Живая мана), Name (Name)
-{
-Артефакт: Живая мана
-}
-
 STRING 6701
 // Abilities: A0NW (Random bonus (2)), Name (Name)
 {
@@ -44416,12 +44583,6 @@ STRING 6855
 Аура: Приток сил
 }
 
-STRING 6856
-// Abilities: A0N0 (Артефакт: Ночная бабочка), Name (Name)
-{
-Артефакт: Ночная бабочка
-}
-
 STRING 6857
 // Abilities: A0MZ (Аура: Plague (Damage)), Name (Name)
 {
@@ -44841,12 +45002,6 @@ STRING 6921
 // Abilities: A0MP (Attack (Дискошар)), Name (Name)
 {
 Attack (Дискошар)
-}
-
-STRING 6922
-// Abilities: A0MO (Mana (Ночная бабочка)), Name (Name)
-{
-Mana (Ночная бабочка)
 }
 
 STRING 6923
@@ -49391,22 +49546,6 @@ STRING 7610
 Activation: |cffcc0000Corrupted|r. Increases stats by 1 and |cff60C445Unique|r Spell Power by 25%.
 }
 
-STRING 7611
-// Items: I0E8 (Magic Fern), Description (Description)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-When another Hero dies for the first time in a battle, gain their Spell Power and Luck for the battle.
-|cff81f260[Random bonus]|r
-}
-
-STRING 7612
-// Items: I0E8 (Magic Fern), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-When another Hero dies for the first time in a battle, gain their Spell Power and Luck for the battle.
-|cff81f260[Random bonus]|r
-}
-
 STRING 7613
 // Items: I0BT (Steel Rose), Name (Name)
 {
@@ -52273,12 +52412,6 @@ STRING 8064
 (т)Аура: Orb of Ragnaros
 }
 
-STRING 8065
-// Abilities: A0ER (Артефакт: Посох Феноменальной Мощи), Name (Name)
-{
-Артефакт: Посох Феноменальной Мощи
-}
-
 STRING 8066
 // Abilities: A0EQ (Аура: Рог Маршала), Name (Name)
 {
@@ -54578,12 +54711,6 @@ STRING 8425
 // Abilities: A0CD (Attack speed (Orb of Fire)), Name (Name)
 {
 Attack speed (Orb of Fire)
-}
-
-STRING 8426
-// Abilities: A0CC (Артефакт: Лунный фонарь), Name (Name)
-{
-Артефакт: Лунный фонарь
 }
 
 STRING 8427
@@ -58954,17 +59081,6 @@ STRING 9102
 Denial of the Past, [|cffffcc00Level 5|r]
 }
 
-STRING 9105
-// Items: I0BP (Night Butterfly), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Increases Mana by 40.
-Activation: Makes an ally invisible.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 40 mana.
-}
-
 STRING 9106
 // Items: I0BP (Night Butterfly), Name (Name)
 {
@@ -61786,16 +61902,6 @@ STRING 9542
 // Abilities: A05F (Fallen One: Fatal Attraction), Researchtip (Tooltip - Learn)
 {
 Fatal Attraction, [|cffffcc00Level %d|r]
-}
-
-STRING 9543
-// Items: I0BP (Night Butterfly), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Increases Mana by 40.
-Activation: Makes an ally invisible.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 9544
@@ -66041,29 +66147,10 @@ STRING 10193
 Q
 }
 
-STRING 10194
-// Items: I04E (Staff of Phenomenal Power), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Increases spell power equal to your current spell power (minimum 30%). 
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 10195
 // Abilities: A00C (Beorn: Slap), Researchhotkey (Hotkey - Learn)
 {
 Q
-}
-
-STRING 10196
-// Items: I04E (Staff of Phenomenal Power), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Increases spell power equal to your current spell power (minimum 30%). 
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
 }
 
 STRING 10197
@@ -72402,7 +72489,7 @@ Lure, [|cffffcc00Level 5|r]
 }
 
 STRING 11235
-// Items: I02S (Spirit figurine), Description (Description)
+// Items: I02S (Spirit Figurine), Description (Description)
 {
 |cffe96a1cLegendary|r, |cff5858faMoon|r
 Summons a small uncontrollable spirit that chases the hero and constantly attacks nearby enemies, dealing |cffbe81f715|r damage. This spirit also uses waves created by the "|cff5858faMoon|r" set bonus.
@@ -72606,7 +72693,7 @@ E
 }
 
 STRING 11267
-// Items: I02S (Spirit figurine), Ubertip (Tooltip - Extended)
+// Items: I02S (Spirit Figurine), Ubertip (Tooltip - Extended)
 {
 |cffe96a1cLegendary|r, |cff5858faMoon|r
 Summons a small uncontrollable spirit that chases the hero and constantly attacks nearby enemies, dealing |cffbe81f715|r damage. This spirit also uses waves created by the "|cff5858faMoon|r" set bonus.
@@ -75016,24 +75103,6 @@ STRING 11619
 (Level 7)
 }
 
-STRING 11620
-// Items: I07J (Living Mana), Description (Description)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-Activation: Burns all your mana to creates 3 elementals from it.
-|cffffcc00Life time:|r 45 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-}
-
-STRING 11621
-// Items: I07J (Living Mana), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-Activation: Burns all your mana to creates 3 elementals from it.
-|cffffcc00Life time:|r 45 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-}
-
 STRING 11622
 // Abilities: A0UK (Commander: Sea is Worried), Name (Name)
 {
@@ -76798,22 +76867,6 @@ STRING 11880
 {
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corrupted|r. The hero gets 3 levels. Reduces stats by 10.
-}
-
-STRING 11881
-// Items: I0FR (Elune's Ring), Description (Description)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r, |cff9001fdRing|r
-Every seventh attack of the hero triggers the "|cff5858faMoon|r" set bonus.
-|cff81f260[Random bonus]|r
-}
-
-STRING 11882
-// Items: I0FR (Elune's Ring), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r, |cff9001fdRing|r
-Every seventh attack of the hero triggers the "|cff5858faMoon|r" set bonus.
-|cff81f260[Random bonus]|r
 }
 
 STRING 11883
@@ -78582,20 +78635,6 @@ Activation: Teleport to a random hero.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
-STRING 12146
-// Items: I07L (Playful Spirit), Description (Description)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-Every 10 seconds, burn |cffbe81f712|r mana to increase Spell Power by 4% until the end of the battle.
-}
-
-STRING 12147
-// Items: I07L (Playful Spirit), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-Every 10 seconds, burn |cffbe81f712|r mana to increase Spell Power by 4% until the end of the battle.
-}
-
 STRING 12148
 // Items: I02X (Omnipotent Ruby), Description (Description)
 {
@@ -78620,22 +78659,6 @@ STRING 12151
 // Abilities: A1I8 (Stat: Damage Taken +10%), Name (Name)
 {
 Stat: Damage Taken +10%
-}
-
-STRING 12152
-// Items: I0C3 (Yah's Tear), Description (Description)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-Activation: Restore all mana. Burns 15 mana every second until depleted.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 12153
-// Items: I0C3 (Yah's Tear), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff5858faMoon|r
-Activation: Restore all mana. Burns 15 mana every second until depleted.
-|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 12154
