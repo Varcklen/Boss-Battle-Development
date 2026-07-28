@@ -1,5 +1,7 @@
 library ExtraArenaGeneral requires ItemRandomizerLib, Multiboard
 
+	//ExtraArenaGeneral_IsPvPActive
+
 	globals
 		private real GoldGainMultiplier = 1
 	endglobals

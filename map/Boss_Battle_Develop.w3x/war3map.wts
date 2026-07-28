@@ -5158,6 +5158,15 @@ Activation: Increases Spell Power by 30%. While invisible, doubles it.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 813
+// Items: I0E3 (Cosmic Reed), Description (Description)
+{
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+Activation: Deals |cffbe81f70|r damage to an enemy. Damage is equal to 50% of the health restored by you this battle.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
 STRING 814
 // Items: I0G9 (Twilight Meat), Name (Name)
 {
@@ -5168,6 +5177,12 @@ STRING 815
 // Items: I0G9 (Twilight Meat), Tip (Tooltip - Basic)
 {
 Twilight Meat
+}
+
+STRING 816
+// Items: I0E3 (Cosmic Reed), Name (Name)
+{
+Cosmic Reed
 }
 
 STRING 817
@@ -7340,15 +7355,16 @@ Q
 }
 
 STRING 1127
-// Items: I0E3 (Cosmic reed), Name (Name)
+// Items: I0CM (Dream Leaf), Description (Description)
 {
-Cosmic reed
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Increases Health Regeneration by 5. While health is full, also increases Mana Regeneration by 5.
 }
 
 STRING 1128
-// Items: I0E3 (Cosmic reed), Tip (Tooltip - Basic)
+// Items: I0CM (Dream Leaf), Name (Name)
 {
-Cosmic reed
+Dream Leaf
 }
 
 STRING 1129
@@ -7757,6 +7773,12 @@ Activation: Deals |cffbe81f720|r damage to an enemy 15 times.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 1186
+// Items: I0E3 (Cosmic Reed), Tip (Tooltip - Basic)
+{
+Cosmic Reed
+}
+
 STRING 1187
 // Items: I0DO (Bloody Mary), Name (Name)
 {
@@ -7767,6 +7789,14 @@ STRING 1188
 // Items: I0DO (Bloody Mary), Tip (Tooltip - Basic)
 {
 Bloody Mary
+}
+
+STRING 1189
+// Items: I0E3 (Cosmic Reed), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+Activation: Deals |cffbe81f70|r damage to an enemy. Damage is equal to 50% of the health restored by you this battle.
+|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 1190
@@ -7953,6 +7983,13 @@ STRING 1214
 All players can take this hero.
 }
 
+STRING 1215
+// Items: I0CO (Il'gynoth Sprout), Description (Description)
+{
+|cffe96a1cLegendary|r, |cffb40431Blood|r
+When you restore a friendly target's health, deal that much |cffbe81f7damage|r to a random nearby enemy.
+}
+
 STRING 1216
 // Items: I0BN (Mana Needle), Name (Name)
 {
@@ -8023,6 +8060,12 @@ When the hero attacks, slows down the target, reducing their attack and movement
 |cffffcc00Duration:|r 4 seconds.
 }
 
+STRING 1226
+// Items: I0CO (Il'gynoth Sprout), Name (Name)
+{
+Il'gynoth Sprout
+}
+
 STRING 1227
 // Items: I0DE (Sheep's Tear), Name (Name)
 {
@@ -8033,6 +8076,12 @@ STRING 1228
 // Items: I0DE (Sheep's Tear), Tip (Tooltip - Basic)
 {
 Sheep's Tear
+}
+
+STRING 1229
+// Items: I0CO (Il'gynoth Sprout), Tip (Tooltip - Basic)
+{
+Il'gynoth Sprout
 }
 
 STRING 1230
@@ -8224,6 +8273,13 @@ STRING 1257
 Activation: Charges the hero with chaos energy. Every second you use a random ability.
 |cffffcc00Duration:|r 10 seconds.
 |cffffcc00Cooldown:|r 60 seconds.
+}
+
+STRING 1258
+// Items: I0CO (Il'gynoth Sprout), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cffb40431Blood|r
+When you restore a friendly target's health, deal that much |cffbe81f7damage|r to a random nearby enemy.
 }
 
 STRING 1259
@@ -8589,22 +8645,6 @@ Activation: Select another artifact in your inventory to transform it into a ran
 |cff81f260[Random bonus]|r
 }
 
-STRING 1312
-// Items: IZ09 (Natural Deselection), Description (Description)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-When another hero is revived during combat, for as long as they stay alive, gain their Spell Power and Luck until end of battle. 
-|cff81f260[Random bonus]|r
-}
-
-STRING 1313
-// Items: IZ09 (Natural Deselection), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-When another hero is revived during combat, for as long as they stay alive, gain their Spell Power and Luck until end of battle. 
-|cff81f260[Random bonus]|r
-}
-
 STRING 1314
 // Items: I0CS (Scorching mash), Description (Description)
 {
@@ -8719,15 +8759,16 @@ Fixed Odds has a |cffd7df0150%|r chance to provide 50% more luck. Otherwise, it 
 }
 
 STRING 1331
-// Items: I0CO (Felweed), Name (Name)
+// Items: I0CM (Dream Leaf), Tip (Tooltip - Basic)
 {
-Felweed
+Dream Leaf
 }
 
 STRING 1332
-// Items: I0CO (Felweed), Tip (Tooltip - Basic)
+// Items: I0CM (Dream Leaf), Ubertip (Tooltip - Extended)
 {
-Felweed
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Increases Health Regeneration by 5. While health is full, also increases Mana Regeneration by 5.
 }
 
 STRING 1333
@@ -8762,32 +8803,6 @@ STRING 1337
 |cff4169e1Rare|r, |cff7cfc00Nature|r
 When you overheal the target, 30% of the healing turns into a damage absorbing |cffbe81f7shield|r.
 |cff81f260[Random bonus]|r
-}
-
-STRING 1338
-// Items: I0CM (Dream leaf), Description (Description)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Increases health regeneration by 4. When health is full, it also increases mana regeneration by 4.
-}
-
-STRING 1339
-// Items: I0CM (Dream leaf), Name (Name)
-{
-Dream leaf
-}
-
-STRING 1340
-// Items: I0CM (Dream leaf), Tip (Tooltip - Basic)
-{
-Dream leaf
-}
-
-STRING 1341
-// Items: I0CM (Dream leaf), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Increases health regeneration by 4. When health is full, it also increases mana regeneration by 4.
 }
 
 STRING 1342
@@ -11470,13 +11485,6 @@ STRING 1732
 Runestone Zot
 }
 
-STRING 1733
-// Items: I0G7 (Runestone Info), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-When your minion is summoned, it increases attack power and health by 40% |cffffffffand reduces movement speed by 20%|r.
-}
-
 STRING 1734
 // Items: I04T (Shield of Lo'Gosh), Tip (Tooltip - Basic)
 {
@@ -11857,18 +11865,6 @@ STRING 1791
 // Items: I095 (Avengers Assemble), Name (Name)
 {
 Avengers Assemble
-}
-
-STRING 1792
-// Items: I09H (Fireflower), Name (Name)
-{
-Fireflower
-}
-
-STRING 1793
-// Items: I09H (Fireflower), Tip (Tooltip - Basic)
-{
-Fireflower
 }
 
 STRING 1794
@@ -13012,6 +13008,22 @@ STRING 1956
 Midas Bracelet
 }
 
+STRING 1957
+// Items: I020 (Horn of Cenarius), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff7cfc00Nature|r
+Activation: Resurrect a hero with 35% Health and Mana. Summon Horn of Cenarius, which periodically restores |cffbe81f740|r health to nearby heroes.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 60 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
+STRING 1958
+// Items: I020 (Horn of Cenarius), Name (Name)
+{
+Horn of Cenarius
+}
+
 STRING 1959
 // Abilities: A15V (Инкуб: Intoxicating love), Ubertip (Tooltip - Normal - Extended)
 {
@@ -13254,16 +13266,6 @@ Activation: Summons a boss under your control (max 1).
 |cffffcc00Cost:|r 35 mana.
 }
 
-STRING 1996
-// Items: I081 (Vine Trap), Description (Description)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Activation: Creates a trap that immobilizes the enemy for 3 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 20 mana.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1997
 // Items: I081 (Vine Trap), Name (Name)
 {
@@ -13274,15 +13276,6 @@ STRING 1998
 // Items: I081 (Vine Trap), Tip (Tooltip - Basic)
 {
 Vine Trap
-}
-
-STRING 1999
-// Items: I081 (Vine Trap), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Activation: Creates a trap that immobilizes the enemy for 3 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cff81f260[Random bonus]|r
 }
 
 STRING 2000
@@ -13858,6 +13851,35 @@ Activation: Deals |cffbe81f7200|r damage to a random enemy. Repeats for each oth
 |cffffcc00Cooldown:|r 35 seconds.
 }
 
+STRING 2084
+// Items: I020 (Horn of Cenarius), Tip (Tooltip - Basic)
+{
+Horn of Cenarius
+}
+
+STRING 2085
+// Items: I020 (Horn of Cenarius), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff7cfc00Nature|r
+Activation: Resurrect a hero with 35% Health and Mana. Summon Horn of Cenarius, which periodically restores |cffbe81f740|r health to nearby heroes.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 60 seconds.
+}
+
+STRING 2086
+// Items: I012 (Bloody Rose), Description (Description)
+{
+|cffe96a1cLegendary|r, |cffb40431Blood|r
+The Hero's attacks have |cffbe81f710%|r lifesteal. At full health, attacks grant a shield instead.
+}
+
+STRING 2087
+// Items: I012 (Bloody Rose), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cffb40431Blood|r
+The Hero's attacks have |cffbe81f710%|r lifesteal. At full health, attacks grant a shield instead.
+}
+
 STRING 2088
 // Items: I07E (Moon moth), Description (Description)
 {
@@ -13938,32 +13960,6 @@ STRING 2099
 Activation: Increases attack power by 15, armor by 3 and gives |cffbe81f720%|r vampirism for your attacks, but the hero loses 2% health per second. Re-activation turns off the effect.
 |cffffcc00Cooldown:|r 3 second.
 |cffffcc00Cost:|r 75 health.
-}
-
-STRING 2100
-// Items: I07B (Runestone Pan), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-At the end of the battle, gives a strong random bonus.
-}
-
-STRING 2101
-// Items: I07B (Runestone Pan), Name (Name)
-{
-Runestone Pan
-}
-
-STRING 2102
-// Items: I07B (Runestone Pan), Tip (Tooltip - Basic)
-{
-Runestone Pan
-}
-
-STRING 2103
-// Items: I07B (Runestone Pan), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-At the end of the battle, gives a strong random bonus.
 }
 
 STRING 2104
@@ -14088,18 +14084,6 @@ Binds your hero to another non-invisible hero. You lose the ability to move, but
 |cffffcc00Cooldown:|r 20 seconds.
 
 |cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
-}
-
-STRING 2121
-// Items: I076 (Runestone Zirik), Name (Name)
-{
-Runestone Zirik
-}
-
-STRING 2122
-// Items: I076 (Runestone Zirik), Tip (Tooltip - Basic)
-{
-Runestone Zirik
 }
 
 STRING 2123
@@ -16408,6 +16392,15 @@ STRING 2467
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff7cfc00nature|r.
 }
 
+STRING 2468
+// Items: I09H (Fire Flower), Description (Description)
+{
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+Activation: Restores |cffbe81f7300|r Health to a friendly target and permanently increases their Health by 10.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
 STRING 2469
 // Items: I04U (Strange Tail), Name (Name)
 {
@@ -16418,6 +16411,12 @@ STRING 2470
 // Items: I04U (Strange Tail), Tip (Tooltip - Basic)
 {
 Strange Tail
+}
+
+STRING 2471
+// Items: I09H (Fire Flower), Name (Name)
+{
+Fire Flower
 }
 
 STRING 2472
@@ -16803,6 +16802,20 @@ STRING 2529
 // Items: I0B4 (Barnacle Blood), Name (Name)
 {
 Barnacle Blood
+}
+
+STRING 2530
+// Items: I09H (Fire Flower), Tip (Tooltip - Basic)
+{
+Fire Flower
+}
+
+STRING 2531
+// Items: I09H (Fire Flower), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+Activation: Restores |cffbe81f7300|r Health to a friendly target and permanently increases their Health by 10.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 2532
@@ -18344,6 +18357,18 @@ Kills a minion. Restores the hero |cffbe81f1125%|r of the target's health. If th
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 2758
+// Abilities: A15J (Бонус: Dream Leaf), Name (Name)
+{
+Бонус: Dream Leaf
+}
+
+STRING 2759
+// Abilities: A15I (HP/sec (Dream Leaf)), Name (Name)
+{
+HP/sec (Dream Leaf)
+}
+
 STRING 2760
 // Abilities: AV00 (Sun King: Heating Up), Researchhotkey (Hotkey - Learn)
 {
@@ -18420,6 +18445,45 @@ STRING 2771
 // Items: I02P (Ancient Sword), Tip (Tooltip - Basic)
 {
 Ancient Sword
+}
+
+STRING 2772
+// Abilities: A1J3 (Artifact: Fire Flower), Name (Name)
+{
+Artifact: Fire Flower
+}
+
+STRING 2773
+// Items: I0G6 (Salad of Wonders), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Activation: Restores |cffbe81f7400|r health to the Hero.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 25 mana.
+}
+
+STRING 2774
+// Items: I0G6 (Salad of Wonders), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Activation: Restores |cffbe81f7400|r health to the Hero.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 2775
+// Items: I08E (Sun Root), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Whenever you heal a friendly target for 200 or more health at once, heal for 200 more.
+|cff81f260[Random bonus]|r
+}
+
+STRING 2776
+// Items: I08E (Sun Root), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Whenever you heal a friendly target for 200 or more health at once, heal for 200 more.
+|cff81f260[Random bonus]|r
 }
 
 STRING 2777
@@ -18679,6 +18743,42 @@ Throws a projectile at a certain point, which explodes after 3 seconds, causing 
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
+STRING 2813
+// Items: I081 (Vine Trap), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Activation: Creates a Vine Trap that deals |cffbe81f7200|r damage and immobilizes enemies for 3 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 20 mana.
+}
+
+STRING 2814
+// Items: I081 (Vine Trap), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Activation: Creates a Vine Trap that deals |cffbe81f7200|r damage and immobilizes enemies for 3 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 2815
+// Items: IZ10 (Refreshing Lemons), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Whenever a hero is resurrected, grant them |cffbe81f7500|r Shield.
+Activation: Resurrect a hero with 25% health and mana.
+|cffffcc00Cooldown:|r 60 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
+STRING 2816
+// Items: IZ10 (Refreshing Lemons), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Whenever a hero is resurrected, grant them |cffbe81f7500|r Shield.
+Activation: Resurrect a hero with 25% health and mana.
+|cffffcc00Cooldown:|r 60 seconds.
+}
+
 STRING 2817
 // Items: I02D (Mage Shoes), Description (Description)
 {
@@ -18889,6 +18989,12 @@ Increases an ally's attack by |cffbe81f725%|r.
 |cffffcc00Cooldown:|r 12 seconds.
 }
 
+STRING 2849
+// Abilities: A1J4 (Artifact: Refreshing Lemons), Name (Name)
+{
+Artifact: Refreshing Lemons
+}
+
 STRING 2850
 // Items: I0HV (Buy Exile Item), Tip (Tooltip - Basic)
 {
@@ -18899,6 +19005,14 @@ STRING 2851
 // Items: I0HV (Buy Exile Item), Ubertip (Tooltip - Extended)
 {
 Obtain an Exile item. These items existed in the arena in the past, but were cast into oblivion.
+}
+
+STRING 2852
+// Items: I0A0 (Lollipop), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+When you heal a friendly target, you have a |cffd7df0125%|r chance to restore 100% more.
+|cff81f260[Random bonus]|r
 }
 
 STRING 2853
@@ -19020,15 +19134,20 @@ Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seco
 }
 
 STRING 2870
-// Items: I020 (Cenarion Horn), Name (Name)
+// Items: I0A0 (Lollipop), Ubertip (Tooltip - Extended)
 {
-Cenarion Horn
+|cffbababcCommon|r, |cff7cfc00Nature|r
+When you heal a friendly target, you have a |cffd7df0125%|r chance to restore 100% more.
+|cff81f260[Random bonus]|r
 }
 
 STRING 2871
-// Items: I020 (Cenarion Horn), Tip (Tooltip - Basic)
+// Items: I08H (Seal of Calm), Description (Description)
 {
-Cenarion Horn
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Activation: Enhances your hero's magic. Increases Healing Power by 75% for 20 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 50 mana.
 }
 
 STRING 2872
@@ -19953,13 +20072,6 @@ Restores |cffbe81f740|r health to the hero every second.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 3009
-// Items: I0G7 (Runestone Info), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-When your minion is summoned, it increases attack power and health by 40% |cffffffffand reduces movement speed by 20%|r.
-}
-
 STRING 3010
 // Items: I0E5 (Runestone Zolo), Description (Description)
 {
@@ -20095,6 +20207,14 @@ Activation: Summons 3 sheeps.
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 3029
+// Items: I08H (Seal of Calm), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Activation: Enhances your hero's magic. Increases Healing Power by 75% for 20 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
 STRING 3030
 // Items: I00X (Spellbreaker Shield), Name (Name)
 {
@@ -20105,6 +20225,14 @@ STRING 3031
 // Items: I00X (Spellbreaker Shield), Tip (Tooltip - Basic)
 {
 Spellbreaker Shield
+}
+
+STRING 3032
+// Items: IZ09 (Natural Deselection), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Increases Health by 200 and Mana by 50.
+As long as another hero remains alive after being resurrected, gain their Spell Power and Luck.
 }
 
 STRING 3033
@@ -20239,6 +20367,14 @@ STRING 3052
 Grateful Dead
 }
 
+STRING 3053
+// Items: IZ09 (Natural Deselection), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Increases Health by 200 and Mana by 50.
+As long as another hero remains alive after being resurrected, gain their Spell Power and Luck.
+}
+
 STRING 3054
 // Items: I00R (Crown of Night), Name (Name)
 {
@@ -20249,6 +20385,12 @@ STRING 3055
 // Items: I00R (Crown of Night), Tip (Tooltip - Basic)
 {
 Crown of Night
+}
+
+STRING 3056
+// Abilities: A1J5 (HP (Natural Deselection)), Name (Name)
+{
+HP (Natural Deselection)
 }
 
 STRING 3057
@@ -20552,6 +20694,12 @@ STRING 3103
 Celestial Quartz
 }
 
+STRING 3104
+// Abilities: A1J6 (MP (Natural Deselection)), Name (Name)
+{
+MP (Natural Deselection)
+}
+
 STRING 3105
 // Items: I00E (Coal Gift), Description (Description)
 {
@@ -20753,6 +20901,13 @@ STRING 3136
 |cffbababcCommon|r, |cffb18904Mech|r
 Activation: Uses a random activated |cffb18904mech|r.
 |cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 3137
+// Items: I00D (Runestone Fandom), Description (Description)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases Mana by 200 and Spell Power by 20%. |cffffffffThe hero receives 40% less health from healing.|r
 }
 
 STRING 3138
@@ -24048,14 +24203,6 @@ STRING 3661
 Song of Joy, [|cffffcc00Level %d|r]
 }
 
-STRING 3662
-// Items: IZ10 (Refreshing Lemons), Description (Description)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-When any hero is revived, apply damage absorbing |cffbe81f7shield|r to them equal to their health.
-|cff81f260[Random bonus]|r
-}
-
 STRING 3663
 // Abilities: A1AV (Bard: Song of Joy), Tip (Tooltip - Normal)
 {
@@ -27174,6 +27321,19 @@ STRING 4143
 Increases Attack Speed by 40%. If the hero's health is 50% or less, it decreases instead.
 }
 
+STRING 4144
+// Items: I00D (Runestone Fandom), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases Mana by 200 and Spell Power by 20%. |cffffffffThe hero receives 40% less health from healing.|r
+}
+
+STRING 4145
+// Abilities: A0ZB (MP (Runestone Fandom)), Name (Name)
+{
+MP (Runestone Fandom)
+}
+
 STRING 4146
 // Items: I02E (Ogre Club), Description (Description)
 {
@@ -27304,6 +27464,19 @@ STRING 4165
 // Abilities: A1IY (Armor (Crystal Barrier)), Name (Name)
 {
 Armor (Crystal Barrier)
+}
+
+STRING 4166
+// Abilities: A1J7 (Spell Power (+20%)), Name (Name)
+{
+Spell Power (+20%)
+}
+
+STRING 4167
+// Items: I07B (Stone Tablet), Description (Description)
+{
+|cff4169e1Rare|r
+At the end of the battle, gain 1 Level.
 }
 
 STRING 4168
@@ -27846,14 +28019,6 @@ STRING 4253
 Soulfiend
 }
 
-STRING 4254
-// Items: IZ10 (Refreshing Lemons), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-When any hero is revived, apply damage absorbing |cffbe81f7shield|r to them equal to their health.
-|cff81f260[Random bonus]|r
-}
-
 STRING 4255
 // Abilities: A172 (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -27882,14 +28047,6 @@ STRING 4259
 // Abilities: A16Z (|cffffcc00Уровень 4:|r Начальник стражи), Tip (Tooltip - Normal)
 {
 Chief of the Guard
-}
-
-STRING 4260
-// Items: I0A0 (Lollipop), Description (Description)
-{
-|cffbababcCommon|r
-Your health-restoring abilities and items, with a probability of |cffd7df0125%|r, will restore 100% more health.
-|cff81f260[Random bonus]|r
 }
 
 STRING 4261
@@ -27929,14 +28086,6 @@ STRING 4266
 
 Enters the hero into a trance. His attack and movement speed is reduced by 35%, but every second heals all nearby allies |cffbe81f71.2%|r of their maximum health and mana.
 |cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 4267
-// Items: I0A0 (Lollipop), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Your health-restoring abilities and items, with a probability of |cffd7df0125%|r, will restore 100% more health.
-|cff81f260[Random bonus]|r
 }
 
 STRING 4268
@@ -28507,6 +28656,12 @@ STRING 4355
 Acid Throw, [|cffffcc00Level %d|r]
 }
 
+STRING 4356
+// Items: I07B (Stone Tablet), Name (Name)
+{
+Stone Tablet
+}
+
 STRING 4357
 // Abilities: A17T (Money Bag: Acid Throw), Tip (Tooltip - Normal)
 {
@@ -28894,6 +29049,32 @@ STRING 4418
 Acid Throw, [|cffffcc00Level 5|r]
 }
 
+STRING 4419
+// Items: I07B (Stone Tablet), Tip (Tooltip - Basic)
+{
+Stone Tablet
+}
+
+STRING 4420
+// Items: I07B (Stone Tablet), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+At the end of the battle, gain 1 Level.
+}
+
+STRING 4421
+// Items: I076 (Marble Tablet), Description (Description)
+{
+|cff4169e1Rare|r
+At the end of the battle, gives 7% Spell Power and 7 Luck.
+}
+
+STRING 4422
+// Items: I076 (Marble Tablet), Name (Name)
+{
+Marble Tablet
+}
+
 STRING 4423
 // Abilities: A15P (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -28928,6 +29109,12 @@ STRING 4428
 // Abilities: A15N (Predator: Aqua Jet), Researchtip (Tooltip - Learn)
 {
 Aqua Jet, [|cffffcc00Level %d|r]
+}
+
+STRING 4429
+// Items: I076 (Marble Tablet), Tip (Tooltip - Basic)
+{
+Marble Tablet
 }
 
 STRING 4430
@@ -28985,6 +29172,13 @@ STRING 4438
 // Abilities: A1IR (Invulnerable), EditorSuffix (Editor Suffix)
 {
 (Acid Throw)
+}
+
+STRING 4439
+// Items: I076 (Marble Tablet), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+At the end of the battle, gives 7% Spell Power and 7 Luck.
 }
 
 STRING 4440
@@ -29047,6 +29241,40 @@ STRING 4449
 Stomp Out, [|cffffcc00Level 5|r]
 }
 
+STRING 4450
+// Items: I06N (Runestone Landom), Description (Description)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases Luck by 25 and Agility by 12. |cffffffffDecreases Attack Damage by 15.|r
+}
+
+STRING 4451
+// Items: I06N (Runestone Landom), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases Luck by 25 and Agility by 12. |cffffffffDecreases Attack Damage by 15.|r
+}
+
+STRING 4452
+// Items: I00A (Runestone Alatyr), Description (Description)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases Attack Damage by 40 and Health Regeneration by 4. |cffffffffYou deal 30% less damage to minions.|r
+}
+
+STRING 4453
+// Items: I00A (Runestone Alatyr), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases Attack Damage by 40 and Health Regeneration by 4. |cffffffffYou deal 30% less damage to minions.|r
+}
+
+STRING 4454
+// Abilities: A0OU (Attack (Runestone Landom)), Name (Name)
+{
+Attack (Runestone Landom)
+}
+
 STRING 4455
 // Abilities: A15L (Артефакт: Череп Изгнанника), Name (Name)
 {
@@ -29057,18 +29285,6 @@ STRING 4456
 // Abilities: A15K (Spell Book), EditorSuffix (Editor Suffix)
 {
 (Снолист)
-}
-
-STRING 4457
-// Abilities: A15J (Бонус: Снолист), Name (Name)
-{
-Бонус: Снолист
-}
-
-STRING 4458
-// Abilities: A15I (HP/sec (Снолист)), Name (Name)
-{
-HP/sec (Снолист)
 }
 
 STRING 4459
@@ -30501,6 +30717,13 @@ STRING 4677
 Mov. Speed (Карта Таро: Ветра)
 }
 
+STRING 4678
+// Items: I02G (Runestone Dor), Description (Description)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+Increases Health by 500. |cffffffffAt the start of combat, deal 500 damage to the owner.|r
+}
+
 STRING 4679
 // Abilities: A13L (Spell Power (+10%)), Name (Name)
 {
@@ -30676,13 +30899,6 @@ STRING 4706
 Horseman of the Apocalypse
 }
 
-STRING 4707
-// Items: I0CO (Felweed), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff7cfc00Nature|r
-When you restore health with abilities or items, deals |cffbe81f7damage|r equal to that healing to a random enemy nearby.
-}
-
 STRING 4708
 // Abilities: A13C (Босс 6: Морская черепаха (Девятый вал)), Name (Name)
 {
@@ -30720,10 +30936,10 @@ Sea turtle
 }
 
 STRING 4714
-// Items: I0CO (Felweed), Ubertip (Tooltip - Extended)
+// Items: I00C (Runestone Sandom), Description (Description)
 {
-|cffe96a1cLegendary|r, |cff7cfc00Nature|r
-When you restore health with abilities or items, deals |cffbe81f7damage|r equal to that healing to a random enemy nearby.
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases Stats by 10. |cffffffffDecreases Attack Damage by 25.|r
 }
 
 STRING 4715
@@ -32763,6 +32979,13 @@ Increases luck by 100.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 5020
+// Items: I00C (Runestone Sandom), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases Stats by 10. |cffffffffDecreases Attack Damage by 25.|r
+}
+
 STRING 5021
 // Abilities: A11H (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -34187,15 +34410,6 @@ STRING 5242
 Stat: Vampirism +50%
 }
 
-STRING 5243
-// Items: I0G6 (Salad of Wonders), Description (Description)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Activation: Restores |cffbe81f7400|r health to the Hero. If the inventory is full, |cffcc0000Corrupted|r.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 25 mana.
-}
-
 STRING 5244
 // Abilities: A0WR (Shaman: Polymorph: Rat), Researchhotkey (Hotkey - Learn)
 {
@@ -34322,22 +34536,10 @@ STRING 5264
 (т)Аура: Ледяной змей (Заморозка)
 }
 
-STRING 5265
-// Abilities: A0ZB (MP (Фандом)), Name (Name)
-{
-MP (Фандом)
-}
-
 STRING 5266
 // Abilities: A0ZA (Attack (Сандом)), Name (Name)
 {
 Attack (Сандом)
-}
-
-STRING 5267
-// Abilities: A0Z9 (Stats (Сандом)), Name (Name)
-{
-Stats (Сандом)
 }
 
 STRING 5268
@@ -35349,6 +35551,12 @@ STRING 5425
 Armor (Зот)
 }
 
+STRING 5426
+// Abilities: A0Z9 (Stats (Runestone Sandom)), Name (Name)
+{
+Stats (Runestone Sandom)
+}
+
 STRING 5427
 // Abilities: A0X6 (Артефакт: Кровавый нож), Name (Name)
 {
@@ -35739,6 +35947,13 @@ STRING 5482
 // Abilities: A0WI (Артефакт: Могильная урна), Name (Name)
 {
 Артефакт: Могильная урна
+}
+
+STRING 5483
+// Items: I0G7 (Runestone Info), Description (Description)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+When you summon a minion, increase its Attack Damage and Health by 40%, |cffffffffbut decrease its Attack Speed ​​by 20%.|r
 }
 
 STRING 5484
@@ -40439,44 +40654,6 @@ STRING 6199
 Reduces attack power of |cffffffffthe hero and|r bosses by 30%.
 }
 
-STRING 6200
-// Items: I076 (Runestone Zirik), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Gain a random artifact at the end of battle. If the artifact is |cff4169e1rare|r or |cffe96a1clegendary|r, your hero gains 5 stats. |cffffffffOtherwise, your hero loses 2 stats.|r
-}
-
-STRING 6201
-// Items: I076 (Runestone Zirik), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Gain a random artifact at the end of battle. If the artifact is |cff4169e1rare|r or |cffe96a1clegendary|r, your hero gains 5 stats. |cffffffffOtherwise, your hero loses 2 stats.|r
-}
-
-STRING 6202
-// Items: I06N (Runestone Landom), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases luck by 25 and agility by 12.
-|cffffffffDecreases attack power by 25.|r
-}
-
-STRING 6203
-// Items: I06N (Runestone Landom), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases luck by 25 and agility by 12.
-|cffffffffDecreases attack power by 25.|r
-}
-
-STRING 6204
-// Items: I05L (Runestone Pik), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-The hero receives 35% more gold from any sources.
-|cffffffffEvery fifth gold reward does not give gold.|r
-}
-
 STRING 6205
 // Abilities: A0RS (Босс 8: Вуду-Мастер (Аура)), Name (Name)
 {
@@ -41370,6 +41547,13 @@ STRING 6345
 // Abilities: A0QY (Attack (Меч)), Name (Name)
 {
 Attack (Меч)
+}
+
+STRING 6346
+// Items: I0G7 (Runestone Info), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+When you summon a minion, increase its Attack Damage and Health by 40%, |cffffffffbut decrease its Attack Speed ​​by 20%.|r
 }
 
 STRING 6347
@@ -42795,12 +42979,6 @@ STRING 6570
 Stats (Ландом)
 }
 
-STRING 6571
-// Abilities: A0OU (Attack (Ландом)), Name (Name)
-{
-Attack (Ландом)
-}
-
 STRING 6572
 // Abilities: A0OT (Orb: Earth), Name (Name)
 {
@@ -43601,6 +43779,13 @@ STRING 6699
 // Abilities: A0NY (Аура: Приободрение), Name (Name)
 {
 Аура: Приободрение
+}
+
+STRING 6700
+// Items: I02G (Runestone Dor), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+Increases Health by 500. |cffffffffAt the start of combat, deal 500 damage to the owner.|r
 }
 
 STRING 6701
@@ -44583,6 +44768,12 @@ STRING 6855
 Аура: Приток сил
 }
 
+STRING 6856
+// Abilities: A1J8 (Stat: Gold Gain +30%), Name (Name)
+{
+Stat: Gold Gain +30%
+}
+
 STRING 6857
 // Abilities: A0MZ (Аура: Plague (Damage)), Name (Name)
 {
@@ -45002,6 +45193,12 @@ STRING 6921
 // Abilities: A0MP (Attack (Дискошар)), Name (Name)
 {
 Attack (Дискошар)
+}
+
+STRING 6922
+// Abilities: A1J9 (Stat: Damage Dealt -15%), Name (Name)
+{
+Stat: Damage Dealt -15%
 }
 
 STRING 6923
@@ -49546,6 +49743,19 @@ STRING 7610
 Activation: |cffcc0000Corrupted|r. Increases stats by 1 and |cff60C445Unique|r Spell Power by 25%.
 }
 
+STRING 7611
+// Buffs/Effects: B00T (), Buffubertip (Tooltip - Extended)
+{
+Attack speed reduced.
+}
+
+STRING 7612
+// Items: I05L (Runestone Pik), Description (Description)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+You receive 30% more gold. |cffffffffReduces Damage Dealt by 15%.|r
+}
+
 STRING 7613
 // Items: I0BT (Steel Rose), Name (Name)
 {
@@ -50631,6 +50841,13 @@ STRING 7781
 // Abilities: A0GM (Artifact: Amalgam), Name (Name)
 {
 Artifact: Amalgam
+}
+
+STRING 7782
+// Items: I05L (Runestone Pik), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+You receive 30% more gold. |cffffffffReduces Damage Dealt by 15%.|r
 }
 
 STRING 7783
@@ -52730,14 +52947,6 @@ The Hero cannot take more damage than 10% of the maximum Health.
 |cff81f260[Random bonus]|r
 }
 
-STRING 8114
-// Items: I05L (Runestone Pik), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-The hero receives 35% more gold from any sources.
-|cffffffffEvery fifth gold reward does not give gold.|r
-}
-
 STRING 8115
 // Items: I023 (Chameleon fish), Description (Description)
 {
@@ -52754,13 +52963,6 @@ STRING 8116
 At the beginning of each battle, it turns into a random activatable artifact.
 }
 
-STRING 8117
-// Items: I012 (Bloody Rose), Description (Description)
-{
-|cffe96a1cLegendary|r, |cffb40431Blood|r, |cff7cfc00Nature|r
-The Hero's attacks have |cffbe81f78%|r lifesteal. At full health, attacks grant a shield instead.
-}
-
 STRING 8118
 // Items: I012 (Bloody Rose), Name (Name)
 {
@@ -52771,13 +52973,6 @@ STRING 8119
 // Items: I012 (Bloody Rose), Tip (Tooltip - Basic)
 {
 Bloody Rose
-}
-
-STRING 8120
-// Items: I012 (Bloody Rose), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cffb40431Blood|r, |cff7cfc00Nature|r
-The Hero's attacks have |cffbe81f78%|r lifesteal. At full health, attacks grant a shield instead.
 }
 
 STRING 8121
@@ -54277,14 +54472,6 @@ STRING 8359
 // Abilities: A0CN (Skeletlord: Parish), Researchtip (Tooltip - Learn)
 {
 Parish, [|cffffcc00Level %d|r]
-}
-
-STRING 8360
-// Items: I0G6 (Salad of Wonders), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Activation: Restores |cffbe81f7400|r health to the Hero. If the inventory is full, |cffcc0000Corrupted|r.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 8361
@@ -62049,22 +62236,6 @@ STRING 9565
 {
 |cffB614F0Starting Bonus|r
 Get 350 gold.
-}
-
-STRING 9566
-// Items: I02G (Runestone Dor), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases health by 750.
-|cffffffffDecreases armor by 6.|r
-}
-
-STRING 9567
-// Items: I02G (Runestone Dor), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases health by 750.
-|cffffffffDecreases armor by 6.|r
 }
 
 STRING 9568
@@ -70225,7 +70396,7 @@ STRING 10857
 }
 
 STRING 10858
-// Buffs/Effects: B040 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B03T (), Buffubertip (Tooltip - Extended)
 {
 Movement speed reduced.
 }
@@ -70309,7 +70480,7 @@ STRING 10871
 }
 
 STRING 10872
-// Buffs/Effects: B03T (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B03O (), Buffubertip (Tooltip - Extended)
 {
 Movement speed reduced.
 }
@@ -70369,7 +70540,7 @@ STRING 10881
 }
 
 STRING 10882
-// Buffs/Effects: B03O (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B011 (), Buffubertip (Tooltip - Extended)
 {
 Movement speed reduced.
 }
@@ -70489,7 +70660,7 @@ STRING 10901
 }
 
 STRING 10902
-// Buffs/Effects: B011 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B00O (), Buffubertip (Tooltip - Extended)
 {
 Movement speed reduced.
 }
@@ -71083,7 +71254,7 @@ STRING 11001
 }
 
 STRING 11002
-// Buffs/Effects: B03E (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B040 (), Buffubertip (Tooltip - Extended)
 {
 Attack speed reduced.
 }
@@ -71281,7 +71452,7 @@ STRING 11034
 }
 
 STRING 11035
-// Buffs/Effects: B021 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B03E (), Buffubertip (Tooltip - Extended)
 {
 Attack speed reduced.
 }
@@ -71509,7 +71680,7 @@ STRING 11072
 }
 
 STRING 11073
-// Buffs/Effects: B00O (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B0AQ (), Buffubertip (Tooltip - Extended)
 {
 Movement speed reduced.
 }
@@ -71614,7 +71785,7 @@ STRING 11089
 }
 
 STRING 11090
-// Buffs/Effects: B01L (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B021 (), Buffubertip (Tooltip - Extended)
 {
 Attack speed reduced.
 }
@@ -72445,7 +72616,7 @@ Sometimes, the reward is classified.
 }
 
 STRING 11228
-// Buffs/Effects: B00T (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B01L (), Buffubertip (Tooltip - Extended)
 {
 Attack speed reduced.
 }
@@ -72806,14 +72977,6 @@ STRING 11284
 Spirit Journey, [|cffffcc00Level 5|r]
 }
 
-STRING 11285
-// Items: I00D (Runestone Fandom), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases mana by 150 and spell power by 10%. 
-|cffffffffThe hero receives 40% less healing from any sources.|r
-}
-
 STRING 11286
 // Abilities: A1DW (Runesmith: Carve Rune), Researchtip (Tooltip - Learn)
 {
@@ -72979,14 +73142,6 @@ STRING 11310
 Carve Rune, [|cffffcc00Level 5|r]
 }
 
-STRING 11311
-// Items: I00D (Runestone Fandom), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases mana by 150 and spell power by 10%. 
-|cffffffffThe hero receives 40% less healing from any sources.|r
-}
-
 STRING 11312
 // Abilities: A1DR (Shepherd: Spirit Journey), Ubertip (Tooltip - Normal - Extended)
 {
@@ -73029,26 +73184,12 @@ STRING 11317
 E
 }
 
-STRING 11318
-// Items: I00C (Runestone Sandom), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases stats by 7. |cffffffffDecreases attack power by 25.|r
-}
-
 STRING 11319
 // Abilities: A1DV (Shepherd: Shepherds Call Active), Researchubertip (Tooltip - Learn - Extended)
 {
 |cffffcc00Active:|r Idle allied summons are ordered to attack the Shepherds target.
 |cffffcc00Passive:|r Attacks apply a debuff reducing armor by 3/5/7/9/11.
 |cffffcc00Duration:|r 4 seconds.
-}
-
-STRING 11320
-// Items: I00C (Runestone Sandom), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases stats by 7. |cffffffffDecreases attack power by 25.|r
 }
 
 STRING 11321
@@ -73065,14 +73206,6 @@ STRING 11322
 |cff4169e1Rare|r, |cff848484Rune|r
 Increases armor by 5 and health by 500.
 |cffffffffDecreases attack speed by 25% and increases cooldown of abilities and items by 25%.|r
-}
-
-STRING 11323
-// Items: I00A (Runestone Alatyr), Description (Description)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases Attack by 30 and Health Regeneration by 2.
-|cffffffffReduces Damage dealt to minions by 30%.|r
 }
 
 STRING 11324
@@ -73212,14 +73345,6 @@ STRING 11344
 // Abilities: A1E1 (Runesmith: Carve Rune of the Emperor), Tip (Tooltip - Normal)
 {
 Carve Rune of the Emperor
-}
-
-STRING 11345
-// Items: I00A (Runestone Alatyr), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases Attack by 30 and Health Regeneration by 2.
-|cffffffffReduces Damage dealt to minions by 30%.|r
 }
 
 STRING 11346
@@ -75698,7 +75823,7 @@ STRING 11709
 }
 
 STRING 11710
-// Buffs/Effects: B0AQ (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B0AY (), Buffubertip (Tooltip - Extended)
 {
 Movement speed reduced.
 }
@@ -76412,34 +76537,6 @@ STRING 11817
 Every 2 seconds, restores |cffbe81f72%|r of maximum health if the hero’s health is less than 60%.
 }
 
-STRING 11818
-// Items: I08H (Seal of Calm), Description (Description)
-{
-|cffbababcCommon|r
-Activation: Gives the hero an effect: "Your health-restoring abilities and items restore 75% more health."
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
-STRING 11819
-// Items: I08H (Seal of Calm), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: Gives the hero an effect: "Your health-restoring abilities and items restore 75% more health."
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-}
-
-STRING 11820
-// Items: I08E (Sun Root), Description (Description)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-When you restore 200 or more Health to the target at once, gives it invulnerability.
-|cffffcc00Duration:|r 7 seconds.
-|cff81f260[Random bonus]|r
-}
-
 STRING 11821
 // Items: I08E (Sun Root), Name (Name)
 {
@@ -76450,15 +76547,6 @@ STRING 11822
 // Items: I08E (Sun Root), Tip (Tooltip - Basic)
 {
 Sun Root
-}
-
-STRING 11823
-// Items: I08E (Sun Root), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-When you restore 200 or more Health to the target at once, gives it invulnerability.
-|cffffcc00Duration:|r 7 seconds.
-|cff81f260[Random bonus]|r
 }
 
 STRING 11824
@@ -76698,23 +76786,6 @@ STRING 11857
 If all other heroes die, |cffcc0000corrupted|r, increases stats of your hero by 5 and resurrects the others.
 }
 
-STRING 11858
-// Items: I0E3 (Cosmic reed), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff7cfc00Nature|r
-Activation: Deals |cffbe81f70|r damage to an enemy. Damage is always equal to 35% of the health restored by you during the battle.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 80 mana.
-}
-
-STRING 11859
-// Items: I0E3 (Cosmic reed), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff7cfc00Nature|r
-Activation: Deals |cffbe81f70|r damage to an enemy. Damage is always equal to 35% of the health restored by you during the battle.
-|cffffcc00Cooldown:|r 45 seconds.
-}
-
 STRING 11860
 // Items: I0DV (Blood of the Ancient (Out of Pool)), Name (Name)
 {
@@ -76824,25 +76895,6 @@ Increases the ally's attack speed by 35%/50%/65%/80%/95%, but every second takes
 |cffffcc00Cost:|r 20/25/30/35/40 mana.
 }
 
-STRING 11875
-// Items: I020 (Cenarion Horn), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff7cfc00Nature|r
-Activation: Puts the Cenarion Horn on the ground, restoring |cffbe81f740|r health to heroes nearby every second.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
-|cffffcc00Cost:|r 80 mana.
-}
-
-STRING 11876
-// Items: I020 (Cenarion Horn), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff7cfc00Nature|r
-Activation: Puts the Cenarion Horn on the ground, restoring |cffbe81f740|r health to heroes nearby every second.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
-}
-
 STRING 11877
 // Abilities: A032 (Doctor: Plague Impact), Tip (Tooltip - Normal)
 {
@@ -76943,20 +76995,6 @@ STRING 11893
 |cff4169e1Rare|r, |cffb40431Blood|r
 Activation: Kills your hero and resurrects it with 50% health and mana.
 |cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 11894
-// Items: I09H (Fireflower), Description (Description)
-{
-|cff4169e1Rare|r, |cff7cfc00Nature|r
-The hero's attacks deal +200% damage to minions.
-}
-
-STRING 11895
-// Items: I09H (Fireflower), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff7cfc00Nature|r
-The hero's attacks deal +200% damage to minions.
 }
 
 STRING 11896
@@ -77369,12 +77407,6 @@ STRING 11956
 // Buffs/Effects: B0AW (), Buffubertip (Tooltip - Extended)
 {
 Lose health when casting.
-}
-
-STRING 11957
-// Buffs/Effects: B0AY (), Buffubertip (Tooltip - Extended)
-{
-Movement speed reduced.
 }
 
 STRING 11958

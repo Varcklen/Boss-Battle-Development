@@ -60,6 +60,7 @@ library StatAbilityDatabase initializer init requires StatAbility
 		call ConnectAbilityToStat( 'A1F9', STAT_DAMAGE_DEALT_BOSSES, 30 )
 		//STAT_DAMAGE_DEALT
 		call ConnectAbilityToStat( 'A1FA', STAT_DAMAGE_DEALT, 25 )
+		call ConnectAbilityToStat( 'A1J9', STAT_DAMAGE_DEALT, -15 )
 		//STAT_COOLDOWN
 		call ConnectAbilityToStat( 'A1FB', STAT_COOLDOWN, -30 )
 		call ConnectAbilityToStat( 'A1FL', STAT_COOLDOWN, -10 )
@@ -79,6 +80,7 @@ library StatAbilityDatabase initializer init requires StatAbility
 		call ConnectAbilityToStat( 'A1FN', STAT_GOLD_GAIN, 35 )
 		call ConnectAbilityToStat( 'A1FZ', STAT_GOLD_GAIN, -20 )
 		call ConnectAbilityToStat( 'A1HM', STAT_GOLD_GAIN, -25 )
+		call ConnectAbilityToStat( 'A1J8', STAT_GOLD_GAIN, 30 )
 		//STAT_DAMAGE_TAKEN_PHY
 		call ConnectAbilityToStat( 'A1FF', STAT_DAMAGE_TAKEN_PHY, -40 )
 		call ConnectAbilityToStat( 'A1FU', STAT_DAMAGE_TAKEN_PHY, -10 )
