@@ -36,6 +36,7 @@ library StatAbilityDatabase initializer init requires StatAbility
 		//STAT_HEAL_BONUS
 		call ConnectAbilityToStat( 'A1F4', STAT_HEAL_BONUS, 150 )
 		call ConnectAbilityToStat( 'A1FM', STAT_HEAL_BONUS, 20 )
+		call ConnectAbilityToStat( 'A1JB', STAT_HEAL_BONUS, 30 )
 		//STAT_DAMAGE_DEALT_PHY
 		call ConnectAbilityToStat( 'A1FV', STAT_DAMAGE_DEALT_PHY, 10 )
 		call ConnectAbilityToStat( 'A1F5', STAT_DAMAGE_DEALT_PHY, 40 )
@@ -58,6 +59,7 @@ library StatAbilityDatabase initializer init requires StatAbility
 		call ConnectAbilityToStat( 'A1FO', STAT_DODGE, 25 )
 		//STAT_DAMAGE_DEALT_BOSSES
 		call ConnectAbilityToStat( 'A1F9', STAT_DAMAGE_DEALT_BOSSES, 30 )
+		call ConnectAbilityToStat( 'A1JC', STAT_DAMAGE_DEALT_BOSSES, 15 )
 		//STAT_DAMAGE_DEALT
 		call ConnectAbilityToStat( 'A1FA', STAT_DAMAGE_DEALT, 25 )
 		call ConnectAbilityToStat( 'A1J9', STAT_DAMAGE_DEALT, -15 )

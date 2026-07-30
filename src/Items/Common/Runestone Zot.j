@@ -1,39 +1,28 @@
 scope RunestoneZot initializer init
 
 	globals
-		private constant integer VALUE_TO_ADD = -20
-		private constant integer STAT_TYPE = STAT_GOLD_GAIN
+		private constant integer ITEM_ID = 'I09W'
+		private constant integer GOLD_LOSE = 75
+		private constant string ANIMATION = "Abilities\\Spells\\Items\\AIso\\AIsoTarget.mdl"
 	endglobals
 
-	private function ItemCheck takes nothing returns boolean
-		return RuneSetGainLose_GetItemType() == 'I09W'
-	endfunction
-
-	private function SetGain takes nothing returns nothing
-		local unit caster = RuneSetGainCheck.GetDataUnit("caster")
-		local item itemUsed = RuneSetGainCheck.GetDataItem("item")
-		
-		call StatSystem_Add( caster, STAT_TYPE, -VALUE_TO_ADD)
-		call BlzItemRemoveAbilityBJ( itemUsed, 'A1FZ' )
-		
-		set caster = null
-		set itemUsed = null
+	private function condition takes nothing returns boolean
+		return UnitHasItemOfTypeBJ( AnyHeroDied.TriggerUnit, ITEM_ID ) and udg_fightmod[3] == false and combat( AnyHeroDied.TriggerUnit, false, 0 ) and udg_logic[CorrectPlayer(AnyHeroDied.TriggerUnit) + 26] == false
 	endfunction
 	
-	private function SetLose takes nothing returns nothing
-		local unit caster = RuneSetLoseCheck.GetDataUnit("caster")
-		local item itemUsed = RuneSetLoseCheck.GetDataItem("item")
-		
-		call StatSystem_Add( caster, STAT_TYPE, VALUE_TO_ADD)
-		call BlzItemAddAbilityBJ( itemUsed, 'A1FZ' )
+	private function action takes nothing returns nothing
+		local unit caster = AnyHeroDied.GetDataUnit("caster")
+		local player owner = GetOwningPlayer( caster )
+
+		call DestroyEffect( AddSpecialEffect( ANIMATION, GetUnitX( caster ), GetUnitY( caster ) ) )
+    	call SetPlayerState( owner, PLAYER_STATE_RESOURCE_GOLD, IMaxBJ( 0, GetPlayerState( owner, PLAYER_STATE_RESOURCE_GOLD) - GOLD_LOSE ) )
 		
 		set caster = null
-		set itemUsed = null
+		set owner = null
 	endfunction
 
 	private function init takes nothing returns nothing
-		call RuneSetGainCheck.AddListener( function SetGain, function ItemCheck)
-        call RuneSetLoseCheck.AddListener( function SetLose, function ItemCheck)
+		call RegisterDuplicatableItemTypeCustom( ITEM_ID, AnyHeroDied, function action, function condition, "caster" )
 	endfunction
 	
 endscope

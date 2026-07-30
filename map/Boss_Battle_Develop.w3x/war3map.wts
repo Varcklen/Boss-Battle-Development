@@ -8645,6 +8645,20 @@ Activation: Select another artifact in your inventory to transform it into a ran
 |cff81f260[Random bonus]|r
 }
 
+STRING 1312
+// Items: I00O (Runestone Reston), Description (Description)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+When you heal a friendly target, restore 30% more. |cffffffffReduces Intelligence by 8.|r
+}
+
+STRING 1313
+// Items: I00O (Runestone Reston), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+When you heal a friendly target, restore 30% more. |cffffffffReduces Intelligence by 8.|r
+}
+
 STRING 1314
 // Items: I0CS (Scorching mash), Description (Description)
 {
@@ -8803,6 +8817,32 @@ STRING 1337
 |cff4169e1Rare|r, |cff7cfc00Nature|r
 When you overheal the target, 30% of the healing turns into a damage absorbing |cffbe81f7shield|r.
 |cff81f260[Random bonus]|r
+}
+
+STRING 1338
+// Abilities: A1JA (Stats (Runestone Reston)), Name (Name)
+{
+Stats (Runestone Reston)
+}
+
+STRING 1339
+// Abilities: A1JB (Stat: Heal Bonus +30%), Name (Name)
+{
+Stat: Heal Bonus +30%
+}
+
+STRING 1340
+// Items: I02Z (Runestone Sin), Description (Description)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+Increases Attack Damage by 25. You deal 15% more damage to bosses. |cffffffffReduces Attack Speed by 20%.|r
+}
+
+STRING 1341
+// Items: I02Z (Runestone Sin), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+Increases Attack Damage by 25. You deal 15% more damage to bosses. |cffffffffReduces Attack Speed by 20%.|r
 }
 
 STRING 1342
@@ -9318,16 +9358,6 @@ STRING 1417
 Purified Necklace
 }
 
-STRING 1418
-// Items: I0C2 (Inferno), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff9001fdRing|r
-Activation: Select an area. Kills all minions and for each fifth minion summons an infernal from the sky, beyond the control of the hero.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
 STRING 1419
 // Items: I0C2 (Inferno), Name (Name)
 {
@@ -9338,15 +9368,6 @@ STRING 1420
 // Items: I0C2 (Inferno), Tip (Tooltip - Basic)
 {
 Inferno
-}
-
-STRING 1421
-// Items: I0C2 (Inferno), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff9001fdRing|r
-Activation: Select an area. Kills all minions and for each fifth minion summons an infernal from the sky, beyond the control of the hero.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 1422
@@ -10593,35 +10614,6 @@ STRING 1605
 Activation: |cffcc0000Corrupted|r. Increases stats by 1. All heroes, when activating abilities and items, also use a random ability until the end of the battle.
 }
 
-STRING 1606
-// Items: I0AR (Pshix the Explosive), Description (Description)
-{
-|cffe96a1cLegendary|r, |cff9001fdRing|r
-Activation: Stuns the target for 2 seconds. If |cff60C445Unique|r is upgraded, stuns for 8 seconds instead.
-|cffffcc00Cooldown:|r 35 seconds.
-|cffffcc00Cost:|r 45 mana.
-}
-
-STRING 1607
-// Items: I0AR (Pshix the Explosive), Name (Name)
-{
-Pshix the Explosive
-}
-
-STRING 1608
-// Items: I0AR (Pshix the Explosive), Tip (Tooltip - Basic)
-{
-Pshix the Explosive
-}
-
-STRING 1609
-// Items: I0AR (Pshix the Explosive), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff9001fdRing|r
-Activation: Stuns the target for 2 seconds. If |cff60C445Unique|r is upgraded, stuns for 8 seconds instead.
-|cffffcc00Cooldown:|r 35 seconds.
-}
-
 STRING 1610
 // Items: I0AQ (Egg of the Void (Out of Pool)), Description (Description)
 {
@@ -11485,6 +11477,12 @@ STRING 1732
 Runestone Zot
 }
 
+STRING 1733
+// Abilities: A0Z3 (At. Speed (Runestone Sin)), Name (Name)
+{
+At. Speed (Runestone Sin)
+}
+
 STRING 1734
 // Items: I04T (Shield of Lo'Gosh), Tip (Tooltip - Basic)
 {
@@ -11865,6 +11863,18 @@ STRING 1791
 // Items: I095 (Avengers Assemble), Name (Name)
 {
 Avengers Assemble
+}
+
+STRING 1792
+// Abilities: A0XO (Attack (Runestone Sin)), Name (Name)
+{
+Attack (Runestone Sin)
+}
+
+STRING 1793
+// Abilities: A1JC (Stat: Damage Dealt Bosses +15%), Name (Name)
+{
+Stat: Damage Dealt Bosses +15%
 }
 
 STRING 1794
@@ -13266,6 +13276,13 @@ Activation: Summons a boss under your control (max 1).
 |cffffcc00Cost:|r 35 mana.
 }
 
+STRING 1996
+// Items: I027 (Runestone Wach), Description (Description)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+At the end of combat, increases Attack Damage by 3. Repeats for each empty inventory slot.
+}
+
 STRING 1997
 // Items: I081 (Vine Trap), Name (Name)
 {
@@ -13276,6 +13293,13 @@ STRING 1998
 // Items: I081 (Vine Trap), Tip (Tooltip - Basic)
 {
 Vine Trap
+}
+
+STRING 1999
+// Items: I027 (Runestone Wach), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+At the end of combat, increases Attack Damage by 3. Repeats for each empty inventory slot.
 }
 
 STRING 2000
@@ -13962,6 +13986,32 @@ Activation: Increases attack power by 15, armor by 3 and gives |cffbe81f720%|r v
 |cffffcc00Cost:|r 75 health.
 }
 
+STRING 2100
+// Items: I00M (Runestone Ston), Description (Description)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+|cffffffffReduces stats by 4.|r When you cast, has a |cffd7df0110%|r chance to summon an Arena Rune onto the battlefield.
+}
+
+STRING 2101
+// Items: I00M (Runestone Ston), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+|cffffffffReduces stats by 4.|r When you cast, has a |cffd7df0110%|r chance to summon an Arena Rune onto the battlefield.
+}
+
+STRING 2102
+// Abilities: A0LA (Shooter: Offhand Shooting), Name (Name)
+{
+Shooter: Offhand Shooting
+}
+
+STRING 2103
+// Abilities: A0LA (Shooter: Offhand Shooting), Researchtip (Tooltip - Learn)
+{
+Offhand Shooting, [|cffffcc00Level %d|r]
+}
+
 STRING 2104
 // Abilities: A0UV (Commander: Strong Spirit), Ubertip (Tooltip - Normal - Extended)
 {
@@ -14084,6 +14134,18 @@ Binds your hero to another non-invisible hero. You lose the ability to move, but
 |cffffcc00Cooldown:|r 20 seconds.
 
 |cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
+}
+
+STRING 2121
+// Abilities: A0LA (Shooter: Offhand Shooting), Researchubertip (Tooltip - Learn - Extended)
+{
+If the hero has not received damage for the last 4 seconds, Attack Damage is increased by 15/20/25/30/35 and Attack Speed ​​by 15%/20%/25%/30%/35%.
+}
+
+STRING 2122
+// Abilities: A0LA (Shooter: Offhand Shooting), Tip (Tooltip - Normal)
+{
+Offhand Shooting, [|cffffcc00Level 1|r]
 }
 
 STRING 2123
@@ -14619,15 +14681,6 @@ Binds your hero to another non-invisible hero. You lose the ability to move, but
 |cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
 }
 
-STRING 2200
-// Items: I06M (Albedo the Hellish), Description (Description)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-Activation: Stun the enemy and your hero for 6 seconds. 
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 25 mana.
-}
-
 STRING 2201
 // Items: I06M (Albedo the Hellish), Name (Name)
 {
@@ -14638,14 +14691,6 @@ STRING 2202
 // Items: I06M (Albedo the Hellish), Tip (Tooltip - Basic)
 {
 Albedo the Hellish
-}
-
-STRING 2203
-// Items: I06M (Albedo the Hellish), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-Activation: Stun the enemy and your hero for 6 seconds. 
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 2204
@@ -18933,13 +18978,6 @@ STRING 2840
 Activation: |cffcc0000Corrupted|r. Create a Book Seller in your room until the start of battle.
 }
 
-STRING 2841
-// Items: I027 (Runestone Wach), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-At the end of the battle increases attack power by 3.
-}
-
 STRING 2842
 // Items: I027 (Runestone Wach), Name (Name)
 {
@@ -18950,13 +18988,6 @@ STRING 2843
 // Items: I027 (Runestone Wach), Tip (Tooltip - Basic)
 {
 Runestone Wach
-}
-
-STRING 2844
-// Items: I027 (Runestone Wach), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-At the end of the battle increases attack power by 3.
 }
 
 STRING 2845
@@ -19057,14 +19088,6 @@ STRING 2859
 // Items: I023 (Chameleon fish), Tip (Tooltip - Basic)
 {
 Chameleon fish
-}
-
-STRING 2860
-// Items: I09W (Runestone Zot), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases attack power by 20 and armor by 2.
-|cffffffffThe hero receives 20% less gold from any sources.|r
 }
 
 STRING 2861
@@ -20072,20 +20095,18 @@ Restores |cffbe81f740|r health to the hero every second.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 3009
+// Abilities: A0LA (Shooter: Offhand Shooting), Tip (Tooltip - Normal)
+{
+Offhand Shooting, [|cffffcc00Level 2|r]
+}
+
 STRING 3010
 // Items: I0E5 (Runestone Zolo), Description (Description)
 {
 |cffbababcCommon|r, |cff848484Rune|r
 Your abilities and items have a |cffd7df0120%|r chance to critically hit, dealing 75% more damage.
 |cffffffffIncreases cooldown of abilities and items by 15%.|r
-}
-
-STRING 3011
-// Items: I09W (Runestone Zot), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases attack power by 20 and armor by 2.
-|cffffffffThe hero receives 20% less gold from any sources.|r
 }
 
 STRING 3012
@@ -20550,18 +20571,6 @@ STRING 3081
 // Units: N03V ((W) Shepherd), Propernames (Proper Names)
 {
 Kel
-}
-
-STRING 3082
-// Items: I00K (Gefest), Name (Name)
-{
-Gefest
-}
-
-STRING 3083
-// Items: I00K (Gefest), Tip (Tooltip - Basic)
-{
-Gefest
 }
 
 STRING 3084
@@ -22454,14 +22463,6 @@ STRING 3380
 Blood for Blood, [|cffffcc00Level 5|r]
 }
 
-STRING 3381
-// Items: I00K (Gefest), Description (Description)
-{
-|cff4169e1Rare|r, |cff9001fdRing|r
-In each battle, reduces the health of the first 4 enemy minions to a minimum.
-|cff81f260[Random bonus]|r
-}
-
 STRING 3382
 // Items: I0AO (Faceless Spy), Name (Name)
 {
@@ -24201,6 +24202,12 @@ STRING 3661
 // Abilities: A1AV (Bard: Song of Joy), Researchtip (Tooltip - Learn)
 {
 Song of Joy, [|cffffcc00Level %d|r]
+}
+
+STRING 3662
+// Abilities: A0LA (Shooter: Offhand Shooting), Tip (Tooltip - Normal)
+{
+Offhand Shooting, [|cffffcc00Level 3|r]
 }
 
 STRING 3663
@@ -28019,6 +28026,12 @@ STRING 4253
 Soulfiend
 }
 
+STRING 4254
+// Abilities: A0LA (Shooter: Offhand Shooting), Tip (Tooltip - Normal)
+{
+Offhand Shooting, [|cffffcc00Level 4|r]
+}
+
 STRING 4255
 // Abilities: A172 (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -28047,6 +28060,12 @@ STRING 4259
 // Abilities: A16Z (|cffffcc00Уровень 4:|r Начальник стражи), Tip (Tooltip - Normal)
 {
 Chief of the Guard
+}
+
+STRING 4260
+// Abilities: A0LA (Shooter: Offhand Shooting), Tip (Tooltip - Normal)
+{
+Offhand Shooting, [|cffffcc00Level 5|r]
 }
 
 STRING 4261
@@ -28086,6 +28105,12 @@ STRING 4266
 
 Enters the hero into a trance. His attack and movement speed is reduced by 35%, but every second heals all nearby allies |cffbe81f71.2%|r of their maximum health and mana.
 |cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 4267
+// Abilities: A0LA (Shooter: Offhand Shooting), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has not received damage for the last 4 seconds, Attack Damage is increased by 15 and Attack Speed ​​by 15%.
 }
 
 STRING 4268
@@ -29285,6 +29310,18 @@ STRING 4456
 // Abilities: A15K (Spell Book), EditorSuffix (Editor Suffix)
 {
 (Снолист)
+}
+
+STRING 4457
+// Abilities: A0LA (Shooter: Offhand Shooting), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has not received damage for the last 4 seconds, Attack Damage is increased by 20 and Attack Speed ​​by 20%.
+}
+
+STRING 4458
+// Abilities: A0LA (Shooter: Offhand Shooting), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has not received damage for the last 4 seconds, Attack Damage is increased by 25 and Attack Speed ​​by 25%.
 }
 
 STRING 4459
@@ -30616,12 +30653,6 @@ STRING 4661
 Артефакт: Бушующий огонь
 }
 
-STRING 4662
-// Abilities: A13X (Артефакт: Бурлящий коктейль Пшикса), Name (Name)
-{
-Артефакт: Бурлящий коктейль Пшикса
-}
-
 STRING 4663
 // Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
 {
@@ -30897,6 +30928,12 @@ STRING 4706
 // Abilities: A13D (|cffffcc00Уровень 8:|r Всадник Апокалипсиса), Tip (Tooltip - Normal)
 {
 Horseman of the Apocalypse
+}
+
+STRING 4707
+// Abilities: A0LA (Shooter: Offhand Shooting), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has not received damage for the last 4 seconds, Attack Damage is increased by 30 and Attack Speed ​​by 30%.
 }
 
 STRING 4708
@@ -34410,6 +34447,12 @@ STRING 5242
 Stat: Vampirism +50%
 }
 
+STRING 5243
+// Abilities: A0LA (Shooter: Offhand Shooting), Ubertip (Tooltip - Normal - Extended)
+{
+If the hero has not received damage for the last 4 seconds, Attack Damage is increased by 35 and Attack Speed ​​by 35%.
+}
+
 STRING 5244
 // Abilities: A0WR (Shaman: Polymorph: Rat), Researchhotkey (Hotkey - Learn)
 {
@@ -34536,10 +34579,24 @@ STRING 5264
 (т)Аура: Ледяной змей (Заморозка)
 }
 
+STRING 5265
+// Items: I09W (Runestone Zot), Description (Description)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+Increases Attack Damage by 25 and Armor by 4. |cffffffffWhen your hero dies, lose 75 gold.|r
+}
+
 STRING 5266
 // Abilities: A0ZA (Attack (Сандом)), Name (Name)
 {
 Attack (Сандом)
+}
+
+STRING 5267
+// Items: I09W (Runestone Zot), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff848484Rune|r
+Increases Attack Damage by 25 and Armor by 4. |cffffffffWhen your hero dies, lose 75 gold.|r
 }
 
 STRING 5268
@@ -34570,12 +34627,6 @@ STRING 5272
 // Abilities: A1FZ (Stat: Gold Gain -20%), Name (Name)
 {
 Stat: Gold Gain -20%
-}
-
-STRING 5273
-// Abilities: A0Z3 (At. Speed (Син)), Name (Name)
-{
-At. Speed (Син)
 }
 
 STRING 5274
@@ -35285,12 +35336,6 @@ STRING 5384
 When attacking, with a probability of 25%, misses.
 }
 
-STRING 5385
-// Abilities: A0XO (Attack (Син)), Name (Name)
-{
-Attack (Син)
-}
-
 STRING 5386
 // Abilities: A0XN (Artifact: Celestial Quartz), Name (Name)
 {
@@ -35537,18 +35582,6 @@ STRING 5423
 // Abilities: A0XA (Stats (Paragon Gloves)), Name (Name)
 {
 Stats (Paragon Gloves)
-}
-
-STRING 5424
-// Abilities: A0X9 (Attack (Зот)), Name (Name)
-{
-Attack (Зот)
-}
-
-STRING 5425
-// Abilities: A0X8 (Armor (Зот)), Name (Name)
-{
-Armor (Зот)
 }
 
 STRING 5426
@@ -40654,6 +40687,36 @@ STRING 6199
 Reduces attack power of |cffffffffthe hero and|r bosses by 30%.
 }
 
+STRING 6200
+// Abilities: A0X9 (Attack (Runestone Zot)), Name (Name)
+{
+Attack (Runestone Zot)
+}
+
+STRING 6201
+// Abilities: A0X8 (Armor (Runestone Zot)), Name (Name)
+{
+Armor (Runestone Zot)
+}
+
+STRING 6203
+// Items: I0C2 (Inferno), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Kills all minions in an area. If 5 minions are killed, summons a friendly, uncontrollable Infernal.
+|cffffcc00Life time:|r 25 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 6204
+// Items: I0AR (Pharaoh's Ring), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff9001fdRing|r
+Activation: Deals |cffbe81f7250|r damage to the enemy and stuns them for 1.5 seconds. If the |cff60C445Unique|r ability is upgraded, the effect is tripled.
+|cffffcc00Cooldown:|r 35 seconds.
+|cffffcc00Cost:|r 65 mana.
+}
+
 STRING 6205
 // Abilities: A0RS (Босс 8: Вуду-Мастер (Аура)), Name (Name)
 {
@@ -41668,6 +41731,12 @@ STRING 6364
 |cffffcc00You gain +1 charge to your roll.|r
 }
 
+STRING 6365
+// Items: I0AR (Pharaoh's Ring), Name (Name)
+{
+Pharaoh's Ring
+}
+
 STRING 6366
 // Abilities: A0QM (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -42030,32 +42099,26 @@ STRING 6423
 (Инферно)
 }
 
-STRING 6424
-// Abilities: A0Q6 (Артефакт: Инферно), Name (Name)
-{
-Артефакт: Инферно
-}
-
 STRING 6425
-// Abilities: A0Q6 (Артефакт: Инферно), Researchtip (Tooltip - Learn)
+// Abilities: A0Q6 (Артефакт: Inferno), Researchtip (Tooltip - Learn)
 {
 Поле спокойствия, [|cffffcc00Уровень %d|r] (|cffffcc00Q|r)
 }
 
 STRING 6426
-// Abilities: A0Q6 (Артефакт: Инферно), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A0Q6 (Артефакт: Inferno), Researchubertip (Tooltip - Learn - Extended)
 {
 Создаёт зону, в которой все союзники восстанавливают |cffbe81f720/30/40/50/60|r здоровья, а противники получают урон. В этой зоне нельзя использовать способности.|n|cffffcc00Время жизни:|r 15 секунд.|n|cffffcc00Перезарядка:|r 24 секунды.|n|cffffcc00Стоимость:|r 80/95/110/125/140 маны.
 }
 
 STRING 6427
-// Abilities: A0Q6 (Артефакт: Инферно), Tip (Tooltip - Normal)
+// Abilities: A0Q6 (Артефакт: Inferno), Tip (Tooltip - Normal)
 {
 Поле спокойствия, [|cffffcc00Уровень 1|r] (|cffffcc00Q|r)
 }
 
 STRING 6428
-// Abilities: A0Q6 (Артефакт: Инферно), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0Q6 (Артефакт: Inferno), Ubertip (Tooltip - Normal - Extended)
 {
 Создаёт зону, в которой все союзники восстанавливают |cffbe81f720|r здоровья, а противники получают урон. В этой зоне нельзя использовать способности.|n|cffffcc00Время жизни:|r 15 секунд.|n|cffffcc00Перезарядка:|r 24 секунды.
 }
@@ -42979,6 +43042,12 @@ STRING 6570
 Stats (Ландом)
 }
 
+STRING 6571
+// Items: I0AR (Pharaoh's Ring), Tip (Tooltip - Basic)
+{
+Pharaoh's Ring
+}
+
 STRING 6572
 // Abilities: A0OT (Orb: Earth), Name (Name)
 {
@@ -43755,6 +43824,14 @@ STRING 6694
 // Abilities: A0O3 (Armor (Braccus Dex)), Name (Name)
 {
 Armor (Braccus Dex)
+}
+
+STRING 6695
+// Items: I0AR (Pharaoh's Ring), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff9001fdRing|r
+Activation: Deals |cffbe81f7250|r damage to the enemy and stuns them for 1.5 seconds. If the |cff60C445Unique|r ability is upgraded, the effect is tripled.
+|cffffcc00Cooldown:|r 35 seconds.
 }
 
 STRING 6696
@@ -46200,7 +46277,7 @@ Elemental: Effacing the Living
 }
 
 STRING 7077
-// Abilities: A0LA (Shooter: Offhand shooting), Researchhotkey (Hotkey - Learn)
+// Abilities: A0LA (Shooter: Offhand Shooting), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -46740,88 +46817,10 @@ STRING 7159
 (т)Аура: Impius Imperium
 }
 
-STRING 7160
-// Abilities: A0LA (Shooter: Offhand shooting), Name (Name)
-{
-Shooter: Offhand shooting
-}
-
 STRING 7161
 // Abilities: A0ID (Archer: Shadow), Researchhotkey (Hotkey - Learn)
 {
 E
-}
-
-STRING 7162
-// Abilities: A0LA (Shooter: Offhand shooting), Researchtip (Tooltip - Learn)
-{
-Offhand shooting, [|cffffcc00Level %d|r]
-}
-
-STRING 7163
-// Abilities: A0LA (Shooter: Offhand shooting), Researchubertip (Tooltip - Learn - Extended)
-{
-If the hero does not take damage within 4 seconds, increases attack speed by 15%/20%/25%/30%/35% and attack power by 15/20/25/30/35.
-}
-
-STRING 7164
-// Abilities: A0LA (Shooter: Offhand shooting), Tip (Tooltip - Normal)
-{
-Offhand shooting, [|cffffcc00Level 1|r]
-}
-
-STRING 7165
-// Abilities: A0LA (Shooter: Offhand shooting), Tip (Tooltip - Normal)
-{
-Offhand shooting, [|cffffcc00Level 2|r]
-}
-
-STRING 7166
-// Abilities: A0LA (Shooter: Offhand shooting), Tip (Tooltip - Normal)
-{
-Offhand shooting, [|cffffcc00Level 3|r]
-}
-
-STRING 7167
-// Abilities: A0LA (Shooter: Offhand shooting), Tip (Tooltip - Normal)
-{
-Offhand shooting, [|cffffcc00Level 4|r]
-}
-
-STRING 7168
-// Abilities: A0LA (Shooter: Offhand shooting), Tip (Tooltip - Normal)
-{
-Offhand shooting, [|cffffcc00Level 5|r]
-}
-
-STRING 7169
-// Abilities: A0LA (Shooter: Offhand shooting), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero does not take damage within 4 seconds, increases attack speed by 15% and attack power by 15.
-}
-
-STRING 7170
-// Abilities: A0LA (Shooter: Offhand shooting), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero does not take damage within 4 seconds, increases attack speed by 20% and attack power by 20.
-}
-
-STRING 7171
-// Abilities: A0LA (Shooter: Offhand shooting), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero does not take damage within 4 seconds, increases attack speed by 25% and attack power by 25.
-}
-
-STRING 7172
-// Abilities: A0LA (Shooter: Offhand shooting), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero does not take damage within 4 seconds, increases attack speed by 30% and attack power by 30.
-}
-
-STRING 7173
-// Abilities: A0LA (Shooter: Offhand shooting), Ubertip (Tooltip - Normal - Extended)
-{
-If the hero does not take damage within 4 seconds, increases attack speed by 35% and attack power by 35.
 }
 
 STRING 7174
@@ -49744,7 +49743,7 @@ Activation: |cffcc0000Corrupted|r. Increases stats by 1 and |cff60C445Unique|r S
 }
 
 STRING 7611
-// Buffs/Effects: B00T (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B1B1 (), Buffubertip (Tooltip - Extended)
 {
 Attack speed reduced.
 }
@@ -52629,6 +52628,12 @@ STRING 8064
 (т)Аура: Orb of Ragnaros
 }
 
+STRING 8065
+// Abilities: A13X (Артефакт: Pharaoh's Ring), Name (Name)
+{
+Артефакт: Pharaoh's Ring
+}
+
 STRING 8066
 // Abilities: A0EQ (Аура: Рог Маршала), Name (Name)
 {
@@ -52947,6 +52952,12 @@ The Hero cannot take more damage than 10% of the maximum Health.
 |cff81f260[Random bonus]|r
 }
 
+STRING 8114
+// Abilities: A0Q6 (Артефакт: Inferno), Name (Name)
+{
+Артефакт: Inferno
+}
+
 STRING 8115
 // Items: I023 (Chameleon fish), Description (Description)
 {
@@ -52963,6 +52974,13 @@ STRING 8116
 At the beginning of each battle, it turns into a random activatable artifact.
 }
 
+STRING 8117
+// Items: I00K (Hephaestus), Description (Description)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Increases stats by |cffffffff5|r. When exchanged, increases value by 2.
+}
+
 STRING 8118
 // Items: I012 (Bloody Rose), Name (Name)
 {
@@ -52973,6 +52991,12 @@ STRING 8119
 // Items: I012 (Bloody Rose), Tip (Tooltip - Basic)
 {
 Bloody Rose
+}
+
+STRING 8120
+// Items: I00K (Hephaestus), Name (Name)
+{
+Hephaestus
 }
 
 STRING 8121
@@ -53025,6 +53049,12 @@ STRING 8127
 // Abilities: A0EC (Attack speed (Orb of Ragnaros)), Name (Name)
 {
 Attack speed (Orb of Ragnaros)
+}
+
+STRING 8128
+// Items: I00K (Hephaestus), Tip (Tooltip - Basic)
+{
+Hephaestus
 }
 
 STRING 8129
@@ -54474,6 +54504,13 @@ STRING 8359
 Parish, [|cffffcc00Level %d|r]
 }
 
+STRING 8360
+// Items: I00K (Hephaestus), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Increases stats by |cffffffff5|r. When exchanged, increases value by 2.
+}
+
 STRING 8361
 // Abilities: A0CN (Skeletlord: Parish), Tip (Tooltip - Normal)
 {
@@ -54898,6 +54935,16 @@ STRING 8425
 // Abilities: A0CD (Attack speed (Orb of Fire)), Name (Name)
 {
 Attack speed (Orb of Fire)
+}
+
+STRING 8426
+// Items: I0C2 (Inferno), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Kills all minions in an area. If 5 minions are killed, summons a friendly, uncontrollable Infernal.
+|cffffcc00Life time:|r 25 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 100 mana.
 }
 
 STRING 8427
@@ -59268,6 +59315,20 @@ STRING 9102
 Denial of the Past, [|cffffcc00Level 5|r]
 }
 
+STRING 9104
+// Items: I06M (Albedo the Hellish), Description (Description)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Increases Attack Damage by |cffffffff16|r. When exchanged, increases the value by 8.
+}
+
+STRING 9105
+// Items: I06M (Albedo the Hellish), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Increases Attack Damage by |cffffffff16|r. When exchanged, increases the value by 8.
+}
+
 STRING 9106
 // Items: I0BP (Night Butterfly), Name (Name)
 {
@@ -62206,24 +62267,6 @@ Increases spell power by 30%.
 |cffffffff15% of the damage dealt by your spells is also dealt to your hero.|r
 }
 
-STRING 9562
-// Items: I02Z (Runestone Sin), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases attack power by 15.
-The hero deals 30% more damage to bosses.
-|cffffffffReduces attack speed by 30%.|r
-}
-
-STRING 9563
-// Items: I02Z (Runestone Sin), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases attack power by 15.
-The hero deals 30% more damage to bosses.
-|cffffffffReduces attack speed by 30%.|r
-}
-
 STRING 9564
 // Items: IV16 (Bread), Description (Description)
 {
@@ -65151,40 +65194,6 @@ Deals |cffbe81f7250|r damage to an enemy. If your health is higher, kills the ta
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
-STRING 10013
-// Items: I00O (Runestone Reston), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases health regeneration by 10.
-|cffffffffDecreases health by 300.|r
-}
-
-STRING 10014
-// Items: I00O (Runestone Reston), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-Increases health regeneration by 10.
-|cffffffffDecreases health by 300.|r
-}
-
-STRING 10015
-// Items: I00M (Runestone Ston), Description (Description)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-|cffffffffReduces stats by 4.|r
-When the hero attacks, decreases target armor by 7.
-|cffffcc00Duration:|r 5 seconds.
-}
-
-STRING 10016
-// Items: I00M (Runestone Ston), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff848484Rune|r
-|cffffffffReduces stats by 4.|r
-When the hero attacks, decreases target armor by 7.
-|cffffcc00Duration:|r 5 seconds.
-}
-
 STRING 10017
 // Abilities: AZD2 (Усилитель 8: ДьявольскийXXX), Name (Name)
 {
@@ -67620,7 +67629,7 @@ STRING 10397
 }
 
 STRING 10398
-// Buffs/Effects: B1B1 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B040 (), Buffubertip (Tooltip - Extended)
 {
 Attack speed reduced.
 }
@@ -71254,7 +71263,7 @@ STRING 11001
 }
 
 STRING 11002
-// Buffs/Effects: B040 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B03E (), Buffubertip (Tooltip - Extended)
 {
 Attack speed reduced.
 }
@@ -71452,7 +71461,7 @@ STRING 11034
 }
 
 STRING 11035
-// Buffs/Effects: B03E (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B021 (), Buffubertip (Tooltip - Extended)
 {
 Attack speed reduced.
 }
@@ -71785,7 +71794,7 @@ STRING 11089
 }
 
 STRING 11090
-// Buffs/Effects: B021 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B01L (), Buffubertip (Tooltip - Extended)
 {
 Attack speed reduced.
 }
@@ -72601,14 +72610,6 @@ STRING 11225
 Аура: Мод (Медлительность)XXX
 }
 
-STRING 11226
-// Items: I00K (Gefest), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff9001fdRing|r
-In each battle, reduces the health of the first 4 enemy minions to a minimum.
-|cff81f260[Random bonus]|r
-}
-
 STRING 11227
 // Abilities: A00W (Curse: Mystery (b25)XXX), Ubertip (Tooltip - Normal - Extended)
 {
@@ -72616,7 +72617,7 @@ Sometimes, the reward is classified.
 }
 
 STRING 11228
-// Buffs/Effects: B01L (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B00T (), Buffubertip (Tooltip - Extended)
 {
 Attack speed reduced.
 }

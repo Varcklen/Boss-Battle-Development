@@ -12,7 +12,7 @@ scope BlessRuneMaking initializer init
 		local integer i = 1
         loop
             exitwhen i > 6
-            set bj_lastCreatedItem = CreateItem( udg_ArenaRunes[GetRandomInt(1, udg_Database_NumberItems[27])], GetRandomReal(GetRectMinX(udg_Boss_Rect), GetRectMaxX(udg_Boss_Rect)), GetRandomReal(GetRectMinY(udg_Boss_Rect), GetRectMaxY(udg_Boss_Rect)) )
+            set bj_lastCreatedItem = CreateItem( Arena_Runes[GetRandomInt(1, Arena_Runes_Count)], GetRandomReal(GetRectMinX(udg_Boss_Rect), GetRectMaxX(udg_Boss_Rect)), GetRandomReal(GetRectMinY(udg_Boss_Rect), GetRectMaxY(udg_Boss_Rect)) )
             call DestroyEffect( AddSpecialEffect( "Abilities\\Spells\\Orc\\FeralSpirit\\feralspirittarget.mdl", GetItemX( bj_lastCreatedItem ), GetItemY( bj_lastCreatedItem ) ) )
             set i = i + 1
         endloop

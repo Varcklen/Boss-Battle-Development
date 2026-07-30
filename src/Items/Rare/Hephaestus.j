@@ -1,10 +1,10 @@
-scope Albedo initializer init
+scope Hephaestus initializer init
 
 	globals
-		private constant integer ITEM_ID = 'I06M'
-		private constant integer ATTACK_BASE = 16
-		private constant integer ATTACK_EXCHANGE = 8
-		private constant integer HASH_KEY = StringHash("albedo")
+		private constant integer ITEM_ID = 'I00K'
+		private constant integer STAT_GAIN_BASE = 5
+		private constant integer STAT_GAIN_EXCHANGE = 2
+		private constant integer HASH_KEY = StringHash("hephaestus")
 	endglobals
 	
 	private function condition takes nothing returns boolean
@@ -12,7 +12,7 @@ scope Albedo initializer init
 	endfunction
 	
 	private function Formula takes integer level returns integer
-		return ATTACK_BASE + ATTACK_EXCHANGE * level
+		return STAT_GAIN_BASE + STAT_GAIN_EXCHANGE * level
 	endfunction
 	
 	private function action takes nothing returns nothing
@@ -42,7 +42,7 @@ scope Albedo initializer init
 		local integer counter = LoadInteger( udg_hash, id, HASH_KEY )
 		local integer statChange = Formula( counter )
     
-    	call BlzSetUnitBaseDamage( hero, BlzGetUnitBaseDamage(hero, 0) + statChange, 0 )
+    	call statst( hero, statChange, statChange, statChange, 0, false )
     	
     	set exchangedItem = null
 	    set hero = null
@@ -55,7 +55,7 @@ scope Albedo initializer init
 		local integer counter = LoadInteger( udg_hash, id, HASH_KEY )
 		local integer statChange = Formula( counter )
     
-    	call BlzSetUnitBaseDamage( hero, BlzGetUnitBaseDamage(hero, 0) - statChange, 0 )
+    	call statst( hero, -statChange, -statChange, -statChange, 0, false )
     	
     	set exchangedItem = null
 	    set hero = null
