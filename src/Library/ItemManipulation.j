@@ -1,5 +1,5 @@
 library ItemManipulation
-
+	//ItemManipulation_IsInventoryFull()
 	public function IsInventoryFull takes unit hero returns boolean
 		return UnitInventoryCount(hero) >= UnitInventorySize(hero)
 	endfunction

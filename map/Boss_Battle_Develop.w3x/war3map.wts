@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.11.9T|r
+|cffbe81f7Boss Battle 1.12.1T|r
 }
 
 STRING 2
@@ -4193,28 +4193,10 @@ STRING 664
 When you cast 4 different abilities or items in a row, restores |cffbe81f720%|r Health and Mana.
 }
 
-STRING 665
-// Items: I0DO (Bloody Mary), Description (Description)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Each damage dealt restores |cffbe81f710|r Health.
-|cffffcc00Cooldown:|r 0.25 seconds.
-|cff81f260[Random bonus]|r
-}
-
 STRING 666
 // Items: III3 (Pebble: Red), Name (Name)
 {
 Pebble: Red
-}
-
-STRING 667
-// Items: I0DO (Bloody Mary), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Each damage dealt restores |cffbe81f710|r Health.
-|cffffcc00Cooldown:|r 0.25 seconds.
-|cff81f260[Random bonus]|r
 }
 
 STRING 668
@@ -5686,37 +5668,6 @@ STRING 888
 X
 }
 
-STRING 889
-// Items: I0FQ (Magic box), Description (Description)
-{
-|cffbababcCommon|r
-Activation: Gives an artifact. It becomes |cffC71585cursed|r.
-Only works in combat.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 40 mana.
-}
-
-STRING 890
-// Items: I0FQ (Magic box), Name (Name)
-{
-Magic box
-}
-
-STRING 891
-// Items: I0FQ (Magic box), Tip (Tooltip - Basic)
-{
-Magic box
-}
-
-STRING 892
-// Items: I0FQ (Magic box), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: Gives an artifact. It becomes |cffC71585cursed|r.
-Only works in combat.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 893
 // Items: I009 (Goblin Manual), Name (Name)
 {
@@ -6239,16 +6190,6 @@ STRING 969
 You give the beggar some gold.
 }
 
-STRING 970
-// Items: I0F6 (Stim Injector), Description (Description)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r, |cffb18904Mech|r
-Activation: Increases attack and movement speed by 20% for each |cffb18904mech|r and also increases health regeneration by 20.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
-|cffffcc00Cost:|r 150 health.
-}
-
 STRING 971
 // Items: I0F6 (Stim Injector), Name (Name)
 {
@@ -6259,16 +6200,6 @@ STRING 972
 // Items: I0F6 (Stim Injector), Tip (Tooltip - Basic)
 {
 Stim Injector
-}
-
-STRING 973
-// Items: I0F6 (Stim Injector), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r, |cffb18904Mech|r
-Activation: Increases attack and movement speed by 20% for each |cffb18904mech|r and also increases health regeneration by 20.
-|cffffcc00Duration:|r 20 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
-|cffffcc00Cost:|r 150 health.
 }
 
 STRING 974
@@ -7858,14 +7789,6 @@ Activation: Spend all your mana to create 3 elementals. The more mana you spend,
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 1198
-// Items: I0DL (Pentagram), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Doubles the stats of your every fourth summoned minion.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1199
 // Items: I0DL (Pentagram), Name (Name)
 {
@@ -7876,14 +7799,6 @@ STRING 1200
 // Items: I0DL (Pentagram), Tip (Tooltip - Basic)
 {
 Pentagram
-}
-
-STRING 1201
-// Items: I0DL (Pentagram), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Doubles the stats of your every fourth summoned minion.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1202
@@ -8000,34 +7915,6 @@ STRING 1217
 // Items: I0BN (Mana Needle), Tip (Tooltip - Basic)
 {
 Mana Needle
-}
-
-STRING 1218
-// Items: I0DG (Hungry leech), Description (Description)
-{
-|cffe96a1cLegendary|r, |cffb40431Blood|r
-When an ally heals or restores mana to you, copy 100% of the amount back to them.
-|cff81f260[Random bonus]|r
-}
-
-STRING 1219
-// Items: I0DG (Hungry leech), Name (Name)
-{
-Hungry leech
-}
-
-STRING 1220
-// Items: I0DG (Hungry leech), Tip (Tooltip - Basic)
-{
-Hungry leech
-}
-
-STRING 1221
-// Items: I0DG (Hungry leech), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cffb40431Blood|r
-When an ally heals or restores mana to you, copy 100% of the amount back to them.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1222
@@ -8443,18 +8330,6 @@ STRING 1282
 Activation: Freezes all enemies in time.
 |cffffcc00Duration:|r 5 seconds.
 |cffffcc00Cooldown:|r 50 seconds.
-}
-
-STRING 1283
-// Items: I0D0 (Plush doll), Name (Name)
-{
-Plush doll
-}
-
-STRING 1284
-// Items: I0D0 (Plush doll), Tip (Tooltip - Basic)
-{
-Plush doll
 }
 
 STRING 1285
@@ -9358,6 +9233,12 @@ STRING 1417
 Purified Necklace
 }
 
+STRING 1418
+// Items: I03T (Book of Power), Hotkey (Hotkey)
+{
+V
+}
+
 STRING 1419
 // Items: I0C2 (Inferno), Name (Name)
 {
@@ -9368,6 +9249,12 @@ STRING 1420
 // Items: I0C2 (Inferno), Tip (Tooltip - Basic)
 {
 Inferno
+}
+
+STRING 1421
+// Items: I0BJ (Make an Exchange), Hotkey (Hotkey)
+{
+C
 }
 
 STRING 1422
@@ -9857,7 +9744,7 @@ Rage Potion
 }
 
 STRING 1494
-// Items: I0BJ (Make an Exchange), Hotkey (Hotkey)
+// Items: I07Y (Make an Exchange), Hotkey (Hotkey)
 {
 C
 }
@@ -10332,14 +10219,6 @@ STRING 1564
 Revived Blood
 }
 
-STRING 1565
-// Items: I0B2 (Revived Blood), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Activation: Loads the hero’s weapon. The next attack will do 300% more damage.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 1566
 // Items: I0B1 (Tarot Card: Sun), Description (Description)
 {
@@ -10612,6 +10491,37 @@ STRING 1605
 {
 |cff4169e1Rare|r
 Activation: |cffcc0000Corrupted|r. Increases stats by 1. All heroes, when activating abilities and items, also use a random ability until the end of the battle.
+}
+
+STRING 1606
+// Items: I09Y (Fahrenheit), Description (Description)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+You and your allies deal 50% more damage to stunned targets.
+Activation: Stuns the enemy for 4 seconds.
+|cffffcc00Cooldown:|r 35 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
+STRING 1607
+// Items: I09Y (Fahrenheit), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+You and your allies deal 50% more damage to stunned targets.
+Activation: Stuns the enemy for 4 seconds.
+|cffffcc00Cooldown:|r 35 seconds.
+}
+
+STRING 1608
+// Abilities: A0XB (Aura: Fahrenheit), Name (Name)
+{
+Aura: Fahrenheit
+}
+
+STRING 1609
+// Abilities: A1JD (Artifact: Fahrenheit), Name (Name)
+{
+Artifact: Fahrenheit
 }
 
 STRING 1610
@@ -11406,14 +11316,6 @@ When the hero is attacked, with a probability of |cffd7df011%|r, it dodges the a
 |cff81f260[Random bonus]|r
 }
 
-STRING 1722
-// Items: I09Y (Fahrenheit), Description (Description)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-You and your allies deal double damage against stunned targets.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1723
 // Items: I09Y (Fahrenheit), Name (Name)
 {
@@ -11424,14 +11326,6 @@ STRING 1724
 // Items: I09Y (Fahrenheit), Tip (Tooltip - Basic)
 {
 Fahrenheit
-}
-
-STRING 1725
-// Items: I09Y (Fahrenheit), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-You and your allies deal double damage against stunned targets.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1726
@@ -13355,7 +13249,7 @@ Activation: |cffcc0000Corrupted|r. Gives +1 to stats. If you killed 50 enemies i
 }
 
 STRING 2008
-// Items: I07Y (Make an Exchange), Hotkey (Hotkey)
+// Items: I03J (Book of Experience), Hotkey (Hotkey)
 {
 C
 }
@@ -13956,15 +13850,6 @@ STRING 2095
 Obtain an Exile item. These items existed in the arena in the past, but were cast into oblivion.
 }
 
-STRING 2096
-// Items: I07C (Prophet Mask), Description (Description)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Activation: Increases attack power by 15, armor by 3 and gives |cffbe81f720%|r vampirism for your attacks, but the hero loses 2% health per second. Re-activation turns off the effect.
-|cffffcc00Cooldown:|r 3 second.
-|cffffcc00Cost:|r 75 health.
-}
-
 STRING 2097
 // Abilities: A1F4 (Stat: Heal Bonus +150%), Name (Name)
 {
@@ -13975,15 +13860,6 @@ STRING 2098
 // Abilities: A15E (Ruby oilXXX), Name (Name)
 {
 Ruby oilXXX
-}
-
-STRING 2099
-// Items: I07C (Prophet Mask), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Activation: Increases attack power by 15, armor by 3 and gives |cffbe81f720%|r vampirism for your attacks, but the hero loses 2% health per second. Re-activation turns off the effect.
-|cffffcc00Cooldown:|r 3 second.
-|cffffcc00Cost:|r 75 health.
 }
 
 STRING 2100
@@ -14679,6 +14555,12 @@ Binds your hero to another non-invisible hero. You lose the ability to move, but
 |cffffcc00Cooldown:|r 8 seconds. 
 
 |cFF959697Re-using it on a tethered target will detach your hero. Doesn't work on invulnerable targets.|r
+}
+
+STRING 2200
+// Buffs/Effects: B05J (), Buffubertip (Tooltip - Extended)
+{
+You deal more damage to stunned units.
 }
 
 STRING 2201
@@ -17446,7 +17328,7 @@ Deals |cffbe81f7220|r damage to the enemy and stuns them for 3 seconds.
 }
 
 STRING 2615
-// Items: I03T (Book of Power), Hotkey (Hotkey)
+// Items: I0HW (Rage Potion), Hotkey (Hotkey)
 {
 V
 }
@@ -17673,7 +17555,7 @@ Increases level by 1.
 }
 
 STRING 2650
-// Items: I03J (Book of Experience), Hotkey (Hotkey)
+// Items: I0HX (Calm Potion), Hotkey (Hotkey)
 {
 C
 }
@@ -18246,7 +18128,7 @@ The hero teleports behind the enemy and deals |cffbe81f7260|r damage. If a criti
 }
 
 STRING 2734
-// Items: I02Y (Precious scarab), Description (Description)
+// Items: I02Y (Precious Scarab), Description (Description)
 {
 |cffbababcCommon|r
 Activation: Increases the ally’s armor by 3. If the hero’s gold supply is 200 or more, increases the armor by 7 instead.
@@ -18254,20 +18136,8 @@ Activation: Increases the ally’s armor by 3. If the hero’s gold supply is 20
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 2735
-// Items: I02Y (Precious scarab), Name (Name)
-{
-Precious scarab
-}
-
-STRING 2736
-// Items: I02Y (Precious scarab), Tip (Tooltip - Basic)
-{
-Precious scarab
-}
-
 STRING 2737
-// Items: I02Y (Precious scarab), Ubertip (Tooltip - Extended)
+// Items: I02Y (Precious Scarab), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r
 Activation: Increases the ally’s armor by 3. If the hero’s gold supply is 200 or more, increases the armor by 7 instead.
@@ -18560,13 +18430,6 @@ Activation: Deals |cffbe81f7100|r damage to all enemies. Additionally deals 100 
 |cffffcc00Cooldown:|r 60 seconds.
 }
 
-STRING 2781
-// Items: I02M (Might of the Damned), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-If the hero's health is 95% or more, increases the attack power by 70%.
-}
-
 STRING 2782
 // Items: I02M (Might of the Damned), Name (Name)
 {
@@ -18577,13 +18440,6 @@ STRING 2783
 // Items: I02M (Might of the Damned), Tip (Tooltip - Basic)
 {
 Might of the Damned
-}
-
-STRING 2784
-// Items: I02M (Might of the Damned), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-If the hero's health is 95% or more, increases the attack power by 70%.
 }
 
 STRING 2785
@@ -18978,6 +18834,12 @@ STRING 2840
 Activation: |cffcc0000Corrupted|r. Create a Book Seller in your room until the start of battle.
 }
 
+STRING 2841
+// Items: I0FQ (Seth), Name (Name)
+{
+Seth
+}
+
 STRING 2842
 // Items: I027 (Runestone Wach), Name (Name)
 {
@@ -18988,6 +18850,12 @@ STRING 2843
 // Items: I027 (Runestone Wach), Tip (Tooltip - Basic)
 {
 Runestone Wach
+}
+
+STRING 2844
+// Items: I0FQ (Seth), Tip (Tooltip - Basic)
+{
+Seth
 }
 
 STRING 2845
@@ -19441,7 +19309,7 @@ Increases health by 25.
 }
 
 STRING 2912
-// Items: I0HW (Rage Potion), Hotkey (Hotkey)
+// Abilities: A1E0 (Runesmith: Carve Rune of the Strongman), Hotkey (Hotkey - Normal)
 {
 A
 }
@@ -19784,18 +19652,6 @@ Your health-restoring abilities and items restore 20% more health.
 |cff81f260[Random bonus]|r
 }
 
-STRING 2966
-// Items: I01D (Twin heart), Name (Name)
-{
-Twin heart
-}
-
-STRING 2967
-// Items: I01D (Twin heart), Tip (Tooltip - Basic)
-{
-Twin heart
-}
-
 STRING 2968
 // Items: I04X (Fighter's Gloves), Description (Description)
 {
@@ -20109,6 +19965,12 @@ Your abilities and items have a |cffd7df0120%|r chance to critically hit, dealin
 |cffffffffIncreases cooldown of abilities and items by 15%.|r
 }
 
+STRING 3011
+// Abilities: A0NE (Artifact: SethXXX), Name (Name)
+{
+Artifact: SethXXX
+}
+
 STRING 3012
 // Abilities: A02S (Аура: Deadly spores (2)XXX), Tip (Tooltip - Normal)
 {
@@ -20414,34 +20276,6 @@ STRING 3056
 HP (Natural Deselection)
 }
 
-STRING 3057
-// Items: I00Q (Sacrificial blade), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Deals |cffbe81f7150|r damage to the hero and restores |cffbe81f7100|r mana.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 3058
-// Items: I00Q (Sacrificial blade), Name (Name)
-{
-Sacrificial blade
-}
-
-STRING 3059
-// Items: I00Q (Sacrificial blade), Tip (Tooltip - Basic)
-{
-Sacrificial blade
-}
-
-STRING 3060
-// Items: I00Q (Sacrificial blade), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Deals |cffbe81f7150|r damage to the hero and restores |cffbe81f7100|r mana.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
 STRING 3061
 // Items: I02O (Brass Knuckles), Tip (Tooltip - Basic)
 {
@@ -20571,6 +20405,21 @@ STRING 3081
 // Units: N03V ((W) Shepherd), Propernames (Proper Names)
 {
 Kel
+}
+
+STRING 3082
+// Abilities: A1JE (Artifact: Seth), Name (Name)
+{
+Artifact: Seth
+}
+
+STRING 3083
+// Items: I0FQ (Seth), Description (Description)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Activation: Deals |cffbe81f7250|r damage to an enemy. Create a |cff9001fdRing|r in an empty inventory slot and make it |cffC71585Cursed|r.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
 }
 
 STRING 3084
@@ -20959,34 +20808,6 @@ STRING 3144
 // Abilities: A0QX (Attack (Brass Knuckles)), Name (Name)
 {
 Attack (Brass Knuckles)
-}
-
-STRING 3145
-// Items: I004 (Vampire blood), Description (Description)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-If there are no |cffe96a1clegendary|r artifacts in your inventory, increase damage dealt by 40%. 
-|cff81f260[Random bonus]|r
-}
-
-STRING 3146
-// Items: I004 (Vampire blood), Name (Name)
-{
-Vampire blood
-}
-
-STRING 3147
-// Items: I004 (Vampire blood), Tip (Tooltip - Basic)
-{
-Vampire blood
-}
-
-STRING 3148
-// Items: I004 (Vampire blood), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-If there are no |cffe96a1clegendary|r artifacts in your inventory, increase damage dealt by 40%. 
-|cff81f260[Random bonus]|r
 }
 
 STRING 3149
@@ -22461,6 +22282,14 @@ STRING 3380
 // Abilities: A1CO (Lycanthrope: Blood for Blood), Tip (Tooltip - Normal)
 {
 Blood for Blood, [|cffffcc00Level 5|r]
+}
+
+STRING 3381
+// Items: I0FQ (Seth), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Activation: Deals |cffbe81f7250|r damage to an enemy. Create a |cff9001fdRing|r in an empty inventory slot and make it |cffC71585Cursed|r.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 3382
@@ -26564,12 +26393,6 @@ STRING 4023
 Attack (Sniper's Crossbow)
 }
 
-STRING 4024
-// Abilities: A18H ((т)Аура: Vampire blood), Name (Name)
-{
-(т)Аура: Vampire blood
-}
-
 STRING 4025
 // Abilities: A18G (Artifact: Gnomish Soulspin), Name (Name)
 {
@@ -30653,6 +30476,14 @@ STRING 4661
 Артефакт: Бушующий огонь
 }
 
+STRING 4662
+// Items: I0DG (Hungry Leech), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+When an ally heals or restores mana to you, copy 60% of the amount back to them.
+|cff81f260[Random bonus]|r
+}
+
 STRING 4663
 // Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
 {
@@ -32232,12 +32063,6 @@ STRING 4901
 // Abilities: A127 (Аура: Огонь в бутылке), Name (Name)
 {
 Аура: Огонь в бутылке
-}
-
-STRING 4902
-// Abilities: A126 (Артефакт: Огонь в бутылке), Name (Name)
-{
-Артефакт: Огонь в бутылке
 }
 
 STRING 4903
@@ -34629,6 +34454,12 @@ STRING 5272
 Stat: Gold Gain -20%
 }
 
+STRING 5273
+// Items: I0DG (Hungry Leech), Name (Name)
+{
+Hungry Leech
+}
+
 STRING 5274
 // Abilities: A0UK (Commander: Sea is Worried), Hotkey (Hotkey - Normal)
 {
@@ -35336,6 +35167,12 @@ STRING 5384
 When attacking, with a probability of 25%, misses.
 }
 
+STRING 5385
+// Items: I0DG (Hungry Leech), Tip (Tooltip - Basic)
+{
+Hungry Leech
+}
+
 STRING 5386
 // Abilities: A0XN (Artifact: Celestial Quartz), Name (Name)
 {
@@ -35572,16 +35409,27 @@ STRING 5421
 Stats (Paragon Crown)
 }
 
-STRING 5422
-// Abilities: A0XB (Аура: Целомудренница), Name (Name)
-{
-Аура: Целомудренница
-}
-
 STRING 5423
 // Abilities: A0XA (Stats (Paragon Gloves)), Name (Name)
 {
 Stats (Paragon Gloves)
+}
+
+STRING 5424
+// Items: I0DG (Hungry Leech), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+When an ally heals or restores mana to you, copy 60% of the amount back to them.
+|cff81f260[Random bonus]|r
+}
+
+STRING 5425
+// Items: I0DO (Bloody Mary), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+The next damage dealt has |cffbe81f7100%|r lifesteal.
+|cffffcc00Cooldown:|r 10 seconds.
+|cff81f260[Random bonus]|r
 }
 
 STRING 5426
@@ -40699,6 +40547,15 @@ STRING 6201
 Armor (Runestone Zot)
 }
 
+STRING 6202
+// Items: I0DO (Bloody Mary), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+The next damage dealt has |cffbe81f7100%|r lifesteal.
+|cffffcc00Cooldown:|r 10 seconds.
+|cff81f260[Random bonus]|r
+}
+
 STRING 6203
 // Items: I0C2 (Inferno), Ubertip (Tooltip - Extended)
 {
@@ -42097,6 +41954,14 @@ STRING 6423
 // Abilities: A0Q7 (Inferno), EditorSuffix (Editor Suffix)
 {
 (Инферно)
+}
+
+STRING 6424
+// Items: I09R (Bloody Knife), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Kills your hero and resurrects it with 50% health and mana.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 6425
@@ -44729,12 +44594,6 @@ STRING 6836
 Increases spell power for |cff088a08potions|r and |cff60C445Unique|r, as well as the duration of buffs and debuffs by 25%.
 }
 
-STRING 6837
-// Abilities: A0NE (Artifact: Magic box), Name (Name)
-{
-Artifact: Magic box
-}
-
 STRING 6838
 // Abilities: A0LX (Harpy: Return), Hotkey (Hotkey - Normal)
 {
@@ -46817,10 +46676,95 @@ STRING 7159
 (т)Аура: Impius Imperium
 }
 
+STRING 7160
+// Items: I09R (Bloody Knife), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Kills your hero and resurrects it with 50% health and mana.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 7161
 // Abilities: A0ID (Archer: Shadow), Researchhotkey (Hotkey - Learn)
 {
 E
+}
+
+STRING 7162
+// Abilities: A1JF (Spell Shield), EditorSuffix (Editor Suffix)
+{
+(Bloody Mary)
+}
+
+STRING 7163
+// Items: I07C (Prophet Mask), Description (Description)
+{
+|cffC71585Cursed|r
+|cffbababcCommon|r, |cffb40431Blood|r
+When you kill an enemy, create a |cffb40431Blood|r Artifact in an empty inventory slot.
+}
+
+STRING 7164
+// Items: I07C (Prophet Mask), Ubertip (Tooltip - Extended)
+{
+|cffC71585Cursed|r
+|cffbababcCommon|r, |cffb40431Blood|r
+When you kill an enemy, create a |cffb40431Blood|r Artifact in an empty inventory slot.
+}
+
+STRING 7165
+// Items: I0B2 (Revived Blood), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Activation: Charges your next attack. The charged attack deals 500% more damage and has |cffbe81f750%|r lifesteal.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 40 mana.
+}
+
+STRING 7166
+// Items: I0B2 (Revived Blood), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Activation: Charges your next attack. The charged attack deals 500% more damage and has |cffbe81f750%|r lifesteal.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 7167
+// Abilities: A126 (Артефакт: Revived Blood), Name (Name)
+{
+Артефакт: Revived Blood
+}
+
+STRING 7168
+// Items: I0F6 (Stim Injector), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Activation: Increases attack and movement speed by 30%.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 50 seconds.
+|cffffcc00Cost:|r 120 health.
+}
+
+STRING 7169
+// Items: I0F6 (Stim Injector), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Activation: Increases attack and movement speed by 30%.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 50 seconds.
+|cffffcc00Cost:|r 120 health.
+}
+
+STRING 7170
+// Units: u00J (Ghoul), EditorSuffix (Name - Editor Suffix)
+{
+(Pentagram)
+}
+
+STRING 7173
+// Items: I02Y (Precious Scarab), Name (Name)
+{
+Precious Scarab
 }
 
 STRING 7174
@@ -54859,9 +54803,9 @@ Potion: Огонь
 }
 
 STRING 8413
-// Items: I0HX (Calm Potion), Hotkey (Hotkey)
+// Items: I02Y (Precious Scarab), Tip (Tooltip - Basic)
 {
-A
+Precious Scarab
 }
 
 STRING 8414
@@ -57235,6 +57179,13 @@ STRING 8776
 Артефакт: Фарик Хитрый
 }
 
+STRING 8777
+// Items: I02M (Might of the Damned), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+If the hero's Health is 80% or more, increases Attack Damage by 40%.
+}
+
 STRING 8778
 // Abilities: A09O (Armor: Дар мертвых), Name (Name)
 {
@@ -59313,6 +59264,13 @@ STRING 9102
 // Abilities: A082 (Outcast: Denial of the Past), Tip (Tooltip - Normal)
 {
 Denial of the Past, [|cffffcc00Level 5|r]
+}
+
+STRING 9103
+// Items: I02M (Might of the Damned), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+If the hero's Health is 80% or more, increases Attack Damage by 40%.
 }
 
 STRING 9104
@@ -61929,6 +61887,14 @@ STRING 9508
 (Stun)
 }
 
+STRING 9509
+// Items: I004 (Azure Concoction), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+If there are no |cffe96a1clegendary|r artifacts in your inventory, increase damage dealt by 40%. 
+|cff81f260[Random bonus]|r
+}
+
 STRING 9510
 // Abilities: A04T (Nomad: Lightning energy), Researchhotkey (Hotkey - Learn)
 {
@@ -62152,6 +62118,12 @@ STRING 9542
 Fatal Attraction, [|cffffcc00Level %d|r]
 }
 
+STRING 9543
+// Items: I004 (Azure Concoction), Name (Name)
+{
+Azure Concoction
+}
+
 STRING 9544
 // Abilities: A05F (Fallen One: Fatal Attraction), Tip (Tooltip - Normal)
 {
@@ -62267,6 +62239,20 @@ Increases spell power by 30%.
 |cffffffff15% of the damage dealt by your spells is also dealt to your hero.|r
 }
 
+STRING 9562
+// Items: I004 (Azure Concoction), Tip (Tooltip - Basic)
+{
+Azure Concoction
+}
+
+STRING 9563
+// Items: I004 (Azure Concoction), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+If there are no |cffe96a1clegendary|r artifacts in your inventory, increase damage dealt by 40%. 
+|cff81f260[Random bonus]|r
+}
+
 STRING 9564
 // Items: IV16 (Bread), Description (Description)
 {
@@ -62279,6 +62265,20 @@ STRING 9565
 {
 |cffB614F0Starting Bonus|r
 Get 350 gold.
+}
+
+STRING 9566
+// Items: IZ04 (Eternal Harvest), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
+If you defeat a boss and any of the heroes die during the battle, you'll receive a |cffb40431Blood|r or |cff7cfc00Nature|r item. The other will be offered as an Artifact Reward.
+}
+
+STRING 9567
+// Items: IZ04 (Eternal Harvest), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
+If you defeat a boss and any of the heroes die during the battle, you'll receive a |cffb40431Blood|r or |cff7cfc00Nature|r item. The other will be offered as an Artifact Reward.
 }
 
 STRING 9568
@@ -65194,6 +65194,34 @@ Deals |cffbe81f7250|r damage to an enemy. If your health is higher, kills the ta
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
+STRING 10013
+// Abilities: A18H ((т)Аура: Azure Concoction), Name (Name)
+{
+(т)Аура: Azure Concoction
+}
+
+STRING 10014
+// Abilities: A1JG (Artifact: Pentagram), Name (Name)
+{
+Artifact: Pentagram
+}
+
+STRING 10015
+// Buffs/Effects: B08P (), Bufftip (Tooltip)
+{
+|cff00ff00Azure Concoction|r
+}
+
+STRING 10016
+// Items: I0DL (Pentagram), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Doubles the stats of your every fourth summoned minion.
+Activation: Summons a ghoul for 35 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 90 health.
+}
+
 STRING 10017
 // Abilities: AZD2 (Усилитель 8: ДьявольскийXXX), Name (Name)
 {
@@ -65595,6 +65623,25 @@ STRING 10079
 // Abilities: A08E (Legionary: Flaming Crystal), Ubertip (Tooltip - Normal - Extended)
 {
 With a probability of |cffd7df0117%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
+}
+
+STRING 10080
+// Items: I0DL (Pentagram), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Doubles the stats of your every fourth summoned minion.
+Activation: Summons a ghoul for 35 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 90 health.
+}
+
+STRING 10081
+// Items: I0D0 (Plush Doll), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Restores |cffbe81f7300|r health to another hero. If your current health is lower, copy it.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 50 mana.
 }
 
 STRING 10082
@@ -66327,10 +66374,22 @@ STRING 10193
 Q
 }
 
+STRING 10194
+// Items: I0D0 (Plush Doll), Name (Name)
+{
+Plush Doll
+}
+
 STRING 10195
 // Abilities: A00C (Beorn: Slap), Researchhotkey (Hotkey - Learn)
 {
 Q
+}
+
+STRING 10196
+// Items: I0D0 (Plush Doll), Tip (Tooltip - Basic)
+{
+Plush Doll
 }
 
 STRING 10197
@@ -66350,6 +66409,22 @@ STRING 10198
 Activation: Summons uncontrollable minion that attack the enemy and additional one for each |cffb18904Mech|r in your inventory.
 |cffffcc00Life time:|r 30 seconds.
 |cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 10199
+// Items: I0D0 (Plush Doll), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Restores |cffbe81f7300|r health to another hero. If your current health is lower, copy it.
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 10200
+// Items: I01D (Twin Heart), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Activation: Link with another hero. Every second, the hero with the most health sacrifices |cffbe81f75%|r of their health to the other one.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 10201
@@ -68351,12 +68426,6 @@ STRING 10517
 Damage taken reduced. Enemies take damage when attacking.
 }
 
-STRING 10518
-// Buffs/Effects: B08P (), Bufftip (Tooltip)
-{
-|cff00ff00Vampire blood|r
-}
-
 STRING 10519
 // Buffs/Effects: B08P (), Buffubertip (Tooltip - Extended)
 {
@@ -69718,12 +69787,6 @@ STRING 10744
 |cff00ff00Fahrenheit|r
 }
 
-STRING 10745
-// Buffs/Effects: B05J (), Buffubertip (Tooltip - Extended)
-{
-Damage dealt to stunned targets has been increased.
-}
-
 STRING 10746
 // Buffs/Effects: B05I (), Bufftip (Tooltip)
 {
@@ -70810,6 +70873,18 @@ STRING 10925
 // Buffs/Effects: B033 (), Buffubertip (Tooltip - Extended)
 {
 Chance to dodge attack increased.
+}
+
+STRING 10926
+// Items: I01D (Twin Heart), Name (Name)
+{
+Twin Heart
+}
+
+STRING 10927
+// Items: I01D (Twin Heart), Tip (Tooltip - Basic)
+{
+Twin Heart
 }
 
 STRING 10928
@@ -72555,7 +72630,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.11.9T|r
+|cffbe81f7Boss Battle 1.12.1T|r
 }
 
 STRING 11219
@@ -72608,6 +72683,14 @@ STRING 11225
 // Abilities: A0I2 (Аура: Мод (Медлительность)XXX), Name (Name)
 {
 Аура: Мод (Медлительность)XXX
+}
+
+STRING 11226
+// Items: I01D (Twin Heart), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Activation: Link with another hero. Every second, the hero with the most health sacrifices |cffbe81f75%|r of their health to the other one.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 11227
@@ -72978,6 +73061,15 @@ STRING 11284
 Spirit Journey, [|cffffcc00Level 5|r]
 }
 
+STRING 11285
+// Items: I00Q (Sacrificial Blade), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Restore |cffbe81f7115|r mana.
+|cffffcc00Cooldown:|r 10 seconds.
+|cffffcc00Cost:|r 150 health.
+}
+
 STRING 11286
 // Abilities: A1DW (Runesmith: Carve Rune), Researchtip (Tooltip - Learn)
 {
@@ -73143,6 +73235,12 @@ STRING 11310
 Carve Rune, [|cffffcc00Level 5|r]
 }
 
+STRING 11311
+// Items: I00Q (Sacrificial Blade), Name (Name)
+{
+Sacrificial Blade
+}
+
 STRING 11312
 // Abilities: A1DR (Shepherd: Spirit Journey), Ubertip (Tooltip - Normal - Extended)
 {
@@ -73185,12 +73283,27 @@ STRING 11317
 E
 }
 
+STRING 11318
+// Items: I00Q (Sacrificial Blade), Tip (Tooltip - Basic)
+{
+Sacrificial Blade
+}
+
 STRING 11319
 // Abilities: A1DV (Shepherd: Shepherds Call Active), Researchubertip (Tooltip - Learn - Extended)
 {
 |cffffcc00Active:|r Idle allied summons are ordered to attack the Shepherds target.
 |cffffcc00Passive:|r Attacks apply a debuff reducing armor by 3/5/7/9/11.
 |cffffcc00Duration:|r 4 seconds.
+}
+
+STRING 11320
+// Items: I00Q (Sacrificial Blade), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Restore |cffbe81f7115|r mana.
+|cffffcc00Cooldown:|r 10 seconds.
+|cffffcc00Cost:|r 150 health.
 }
 
 STRING 11321
@@ -73309,12 +73422,6 @@ STRING 11338
 // Abilities: A1E0 (Runesmith: Carve Rune of the Strongman), Name (Name)
 {
 Runesmith: Carve Rune of the Strongman
-}
-
-STRING 11339
-// Abilities: A1E0 (Runesmith: Carve Rune of the Strongman), Hotkey (Hotkey - Normal)
-{
-A
 }
 
 STRING 11340
@@ -76171,23 +76278,6 @@ Increases stats by 6.
 At the end of the battle, you get a copy of it.
 }
 
-STRING 11764
-// Items: I0D0 (Plush doll), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Copies the health percentage of another hero.
-|cffffcc00Cooldown:|r 35 seconds.
-|cffffcc00Cost:|r 25 mana.
-}
-
-STRING 11765
-// Items: I0D0 (Plush doll), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Copies the health percentage of another hero.
-|cffffcc00Cooldown:|r 35 seconds.
-}
-
 STRING 11766
 // Abilities: A15Q (Predator: Shark Scales), Ubertip (Tooltip - Normal - Extended)
 {
@@ -76675,22 +76765,6 @@ STRING 11842
 Every third attack restores |cffbe81f725|r Mana.
 }
 
-STRING 11843
-// Items: I01D (Twin heart), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Connect your soul to target allied hero. Every second, the hero with higher Current Health gives 2% of the Health to the other hero.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 11844
-// Items: I01D (Twin heart), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Connect your soul to target allied hero. Every second, the hero with higher Current Health gives 2% of the Health to the other hero.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
 STRING 11845
 // Items: I00L (Magical Wisp), Description (Description)
 {
@@ -76970,14 +77044,6 @@ Reduces attack and movement speed by 25%. Activation: Fully restores the hero’
 |cffffcc00Cooldown:|r 40 seconds.
 }
 
-STRING 11890
-// Items: I09R (Bloody Knife), Description (Description)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Activation: Kills your hero and resurrects it with 50% health and mana.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
 STRING 11891
 // Items: I09R (Bloody Knife), Name (Name)
 {
@@ -76988,14 +77054,6 @@ STRING 11892
 // Items: I09R (Bloody Knife), Tip (Tooltip - Basic)
 {
 Bloody Knife
-}
-
-STRING 11893
-// Items: I09R (Bloody Knife), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Activation: Kills your hero and resurrects it with 50% health and mana.
-|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 11896
@@ -77059,20 +77117,6 @@ STRING 11903
 Increases mana by 200 and spell power by 10%.
 }
 
-STRING 11904
-// Items: IZ04 (Eternal Harvest), Description (Description)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
-After a battle with a boss, if any hero died during that fight, get a random |cffb40431blood|r or |cff7cfc00nature|r item and be offered the other one as an Artifact Reward.
-}
-
-STRING 11905
-// Items: IZ04 (Eternal Harvest), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
-After a battle with a boss, if any hero died during that fight, get a random |cffb40431blood|r or |cff7cfc00nature|r item and be offered the other one as an Artifact Reward.
-}
-
 STRING 11906
 // Abilities: A032 (Doctor: Plague Impact), Tip (Tooltip - Normal)
 {
@@ -77095,15 +77139,6 @@ STRING 11910
 // Items: I0DY (Frozen Flame), Tip (Tooltip - Basic)
 {
 Frozen Flame
-}
-
-STRING 11912
-// Items: I0B2 (Revived Blood), Description (Description)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Activation: Loads the hero’s weapon. The next attack will do 300% more damage.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 20 mana.
 }
 
 STRING 11913

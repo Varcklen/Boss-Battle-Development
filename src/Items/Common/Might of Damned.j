@@ -3,10 +3,10 @@ scope MightOfDamned initializer init
 	globals
 		private constant integer ITEM_ID = 'I02M'
 		
-		private constant integer STAT_INCREASE = 70
+		private constant integer STAT_INCREASE = 40
 		private constant integer STAT_TYPE = STAT_DAMAGE_DEALT_PHY
 		
-		private constant integer HEATH_REQUIRE_PERC = 95
+		private constant integer HEATH_REQUIRE_PERC = 80
 		
 		private constant integer STRING_HASH = StringHash( "might_of_damned" )
 	endglobals
