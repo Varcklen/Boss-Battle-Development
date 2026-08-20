@@ -1,0 +1,11 @@
+{
+  "Id": 50332457,
+  "Comment": "",
+  "IsScript": true,
+  "RunOnMapInit": false,
+  "Script": "scope EndlessVessel initializer init\r\n\t\r\n\tglobals\r\n\t\tprivate constant integer ABILITY_ID = 'A02H'\r\n\t\tprivate constant integer HEAL = 250\r\n\t\tprivate constant integer MANA_PER_POTION = 25\r\n\tendglobals\r\n\t\r\n\tprivate function condition takes nothing returns boolean\r\n\t    return GetSpellAbilityId() == ABILITY_ID\r\n\tendfunction\r\n\t\r\n\tprivate function CalculateMana takes unit caster returns integer\r\n\t\tlocal integer heal = 0\r\n\t\tlocal integer i\r\n\t\tlocal item itemCheck\r\n\t\t\r\n\t\tset i = 0\r\n\t\tloop\r\n\t        exitwhen i >= 6\r\n\t        set itemCheck = UnitItemInSlot(caster, i)\r\n\t        if itemCheck != null and IsPotion(itemCheck)  then\r\n\t            set heal = heal + MANA_PER_POTION * BlzGetItemIntegerField(itemCheck, ITEM_IF_NUMBER_OF_CHARGES)\r\n\t        endif\r\n\t        set i = i + 1\r\n\t    endloop\r\n\t\t\r\n\t\tset itemCheck = null\r\n\t\treturn heal\r\n\tendfunction\r\n\t\r\n\tprivate function action takes nothing returns nothing\r\n\t    local unit caster\r\n\t    local integer cyclA = 1\r\n\t    local integer cyclAEnd\r\n\t    local integer mana\r\n\t    \r\n\t    if CastLogic() then\r\n\t        set caster = udg_Caster\r\n\t    elseif RandomLogic() then\r\n\t        set caster = udg_Caster\r\n\t        call textst( udg_string[0] + GetObjectName(ABILITY_ID), caster, 64, 90, 10, 1.5 )\r\n\t    else\r\n\t        set caster = GetSpellAbilityUnit()\r\n\t    endif\r\n\t    \r\n\t    set mana = CalculateMana(caster)\r\n\t    set cyclAEnd = eyest( caster )\r\n\t    call spectimeunit( caster, \"Abilities\\\\Spells\\\\Human\\\\Heal\\\\HealTarget.mdl\", \"origin\", 2 )\r\n\t    loop\r\n\t        exitwhen cyclA > cyclAEnd\r\n\t        call healst( caster, null, HEAL )\r\n\t        call manast(caster, null, mana)\r\n\t        set cyclA = cyclA + 1\r\n\t    endloop\r\n\t    \r\n\t    set caster = null\r\n\tendfunction\r\n\t\r\n\t//===========================================================================\r\n\tprivate function init takes nothing returns nothing\r\n\t    call CreateNativeEvent( EVENT_PLAYER_UNIT_SPELL_EFFECT, function action, function condition )\r\n\tendfunction\r\n\r\nendscope",
+  "Events": [],
+  "LocalVariables": [],
+  "Conditions": [],
+  "Actions": []
+}

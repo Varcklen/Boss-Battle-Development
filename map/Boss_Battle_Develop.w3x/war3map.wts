@@ -4193,10 +4193,26 @@ STRING 664
 When you cast 4 different abilities or items in a row, restores |cffbe81f720%|r Health and Mana.
 }
 
+STRING 665
+// Items: I0DC (Totem of Exchange), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Restores |cffbe81f760%|r Health and Mana. Reduces 2 random stats by 1.
+|cffffcc00Cooldown:|r 3 seconds.
+}
+
 STRING 666
 // Items: III3 (Pebble: Red), Name (Name)
 {
 Pebble: Red
+}
+
+STRING 667
+// Items: I0DC (Totem of Exchange), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r
+Activation: Restores |cffbe81f760%|r Health and Mana. Reduces 2 random stats by 1.
+|cffffcc00Cooldown:|r 3 seconds.
 }
 
 STRING 668
@@ -4702,15 +4718,6 @@ STRING 745
 Artifact: Crystallized Mana
 }
 
-STRING 746
-// Items: I0ED (Elixir of Longevity), Description (Description)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Restores |cffbe81f7100|r Health to allies nearby. Increases the Attack of affected minions by 15%.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 35 mana.
-}
-
 STRING 747
 // Items: I0GQ (Enlightenment), Name (Name)
 {
@@ -4721,14 +4728,6 @@ STRING 748
 // Items: I0GQ (Enlightenment), Tip (Tooltip - Basic)
 {
 Enlightenment
-}
-
-STRING 749
-// Items: I0ED (Elixir of Longevity), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Restores |cffbe81f7100|r Health to allies nearby. Increases the Attack of affected minions by 15%.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 750
@@ -5668,6 +5667,32 @@ STRING 888
 X
 }
 
+STRING 889
+// Items: I0CG (Flycatcher), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+When your Health is restored, increase Damage Dealt by 40% for 7 seconds.
+}
+
+STRING 890
+// Items: I0CG (Flycatcher), Name (Name)
+{
+Flycatcher
+}
+
+STRING 891
+// Items: I0CG (Flycatcher), Tip (Tooltip - Basic)
+{
+Flycatcher
+}
+
+STRING 892
+// Items: I0CG (Flycatcher), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+When your Health is restored, increase Damage Dealt by 40% for 7 seconds.
+}
+
 STRING 893
 // Items: I009 (Goblin Manual), Name (Name)
 {
@@ -6190,6 +6215,12 @@ STRING 969
 You give the beggar some gold.
 }
 
+STRING 970
+// Abilities: A1JH ((т)Аура: Flycatcher), Name (Name)
+{
+(т)Аура: Flycatcher
+}
+
 STRING 971
 // Items: I0F6 (Stim Injector), Name (Name)
 {
@@ -6200,6 +6231,12 @@ STRING 972
 // Items: I0F6 (Stim Injector), Tip (Tooltip - Basic)
 {
 Stim Injector
+}
+
+STRING 973
+// Buffs/Effects: B0B7 (), Bufftip (Tooltip)
+{
+|cff00ff00Flycatcher|r
 }
 
 STRING 974
@@ -7171,36 +7208,6 @@ Activation: Creates a burning gaze totem. Every 5 seconds, it deals |cffbe81f710
 |cffffcc00Cooldown:|r 3 seconds.
 }
 
-STRING 1110
-// Items: I0E7 (Witch's love), Description (Description)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-At the beginning of the fight, creates a witch's cauldron, which gradually restores health and mana.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
-STRING 1111
-// Items: I0E7 (Witch's love), Name (Name)
-{
-Witch's love
-}
-
-STRING 1112
-// Items: I0E7 (Witch's love), Tip (Tooltip - Basic)
-{
-Witch's love
-}
-
-STRING 1113
-// Items: I0E7 (Witch's love), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-At the beginning of the fight, creates a witch's cauldron, which gradually restores health and mana.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 1114
 // Items: I00Z (Roll the Dice), Ubertip (Tooltip - Extended)
 {
@@ -7356,15 +7363,6 @@ When you restore health with |cff088a08potions|r, it also restores |cffbe81f7hea
 |cff81f260[Random bonus]|r
 }
 
-STRING 1138
-// Items: I0DC (Totem of Exchange), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Gives 2 random stats for the battle.
-|cffffcc00Cooldown:|r 3 seconds.
-|cffffcc00Cost:|r 75 health.
-}
-
 STRING 1139
 // Items: I0E0 (Essence of time), Name (Name)
 {
@@ -7375,15 +7373,6 @@ STRING 1140
 // Items: I0E0 (Essence of time), Tip (Tooltip - Basic)
 {
 Essence of time
-}
-
-STRING 1141
-// Items: I0DC (Totem of Exchange), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Gives 2 random stats for the battle.
-|cffffcc00Cooldown:|r 3 seconds.
-|cffffcc00Cost:|r 75 health.
 }
 
 STRING 1142
@@ -7789,6 +7778,12 @@ Activation: Spend all your mana to create 3 elementals. The more mana you spend,
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 1198
+// Buffs/Effects: B0B7 (), Buffubertip (Tooltip - Extended)
+{
+Damage Dealt increased.
+}
+
 STRING 1199
 // Items: I0DL (Pentagram), Name (Name)
 {
@@ -7799,6 +7794,15 @@ STRING 1200
 // Items: I0DL (Pentagram), Tip (Tooltip - Basic)
 {
 Pentagram
+}
+
+STRING 1201
+// Items: I0DH (Piece of Cake), Description (Description)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+When you use a |cff088a08Potion|r, gain 4 Attack Damage for battle.
+Activation: Use a random |cff088a08Potion|r.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 1202
@@ -7915,6 +7919,40 @@ STRING 1217
 // Items: I0BN (Mana Needle), Tip (Tooltip - Basic)
 {
 Mana Needle
+}
+
+STRING 1218
+// Abilities: A1JI (Artifact: Piece of Cake), Name (Name)
+{
+Artifact: Piece of Cake
+}
+
+STRING 1219
+// Items: I0DH (Piece of Cake), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+When you use a |cff088a08Potion|r, gain 4 Attack Damage for battle.
+Activation: Use a random |cff088a08Potion|r.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 1220
+// Items: I08L (Ladybug), Description (Description)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+Activation: Increases Luck by 100.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+|cffffcc00Cost:|r 40 mana.
+}
+
+STRING 1221
+// Items: I08L (Ladybug), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+Activation: Increases Luck by 100.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 1222
@@ -8330,6 +8368,21 @@ STRING 1282
 Activation: Freezes all enemies in time.
 |cffffcc00Duration:|r 5 seconds.
 |cffffcc00Cooldown:|r 50 seconds.
+}
+
+STRING 1283
+// Items: I07U (Liquid Sulfur), Description (Description)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+Activation: Each hero uses a random |cff088a08Potion|r.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 40 mana.
+}
+
+STRING 1284
+// Items: I07U (Liquid Sulfur), Name (Name)
+{
+Liquid Sulfur
 }
 
 STRING 1285
@@ -8772,14 +8825,6 @@ STRING 1349
 Increases hero's strength by 10. If base strength is 30 or less, also increases strength by 20.
 }
 
-STRING 1350
-// Items: I0CJ (Pshix's Infusion), Description (Description)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-Activation: Uses a random |cff088a08potion|r. If the hero's inventory contains only artifacts from the |cfffe9a2ealchemy|r set, use 2 more |cff088a08potions|r.
-|cffffcc00Cooldown:|r 45 seconds.
-}
-
 STRING 1351
 // Items: I0CJ (Pshix's Infusion), Name (Name)
 {
@@ -8790,14 +8835,6 @@ STRING 1352
 // Items: I0CJ (Pshix's Infusion), Tip (Tooltip - Basic)
 {
 Pshix's Infusion
-}
-
-STRING 1353
-// Items: I0CJ (Pshix's Infusion), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-Activation: Uses a random |cff088a08potion|r. If the hero's inventory contains only artifacts from the |cfffe9a2ealchemy|r set, use 2 more |cff088a08potions|r.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 1354
@@ -8857,34 +8894,6 @@ STRING 1361
 |cffbababcCommon|r, |cff5858faMoon|r
 |cff5858faMoon|r set bonus deals 50% more damage.
 |cff81f260[Random bonus]|r
-}
-
-STRING 1362
-// Items: I0CG (Ruby oil), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Increases attack power by 40%.
-When the hero attacks, 20% of the damage is also dealt to you.
-}
-
-STRING 1363
-// Items: I0CG (Ruby oil), Name (Name)
-{
-Ruby oil
-}
-
-STRING 1364
-// Items: I0CG (Ruby oil), Tip (Tooltip - Basic)
-{
-Ruby oil
-}
-
-STRING 1365
-// Items: I0CG (Ruby oil), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Increases attack power by 40%.
-When the hero attacks, 20% of the damage is also dealt to you.
 }
 
 STRING 1366
@@ -10219,6 +10228,12 @@ STRING 1564
 Revived Blood
 }
 
+STRING 1565
+// Items: I07U (Liquid Sulfur), Tip (Tooltip - Basic)
+{
+Liquid Sulfur
+}
+
 STRING 1566
 // Items: I0B1 (Tarot Card: Sun), Description (Description)
 {
@@ -10243,14 +10258,6 @@ STRING 1569
 {
 |cffbababcCommon|r
 Activation: |cffcc0000Corrupted|r. Deals |cffbe81f72000|r damage to an enemy. Only works in combat.
-}
-
-STRING 1570
-// Items: I0DH (Piece of Cake), Description (Description)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-When a Hero uses a |cff088a08Potion|r, gives 2 Attack for battle.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1571
@@ -11022,14 +11029,6 @@ STRING 1680
 Totem of Chaos
 }
 
-STRING 1681
-// Items: I0DH (Piece of Cake), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-When a Hero uses a |cff088a08Potion|r, gives 2 Attack for battle.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1682
 // Items: I0BW (Hunger for Knowledge), Tip (Tooltip - Basic)
 {
@@ -11140,34 +11139,6 @@ STRING 1697
 |cff4169e1Rare|r
 Your health-restoring abilities and items restore 150% more health. After healing, the target cannot restore health over time.
 |cffffcc00Duration:|r 2.5 seconds.
-}
-
-STRING 1698
-// Items: I0A4 (Glass tooth), Description (Description)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-At the beginning of each battle, after 20 seconds, fully restores health and mana.
-|cff81f260[Random bonus]|r
-}
-
-STRING 1699
-// Items: I0A4 (Glass tooth), Name (Name)
-{
-Glass tooth
-}
-
-STRING 1700
-// Items: I0A4 (Glass tooth), Tip (Tooltip - Basic)
-{
-Glass tooth
-}
-
-STRING 1701
-// Items: I0A4 (Glass tooth), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-At the beginning of each battle, after 20 seconds, fully restores health and mana.
-|cff81f260[Random bonus]|r
 }
 
 STRING 1702
@@ -11316,6 +11287,14 @@ When the hero is attacked, with a probability of |cffd7df011%|r, it dodges the a
 |cff81f260[Random bonus]|r
 }
 
+STRING 1722
+// Items: I07U (Liquid Sulfur), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+Activation: Each hero uses a random |cff088a08Potion|r.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 1723
 // Items: I09Y (Fahrenheit), Name (Name)
 {
@@ -11326,6 +11305,14 @@ STRING 1724
 // Items: I09Y (Fahrenheit), Tip (Tooltip - Basic)
 {
 Fahrenheit
+}
+
+STRING 1725
+// Items: I0CJ (Pshix's Infusion), Description (Description)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+Activation: Uses a random |cff088a08Potion|r. If the hero's inventory contains only artifacts from the |cfffe9a2eAlchemy|r set, use 2 more |cff088a08Potions|r.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 1726
@@ -12630,16 +12617,6 @@ Activation: |cffcc0000Corrupted|r. Increases stats by 1.
 Gives 1 level for each |cffb18904mech|r.
 }
 
-STRING 1916
-// Items: I08L (Ladybug), Description (Description)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-Activation: Increases luck by 100.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
 STRING 1917
 // Items: I08L (Ladybug), Name (Name)
 {
@@ -12650,15 +12627,6 @@ STRING 1918
 // Items: I08L (Ladybug), Tip (Tooltip - Basic)
 {
 Ladybug
-}
-
-STRING 1919
-// Items: I08L (Ladybug), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-Activation: Increases luck by 100.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 1920
@@ -12861,15 +12829,6 @@ STRING 1949
 {
 |cff4169e1Rare|r
 Increases stats by 4. At the beginning of the battle, fills the inventory with purified matter.
-}
-
-STRING 1950
-// Items: I07H (Philosopher's Potion), Description (Description)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Gives a random |cff088a08potion|r. When the inventory is full, casts it instead.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 50 mana.
 }
 
 STRING 1951
@@ -13358,35 +13317,6 @@ STRING 2023
 Increases spell power by 7% for each |cffb18904mech|r.
 }
 
-STRING 2024
-// Items: I07U (Liquid sulfur), Description (Description)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-Activation: Increases the number of charges of |cff088a08potions|r in your inventory by 1.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 75 mana.
-}
-
-STRING 2025
-// Items: I07U (Liquid sulfur), Name (Name)
-{
-Liquid sulfur
-}
-
-STRING 2026
-// Items: I07U (Liquid sulfur), Tip (Tooltip - Basic)
-{
-Liquid sulfur
-}
-
-STRING 2027
-// Items: I07U (Liquid sulfur), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-Activation: Increases the number of charges of |cff088a08potions|r in your inventory by 1.
-|cffffcc00Cooldown:|r 45 seconds.
-}
-
 STRING 2028
 // Items: I01T (Spring Water), Name (Name)
 {
@@ -13850,6 +13780,14 @@ STRING 2095
 Obtain an Exile item. These items existed in the arena in the past, but were cast into oblivion.
 }
 
+STRING 2096
+// Items: I0CJ (Pshix's Infusion), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+Activation: Uses a random |cff088a08Potion|r. If the hero's inventory contains only artifacts from the |cfffe9a2eAlchemy|r set, use 2 more |cff088a08Potions|r.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 2097
 // Abilities: A1F4 (Stat: Heal Bonus +150%), Name (Name)
 {
@@ -13860,6 +13798,13 @@ STRING 2098
 // Abilities: A15E (Ruby oilXXX), Name (Name)
 {
 Ruby oilXXX
+}
+
+STRING 2099
+// Items: I05S (Star in a Bottle), Description (Description)
+{
+|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r
+Increases Luck by 25. If you only have |cfffe9a2eAlchemy|r set artifacts in your inventory, increases Spell Power by 60%.
 }
 
 STRING 2100
@@ -14333,34 +14278,6 @@ STRING 2167
 |cff00ff00Withdrawal|r
 }
 
-STRING 2168
-// Items: I06U (Mint tea), Description (Description)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Restores |cffbe81f710%|r of maximum health and mana.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 2169
-// Items: I06U (Mint tea), Name (Name)
-{
-Mint tea
-}
-
-STRING 2170
-// Items: I06U (Mint tea), Tip (Tooltip - Basic)
-{
-Mint tea
-}
-
-STRING 2171
-// Items: I06U (Mint tea), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Restores |cffbe81f710%|r of maximum health and mana.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 2172
 // Items: I06T (Necrowool), Description (Description)
 {
@@ -14573,6 +14490,13 @@ STRING 2202
 // Items: I06M (Albedo the Hellish), Tip (Tooltip - Basic)
 {
 Albedo the Hellish
+}
+
+STRING 2203
+// Items: I05S (Star in a Bottle), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r
+Increases Luck by 25. If you only have |cfffe9a2eAlchemy|r set artifacts in your inventory, increases Spell Power by 60%.
 }
 
 STRING 2204
@@ -16806,32 +16730,6 @@ STRING 2540
 Until the end of the game, exchanging with you gives both heroes 2 random stats.
 }
 
-STRING 2541
-// Items: I04B (Mana tea), Description (Description)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Increases mana by 50, spell power by 5% and mana regeneration by 100%.
-}
-
-STRING 2542
-// Items: I04B (Mana tea), Name (Name)
-{
-Mana tea
-}
-
-STRING 2543
-// Items: I04B (Mana tea), Tip (Tooltip - Basic)
-{
-Mana tea
-}
-
-STRING 2544
-// Items: I04B (Mana tea), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Increases mana by 50, spell power by 5% and mana regeneration by 100%.
-}
-
 STRING 2545
 // Items: I04A (Ring of Power), Description (Description)
 {
@@ -18136,6 +18034,20 @@ Activation: Increases the ally’s armor by 3. If the hero’s gold supply is 20
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 2735
+// Items: I0E7 (Witch's Love), Description (Description)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+At the start of combat, creates a Witch's Cauldron that creates a random |cff088a08Potion|r every 12 seconds.
+|cff81f260[Random bonus]|r
+}
+
+STRING 2736
+// Items: I0E7 (Witch's Love), Name (Name)
+{
+Witch's Love
+}
+
 STRING 2737
 // Items: I02Y (Precious Scarab), Ubertip (Tooltip - Extended)
 {
@@ -18430,6 +18342,12 @@ Activation: Deals |cffbe81f7100|r damage to all enemies. Additionally deals 100 
 |cffffcc00Cooldown:|r 60 seconds.
 }
 
+STRING 2781
+// Items: I0E7 (Witch's Love), Tip (Tooltip - Basic)
+{
+Witch's Love
+}
+
 STRING 2782
 // Items: I02M (Might of the Damned), Name (Name)
 {
@@ -18440,6 +18358,14 @@ STRING 2783
 // Items: I02M (Might of the Damned), Tip (Tooltip - Basic)
 {
 Might of the Damned
+}
+
+STRING 2784
+// Items: I0E7 (Witch's Love), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
+At the start of combat, creates a Witch's Cauldron that creates a random |cff088a08Potion|r every 12 seconds.
+|cff81f260[Random bonus]|r
 }
 
 STRING 2785
@@ -18956,6 +18882,15 @@ STRING 2859
 // Items: I023 (Chameleon fish), Tip (Tooltip - Basic)
 {
 Chameleon fish
+}
+
+STRING 2860
+// Items: I0ED (Elixir of Longevity), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Restores |cffbe81f7150|r Health to friendly units nearby. Increases the Attack of affected minions by 15%.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 35 mana.
 }
 
 STRING 2861
@@ -19652,6 +19587,22 @@ Your health-restoring abilities and items restore 20% more health.
 |cff81f260[Random bonus]|r
 }
 
+STRING 2966
+// Items: I0ED (Elixir of Longevity), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Restores |cffbe81f7150|r Health to friendly units nearby. Increases the Attack of affected minions by 15%.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 2967
+// Items: I010 (Endless Vessel), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Restore |cffbe81f7250|r health. Restores |cffbe81f725|r mana for each |cff088a08Potion|r in your inventory.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 2968
 // Items: I04X (Fighter's Gloves), Description (Description)
 {
@@ -19745,30 +19696,8 @@ Enters the hero into a trance. His attack and movement speed is reduced by 35%, 
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
-STRING 2981
-// Items: I019 (Love potion), Description (Description)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Make target provoke all your enemies nearby.
-|cffffcc00Duration:|r 8 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 30 mana.
-}
-
-STRING 2982
-// Items: I019 (Love potion), Name (Name)
-{
-Love potion
-}
-
-STRING 2983
-// Items: I019 (Love potion), Tip (Tooltip - Basic)
-{
-Love potion
-}
-
 STRING 2984
-// Items: I019 (Love potion), Ubertip (Tooltip - Extended)
+// Items: I019 (Love Elixir), Description (Description)
 {
 |cffbababcCommon|r, |cfffe9a2eAlchemy|r
 Activation: Make target provoke all your enemies nearby.
@@ -20003,34 +19932,6 @@ STRING 3016
 |cffbababcCommon|r, |cff9001fdRing|r
 Each 7th attack deals 3 times more damage.
 |cff81f260[Random bonus]|r
-}
-
-STRING 3017
-// Items: I010 (Endless vessel), Description (Description)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Restore |cffbe81f7250|r health.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 3018
-// Items: I010 (Endless vessel), Name (Name)
-{
-Endless vessel
-}
-
-STRING 3019
-// Items: I010 (Endless vessel), Tip (Tooltip - Basic)
-{
-Endless vessel
-}
-
-STRING 3020
-// Items: I010 (Endless vessel), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Restore |cffbe81f7250|r health.
-|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 3021
@@ -20274,6 +20175,26 @@ STRING 3056
 // Abilities: A1J5 (HP (Natural Deselection)), Name (Name)
 {
 HP (Natural Deselection)
+}
+
+STRING 3057
+// Items: I010 (Endless Vessel), Name (Name)
+{
+Endless Vessel
+}
+
+STRING 3058
+// Items: I010 (Endless Vessel), Tip (Tooltip - Basic)
+{
+Endless Vessel
+}
+
+STRING 3059
+// Items: I010 (Endless Vessel), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Restore |cffbe81f7250|r health. Restores |cffbe81f725|r mana for each |cff088a08Potion|r in your inventory.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 3061
@@ -20808,6 +20729,25 @@ STRING 3144
 // Abilities: A0QX (Attack (Brass Knuckles)), Name (Name)
 {
 Attack (Brass Knuckles)
+}
+
+STRING 3145
+// Items: I0A4 (Glass Tooth), Name (Name)
+{
+Glass Tooth
+}
+
+STRING 3146
+// Items: I0A4 (Glass Tooth), Tip (Tooltip - Basic)
+{
+Glass Tooth
+}
+
+STRING 3148
+// Items: I0A4 (Glass Tooth), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+After 20 seconds from the start of the battle, fully restores |cffbe81f7Health|r and |cffbe81f7Mana|r and creates 2 |cff088a08Potions|r nearby.
 }
 
 STRING 3149
@@ -26391,6 +26331,13 @@ STRING 4023
 // Abilities: A18I (Attack (Sniper's Crossbow)), Name (Name)
 {
 Attack (Sniper's Crossbow)
+}
+
+STRING 4024
+// Items: I0A4 (Glass Tooth), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+After 20 seconds from the start of the battle, fully restores |cffbe81f7Health|r and |cffbe81f7Mana|r and creates 2 |cff088a08Potions|r nearby.
 }
 
 STRING 4025
@@ -32065,6 +32012,15 @@ STRING 4901
 Аура: Огонь в бутылке
 }
 
+STRING 4902
+// Items: I07H (Philosopher's Potion), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Gives a random |cff088a08potion|r. When the inventory is full, casts it instead.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 35 mana.
+}
+
 STRING 4903
 // Abilities: A125 (MP/sec (Tear of Asha Extra)), Name (Name)
 {
@@ -35407,6 +35363,14 @@ STRING 5421
 // Abilities: A0XC (Stats (Paragon Crown)), Name (Name)
 {
 Stats (Paragon Crown)
+}
+
+STRING 5422
+// Items: I06U (Mint Tea), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Restores |cffbe81f710%|r of Health and Mana. If your inventory contains only artifacts from the |cfffe9a2eAlchemy|r set, it restores another 15%.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 5423
@@ -44594,6 +44558,12 @@ STRING 6836
 Increases spell power for |cff088a08potions|r and |cff60C445Unique|r, as well as the duration of buffs and debuffs by 25%.
 }
 
+STRING 6837
+// Items: I06U (Mint Tea), Name (Name)
+{
+Mint Tea
+}
+
 STRING 6838
 // Abilities: A0LX (Harpy: Return), Hotkey (Hotkey - Normal)
 {
@@ -46759,6 +46729,20 @@ STRING 7170
 // Units: u00J (Ghoul), EditorSuffix (Name - Editor Suffix)
 {
 (Pentagram)
+}
+
+STRING 7171
+// Items: I06U (Mint Tea), Tip (Tooltip - Basic)
+{
+Mint Tea
+}
+
+STRING 7172
+// Items: I06U (Mint Tea), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Restores |cffbe81f710%|r of Health and Mana. If your inventory contains only artifacts from the |cfffe9a2eAlchemy|r set, it restores another 15%.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 7173
@@ -68426,6 +68410,13 @@ STRING 10517
 Damage taken reduced. Enemies take damage when attacking.
 }
 
+STRING 10518
+// Items: I04B (Mana Tea), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Increases Mana by 50, Spell Power by 10% and Mana Regeneration by 100%.
+}
+
 STRING 10519
 // Buffs/Effects: B08P (), Buffubertip (Tooltip - Extended)
 {
@@ -69785,6 +69776,12 @@ STRING 10744
 // Buffs/Effects: B05J (), Bufftip (Tooltip)
 {
 |cff00ff00Fahrenheit|r
+}
+
+STRING 10745
+// Items: I04B (Mana Tea), Name (Name)
+{
+Mana Tea
 }
 
 STRING 10746
@@ -73322,6 +73319,12 @@ Increases armor by 5 and health by 500.
 |cffffffffDecreases attack speed by 25% and increases cooldown of abilities and items by 25%.|r
 }
 
+STRING 11323
+// Items: I04B (Mana Tea), Tip (Tooltip - Basic)
+{
+Mana Tea
+}
+
 STRING 11324
 // Abilities: A1DX (Runesmith: Carve Rune of the Rich), Name (Name)
 {
@@ -73424,6 +73427,13 @@ STRING 11338
 Runesmith: Carve Rune of the Strongman
 }
 
+STRING 11339
+// Items: I04B (Mana Tea), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Increases Mana by 50, Spell Power by 10% and Mana Regeneration by 100%.
+}
+
 STRING 11340
 // Abilities: A1E0 (Runesmith: Carve Rune of the Strongman), Tip (Tooltip - Normal)
 {
@@ -73453,6 +73463,12 @@ STRING 11344
 // Abilities: A1E1 (Runesmith: Carve Rune of the Emperor), Tip (Tooltip - Normal)
 {
 Carve Rune of the Emperor
+}
+
+STRING 11345
+// Items: I019 (Love Elixir), Name (Name)
+{
+Love Elixir
 }
 
 STRING 11346
@@ -75336,6 +75352,21 @@ STRING 11619
 (Level 7)
 }
 
+STRING 11620
+// Items: I019 (Love Elixir), Tip (Tooltip - Basic)
+{
+Love Elixir
+}
+
+STRING 11621
+// Items: I019 (Love Elixir), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Make target provoke all your enemies nearby.
+|cffffcc00Duration:|r 8 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 11622
 // Abilities: A0UK (Commander: Sea is Worried), Name (Name)
 {
@@ -77194,15 +77225,6 @@ STRING 11919
 Raging Fire
 }
 
-STRING 11920
-// Items: I05S (Star in a Bottle), Description (Description)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-Instead of the usual effect, the Fire Potion deals massive damage and additional damage equal to |cffbe81f76%|r of the health of enemies.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 11921
 // Items: I05S (Star in a Bottle), Name (Name)
 {
@@ -77213,15 +77235,6 @@ STRING 11922
 // Items: I05S (Star in a Bottle), Tip (Tooltip - Basic)
 {
 Star in a Bottle
-}
-
-STRING 11923
-// Items: I05S (Star in a Bottle), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-Instead of the usual effect, the Fire Potion deals massive damage and additional damage equal to |cffbe81f76%|r of the health of enemies.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 11924

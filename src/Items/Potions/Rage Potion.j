@@ -29,7 +29,7 @@ scope RagePotion initializer init
 	        set caster = udg_Caster
 	    elseif RandomLogic() then
 	        set caster = udg_Caster
-	        call textst( "|cfA8142A Rage", caster, 64, 90, 10, 1.5 )
+	        call textst( "|cffA8142A Rage", caster, 64, 90, 10, 1.5 )
 	    else
 	        set caster = GetSpellAbilityUnit()
 	    endif

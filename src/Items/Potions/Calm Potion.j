@@ -28,7 +28,7 @@ scope CalmPotion initializer init
 	        set caster = udg_Caster
 	    elseif RandomLogic() then
 	        set caster = udg_Caster
-	        call textst( "|cf0008080 Calm", caster, 64, 90, 10, 1.5 )
+	        call textst( "|cff008080 Calm", caster, 64, 90, 10, 1.5 )
 	    else
 	        set caster = GetSpellAbilityUnit()
 	    endif
