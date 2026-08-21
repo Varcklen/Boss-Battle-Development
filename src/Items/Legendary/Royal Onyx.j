@@ -5,7 +5,7 @@ scope RoyalOnyx initializer init
 	endglobals
 	
 	private function condition takes nothing returns boolean
-        return GetItemTypeId(GetManipulatedItem()) ==  ITEM_ID and combat( GetManipulatingUnit(), true, 0 )
+        return GetItemTypeId(GetManipulatedItem()) ==  ITEM_ID and combat( GetManipulatingUnit(), true, 0 ) and udg_fightmod[3] == null
     endfunction
     
     private function action takes nothing returns nothing

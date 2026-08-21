@@ -3,8 +3,8 @@ scope KartiStraight initializer init
 	globals
 		private constant integer ITEM_ID = 'I011'
 		
-		private constant integer COUNTER_REQUIRE = 7
-		private constant real DAMAGE_INCREASE = 2
+		private constant integer COUNTER_REQUIRE = 4
+		private constant real DAMAGE_INCREASE = 1
 		
 		private constant integer STRING_HASH = StringHash( "karti_straight" )
 	endglobals

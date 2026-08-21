@@ -2871,26 +2871,10 @@ STRING 457
 Khaziber
 }
 
-STRING 458
-// Items: I0GI (Jagot), Description (Description)
-{
-|cff4169e1Rare|r
-When you use your first ability (|cffffcc00Q|r), creates a Temporal Clock. When taken, it reduces the cooldown of the Hero's abilities by 4 seconds.
-|cff81f260[Random bonus]|r
-}
-
 STRING 459
 // Units: O00I ((T) Houndmaster), Propernames (Proper Names)
 {
 Charmander
-}
-
-STRING 460
-// Items: I0GI (Jagot), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-When you use your first ability (|cffffcc00Q|r), creates a Temporal Clock. When taken, it reduces the cooldown of the Hero's abilities by 4 seconds.
-|cff81f260[Random bonus]|r
 }
 
 STRING 461
@@ -2947,14 +2931,6 @@ STRING 469
 Soren 
 }
 
-STRING 470
-// Items: I0GG (Boom Box), Description (Description)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r
-Your buffs and debuffs last 20% longer.|nAdditionally, your buffs and debuffs last 10% longer for each other |cffb18904mech|r in the inventory.
-|cff81f260[Random bonus]|r
-}
-
 STRING 471
 // Units: N057 ((A) Jester), Propernames (Proper Names)
 {
@@ -2977,14 +2953,6 @@ STRING 474
 // Units: N056 (Armsmaster), Propernames (Proper Names)
 {
 Galvan
-}
-
-STRING 475
-// Items: I0GG (Boom Box), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r
-Your buffs and debuffs last 20% longer.|nAdditionally, your buffs and debuffs last 10% longer for each other |cffb18904mech|r in the inventory.
-|cff81f260[Random bonus]|r
 }
 
 STRING 476
@@ -4718,6 +4686,16 @@ STRING 745
 Artifact: Crystallized Mana
 }
 
+STRING 746
+// Items: I0E1 (Mixture of Illusions), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+When you restore health with |cff088a08Potions|r, it also restores |cffbe81f7Health|r to other heroes.
+Activation: Create an Earth Potion (or place it nearby).
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
 STRING 747
 // Items: I0GQ (Enlightenment), Name (Name)
 {
@@ -4728,6 +4706,12 @@ STRING 748
 // Items: I0GQ (Enlightenment), Tip (Tooltip - Basic)
 {
 Enlightenment
+}
+
+STRING 749
+// Items: I0E1 (Mixture of Illusions), Name (Name)
+{
+Mixture of Illusions
 }
 
 STRING 750
@@ -6105,14 +6089,6 @@ STRING 952
 Frantic Fists, [|cffffcc00Level 4|r]
 }
 
-STRING 953
-// Items: I0FA (Magic Absorber), Description (Description)
-{
-|cff4169e1Rare|r
-Increases spell power by 0.3% for each point of your hero's intelligence.
-|cff81f260[Random bonus]|r
-}
-
 STRING 954
 // Items: I0FA (Magic Absorber), Name (Name)
 {
@@ -6123,14 +6099,6 @@ STRING 955
 // Items: I0FA (Magic Absorber), Tip (Tooltip - Basic)
 {
 Magic Absorber
-}
-
-STRING 956
-// Items: I0FA (Magic Absorber), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases spell power by 0.3% for each point of your hero's intelligence.
-|cff81f260[Random bonus]|r
 }
 
 STRING 957
@@ -7208,6 +7176,35 @@ Activation: Creates a burning gaze totem. Every 5 seconds, it deals |cffbe81f710
 |cffffcc00Cooldown:|r 3 seconds.
 }
 
+STRING 1110
+// Items: I0E1 (Mixture of Illusions), Tip (Tooltip - Basic)
+{
+Mixture of Illusions
+}
+
+STRING 1111
+// Items: I0E1 (Mixture of Illusions), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+When you restore health with |cff088a08Potions|r, it also restores |cffbe81f7Health|r to other heroes.
+Activation: Create an Earth Potion (or place it nearby).
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 1112
+// Abilities: A1JJ (Artifact: Mixture of Illusions), Name (Name)
+{
+Artifact: Mixture of Illusions
+}
+
+STRING 1113
+// Items: I0DS (Norepinephrine), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+After the hero's attack, ignores any damage received for 5 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 1114
 // Items: I00Z (Roll the Dice), Ubertip (Tooltip - Extended)
 {
@@ -7335,32 +7332,12 @@ STRING 1133
 Split Artifact (Slot 3)XXXXX
 }
 
-STRING 1134
-// Items: I0E1 (Mixture of illusions), Description (Description)
+STRING 1138
+// Items: I0DS (Norepinephrine), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r, |cfffe9a2eAlchemy|r
-When you restore health with |cff088a08potions|r, it also restores |cffbe81f7health|r to other heroes.
-|cff81f260[Random bonus]|r
-}
-
-STRING 1135
-// Items: I0E1 (Mixture of illusions), Name (Name)
-{
-Mixture of illusions
-}
-
-STRING 1136
-// Items: I0E1 (Mixture of illusions), Tip (Tooltip - Basic)
-{
-Mixture of illusions
-}
-
-STRING 1137
-// Items: I0E1 (Mixture of illusions), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-When you restore health with |cff088a08potions|r, it also restores |cffbe81f7health|r to other heroes.
-|cff81f260[Random bonus]|r
+After the hero's attack, ignores any damage received for 5 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 1139
@@ -7373,6 +7350,14 @@ STRING 1140
 // Items: I0E0 (Essence of time), Tip (Tooltip - Basic)
 {
 Essence of time
+}
+
+STRING 1141
+// Items: I083 (Gnomish Soulspin), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: Restores |cffbe81f240%|r health and mana to all heroes. Swaps their souls.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 1142
@@ -7580,15 +7565,6 @@ Day changes to night. Increases your hero's spell power by 30%, resets the coold
 |cffffcc00Cooldown:|r 90 seconds.
 }
 
-STRING 1170
-// Items: I0DS (Norepinephrine), Description (Description)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-After the hero's attack, hero cannot take damage over time.
-|cffffcc00Duration:|r 0.5 seconds.
-|cffffcc00Cooldown:|r 1.2 seconds.
-}
-
 STRING 1171
 // Items: I0DS (Norepinephrine), Name (Name)
 {
@@ -7599,43 +7575,6 @@ STRING 1172
 // Items: I0DS (Norepinephrine), Tip (Tooltip - Basic)
 {
 Norepinephrine
-}
-
-STRING 1173
-// Items: I0DS (Norepinephrine), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-After the hero's attack, hero cannot take damage over time.
-|cffffcc00Duration:|r 0.5 seconds.
-|cffffcc00Cooldown:|r 1.2 seconds.
-}
-
-STRING 1174
-// Items: I0DR (Mecha chicken W.T.I.I.), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-When the hero takes fatal damage, instead of dying, restores |cffbe81f720%|r of health for each |cffb18904mech|r in the inventory.
-|cffffcc00Cooldown:|r 35 seconds.
-}
-
-STRING 1175
-// Items: I0DR (Mecha chicken W.T.I.I.), Name (Name)
-{
-Mecha chicken W.T.I.I.
-}
-
-STRING 1176
-// Items: I0DR (Mecha chicken W.T.I.I.), Tip (Tooltip - Basic)
-{
-Mecha chicken W.T.I.I.
-}
-
-STRING 1177
-// Items: I0DR (Mecha chicken W.T.I.I.), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-When the hero takes fatal damage, instead of dying, restores |cffbe81f720%|r of health for each |cffb18904mech|r in the inventory.
-|cffffcc00Cooldown:|r 35 seconds.
 }
 
 STRING 1178
@@ -7665,7 +7604,7 @@ Deals |cffbe81f7200|r damage to the nearby enemy with the highest health and stu
 }
 
 STRING 1182
-// Items: I0DP (Bursting bullet), Description (Description)
+// Items: I0DP (Bursting Bullet), Description (Description)
 {
 |cffbababcCommon|r
 Activation: Deals |cffbe81f720|r damage to an enemy 15 times.
@@ -7673,20 +7612,8 @@ Activation: Deals |cffbe81f720|r damage to an enemy 15 times.
 |cffffcc00Cost:|r 50 mana.
 }
 
-STRING 1183
-// Items: I0DP (Bursting bullet), Name (Name)
-{
-Bursting bullet
-}
-
-STRING 1184
-// Items: I0DP (Bursting bullet), Tip (Tooltip - Basic)
-{
-Bursting bullet
-}
-
 STRING 1185
-// Items: I0DP (Bursting bullet), Ubertip (Tooltip - Extended)
+// Items: I0DP (Bursting Bullet), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r
 Activation: Deals |cffbe81f720|r damage to an enemy 15 times.
@@ -8825,6 +8752,14 @@ STRING 1349
 Increases hero's strength by 10. If base strength is 30 or less, also increases strength by 20.
 }
 
+STRING 1350
+// Items: I083 (Gnomish Soulspin), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: Restores |cffbe81f240%|r health and mana to all heroes. Swaps their souls.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 1351
 // Items: I0CJ (Pshix's Infusion), Name (Name)
 {
@@ -8835,6 +8770,14 @@ STRING 1352
 // Items: I0CJ (Pshix's Infusion), Tip (Tooltip - Basic)
 {
 Pshix's Infusion
+}
+
+STRING 1353
+// Items: I070 (Heat Seekers), Description (Description)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Every 10 seconds, creates a homing missile that flies at a random enemy and deals |cffbe81f780|r damage. 
+The effect is repeated for each other |cffb18904mech|r.
 }
 
 STRING 1354
@@ -8893,6 +8836,39 @@ STRING 1361
 {
 |cffbababcCommon|r, |cff5858faMoon|r
 |cff5858faMoon|r set bonus deals 50% more damage.
+|cff81f260[Random bonus]|r
+}
+
+STRING 1362
+// Items: I070 (Heat Seekers), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Every 10 seconds, creates a homing missile that flies at a random enemy and deals |cffbe81f780|r damage. 
+The effect is repeated for each other |cffb18904mech|r.
+}
+
+STRING 1363
+// Items: I02N (Ash Cinder M-16), Description (Description)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Activation: Deals |cffbe81f7125|r damage to all enemies. Additionally deals 125 damage for each other |cffb18904Mech|r.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
+STRING 1364
+// Items: I02N (Ash Cinder M-16), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Activation: Deals |cffbe81f7125|r damage to all enemies. Additionally deals 125 damage for each other |cffb18904Mech|r.
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 1365
+// Items: I01F (Bonus Collector), Description (Description)
+{
+|cffbababcCommon|r
+When you take an artifact with |cff81f260[Random bonus]|r, it gives 2 extra ones.
 |cff81f260[Random bonus]|r
 }
 
@@ -9512,13 +9488,6 @@ STRING 1457
 |cffffcc00Mode:|r Changing World
 }
 
-STRING 1458
-// Items: I0BS (Magic Amplifier), Description (Description)
-{
-|cff4169e1Rare|r
-Increases spell power by 0.5% for each point of your hero's strength.
-}
-
 STRING 1459
 // Items: I0BS (Magic Amplifier), Name (Name)
 {
@@ -9529,13 +9498,6 @@ STRING 1460
 // Items: I0BS (Magic Amplifier), Tip (Tooltip - Basic)
 {
 Magic Amplifier
-}
-
-STRING 1461
-// Items: I0BS (Magic Amplifier), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases spell power by 0.5% for each point of your hero's strength.
 }
 
 STRING 1462
@@ -10180,15 +10142,6 @@ STRING 1557
 When the hero uses an ability or item, restores |cffbe81f750|r health.
 }
 
-STRING 1558
-// Items: I0B3 (Dream Catcher), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Use the first ability (|cffffcc00Q|r) on a random targets three times.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
 STRING 1559
 // Items: I0B3 (Dream Catcher), Name (Name)
 {
@@ -10199,14 +10152,6 @@ STRING 1560
 // Items: I0B3 (Dream Catcher), Tip (Tooltip - Basic)
 {
 Dream Catcher
-}
-
-STRING 1561
-// Items: I0B3 (Dream Catcher), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Use the first ability (|cffffcc00Q|r) on a random targets three times.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 1562
@@ -10258,6 +10203,14 @@ STRING 1569
 {
 |cffbababcCommon|r
 Activation: |cffcc0000Corrupted|r. Deals |cffbe81f72000|r damage to an enemy. Only works in combat.
+}
+
+STRING 1570
+// Items: I01F (Bonus Collector), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+When you take an artifact with |cff81f260[Random bonus]|r, it gives 2 extra ones.
+|cff81f260[Random bonus]|r
 }
 
 STRING 1571
@@ -11029,6 +10982,14 @@ STRING 1680
 Totem of Chaos
 }
 
+STRING 1681
+// Items: I0GG (Boom Box), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Your buffs and debuffs last 20% longer. Additionally increases by 10% for each other |cffb18904mech|r.
+|cff81f260[Random bonus]|r
+}
+
 STRING 1682
 // Items: I0BW (Hunger for Knowledge), Tip (Tooltip - Basic)
 {
@@ -11139,6 +11100,33 @@ STRING 1697
 |cff4169e1Rare|r
 Your health-restoring abilities and items restore 150% more health. After healing, the target cannot restore health over time.
 |cffffcc00Duration:|r 2.5 seconds.
+}
+
+STRING 1698
+// Items: I0GG (Boom Box), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Your buffs and debuffs last 20% longer. Additionally increases by 10% for each other |cffb18904mech|r.
+|cff81f260[Random bonus]|r
+}
+
+STRING 1699
+// Items: I0DP (Bursting Bullet), Name (Name)
+{
+Bursting Bullet
+}
+
+STRING 1700
+// Items: I0DP (Bursting Bullet), Tip (Tooltip - Basic)
+{
+Bursting Bullet
+}
+
+STRING 1701
+// Items: I07V (Steam Generator), Description (Description)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Increases Spell Power by 10% for each |cffb18904mech|r.
 }
 
 STRING 1702
@@ -12617,6 +12605,13 @@ Activation: |cffcc0000Corrupted|r. Increases stats by 1.
 Gives 1 level for each |cffb18904mech|r.
 }
 
+STRING 1916
+// Items: I07V (Steam Generator), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Increases Spell Power by 10% for each |cffb18904mech|r.
+}
+
 STRING 1917
 // Items: I08L (Ladybug), Name (Name)
 {
@@ -12627,6 +12622,15 @@ STRING 1918
 // Items: I08L (Ladybug), Tip (Tooltip - Basic)
 {
 Ladybug
+}
+
+STRING 1919
+// Items: I05K (Old Healer), Description (Description)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Activation: Restores |cffbe81f7300|r health to friendly target. Additionally restores 100 health for each other |cffb18904mech|r.
+|cffffcc00Cooldown:|r 25 seconds.
+|cffffcc00Cost:|r 40 mana.
 }
 
 STRING 1920
@@ -12731,14 +12735,6 @@ STRING 1935
 Immortal Story
 }
 
-STRING 1936
-// Items: I08G (Automatron "Income"), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-At the end of battle gives 100 gold. 
-Gives an additional 50 gold for each other |cffb18904mech|r in the inventory.
-}
-
 STRING 1937
 // Items: I08G (Automatron "Income"), Name (Name)
 {
@@ -12749,14 +12745,6 @@ STRING 1938
 // Items: I08G (Automatron "Income"), Tip (Tooltip - Basic)
 {
 Automatron "Income"
-}
-
-STRING 1939
-// Items: I08G (Automatron "Income"), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-At the end of battle gives 100 gold. 
-Gives an additional 50 gold for each other |cffb18904mech|r in the inventory.
 }
 
 STRING 1940
@@ -12829,6 +12817,14 @@ STRING 1949
 {
 |cff4169e1Rare|r
 Increases stats by 4. At the beginning of the battle, fills the inventory with purified matter.
+}
+
+STRING 1950
+// Items: I05K (Old Healer), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Activation: Restores |cffbe81f7300|r health to friendly target. Additionally restores 100 health for each other |cffb18904mech|r.
+|cffffcc00Cooldown:|r 25 seconds.
 }
 
 STRING 1951
@@ -13073,14 +13069,6 @@ STRING 1987
 Increases stats by |cffffffff1|r. Use 20 abilities or items to improve an artifact. Improves up to five times.
 }
 
-STRING 1988
-// Items: I083 (Gnomish Soulspin), Description (Description)
-{
-|cffe96a1cLegendary|r, |cffb18904Mech|r
-Activation: Restores |cffbe81f240%|r health and mana to all heroes and swaps their souls.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
 STRING 1989
 // Items: I083 (Gnomish Soulspin), Name (Name)
 {
@@ -13091,14 +13079,6 @@ STRING 1990
 // Items: I083 (Gnomish Soulspin), Tip (Tooltip - Basic)
 {
 Gnomish Soulspin
-}
-
-STRING 1991
-// Items: I083 (Gnomish Soulspin), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cffb18904Mech|r
-Activation: Restores |cffbe81f240%|r health and mana to all heroes and swaps their souls.
-|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 1992
@@ -13233,36 +13213,6 @@ STRING 2011
 Снаряд: Orb of ConsecrationXXX
 }
 
-STRING 2012
-// Items: I07X (Jet boots), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Increases movement speed by 300%. Effect lasts 2 seconds longer for each other |cffb18904mech|r in the inventory.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 2013
-// Items: I07X (Jet boots), Name (Name)
-{
-Jet boots
-}
-
-STRING 2014
-// Items: I07X (Jet boots), Tip (Tooltip - Basic)
-{
-Jet boots
-}
-
-STRING 2015
-// Items: I07X (Jet boots), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Increases movement speed by 300%. Effect lasts 2 seconds longer for each other |cffb18904mech|r in the inventory.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
 STRING 2016
 // Items: I0DQ (Bindings of Potential), Description (Description)
 {
@@ -13291,13 +13241,6 @@ The Hero cannot deal less than 30 damage.
 |cff81f260[Random bonus]|r
 }
 
-STRING 2020
-// Items: I07V (Steam Generator), Description (Description)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r
-Increases spell power by 7% for each |cffb18904mech|r.
-}
-
 STRING 2021
 // Items: I05M (Book of Luck), Description (Description)
 {
@@ -13310,11 +13253,21 @@ STRING 2022
 Increases luck by 3.
 }
 
-STRING 2023
-// Items: I07V (Steam Generator), Ubertip (Tooltip - Extended)
+STRING 2026
+// Items: I02L (Boom Machine), Description (Description)
 {
 |cff4169e1Rare|r, |cffb18904Mech|r
-Increases spell power by 7% for each |cffb18904mech|r.
+Activation: Deals |cffbe81f2200|r damage to an enemy and increases Health by 10. Repeat for each other |cffb18904mech|r.
+|cffffcc00Cooldown:|r 40 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 2027
+// Items: I02L (Boom Machine), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Activation: Deals |cffbe81f2200|r damage to an enemy and increases Health by 10. Repeat for each other |cffb18904mech|r.
+|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 2028
@@ -13666,15 +13619,6 @@ STRING 2079
 // Abilities: A0RT (Alchemist: Elemental Power), Tip (Tooltip - Normal)
 {
 Elemental Power, [|cffffcc00Level 3|r]
-}
-
-STRING 2080
-// Items: I07G ("Pow!" Machine), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Deals |cffbe81f7200|r damage to a random enemy. Repeats for each other |cffb18904mech|r in the inventory.
-|cffffcc00Cooldown:|r 35 seconds.
-|cffffcc00Cost:|r 50 mana.
 }
 
 STRING 2081
@@ -14276,6 +14220,44 @@ STRING 2167
 // Buffs/Effects: BODE (), Bufftip (Tooltip)
 {
 |cff00ff00Withdrawal|r
+}
+
+STRING 2168
+// Items: I02I (Superbot-3000), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Summon Superbot-3000. Upgrades all Superbots.
+|cffffcc00Life time:|r 90 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 25 mana.
+}
+
+STRING 2169
+// Items: I02I (Superbot-3000), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Summon Superbot-3000. Upgrades all Superbots.
+|cffffcc00Life time:|r 90 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 2170
+// Items: I0AX (Autonavigator), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Summons a random minion to attack the target. Repeat for each other |cffb18904Mech|r.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 2171
+// Items: I0AX (Autonavigator), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Summons a random minion to attack the target. Repeat for each other |cffb18904Mech|r.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 2172
@@ -15494,15 +15476,6 @@ Choose an ally. Pulls all orbs towards the target, destroying those; Each orb re
 |cffffcc00Cooldown:|r 5 seconds.
 }
 
-STRING 2353
-// Items: I05K (Old Healer), Description (Description)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r
-Activation: Restores |cffbe81f7300|r health to the ally. Additionally restores 100 health for each other |cffb18904mech|r.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 80 mana.
-}
-
 STRING 2354
 // Abilities: A0SO (Sludge Copy: Devouring Flesh), Name (Name)
 {
@@ -15513,14 +15486,6 @@ STRING 2355
 // Abilities: A0SO (Sludge Copy: Devouring Flesh), Tip (Tooltip - Normal)
 {
 Devouring Flesh
-}
-
-STRING 2356
-// Items: I05K (Old Healer), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r
-Activation: Restores |cffbe81f7300|r health to the ally. Additionally restores 100 health for each other |cffb18904mech|r.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 2357
@@ -15635,13 +15600,6 @@ STRING 2372
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cffb40431blood|r.
 }
 
-STRING 2373
-// Items: I05F (Energizer), Description (Description)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-When the hero uses an ability or item, there is a |cffd7df0120%|r chance to restore |cffbe81f725|r mana to all other nearby heroes.
-}
-
 STRING 2374
 // Items: I05F (Energizer), Name (Name)
 {
@@ -15652,13 +15610,6 @@ STRING 2375
 // Items: I05F (Energizer), Tip (Tooltip - Basic)
 {
 Energizer
-}
-
-STRING 2376
-// Items: I05F (Energizer), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-When the hero uses an ability or item, there is a |cffd7df0120%|r chance to restore |cffbe81f725|r mana to all other nearby heroes.
 }
 
 STRING 2377
@@ -16730,13 +16681,26 @@ STRING 2540
 Until the end of the game, exchanging with you gives both heroes 2 random stats.
 }
 
-STRING 2545
-// Items: I04A (Ring of Power), Description (Description)
+STRING 2541
+// Items: I08G (Automatron "Income"), Description (Description)
 {
-|cff4169e1Rare|r, |cff9001fdRing|r
-Activation: Take control of the enemy minion.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
+|cffbababcCommon|r, |cffb18904Mech|r
+At the end of battle gives 150 gold. Gives an additional 75 gold for each other |cffb18904mech|r.
+}
+
+STRING 2542
+// Items: I08G (Automatron "Income"), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+At the end of battle gives 150 gold. Gives an additional 75 gold for each other |cffb18904mech|r.
+}
+
+STRING 2543
+// Items: I07G ("Pow!" Machine), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Deals |cffbe81f7200|r damage to a random enemy. Repeats for each other |cffb18904mech|r in the inventory.
+|cffffcc00Cooldown:|r 35 seconds.
 |cffffcc00Cost:|r 40 mana.
 }
 
@@ -16750,15 +16714,6 @@ STRING 2547
 // Items: I04A (Ring of Power), Tip (Tooltip - Basic)
 {
 Ring of Power
-}
-
-STRING 2548
-// Items: I04A (Ring of Power), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff9001fdRing|r
-Activation: Take control of the enemy minion.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 2549
@@ -18313,15 +18268,6 @@ Whenever you heal a friendly target for 200 or more health at once, heal for 200
 |cff81f260[Random bonus]|r
 }
 
-STRING 2777
-// Items: I02N (Ash Cinder M-16), Description (Description)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r
-Activation: Deals |cffbe81f7100|r damage to all enemies. Additionally deals 100 damage for each other |cffb18904mech|r.
-|cffffcc00Cooldown:|r 60 seconds.
-|cffffcc00Cost:|r 80 mana.
-}
-
 STRING 2778
 // Items: I02N (Ash Cinder M-16), Name (Name)
 {
@@ -18332,14 +18278,6 @@ STRING 2779
 // Items: I02N (Ash Cinder M-16), Tip (Tooltip - Basic)
 {
 Ash Cinder M-16
-}
-
-STRING 2780
-// Items: I02N (Ash Cinder M-16), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r
-Activation: Deals |cffbe81f7100|r damage to all enemies. Additionally deals 100 damage for each other |cffb18904mech|r.
-|cffffcc00Cooldown:|r 60 seconds.
 }
 
 STRING 2781
@@ -18447,16 +18385,6 @@ STRING 2796
 Increases mana by 125. Collect all 3 Mage artifacts to unite them.
 }
 
-STRING 2797
-// Items: I02I (Superbot-3000), Description (Description)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r
-Activation: Summons Superbot-3000. When summoned, it upgraded depending on the level of the hero and |cffb18904mechs|r in the inventory.
-|cffffcc00Life time:|r 90 seconds.
-|cffffcc00Cooldown:|r 90 seconds.
-|cffffcc00Cost:|r 25 mana.
-}
-
 STRING 2798
 // Items: I02I (Superbot-3000), Name (Name)
 {
@@ -18467,15 +18395,6 @@ STRING 2799
 // Items: I02I (Superbot-3000), Tip (Tooltip - Basic)
 {
 Superbot-3000
-}
-
-STRING 2800
-// Items: I02I (Superbot-3000), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r
-Activation: Summons Superbot-3000. When summoned, it upgraded depending on the level of the hero and |cffb18904mechs|r in the inventory.
-|cffffcc00Life time:|r 90 seconds.
-|cffffcc00Cooldown:|r 90 seconds.
 }
 
 STRING 2801
@@ -19522,15 +19441,6 @@ STRING 2956
 Every 12 seconds increases armor by 35 for 3 seconds.
 }
 
-STRING 2957
-// Items: I01F (Bonus Collector), Description (Description)
-{
-|cffe96a1cLegendary|r, |cffb18904Mech|r
-When you take an artifact with |cff81f260[Random bonus]|r, it gives 2 extra ones.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
 STRING 2958
 // Items: I01F (Bonus Collector), Name (Name)
 {
@@ -19541,15 +19451,6 @@ STRING 2959
 // Items: I01F (Bonus Collector), Tip (Tooltip - Basic)
 {
 Bonus Collector
-}
-
-STRING 2960
-// Items: I01F (Bonus Collector), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cffb18904Mech|r
-When you take an artifact with |cff81f260[Random bonus]|r, it gives 2 extra ones.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 2961
@@ -19696,6 +19597,18 @@ Enters the hero into a trance. His attack and movement speed is reduced by 35%, 
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
+STRING 2981
+// Items: I0DR (Mecha Chicken W.T.I.I.), Name (Name)
+{
+Mecha Chicken W.T.I.I.
+}
+
+STRING 2982
+// Items: I0DR (Mecha Chicken W.T.I.I.), Tip (Tooltip - Basic)
+{
+Mecha Chicken W.T.I.I.
+}
+
 STRING 2984
 // Items: I019 (Love Elixir), Description (Description)
 {
@@ -19786,15 +19699,6 @@ STRING 2996
 Armor (Spellbreaker Shield)
 }
 
-STRING 2997
-// Items: I015 (Redirector), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Restores |cffbe81f750|r mana to another hero. Additionally restore 25 mana for each other |cffb18904mech|r.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
 STRING 2998
 // Items: I015 (Redirector), Name (Name)
 {
@@ -19805,14 +19709,6 @@ STRING 2999
 // Items: I015 (Redirector), Tip (Tooltip - Basic)
 {
 Redirector
-}
-
-STRING 3000
-// Items: I015 (Redirector), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Restores |cffbe81f750|r mana to another hero. Additionally restore 25 mana for each other |cffb18904mech|r.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 3001
@@ -19906,14 +19802,6 @@ STRING 3012
 Эффект Могущеста
 }
 
-STRING 3013
-// Items: I011 (Karti the Straight), Description (Description)
-{
-|cffbababcCommon|r, |cff9001fdRing|r
-Each 7th attack deals 3 times more damage.
-|cff81f260[Random bonus]|r
-}
-
 STRING 3014
 // Items: I011 (Karti the Straight), Name (Name)
 {
@@ -19926,12 +19814,34 @@ STRING 3015
 Karti the Straight
 }
 
-STRING 3016
-// Items: I011 (Karti the Straight), Ubertip (Tooltip - Extended)
+STRING 3017
+// Items: I07X (Jet Boots), Description (Description)
 {
-|cffbababcCommon|r, |cff9001fdRing|r
-Each 7th attack deals 3 times more damage.
-|cff81f260[Random bonus]|r
+|cffbababcCommon|r
+Activation: Increases Movement Speed by 300%.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 3018
+// Items: I07X (Jet Boots), Name (Name)
+{
+Jet Boots
+}
+
+STRING 3019
+// Items: I07X (Jet Boots), Tip (Tooltip - Basic)
+{
+Jet Boots
+}
+
+STRING 3020
+// Items: I07X (Jet Boots), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: Increases Movement Speed by 300%.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 3021
@@ -20197,6 +20107,14 @@ Activation: Restore |cffbe81f7250|r health. Restores |cffbe81f725|r mana for eac
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 3060
+// Items: I0DR (Mecha Chicken W.T.I.I.), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+When taking fatal damage, avoid it, restore |cffbe81f720%|r health for each |cffb18904mech|r and increase stats by 1.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
 STRING 3061
 // Items: I02O (Brass Knuckles), Tip (Tooltip - Basic)
 {
@@ -20373,32 +20291,6 @@ STRING 3088
 {
 |cff4169e1Rare|r
 Gives 1 extra attempt to fight the boss after losing. Destroyed after using the attempt.
-}
-
-STRING 3089
-// Items: I00I (Mechanical relay), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-When the hero takes damage, with a |cffd7df0115%|r chance, deals |cffbe81f730|r damage to all nearby enemies. Increases damage by 15 for each other |cffb18904mech|r in the inventory.
-}
-
-STRING 3090
-// Items: I00I (Mechanical relay), Name (Name)
-{
-Mechanical relay
-}
-
-STRING 3091
-// Items: I00I (Mechanical relay), Tip (Tooltip - Basic)
-{
-Mechanical relay
-}
-
-STRING 3092
-// Items: I00I (Mechanical relay), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-When the hero takes damage, with a |cffd7df0115%|r chance, deals |cffbe81f730|r damage to all nearby enemies. Increases damage by 15 for each other |cffb18904mech|r in the inventory.
 }
 
 STRING 3093
@@ -20653,35 +20545,6 @@ STRING 3132
 Activation: |cffcc0000Corrupted|r. You get all your reward artifacts (if there are free slots in your inventory).
 }
 
-STRING 3133
-// Items: I007 (Mechs for dummies), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Uses a random activated |cffb18904mech|r.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
-STRING 3134
-// Items: I007 (Mechs for dummies), Name (Name)
-{
-Mechs for dummies
-}
-
-STRING 3135
-// Items: I007 (Mechs for dummies), Tip (Tooltip - Basic)
-{
-Mechs for dummies
-}
-
-STRING 3136
-// Items: I007 (Mechs for dummies), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Uses a random activated |cffb18904mech|r.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
 STRING 3137
 // Items: I00D (Runestone Fandom), Description (Description)
 {
@@ -20741,6 +20604,14 @@ STRING 3146
 // Items: I0A4 (Glass Tooth), Tip (Tooltip - Basic)
 {
 Glass Tooth
+}
+
+STRING 3147
+// Items: I0DR (Mecha Chicken W.T.I.I.), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+When taking fatal damage, avoid it, restore |cffbe81f720%|r health for each |cffb18904mech|r and increase stats by 1.
+|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 3148
@@ -63097,23 +62968,6 @@ STRING 9699
 Unreachable [|cffffcc00Level 5|r]
 }
 
-STRING 9700
-// Items: I02L (Boom Machine), Description (Description)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r
-Activation: Deals |cffbe81f2200|r damage to an enemy and increases Health by 10. Repeat for each other |cffb18904mech|r.
-|cffffcc00Cooldown:|r 50 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
-STRING 9701
-// Items: I02L (Boom Machine), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb18904Mech|r
-Activation: Deals |cffbe81f2200|r damage to an enemy and increases Health by 10. Repeat for each other |cffb18904mech|r.
-|cffffcc00Cooldown:|r 50 seconds.
-}
-
 STRING 9702
 // Items: I02L (Boom Machine), Name (Name)
 {
@@ -66376,25 +66230,6 @@ STRING 10196
 Plush Doll
 }
 
-STRING 10197
-// Items: I0AX (Autonavigator), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Summons uncontrollable minion that attack the enemy and additional one for each |cffb18904Mech|r in your inventory.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
-STRING 10198
-// Items: I0AX (Autonavigator), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Summons uncontrollable minion that attack the enemy and additional one for each |cffb18904Mech|r in your inventory.
-|cffffcc00Life time:|r 30 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-}
-
 STRING 10199
 // Items: I0D0 (Plush Doll), Ubertip (Tooltip - Extended)
 {
@@ -68813,13 +68648,6 @@ STRING 10584
 |cffff0000Serrated blade|r
 }
 
-STRING 10585
-// Items: I0F9 (Magic Dispenser), Description (Description)
-{
-|cff4169e1Rare|r
-Increases spell power by 0.4% for each point of your hero's agility.
-}
-
 STRING 10586
 // Buffs/Effects: B07U (), Bufftip (Tooltip)
 {
@@ -70320,14 +70148,6 @@ STRING 10834
 // Buffs/Effects: B04B (), Buffubertip (Tooltip - Extended)
 {
 Attack speed increased.
-}
-
-STRING 10835
-// Items: I070 (Heat Seekers), Description (Description)
-{
-|cffe96a1cLegendary|r, |cffb18904Mech|r
-Every 10 seconds, creates a homing missile that flies at a random enemy and deals |cffbe81f7100|r damage. 
-The effect is repeated for each other |cffb18904mech|r.
 }
 
 STRING 10836
@@ -72376,14 +72196,6 @@ STRING 11172
 Gain 15 Attack and 10% Spell Power.
 }
 
-STRING 11173
-// Items: I070 (Heat Seekers), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cffb18904Mech|r
-Every 10 seconds, creates a homing missile that flies at a random enemy and deals |cffbe81f7100|r damage. 
-The effect is repeated for each other |cffb18904mech|r.
-}
-
 STRING 11174
 // Items: I02U (Gold Coin), Name (Name)
 {
@@ -72394,13 +72206,6 @@ STRING 11175
 // Items: I02U (Gold Coin), Tip (Tooltip - Basic)
 {
 Gold Coin
-}
-
-STRING 11176
-// Items: I0F9 (Magic Dispenser), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases spell power by 0.4% for each point of your hero's agility.
 }
 
 STRING 11177
@@ -76029,6 +75834,13 @@ When you restore a target's health, the less health the target has, the more you
 |cff81f260[Random bonus]|r
 }
 
+STRING 11721
+// Items: I00I (Mechanical Relay), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+When the hero takes damage, with a |cffd7df0150%|r chance, deals |cffbe81f730|r damage to all nearby enemies. Increases damage by 15 for each other |cffb18904mech|r.
+}
+
 STRING 11722
 // Items: I0HE (Red Sugar), Name (Name)
 {
@@ -76039,6 +75851,12 @@ STRING 11723
 // Items: I0HE (Red Sugar), Tip (Tooltip - Basic)
 {
 Red Sugar
+}
+
+STRING 11724
+// Items: I00I (Mechanical Relay), Name (Name)
+{
+Mechanical Relay
 }
 
 STRING 11725
@@ -76309,6 +76127,19 @@ Increases stats by 6.
 At the end of the battle, you get a copy of it.
 }
 
+STRING 11764
+// Items: I00I (Mechanical Relay), Tip (Tooltip - Basic)
+{
+Mechanical Relay
+}
+
+STRING 11765
+// Items: I00I (Mechanical Relay), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+When the hero takes damage, with a |cffd7df0150%|r chance, deals |cffbe81f730|r damage to all nearby enemies. Increases damage by 15 for each other |cffb18904mech|r.
+}
+
 STRING 11766
 // Abilities: A15Q (Predator: Shark Scales), Ubertip (Tooltip - Normal - Extended)
 {
@@ -76420,6 +76251,18 @@ STRING 11782
 // Items: I049 (Crystallized Life), Tip (Tooltip - Basic)
 {
 Crystallized Life
+}
+
+STRING 11783
+// Items: I007 (Item Tools), Name (Name)
+{
+Item Tools
+}
+
+STRING 11784
+// Items: I007 (Item Tools), Tip (Tooltip - Basic)
+{
+Item Tools
 }
 
 STRING 11785
@@ -76659,6 +76502,31 @@ STRING 11817
 Every 2 seconds, restores |cffbe81f72%|r of maximum health if the hero’s health is less than 60%.
 }
 
+STRING 11818
+// Items: I015 (Redirector), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Restores |cffbe81f750|r mana to another hero. Additionally restore 25 mana for each other |cffb18904mech|r.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11819
+// Items: I015 (Redirector), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Restores |cffbe81f750|r mana to another hero. Additionally restore 25 mana for each other |cffb18904mech|r.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 11820
+// Items: I007 (Item Tools), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Create a random artifact in an empty inventory slot. Only works in battle.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
 STRING 11821
 // Items: I08E (Sun Root), Name (Name)
 {
@@ -76669,6 +76537,14 @@ STRING 11822
 // Items: I08E (Sun Root), Tip (Tooltip - Basic)
 {
 Sun Root
+}
+
+STRING 11823
+// Items: I007 (Item Tools), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Create a random artifact in an empty inventory slot. Only works in battle.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 11824
@@ -76687,13 +76563,6 @@ Activation: Transforms a minion into a sheep.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
-STRING 11826
-// Items: I06H (Shadow Generator), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r 
-Increases spell power by 40%. After using an ability or item, the hero deals |cffbe81f725|r damage to itself.
-}
-
 STRING 11827
 // Items: I06H (Shadow Generator), Name (Name)
 {
@@ -76704,13 +76573,6 @@ STRING 11828
 // Items: I06H (Shadow Generator), Tip (Tooltip - Basic)
 {
 Shadow Generator
-}
-
-STRING 11829
-// Items: I06H (Shadow Generator), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r 
-Increases spell power by 40%. After using an ability or item, the hero deals |cffbe81f725|r damage to itself.
 }
 
 STRING 11830
@@ -76747,6 +76609,23 @@ STRING 11834
 |cffbababcCommon|r, |cffb18904Mech|r
 Activation: Deals |cffbe81f7225|r damage to all enemies near the target.
 |cffffcc00Cooldown:|r 35 seconds.
+}
+
+STRING 11835
+// Items: I005 (Repeller), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Knocks back all nearby enemies, stunning them for 2 seconds and dealing |cffbe81f7200|r damage.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 11836
+// Items: I005 (Repeller), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Activation: Knocks back all nearby enemies, stunning them for 2 seconds and dealing |cffbe81f7200|r damage.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 11837
@@ -76796,6 +76675,20 @@ STRING 11842
 Every third attack restores |cffbe81f725|r Mana.
 }
 
+STRING 11843
+// Items: I06H (Shadow Generator), Description (Description)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Increases Damage Dealt by 40%. When the hero cast, deals |cffbe81f725|r damage to itself.
+}
+
+STRING 11844
+// Items: I06H (Shadow Generator), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb18904Mech|r
+Increases Damage Dealt by 40%. When the hero cast, deals |cffbe81f725|r damage to itself.
+}
+
 STRING 11845
 // Items: I00L (Magical Wisp), Description (Description)
 {
@@ -76814,25 +76707,6 @@ STRING 11847
 // Items: I00L (Magical Wisp), Name (Name)
 {
 Magical Wisp
-}
-
-STRING 11848
-// Items: I005 (Repeller), Description (Description)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Pushes all creatures away from the hero and creates a shield of stones that protects them.
-|cffffcc00Lifetime:|r 10 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 60 mana.
-}
-
-STRING 11849
-// Items: I005 (Repeller), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb18904Mech|r
-Activation: Pushes all creatures away from the hero and creates a shield of stones that protects them.
-|cffffcc00Lifetime:|r 10 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 11850
@@ -76890,6 +76764,20 @@ STRING 11857
 {
 |cffe96a1cLegendary|r
 If all other heroes die, |cffcc0000corrupted|r, increases stats of your hero by 5 and resurrects the others.
+}
+
+STRING 11858
+// Abilities: A1JK (Stat: Damage Dealt +40%), Name (Name)
+{
+Stat: Damage Dealt +40%
+}
+
+STRING 11859
+// Items: I0GI (Jagot), Description (Description)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+When you use your first ability (|cffffcc00Q|r), creates a Temporal Clock. When taken, it reduces the cooldown of the Hero's abilities by 4 seconds.
+|cff81f260[Random bonus]|r
 }
 
 STRING 11860
@@ -77001,6 +76889,22 @@ Increases the ally's attack speed by 35%/50%/65%/80%/95%, but every second takes
 |cffffcc00Cost:|r 20/25/30/35/40 mana.
 }
 
+STRING 11875
+// Items: I0GI (Jagot), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+When you use your first ability (|cffffcc00Q|r), creates a Temporal Clock. When taken, it reduces the cooldown of the Hero's abilities by 4 seconds.
+|cff81f260[Random bonus]|r
+}
+
+STRING 11876
+// Items: I0FA (Magic Absorber), Description (Description)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Increases spell power by 0.5% for each point of your hero's Intelligence.
+|cff81f260[Random bonus]|r
+}
+
 STRING 11877
 // Abilities: A032 (Doctor: Plague Impact), Tip (Tooltip - Normal)
 {
@@ -77025,6 +76929,21 @@ STRING 11880
 {
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corrupted|r. The hero gets 3 levels. Reduces stats by 10.
+}
+
+STRING 11881
+// Items: I0FA (Magic Absorber), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Increases spell power by 0.5% for each point of your hero's Intelligence.
+|cff81f260[Random bonus]|r
+}
+
+STRING 11882
+// Items: I0F9 (Magic Dispenser), Description (Description)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Increases spell power by 0.6% for each point of your hero's Agility.
 }
 
 STRING 11883
@@ -77075,6 +76994,13 @@ Reduces attack and movement speed by 25%. Activation: Fully restores the hero’
 |cffffcc00Cooldown:|r 40 seconds.
 }
 
+STRING 11890
+// Items: I0F9 (Magic Dispenser), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Increases spell power by 0.6% for each point of your hero's Agility.
+}
+
 STRING 11891
 // Items: I09R (Bloody Knife), Name (Name)
 {
@@ -77085,6 +77011,29 @@ STRING 11892
 // Items: I09R (Bloody Knife), Tip (Tooltip - Basic)
 {
 Bloody Knife
+}
+
+STRING 11893
+// Items: I0BS (Magic Amplifier), Description (Description)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Increases spell power by 0.7% for each point of your hero's Strength.
+}
+
+STRING 11894
+// Items: I0BS (Magic Amplifier), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Increases spell power by 0.7% for each point of your hero's Strength.
+}
+
+STRING 11895
+// Items: I0B3 (Dream Catcher), Description (Description)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Activation: Use the first ability (|cffffcc00Q|r) on a random targets three times.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 100 mana.
 }
 
 STRING 11896
@@ -77148,6 +77097,21 @@ STRING 11903
 Increases mana by 200 and spell power by 10%.
 }
 
+STRING 11904
+// Items: I0B3 (Dream Catcher), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb18904Mech|r
+Activation: Use the first ability (|cffffcc00Q|r) on a random targets three times.
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 11905
+// Items: I05F (Energizer), Description (Description)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+When the hero uses an ability or item, there is a |cffd7df0120%|r chance to restore |cffbe81f725|r mana to all nearby heroes.
+}
+
 STRING 11906
 // Abilities: A032 (Doctor: Plague Impact), Tip (Tooltip - Normal)
 {
@@ -77160,6 +77124,13 @@ STRING 11907
 Plague Impact, [|cffffcc00Level 4|r]
 }
 
+STRING 11908
+// Items: I05F (Energizer), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+When the hero uses an ability or item, there is a |cffd7df0120%|r chance to restore |cffbe81f725|r mana to all nearby heroes.
+}
+
 STRING 11909
 // Items: I0DY (Frozen Flame), Name (Name)
 {
@@ -77170,6 +77141,25 @@ STRING 11910
 // Items: I0DY (Frozen Flame), Tip (Tooltip - Basic)
 {
 Frozen Flame
+}
+
+STRING 11911
+// Items: I04A (Ring of Power), Description (Description)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Activation: Take control of the enemy minion.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 40 mana.
+}
+
+STRING 11912
+// Items: I04A (Ring of Power), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Activation: Take control of the enemy minion.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 11913
@@ -77225,6 +77215,14 @@ STRING 11919
 Raging Fire
 }
 
+STRING 11920
+// Items: I011 (Karti the Straight), Description (Description)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Every 4th attack deals 100% more damage.
+|cff81f260[Random bonus]|r
+}
+
 STRING 11921
 // Items: I05S (Star in a Bottle), Name (Name)
 {
@@ -77235,6 +77233,14 @@ STRING 11922
 // Items: I05S (Star in a Bottle), Tip (Tooltip - Basic)
 {
 Star in a Bottle
+}
+
+STRING 11923
+// Items: I011 (Karti the Straight), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff9001fdRing|r
+Every 4th attack deals 100% more damage.
+|cff81f260[Random bonus]|r
 }
 
 STRING 11924

@@ -63,6 +63,7 @@ library StatAbilityDatabase initializer init requires StatAbility
 		//STAT_DAMAGE_DEALT
 		call ConnectAbilityToStat( 'A1FA', STAT_DAMAGE_DEALT, 25 )
 		call ConnectAbilityToStat( 'A1J9', STAT_DAMAGE_DEALT, -15 )
+		call ConnectAbilityToStat( 'A1JK', STAT_DAMAGE_DEALT, 40 )
 		//STAT_COOLDOWN
 		call ConnectAbilityToStat( 'A1FB', STAT_COOLDOWN, -30 )
 		call ConnectAbilityToStat( 'A1FL', STAT_COOLDOWN, -10 )

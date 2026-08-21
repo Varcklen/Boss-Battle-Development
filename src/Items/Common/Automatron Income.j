@@ -3,8 +3,8 @@ scope AutomatromIncome initializer init
 	globals
 		private constant integer ITEM_ID = 'I08G'
 		
-		private constant integer GOLD_GAIN_INITIAL = 100
-		private constant integer GOLD_GAIN_PER_OTHER_MECH = 50
+		private constant integer GOLD_GAIN_INITIAL = 150
+		private constant integer GOLD_GAIN_PER_OTHER_MECH = 75
 	endglobals
 
 	private function condition takes nothing returns boolean
