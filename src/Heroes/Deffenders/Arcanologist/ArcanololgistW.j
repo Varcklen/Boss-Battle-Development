@@ -129,8 +129,8 @@ scope ArcanologistW initializer init
     
     //===========================================================================
     private function init takes nothing returns nothing
-    	set ID_SIGNATURE_ITEMS[0] = 'I0HP'
-    	set ID_SIGNATURE_ITEMS[1] = 'I0HQ'
+    	set ID_SIGNATURE_ITEMS[0] = 'I0FA'
+    	set ID_SIGNATURE_ITEMS[1] = 'I0CW'
     	set ID_SIGNATURE_ITEMS[2] = 'I0HS'
 		call CreateNativeEvent( EVENT_PLAYER_HERO_LEVEL, function learnAction, function learnCondition )
 		

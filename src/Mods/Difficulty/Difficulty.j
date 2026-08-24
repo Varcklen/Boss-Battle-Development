@@ -12,6 +12,8 @@ library Difficulty initializer init requires Multiboard, SpellPower
     	private framehandle modesdifname = null
     	
     	public constant integer EXP_BONUS_PER_DIFFICULTY = 40
+    	
+    	private constant real SPELL_POWER_BONUS_PER_DIFFICULTY = 0.4
 	endglobals
 
 	private function Setup_DB takes nothing returns nothing
@@ -54,11 +56,11 @@ library Difficulty initializer init requires Multiboard, SpellPower
 	    set udg_HardModBonus[4] = 'A07Q'
 	    
 	    set HardModAspd[0]=1.0
-	    set HardModAspd[1]=1.15
-	    set HardModAspd[2]=1.3
-	    set HardModAspd[3]=1.45
-	    set HardModAspd[4]=1.6
-	    set HardModAspd[5]=1.75
+	    set HardModAspd[1]=1.2
+	    set HardModAspd[2]=1.4
+	    set HardModAspd[3]=1.6
+	    set HardModAspd[4]=1.8
+	    set HardModAspd[5]=2
 	    /*set HardModAspd[6]=2.2
 	    set HardModAspd[7]=2.4
 	    set HardModAspd[8]=2.6
@@ -88,7 +90,7 @@ library Difficulty initializer init requires Multiboard, SpellPower
             return
         endif
         call EnableTrigger( DifficultyUnitSpawn_Trigger )
-        call SpellPower_AddBossSpellPower(udg_HardNum * 0.4)
+        call SpellPower_AddBossSpellPower(udg_HardNum * SPELL_POWER_BONUS_PER_DIFFICULTY)
 
         set difAbilityType = udg_DB_Hardest_On[udg_HardNum]
         call IconFrame( "HardMode", BlzGetAbilityIcon(difAbilityType), BlzGetAbilityTooltip(difAbilityType, 0), GenerateDescription() )

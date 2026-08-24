@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.12.1T|r
+|cffbe81f7Boss Battle 1.12.2T|r
 }
 
 STRING 2
@@ -337,11 +337,9 @@ STRING 46
 }
 
 STRING 47
-// Abilities: A17Y (Money Bag: Digest), Researchubertip (Tooltip - Learn - Extended)
+// Units: N05G ((A) Shadow Archer), Name (Name)
 {
-Give 40/55/70/85/100 gold to yourself and the attached hero. Restore |cffbe81f7200/250/300/350/400|r health.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 80 mana.
+(A) Shadow Archer
 }
 
 STRING 48
@@ -2871,10 +2869,24 @@ STRING 457
 Khaziber
 }
 
+STRING 458
+// Items: IV20 (Casserole), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Get 2 Exile artifacts.
+}
+
 STRING 459
 // Units: O00I ((T) Houndmaster), Propernames (Proper Names)
 {
 Charmander
+}
+
+STRING 460
+// Items: IV20 (Casserole), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Get 2 Exile artifacts.
 }
 
 STRING 461
@@ -2931,6 +2943,12 @@ STRING 469
 Soren 
 }
 
+STRING 470
+// Items: I0HV (Buy Exile Item), Ubertip (Tooltip - Extended)
+{
+Obtain a random Exile item. 
+}
+
 STRING 471
 // Units: N057 ((A) Jester), Propernames (Proper Names)
 {
@@ -2953,6 +2971,12 @@ STRING 474
 // Units: N056 (Armsmaster), Propernames (Proper Names)
 {
 Galvan
+}
+
+STRING 475
+// Units: N05G ((A) Shadow Archer), Propernames (Proper Names)
+{
+Gwindoline
 }
 
 STRING 476
@@ -4240,14 +4264,9 @@ STRING 676
 }
 
 STRING 677
-// Items: I04E (Staff of Arcana), Description (Description)
+// Units: N05G ((A) Shadow Archer), EditorSuffix (Name - Editor Suffix)
 {
-|cffe96a1cLegendary|r, |cff5858faMoon|r
-Your hero is invisible near vulnerable heroes.
-Activation: Increases Spell Power by 30%. While invisible, doubles it.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 60 mana.
+(Skin1)
 }
 
 STRING 678
@@ -5111,16 +5130,6 @@ STRING 811
 // Items: I0GA (Goat Dragon Claw), Tip (Tooltip - Basic)
 {
 Goat Dragon Claw
-}
-
-STRING 812
-// Items: I04E (Staff of Arcana), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r, |cff5858faMoon|r
-Your hero is invisible near vulnerable heroes.
-Activation: Increases Spell Power by 30%. While invisible, doubles it.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 813
@@ -7332,6 +7341,13 @@ STRING 1133
 Split Artifact (Slot 3)XXXXX
 }
 
+STRING 1137
+// Abilities: A17V (Money Bag: Slurp Up), Researchubertip (Tooltip - Learn - Extended)
+{
+Consume a minion to gain |cffbe81f750/65/80/95/110|r mana for yourself and the attached hero.
+|cffffcc00Cooldown:|r 15 seconds. 
+}
+
 STRING 1138
 // Items: I0DS (Norepinephrine), Ubertip (Tooltip - Extended)
 {
@@ -7565,6 +7581,13 @@ Day changes to night. Increases your hero's spell power by 30%, resets the coold
 |cffffcc00Cooldown:|r 90 seconds.
 }
 
+STRING 1170
+// Abilities: A17V (Money Bag: Slurp Up), Ubertip (Tooltip - Normal - Extended)
+{
+Consume a minion to gain |cffbe81f750|r mana for yourself and the attached hero.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 1171
 // Items: I0DS (Norepinephrine), Name (Name)
 {
@@ -7575,6 +7598,43 @@ STRING 1172
 // Items: I0DS (Norepinephrine), Tip (Tooltip - Basic)
 {
 Norepinephrine
+}
+
+STRING 1173
+// Abilities: A17V (Money Bag: Slurp Up), Ubertip (Tooltip - Normal - Extended)
+{
+Consume a minion to gain |cffbe81f765|r mana for yourself and the attached hero.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 1174
+// Abilities: A17V (Money Bag: Slurp Up), Ubertip (Tooltip - Normal - Extended)
+{
+Consume a minion to gain |cffbe81f780|r mana for yourself and the attached hero.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 1175
+// Abilities: A17V (Money Bag: Slurp Up), Ubertip (Tooltip - Normal - Extended)
+{
+Consume a minion to gain |cffbe81f795|r mana for yourself and the attached hero.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 1176
+// Abilities: A17V (Money Bag: Slurp Up), Ubertip (Tooltip - Normal - Extended)
+{
+Consume a minion to gain |cffbe81f7110|r mana for yourself and the attached hero.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 1177
+// Abilities: A17T (Money Bag: Acid Throw), Researchubertip (Tooltip - Learn - Extended)
+{
+Create a random minion and hurl it at an enemy, dealing |cffbe81f7150/200/250/300/350|r damage and stunning the target for 1 second.
+|cffffcc00Life time:|r 15 seconds. 
+|cffffcc00Cooldown:|r 12 seconds. 
+|cffffcc00Cost:|r 70 mana.
 }
 
 STRING 1178
@@ -7610,6 +7670,22 @@ STRING 1182
 Activation: Deals |cffbe81f720|r damage to an enemy 15 times.
 |cffffcc00Cooldown:|r 30 seconds.
 |cffffcc00Cost:|r 50 mana.
+}
+
+STRING 1183
+// Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Create a random minion and hurl it at an enemy, dealing |cffbe81f7150|r damage and stunning the target for 1 second.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 12 seconds. 
+}
+
+STRING 1184
+// Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Create a random minion and hurl it at an enemy, dealing |cffbe81f7200|r damage and stunning the target for 1 second.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 12 seconds. 
 }
 
 STRING 1185
@@ -9488,6 +9564,14 @@ STRING 1457
 |cffffcc00Mode:|r Changing World
 }
 
+STRING 1458
+// Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Create a random minion and hurl it at an enemy, dealing |cffbe81f7250|r damage and stunning the target for 1 second.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 12 seconds. 
+}
+
 STRING 1459
 // Items: I0BS (Magic Amplifier), Name (Name)
 {
@@ -9498,6 +9582,14 @@ STRING 1460
 // Items: I0BS (Magic Amplifier), Tip (Tooltip - Basic)
 {
 Magic Amplifier
+}
+
+STRING 1461
+// Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Create a random minion and hurl it at an enemy, dealing |cffbe81f7300|r damage and stunning the target for 1 second.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 12 seconds. 
 }
 
 STRING 1462
@@ -10142,6 +10234,14 @@ STRING 1557
 When the hero uses an ability or item, restores |cffbe81f750|r health.
 }
 
+STRING 1558
+// Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
+{
+Create a random minion and hurl it at an enemy, dealing |cffbe81f7350|r damage and stunning the target for 1 second.
+|cffffcc00Life time:|r 15 seconds.
+|cffffcc00Cooldown:|r 12 seconds. 
+}
+
 STRING 1559
 // Items: I0B3 (Dream Catcher), Name (Name)
 {
@@ -10152,6 +10252,13 @@ STRING 1560
 // Items: I0B3 (Dream Catcher), Tip (Tooltip - Basic)
 {
 Dream Catcher
+}
+
+STRING 1561
+// Items: I09O (Idol of Desires), Description (Description)
+{
+|cff4169e1Rare|r
+Increases Mana Regeneration by 2000%. On cast, spend all mana.
 }
 
 STRING 1562
@@ -11931,16 +12038,6 @@ STRING 1820
 |cffffcc00Reward:|r Scientist Card.
 }
 
-STRING 1821
-// Items: I092 (Mask of Dagoth Ur), Description (Description)
-{
-|cffe96a1cLegendary|r
-Every 5 seconds, gives all heroes a buff that cancels the next damage taken.
-When you use the first ability (|cffffcc00Q|r), it is used twice.
-
-|cFF959697Any effects applied last 20 seconds. Only works in combat|r
-}
-
 STRING 1822
 // Abilities: A07Z (Outcast: Power Overwhelming), Ubertip (Tooltip - Normal - Extended)
 {
@@ -12015,22 +12112,6 @@ The effect is cumulative.
 |cffffcc00Cooldown:|r 3 seconds.
 }
 
-STRING 1831
-// Items: I09O (Idol of Desires), Description (Description)
-{
-|cff4169e1Rare|r
-Increases mana regeneration by 2500%.
-When the hero uses an ability or item, burns all mana.
-}
-
-STRING 1832
-// Items: I09O (Idol of Desires), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases mana regeneration by 2500%.
-When the hero uses an ability or item, burns all mana.
-}
-
 STRING 1833
 // Items: I09N (Idol of Gluttony), Description (Description)
 {
@@ -12045,16 +12126,6 @@ STRING 1834
 |cff4169e1Rare|r
 Increases Movement and Attack Speed by 125%. 
 Healing effects do not work on the Hero.
-}
-
-STRING 1835
-// Items: I092 (Mask of Dagoth Ur), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Every 5 seconds, gives all heroes a buff that cancels the next damage taken.
-When you use the first ability (|cffffcc00Q|r), it is used twice.
-
-|cFF959697Any effects applied last 20 seconds. Only works in combat|r
 }
 
 STRING 1836
@@ -12735,6 +12806,13 @@ STRING 1935
 Immortal Story
 }
 
+STRING 1936
+// Items: I09O (Idol of Desires), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Increases Mana Regeneration by 2000%. On cast, spend all mana.
+}
+
 STRING 1937
 // Items: I08G (Automatron "Income"), Name (Name)
 {
@@ -12745,6 +12823,16 @@ STRING 1938
 // Items: I08G (Automatron "Income"), Tip (Tooltip - Basic)
 {
 Automatron "Income"
+}
+
+STRING 1939
+// Items: I092 (Mask of Dagoth Ur), Description (Description)
+{
+|cffe96a1cLegendary|r
+Every 5 seconds, gives all heroes a buff that cancels the next damage taken.
+When you use the first ability (|cffffcc00Q|r), it is used twice.
+
+|cFF959697Any effects applied last 20 seconds. Only works in combat.|r
 }
 
 STRING 1940
@@ -13069,6 +13157,16 @@ STRING 1987
 Increases stats by |cffffffff1|r. Use 20 abilities or items to improve an artifact. Improves up to five times.
 }
 
+STRING 1988
+// Items: I092 (Mask of Dagoth Ur), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Every 5 seconds, gives all heroes a buff that cancels the next damage taken.
+When you use the first ability (|cffffcc00Q|r), it is used twice.
+
+|cFF959697Any effects applied last 20 seconds. Only works in combat.|r
+}
+
 STRING 1989
 // Items: I083 (Gnomish Soulspin), Name (Name)
 {
@@ -13079,6 +13177,14 @@ STRING 1990
 // Items: I083 (Gnomish Soulspin), Tip (Tooltip - Basic)
 {
 Gnomish Soulspin
+}
+
+STRING 1991
+// Items: I057 (Air Potion), Description (Description)
+{
+|cff088a08Potion|r
+Activation: Summons the Spirit of Air.
+|cffffcc00Life time:|r 30 seconds.
 }
 
 STRING 1992
@@ -13098,15 +13204,6 @@ STRING 1994
 // Items: I082 (Infusion of Infinity), Tip (Tooltip - Basic)
 {
 Infusion of Infinity
-}
-
-STRING 1995
-// Items: I03D (Dead Man's Chest), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: Summons a boss under your control (max 1).
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 35 mana.
 }
 
 STRING 1996
@@ -13213,6 +13310,39 @@ STRING 2011
 Снаряд: Orb of ConsecrationXXX
 }
 
+STRING 2012
+// Items: I057 (Air Potion), Ubertip (Tooltip - Extended)
+{
+|cff088a08Potion|r
+Activation: Summons the Spirit of Air.
+|cffffcc00Life time:|r 30 seconds.
+}
+
+STRING 2013
+// Items: I04R (Tesseract), Description (Description)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+When you kill an enemy, permanently increase Spell Power by 0.4%. Increases Damage Taken by 10%.
+}
+
+STRING 2014
+// Items: I04R (Tesseract), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+When you kill an enemy, permanently increase Spell Power by 0.4%. Increases Damage Taken by 10%.
+}
+
+STRING 2015
+// Items: I04E (Staff of Arcana), Description (Description)
+{
+|cffe96a1cLegendary|r, |cff5858faMoon|r
+Your hero is invisible near vulnerable heroes.
+Activation: Increases Spell Power by 30%. While invisible, doubles it.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
 STRING 2016
 // Items: I0DQ (Bindings of Potential), Description (Description)
 {
@@ -13241,6 +13371,16 @@ The Hero cannot deal less than 30 damage.
 |cff81f260[Random bonus]|r
 }
 
+STRING 2020
+// Items: I04E (Staff of Arcana), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r, |cff5858faMoon|r
+Your hero is invisible near vulnerable heroes.
+Activation: Increases Spell Power by 30%. While invisible, doubles it.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
 STRING 2021
 // Items: I05M (Book of Luck), Description (Description)
 {
@@ -13251,6 +13391,30 @@ STRING 2022
 // Items: I05M (Book of Luck), Ubertip (Tooltip - Extended)
 {
 Increases luck by 3.
+}
+
+STRING 2023
+// Items: I03D (Dead Man's Chest), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: Summons a boss under your control (max 1).
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 2024
+// Abilities: A17Y (Money Bag: Digest), Researchubertip (Tooltip - Learn - Extended)
+{
+Give 50/65/80/95/110 gold to you and the attached hero. Reduces gold received by 10 until the end of the battle. Restore |cffbe81f7200/250/300/350/400|r health.
+|cffffcc00Cooldown:|r 18 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
+STRING 2025
+// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
+{
+Give 50 gold to you and the attached hero. Reduces gold received by 10 until the end of the battle. Restore |cffbe81f7200|r health.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 2026
@@ -13619,6 +13783,13 @@ STRING 2079
 // Abilities: A0RT (Alchemist: Elemental Power), Tip (Tooltip - Normal)
 {
 Elemental Power, [|cffffcc00Level 3|r]
+}
+
+STRING 2080
+// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
+{
+Give 65 gold to you and the attached hero. Reduces gold received by 10 until the end of the battle. Restore |cffbe81f7250|r health.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 2081
@@ -14590,13 +14761,6 @@ STRING 2219
 Deals more damage - but loses health over time.
 }
 
-STRING 2220
-// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
-{
-Give 40 gold to yourself and the attached hero. Restore |cffbe81f7200|r health.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 2221
 // Abilities: A0UL (Commander: Mark of the Chosen), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -15476,6 +15640,13 @@ Choose an ally. Pulls all orbs towards the target, destroying those; Each orb re
 |cffffcc00Cooldown:|r 5 seconds.
 }
 
+STRING 2353
+// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
+{
+Give 80 gold to you and the attached hero. Reduces gold received by 10 until the end of the battle. Restore |cffbe81f7300|r health.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
 STRING 2354
 // Abilities: A0SO (Sludge Copy: Devouring Flesh), Name (Name)
 {
@@ -15486,6 +15657,13 @@ STRING 2355
 // Abilities: A0SO (Sludge Copy: Devouring Flesh), Tip (Tooltip - Normal)
 {
 Devouring Flesh
+}
+
+STRING 2356
+// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
+{
+Give 95 gold to you and the attached hero. Reduces gold received by 10 until the end of the battle. Restore |cffbe81f7350|r health.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 2357
@@ -15600,6 +15778,13 @@ STRING 2372
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cffb40431blood|r.
 }
 
+STRING 2373
+// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
+{
+Give 110 gold to you and the attached hero. Reduces gold received by 10 until the end of the battle. Restore |cffbe81f7400|r health.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
 STRING 2374
 // Items: I05F (Energizer), Name (Name)
 {
@@ -15610,6 +15795,12 @@ STRING 2375
 // Items: I05F (Energizer), Tip (Tooltip - Basic)
 {
 Energizer
+}
+
+STRING 2376
+// Units: N05C (Preacher of the light), EditorSuffix (Name - Editor Suffix)
+{
+(Skin3)
 }
 
 STRING 2377
@@ -15643,13 +15834,6 @@ STRING 2381
 The hero goes into a rage, increasing Attack Speed by 40%, but loses 10 mana every second. If there is no mana, it spends health instead.
 }
 
-STRING 2382
-// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
-{
-Give 55 gold to yourself and the attached hero. Restore |cffbe81f7250|r health.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 2383
 // Items: I037 (Change artifact (Slot 6)), Hotkey (Hotkey)
 {
@@ -15668,20 +15852,6 @@ STRING 2385
 Fire Storm Potion
 }
 
-STRING 2386
-// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
-{
-Give 70 gold to yourself and the attached hero. Restore |cffbe81f7300|r health.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 2387
-// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
-{
-Give 85 gold to yourself and the attached hero. Restore |cffbe81f7350|r health.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 2388
 // Items: I03S (Tome of OblivionXXX), Hotkey (Hotkey)
 {
@@ -15698,13 +15868,6 @@ STRING 2390
 // Items: I05C (Swamp Potion), Tip (Tooltip - Basic)
 {
 Swamp Potion
-}
-
-STRING 2391
-// Abilities: A17Y (Money Bag: Digest), Ubertip (Tooltip - Normal - Extended)
-{
-Give 100 gold to yourself and the attached hero. Restore |cffbe81f7400|r health.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2392
@@ -15735,13 +15898,6 @@ STRING 2396
 // Abilities: A17V (Money Bag: Slurp Up), Researchtip (Tooltip - Learn)
 {
 Slurp Up, [|cffffcc00Level %d|r]
-}
-
-STRING 2397
-// Abilities: A17V (Money Bag: Slurp Up), Researchubertip (Tooltip - Learn - Extended)
-{
-Consume a minion to gain |cffbe81f750/65/80/95/110|r mana for yourself and the attached hero.
-|cffffcc00Cooldown:|r 12 seconds. 
 }
 
 STRING 2398
@@ -15798,13 +15954,6 @@ STRING 2406
 Slurp Up, [|cffffcc00Level 5|r]
 }
 
-STRING 2407
-// Abilities: A17V (Money Bag: Slurp Up), Ubertip (Tooltip - Normal - Extended)
-{
-Consume a minion to gain |cffbe81f750|r mana for yourself and the attached hero.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
 STRING 2408
 // Items: I03B (Change artifact (Slot 3)), Hotkey (Hotkey)
 {
@@ -15823,20 +15972,6 @@ STRING 2410
 Desert Potion
 }
 
-STRING 2411
-// Abilities: A17V (Money Bag: Slurp Up), Ubertip (Tooltip - Normal - Extended)
-{
-Consume a minion to gain |cffbe81f765|r mana for yourself and the attached hero.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 2412
-// Abilities: A17V (Money Bag: Slurp Up), Ubertip (Tooltip - Normal - Extended)
-{
-Consume a minion to gain |cffbe81f780|r mana for yourself and the attached hero.
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
 STRING 2413
 // Items: I057 (Air Potion), Hotkey (Hotkey)
 {
@@ -15853,13 +15988,6 @@ STRING 2415
 // Items: I057 (Air Potion), Tip (Tooltip - Basic)
 {
 Air Potion
-}
-
-STRING 2416
-// Abilities: A17V (Money Bag: Slurp Up), Ubertip (Tooltip - Normal - Extended)
-{
-Consume a minion to gain |cffbe81f795|r mana for yourself and the attached hero.
-|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 2417
@@ -15922,13 +16050,6 @@ STRING 2426
 {
 |cff088a08Potion|r
 Activation: Restores |cffbe81f7125|r mana to the hero.
-}
-
-STRING 2427
-// Abilities: A17V (Money Bag: Slurp Up), Ubertip (Tooltip - Normal - Extended)
-{
-Consume a minion to gain |cffbe81f7110|r mana for yourself and the attached hero.
-|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 2428
@@ -16704,6 +16825,18 @@ Activation: Deals |cffbe81f7200|r damage to a random enemy. Repeats for each oth
 |cffffcc00Cost:|r 40 mana.
 }
 
+STRING 2544
+// Units: N05C (Preacher of the light), Name (Name)
+{
+Preacher of the light
+}
+
+STRING 2545
+// Units: N05C (Preacher of the light), Propernames (Proper Names)
+{
+Samael
+}
+
 STRING 2546
 // Items: I04A (Ring of Power), Name (Name)
 {
@@ -16714,6 +16847,12 @@ STRING 2547
 // Items: I04A (Ring of Power), Tip (Tooltip - Basic)
 {
 Ring of Power
+}
+
+STRING 2548
+// Units: N05D (Preacher of the light), EditorSuffix (Name - Editor Suffix)
+{
+(Skin4)
 }
 
 STRING 2549
@@ -18268,6 +18407,12 @@ Whenever you heal a friendly target for 200 or more health at once, heal for 200
 |cff81f260[Random bonus]|r
 }
 
+STRING 2777
+// Units: N05D (Preacher of the light), Name (Name)
+{
+Preacher of the light
+}
+
 STRING 2778
 // Items: I02N (Ash Cinder M-16), Name (Name)
 {
@@ -18278,6 +18423,12 @@ STRING 2779
 // Items: I02N (Ash Cinder M-16), Tip (Tooltip - Basic)
 {
 Ash Cinder M-16
+}
+
+STRING 2780
+// Units: N05D (Preacher of the light), Propernames (Proper Names)
+{
+Samael
 }
 
 STRING 2781
@@ -18385,6 +18536,12 @@ STRING 2796
 Increases mana by 125. Collect all 3 Mage artifacts to unite them.
 }
 
+STRING 2797
+// Units: N00Y ((E) Chronomancer), Name (Name)
+{
+(E) Chronomancer
+}
+
 STRING 2798
 // Items: I02I (Superbot-3000), Name (Name)
 {
@@ -18395,6 +18552,12 @@ STRING 2799
 // Items: I02I (Superbot-3000), Tip (Tooltip - Basic)
 {
 Superbot-3000
+}
+
+STRING 2800
+// Units: N05E ((E) Chronomancer), Propernames (Proper Names)
+{
+Tempus
 }
 
 STRING 2801
@@ -18746,9 +18909,9 @@ Buy Exile Item
 }
 
 STRING 2851
-// Items: I0HV (Buy Exile Item), Ubertip (Tooltip - Extended)
+// Units: N05E ((E) Chronomancer), EditorSuffix (Name - Editor Suffix)
 {
-Obtain an Exile item. These items existed in the arena in the past, but were cast into oblivion.
+(Skin1)
 }
 
 STRING 2852
@@ -19441,6 +19604,12 @@ STRING 2956
 Every 12 seconds increases armor by 35 for 3 seconds.
 }
 
+STRING 2957
+// Units: N028 ((R) Vampire), Name (Name)
+{
+(R) Vampire
+}
+
 STRING 2958
 // Items: I01F (Bonus Collector), Name (Name)
 {
@@ -19451,6 +19620,12 @@ STRING 2959
 // Items: I01F (Bonus Collector), Tip (Tooltip - Basic)
 {
 Bonus Collector
+}
+
+STRING 2960
+// Units: N05F ((R) Vampire), Propernames (Proper Names)
+{
+Dio
 }
 
 STRING 2961
@@ -19607,6 +19782,12 @@ STRING 2982
 // Items: I0DR (Mecha Chicken W.T.I.I.), Tip (Tooltip - Basic)
 {
 Mecha Chicken W.T.I.I.
+}
+
+STRING 2983
+// Units: N05F ((R) Vampire), EditorSuffix (Name - Editor Suffix)
+{
+(Skin1)
 }
 
 STRING 2984
@@ -29671,15 +29852,6 @@ Select a point. Creates an orb, teleports the hero and restores |cffbe81f735|r m
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
-STRING 4565
-// Abilities: A17T (Money Bag: Acid Throw), Researchubertip (Tooltip - Learn - Extended)
-{
-Create a random minion and hurl it at an enemy, dealing |cffbe81f7150/200/250/300/350|r damage and stunning the target for 1 second.
-|cffffcc00Life time:|r 15 seconds. 
-|cffffcc00Cooldown:|r 15 seconds. 
-|cffffcc00Cost:|r 70 mana.
-}
-
 STRING 4566
 // Abilities: A14V (Инкуб: Dark past), Name (Name)
 {
@@ -30300,14 +30472,6 @@ STRING 4662
 |cff4169e1Rare|r, |cffb40431Blood|r
 When an ally heals or restores mana to you, copy 60% of the amount back to them.
 |cff81f260[Random bonus]|r
-}
-
-STRING 4663
-// Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Create a random minion and hurl it at an enemy, dealing |cffbe81f7150|r damage and stunning the target for 1 second.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 15 seconds. 
 }
 
 STRING 4664
@@ -40457,14 +40621,6 @@ STRING 6212
 (Радиус)
 }
 
-STRING 6213
-// Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Create a random minion and hurl it at an enemy, dealing |cffbe81f7200|r damage and stunning the target for 1 second.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 15 seconds. 
-}
-
 STRING 6214
 // Abilities: A0RN (Potion: Огненный шторм), Researchtip (Tooltip - Learn)
 {
@@ -40777,14 +40933,6 @@ STRING 6264
 Legionary: Blade of Fire
 }
 
-STRING 6265
-// Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Create a random minion and hurl it at an enemy, dealing |cffbe81f7250|r damage and stunning the target for 1 second.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 15 seconds. 
-}
-
 STRING 6266
 // Abilities: A08L (Legionary: Blade of Fire), Researchtip (Tooltip - Learn)
 {
@@ -40815,22 +40963,6 @@ STRING 6270
 // Abilities: A08L (Legionary: Blade of Fire), Tip (Tooltip - Normal)
 {
 Blade of Fire, [|cffffcc00Level 3|r]
-}
-
-STRING 6271
-// Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Create a random minion and hurl it at an enemy, dealing |cffbe81f7300|r damage and stunning the target for 1 second.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 15 seconds. 
-}
-
-STRING 6272
-// Abilities: A17T (Money Bag: Acid Throw), Ubertip (Tooltip - Normal - Extended)
-{
-Create a random minion and hurl it at an enemy, dealing |cffbe81f7350|r damage and stunning the target for 1 second.
-|cffffcc00Life time:|r 15 seconds.
-|cffffcc00Cooldown:|r 15 seconds. 
 }
 
 STRING 6273
@@ -58737,14 +58869,6 @@ STRING 9041
 Set "|cffb18904Mech|r"
 }
 
-STRING 9042
-// Items: I057 (Air Potion), Description (Description)
-{
-|cff088a08Potion|r
-Activation: Summon 2 Air Spirits.
-|cffffcc00Life time:|r 30 seconds.
-}
-
 STRING 9043
 // Abilities: A07I (Scarab: Sap), Hotkey (Hotkey - Normal)
 {
@@ -58779,14 +58903,6 @@ STRING 9048
 // Abilities: A08A (Набор "|cff9001fdКольцо|r"), Tip (Tooltip - Normal)
 {
 Set "|cff9001fdRing|r"
-}
-
-STRING 9049
-// Items: I057 (Air Potion), Ubertip (Tooltip - Extended)
-{
-|cff088a08Potion|r
-Activation: Summon 2 Air Spirits.
-|cffffcc00Life time:|r 30 seconds.
 }
 
 STRING 9050
@@ -72432,7 +72548,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.12.1T|r
+|cffbe81f7Boss Battle 1.12.2T|r
 }
 
 STRING 11219
@@ -74243,7 +74359,7 @@ Deals |cffbe81f7damage|r to the enemy equal to 25 added to the sum of all your s
 }
 
 STRING 11496
-// Units: N028 ((R) Vampire), Name (Name)
+// Units: N05F ((R) Vampire), Name (Name)
 {
 (R) Vampire
 }
@@ -74294,7 +74410,7 @@ STRING 11503
 }
 
 STRING 11504
-// Units: N00Y ((E) Chronomancer), Name (Name)
+// Units: N05E ((E) Chronomancer), Name (Name)
 {
 (E) Chronomancer
 }
@@ -78167,13 +78283,6 @@ STRING 12061
 Obtain 4 parasites. Each one increases stats by 7, but one disappears at the end of the battle.
 }
 
-STRING 12062
-// Items: IV20 (Casserole), Description (Description)
-{
-|cffB614F0Starting Bonus|r
-Get 2 Exile artifacts. These items existed in the arena in the past, but were cast into oblivion.
-}
-
 STRING 12063
 // Items: IV20 (Casserole), Name (Name)
 {
@@ -78184,13 +78293,6 @@ STRING 12064
 // Items: IV20 (Casserole), Tip (Tooltip - Basic)
 {
 Casserole
-}
-
-STRING 12065
-// Items: IV20 (Casserole), Ubertip (Tooltip - Extended)
-{
-|cffB614F0Starting Bonus|r
-Get 2 Exile artifacts. These items existed in the arena in the past, but were cast into oblivion.
 }
 
 STRING 12066
@@ -79672,20 +79774,6 @@ STRING 12282
 {
 |cffbababcCommon|r, |cff00cceeCrystal|r
 While moving, the hero constantly gains |cffbe81f712|r Shield.
-}
-
-STRING 12283
-// Items: I04R (Tesseract), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-When you kill an enemy, permanently increase Spell Power by 0.4%.
-}
-
-STRING 12284
-// Items: I04R (Tesseract), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-When you kill an enemy, permanently increase Spell Power by 0.4%.
 }
 
 STRING 12285

@@ -9,7 +9,7 @@ scope Skins
 	endglobals
 
     public function DataSkins takes nothing returns nothing
-        set udg_DB_Skin_Limit = 3
+        set udg_DB_Skin_Limit = 4
         
         //===========1============
         //Monk
@@ -22,11 +22,16 @@ scope Skins
         set skinlvl[6][1] = 19
         set skiniconBTN[6][1] = "war3mapImported\\BTNjudgment.paladin.blp"
         set skiniconDIS[6][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNjudgment.paladin.blp"
-        //Preacher of the Light
+        //Furbolg Chieftain
         set skinmodel[7][1] = 'N040'
         set skinlvl[7][1] = 5
         set skiniconBTN[7][1] = "ReplaceableTextures\\CommandButtons\\BTNFurbolgTracker.blp"
         set skiniconDIS[7][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNFurbolgTracker.blp"
+        //Vampire
+        set skinmodel[8][1] = 'N05F'
+        set skinlvl[8][1] = 7
+        set skiniconBTN[8][1] = "ReplaceableTextures\\CommandButtons\\BTNTichondrius.blp"
+        set skiniconDIS[8][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNTichondrius.blp"
         //===============
         set skinmodel[10][1] = 'N04T'
         set skinlvl[10][1] = 11
@@ -52,6 +57,11 @@ scope Skins
         set skinlvl[16][1] = 14
         set skiniconBTN[16][1] = "war3mapImported\\BTNskinFirelord01.blp"
         set skiniconDIS[16][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNskinFirelord01.blp"
+        //Chronomancer
+        set skinmodel[19][1] = 'N05E'
+        set skinlvl[19][1] = 6
+        set skiniconBTN[19][1] = "ReplaceableTextures\\CommandButtons\\BTNHeroArchMage.blp"
+        set skiniconDIS[19][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNHeroArchMage.blp"
         //Miracle Alchemist
         set skinmodel[20][1] = 'O01S'
         set skinlvl[20][1] = 7
@@ -67,6 +77,12 @@ scope Skins
         set skinlvl[25][1] = 13
         set skiniconBTN[25][1] = "war3mapImported\\BTNknightskin.blp"
         set skiniconDIS[25][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNknightskin.blp"
+        //Shadow Archer
+        set skinmodel[26][1] = 'N05G'
+        set skinlvl[26][1] = 9
+        set skiniconBTN[26][1] = "ReplaceableTextures\\CommandButtons\\BTNShandris.blp"
+        set skiniconDIS[26][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNShandris.blp"
+        set skinAddGlow[26][1] = true
         //===============
         set skinmodel[27][1] = 'O01H'
         set skinlvl[27][1] = 25
@@ -83,7 +99,7 @@ scope Skins
         set skinlvl[29][1] = 21
         set skiniconBTN[29][1] = "war3mapImported\\BTNskinCommander01.blp"
         set skiniconDIS[29][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNskinCommander01.blp"
-        //===============
+        //Samurai
         set skinmodel[32][1] = 'N04Q'
         set skinlvl[32][1] = 5
         set skiniconBTN[32][1] = "ReplaceableTextures\\CommandButtons\\BTNChaosBlademaster.blp"
@@ -211,11 +227,25 @@ scope Skins
         
         
         //===========3============
+        //Preacher of the Light
+        set skinmodel[6][3] = 'N05C'
+        set skinlvl[6][3] = 8
+        set skiniconBTN[6][3] = "war3mapImported\\BTNHeroPaladinWhite.blp"
+        set skiniconDIS[6][3] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNHeroPaladinWhite.blp"
         //Troll Mage
         set skinmodel[46][3] = 'O01R'
         set skinlvl[46][3] = 26
         set skiniconBTN[46][3] = "war3mapImported\\BTNVol'jin.blp"
         set skiniconDIS[46][3] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNVol'jin.blp"
+        
+        
+        //===========4============
+        //Preacher of the Light
+        set skinmodel[6][4] = 'N05D'
+        set skinlvl[6][4] = 11
+        set skiniconBTN[6][4] = "war3mapImported\\BTNHeroPaladinGrey.blp"
+        set skiniconDIS[6][4] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNHeroPaladinGrey.blp"
+        
     endfunction
 
 endscope
