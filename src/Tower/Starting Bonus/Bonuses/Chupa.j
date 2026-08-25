@@ -2,11 +2,12 @@ scope Chupa initializer init
 
 	globals
 		private constant integer ITEM_TYPE = 'IV15'
-		private constant integer HEALTH_GAIN = 25
+		private constant integer HEALTH_GAIN = 35
+		private constant integer GOLD_GAIN = 35
 		
 		private constant integer HASH_KEY = StringHash( "chupa_bonus" )
 		private string ICON_FRAME = "war3mapImported\\BTNStartingBonus_12.blp"
-		private constant string DESCRIPTION = "When these players split the artifact, they will receive 25 Health: "
+		private constant string DESCRIPTION = "When these players split the artifact, they will receive 35 Health and Gold: "
 	endglobals
 
 	private function condition takes nothing returns boolean
@@ -39,6 +40,7 @@ scope Chupa initializer init
 		local unit hero = Event_ItemSplit_Hero
 		
 		call BlzSetUnitMaxHP( hero, BlzGetUnitMaxHP(hero) + HEALTH_GAIN )
+		call moneyst(hero, GOLD_GAIN)
 
 		set hero = null
 	endfunction

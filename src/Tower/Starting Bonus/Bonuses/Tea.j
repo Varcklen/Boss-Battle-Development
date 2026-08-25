@@ -3,6 +3,7 @@ scope Tea initializer init
 	globals
 		private integer ITEM_TYPE = 'IV00'
 		private integer GOLD_GAIN = 100
+		private integer STAT_GAIN = 2
 	endglobals
 
 	private function condition takes nothing returns boolean
@@ -15,6 +16,7 @@ scope Tea initializer init
 		call NewSpecial(hero, udg_DB_Ability_Special[GetRandomInt(1,udg_Database_NumberItems[37])])
 		call ItemManipulation_AddItemToHeroOrRestroom(hero, udg_Database_Item_Potion[GetRandomInt(1,udg_Database_NumberItems[9])])
 		call moneyst(hero, GOLD_GAIN)
+		call statst( hero, STAT_GAIN, STAT_GAIN, STAT_GAIN, 0, true )
 		
 		set hero = null
 	endfunction

@@ -195,7 +195,7 @@
           },
           {
             "ParamType": 5,
-            "value": "|c00ffcc00-time X|r Sets the preparation timer. Host only. X - time in seconds (between 40~300; if 0, the timer disabled).\r\n|c00ffcc00-zoom X|r/|c00ffcc00-cam X|r Changes the camera range. X is a value between 1~5.\r\n|c00ffcc00-item X Y|r Swaps items in your inventory. X|Y is the position of the first|second item in the inventory.\r\n|c00ffcc00-kick X|r Starts a vote to remove a player. The vote lasts for 30 seconds or until other players agree. X - player number (red - 1, blue - 2, etc.)\r\n|c00ffcc00-tp|r Teleports the hero to the Preparation Room (Not active in combat).\r\n|c00ffcc00-debug|r Corrects errors on the map. Teleports all heroes to the Preparation Rooms.\r\n|c00ffcc00-autoload|r/|c00ffcc00-load X-XXXXX-XX|r Tries to automatically download your current save file."
+            "value": "|c00ffcc00-time X|r Sets the preparation timer. Host only. X - time in seconds (between 40~300; if 0, the timer disabled).\r\n|c00ffcc00-zoom X|r/|c00ffcc00-cam X|r Changes the camera range. X is a value between 1~5.\r\n|c00ffcc00-item X Y|r/|c00ffcc00-swap X Y|r  Swaps items in your inventory. X|Y is the position of the first|second item in the inventory.\r\n|c00ffcc00-kick X|r Starts a vote to remove a player. The vote lasts for 30 seconds or until other players agree. X - player number (red - 1, blue - 2, etc.)\r\n|c00ffcc00-tp|r Teleports the hero to the Preparation Room (Not active in combat).\r\n|c00ffcc00-debug|r Corrects errors on the map. Teleports all heroes to the Preparation Rooms.\r\n|c00ffcc00-autoload|r/|c00ffcc00-load X-XXXXX-XX|r Tries to automatically download your current save file."
           },
           {
             "ParamType": 5,

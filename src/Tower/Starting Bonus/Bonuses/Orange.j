@@ -1,7 +1,8 @@
 scope Orange initializer init
 
 	globals
-		private integer ITEM_TYPE = 'IV01'
+		private constant integer ITEM_TYPE = 'IV01'
+		private constant integer CHARGES = 8
 	endglobals
 
 	private function condition takes nothing returns boolean
@@ -38,8 +39,8 @@ scope Orange initializer init
     	local item newItem
     	local integer itemType = potionList.GetRandomCellAndRemove()
     	
-    	set newItem = CreateItem(itemType, GetUnitX(hero), GetUnitY(hero))
-    	call UnitAddItem(hero, newItem)
+    	set newItem = ItemManipulation_AddItemToHeroOrRestroom(hero, itemType)
+    	call BlzSetItemIntegerFieldBJ( newItem, ITEM_IF_NUMBER_OF_CHARGES, CHARGES )
     	
     	set newItem = null
     endfunction
@@ -49,10 +50,7 @@ scope Orange initializer init
 		local ListInt potionList = ListInt.create()
 		
 		call FillList(hero, potionList)
-		loop
-			exitwhen ItemManipulation_IsInventoryFull(hero)
-			call AddPotion(hero, potionList)
-		endloop
+		call AddPotion(hero, potionList)
 		
 		call potionList.destroy()
 		set hero = null

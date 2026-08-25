@@ -337,7 +337,7 @@ STRING 46
 }
 
 STRING 47
-// Units: N05G ((A) Shadow Archer), Name (Name)
+// Units: N032 ((A) Shadow Archer), Name (Name)
 {
 (A) Shadow Archer
 }
@@ -1118,13 +1118,6 @@ STRING 172
 // Units: n029 (Buy Exile ItemXXXXX), Hotkey (Hotkey)
 {
 D
-}
-
-STRING 173
-// Items: IV01 (Orange), Description (Description)
-{
-|cffB614F0Starting Bonus|r
-Fills your inventory with random |cff088a08Potions|r.
 }
 
 STRING 174
@@ -2974,7 +2967,7 @@ Galvan
 }
 
 STRING 475
-// Units: N05G ((A) Shadow Archer), Propernames (Proper Names)
+// Units: N032 ((A) Shadow Archer), Propernames (Proper Names)
 {
 Gwindoline
 }
@@ -3529,7 +3522,7 @@ The wind surrounds the caster and pet. While the effect is active, they restore 
 }
 
 STRING 563
-// Units: N032 ((A) Shadow Archer), Propernames (Proper Names)
+// Units: N05G ((A) Shadow Archer), Propernames (Proper Names)
 {
 Gwindoline
 }
@@ -4264,7 +4257,7 @@ STRING 676
 }
 
 STRING 677
-// Units: N05G ((A) Shadow Archer), EditorSuffix (Name - Editor Suffix)
+// Units: N05E ((E) Chronomancer), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -5130,6 +5123,13 @@ STRING 811
 // Items: I0GA (Goat Dragon Claw), Tip (Tooltip - Basic)
 {
 Goat Dragon Claw
+}
+
+STRING 812
+// Items: IV00 (Tea), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Get a random |cff8080ffSpecial|r ability, a random |cff088a08Potion|r, 100 Gold and 2 stats.
 }
 
 STRING 813
@@ -6098,6 +6098,13 @@ STRING 952
 Frantic Fists, [|cffffcc00Level 4|r]
 }
 
+STRING 953
+// Items: IV00 (Tea), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Get a random |cff8080ffSpecial|r ability, a random |cff088a08Potion|r, 100 Gold and 2 stats.
+}
+
 STRING 954
 // Items: I0FA (Magic Absorber), Name (Name)
 {
@@ -6108,6 +6115,13 @@ STRING 955
 // Items: I0FA (Magic Absorber), Tip (Tooltip - Basic)
 {
 Magic Absorber
+}
+
+STRING 956
+// Items: IV01 (Orange), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Receive a random |cff088a08Potion|r with 8 charges.
 }
 
 STRING 957
@@ -7339,6 +7353,13 @@ STRING 1133
 // Units: n00J (Split Artifact (Slot 3)XXXXX), Name (Name)
 {
 Split Artifact (Slot 3)XXXXX
+}
+
+STRING 1134
+// Items: IV01 (Orange), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Receive a random |cff088a08Potion|r with 8 charges.
 }
 
 STRING 1137
@@ -8626,13 +8647,6 @@ STRING 1319
 // Items: I0CR (Divider (Out of Pool)), Tip (Tooltip - Basic)
 {
 Divider
-}
-
-STRING 1320
-// Items: IV01 (Orange), Ubertip (Tooltip - Extended)
-{
-|cffB614F0Starting Bonus|r
-Fills your inventory with random |cff088a08Potions|r.
 }
 
 STRING 1321
@@ -18909,7 +18923,7 @@ Buy Exile Item
 }
 
 STRING 2851
-// Units: N05E ((E) Chronomancer), EditorSuffix (Name - Editor Suffix)
+// Units: N05F ((R) Vampire), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -19173,13 +19187,6 @@ STRING 2888
 Discount Coupon
 }
 
-STRING 2889
-// Items: IV00 (Tea), Description (Description)
-{
-|cffB614F0Starting Bonus|r
-Get a random |cff8080ffSpecial|r ability, a random |cff088a08Potion|r and 100 Gold.
-}
-
 STRING 2890
 // Items: I01V (Mechanical clock), Name (Name)
 {
@@ -19190,13 +19197,6 @@ STRING 2891
 // Items: I01V (Mechanical clock), Tip (Tooltip - Basic)
 {
 Mechanical clock
-}
-
-STRING 2892
-// Items: IV00 (Tea), Ubertip (Tooltip - Extended)
-{
-|cffB614F0Starting Bonus|r
-Get a random |cff8080ffSpecial|r ability, a random |cff088a08Potion|r and 100 Gold.
 }
 
 STRING 2893
@@ -19785,7 +19785,7 @@ Mecha Chicken W.T.I.I.
 }
 
 STRING 2983
-// Units: N05F ((R) Vampire), EditorSuffix (Name - Editor Suffix)
+// Units: N05G ((A) Shadow Archer), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -74486,7 +74486,7 @@ STRING 11515
 }
 
 STRING 11516
-// Units: N032 ((A) Shadow Archer), Name (Name)
+// Units: N05G ((A) Shadow Archer), Name (Name)
 {
 (A) Shadow Archer
 }
