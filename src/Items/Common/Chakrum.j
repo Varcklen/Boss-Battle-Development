@@ -35,6 +35,7 @@ scope Chakrum initializer init
         set newTarget = GroupPickRandomUnit( correctUnits )
         if newTarget != null then
 	        set isChakrum = true
+	        set IsPrimaryTarget = false
 	        call UnitDamageTarget( caster, newTarget, damage, true, false, ATTACK_TYPE_HERO, DAMAGE_TYPE_NORMAL, WEAPON_TYPE_WHOKNOWS )
 	        set isChakrum = false
         endif

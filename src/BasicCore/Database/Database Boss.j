@@ -193,7 +193,7 @@ library LibDataBoss
 	    set DB_Trigger_Boss[1][1] = gg_trg_Morloc1
 	    set DB_Trigger_Boss[1][2] = gg_trg_Morloc2
 	    set DB_Trigger_Boss[1][3] = gg_trg_Morloc3
-	    set DB_Trigger_Boss[1][11] = gg_trg_Kobold1
+	    set DB_Trigger_Boss[1][11] = Kobold1_Trigger
 	    set DB_Trigger_Boss[1][12] = gg_trg_Kobold2
 	    set DB_Trigger_Boss[1][13] = gg_trg_Kobold3
 	    set DB_Trigger_Boss[1][21] = gg_trg_Electro1
@@ -204,6 +204,8 @@ library LibDataBoss
 	    set DB_Trigger_Boss[1][33] = gg_trg_DrunkMan3
 	    set DB_Trigger_Boss[1][41] = gg_trg_Rock1
 	    set DB_Trigger_Boss[1][42] = gg_trg_Rock2
+	    set DB_Trigger_Boss[1][43] = Rock1_Trigger2
+	    set DB_Trigger_Boss[1][44] = Rock2_Trigger2
 	    set DB_Trigger_Boss[2][1] = gg_trg_Bear1
 	    set DB_Trigger_Boss[2][2] = gg_trg_Bear2
 	    set DB_Trigger_Boss[2][11] = gg_trg_Totem1

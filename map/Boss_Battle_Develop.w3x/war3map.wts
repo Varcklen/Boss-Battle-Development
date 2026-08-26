@@ -1120,6 +1120,12 @@ STRING 172
 D
 }
 
+STRING 173
+// Abilities: A16C (Aspect: Armsmaster: Aspect of Proficiency), Ubertip (Tooltip - Normal - Extended)
+{
+Weapon Training creates items 1.5 times more often, but no longer increases damage.
+}
+
 STRING 174
 // Items: IV01 (Orange), Name (Name)
 {
@@ -7362,6 +7368,19 @@ STRING 1134
 Receive a random |cff088a08Potion|r with 8 charges.
 }
 
+STRING 1135
+// Abilities: A0QE (Blessing: Торговля (g13)), Ubertip (Tooltip - Normal - Extended)
+{
+Player exchanges cost 20% less. Exchanges also increase mana by 10.
+}
+
+STRING 1136
+// Items: I02P (Ancient Sword), Description (Description)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+The hero's attacks (to a primary target) have an |cffd7df018%|r chance to trigger a wave that deals |cffbe81f760|r damage. Each hero level increases this chance by 1%.
+}
+
 STRING 1137
 // Abilities: A17V (Money Bag: Slurp Up), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -8647,6 +8666,13 @@ STRING 1319
 // Items: I0CR (Divider (Out of Pool)), Tip (Tooltip - Basic)
 {
 Divider
+}
+
+STRING 1320
+// Items: I02P (Ancient Sword), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff2d9995Weapon|r
+The hero's attacks (to a primary target) have an |cffd7df018%|r chance to trigger a wave that deals |cffbe81f760|r damage. Each hero level increases this chance by 1%.
 }
 
 STRING 1321
@@ -12052,6 +12078,12 @@ STRING 1820
 |cffffcc00Reward:|r Scientist Card.
 }
 
+STRING 1821
+// Abilities: A09I (Armsmaster: Weapons Training), Researchubertip (Tooltip - Learn - Extended)
+{
+Increases Armor by 2/3/4/5/6. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0115%/20%/25%/30%/35%|r probability, one of the rewards will be a |cff2d9995Weapon|r.
+}
+
 STRING 1822
 // Abilities: A07Z (Outcast: Power Overwhelming), Ubertip (Tooltip - Normal - Extended)
 {
@@ -12126,6 +12158,18 @@ The effect is cumulative.
 |cffffcc00Cooldown:|r 3 seconds.
 }
 
+STRING 1831
+// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Armor by 2. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0115%|r probability, one of the rewards will be a |cff2d9995Weapon|r.
+}
+
+STRING 1832
+// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Armor by 3. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0120%|r probability, one of the rewards will be a |cff2d9995Weapon|r.
+}
+
 STRING 1833
 // Items: I09N (Idol of Gluttony), Description (Description)
 {
@@ -12140,6 +12184,12 @@ STRING 1834
 |cff4169e1Rare|r
 Increases Movement and Attack Speed by 125%. 
 Healing effects do not work on the Hero.
+}
+
+STRING 1835
+// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Armor by 4. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0125%|r probability, one of the rewards will be a |cff2d9995Weapon|r.
 }
 
 STRING 1836
@@ -13218,6 +13268,12 @@ STRING 1994
 // Items: I082 (Infusion of Infinity), Tip (Tooltip - Basic)
 {
 Infusion of Infinity
+}
+
+STRING 1995
+// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Armor by 5. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0130%|r probability, one of the rewards will be a |cff2d9995Weapon|r.
 }
 
 STRING 1996
@@ -14775,6 +14831,12 @@ STRING 2219
 Deals more damage - but loses health over time.
 }
 
+STRING 2220
+// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Armor by 6. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0135%|r probability, one of the rewards will be a |cff2d9995Weapon|r.
+}
+
 STRING 2221
 // Abilities: A0UL (Commander: Mark of the Chosen), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -15173,13 +15235,6 @@ STRING 2279
 Activation: |cffcc0000Corrupted|r. Gives an artifact of |cffbababccommon|r quality. If the hero does not have a |cffe96a1clegendary|r artifact, gives a |cffe96a1clegendary|r artifact instead.
 }
 
-STRING 2280
-// Items: I02P (Ancient Sword), Description (Description)
-{
-|cffbababcCommon|r, |cff2d9995Weapon|r
-The hero's attacks have an |cffd7df018%|r chance to trigger a wave that deals |cffbe81f760|r damage. Each hero level increases this chance by 1%.
-}
-
 STRING 2281
 // Items: I062 (Sapphire), Name (Name)
 {
@@ -15193,10 +15248,13 @@ Sapphire
 }
 
 STRING 2283
-// Items: I02P (Ancient Sword), Ubertip (Tooltip - Extended)
+// Abilities: A0XV (|cffffcc00Уровень 1:|r Пьяный мужик), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r, |cff2d9995Weapon|r
-The hero's attacks have an |cffd7df018%|r chance to trigger a wave that deals |cffbe81f760|r damage. Each hero level increases this chance by 1%.
+- Strong attacks.
+- Every 10 seconds, increases Attack Damage by 5.
+- Every 5 seconds intoxicates a random enemy for 10 seconds. Intoxicated units have a |cffd7df0125%|r chance of being stunned for 1 second when cast. Their attacks have a 25% chance to miss.
+- |cff00cceeAt 50% health:|r Intoxicates all enemies nearby.
+- |cff00cceeAt 25% health:|r Increases the boss's attack and movement speed by 20%.
 }
 
 STRING 2284
@@ -15866,6 +15924,22 @@ STRING 2385
 Fire Storm Potion
 }
 
+STRING 2386
+// Abilities: A0AP (|cffffcc00Уровень 1:|r Электро-Гнолл), Ubertip (Tooltip - Normal - Extended)
+{
+- Every 4 seconds creates an electrical area that deals |cffbe81f735|r damage every second. Lasts 60 seconds.
+- |cff00cceeAt 60% health:|r Creates 8 electrical areas around the boss.
+- |cff00cceeAt 35% health:|r Areas spawn more often.
+}
+
+STRING 2387
+// Abilities: A06A (|cffffcc00Уровень 1:|r Кобольд), Ubertip (Tooltip - Normal - Extended)
+{
+- Attacking the same target three times in a row makes enhanced attacks. These enhanced attacks deal an additional 40 damage to all nearby boss's enemies.
+- Every 10 seconds, reduces the attack and movement speed of nearby boss enemies for 5 seconds.
+- |cff00cceeAt 75% health:|r Every 10 seconds it creates a bomb that explodes after 3 seconds, dealing |cffbe81f7200|r damage.
+}
+
 STRING 2388
 // Items: I03S (Tome of OblivionXXX), Hotkey (Hotkey)
 {
@@ -15882,6 +15956,12 @@ STRING 2390
 // Items: I05C (Swamp Potion), Tip (Tooltip - Basic)
 {
 Swamp Potion
+}
+
+STRING 2391
+// Abilities: A1JL ((т)Аура: Power Up!), EditorSuffix (Editor Suffix)
+{
+(Kobold Boss)
 }
 
 STRING 2392
@@ -15912,6 +15992,12 @@ STRING 2396
 // Abilities: A17V (Money Bag: Slurp Up), Researchtip (Tooltip - Learn)
 {
 Slurp Up, [|cffffcc00Level %d|r]
+}
+
+STRING 2397
+// Abilities: A1JL ((т)Аура: Power Up!), Name (Name)
+{
+(т)Аура: Power Up!
 }
 
 STRING 2398
@@ -15968,6 +16054,12 @@ STRING 2406
 Slurp Up, [|cffffcc00Level 5|r]
 }
 
+STRING 2407
+// Buffs/Effects: B0B8 (), Bufftip (Tooltip)
+{
+|cff00ff00Power Up!|r
+}
+
 STRING 2408
 // Items: I03B (Change artifact (Slot 3)), Hotkey (Hotkey)
 {
@@ -15986,6 +16078,18 @@ STRING 2410
 Desert Potion
 }
 
+STRING 2411
+// Buffs/Effects: B0B8 (), Buffubertip (Tooltip - Extended)
+{
+Attacks are stronger!
+}
+
+STRING 2412
+// Abilities: A0OP (|cffffcc00Уровень 1:|r Каменный голем), Tip (Tooltip - Normal)
+{
+Stone Golem
+}
+
 STRING 2413
 // Items: I057 (Air Potion), Hotkey (Hotkey)
 {
@@ -16002,6 +16106,15 @@ STRING 2415
 // Items: I057 (Air Potion), Tip (Tooltip - Basic)
 {
 Air Potion
+}
+
+STRING 2416
+// Abilities: A0OP (|cffffcc00Уровень 1:|r Каменный голем), Ubertip (Tooltip - Normal - Extended)
+{
+- Every 5 seconds creates a random Pebble.
+- The boss has +10 Attack Damage for each Pebble in the arena.
+- |cff00cceeAt 80% health:|r The boss stops and begins slamming the ground every 0.5 seconds for 3 seconds. Each hit creates a Pebble and deals |cffbe81f740|r damage to nearby enemies.
+- |cff00cceeAt 40% health:|r Repeat slamming.
 }
 
 STRING 2417
@@ -16064,6 +16177,12 @@ STRING 2426
 {
 |cff088a08Potion|r
 Activation: Restores |cffbe81f7125|r mana to the hero.
+}
+
+STRING 2427
+// Abilities: A1JM (.General-Item: Pebble), Name (Name)
+{
+.General-Item: Pebble
 }
 
 STRING 2428
@@ -19187,6 +19306,17 @@ STRING 2888
 Discount Coupon
 }
 
+STRING 2889
+// Abilities: A06C (|cffffcc00Уровень 2:|r Злобный тотем), Ubertip (Tooltip - Normal - Extended)
+{
+- No attack.
+- When the boss is attacked, the attacker takes |cffbe81f710|r damage.
+- Every 4 seconds it creates a fiery explosion that deals |cffbe81f745|r damage every half second within 5 seconds.
+- If it doesn't take damage, the boss focuses.
+- |cff00cceeAt 25% and 75% health:|r Summons 4 shadows. When the shadow approaches the boss, it dies, increases boss damage by 10% and creates a fiery explosion next to each hero.
+- |cff00cceeAt 50% health:|r A fiery explosion is created more often.
+}
+
 STRING 2890
 // Items: I01V (Mechanical clock), Name (Name)
 {
@@ -20491,12 +20621,6 @@ STRING 3095
 // Items: I00H (Book of Knowledge), Tip (Tooltip - Basic)
 {
 Book of Knowledge
-}
-
-STRING 3096
-// Abilities: A09I (Armsmaster: Weapons Training), Researchubertip (Tooltip - Learn - Extended)
-{
-Increases Armor by 2/3/4/5/6. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0115%/20%/25%/30%/35%|r probability, one of the rewards will be a Weapon Gift.
 }
 
 STRING 3097
@@ -21893,18 +22017,6 @@ Taunt an enemy to attack you for 5 seconds and gain |cffbe81f7320|r Shield.
 |cffffcc00Cooldown:|r 12 seconds.
 }
 
-STRING 3320
-// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Armor by 2. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0115%|r probability, one of the rewards will be a Weapon Gift.
-}
-
-STRING 3321
-// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Armor by 3. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0120%|r probability, one of the rewards will be a Weapon Gift.
-}
-
 STRING 3322
 // Abilities: A1CV ((т)Аура: Spinal Blast), Name (Name)
 {
@@ -22044,28 +22156,10 @@ STRING 3342
 Neurotoxin, [|cffffcc00Level %d|r]
 }
 
-STRING 3343
-// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Armor by 4. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0125%|r probability, one of the rewards will be a Weapon Gift.
-}
-
 STRING 3344
 // Abilities: A1CS (The Plague: Neurotoxin), Tip (Tooltip - Normal)
 {
 Neurotoxin, [|cffffcc00Level 1|r]
-}
-
-STRING 3345
-// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Armor by 5. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0130%|r probability, one of the rewards will be a Weapon Gift.
-}
-
-STRING 3346
-// Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Armor by 6. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0135%|r probability, one of the rewards will be a Weapon Gift.
 }
 
 STRING 3347
@@ -28453,12 +28547,6 @@ STRING 4347
 // Abilities: A16C (Aspect: Armsmaster: Aspect of Proficiency), Tip (Tooltip - Normal)
 {
 Aspect of Proficiency
-}
-
-STRING 4348
-// Abilities: A16C (Aspect: Armsmaster: Aspect of Proficiency), Ubertip (Tooltip - Normal - Extended)
-{
-Weapons Training doubles the chance to receive weapon gift as a reward after battle, but no longer improves damage.
 }
 
 STRING 4349
@@ -39351,17 +39439,6 @@ STRING 6016
 .General: Difficulty Stat Ignore
 }
 
-STRING 6017
-// Abilities: A06C (|cffffcc00Уровень 2:|r Злобный тотем), Ubertip (Tooltip - Normal - Extended)
-{
-- No attack.
-- When the boss is attacked, the attacker takes |cffbe81f715|r damage.
-- Every 4 seconds it creates a fiery explosion that deals |cffbe81f745|r damage every half second within 5 seconds.
-- If it doesn't take damage, the boss focuses.
-- |cff00cceeAt 25% and 75% health:|r Summons 4 shadows. When the shadow approaches the boss, it dies and creates a fiery explosion next to each hero.
-- |cff00cceeAt 50% health:|r A fiery explosion is created more often.
-}
-
 STRING 6018
 // Abilities: A0T7 (Artifact: Cosmic reed), Name (Name)
 {
@@ -41839,12 +41916,6 @@ STRING 6409
 |cffffcc00Blessing:|r Trade
 }
 
-STRING 6410
-// Abilities: A0QE (Blessing: Торговля (g13)), Ubertip (Tooltip - Normal - Extended)
-{
-Player exchanges cost 60% less.
-}
-
 STRING 6411
 // Abilities: A0QD (Артефакт: Слеза Яха), Name (Name)
 {
@@ -42952,12 +43023,6 @@ STRING 6583
 // Abilities: A0OP (|cffffcc00Уровень 1:|r Каменный голем), Name (Name)
 {
 |cffffcc00Уровень 1:|r Каменный голем
-}
-
-STRING 6584
-// Abilities: A0OP (|cffffcc00Уровень 1:|r Каменный голем), Tip (Tooltip - Normal)
-{
-Stone golem
 }
 
 STRING 6585
@@ -74861,18 +74926,6 @@ STRING 11569
 - |cff00cceeAt 25% health:|r Summons 4 Rogues.
 }
 
-STRING 11570
-// Abilities: A0XV (|cffffcc00Уровень 1:|r Пьяный мужик), Ubertip (Tooltip - Normal - Extended)
-{
-- Strong attacks.
-- When the boss attacks, with a probability of 25%, misses.
-- Every 8 seconds intoxicates a random enemy.
-|cffffcc00Duration:|r 7 seconds.
-- The intoxicated hero, with a probability of 25%, misses and periodically loses control.
-- |cff00cceeAt 50% health:|r Instead, intoxicate up to four random opponents.
-- |cff00cceeAt 25% health:|r Increases your attack and movement speed by 20%.
-}
-
 STRING 11571
 // Units: h00Z (Farus), EditorSuffix (Name - Editor Suffix)
 {
@@ -74914,13 +74967,6 @@ STRING 11576
 // Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
 {
 Moon Blinking, [|cffffcc00Level 4|r]
-}
-
-STRING 11577
-// Abilities: A0OP (|cffffcc00Уровень 1:|r Каменный голем), Ubertip (Tooltip - Normal - Extended)
-{
-- Every 5 seconds creates a random pebble.
-- |cff00cceeAt 75% health:|r Every 7 seconds it deals |cffbe81f770|r damage to all enemies nearby and creates a random pebble.
 }
 
 STRING 11578
@@ -75072,15 +75118,6 @@ Makes all nearby creatures invisible for 3 seconds. Restores |cffbe81f760|r mana
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
-STRING 11595
-// Abilities: A0AP (|cffffcc00Уровень 1:|r Электро-Гнолл), Ubertip (Tooltip - Normal - Extended)
-{
-- |cff00cceeAt 90% health:|r Every 4 seconds creates an electrical area that deals |cffbe81f735|r damage every second.
-|cffffcc00Life time:|r 20 seconds.
-- |cff00cceeAt 50% health:|r Creates 8 electrospheres around the boss.
-- |cff00cceeAt 25% health:|r Starts creating areas 2 times more often.
-}
-
 STRING 11596
 // Abilities: A0EF (Keeper: Moon Blinking), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75218,15 +75255,6 @@ STRING 11611
 // Abilities: A0C7 (Босс 5: Боевой голем (Удар грома)XXX), Name (Name)
 {
 Босс 5: Боевой голем (Удар грома)XXX
-}
-
-STRING 11612
-// Abilities: A06A (|cffffcc00Уровень 1:|r Кобольд), Ubertip (Tooltip - Normal - Extended)
-{
-- When attacking, with a probability of 20%, deals 40 damage to all enemies nearby.
-- Every 15 seconds reduces the speed of attack and movement of nearby enemies by 20%.
-|cffffcc00Duration:|r 10 seconds.
-- |cff00cceeAt 75% health:|r Every 10 seconds it creates a bomb that explodes after 3 seconds, inflicting |cffbe81f7125|r damage.
 }
 
 STRING 11613

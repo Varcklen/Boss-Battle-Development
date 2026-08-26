@@ -45,6 +45,7 @@ scope SweepingBlow initializer init
 	        set u = FirstOfGroup(g)
 	        exitwhen u == null
 	        if target != u and unitst( u, caster, "enemy" ) then
+	        	set IsPrimaryTarget = false
 	            call UnitDamageTarget( caster, u, damage, true, false, ATTACK_TYPE_HERO, DAMAGE_TYPE_NORMAL, WEAPON_TYPE_WHOKNOWS )
 	        endif
 	        call GroupRemoveUnit(g,u)

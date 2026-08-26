@@ -1,28 +1,35 @@
 scope BlessTrade initializer init
 
 	globals
-		private constant integer DISCOUNT = 75
+		private constant integer DISCOUNT = 25
+		private constant integer MANA_GAIN = 10
+		private trigger Trigger = null
 	endglobals
+	
+	//===========================================================================
+	private function action takes nothing returns nothing
+	    local unit hero = Event_ItemExchange_Hero
+	    
+	    call BlzSetUnitMaxMana( hero, BlzGetUnitMaxMana(hero) + MANA_GAIN )
+	    
+	    set hero = null
+	endfunction
 
 	//===========================================================================
 	public function Enable takes nothing returns nothing
 		set ExchangeCost = ExchangeCost - DISCOUNT
-		/*set ExchangerUnit[0] = ReplaceUnitBJ( ExchangerUnit[0], 'h00R', bj_UNIT_STATE_METHOD_RELATIVE )
-        set ExchangerUnit[1] = ReplaceUnitBJ( ExchangerUnit[1], 'h00X', bj_UNIT_STATE_METHOD_RELATIVE )
-        set ExchangerUnit[2] = ReplaceUnitBJ( ExchangerUnit[2], 'h00Y', bj_UNIT_STATE_METHOD_RELATIVE )
-        set ExchangerUnit[3] = ReplaceUnitBJ( ExchangerUnit[3], 'h00W', bj_UNIT_STATE_METHOD_RELATIVE )*/
+		call EnableTrigger( Trigger )
     endfunction
     
     public function Disable takes nothing returns nothing
 		set ExchangeCost = ExchangeCost + DISCOUNT
-		/*set ExchangerUnit[0] = ReplaceUnitBJ( ExchangerUnit[0], 'h00H', bj_UNIT_STATE_METHOD_RELATIVE )
-        set ExchangerUnit[1] = ReplaceUnitBJ( ExchangerUnit[1], 'h00V', bj_UNIT_STATE_METHOD_RELATIVE )
-        set ExchangerUnit[2] = ReplaceUnitBJ( ExchangerUnit[2], 'h00U', bj_UNIT_STATE_METHOD_RELATIVE )
-        set ExchangerUnit[3] = ReplaceUnitBJ( ExchangerUnit[3], 'h00T', bj_UNIT_STATE_METHOD_RELATIVE )*/
+		call DisableTrigger( Trigger )
     endfunction
 	
+	//===========================================================================
 	private function init takes nothing returns nothing
-
+		set Trigger = CreateEventTrigger( "Event_ItemExchange_Real", function action, null )
+		call DisableTrigger( Trigger )
 	endfunction
 
 endscope
