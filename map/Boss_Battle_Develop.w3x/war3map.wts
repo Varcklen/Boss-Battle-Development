@@ -699,7 +699,7 @@ Wulf
 }
 
 STRING 107
-// Units: o008 (Demolisher), EditorSuffix (Name - Editor Suffix)
+// Units: h00C (Siege Engine), EditorSuffix (Name - Editor Suffix)
 {
 (Федор)
 }
@@ -2083,12 +2083,6 @@ STRING 329
 Uther
 }
 
-STRING 330
-// Units: h00L (Arachnid), Name (Name)
-{
-Arachnid
-}
-
 STRING 331
 // Units: h00K (Arach), Name (Name)
 {
@@ -2144,9 +2138,11 @@ Informant
 }
 
 STRING 340
-// Units: h00C (Siege Engine), EditorSuffix (Name - Editor Suffix)
+// Abilities: A06B (|cffffcc00Уровень 2:|r Благородный рыцарь), Ubertip (Tooltip - Normal - Extended)
 {
-(Федор)
+- Increases the boss's armor by 2 and reduces the armor of the boss's enemies by 2. The effect repeats every 25% of health lost.
+- |cff00cceeAt 75% health:|r If any of the heroes moves further than range attack distance from the boss, the boss will dash towards them, stunning for 0.75 seconds and dealing |cffbe81f7100|r damage.
+- |cff00cceeAt 50% health:|r Calls upon the Squire for assistance.
 }
 
 STRING 341
@@ -15235,6 +15231,12 @@ STRING 2279
 Activation: |cffcc0000Corrupted|r. Gives an artifact of |cffbababccommon|r quality. If the hero does not have a |cffe96a1clegendary|r artifact, gives a |cffe96a1clegendary|r artifact instead.
 }
 
+STRING 2280
+// Units: o008 (Demolisher), EditorSuffix (Name - Editor Suffix)
+{
+(Fedor)
+}
+
 STRING 2281
 // Items: I062 (Sapphire), Name (Name)
 {
@@ -15904,6 +15906,15 @@ STRING 2381
 // Abilities: A0R0 (Barbarian: Recklessness), Ubertip (Tooltip - Normal - Extended)
 {
 The hero goes into a rage, increasing Attack Speed by 40%, but loses 10 mana every second. If there is no mana, it spends health instead.
+}
+
+STRING 2382
+// Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Ubertip (Tooltip - Normal - Extended)
+{
+- Increases attack power of all units by 50%.
+- |cff00cceeAt 90% health:|r Silences the heroes for 10 seconds.
+- |cff00cceeAt 75% health:|r Every 1.5 seconds, deals damage to nearby enemies equal to |cffbe81f71%|r of their health.
+- |cff00cceeAt 25% health:|r The boss stops and begins charging magic for 4 seconds. Upon completion, it fully restores Health (Once per battle).
 }
 
 STRING 2383
@@ -19329,6 +19340,15 @@ STRING 2891
 Mechanical clock
 }
 
+STRING 2892
+// Abilities: A06E (|cffffcc00Уровень 3:|r Инженерный Мастер), Ubertip (Tooltip - Normal - Extended)
+{
+- Weak attack.
+- Every 15 seconds, while not in transport, increases Attack by 10.
+- |cff00cceeAt 80% health:|r Summons 4 demolishers.
+- |cff00cceeAt 40% health:|r The boss sits in a Siege Engine. Every 4 seconds, the Siege Engine emits a wave, dealing |cffbe81f755|r damage. After the Siege Engine is destroyed, 4 more demolishers appear.
+}
+
 STRING 2893
 // Items: I01U (Hammer and Anvil), Description (Description)
 {
@@ -20010,6 +20030,12 @@ STRING 2996
 Armor (Spellbreaker Shield)
 }
 
+STRING 2997
+// Units: h00L (Arachnathid), Name (Name)
+{
+Arachnathid
+}
+
 STRING 2998
 // Items: I015 (Redirector), Name (Name)
 {
@@ -20020,6 +20046,12 @@ STRING 2999
 // Items: I015 (Redirector), Tip (Tooltip - Basic)
 {
 Redirector
+}
+
+STRING 3000
+// Abilities: A1JN ((т)Аура: Wound), EditorSuffix (Editor Suffix)
+{
+(Polar Bear)
 }
 
 STRING 3001
@@ -20113,6 +20145,12 @@ STRING 3012
 Эффект Могущеста
 }
 
+STRING 3013
+// Abilities: A1JN ((т)Аура: Wound), Name (Name)
+{
+(т)Аура: Wound
+}
+
 STRING 3014
 // Items: I011 (Karti the Straight), Name (Name)
 {
@@ -20123,6 +20161,12 @@ STRING 3015
 // Items: I011 (Karti the Straight), Tip (Tooltip - Basic)
 {
 Karti the Straight
+}
+
+STRING 3016
+// Buffs/Effects: B0B9 (), Bufftip (Tooltip)
+{
+|cffff0000Wound|r
 }
 
 STRING 3017
@@ -20604,6 +20648,32 @@ STRING 3088
 Gives 1 extra attempt to fight the boss after losing. Destroyed after using the attempt.
 }
 
+STRING 3089
+// Buffs/Effects: B0B9 (), Buffubertip (Tooltip - Extended)
+{
+Unit loses health.
+}
+
+STRING 3090
+// Abilities: A0AQ (|cffffcc00Уровень 2:|r Белый медведь), Ubertip (Tooltip - Normal - Extended)
+{
+- Attacks inflict a wound on the target, periodically dealing |cffbe81f78|r damage. Lasts 6 seconds.
+- |cff00cceeAt 95% health:|r Jumps immediately. Every 15 seconds, Jumps to a hero, hugging them for 4 seconds. This hero is stunned and takes |cffbe81f740|r damage every 0.5 seconds. Any control effect stop the hug.
+- |cff00cceeAt 40% health:|r The boss roars throughout the arena, reducing the movement speed of the boss's enemies by 30% for 20 seconds.
+}
+
+STRING 3091
+// Abilities: A1JO ((т)Аура: Dizzy), EditorSuffix (Editor Suffix)
+{
+(Polar Bear)
+}
+
+STRING 3092
+// Abilities: A1HV ((т)Аура: Dizzy), Name (Name)
+{
+(т)Аура: Dizzy
+}
+
 STRING 3093
 // Items: IV08 (Bag of Candies), Ubertip (Tooltip - Extended)
 {
@@ -20621,6 +20691,12 @@ STRING 3095
 // Items: I00H (Book of Knowledge), Tip (Tooltip - Basic)
 {
 Book of Knowledge
+}
+
+STRING 3096
+// Buffs/Effects: B0AY (), Bufftip (Tooltip)
+{
+|cffff0000Dizzy|r
 }
 
 STRING 3097
@@ -20848,6 +20924,27 @@ STRING 3132
 {
 |cffbababcCommon|r
 Activation: |cffcc0000Corrupted|r. You get all your reward artifacts (if there are free slots in your inventory).
+}
+
+STRING 3133
+// Buffs/Effects: B1B4 (), Buffubertip (Tooltip - Extended)
+{
+Movement speed reduced.
+}
+
+STRING 3134
+// Abilities: A0HC (|cffffcc00Уровень 3:|r Огромный арахнид), Tip (Tooltip - Normal)
+{
+Huge Arachnathid
+}
+
+STRING 3135
+// Abilities: A0HC (|cffffcc00Уровень 3:|r Огромный арахнид), Ubertip (Tooltip - Normal - Extended)
+{
+- The boss has 80% evasion. Each successful evasion reduces this chance by 1%.
+- |cff00cceeAt 90% health:|r Summons an Arachnathid next to each hero.
+- |cff00cceeAt 60% health:|r The boss disappears for 30 seconds. Every 1.5 seconds, an Arachnathid is summoned until the boss appears.
+- |cff00cceeAt 35% health:|r The boss summons hordes of Arachnathids at the edges of the arena.
 }
 
 STRING 3137
@@ -22154,6 +22251,16 @@ STRING 3342
 // Abilities: A1CS (The Plague: Neurotoxin), Researchtip (Tooltip - Learn)
 {
 Neurotoxin, [|cffffcc00Level %d|r]
+}
+
+STRING 3343
+// Abilities: A0C4 (|cffffcc00Уровень 3:|r Иллюзионистка), Ubertip (Tooltip - Normal - Extended)
+{
+- Every 14 seconds creates 2 runes of stats. They can be deceiving.
+- Every 5 seconds, creates 2 areas. Each of them explodes after 3 seconds. The danger one deals |cffbe81f7300|r damage, the friendly one restores |cffbe81f7100|r health and |cffbe81f730|r mana.
+- |cff00cceeAt 80% health:|r After 3 seconds, swaps Health and Mana of all heroes. Repeat every 12 seconds.
+- |cff00cceeAt 60% health:|r The boss creates 2 more areas. Changes the world. Repeats every 15 seconds.
+- |cff00cceeAt 35% health:|r The boss creates 4 more areas.
 }
 
 STRING 3344
@@ -50359,12 +50466,6 @@ STRING 7706
 |cffffcc00Уровень 3:|r Огромный арахнид
 }
 
-STRING 7707
-// Abilities: A0HC (|cffffcc00Уровень 3:|r Огромный арахнид), Tip (Tooltip - Normal)
-{
-Huge arachnid
-}
-
 STRING 7708
 // Abilities: A0DW (Minotaur: Courage), Ubertip (Tooltip - Normal - Extended)
 {
@@ -65259,15 +65360,6 @@ STRING 10019
 Усилитель 6: МонструозныйXXX
 }
 
-STRING 10020
-// Abilities: A0W1 (|cffffcc00Уровень 2:|r Огр-маг), Ubertip (Tooltip - Normal - Extended)
-{
-- Increases attack power of all units by 50%.
-- |cff00cceeAt 90% health:|r Silences the heroes for 10 seconds.
-- |cff00cceeAt 75% health:|r Every 1.5 seconds, deals damage to nearby enemies equal to |cffbe81f71%|r of their health.
-- |cff00cceeAt 25% health:|r The boss stops and begins charging magic for 3 seconds. Upon completion, it fully restores Health (Once per battle).
-}
-
 STRING 10021
 // Abilities: A0AQ (|cffffcc00Уровень 2:|r Белый медведь), Tip (Tooltip - Normal)
 {
@@ -66017,14 +66109,6 @@ STRING 10137
 // Abilities: A1DO (Shepherd: Lure), Hotkey (Hotkey - Normal)
 {
 R
-}
-
-STRING 10138
-// Abilities: A0AQ (|cffffcc00Уровень 2:|r Белый медведь), Ubertip (Tooltip - Normal - Extended)
-{
-- When attacking, with a probability of 25%, stuns the target for 1 second.
-- Every 10 seconds, jumps to a random enemy and stunning all nearby enemies for 0.5 second.
-- |cff00cceeAt 40% health:|r Starts jumping 2 times more often.
 }
 
 STRING 10139
@@ -67668,7 +67752,7 @@ STRING 10391
 }
 
 STRING 10392
-// Buffs/Effects: B1B4 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B0AC (), Buffubertip (Tooltip - Extended)
 {
 Movement speed reduced.
 }
@@ -67728,7 +67812,7 @@ STRING 10401
 }
 
 STRING 10402
-// Buffs/Effects: B0AC (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B06J (), Buffubertip (Tooltip - Extended)
 {
 Movement speed reduced.
 }
@@ -69330,7 +69414,7 @@ STRING 10668
 }
 
 STRING 10669
-// Buffs/Effects: B06J (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B03T (), Buffubertip (Tooltip - Extended)
 {
 Movement speed reduced.
 }
@@ -70466,7 +70550,7 @@ STRING 10857
 }
 
 STRING 10858
-// Buffs/Effects: B03T (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B03O (), Buffubertip (Tooltip - Extended)
 {
 Movement speed reduced.
 }
@@ -70550,7 +70634,7 @@ STRING 10871
 }
 
 STRING 10872
-// Buffs/Effects: B03O (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B011 (), Buffubertip (Tooltip - Extended)
 {
 Movement speed reduced.
 }
@@ -70610,7 +70694,7 @@ STRING 10881
 }
 
 STRING 10882
-// Buffs/Effects: B011 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B00O (), Buffubertip (Tooltip - Extended)
 {
 Movement speed reduced.
 }
@@ -70730,7 +70814,7 @@ STRING 10901
 }
 
 STRING 10902
-// Buffs/Effects: B00O (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B0AQ (), Buffubertip (Tooltip - Extended)
 {
 Movement speed reduced.
 }
@@ -71762,7 +71846,7 @@ STRING 11072
 }
 
 STRING 11073
-// Buffs/Effects: B0AQ (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B0AY (), Buffubertip (Tooltip - Extended)
 {
 Movement speed reduced.
 }
@@ -74686,15 +74770,6 @@ STRING 11536
 Noble Knight
 }
 
-STRING 11537
-// Abilities: A06B (|cffffcc00Уровень 2:|r Благородный рыцарь), Ubertip (Tooltip - Normal - Extended)
-{
-- Reduces the armor of enemies and increases its own by 1.
-- |cff00cceeAt 75% health:|r Enhances the effects of armor by 1. Every 10 seconds, makes a charge at a random enemy nearby, stunning for 0.75 seconds.
-- |cff00cceeAt 50% health:|r Enhances the effects of armor by 1. Summons a knight at the edge of the arena.
-- |cff00cceeAt 25% health:|r Enhances the effects of armor by 1.
-}
-
 STRING 11538
 // Abilities: A0JR (Curse: Anger (b26)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75048,14 +75123,6 @@ STRING 11586
 (Level 2)
 }
 
-STRING 11587
-// Abilities: A0HC (|cffffcc00Уровень 3:|r Огромный арахнид), Ubertip (Tooltip - Normal - Extended)
-{
-- When the boss is attacked, with a probability of 10%, evades the attack.
-- |cff00cceeAt 60% health:|r The boss disappears from sight for 30 seconds. Arachnids are summoned every 1.5 seconds.
-- |cff00cceeAt 35% health:|r The boss summons hordes of arachnids at the edges of the arena.
-}
-
 STRING 11588
 // Abilities: A0DX (|cffffcc00Уровень 8:|r Дуэлянт), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75079,16 +75146,6 @@ STRING 11589
 - |cff00cceeAt 30% health:|r Increases attack speed by 70%.
 }
 
-STRING 11590
-// Abilities: A0C4 (|cffffcc00Уровень 3:|r Иллюзионистка), Ubertip (Tooltip - Normal - Extended)
-{
-- Every 14 seconds creates 2 runes of stats. They can be deceiving.
-- Every 5 seconds, creates 2 areas. Each of them explodes after 3 seconds. The first deals |cffbe81f7300|r damage, the second restores |cffbe81f7100|r health and |cffbe81f730|r mana.
-- |cff00cceeAt 40% and 80% health:|r After 3 seconds, swaps Health and Mana of all heroes.
-- |cff00cceeAt 66% health:|r The world is changing.
-- |cff00cceeAt 25% health:|r The world is changing. Maybe.
-}
-
 STRING 11591
 // Abilities: A1HV ((т)Аура: Dizzy), EditorSuffix (Editor Suffix)
 {
@@ -75096,7 +75153,7 @@ STRING 11591
 }
 
 STRING 11592
-// Abilities: A1HV ((т)Аура: Dizzy), Name (Name)
+// Abilities: A1JO ((т)Аура: Dizzy), Name (Name)
 {
 (т)Аура: Dizzy
 }
@@ -75230,7 +75287,7 @@ Reuse removes the old Golem.
 }
 
 STRING 11608
-// Buffs/Effects: B0AY (), Bufftip (Tooltip)
+// Buffs/Effects: B0BA (), Bufftip (Tooltip)
 {
 |cffff0000Dizzy|r
 }
@@ -75911,7 +75968,7 @@ STRING 11709
 }
 
 STRING 11710
-// Buffs/Effects: B0AY (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B0BA (), Buffubertip (Tooltip - Extended)
 {
 Movement speed reduced.
 }
@@ -77539,15 +77596,6 @@ STRING 11947
 // Abilities: A116 (Blessing: Всеобличие (g19)), Ubertip (Tooltip - Normal - Extended)
 {
 Increases the chance of |cff4169e1Rare|r artifacts appearing by 12%.
-}
-
-STRING 11948
-// Abilities: A06E (|cffffcc00Уровень 3:|r Инженерный Мастер), Ubertip (Tooltip - Normal - Extended)
-{
-- Weak attack.
-- Every 15 seconds, while not in transport, increases Attack by 10.
-- |cff00cceeAt 66% health:|r Summons 4 catapults.
-- |cff00cceeAt 33% health:|r The boss sits in a mortar. Every 10 seconds, the mortar emits 3 waves, dealing |cffbe81f740|r damage. After the mortar is destroyed, 4 more catapults appear.
 }
 
 STRING 11949

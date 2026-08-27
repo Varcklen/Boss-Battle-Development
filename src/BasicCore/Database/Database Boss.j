@@ -207,7 +207,8 @@ library LibDataBoss
 	    set DB_Trigger_Boss[1][43] = Rock1_Trigger2
 	    set DB_Trigger_Boss[1][44] = Rock2_Trigger2
 	    set DB_Trigger_Boss[2][1] = gg_trg_Bear1
-	    set DB_Trigger_Boss[2][2] = gg_trg_Bear2
+	    set DB_Trigger_Boss[2][2] = Bear2_Trigger
+	    set DB_Trigger_Boss[2][3] = Bear3_Trigger
 	    set DB_Trigger_Boss[2][11] = gg_trg_Totem1
 	    set DB_Trigger_Boss[2][12] = gg_trg_Totem2
 	    set DB_Trigger_Boss[2][13] = gg_trg_Totem3
@@ -236,6 +237,8 @@ library LibDataBoss
 	    set DB_Trigger_Boss[3][14] = Fedor4_Trigger
 	    set DB_Trigger_Boss[3][21] = gg_trg_Arah1
 	    set DB_Trigger_Boss[3][22] = gg_trg_Arah2
+	    set DB_Trigger_Boss[3][23] = Arah3_Trigger
+	    set DB_Trigger_Boss[3][24] = Arah0_Trigger
 	    set DB_Trigger_Boss[3][31] = gg_trg_Thief1
 	    set DB_Trigger_Boss[3][32] = gg_trg_Thief2
 	    set DB_Trigger_Boss[3][33] = gg_trg_Thief3
@@ -244,7 +247,6 @@ library LibDataBoss
 	    set DB_Trigger_Boss[3][43] = gg_trg_Illusionist3
 	    set DB_Trigger_Boss[3][44] = gg_trg_Illusionist4
 	    set DB_Trigger_Boss[3][45] = gg_trg_Illusionist5
-	    set DB_Trigger_Boss[3][46] = gg_trg_Illusionist6
 	    /*set DB_Trigger_Boss[3][51] = gg_trg_MageTruch1
 	    set DB_Trigger_Boss[3][52] = gg_trg_MageTruch2
 	    set DB_Trigger_Boss[3][53] = gg_trg_MageTruch3*/

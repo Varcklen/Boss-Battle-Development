@@ -18,7 +18,7 @@ scope Fedor4 initializer init
         if IsUnitDead(boss) or udg_fightmod[0] == false then 
 	        call FlushChildHashtable( udg_hash, id )
 	        call DestroyTimer( GetExpiredTimer() )
-	    elseif IsUnitHasAbility( boss, 'Avul' ) == false and BlzIsUnitInvulnerable(boss) == false then
+	    elseif IsUnitHasAbility( boss, 'Avul' ) == false and BlzIsUnitInvulnerable(boss) == false and IsUnitInTransport(boss, Fedor2_Train) == false then
 	    	call DestroyEffect( AddSpecialEffect( "Abilities\\Spells\\Items\\AIam\\AIamTarget.mdl", GetUnitX( boss ), GetUnitY( boss ) ) )
 	    	call BlzSetUnitBaseDamage( boss, BlzGetUnitBaseDamage(boss, 0) + ATTACK_BOOST, 0 )
 	    endif

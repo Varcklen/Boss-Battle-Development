@@ -2,22 +2,24 @@ scope Fedor2 initializer init
 
     globals
     	trigger gg_trg_Fedor2 = null
+    	public unit Train = null
     
         private constant integer ID_BOSS = 'h00B'
         private constant integer ID_TRAIN = 'h00C'
         private constant integer ID_INVUL = 'Avul'
         
-        private constant integer HEALTH_CHECK = 33
-        private constant integer COOLDOWN = 7
+        private constant integer HEALTH_CHECK = 40
+        private constant integer COOLDOWN = 4
         private constant integer DELAY = 3
         private constant real TICK = 0.04
-        private constant integer FLIGHT_LENGTH = 24
-        private constant integer DAMAGE = 40
-        private constant integer SPEED = 42
-        private constant integer AREA = 128
-        private constant integer WAVES = 3
+        private constant integer FLIGHT_LENGTH = 40
+        private constant integer DAMAGE = 55
+        private constant integer SPEED = 24
+        private constant integer AREA = 350
+        private constant real WAVE_SIZE_MULTIPLIER = AREA / 128
+        /*private constant integer WAVES = 3
         private constant integer START_ANGLE = -90
-        private constant integer ANGLE_DIFFERENCE = 45
+        private constant integer ANGLE_DIFFERENCE = 45*/
         
         private constant string WAVE_ANIMATION = "Abilities\\Spells\\Orc\\Shockwave\\ShockwaveMissile.mdl"
         private constant string TELEPORT_ANIMATION = "Abilities\\Spells\\Human\\MassTeleport\\MassTeleportCaster.mdl"
@@ -84,6 +86,8 @@ scope Fedor2 initializer init
         local integer id
     
         set wave = AddSpecialEffect( WAVE_ANIMATION, GetUnitX(train), GetUnitY(train))
+        call BlzSetSpecialEffectScale(wave, WAVE_SIZE_MULTIPLIER)
+        
         call BlzSetSpecialEffectYaw( wave, Deg2Rad(angle) )
         
         set id = InvokeTimerWithEffect( wave, "bsfdw", TICK, true, function WaveUse )
@@ -108,12 +112,7 @@ scope Fedor2 initializer init
         	endif
             call DestroyTimer( GetExpiredTimer() )
         else
-            set i = 1
-            loop
-                exitwhen i > WAVES
-                call CreateWave( boss, train, GetUnitFacing( train ) + START_ANGLE + ( i * ANGLE_DIFFERENCE ) )
-                set i = i + 1
-            endloop
+            call CreateWave( boss, train, GetUnitFacing( train ) /*+ START_ANGLE + ( i * ANGLE_DIFFERENCE )*/ )
             call aggro( train )
         endif
         
@@ -189,6 +188,7 @@ scope Fedor2 initializer init
         set train = CreateUnit( GetOwningPlayer( boss ), ID_TRAIN, GetRectCenterX(udg_Boss_Rect) - 2000, GetRectCenterY(udg_Boss_Rect) + 600, 0 )
         call IssuePointOrder( train, "move", GetUnitX( boss ), GetUnitY( boss ) )
         call SetUnitPathing( train, false )
+        set Train = train
         
         set id = InvokeTimerWithUnit(boss, "bsfd", DELAY, false, function FedorCast )
         call SaveUnitHandle( udg_hash, id, StringHash( "bsfdtr" ), train )
