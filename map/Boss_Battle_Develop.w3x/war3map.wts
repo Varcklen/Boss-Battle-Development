@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.12.2T|r
+|cffbe81f7Boss Battle 1.12.4T|r
 }
 
 STRING 2
@@ -680,14 +680,8 @@ STRING 103
 Pharaoh Billy
 }
 
-STRING 104
-// Units: o00A (Wolf), EditorSuffix (Name - Editor Suffix)
-{
-(Тень)
-}
-
 STRING 105
-// Units: o00A (Wolf), Name (Name)
+// Units: n037 (Wolf), Name (Name)
 {
 Wolf
 }
@@ -1028,12 +1022,6 @@ STRING 157
 // Units: n03E (Stroke), Ubertip (Tooltip - Extended)
 {
 Pet Mr. Bonnie.
-}
-
-STRING 158
-// Units: n037 (Wolf), Name (Name)
-{
-Wolf
 }
 
 STRING 159
@@ -2081,6 +2069,12 @@ STRING 329
 // Units: h00M (Uther), Name (Name)
 {
 Uther
+}
+
+STRING 330
+// Units: n007 (The Sheep?), Name (Name)
+{
+The Sheep?
 }
 
 STRING 331
@@ -5928,12 +5922,9 @@ Soul Thief
 }
 
 STRING 927
-// Abilities: A0XX (|cffffcc00Уровень 3:|r Вор душ), Ubertip (Tooltip - Normal - Extended)
+// Items: I0HZ (Locked Item), Description (Description)
 {
-- It has a maximum speed of movement.
-- |cff00cceeAt 75% health:|r Every 7 seconds, zones appear under the heroes. After 3 seconds, they explode, inflicting |cffbe81f7250|r damage.
-- |cff00cceeAt 50% health:|r Every 5 seconds reduces the movement speed of heroes by 50% for 2 seconds.
-- |cff00cceeAt 25% health:|r Movement speed decreases more often.
+Your [|cffffcc00Item|r] is locked. Kill the Chief of the Guard or complete the encounter to unlock the item.
 }
 
 STRING 928
@@ -20947,6 +20938,13 @@ STRING 3135
 - |cff00cceeAt 35% health:|r The boss summons hordes of Arachnathids at the edges of the arena.
 }
 
+STRING 3136
+// Items: I0HY (Mischievous Soul), Description (Description)
+{
+|cffC71585Cursed|r
+Decreases stats by 4.
+}
+
 STRING 3137
 // Items: I00D (Runestone Fandom), Description (Description)
 {
@@ -22114,6 +22112,18 @@ Taunt an enemy to attack you for 5 seconds and gain |cffbe81f7320|r Shield.
 |cffffcc00Cooldown:|r 12 seconds.
 }
 
+STRING 3320
+// Items: I0HY (Mischievous Soul), Name (Name)
+{
+Mischievous Soul
+}
+
+STRING 3321
+// Items: I0HY (Mischievous Soul), Tip (Tooltip - Basic)
+{
+Mischievous Soul
+}
+
 STRING 3322
 // Abilities: A1CV ((т)Аура: Spinal Blast), Name (Name)
 {
@@ -22267,6 +22277,23 @@ STRING 3344
 // Abilities: A1CS (The Plague: Neurotoxin), Tip (Tooltip - Normal)
 {
 Neurotoxin, [|cffffcc00Level 1|r]
+}
+
+STRING 3345
+// Items: I0HY (Mischievous Soul), Ubertip (Tooltip - Extended)
+{
+|cffC71585Cursed|r
+Decreases stats by 4.
+}
+
+STRING 3346
+// Abilities: A0XX (|cffffcc00Уровень 3:|r Вор душ), Ubertip (Tooltip - Normal - Extended)
+{
+- The boss has high movement speed.
+- Fills each hero's inventory with Mischievous Souls.
+- |cff00cceeAt 90% health:|r Every 7 seconds, zones appear under the heroes. After 3 seconds, they explode, inflicting |cffbe81f7250|r damage.
+- |cff00cceeAt 60% health:|r Every 5 seconds reduces the movement speed of heroes by 50% for 2 seconds.
+- |cff00cceeAt 30% health:|r Movement speed decreases more often.
 }
 
 STRING 3347
@@ -28656,6 +28683,12 @@ STRING 4347
 Aspect of Proficiency
 }
 
+STRING 4348
+// Abilities: A06D (|cffffcc00Уровень 3:|r The Sheep?), Name (Name)
+{
+|cffffcc00Уровень 3:|r The Sheep?
+}
+
 STRING 4349
 // Abilities: A16B (Aspect: Armsmaster: Aspect of Defense), Name (Name)
 {
@@ -30047,6 +30080,12 @@ Select a point. Creates an orb, teleports the hero and restores |cffbe81f735|r m
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
+STRING 4565
+// Abilities: A06D (|cffffcc00Уровень 3:|r The Sheep?), Tip (Tooltip - Normal)
+{
+The Sheep?
+}
+
 STRING 4566
 // Abilities: A14V (Инкуб: Dark past), Name (Name)
 {
@@ -30667,6 +30706,16 @@ STRING 4662
 |cff4169e1Rare|r, |cffb40431Blood|r
 When an ally heals or restores mana to you, copy 60% of the amount back to them.
 |cff81f260[Random bonus]|r
+}
+
+STRING 4663
+// Abilities: A06D (|cffffcc00Уровень 3:|r The Sheep?), Ubertip (Tooltip - Normal - Extended)
+{
+- Ranged attack.
+- Every 3 seconds, creates an area. If a boss's enemy is in it after 3 seconds, they transform into a sheep for 5 seconds. Otherwise, the area disappears.
+- |cff00cceeAt 75% health:|r The boss summons 12 sheep and hides among them. They have 100 Health more.
+- |cff00cceeAt 50% health:|r Creates an area under each hero. This area has 1 second cooldown.
+- |cff00cceeAt 25% health:|r The boss summons 12 sheep and hides among them. They have 100 Health more.
 }
 
 STRING 4664
@@ -35235,14 +35284,9 @@ STRING 5365
 }
 
 STRING 5366
-// Abilities: A00J (|cffffcc00Уровень 4:|r Мастер клинков), Ubertip (Tooltip - Normal - Extended)
+// Items: I0HZ (Locked Item), Name (Name)
 {
-- Creates flying glaives near to the heroes. It slowly follows the heroes. Each glaive deals 20 damage.
-- |cff00cceeAt 90% health:|r Every 12 seconds, jumps on a random enemy, deals |cffbe81f7100|r damage.
-- |cff00cceeAt 80% health:|r Every 8 seconds it sets a trap. If you go into it, it reduces the target’s movement speed by 80%.
-|cffffcc00Duration:|r 5 seconds.
-- |cff00cceeAt 40% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
-- |cff00cceeAt 20% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
+Locked Item
 }
 
 STRING 5367
@@ -39535,15 +39579,21 @@ Activation: |cFFE16B90Forge|r an artifact and place it in the future artifact re
 }
 
 STRING 6015
-// Units: n007 (Mysterious Hero), Name (Name)
+// Items: I0HZ (Locked Item), Tip (Tooltip - Basic)
 {
-Mysterious Hero
+Locked Item
 }
 
 STRING 6016
 // Abilities: A1IG (.General: Difficulty Stat Ignore), Name (Name)
 {
 .General: Difficulty Stat Ignore
+}
+
+STRING 6017
+// Abilities: A1JP (Stats (Mischievous Soul)), Name (Name)
+{
+Stats (Mischievous Soul)
 }
 
 STRING 6018
@@ -40805,6 +40855,16 @@ STRING 6212
 (Радиус)
 }
 
+STRING 6213
+// Abilities: A00J (|cffffcc00Уровень 4:|r Мастер клинков), Ubertip (Tooltip - Normal - Extended)
+{
+- Creates flying glaives near to the heroes. They slowly follows the heroes. Each glaive periodically deals |cffbe81f720|r damage.
+- Every 8 seconds, jumps on a random enemy hero, deals |cffbe81f7100|r damage.
+- |cff00cceeAt 80% health:|r Creates a trap. Repeats every 6 seconds. If you go into it, it deals |cffbe81f7100|r damage and reduces the target’s movement speed by 80% for 5 seconds.
+- |cff00cceeAt 40% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
+- |cff00cceeAt 20% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
+}
+
 STRING 6214
 // Abilities: A0RN (Potion: Огненный шторм), Researchtip (Tooltip - Learn)
 {
@@ -41117,6 +41177,12 @@ STRING 6264
 Legionary: Blade of Fire
 }
 
+STRING 6265
+// Items: I0HZ (Locked Item), Ubertip (Tooltip - Extended)
+{
+Your [|cffffcc00Item|r] is locked. Kill the Chief of the Guard or complete the encounter to unlock the item.
+}
+
 STRING 6266
 // Abilities: A08L (Legionary: Blade of Fire), Researchtip (Tooltip - Learn)
 {
@@ -41147,6 +41213,15 @@ STRING 6270
 // Abilities: A08L (Legionary: Blade of Fire), Tip (Tooltip - Normal)
 {
 Blade of Fire, [|cffffcc00Level 3|r]
+}
+
+STRING 6271
+// Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Ubertip (Tooltip - Normal - Extended)
+{
+- When it attacks a Hero, it burns |cffbe81f720|r mana. If the Hero has no mana, deals an additional 175% damage.
+- |cff00cceeAt 95% health:|r Burns |cffbe81f720|r mana for all heroes. Repeats every 8 seconds.
+- |cff00cceeAt 50% health:|r The attacks burns 100% more mana. Creates 6 mana sources, each of which deals |cffbe81f730|r damage to restore |cffbe81f730|r mana.
+- |cff00cceeAt 25% health:|r Burns all mana for all heroes.
 }
 
 STRING 6273
@@ -42021,6 +42096,18 @@ STRING 6409
 // Abilities: A0QE (Blessing: Торговля (g13)), Tip (Tooltip - Normal)
 {
 |cffffcc00Blessing:|r Trade
+}
+
+STRING 6410
+// Abilities: A06F (|cffffcc00Уровень 4:|r Спящий огр), Ubertip (Tooltip - Normal - Extended)
+{
+- Strong attacks.
+- The boss starts the fight in a dream.
+- Deals damage to nearby enemies.
+- After 40 seconds, after the start of the battle, the boss wakes up.
+- Upon awakening, reduces movement speed by 80% for all nearby boss enemies for 5 seconds.
+- After waking up every 12 seconds, the boss, after a short delay, emits a wave, causing |cffbe81f7300|r damage.
+- |cff00cceeAt 30% health:|r The boss wakes up.
 }
 
 STRING 6411
@@ -43130,6 +43217,17 @@ STRING 6583
 // Abilities: A0OP (|cffffcc00Уровень 1:|r Каменный голем), Name (Name)
 {
 |cffffcc00Уровень 1:|r Каменный голем
+}
+
+STRING 6584
+// Abilities: A16Z (|cffffcc00Уровень 4:|r Начальник стражи), Ubertip (Tooltip - Normal - Extended)
+{
+- Attacks silence the target for 3 seconds.
+- When any hero dies, restores |cffbe81f77%|r of health to the boss.
+- Every 12 seconds, creates a projectile that pursues a hero. After 3 seconds, the projectile explodes, draining |cffbe81f740%|r of mana and killing minions. The explosion does not affect the target being pursued.
+- Every 35 seconds, locks a random item in each hero's inventory. 
+- |cff00cceeAt 80%, 50% and 30% health:|r Removes all buffs from the boss and heroes.
+- |cff00cceeAt 35% health:|r Suppresses healing magic. Heroes cannot restore health.
 }
 
 STRING 6585
@@ -58752,15 +58850,6 @@ STRING 8998
 Босс 4: Манадракон (Аура)XXX
 }
 
-STRING 8999
-// Abilities: A0AS (|cffffcc00Уровень 4:|r Манадракон), Ubertip (Tooltip - Normal - Extended)
-{
-- When it attacks a Hero, it burns |cffbe81f740|r mana. If the Hero has no mana, deals an additional 175% damage with attack.
-- |cff00cceeAt 75% health:|r Every 10 seconds, burns |cffbe81f720|r mana for all heroes.
-- |cff00cceeAt 50% health:|r The boss burns 100% more mana. Creates 6 mana sources, each of which deals |cffbe81f730|r damage to restore |cffbe81f730|r mana.
-- |cff00cceeAt 25% health:|r Burns all mana for all heroes.
-}
-
 STRING 9000
 // Units: h022 (Box of Gold), Name (Name)
 {
@@ -59035,6 +59124,12 @@ STRING 9041
 Set "|cffb18904Mech|r"
 }
 
+STRING 9042
+// Units: o00A (Shadow of the Wolf), Name (Name)
+{
+Shadow of the Wolf
+}
+
 STRING 9043
 // Abilities: A07I (Scarab: Sap), Hotkey (Hotkey - Normal)
 {
@@ -59069,6 +59164,16 @@ STRING 9048
 // Abilities: A08A (Набор "|cff9001fdКольцо|r"), Tip (Tooltip - Normal)
 {
 Set "|cff9001fdRing|r"
+}
+
+STRING 9049
+// Abilities: A0Y6 (|cffffcc00Уровень 4:|r Темный колдун), Ubertip (Tooltip - Normal - Extended)
+{
+- Ranged attacks.
+- When your units cast, they lose 25 Health.
+- Every 6 seconds, creates a vortex under the hero, which periodically deals |cffbe81f730|r damage.
+- |cff00cceeAt 60% health:|r Reduces movement speed of a random hero by 80% for 8 seconds. Repeats each 16 seconds.
+- |cff00cceeAt 30% health:|r Creates 20 vortexes throughout the arena.
 }
 
 STRING 9050
@@ -60854,12 +60959,6 @@ STRING 9328
 |cffffcc00Уровень 4:|r Тень Волка
 }
 
-STRING 9329
-// Abilities: A06M (|cffffcc00Уровень 4:|r Тень Волка), Tip (Tooltip - Normal)
-{
-Shadow of the wolf
-}
-
 STRING 9330
 // Abilities: A0FB (Lord of Chaos: Despicable), Ubertip (Tooltip - Normal - Extended)
 {
@@ -61025,9 +61124,9 @@ Uses a random activated |cff60C445Unique|r.
 }
 
 STRING 9355
-// Abilities: A06D (|cffffcc00Уровень 3:|r Великий герой), Name (Name)
+// Abilities: A06M (|cffffcc00Уровень 4:|r Тень Волка), Tip (Tooltip - Normal)
 {
-|cffffcc00Уровень 3:|r Великий герой
+Shadow of the Wolf
 }
 
 STRING 9356
@@ -63250,6 +63349,21 @@ STRING 9699
 Unreachable [|cffffcc00Level 5|r]
 }
 
+STRING 9700
+// Abilities: A06M (|cffffcc00Уровень 4:|r Тень Волка), Ubertip (Tooltip - Normal - Extended)
+{
+- Shadow copies dies, if they receive damage from magic 4 times.
+- |cff00cceeAt 90% health:|r Summons 6 shadow copies. They live for 10 seconds.
+- |cff00cceeAt 75% health:|r Summons 2 shadow copies. They have 30% more Attack Damage.
+- |cff00cceeAt 25% health:|r The boss dissolves in the shadows. Summons 2 shadow copies to each hero. When all the shadow copies die, the boss will return to the battlefield with increased Attack Speed and Attack Damage by 30%.
+}
+
+STRING 9701
+// Abilities: A1JQ (Boss 4: Shadow Copy), Name (Name)
+{
+Boss 4: Shadow Copy
+}
+
 STRING 9702
 // Items: I02L (Boom Machine), Name (Name)
 {
@@ -65360,6 +65474,12 @@ STRING 10019
 Усилитель 6: МонструозныйXXX
 }
 
+STRING 10020
+// Abilities: A1JQ (Boss 4: Shadow Copy), Tip (Tooltip - Normal)
+{
+Shadow Copy
+}
+
 STRING 10021
 // Abilities: A0AQ (|cffffcc00Уровень 2:|r Белый медведь), Tip (Tooltip - Normal)
 {
@@ -66109,6 +66229,12 @@ STRING 10137
 // Abilities: A1DO (Shepherd: Lure), Hotkey (Hotkey - Normal)
 {
 R
+}
+
+STRING 10138
+// Abilities: A1JQ (Boss 4: Shadow Copy), Ubertip (Tooltip - Normal - Extended)
+{
+If a unit receives magic damage 4 times, it dies.
 }
 
 STRING 10139
@@ -72190,7 +72316,7 @@ STRING 11128
 }
 
 STRING 11129
-// Units: n007 (Mysterious Hero), EditorSuffix (Name - Editor Suffix)
+// Units: n007 (The Sheep?), EditorSuffix (Name - Editor Suffix)
 {
 (Level 3)
 }
@@ -72697,7 +72823,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.12.2T|r
+|cffbe81f7Boss Battle 1.12.4T|r
 }
 
 STRING 11219
@@ -74910,16 +75036,6 @@ STRING 11558
 Moon Blinking, [|cffffcc00Level %d|r]
 }
 
-STRING 11559
-// Abilities: A16Z (|cffffcc00Уровень 4:|r Начальник стражи), Ubertip (Tooltip - Normal - Extended)
-{
-- Silence the target for 4 seconds when attacking.
-- When the hero dies, restores |cffbe81f710%|r of the maximum health.
-- Every 12 seconds, marks a random hero. After 3 seconds, an explosion occurs, which takes away mana from all opponents in area, except for the marked hero, |cffbe81f740%|r of the maximum mana pool and kills if the target is a minion.
-- |cff00cceeAt 80%, 50% and 30% health:|r Removes all effects from the boss and heroes.
-- |cff00cceeAt 35% health:|r Suppresses healing magic. Heroes can no longer restore health with abilities and items.
-}
-
 STRING 11560
 // Abilities: A0EF (Keeper: Moon Blinking), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -75099,18 +75215,6 @@ Creates a shield for all heroes that absorbs |cffbe81f7350|r damage. Grants an a
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 11584
-// Abilities: A06F (|cffffcc00Уровень 4:|r Спящий огр), Ubertip (Tooltip - Normal - Extended)
-{
-- Strong attacks.
-- The boss starts the fight in a dream.
-- Deals damage to nearby enemies.
-- After 40 seconds, after the start of the battle, the boss wakes up.
-- Upon awakening, reduces movement speed by 80% for all nearby boss enemies for 5 seconds.
-- After waking up every 10 seconds, the boss, after a short delay, emits a wave, causing |cffbe81f7200|r damage.
-- |cff00cceeAt 40% health:|r The boss wakes up.
-}
-
 STRING 11585
 // Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
 {
@@ -75214,14 +75318,6 @@ STRING 11599
 - |cff00cceeAt 25% health:|r Increases attack speed by another 15%. Summons 8 Power Totems.
 }
 
-STRING 11600
-// Abilities: A06M (|cffffcc00Уровень 4:|r Тень Волка), Ubertip (Tooltip - Normal - Extended)
-{
-- |cff00cceeAt 90% health:|r Summons 4 ghostly copies for 15 seconds.
-- |cff00cceeAt 75% health:|r Summons 2 ghostly copies.
-- |cff00cceeAt 25% health:|r The boss dissolves in the shadows. Summons 2 ghostly copies for each hero. When all the ghostly copies die, the boss will return to the battlefield and increase his attack speed by 70%.
-}
-
 STRING 11601
 // Abilities: A06L (|cffffcc00Уровень 10:|r Колдун), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75290,15 +75386,6 @@ STRING 11608
 // Buffs/Effects: B0BA (), Bufftip (Tooltip)
 {
 |cffff0000Dizzy|r
-}
-
-STRING 11609
-// Abilities: A06D (|cffffcc00Уровень 3:|r Великий герой), Ubertip (Tooltip - Normal - Extended)
-{
-- ???
-- |cff00cceeAt 75% health: |r???
-- |cff00cceeAt 50% health:|r ???
-- |cff00cceeAt 25% health:|r ???
 }
 
 STRING 11610
@@ -77621,17 +77708,6 @@ STRING 11951
 Dark Sorcerer
 }
 
-STRING 11952
-// Abilities: A0Y6 (|cffffcc00Уровень 4:|r Темный колдун), Ubertip (Tooltip - Normal - Extended)
-{
-- Ranged attacks.
-- When your units cast, they lose 25 Health.
-- |cff00cceeAt 90% health:|r Every 7 seconds it creates a shadow zone under a random hero, which deals |cffbe81f730|r damage.
-- |cff00cceeAt 60% health:|r Every 18 seconds reduces the attack speed and movement of a random hero by 80%.
-|cffffcc00Duration:|r 10 seconds.
-- |cff00cceeAt 30% health:|r Creates 20 shadow zones throughout the arena.
-}
-
 STRING 11953
 // Abilities: A1HT (Аура: Doom), Name (Name)
 {
@@ -79222,12 +79298,6 @@ STRING 12193
 Activation: Summons an army of sheeps.
 |cffffcc00Life time:|r 18 seconds.
 |cffffcc00Cooldown:|r 60 seconds.
-}
-
-STRING 12194
-// Abilities: A06D (|cffffcc00Уровень 3:|r Великий герой), Tip (Tooltip - Normal)
-{
-Mysterious Hero
 }
 
 STRING 12195

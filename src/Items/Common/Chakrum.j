@@ -9,7 +9,7 @@ scope Chakrum initializer init
 	endglobals
 
 	private function condition takes nothing returns boolean
-	    return udg_IsDamageSpell == false and isChakrum == false
+	    return udg_IsDamageSpell == false and isChakrum == false and IsPrimaryTarget
 	endfunction
 	
 	private function result takes nothing returns nothing

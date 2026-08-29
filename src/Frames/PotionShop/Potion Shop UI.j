@@ -4,6 +4,8 @@ library PotionShopUI initializer init requires TextLib, PotionShopDatabase
         private constant integer ROWS = 4
         private constant integer COLUMNS = 3
         private constant real SPACE_LINE = 0.06 
+        
+        private constant string ANIMATION = "Units\\Creeps\\HeroTinkerFactory\\HeroTinkerFactoryMissle.mdl"
     
         private framehandle Backdrop = null 
         private framehandle CloseButton = null 
@@ -12,10 +14,10 @@ library PotionShopUI initializer init requires TextLib, PotionShopDatabase
     
     private function IsInvalidToBuy takes player triggerPlayer, unit hero, integer cost, integer itemType returns boolean
 		if GetPlayerState(triggerPlayer, PLAYER_STATE_RESOURCE_GOLD) < cost then
-			call ErrorMessage(triggerPlayer, "You can't purchase the potion. You don't have enough gold.")
+			call ErrorMessage(triggerPlayer, "|cffffcc00You can't purchase the potion.|r You don't have enough gold.")
 			return true
 		elseif ItemManipulation_IsInventoryFull(hero) and inv(hero, itemType) == 0 then
-			call ErrorMessage(triggerPlayer, "You can't purchase the potion. Your inventory is full.")
+			call ErrorMessage(triggerPlayer, "|cffffcc00You can't purchase the potion.|r Your inventory is full.")
 			return true
 		elseif hero == null then
 			return true
@@ -70,6 +72,7 @@ library PotionShopUI initializer init requires TextLib, PotionShopDatabase
 			call UnitAddItem( hero, CreateItem( itemType, GetUnitX(hero), GetUnitY(hero) ) )
 		endif
 
+		call DestroyEffect( AddSpecialEffectTarget( ANIMATION, hero, "origin" ) )
         call SetPlayerState( triggerPlayer, PLAYER_STATE_RESOURCE_GOLD, IMaxBJ( 0, GetPlayerState(triggerPlayer, PLAYER_STATE_RESOURCE_GOLD) - cost ) )
         
         set triggerPlayer = null

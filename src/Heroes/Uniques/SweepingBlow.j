@@ -19,6 +19,9 @@ scope SweepingBlow initializer init
 		if LoopBrake then
 			return false
 		endif
+		if IsPrimaryTarget == false then
+			return false
+		endif
 		if UnitHasBuffBJ(udg_DamageEventSource, ABILITY_ID) then
 			return true
 		endif

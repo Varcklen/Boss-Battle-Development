@@ -242,6 +242,7 @@ library LibDataBoss
 	    set DB_Trigger_Boss[3][31] = gg_trg_Thief1
 	    set DB_Trigger_Boss[3][32] = gg_trg_Thief2
 	    set DB_Trigger_Boss[3][33] = gg_trg_Thief3
+	    set DB_Trigger_Boss[3][34] = Thief4_Trigger
 	    set DB_Trigger_Boss[3][41] = gg_trg_Illusionist1
 	    set DB_Trigger_Boss[3][42] = gg_trg_Illusionist2
 	    set DB_Trigger_Boss[3][43] = gg_trg_Illusionist3
@@ -270,9 +271,10 @@ library LibDataBoss
 	    set DB_Trigger_Boss[4][52] = gg_trg_Chief2
 	    set DB_Trigger_Boss[4][53] = gg_trg_Chief3
 	    set DB_Trigger_Boss[4][54] = gg_trg_Chief4
-	    set DB_Trigger_Boss[4][55] = gg_trg_Chief5
-	    set DB_Trigger_Boss[4][56] = gg_trg_Chief6
-	    set DB_Trigger_Boss[4][57] = gg_trg_Chief7
+	    set DB_Trigger_Boss[4][55] = Chief5_Trigger1
+	    set DB_Trigger_Boss[4][56] = Chief5_Trigger2
+	    set DB_Trigger_Boss[4][57] = Chief5_Trigger3
+	    set DB_Trigger_Boss[4][58] = Chief6_Trigger
 	    set DB_Trigger_Boss[5][1] = gg_trg_Manipulator1
 	    set DB_Trigger_Boss[5][2] = gg_trg_Manipulator2
 	    set DB_Trigger_Boss[5][3] = gg_trg_Manipulator3
