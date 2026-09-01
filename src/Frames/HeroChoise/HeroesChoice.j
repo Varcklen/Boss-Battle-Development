@@ -175,6 +175,8 @@ scope HeroesChoise initializer init
         elseif udg_number[index + 100] == 5 then
         	call luckyst( hero, 5 )
         endif
+        call BlzSetUnitMaxMana( hero, BlzGetUnitMaxMana(hero) + HeroesTableDatabase_EXTRA_MANA )
+        call BlzSetUnitMaxHP( hero, BlzGetUnitMaxHP(hero) + HeroesTableDatabase_EXTRA_HEALTH )
 
         call SetUnitPosition( hero, position.x, position.y )
         call SetUnitFacing( hero, position.facing )
@@ -183,6 +185,7 @@ scope HeroesChoise initializer init
         if udg_combatlogic[index] == false and udg_Boss_LvL == 1 then
             call KillUnit( hero )
         endif
+        call SetUnitState( hero, UNIT_STATE_LIFE, GetUnitState( hero, UNIT_STATE_MAX_LIFE ) )
         call SetUnitState( hero, UNIT_STATE_MANA, GetUnitState( hero, UNIT_STATE_MAX_MANA ) )
         
         call position.destroy()

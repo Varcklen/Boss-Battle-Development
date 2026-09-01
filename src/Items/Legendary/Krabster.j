@@ -94,21 +94,20 @@ scope Krabster initializer init
 		if udg_fightmod[3] == false and combat(caster, false, 0) then
 			set randMax = 5
 		else
-			set randMax = 3
+			set randMax = 2
 		endif
 		set rand = GetRandomInt(1, randMax)
 		/*call BJDebugMsg("rand: " + I2S(rand))
 		call BJDebugMsg("randMax: " + I2S(randMax))*/
 	    if rand == 1 then
-	    	call PotionCast(caster)
+	    	call CrabSummon(caster, target)
 	    elseif rand == 2 then
 	    	call BuffGain(caster)
 	    elseif rand == 3 then
-	    	call CrabSummon(caster, target)
+	    	call PotionCast(caster)
 	    elseif rand == 4 then
 	    	call GoldGain(caster)
 	    elseif rand == 5 then
-	    	//call BJDebugMsg("stat")
 	    	call StatGain(caster)
 	    endif
 	endfunction

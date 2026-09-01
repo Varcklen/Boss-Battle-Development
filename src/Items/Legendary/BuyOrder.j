@@ -57,6 +57,9 @@ scope BuyOrder initializer init
        		call textst( "|c00909090 Deficit!", u, 64, 90, 10, 1 )
    	    endif
    	    call IconFrame( "buy_order", "war3mapImported\\BTNSpy.blp", GetItemName(it), "Next time Jule's shop is refreshed, there will be more copies of |cffffcc00" + GetItemName(GetSpellTargetItem()) + "|r in stock." )
+    	call StartSound(gg_snd_QuestLog)
+    	call DisplayTimedTextToForce( bj_FORCE_ALL_PLAYERS, 5, "|cffffcc00" + GetItemName(it) + "|r is active! There will be more |cffffcc00" + GetItemName(GetSpellTargetItem()) + "|r in the next stock." )
+    	
     	set isActive = true
     	call stazisst( u, it )
     	

@@ -680,6 +680,12 @@ STRING 103
 Pharaoh Billy
 }
 
+STRING 104
+// Units: n03W (Hawk), EditorSuffix (Name - Editor Suffix)
+{
+(Dryad)
+}
+
 STRING 105
 // Units: n037 (Wolf), Name (Name)
 {
@@ -1022,6 +1028,12 @@ STRING 157
 // Units: n03E (Stroke), Ubertip (Tooltip - Extended)
 {
 Pet Mr. Bonnie.
+}
+
+STRING 158
+// Units: n03H (Bear), EditorSuffix (Name - Editor Suffix)
+{
+(Dryad)
 }
 
 STRING 159
@@ -9476,16 +9488,6 @@ STRING 1441
 Sandro's Gift
 }
 
-STRING 1442
-// Items: I050 (Sheep Mantle), Description (Description)
-{
-|cff4169e1Rare|r
-Transforms all nearby enemies into sheep for 5 seconds. Summon 2 sheep for each affected target.
-|cffffcc00Life time:|r 20 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
 STRING 1443
 // Items: I03F (Sandro's Gift), Tip (Tooltip - Basic)
 {
@@ -9497,15 +9499,6 @@ STRING 1444
 {
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cff4169e1rare|r item 10 times |cFF959697(10/10)|r.
-}
-
-STRING 1445
-// Items: I050 (Sheep Mantle), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Transforms all nearby enemies into sheep for 5 seconds. Summon 2 sheep for each affected target.
-|cffffcc00Life time:|r 20 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
 }
 
 STRING 1446
@@ -9963,14 +9956,6 @@ STRING 1513
 Anung Un Rama
 }
 
-STRING 1514
-// Items: I0BE (Tarot Card: Sheep), Description (Description)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Summons 40 sheeps under your control. Only works in combat.
-|cffffcc00Life time:|r 60 seconds.
-}
-
 STRING 1515
 // Items: I0BE (Tarot Card: Sheep), Name (Name)
 {
@@ -9981,14 +9966,6 @@ STRING 1516
 // Items: I0BE (Tarot Card: Sheep), Tip (Tooltip - Basic)
 {
 Tarot Card: Sheep
-}
-
-STRING 1517
-// Items: I0BE (Tarot Card: Sheep), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Summons 40 sheeps under your control. Only works in combat.
-|cffffcc00Life time:|r 60 seconds.
 }
 
 STRING 1518
@@ -12671,14 +12648,6 @@ Enemies become stronger with each battle.
 Enemies become stronger every few minutes of battle.
 }
 
-STRING 1908
-// Items: I08O (Elune's Glyph), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Increases mana regeneration by 150%.
-If the hero is invisible, additionally increases mana regeneration by 1500%.
-}
-
 STRING 1909
 // Items: I08O (Elune's Glyph), Name (Name)
 {
@@ -12689,14 +12658,6 @@ STRING 1910
 // Items: I08O (Elune's Glyph), Tip (Tooltip - Basic)
 {
 Elune's Glyph
-}
-
-STRING 1911
-// Items: I08O (Elune's Glyph), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Increases mana regeneration by 150%.
-If the hero is invisible, additionally increases mana regeneration by 1500%.
 }
 
 STRING 1912
@@ -22284,16 +22245,6 @@ STRING 3345
 {
 |cffC71585Cursed|r
 Decreases stats by 4.
-}
-
-STRING 3346
-// Abilities: A0XX (|cffffcc00Уровень 3:|r Вор душ), Ubertip (Tooltip - Normal - Extended)
-{
-- The boss has high movement speed.
-- Fills each hero's inventory with Mischievous Souls.
-- |cff00cceeAt 90% health:|r Every 7 seconds, zones appear under the heroes. After 3 seconds, they explode, inflicting |cffbe81f7250|r damage.
-- |cff00cceeAt 60% health:|r Every 5 seconds reduces the movement speed of heroes by 50% for 2 seconds.
-- |cff00cceeAt 30% health:|r Movement speed decreases more often.
 }
 
 STRING 3347
@@ -38859,12 +38810,6 @@ STRING 5902
 Influx now lasts 15 seconds, but restores the target for |cffbe81f710%|r of the final healing every 3 seconds.
 }
 
-STRING 5903
-// Abilities: A0TQ (MP/sec (Знак Лордера+)), Name (Name)
-{
-MP/sec (Знак Лордера+)
-}
-
 STRING 5904
 // Abilities: A0TP (Harpy: Concentration), Name (Name)
 {
@@ -41224,6 +41169,12 @@ STRING 6271
 - |cff00cceeAt 25% health:|r Burns all mana for all heroes.
 }
 
+STRING 6272
+// Units: n037 (Wolf), EditorSuffix (Name - Editor Suffix)
+{
+(Dryad)
+}
+
 STRING 6273
 // Abilities: A17W (Money Bag: Composure), Ubertip (Tooltip - Normal - Extended)
 {
@@ -42134,12 +42085,6 @@ STRING 6414
 Increases attack power and spell power by 10%.
 }
 
-STRING 6415
-// Abilities: A0QB (MP/sec (Знак Лордера)), Name (Name)
-{
-MP/sec (Знак Лордера)
-}
-
 STRING 6416
 // Items: I05K (Old Healer), Name (Name)
 {
@@ -42671,16 +42616,6 @@ STRING 6496
 Pinnacle of Darkness, [|cffffcc00Level %d|r]
 }
 
-STRING 6497
-// Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Researchubertip (Tooltip - Learn - Extended)
-{
-Immobilizes all nearby enemies and summons 2 ghouls to each enemy.
-|cffffcc00Duration:|r 2/3/4/5/6 seconds.
-|cffffcc00Life time:|r 8/10/12/14/16 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 80 mana.
-}
-
 STRING 6498
 // Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Tip (Tooltip - Normal)
 {
@@ -42709,51 +42644,6 @@ STRING 6502
 // Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Tip (Tooltip - Normal)
 {
 Pinnacle of Darkness, [|cffffcc00Level 5|r]
-}
-
-STRING 6503
-// Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Ubertip (Tooltip - Normal - Extended)
-{
-Immobilizes all nearby enemies and summons 2 ghouls to each enemy.
-|cffffcc00Duration:|r 2 seconds.
-|cffffcc00Life time:|r 8 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6504
-// Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Ubertip (Tooltip - Normal - Extended)
-{
-Immobilizes all nearby enemies and summons 2 ghouls to each enemy.
-|cffffcc00Duration:|r 3 seconds.
-|cffffcc00Life time:|r 10 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6505
-// Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Ubertip (Tooltip - Normal - Extended)
-{
-Immobilizes all nearby enemies and summons 2 ghouls to each enemy.
-|cffffcc00Duration:|r 4 seconds.
-|cffffcc00Life time:|r 12 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6506
-// Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Ubertip (Tooltip - Normal - Extended)
-{
-Immobilizes all nearby enemies and summons 2 ghouls to each enemy.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Life time:|r 14 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 6507
-// Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Ubertip (Tooltip - Normal - Extended)
-{
-Immobilizes all nearby enemies and summons 2 ghouls to each enemy.
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Life time:|r 16 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 6508
@@ -48416,60 +48306,10 @@ STRING 7378
 Бонус: Мешочек таинств
 }
 
-STRING 7379
-// Abilities: A0JK (Unique: Vital energy (+)), Name (Name)
-{
-Unique: Vital energy (+)
-}
-
-STRING 7380
-// Abilities: A0JK (Unique: Vital energy (+)), Tip (Tooltip - Normal)
-{
-Vital energy
-}
-
-STRING 7381
-// Abilities: A0JK (Unique: Vital energy (+)), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-When the hero attacks, heals the hero |cffbe81f720%|r health from the damage done.
-}
-
-STRING 7382
-// Abilities: A0JJ (Unique: Vital energy), Name (Name)
-{
-Unique: Vital energy
-}
-
-STRING 7383
-// Abilities: A0JJ (Unique: Vital energy), Tip (Tooltip - Normal)
-{
-Vital energy
-}
-
-STRING 7384
-// Abilities: A0JJ (Unique: Vital energy), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-When the hero attacks, heals the hero |cffbe81f710%|r health from the damage done.
-}
-
-STRING 7385
-// Abilities: A0JI (Кабан: Поддержка), Name (Name)
-{
-Кабан: Поддержка
-}
-
 STRING 7386
-// Abilities: A0JI (Кабан: Поддержка), Tip (Tooltip - Normal)
+// Abilities: A0JI (Dryad Quilgoar: Support), Tip (Tooltip - Normal)
 {
 Support
-}
-
-STRING 7387
-// Abilities: A0JI (Кабан: Поддержка), Ubertip (Tooltip - Normal - Extended)
-{
-Every fourth attack deals additional damage equal to the hero agility.
 }
 
 STRING 7388
@@ -48585,7 +48425,7 @@ Wanderer: Veritus Mortuus
 }
 
 STRING 7406
-// Abilities: A0IA (Сокол: Vigilance), Hotkey (Hotkey - Normal)
+// Abilities: A0IA (Dryad Hawk: Vigilance), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -48694,7 +48534,7 @@ Druid: Oak skin
 }
 
 STRING 7423
-// Abilities: A0I0 (Dryad: Touch of life), Hotkey (Hotkey - Normal)
+// Abilities: A0I0 (Dryad: Touch of Life), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -48806,44 +48646,14 @@ STRING 7438
 Аура: Растерзать
 }
 
-STRING 7439
-// Abilities: A0J8 (Волк: Критический удар), Name (Name)
-{
-Волк: Критический удар
-}
-
-STRING 7440
-// Abilities: A0J8 (Волк: Критический удар), Tip (Tooltip - Normal)
-{
-Critical hit
-}
-
-STRING 7441
-// Abilities: A0J8 (Волк: Критический удар), Ubertip (Tooltip - Normal - Extended)
-{
-When attacking, with a probability of |cffd7df0125%|r, it deals 100% more damage.
-}
-
-STRING 7442
-// Abilities: A0J7 (Медведь: Сильный удар), Name (Name)
-{
-Медведь: Сильный удар
-}
-
 STRING 7443
-// Abilities: A0J7 (Медведь: Сильный удар), Tip (Tooltip - Normal)
+// Abilities: A0AI (Босс 2: Белый медведь (Сильный удар)), Tip (Tooltip - Normal)
 {
 Swipe
 }
 
-STRING 7444
-// Abilities: A0J7 (Медведь: Сильный удар), Ubertip (Tooltip - Normal - Extended)
-{
-When attacking, with a probability of 25%, stuns the target for 1.5 seconds.
-}
-
 STRING 7445
-// Abilities: A0HW (Dryad: Call of nature), Hotkey (Hotkey - Normal)
+// Abilities: A0HW (Dryad: Call of Nature), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -48855,7 +48665,7 @@ Elemental: Quicksilver Vapors
 }
 
 STRING 7447
-// Abilities: A0HW (Dryad: Call of nature), Researchhotkey (Hotkey - Learn)
+// Abilities: A0HW (Dryad: Call of Nature), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -49091,7 +48901,7 @@ Freezes the target. If the target is already frozen, deals |cffbe81f7200|r damag
 }
 
 STRING 7482
-// Abilities: A0HP (Dryad: Second wind), Hotkey (Hotkey - Normal)
+// Abilities: A0HP (Dryad: Second Wind), Hotkey (Hotkey - Normal)
 {
 R
 }
@@ -49103,7 +48913,7 @@ Lord of Chaos: Illusions
 }
 
 STRING 7484
-// Abilities: A0HP (Dryad: Second wind), Researchhotkey (Hotkey - Learn)
+// Abilities: A0HP (Dryad: Second Wind), Researchhotkey (Hotkey - Learn)
 {
 R
 }
@@ -49753,24 +49563,10 @@ STRING 7580
 Q
 }
 
-STRING 7581
-// Abilities: A0IA (Сокол: Vigilance), Name (Name)
-{
-Сокол: Vigilance
-}
-
 STRING 7582
-// Abilities: A0IA (Сокол: Vigilance), Tip (Tooltip - Normal)
+// Abilities: A0IA (Dryad Hawk: Vigilance), Tip (Tooltip - Normal)
 {
 Vigilance
-}
-
-STRING 7583
-// Abilities: A0IA (Сокол: Vigilance), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by 4.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 7584
@@ -49789,13 +49585,6 @@ STRING 7586
 // Abilities: A0I9 (Dryad: Device), Researchtip (Tooltip - Learn)
 {
 Device, [|cffffcc00Level %d|r]
-}
-
-STRING 7587
-// Abilities: A0I9 (Dryad: Device), Researchubertip (Tooltip - Learn - Extended)
-{
-When the hero attacks, with a probability of |cffd7df012%/3%/4%/5%/6%|r increases the hero’s agility by 1.
-When the hero uses an ability or item, with a probability of |cffd7df012%/3%/4%/5%/6%|r increases hero's intelligence by 1.
 }
 
 STRING 7588
@@ -49828,41 +49617,6 @@ STRING 7592
 Device, [|cffffcc00Level 5|r]
 }
 
-STRING 7593
-// Abilities: A0I9 (Dryad: Device), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, with a probability of |cffd7df012%|r increases the hero’s agility by 1.
-When the hero uses an ability or item, with a probability of |cffd7df012%|r increases hero's intelligence by 1.
-}
-
-STRING 7594
-// Abilities: A0I9 (Dryad: Device), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, with a probability of |cffd7df013%|r increases the hero’s agility by 1.
-When the hero uses an ability or item, with a probability of |cffd7df013%|r increases hero's intelligence by 1.
-}
-
-STRING 7595
-// Abilities: A0I9 (Dryad: Device), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, with a probability of |cffd7df014%|r increases the hero’s agility by 1.
-When the hero uses an ability or item, with a probability of |cffd7df014%|r increases hero's intelligence by 1.
-}
-
-STRING 7596
-// Abilities: A0I9 (Dryad: Device), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, with a probability of |cffd7df015%|r increases the hero’s agility by 1.
-When the hero uses an ability or item, with a probability of |cffd7df015%|r increases hero's intelligence by 1.
-}
-
-STRING 7597
-// Abilities: A0I9 (Dryad: Device), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, with a probability of |cffd7df016%|r increases the hero’s agility by 1.
-When the hero uses an ability or item, with a probability of |cffd7df016%|r increases hero's intelligence by 1.
-}
-
 STRING 7598
 // Abilities: A0I8 (Эксгумация (Orb of Khadgar)), Name (Name)
 {
@@ -49876,7 +49630,7 @@ STRING 7599
 }
 
 STRING 7600
-// Abilities: A0I0 (Dryad: Touch of life), Researchhotkey (Hotkey - Learn)
+// Abilities: A0I0 (Dryad: Touch of Life), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -50004,101 +49758,10 @@ STRING 7620
 W
 }
 
-STRING 7621
-// Abilities: A0I0 (Dryad: Touch of life), Name (Name)
-{
-Dryad: Touch of life
-}
-
 STRING 7622
 // Abilities: A0FB (Lord of Chaos: Despicable), Researchhotkey (Hotkey - Learn)
 {
 W
-}
-
-STRING 7623
-// Abilities: A0I0 (Dryad: Touch of life), Researchtip (Tooltip - Learn)
-{
-Touch of life, [|cffffcc00Level %d|r]
-}
-
-STRING 7624
-// Abilities: A0I0 (Dryad: Touch of life), Researchubertip (Tooltip - Learn - Extended)
-{
-Imposes an effect on the target. If an ally - |cffbe81f720%/30%/40%/50%/60%|r of the damage received is converted to health. If the enemy - 20%/30%/40%/50%/60% of the damage is converted to damage for itself.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
-STRING 7625
-// Abilities: A0I0 (Dryad: Touch of life), Tip (Tooltip - Normal)
-{
-Touch of life, [|cffffcc00Level 1|r]
-}
-
-STRING 7626
-// Abilities: A0I0 (Dryad: Touch of life), Tip (Tooltip - Normal)
-{
-Touch of life, [|cffffcc00Level 2|r]
-}
-
-STRING 7627
-// Abilities: A0I0 (Dryad: Touch of life), Tip (Tooltip - Normal)
-{
-Touch of life, [|cffffcc00Level 3|r]
-}
-
-STRING 7628
-// Abilities: A0I0 (Dryad: Touch of life), Tip (Tooltip - Normal)
-{
-Touch of life, [|cffffcc00Level 4|r]
-}
-
-STRING 7629
-// Abilities: A0I0 (Dryad: Touch of life), Tip (Tooltip - Normal)
-{
-Touch of life, [|cffffcc00Level 5|r]
-}
-
-STRING 7630
-// Abilities: A0I0 (Dryad: Touch of life), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes an effect on the target. If an ally - |cffbe81f720%|r of the damage received is converted to health. If the enemy - 20% of the damage is converted to damage for itself.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
-STRING 7631
-// Abilities: A0I0 (Dryad: Touch of life), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes an effect on the target. If an ally - |cffbe81f730%|r of the damage received is converted to health. If the enemy - 30% of the damage is converted to damage for itself.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
-STRING 7632
-// Abilities: A0I0 (Dryad: Touch of life), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes an effect on the target. If an ally - |cffbe81f740%|r of the damage received is converted to health. If the enemy - 40% of the damage is converted to damage for itself.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
-STRING 7633
-// Abilities: A0I0 (Dryad: Touch of life), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes an effect on the target. If an ally - |cffbe81f750%|r of the damage received is converted to health. If the enemy - 50% of the damage is converted to damage for itself.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
-}
-
-STRING 7634
-// Abilities: A0I0 (Dryad: Touch of life), Ubertip (Tooltip - Normal - Extended)
-{
-Imposes an effect on the target. If an ally - |cffbe81f760%|r of the damage received is converted to health. If the enemy - 60% of the damage is converted to damage for itself.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 25 seconds.
 }
 
 STRING 7635
@@ -50125,103 +49788,10 @@ STRING 7638
 Q
 }
 
-STRING 7639
-// Abilities: A0HW (Dryad: Call of nature), Name (Name)
-{
-Dryad: Call of nature
-}
-
 STRING 7640
 // Abilities: A0ET (Ogre: Crush), Hotkey (Hotkey - Normal)
 {
 Q
-}
-
-STRING 7641
-// Abilities: A0HW (Dryad: Call of nature), Researchtip (Tooltip - Learn)
-{
-Call of nature, [|cffffcc00Level %d|r]
-}
-
-STRING 7642
-// Abilities: A0HW (Dryad: Call of nature), Researchubertip (Tooltip - Learn - Extended)
-{
-Summons a forest dweller for help. No more than 4 minions can be summoned.
-|cffffcc00Cooldown:|r 18 seconds.
-|cffffcc00Cost:|r 80 mana.
-}
-
-STRING 7643
-// Abilities: A0HW (Dryad: Call of nature), Tip (Tooltip - Normal)
-{
-Call of nature, [|cffffcc00Level 1|r]
-}
-
-STRING 7644
-// Abilities: A0HW (Dryad: Call of nature), Tip (Tooltip - Normal)
-{
-Call of nature, [|cffffcc00Level 2|r]
-}
-
-STRING 7645
-// Abilities: A0HW (Dryad: Call of nature), Tip (Tooltip - Normal)
-{
-Call of nature, [|cffffcc00Level 3|r]
-}
-
-STRING 7646
-// Abilities: A0HW (Dryad: Call of nature), Tip (Tooltip - Normal)
-{
-Call of nature, [|cffffcc00Level 4|r]
-}
-
-STRING 7647
-// Abilities: A0HW (Dryad: Call of nature), Tip (Tooltip - Normal)
-{
-Call of nature, [|cffffcc00Level 5|r]
-}
-
-STRING 7648
-// Abilities: A0HW (Dryad: Call of nature), Ubertip (Tooltip - Normal - Extended)
-{
-Summons a forest dweller for help. No more than 4 minions can be summoned.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 7649
-// Abilities: A0HW (Dryad: Call of nature), Ubertip (Tooltip - Normal - Extended)
-{
-Summons a forest dweller for help. No more than 4 minions can be summoned.
-|cffffcc00Cooldown:|r 18 seconds.
-
-|cFF959697More effective than Call of nature (Rank 1).|r
-}
-
-STRING 7650
-// Abilities: A0HW (Dryad: Call of nature), Ubertip (Tooltip - Normal - Extended)
-{
-Summons a forest dweller for help. No more than 4 minions can be summoned.
-|cffffcc00Cooldown:|r 18 seconds.
-
-|cFF959697More effective than Call of nature (Rank 2).|r
-}
-
-STRING 7651
-// Abilities: A0HW (Dryad: Call of nature), Ubertip (Tooltip - Normal - Extended)
-{
-Summons a forest dweller for help. No more than 4 minions can be summoned.
-|cffffcc00Cooldown:|r 18 seconds.
-
-|cFF959697More effective than Call of nature (Rank 3).|r
-}
-
-STRING 7652
-// Abilities: A0HW (Dryad: Call of nature), Ubertip (Tooltip - Normal - Extended)
-{
-Summons a forest dweller for help. No more than 4 minions can be summoned.
-|cffffcc00Cooldown:|r 18 seconds.
-
-|cFF959697More effective than Call of nature (Rank 4).|r
 }
 
 STRING 7653
@@ -50269,101 +49839,10 @@ STRING 7659
 R
 }
 
-STRING 7660
-// Abilities: A0HP (Dryad: Second wind), Name (Name)
-{
-Dryad: Second wind
-}
-
 STRING 7661
 // Abilities: A0FN (Soulstealer: Debilitating Presence), Researchhotkey (Hotkey - Learn)
 {
 R
-}
-
-STRING 7662
-// Abilities: A0HP (Dryad: Second wind), Researchtip (Tooltip - Learn)
-{
-Second wind, [|cffffcc00Level %d|r]
-}
-
-STRING 7663
-// Abilities: A0HP (Dryad: Second wind), Researchubertip (Tooltip - Learn - Extended)
-{
-Restores all nearby allies with |cffbe81f750/75/100/125/150|r health and |cffbe81f720/30/40/50/60|r mana, and also increases movement speed by 50 and attack power by 10/15/20/25/30.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-|cffffcc00Cost:|r 70/80/90/100/110 mana.
-}
-
-STRING 7664
-// Abilities: A0HP (Dryad: Second wind), Tip (Tooltip - Normal)
-{
-Second wind, [|cffffcc00Level 1|r]
-}
-
-STRING 7665
-// Abilities: A0HP (Dryad: Second wind), Tip (Tooltip - Normal)
-{
-Second wind, [|cffffcc00Level 2|r]
-}
-
-STRING 7666
-// Abilities: A0HP (Dryad: Second wind), Tip (Tooltip - Normal)
-{
-Second wind, [|cffffcc00Level 3|r]
-}
-
-STRING 7667
-// Abilities: A0HP (Dryad: Second wind), Tip (Tooltip - Normal)
-{
-Second wind, [|cffffcc00Level 4|r]
-}
-
-STRING 7668
-// Abilities: A0HP (Dryad: Second wind), Tip (Tooltip - Normal)
-{
-Second wind, [|cffffcc00Level 5|r]
-}
-
-STRING 7669
-// Abilities: A0HP (Dryad: Second wind), Ubertip (Tooltip - Normal - Extended)
-{
-Restores all nearby allies with |cffbe81f750|r health and |cffbe81f720|r mana, and also increases movement speed by 50 and attack power by 10.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 7670
-// Abilities: A0HP (Dryad: Second wind), Ubertip (Tooltip - Normal - Extended)
-{
-Restores all nearby allies with |cffbe81f775|r health and |cffbe81f730|r mana, and also increases movement speed by 50 and attack power by 15.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 7671
-// Abilities: A0HP (Dryad: Second wind), Ubertip (Tooltip - Normal - Extended)
-{
-Restores all nearby allies with |cffbe81f7100|r health and |cffbe81f740|r mana, and also increases movement speed by 50 and attack power by 20.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 7672
-// Abilities: A0HP (Dryad: Second wind), Ubertip (Tooltip - Normal - Extended)
-{
-Restores all nearby allies with |cffbe81f1125|r health and |cffbe81f750|r mana, and also increases movement speed by 50 and attack power by 25.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
-STRING 7673
-// Abilities: A0HP (Dryad: Second wind), Ubertip (Tooltip - Normal - Extended)
-{
-Restores all nearby allies with |cffbe81f7150|r health and |cffbe81f760|r mana, and also increases movement speed by 50 and attack power by 30.
-|cffffcc00Duration:|r 15 seconds.
-|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 7674
@@ -50562,6 +50041,12 @@ STRING 7706
 // Abilities: A0HC (|cffffcc00Уровень 3:|r Огромный арахнид), Name (Name)
 {
 |cffffcc00Уровень 3:|r Огромный арахнид
+}
+
+STRING 7707
+// Units: n02Z (Quilbeast), EditorSuffix (Name - Editor Suffix)
+{
+(Dryad)
 }
 
 STRING 7708
@@ -56636,12 +56121,6 @@ STRING 8654
 Босс 2: Белый медведь (Сильный удар)
 }
 
-STRING 8655
-// Abilities: A0AI (Босс 2: Белый медведь (Сильный удар)), Tip (Tooltip - Normal)
-{
-Swipe
-}
-
 STRING 8656
 // Abilities: A0AI (Босс 2: Белый медведь (Сильный удар)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -58850,6 +58329,12 @@ STRING 8998
 Босс 4: Манадракон (Аура)XXX
 }
 
+STRING 8999
+// Abilities: A0JI (Dryad Quilgoar: Support), Name (Name)
+{
+Dryad Quilgoar: Support
+}
+
 STRING 9000
 // Units: h022 (Box of Gold), Name (Name)
 {
@@ -60957,6 +60442,12 @@ STRING 9328
 // Abilities: A06M (|cffffcc00Уровень 4:|r Тень Волка), Name (Name)
 {
 |cffffcc00Уровень 4:|r Тень Волка
+}
+
+STRING 9329
+// Abilities: A0JI (Dryad Quilgoar: Support), Ubertip (Tooltip - Normal - Extended)
+{
+Attacks deal additional damage equal to the hero's Agility.
 }
 
 STRING 9330
@@ -63347,15 +62838,6 @@ STRING 9699
 // Abilities: A04L (Doctor: Unreachable), Tip (Tooltip - Normal)
 {
 Unreachable [|cffffcc00Level 5|r]
-}
-
-STRING 9700
-// Abilities: A06M (|cffffcc00Уровень 4:|r Тень Волка), Ubertip (Tooltip - Normal - Extended)
-{
-- Shadow copies dies, if they receive damage from magic 4 times.
-- |cff00cceeAt 90% health:|r Summons 6 shadow copies. They live for 10 seconds.
-- |cff00cceeAt 75% health:|r Summons 2 shadow copies. They have 30% more Attack Damage.
-- |cff00cceeAt 25% health:|r The boss dissolves in the shadows. Summons 2 shadow copies to each hero. When all the shadow copies die, the boss will return to the battlefield with increased Attack Speed and Attack Damage by 30%.
 }
 
 STRING 9701
@@ -66231,12 +65713,6 @@ STRING 10137
 R
 }
 
-STRING 10138
-// Abilities: A1JQ (Boss 4: Shadow Copy), Ubertip (Tooltip - Normal - Extended)
-{
-If a unit receives magic damage 4 times, it dies.
-}
-
 STRING 10139
 // Abilities: A01M (3. Jule), Ubertip (Tooltip - Normal - Extended)
 {
@@ -66619,6 +66095,18 @@ STRING 10196
 // Items: I0D0 (Plush Doll), Tip (Tooltip - Basic)
 {
 Plush Doll
+}
+
+STRING 10197
+// Abilities: A0J8 (Dryad Wolf: Rush), Name (Name)
+{
+Dryad Wolf: Rush
+}
+
+STRING 10198
+// Abilities: A0J8 (Dryad Wolf: Rush), Tip (Tooltip - Normal)
+{
+Rush
 }
 
 STRING 10199
@@ -69039,6 +68527,12 @@ STRING 10584
 |cffff0000Serrated blade|r
 }
 
+STRING 10585
+// Abilities: A0J8 (Dryad Wolf: Rush), Ubertip (Tooltip - Normal - Extended)
+{
+Deals 50% more damage to bosses.
+}
+
 STRING 10586
 // Buffs/Effects: B07U (), Bufftip (Tooltip)
 {
@@ -69585,12 +69079,6 @@ STRING 10676
 // Buffs/Effects: B06F (), Bufftip (Tooltip)
 {
 |cff00ff00Touch of Life|r
-}
-
-STRING 10677
-// Buffs/Effects: B06F (), Buffubertip (Tooltip - Extended)
-{
-Attacks have an additional effect.
 }
 
 STRING 10678
@@ -70539,6 +70027,12 @@ STRING 10834
 // Buffs/Effects: B04B (), Buffubertip (Tooltip - Extended)
 {
 Attack speed increased.
+}
+
+STRING 10835
+// Abilities: A0J7 (Dryad Bear: Bash), Name (Name)
+{
+Dryad Bear: Bash
 }
 
 STRING 10836
@@ -72587,6 +72081,12 @@ STRING 11172
 Gain 15 Attack and 10% Spell Power.
 }
 
+STRING 11173
+// Abilities: A0J7 (Dryad Bear: Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
 STRING 11174
 // Items: I02U (Gold Coin), Name (Name)
 {
@@ -72597,6 +72097,12 @@ STRING 11175
 // Items: I02U (Gold Coin), Tip (Tooltip - Basic)
 {
 Gold Coin
+}
+
+STRING 11176
+// Abilities: A0J7 (Dryad Bear: Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Attacks have a 25% chance to deal 30 bonus damage and stun the target for 1.5 seconds.
 }
 
 STRING 11177
@@ -74896,6 +74402,12 @@ STRING 11536
 Noble Knight
 }
 
+STRING 11537
+// Abilities: A0IA (Dryad Hawk: Vigilance), Name (Name)
+{
+Dryad Hawk: Vigilance
+}
+
 STRING 11538
 // Abilities: A0JR (Curse: Anger (b26)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75036,6 +74548,14 @@ STRING 11558
 Moon Blinking, [|cffffcc00Level %d|r]
 }
 
+STRING 11559
+// Abilities: A0IA (Dryad Hawk: Vigilance), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces enemy armor by 7.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 11560
 // Abilities: A0EF (Keeper: Moon Blinking), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -75117,6 +74637,12 @@ STRING 11569
 - |cff00cceeAt 25% health:|r Summons 4 Rogues.
 }
 
+STRING 11570
+// Abilities: A0HW (Dryad: Call of Nature), Name (Name)
+{
+Dryad: Call of Nature
+}
+
 STRING 11571
 // Units: h00Z (Farus), EditorSuffix (Name - Editor Suffix)
 {
@@ -75158,6 +74684,12 @@ STRING 11576
 // Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
 {
 Moon Blinking, [|cffffcc00Level 4|r]
+}
+
+STRING 11577
+// Abilities: A0HW (Dryad: Call of Nature), Researchtip (Tooltip - Learn)
+{
+Call of Nature, [|cffffcc00Level %d|r]
 }
 
 STRING 11578
@@ -75215,6 +74747,14 @@ Creates a shield for all heroes that absorbs |cffbe81f7350|r damage. Grants an a
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 11584
+// Abilities: A0HW (Dryad: Call of Nature), Researchubertip (Tooltip - Learn - Extended)
+{
+Summons a Forest Friend. You can summon up to 4 Forest Friends. Each level increases their stats.
+|cffffcc00Cooldown:|r 18 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
 STRING 11585
 // Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
 {
@@ -75225,6 +74765,13 @@ STRING 11586
 // Units: h00Q (Mob and Bob), EditorSuffix (Name - Editor Suffix)
 {
 (Level 2)
+}
+
+STRING 11587
+// Abilities: A0HW (Dryad: Call of Nature), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a Forest Friend. You can summon up to 4 Forest Friends.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 11588
@@ -75248,6 +74795,13 @@ STRING 11589
 - Every second creates a slow sea wave, which deals |cffbe81f7150|r damage.
 - |cff00cceeAt 80% health:|r Increases attack speed by 30%. Summons lines from areas around the edges that gradually move to the other edge of the arena. Each zone deals |cffbe81f7300|r damage.
 - |cff00cceeAt 30% health:|r Increases attack speed by 70%.
+}
+
+STRING 11590
+// Abilities: A0HW (Dryad: Call of Nature), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a Forest Friend. You can summon up to 4 Forest Friends.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 11591
@@ -75277,6 +74831,13 @@ STRING 11594
 {
 Makes all nearby creatures invisible for 3 seconds. Restores |cffbe81f760|r mana to all targets (except caster). After the invisibility ends, target heroes increases Spell Power by 40% for 5 seconds.
 |cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11595
+// Abilities: A0HW (Dryad: Call of Nature), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a Forest Friend. You can summon up to 4 Forest Friends.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 11596
@@ -75316,6 +74877,13 @@ STRING 11599
 - |cff00cceeAt 50% health:|r Every 10 seconds it deals |cffbe81f7100|r damage to all enemies nearby, reducing their attack and movement speed by 40%.
 |cffffcc00Duration:|r 1 second.
 - |cff00cceeAt 25% health:|r Increases attack speed by another 15%. Summons 8 Power Totems.
+}
+
+STRING 11600
+// Abilities: A0HW (Dryad: Call of Nature), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a Forest Friend. You can summon up to 4 Forest Friends.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 11601
@@ -75388,6 +74956,13 @@ STRING 11608
 |cffff0000Dizzy|r
 }
 
+STRING 11609
+// Abilities: A0HW (Dryad: Call of Nature), Ubertip (Tooltip - Normal - Extended)
+{
+Summons a Forest Friend. You can summon up to 4 Forest Friends.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
 STRING 11610
 // Abilities: A0EF (Keeper: Moon Blinking), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75399,6 +74974,12 @@ STRING 11611
 // Abilities: A0C7 (Босс 5: Боевой голем (Удар грома)XXX), Name (Name)
 {
 Босс 5: Боевой голем (Удар грома)XXX
+}
+
+STRING 11612
+// Abilities: A0I9 (Dryad: Device), Researchubertip (Tooltip - Learn - Extended)
+{
+Attacks have a |cffd7df012%/3%/4%/5%/6%|r chance to increase Intelligence by 1. Casts have a |cffd7df012%/3%/4%/5%/6%|r chance to increase Agility by 1.
 }
 
 STRING 11613
@@ -76529,6 +76110,12 @@ STRING 11779
 Increases stats by 7. Cannot be exchanged or destroyed in the store.
 }
 
+STRING 11780
+// Abilities: A0I9 (Dryad: Device), Ubertip (Tooltip - Normal - Extended)
+{
+Attacks have a |cffd7df012%|r chance to increase Intelligence by 1. Casts have a |cffd7df012%|r chance to increase Agility by 1.
+}
+
 STRING 11781
 // Items: I049 (Crystallized Life), Name (Name)
 {
@@ -76563,6 +76150,12 @@ STRING 11786
 // Items: I048 (Crystallized Mana), Tip (Tooltip - Basic)
 {
 Crystallized Mana
+}
+
+STRING 11787
+// Abilities: A0I9 (Dryad: Device), Ubertip (Tooltip - Normal - Extended)
+{
+Attacks have a |cffd7df013%|r chance to increase Intelligence by 1. Casts have a |cffd7df013%|r chance to increase Agility by 1.
 }
 
 STRING 11788
@@ -76851,6 +76444,12 @@ Activation: Transforms a minion into a sheep.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 11826
+// Abilities: A0I9 (Dryad: Device), Ubertip (Tooltip - Normal - Extended)
+{
+Attacks have a |cffd7df014%|r chance to increase Intelligence by 1. Casts have a |cffd7df014%|r chance to increase Agility by 1.
+}
+
 STRING 11827
 // Items: I06H (Shadow Generator), Name (Name)
 {
@@ -76861,6 +76460,12 @@ STRING 11828
 // Items: I06H (Shadow Generator), Tip (Tooltip - Basic)
 {
 Shadow Generator
+}
+
+STRING 11829
+// Abilities: A0I9 (Dryad: Device), Ubertip (Tooltip - Normal - Extended)
+{
+Attacks have a |cffd7df015%|r chance to increase Intelligence by 1. Casts have a |cffd7df015%|r chance to increase Agility by 1.
 }
 
 STRING 11830
@@ -76995,6 +76600,18 @@ STRING 11847
 // Items: I00L (Magical Wisp), Name (Name)
 {
 Magical Wisp
+}
+
+STRING 11848
+// Abilities: A0I9 (Dryad: Device), Ubertip (Tooltip - Normal - Extended)
+{
+Attacks have a |cffd7df016%|r chance to increase Intelligence by 1. Casts have a |cffd7df016%|r chance to increase Agility by 1.
+}
+
+STRING 11849
+// Abilities: A0I0 (Dryad: Touch of Life), Name (Name)
+{
+Dryad: Touch of Life
 }
 
 STRING 11850
@@ -77685,6 +77302,12 @@ STRING 11947
 Increases the chance of |cff4169e1Rare|r artifacts appearing by 12%.
 }
 
+STRING 11948
+// Abilities: A0I0 (Dryad: Touch of Life), Researchtip (Tooltip - Learn)
+{
+Touch of Life, [|cffffcc00Level %d|r]
+}
+
 STRING 11949
 // Abilities: A0AT (|cffffcc00Уровень 5:|r Король рабов), Tip (Tooltip - Normal)
 {
@@ -77732,12 +77355,10 @@ STRING 11956
 Lose health when casting.
 }
 
-STRING 11958
-// Items: I0F8 (Isaac's Head), Description (Description)
+STRING 11957
+// Abilities: A0I0 (Dryad: Touch of Life), Tip (Tooltip - Normal)
 {
-|cffe96a1cLegendary|r
-At the beginning of the battle, the hero deals and restores 100% more, and the damage received is reduced by 50%.
-|cffffcc00Duration:|r 20 seconds.
+Touch of Life, [|cffffcc00Level 1|r]
 }
 
 STRING 11959
@@ -77750,14 +77371,6 @@ STRING 11960
 // Items: I0F8 (Isaac's Head), Tip (Tooltip - Basic)
 {
 Isaac's Head
-}
-
-STRING 11961
-// Items: I0F8 (Isaac's Head), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-At the beginning of the battle, the hero deals and restores 100% more, and the damage received is reduced by 50%.
-|cffffcc00Duration:|r 20 seconds.
 }
 
 STRING 11962
@@ -78435,6 +78048,12 @@ STRING 12061
 Obtain 4 parasites. Each one increases stats by 7, but one disappears at the end of the battle.
 }
 
+STRING 12062
+// Abilities: A0I0 (Dryad: Touch of Life), Tip (Tooltip - Normal)
+{
+Touch of Life, [|cffffcc00Level 2|r]
+}
+
 STRING 12063
 // Items: IV20 (Casserole), Name (Name)
 {
@@ -78445,6 +78064,12 @@ STRING 12064
 // Items: IV20 (Casserole), Tip (Tooltip - Basic)
 {
 Casserole
+}
+
+STRING 12065
+// Abilities: A0I0 (Dryad: Touch of Life), Tip (Tooltip - Normal)
+{
+Touch of Life, [|cffffcc00Level 3|r]
 }
 
 STRING 12066
@@ -78974,6 +78599,18 @@ STRING 12145
 Increases Mana by 80 and Movement Speed by 25%.
 Activation: Teleport to a random hero.
 |cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 12146
+// Abilities: A0I0 (Dryad: Touch of Life), Tip (Tooltip - Normal)
+{
+Touch of Life, [|cffffcc00Level 4|r]
+}
+
+STRING 12147
+// Abilities: A0I0 (Dryad: Touch of Life), Tip (Tooltip - Normal)
+{
+Touch of Life, [|cffffcc00Level 5|r]
 }
 
 STRING 12148
@@ -80145,5 +79782,370 @@ STRING 12313
 // Abilities: A11I (Артефакт: Shadow Stone), Name (Name)
 {
 Артефакт: Shadow Stone
+}
+
+STRING 12314
+// Abilities: A0HW (Dryad: Call of Nature), Tip (Tooltip - Normal)
+{
+Call of Nature, [|cffffcc00Level 1|r]
+}
+
+STRING 12315
+// Abilities: A0HW (Dryad: Call of Nature), Tip (Tooltip - Normal)
+{
+Call of Nature, [|cffffcc00Level 2|r]
+}
+
+STRING 12316
+// Abilities: A0HW (Dryad: Call of Nature), Tip (Tooltip - Normal)
+{
+Call of Nature, [|cffffcc00Level 3|r]
+}
+
+STRING 12317
+// Abilities: A0HW (Dryad: Call of Nature), Tip (Tooltip - Normal)
+{
+Call of Nature, [|cffffcc00Level 4|r]
+}
+
+STRING 12318
+// Abilities: A0HW (Dryad: Call of Nature), Tip (Tooltip - Normal)
+{
+Call of Nature, [|cffffcc00Level 5|r]
+}
+
+STRING 12319
+// Abilities: A0HP (Dryad: Second Wind), Name (Name)
+{
+Dryad: Second Wind
+}
+
+STRING 12320
+// Abilities: A0HP (Dryad: Second Wind), Researchtip (Tooltip - Learn)
+{
+Second Wind, [|cffffcc00Level %d|r]
+}
+
+STRING 12321
+// Abilities: A0HP (Dryad: Second Wind), Researchubertip (Tooltip - Learn - Extended)
+{
+Restores |cffbe81f750/75/100/125/150|r health and |cffbe81f720/30/40/50/60|r mana to all nearby friendly units. Also increases Attack damage by 10/15/20/25/30 and Movement Speed ​​by 50 for 15 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
+STRING 12322
+// Abilities: A0HP (Dryad: Second Wind), Tip (Tooltip - Normal)
+{
+Second Wind, [|cffffcc00Level 1|r]
+}
+
+STRING 12323
+// Abilities: A0HP (Dryad: Second Wind), Tip (Tooltip - Normal)
+{
+Second Wind, [|cffffcc00Level 2|r]
+}
+
+STRING 12324
+// Abilities: A0HP (Dryad: Second Wind), Tip (Tooltip - Normal)
+{
+Second Wind, [|cffffcc00Level 3|r]
+}
+
+STRING 12325
+// Abilities: A0HP (Dryad: Second Wind), Tip (Tooltip - Normal)
+{
+Second Wind, [|cffffcc00Level 4|r]
+}
+
+STRING 12326
+// Abilities: A0HP (Dryad: Second Wind), Tip (Tooltip - Normal)
+{
+Second Wind, [|cffffcc00Level 5|r]
+}
+
+STRING 12327
+// Abilities: A0HP (Dryad: Second Wind), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f750|r health and |cffbe81f720|r mana to all nearby friendly units. Also increases Attack damage by 10 and Movement Speed ​​by 50 for 15 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 12328
+// Abilities: A0HP (Dryad: Second Wind), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f775|r health and |cffbe81f730|r mana to all nearby friendly units. Also increases Attack damage by 15 and Movement Speed ​​by 50 for 15 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 12329
+// Abilities: A0HP (Dryad: Second Wind), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7100|r health and |cffbe81f740|r mana to all nearby friendly units. Also increases Attack damage by 20 and Movement Speed ​​by 50 for 15 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 12330
+// Abilities: A0HP (Dryad: Second Wind), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7125|r health and |cffbe81f750|r mana to all nearby friendly units. Also increases Attack damage by 25 and Movement Speed ​​by 50 for 15 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 12331
+// Abilities: A0HP (Dryad: Second Wind), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7150|r health and |cffbe81f760|r mana to all nearby friendly units. Also increases Attack damage by 30 and Movement Speed ​​by 50 for 15 seconds.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 12332
+// Buffs/Effects: B06F (), Buffubertip (Tooltip - Extended)
+{
+Increased Attack Damage and Lifesteal.
+}
+
+STRING 12333
+// Abilities: A0I0 (Dryad: Touch of Life), Researchubertip (Tooltip - Learn - Extended)
+{
+Gives a friendly hero 20%/25%/30%/35%/40% Attack Damage and Lifesteal.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
+STRING 12334
+// Abilities: A0I0 (Dryad: Touch of Life), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a friendly hero 20% Attack Damage and Lifesteal.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 12335
+// Abilities: A0I0 (Dryad: Touch of Life), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a friendly hero 25% Attack Damage and Lifesteal.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 12336
+// Abilities: A0I0 (Dryad: Touch of Life), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a friendly hero 30% Attack Damage and Lifesteal.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 12337
+// Abilities: A0I0 (Dryad: Touch of Life), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a friendly hero 35% Attack Damage and Lifesteal.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 12338
+// Abilities: A0I0 (Dryad: Touch of Life), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a friendly hero 40% Attack Damage and Lifesteal.
+|cffffcc00Duration:|r 15 seconds.
+|cffffcc00Cooldown:|r 25 seconds.
+}
+
+STRING 12339
+// Abilities: A0JK (Unique: Vital Energy (+)), Name (Name)
+{
+Unique: Vital Energy (+)
+}
+
+STRING 12340
+// Abilities: A0JK (Unique: Vital Energy (+)), Tip (Tooltip - Normal)
+{
+Vital Energy
+}
+
+STRING 12341
+// Abilities: A0JK (Unique: Vital Energy (+)), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Attacks have |cffbe81f720%|r lifesteal.
+}
+
+STRING 12342
+// Abilities: A0JJ (Unique: Vital Energy), Name (Name)
+{
+Unique: Vital Energy
+}
+
+STRING 12343
+// Abilities: A0JJ (Unique: Vital Energy), Tip (Tooltip - Normal)
+{
+Vital Energy
+}
+
+STRING 12344
+// Abilities: A0JJ (Unique: Vital Energy), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Attacks have |cffbe81f710%|r lifesteal.
+}
+
+STRING 12345
+// Abilities: A06M (|cffffcc00Уровень 4:|r Тень Волка), Ubertip (Tooltip - Normal - Extended)
+{
+- When Shadow Copies takes magic damage 4 times, it is stunned for 5 seconds once.
+- |cff00cceeAt 90% health:|r Summons 6 shadow copies. They live for 10 seconds.
+- |cff00cceeAt 75% health:|r Summons 2 shadow copies. They have 30% more Attack Damage.
+- |cff00cceeAt 25% health:|r The boss dissolves in the shadows. Summons 2 shadow copies to each hero. When all the shadow copies die, the boss will return to the battlefield with increased Attack Speed and Attack Damage by 30%.
+}
+
+STRING 12346
+// Abilities: A1JQ (Boss 4: Shadow Copy), Ubertip (Tooltip - Normal - Extended)
+{
+When receiving magic damage 4 times, stunned for 5 seconds once.
+}
+
+STRING 12347
+// Items: I0BE (Tarot Card: Sheep), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Summons 40 sheeps under your control.
+|cffffcc00Life time:|r 60 seconds.
+}
+
+STRING 12348
+// Items: I0BE (Tarot Card: Sheep), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Summons 40 sheeps under your control.
+|cffffcc00Life time:|r 60 seconds.
+}
+
+STRING 12349
+// Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Researchubertip (Tooltip - Learn - Extended)
+{
+Immobilizes all nearby enemies and summons 2 ghouls to each enemy.
+|cffffcc00Duration:|r 2/3/4/5/6 seconds.
+|cffffcc00Life time:|r 6/8/10/12/14 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 80 mana.
+}
+
+STRING 12350
+// Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Ubertip (Tooltip - Normal - Extended)
+{
+Immobilizes all nearby enemies and summons 2 ghouls to each enemy.
+|cffffcc00Duration:|r 2 seconds.
+|cffffcc00Life time:|r 6 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 12351
+// Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Ubertip (Tooltip - Normal - Extended)
+{
+Immobilizes all nearby enemies and summons 2 ghouls to each enemy.
+|cffffcc00Duration:|r 3 seconds.
+|cffffcc00Life time:|r 8 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 12352
+// Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Ubertip (Tooltip - Normal - Extended)
+{
+Immobilizes all nearby enemies and summons 2 ghouls to each enemy.
+|cffffcc00Duration:|r 4 seconds.
+|cffffcc00Life time:|r 10 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 12353
+// Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Ubertip (Tooltip - Normal - Extended)
+{
+Immobilizes all nearby enemies and summons 2 ghouls to each enemy.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Life time:|r 12 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 12354
+// Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Ubertip (Tooltip - Normal - Extended)
+{
+Immobilizes all nearby enemies and summons 2 ghouls to each enemy.
+|cffffcc00Duration:|r 6 seconds.
+|cffffcc00Life time:|r 14 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 12355
+// Items: I0F8 (Isaac's Head), Description (Description)
+{
+|cffe96a1cLegendary|r
+At the start of combat, the hero becomes stronger. Damage dealt is increased by 100%, and damage taken is reduced by 50%.
+|cffffcc00Duration:|r 30 seconds.
+}
+
+STRING 12356
+// Items: I0F8 (Isaac's Head), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+At the start of combat, the hero becomes stronger. Damage dealt is increased by 100%, and damage taken is reduced by 50%.
+|cffffcc00Duration:|r 30 seconds.
+}
+
+STRING 12357
+// Items: I050 (Sheep Mantle), Description (Description)
+{
+|cff4169e1Rare|r
+Transforms all nearby enemies into sheep for 3 seconds. Summon 2 sheep for each affected target.
+|cffffcc00Life time:|r 20 seconds.
+|cffffcc00Cooldown:|r 35 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 12358
+// Items: I050 (Sheep Mantle), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Transforms all nearby enemies into sheep for 3 seconds. Summon 2 sheep for each affected target.
+|cffffcc00Life time:|r 20 seconds.
+|cffffcc00Cooldown:|r 35 seconds.
+}
+
+STRING 12359
+// Items: I08O (Elune's Glyph), Description (Description)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Increases Mana Regeneration by 150%. While invisible, additionally increases by 500%.
+}
+
+STRING 12360
+// Items: I08O (Elune's Glyph), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Increases Mana Regeneration by 150%. While invisible, additionally increases by 500%.
+}
+
+STRING 12361
+// Abilities: A0XX (|cffffcc00Уровень 3:|r Вор душ), Ubertip (Tooltip - Normal - Extended)
+{
+- The boss has high movement speed.
+- Fills each hero's inventory with Mischievous Souls.
+- |cff00cceeAt 90% health:|r Every 7 seconds, zones appear under the heroes. After 2.5 seconds, they explode, inflicting |cffbe81f7250|r damage.
+- |cff00cceeAt 60% health:|r Every 5 seconds reduces the movement speed of heroes by 50% for 2 seconds.
+- |cff00cceeAt 30% health:|r Movement speed decreases more often.
+}
+
+STRING 12362
+// Abilities: A0TQ (MP/sec (Elune's Glyph+)), Name (Name)
+{
+MP/sec (Elune's Glyph+)
+}
+
+STRING 12363
+// Abilities: A0QB (MP/sec (Elune's Glyph)), Name (Name)
+{
+MP/sec (Elune's Glyph)
 }
 
