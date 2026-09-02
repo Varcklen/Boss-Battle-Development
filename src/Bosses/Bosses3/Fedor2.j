@@ -15,8 +15,8 @@ scope Fedor2 initializer init
         private constant integer FLIGHT_LENGTH = 40
         private constant integer DAMAGE = 55
         private constant integer SPEED = 24
-        private constant integer AREA = 350
-        private constant real WAVE_SIZE_MULTIPLIER = AREA / 128
+        private constant integer AREA = 275
+        private constant real WAVE_SIZE_MULTIPLIER = AREA / 100
         /*private constant integer WAVES = 3
         private constant integer START_ANGLE = -90
         private constant integer ANGLE_DIFFERENCE = 45*/

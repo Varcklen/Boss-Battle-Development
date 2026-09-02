@@ -2143,14 +2143,6 @@ STRING 339
 Informant
 }
 
-STRING 340
-// Abilities: A06B (|cffffcc00Уровень 2:|r Благородный рыцарь), Ubertip (Tooltip - Normal - Extended)
-{
-- Increases the boss's armor by 2 and reduces the armor of the boss's enemies by 2. The effect repeats every 25% of health lost.
-- |cff00cceeAt 75% health:|r If any of the heroes moves further than range attack distance from the boss, the boss will dash towards them, stunning for 0.75 seconds and dealing |cffbe81f7100|r damage.
-- |cff00cceeAt 50% health:|r Calls upon the Squire for assistance.
-}
-
 STRING 341
 // Units: h00B (Fedor), Name (Name)
 {
@@ -6293,16 +6285,6 @@ Increases mana by 75 and attack speed by 10%.
 When the hero attacks an ally, instead of dealing damage, you restore the |cffbe81f7health|r of the target and the hero himself.
 }
 
-STRING 982
-// Items: I0F3 (Orb of the Enchanted Woods), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases mana by 75 and spell power by 10%.
-When the hero uses an ability or item, unleash a storm into the arena, reducing the armor of all enemies by 4 and increasing the health regeneration of allies by 10.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 90 seconds.
-}
-
 STRING 983
 // Items: I0F3 (Orb of the Enchanted Woods), Name (Name)
 {
@@ -6313,16 +6295,6 @@ STRING 984
 // Items: I0F3 (Orb of the Enchanted Woods), Tip (Tooltip - Basic)
 {
 Orb of the Enchanted Woods
-}
-
-STRING 985
-// Items: I0F3 (Orb of the Enchanted Woods), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases mana by 75 and spell power by 10%.
-When the hero uses an ability or item, unleash a storm into the arena, reducing the armor of all enemies by 4 and increasing the health regeneration of allies by 10.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 90 seconds.
 }
 
 STRING 986
@@ -9488,6 +9460,12 @@ STRING 1441
 Sandro's Gift
 }
 
+STRING 1442
+// Items: I0B5 (Trash), Description (Description)
+{
+Useless things that no one needs.
+}
+
 STRING 1443
 // Items: I03F (Sandro's Gift), Tip (Tooltip - Basic)
 {
@@ -9499,6 +9477,12 @@ STRING 1444
 {
 |cffe96a1cLegendary|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cff4169e1rare|r item 10 times |cFF959697(10/10)|r.
+}
+
+STRING 1445
+// Items: I0B5 (Trash), Ubertip (Tooltip - Extended)
+{
+Useless things that no one needs.
 }
 
 STRING 1446
@@ -9956,6 +9940,15 @@ STRING 1513
 Anung Un Rama
 }
 
+STRING 1514
+// Items: I0A8 (Dark Pearl), Description (Description)
+{
+|cff4169e1Rare|r
+Reduces Movement Speed by 25%.
+Activation: Restore all mana.
+|cffffcc00Cooldown:|r 40 seconds.
+}
+
 STRING 1515
 // Items: I0BE (Tarot Card: Sheep), Name (Name)
 {
@@ -9966,6 +9959,15 @@ STRING 1516
 // Items: I0BE (Tarot Card: Sheep), Tip (Tooltip - Basic)
 {
 Tarot Card: Sheep
+}
+
+STRING 1517
+// Items: I0A8 (Dark Pearl), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Reduces Movement Speed by 25%.
+Activation: Restore all mana.
+|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 1518
@@ -12648,6 +12650,16 @@ Enemies become stronger with each battle.
 Enemies become stronger every few minutes of battle.
 }
 
+STRING 1908
+// Abilities: A0JO (|cffffcc00Extra:|r Double Trouble), Ubertip (Tooltip - Normal - Extended)
+{
+All heroes start a battle with two bosses, but gain more gold.
+
+|cffffcc00Your heroes fight with two bosses at the same time. When the boss dies, the others become enraged, increasing their attack by 40% and movement speed by 20%.
+
+Players receive an additional 100% gold for defeating bosses. Experience bonus: +15%.|r
+}
+
 STRING 1909
 // Items: I08O (Elune's Glyph), Name (Name)
 {
@@ -12658,6 +12670,16 @@ STRING 1910
 // Items: I08O (Elune's Glyph), Tip (Tooltip - Basic)
 {
 Elune's Glyph
+}
+
+STRING 1911
+// Abilities: A0FN (Soulstealer: Debilitating Presence), Researchubertip (Tooltip - Learn - Extended)
+{
+The hero begins to draw the soul out of enemies. 
+Every second, deals |cffbe81f710/13/16/19/22|r damage to all binded enemies. Grants the hero a |cffbe81f7shield|r that absorbs damage equal to the damage dealt.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+|cffffcc00Cost:|r 65 mana.
 }
 
 STRING 1912
@@ -13476,16 +13498,6 @@ STRING 2031
 Spring Water
 }
 
-STRING 2032
-// Items: I07S (Mutamushroom), Description (Description)
-{
-|cff4169e1Rare|r, |cff7cfc00Nature|r
-Activation: Kills all nearby minions and calls other minions in their place.
-|cffffcc00Life time:|r 20 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 150 mana.
-}
-
 STRING 2033
 // Items: I07S (Mutamushroom), Name (Name)
 {
@@ -13496,15 +13508,6 @@ STRING 2034
 // Items: I07S (Mutamushroom), Tip (Tooltip - Basic)
 {
 Mutamushroom
-}
-
-STRING 2035
-// Items: I07S (Mutamushroom), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff7cfc00Nature|r
-Activation: Kills all nearby minions and calls other minions in their place.
-|cffffcc00Life time:|r 20 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 2036
@@ -15768,14 +15771,6 @@ STRING 2367
 // Items: I05H (Ditto), Tip (Tooltip - Basic)
 {
 Ditto
-}
-
-STRING 2368
-// Abilities: A0MY (Curse: Тьма (b19)), Ubertip (Tooltip - Normal - Extended)
-{
-If the enemy does not attack within 10 seconds, gains invisibility.
-
-|cFF959697Units with no attack, slow attack, and no movement are not affected.|r
 }
 
 STRING 2369
@@ -18224,14 +18219,6 @@ Activation: Increases the ally’s armor by 3. If the hero’s gold supply is 20
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 2735
-// Items: I0E7 (Witch's Love), Description (Description)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-At the start of combat, creates a Witch's Cauldron that creates a random |cff088a08Potion|r every 12 seconds.
-|cff81f260[Random bonus]|r
-}
-
 STRING 2736
 // Items: I0E7 (Witch's Love), Name (Name)
 {
@@ -18543,14 +18530,6 @@ STRING 2783
 // Items: I02M (Might of the Damned), Tip (Tooltip - Basic)
 {
 Might of the Damned
-}
-
-STRING 2784
-// Items: I0E7 (Witch's Love), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cfffe9a2eAlchemy|r
-At the start of combat, creates a Witch's Cauldron that creates a random |cff088a08Potion|r every 12 seconds.
-|cff81f260[Random bonus]|r
 }
 
 STRING 2785
@@ -20606,14 +20585,6 @@ STRING 3089
 Unit loses health.
 }
 
-STRING 3090
-// Abilities: A0AQ (|cffffcc00Уровень 2:|r Белый медведь), Ubertip (Tooltip - Normal - Extended)
-{
-- Attacks inflict a wound on the target, periodically dealing |cffbe81f78|r damage. Lasts 6 seconds.
-- |cff00cceeAt 95% health:|r Jumps immediately. Every 15 seconds, Jumps to a hero, hugging them for 4 seconds. This hero is stunned and takes |cffbe81f740|r damage every 0.5 seconds. Any control effect stop the hug.
-- |cff00cceeAt 40% health:|r The boss roars throughout the arena, reducing the movement speed of the boss's enemies by 30% for 20 seconds.
-}
-
 STRING 3091
 // Abilities: A1JO ((т)Аура: Dizzy), EditorSuffix (Editor Suffix)
 {
@@ -22245,6 +22216,15 @@ STRING 3345
 {
 |cffC71585Cursed|r
 Decreases stats by 4.
+}
+
+STRING 3346
+// Abilities: A0FN (Soulstealer: Debilitating Presence), Ubertip (Tooltip - Normal - Extended)
+{
+The hero begins to draw the soul out of enemies. 
+Every second, deals |cffbe81f710|r damage to all binded enemies. Grants the hero a |cffbe81f7shield|r that absorbs damage equal to the damage dealt.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 3347
@@ -33442,13 +33422,6 @@ STRING 5086
 Z
 }
 
-STRING 5087
-// Items: I098 (Fulfillment of Will), Description (Description)
-{
-|cffffcc00Quest:|r Defeat 18 bosses |cFF959697(0/18)|r.
-|cffffcc00Reward:|r Badge of the Gray Warden.
-}
-
 STRING 5088
 // Items: I098 (Fulfillment of Will), Name (Name)
 {
@@ -33465,13 +33438,6 @@ STRING 5090
 // Abilities: A10N (Arena: Automatic Arenas), Hotkey (Hotkey - Normal)
 {
 Z
-}
-
-STRING 5091
-// Items: I098 (Fulfillment of Will), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Defeat 18 bosses |cFF959697(0/18)|r.
-|cffffcc00Reward:|r Badge of the Gray Warden.
 }
 
 STRING 5092
@@ -38810,6 +38776,15 @@ STRING 5902
 Influx now lasts 15 seconds, but restores the target for |cffbe81f710%|r of the final healing every 3 seconds.
 }
 
+STRING 5903
+// Abilities: A0FN (Soulstealer: Debilitating Presence), Ubertip (Tooltip - Normal - Extended)
+{
+The hero begins to draw the soul out of enemies. 
+Every second, deals |cffbe81f713|r damage to all binded enemies. Grants the hero a |cffbe81f7shield|r that absorbs damage equal to the damage dealt.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
 STRING 5904
 // Abilities: A0TP (Harpy: Concentration), Name (Name)
 {
@@ -42085,6 +42060,15 @@ STRING 6414
 Increases attack power and spell power by 10%.
 }
 
+STRING 6415
+// Abilities: A0FN (Soulstealer: Debilitating Presence), Ubertip (Tooltip - Normal - Extended)
+{
+The hero begins to draw the soul out of enemies. 
+Every second, deals |cffbe81f716|r damage to all binded enemies. Grants the hero a |cffbe81f7shield|r that absorbs damage equal to the damage dealt.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
 STRING 6416
 // Items: I05K (Old Healer), Name (Name)
 {
@@ -42616,6 +42600,15 @@ STRING 6496
 Pinnacle of Darkness, [|cffffcc00Level %d|r]
 }
 
+STRING 6497
+// Abilities: A0FN (Soulstealer: Debilitating Presence), Ubertip (Tooltip - Normal - Extended)
+{
+The hero begins to draw the soul out of enemies. 
+Every second, deals |cffbe81f719|r damage to all binded enemies. Grants the hero a |cffbe81f7shield|r that absorbs damage equal to the damage dealt.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
 STRING 6498
 // Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Tip (Tooltip - Normal)
 {
@@ -42644,6 +42637,48 @@ STRING 6502
 // Abilities: A0PR (Ghoul King: Pinnacle of Darkness), Tip (Tooltip - Normal)
 {
 Pinnacle of Darkness, [|cffffcc00Level 5|r]
+}
+
+STRING 6503
+// Abilities: A0FN (Soulstealer: Debilitating Presence), Ubertip (Tooltip - Normal - Extended)
+{
+The hero begins to draw the soul out of enemies. 
+Every second, deals |cffbe81f722|r damage to all binded enemies. Grants the hero a |cffbe81f7shield|r that absorbs damage equal to the damage dealt.
+|cffffcc00Duration:|r 20 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 6504
+// Abilities: A03J (Peacelock: Channel Energy), Researchubertip (Tooltip - Learn - Extended)
+{
+Links a friendly target to a random nearby enemy. When that enemy takes damage, the friendly target heals for |cffbe81f715%/20%/25%/30%/35%|r of the damage dealt.
+|cffffcc00Duration:|r 12 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
+STRING 6505
+// Abilities: A03J (Peacelock: Channel Energy), Ubertip (Tooltip - Normal - Extended)
+{
+Links a friendly target to a random nearby enemy. When that enemy takes damage, the friendly target heals for |cffbe81f715%|r of the damage dealt.
+|cffffcc00Duration:|r 12 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 6506
+// Abilities: A03J (Peacelock: Channel Energy), Ubertip (Tooltip - Normal - Extended)
+{
+Links a friendly target to a random nearby enemy. When that enemy takes damage, the friendly target heals for |cffbe81f720%|r of the damage dealt.
+|cffffcc00Duration:|r 12 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 6507
+// Abilities: A03J (Peacelock: Channel Energy), Ubertip (Tooltip - Normal - Extended)
+{
+Links a friendly target to a random nearby enemy. When that enemy takes damage, the friendly target heals for |cffbe81f725%|r of the damage dealt.
+|cffffcc00Duration:|r 12 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 6508
@@ -44753,12 +44788,6 @@ Deals |cffbe81f7100|r damage to the enemy.
 |cffffcc00Cooldown:|r 8 seconds.
 }
 
-STRING 6842
-// Abilities: A0NC (Мод19: Постоянная невидимость), Name (Name)
-{
-Мод19: Постоянная невидимость
-}
-
 STRING 6843
 // Abilities: A0NB (Аура: Безумие), Name (Name)
 {
@@ -44849,14 +44878,8 @@ STRING 6857
 Аура: Plague (Damage)
 }
 
-STRING 6858
-// Abilities: A0MY (Curse: Тьма (b19)), Name (Name)
-{
-Curse: Тьма (b19)
-}
-
 STRING 6859
-// Abilities: A0MY (Curse: Тьма (b19)), Tip (Tooltip - Normal)
+// Abilities: A0MY (Curse: Darkness), Tip (Tooltip - Normal)
 {
 |cffffcc00Curse:|r Darkness
 }
@@ -47426,12 +47449,6 @@ STRING 7249
 |cffffcc00Curse:|r Wild Growth
 }
 
-STRING 7250
-// Abilities: A0KI (Curse: Wild Growth (b27)), Ubertip (Tooltip - Normal - Extended)
-{
-Sometimes vines appear that braid for 2 seconds.
-}
-
 STRING 7251
 // Abilities: A0KH (Curse: Anger), Name (Name)
 {
@@ -48306,6 +48323,22 @@ STRING 7378
 Бонус: Мешочек таинств
 }
 
+STRING 7379
+// Abilities: A03J (Peacelock: Channel Energy), Ubertip (Tooltip - Normal - Extended)
+{
+Links a friendly target to a random nearby enemy. When that enemy takes damage, the friendly target heals for |cffbe81f730%|r of the damage dealt.
+|cffffcc00Duration:|r 12 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 7380
+// Abilities: A03J (Peacelock: Channel Energy), Ubertip (Tooltip - Normal - Extended)
+{
+Links a friendly target to a random nearby enemy. When that enemy takes damage, the friendly target heals for |cffbe81f735%|r of the damage dealt.
+|cffffcc00Duration:|r 12 seconds.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 7386
 // Abilities: A0JI (Dryad Quilgoar: Support), Tip (Tooltip - Normal)
 {
@@ -48646,10 +48679,40 @@ STRING 7438
 Аура: Растерзать
 }
 
+STRING 7439
+// Buffs/Effects: B03A (), Buffubertip (Tooltip - Extended)
+{
+Your damage is increased after healing.
+}
+
+STRING 7440
+// Abilities: A04X (Peacelock: Malicious Kindness), Researchubertip (Tooltip - Learn - Extended)
+{
+Spreads an aura over heroes. When they are healed, their next attack will deal an additional 40%/55%/70%/85%/100% damage of the healed health. Stacks.
+}
+
+STRING 7441
+// Abilities: A04X (Peacelock: Malicious Kindness), Ubertip (Tooltip - Normal - Extended)
+{
+Spreads an aura over heroes. When they are healed, their next attack will deal an additional 40% damage of the healed health. Stacks.
+}
+
+STRING 7442
+// Abilities: A04X (Peacelock: Malicious Kindness), Ubertip (Tooltip - Normal - Extended)
+{
+Spreads an aura over heroes. When they are healed, their next attack will deal an additional 55% damage of the healed health. Stacks.
+}
+
 STRING 7443
 // Abilities: A0AI (Босс 2: Белый медведь (Сильный удар)), Tip (Tooltip - Normal)
 {
 Swipe
+}
+
+STRING 7444
+// Abilities: A04X (Peacelock: Malicious Kindness), Ubertip (Tooltip - Normal - Extended)
+{
+Spreads an aura over heroes. When they are healed, their next attack will deal an additional 70% damage of the healed health. Stacks.
 }
 
 STRING 7445
@@ -49563,10 +49626,22 @@ STRING 7580
 Q
 }
 
+STRING 7581
+// Abilities: A04X (Peacelock: Malicious Kindness), Ubertip (Tooltip - Normal - Extended)
+{
+Spreads an aura over heroes. When they are healed, their next attack will deal an additional 85% damage of the healed health. Stacks.
+}
+
 STRING 7582
 // Abilities: A0IA (Dryad Hawk: Vigilance), Tip (Tooltip - Normal)
 {
 Vigilance
+}
+
+STRING 7583
+// Abilities: A04X (Peacelock: Malicious Kindness), Ubertip (Tooltip - Normal - Extended)
+{
+Spreads an aura over heroes. When they are healed, their next attack will deal an additional 100% damage of the healed health. Stacks.
 }
 
 STRING 7584
@@ -49585,6 +49660,14 @@ STRING 7586
 // Abilities: A0I9 (Dryad: Device), Researchtip (Tooltip - Learn)
 {
 Device, [|cffffcc00Level %d|r]
+}
+
+STRING 7587
+// Items: I0E7 (Witch's Love), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+At the start of combat, creates a Witch's Cauldron that creates a random |cff088a08Potion|r every 12 seconds.
+|cff81f260[Random bonus]|r
 }
 
 STRING 7588
@@ -49615,6 +49698,42 @@ STRING 7592
 // Abilities: A0I9 (Dryad: Device), Tip (Tooltip - Normal)
 {
 Device, [|cffffcc00Level 5|r]
+}
+
+STRING 7593
+// Items: I0E7 (Witch's Love), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+At the start of combat, creates a Witch's Cauldron that creates a random |cff088a08Potion|r every 12 seconds.
+|cff81f260[Random bonus]|r
+}
+
+STRING 7594
+// Abilities: A0NC (Мод19: Постоянная невидимость (Darkness Curse)), Name (Name)
+{
+Мод19: Постоянная невидимость (Darkness Curse)
+}
+
+STRING 7595
+// Abilities: A0MY (Curse: Darkness), Name (Name)
+{
+Curse: Darkness
+}
+
+STRING 7596
+// Abilities: A0MY (Curse: Darkness), Ubertip (Tooltip - Normal - Extended)
+{
+If the enemy does not attack within 8 seconds, gains invisibility.
+
+|cFF959697Units with no attack, slow attack, and no movement are not affected.|r
+}
+
+STRING 7597
+// Abilities: A0AQ (|cffffcc00Уровень 2:|r Белый медведь), Ubertip (Tooltip - Normal - Extended)
+{
+- Attacks inflict a wound on the target, periodically dealing |cffbe81f78|r damage. Lasts 6 seconds.
+- |cff00cceeAt 95% health:|r Jumps immediately. Every 15 seconds, Jumps to a hero, hugging them for 4 seconds. This hero is stunned and takes |cffbe81f730|r damage every 0.5 seconds. Any control effect stop the hug.
+- |cff00cceeAt 40% health:|r The boss roars throughout the arena, reducing the movement speed of the boss's enemies by 30% for 20 seconds.
 }
 
 STRING 7598
@@ -49758,10 +49877,99 @@ STRING 7620
 W
 }
 
+STRING 7621
+// Items: I07S (Mutamushroom), Description (Description)
+{
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+Activation: Summons 3 random minions you control.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
 STRING 7622
 // Abilities: A0FB (Lord of Chaos: Despicable), Researchhotkey (Hotkey - Learn)
 {
 W
+}
+
+STRING 7623
+// Items: I07S (Mutamushroom), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff7cfc00Nature|r
+Activation: Summons 3 random minions you control.
+|cffffcc00Life time:|r 30 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 7624
+{
+This item cannot be dropped. Use the Exterminator to split the item.
+}
+
+STRING 7625
+{
+Bosses take 25% less damage from minions.
+}
+
+STRING 7626
+{
+Heroes deal full damage to any sources.
+}
+
+STRING 7627
+{
+Minions deal 25% less damage to bosses.
+}
+
+STRING 7628
+{
+Minions deal 25% less damage to bosses.
+}
+
+STRING 7629
+// Abilities: A0KI (Curse: Wild Growth (b27)), Ubertip (Tooltip - Normal - Extended)
+{
+Every 12 seconds, a trap is created near a random hero. Any player unit that steps on it is immobilized for 2 seconds.
+}
+
+STRING 7630
+// Abilities: A0AK (Blessing: Chronospeed), Name (Name)
+{
+Blessing: Chronospeed
+}
+
+STRING 7631
+// Abilities: A0AK (Blessing: Chronospeed), Ubertip (Tooltip - Normal - Extended)
+{
+When cast, there is a 6% chance to reduce the cooldown of a random hero ability by 50%.
+}
+
+STRING 7632
+// Items: I0F3 (Orb of the Enchanted Woods), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases mana by 75 and spell power by 10%.
+When cast, it creates an arena-wide effect. Allies gain 10 Health Regeneration, while enemies lose 4 armor.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 7633
+// Items: I0F3 (Orb of the Enchanted Woods), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases mana by 75 and spell power by 10%.
+When cast, it creates an arena-wide effect. Allies gain 10 Health Regeneration, while enemies lose 4 armor.
+|cffffcc00Duration:|r 30 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 7634
+// Items: I098 (Fulfillment of Will), Description (Description)
+{
+|cffffcc00Quest:|r Defeat 15 bosses |cFF959697(0/15)|r.
+|cffffcc00Reward:|r Badge of the Gray Warden.
 }
 
 STRING 7635
@@ -49788,10 +49996,38 @@ STRING 7638
 Q
 }
 
+STRING 7639
+// Items: I098 (Fulfillment of Will), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Defeat 15 bosses |cFF959697(0/15)|r.
+|cffffcc00Reward:|r Badge of the Gray Warden.
+}
+
 STRING 7640
 // Abilities: A0ET (Ogre: Crush), Hotkey (Hotkey - Normal)
 {
 Q
+}
+
+STRING 7641
+// Abilities: A06B (|cffffcc00Уровень 2:|r Благородный рыцарь), Ubertip (Tooltip - Normal - Extended)
+{
+- Deal 100% more damage to minions.
+- Increases the boss's armor by 2 and reduces the armor of the boss's enemies by 2. The effect repeats every 25% of health lost.
+- |cff00cceeAt 75% health:|r If any of the heroes moves further than range attack distance from the boss, the boss will dash towards them, stunning for 0.75 seconds and dealing |cffbe81f7100|r damage.
+- |cff00cceeAt 50% health:|r Calls upon the Squire for assistance.
+}
+
+STRING 7642
+// Buffs/Effects: B05P (), Bufftip (Tooltip)
+{
+|cff00ff00Magic Shield|r
+}
+
+STRING 7643
+// Buffs/Effects: B05P (), Buffubertip (Tooltip - Extended)
+{
+The unit ignores some of the damage taken.
 }
 
 STRING 7653
@@ -51033,16 +51269,6 @@ STRING 7864
 Debilitating Presence, [|cffffcc00Level %d|r]
 }
 
-STRING 7865
-// Abilities: A0FN (Soulstealer: Debilitating Presence), Researchubertip (Tooltip - Learn - Extended)
-{
-The hero begins to draw the soul out of enemies. 
-Every second, deals |cffbe81f710/14/18/22/26|r damage to all binded enemies. Grants the hero a |cffbe81f7shield|r that absorbs damage equal to the damage dealt.
-|cffffcc00Duration:|r 22 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-|cffffcc00Cost:|r 65 mana.
-}
-
 STRING 7866
 // Abilities: A0FN (Soulstealer: Debilitating Presence), Tip (Tooltip - Normal)
 {
@@ -51071,51 +51297,6 @@ STRING 7870
 // Abilities: A0FN (Soulstealer: Debilitating Presence), Tip (Tooltip - Normal)
 {
 Debilitating Presence, [|cffffcc00Level 5|r]
-}
-
-STRING 7871
-// Abilities: A0FN (Soulstealer: Debilitating Presence), Ubertip (Tooltip - Normal - Extended)
-{
-The hero begins to draw the soul out of enemies. 
-Every second, deals |cffbe81f710|r damage to all binded enemies. Grants the hero a |cffbe81f7shield|r that absorbs damage equal to the damage dealt.
-|cffffcc00Duration:|r 22 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 7872
-// Abilities: A0FN (Soulstealer: Debilitating Presence), Ubertip (Tooltip - Normal - Extended)
-{
-The hero begins to draw the soul out of enemies. 
-Every second, deals |cffbe81f714|r damage to all binded enemies. Grants the hero a |cffbe81f7shield|r that absorbs damage equal to the damage dealt.
-|cffffcc00Duration:|r 22 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 7873
-// Abilities: A0FN (Soulstealer: Debilitating Presence), Ubertip (Tooltip - Normal - Extended)
-{
-The hero begins to draw the soul out of enemies. 
-Every second, deals |cffbe81f718|r damage to all binded enemies. Grants the hero a |cffbe81f7shield|r that absorbs damage equal to the damage dealt.
-|cffffcc00Duration:|r 22 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 7874
-// Abilities: A0FN (Soulstealer: Debilitating Presence), Ubertip (Tooltip - Normal - Extended)
-{
-The hero begins to draw the soul out of enemies. 
-Every second, deals |cffbe81f722|r damage to all binded enemies. Grants the hero a |cffbe81f7shield|r that absorbs damage equal to the damage dealt.
-|cffffcc00Duration:|r 22 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 7875
-// Abilities: A0FN (Soulstealer: Debilitating Presence), Ubertip (Tooltip - Normal - Extended)
-{
-The hero begins to draw the soul out of enemies. 
-Every second, deals |cffbe81f726|r damage to all binded enemies. Grants the hero a |cffbe81f7shield|r that absorbs damage equal to the damage dealt.
-|cffffcc00Duration:|r 22 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 7876
@@ -56079,22 +56260,10 @@ STRING 8647
 Path of the Rune
 }
 
-STRING 8648
-// Abilities: A0AK (Blessing: Хроноскорость (g14)), Name (Name)
-{
-Blessing: Хроноскорость (g14)
-}
-
 STRING 8649
-// Abilities: A0AK (Blessing: Хроноскорость (g14)), Tip (Tooltip - Normal)
+// Abilities: A0AK (Blessing: Chronospeed), Tip (Tooltip - Normal)
 {
 |cffffcc00Blessing:|r Chronospeed
-}
-
-STRING 8650
-// Abilities: A0AK (Blessing: Хроноскорость (g14)), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero uses an ability or item, with a 4% chance, resets the cooldown of abilities and items.
 }
 
 STRING 8651
@@ -62321,12 +62490,6 @@ STRING 9615
 Malicious Kindness, [|cffffcc00Level %d|r]
 }
 
-STRING 9616
-// Abilities: A04X (Peacelock: Malicious Kindness), Researchubertip (Tooltip - Learn - Extended)
-{
-Creates an aura that gives all allied heroes nearby the effect: "When is healed, deals damage equal to |cffbe81f740%/55%/70%/85%/100%|r of that healing to a random enemy nearby."
-}
-
 STRING 9617
 // Abilities: A04X (Peacelock: Malicious Kindness), Tip (Tooltip - Normal)
 {
@@ -62355,36 +62518,6 @@ STRING 9621
 // Abilities: A04X (Peacelock: Malicious Kindness), Tip (Tooltip - Normal)
 {
 Malicious Kindness, [|cffffcc00Level 5|r]
-}
-
-STRING 9622
-// Abilities: A04X (Peacelock: Malicious Kindness), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an aura that gives all allied heroes nearby the effect: "When is healed, deals damage equal to |cffbe81f740%|r of that healing to a random enemy nearby."
-}
-
-STRING 9623
-// Abilities: A04X (Peacelock: Malicious Kindness), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an aura that gives all allied heroes nearby the effect: "When is healed, deals damage equal to |cffbe81f755%|r of that healing to a random enemy nearby."
-}
-
-STRING 9624
-// Abilities: A04X (Peacelock: Malicious Kindness), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an aura that gives all allied heroes nearby the effect: "When is healed, deals damage equal to |cffbe81f770%|r of that healing to a random enemy nearby."
-}
-
-STRING 9625
-// Abilities: A04X (Peacelock: Malicious Kindness), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an aura that gives all allied heroes nearby the effect: "When is healed, deals damage equal to |cffbe81f785%|r of that healing to a random enemy nearby."
-}
-
-STRING 9626
-// Abilities: A04X (Peacelock: Malicious Kindness), Ubertip (Tooltip - Normal - Extended)
-{
-Creates an aura that gives all allied heroes nearby the effect: "When is healed, deals damage equal to |cffbe81f7100%|r of that healing to a random enemy nearby."
 }
 
 STRING 9627
@@ -63883,15 +64016,6 @@ STRING 9857
 Channel Energy, [|cffffcc00Level %d|r]
 }
 
-STRING 9858
-// Abilities: A03J (Peacelock: Channel Energy), Researchubertip (Tooltip - Learn - Extended)
-{
-Binds the ally to a random enemy nearby. When the enemy takes damage, |cffbe81f720%/30%/40%/50%/60%|r of the received also turns into the target's health.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 9859
 // Abilities: A03J (Peacelock: Channel Energy), Tip (Tooltip - Normal)
 {
@@ -63920,46 +64044,6 @@ STRING 9863
 // Abilities: A03J (Peacelock: Channel Energy), Tip (Tooltip - Normal)
 {
 Channel Energy, [|cffffcc00Level 5|r]
-}
-
-STRING 9864
-// Abilities: A03J (Peacelock: Channel Energy), Ubertip (Tooltip - Normal - Extended)
-{
-Binds the ally to a random enemy nearby. When the enemy takes damage, |cffbe81f720%|r of the received also turns into the target's health.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 9865
-// Abilities: A03J (Peacelock: Channel Energy), Ubertip (Tooltip - Normal - Extended)
-{
-Binds the ally to a random enemy nearby. When the enemy takes damage, |cffbe81f730%|r of the received also turns into the target's health.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 9866
-// Abilities: A03J (Peacelock: Channel Energy), Ubertip (Tooltip - Normal - Extended)
-{
-Binds the ally to a random enemy nearby. When the enemy takes damage, |cffbe81f740%|r of the received also turns into the target's health.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 9867
-// Abilities: A03J (Peacelock: Channel Energy), Ubertip (Tooltip - Normal - Extended)
-{
-Binds the ally to a random enemy nearby. When the enemy takes damage, |cffbe81f750%|r of the received also turns into the target's health.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 9868
-// Abilities: A03J (Peacelock: Channel Energy), Ubertip (Tooltip - Normal - Extended)
-{
-Binds the ally to a random enemy nearby. When the enemy takes damage, |cffbe81f760%|r of the received also turns into the target's health.
-|cffffcc00Duration:|r 12 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 9869
@@ -69407,18 +69491,6 @@ STRING 10731
 Agility and intelligence increased.
 }
 
-STRING 10732
-// Buffs/Effects: B05P (), Bufftip (Tooltip)
-{
-|cff00ff00Magic shield|r
-}
-
-STRING 10733
-// Buffs/Effects: B05P (), Buffubertip (Tooltip - Extended)
-{
-Warrior absorbs damage.
-}
-
 STRING 10734
 // Buffs/Effects: B05O (), Bufftip (Tooltip)
 {
@@ -70479,12 +70551,6 @@ STRING 10909
 // Buffs/Effects: B03A (), Bufftip (Tooltip)
 {
 |cff00ff00Malicious Kindness|r
-}
-
-STRING 10910
-// Buffs/Effects: B03A (), Buffubertip (Tooltip - Extended)
-{
-Deals damage to a random enemy while healing.
 }
 
 STRING 10911
@@ -72014,11 +72080,6 @@ When the Hero uses an ability, increases Spell Power by 3% for a short time and 
 |cffffcc00Duration:|r 6 seconds.
 }
 
-STRING 11162
-{
-This item cannot be dropped. Use the Exterminator (clockwork goblin) to split the item.
-}
-
 STRING 11163
 {
 Type: |Cffffcc00Summoned|r
@@ -72164,21 +72225,6 @@ STRING 11187
 // Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
 {
 Every second the hero increases the attack power by 3. Gives twice as much attack while invisible. The effect disappears after dealing damage with an attack.
-}
-
-STRING 11188
-{
-Heroes do full damage to any sources.
-}
-
-STRING 11189
-{
-Minions deal 10% less damage to bosses.
-}
-
-STRING 11190
-{
-Minions deal 10% less damage to bosses.
 }
 
 STRING 11191
@@ -74525,11 +74571,6 @@ STRING 11555
 - |cff00cceeAt 30% health:|r The boss explodes the lower half of the arena.
 }
 
-STRING 11556
-{
-Bosses take 10% less damage from minions and 5% less from magic damage.
-}
-
 STRING 11557
 // Abilities: A19E (|cffffcc00Уровень 10:|r Angry Bob), Ubertip (Tooltip - Normal - Extended)
 {
@@ -75966,20 +76007,6 @@ When dies, restores |cffbe81f7135|r Health to the owner and gives |cffbe81f720|r
 |cFF959697Spell Power efficiency is 35% of the base for gold gain.|r
 }
 
-STRING 11760
-// Items: I0B5 (Trash), Description (Description)
-{
-|cffbababcCommon|r
-Cannot be exchanged at Huckster.
-}
-
-STRING 11761
-// Items: I0B5 (Trash), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Cannot be exchanged at Huckster.
-}
-
 STRING 11762
 // Items: I03Y (Wrackspurts), Description (Description)
 {
@@ -76723,16 +76750,6 @@ When you pick up an Artifact Reward, the other ones do not disappear.
 |cff81f260[Random bonus]|r
 }
 
-STRING 11865
-// Abilities: A0JO (|cffffcc00Extra:|r Double Trouble), Ubertip (Tooltip - Normal - Extended)
-{
-All heroes start a battle with two bosses, but gain more gold.
-
-|cffffcc00Your heroes fight with two bosses at the same time. When the boss dies, the others become enraged, increasing their attack by 40% and movement speed by 20%.
-
-Players receive an additional 50% gold for defeating bosses. Experience bonus: +15%.|r
-}
-
 STRING 11866
 // Abilities: A04L (Doctor: Unreachable), Ubertip (Tooltip - Normal - Extended)
 {
@@ -76871,14 +76888,6 @@ STRING 11885
 Egg of the Void (Out of Pool)
 }
 
-STRING 11886
-// Items: I0A8 (Dark Pearl), Description (Description)
-{
-|cff4169e1Rare|r
-Reduces attack and movement speed by 25%. Activation: Fully restores the hero’s mana.
-|cffffcc00Cooldown:|r 40 seconds.
-}
-
 STRING 11887
 // Items: I0A8 (Dark Pearl), Name (Name)
 {
@@ -76889,14 +76898,6 @@ STRING 11888
 // Items: I0A8 (Dark Pearl), Tip (Tooltip - Basic)
 {
 Dark Pearl
-}
-
-STRING 11889
-// Items: I0A8 (Dark Pearl), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Reduces attack and movement speed by 25%. Activation: Fully restores the hero’s mana.
-|cffffcc00Cooldown:|r 40 seconds.
 }
 
 STRING 11890

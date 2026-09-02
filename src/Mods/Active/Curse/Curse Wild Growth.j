@@ -6,12 +6,15 @@ scope CurseWildGrowth initializer init
 		
 		private timer TimerUsed = CreateTimer()
 		
-		private integer GROWTH_AREA = 128
+		private constant integer GROWTH_AREA = 128
+		private constant integer COOLDOWN = 12
+		
 	endglobals
 	
 	private function check takes nothing returns nothing
 	    local integer id = GetHandleId( GetExpiredTimer( ) )
 	    local effect vine = LoadEffectHandle( udg_hash, id, StringHash( "curse_vine_check" ) )
+	    local effect area = LoadEffectHandle( udg_hash, id, StringHash( "curse_vine_area_check" ) )
 	    local group g = CreateGroup()
 	    local group affected = CreateGroup()
 	    local unit u
@@ -24,7 +27,7 @@ scope CurseWildGrowth initializer init
 	        loop
 	            set u = FirstOfGroup(g)
 	            exitwhen u == null
-	            if IsUnitAlly(u, Player(4)) and BlzIsUnitInvulnerable(u) == false then
+	            if IsUnitAlly(u, Player(4)) and BlzIsUnitInvulnerable(u) == false and InvisibilitySystem_IsActive(u) == false then
 	                call GroupAddUnit(affected, u)
 	            endif
 	            call GroupRemoveUnit(g,u)
@@ -41,6 +44,7 @@ scope CurseWildGrowth initializer init
 	                call GroupRemoveUnit(affected,u)
 	            endloop
 	            call DestroyEffect(vine)
+	            call IndicatorSystem_Remove(area)
 	            call DestroyTimer( GetExpiredTimer() )
 	        endif
 	    endif
@@ -51,22 +55,30 @@ scope CurseWildGrowth initializer init
 	    set u = null
 	    set g = null
 	    set affected = null
+	    set area = null
 	endfunction
 	
 	private function activation_delay takes nothing returns nothing
 	    local integer id = GetHandleId( GetExpiredTimer( ) )
 	    local effect vine = LoadEffectHandle( udg_hash, id, StringHash( "curse_vine" ) )
+	    local effect area = LoadEffectHandle( udg_hash, id, StringHash( "curse_vine_area" ) )
 
-		call InvokeTimerWithEffect( vine, "curse_vine_check", 0.5, true, function check )
-	    call FlushChildHashtable( udg_hash, id )
+		call FlushChildHashtable( udg_hash, id )
+
+		set id = InvokeTimerWithEffect( vine, "curse_vine_check", 0.5, true, function check )
+	    call SaveEffectHandle( udg_hash, id, StringHash( "curse_vine_area_check" ), area )
 	    
 	    set vine = null
+	    set area = null
 	endfunction
 	
 	private function spawn takes nothing returns nothing
 	    local integer id
 	    local unit hero
 	    local effect vine
+	    local effect area
+	    local real x
+	    local real y
 	
 	    if not( udg_fightmod[0] ) then
 	        call PauseTimer(TimerUsed)
@@ -74,15 +86,20 @@ scope CurseWildGrowth initializer init
 	        set hero = DeathSystem_GetRandomAliveHero()
 	        
 	        if hero != null then
-	            set vine = AddSpecialEffect("Abilities\\Spells\\NightElf\\EntanglingRoots\\EntanglingRootsTarget.mdl", Math_GetUnitRandomX(hero, 500), Math_GetUnitRandomY(hero, 500))
+	        	set x = Math_GetUnitRandomX(hero, 500)
+	        	set y = Math_GetUnitRandomY(hero, 500)
+	            set vine = AddSpecialEffect("Abilities\\Spells\\NightElf\\EntanglingRoots\\EntanglingRootsTarget.mdl", x, y)
 	            call BlzSetSpecialEffectColor( vine, 255, 50, 50 )
+	            set area = IndicatorSystem_Create( INDICATOR_AIM, x, y, GROWTH_AREA, 0, null )
 	        
-	        	call InvokeTimerWithEffect( vine, "curse_vine", 2, false, function activation_delay )
+	        	set id = InvokeTimerWithEffect( vine, "curse_vine", 2, false, function activation_delay )
+	        	call SaveEffectHandle( udg_hash, id, StringHash( "curse_vine_area" ), area )
 	        endif
 	    endif
 	    
 	    set hero = null
 	    set vine = null
+	    set area = null
 	endfunction
 	
 	private function action takes nothing returns nothing
@@ -115,7 +132,7 @@ scope CurseWildGrowth initializer init
 		set TriggerEnd = CreateEventTrigger( "udg_FightEndGlobal_Real", function action_end, null )
 		call DisableTrigger( TriggerEnd )
 		
-		call TimerStart( TimerUsed, 12, true, function spawn )
+		call TimerStart( TimerUsed, COOLDOWN, true, function spawn )
 		call PauseTimer(TimerUsed)
 	endfunction
 

@@ -18,6 +18,7 @@ scope DoubleTrouble initializer init
 		private constant integer EXPERIENCE_BONUS_PERC = 15
 		
 		private constant integer MONEY_GAIN_MULTIPLIER = 40
+		private constant integer GOLD_GAIN_PER_BOSS_LEVEL = 100
 		
 		private constant integer REVENGE_EFFECT = 'A1HP'
 		private constant integer REVENGE_DAMAGE = 'A1HQ'
@@ -79,7 +80,7 @@ scope DoubleTrouble initializer init
 	    loop 
 	        exitwhen i > 4
 	        if GetPlayerSlotState(Player( i - 1) ) == PLAYER_SLOT_STATE_PLAYING then
-				call moneyst( udg_hero[i], ( udg_Boss_LvL - 1 ) * 50 )
+				call moneyst( udg_hero[i], ( udg_Boss_LvL - 1 ) * GOLD_GAIN_PER_BOSS_LEVEL )
 			endif
 			set i = i + 1
 		endloop

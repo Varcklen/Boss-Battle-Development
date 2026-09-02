@@ -11,7 +11,7 @@ scope Bear3 initializer init
 	endglobals
 	
 	private function condition takes nothing returns boolean
-	    return GetUnitTypeId(udg_DamageEventSource) == 'n010'
+	    return GetUnitTypeId(udg_DamageEventSource) == 'n010' and udg_IsDamageSpell == false
 	endfunction
 	
 	private function WoundTick takes nothing returns nothing

@@ -219,6 +219,7 @@ library LibDataBoss
 	    set DB_Trigger_Boss[2][22] = gg_trg_Knight2
 	    set DB_Trigger_Boss[2][23] = gg_trg_Knight3
 	    set DB_Trigger_Boss[2][24] = gg_trg_Knight4
+	    set DB_Trigger_Boss[2][25] = Knight5_Trigger
 	    set DB_Trigger_Boss[2][31] = gg_trg_Bandit1
 	    set DB_Trigger_Boss[2][32] = gg_trg_Bandit2
 	    set DB_Trigger_Boss[2][33] = gg_trg_Bandit3

@@ -5,23 +5,20 @@ scope BlessHronoSpeed initializer init
 	endglobals
 	
 	private function condition takes nothing returns boolean
-		return IsUnitType( GetSpellAbilityUnit(), UNIT_TYPE_HERO) and 4 >= GetRandomInt( 1, 100 )
+		return IsUnitType( GetSpellAbilityUnit(), UNIT_TYPE_HERO) and 6 >= GetRandomInt( 1, 100 )
 	endfunction
 	
-	private function end takes nothing returns nothing
-	    local integer id = GetHandleId( GetExpiredTimer() )
-	    local unit caster = LoadUnitHandle( udg_hash, id, StringHash( "hrspeed" ) )
-	    
-	    call UnitResetCooldown( caster )
-	    call FlushChildHashtable( udg_hash, id )
-	    
-	    set caster = null
-	endfunction
-
 	private function action takes nothing returns nothing
-        call DestroyEffect( AddSpecialEffect( "war3mapImported\\Sci Teleport.mdx", GetUnitX( GetSpellAbilityUnit() ), GetUnitY( GetSpellAbilityUnit() ) ) )
-
-		call InvokeTimerWithUnit( GetSpellAbilityUnit(), "hrspeed", 0.1, false, function end )
+		local integer abilityId
+		local unit target = GetSpellAbilityUnit()
+		
+        call DestroyEffect( AddSpecialEffect( "war3mapImported\\Sci Teleport.mdx", GetUnitX( target ), GetUnitY( target ) ) )
+		set abilityId = FindAbilityOnCooldown(target)
+	    if abilityId != -1 then
+	    	call UnitReduceAbilityCooldownPercent( target, abilityId, 0.5 )
+	    endif
+	    
+	    set target = null
 	endfunction
 
 	//===========================================================================
