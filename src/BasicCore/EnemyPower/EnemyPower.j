@@ -7,7 +7,7 @@ library EnemyPower initializer init requires SpellPower
 		private real AtBonusMultiplicative = 1
 		
 		private constant real BASE_ENEMY_AT_INCREASE = 0.2
-		private constant real BASE_ENEMY_HP_INCREASE = 0.35
+		private constant real BASE_ENEMY_HP_INCREASE = 0.45
 		
 		private constant real HP_REDUCE_PER_PLAYER = 0.2
 		private constant real AT_REDUCE_PER_PLAYER = 0.15

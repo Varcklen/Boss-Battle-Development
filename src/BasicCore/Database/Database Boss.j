@@ -37,7 +37,7 @@ library LibDataBoss
 	    set DB_Boss_id[4][6] = 'h01X'
 	    set DB_Boss_id[5][1] = 'n02W'
 	    set DB_Boss_id[5][2] = 'n00R'
-	    set DB_Boss_id[5][3] = 'n008'
+	    set DB_Boss_id[5][3] = 'n01T'
 	    set DB_Boss_id[5][4] = 'n03M'
 	    set DB_Boss_id[5][5] = 'o00F'
 	    set DB_Boss_id[5][6] = 'n041'
@@ -46,7 +46,7 @@ library LibDataBoss
 	    set DB_Boss_id[6][3] = 'e005'
 	    set DB_Boss_id[6][4] = 'h010'
 	    set DB_Boss_id[6][5] = 'h00M'
-	    set DB_Boss_id[7][1] = 'n01T'
+	    set DB_Boss_id[7][1] = 'n008'
 	    set DB_Boss_id[7][2] = 'h003'
 	    set DB_Boss_id[7][3] = 'n01S'
 	    set DB_Boss_id[7][4] = 'o00M'
@@ -96,7 +96,7 @@ library LibDataBoss
 	    set Boss_Info[4][6] = 'A16Z'
 	    set Boss_Info[5][1] = 'A0Y7'//5
 	    set Boss_Info[5][2] = 'A06P'
-	    set Boss_Info[5][3] = 'A06G'
+	    set Boss_Info[5][3] = 'A0HF'
 	    set Boss_Info[5][4] = 'A0W7'
 	    set Boss_Info[5][5] = 'A0AT'
 	    set Boss_Info[5][6] = 'A0JX'
@@ -105,7 +105,7 @@ library LibDataBoss
 	    set Boss_Info[6][3] = 'A0HD'
 	    set Boss_Info[6][4] = 'A0AR'
 	    set Boss_Info[6][5] = 'A0HE'
-	    set Boss_Info[7][1] = 'A0HF'//7
+	    set Boss_Info[7][1] = 'A06G'//7
 	    set Boss_Info[7][2] = 'A06I'
 	    set Boss_Info[7][3] = 'A0HG'
 	    set Boss_Info[7][4] = 'A0Y8'
@@ -282,10 +282,6 @@ library LibDataBoss
 	    set DB_Trigger_Boss[5][11] = gg_trg_Golem1
 	    set DB_Trigger_Boss[5][12] = gg_trg_Golem2
 	    set DB_Trigger_Boss[5][13] = gg_trg_Golem3
-	    set DB_Trigger_Boss[5][21] = gg_trg_GhostKnight1
-	    set DB_Trigger_Boss[5][22] = gg_trg_GhostKnight2
-	    set DB_Trigger_Boss[5][23] = gg_trg_GhostKnight3
-	    set DB_Trigger_Boss[5][24] = gg_trg_GhostKnight4
 	    set DB_Trigger_Boss[5][31] = gg_trg_Banshi1
 	    set DB_Trigger_Boss[5][32] = gg_trg_Banshi2
 	    set DB_Trigger_Boss[5][33] = Banshi2Second
@@ -318,6 +314,10 @@ library LibDataBoss
 	    set DB_Trigger_Boss[6][41] = gg_trg_Paladin1
 	    set DB_Trigger_Boss[6][42] = gg_trg_Paladin2
 	    set DB_Trigger_Boss[6][43] = gg_trg_Paladin3
+	    set DB_Trigger_Boss[7][1] = gg_trg_GhostKnight1
+	    set DB_Trigger_Boss[7][2] = gg_trg_GhostKnight2
+	    set DB_Trigger_Boss[7][3] = gg_trg_GhostKnight3
+	    set DB_Trigger_Boss[7][4] = gg_trg_GhostKnight4
 	    set DB_Trigger_Boss[7][11] = gg_trg_GrandMage1
 	    set DB_Trigger_Boss[7][12] = gg_trg_GrandMage2
 	    set DB_Trigger_Boss[7][13] = gg_trg_GrandMage3
@@ -450,7 +450,7 @@ library LibDataBoss
 	    set Boss_Talk[4][6] = gg_snd_FootmanPissed3
 	    set Boss_Talk[5][1] = gg_snd_ShadeYesAttack1
 	    set Boss_Talk[5][2] = gg_snd_IronGolemPissed3
-	    set Boss_Talk[5][3] = gg_snd_DeathKnightReady1
+	    set Boss_Talk[5][3] = gg_snd_HydraDeath1 
 	    set Boss_Talk[5][4] = gg_snd_BansheeWarcry1
 	    set Boss_Talk[5][5] = gg_snd_PeonWarcry1
 	    set Boss_Talk[5][6] = gg_snd_KotoBeastWhat3
@@ -459,7 +459,7 @@ library LibDataBoss
 	    set Boss_Talk[6][3] = gg_snd_HuntressYes3
 	    set Boss_Talk[6][4] = gg_snd_GoblinSapperYes5
 	    set Boss_Talk[6][5] = gg_snd_UtherPissed1
-	    set Boss_Talk[7][1] = gg_snd_HydraDeath1
+	    set Boss_Talk[7][1] = gg_snd_DeathKnightReady1
 	    set Boss_Talk[7][2] = gg_snd_HeroArchMageWarcry1
 	    set Boss_Talk[7][3] = gg_snd_SuccubusYes2
 	    set Boss_Talk[7][4] = gg_snd_FrostwyrmWarcry1

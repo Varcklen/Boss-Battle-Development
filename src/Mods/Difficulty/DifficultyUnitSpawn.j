@@ -14,6 +14,7 @@ scope DifficultyUnitSpawn initializer init
 		local unit unitUsed = EnemyUnitSummoned.GetDataUnit("unit")
 		local integer diffLevel = Difficulty_GetIndex()
         local integer i = 1
+        local real value
 	    
 	    loop
 	        exitwhen i > 4
@@ -23,7 +24,12 @@ scope DifficultyUnitSpawn initializer init
 	    endloop
 	    
 	    call UnitAddAbility( unitUsed, 'A073' )
-	    call BlzSetUnitAttackCooldown( unitUsed,BlzGetUnitAttackCooldown( unitUsed,0 ) / HardModAspd[diffLevel],0)
+	    
+	    set value = BlzGetUnitAttackCooldown( unitUsed,0 ) / HardModAspd[diffLevel]
+	    call BlzSetUnitAttackCooldown( unitUsed, value,0)
+	    
+	    set value = BlzGetUnitBaseDamage(unitUsed, 0) * Difficulty_ATTACK_DAMAGE_BONUS[diffLevel]
+	    call BlzSetUnitBaseDamage( unitUsed, R2I( value ), 0 )
 	    
 	    set unitUsed = null
 	endfunction

@@ -13,7 +13,9 @@ library Difficulty initializer init requires Multiboard, SpellPower
     	
     	public constant integer EXP_BONUS_PER_DIFFICULTY = 40
     	
-    	private constant real SPELL_POWER_BONUS_PER_DIFFICULTY = 0.4
+    	private constant real SPELL_POWER_BONUS_PER_DIFFICULTY = 0.2
+    	
+    	public real array ATTACK_DAMAGE_BONUS
 	endglobals
 
 	private function Setup_DB takes nothing returns nothing
@@ -56,15 +58,22 @@ library Difficulty initializer init requires Multiboard, SpellPower
 	    set udg_HardModBonus[4] = 'A07Q'
 	    
 	    set HardModAspd[0]=1.0
-	    set HardModAspd[1]=1.2
-	    set HardModAspd[2]=1.4
-	    set HardModAspd[3]=1.6
-	    set HardModAspd[4]=1.8
-	    set HardModAspd[5]=2
+	    set HardModAspd[1]=1.1
+	    set HardModAspd[2]=1.2
+	    set HardModAspd[3]=1.3
+	    set HardModAspd[4]=1.4
+	    set HardModAspd[5]=1.5
 	    /*set HardModAspd[6]=2.2
 	    set HardModAspd[7]=2.4
 	    set HardModAspd[8]=2.6
 	    set HardModAspd[9]=2.8*/
+	    
+	    set ATTACK_DAMAGE_BONUS[0] = 1.0
+	    set ATTACK_DAMAGE_BONUS[1] = 1.08
+	    set ATTACK_DAMAGE_BONUS[2] = 1.16
+	    set ATTACK_DAMAGE_BONUS[3] = 1.24
+	    set ATTACK_DAMAGE_BONUS[4] = 1.32
+	    set ATTACK_DAMAGE_BONUS[5] = 1.4
 	endfunction
 	
 	private function GenerateDescription takes nothing returns string

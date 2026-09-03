@@ -3,7 +3,8 @@ scope ManadragonAttack initializer init
 	globals
 		private constant integer MANA_CONDITION = 30
 		private constant real EXTRA_DAMAGE = 1.75
-		private constant integer MANA_BURN = 40
+		
+		private constant integer MANA_BURN = 30
 		
 		private constant string ANIMATION = "Abilities\\Spells\\Other\\CrushingWave\\CrushingWaveDamage.mdl"
 	endglobals

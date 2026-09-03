@@ -6,7 +6,6 @@ scope ShepherdW initializer init
         private constant integer AREA_PER_LVL = 50
         private constant string AREA_EFFECT = "Abilities\\Spells\\Human\\Feedback\\SpellBreakerAttack.mdl"
         private constant string FIZZLE_EFFECT = "Abilities\\Spells\\Other\\TalkToMe\\TalkToMe"
-        private group g = CreateGroup()
         
 		trigger trg_ShepherdW = null
     endglobals
@@ -14,130 +13,78 @@ scope ShepherdW initializer init
     function Trig_ShepherdW_Conditions takes nothing returns boolean
         return GetSpellAbilityId() == ID_ABILITY //and combat( GetSpellAbilityUnit(), true, GetSpellAbilityId() )
     endfunction
-
-    private function target_is_ally takes nothing returns boolean
-        local unit filtered
-        local unit caster
-        local boolean b
-        set filtered = GetFilterUnit()
-        set caster = udg_Caster
-        if caster == null then
-            set caster = GetSpellAbilityUnit()
-        endif
-        set b = unitst( filtered, caster, "ally" ) and not( IsUnitType( filtered, UNIT_TYPE_STRUCTURE ) )
-        set filtered = null
-        set caster = null
-        return b
+    
+    private function FindUnique takes unit caster returns integer
+    	local integer i
+    	local integer iMax
+    	
+    	set i = 1
+        set iMax = udg_Database_NumberItems[24]
+        loop
+            exitwhen i > iMax
+            if GetUnitAbilityLevel( caster, udg_DB_Hero_SpecAbAkt[i] ) > 0 or GetUnitAbilityLevel( caster, udg_DB_Hero_SpecAbAktPlus[i] ) > 0 then
+                return i
+            endif
+            set i = i + 1
+        endloop
+        return -1
     endfunction
-    private function target_is_enemy takes nothing returns boolean
-        local unit filtered
-        local unit caster
-        local boolean b
-        set filtered = GetFilterUnit()
-        set caster = udg_Caster
-        if caster == null then
-            set caster = GetSpellAbilityUnit()
-        endif
-        set b = unitst( filtered, caster, "enemy" ) and GetUnitAbilityLevel( filtered, 'Avul' ) == 0 
-        set filtered = null
-        set caster = null
-        return b
-    endfunction
-    private function target_is_enemy_nonmech takes nothing returns boolean
-        local unit filtered
-        local unit caster
-        local boolean b
-        set filtered = GetFilterUnit()
-        set caster = udg_Caster
-        if caster == null then
-            set caster = GetSpellAbilityUnit()
-        endif
-        set b = unitst( filtered, caster, "enemy" ) and GetUnitAbilityLevel( filtered, 'Avul' ) == 0 and not( IsUnitType( filtered, UNIT_TYPE_MECHANICAL ) )
-        set filtered = null
-        set caster = null
-        return b
-    endfunction
-    private function target_is_ally_or_enemy takes nothing returns boolean
-        local unit filtered
-        local unit caster
-        local boolean b
-        set filtered = GetFilterUnit()
-        set caster = udg_Caster
-        if caster == null then
-            set caster = GetSpellAbilityUnit()
-        endif
-        set b = ( unitst( filtered, caster, "ally" ) and not( IsUnitType( filtered, UNIT_TYPE_STRUCTURE ) ) ) or ( unitst( filtered, caster, "enemy" ) and GetUnitAbilityLevel( filtered, 'Avul' ) == 0 )
-        set filtered = null
-        set caster = null
-        return b
-    endfunction
-    private function target_is_allied_summon takes nothing returns boolean
-        local unit filtered
-        local unit caster
-        local boolean b
+    
+    private function Cast takes unit caster, integer uniqueIndex, integer range, real x, real y returns nothing
+    	local unit u
+    	local group g = CreateGroup()
+    
+    	call GroupEnumUnitsInRange( g, x, y, range, null )
+        loop
+            set u = FirstOfGroup(g)
+            exitwhen u == null
+            //
+                set udg_CareLogic = true
+                call CastLib_CastAbility( caster, u, udg_DB_Trigger_Spec[uniqueIndex], 1, 20 )
+                set udg_CareLogic = false
+            //
+            call GroupRemoveUnit(g,u)
+        endloop
         
-        set filtered = GetFilterUnit()
-        set caster = udg_Caster
-        set caster = udg_Caster
-        if caster == null then
-            set caster = GetSpellAbilityUnit()
-        endif
-        set b = unitst( filtered, caster, "ally" ) and not( IsUnitType( filtered, UNIT_TYPE_HERO ) ) and not( IsUnitType( filtered, UNIT_TYPE_ANCIENT ) ) and  GetUnitAbilityLevel( filtered, 'Avul' ) == 0
-        set filtered = null
-        set caster = null
-        return b
+        call DestroyGroup(g)
+        set g = null
+        set u = null
     endfunction
 
     function Trig_ShepherdW_Actions takes nothing returns nothing
         local unit caster
-        local unit u
         local real target_x
         local real target_y
         local integer lvl
-        local real range
+        local integer range
         local integer i = 0
-        local integer cyclA
-        local integer cyclAEnd
+        local integer uniqueIndex
         
         if CastLogic() then
             set caster = udg_Caster
-            //set target = udg_Target
             set target_x = GetUnitX( caster )
             set target_y = GetUnitY( caster )
             set lvl = udg_Level
         elseif RandomLogic() then
             set caster = udg_Caster
-            //set target = randomtarget( caster, 600, "enemy", 0, 0, 0 )
             set target_x = GetUnitX( caster )
             set target_y = GetUnitY( caster )
             set lvl = udg_Level
             call textst( udg_string[0] + GetObjectName(ID_ABILITY), caster, 64, 90, 10, 1.5 )
-            /*if target == null then
-                set caster = null
-                return
-            endif*/
+
         else
             set caster = GetSpellAbilityUnit()
-            //set target = GetSpellTargetUnit()
             set lvl = GetUnitAbilityLevel(caster, GetSpellAbilityId())
             set target_x = GetLocationX( GetSpellTargetLoc() )
             set target_y = GetLocationY( GetSpellTargetLoc() )
         endif
         
-        set range = I2R(AREA_BASE+(AREA_PER_LVL*lvl))
-        set cyclA = 1
-        set cyclAEnd = udg_Database_NumberItems[24]
-        loop
-            exitwhen cyclA > cyclAEnd
-            if GetUnitAbilityLevel( caster, udg_DB_Hero_SpecAbAkt[cyclA] ) > 0 or GetUnitAbilityLevel( caster, udg_DB_Hero_SpecAbAktPlus[cyclA] ) > 0 then
-                set i = cyclA
-                set cyclA = cyclAEnd
-            endif
-            set cyclA = cyclA + 1
-        endloop
+        set range = AREA_BASE + ( AREA_PER_LVL * lvl)
+        set uniqueIndex = FindUnique( caster )
+        
         // not untargeted
-        if i != 0 and i != 7 and i != 9 and i != 10 and i != 11 and i != 13 and i != 14 and i != 15 then 
-            // targets allies
+        if i != -1 /*i != 0 and i != 7 and i != 9 and i != 10 and i != 11 and i != 13 and i != 14 and i != 15*/ then 
+            /*// targets allies
             if i == 1 or i == 5  then
                 call GroupEnumUnitsInRange( g, target_x, target_y, range, Condition(function target_is_ally) )
             // targets allied summons
@@ -151,33 +98,20 @@ scope ShepherdW initializer init
                 call GroupEnumUnitsInRange( g, target_x, target_y, range, Condition(function target_is_enemy) )
             // targets both
             elseif i == 4 or i == 12 then
-                call GroupEnumUnitsInRange( g, target_x, target_y, range, Condition(function target_is_ally_or_enemy) )
-            else //undefined
-                /*loop
-                    set u = FirstOfGroup(g)
-                    exitwhen u == null
-                    call GroupRemoveUnit(g,u)
-                    set u = FirstOfGroup(g)
-                endloop*/
+                 )
+            else 
                 call textst( "Fizzled!", caster, 64, 90, 10, 1.5 )
                 call DestroyEffect( AddSpecialEffectTarget(FIZZLE_EFFECT, caster, "overhead" ) )       
                 call BJDebugMsg("Error: Undefined Unique for 'Shepherd: Care'")
-            endif            
-            loop
-                set u = FirstOfGroup(g)
-                exitwhen u == null
-                //
-                    set udg_CareLogic = true
-                    call CastLib_CastAbility( caster, u, udg_DB_Trigger_Spec[i], lvl, 20 )
-                    set udg_CareLogic = false
-                //
-                call GroupRemoveUnit(g,u)
-            endloop
+            endif 
+            */
+            call Cast(caster, uniqueIndex, range, target_x, target_y )
             call DestroyEffect( AddSpecialEffect( AREA_EFFECT, target_x, target_y ) )
         else
             call textst( "Fizzled!", caster, 64, 90, 10, 1.5 )
             call DestroyEffect( AddSpecialEffectTarget(FIZZLE_EFFECT, caster, "overhead" ) )       
         endif
+        
         set caster = null
     endfunction
 

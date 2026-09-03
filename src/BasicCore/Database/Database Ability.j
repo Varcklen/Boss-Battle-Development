@@ -326,7 +326,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Two[12] = gg_trg_SkeletonLordW
 	    set udg_DB_Trigger_Two[13] = gg_trg_NerubW
 	    set udg_DB_Trigger_Two[14] = gg_trg_MinW
-	    set udg_DB_Trigger_Two[15] = gg_trg_VampW
+	    set udg_DB_Trigger_Two[15] = VampW_Trigger
 	    set udg_DB_Trigger_Two[16] = gg_trg_SniperW
 	    set udg_DB_Trigger_Two[17] = gg_trg_BuggerW
 	    set udg_DB_Trigger_Two[18] = gg_trg_PyrolordW
@@ -349,7 +349,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Two[35] = gg_trg_DoctorW
 	    set udg_DB_Trigger_Two[36] = gg_trg_OutcastW
 	    set udg_DB_Trigger_Two[37] = gg_trg_OgreW
-	    set udg_DB_Trigger_Two[38] = gg_trg_DryadW
+	    set udg_DB_Trigger_Two[38] = DryadW_Trigger
 	    set udg_DB_Trigger_Two[39] = gg_trg_Metal_MageW
 	    set udg_DB_Trigger_Two[40] = trg_KingW
 	    set udg_DB_Trigger_Two[41] = SludgeW_Trigger
@@ -369,13 +369,13 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Two[55] = gg_trg_WagonW
 	    set udg_DB_Trigger_Two[56] = gg_trg_FallenOneW
 	    set udg_DB_Trigger_Two[57] = gg_trg_MephistarQ
-	    set udg_DB_Trigger_Two[58] = gg_trg_SunKingW
+	    set udg_DB_Trigger_Two[58] = SunKingW_Trigger
 	    set udg_DB_Trigger_Two[59] = gg_trg_ArmsW
 	    set udg_DB_Trigger_Two[60] = gg_trg_JesterW
 	    set udg_DB_Trigger_Two[61] = gg_trg_KeeperW
 	    set udg_DB_Trigger_Two[62] = gg_trg_PriestessW
 	    set udg_DB_Trigger_Two[63] = gg_trg_BardW
-	    set udg_DB_Trigger_Two[64] = gg_trg_PeacelockW
+	    set udg_DB_Trigger_Two[64] = PeacelockW_Trigger
 	    set udg_DB_Trigger_Two[65] = gg_trg_MarshalQ
 	    set udg_DB_Trigger_Two[66] = gg_trg_Corrupted_EntW
 	    set udg_DB_Trigger_Two[67] = gg_trg_The_PlagueW
@@ -400,7 +400,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Three[12] = gg_trg_SkeletonLordR
 	    set udg_DB_Trigger_Three[13] = gg_trg_NerubR
 	    set udg_DB_Trigger_Three[14] = gg_trg_MinR
-	    set udg_DB_Trigger_Three[15] = gg_trg_VampR
+	    set udg_DB_Trigger_Three[15] = VampR_Trigger
 	    set udg_DB_Trigger_Three[16] = trg_SniperR
 	    set udg_DB_Trigger_Three[17] = gg_trg_BuggerR
 	    set udg_DB_Trigger_Three[18] = gg_trg_PyrolordR
@@ -413,7 +413,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Three[25] = gg_trg_BlackKnightR
 	    set udg_DB_Trigger_Three[26] = gg_trg_ShadowArcherR
 	    set udg_DB_Trigger_Three[27] = gg_trg_Metal_MageR
-	    set udg_DB_Trigger_Three[28] = gg_trg_ComandR
+	    set udg_DB_Trigger_Three[28] = ComanderR_Trigger
 	    set udg_DB_Trigger_Three[29] = gg_trg_EnergyballR
 	    set udg_DB_Trigger_Three[30] = gg_trg_RealBroR
 	    set udg_DB_Trigger_Three[31] = trg_DevourerR

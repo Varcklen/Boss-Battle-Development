@@ -6,7 +6,7 @@ scope DifficultyThree initializer init
 		
 		private constant real POWER_BOOST_START = 0.03
 		private constant real POWER_BOOST_TIMER = 0.01
-		private constant integer TIME_TO_UPGRADE = 105
+		private constant integer TIME_TO_UPGRADE = 90
 		
 		private string ICON
 		private string NAME 
