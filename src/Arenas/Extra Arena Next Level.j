@@ -19,7 +19,7 @@ library ExtraArenaNextLevel initializer init requires Multiboard, Trigger
 	endfunction*/
 
 	private function SetGreenColorMulti takes integer slot returns nothing
-		call MultiSetColor( udg_multi, slot, 2, 20, 100, 20, 25 )
+		call Multiboard_MultiSetColor( udg_multi, 2, slot, 20, 100, 20, 25 )
 	endfunction
 
 	private function RefreshIA takes nothing returns nothing
@@ -52,7 +52,7 @@ library ExtraArenaNextLevel initializer init requires Multiboard, Trigger
 	
 	private function ArenaWarning takes integer slot, boolean booleanCheck returns nothing
 		if booleanCheck then
-            call MultiSetColor( udg_multi, slot, 2, 100, 100, 20, 25 )
+            call Multiboard_MultiSetColor( udg_multi, 2, slot, 100, 100, 20, 25 )
         endif
 	endfunction
 

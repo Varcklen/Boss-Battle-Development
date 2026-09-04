@@ -141,7 +141,7 @@ library Difficulty initializer init requires Multiboard, SpellPower
         
         set udg_HardNum = newValue
         set Difficulty_Name = udg_DB_Hardest[newValue]
-        call MultiSetValue( udg_multi, 3, 2, Difficulty_Name )
+        call Multiboard_MultiSetValue( udg_multi, 2, 3, Difficulty_Name )
         
         set tooltipDescription = BlzGetAbilityExtendedTooltip(udg_DB_ModesFrame_Difficulty[newValue], 0)
         if udg_HardNum > 0 then

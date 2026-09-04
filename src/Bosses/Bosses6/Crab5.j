@@ -10,7 +10,7 @@ scope Crab5 initializer init
     
     //===========================================================================
 	private function init takes nothing returns nothing
-		call CreateEventTrigger( "udg_AfterDamageEvent", function action, function condition )
+		call CreateEventTrigger( "udg_DamageModifierEvent", function action, function condition )
 	endfunction
 
 endscope

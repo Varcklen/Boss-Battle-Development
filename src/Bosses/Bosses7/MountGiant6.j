@@ -1,11 +1,11 @@
-scope Salamander2 initializer init
+scope MountGiant6 initializer init
 
 	private function condition takes nothing returns boolean
-		return udg_IsDamageSpell and GetUnitTypeId(udg_DamageEventTarget) == 'n041'
+		return GetUnitTypeId(udg_DamageEventTarget) == 'e000' and IsMinion(udg_DamageEventSource)
 	endfunction
 	
 	private function action takes nothing returns nothing
-    	set udg_DamageEventAmount = udg_DamageEventAmount - udg_DamageEventAmount * 0.4
+    	set udg_DamageEventAmount = udg_DamageEventAmount - udg_DamageEventAmount * 0.7
     endfunction
     
     //===========================================================================

@@ -10526,6 +10526,12 @@ STRING 1597
 Blooming Weed
 }
 
+STRING 1598
+// Abilities: A16N (Maiden: Pacifism), Researchubertip (Tooltip - Learn - Extended)
+{
+Attacking allies restores their health equal to |cffbe81f760%/75%/90%/105%/120%|r of the damage dealt. Attacking enemies reduces their Attack Damage by 15% for 2/3/4/5/6 seconds.
+}
+
 STRING 1599
 // Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
 {
@@ -11003,6 +11009,12 @@ STRING 1665
 When the hero activates the first ability (|cffffcc00Q|r), restores |cffbe81f71%|r of the maximum mana to all heroes each 2 seconds.
 |cffffcc00Duration:|r 12 seconds.
 
+}
+
+STRING 1666
+// Abilities: A16N (Maiden: Pacifism), Ubertip (Tooltip - Normal - Extended)
+{
+Attacking allies restores their health equal to |cffbe81f760%|r of the damage dealt. Attacking enemies reduces their Attack Damage by 15% for 2 seconds.
 }
 
 STRING 1667
@@ -13981,6 +13993,30 @@ STRING 2103
 Offhand Shooting, [|cffffcc00Level %d|r]
 }
 
+STRING 2104
+// Abilities: A16N (Maiden: Pacifism), Ubertip (Tooltip - Normal - Extended)
+{
+Attacking allies restores their health equal to |cffbe81f775%|r of the damage dealt. Attacking enemies reduces their Attack Damage by 15% for 3 seconds.
+}
+
+STRING 2105
+// Abilities: A16N (Maiden: Pacifism), Ubertip (Tooltip - Normal - Extended)
+{
+Attacking allies restores their health equal to |cffbe81f790%|r of the damage dealt. Attacking enemies reduces their Attack Damage by 15% for 4 seconds.
+}
+
+STRING 2106
+// Abilities: A16N (Maiden: Pacifism), Ubertip (Tooltip - Normal - Extended)
+{
+Attacking allies restores their health equal to |cffbe81f7105%|r of the damage dealt. Attacking enemies reduces their Attack Damage by 15% for 5 seconds.
+}
+
+STRING 2107
+// Abilities: A16N (Maiden: Pacifism), Ubertip (Tooltip - Normal - Extended)
+{
+Attacking allies restores their health equal to |cffbe81f7120%|r of the damage dealt. Attacking enemies reduces their Attack Damage by 15% for 6 seconds.
+}
+
 STRING 2108
 // Items: I0C3 (Yah's Tear), Description (Description)
 {
@@ -15837,6 +15873,15 @@ STRING 2381
 The hero goes into a rage, increasing Attack Speed by 40%, but loses 10 mana every second. If there is no mana, it spends health instead.
 }
 
+STRING 2382
+// Abilities: A16K (Maiden: Blessings), Researchubertip (Tooltip - Learn - Extended)
+{
+Heals all nearby allies for |cffbe81f775/100/125/150/175|r health and increases their armor by 20. At the end of the effect, deals damage to all nearby enemies equal to half of the healing.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 19/18/17/16/15 seconds.
+|cffffcc00Cost:|r 75 mana.
+}
+
 STRING 2383
 // Items: I037 (Change artifact (Slot 6)), Hotkey (Hotkey)
 {
@@ -15861,14 +15906,6 @@ STRING 2386
 - Every 4 seconds creates an electrical area that deals |cffbe81f735|r damage every second. Lasts 60 seconds.
 - |cff00cceeAt 60% health:|r Creates 8 electrical areas around the boss.
 - |cff00cceeAt 35% health:|r Areas spawn more often.
-}
-
-STRING 2387
-// Abilities: A06A (|cffffcc00Уровень 1:|r Кобольд), Ubertip (Tooltip - Normal - Extended)
-{
-- Attacking the same target three times in a row makes enhanced attacks. These enhanced attacks deal an additional 40 damage to all nearby boss's enemies.
-- Every 10 seconds, reduces the attack and movement speed of nearby boss enemies for 5 seconds.
-- |cff00cceeAt 75% health:|r Every 10 seconds it creates a bomb that explodes after 3 seconds, dealing |cffbe81f7200|r damage.
 }
 
 STRING 2388
@@ -19233,6 +19270,14 @@ STRING 2888
 Discount Coupon
 }
 
+STRING 2889
+// Abilities: A16K (Maiden: Blessings), Ubertip (Tooltip - Normal - Extended)
+{
+Heals all nearby allies for |cffbe81f775|r health and increases their armor by 20. At the end of the effect, deals damage to all nearby enemies equal to half of the healing.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 19 seconds.
+}
+
 STRING 2890
 // Items: I01V (Mechanical clock), Name (Name)
 {
@@ -19243,6 +19288,14 @@ STRING 2891
 // Items: I01V (Mechanical clock), Tip (Tooltip - Basic)
 {
 Mechanical clock
+}
+
+STRING 2892
+// Abilities: A16K (Maiden: Blessings), Ubertip (Tooltip - Normal - Extended)
+{
+Heals all nearby allies for |cffbe81f7100|r health and increases their armor by 20. At the end of the effect, deals damage to all nearby enemies equal to half of the healing.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 2893
@@ -20099,6 +20152,14 @@ STRING 3021
 // Abilities: A1CW (The Plague: Corrosive Skin), Researchhotkey (Hotkey - Learn)
 {
 E
+}
+
+STRING 3022
+// Abilities: A16K (Maiden: Blessings), Ubertip (Tooltip - Normal - Extended)
+{
+Heals all nearby allies for |cffbe81f7125|r health and increases their armor by 20. At the end of the effect, deals damage to all nearby enemies equal to half of the healing.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 17 seconds.
 }
 
 STRING 3023
@@ -26904,6 +26965,14 @@ STRING 4086
 Provocation
 }
 
+STRING 4087
+// Abilities: A16K (Maiden: Blessings), Ubertip (Tooltip - Normal - Extended)
+{
+Heals all nearby allies for |cffbe81f7150|r health and increases their armor by 20. At the end of the effect, deals damage to all nearby enemies equal to half of the healing.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 16 seconds.
+}
+
 STRING 4088
 // Abilities: A17J (Wicerd: Nah-ice! ), Researchhotkey (Hotkey - Learn)
 {
@@ -28192,11 +28261,9 @@ Pacifism, [|cffffcc00Level %d|r]
 }
 
 STRING 4291
-// Abilities: A16N (Maiden: Pacifism), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A06A (|cffffcc00Уровень 1:|r Kobold), Name (Name)
 {
-When attacking an ally, instead of dealing damage, it restore health, equal to |cffbe81f780%/90%/100%/110%/120%|r of the damage dealt.
-When attacks an enemy, reduces the attack power of the target by 15%.
-|cffffcc00Duration:|r 2/3/4/5/6 seconds.
+|cffffcc00Уровень 1:|r Kobold
 }
 
 STRING 4292
@@ -28230,43 +28297,35 @@ Pacifism, [|cffffcc00Level 5|r]
 }
 
 STRING 4297
-// Abilities: A16N (Maiden: Pacifism), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A06A (|cffffcc00Уровень 1:|r Kobold), Ubertip (Tooltip - Normal - Extended)
 {
-When attacking an ally, instead of dealing damage, it restore health, equal to |cffbe81f780%|r of the damage dealt.
-When attacks an enemy, reduces the attack power of the target by 15%.
-|cffffcc00Duration:|r 2 seconds.
+- Attacking the same target 3 times in a row makes attacks enhanced. These enhanced attacks deal an additional 40 damage to all nearby boss's enemies.
+- Every 10 seconds, reduces the attack and movement speed of nearby boss enemies by 20% for 5 seconds.
+- |cff00cceeAt 75% health:|r Creates a bomb that explodes after 2 seconds, dealing |cffbe81f7200|r damage. Repeats every 7 seconds.
 }
 
 STRING 4298
-// Abilities: A16N (Maiden: Pacifism), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1GB (.General-Item: Non-Splittable), Ubertip (Tooltip - Normal - Extended)
 {
-When attacking an ally, instead of dealing damage, it restore health, equal to |cffbe81f790%|r of the damage dealt.
-When attacks an enemy, reduces the attack power of the target by 15%.
-|cffffcc00Duration:|r 3 seconds.
+Items cannt be stlit in the Exterminator Shop.
 }
 
 STRING 4299
-// Abilities: A16N (Maiden: Pacifism), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1IC (.General-Item: Not Copyable), Ubertip (Tooltip - Normal - Extended)
 {
-When attacking an ally, instead of dealing damage, it restore health, equal to |cffbe81f7100%|r of the damage dealt.
-When attacks an enemy, reduces the attack power of the target by 15%.
-|cffffcc00Duration:|r 4 seconds.
+Item cannot be copied by some effects (like Copy-Cat).
 }
 
 STRING 4300
-// Abilities: A16N (Maiden: Pacifism), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1JS (.General-Item: Non-Lockable), Name (Name)
 {
-When attacking an ally, instead of dealing damage, it restore health, equal to |cffbe81f7110%|r of the damage dealt.
-When attacks an enemy, reduces the attack power of the target by 15%.
-|cffffcc00Duration:|r 5 seconds.
+.General-Item: Non-Lockable
 }
 
 STRING 4301
-// Abilities: A16N (Maiden: Pacifism), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1JS (.General-Item: Non-Lockable), Ubertip (Tooltip - Normal - Extended)
 {
-When attacking an ally, instead of dealing damage, it restore health, equal to |cffbe81f7120%|r of the damage dealt.
-When attacks an enemy, reduces the attack power of the target by 15%.
-|cffffcc00Duration:|r 6 seconds.
+Items cannot be locked by Chief of the Guard Ability (and similar ones).
 }
 
 STRING 4302
@@ -28305,15 +28364,6 @@ STRING 4307
 Blessings, [|cffffcc00Level %d|r]
 }
 
-STRING 4308
-// Abilities: A16K (Maiden: Blessings), Researchubertip (Tooltip - Learn - Extended)
-{
-Heals all nearby allies for |cffbe81f775/100/125/150/175|r health and increases their armor by 50. At the end of the effect, deals damage to all nearby enemies equal to half of the healing.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 19/18/17/16/15 seconds.
-|cffffcc00Cost:|r 70/75/80/85/90 mana.
-}
-
 STRING 4309
 // Abilities: A16K (Maiden: Blessings), Tip (Tooltip - Normal)
 {
@@ -28342,46 +28392,6 @@ STRING 4313
 // Abilities: A16K (Maiden: Blessings), Tip (Tooltip - Normal)
 {
 Blessings, [|cffffcc00Level 5|r]
-}
-
-STRING 4314
-// Abilities: A16K (Maiden: Blessings), Ubertip (Tooltip - Normal - Extended)
-{
-Heals all nearby allies for |cffbe81f775|r health and increases their armor by 50. At the end of the effect, deals damage to all nearby enemies equal to half of the healing.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 19 seconds.
-}
-
-STRING 4315
-// Abilities: A16K (Maiden: Blessings), Ubertip (Tooltip - Normal - Extended)
-{
-Heals all nearby allies for |cffbe81f7100|r health and increases their armor by 50. At the end of the effect, deals damage to all nearby enemies equal to half of the healing.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 4316
-// Abilities: A16K (Maiden: Blessings), Ubertip (Tooltip - Normal - Extended)
-{
-Heals all nearby allies for |cffbe81f7125|r health and increases their armor by 50. At the end of the effect, deals damage to all nearby enemies equal to half of the healing.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 17 seconds.
-}
-
-STRING 4317
-// Abilities: A16K (Maiden: Blessings), Ubertip (Tooltip - Normal - Extended)
-{
-Heals all nearby allies for |cffbe81f7150|r health and increases their armor by 50. At the end of the effect, deals damage to all nearby enemies equal to half of the healing.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 16 seconds.
-}
-
-STRING 4318
-// Abilities: A16K (Maiden: Blessings), Ubertip (Tooltip - Normal - Extended)
-{
-Heals all nearby allies for |cffbe81f7175|r health and increases their armor by 50. At the end of the effect, deals damage to all nearby enemies equal to half of the healing.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 4319
@@ -35673,6 +35683,14 @@ STRING 5444
 Снаряд: ЛунаXXX
 }
 
+STRING 5445
+// Abilities: A16K (Maiden: Blessings), Ubertip (Tooltip - Normal - Extended)
+{
+Heals all nearby allies for |cffbe81f7175|r health and increases their armor by 20. At the end of the effect, deals damage to all nearby enemies equal to half of the healing.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 5446
 // Abilities: A0TC (Barbarian: Blood bath), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -40733,6 +40751,12 @@ STRING 6212
 (Радиус)
 }
 
+STRING 6213
+// Abilities: A1DP (Shepherd: Shepherds Call (Ability Gained)), Name (Name)
+{
+Shepherd: Shepherds Call (Ability Gained)
+}
+
 STRING 6214
 // Abilities: A0RN (Potion: Огненный шторм), Researchtip (Tooltip - Learn)
 {
@@ -41081,6 +41105,12 @@ STRING 6270
 // Abilities: A08L (Legionary: Blade of Fire), Tip (Tooltip - Normal)
 {
 Blade of Fire, [|cffffcc00Level 3|r]
+}
+
+STRING 6271
+// Buffs/Effects: B0AE (), Buffubertip (Tooltip - Extended)
+{
+Armor is reduced.
 }
 
 STRING 6272
@@ -60738,14 +60768,8 @@ STRING 9363
 Small Coin
 }
 
-STRING 9364
-// Abilities: A06A (|cffffcc00Уровень 1:|r Кобольд), Name (Name)
-{
-|cffffcc00Уровень 1:|r Кобольд
-}
-
 STRING 9365
-// Abilities: A06A (|cffffcc00Уровень 1:|r Кобольд), Tip (Tooltip - Normal)
+// Abilities: A06A (|cffffcc00Уровень 1:|r Kobold), Tip (Tooltip - Normal)
 {
 Kobold
 }
@@ -66629,7 +66653,7 @@ Chronomancer: Distortion
 }
 
 STRING 10280
-// Abilities: A1DP (Shepherd: Shepherds Call XXX), Researchhotkey (Hotkey - Learn)
+// Abilities: A1DP (Shepherd: Shepherds Call (Ability Gained)), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -72488,20 +72512,20 @@ STRING 11245
 }
 
 STRING 11247
-// Abilities: A1DP (Shepherd: Shepherds Call XXX), Researchtip (Tooltip - Learn)
+// Abilities: A1DP (Shepherd: Shepherds Call (Ability Gained)), Researchtip (Tooltip - Learn)
 {
 Shepherds Call, [|cffffcc00Level %d|r]
 }
 
 STRING 11248
-// Abilities: A1DP (Shepherd: Shepherds Call XXX), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A1DP (Shepherd: Shepherds Call (Ability Gained)), Researchubertip (Tooltip - Learn - Extended)
 {
 Attacks apply a debuff reducing armor by 3/5/7/9/11.|nIdle allied summons are ordered to attack the Shepherds target.
 |cffffcc00Duration:|r 4 seconds.
 }
 
 STRING 11249
-// Abilities: A1DP (Shepherd: Shepherds Call XXX), Tip (Tooltip - Normal)
+// Abilities: A1DP (Shepherd: Shepherds Call (Ability Gained)), Tip (Tooltip - Normal)
 {
 Shepherds Call, [|cffffcc00Level 1|r]
 }
@@ -72531,78 +72555,66 @@ Care, [|cffffcc00Level 4|r]
 }
 
 STRING 11254
-// Abilities: A1DP (Shepherd: Shepherds Call XXX), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1DP (Shepherd: Shepherds Call (Ability Gained)), Ubertip (Tooltip - Normal - Extended)
 {
 Attacks apply a debuff reducing armor by 3.|nIdle allied summons are ordered to attack the Shepherds target.
 |cffffcc00Duration:|r 4 seconds.
 }
 
 STRING 11255
-// Abilities: A1DP (Shepherd: Shepherds Call XXX), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1DP (Shepherd: Shepherds Call (Ability Gained)), Ubertip (Tooltip - Normal - Extended)
 {
 Attacks apply a debuff reducing armor by 5.|nIdle allied summons are ordered to attack the Shepherds target.
 |cffffcc00Duration:|r 4 seconds.
 }
 
 STRING 11256
-// Abilities: A1DP (Shepherd: Shepherds Call XXX), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1DP (Shepherd: Shepherds Call (Ability Gained)), Ubertip (Tooltip - Normal - Extended)
 {
 Attacks apply a debuff reducing armor by 7.|nIdle allied summons are ordered to attack the Shepherds target.
 |cffffcc00Duration:|r 4 seconds.
 }
 
 STRING 11257
-// Abilities: A1DP (Shepherd: Shepherds Call XXX), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1DP (Shepherd: Shepherds Call (Ability Gained)), Ubertip (Tooltip - Normal - Extended)
 {
 Attacks apply a debuff reducing armor by 9.|nIdle allied summons are ordered to attack the Shepherds target.
 |cffffcc00Duration:|r 4 seconds.
 }
 
 STRING 11258
-// Abilities: A1DP (Shepherd: Shepherds Call XXX), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A1DP (Shepherd: Shepherds Call (Ability Gained)), Ubertip (Tooltip - Normal - Extended)
 {
 Attacks apply a debuff reducing armor by 11.|nIdle allied summons are ordered to attack the Shepherds target.
 |cffffcc00Duration:|r 4 seconds.
 }
 
-STRING 11259
-// Buffs/Effects: B0AE (Shepherds Call), EditorName (Name (Editor Only))
-{
-Shepherds Call
-}
-
 STRING 11260
-// Buffs/Effects: B0AE (Shepherds Call), Bufftip (Tooltip)
+// Buffs/Effects: B0AE (), Bufftip (Tooltip)
 {
 |cffff0000Shepherds Call|r
 }
 
-STRING 11261
-// Buffs/Effects: B0AE (Shepherds Call), Buffubertip (Tooltip - Extended)
-{
-This unit was hit by Shepherds Call; its armor is temporarily reduced.
-}
-
 STRING 11262
-// Abilities: A1DP (Shepherd: Shepherds Call XXX), Tip (Tooltip - Normal)
+// Abilities: A1DP (Shepherd: Shepherds Call (Ability Gained)), Tip (Tooltip - Normal)
 {
 Shepherds Call, [|cffffcc00Level 2|r]
 }
 
 STRING 11263
-// Abilities: A1DP (Shepherd: Shepherds Call XXX), Tip (Tooltip - Normal)
+// Abilities: A1DP (Shepherd: Shepherds Call (Ability Gained)), Tip (Tooltip - Normal)
 {
 Shepherds Call, [|cffffcc00Level 3|r]
 }
 
 STRING 11264
-// Abilities: A1DP (Shepherd: Shepherds Call XXX), Tip (Tooltip - Normal)
+// Abilities: A1DP (Shepherd: Shepherds Call (Ability Gained)), Tip (Tooltip - Normal)
 {
 Shepherds Call, [|cffffcc00Level 4|r]
 }
 
 STRING 11265
-// Abilities: A1DP (Shepherd: Shepherds Call XXX), Tip (Tooltip - Normal)
+// Abilities: A1DP (Shepherd: Shepherds Call (Ability Gained)), Tip (Tooltip - Normal)
 {
 Shepherds Call, [|cffffcc00Level 5|r]
 }
@@ -74304,12 +74316,6 @@ STRING 11555
 - |cff00cceeAt 60% health:|r The boss explodes the upper half of the arena, dealing |cffbe81f7100|r damage every second.
 |cffffcc00Duration:|r 10 seconds.
 - |cff00cceeAt 30% health:|r The boss explodes the lower half of the arena.
-}
-
-STRING 11556
-// Abilities: A1DP (Shepherd: Shepherds Call XXX), Name (Name)
-{
-Shepherd: Shepherds Call XXX
 }
 
 STRING 11557

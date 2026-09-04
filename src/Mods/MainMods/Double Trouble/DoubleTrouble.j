@@ -113,7 +113,7 @@ scope DoubleTrouble initializer init
 	endfunction
 
 	private function action takes nothing returns nothing
-		call MultiSetValue( udg_multi, 3, 2, Difficulty_GetName() + " (DT)" )
+		call Multiboard_MultiSetValue( udg_multi, 2, 3, Difficulty_GetName() + " (DT)" )
         call IconFrame( "DT", BlzGetAbilityIcon(ABILITY_USED), BlzGetAbilityTooltip(ABILITY_USED, 0), BlzGetAbilityExtendedTooltip(ABILITY_USED, 0) )
         call CombatTimer_AddBattleTime(ADDITIONAL_BATTLE_TIME, true)
         call SaveLoadStartLib_AddExtraExp(EXPERIENCE_BONUS_PERC)

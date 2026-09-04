@@ -8,7 +8,7 @@ scope BlessPlotTwist initializer init
 	public function Enable takes nothing returns nothing
 		if isUsedAgain == false then
             set udg_Heroes_Chanse = udg_Heroes_Chanse + 1
-            call MultiSetValue( udg_multi, 2, 1, I2S( udg_Heroes_Chanse ) )
+            call Multiboard_MultiSetValue( udg_multi, 1, 2, I2S( udg_Heroes_Chanse ) )
         endif
         set isUsedAgain = true
     endfunction

@@ -107,10 +107,8 @@ library CheatSystem initializer init requires Multiboard
 		local integer i 
 		local integer iMax
 	
-		set udg_logic[0] = true
 		set Cheater = cheater
         set IsCheatEnabled = true
-        call MultiSetColor( udg_multi, 3, 2, 80.00, 0.00, 0.00, 25.00 )
         call CreateInfo()
         
         if enableTriggers == false then
