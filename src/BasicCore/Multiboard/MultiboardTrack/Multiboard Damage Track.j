@@ -1,7 +1,7 @@
 scope MultiboardDamageTrack initializer init
 
 	globals
-		private trigger Trigger = null
+		public trigger Trigger = null
 	endglobals
 
 	private function condition takes nothing returns boolean
@@ -16,11 +16,12 @@ scope MultiboardDamageTrack initializer init
 	
 	private function AttackerTrack takes unit attacker, real damage returns nothing
 		local integer i = GetPlayerId( GetOwningPlayer(attacker) ) + 1
+		local integer columnPos = Multiboard_GetPlayerColumn(i)
 	
 		set udg_DamageAllTime[i] = udg_DamageAllTime[i] + damage
         set udg_DamageFight[i] = udg_DamageFight[i] + damage
-        call Multiboard_MultiSetValue( udg_multi, 6, udg_Multiboard_Position[i] * 3 - 1, R2SI( udg_DamageAllTime[i] ) )
-        call Multiboard_MultiSetValue( udg_multi, 7, udg_Multiboard_Position[i] * 3 - 1, R2SI( udg_DamageFight[i] ) )
+        call Multiboard_MultiSetValue( 6, columnPos, R2SI( udg_DamageAllTime[i] ) )
+        call Multiboard_MultiSetValue( 7, columnPos, R2SI( udg_DamageFight[i] ) )
         if udg_IsDamageSpell then
             set udg_Info_DamageMagic[i] = udg_Info_DamageMagic[i] + damage
         else
@@ -30,11 +31,12 @@ scope MultiboardDamageTrack initializer init
 	
 	private function TargetTrack takes unit target, real damage returns nothing
 		local integer k = GetUnitUserData(target)
+		local integer columnPos = Multiboard_GetPlayerColumn(k)
 
 		set udg_DamagedAllTime[k] = udg_DamagedAllTime[k] + damage
         set udg_DamagedFight[k] = udg_DamagedFight[k] + damage
-        call Multiboard_MultiSetValue( udg_multi, 13, udg_Multiboard_Position[k] * 3 - 1, R2SI( udg_DamagedAllTime[k] ) )
-        call Multiboard_MultiSetValue( udg_multi, 14, udg_Multiboard_Position[k] * 3 - 1, R2SI( udg_DamagedFight[k] ) )
+        call Multiboard_MultiSetValue( 13, columnPos, R2SI( udg_DamagedAllTime[k] ) )
+        call Multiboard_MultiSetValue( 14, columnPos, R2SI( udg_DamagedFight[k] ) )
 	endfunction
 	
 	private function action takes nothing returns nothing
@@ -54,6 +56,7 @@ scope MultiboardDamageTrack initializer init
 	//===========================================================================
     private function init takes nothing returns nothing
 		set Trigger = CreateEventTrigger( "udg_AfterDamageEvent", function action, function condition )
+		call DisableTrigger(Trigger)
 	endfunction
 
 endscope

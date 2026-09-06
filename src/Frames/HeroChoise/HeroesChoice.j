@@ -6,6 +6,7 @@ scope HeroesChoise initializer init
         real Event_HeroChoose_Real = 0
         unit Event_HeroChoose_Hero = null
         player Event_HeroChoose_Player = null
+        integer Event_HeroChoose_Index = 0
         
         private FirstPosition tempPosition
         
@@ -113,7 +114,6 @@ scope HeroesChoise initializer init
         call SavePlayerHandle(udg_hash, GetHandleId(hero), StringHash("main_owner"), owner )
         call SaveBoolean(udg_hash, GetHandleId(hero), STRING_HASH_SELECT, true )
         
-        call Multiboard_MultiSetIcon( udg_multi, 3, ( udg_Multiboard_Position[index] * 3 ) - 1, udg_DB_Hero_Icon[heroKey] )
         if udg_SkinUsed[index] == 0 then
             call BlzFrameSetTexture( faceframe[index], udg_DB_Hero_Icon[heroKey], 0, false)
         endif 

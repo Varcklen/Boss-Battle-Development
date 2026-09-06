@@ -1,5 +1,12 @@
 library EventDatabase initializer init requires EventSystem, BaseEventSystem
 
+	/*
+    EventName.GetDataUnit("unit")
+    call EventName.SetDataUnit("unit", UNIT)
+	call EventName.Invoke()
+	call EventName.AddListener(function action, function condition)
+	*/
+
 	/*Custom Event Init*/
     globals
         Event PotionUsed //Event_PotionUsed
@@ -189,6 +196,10 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         	target (unit)
         	amount (integer)
         */
+        Event SecondChance
+        /*
+        	caster (unit)
+        */
     endglobals
     
     private function InitCustomEvents takes nothing returns nothing
@@ -229,14 +240,9 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         set EnterInvisibility = Event.create(null, null)
         set ManaSpent = Event.create("caster", null)
         set ShieldGain = Event.create("caster", "target")
+        set SecondChance = Event.create("caster", null)
     endfunction
-    
-    /*
-    EventName.GetDataUnit("unit")
-    call EventName.SetDataUnit("unit", UNIT)
-	call EventName.Invoke()
-	call EventName.AddListener(function action, function condition)
-	*/
+
     
     /*Base Event Init*/
 	private function InitBaseEvents takes nothing returns nothing

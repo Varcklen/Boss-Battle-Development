@@ -20570,13 +20570,6 @@ STRING 3084
 Discount Coupon
 }
 
-STRING 3085
-// Items: I00J (Teleportation Stone), Description (Description)
-{
-|cff4169e1Rare|r
-Gives 1 extra attempt to fight the boss after losing. Destroyed after using the attempt.
-}
-
 STRING 3086
 // Items: I00J (Teleportation Stone), Name (Name)
 {
@@ -20587,13 +20580,6 @@ STRING 3087
 // Items: I00J (Teleportation Stone), Tip (Tooltip - Basic)
 {
 Teleportation Stone
-}
-
-STRING 3088
-// Items: I00J (Teleportation Stone), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Gives 1 extra attempt to fight the boss after losing. Destroyed after using the attempt.
 }
 
 STRING 3089
@@ -28392,6 +28378,20 @@ STRING 4313
 // Abilities: A16K (Maiden: Blessings), Tip (Tooltip - Normal)
 {
 Blessings, [|cffffcc00Level 5|r]
+}
+
+STRING 4314
+// Items: I00J (Teleportation Stone), Description (Description)
+{
+|cff4169e1Rare|r
+Gain 1 extra attempt against a boss. One of us disappears when you use an attempt.
+}
+
+STRING 4315
+// Items: I00J (Teleportation Stone), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Gain 1 extra attempt against a boss. One of us disappears when you use an attempt.
 }
 
 STRING 4319

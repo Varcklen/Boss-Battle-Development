@@ -27,8 +27,7 @@ scope MainBattleHeroDeath initializer init
         local group g = udg_Bosses
         local unit u
     
-        set udg_Heroes_Chanse = udg_Heroes_Chanse - 1
-        call Multiboard_MultiSetValue( udg_multi, 1, 2, I2S( udg_Heroes_Chanse ) )
+    	call Attempts_Add(-1)
         call DisplayTextToForce( bj_FORCE_ALL_PLAYERS, "You have another try!" )
         loop
             set u = FirstOfGroup(g)
@@ -91,7 +90,7 @@ scope MainBattleHeroDeath initializer init
 	private function action takes nothing returns nothing
 		//call BJDebugMsg("MainBattleHeroDeath")
 		call DisableTrigger( GetTriggeringTrigger() )
-		if udg_Heroes_Chanse > 0 then
+		if Attempts_Get() > 0 then
             call SecondChance()
         else
             call Defeat()
