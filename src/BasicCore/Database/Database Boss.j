@@ -279,9 +279,11 @@ library LibDataBoss
 	    set DB_Trigger_Boss[5][1] = gg_trg_Manipulator1
 	    set DB_Trigger_Boss[5][2] = gg_trg_Manipulator2
 	    set DB_Trigger_Boss[5][3] = gg_trg_Manipulator3
+	    set DB_Trigger_Boss[5][4] = Manipulator4_Trigger
 	    set DB_Trigger_Boss[5][11] = gg_trg_Golem1
 	    set DB_Trigger_Boss[5][12] = gg_trg_Golem2
 	    set DB_Trigger_Boss[5][13] = gg_trg_Golem3
+	    set DB_Trigger_Boss[5][14] = Golem4_Trigger
 	    set DB_Trigger_Boss[5][31] = gg_trg_Banshi1
 	    set DB_Trigger_Boss[5][32] = gg_trg_Banshi2
 	    set DB_Trigger_Boss[5][33] = Banshi2Second

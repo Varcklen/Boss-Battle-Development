@@ -15908,6 +15908,13 @@ STRING 2386
 - |cff00cceeAt 35% health:|r Areas spawn more often.
 }
 
+STRING 2387
+// Items: I0I0 (Polarized Item), Description (Description)
+{
+Your [|cffffcc00Item|r] is locked.
+Activation: Take |cffbe81f7250|r damage and unlock the item.
+}
+
 STRING 2388
 // Items: I03S (Tome of OblivionXXX), Hotkey (Hotkey)
 {
@@ -20570,6 +20577,12 @@ STRING 3084
 Discount Coupon
 }
 
+STRING 3085
+// Items: I0I0 (Polarized Item), Name (Name)
+{
+Polarized Item
+}
+
 STRING 3086
 // Items: I00J (Teleportation Stone), Name (Name)
 {
@@ -20580,6 +20593,12 @@ STRING 3087
 // Items: I00J (Teleportation Stone), Tip (Tooltip - Basic)
 {
 Teleportation Stone
+}
+
+STRING 3088
+// Items: I0I0 (Polarized Item), Tip (Tooltip - Basic)
+{
+Polarized Item
 }
 
 STRING 3089
@@ -28350,6 +28369,13 @@ STRING 4307
 Blessings, [|cffffcc00Level %d|r]
 }
 
+STRING 4308
+// Items: I0I0 (Polarized Item), Ubertip (Tooltip - Extended)
+{
+Your [|cffffcc00Item|r] is locked.
+Activation: Take |cffbe81f7250|r damage and unlock the item.
+}
+
 STRING 4309
 // Abilities: A16K (Maiden: Blessings), Tip (Tooltip - Normal)
 {
@@ -28392,6 +28418,28 @@ STRING 4315
 {
 |cff4169e1Rare|r
 Gain 1 extra attempt against a boss. One of us disappears when you use an attempt.
+}
+
+STRING 4316
+// Abilities: A06P (|cffffcc00Уровень 5:|r Battle Golem), Name (Name)
+{
+|cffffcc00Уровень 5:|r Battle Golem
+}
+
+STRING 4317
+// Abilities: A06P (|cffffcc00Уровень 5:|r Battle Golem), Tip (Tooltip - Normal)
+{
+Battle Golem
+}
+
+STRING 4318
+// Abilities: A06P (|cffffcc00Уровень 5:|r Battle Golem), Ubertip (Tooltip - Normal - Extended)
+{
+- |cff00cceeAt 95% health:|r Every 12 seconds, transforms a random item in each hero's inventory into a Polarized Item.
+- |cff00cceeAt 75% health:|r Increases Boss Attack Speed by 15%. Summons 4 Energy Totems. Energy Totems make the boss invulnerable.
+- |cff00cceeAt 75% health:|r Every 6 seconds creates an electrical area that deals |cffbe81f740|r damage every second. Lasts 120 seconds.
+- |cff00cceeAt 60% health:|r Every 10 seconds the boss deals |cffbe81f7150|r damage to nearby boss enemies, reducing their Attack and Movement Speed by 40% for 1.5 seconds.
+- |cff00cceeAt 25% health:|r Increases Boss Attack Speed by another 15%. Summons 8 Energy Totems.
 }
 
 STRING 4319
@@ -35079,18 +35127,6 @@ STRING 5349
 // Abilities: A0VW (Samurai: Temper of battle), Researchhotkey (Hotkey - Learn)
 {
 E
-}
-
-STRING 5350
-// Abilities: A0Y7 (|cffffcc00Уровень 5:|r Манипулятор), Name (Name)
-{
-|cffffcc00Уровень 5:|r Манипулятор
-}
-
-STRING 5351
-// Abilities: A0Y7 (|cffffcc00Уровень 5:|r Манипулятор), Tip (Tooltip - Normal)
-{
-Manipulator
 }
 
 STRING 5352
@@ -47819,10 +47855,47 @@ STRING 7307
 R
 }
 
+STRING 7308
+// Abilities: A1JT (Artifact: Polarized Item), Name (Name)
+{
+Artifact: Polarized Item
+}
+
 STRING 7309
 // Abilities: A0J1 (Archer: Shooting), Researchhotkey (Hotkey - Learn)
 {
 R
+}
+
+STRING 7310
+// Abilities: A0Y7 (|cffffcc00Уровень 5:|r Mind Flayer), Name (Name)
+{
+|cffffcc00Уровень 5:|r Mind Flayer
+}
+
+STRING 7311
+// Abilities: A0Y7 (|cffffcc00Уровень 5:|r Mind Flayer), Tip (Tooltip - Normal)
+{
+Mind Flayer
+}
+
+STRING 7313
+// Abilities: A0Y7 (|cffffcc00Уровень 5:|r Mind Flayer), Ubertip (Tooltip - Normal - Extended)
+{
+- Swaps the hero souls at the beginning of the battle.
+- Boss attacks reduce target's armor by 6 for 7 seconds.
+- |cff00cceeAt 80% health:|r Creates an area that periodically burns |cffbe81f74%|r of Mana. Lasts 60 seconds. Repeats every 6 seconds.
+- |cff00cceeAt 60% health:|r Creates an area in the center of the arena. Any player unit outside the area periodically loses |cffbe81f74%|r of Health and Mana.
+- |cff00cceeAt 40% health:|r Summons 2 Astral Beasts.
+}
+
+STRING 7314
+// Abilities: A0HE (|cffffcc00Уровень 6:|r Паладин), Ubertip (Tooltip - Normal - Extended)
+{
+- Attack deals damage to units nearby.
+- |cff00cceeAt 75% health:|r The boss becomes invulnerable for 7.5 seconds and sends waves that deal |cffbe81f7200|r damage.
+- |cff00cceeAt 70% health:|r Creates an area. Player units outside the area take |cffbe81f7400|r damage after 3 seconds. Repeats every 12 seconds.
+- |cff00cceeAt 25% health:|r The boss becomes invulnerable and sends waves. Waves are created 2 times more often.
 }
 
 STRING 7322
@@ -47874,16 +47947,6 @@ STRING 7329
 // Abilities: A0JX (|cffffcc00Уровень 5:|r Саламандра), Tip (Tooltip - Normal)
 {
 Salamander
-}
-
-STRING 7330
-// Abilities: A0HE (|cffffcc00Уровень 6:|r Паладин), Ubertip (Tooltip - Normal - Extended)
-{
-- Deals damage to nearby enemies.
-- |cff00cceeAt 75% health:|r The boss takes invulnerability and sends waves of power, dealing |cffbe81f7150|r damage.
-|cffffcc00Duration:|r 7.5 seconds.
-- |cff00cceeAt 70% health:|r Every 10 seconds, after a 3-second delay, deals |cffbe81f7300|r damage to enemies in the area.
-- |cff00cceeAt 25% health:|r The boss receives invulnerability and sends waves of power. Waves are created 2 times more often.
 }
 
 STRING 7331
@@ -60501,18 +60564,6 @@ STRING 9322
 // Abilities: A1FS (Invul (Battle Ressurection)), Ubertip (Tooltip - Normal - Extended)
 {
 Неуязвимость
-}
-
-STRING 9323
-// Abilities: A06P (|cffffcc00Уровень 5:|r Боевой голем), Name (Name)
-{
-|cffffcc00Уровень 5:|r Боевой голем
-}
-
-STRING 9324
-// Abilities: A06P (|cffffcc00Уровень 5:|r Боевой голем), Tip (Tooltip - Normal)
-{
-Battle golem
 }
 
 STRING 9325
@@ -74393,17 +74444,6 @@ STRING 11565
 Moon Blinking, [|cffffcc00Level 1|r]
 }
 
-STRING 11566
-// Abilities: A0Y7 (|cffffcc00Уровень 5:|r Манипулятор), Ubertip (Tooltip - Normal - Extended)
-{
-- 3 seconds after the start of the fight, swap the souls of the heroes.
-- When the boss attacks, reduces target armor by 6.
-|cffffcc00Duration:|r 7 seconds.
-- |cff00cceeAt 80% health:|r Every 10 seconds, creates a zone that burns |cffbe81f74%|r mana each second.
-|cffffcc00Life time:|r 30 seconds.
-- |cff00cceeAt 40% health:|r Summons 2 Astral Beasts.
-}
-
 STRING 11567
 // Abilities: A06F (|cffffcc00Уровень 4:|r Спящий огр), Tip (Tooltip - Normal)
 {
@@ -74655,16 +74695,6 @@ STRING 11598
 - |cff00cceeAt 70% health:|r Summons a small evil at the edge of the arena every second. This evil has minimal health, 75 attacks and moves fast.
 - |cff00cceeAt 40% health:|r Labels each hero.
 - |cff00cceeAt 20% health:|r Labels each hero.
-}
-
-STRING 11599
-// Abilities: A06P (|cffffcc00Уровень 5:|r Боевой голем), Ubertip (Tooltip - Normal - Extended)
-{
-- |cff00cceeAt 75% health:|r Increases attack speed by 15%. Becomes invulnerable. Summons 4 Energy Totems. When energy totems are destroyed, the boss becomes vulnerable. Every 6 seconds creates an electrical area that deals |cffbe81f720|r damage every second.
-|cffffcc00Life time:|r 20 seconds.
-- |cff00cceeAt 50% health:|r Every 10 seconds it deals |cffbe81f7100|r damage to all enemies nearby, reducing their attack and movement speed by 40%.
-|cffffcc00Duration:|r 1 second.
-- |cff00cceeAt 25% health:|r Increases attack speed by another 15%. Summons 8 Power Totems.
 }
 
 STRING 11600

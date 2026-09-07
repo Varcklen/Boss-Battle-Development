@@ -29,11 +29,16 @@ endscope
 	//===========================================================================
 	private function init takes nothing returns nothing
 		set Trigger = CreateEventTrigger( "udg_AfterDamageEvent", function action, function condition )
+		call DisableTrigger(Trigger)
 	endfunction
 	
 	//===========================================================================
 	private function init takes nothing returns nothing
 		call CreateNativeEvent( eventId, function action, function condition )
 	endfunction
+	
+	call bufallst( caster, target, '', 0, 0, 0, 0, '', "", t )
+	
+	call InvokeTimerWithUnit( udg_DamageEventTarget, "bsdm2", bosscast(ATTACK_GAIN_COOLDOWN), true, function PowerUp )
 	
 	

@@ -121,6 +121,10 @@ library IndicatorSystem initializer init requires CommonTimer
 		return temp_Effect
 	endfunction
 	
+	public function CreateLoc takes integer indicatorType, location loc, real area, real duration, unit owner returns effect
+		return Create(indicatorType, GetLocationX(loc), GetLocationY(loc), area, duration, owner)
+	endfunction
+	
 	private function init takes nothing returns nothing
 		call SetData()
 		call BattleEndGlobal.AddListener( function ClearParticles, null)
