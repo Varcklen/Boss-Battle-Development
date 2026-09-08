@@ -7,11 +7,25 @@ library LibDataBoss
 	    trigger array DB_Trigger_Boss[11][70]
 	    sound array Boss_Talk[11][7]
 	    
+	    integer array Boss_Amount[11]
+	    
 	    constant integer ARENA_TYPE_BIG = 1
 	    constant integer ARENA_TYPE_SMALL = 2
 	endglobals
 	
 	function DataBoss takes nothing returns nothing
+		//Boss Amount
+		set Boss_Amount[1] = 5
+		set Boss_Amount[2] = 5
+		set Boss_Amount[3] = 6
+		set Boss_Amount[4] = 6
+		set Boss_Amount[5] = 6
+		set Boss_Amount[6] = 5
+		set Boss_Amount[7] = 5
+		set Boss_Amount[8] = 6
+		set Boss_Amount[9] = 6
+		set Boss_Amount[10] = 6
+	
 	    //Боссы
 	    set DB_Boss_id[1][1] = 'n005'
 	    set DB_Boss_id[1][2] = 'n00P'
@@ -28,7 +42,7 @@ library LibDataBoss
 	    set DB_Boss_id[3][3] = 'h00K'
 	    set DB_Boss_id[3][4] = 'h015'
 	    set DB_Boss_id[3][5] = 'h020'
-	    //set DB_Boss_id[3][6] = 'n03L'
+	    set DB_Boss_id[3][6] = 'n01S'
 	    set DB_Boss_id[4][1] = 'e004'
 	    set DB_Boss_id[4][2] = 'o009'
 	    set DB_Boss_id[4][3] = 'h001'
@@ -48,10 +62,9 @@ library LibDataBoss
 	    set DB_Boss_id[6][5] = 'h00M'
 	    set DB_Boss_id[7][1] = 'n008'
 	    set DB_Boss_id[7][2] = 'h003'
-	    set DB_Boss_id[7][3] = 'n01S'
+	    set DB_Boss_id[7][3] = 'e000'
 	    set DB_Boss_id[7][4] = 'o00M'
 	    set DB_Boss_id[7][5] = 'n00Q'
-	    set DB_Boss_id[7][6] = 'e000'
 	    set DB_Boss_id[8][1] = 'e00F'
 	    set DB_Boss_id[8][2] = 'n01X'
 	    set DB_Boss_id[8][3] = 'e006'
@@ -87,7 +100,7 @@ library LibDataBoss
 	    set Boss_Info[3][3] = 'A0HC'
 	    set Boss_Info[3][4] = 'A0XX'
 	    set Boss_Info[3][5] = 'A0C4'
-	    //set Boss_Info[3][6] = 'A0W4'
+	    set Boss_Info[3][6] = 'A0HG'
 	    set Boss_Info[4][1] = 'A0AS'//4
 	    set Boss_Info[4][2] = 'A06M'
 	    set Boss_Info[4][3] = 'A06F'
@@ -107,10 +120,9 @@ library LibDataBoss
 	    set Boss_Info[6][5] = 'A0HE'
 	    set Boss_Info[7][1] = 'A06G'//7
 	    set Boss_Info[7][2] = 'A06I'
-	    set Boss_Info[7][3] = 'A0HG'
+	    set Boss_Info[7][3] = 'A16U'
 	    set Boss_Info[7][4] = 'A0Y8'
 	    set Boss_Info[7][5] = 'A135'
-	    set Boss_Info[7][6] = 'A16U'
 	    set Boss_Info[8][1] = 'A0Y9'//8
 	    set Boss_Info[8][2] = 'A0HJ'
 	    set Boss_Info[8][3] = 'A0HH'
@@ -146,7 +158,7 @@ library LibDataBoss
 	    set BossArenaChoise[3][3] = ARENA_TYPE_BIG
 	    set BossArenaChoise[3][4] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[3][5] = ARENA_TYPE_SMALL
-	    //set BossArenaChoise[3][6] = ARENA_TYPE_SMALL
+	    set BossArenaChoise[3][6] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[4][1] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[4][2] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[4][3] = ARENA_TYPE_SMALL
@@ -169,7 +181,6 @@ library LibDataBoss
 	    set BossArenaChoise[7][3] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[7][4] = ARENA_TYPE_BIG
 	    set BossArenaChoise[7][5] = ARENA_TYPE_BIG
-	    set BossArenaChoise[7][6] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[8][1] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[8][2] = ARENA_TYPE_BIG
 	    set BossArenaChoise[8][3] = ARENA_TYPE_BIG
@@ -249,9 +260,9 @@ library LibDataBoss
 	    set DB_Trigger_Boss[3][43] = gg_trg_Illusionist3
 	    set DB_Trigger_Boss[3][44] = gg_trg_Illusionist4
 	    set DB_Trigger_Boss[3][45] = gg_trg_Illusionist5
-	    /*set DB_Trigger_Boss[3][51] = gg_trg_MageTruch1
-	    set DB_Trigger_Boss[3][52] = gg_trg_MageTruch2
-	    set DB_Trigger_Boss[3][53] = gg_trg_MageTruch3*/
+	    set DB_Trigger_Boss[3][51] = gg_trg_Succubus1
+	    set DB_Trigger_Boss[3][52] = gg_trg_Succubus2
+	    set DB_Trigger_Boss[3][53] = gg_trg_Succubus3
 	    set DB_Trigger_Boss[4][1] = gg_trg_Manadragon1
 	    set DB_Trigger_Boss[4][2] = gg_trg_Manadragon2
 	    set DB_Trigger_Boss[4][3] = gg_trg_Manadragon3
@@ -302,16 +313,18 @@ library LibDataBoss
 	    set DB_Trigger_Boss[6][13] = gg_trg_Turtle3
 	    set DB_Trigger_Boss[6][14] = gg_trg_Turtle4
 	    set DB_Trigger_Boss[6][15] = gg_trg_Turtle5
+	    set DB_Trigger_Boss[6][16] = Turtle6_Trigger
+	    set DB_Trigger_Boss[6][17] = Turtle7_Trigger
 	    set DB_Trigger_Boss[6][21] = gg_trg_MoonPriest1
 	    set DB_Trigger_Boss[6][22] = gg_trg_MoonPriest2
 	    set DB_Trigger_Boss[6][23] = gg_trg_MoonPriest3
 	    set DB_Trigger_Boss[6][24] = gg_trg_MoonPriest4
 	    set DB_Trigger_Boss[6][25] = gg_trg_MoonPriest5
-	    set DB_Trigger_Boss[6][31] = gg_trg_Mehanic1
-	    set DB_Trigger_Boss[6][32] = gg_trg_Mehanic2
-	    set DB_Trigger_Boss[6][33] = gg_trg_Mehanic3
-	    set DB_Trigger_Boss[6][34] = gg_trg_Mehanic4
-	    set DB_Trigger_Boss[6][35] = gg_trg_Mehanic5
+	    set DB_Trigger_Boss[6][31] = Mechanic1_Trigger
+	    set DB_Trigger_Boss[6][32] = Mechanic1_Trigger75
+	    set DB_Trigger_Boss[6][33] = Mechanic1_Trigger50
+	    set DB_Trigger_Boss[6][34] = Mechanic1_Trigger25
+	    set DB_Trigger_Boss[6][35] = gg_trg_Mehanic2
 	    set DB_Trigger_Boss[6][36] = trig_Mechanic1A
 	    set DB_Trigger_Boss[6][41] = gg_trg_Paladin1
 	    set DB_Trigger_Boss[6][42] = gg_trg_Paladin2
@@ -324,9 +337,11 @@ library LibDataBoss
 	    set DB_Trigger_Boss[7][12] = gg_trg_GrandMage2
 	    set DB_Trigger_Boss[7][13] = gg_trg_GrandMage3
 	    set DB_Trigger_Boss[7][14] = gg_trg_GrandMage4
-	    set DB_Trigger_Boss[7][21] = gg_trg_Succubus1
-	    set DB_Trigger_Boss[7][22] = gg_trg_Succubus2
-	    set DB_Trigger_Boss[7][23] = gg_trg_Succubus3
+	    set DB_Trigger_Boss[7][21] = gg_trg_MountGiant1
+	    set DB_Trigger_Boss[7][22] = gg_trg_MountGiant2
+	    set DB_Trigger_Boss[7][23] = gg_trg_MountGiant3
+	    set DB_Trigger_Boss[7][24] = gg_trg_MountGiant4
+	    set DB_Trigger_Boss[7][25] = gg_trg_MountGiant5
 	    set DB_Trigger_Boss[7][31] = gg_trg_Wyrm1
 	    set DB_Trigger_Boss[7][32] = gg_trg_Wyrm2
 	    set DB_Trigger_Boss[7][33] = gg_trg_Wyrm3
@@ -336,11 +351,6 @@ library LibDataBoss
 	    set DB_Trigger_Boss[7][42] = gg_trg_Zapper2
 	    set DB_Trigger_Boss[7][43] = gg_trg_Zapper3
 	    set DB_Trigger_Boss[7][44] = gg_trg_Zapper4
-	    set DB_Trigger_Boss[7][51] = gg_trg_MountGiant1
-	    set DB_Trigger_Boss[7][52] = gg_trg_MountGiant2
-	    set DB_Trigger_Boss[7][53] = gg_trg_MountGiant3
-	    set DB_Trigger_Boss[7][54] = gg_trg_MountGiant4
-	    set DB_Trigger_Boss[7][55] = gg_trg_MountGiant5
 	    set DB_Trigger_Boss[8][1] = gg_trg_Berserk1
 	    set DB_Trigger_Boss[8][2] = gg_trg_Berserk2
 	    set DB_Trigger_Boss[8][3] = gg_trg_Berserk3
@@ -443,7 +453,7 @@ library LibDataBoss
 	    set Boss_Talk[3][3] = gg_snd_ArachnathidWhat1
 	    set Boss_Talk[3][4] = gg_snd_AcolytePissed1
 	    set Boss_Talk[3][5] = gg_snd_HeroWardenYesAttack1
-	    //set Boss_Talk[3][6] = gg_snd_SpellbreakerYesAttack3
+	    set Boss_Talk[3][6] = gg_snd_SuccubusYes2
 	    set Boss_Talk[4][1] = gg_snd_FaerieDragonWhat1
 	    set Boss_Talk[4][2] = gg_snd_SpiritWolfYesAttack1
 	    set Boss_Talk[4][3] = gg_snd_OgreYes1
@@ -463,10 +473,9 @@ library LibDataBoss
 	    set Boss_Talk[6][5] = gg_snd_UtherPissed1
 	    set Boss_Talk[7][1] = gg_snd_DeathKnightReady1
 	    set Boss_Talk[7][2] = gg_snd_HeroArchMageWarcry1
-	    set Boss_Talk[7][3] = gg_snd_SuccubusYes2
+	    set Boss_Talk[7][3] = gg_snd_MountainGiantYes2
 	    set Boss_Talk[7][4] = gg_snd_FrostwyrmWarcry1
 	    set Boss_Talk[7][5] = gg_snd_IronGolemYesAttack1
-	    set Boss_Talk[7][6] = gg_snd_MountainGiantYes2
 	    set Boss_Talk[8][1] = gg_snd_HeroBladeMasterWarcry1
 	    set Boss_Talk[8][2] = gg_snd_SpiderDeath1
 	    set Boss_Talk[8][3] = gg_snd_EntReady1

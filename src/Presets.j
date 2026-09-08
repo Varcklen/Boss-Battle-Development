@@ -39,6 +39,8 @@ endscope
 	
 	call bufallst( caster, target, '', 0, 0, 0, 0, '', "", t )
 	
+	call GroupAoE( caster, x, y, dmg, area, who, null, null )
+	
 	call InvokeTimerWithUnit( udg_DamageEventTarget, "bsdm2", bosscast(ATTACK_GAIN_COOLDOWN), true, function PowerUp )
 	
 	

@@ -2,6 +2,8 @@ scope Wyrm5 initializer init
 	
 	globals
 		trigger trig_Wyrm5 = null
+		
+		private constant integer COOLDOWN = 6
 	endglobals
 	
 	private function condition takes nothing returns boolean
@@ -48,7 +50,7 @@ scope Wyrm5 initializer init
 		set id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( "bswr1" ) ) ) 
 	    call SaveUnitHandle( udg_hash, id, StringHash( "bswr1" ), udg_DamageEventTarget )
 	    //No bosscast intended - balance preferences
-		call TimerStart( LoadTimerHandle( udg_hash, GetHandleId( udg_DamageEventTarget ), StringHash( "bswr1" ) ), 8, true, function WyrmSpawn )
+		call TimerStart( LoadTimerHandle( udg_hash, GetHandleId( udg_DamageEventTarget ), StringHash( "bswr1" ) ), COOLDOWN, true, function WyrmSpawn )
 	endfunction
 	
 	//===========================================================================

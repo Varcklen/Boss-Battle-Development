@@ -639,7 +639,7 @@ Chaos Totem
 }
 
 STRING 97
-// Abilities: A16U (|cffffcc00Уровень 7:|r Горный великан), Tip (Tooltip - Normal)
+// Abilities: A16U (|cffffcc00Уровень 7:|r Mountain Giant), Tip (Tooltip - Normal)
 {
 Mountain Giant
 }
@@ -1851,17 +1851,6 @@ STRING 292
 // Units: h01L (Chest), Name (Name)
 {
 Chest
-}
-
-STRING 293
-// Abilities: A16U (|cffffcc00Уровень 7:|r Горный великан), Ubertip (Tooltip - Normal - Extended)
-{
-- Takes 70% less damage from minions.
-- Every 12 seconds, creates a stone rift that gradually moves to the edges of the map in four directions. Stone rift deals |cffbe81f7200|r damage.
-- |cff00cceeAt 90% health:|r Every 12 seconds, the boss stops and charges. After 2 seconds, it hits all boss enemies to the front, dealing |cffbe81f7800|r damage.
-- |cff00cceeAt 70% health:|r Creates an area under a random hero. After 2.5 seconds it explodes, stunning all boss enemies for 7 seconds.
-- |cff00cceeAt 60% health:|r Stone rifts spawn twice as often.
-- |cff00cceeAt 30% health:|r Takes away 20% health from all heroes.
 }
 
 STRING 294
@@ -5935,14 +5924,6 @@ STRING 927
 // Items: I0HZ (Locked Item), Description (Description)
 {
 Your [|cffffcc00Item|r] is locked. Kill the Chief of the Guard or complete the encounter to unlock the item.
-}
-
-STRING 928
-// Abilities: A0HG (|cffffcc00Уровень 7:|r Суккуб), Ubertip (Tooltip - Normal - Extended)
-{
-- Every 6 seconds, jumps to a random enemy, causing |cffbe81f775|r damage and restoring |cffbe81f775|r health to the jumper. Summons a Milady who has the same ability.
-- |cff00cceeAt 50% health:|r The boss summons 2 Milady for each hero.
-- |cff00cceeAt 25% health:|r The boss summons 2 Milady for each hero.
 }
 
 STRING 929
@@ -11454,7 +11435,7 @@ STRING 1729
 }
 
 STRING 1730
-// Abilities: A135 (|cffffcc00Уровень 7:|r Заводной резак), Tip (Tooltip - Normal)
+// Abilities: A135 (|cffffcc00Уровень 7:|r Goblin Shredder), Tip (Tooltip - Normal)
 {
 Goblin Shredder
 }
@@ -14742,17 +14723,6 @@ STRING 2212
 {
 |cffbababcCommon|r, |cff2d9995Weapon|r
 Reduces damage taken from minions by 20%.
-}
-
-STRING 2213
-// Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ледяной дракон), Ubertip (Tooltip - Normal - Extended)
-{
-- No attacks.
-- Ballistas appear in the arena, firing at the heroes. Before destruction, the ballista shoots at the boss, taking away 7.5% of its health.
-- Every 8 seconds, calls the ballista to a random point.
-- Every 6 seconds, the boss launches ice shells at the heroes, dealing |cffbe81f7400|r damage after 2 seconds.
-- |cff00cceeAt 50% health:|r Reduces the attack and movement speed of all heroes by 25%.
-|cffffcc00Duration:|r 15 seconds.
 }
 
 STRING 2214
@@ -28099,12 +28069,6 @@ STRING 4264
 Босс 4: Начальник стражи (Немота)
 }
 
-STRING 4265
-// Abilities: A16U (|cffffcc00Уровень 7:|r Горный великан), Name (Name)
-{
-|cffffcc00Уровень 7:|r Горный великан
-}
-
 STRING 4266
 // Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
 {
@@ -30958,18 +30922,6 @@ STRING 4711
 Босс 6: Морская черепаха (Ускорение)
 }
 
-STRING 4712
-// Abilities: A13A (|cffffcc00Уровень 6:|r Морская черепаха), Name (Name)
-{
-|cffffcc00Уровень 6:|r Морская черепаха
-}
-
-STRING 4713
-// Abilities: A13A (|cffffcc00Уровень 6:|r Морская черепаха), Tip (Tooltip - Normal)
-{
-Sea turtle
-}
-
 STRING 4714
 // Items: I00C (Runestone Sandom), Description (Description)
 {
@@ -31011,12 +30963,6 @@ STRING 4720
 // Abilities: A136 (Боссы: Опасность (Аура)), Ubertip (Tooltip - Normal - Extended)
 {
 Неуязвимость
-}
-
-STRING 4721
-// Abilities: A135 (|cffffcc00Уровень 7:|r Заводной резак), Name (Name)
-{
-|cffffcc00Уровень 7:|r Заводной резак
 }
 
 STRING 4722
@@ -33028,12 +32974,6 @@ STRING 5021
 // Abilities: A11H (Spell Book), EditorSuffix (Editor Suffix)
 {
 (Beginner’s Luck)
-}
-
-STRING 5022
-// Abilities: A11G (Аура: Щиты), Name (Name)
-{
-Аура: Щиты
 }
 
 STRING 5023
@@ -35111,14 +35051,8 @@ STRING 5346
 Every 4th attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
 }
 
-STRING 5347
-// Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ледяной дракон), Name (Name)
-{
-|cffffcc00Уровень 7:|r Ледяной дракон
-}
-
 STRING 5348
-// Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ледяной дракон), Tip (Tooltip - Normal)
+// Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ice Dragon), Tip (Tooltip - Normal)
 {
 Ice Dragon
 }
@@ -35127,6 +35061,18 @@ STRING 5349
 // Abilities: A0VW (Samurai: Temper of battle), Researchhotkey (Hotkey - Learn)
 {
 E
+}
+
+STRING 5350
+// Units: n05H (Pocket Factory), EditorSuffix (Name - Editor Suffix)
+{
+(Mechanic)
+}
+
+STRING 5351
+// Abilities: A13A (|cffffcc00Уровень 6:|r Sea Turtle), Name (Name)
+{
+|cffffcc00Уровень 6:|r Sea Turtle
 }
 
 STRING 5352
@@ -47867,20 +47813,18 @@ STRING 7309
 R
 }
 
-STRING 7310
-// Abilities: A0Y7 (|cffffcc00Уровень 5:|r Mind Flayer), Name (Name)
+STRING 7312
+// Abilities: A0AR (|cffffcc00Уровень 6:|r Механик), Ubertip (Tooltip - Normal - Extended)
 {
-|cffffcc00Уровень 5:|r Mind Flayer
-}
-
-STRING 7311
-// Abilities: A0Y7 (|cffffcc00Уровень 5:|r Mind Flayer), Tip (Tooltip - Normal)
-{
-Mind Flayer
+- Summons a Pocket Factory. It summons 2 robots every 10 seconds. When the factory dies, creates 2 robots.
+- When the robots die, they explode, dealing |cffbe81f7300|r damage.
+- Every 6 seconds an area appears under a random hero. After 1 second, the area creates a pillar of fire that deals |cffbe81f745|r damage every 0.5 seconds for 4 seconds.
+- |cff00cceeAt 75%, 50% and 25% health:|r Summons 4 robots. Returns the factory if it died.
+- |cff00cceeAt 75% health:|r Every 5 seconds the boss launches a missiles at a random enemy, dealing up to |cffbe81f7200|r damage and stunning for 2 seconds.
 }
 
 STRING 7313
-// Abilities: A0Y7 (|cffffcc00Уровень 5:|r Mind Flayer), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0Y7 (|cffffcc00Уровень 5:|r Manipulator), Ubertip (Tooltip - Normal - Extended)
 {
 - Swaps the hero souls at the beginning of the battle.
 - Boss attacks reduce target's armor by 6 for 7 seconds.
@@ -47896,6 +47840,47 @@ STRING 7314
 - |cff00cceeAt 75% health:|r The boss becomes invulnerable for 7.5 seconds and sends waves that deal |cffbe81f7200|r damage.
 - |cff00cceeAt 70% health:|r Creates an area. Player units outside the area take |cffbe81f7400|r damage after 3 seconds. Repeats every 12 seconds.
 - |cff00cceeAt 25% health:|r The boss becomes invulnerable and sends waves. Waves are created 2 times more often.
+}
+
+STRING 7315
+// Abilities: A13A (|cffffcc00Уровень 6:|r Sea Turtle), Tip (Tooltip - Normal)
+{
+Sea Turtle
+}
+
+STRING 7317
+// Abilities: A0Y7 (|cffffcc00Уровень 5:|r Manipulator), Name (Name)
+{
+|cffffcc00Уровень 5:|r Manipulator
+}
+
+STRING 7318
+// Abilities: A0Y7 (|cffffcc00Уровень 5:|r Manipulator), Tip (Tooltip - Normal)
+{
+Manipulator
+}
+
+STRING 7319
+// Abilities: A13A (|cffffcc00Уровень 6:|r Sea Turtle), Ubertip (Tooltip - Normal - Extended)
+{
+- If there are no heroes near the boss, it increases Attack Speed and Movement by 30% for 15 seconds.
+- When a hero dies, increases Attack Damage by 15%.
+- Every 10 seconds, gains a shield until it reaches |cffbe81f7300|r shield points.
+- |cff00cceeAt 90% health:|r Every 3 seconds, the boss releases waves on the sides, dealing |cffbe81f7175|r damage.
+- |cff00cceeAt 70% health:|r Creates an area every 1.5 seconds. After 3 seconds, it explodes, dealing |cffbe81f7350|r damage.
+- |cff00cceeAt 25% and 50% health:|r Spawns 4 Eggs nearby. After 10 seconds, a turtle hatches from the egg. The boss disappears from the arena for 8 seconds and then appears behind a random hero.
+}
+
+STRING 7320
+// Abilities: A11G (Аура: Shield (General)), Name (Name)
+{
+Аура: Shield (General)
+}
+
+STRING 7321
+// Units: u00K (dummy (Saw Goblin Shredder)), Name (Name)
+{
+dummy (Saw Goblin Shredder)
 }
 
 STRING 7322
@@ -47947,6 +47932,12 @@ STRING 7329
 // Abilities: A0JX (|cffffcc00Уровень 5:|r Саламандра), Tip (Tooltip - Normal)
 {
 Salamander
+}
+
+STRING 7330
+// Abilities: A135 (|cffffcc00Уровень 7:|r Goblin Shredder), Name (Name)
+{
+|cffffcc00Уровень 7:|r Goblin Shredder
 }
 
 STRING 7331
@@ -50345,14 +50336,8 @@ STRING 7693
 When the hero attacks, there is a |cffd7df0111%|r chance to give the hero a Throwing Knife. If inventory is full, use it instead.
 }
 
-STRING 7694
-// Abilities: A0HG (|cffffcc00Уровень 7:|r Суккуб), Name (Name)
-{
-|cffffcc00Уровень 7:|r Суккуб
-}
-
 STRING 7695
-// Abilities: A0HG (|cffffcc00Уровень 7:|r Суккуб), Tip (Tooltip - Normal)
+// Abilities: A0HG (|cffffcc00Уровень 3:|r Succubus), Tip (Tooltip - Normal)
 {
 Succubus
 }
@@ -51407,6 +51392,15 @@ STRING 7864
 Debilitating Presence, [|cffffcc00Level %d|r]
 }
 
+STRING 7865
+// Abilities: A135 (|cffffcc00Уровень 7:|r Goblin Shredder), Ubertip (Tooltip - Normal - Extended)
+{
+- Calls a huge airship that flies around the arena and scatters bombs. When the bomb touches the ground, deals |cffbe81f7125|r damage to nearby enemies.
+- Every 10 seconds, launches a saw at a random hero. Once the saw reaches its destination, it will disappear after 5 seconds. The saw deals |cffbe81f775|r damage every 0.5 seconds.
+- |cff00cceeAt 60% health:|r The boss blows up the upper part of the arena, periodically dealing |cffbe81f7125|r damage for 30 seconds.
+- |cff00cceeAt 30% health:|r The boss blows up the lower part of the arena.
+}
+
 STRING 7866
 // Abilities: A0FN (Soulstealer: Debilitating Presence), Tip (Tooltip - Normal)
 {
@@ -51726,10 +51720,74 @@ Restores |cffbe81f7200|r Health to an ally. Summons a Scared Citizen near the ta
 |cffffcc00Cooldown:|r 12 seconds.
 }
 
+STRING 7918
+// Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ice Dragon), Name (Name)
+{
+|cffffcc00Уровень 7:|r Ice Dragon
+}
+
 STRING 7919
 // Abilities: A0EW (Ogre: There is power, no mind), Researchhotkey (Hotkey - Learn)
 {
 E
+}
+
+STRING 7920
+// Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ice Dragon), Ubertip (Tooltip - Normal - Extended)
+{
+- No attack.
+- Summons 4 Glaive Throwers at the edges of the arena.
+- Before dying, each Glaive Thrower shoots at the boss, dealing 7.5% of their health.
+- Every 6 seconds, summons Glaive Throwers to the arena.
+- Every 6 seconds, the boss launches ice shells at the heroes, dealing |cffbe81f7400|r damage after 2 seconds.
+- |cff00cceeAt 50% health:|r Reduces the movement speed of all heroes by 25% for 15 seconds.
+}
+
+STRING 7921
+// Units: h00B (Fedor), EditorSuffix (Name - Editor Suffix)
+{
+(Level 3)
+}
+
+STRING 7922
+// Abilities: A0HG (|cffffcc00Уровень 3:|r Succubus), Name (Name)
+{
+|cffffcc00Уровень 3:|r Succubus
+}
+
+STRING 7923
+// Abilities: A0HG (|cffffcc00Уровень 3:|r Succubus), Ubertip (Tooltip - Normal - Extended)
+{
+- Every 6 seconds, boss jumps on a random player unit, dealing |cffbe81f775|r damage and restoring |cffbe81f775|r health. Summons Mylady.
+- Mylady has a jump similar to the boss.
+- |cff00cceeAt 50% and 25% health:|r The boss summons 2 Milady near each hero.
+}
+
+STRING 7924
+// Abilities: A16U (|cffffcc00Уровень 7:|r Mountain Giant), Name (Name)
+{
+|cffffcc00Уровень 7:|r Mountain Giant
+}
+
+STRING 7925
+// Abilities: A16U (|cffffcc00Уровень 7:|r Mountain Giant), Ubertip (Tooltip - Normal - Extended)
+{
+- Takes 70% less damage from minions.
+- Every 12 seconds, creates a stone rift that gradually moves to the edges of the map in four directions. Stone rift deals |cffbe81f7300|r damage.
+- |cff00cceeAt 90% health:|r Every 12 seconds, the boss stops and charges. After 2 seconds, it hits all boss enemies to the front, dealing |cffbe81f7800|r damage.
+- |cff00cceeAt 70% health:|r Creates an area under a random hero. After 2.5 seconds it explodes, stunning all boss enemies for 7 seconds.
+- |cff00cceeAt 60% health:|r Stone rifts spawn twice as often.
+- |cff00cceeAt 30% health:|r Doubles Boss Attack Damage.
+}
+
+STRING 7926
+// Abilities: A13D (|cffffcc00Уровень 8:|r Всадник Апокалипсиса), Ubertip (Tooltip - Normal - Extended)
+{
+- Every 20 seconds it takes away from the hero with the greatest health margin 50% of maximum health.
+- |cff00cceeAt 90% health:|r Summons 4 War Orcs. They have a lot of health.
+- |cff00cceeAt 70% health:|r Every 15 seconds, creates an area that, after 3 seconds, infuriates all creatures inside. If the target is a hero, the frenzy effect lasts 10 seconds.
+- |cff00cceeAt 50% health:|r Summons 2 War Monsters. They have a lot of health.
+- |cff00cceeAt 30% health:|r All heroes become hostile to each other.
 }
 
 STRING 7932
@@ -64476,7 +64534,7 @@ Gives |cffffffff5|r gold. Increases the gold received from this ability by 3 unt
 }
 
 STRING 9941
-// Units: n01S (Mistress), EditorSuffix (Name - Editor Suffix)
+// Units: n00Q (Robbie Steel Head), EditorSuffix (Name - Editor Suffix)
 {
 (Level 7)
 }
@@ -64504,7 +64562,7 @@ Quickly jump towards target area with moderate precision.
 }
 
 STRING 9945
-// Units: n00Q (Robbie Steel Head), EditorSuffix (Name - Editor Suffix)
+// Units: n008 (Phantasm), EditorSuffix (Name - Editor Suffix)
 {
 (Level 7)
 }
@@ -66869,7 +66927,7 @@ STRING 10305
 }
 
 STRING 10306
-// Units: n008 (Phantasm), EditorSuffix (Name - Editor Suffix)
+// Units: h003 (Wizardo), EditorSuffix (Name - Editor Suffix)
 {
 (Level 7)
 }
@@ -71850,7 +71908,7 @@ STRING 11128
 }
 
 STRING 11129
-// Units: n007 (The Sheep?), EditorSuffix (Name - Editor Suffix)
+// Units: n01S (Mistress), EditorSuffix (Name - Editor Suffix)
 {
 (Level 3)
 }
@@ -72498,7 +72556,7 @@ Summons a small uncontrollable spirit that chases the hero and constantly attack
 }
 
 STRING 11236
-// Units: h020 (Akhalaia), EditorSuffix (Name - Editor Suffix)
+// Units: n007 (The Sheep?), EditorSuffix (Name - Editor Suffix)
 {
 (Level 3)
 }
@@ -72557,7 +72615,7 @@ Summons unique Bonnie with abilities. Bonnie's abilities improve from the hero's
 }
 
 STRING 11245
-// Units: h015 (Rafaam), EditorSuffix (Name - Editor Suffix)
+// Units: h020 (Akhalaia), EditorSuffix (Name - Editor Suffix)
 {
 (Level 3)
 }
@@ -74359,16 +74417,6 @@ STRING 11554
 (Orb of the Rolling Plains)
 }
 
-STRING 11555
-// Abilities: A135 (|cffffcc00Уровень 7:|r Заводной резак), Ubertip (Tooltip - Normal - Extended)
-{
-- Calls a huge airship that flies around the arena and scatters bombs. When the bomb touches the ground, deals |cffbe81f7100|r damage to nearby enemies.
-- Every 10 seconds, throws a saw at a random hero. When the saw reaches a point, it disappears over time.
-- |cff00cceeAt 60% health:|r The boss explodes the upper half of the arena, dealing |cffbe81f7100|r damage every second.
-|cffffcc00Duration:|r 10 seconds.
-- |cff00cceeAt 30% health:|r The boss explodes the lower half of the arena.
-}
-
 STRING 11557
 // Abilities: A19E (|cffffcc00Уровень 10:|r Angry Bob), Ubertip (Tooltip - Normal - Extended)
 {
@@ -74401,26 +74449,6 @@ STRING 11560
 Makes all nearby creatures invisible for 3 seconds. Restores |cffbe81f760/80/100/120/140|r mana to all targets (except caster). After the invisibility ends, target heroes increases Spell Power by 40%/60%/80%/100%/120% for 5 seconds.
 |cffffcc00Cooldown:|r 20 seconds.
 |cffffcc00Cost:|r 100 mana.
-}
-
-STRING 11561
-// Abilities: A13D (|cffffcc00Уровень 8:|r Всадник Апокалипсиса), Ubertip (Tooltip - Normal - Extended)
-{
-- Every 20 seconds it takes away from the hero with the greatest health margin 50% of maximum health.
-- |cff00cceeAt 90% health:|r Summons up to 4 staunch war orcs for help.
-- |cff00cceeAt 70% health:|r Every 15 seconds, creates an area that, after 3 seconds, infuriates all creatures inside. If the target is a hero, the frenzy effect lasts 10 seconds.
-- |cff00cceeAt 50% health:|r Summons a war monster.
-- |cff00cceeAt 30% health:|r All heroes become hostile to each other.
-}
-
-STRING 11562
-// Abilities: A13A (|cffffcc00Уровень 6:|r Морская черепаха), Ubertip (Tooltip - Normal - Extended)
-{
-- If there are no heroes nearby, the boss increases his attack and movement speed by 30%.
-|cffffcc00Duration:|r 15 seconds.
-- |cff00cceeAt 90% health:|r Every 7 seconds, fires waves at the sides, dealing |cffbe81f7125|r damage.
-- |cff00cceeAt 70% health:|r Every 3 seconds, a zone appears. After 3 seconds, it explodes, dealing |cffbe81f7250|r damage.
-- |cff00cceeAt 25% and 50% health:|r Eggs spawn near the boss. After 10 seconds, a turtle hatches from each egg. The boss teleports to a random point in the arena one time.
 }
 
 STRING 11563
@@ -74644,16 +74672,6 @@ STRING 11592
 (т)Аура: Dizzy
 }
 
-STRING 11593
-// Abilities: A0AR (|cffffcc00Уровень 6:|r Механик), Ubertip (Tooltip - Normal - Extended)
-{
-- Every 15 seconds, uses a random activated |cffb18904mech|r (mech power: 1 mech).
-- Every 6 seconds an area appears under a random hero. After 1 second, the area creates a pillar of fire that deals |cffbe81f745|r damage every 0.5 seconds for 4 seconds.
-- |cff00cceeAt 75% health:|r Summons 4 robots, each of which deals |cffbe81f7300|r damage to nearby enemies upon death. Every 5 seconds the boss launches a missiles at a random enemy, dealing up to |cffbe81f7200|r damage and stunning for 2 seconds.
-- |cff00cceeAt 50% health:|r Summons 4 robots. Starts using |cffb18904mechs|r every 10 seconds.
-- |cff00cceeAt 25% health:|r Summons 4 robots.
-}
-
 STRING 11594
 // Abilities: A0EF (Keeper: Moon Blinking), Ubertip (Tooltip - Normal - Extended)
 {
@@ -74814,19 +74832,19 @@ STRING 11616
 }
 
 STRING 11617
-// Units: h00K (Arach), EditorSuffix (Name - Editor Suffix)
+// Units: h015 (Rafaam), EditorSuffix (Name - Editor Suffix)
 {
 (Level 3)
 }
 
 STRING 11618
-// Units: h00B (Fedor), EditorSuffix (Name - Editor Suffix)
+// Units: h00K (Arach), EditorSuffix (Name - Editor Suffix)
 {
 (Level 3)
 }
 
 STRING 11619
-// Units: h003 (Wizardo), EditorSuffix (Name - Editor Suffix)
+// Units: e000 (High Rock), EditorSuffix (Name - Editor Suffix)
 {
 (Level 7)
 }
@@ -78751,12 +78769,6 @@ STRING 12189
 // Units: e001 (Han), EditorSuffix (Name - Editor Suffix)
 {
 (Level 4)
-}
-
-STRING 12190
-// Units: e000 (High Rock), EditorSuffix (Name - Editor Suffix)
-{
-(Level 7)
 }
 
 STRING 12191
