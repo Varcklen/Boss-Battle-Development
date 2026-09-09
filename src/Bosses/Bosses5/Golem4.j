@@ -6,7 +6,6 @@ scope Golem4 initializer init
 		private constant integer ITEM_ID = 'I0I0'
 		private constant integer COOLDOWN = 12
 		private constant string ANIMATION = "Abilities\\Spells\\Other\\Charm\\CharmTarget.mdl"
-		public location HiddenLocation
 	endglobals
 
 	private function condition takes nothing returns boolean
@@ -21,7 +20,7 @@ scope Golem4 initializer init
 		set itemUsed = UnitItemInSlot(hero, slot )
 		
 		call UnitRemoveItemFromSlot(hero, slot)
-		call SetItemPositionLoc( itemUsed, HiddenLocation )
+		call SetItemPositionLoc( itemUsed, SpecialLocation_Get(LOC_TYPE_ITEM_HIDDEN)  )
 		call SetItemVisible( itemUsed, false )
 		
     	set locker = CreateItem( ITEM_ID, GetUnitX( hero ), GetUnitY( hero ) )
@@ -51,7 +50,7 @@ scope Golem4 initializer init
 		loop
 			exitwhen i >= iMax
 			set itemUsed = UnitItemInSlot(hero, i)
-			if itemUsed != null and BlzGetItemAbility( itemUsed, 'A1JS' ) == null /*Non Lockable*/ then
+			if itemUsed != null and ItemManipulation_IsLockable(itemUsed) == false then
 				call items.Add(i)
 			endif
 			set i = i + 1
@@ -106,8 +105,6 @@ scope Golem4 initializer init
     private function init takes nothing returns nothing
 		set Trigger = CreateEventTrigger( "udg_AfterDamageEvent", function action, function condition )
 		call DisableTrigger(Trigger)
-		
-		set HiddenLocation = GetRectCenter(gg_rct_Hidden)
 	endfunction
 	
 endscope

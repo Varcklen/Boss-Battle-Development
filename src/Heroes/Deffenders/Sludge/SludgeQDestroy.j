@@ -1,4 +1,4 @@
-library SludgeQDestroy initializer init
+library SludgeQDestroy initializer init //no requires!
 
 	private function ClearStats takes unit sludgeMinion, boolean isRemoved returns nothing
 		local integer id = GetHandleId(sludgeMinion)

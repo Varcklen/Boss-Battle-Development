@@ -182,7 +182,7 @@ library LibDataBoss
 	    set BossArenaChoise[7][4] = ARENA_TYPE_BIG
 	    set BossArenaChoise[7][5] = ARENA_TYPE_BIG
 	    set BossArenaChoise[8][1] = ARENA_TYPE_SMALL
-	    set BossArenaChoise[8][2] = ARENA_TYPE_BIG
+	    set BossArenaChoise[8][2] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[8][3] = ARENA_TYPE_BIG
 	    set BossArenaChoise[8][4] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[8][5] = ARENA_TYPE_SMALL
@@ -333,7 +333,7 @@ library LibDataBoss
 	    set DB_Trigger_Boss[7][2] = gg_trg_GhostKnight2
 	    set DB_Trigger_Boss[7][3] = gg_trg_GhostKnight3
 	    set DB_Trigger_Boss[7][4] = gg_trg_GhostKnight4
-	    set DB_Trigger_Boss[7][11] = gg_trg_GrandMage1
+	    set DB_Trigger_Boss[7][11] = GrandMage5_Trigger
 	    set DB_Trigger_Boss[7][12] = gg_trg_GrandMage2
 	    set DB_Trigger_Boss[7][13] = gg_trg_GrandMage3
 	    set DB_Trigger_Boss[7][14] = gg_trg_GrandMage4

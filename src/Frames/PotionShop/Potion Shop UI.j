@@ -1,4 +1,4 @@
-library PotionShopUI initializer init requires TextLib, PotionShopDatabase
+library PotionShopUI initializer init requires TextLib, PotionShopDatabase, ItemManipulation
 
     globals 
         private constant integer ROWS = 4

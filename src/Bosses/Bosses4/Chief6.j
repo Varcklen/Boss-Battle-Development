@@ -7,7 +7,6 @@ scope Chief6 initializer init
 		
 		public trigger Trigger = null
 		public trigger Trigger2 = null
-		private location HiddenLocation
 		private boolean isActive = false
 	endglobals
 	
@@ -84,7 +83,7 @@ scope Chief6 initializer init
 		set itemUsed = UnitItemInSlot(hero, slot )
 		
 		call UnitRemoveItemFromSlot(hero, slot)
-		call SetItemPositionLoc( itemUsed, HiddenLocation )
+		call SetItemPositionLoc( itemUsed, SpecialLocation_Get(LOC_TYPE_ITEM_HIDDEN) )
 		call SetItemVisible( itemUsed, false )
 		
     	set locker = CreateItem( ITEM_ID, GetUnitX( hero ), GetUnitY( hero ) )
@@ -115,7 +114,7 @@ scope Chief6 initializer init
 		loop
 			exitwhen i >= iMax
 			set itemUsed = UnitItemInSlot(hero, i)
-			if itemUsed != null and BlzGetItemAbility( itemUsed, 'A1JS' ) == null /*Non Lockable*/ then
+			if itemUsed != null and ItemManipulation_IsLockable(itemUsed) == false  then
 				call items.Add(i)
 			endif
 			set i = i + 1
@@ -184,7 +183,6 @@ scope Chief6 initializer init
 	    call DisableTrigger( Trigger )
 	    
 	    call CreateEventTrigger( "udg_FightEnd_Real", function OnBattleEnd, function OnBattleEnd_Condition )
-	    set HiddenLocation = GetRectCenter(gg_rct_Hidden)
 	endfunction
 
 endscope

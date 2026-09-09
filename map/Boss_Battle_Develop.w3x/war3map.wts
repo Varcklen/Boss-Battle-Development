@@ -540,12 +540,6 @@ STRING 80
 Zerefar
 }
 
-STRING 81
-// Units: u007 (Small evil), Name (Name)
-{
-Small evil
-}
-
 STRING 82
 // Units: u006 (Москиты (Баньши)), Name (Name)
 {
@@ -1853,6 +1847,12 @@ STRING 292
 Chest
 }
 
+STRING 293
+// Units: h01W (Magic Vault), Name (Name)
+{
+Magic Vault
+}
+
 STRING 294
 // Units: h01J (Box), Name (Name)
 {
@@ -2058,12 +2058,6 @@ STRING 327
 // Units: h00O (Pit Lord), Name (Name)
 {
 Pit Lord
-}
-
-STRING 328
-// Units: h00N (Cocon), Name (Name)
-{
-Cocon
 }
 
 STRING 329
@@ -5924,6 +5918,12 @@ STRING 927
 // Items: I0HZ (Locked Item), Description (Description)
 {
 Your [|cffffcc00Item|r] is locked. Kill the Chief of the Guard or complete the encounter to unlock the item.
+}
+
+STRING 928
+// Units: h01W (Magic Vault), EditorSuffix (Name - Editor Suffix)
+{
+(Great Wizard)
 }
 
 STRING 929
@@ -11235,17 +11235,6 @@ STRING 1701
 Increases Spell Power by 10% for each |cffb18904mech|r.
 }
 
-STRING 1702
-// Abilities: A06K (|cffffcc00Уровень 9:|r Поглотитель), Ubertip (Tooltip - Normal - Extended)
-{
-- Removes a random item from each hero's inventory and teleports them to hero rooms.
-- Takes 40% less magic damage.
-- Burns 4 mana from each hero every second.
-- |cff00cceeAt 75% health:|r Every 12 seconds, it rains fire from the sky, dealing |cffbe81f7200|r damage after a 3 second delay.
-- |cff00cceeAt 50% health:|r The boss summons 2 burners. They have all the boss powers.
-- |cff00cceeAt 25% health:|r Every 6 seconds, it rains fire from the sky, dealing |cffbe81f7200|r damage.
-}
-
 STRING 1703
 // Abilities: A1HB (Blessing: Speciality), Ubertip (Tooltip - Normal - Extended)
 {
@@ -14723,6 +14712,12 @@ STRING 2212
 {
 |cffbababcCommon|r, |cff2d9995Weapon|r
 Reduces damage taken from minions by 20%.
+}
+
+STRING 2213
+// Abilities: A06I (|cffffcc00Уровень 7:|r Great Wizard), Name (Name)
+{
+|cffffcc00Уровень 7:|r Great Wizard
 }
 
 STRING 2214
@@ -28069,6 +28064,12 @@ STRING 4264
 Босс 4: Начальник стражи (Немота)
 }
 
+STRING 4265
+// Abilities: A06I (|cffffcc00Уровень 7:|r Great Wizard), Tip (Tooltip - Normal)
+{
+Great Wizard
+}
+
 STRING 4266
 // Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
 {
@@ -30922,6 +30923,12 @@ STRING 4711
 Босс 6: Морская черепаха (Ускорение)
 }
 
+STRING 4713
+// Abilities: A0HH (|cffffcc00Уровень 8:|r Ancient Treant), Tip (Tooltip - Normal)
+{
+Ancient Treant
+}
+
 STRING 4714
 // Items: I00C (Runestone Sandom), Description (Description)
 {
@@ -32974,6 +32981,12 @@ STRING 5021
 // Abilities: A11H (Spell Book), EditorSuffix (Editor Suffix)
 {
 (Beginner’s Luck)
+}
+
+STRING 5022
+// Abilities: A0AD (Босс 7: Великий волшебник (Буран)XXX), Name (Name)
+{
+Босс 7: Великий волшебник (Буран)XXX
 }
 
 STRING 5023
@@ -35051,6 +35064,16 @@ STRING 5346
 Every 4th attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
 }
 
+STRING 5347
+// Abilities: A06I (|cffffcc00Уровень 7:|r Great Wizard), Ubertip (Tooltip - Normal - Extended)
+{
+- Ranged attacks.
+- The boss steals one item from each hero and places them in the Magic Vault. The Magic Vault is immune to Attack Damage and returns the items upon destruction.
+- |cff00cceeAt 95% health:|r The boss launches 2 Firebolts at random heroes. After 3 seconds, they explode, dealing |cffbe81f7350|r damage. Repeats every 8 seconds.
+- |cff00cceeAt 70% health:|r Every 6 seconds creates an ice storm, periodically dealing |cffbe81f7100|r damage over 6 seconds. 
+- |cff00cceeAt 40% health:|r Every 4 seconds, the boss creates an Arcane Explosion that detonates after 1.5 seconds, dealing |cffbe81f7250|r damage.
+}
+
 STRING 5348
 // Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ice Dragon), Tip (Tooltip - Normal)
 {
@@ -36014,12 +36037,6 @@ STRING 5494
 // Abilities: A0WA (Босс 9: Большой кодой (Аура)), Name (Name)
 {
 Босс 9: Большой кодой (Аура)
-}
-
-STRING 5495
-// Abilities: A0W9 (|cffffcc00Уровень 9:|r Большой кодой), Name (Name)
-{
-|cffffcc00Уровень 9:|r Большой кодой
 }
 
 STRING 5496
@@ -45043,20 +45060,9 @@ Activation: Restore |cffbe81f25%|r of Health and Mana. If there are no other art
 }
 
 STRING 6891
-// Abilities: A0W9 (|cffffcc00Уровень 9:|r Большой кодой), Tip (Tooltip - Normal)
+// Abilities: A0W9 (|cffffcc00Уровень 9:|r Big Codo), Tip (Tooltip - Normal)
 {
 Big Codo
-}
-
-STRING 6892
-// Abilities: A0W9 (|cffffcc00Уровень 9:|r Большой кодой), Ubertip (Tooltip - Normal - Extended)
-{
-- Extremely strong attacks. Slow attacks.
-- The boss is immune to taunts and partially to stuns.
-- When boss attacks a minion, eat them and restores health equal to the maximum health of a minion.
-- Every 8 seconds creates a trap nearby. When an adversary steps on it, it deals |cffbe81f7300|r damage and stuns it for 3 seconds.
-- |cff00cceeAt 60% health:|r Creates a Kodo Food. The boss is going to eat one of them. Every 12 seconds goes to eat kodo food. Each Kodo Food eaten increases the boss's attack by 100.
-- |cff00cceeAt 40% health:|r Increases the attack and movement speed of the boss by 50%.
 }
 
 STRING 6893
@@ -47813,6 +47819,18 @@ STRING 7309
 R
 }
 
+STRING 7310
+// Abilities: A1JU ((т)Аура: Champion!), EditorSuffix (Editor Suffix)
+{
+(Duelist Boss)
+}
+
+STRING 7311
+// Abilities: A1JU ((т)Аура: Champion!), Name (Name)
+{
+(т)Аура: Champion!
+}
+
 STRING 7312
 // Abilities: A0AR (|cffffcc00Уровень 6:|r Механик), Ubertip (Tooltip - Normal - Extended)
 {
@@ -47846,6 +47864,12 @@ STRING 7315
 // Abilities: A13A (|cffffcc00Уровень 6:|r Sea Turtle), Tip (Tooltip - Normal)
 {
 Sea Turtle
+}
+
+STRING 7316
+// Buffs/Effects: B0BB (), Bufftip (Tooltip)
+{
+|cff00ff00Champion!|r
 }
 
 STRING 7317
@@ -50282,18 +50306,6 @@ STRING 7684
 Activates 1 blessing and 1 curse.
 }
 
-STRING 7685
-// Abilities: A0HJ (|cffffcc00Уровень 8:|r Королева пауков), Name (Name)
-{
-|cffffcc00Уровень 8:|r Королева пауков
-}
-
-STRING 7686
-// Abilities: A0HJ (|cffffcc00Уровень 8:|r Королева пауков), Tip (Tooltip - Normal)
-{
-Queen of spiders
-}
-
 STRING 7687
 // Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
 {
@@ -50318,22 +50330,16 @@ STRING 7690
 R
 }
 
-STRING 7691
-// Abilities: A0HH (|cffffcc00Уровень 8:|r Древний энт), Name (Name)
-{
-|cffffcc00Уровень 8:|r Древний энт
-}
-
-STRING 7692
-// Abilities: A0HH (|cffffcc00Уровень 8:|r Древний энт), Tip (Tooltip - Normal)
-{
-Ancient ent
-}
-
 STRING 7693
 // Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
 {
 When the hero attacks, there is a |cffd7df0111%|r chance to give the hero a Throwing Knife. If inventory is full, use it instead.
+}
+
+STRING 7694
+// Buffs/Effects: B0BB (), Buffubertip (Tooltip - Extended)
+{
+You deal full damage to the Duelist.
 }
 
 STRING 7695
@@ -50346,6 +50352,18 @@ STRING 7696
 // Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
 {
 When the hero attacks, there is a |cffd7df0114%|r chance to give the hero a Throwing Knife. If inventory is full, use it instead.
+}
+
+STRING 7697
+// Abilities: A0DX (|cffffcc00Уровень 8:|r Дуэлянт), Ubertip (Tooltip - Normal - Extended)
+{
+- The boss chooses the first hero to approach and declares them the champion. The boss always attacks the champion and immune to taunt.
+- The boss takes 80% less damage from a non-champion.
+- Every 10 seconds, the boss dashes towards the champion.
+- Every 15 seconds, the boss creates an illusion for 10 seconds.
+- |cff00cceeAt 80% health:|r Every 10 seconds, the boss charges the weapon. The next hit will deal 300% more damage.
+- |cff00cceeAt 50% health:|r Creates an illusion near each hero that attacks them.
+- |cff00cceeAt 25% health:|r Creates an illusion that begins spinning in a deadly whirlwind for 20 seconds. Whirlwind periodically deals |cffbe81f7125|r damage.
 }
 
 STRING 7698
@@ -50483,18 +50501,6 @@ STRING 7719
 // Abilities: A0H7 (Босс 8: Древний энт (Природная аура)), Name (Name)
 {
 Босс 8: Древний энт (Природная аура)
-}
-
-STRING 7720
-// Abilities: A0H7 (Босс 8: Древний энт (Природная аура)), Tip (Tooltip - Normal)
-{
-Natural aura
-}
-
-STRING 7721
-// Abilities: A0H7 (Босс 8: Древний энт (Природная аура)), Ubertip (Tooltip - Normal - Extended)
-{
-Nearby enemies take |cffbe81f740|r damage per second.
 }
 
 STRING 7722
@@ -51744,7 +51750,7 @@ STRING 7920
 }
 
 STRING 7921
-// Units: h00B (Fedor), EditorSuffix (Name - Editor Suffix)
+// Units: n01S (Mistress), EditorSuffix (Name - Editor Suffix)
 {
 (Level 3)
 }
@@ -51788,6 +51794,46 @@ STRING 7926
 - |cff00cceeAt 70% health:|r Every 15 seconds, creates an area that, after 3 seconds, infuriates all creatures inside. If the target is a hero, the frenzy effect lasts 10 seconds.
 - |cff00cceeAt 50% health:|r Summons 2 War Monsters. They have a lot of health.
 - |cff00cceeAt 30% health:|r All heroes become hostile to each other.
+}
+
+STRING 7927
+// Abilities: A0W9 (|cffffcc00Уровень 9:|r Big Codo), Name (Name)
+{
+|cffffcc00Уровень 9:|r Big Codo
+}
+
+STRING 7928
+// Abilities: A0W9 (|cffffcc00Уровень 9:|r Big Codo), Ubertip (Tooltip - Normal - Extended)
+{
+- Extremely strong attacks. Slow attacks.
+- The boss is immune to taunts and partially to stuns.
+- When boss attacks a minion, eat them and restores health equal to the maximum health of a minion.
+- Every 5 seconds creates a trap nearby. When an adversary steps on it, it deals |cffbe81f7300|r damage and stuns it for 3 seconds.
+- |cff00cceeAt 60% health:|r Creates a Kodo Food. The boss is going to eat one of them. Every 12 seconds goes to eat kodo food. Each Kodo Food eaten increases the boss's attack by 100.
+- |cff00cceeAt 40% health:|r Increases the attack and movement speed of the boss by 50%.
+}
+
+STRING 7929
+// Abilities: A06K (|cffffcc00Уровень 9:|r Pit Lord), Name (Name)
+{
+|cffffcc00Уровень 9:|r Pit Lord
+}
+
+STRING 7930
+// Abilities: A06K (|cffffcc00Уровень 9:|r Pit Lord), Ubertip (Tooltip - Normal - Extended)
+{
+- Takes 40% less magic damage.
+- Each hero loses a random item until the end of battle.
+- Burns 4 mana from each hero every second.
+- |cff00cceeAt 75% health:|r Every 12 seconds, it rains fire from the sky, dealing |cffbe81f7350|r damage after a 3 second delay.
+- |cff00cceeAt 50% health:|r The boss summons 2 burners. They have all the boss powers.
+- |cff00cceeAt 25% health:|r Every 6 seconds, it rains fire from the sky, dealing |cffbe81f7200|r damage.
+}
+
+STRING 7931
+// Units: u007 (Small Evil), Name (Name)
+{
+Small Evil
 }
 
 STRING 7932
@@ -56408,10 +56454,22 @@ STRING 8647
 Path of the Rune
 }
 
+STRING 8648
+// Abilities: A075 (|cffffcc00Уровень 9:|r Reaper of Nightmares), Name (Name)
+{
+|cffffcc00Уровень 9:|r Reaper of Nightmares
+}
+
 STRING 8649
 // Abilities: A0AK (Blessing: Chronospeed), Tip (Tooltip - Normal)
 {
 |cffffcc00Blessing:|r Chronospeed
+}
+
+STRING 8650
+// Abilities: A075 (|cffffcc00Уровень 9:|r Reaper of Nightmares), Tip (Tooltip - Normal)
+{
+Reaper of Nightmares
 }
 
 STRING 8651
@@ -56436,6 +56494,16 @@ STRING 8654
 // Abilities: A0AI (Босс 2: Белый медведь (Сильный удар)), Name (Name)
 {
 Босс 2: Белый медведь (Сильный удар)
+}
+
+STRING 8655
+// Abilities: A075 (|cffffcc00Уровень 9:|r Reaper of Nightmares), Ubertip (Tooltip - Normal - Extended)
+{
+- Every 5 seconds creates a Shadow Sphere. If picked up, the hero will receive |cffbe81f7100|r damage and invulnerability to damaging spells for 5 seconds
+- Every 15 seconds, creates 3 areas that will explode after 3 seconds, causing |cffbe81f7600|r damage.
+- |cff00cceeAt 80% health:|r Labels a random hero. After 5 seconds, it explodes, dealing |cffbe81f71000|r damage.
+- |cff00cceeAt 70% health:|r Summons a Small Evil at the edge of the arena every 1.5 seconds. Small Evil has low health, 75 attack damage and high movement speed.
+- |cff00cceeAt 20% and 40% health:|r Labels each hero.
 }
 
 STRING 8656
@@ -56488,12 +56556,6 @@ STRING 8663
 Armor (Opportunistic Reflexes)
 }
 
-STRING 8664
-// Abilities: A0AD (Босс 7: Великий волшебник (Буран)), Name (Name)
-{
-Босс 7: Великий волшебник (Буран)
-}
-
 STRING 8665
 // Abilities: A0AC (Босс 6: Паладин (Неуязвимость)), Name (Name)
 {
@@ -56506,10 +56568,94 @@ STRING 8666
 W
 }
 
+STRING 8667
+// Abilities: A0HH (|cffffcc00Уровень 8:|r Ancient Treant), Name (Name)
+{
+|cffffcc00Уровень 8:|r Ancient Treant
+}
+
 STRING 8668
 // Abilities: A099 (Mimic: Crystal Barrage), Researchhotkey (Hotkey - Learn)
 {
 W
+}
+
+STRING 8669
+// Abilities: A0HH (|cffffcc00Уровень 8:|r Ancient Treant), Ubertip (Tooltip - Normal - Extended)
+{
+- |cff00cceeAt 90% health:|r Every 12 seconds, immobilizes a random hero for 2.5 seconds.
+- |cff00cceeAt 75% health:|r Summons a magical forest. Upon death, immobilizes the killer for 2.5 seconds.
+- |cff00cceeAt 50% health:|r All trees come to life and become treants.
+- |cff00cceeAt 25% health:|r Increases the movement speed of minions by 200%. Immobilizes all the heroes for 5 seconds.
+}
+
+STRING 8670
+// Abilities: A0H7 (Босс 8: Древний энт (Природная аура)), Tip (Tooltip - Normal)
+{
+Natural Aura
+}
+
+STRING 8671
+// Abilities: A0H7 (Босс 8: Древний энт (Природная аура)), Ubertip (Tooltip - Normal - Extended)
+{
+Upon death, immobilizes the killer for 2.5 seconds.
+}
+
+STRING 8672
+// Abilities: A1JV (Босс 8: Tree Entangle (Ancient Treant)), Name (Name)
+{
+Босс 8: Tree Entangle (Ancient Treant)
+}
+
+STRING 8673
+// Abilities: A1JW (Босс 8: Mass Immobilization (Ancient Treant)), Name (Name)
+{
+Босс 8: Mass Immobilization (Ancient Treant)
+}
+
+STRING 8674
+// Buffs/Effects: B02R (), Bufftip (Tooltip)
+{
+|cff00ff00Natural Aura|r
+}
+
+STRING 8675
+// Buffs/Effects: B02R (), Buffubertip (Tooltip - Extended)
+{
+Upon death immobilizes the killer.
+}
+
+STRING 8676
+// Abilities: A06L (|cffffcc00Уровень 10:|r Колдун), Ubertip (Tooltip - Normal - Extended)
+{
+- Ranged attacks.
+- Deals damage to an area.
+- Every 20 seconds, invokes portals that open within 10 seconds. After opening, each portal calls the devil, and then disappears.
+- Every 15 seconds, invokes fire lines, inflicting |cffbe81f780|r damage every second.
+|cffffcc00Duration:|r 5 seconds.
+- |cff00cceeAt 30% health:|r The boss takes on the form of a spirit and creates 4 portals on the edges of the arena, from which the minions constantly appear. When the portals are destroyed, the boss descends to the ground and starts summoning portals every 12 seconds.
+}
+
+STRING 8677
+// Units: h00N (Cocoon), Name (Name)
+{
+Cocoon
+}
+
+STRING 8678
+// Abilities: A0HJ (|cffffcc00Уровень 8:|r Queen of Spiders), Name (Name)
+{
+|cffffcc00Уровень 8:|r Queen of Spiders
+}
+
+STRING 8680
+// Abilities: A0HJ (|cffffcc00Уровень 8:|r Queen of Spiders), Ubertip (Tooltip - Normal - Extended)
+{
+- When a hero or a cocoon dies, spawns 4 spiders.
+- Destroying the cocoon increases the boss's Attack Damage by 20%.
+- The cocoon summons a spider every 6 seconds.
+- The boss receives 5 armor and 25% magic resistance for each cocoon in the arena.
+- |cff00cceeAt 90% and 45% health:|r Summons 2 cocoons.
 }
 
 STRING 8681
@@ -58878,6 +59024,12 @@ STRING 9048
 Set "|cff9001fdRing|r"
 }
 
+STRING 9049
+// Abilities: A0HJ (|cffffcc00Уровень 8:|r Queen of Spiders), Tip (Tooltip - Normal)
+{
+Spider Queen
+}
+
 STRING 9050
 // Abilities: A089 (Босс 10: Морской великан (Размашистый удар)), Name (Name)
 {
@@ -60467,18 +60619,6 @@ STRING 9296
 Босс 5: Манипулятор (Аура)
 }
 
-STRING 9297
-// Abilities: A075 (|cffffcc00Уровень 9:|r Пожинатель кошмаров), Name (Name)
-{
-|cffffcc00Уровень 9:|r Пожинатель кошмаров
-}
-
-STRING 9298
-// Abilities: A075 (|cffffcc00Уровень 9:|r Пожинатель кошмаров), Tip (Tooltip - Normal)
-{
-Reaper of nightmares
-}
-
 STRING 9299
 // Abilities: A0FB (Lord of Chaos: Despicable), Ubertip (Tooltip - Normal - Extended)
 {
@@ -60682,14 +60822,8 @@ Deals |cffbe81f7100/135/170/205/240|r damage to the enemy. Casts a random first 
 |cffffcc00Cost:|r 40 mana.
 }
 
-STRING 9334
-// Abilities: A06K (|cffffcc00Уровень 9:|r Поглотитель), Name (Name)
-{
-|cffffcc00Уровень 9:|r Поглотитель
-}
-
 STRING 9335
-// Abilities: A06K (|cffffcc00Уровень 9:|r Поглотитель), Tip (Tooltip - Normal)
+// Abilities: A06K (|cffffcc00Уровень 9:|r Pit Lord), Tip (Tooltip - Normal)
 {
 Pit Lord
 }
@@ -60718,18 +60852,6 @@ STRING 9339
 {
 Deals |cffbe81f7135|r damage to the enemy. Casts a random first (|cffffcc00Q|r) ability of level 2.
 |cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 9340
-// Abilities: A06I (|cffffcc00Уровень 7:|r Великий волшебник), Name (Name)
-{
-|cffffcc00Уровень 7:|r Великий волшебник
-}
-
-STRING 9341
-// Abilities: A06I (|cffffcc00Уровень 7:|r Великий волшебник), Tip (Tooltip - Normal)
-{
-Great wizard
 }
 
 STRING 9342
@@ -70834,18 +70956,6 @@ STRING 10950
 Armor increased.
 }
 
-STRING 10951
-// Buffs/Effects: B02R (), Bufftip (Tooltip)
-{
-|cff00ff00Natural aura|r
-}
-
-STRING 10952
-// Buffs/Effects: B02R (), Buffubertip (Tooltip - Extended)
-{
-Deals damage to nearby enemies.
-}
-
 STRING 10953
 // Buffs/Effects: B02Q (), Bufftip (Tooltip)
 {
@@ -71908,7 +72018,7 @@ STRING 11128
 }
 
 STRING 11129
-// Units: n01S (Mistress), EditorSuffix (Name - Editor Suffix)
+// Units: n007 (The Sheep?), EditorSuffix (Name - Editor Suffix)
 {
 (Level 3)
 }
@@ -72556,7 +72666,7 @@ Summons a small uncontrollable spirit that chases the hero and constantly attack
 }
 
 STRING 11236
-// Units: n007 (The Sheep?), EditorSuffix (Name - Editor Suffix)
+// Units: h020 (Akhalaia), EditorSuffix (Name - Editor Suffix)
 {
 (Level 3)
 }
@@ -72615,7 +72725,7 @@ Summons unique Bonnie with abilities. Bonnie's abilities improve from the hero's
 }
 
 STRING 11245
-// Units: h020 (Akhalaia), EditorSuffix (Name - Editor Suffix)
+// Units: h015 (Rafaam), EditorSuffix (Name - Editor Suffix)
 {
 (Level 3)
 }
@@ -74566,15 +74676,6 @@ Creates a shield for all heroes that absorbs |cffbe81f7300|r damage. Grants an a
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 11580
-// Abilities: A0HJ (|cffffcc00Уровень 8:|r Королева пауков), Ubertip (Tooltip - Normal - Extended)
-{
-- When a hero or a cocoon dies, calls 4 spiders.
-- The boss receives 5 armor and 25% magic resistance for each cocoon in the arena.
-- |cff00cceeAt 90% health:|r Summons 2 cocoons, of which spiders appear every 6 seconds. When the cocoon is destroyed, the attack power of the boss increases by 20%.
-- |cff00cceeAt 45% health:|r Summons 2 cocoons, of which spiders appear every 6 seconds.
-}
-
 STRING 11581
 // Abilities: A0HI (|cffffcc00Уровень 9:|r Ядовитая нечисть), Ubertip (Tooltip - Normal - Extended)
 {
@@ -74585,15 +74686,6 @@ Duration: 3 seconds.
 - |cff00cceeAt 50% health:|r The boss poisons all heroes, dealing |cffbe81f750|r damage every second, reducing attack and movement speed by 50%.
 |cffffcc00Duration:|r 60 seconds.
 - |cff00cceeAt 25% health:|r Increases magic resistance by another 30%.
-}
-
-STRING 11582
-// Abilities: A0HH (|cffffcc00Уровень 8:|r Древний энт), Ubertip (Tooltip - Normal - Extended)
-{
-- |cff00cceeAt 90% health:|r Each 20 seconds braids a random hero for 5 seconds.
-- |cff00cceeAt 75% health:|r Summons a magical forest. Each nearby tree deals 40 damage per second.
-- |cff00cceeAt 50% health:|r All trees come to life and become ents.
-- |cff00cceeAt 25% health: |rIncreases the movement speed of minions by 200%. Braids all the heroes for 5 seconds.
 }
 
 STRING 11583
@@ -74628,20 +74720,6 @@ STRING 11587
 {
 Summons a Forest Friend. You can summon up to 4 Forest Friends.
 |cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 11588
-// Abilities: A0DX (|cffffcc00Уровень 8:|r Дуэлянт), Ubertip (Tooltip - Normal - Extended)
-{
-- The boss chooses the first hero to approach and declares him the champion. The boss always attacks the champion.
-- The boss takes 80% less damage from a non-champion.
-- If the champion dies, the boss declares the other hero as the champion.
-- The boss is immune to taunts.
-- Every 10 seconds the boss dashes towards the champion.
-- Every 15 seconds, the boss creates an illusion for 10 seconds.
-- |cff00cceeAt 80% health:|r Every 20 seconds, the boss charges his weapon. The next hit will deal 300% more damage.
-- |cff00cceeAt 50% health:|r Creates an illusion near each hero that attacks them.
-- |cff00cceeAt 25% health:|r Creates an illusion that begins spinning in a deadly whirlwind for 20 seconds.
 }
 
 STRING 11589
@@ -74703,34 +74781,11 @@ STRING 11597
 - |cff00cceeAt 30% health:|r Accelerates by 60 seconds.
 }
 
-STRING 11598
-// Abilities: A075 (|cffffcc00Уровень 9:|r Пожинатель кошмаров), Ubertip (Tooltip - Normal - Extended)
-{
-- Every 5 seconds creates a shadow sphere. If picked up, the hero will receive |cffbe81f7100|r damage and invulnerability to damaging spells.
-|cffffcc00Duration:|r 5 seconds.
-- Every 15 seconds it creates 3 zones that will explode after 3 seconds, causing |cffbe81f7450|r damage.
-- |cff00cceeAt 80% health:|r Labels a random hero. After 5 seconds, it explodes, inflicting |cffbe81f71000|r damage to the target.
-- |cff00cceeAt 70% health:|r Summons a small evil at the edge of the arena every second. This evil has minimal health, 75 attacks and moves fast.
-- |cff00cceeAt 40% health:|r Labels each hero.
-- |cff00cceeAt 20% health:|r Labels each hero.
-}
-
 STRING 11600
 // Abilities: A0HW (Dryad: Call of Nature), Ubertip (Tooltip - Normal - Extended)
 {
 Summons a Forest Friend. You can summon up to 4 Forest Friends.
 |cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 11601
-// Abilities: A06L (|cffffcc00Уровень 10:|r Колдун), Ubertip (Tooltip - Normal - Extended)
-{
-- Ranged attacks.
-- Deals damage to an area.
-- Every 20 seconds, invokes portals that open within 10 seconds. After opening, each portal calls the devil, and then disappears.
-- Every 15 seconds, invokes fire lines, inflicting 80 damage every second.
-|cffffcc00Duration:|r 5 seconds.
-- |cff00cceeAt 30% health:|r The boss takes on the form of a spirit and creates 4 portals on the edges of the arena, from which the minions constantly appear. When the portals are destroyed, the boss descends to the ground and starts summoning portals every 12 seconds.
 }
 
 STRING 11602
@@ -74745,17 +74800,6 @@ STRING 11603
 {
 Makes all nearby creatures invisible for 3 seconds. Restores |cffbe81f7100|r mana to all targets (except caster). After the invisibility ends, target heroes increases Spell Power by 80% for 5 seconds.
 |cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 11604
-// Abilities: A06I (|cffffcc00Уровень 7:|r Великий волшебник), Ubertip (Tooltip - Normal - Extended)
-{
-- Ranged attacks.
-- Every 10 seconds, the boss summons the essence of air.
-- |cff00cceeAt 80% health:|r Every 8 seconds, the boss launches a fire bomb in one of the heroes, which explodes after 3 seconds, causing |cffbe81f7250|r damage to all enemies nearby.
-- |cff00cceeAt 60% health:|r Every 6 seconds creates an ice storm, dealing 600 damage.
-|cffffcc00Duration:|r 12 seconds.
-- |cff00cceeAt 40% health:|r Every 4 seconds, Arcane Explosions occur, dealing |cffbe81f7200|r damage.
 }
 
 STRING 11606
@@ -74832,13 +74876,13 @@ STRING 11616
 }
 
 STRING 11617
-// Units: h015 (Rafaam), EditorSuffix (Name - Editor Suffix)
+// Units: h00K (Arach), EditorSuffix (Name - Editor Suffix)
 {
 (Level 3)
 }
 
 STRING 11618
-// Units: h00K (Arach), EditorSuffix (Name - Editor Suffix)
+// Units: h00B (Fedor), EditorSuffix (Name - Editor Suffix)
 {
 (Level 3)
 }
