@@ -19,5 +19,10 @@ library MessageLib
     	
         call DisplayTimedTextToPlayer( user, 0, 0, 10, text )
     endfunction
+    
+    function GetColorPlayerName takes player user returns string
+    	local integer index = GetPlayerId(user) + 1
+    	return udg_Player_Color[index] + GetPlayerName(user) + "|r"
+    endfunction
 
 endlibrary

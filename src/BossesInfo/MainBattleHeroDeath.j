@@ -48,7 +48,7 @@ scope MainBattleHeroDeath initializer init
             endif
             call GroupRemoveUnit(g,u)
         endloop
-        call Between( "res_boss" )
+        call Between( BATTLE_TYPE_RESSURECTION, STATE_REST )
         
         set g = null
         set u = null

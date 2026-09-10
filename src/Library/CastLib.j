@@ -3,6 +3,7 @@ library CastLib
 	globals
 		private boolean IsForceCast = false
 		private boolean IsRandomCast = false
+		private boolean IsRandomMode = false
 	endglobals
 
 	// Логика срабатывания доп.заклинания
@@ -11,7 +12,7 @@ library CastLib
 	    	//call BJDebugMsg("Caster logic enabled")
 	        set IsForceCast = false
 	        return true
-        elseif RandomMode == false then
+        elseif IsRandomMode == false then
         	set udg_TrigNow = GetTriggeringTrigger()
 	    endif
 	    return false
@@ -37,9 +38,9 @@ library CastLib
         set udg_Caster = caster
         set udg_Level = abilityLevel
         
-        set RandomMode = true
+        set IsRandomMode = true
         call TriggerExecute( abilityUsed )
-        set RandomMode = false
+        set IsRandomMode = false
 	endfunction
 	
 	public function CastAbility takes unit caster, unit target, trigger abilityUsed, integer abilityLevel, real duration returns nothing

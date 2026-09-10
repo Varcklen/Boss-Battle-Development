@@ -18,7 +18,7 @@ scope DoubleTrouble initializer init
 		private constant integer EXPERIENCE_BONUS_PERC = 15
 		
 		private constant integer MONEY_GAIN_MULTIPLIER = 40
-		private constant integer GOLD_GAIN_PER_BOSS_LEVEL = 100
+		private constant integer GOLD_GAIN_PER_BOSS_LEVEL = 50
 		
 		private constant integer REVENGE_EFFECT = 'A1HP'
 		private constant integer REVENGE_DAMAGE = 'A1HQ'

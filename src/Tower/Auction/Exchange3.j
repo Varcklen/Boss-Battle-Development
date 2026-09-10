@@ -137,8 +137,8 @@ scope Exchange3 initializer init
         	set udg_auctionartif[index] = null
         	set udg_auctionartif[friendIndex] = null
         else
-            call DisplayTimedTextToPlayer( owner, 0, 0, 5, "Wait for " + GetPlayerName(friendPlayer) + " player to click |cffffcc00\"Make an Exchange\"|r." )
-            call DisplayTimedTextToPlayer( friendPlayer, 0, 0, 5, GetPlayerName(owner) + " player is ready to complete the exchange. Click |cffffcc00'Make an exchange'|r." )
+            call DisplayTimedTextToPlayer( owner, 0, 0, 5, "Wait for " + GetColorPlayerName(friendPlayer) + " player to click |cffffcc00\"Make an Exchange\"|r." )
+            call DisplayTimedTextToPlayer( friendPlayer, 0, 0, 5, GetColorPlayerName(owner) + " player is ready to complete the exchange. Click |cffffcc00'Make an exchange'|r." )
         endif
 	        
 	    set friendHero = null

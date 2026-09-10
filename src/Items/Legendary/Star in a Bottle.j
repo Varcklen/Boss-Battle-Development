@@ -45,7 +45,7 @@ scope StarInBottle initializer init
 	
 		call luckyst( hero, LUCK_GAIN )
 		
-		set id = InvokeTimerWithItem( GetManipulatedItem(), "star_in_bottle", 4, true, function ConditionCheck )
+		set id = InvokeTimerWithItem( GetManipulatedItem(), "star_in_bottle", 2, true, function ConditionCheck )
 	    call SaveUnitHandle( udg_hash, id, StringHash( "star_in_bottle_hero" ), hero ) 
 		
 		set hero = null

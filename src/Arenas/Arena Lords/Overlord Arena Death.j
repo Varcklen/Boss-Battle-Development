@@ -18,7 +18,7 @@ scope OverlordArenaDeath initializer init
 	private function EndBattle takes nothing returns nothing
 		//call BJDebugMsg("OverlordArenaDeath")
         call Disable()
-        call Between( "end_AL" )
+        call Between( BATTLE_TYPE_OVERLORD_ARENA, STATE_REST )
     endfunction
 	
 	private function action takes nothing returns nothing

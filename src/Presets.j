@@ -24,6 +24,7 @@ endscope
 	call EventName.Invoke()
 	call EventName.AddListener(function action, function condition)
 	
+	ExtraArenaGeneral_IsPvPActive()
 	
 	
 	//===========================================================================

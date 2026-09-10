@@ -194,6 +194,11 @@ scope HeroesChoise initializer init
     private function HeroPicked takes nothing returns nothing
     	call SetHero(Event_HeroPicked_Hero, Event_HeroPicked_Player, Event_HeroPicked_HeroKey, Event_HeroPicked_Class)
     endfunction
+    
+    //===========================================================================
+    private function OnBetween takes nothing returns nothing
+		set ChoosedHero[Event_BetweenUnit_Index] = Event_BetweenUnit_Hero
+	endfunction
 
     //===========================================================================
     private function init takes nothing returns nothing
@@ -204,6 +209,7 @@ scope HeroesChoise initializer init
             set i = i + 1
         endloop
         call CreateEventTrigger( "Event_HeroPicked_Real", function HeroPicked, null )
+        call CreateEventTrigger( "Event_BetweenUnit", function OnBetween, null )
         
         set tempPosition = FirstPosition.create()
     endfunction

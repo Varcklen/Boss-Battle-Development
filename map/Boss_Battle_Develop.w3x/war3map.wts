@@ -540,6 +540,13 @@ STRING 80
 Zerefar
 }
 
+STRING 81
+// Items: I03F (Sandro's Gift), Description (Description)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r a |cff4169e1rare|r item |cffffffff10|r times.
+}
+
 STRING 82
 // Units: u006 (Москиты (Баньши)), Name (Name)
 {
@@ -2058,6 +2065,13 @@ STRING 327
 // Units: h00O (Pit Lord), Name (Name)
 {
 Pit Lord
+}
+
+STRING 328
+// Items: I03F (Sandro's Gift), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r a |cff4169e1rare|r item |cffffffff10|r times.
 }
 
 STRING 329
@@ -7062,13 +7076,6 @@ Gives 50 experience.
 |cFF959697No more than 500 experience per game.|r
 }
 
-STRING 1095
-// Items: I0HU (Fresh Water), Description (Description)
-{
-|cffB614F0Starting Bonus|r
-Rerolls cost 100 gold less. Receive 1 Reroll.
-}
-
 STRING 1096
 // Items: I0HU (Fresh Water), Name (Name)
 {
@@ -7100,10 +7107,8 @@ Fresh Water
 }
 
 STRING 1100
-// Items: I0HU (Fresh Water), Ubertip (Tooltip - Extended)
 {
-|cffB614F0Starting Bonus|r
-Rerolls cost 100 gold less. Receive 1 Reroll.
+123
 }
 
 STRING 1101
@@ -9449,10 +9454,9 @@ Increases Health by 1250, Attack by 35 and Armor by 15.
 }
 
 STRING 1440
-// Items: I03F (Sandro's Gift), Description (Description)
+// Abilities: A1JX (.General: Taunt Immunity), Name (Name)
 {
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cff4169e1rare|r item 10 times |cFF959697(10/10)|r.
+.General: Taunt Immunity
 }
 
 STRING 1441
@@ -9474,10 +9478,10 @@ Sandro's Gift
 }
 
 STRING 1444
-// Items: I03F (Sandro's Gift), Ubertip (Tooltip - Extended)
+// Items: I0BX (Scientific Discovery), Description (Description)
 {
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cff4169e1rare|r item 10 times |cFF959697(10/10)|r.
+|cffffcc00Quest:|r Activate |cffffffff10|r non-|cffcc0000corrupted|r artifacts.
+|cffffcc00Reward:|r Granite of Science.
 }
 
 STRING 1445
@@ -10609,13 +10613,6 @@ STRING 1611
 Egg of the Void
 }
 
-STRING 1612
-// Items: I0BX (Scientific Discovery), Description (Description)
-{
-|cffffcc00Quest:|r Activate 10 |cffcc0000non-corrupted|r artifacts |cFF959697(0/10)|r.
-|cffffcc00Reward:|r Granite of Science.
-}
-
 STRING 1613
 // Items: I0AQ (Egg of the Void (Out of Pool)), Ubertip (Tooltip - Extended)
 {
@@ -10949,13 +10946,6 @@ STRING 1659
 Scientific Discovery
 }
 
-STRING 1660
-// Items: I0BX (Scientific Discovery), Ubertip (Tooltip - Extended)
-{
-|cffffcc00Quest:|r Activate 10 |cffcc0000non-corrupted|r artifacts |cFF959697(0/10)|r.
-|cffffcc00Reward:|r Granite of Science.
-}
-
 STRING 1661
 // Items: I0BW (Hunger for Knowledge), Name (Name)
 {
@@ -11233,6 +11223,13 @@ STRING 1701
 {
 |cff4169e1Rare|r, |cffb18904Mech|r
 Increases Spell Power by 10% for each |cffb18904mech|r.
+}
+
+STRING 1702
+// Items: I0HU (Fresh Water), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Rerolls cost 100 gold less. Receive 1 permanent Reroll.
 }
 
 STRING 1703
@@ -12633,13 +12630,10 @@ Enemies become stronger every few minutes of battle.
 }
 
 STRING 1908
-// Abilities: A0JO (|cffffcc00Extra:|r Double Trouble), Ubertip (Tooltip - Normal - Extended)
+// Items: I0BX (Scientific Discovery), Ubertip (Tooltip - Extended)
 {
-All heroes start a battle with two bosses, but gain more gold.
-
-|cffffcc00Your heroes fight with two bosses at the same time. When the boss dies, the others become enraged, increasing their attack by 40% and movement speed by 20%.
-
-Players receive an additional 100% gold for defeating bosses. Experience bonus: +15%.|r
+|cffffcc00Quest:|r Activate |cffffffff10|r non-|cffcc0000corrupted|r artifacts.
+|cffffcc00Reward:|r Granite of Science.
 }
 
 STRING 1909
@@ -13856,34 +13850,6 @@ STRING 2087
 {
 |cffe96a1cLegendary|r, |cffb40431Blood|r
 The Hero's attacks have |cffbe81f710%|r lifesteal. At full health, attacks grant a shield instead.
-}
-
-STRING 2088
-// Items: I07E (Moon moth), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-At the beginning of each battle, your hero becomes invisible for 30 seconds. Actions do not remove invisibility. 
-|cff81f260[Random bonus]|r
-}
-
-STRING 2089
-// Items: I07E (Moon moth), Name (Name)
-{
-Moon moth
-}
-
-STRING 2090
-// Items: I07E (Moon moth), Tip (Tooltip - Basic)
-{
-Moon moth
-}
-
-STRING 2091
-// Items: I07E (Moon moth), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-At the beginning of each battle, your hero becomes invisible for 30 seconds. Actions do not remove invisibility. 
-|cff81f260[Random bonus]|r
 }
 
 STRING 2092
@@ -29673,7 +29639,7 @@ Dog: Ravenous Bite
 }
 
 STRING 4517
-// Abilities: A12J (Adventure: Sensitive ice), Hotkey (Hotkey - Normal)
+// Abilities: A12J (Adventurer: Ice Touch), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -30011,7 +29977,7 @@ Reduces magic damage taken by 50%.
 }
 
 STRING 4569
-// Abilities: A12J (Adventure: Sensitive ice), Researchhotkey (Hotkey - Learn)
+// Abilities: A12J (Adventurer: Ice Touch), Researchhotkey (Hotkey - Learn)
 {
 Q
 }
@@ -30427,7 +30393,7 @@ STRING 4633
 }
 
 STRING 4634
-// Abilities: A12L (Adventure: Snow boost), Hotkey (Hotkey - Normal)
+// Abilities: A12L (Adventurer: Snow boost), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -30439,7 +30405,7 @@ Mephistar: Grant Wish
 }
 
 STRING 4636
-// Abilities: A12L (Adventure: Snow boost), Researchhotkey (Hotkey - Learn)
+// Abilities: A12L (Adventurer: Snow boost), Researchhotkey (Hotkey - Learn)
 {
 W
 }
@@ -30923,6 +30889,13 @@ STRING 4711
 Босс 6: Морская черепаха (Ускорение)
 }
 
+STRING 4712
+// Items: I0HU (Fresh Water), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Rerolls cost 100 gold less. Receive 1 permanent Reroll.
+}
+
 STRING 4713
 // Abilities: A0HH (|cffffcc00Уровень 8:|r Ancient Treant), Tip (Tooltip - Normal)
 {
@@ -30970,6 +30943,16 @@ STRING 4720
 // Abilities: A136 (Боссы: Опасность (Аура)), Ubertip (Tooltip - Normal - Extended)
 {
 Неуязвимость
+}
+
+STRING 4721
+// Abilities: A0JO (|cffffcc00Extra:|r Double Trouble), Ubertip (Tooltip - Normal - Extended)
+{
+All heroes start a battle with two bosses, but gain more gold.
+
+|cffffcc00Your heroes fight with two bosses at the same time. When the boss dies, the others become enraged, increasing their attack by 40% and movement speed by 20%.
+
+Players receive an additional 50% gold for defeating bosses. Experience bonus: +15%.|r
 }
 
 STRING 4722
@@ -31449,12 +31432,6 @@ STRING 4796
 W
 }
 
-STRING 4797
-// Abilities: A12L (Adventure: Snow boost), Name (Name)
-{
-Adventure: Snow boost
-}
-
 STRING 4798
 // Abilities: A121 (Altar: Ascendance), Unhotkey (Hotkey - Turn Off)
 {
@@ -31462,13 +31439,13 @@ W
 }
 
 STRING 4799
-// Abilities: A12L (Adventure: Snow boost), Researchtip (Tooltip - Learn)
+// Abilities: A12L (Adventurer: Snow boost), Researchtip (Tooltip - Learn)
 {
 Snow boost, [|cffffcc00Level %d|r]
 }
 
 STRING 4800
-// Abilities: A12L (Adventure: Snow boost), Researchubertip (Tooltip - Learn - Extended)
+// Abilities: A12L (Adventurer: Snow boost), Researchubertip (Tooltip - Learn - Extended)
 {
 Increases the target's stat for the rest of the game.
 Depending on the stats received, it gives a buff for a certain time.
@@ -31478,37 +31455,37 @@ Depending on the stats received, it gives a buff for a certain time.
 }
 
 STRING 4801
-// Abilities: A12L (Adventure: Snow boost), Tip (Tooltip - Normal)
+// Abilities: A12L (Adventurer: Snow boost), Tip (Tooltip - Normal)
 {
 Snow boost, [|cffffcc00Level 1|r]
 }
 
 STRING 4802
-// Abilities: A12L (Adventure: Snow boost), Tip (Tooltip - Normal)
+// Abilities: A12L (Adventurer: Snow boost), Tip (Tooltip - Normal)
 {
 Snow boost, [|cffffcc00Level 2|r]
 }
 
 STRING 4803
-// Abilities: A12L (Adventure: Snow boost), Tip (Tooltip - Normal)
+// Abilities: A12L (Adventurer: Snow boost), Tip (Tooltip - Normal)
 {
 Snow boost, [|cffffcc00Level 3|r]
 }
 
 STRING 4804
-// Abilities: A12L (Adventure: Snow boost), Tip (Tooltip - Normal)
+// Abilities: A12L (Adventurer: Snow boost), Tip (Tooltip - Normal)
 {
 Snow boost, [|cffffcc00Level 4|r]
 }
 
 STRING 4805
-// Abilities: A12L (Adventure: Snow boost), Tip (Tooltip - Normal)
+// Abilities: A12L (Adventurer: Snow boost), Tip (Tooltip - Normal)
 {
 Snow boost, [|cffffcc00Level 5|r]
 }
 
 STRING 4806
-// Abilities: A12L (Adventure: Snow boost), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A12L (Adventurer: Snow boost), Ubertip (Tooltip - Normal - Extended)
 {
 Increases the target's stat for the rest of the game.
 Depending on the stats received, it gives a buff for a certain time.
@@ -31517,7 +31494,7 @@ Depending on the stats received, it gives a buff for a certain time.
 }
 
 STRING 4807
-// Abilities: A12L (Adventure: Snow boost), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A12L (Adventurer: Snow boost), Ubertip (Tooltip - Normal - Extended)
 {
 Increases the target's stat for the rest of the game.
 Depending on the stats received, it gives a buff for a certain time.
@@ -31528,7 +31505,7 @@ Depending on the stats received, it gives a buff for a certain time.
 }
 
 STRING 4808
-// Abilities: A12L (Adventure: Snow boost), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A12L (Adventurer: Snow boost), Ubertip (Tooltip - Normal - Extended)
 {
 Increases the target's stat for the rest of the game.
 Depending on the stats received, it gives a buff for a certain time.
@@ -31539,7 +31516,7 @@ Depending on the stats received, it gives a buff for a certain time.
 }
 
 STRING 4809
-// Abilities: A12L (Adventure: Snow boost), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A12L (Adventurer: Snow boost), Ubertip (Tooltip - Normal - Extended)
 {
 Increases the target's stat for the rest of the game.
 Depending on the stats received, it gives a buff for a certain time.
@@ -31550,7 +31527,7 @@ Depending on the stats received, it gives a buff for a certain time.
 }
 
 STRING 4810
-// Abilities: A12L (Adventure: Snow boost), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A12L (Adventurer: Snow boost), Ubertip (Tooltip - Normal - Extended)
 {
 Increases the target's stat for the rest of the game.
 Depending on the stats received, it gives a buff for a certain time.
@@ -31572,95 +31549,10 @@ STRING 4812
 Q
 }
 
-STRING 4813
-// Abilities: A12J (Adventure: Sensitive ice), Name (Name)
-{
-Adventure: Sensitive ice
-}
-
 STRING 4814
 // Abilities: A11V (Artifact: Autonavigator), Researchhotkey (Hotkey - Learn)
 {
 Q
-}
-
-STRING 4815
-// Abilities: A12J (Adventure: Sensitive ice), Researchtip (Tooltip - Learn)
-{
-Sensitive ice, [|cffffcc00Level %d|r]
-}
-
-STRING 4816
-// Abilities: A12J (Adventure: Sensitive ice), Researchubertip (Tooltip - Learn - Extended)
-{
-Deals |cffbe81f7150/200/250/300/350|r damage to bosses (wherever they are).
-|cffffcc00Cooldown:|r 12 seconds.
-|cffffcc00Cost:|r 60/65/70/75/80 mana.
-}
-
-STRING 4817
-// Abilities: A12J (Adventure: Sensitive ice), Tip (Tooltip - Normal)
-{
-Sensitive ice, [|cffffcc00Level 1|r]
-}
-
-STRING 4818
-// Abilities: A12J (Adventure: Sensitive ice), Tip (Tooltip - Normal)
-{
-Sensitive ice, [|cffffcc00Level 2|r]
-}
-
-STRING 4819
-// Abilities: A12J (Adventure: Sensitive ice), Tip (Tooltip - Normal)
-{
-Sensitive ice, [|cffffcc00Level 3|r]
-}
-
-STRING 4820
-// Abilities: A12J (Adventure: Sensitive ice), Tip (Tooltip - Normal)
-{
-Sensitive ice, [|cffffcc00Level 4|r]
-}
-
-STRING 4821
-// Abilities: A12J (Adventure: Sensitive ice), Tip (Tooltip - Normal)
-{
-Sensitive ice, [|cffffcc00Level 5|r]
-}
-
-STRING 4822
-// Abilities: A12J (Adventure: Sensitive ice), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7150|r damage to bosses (wherever they are).
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 4823
-// Abilities: A12J (Adventure: Sensitive ice), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7200|r damage to bosses (wherever they are).
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 4824
-// Abilities: A12J (Adventure: Sensitive ice), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7250|r damage to bosses (wherever they are).
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 4825
-// Abilities: A12J (Adventure: Sensitive ice), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7300|r damage to bosses (wherever they are).
-|cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 4826
-// Abilities: A12J (Adventure: Sensitive ice), Ubertip (Tooltip - Normal - Extended)
-{
-Deals |cffbe81f7350|r damage to bosses (wherever they are).
-|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 4827
@@ -36037,6 +35929,12 @@ STRING 5494
 // Abilities: A0WA (Босс 9: Большой кодой (Аура)), Name (Name)
 {
 Босс 9: Большой кодой (Аура)
+}
+
+STRING 5495
+// Abilities: A12L (Adventurer: Snow boost), Name (Name)
+{
+Adventurer: Snow boost
 }
 
 STRING 5496
@@ -45065,6 +44963,12 @@ STRING 6891
 Big Codo
 }
 
+STRING 6892
+// Abilities: A12J (Adventurer: Ice Touch), Name (Name)
+{
+Adventurer: Ice Touch
+}
+
 STRING 6893
 // Abilities: A1EL (Extra: Soul Contract (Mephistar)), Name (Name)
 {
@@ -50306,6 +50210,20 @@ STRING 7684
 Activates 1 blessing and 1 curse.
 }
 
+STRING 7685
+// Abilities: A12J (Adventurer: Ice Touch), Researchtip (Tooltip - Learn)
+{
+Ice Touch, [|cffffcc00Level %d|r]
+}
+
+STRING 7686
+// Abilities: A12J (Adventurer: Ice Touch), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f7150/200/250/300/350|r damage to bosses (wherever they are). If there are no bosses present, it accumulates damage.
+|cffffcc00Cooldown:|r 12 seconds.
+|cffffcc00Cost:|r 60/65/70/75/80 mana.
+}
+
 STRING 7687
 // Abilities: A0KB (Jester: Juggling), Ubertip (Tooltip - Normal - Extended)
 {
@@ -50328,6 +50246,18 @@ STRING 7690
 // Abilities: A0FF (Marshal: Uneasy Alliance ), Researchhotkey (Hotkey - Learn)
 {
 R
+}
+
+STRING 7691
+// Abilities: A12J (Adventurer: Ice Touch), Tip (Tooltip - Normal)
+{
+Ice Touch, [|cffffcc00Level 1|r]
+}
+
+STRING 7692
+// Abilities: A12J (Adventurer: Ice Touch), Tip (Tooltip - Normal)
+{
+Ice Touch, [|cffffcc00Level 2|r]
 }
 
 STRING 7693
@@ -50501,6 +50431,18 @@ STRING 7719
 // Abilities: A0H7 (Босс 8: Древний энт (Природная аура)), Name (Name)
 {
 Босс 8: Древний энт (Природная аура)
+}
+
+STRING 7720
+// Abilities: A12J (Adventurer: Ice Touch), Tip (Tooltip - Normal)
+{
+Ice Touch, [|cffffcc00Level 3|r]
+}
+
+STRING 7721
+// Abilities: A12J (Adventurer: Ice Touch), Tip (Tooltip - Normal)
+{
+Ice Touch, [|cffffcc00Level 4|r]
 }
 
 STRING 7722
@@ -56556,6 +56498,12 @@ STRING 8663
 Armor (Opportunistic Reflexes)
 }
 
+STRING 8664
+// Abilities: A12J (Adventurer: Ice Touch), Tip (Tooltip - Normal)
+{
+Ice Touch, [|cffffcc00Level 5|r]
+}
+
 STRING 8665
 // Abilities: A0AC (Босс 6: Паладин (Неуязвимость)), Name (Name)
 {
@@ -56646,6 +56594,13 @@ STRING 8678
 // Abilities: A0HJ (|cffffcc00Уровень 8:|r Queen of Spiders), Name (Name)
 {
 |cffffcc00Уровень 8:|r Queen of Spiders
+}
+
+STRING 8679
+// Abilities: A12J (Adventurer: Ice Touch), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7150|r damage to bosses (wherever they are). If there are no bosses present, it accumulates damage.
+|cffffcc00Cooldown:|r 12 seconds.
 }
 
 STRING 8680
@@ -58841,26 +58796,6 @@ STRING 9021
 Chain of Lightning, [|cffffcc00Level 5|r]
 }
 
-STRING 9022
-// Abilities: A12S (Adventurer: Treasure Hunt), Researchubertip (Tooltip - Learn - Extended)
-{
-When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 200.
-
-|cFF959697The artifact is given to an empty inventory slot.|r
-}
-
-STRING 9023
-// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
-{
-When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 200.
-}
-
-STRING 9024
-// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
-{
-When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 200.
-}
-
 STRING 9025
 // Items: I0DU (Runestone Chad), Description (Description)
 {
@@ -60619,6 +60554,20 @@ STRING 9296
 Босс 5: Манипулятор (Аура)
 }
 
+STRING 9297
+// Abilities: A12J (Adventurer: Ice Touch), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7200|r damage to bosses (wherever they are). If there are no bosses present, it accumulates damage.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 9298
+// Abilities: A12J (Adventurer: Ice Touch), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7250|r damage to bosses (wherever they are). If there are no bosses present, it accumulates damage.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 9299
 // Abilities: A0FB (Lord of Chaos: Despicable), Ubertip (Tooltip - Normal - Extended)
 {
@@ -60764,6 +60713,20 @@ STRING 9322
 Неуязвимость
 }
 
+STRING 9323
+// Abilities: A12J (Adventurer: Ice Touch), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7300|r damage to bosses (wherever they are). If there are no bosses present, it accumulates damage.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 9324
+// Abilities: A12J (Adventurer: Ice Touch), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7350|r damage to bosses (wherever they are). If there are no bosses present, it accumulates damage.
+|cffffcc00Cooldown:|r 12 seconds.
+}
+
 STRING 9325
 // Abilities: A0FB (Lord of Chaos: Despicable), Ubertip (Tooltip - Normal - Extended)
 {
@@ -60822,6 +60785,14 @@ Deals |cffbe81f7100/135/170/205/240|r damage to the enemy. Casts a random first 
 |cffffcc00Cost:|r 40 mana.
 }
 
+STRING 9334
+// Items: I07E (Moon Moth), Description (Description)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+At the beginning of each battle, your hero becomes invisible for 30 seconds. Actions do not remove invisibility.
+|cff81f260[Random bonus]|r
+}
+
 STRING 9335
 // Abilities: A06K (|cffffcc00Уровень 9:|r Pit Lord), Tip (Tooltip - Normal)
 {
@@ -60854,6 +60825,18 @@ Deals |cffbe81f7135|r damage to the enemy. Casts a random first (|cffffcc00Q|r) 
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 9340
+// Items: I07E (Moon Moth), Name (Name)
+{
+Moon Moth
+}
+
+STRING 9341
+// Items: I07E (Moon Moth), Tip (Tooltip - Basic)
+{
+Moon Moth
+}
+
 STRING 9342
 // Abilities: A0F9 (Lord of Chaos: Hallucinations), Ubertip (Tooltip - Normal - Extended)
 {
@@ -60880,6 +60863,14 @@ STRING 9345
 Activation: Summons 5 random minions with 25% health.
 |cffffcc00Life time:|r 20 seconds.
 |cffffcc00Cooldown:|r 40 seconds.
+}
+
+STRING 9346
+// Items: I07E (Moon Moth), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+At the beginning of each battle, your hero becomes invisible for 30 seconds. Actions do not remove invisibility.
+|cff81f260[Random bonus]|r
 }
 
 STRING 9347
@@ -60999,6 +60990,13 @@ STRING 9363
 Small Coin
 }
 
+STRING 9364
+// Abilities: A12S (Adventurer: Treasure Hunt), Researchubertip (Tooltip - Learn - Extended)
+{
+Tome of Oblivion costs you 200 gold more.
+When you upgrade this ability, get a random |cffcc0000Corrupted|r artifact to an empty inventory slot. 
+}
+
 STRING 9365
 // Abilities: A06A (|cffffcc00Уровень 1:|r Kobold), Tip (Tooltip - Normal)
 {
@@ -61053,10 +61051,37 @@ STRING 9373
 Q
 }
 
+STRING 9374
+// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
+{
+Tome of Oblivion costs you 200 gold more.
+When you upgrade this ability, get a random |cffcc0000Corrupted|r artifact to an empty inventory slot. 
+}
+
 STRING 9375
 // Abilities: A03Q (Priestess: Meowssault), Hotkey (Hotkey - Normal)
 {
 Q
+}
+
+STRING 9376
+// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
+{
+Tome of Oblivion costs you 200 gold more.
+When you upgrade this ability, get a random |cffcc0000Corrupted|r artifact to an empty inventory slot. 
+}
+
+STRING 9377
+// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
+{
+Tome of Oblivion costs you 200 gold more.
+When you upgrade this ability, get a random |cffcc0000Corrupted|r artifact to an empty inventory slot. 
+}
+
+STRING 9378
+// Abilities: A1JY (.General: Transport), Name (Name)
+{
+.General: Transport
 }
 
 STRING 9388
@@ -75816,12 +75841,6 @@ STRING 11757
 // Abilities: A0V1 (Energy Ball: Energy Shield), Tip (Tooltip - Normal)
 {
 Energy Shield, [|cffffcc00Level 1|r]
-}
-
-STRING 11758
-// Abilities: A12S (Adventurer: Treasure Hunt), Ubertip (Tooltip - Normal - Extended)
-{
-When the ability improves, gives a random |cffcc0000corrupted|r artifact to an empty inventory slot. Increases the cost of Tome of Oblivion by 200.
 }
 
 STRING 11759
