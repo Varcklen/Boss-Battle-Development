@@ -2829,13 +2829,6 @@ STRING 451
 Lye Insanios
 }
 
-STRING 452
-// Items: I0AG (Staff of Purity), Description (Description)
-{
-|cff4169e1Rare|r
-Increases stats by 4. At the beginning of the battle, fills the inventory with purified matter.
-}
-
 STRING 453
 // Units: O00L ((W) Overlord), Propernames (Proper Names)
 {
@@ -7076,6 +7069,12 @@ Gives 50 experience.
 |cFF959697No more than 500 experience per game.|r
 }
 
+STRING 1095
+// Items: I0DW (Purified Matter), Name (Name)
+{
+Purified Matter
+}
+
 STRING 1096
 // Items: I0HU (Fresh Water), Name (Name)
 {
@@ -7290,7 +7289,7 @@ S
 }
 
 STRING 1126
-// Items: I03A (Change artifact (Slot 1)), Hotkey (Hotkey)
+// Items: I03A (Transform Artifact (Slot 1)), Hotkey (Hotkey)
 {
 Q
 }
@@ -7474,34 +7473,6 @@ STRING 1153
 |cff4169e1Rare|r, |cff5858faMoon|r, |cff9001fdRing|r
 When you cast |cff60C445Unique|r ability, use |cff5858faMoon|r set bonus.
 |cff81f260[Random bonus]|r
-}
-
-STRING 1154
-// Items: I0DW (Purified matter), Description (Description)
-{
-|cffC71585Cursed|r
-|cffbababcCommon|r
-Increases stats by 4.
-}
-
-STRING 1155
-// Items: I0DW (Purified matter), Name (Name)
-{
-Purified matter
-}
-
-STRING 1156
-// Items: I0DW (Purified matter), Tip (Tooltip - Basic)
-{
-Purified matter
-}
-
-STRING 1157
-// Items: I0DW (Purified matter), Ubertip (Tooltip - Extended)
-{
-|cffC71585Cursed|r
-|cffbababcCommon|r
-Increases stats by 4.
 }
 
 STRING 1158
@@ -8468,32 +8439,6 @@ STRING 1293
 {
 |cffbababcCommon|r
 Increases Attack Power by 35 and Armor by 4. 
-}
-
-STRING 1294
-// Items: I0CX (Primal matter), Description (Description)
-{
-|cffbababcCommon|r
-If you defeated a boss during a battle, it turns into a |cffe96a1clegendary|r artifact at the end of the battle.
-}
-
-STRING 1295
-// Items: I0CX (Primal matter), Name (Name)
-{
-Primal matter
-}
-
-STRING 1296
-// Items: I0CX (Primal matter), Tip (Tooltip - Basic)
-{
-Primal matter
-}
-
-STRING 1297
-// Items: I0CX (Primal matter), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-If you defeated a boss during a battle, it turns into a |cffe96a1clegendary|r artifact at the end of the battle.
 }
 
 STRING 1298
@@ -10613,6 +10558,12 @@ STRING 1611
 Egg of the Void
 }
 
+STRING 1612
+// Items: I0DW (Purified Matter), Tip (Tooltip - Basic)
+{
+Purified Matter
+}
+
 STRING 1613
 // Items: I0AQ (Egg of the Void (Out of Pool)), Ubertip (Tooltip - Extended)
 {
@@ -10944,6 +10895,13 @@ STRING 1659
 // Items: I0BX (Scientific Discovery), Tip (Tooltip - Basic)
 {
 Scientific Discovery
+}
+
+STRING 1660
+// Items: I0AG (Staff of Purity), Description (Description)
+{
+|cffbababcCommon|r
+Increases Stats by 4. At the beginning of the battle, fills the inventory with Purified Matter (|cffC71585Cursed|r item that increases Stats by 4).
 }
 
 STRING 1661
@@ -12910,13 +12868,6 @@ Activation: Kills an allied minion and restores |cffbe81f75%|r of maximum mana.
 |cffffcc00Cooldown:|r 1 second.
 }
 
-STRING 1949
-// Items: I0AG (Staff of Purity), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases stats by 4. At the beginning of the battle, fills the inventory with purified matter.
-}
-
 STRING 1950
 // Items: I05K (Old Healer), Ubertip (Tooltip - Extended)
 {
@@ -13850,6 +13801,32 @@ STRING 2087
 {
 |cffe96a1cLegendary|r, |cffb40431Blood|r
 The Hero's attacks have |cffbe81f710%|r lifesteal. At full health, attacks grant a shield instead.
+}
+
+STRING 2088
+// Items: I0AG (Staff of Purity), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Increases Stats by 4. At the beginning of the battle, fills the inventory with Purified Matter (|cffC71585Cursed|r item that increases Stats by 4).
+}
+
+STRING 2089
+// Abilities: A119 (Blessing: Purification), Ubertip (Tooltip - Normal - Extended)
+{
+At the start of each battle, creates Purified Matter in an empty inventory slot.
+}
+
+STRING 2090
+// Abilities: A0AK (Bless: Chronospeed), Name (Name)
+{
+Bless: Chronospeed
+}
+
+STRING 2091
+// Items: I0DW (Purified Matter), Description (Description)
+{
+|cffC71585Cursed|r
+Increases stats by 4.
 }
 
 STRING 2092
@@ -15158,7 +15135,7 @@ STRING 2283
 }
 
 STRING 2284
-// Items: I03C (Change artifact (Slot 2)), Hotkey (Hotkey)
+// Items: I03C (Transform Artifact (Slot 2)), Hotkey (Hotkey)
 {
 W
 }
@@ -15814,7 +15791,7 @@ Heals all nearby allies for |cffbe81f775/100/125/150/175|r health and increases 
 }
 
 STRING 2383
-// Items: I037 (Change artifact (Slot 6)), Hotkey (Hotkey)
+// Items: I037 (Transform Artifact (Slot 6)), Hotkey (Hotkey)
 {
 X
 }
@@ -15937,7 +15914,7 @@ Slurp Up, [|cffffcc00Level 2|r]
 }
 
 STRING 2403
-// Items: I039 (Change artifact (Slot 4)), Hotkey (Hotkey)
+// Items: I039 (Transform Artifact (Slot 4)), Hotkey (Hotkey)
 {
 S
 }
@@ -15967,7 +15944,7 @@ STRING 2407
 }
 
 STRING 2408
-// Items: I03B (Change artifact (Slot 3)), Hotkey (Hotkey)
+// Items: I03B (Transform Artifact (Slot 3)), Hotkey (Hotkey)
 {
 A
 }
@@ -17384,7 +17361,7 @@ Deals |cffbe81f7260|r damage to the enemy and stuns them for 3 seconds.
 }
 
 STRING 2619
-// Items: I038 (Change artifact (Slot 5)), Hotkey (Hotkey)
+// Items: I038 (Transform Artifact (Slot 5)), Hotkey (Hotkey)
 {
 Z
 }
@@ -17792,20 +17769,8 @@ STRING 2678
 W
 }
 
-STRING 2679
-// Items: I03C (Change artifact (Slot 2)), Name (Name)
-{
-Change artifact (Slot 2)
-}
-
-STRING 2680
-// Items: I03C (Change artifact (Slot 2)), Tip (Tooltip - Basic)
-{
-Change artifact (Slot 2)
-}
-
 STRING 2681
-// Items: I03C (Change artifact (Slot 2)), Ubertip (Tooltip - Extended)
+// Items: I03C (Transform Artifact (Slot 2)), Ubertip (Tooltip - Extended)
 {
 Changes your artifact in the slot to a random artifact.
 }
@@ -17816,20 +17781,8 @@ STRING 2682
 A
 }
 
-STRING 2683
-// Items: I03B (Change artifact (Slot 3)), Name (Name)
-{
-Change artifact (Slot 3)
-}
-
-STRING 2684
-// Items: I03B (Change artifact (Slot 3)), Tip (Tooltip - Basic)
-{
-Change artifact (Slot 3)
-}
-
 STRING 2685
-// Items: I03B (Change artifact (Slot 3)), Ubertip (Tooltip - Extended)
+// Items: I03B (Transform Artifact (Slot 3)), Ubertip (Tooltip - Extended)
 {
 Changes your artifact in the slot to a random artifact.
 }
@@ -17840,20 +17793,8 @@ STRING 2686
 Q
 }
 
-STRING 2687
-// Items: I03A (Change artifact (Slot 1)), Name (Name)
-{
-Change artifact (Slot 1)
-}
-
-STRING 2688
-// Items: I03A (Change artifact (Slot 1)), Tip (Tooltip - Basic)
-{
-Change artifact (Slot 1)
-}
-
 STRING 2689
-// Items: I03A (Change artifact (Slot 1)), Ubertip (Tooltip - Extended)
+// Items: I03A (Transform Artifact (Slot 1)), Ubertip (Tooltip - Extended)
 {
 Changes your artifact in the slot to a random artifact.
 }
@@ -17864,20 +17805,8 @@ STRING 2690
 S
 }
 
-STRING 2691
-// Items: I039 (Change artifact (Slot 4)), Name (Name)
-{
-Change artifact (Slot 4)
-}
-
-STRING 2692
-// Items: I039 (Change artifact (Slot 4)), Tip (Tooltip - Basic)
-{
-Change artifact (Slot 4)
-}
-
 STRING 2693
-// Items: I039 (Change artifact (Slot 4)), Ubertip (Tooltip - Extended)
+// Items: I039 (Transform Artifact (Slot 4)), Ubertip (Tooltip - Extended)
 {
 Changes your artifact in the slot to a random artifact.
 }
@@ -17888,20 +17817,8 @@ STRING 2694
 Z
 }
 
-STRING 2695
-// Items: I038 (Change artifact (Slot 5)), Name (Name)
-{
-Change artifact (Slot 5)
-}
-
-STRING 2696
-// Items: I038 (Change artifact (Slot 5)), Tip (Tooltip - Basic)
-{
-Change artifact (Slot 5)
-}
-
 STRING 2697
-// Items: I038 (Change artifact (Slot 5)), Ubertip (Tooltip - Extended)
+// Items: I038 (Transform Artifact (Slot 5)), Ubertip (Tooltip - Extended)
 {
 Changes your artifact in the slot to a random artifact.
 }
@@ -17912,20 +17829,8 @@ STRING 2698
 X
 }
 
-STRING 2699
-// Items: I037 (Change artifact (Slot 6)), Name (Name)
-{
-Change artifact (Slot 6)
-}
-
-STRING 2700
-// Items: I037 (Change artifact (Slot 6)), Tip (Tooltip - Basic)
-{
-Change artifact (Slot 6)
-}
-
 STRING 2701
-// Items: I037 (Change artifact (Slot 6)), Ubertip (Tooltip - Extended)
+// Items: I037 (Transform Artifact (Slot 6)), Ubertip (Tooltip - Extended)
 {
 Changes your artifact in the slot to a random artifact.
 }
@@ -28797,12 +28702,6 @@ STRING 4387
 Intoxicating love
 }
 
-STRING 4388
-// Abilities: A119 (Blessing: Purification), Ubertip (Tooltip - Normal - Extended)
-{
-In each battle, reduces the health of the first 3 enemy minions to a minimum.
-}
-
 STRING 4389
 // Abilities: A15U (Аура: Origin Pulse), Name (Name)
 {
@@ -31432,6 +31331,13 @@ STRING 4796
 W
 }
 
+STRING 4797
+// Items: I0DW (Purified Matter), Ubertip (Tooltip - Extended)
+{
+|cffC71585Cursed|r
+Increases stats by 4.
+}
+
 STRING 4798
 // Abilities: A121 (Altar: Ascendance), Unhotkey (Hotkey - Turn Off)
 {
@@ -31549,10 +31455,90 @@ STRING 4812
 Q
 }
 
+STRING 4813
+// Items: I0CX (Primal Matter), Description (Description)
+{
+|cffbababcCommon|r
+When you win a fight, transforms into a |cffe96a1cLegendary|r artifact.
+}
+
 STRING 4814
 // Abilities: A11V (Artifact: Autonavigator), Researchhotkey (Hotkey - Learn)
 {
 Q
+}
+
+STRING 4815
+// Items: I0CX (Primal Matter), Name (Name)
+{
+Primal Matter
+}
+
+STRING 4816
+// Items: I0CX (Primal Matter), Tip (Tooltip - Basic)
+{
+Primal Matter
+}
+
+STRING 4817
+// Items: I0CX (Primal Matter), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+When you win a fight, transforms into a |cffe96a1cLegendary|r artifact.
+}
+
+STRING 4818
+// Items: I03C (Transform Artifact (Slot 2)), Name (Name)
+{
+Transform Artifact (Slot 2)
+}
+
+STRING 4819
+// Items: I03C (Transform Artifact (Slot 2)), Tip (Tooltip - Basic)
+{
+Transform Artifact (Slot 2)
+}
+
+STRING 4820
+// Items: I03B (Transform Artifact (Slot 3)), Name (Name)
+{
+Transform Artifact (Slot 3)
+}
+
+STRING 4821
+// Items: I03B (Transform Artifact (Slot 3)), Tip (Tooltip - Basic)
+{
+Transform Artifact (Slot 3)
+}
+
+STRING 4822
+// Items: I03A (Transform Artifact (Slot 1)), Name (Name)
+{
+Transform Artifact (Slot 1)
+}
+
+STRING 4823
+// Items: I03A (Transform Artifact (Slot 1)), Tip (Tooltip - Basic)
+{
+Transform Artifact (Slot 1)
+}
+
+STRING 4824
+// Items: I039 (Transform Artifact (Slot 4)), Name (Name)
+{
+Transform Artifact (Slot 4)
+}
+
+STRING 4825
+// Items: I039 (Transform Artifact (Slot 4)), Tip (Tooltip - Basic)
+{
+Transform Artifact (Slot 4)
+}
+
+STRING 4826
+// Items: I038 (Transform Artifact (Slot 5)), Name (Name)
+{
+Transform Artifact (Slot 5)
 }
 
 STRING 4827
@@ -49849,14 +49835,8 @@ STRING 7629
 Every 12 seconds, a trap is created near a random hero. Any player unit that steps on it is immobilized for 2 seconds.
 }
 
-STRING 7630
-// Abilities: A0AK (Blessing: Chronospeed), Name (Name)
-{
-Blessing: Chronospeed
-}
-
 STRING 7631
-// Abilities: A0AK (Blessing: Chronospeed), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0AK (Bless: Chronospeed), Ubertip (Tooltip - Normal - Extended)
 {
 When cast, there is a 6% chance to reduce the cooldown of a random hero ability by 50%.
 }
@@ -56403,7 +56383,7 @@ STRING 8648
 }
 
 STRING 8649
-// Abilities: A0AK (Blessing: Chronospeed), Tip (Tooltip - Normal)
+// Abilities: A0AK (Bless: Chronospeed), Tip (Tooltip - Normal)
 {
 |cffffcc00Blessing:|r Chronospeed
 }
@@ -58794,6 +58774,24 @@ STRING 9021
 // Abilities: A01D (Energy Ball: Chain of Lightning), Tip (Tooltip - Normal)
 {
 Chain of Lightning, [|cffffcc00Level 5|r]
+}
+
+STRING 9022
+// Items: I038 (Transform Artifact (Slot 5)), Tip (Tooltip - Basic)
+{
+Transform Artifact (Slot 5)
+}
+
+STRING 9023
+// Items: I037 (Transform Artifact (Slot 6)), Name (Name)
+{
+Transform Artifact (Slot 6)
+}
+
+STRING 9024
+// Items: I037 (Transform Artifact (Slot 6)), Tip (Tooltip - Basic)
+{
+Transform Artifact (Slot 6)
 }
 
 STRING 9025

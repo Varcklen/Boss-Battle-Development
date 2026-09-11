@@ -264,6 +264,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL2_Common[BaseNum()] = 'I07C'
 	    set udg_DB_Item_ForLvL2_Common[BaseNum()] = 'I004'
 	    set udg_DB_Item_ForLvL2_Common[BaseNum()] = 'I01F'
+	    set udg_DB_Item_ForLvL2_Common[BaseNum()] = 'I0AG'
 	    set udg_DB_NumLvLItems[2] = udg_base
 	
 	    // Обычные. III пак. 11+
@@ -422,7 +423,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I08J'
 	    //set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I01A'
 	    //set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I004'
-	    set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I0AG'
+	    //set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I0AG'
 	    set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I0BT'
 	    //set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I018'
 	    set udg_DB_Item_ForLvL2_Rare[BaseNum()] = 'I07J'

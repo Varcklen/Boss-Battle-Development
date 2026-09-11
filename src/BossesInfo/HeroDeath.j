@@ -59,8 +59,7 @@ scope HeroDeath initializer init
         call StopMusic(false)
         call ClearMapMusic()
         call PlayMusicBJ( gg_snd_DarkAgents01 )
-        call PauseTimer( LoadTimerHandle( udg_hash, GetHandleId( udg_UNIT_DUMMY_BUFF ), StringHash( "bssdtimer" ) ) )
-        call TimerDialogDisplay( udg_timerdialog[0], false )
+        //call PauseTimer( LoadTimerHandle( udg_hash, GetHandleId( udg_UNIT_DUMMY_BUFF ), StringHash( "bssdtimer" ) ) )
         set i = 0
         loop
             exitwhen i > 3

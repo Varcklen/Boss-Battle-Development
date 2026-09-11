@@ -39,14 +39,13 @@ library BattleIntersection requires BuffDeleteLib, BattleStart, BattleEnd
 	    set u = null
 	    set g = null
     endfunction
-    
+
     private function PlayerAction takes unit hero, player owner, integer index, integer battleType returns nothing
     	local group g = CreateGroup()
 	    local unit u
     
     	call ShowUnitShow( hero )
-        set udg_fightlogic[index] = false
-        
+
         if ExtraArenaGeneral_IsPvPActive() and ExtraArenaGeneral_IsPvPFighter(hero) == false then
         	return
         endif
@@ -109,7 +108,7 @@ library BattleIntersection requires BuffDeleteLib, BattleStart, BattleEnd
 	    
 	    set IsBattleEnded = false
 	    call KillTransport()
-	    
+
 	    set i = 1
 	    loop
 	        exitwhen i > 4
@@ -184,7 +183,6 @@ library BattleIntersection requires BuffDeleteLib, BattleStart, BattleEnd
         endif
         if ExtraArenaGeneral_IsPvPActive() == false or ExtraArenaGeneral_IsPvPFighter(hero) then
             if state == STATE_BATTLE then
-            	call UnitRemoveAbility( hero, 'B00J' )
                 call SetUnitState( hero, UNIT_STATE_LIFE, GetUnitState( hero, UNIT_STATE_MAX_LIFE) )
                 call SetUnitState( hero, UNIT_STATE_MANA, GetUnitState( hero, UNIT_STATE_MAX_MANA) )
                 call ReviveHeroLoc( hero, udg_point[index + 21], true )

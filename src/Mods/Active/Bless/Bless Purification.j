@@ -2,10 +2,20 @@ scope BlessPurification initializer init
 
 	globals
 		private trigger Trigger = null
+		
+		private constant integer ITEM_TO_ADD = 'I0DW'
 	endglobals
 	
+	private function condition takes nothing returns boolean
+		return not(udg_fightmod[3]) and ItemManipulation_IsInventoryFull(BattleStart.TriggerUnit) == false
+	endfunction
+	
 	private function action takes nothing returns nothing
-		set udg_KillUnit = udg_KillUnit + 3
+		local unit hero = BattleStart.GetDataUnit("caster")
+
+        call UnitAddItem( hero, CreateItem(ITEM_TO_ADD, GetUnitX(hero), GetUnitY(hero) ) )
+        
+        set hero = null
 	endfunction
 
 	//===========================================================================
@@ -21,7 +31,7 @@ scope BlessPurification initializer init
     endfunction
 	
 	private function init takes nothing returns nothing
-		set Trigger = CreateEventTrigger( "udg_FightStartGlobal_Real", function action, null )
+		set Trigger = BattleStart.AddListener(function action, function condition)
 		call DisableTrigger( Trigger )
 	endfunction
 

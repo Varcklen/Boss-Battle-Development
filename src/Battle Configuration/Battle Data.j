@@ -26,6 +26,5 @@ library BattleData
 		set CurrentBattleType = battleType
 		set CurrentState = state
 	endfunction
-	
-	
+
 endlibrary

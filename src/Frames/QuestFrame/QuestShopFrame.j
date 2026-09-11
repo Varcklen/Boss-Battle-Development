@@ -165,11 +165,18 @@ scope QuestShopFrame initializer init
 	endfunction
 	
 	//===========================================================================
+	private function OnFightStart takes nothing returns nothing
+		call BlzFrameSetVisible(quartback, false)
+	endfunction
+	
+	//===========================================================================
 	private function init takes nothing returns nothing
 	    local trigger trig = CreateTrigger(  )
 	    call TriggerRegisterTimerExpireEvent( trig, udg_StartTimer )
 	    call TriggerAddAction( trig, function start )
 	    set trig = null
+	    
+	    call CreateEventTrigger( "udg_FightStartGlobal_Real", function OnFightStart, null )
 	endfunction
 
 endscope

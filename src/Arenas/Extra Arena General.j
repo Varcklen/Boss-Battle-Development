@@ -1,4 +1,4 @@
-library ExtraArenaGeneral requires ItemRandomizerLib, Multiboard
+library ExtraArenaGeneral initializer init requires ItemRandomizerLib, Multiboard
 
 	//ExtraArenaGeneral_IsPvPActive
 
@@ -126,5 +126,15 @@ library ExtraArenaGeneral requires ItemRandomizerLib, Multiboard
     public function IsPvPActive takes nothing returns boolean
 		return udg_fightmod[3]
     endfunction
+    
+    //===========================================================================
+    private function OnBattleEnd takes nothing returns nothing
+		call ShowUnitShow( udg_UNIT_CUTE_BOB )
+	endfunction
+
+	//===========================================================================
+    private function init takes nothing returns nothing
+		call BattleEndGlobal.AddListener(function OnBattleEnd, null )
+	endfunction
 
 endlibrary

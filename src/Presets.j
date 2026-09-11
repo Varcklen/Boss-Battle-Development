@@ -25,6 +25,7 @@ endscope
 	call EventName.AddListener(function action, function condition)
 	
 	ExtraArenaGeneral_IsPvPActive()
+	ItemManipulation_IsInventoryFull()
 	
 	
 	//===========================================================================
