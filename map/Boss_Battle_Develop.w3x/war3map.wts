@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.12.4T|r
+|cffbe81f7Boss Battle 1.12.6T|r
 }
 
 STRING 2
@@ -2827,6 +2827,15 @@ STRING 451
 // Units: O00N ((T) Toxic Elemental), Propernames (Proper Names)
 {
 Lye Insanios
+}
+
+STRING 452
+// Abilities: A135 (|cffffcc00Уровень 7:|r Goblin Shredder), Ubertip (Tooltip - Normal - Extended)
+{
+- Calls a huge airship that flies around the arena and scatters bombs. When the bomb touches the ground, deals |cffbe81f7125|r damage to nearby enemies.
+- Every 10 seconds, launches a saw at a random hero. The saw exists for 7 seconds and periodically deals |cffbe81f775|r damage.
+- |cff00cceeAt 60% health:|r The boss blows up the upper part of the arena, periodically dealing |cffbe81f7125|r damage for 25 seconds.
+- |cff00cceeAt 30% health:|r The boss blows up the lower part of the arena.
 }
 
 STRING 453
@@ -7473,6 +7482,12 @@ STRING 1153
 |cff4169e1Rare|r, |cff5858faMoon|r, |cff9001fdRing|r
 When you cast |cff60C445Unique|r ability, use |cff5858faMoon|r set bonus.
 |cff81f260[Random bonus]|r
+}
+
+STRING 1154
+// Abilities: A1C3 (Stats (Touching Motif AGI+INT)), Name (Name)
+{
+Stats (Touching Motif AGI+INT)
 }
 
 STRING 1158
@@ -22897,12 +22912,6 @@ STRING 3476
 // Abilities: A1C4 (Stats (Touching Motif AGI)), Name (Name)
 {
 Stats (Touching Motif AGI)
-}
-
-STRING 3477
-// Abilities: A1C3 (Stats (Touching Motif STR)), Name (Name)
-{
-Stats (Touching Motif STR)
 }
 
 STRING 3478
@@ -51320,15 +51329,6 @@ STRING 7864
 Debilitating Presence, [|cffffcc00Level %d|r]
 }
 
-STRING 7865
-// Abilities: A135 (|cffffcc00Уровень 7:|r Goblin Shredder), Ubertip (Tooltip - Normal - Extended)
-{
-- Calls a huge airship that flies around the arena and scatters bombs. When the bomb touches the ground, deals |cffbe81f7125|r damage to nearby enemies.
-- Every 10 seconds, launches a saw at a random hero. Once the saw reaches its destination, it will disappear after 5 seconds. The saw deals |cffbe81f775|r damage every 0.5 seconds.
-- |cff00cceeAt 60% health:|r The boss blows up the upper part of the arena, periodically dealing |cffbe81f7125|r damage for 30 seconds.
-- |cff00cceeAt 30% health:|r The boss blows up the lower part of the arena.
-}
-
 STRING 7866
 // Abilities: A0FN (Soulstealer: Debilitating Presence), Tip (Tooltip - Normal)
 {
@@ -72568,7 +72568,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.12.4T|r
+|cffbe81f7Boss Battle 1.12.6T|r
 }
 
 STRING 11219

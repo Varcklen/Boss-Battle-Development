@@ -6,7 +6,7 @@ scope GrandMage5 initializer init
 		private constant integer VAUNT_ID = 'h01W'
 		private constant integer SPAWN_DEVIATION = 300
 		
-		
+		private constant string STEAL_ANIMATION = "Abilities\\Spells\\Other\\Charm\\CharmTarget.mdl"
 		private constant string PROJECTILE_MODEL = "Objects\\InventoryItems\\TreasureChest\\treasurechest.mdl"
 		private constant string RAY_MODEL = "DRAM"
 		private constant real ANIMATION_TICK = 0.04
@@ -71,7 +71,6 @@ scope GrandMage5 initializer init
 		else
 			call AnimationChange(id, GetExpiredTimer() )
 		endif
-		
 		
 		set vault = null
 	endfunction
@@ -144,6 +143,7 @@ scope GrandMage5 initializer init
 		endif
 		
 		call LockItem(hero, vault, items.GetRandomCell(), vaultCells )
+		call DestroyEffect( AddSpecialEffectTarget( STEAL_ANIMATION, hero, "origin" ) )
 		
 		call items.destroy()
 		set itemUsed = null
@@ -157,7 +157,9 @@ scope GrandMage5 initializer init
 		loop
 			set u = FirstOfGroup(heroes)
 			exitwhen u == null
-			call LockForHero(boss, vault, u, vaultData )
+			if IsUnitAlive(u) then //Heroes under ressurections counts as alive
+				call LockForHero(boss, vault, u, vaultData )
+			endif
 			call GroupRemoveUnit(heroes, u)
 		endloop
 		

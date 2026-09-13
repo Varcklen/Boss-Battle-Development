@@ -138,7 +138,9 @@ scope Chief6 initializer init
 		loop
 			set u = FirstOfGroup(heroes)
 			exitwhen u == null
-			call LockForHero(boss, u)
+			if IsUnitAlive(u) then //Heroes under ressurections counts as alive
+				call LockForHero(boss, u)
+			endif
 			call GroupRemoveUnit(heroes, u)
 		endloop
 	
