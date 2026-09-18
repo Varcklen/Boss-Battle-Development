@@ -7,7 +7,7 @@ scope Chupa initializer init
 		
 		private constant integer HASH_KEY = StringHash( "chupa_bonus" )
 		private string ICON_FRAME = "war3mapImported\\BTNStartingBonus_12.blp"
-		private constant string DESCRIPTION = "When these players split the artifact, they will receive 35 Health and Gold: "
+		private string DESCRIPTION
 	endglobals
 
 	private function condition takes nothing returns boolean
@@ -33,7 +33,7 @@ scope Chupa initializer init
 	endfunction
 
 	private function OnSplit_Condition takes nothing returns boolean
-		return LoadBoolean(udg_hash, GetHandleId( GetOwningPlayer(Event_ItemSplit_Hero) ), HASH_KEY) and GetItemType(Event_ItemSplit_Item) != ITEM_TYPE_POWERUP
+		return LoadBoolean(udg_hash, GetHandleId( GetOwningPlayer(Event_ItemSplit_Hero) ), HASH_KEY) and ItemManipulation_IsArtifact(Event_ItemSplit_Item)
 	endfunction
 
 	private function OnSplit takes nothing returns nothing
@@ -50,6 +50,8 @@ scope Chupa initializer init
 	    call CreateNativeEvent( EVENT_PLAYER_UNIT_PICKUP_ITEM, function action, function condition )
 	    
 	    call CreateEventTrigger( "Event_ItemSplit_Real", function OnSplit, function OnSplit_Condition )
+	    
+	    set DESCRIPTION = "When these players split the artifact, they will receive " + I2S(HEALTH_GAIN) + " Health and " + I2S(GOLD_GAIN) + " Gold: "
 	endfunction
 
 endscope

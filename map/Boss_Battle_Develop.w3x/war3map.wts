@@ -1878,12 +1878,6 @@ STRING 296
 Jule
 }
 
-STRING 297
-// Units: h01F (Target), Name (Name)
-{
-Target
-}
-
 STRING 298
 // Units: h01E (Knight squire), Name (Name)
 {
@@ -2156,12 +2150,6 @@ STRING 342
 // Units: h00A (Cute Bob), Name (Name)
 {
 Cute Bob
-}
-
-STRING 343
-// Units: h009 (Dummy), Name (Name)
-{
-Dummy
 }
 
 STRING 344
@@ -7115,8 +7103,9 @@ Fresh Water
 }
 
 STRING 1100
+// Units: h028 (Friendly Dummy), Name (Name)
 {
-123
+Friendly Dummy
 }
 
 STRING 1101
@@ -7488,6 +7477,18 @@ STRING 1154
 // Abilities: A1C3 (Stats (Touching Motif AGI+INT)), Name (Name)
 {
 Stats (Touching Motif AGI+INT)
+}
+
+STRING 1156
+// Abilities: A1JZ (.General: Mannequin), Name (Name)
+{
+.General: Mannequin
+}
+
+STRING 1157
+// Abilities: A1K0 (.State: Damage Immunity), Name (Name)
+{
+.State: Damage Immunity
 }
 
 STRING 1158
@@ -8454,6 +8455,32 @@ STRING 1293
 {
 |cffbababcCommon|r
 Increases Attack Power by 35 and Armor by 4. 
+}
+
+STRING 1294
+// Units: h01F (Minion Dummy), Name (Name)
+{
+Minion Dummy
+}
+
+STRING 1295
+// Units: h009 (Boss Dummy), Name (Name)
+{
+Boss Dummy
+}
+
+STRING 1296
+// Items: IV15 (Chupa), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Until the end of the game, splitting the artifact gives 35 max Health and Gold.
+}
+
+STRING 1297
+// Items: IV15 (Chupa), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Until the end of the game, splitting the artifact gives 35 max Health and Gold.
 }
 
 STRING 1298
@@ -10407,16 +10434,6 @@ STRING 1588
 Blacksmith Craft
 }
 
-STRING 1589
-// Abilities: A1BH (Bro: Bazinga!), Researchubertip (Tooltip - Learn - Extended)
-{
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7150/200/250/300/350|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 50 mana.
-
-|cFF959697Does not work on invulnerable units.|r
-}
-
 STRING 1590
 // Items: I0AV (Aggressive Shield), Description (Description)
 {
@@ -11945,15 +11962,6 @@ Increases health by 1250.
 Your hero takes pure damage instead of all heroes.
 }
 
-STRING 1814
-// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
-{
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7150|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Does not work on invulnerable units.|r
-}
-
 STRING 1815
 // Buffs/Effects: B06P (), Bufftip (Tooltip)
 {
@@ -12881,6 +12889,14 @@ STRING 1948
 |cff4169e1Rare|r
 Activation: Kills an allied minion and restores |cffbe81f75%|r of maximum mana.
 |cffffcc00Cooldown:|r 1 second.
+}
+
+STRING 1949
+// Abilities: A1BH (Bro: Bazinga!), Researchubertip (Tooltip - Learn - Extended)
+{
+Throws a random vulnerable unit nearby at the target. Upon landing, the projectile deals |cffbe81f7150/200/250/300/350|r damage to nearby enemies. Bonny is selected as the priority.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 50 mana.
 }
 
 STRING 1950
@@ -14107,42 +14123,6 @@ STRING 2131
 {
 The hero jumps to a point, dealing |cffbe81f7140|r damage to enemies. Restores |cffbe81f728|r health for each enemy hit.
 |cffffcc00Cooldown:|r 1.5 seconds.
-}
-
-STRING 2132
-// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
-{
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7200|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Does not work on invulnerable units.|r
-}
-
-STRING 2133
-// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
-{
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7250|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Does not work on invulnerable units.|r
-}
-
-STRING 2134
-// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
-{
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7300|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Does not work on invulnerable units.|r
-}
-
-STRING 2135
-// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
-{
-Choose a target. Throws a random nearby creature at the target. Upon landing, the projectile deals |cffbe81f7350|r damage to nearby enemies. Bonnie always throws a priority.
-|cffffcc00Cooldown:|r 15 seconds.
-
-|cFF959697Does not work on invulnerable units.|r
 }
 
 STRING 2136
@@ -17784,6 +17764,20 @@ STRING 2678
 W
 }
 
+STRING 2679
+// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
+{
+Throws a random vulnerable unit nearby at the target. Upon landing, the projectile deals |cffbe81f7150|r damage to nearby enemies. Bonny is selected as the priority.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 2680
+// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
+{
+Throws a random vulnerable unit nearby at the target. Upon landing, the projectile deals |cffbe81f7200|r damage to nearby enemies. Bonny is selected as the priority.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 2681
 // Items: I03C (Transform Artifact (Slot 2)), Ubertip (Tooltip - Extended)
 {
@@ -17794,6 +17788,20 @@ STRING 2682
 // Items: I0HN (Split Artifact (Slot 3)), Hotkey (Hotkey)
 {
 A
+}
+
+STRING 2683
+// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
+{
+Throws a random vulnerable unit nearby at the target. Upon landing, the projectile deals |cffbe81f7250|r damage to nearby enemies. Bonny is selected as the priority.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 2684
+// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
+{
+Throws a random vulnerable unit nearby at the target. Upon landing, the projectile deals |cffbe81f7300|r damage to nearby enemies. Bonny is selected as the priority.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2685
@@ -17808,6 +17816,22 @@ STRING 2686
 Q
 }
 
+STRING 2687
+// Abilities: A1BH (Bro: Bazinga!), Ubertip (Tooltip - Normal - Extended)
+{
+Throws a random vulnerable unit nearby at the target. Upon landing, the projectile deals |cffbe81f7350|r damage to nearby enemies. Bonny is selected as the priority.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 2688
+// Abilities: A0NG (Metal Mage: Black Sabbath), Researchubertip (Tooltip - Learn - Extended)
+{
+|cffffcc00Passive:|r The hero ignores every 10th/9th/8th/7th/6th instance of damage received.
+
+Puts the hero into a trance. While active, it reduces their Attack and Movement Speed by 35%. Periodically restores |cffbe81f70.4%/0.8%/1.2%/1.6%/2%|r health and mana to other friendly units nearby.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 2689
 // Items: I03A (Transform Artifact (Slot 1)), Ubertip (Tooltip - Extended)
 {
@@ -17818,6 +17842,24 @@ STRING 2690
 // Items: I01R (Book of Attack), Hotkey (Hotkey)
 {
 S
+}
+
+STRING 2691
+// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r The hero ignores every 10th instance of damage received.
+
+Puts the hero into a trance. While active, it reduces their Attack and Movement Speed by 35%. Periodically restores |cffbe81f70.4%|r health and mana to other friendly units nearby.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 2692
+// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r The hero ignores every 9th instance of damage received.
+
+Puts the hero into a trance. While active, it reduces their Attack and Movement Speed by 35%. Periodically restores |cffbe81f70.8%|r health and mana to other friendly units nearby.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2693
@@ -17832,6 +17874,24 @@ STRING 2694
 Z
 }
 
+STRING 2695
+// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r The hero ignores every 8th instance of damage received.
+
+Puts the hero into a trance. While active, it reduces their Attack and Movement Speed by 35%. Periodically restores |cffbe81f71.2%|r health and mana to other friendly units nearby.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 2696
+// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r The hero ignores every 7th instance of damage received.
+
+Puts the hero into a trance. While active, it reduces their Attack and Movement Speed by 35%. Periodically restores |cffbe81f71.6%|r health and mana to other friendly units nearby.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 2697
 // Items: I038 (Transform Artifact (Slot 5)), Ubertip (Tooltip - Extended)
 {
@@ -17842,6 +17902,23 @@ STRING 2698
 // Items: I01S (Book of Knowledge), Hotkey (Hotkey)
 {
 X
+}
+
+STRING 2699
+// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r The hero ignores every 6th instance of damage received.
+
+Puts the hero into a trance. While active, it reduces their Attack and Movement Speed by 35%. Periodically restores |cffbe81f72%|r health and mana to other friendly units nearby.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 2700
+// Abilities: A0IV (Unique: Chaos (+)), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Use a random |cff60C445Unique|r ability.
+|cffffcc00Cooldown:|r 3 seconds.
 }
 
 STRING 2701
@@ -19718,15 +19795,6 @@ STRING 2979
 Enters the hero into invisibility and increases the Movement Speed by 80%.
 |cffffcc00Duration:|r 6 seconds.
 |cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 2980
-// Abilities: A0NG (Metal Mage: Black Sabbath), Researchubertip (Tooltip - Learn - Extended)
-{
-|cffffcc00Passive:|r Every 10th/9th/8th/7th/6th damage to your hero does no damage.
-
-Enters the hero into a trance. His attack and movement speed is reduced by 35%, but every second heals all nearby allies |cffbe81f70.4%/0.8%/1.2%/1.6%/2%|r of their maximum health and mana.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 2981
@@ -22914,6 +22982,14 @@ STRING 3476
 Stats (Touching Motif AGI)
 }
 
+STRING 3477
+// Abilities: A0IS (Unique: Chaos), Ubertip (Tooltip - Normal - Extended)
+{
+|cff60C445Unique|r
+Use a random |cff60C445Unique|r ability.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 3478
 // Abilities: A1C2 (MP/sec (Touching Motif)), Name (Name)
 {
@@ -25560,15 +25636,6 @@ STRING 3892
 Increases Attack by 35% and decreases enemy Attack by 10%.
 }
 
-STRING 3893
-// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Every 10th damage to your hero does no damage.
-
-Enters the hero into a trance. His attack and movement speed is reduced by 35%, but every second heals all nearby allies |cffbe81f70.4%|r of their maximum health and mana.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 3894
 // Items: I040 (Royal Onyx), Name (Name)
 {
@@ -25632,15 +25699,6 @@ STRING 3903
 // Abilities: A195 (Shoggoth: Writhing Mass), Researchhotkey (Hotkey - Learn)
 {
 W
-}
-
-STRING 3904
-// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Every 9th damage to your hero does no damage.
-
-Enters the hero into a trance. His attack and movement speed is reduced by 35%, but every second heals all nearby allies |cffbe81f70.8%|r of their maximum health and mana.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 3905
@@ -27948,15 +28006,6 @@ STRING 4265
 // Abilities: A06I (|cffffcc00Уровень 7:|r Great Wizard), Tip (Tooltip - Normal)
 {
 Great Wizard
-}
-
-STRING 4266
-// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Every 8th damage to your hero does no damage.
-
-Enters the hero into a trance. His attack and movement speed is reduced by 35%, but every second heals all nearby allies |cffbe81f71.2%|r of their maximum health and mana.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 4267
@@ -30534,15 +30583,6 @@ STRING 4669
 Mutation
 }
 
-STRING 4670
-// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Every 7th damage to your hero does no damage.
-
-Enters the hero into a trance. His attack and movement speed is reduced by 35%, but every second heals all nearby allies |cffbe81f71.6%|r of their maximum health and mana.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 4671
 // Abilities: A13R (Босс 5: Баньши (Москиты)), Name (Name)
 {
@@ -31590,15 +31630,6 @@ STRING 4833
 // Abilities: A12G (Special: Unholy Bless), Tip (Tooltip - Normal)
 {
 Unholy Bless
-}
-
-STRING 4834
-// Abilities: A0NG (Metal Mage: Black Sabbath), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Every 6th damage to your hero does no damage.
-
-Enters the hero into a trance. His attack and movement speed is reduced by 35%, but every second heals all nearby allies |cffbe81f72%|r of their maximum health and mana.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 4835
@@ -59504,20 +59535,6 @@ Activation: Restores |cffbe81f7Health|r to all heroes equal to your current Mana
 |cffffcc00Cost:|r 100 mana.
 }
 
-STRING 9136
-// Items: IV15 (Chupa), Description (Description)
-{
-|cffB614F0Starting Bonus|r
-Until the end of the game, splitting the artifact gives 25 max Health.
-}
-
-STRING 9137
-// Items: IV15 (Chupa), Ubertip (Tooltip - Extended)
-{
-|cffB614F0Starting Bonus|r
-Until the end of the game, splitting the artifact gives 25 max Health.
-}
-
 STRING 9138
 // Items: I0D3 (Light of Life), Name (Name)
 {
@@ -60916,14 +60933,6 @@ STRING 9353
 Engineering Master
 }
 
-STRING 9354
-// Abilities: A0IV (Unique: Chaos (+)), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Uses a random activated |cff60C445Unique|r.
-|cffffcc00Cooldown:|r 3 seconds.
-}
-
 STRING 9355
 // Abilities: A06M (|cffffcc00Уровень 4:|r Тень Волка), Tip (Tooltip - Normal)
 {
@@ -60934,14 +60943,6 @@ STRING 9356
 // Abilities: A08E (Legionary: Flaming Crystal), Tip (Tooltip - Normal)
 {
 Flaming Crystal, [|cffffcc00Level 5|r]
-}
-
-STRING 9357
-// Abilities: A0IS (Unique: Chaos), Ubertip (Tooltip - Normal - Extended)
-{
-|cff60C445Unique|r
-Uses a random activated |cff60C445Unique|r.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 9358

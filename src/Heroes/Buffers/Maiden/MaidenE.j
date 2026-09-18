@@ -13,14 +13,14 @@ scope MaidenE initializer init
 	endglobals
 
 	private function condition takes nothing returns boolean
-	    return GetUnitAbilityLevel(udg_DamageEventSource, ABILITY_ID) > 0
+	    return udg_IsDamageSpell == false and GetUnitAbilityLevel(udg_DamageEventSource, ABILITY_ID) > 0
 	endfunction
 	
 	private function AllyAffect takes unit caster, unit target, integer level returns nothing
 		local real healFactor = HEAL_FACTOR_INITIAL + HEAL_FACTOR_PER_LEVEL * level
-	
-		set udg_DamageEventAmount = 0
+
 		call healst( caster, target, udg_DamageEventAmount * healFactor )
+		set udg_DamageEventType = udg_DamageTypeIgnore
 	endfunction
 	
 	private function EnemyAffect takes unit caster, unit target, integer level returns nothing

@@ -135,7 +135,9 @@ library BattleIntersection requires BuffDeleteLib, BattleStart, BattleEnd
 	    loop
 	        set u = FirstOfGroup(g)
 	        exitwhen u == null
-	        call RemoveUnit( u )
+	        if GetUnitAbilityLevel( u, 'A1ER') == 0 then
+	        	call RemoveUnit( u )
+        	endif
 	        call GroupRemoveUnit(g,u)
 	    endloop
 	    

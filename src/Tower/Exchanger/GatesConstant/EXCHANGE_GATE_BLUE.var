@@ -1,15 +1,15 @@
 {
-  "Id": 2041717827,
+  "Id": 944804525,
   "ArraySize": [
     1,
     1
   ],
-  "Name": "DEST_GATE_TEAL",
+  "Name": "EXCHANGE_GATE_BLUE",
   "Type": "destructable",
   "IsArray": false,
   "IsTwoDimensions": false,
   "InitialValue": {
     "ParamType": 5,
-    "value": "LTg1_0395"
+    "value": "LTg1_0293"
   }
 }

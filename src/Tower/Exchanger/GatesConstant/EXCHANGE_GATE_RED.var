@@ -1,10 +1,10 @@
 {
-  "Id": 1411428417,
+  "Id": 1172595783,
   "ArraySize": [
     1,
     1
   ],
-  "Name": "DEST_GATE_RED",
+  "Name": "EXCHANGE_GATE_RED",
   "Type": "destructable",
   "IsArray": false,
   "IsTwoDimensions": false,
