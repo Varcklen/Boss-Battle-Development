@@ -92,6 +92,30 @@ scope ChaosLordE initializer init
         call IconFrame( INFO_ICON_ID + I2S(index), INFO_ICON, "Chests", "Creates " + I2S(lvl) + " chests with loot in the arena." )
 	endfunction
 	
+	private function Spawn takes unit hero returns nothing
+		local location itemSpawn
+		local location unitLoc
+		local item itemCreated
+		local integer itemType
+		
+		if hero == null or IsUnitDead(hero) then
+			return
+		endif
+		
+		set unitLoc = GetUnitLoc(hero)
+		set itemType = DB_Items[3][GetRandomInt( 1, udg_Database_NumberItems[3] )]
+		set itemSpawn = PolarProjectionBJ( unitLoc, 300, GetRandomDirectionDeg() )
+		set itemCreated = CreateItemLoc(itemType, itemSpawn)
+		call DestroyEffect( AddSpecialEffectLoc( "Abilities\\Spells\\Human\\Polymorph\\PolyMorphDoneGround.mdl", itemSpawn ) )
+		
+		call RemoveLocation(itemSpawn)
+		call RemoveLocation(unitLoc)
+		set unitLoc = null
+		set itemSpawn = null
+		set itemCreated = null
+		set hero = null
+	endfunction
+	
 	private function Effect3 takes unit caster, integer lvl, integer index returns nothing  
 		local integer i
 		local integer iMax
@@ -107,11 +131,7 @@ scope ChaosLordE initializer init
             loop
                 exitwhen i > iMax 
                 if IsUnitAlive(hero) then
-                    if UnitInventoryCount(hero) < UnitInventorySize(hero) then
-                        call ItemRandomizer( hero, "legendary" )
-                    else
-                        set i = iMax
-                    endif
+                    call Spawn(hero)
                 endif 
                 set i = i + 1
             endloop
@@ -119,8 +139,8 @@ scope ChaosLordE initializer init
         endloop
         
         call textst( "|c00FF6000 Legendary Gifts!", caster, 64, 90, 15, 3 )
-        call IconFrame( INFO_ICON_ID + I2S(index), INFO_ICON, "Legendary Gifts", "Gives each player up to " + I2S(lvl) + " Legendary Artifacts." )
-        
+        call IconFrame( INFO_ICON_ID + I2S(index), INFO_ICON, "Legendary Gifts", "Creates " + I2S(lvl) + " Legendary Artifacts next to each hero." )
+
         set hero = null
 	endfunction
 	

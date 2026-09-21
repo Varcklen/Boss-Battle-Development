@@ -11,6 +11,7 @@ scope BlessTrade initializer init
 	    local unit hero = Event_ItemExchange_Hero
 	    
 	    call BlzSetUnitMaxMana( hero, BlzGetUnitMaxMana(hero) + MANA_GAIN )
+	    call textst( "|cff00ccee+" + I2S(MANA_GAIN) + " mana|r", hero, 64, 90, 8, 2 )
 	    
 	    set hero = null
 	endfunction
