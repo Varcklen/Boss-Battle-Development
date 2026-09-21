@@ -14,6 +14,20 @@ library BattleData
 		private integer CurrentState = -1
 	endglobals
 	
+	//===========================================================================
+	public function Check takes integer typeCheck, integer stateCheck returns boolean
+		return CurrentBattleType == typeCheck and CurrentState == stateCheck
+	endfunction
+	
+	public function CheckBattleType takes integer typeCheck returns boolean
+		return CurrentBattleType == typeCheck
+	endfunction
+	
+	public function CheckState takes integer stateCheck returns boolean
+		return CurrentState == stateCheck
+	endfunction
+	
+	//===========================================================================
 	public function GetCurrentBattleType takes nothing returns integer
 		return CurrentBattleType
 	endfunction
@@ -22,6 +36,7 @@ library BattleData
 		return CurrentState
 	endfunction
 	
+	//===========================================================================
 	public function Set takes integer battleType, integer state returns nothing
 		set CurrentBattleType = battleType
 		set CurrentState = state

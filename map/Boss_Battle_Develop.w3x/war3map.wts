@@ -942,25 +942,13 @@ Faceless Spy
 }
 
 STRING 143
-// Units: n03O (Refresh goods), Hotkey (Hotkey)
+// Units: n03O (Refresh), Hotkey (Hotkey)
 {
 Z
 }
 
-STRING 144
-// Units: n03O (Refresh goods), Name (Name)
-{
-Refresh goods
-}
-
-STRING 145
-// Units: n03O (Refresh goods), Tip (Tooltip - Basic)
-{
-Refresh goods
-}
-
 STRING 146
-// Units: n03O (Refresh goods), Ubertip (Tooltip - Extended)
+// Units: n03O (Refresh), Ubertip (Tooltip - Extended)
 {
 Refresh the goods from Jule.
 }
@@ -1008,25 +996,13 @@ Pick
 }
 
 STRING 154
-// Units: n03E (Stroke), Hotkey (Hotkey)
+// Units: n03E (Pet), Hotkey (Hotkey)
 {
 Q
 }
 
-STRING 155
-// Units: n03E (Stroke), Name (Name)
-{
-Stroke
-}
-
-STRING 156
-// Units: n03E (Stroke), Tip (Tooltip - Basic)
-{
-Stroke
-}
-
 STRING 157
-// Units: n03E (Stroke), Ubertip (Tooltip - Extended)
+// Units: n03E (Pet), Ubertip (Tooltip - Extended)
 {
 Pet Mr. Bonnie.
 }
@@ -1878,6 +1854,12 @@ STRING 296
 Jule
 }
 
+STRING 297
+// Items: I0D2 (Sharp Deck), Name (Name)
+{
+Sharp Deck
+}
+
 STRING 298
 // Units: h01E (Knight squire), Name (Name)
 {
@@ -2152,6 +2134,12 @@ STRING 342
 Cute Bob
 }
 
+STRING 343
+// Items: I0D2 (Sharp Deck), Tip (Tooltip - Basic)
+{
+Sharp Deck
+}
+
 STRING 344
 // Units: h008 (Stasis), Name (Name)
 {
@@ -2239,12 +2227,6 @@ STRING 357
 // Units: e00D (Evillar), Name (Name)
 {
 Evillar
-}
-
-STRING 358
-// Units: e009 (Corrupted tree), Name (Name)
-{
-Corrupted tree
 }
 
 STRING 359
@@ -5402,15 +5384,6 @@ Increases attack power by 15% and health regeneration by 5.
 When you summon a minion, it gains the ability to restore |cffbe81f715|r health to the hero with the lowest health when attacking.
 }
 
-STRING 853
-// Items: I0FZ (Orb of the Foggy Swamp), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases attack power by 15% and mana by 75.
-When an enemy dies, summons a corrupted tree that cannot attack, but can sacrifice itself to restore the target's health or mana.
-|cffffcc00Life time:|r 15 seconds.
-}
-
 STRING 854
 // Items: I0FZ (Orb of the Foggy Swamp), Name (Name)
 {
@@ -5421,15 +5394,6 @@ STRING 855
 // Items: I0FZ (Orb of the Foggy Swamp), Tip (Tooltip - Basic)
 {
 Orb of the Foggy Swamp
-}
-
-STRING 856
-// Items: I0FZ (Orb of the Foggy Swamp), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases attack power by 15% and mana by 75.
-When an enemy dies, summons a corrupted tree that cannot attack, but can sacrifice itself to restore the target's health or mana.
-|cffffcc00Life time:|r 15 seconds.
 }
 
 STRING 857
@@ -7479,6 +7443,15 @@ STRING 1154
 Stats (Touching Motif AGI+INT)
 }
 
+STRING 1155
+// Items: I0D2 (Sharp Deck), Description (Description)
+{
+|cffe96a1cLegendary|r
+When you win a battle, receive an additional Artifact Reward.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
+}
+
 STRING 1156
 // Abilities: A1JZ (.General: Mannequin), Name (Name)
 {
@@ -8326,15 +8299,18 @@ World Clock
 }
 
 STRING 1275
-// Items: I0D2 (Sharp deck), Name (Name)
+// Items: I0D2 (Sharp Deck), Ubertip (Tooltip - Extended)
 {
-Sharp deck
+|cffe96a1cLegendary|r
+When you win a battle, receive an additional Artifact Reward.
+|cff81f260[Random bonus]|r
+|cff81f260[Random bonus]|r
 }
 
 STRING 1276
-// Items: I0D2 (Sharp deck), Tip (Tooltip - Basic)
+// Abilities: A0X1 (Аура: Idol of Gluttony), Name (Name)
 {
-Sharp deck
+Аура: Idol of Gluttony
 }
 
 STRING 1277
@@ -10434,6 +10410,12 @@ STRING 1588
 Blacksmith Craft
 }
 
+STRING 1589
+// Abilities: A0FW (Curse: Утомление (b8)), Ubertip (Tooltip - Normal - Extended)
+{
+Every 45 seconds of combat, a random hero becomes exhausted for 10 seconds. An exhausted hero restores half the usual amount of health and mana.
+}
+
 STRING 1590
 // Items: I0AV (Aggressive Shield), Description (Description)
 {
@@ -11962,6 +11944,12 @@ Increases health by 1250.
 Your hero takes pure damage instead of all heroes.
 }
 
+STRING 1814
+// Buffs/Effects: B07E (), Buffubertip (Tooltip - Extended)
+{
+The unit cannot restore health.
+}
+
 STRING 1815
 // Buffs/Effects: B06P (), Bufftip (Tooltip)
 {
@@ -12150,20 +12138,6 @@ STRING 1840
 // Items: I0FH (Fortune-Telling Ball), Tip (Tooltip - Basic)
 {
 Fortune-Telling Ball
-}
-
-STRING 1841
-// Items: I09M (Idol of Sorrow), Description (Description)
-{
-|cff4169e1Rare|r
-Increases the mana regeneration of allied heroes by 12. Your hero cannot use mana.
-}
-
-STRING 1842
-// Items: I09M (Idol of Sorrow), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases the mana regeneration of allied heroes by 12. Your hero cannot use mana.
 }
 
 STRING 1843
@@ -14123,6 +14097,30 @@ STRING 2131
 {
 The hero jumps to a point, dealing |cffbe81f7140|r damage to enemies. Restores |cffbe81f728|r health for each enemy hit.
 |cffffcc00Cooldown:|r 1.5 seconds.
+}
+
+STRING 2132
+// Buffs/Effects: B03F (), Buffubertip (Tooltip - Extended)
+{
+Unit restores half the usual amount of health and mana.
+}
+
+STRING 2133
+// Buffs/Effects: B05H (), Buffubertip (Tooltip - Extended)
+{
+Attack and movement speed increased. The unit cannot restore health.
+}
+
+STRING 2134
+// Units: n03O (Refresh), Name (Name)
+{
+Refresh
+}
+
+STRING 2135
+// Units: n03O (Refresh), Tip (Tooltip - Basic)
+{
+Refresh
 }
 
 STRING 2136
@@ -19797,6 +19795,13 @@ Enters the hero into invisibility and increases the Movement Speed by 80%.
 |cffffcc00Cooldown:|r 18 seconds.
 }
 
+STRING 2980
+// Items: I09M (Idol of Sorrow), Description (Description)
+{
+|cff4169e1Rare|r
+Increases the Mana Regeneration of other heroes by 12. You constantly lose all your mana.
+}
+
 STRING 2981
 // Items: I0DR (Mecha Chicken W.T.I.I.), Name (Name)
 {
@@ -24933,7 +24938,7 @@ Infernal: Fel Sacrifice
 }
 
 STRING 3786
-// Abilities: A190 (Древень: Life), Hotkey (Hotkey - Normal)
+// Abilities: A190 (Swamp Treant: Life), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -25636,6 +25641,13 @@ STRING 3892
 Increases Attack by 35% and decreases enemy Attack by 10%.
 }
 
+STRING 3893
+// Items: I09M (Idol of Sorrow), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Increases the Mana Regeneration of other heroes by 12. You constantly lose all your mana.
+}
+
 STRING 3894
 // Items: I040 (Royal Onyx), Name (Name)
 {
@@ -25699,6 +25711,12 @@ STRING 3903
 // Abilities: A195 (Shoggoth: Writhing Mass), Researchhotkey (Hotkey - Learn)
 {
 W
+}
+
+STRING 3904
+// Units: n03E (Pet), Name (Name)
+{
+Pet
 }
 
 STRING 3905
@@ -25786,7 +25804,7 @@ After an attack or cast, there is a |cffd7df018%|r chance to unleash the Crab Po
 }
 
 STRING 3916
-// Abilities: A192 (Древень: Mana), Hotkey (Hotkey - Normal)
+// Abilities: A192 (Swamp Treant: Mana), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -26291,22 +26309,10 @@ STRING 3992
 W
 }
 
-STRING 3993
-// Abilities: A192 (Древень: Mana), Name (Name)
-{
-Древень: Mana
-}
-
 STRING 3994
-// Abilities: A192 (Древень: Mana), Tip (Tooltip - Normal)
+// Abilities: A192 (Swamp Treant: Mana), Tip (Tooltip - Normal)
 {
 Mana
-}
-
-STRING 3995
-// Abilities: A192 (Древень: Mana), Ubertip (Tooltip - Normal - Extended)
-{
-Restores |cffbe81f730|r mana to an ally and then dies.
 }
 
 STRING 3996
@@ -26333,22 +26339,10 @@ STRING 3999
 Q
 }
 
-STRING 4000
-// Abilities: A190 (Древень: Life), Name (Name)
-{
-Древень: Life
-}
-
 STRING 4001
-// Abilities: A190 (Древень: Life), Tip (Tooltip - Normal)
+// Abilities: A190 (Swamp Treant: Life), Tip (Tooltip - Normal)
 {
 Life
-}
-
-STRING 4002
-// Abilities: A190 (Древень: Life), Ubertip (Tooltip - Normal - Extended)
-{
-Restores |cffbe81f775|r health to an ally and then dies.
 }
 
 STRING 4003
@@ -28008,6 +28002,12 @@ STRING 4265
 Great Wizard
 }
 
+STRING 4266
+// Units: n03E (Pet), Tip (Tooltip - Basic)
+{
+Pet
+}
+
 STRING 4267
 // Abilities: A0LA (Shooter: Offhand Shooting), Ubertip (Tooltip - Normal - Extended)
 {
@@ -28758,6 +28758,12 @@ STRING 4387
 // Abilities: A15V (Инкуб: Intoxicating love), Tip (Tooltip - Normal)
 {
 Intoxicating love
+}
+
+STRING 4388
+// Units: e009 (Swamp Treant), Name (Name)
+{
+Swamp Treant
 }
 
 STRING 4389
@@ -30583,6 +30589,15 @@ STRING 4669
 Mutation
 }
 
+STRING 4670
+// Items: I0FZ (Orb of the Foggy Swamp), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases Attack Damage by 15% and Mana by 75.
+When an enemy dies, summons a Treant. The Treant cannot attack and can sacrifice itself to restore the target's health or mana.
+|cffffcc00Life time:|r 20 seconds.
+}
+
 STRING 4671
 // Abilities: A13R (Босс 5: Баньши (Москиты)), Name (Name)
 {
@@ -31630,6 +31645,15 @@ STRING 4833
 // Abilities: A12G (Special: Unholy Bless), Tip (Tooltip - Normal)
 {
 Unholy Bless
+}
+
+STRING 4834
+// Items: I0FZ (Orb of the Foggy Swamp), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases Attack Damage by 15% and Mana by 75.
+When an enemy dies, summons a Treant. The Treant cannot attack and can sacrifice itself to restore the target's health or mana.
+|cffffcc00Life time:|r 20 seconds.
 }
 
 STRING 4835
@@ -35549,9 +35573,9 @@ MP/sec (Идол Желаний)
 }
 
 STRING 5436
-// Abilities: A0X1 (Аура: Идол Обжорства), Name (Name)
+// Abilities: A192 (Swamp Treant: Mana), Name (Name)
 {
-Аура: Идол Обжорства
+Swamp Treant: Mana
 }
 
 STRING 5437
@@ -37793,12 +37817,6 @@ STRING 5772
 // Abilities: A0UJ (Incarnation: Hollowed), Ubertip (Tooltip - Normal - Extended)
 {
 Increases magic damage dealt by 100% of percent of missing health.
-}
-
-STRING 5773
-// Abilities: A0UI (.Подсветка (x0.5)), Name (Name)
-{
-.Подсветка (x0.5)
 }
 
 STRING 5774
@@ -49875,6 +49893,12 @@ STRING 7629
 Every 12 seconds, a trap is created near a random hero. Any player unit that steps on it is immobilized for 2 seconds.
 }
 
+STRING 7630
+// Abilities: A192 (Swamp Treant: Mana), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f740|r mana to an ally and then dies.
+}
+
 STRING 7631
 // Abilities: A0AK (Bless: Chronospeed), Ubertip (Tooltip - Normal - Extended)
 {
@@ -51358,6 +51382,12 @@ STRING 7864
 // Abilities: A0FN (Soulstealer: Debilitating Presence), Researchtip (Tooltip - Learn)
 {
 Debilitating Presence, [|cffffcc00Level %d|r]
+}
+
+STRING 7865
+// Abilities: A190 (Swamp Treant: Life), Name (Name)
+{
+Swamp Treant: Life
 }
 
 STRING 7866
@@ -54096,12 +54126,6 @@ STRING 8292
 // Abilities: A0D9 (Pet: Неуловимость), Ubertip (Tooltip - Normal - Extended)
 {
 Pet takes 50% less damage from magic.
-}
-
-STRING 8293
-// Abilities: A0D8 (.Подсветка), Name (Name)
-{
-.Подсветка
 }
 
 STRING 8294
@@ -59535,6 +59559,18 @@ Activation: Restores |cffbe81f7Health|r to all heroes equal to your current Mana
 |cffffcc00Cost:|r 100 mana.
 }
 
+STRING 9136
+// Abilities: A190 (Swamp Treant: Life), Ubertip (Tooltip - Normal - Extended)
+{
+Restores |cffbe81f7100|r health to an ally and then dies.
+}
+
+STRING 9137
+// Abilities: A0UI (.Glow (x0.5)), Name (Name)
+{
+.Glow (x0.5)
+}
+
 STRING 9138
 // Items: I0D3 (Light of Life), Name (Name)
 {
@@ -60933,6 +60969,12 @@ STRING 9353
 Engineering Master
 }
 
+STRING 9354
+// Abilities: A0D8 (.Glow), Name (Name)
+{
+.Glow
+}
+
 STRING 9355
 // Abilities: A06M (|cffffcc00Уровень 4:|r Тень Волка), Tip (Tooltip - Normal)
 {
@@ -60943,6 +60985,12 @@ STRING 9356
 // Abilities: A08E (Legionary: Flaming Crystal), Tip (Tooltip - Normal)
 {
 Flaming Crystal, [|cffffcc00Level 5|r]
+}
+
+STRING 9357
+// Abilities: A062 (.Glow (x1.5)), Name (Name)
+{
+.Glow (x1.5)
 }
 
 STRING 9358
@@ -61083,6 +61131,53 @@ STRING 9378
 .General: Transport
 }
 
+STRING 9379
+// Abilities: A02T (Fallen One: Unearthly Beauty), Researchubertip (Tooltip - Learn - Extended)
+{
+|cffffcc00Passive:|r At ability level 5, receive Tarot Card: Wealth once.
+|cffffcc00Passive:|r Friendly units deal |cffbe81f76/9/12/15|r damage in return when attacked by enemies.
+
+The hero terrifies units in front of them. It reduces enemies' Movement Speed by 50% for 5 seconds and periodically deals |cffbe81f740/50/60/70|r damage. Allies restore |cffbe81f75%/7%/9%/11%|r of their health and mana.
+|cffffcc00Cooldown:|r 18 seconds.
+|cffffcc00Cost:|r 100 mana.
+}
+
+STRING 9380
+// Abilities: A02T (Fallen One: Unearthly Beauty), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Friendly units deal |cffbe81f76|r damage in return when attacked by enemies.
+
+The hero terrifies units in front of them. It reduces enemies' Movement Speed by 50% for 5 seconds and periodically deals |cffbe81f740|r damage. Allies restore |cffbe81f75%|r of their health and mana.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 9381
+// Abilities: A02T (Fallen One: Unearthly Beauty), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Friendly units deal |cffbe81f79|r damage in return when attacked by enemies.
+
+The hero terrifies units in front of them. It reduces enemies' Movement Speed by 50% for 5 seconds and periodically deals |cffbe81f750|r damage. Allies restore |cffbe81f77%|r of their health and mana.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 9382
+// Abilities: A02T (Fallen One: Unearthly Beauty), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Friendly units deal |cffbe81f712|r damage in return when attacked by enemies.
+
+The hero terrifies units in front of them. It reduces enemies' Movement Speed by 50% for 5 seconds and periodically deals |cffbe81f760|r damage. Allies restore |cffbe81f79%|r of their health and mana.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 9383
+// Abilities: A02T (Fallen One: Unearthly Beauty), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Passive:|r Friendly units deal |cffbe81f715|r damage in return when attacked by enemies.
+
+The hero terrifies units in front of them. It reduces enemies' Movement Speed by 50% for 5 seconds and periodically deals |cffbe81f770|r damage. Allies restore |cffbe81f711%|r of their health and mana.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
 STRING 9388
 // Abilities: A064 (Artifact: Royal Chameleon), Name (Name)
 {
@@ -61105,12 +61200,6 @@ STRING 9391
 // Abilities: A063 (Босс 2: Злобный тотем (Гнев)), Ubertip (Tooltip - Normal - Extended)
 {
 When attacked, deals |cffbe81f710|r damage in response.
-}
-
-STRING 9392
-// Abilities: A062 (.Подсветка (x1.5)), Name (Name)
-{
-.Подсветка (x1.5)
 }
 
 STRING 9393
@@ -64928,18 +65017,6 @@ STRING 9978
 Unearthly Beauty, [|cffffcc00Level %d|r]
 }
 
-STRING 9979
-// Abilities: A02T (Fallen One: Unearthly Beauty), Researchubertip (Tooltip - Learn - Extended)
-{
-|cffffcc00Passive:|r When the hero first gains the fifth level of this ability, the artifact "Tarot Card: Wealth" is granted.
-|cffffcc00Passive:|r Charges all nearby allies. When enemies attack them, enemies take |cffbe81f76/9/12/15|r damage.
-
-The hero weakens targets in front, reducing enemies attack and movement speed by 50% and dealing |cffbe81f740/50/60/70|r damage per second. if the target is an ally, the hero restores |cffbe81f75%/7%/9%/11%|r of health and mana to the target.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 19/18/17/16 seconds.
-|cffffcc00Cost:|r 90/95/100/105 mana.
-}
-
 STRING 9980
 // Abilities: A02T (Fallen One: Unearthly Beauty), Tip (Tooltip - Normal)
 {
@@ -64968,46 +65045,6 @@ STRING 9984
 // Abilities: A02T (Fallen One: Unearthly Beauty), Tip (Tooltip - Normal)
 {
 Unearthly Beauty, [|cffffcc00Level 5|r]
-}
-
-STRING 9985
-// Abilities: A02T (Fallen One: Unearthly Beauty), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Charges all nearby allies. When enemies attack them, enemies take |cffbe81f76|r damage.
-
-The hero weakens targets in front, reducing enemies attack and movement speed by 50% and dealing |cffbe81f740|r damage per second. if the target is an ally, the hero restores |cffbe81f75%|r of health and mana to the target.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 19 seconds.
-}
-
-STRING 9986
-// Abilities: A02T (Fallen One: Unearthly Beauty), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Charges all nearby allies. When enemies attack them, enemies take |cffbe81f79|r damage.
-
-The hero weakens targets in front, reducing enemies attack and movement speed by 50% and dealing |cffbe81f750|r damage per second. if the target is an ally, the hero restores |cffbe81f77%|r of health and mana to the target.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 9987
-// Abilities: A02T (Fallen One: Unearthly Beauty), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Charges all nearby allies. When enemies attack them, enemies take |cffbe81f712|r damage.
-
-The hero weakens targets in front, reducing enemies attack and movement speed by 50% and dealing |cffbe81f760|r damage per second. if the target is an ally, the hero restores |cffbe81f79%|r of health and mana to the target.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 17 seconds.
-}
-
-STRING 9988
-// Abilities: A02T (Fallen One: Unearthly Beauty), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Passive:|r Charges all nearby allies. When enemies attack them, enemies take |cffbe81f715|r damage.
-
-The hero weakens targets in front, reducing enemies attack and movement speed by 50% and dealing |cffbe81f770|r damage per second. if the target is an ally, the hero restores |cffbe81f711%|r of health and mana to the target.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 16 seconds.
 }
 
 STRING 9989
@@ -68984,12 +69021,6 @@ STRING 10618
 |cffff0000Exhaustion|r
 }
 
-STRING 10619
-// Buffs/Effects: B07E (), Buffubertip (Tooltip - Extended)
-{
-Cannot restore health.
-}
-
 STRING 10620
 // Buffs/Effects: B07D (), Bufftip (Tooltip)
 {
@@ -69768,12 +69799,6 @@ STRING 10748
 // Buffs/Effects: B05H (), Bufftip (Tooltip)
 {
 |cff00ff00Idol of Gluttony|r
-}
-
-STRING 10749
-// Buffs/Effects: B05H (), Buffubertip (Tooltip - Extended)
-{
-Movement and attack speed increased.
 }
 
 STRING 10750
@@ -70668,12 +70693,6 @@ STRING 10899
 // Buffs/Effects: B03F (), Bufftip (Tooltip)
 {
 |cffff0000Fatigue|r
-}
-
-STRING 10900
-// Buffs/Effects: B03F (), Buffubertip (Tooltip - Extended)
-{
-Abilities and artifacts do not restore this warrior's health and mana.
 }
 
 STRING 10901
@@ -72661,13 +72680,6 @@ STRING 11231
 // Units: n005 (Mrgl), EditorSuffix (Name - Editor Suffix)
 {
 (Level 1)
-}
-
-STRING 11232
-// Abilities: A0FW (Curse: Утомление (b8)), Ubertip (Tooltip - Normal - Extended)
-{
-Every 45 seconds, it applies the effect to a random hero: "The hero receives half as much health and mana."
-|cffffcc00Duration:|r 10 seconds.
 }
 
 STRING 11233
@@ -76591,24 +76603,6 @@ STRING 11862
 {
 Increases Health by 75.
 When a Hero's ability is used, reduces the Attack of nearby enemies by 2. Cannot reduce bosses' attack below 40.
-}
-
-STRING 11863
-// Items: I0D2 (Sharp deck), Description (Description)
-{
-|cffe96a1cLegendary|r
-When you pick up an Artifact Reward, the other ones do not disappear.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
-}
-
-STRING 11864
-// Items: I0D2 (Sharp deck), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-When you pick up an Artifact Reward, the other ones do not disappear.
-|cff81f260[Random bonus]|r
-|cff81f260[Random bonus]|r
 }
 
 STRING 11865

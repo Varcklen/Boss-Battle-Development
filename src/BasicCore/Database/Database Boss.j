@@ -26,7 +26,7 @@ library LibDataBoss
 		set Boss_Amount[9] = 6
 		set Boss_Amount[10] = 6
 	
-	    //Боссы
+	    //Boss Id
 	    set DB_Boss_id[1][1] = 'n005'
 	    set DB_Boss_id[1][2] = 'n00P'
 	    set DB_Boss_id[1][3] = 'n00Z'
@@ -84,7 +84,7 @@ library LibDataBoss
 	    set DB_Boss_id[10][5] = 'n00W'
 	    set DB_Boss_id[10][6] = 'n04N'
 	    
-	    //Информация о боссах
+	    //Info Ability
 	    set Boss_Info[1][1] = 'A069'//1
 	    set Boss_Info[1][2] = 'A06A'
 	    set Boss_Info[1][3] = 'A0AP'
@@ -437,7 +437,7 @@ library LibDataBoss
 	    set DB_Trigger_Boss[10][57] = gg_trg_Marine7
 	    set DB_Trigger_Boss[10][58] = gg_trg_Marine8
 	    
-	    // Bosses's Call
+	    // Bosses's Battlecry
 	    set Boss_Talk[1][1] = gg_snd_MurlocPissed2
 	    set Boss_Talk[1][2] = gg_snd_KoboldYes1
 	    set Boss_Talk[1][3] = gg_snd_GnollArcherReady1

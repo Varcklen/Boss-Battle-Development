@@ -4,7 +4,7 @@ scope OrbFoggySwamp initializer init
 		private constant integer ITEM_ID = 'I0FZ'
 		
 		private constant integer MINION_ID = 'e009'
-		private constant integer DURATION = 15
+		private constant integer DURATION = 20
 		private constant string ANIMATION = "war3mapImported\\SoulRitual.mdx"
 	endglobals
 	
@@ -20,7 +20,7 @@ scope OrbFoggySwamp initializer init
 		local real y = GetUnitY(unitDied)
 		
         call DestroyEffect( AddSpecialEffect( ANIMATION, x, y ) )
-        set newUnit = CreateUnit(GetOwningPlayer(caster), MINION_ID, x, y, GetRandomInt( 0, 360 ))
+        set newUnit = CreateUnit(GetOwningPlayer(caster), MINION_ID, x, y, GetRandomDirectionDeg() )
         call UnitApplyTimedLife( newUnit, 'BTLF', DURATION )
 
 		set unitDied = null

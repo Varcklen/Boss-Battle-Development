@@ -53,37 +53,6 @@ scope MainBattleHeroDeath initializer init
         set g = null
         set u = null
     endfunction
-    
-    private function Defeat takes nothing returns nothing
-        local player pl
-        local integer i
-    
-        set IsDefeat = true
-        set udg_logic[36] = false
-        set udg_fightmod[0] = false
-        call SaveLoadStart()
-        
-        set Event_MatchEnd = 1
-    	set Event_MatchEnd = 0
-        call StopMusic(false)
-        call ClearMapMusic()
-        call PlayMusicBJ( gg_snd_DarkAgents01 )
-        set i = 0
-        loop
-            exitwhen i > 3
-            set pl = Player( i )
-            /*if GetPlayerSlotState( pl ) == PLAYER_SLOT_STATE_PLAYING then
-                call MMD_FlagPlayer(pl, MMD_FLAG_LOSER)
-            endif*/
-            call ForGroupBJ( GetUnitsInRectOfPlayer(gg_rct_ArenaBoss, pl ), function Del )
-            set i = i + 1
-        endloop
-        call TriggerExecute( gg_trg_Caption )
-        
-        call DefeatAnnounce.Invoke()
-        
-        set pl = null
-    endfunction
 
 	private function action takes nothing returns nothing
 		//call BJDebugMsg("MainBattleHeroDeath")
@@ -91,7 +60,7 @@ scope MainBattleHeroDeath initializer init
 		if Attempts_Get() > 0 then
             call SecondChance()
         else
-            call Defeat()
+            call Defeat_Cast()
         endif
 	endfunction
 	

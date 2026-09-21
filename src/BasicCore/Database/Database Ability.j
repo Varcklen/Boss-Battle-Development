@@ -265,7 +265,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_One[35] = gg_trg_DoctorQ
 	    set udg_DB_Trigger_One[36] = trg_DealerQ 
 	    set udg_DB_Trigger_One[37] = gg_trg_OgreQ
-	    set udg_DB_Trigger_One[38] = gg_trg_DryadQ
+	    set udg_DB_Trigger_One[38] = DryadQ_Trigger
 	    set udg_DB_Trigger_One[39] = gg_trg_Metal_MageQ
 	    set udg_DB_Trigger_One[40] = gg_trg_KingQ
 	    set udg_DB_Trigger_One[41] = SludgeQ_Trigger
@@ -415,7 +415,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_DB_Trigger_Three[27] = gg_trg_Metal_MageR
 	    set udg_DB_Trigger_Three[28] = ComanderR_Trigger
 	    set udg_DB_Trigger_Three[29] = gg_trg_EnergyballR
-	    set udg_DB_Trigger_Three[30] = gg_trg_RealBroR
+	    set udg_DB_Trigger_Three[30] = RealBroR_Trigger
 	    set udg_DB_Trigger_Three[31] = trg_DevourerR
 	    set udg_DB_Trigger_Three[32] = gg_trg_BarbarianR
 	    set udg_DB_Trigger_Three[33] = gg_trg_SirenaP

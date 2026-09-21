@@ -6,9 +6,12 @@ library CheatSystem initializer init requires Multiboard
 		
 		private boolean IsCheatEnabled = false
 		private player Cheater = null
+		
+		private constant integer CHEATS_PER_QUEST = 13
 	endglobals
 	
 	private function SetCheats takes nothing returns nothing
+		call Cheat.create(CheatHelp_Trigger, "-help", "Shows all cheat commands." )
 		call Cheat.create(gg_trg_Cheatnext, "-next X", "Moves the game to X boss level. If X is not specified, moves to the next level.")
 		call Cheat.create(gg_trg_Cheatmoney, "-money", "Gives each player 1000 gold.")
 		call Cheat.create(gg_trg_Cheattp, "-tpgo", "Teleports and resurrects all heroes in their rooms.")
@@ -50,6 +53,7 @@ library CheatSystem initializer init requires Multiboard
 		call Cheat.create(CheatRemoveRewardOption_Trigger, "-removereward", "Remove 1 future reward option." )
 		call Cheat.create(CheatLuck_Trigger, "-luck", "Add 50 luck." )
 		call Cheat.create(CheatDamage_Trigger, "-damage", "Shows who and how much deals damage." )
+		call Cheat.create(CheatMultiplayer_Trigger, "-multiplayer", "Enable/Disable singleplayer mode." )
 	endfunction
 
 	public function IsCheatsEnabled takes nothing returns boolean
@@ -79,28 +83,49 @@ library CheatSystem initializer init requires Multiboard
         endmethod
 	endstruct
 	
-	private function CreateInfo takes nothing returns nothing
-		local string text1 = ""
-		local string text2 = ""
-		local integer i = 0
-		local integer iMax = Cheats_Max
-		local integer limit = 13
+	private function CreateQuest takes integer index returns nothing
+		local string text = ""
+		local integer i = index * CHEATS_PER_QUEST
+		local integer iMax = (1 + index) * CHEATS_PER_QUEST 
 		
-		loop
-			exitwhen i >= limit
-			set text1 = text1 + "|cffffcc00" + Cheats[i].Code + "|r " + Cheats[i].Description + "|n"
-			set i = i + 1
-		endloop
+		set iMax = IMinBJ(iMax, Cheats_Max)
 		
-		set i = limit
+		/*call BJDebugMsg("---------------")
+		call BJDebugMsg("i: " + I2S(i))
+		call BJDebugMsg("iMax: " + I2S(iMax))*/
+		
 		loop
 			exitwhen i >= iMax
-			set text2 = text2 + "|cffffcc00" + Cheats[i].Code + "|r " + Cheats[i].Description + "|n"
+			set text = text + "|cffffcc00" + Cheats[i].Code + "|r " + Cheats[i].Description + "|n"
 			set i = i + 1
 		endloop
 	
-		call CreateQuestBJ( bj_QUESTTYPE_REQ_DISCOVERED, "Cheats #1", text1, "ReplaceableTextures\\CommandButtons\\BTNPolymorph.blp" )
-		call CreateQuestBJ( bj_QUESTTYPE_REQ_DISCOVERED, "Cheats #2" , text2, "ReplaceableTextures\\CommandButtons\\BTNPolymorph.blp" )
+		call CreateQuestBJ( bj_QUESTTYPE_REQ_DISCOVERED, "Cheats #" + I2S(index + 1), text, "ReplaceableTextures\\CommandButtons\\BTNPolymorph.blp" )
+	endfunction
+	
+	private function CreateQuests takes nothing returns nothing
+		local integer k = 0
+		local integer kMax
+		
+		set k = 0
+		set kMax = Cheats_Max / CHEATS_PER_QUEST + 1
+		/*call BJDebugMsg("Cheats_Max: " + I2S(Cheats_Max))
+		call BJDebugMsg("kMax: " + I2S(kMax))*/
+		loop
+			exitwhen k >= kMax
+			call CreateQuest(k)
+			set k = k + 1
+		endloop
+	endfunction
+	
+	public function ShowInfo takes player owner returns nothing
+		local integer i = 0
+		
+		loop
+			exitwhen i >= Cheats_Max
+			call BJDebugMsg("|cffffcc00" + Cheats[i].Code + "|r " + Cheats[i].Description)
+			set i = i + 1
+		endloop
 	endfunction
 	
 	public function Enable takes player cheater, boolean enableTriggers returns nothing
@@ -109,7 +134,7 @@ library CheatSystem initializer init requires Multiboard
 	
 		set Cheater = cheater
         set IsCheatEnabled = true
-        call CreateInfo()
+        call CreateQuests()
         
         if enableTriggers == false then
         	return

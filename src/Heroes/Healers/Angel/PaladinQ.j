@@ -20,13 +20,13 @@ function AngelQCast takes nothing returns nothing
     local real x = LoadReal( udg_hash, id, StringHash( "angqx" ) )
     local real y = LoadReal( udg_hash, id, StringHash( "angqy" ) )
     
-    call DestroyEffect( AddSpecialEffect("Abilities\\Spells\\Other\\CleansingFire\\CleansingFireCaster.mdl", x, y ) )
     call GroupEnumUnitsInRange( g, x, y, 250, null )
     loop
         set u = FirstOfGroup(g)
         exitwhen u == null
         if unitst( u, caster, "ally" ) then
             call healst( caster, u, dmg )
+            call spectimeunit( u, "Abilities\\Spells\\Human\\Heal\\HealTarget.mdl", "origin", 2 )
         elseif unitst( u, caster, "enemy" ) then
             call UnitDamageTarget( caster, u, dmg, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS )
         endif
@@ -85,7 +85,7 @@ function Trig_AngelQ_Actions takes nothing returns nothing
 
     set dmg = ( 8 + ( 8 * lvl ) ) //* GetUnitSpellPower(caster)
     set dummy = CreateUnit( Player( PLAYER_NEUTRAL_AGGRESSIVE ), 'u000', x, y, bj_UNIT_FACING )
-
+	call DestroyEffect( AddSpecialEffect("Abilities\\Spells\\Other\\CleansingFire\\CleansingFireCaster.mdl", x, y ) )
     if GetUnitAbilityLevel( caster, 'A0BU') < 5  then
         call UnitAddAbility( dummy, 'A0C0' )
     endif

@@ -4,9 +4,11 @@ scope OutOfCombatTimer initializer init
 		public timer Timer = CreateTimer() //timer[1]
 		public timer TimerWarning = CreateTimer()  //timer[2]
 		public timer RepickDisableTimer = CreateTimer()  //timer[3]
+		public timer TimerDisablePvP = CreateTimer()  //timer[2]
 		private timerdialog Dialog = CreateTimerDialog(Timer)  //timerdialog[2]
 		
 		private constant integer WARNING_TIME_DEVIATION = 20
+		private constant integer NO_PVP_TIME_DEVIATION = 5
 		private constant integer FIRST_TIMER_TIME = 120
 		private constant integer REPICK_DISABLE_TIME = 115
 		private constant string DIALOG_DESCRIPTION = "Start of the Battle:"
@@ -29,6 +31,7 @@ scope OutOfCombatTimer initializer init
 		set time = RMaxBJ(time, 6)
 		call TimerStart( Timer, time, false, null )
         call TimerStart( TimerWarning, time - WARNING_TIME_DEVIATION, false, null )
+        call TimerStart( TimerDisablePvP, time - NO_PVP_TIME_DEVIATION, false, null )
         
         call TimerDialogDisplay( Dialog, true)
 	endfunction
@@ -38,6 +41,7 @@ scope OutOfCombatTimer initializer init
 	    if IsTimerWorks() then
     		call PauseTimer( Timer )
     		call PauseTimer( TimerWarning )
+    		call PauseTimer( TimerDisablePvP )
 		endif
 		call TimerDialogDisplay( Dialog, false )
 	endfunction
@@ -113,6 +117,7 @@ scope OutOfCombatTimer initializer init
 		//call BJDebugMsg("OnHeroRepick")
         call PauseTimer( Timer )
         call PauseTimer( TimerWarning )
+        call PauseTimer( TimerDisablePvP )
         call PauseTimer( RepickDisableTimer )
 	endfunction
 

@@ -14,12 +14,19 @@ scope Turtle7 initializer init
 	private function AddShield takes unit boss returns nothing
 		local real currentShield = ShieldstLib_GetCurrentShield(boss)
 		local real shieldToAdd = SHIELD_TO_ADD - currentShield
+		local effect shieldBuff
 		
 		if shieldToAdd <= 0 then
 			return
 		endif
 	
+		set shieldBuff = ShieldstLib_MakeEffect(boss, "Buff_Shield_Non.mdx", "chest", 2 )
+		/*if shieldBuff != null then
+			call BlzSetSpecialEffectZ( shieldBuff, 50 )
+		endif*/
 		call shield( boss, boss, shieldToAdd )
+		
+		set shieldBuff = null
 	endfunction
 	
 	private function ShieldTimer takes nothing returns nothing

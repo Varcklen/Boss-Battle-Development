@@ -601,7 +601,7 @@ library LibDataItems
 	    set udg_DB_Item_ForLvL3_Legendary[BaseNum()] = 'I0E4'
 	    set udg_DB_Item_ForLvL3_Legendary[BaseNum()] = 'I0DI'
 	    set udg_DB_Item_ForLvL3_Legendary[BaseNum()] = 'I01U'
-	    //set udg_DB_Item_ForLvL3_Legendary[BaseNum()] = 'I0D2'
+	    set udg_DB_Item_ForLvL3_Legendary[BaseNum()] = 'I0D2'
 	    set udg_DB_Item_ForLvL3_Legendary[BaseNum()] = 'I0EN'
 	    set udg_DB_Item_ForLvL3_Legendary[BaseNum()] = 'I0FB'
 	    set udg_DB_Item_ForLvL3_Legendary[BaseNum()] = 'I0FG'
@@ -1341,7 +1341,6 @@ library LibDataItems
 	    
 	    //Legendary
 	    set udg_base = 0
-	    set DB_ExileItems[3][BaseNum()] = 'I0D2'
 	    set DB_ExileItems[3][BaseNum()] = 'I083'
 	    set DB_ExileItems[3][BaseNum()] = 'I052'
 	    set DB_ExileItems[3][BaseNum()] = 'I06S'
