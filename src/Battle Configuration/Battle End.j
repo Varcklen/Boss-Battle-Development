@@ -41,10 +41,6 @@ library BattleEnd requires Inventory, TextLib, UniquesLib, ItemRandomizerLib, Sp
 	endfunction
 	
 	private function PlayerAction takes unit hero, player owner, integer index, boolean isWin returns nothing
-		local integer cyclB
-	    local integer cyclBEnd
-
-		call SaveBoolean( udg_hash, GetHandleId( hero ), StringHash( "kill" ), false )
         call BlzSetUnitRealFieldBJ( hero, UNIT_RF_ACQUISITION_RANGE, 600 )
         call SelectUnitForPlayerSingle( hero, owner )
         
@@ -52,16 +48,7 @@ library BattleEnd requires Inventory, TextLib, UniquesLib, ItemRandomizerLib, Sp
             call BlzFrameSetVisible( faceframe[index],true)
         endif
         set udg_combatlogic[index] = false
-        set cyclB = 1
-        set cyclBEnd = deadminionlim[index]
-        loop
-            exitwhen cyclB > cyclBEnd
-            set deadminion[index][cyclB] = 0
-            set cyclB = cyclB + 1
-        endloop
-        set deadminionnum[index] = 0
-        set deadminionlim[index] = 0
-
+        
         set udg_FightEnd_Unit = hero
         set udg_FightEnd_Real = 0
         set udg_FightEnd_Real = 1

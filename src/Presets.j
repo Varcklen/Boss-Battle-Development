@@ -45,4 +45,6 @@ endscope
 	
 	call InvokeTimerWithUnit( udg_DamageEventTarget, "bsdm2", bosscast(ATTACK_GAIN_COOLDOWN), true, function PowerUp )
 	
+	call IndicatorSystem_Create( indicatorType, x, y, area, duration, unit owner )
+	
 	

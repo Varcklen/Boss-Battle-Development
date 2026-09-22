@@ -200,6 +200,10 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         /*
         	caster (unit)
         */
+        Event ReadyButtonClick
+        /*
+        	player (player)
+        */
     endglobals
     
     private function InitCustomEvents takes nothing returns nothing
@@ -241,6 +245,7 @@ library EventDatabase initializer init requires EventSystem, BaseEventSystem
         set ManaSpent = Event.create("caster", null)
         set ShieldGain = Event.create("caster", "target")
         set SecondChance = Event.create("caster", null)
+        set ReadyButtonClick = Event.create(null, null)
     endfunction
 
     

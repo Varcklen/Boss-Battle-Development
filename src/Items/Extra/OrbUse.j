@@ -16,9 +16,6 @@ scope OrbMerge initializer init
 	endfunction*/
 	
 	private function condition takes nothing returns boolean
-	    if udg_logic[36] then
-	        return false
-	    endif
 	    if TagSystem_CheckTagItem(GetManipulatedItem(), TAG_UNMERGED_ORB) /*Orb_Logic(GetManipulatedItem())*/ == false then
 	        return false
 	    endif

@@ -125,6 +125,7 @@ scope HeroesChoise initializer init
         call FogModifierStop( udg_Visible[index] )
         call AddBonusItems(hero, index)
 
+		set Event_HeroChoose_Index = index
         set Event_HeroChoose_Hero = hero
         set Event_HeroChoose_Player = owner
         set Event_HeroChoose_Real = 0.00
@@ -143,9 +144,7 @@ scope HeroesChoise initializer init
                     call BlzFrameSetVisible( rotbase, false )
                 endif
             endif
-            if udg_LvL[index] <= 5 then
-                call BlzFrameSetVisible( arrowframe, true )
-            endif
+            
             if not(udg_logic[77]) and not(udg_logic[9]) then
                 call BlzFrameSetVisible( rpkmod,true)
             endif

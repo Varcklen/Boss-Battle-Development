@@ -8,7 +8,7 @@ library StatAbility requires StatSystem, Trigger
 	private function condition takes nothing returns boolean
 		/*call BJDebugMsg("Check: " + GetItemName(GetManipulatedItem()))
 		call BJDebugMsg("Ability: " + I2S(LoadInteger(udg_hash, GetHandleId(GetTriggeringTrigger()), STRING_HASH )))*/
-		return udg_logic[36] == false and BlzGetItemAbility( GetManipulatedItem(), LoadInteger(udg_hash, GetHandleId(GetTriggeringTrigger()), STRING_HASH ) ) != null
+		return BlzGetItemAbility( GetManipulatedItem(), LoadInteger(udg_hash, GetHandleId(GetTriggeringTrigger()), STRING_HASH ) ) != null
 	endfunction
 	
 	private function Add takes nothing returns nothing

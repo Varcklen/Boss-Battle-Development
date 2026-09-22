@@ -5535,7 +5535,7 @@ Frantic Fists, [|cffffcc00Level 2|r]
 }
 
 STRING 869
-// Items: I0F7 (Submit a coin), Hotkey (Hotkey)
+// Items: I0F7 (Submit a Coin), Hotkey (Hotkey)
 {
 Q
 }
@@ -6182,34 +6182,10 @@ Weakens the enemy. Reduces target's movement speed by 80% and deals |cffbe81f750
 |cffffcc00Cost:|r 60 mana.
 }
 
-STRING 965
-// Items: I0F7 (Submit a coin), Description (Description)
-{
-You give the beggar some gold.
-}
-
 STRING 966
 // Items: I054 (Earth Potion), Hotkey (Hotkey)
 {
 Q
-}
-
-STRING 967
-// Items: I0F7 (Submit a coin), Name (Name)
-{
-Submit a coin
-}
-
-STRING 968
-// Items: I0F7 (Submit a coin), Tip (Tooltip - Basic)
-{
-Submit a coin
-}
-
-STRING 969
-// Items: I0F7 (Submit a coin), Ubertip (Tooltip - Extended)
-{
-You give the beggar some gold.
 }
 
 STRING 970
@@ -6703,15 +6679,6 @@ Increases health by 200. When the hero attacks, reduces the attack power of the 
 |cffffcc00Duration:|r 4 seconds.
 }
 
-STRING 1042
-// Items: I0EO (Throwing Knife), Description (Description)
-{
-Activation: Deals |cffbe81f710|r damage to a random enemy twice and imposes a charge of harlequin`s poison.
-Restores |cffbe81f710|r mana.
-
-|cFF959697Harlequin`s Poison: Deals 5 damage every second for each charge. Stacks up to 10 times. Lasts 10 seconds.|r
-}
-
 STRING 1043
 // Items: I0EO (Throwing Knife), Name (Name)
 {
@@ -6722,15 +6689,6 @@ STRING 1044
 // Items: I0EO (Throwing Knife), Tip (Tooltip - Basic)
 {
 Throwing Knife
-}
-
-STRING 1045
-// Items: I0EO (Throwing Knife), Ubertip (Tooltip - Extended)
-{
-Activation: Deals |cffbe81f710|r damage to a random enemy twice and imposes a charge of harlequin`s poison.
-Restores |cffbe81f710|r mana.
-
-|cFF959697Harlequin`s Poison: Deals 5 damage every second for each charge. Stacks up to 10 times. Lasts 10 seconds.|r
 }
 
 STRING 1046
@@ -7863,6 +7821,12 @@ STRING 1208
 // Items: I0DJ (Orb of the Frozen Path), Tip (Tooltip - Basic)
 {
 Orb of the Frozen Path
+}
+
+STRING 1209
+// Items: I0F7 (Submit a Coin), Description (Description)
+{
+Give the Beggar some gold.
 }
 
 STRING 1210
@@ -13859,13 +13823,6 @@ STRING 2090
 Bless: Chronospeed
 }
 
-STRING 2091
-// Items: I0DW (Purified Matter), Description (Description)
-{
-|cffC71585Cursed|r
-Increases stats by 4.
-}
-
 STRING 2092
 // Abilities: A043 (|cffffcc00Amplifier:|r Rare), Ubertip (Tooltip - Normal - Extended)
 {
@@ -14649,6 +14606,12 @@ STRING 2207
 At the beginning of each battle, increases the strength of the hero by 2.
 }
 
+STRING 2208
+// Items: I0F7 (Submit a Coin), Name (Name)
+{
+Submit a Coin
+}
+
 STRING 2209
 // Items: I06K (Bandit Armor), Name (Name)
 {
@@ -14659,6 +14622,12 @@ STRING 2210
 // Items: I06K (Bandit Armor), Tip (Tooltip - Basic)
 {
 Bandit Armor
+}
+
+STRING 2211
+// Items: I0F7 (Submit a Coin), Tip (Tooltip - Basic)
+{
+Submit a Coin
 }
 
 STRING 2212
@@ -14879,6 +14848,12 @@ Pulls the target towards the hero. If the target is an enemy, stuns for 1.5 seco
 |cFF959697Does not work on invulnerable and immovable targets.|r
 }
 
+STRING 2244
+// Items: I0F7 (Submit a Coin), Ubertip (Tooltip - Extended)
+{
+Give the Beggar some gold.
+}
+
 STRING 2245
 // Items: I06B (Bandit Silent Steps), Name (Name)
 {
@@ -14889,6 +14864,14 @@ STRING 2246
 // Items: I06B (Bandit Silent Steps), Tip (Tooltip - Basic)
 {
 Bandit Silent Steps
+}
+
+STRING 2247
+// Items: I0EO (Throwing Knife), Description (Description)
+{
+Activation: Restores |cffbe81f710|r mana. Throw a poisoned dagger at a random enemy twice. The dagger deals |cffbe81f710|r damage and applies 1 stack of Harlequin Poison.
+
+|cFF959697Harlequin`s Poison: Deals 5 damage every second for each stack. Stacks up to 10 times. Lasts 10 seconds.|r
 }
 
 STRING 2248
@@ -27509,6 +27492,14 @@ STRING 4181
 Brain Freeze, [|cffffcc00Level 5|r]
 }
 
+STRING 4182
+// Items: I0EO (Throwing Knife), Ubertip (Tooltip - Extended)
+{
+Activation: Restores |cffbe81f710|r mana. Throw a poisoned dagger at a random enemy twice. The dagger deals |cffbe81f710|r damage and applies 1 stack of Harlequin Poison.
+
+|cFF959697Harlequin`s Poison: Deals 5 damage every second for each stack. Stacks up to 10 times. Lasts 10 seconds.|r
+}
+
 STRING 4183
 // Abilities: A1FE (Stat: Gold Gain +20%), Name (Name)
 {
@@ -27657,6 +27648,13 @@ STRING 4206
 Hot Elbows, [|cffffcc00Level %d|r]
 }
 
+STRING 4207
+// Items: I0DW (Purified Matter), Description (Description)
+{
+|cffC71585Cursed|r
+Increases Stats by 4. Can be dropped from the inventory.
+}
+
 STRING 4208
 // Abilities: A17L (Wicerd: Hot Elbows), Tip (Tooltip - Normal)
 {
@@ -27687,6 +27685,41 @@ STRING 4212
 Hot Elbows, [|cffffcc00Level 5|r]
 }
 
+STRING 4213
+// Items: I0DW (Purified Matter), Ubertip (Tooltip - Extended)
+{
+|cffC71585Cursed|r
+Increases Stats by 4. Can be dropped from the inventory.
+}
+
+STRING 4214
+// Items: I05B (Volcano Potion), Description (Description)
+{
+|cff088a08Potion|r
+Activation: Deals |cffbe81f7400|r damage to the enemy and stuns them for 1.5 seconds.
+}
+
+STRING 4215
+// Items: I05B (Volcano Potion), Ubertip (Tooltip - Extended)
+{
+|cff088a08Potion|r
+Activation: Deals |cffbe81f7400|r damage to the enemy and stuns them for 1.5 seconds.
+}
+
+STRING 4216
+// Items: I05A (Geyser Potion), Description (Description)
+{
+|cff088a08Potion|r
+Activation: Deals |cffbe81f7400|r damage to the enemy and makes you invisible for 2.5 seconds.
+}
+
+STRING 4217
+// Items: I05A (Geyser Potion), Ubertip (Tooltip - Extended)
+{
+|cff088a08Potion|r
+Activation: Deals |cffbe81f7400|r damage to the enemy and makes you invisible for 2.5 seconds.
+}
+
 STRING 4218
 // Abilities: A15Q (Predator: Shark Scales), Researchhotkey (Hotkey - Learn)
 {
@@ -27697,6 +27730,16 @@ STRING 4219
 // Abilities: A17L (Wicerd: Hot Elbows), Untip (Tooltip - Turn Off)
 {
 Cancel "Hot Elbows".
+}
+
+STRING 4220
+// Abilities: A0AR (|cffffcc00Уровень 6:|r Механик), Ubertip (Tooltip - Normal - Extended)
+{
+- Summons a Pocket Factory. It summons 2 robots every 10 seconds. When the factory dies, creates 2 robots.
+- When the robots die, they explode after 1.5 seconds, dealing |cffbe81f7300|r damage.
+- Every 6 seconds an area appears under a random hero. After 1 second, the area creates a pillar of fire that deals |cffbe81f745|r damage every 0.5 seconds for 4 seconds.
+- |cff00cceeAt 75%, 50% and 25% health:|r Summons 4 robots. Returns the factory if it died.
+- |cff00cceeAt 75% health:|r Every 5 seconds the boss launches a missiles at a random enemy, dealing up to |cffbe81f7200|r damage and stunning for 2 seconds.
 }
 
 STRING 4221
@@ -27763,6 +27806,15 @@ STRING 4231
 // Abilities: A17J (Wicerd: Nah-ice! ), Tip (Tooltip - Normal)
 {
 Nah-ice!, [|cffffcc00Level 5|r]
+}
+
+STRING 4232
+// Abilities: A0HE (|cffffcc00Уровень 6:|r Паладин), Ubertip (Tooltip - Normal - Extended)
+{
+- Attack deals damage to units nearby.
+- |cff00cceeAt 75% health:|r The boss becomes invulnerable for 12 seconds and sends waves that deal |cffbe81f7200|r damage.
+- |cff00cceeAt 70% health:|r Creates an area. Player units outside the area take |cffbe81f7400|r damage after 3 seconds. Repeats every 12 seconds.
+- |cff00cceeAt 25% health:|r The boss becomes invulnerable and sends waves. Waves are created 2 times more often.
 }
 
 STRING 4233
@@ -31348,13 +31400,6 @@ STRING 4796
 // Abilities: A121 (Altar: Ascendance), Researchhotkey (Hotkey - Learn)
 {
 W
-}
-
-STRING 4797
-// Items: I0DW (Purified Matter), Ubertip (Tooltip - Extended)
-{
-|cffC71585Cursed|r
-Increases stats by 4.
 }
 
 STRING 4798
@@ -47679,16 +47724,6 @@ STRING 7311
 (т)Аура: Champion!
 }
 
-STRING 7312
-// Abilities: A0AR (|cffffcc00Уровень 6:|r Механик), Ubertip (Tooltip - Normal - Extended)
-{
-- Summons a Pocket Factory. It summons 2 robots every 10 seconds. When the factory dies, creates 2 robots.
-- When the robots die, they explode, dealing |cffbe81f7300|r damage.
-- Every 6 seconds an area appears under a random hero. After 1 second, the area creates a pillar of fire that deals |cffbe81f745|r damage every 0.5 seconds for 4 seconds.
-- |cff00cceeAt 75%, 50% and 25% health:|r Summons 4 robots. Returns the factory if it died.
-- |cff00cceeAt 75% health:|r Every 5 seconds the boss launches a missiles at a random enemy, dealing up to |cffbe81f7200|r damage and stunning for 2 seconds.
-}
-
 STRING 7313
 // Abilities: A0Y7 (|cffffcc00Уровень 5:|r Manipulator), Ubertip (Tooltip - Normal - Extended)
 {
@@ -47697,15 +47732,6 @@ STRING 7313
 - |cff00cceeAt 80% health:|r Creates an area that periodically burns |cffbe81f74%|r of Mana. Lasts 60 seconds. Repeats every 6 seconds.
 - |cff00cceeAt 60% health:|r Creates an area in the center of the arena. Any player unit outside the area periodically loses |cffbe81f74%|r of Health and Mana.
 - |cff00cceeAt 40% health:|r Summons 2 Astral Beasts.
-}
-
-STRING 7314
-// Abilities: A0HE (|cffffcc00Уровень 6:|r Паладин), Ubertip (Tooltip - Normal - Extended)
-{
-- Attack deals damage to units nearby.
-- |cff00cceeAt 75% health:|r The boss becomes invulnerable for 7.5 seconds and sends waves that deal |cffbe81f7200|r damage.
-- |cff00cceeAt 70% health:|r Creates an area. Player units outside the area take |cffbe81f7400|r damage after 3 seconds. Repeats every 12 seconds.
-- |cff00cceeAt 25% health:|r The boss becomes invulnerable and sends waves. Waves are created 2 times more often.
 }
 
 STRING 7315
@@ -64176,34 +64202,6 @@ STRING 9880
 {
 |cff088a08Potion|r
 Activation: Restores |cffbe81f730%|r health and |cffbe81f720%|r mana (at least 600 health and 200 mana).
-}
-
-STRING 9881
-// Items: I05B (Volcano Potion), Description (Description)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7300|r health to the hero and deals |cffbe81f7350|r damage to the enemy.
-}
-
-STRING 9882
-// Items: I05B (Volcano Potion), Ubertip (Tooltip - Extended)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7300|r health to the hero and deals |cffbe81f7350|r damage to the enemy.
-}
-
-STRING 9883
-// Items: I05A (Geyser Potion), Description (Description)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7165|r mana to the hero and deals |cffbe81f7350|r damage to the enemy.
-}
-
-STRING 9884
-// Items: I05A (Geyser Potion), Ubertip (Tooltip - Extended)
-{
-|cff088a08Potion|r
-Activation: Restores |cffbe81f7165|r mana to the hero and deals |cffbe81f7350|r damage to the enemy.
 }
 
 STRING 9885

@@ -1,9 +1,6 @@
 scope RuneSetGainItem initializer init
 
 	private function condition takes nothing returns boolean
-	    if udg_logic[36] then
-	        return false
-	    endif
 	    if SetCount_IsActive( GetManipulatingUnit(), SET_RUNE) == false then
 	        return false
 	    endif

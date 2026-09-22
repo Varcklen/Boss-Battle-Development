@@ -9,7 +9,7 @@ scope KryptoniteKnife initializer init
 	endglobals
 
 	private function ItemInventory_Condition takes nothing returns boolean
-	    return udg_logic[36] == false and GetItemTypeId(GetManipulatedItem()) == ITEM_ID and GetPlayerSlotState(GetOwningPlayer(GetManipulatingUnit())) == PLAYER_SLOT_STATE_PLAYING
+	    return GetItemTypeId(GetManipulatedItem()) == ITEM_ID and GetPlayerSlotState(GetOwningPlayer(GetManipulatingUnit())) == PLAYER_SLOT_STATE_PLAYING
 	endfunction
 	
 	private function Add takes nothing returns nothing

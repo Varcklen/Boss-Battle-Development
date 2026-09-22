@@ -21,9 +21,6 @@ scope WeaponGain initializer init
 	endglobals
 	
 	private function condition takes nothing returns boolean
-	    if udg_logic[36] then
-	        return false
-	    endif
 	    if not( Weapon_Logic(GetManipulatedItem()) ) then
 	        return false
 	    endif

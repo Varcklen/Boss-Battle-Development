@@ -15,6 +15,7 @@ scope InfiniteArenaDeath initializer init
 	private function action takes nothing returns nothing
 		//call BJDebugMsg("InfiniteArenaDeath")
 		call DisableTrigger( GetTriggeringTrigger() )
+		call IAMoney_Result()
         call Between( BATTLE_TYPE_INFINITE_ARENA, STATE_REST )
 	endfunction
 	

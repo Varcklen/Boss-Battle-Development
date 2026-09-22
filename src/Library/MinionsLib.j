@@ -26,6 +26,10 @@ library MinionsLib requires Conditions
 		endif
         return true
     endfunction
+    
+    function IsDummy takes unit unitToCheck returns boolean
+    	return GetUnitAbilityLevel(unitToCheck, 'A1FY' ) > 0
+    endfunction
 
 
 endlibrary
