@@ -363,11 +363,10 @@ library LibDataBoss
 	    set DB_Trigger_Boss[8][23] = gg_trg_Ent3
 	    set DB_Trigger_Boss[8][24] = gg_trg_Ent4
 	    set DB_Trigger_Boss[8][31] = gg_trg_Woodo1
-	    set DB_Trigger_Boss[8][32] = gg_trg_Woodo2
+	    set DB_Trigger_Boss[8][32] = gg_trg_Woodo6
 	    set DB_Trigger_Boss[8][33] = gg_trg_Woodo3
 	    set DB_Trigger_Boss[8][34] = gg_trg_Woodo4
 	    set DB_Trigger_Boss[8][35] = gg_trg_Woodo5
-	    set DB_Trigger_Boss[8][36] = gg_trg_Woodo6
 	    set DB_Trigger_Boss[8][41] = gg_trg_War1
 	    set DB_Trigger_Boss[8][42] = gg_trg_War2
 	    set DB_Trigger_Boss[8][43] = gg_trg_War3

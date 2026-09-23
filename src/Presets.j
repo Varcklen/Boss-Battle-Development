@@ -26,6 +26,8 @@ endscope
 	
 	ExtraArenaGeneral_IsPvPActive()
 	ItemManipulation_IsInventoryFull()
+	Trigger_GetItemUsed()
+	DeathSystem_GetAliveHeroGroupCopy()
 	
 	
 	//===========================================================================

@@ -1,11 +1,11 @@
-scope Woodoo7 initializer init
+scope WaterTotem initializer init
 
 	private function condition takes nothing returns boolean
-		return udg_IsDamageSpell and GetUnitAbilityLevel( udg_DamageEventTarget, 'B00L' ) > 0
+		return GetUnitAbilityLevel( udg_DamageEventTarget, 'B00K' ) > 0
 	endfunction
 
 	private function action takes nothing returns nothing
-		set udg_DamageEventAmount = udg_DamageEventAmount - Event_OnDamageChange_StaticDamage * 0.5   
+		set udg_DamageEventAmount = udg_DamageEventAmount - Event_OnDamageChange_StaticDamage * 0.3   
 	endfunction
 
 	private function init takes nothing returns nothing

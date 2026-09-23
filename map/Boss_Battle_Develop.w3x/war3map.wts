@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.12.6T|r
+|cffbe81f7Boss Battle 1.12.7T|r
 }
 
 STRING 2
@@ -3886,13 +3886,6 @@ STRING 615
 Ariel
 }
 
-STRING 616
-// Items: I0BQ (Disco ball), Description (Description)
-{
-|cff4169e1Rare|r
-Gives 15 Attack for each set type in the inventory.
-}
-
 STRING 617
 // Units: N002 ((H) Druid of Nature), Propernames (Proper Names)
 {
@@ -3909,13 +3902,6 @@ STRING 619
 // Units: N001 ((E) Moon Owl), Propernames (Proper Names)
 {
 Yoll
-}
-
-STRING 620
-// Items: I0BQ (Disco ball), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Gives 15 Attack for each set type in the inventory.
 }
 
 STRING 621
@@ -4421,6 +4407,13 @@ STRING 699
 // Items: I0H3 (Custom Obsidian Potion), Tip (Tooltip - Basic)
 {
 Custom Obsidian Potion
+}
+
+STRING 700
+// Items: I0CA (Mimic Potion), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r a |cff088a08Potion|r and increase its charge by 2.
 }
 
 STRING 701
@@ -6182,10 +6175,35 @@ Weakens the enemy. Reduces target's movement speed by 80% and deals |cffbe81f750
 |cffffcc00Cost:|r 60 mana.
 }
 
+STRING 965
+// Items: I0CA (Mimic Potion), Name (Name)
+{
+Mimic Potion
+}
+
 STRING 966
 // Items: I054 (Earth Potion), Hotkey (Hotkey)
 {
 Q
+}
+
+STRING 967
+// Items: I0CA (Mimic Potion), Tip (Tooltip - Basic)
+{
+Mimic Potion
+}
+
+STRING 968
+// Items: I0CA (Mimic Potion), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r a |cff088a08Potion|r and increase its charge by 2.
+}
+
+STRING 969
+// Abilities: S009 (Босс 8: Берсерк (Вампиризм)XXX), Name (Name)
+{
+Босс 8: Берсерк (Вампиризм)XXX
 }
 
 STRING 970
@@ -6212,6 +6230,15 @@ STRING 973
 |cff00ff00Flycatcher|r
 }
 
+STRING 974
+// Abilities: A0Y9 (|cffffcc00Уровень 8:|r Berserk), Ubertip (Tooltip - Normal - Extended)
+{
+- Ranged attacks.
+- Creates a Frenzy Totem. The totem selects a random hero. After 8 seconds, the totem destroys itself and sends the target into a frenzy for 10 seconds. Repeats every 18 seconds.
+- |cff00cceeAt 75% health:|r The boss creates a glaive that bounces off heroes and bosses, continuously dealing |cffbe81f715|r damage.
+- |cff00cceeAt 30% health:|r The boss begins periodically regenerating |cffbe81f735|r Health.
+}
+
 STRING 975
 // Items: I0F5 (Orb of the Frozen Tundra), Name (Name)
 {
@@ -6222,6 +6249,14 @@ STRING 976
 // Items: I0F5 (Orb of the Frozen Tundra), Tip (Tooltip - Basic)
 {
 Orb of the Frozen Tundra
+}
+
+STRING 977
+// Items: I00B (Runestone Mandom), Description (Description)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases Armor by 5 and Health by 500.
+|cffffffffReduces Attack Speed by 25%. Cooldowns are 25% slower.|r
 }
 
 STRING 978
@@ -6679,6 +6714,14 @@ Increases health by 200. When the hero attacks, reduces the attack power of the 
 |cffffcc00Duration:|r 4 seconds.
 }
 
+STRING 1042
+// Items: I00B (Runestone Mandom), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff848484Rune|r
+Increases Armor by 5 and Health by 500.
+|cffffffffReduces Attack Speed by 25%. Cooldowns are 25% slower.|r
+}
+
 STRING 1043
 // Items: I0EO (Throwing Knife), Name (Name)
 {
@@ -6689,6 +6732,12 @@ STRING 1044
 // Items: I0EO (Throwing Knife), Tip (Tooltip - Basic)
 {
 Throwing Knife
+}
+
+STRING 1045
+// Units: o023 (Frenzy Totem), Name (Name)
+{
+Frenzy Totem
 }
 
 STRING 1046
@@ -7328,18 +7377,6 @@ After the hero's attack, ignores any damage received for 5 seconds.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 1139
-// Items: I0E0 (Essence of time), Name (Name)
-{
-Essence of time
-}
-
-STRING 1140
-// Items: I0E0 (Essence of time), Tip (Tooltip - Basic)
-{
-Essence of time
-}
-
 STRING 1141
 // Items: I083 (Gnomish Soulspin), Description (Description)
 {
@@ -7811,6 +7848,13 @@ When mana falls below 10%, fully restores mana.
 |cffffcc00Cooldown:|r 90 seconds.
 }
 
+STRING 1206
+// Items: I04R (Tesseract), Description (Description)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Increases Spell Power by |cffffffff10%|r. Killing an enemy increases this value by 0.3%.
+}
+
 STRING 1207
 // Items: I0DJ (Orb of the Frozen Path), Name (Name)
 {
@@ -8102,27 +8146,15 @@ Activation: Freezes all enemies in time.
 }
 
 STRING 1250
-// Items: I0D8 (Transforming matter), Description (Description)
+// Items: I0D8 (Transforming Matter), Description (Description)
 {
 |cffbababcCommon|r, |cfffe9a2eAlchemy|r
 When you take a |cfffe9a2enon-alchemy|r artifact, it turns into an artifact from the |cfffe9a2ealchemy|r set.
 |cff81f260[Random bonus]|r
 }
 
-STRING 1251
-// Items: I0D8 (Transforming matter), Name (Name)
-{
-Transforming matter
-}
-
-STRING 1252
-// Items: I0D8 (Transforming matter), Tip (Tooltip - Basic)
-{
-Transforming matter
-}
-
 STRING 1253
-// Items: I0D8 (Transforming matter), Ubertip (Tooltip - Extended)
+// Items: I0D8 (Transforming Matter), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r, |cfffe9a2eAlchemy|r
 When you take a |cfffe9a2enon-alchemy|r artifact, it turns into an artifact from the |cfffe9a2ealchemy|r set.
@@ -8263,13 +8295,6 @@ STRING 1272
 {
 |cff4169e1Rare|r, |cff848484Rune|r
 Reduces the cost of future artifacts in the artifact store by 20%. At least one artifact from it will be discounted. |cffffffffYour items not obtained from Artifact Store will be |cffC71585cursed|r.|r
-}
-
-STRING 1273
-// Items: IZ03 (Cheese), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Replace the assortment of Artifact Store with |cff4169e1Rare|r items. They keep the original prices.
 }
 
 STRING 1274
@@ -8900,14 +8925,6 @@ Activation: Deals |cffbe81f7125|r damage to all enemies. Additionally deals 125 
 |cffffcc00Cooldown:|r 45 seconds.
 }
 
-STRING 1365
-// Items: I01F (Bonus Collector), Description (Description)
-{
-|cffbababcCommon|r
-When you take an artifact with |cff81f260[Random bonus]|r, it gives 2 extra ones.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1366
 // Items: I0CF (Katana), Description (Description)
 {
@@ -9044,31 +9061,27 @@ Activation: Creates an energy totem. Every second, it restores |cffbe81f71-2|r m
 }
 
 STRING 1386
-// Items: I0CA (Mimic potion), Description (Description)
+// Abilities: A071 (Босс 8: Берсерк (Аура)XXX), Name (Name)
 {
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cff088a08potion|r.
-Increases the charge of the potion by 2.
+Босс 8: Берсерк (Аура)XXX
 }
 
 STRING 1387
-// Items: I0CA (Mimic potion), Name (Name)
+// Units: o005 (Hex Totem), Name (Name)
 {
-Mimic potion
+Hex Totem
 }
 
 STRING 1388
-// Items: I0CA (Mimic potion), Tip (Tooltip - Basic)
+// Units: o004 (Water Totem), Name (Name)
 {
-Mimic potion
+Water Totem
 }
 
 STRING 1389
-// Items: I0CA (Mimic potion), Ubertip (Tooltip - Extended)
+// Units: o003 (Air Totem), Name (Name)
 {
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cff088a08potion|r.
-Increases the charge of the potion by 2.
+Air Totem
 }
 
 STRING 1390
@@ -9574,18 +9587,6 @@ STRING 1466
 // Abilities: A1HA (Extra: Crystallization (Crystal Mimic)), Name (Name)
 {
 Extra: Crystallization (Crystal Mimic)
-}
-
-STRING 1467
-// Items: I0BQ (Disco ball), Name (Name)
-{
-Disco ball
-}
-
-STRING 1468
-// Items: I0BQ (Disco ball), Tip (Tooltip - Basic)
-{
-Disco ball
 }
 
 STRING 1469
@@ -10266,14 +10267,6 @@ STRING 1569
 Activation: |cffcc0000Corrupted|r. Deals |cffbe81f72000|r damage to an enemy. Only works in combat.
 }
 
-STRING 1570
-// Items: I01F (Bonus Collector), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-When you take an artifact with |cff81f260[Random bonus]|r, it gives 2 extra ones.
-|cff81f260[Random bonus]|r
-}
-
 STRING 1571
 // Items: I0B0 (Totem of Energy), Name (Name)
 {
@@ -10290,32 +10283,6 @@ STRING 1573
 // Items: I0DH (Piece of Cake), Name (Name)
 {
 Piece of Cake
-}
-
-STRING 1574
-// Items: I0AZ (Fake coin), Description (Description)
-{
-|cffbababcCommon|r
-When exchanged between players, it is destroyed and gives these players 300 gold.
-}
-
-STRING 1575
-// Items: I0AZ (Fake coin), Name (Name)
-{
-Fake coin
-}
-
-STRING 1576
-// Items: I0AZ (Fake coin), Tip (Tooltip - Basic)
-{
-Fake coin
-}
-
-STRING 1577
-// Items: I0AZ (Fake coin), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-When exchanged between players, it is destroyed and gives these players 300 gold.
 }
 
 STRING 1578
@@ -10904,15 +10871,6 @@ STRING 1661
 Hunger for Knowledge
 }
 
-STRING 1662
-// Items: I0AD (Mooncloth), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-When the hero activates the first ability (|cffffcc00Q|r), restores |cffbe81f71%|r of the maximum mana to all heroes each 2 seconds.
-|cffffcc00Duration:|r 12 seconds.
-
-}
-
 STRING 1663
 // Items: I0AD (Mooncloth), Name (Name)
 {
@@ -10923,15 +10881,6 @@ STRING 1664
 // Items: I0AD (Mooncloth), Tip (Tooltip - Basic)
 {
 Mooncloth
-}
-
-STRING 1665
-// Items: I0AD (Mooncloth), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-When the hero activates the first ability (|cffffcc00Q|r), restores |cffbe81f71%|r of the maximum mana to all heroes each 2 seconds.
-|cffffcc00Duration:|r 12 seconds.
-
 }
 
 STRING 1666
@@ -12554,13 +12503,6 @@ STRING 1903
 Attack speed (Offhand shooting)
 }
 
-STRING 1904
-// Items: IZ03 (Cheese), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Replace the assortment of Artifact Store with |cff4169e1Rare|r items. They keep the original prices.
-}
-
 STRING 1905
 // Items: I08P (Totem of Power), Name (Name)
 {
@@ -13287,17 +13229,15 @@ Activation: Summons the Spirit of Air.
 }
 
 STRING 2013
-// Items: I04R (Tesseract), Description (Description)
+// Units: o002 (Earth Totem), Name (Name)
 {
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-When you kill an enemy, permanently increase Spell Power by 0.4%. Increases Damage Taken by 10%.
+Earth Totem
 }
 
 STRING 2014
-// Items: I04R (Tesseract), Ubertip (Tooltip - Extended)
+// Units: o001 (Fire Totem), Name (Name)
 {
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-When you kill an enemy, permanently increase Spell Power by 0.4%. Increases Damage Taken by 10%.
+Fire Totem
 }
 
 STRING 2015
@@ -13821,6 +13761,13 @@ STRING 2090
 // Abilities: A0AK (Bless: Chronospeed), Name (Name)
 {
 Bless: Chronospeed
+}
+
+STRING 2091
+// Items: I04R (Tesseract), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Increases Spell Power by |cffffffff10%|r. Killing an enemy increases this value by 0.3%.
 }
 
 STRING 2092
@@ -14900,14 +14847,6 @@ STRING 2251
 When the hero attacks, there is a |cffd7df0115%|r chance to deal critical damage. Critical damage deals 75% more damage. Collect all 3 Bandit artifacts to unite them.
 }
 
-STRING 2252
-// Items: I069 (Medallion of Garithos), Description (Description)
-{
-|cffbababcCommon|r
-Increases attack power and spell power by 50% if there are no artifacts from sets in your inventory.
-|cff81f260[Random bonus]|r
-}
-
 STRING 2253
 // Items: I069 (Medallion of Garithos), Name (Name)
 {
@@ -14918,14 +14857,6 @@ STRING 2254
 // Items: I069 (Medallion of Garithos), Tip (Tooltip - Basic)
 {
 Medallion of Garithos
-}
-
-STRING 2255
-// Items: I069 (Medallion of Garithos), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Increases attack power and spell power by 50% if there are no artifacts from sets in your inventory.
-|cff81f260[Random bonus]|r
 }
 
 STRING 2256
@@ -18218,13 +18149,6 @@ STRING 2745
 |cffffcc00Уровень 1:|r Murloc Chieftain
 }
 
-STRING 2746
-// Items: I02V (Book of Sacrifices), Description (Description)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Your damaging abilities and items restore the hero |cffbe81f720%|r health from the damage dealt.
-}
-
 STRING 2747
 // Items: I02V (Book of Sacrifices), Name (Name)
 {
@@ -18235,13 +18159,6 @@ STRING 2748
 // Items: I02V (Book of Sacrifices), Tip (Tooltip - Basic)
 {
 Book of Sacrifices
-}
-
-STRING 2749
-// Items: I02V (Book of Sacrifices), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r
-Your damaging abilities and items restore the hero |cffbe81f720%|r health from the damage dealt.
 }
 
 STRING 2750
@@ -18837,18 +18754,6 @@ STRING 2837
 |cffC71585Cursed|r
 |cff4169e1Rare|r
 Activation: |cffcc0000Corrupted|r. Create a Book Seller in your room until the start of battle.
-}
-
-STRING 2838
-// Items: I028 (Life incubator), Name (Name)
-{
-Life incubator
-}
-
-STRING 2839
-// Items: I028 (Life incubator), Tip (Tooltip - Basic)
-{
-Life incubator
 }
 
 STRING 2840
@@ -19647,14 +19552,6 @@ STRING 2960
 Dio
 }
 
-STRING 2961
-// Items: I07H (Philosopher's Potion), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Gives a random |cff088a08potion|r. When the inventory is full, casts it instead.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
 STRING 2962
 // Items: I01E (Rigged Dice Set), Name (Name)
 {
@@ -19951,38 +19848,6 @@ STRING 3004
 Activation: All heroes become invisible.
 Actions do not remove invisibility.
 |cffffcc00Duration:|r 3 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 3005
-// Items: I013 (Night sage), Description (Description)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Activation: Gives invulnerability. 
-Restores |cffbe81f740|r health to the hero every second.
-|cffffcc00Duration:|r 5 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 3006
-// Items: I013 (Night sage), Name (Name)
-{
-Night sage
-}
-
-STRING 3007
-// Items: I013 (Night sage), Tip (Tooltip - Basic)
-{
-Night sage
-}
-
-STRING 3008
-// Items: I013 (Night sage), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff7cfc00Nature|r
-Activation: Gives invulnerability. 
-Restores |cffbe81f740|r health to the hero every second.
-|cffffcc00Duration:|r 5 seconds.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
@@ -20764,32 +20629,6 @@ STRING 3128
 Activation: |cffcc0000Corrupted|r. Increases stats by 1. If the hero has at least 1 |cffb18904mech|r, replaces |cff60C445Unique|r into "Keen mind".
 }
 
-STRING 3129
-// Items: I008 (Pig in a poke), Description (Description)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. You get all your reward artifacts (if there are free slots in your inventory).
-}
-
-STRING 3130
-// Items: I008 (Pig in a poke), Name (Name)
-{
-Pig in a poke
-}
-
-STRING 3131
-// Items: I008 (Pig in a poke), Tip (Tooltip - Basic)
-{
-Pig in a poke
-}
-
-STRING 3132
-// Items: I008 (Pig in a poke), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. You get all your reward artifacts (if there are free slots in your inventory).
-}
-
 STRING 3133
 // Buffs/Effects: B1B4 (), Buffubertip (Tooltip - Extended)
 {
@@ -20995,12 +20834,6 @@ STRING 3164
 {
 |cffbababcCommon|r
 Increases attack power by 15. Collect all 3 Knight artifacts to unite them.
-}
-
-STRING 3165
-// Abilities: S009 (Босс 8: Берсерк (Вампиризм)), Name (Name)
-{
-Босс 8: Берсерк (Вампиризм)
 }
 
 STRING 3166
@@ -25497,7 +25330,7 @@ Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact. At the end of
 }
 
 STRING 3876
-// Items: I028 (Life incubator), Description (Description)
+// Items: I028 (Life Incubator), Description (Description)
 {
 |cffbababcCommon|r, |cffb18904Mech|r, |cff7cfc00Nature|r, |cff5858faMoon|r
 |cff81f260[Random bonus]|r
@@ -25505,7 +25338,7 @@ STRING 3876
 }
 
 STRING 3877
-// Items: I028 (Life incubator), Ubertip (Tooltip - Extended)
+// Items: I028 (Life Incubator), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r, |cffb18904Mech|r, |cff7cfc00Nature|r, |cff5858faMoon|r
 |cff81f260[Random bonus]|r
@@ -27600,22 +27433,6 @@ STRING 4199
 // Abilities: A1FK (Stat: Dodge +1%), Name (Name)
 {
 Stat: Dodge +1%
-}
-
-STRING 4200
-// Items: I0E0 (Essence of time), Description (Description)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Reduces the cooldown of abilities and items by 10%.
-If you only have artifacts from the |cfffe9a2ealchemy|r set, additionally reduces cooldown by 25%.
-}
-
-STRING 4201
-// Items: I0E0 (Essence of time), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Reduces the cooldown of abilities and items by 10%.
-If you only have artifacts from the |cfffe9a2ealchemy|r set, additionally reduces cooldown by 25%.
 }
 
 STRING 4202
@@ -30006,13 +29823,6 @@ STRING 4578
 Resolve, [|cffffcc00Level 5|r]
 }
 
-STRING 4579
-// Abilities: A0AU (Набор "|cff7cfc00Природа|r"), Ubertip (Tooltip - Normal - Extended)
-{
-|cffffcc00Condition:|r Collect 3 artifacts from the set "|cff7cfc00Nature|r".
-|cffffcc00Reward:|r When any hero dies, they are resurrected with 50% health and mana. 2 charges.
-}
-
 STRING 4580
 // Abilities: A1HE (Arcanologist: Replenish), Tip (Tooltip - Normal)
 {
@@ -31402,6 +31212,12 @@ STRING 4796
 W
 }
 
+STRING 4797
+// Units: u00L (dummy (Berserk Glaive)), Name (Name)
+{
+dummy (Berserk Glaive)
+}
+
 STRING 4798
 // Abilities: A121 (Altar: Ascendance), Unhotkey (Hotkey - Turn Off)
 {
@@ -32125,15 +31941,6 @@ STRING 4901
 // Abilities: A127 (Аура: Огонь в бутылке), Name (Name)
 {
 Аура: Огонь в бутылке
-}
-
-STRING 4902
-// Items: I07H (Philosopher's Potion), Description (Description)
-{
-|cffbababcCommon|r, |cfffe9a2eAlchemy|r
-Activation: Gives a random |cff088a08potion|r. When the inventory is full, casts it instead.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 35 mana.
 }
 
 STRING 4903
@@ -34989,13 +34796,13 @@ STRING 5343
 }
 
 STRING 5344
-// Abilities: A0Y9 (|cffffcc00Уровень 8:|r Берсерк), Name (Name)
+// Abilities: A06J (|cffffcc00Уровень 8:|r Вуду-Мастер), Tip (Tooltip - Normal)
 {
-|cffffcc00Уровень 8:|r Берсерк
+Voodoo Master
 }
 
 STRING 5345
-// Abilities: A0Y9 (|cffffcc00Уровень 8:|r Берсерк), Tip (Tooltip - Normal)
+// Abilities: A0Y9 (|cffffcc00Уровень 8:|r Berserk), Tip (Tooltip - Normal)
 {
 Berserk
 }
@@ -43494,22 +43301,6 @@ STRING 6650
 Аура: Ogre Magi Cast
 }
 
-STRING 6651
-// Items: I09I (Moon owl), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-When the hero deals 300 damage or more at once, restore |cffbe81f710%|r of mana.
-|cff81f260[Random bonus]|r
-}
-
-STRING 6652
-// Items: I09I (Moon owl), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-When the hero deals 300 damage or more at once, restore |cffbe81f710%|r of mana.
-|cff81f260[Random bonus]|r
-}
-
 STRING 6653
 // Abilities: A1EU ((т)Аура: Indelebilis Sensus (Heal)), Name (Name)
 {
@@ -46485,12 +46276,6 @@ STRING 7118
 Madness, [|cffffcc00Level 5|r]
 }
 
-STRING 7119
-// Units: o005 (Totem of Hex), Name (Name)
-{
-Totem of Hex
-}
-
 STRING 7120
 // Abilities: A0LK (Lord of Chaos: Madness), Ubertip (Tooltip - Normal - Extended)
 {
@@ -46937,6 +46722,12 @@ STRING 7185
 Respite, [|cffffcc00Level %d|r]
 }
 
+STRING 7186
+// Abilities: A0Y9 (|cffffcc00Уровень 8:|r Berserk), Name (Name)
+{
+|cffffcc00Уровень 8:|r Berserk
+}
+
 STRING 7187
 // Abilities: A0L1 (Shooter: Respite), Tip (Tooltip - Normal)
 {
@@ -46965,6 +46756,30 @@ STRING 7191
 // Abilities: A0L1 (Shooter: Respite), Tip (Tooltip - Normal)
 {
 Respite, [|cffffcc00Level 5|r]
+}
+
+STRING 7193
+// Abilities: A041 (Босс 8: Вуду-Мастер (Водный тотем)XXX), Name (Name)
+{
+Босс 8: Вуду-Мастер (Водный тотем)XXX
+}
+
+STRING 7194
+// Abilities: A040 (Босс 8: Вуду-Мастер (Воздушный тотем, аура)XXX), Name (Name)
+{
+Босс 8: Вуду-Мастер (Воздушный тотем, аура)XXX
+}
+
+STRING 7195
+// Buffs/Effects: B00L (), Bufftip (Tooltip)
+{
+|cff00ff00Air totem|rXXX
+}
+
+STRING 7196
+// Buffs/Effects: B00K (), Buffubertip (Tooltip - Extended)
+{
+Damage Taken reduced.
 }
 
 STRING 7197
@@ -47724,6 +47539,20 @@ STRING 7311
 (т)Аура: Champion!
 }
 
+STRING 7312
+// Abilities: A06J (|cffffcc00Уровень 8:|r Вуду-Мастер), Ubertip (Tooltip - Normal - Extended)
+{
+- Every 6 seconds, summons one of the totems:
+* Water Totem - Reduces damage taken by bosses by 30%.
+* Earth Totem - Periodically restores |cffbe81f770|r health to the caster.
+* Air Totem - Steals an item from the hero; returns it upon destruction.
+* Hex Totem - Turns the hero into a frog for 2 seconds every 4 seconds.
+* Fire Totem - Attacks continuously.
+- |cff00cceeAt 70% health:|r Totems are created more often.
+- |cff00cceeAt 60% health:|r Summons a Voodoo Dragon, which reduces Attack and Movement Speed by 40%.
+- |cff00cceeAt 40% and 20% health:|r Summons all totems.
+}
+
 STRING 7313
 // Abilities: A0Y7 (|cffffcc00Уровень 5:|r Manipulator), Ubertip (Tooltip - Normal - Extended)
 {
@@ -47732,6 +47561,12 @@ STRING 7313
 - |cff00cceeAt 80% health:|r Creates an area that periodically burns |cffbe81f74%|r of Mana. Lasts 60 seconds. Repeats every 6 seconds.
 - |cff00cceeAt 60% health:|r Creates an area in the center of the arena. Any player unit outside the area periodically loses |cffbe81f74%|r of Health and Mana.
 - |cff00cceeAt 40% health:|r Summons 2 Astral Beasts.
+}
+
+STRING 7314
+// Buffs/Effects: B00K (), Bufftip (Tooltip)
+{
+|cff00ff00Water Totem|r
 }
 
 STRING 7315
@@ -47836,6 +47671,13 @@ STRING 7330
 // Abilities: A135 (|cffffcc00Уровень 7:|r Goblin Shredder), Name (Name)
 {
 |cffffcc00Уровень 7:|r Goblin Shredder
+}
+
+STRING 7331
+// Items: I0E0 (Essence of Time), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Reduces cooldowns by 10%. If all artifacts in your inventory belong to the |cfffe9a2eAlchemy|r set, reduces by an additional 25%.
 }
 
 STRING 7332
@@ -48533,6 +48375,12 @@ Increases an ally’s armor by 8 and instantly restores |cffbe81f7275|r health.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 7436
+// Items: I0E0 (Essence of Time), Name (Name)
+{
+Essence of Time
+}
+
 STRING 7437
 // Abilities: A0JA (Аура: Парадокс), Name (Name)
 {
@@ -48819,6 +48667,12 @@ Deals |cffbe81f7180|r damage to an enemy. Deals an additional |cffbe81f7175%|r d
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 7481
+// Items: I0E0 (Essence of Time), Tip (Tooltip - Basic)
+{
+Essence of Time
+}
+
 STRING 7482
 // Abilities: A0HP (Dryad: Second Wind), Hotkey (Hotkey - Normal)
 {
@@ -48841,12 +48695,6 @@ STRING 7485
 // Abilities: A0IZ (Lord of Chaos: Illusions), Researchtip (Tooltip - Learn)
 {
 Illusion, [|cffffcc00Level %d|r]
-}
-
-STRING 7486
-// Units: o004 (Totem of Water), Name (Name)
-{
-Totem of Water
 }
 
 STRING 7487
@@ -48879,38 +48727,10 @@ STRING 7491
 Illusion, [|cffffcc00Level 5|r]
 }
 
-STRING 7492
-// Units: o003 (Totem of Air), Name (Name)
-{
-Totem of Air
-}
-
-STRING 7493
-// Units: o002 (Totem of Earth), Name (Name)
-{
-Totem of Earth
-}
-
-STRING 7494
-// Units: o001 (Totem of Fire), Name (Name)
-{
-Totem of Fire
-}
-
 STRING 7495
 // Abilities: A0GP (Босс 2: Благородный рыцарь (Рывок)XXX), Name (Name)
 {
 Босс 2: Благородный рыцарь (Рывок)XXX
-}
-
-STRING 7496
-// Abilities: A06J (|cffffcc00Уровень 8:|r Вуду-Мастер), Ubertip (Tooltip - Normal - Extended)
-{
-- Every 6 seconds, summons a random totem that has unique properties.
-- |cff00cceeAt 70% health:|r Totems are created more often.
-- |cff00cceeAt 60% health:|r Summons a voodoo dragon, which reduces the speed of attack and movement of enemies by 40%.
-- |cff00cceeAt 40% health:|r Summons all totems.
-- |cff00cceeAt 20% health:|r Summons all totems.
 }
 
 STRING 7497
@@ -49272,6 +49092,13 @@ STRING 7552
 Shadow, [|cffffcc00Level %d|r]
 }
 
+STRING 7553
+// Items: I0E0 (Essence of Time), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Reduces cooldowns by 10%. If all artifacts in your inventory belong to the |cfffe9a2eAlchemy|r set, reduces by an additional 25%.
+}
+
 STRING 7554
 // Abilities: A0ID (Archer: Shadow), Tip (Tooltip - Normal)
 {
@@ -49300,6 +49127,40 @@ STRING 7558
 // Abilities: A0ID (Archer: Shadow), Tip (Tooltip - Normal)
 {
 Shadow, [|cffffcc00Level 5|r]
+}
+
+STRING 7559
+// Items: I0AZ (Fake Coin), Description (Description)
+{
+|cffbababcCommon|r
+When exchanged between players, destroy it and give both players 300 Gold.
+}
+
+STRING 7560
+// Items: I0AZ (Fake Coin), Name (Name)
+{
+Fake Coin
+}
+
+STRING 7561
+// Items: I0AZ (Fake Coin), Tip (Tooltip - Basic)
+{
+Fake Coin
+}
+
+STRING 7562
+// Items: I0AZ (Fake Coin), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+When exchanged between players, destroy it and give both players 300 Gold.
+}
+
+STRING 7563
+// Items: I0AD (Mooncloth), Description (Description)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+When you use the first ability (|cffffcc00Q|r), restore |cffbe81f71%|r of mana to all heroes each 2 seconds.
+|cffffcc00Duration:|r 12 seconds.
 }
 
 STRING 7564
@@ -49521,6 +49382,14 @@ STRING 7596
 If the enemy does not attack within 8 seconds, gains invisibility.
 
 |cFF959697Units with no attack, slow attack, and no movement are not affected.|r
+}
+
+STRING 7597
+// Items: I0AD (Mooncloth), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+When you use the first ability (|cffffcc00Q|r), restore |cffbe81f71%|r of mana to all heroes each 2 seconds.
+|cffffcc00Duration:|r 12 seconds.
 }
 
 STRING 7598
@@ -49794,6 +49663,14 @@ STRING 7640
 // Abilities: A0ET (Ogre: Crush), Hotkey (Hotkey - Normal)
 {
 Q
+}
+
+STRING 7641
+// Items: I09I (Moon owl), Description (Description)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+When you deal 300 damage at once, restore |cffbe81f710%|r of mana.
+|cff81f260[Random bonus]|r
 }
 
 STRING 7642
@@ -52877,14 +52754,6 @@ Every 8 seconds, restores |cffbe81f76%|r of maximum Health.
 |cff81f260[Random bonus]|r
 }
 
-STRING 8124
-// Items: I043 (Radiance), Description (Description)
-{
-|cff4169e1Rare|r
-You and your allies get the opportunity to resurrect one hero during each fight. Summarizes with other similar effects.
-|cff81f260[Random bonus]|r
-}
-
 STRING 8125
 // Abilities: A0EE (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -53630,23 +53499,6 @@ STRING 8242
 |cffbababcCommon|r, |cff00cceeCrystal|r
 Activation: Doubles the stats of an allied minion (do not stack).
 |cffffcc00Duration:|r 60 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 8243
-// Items: I00F (Celestial Quartz), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Permanently increases mana by 20.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 100 mana.
-}
-
-STRING 8244
-// Items: I00F (Celestial Quartz), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-Activation: Permanently increases mana by 20.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
@@ -54858,14 +54710,6 @@ STRING 8435
 Enters an ally into invisibility.
 |cffffcc00Duration:|r 10 seconds.
 |cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 8436
-// Items: I043 (Radiance), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-You and your allies get the opportunity to resurrect one hero during each fight. Summarizes with other similar effects.
-|cff81f260[Random bonus]|r
 }
 
 STRING 8437
@@ -60469,12 +60313,6 @@ STRING 9302
 Босс 1: Электрошерст (Аура)
 }
 
-STRING 9303
-// Abilities: A071 (Босс 8: Берсерк (Аура)), Name (Name)
-{
-Босс 8: Берсерк (Аура)
-}
-
 STRING 9304
 // Abilities: A070 (MP (Random bonus)), Name (Name)
 {
@@ -60688,12 +60526,6 @@ STRING 9337
 |cffffcc00Уровень 8:|r Вуду-Мастер
 }
 
-STRING 9338
-// Abilities: A06J (|cffffcc00Уровень 8:|r Вуду-Мастер), Tip (Tooltip - Normal)
-{
-Voodoo master
-}
-
 STRING 9339
 // Abilities: A0F9 (Lord of Chaos: Hallucinations), Ubertip (Tooltip - Normal - Extended)
 {
@@ -60746,6 +60578,14 @@ STRING 9346
 {
 |cffbababcCommon|r, |cff5858faMoon|r
 At the beginning of each battle, your hero becomes invisible for 30 seconds. Actions do not remove invisibility.
+|cff81f260[Random bonus]|r
+}
+
+STRING 9347
+// Items: I09I (Moon owl), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+When you deal 300 damage at once, restore |cffbe81f710%|r of mana.
 |cff81f260[Random bonus]|r
 }
 
@@ -60823,6 +60663,15 @@ STRING 9359
 {
 When your hero is attacked, apply poison to the attacker. The poison slows attack and movement speed by 10% and deals |cffbe81f720|r damage every second.
 |cffffcc00Duration:|r 4 seconds.
+}
+
+STRING 9360
+// Items: I07H (Philosopher's Potion), Description (Description)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Obtain the |cff088a08Potion|r. If your inventory is full, use it instead.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 35 mana.
 }
 
 STRING 9361
@@ -61004,6 +60853,22 @@ Freezes the target. If the target is already frozen, deals |cffbe81f7300|r damag
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
+STRING 9386
+// Items: I07H (Philosopher's Potion), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cfffe9a2eAlchemy|r
+Activation: Obtain the |cff088a08Potion|r. If your inventory is full, use it instead.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 9387
+// Items: I069 (Medallion of Garithos), Description (Description)
+{
+|cffbababcCommon|r
+If you do not have any set pieces in your inventory, gain 50% Attack Damage and Spell Power.
+|cff81f260[Random bonus]|r
+}
+
 STRING 9388
 // Abilities: A064 (Artifact: Royal Chameleon), Name (Name)
 {
@@ -61026,6 +60891,14 @@ STRING 9391
 // Abilities: A063 (Босс 2: Злобный тотем (Гнев)), Ubertip (Tooltip - Normal - Extended)
 {
 When attacked, deals |cffbe81f710|r damage in response.
+}
+
+STRING 9392
+// Items: I069 (Medallion of Garithos), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+If you do not have any set pieces in your inventory, gain 50% Attack Damage and Spell Power.
+|cff81f260[Random bonus]|r
 }
 
 STRING 9393
@@ -62485,6 +62358,13 @@ STRING 9615
 Malicious Kindness, [|cffffcc00Level %d|r]
 }
 
+STRING 9616
+// Items: I05W (Newborn Phoenix), Description (Description)
+{
+|cffbababcCommon|r
+|cffcc0000Corrupted|r. When the hero takes fatal damage, instead of dying, fully restores health and mana and becomes invulnerable for 10 seconds. Only works in battle.
+}
+
 STRING 9617
 // Abilities: A04X (Peacelock: Malicious Kindness), Tip (Tooltip - Normal)
 {
@@ -62513,6 +62393,13 @@ STRING 9621
 // Abilities: A04X (Peacelock: Malicious Kindness), Tip (Tooltip - Normal)
 {
 Malicious Kindness, [|cffffcc00Level 5|r]
+}
+
+STRING 9622
+// Items: I05W (Newborn Phoenix), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+|cffcc0000Corrupted|r. When the hero takes fatal damage, instead of dying, fully restores health and mana and becomes invulnerable for 10 seconds. Only works in battle.
 }
 
 STRING 9623
@@ -63540,38 +63427,26 @@ STRING 9778
 Treant
 }
 
-STRING 9779
-// Abilities: A041 (Босс 8: Вуду-Мастер (Водный тотем)), Name (Name)
-{
-Босс 8: Вуду-Мастер (Водный тотем)
-}
-
 STRING 9780
-// Abilities: A041 (Босс 8: Вуду-Мастер (Водный тотем)), Tip (Tooltip - Normal)
+// Abilities: A041 (Босс 8: Вуду-Мастер (Водный тотем)XXX), Tip (Tooltip - Normal)
 {
 Водный тотем
 }
 
 STRING 9781
-// Abilities: A041 (Босс 8: Вуду-Мастер (Водный тотем)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A041 (Босс 8: Вуду-Мастер (Водный тотем)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 Водный тотем
 }
 
-STRING 9782
-// Abilities: A040 (Босс 8: Вуду-Мастер (Воздушный тотем, аура)), Name (Name)
-{
-Босс 8: Вуду-Мастер (Воздушный тотем, аура)
-}
-
 STRING 9783
-// Abilities: A040 (Босс 8: Вуду-Мастер (Воздушный тотем, аура)), Tip (Tooltip - Normal)
+// Abilities: A040 (Босс 8: Вуду-Мастер (Воздушный тотем, аура)XXX), Tip (Tooltip - Normal)
 {
 Воздушный тотем
 }
 
 STRING 9784
-// Abilities: A040 (Босс 8: Вуду-Мастер (Воздушный тотем, аура)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A040 (Босс 8: Вуду-Мастер (Воздушный тотем, аура)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 Воздушный тотем
 }
@@ -64204,6 +64079,34 @@ STRING 9880
 Activation: Restores |cffbe81f730%|r health and |cffbe81f720%|r mana (at least 600 health and 200 mana).
 }
 
+STRING 9881
+// Items: I028 (Life Incubator), Name (Name)
+{
+Life Incubator
+}
+
+STRING 9882
+// Items: I028 (Life Incubator), Tip (Tooltip - Basic)
+{
+Life Incubator
+}
+
+STRING 9883
+// Items: I01F (Bonus Collector), Description (Description)
+{
+|cffbababcCommon|r
+When you obtain an artifact with a |cff81f260[Random bonus]|r, add 2 more to it.
+|cff81f260[Random bonus]|r
+}
+
+STRING 9884
+// Items: I01F (Bonus Collector), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+When you obtain an artifact with a |cff81f260[Random bonus]|r, add 2 more to it.
+|cff81f260[Random bonus]|r
+}
+
 STRING 9885
 // Abilities: A03G (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -64813,6 +64716,15 @@ STRING 9978
 // Abilities: A02T (Fallen One: Unearthly Beauty), Researchtip (Tooltip - Learn)
 {
 Unearthly Beauty, [|cffffcc00Level %d|r]
+}
+
+STRING 9979
+// Items: I013 (Night Sage), Description (Description)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Activation: Gives invulnerability. Restores |cffbe81f740|r health to the hero every second.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 9980
@@ -65463,15 +65375,6 @@ Doubles the stats of your every fourth summoned minion.
 Activation: Summons a ghoul for 35 seconds.
 |cffffcc00Cooldown:|r 20 seconds.
 |cffffcc00Cost:|r 90 health.
-}
-
-STRING 10081
-// Items: I0D0 (Plush Doll), Description (Description)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Restores |cffbe81f7300|r health to another hero. If your current health is lower, copy it.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 50 mana.
 }
 
 STRING 10082
@@ -66232,14 +66135,6 @@ STRING 10198
 // Abilities: A0J8 (Dryad Wolf: Rush), Tip (Tooltip - Normal)
 {
 Rush
-}
-
-STRING 10199
-// Items: I0D0 (Plush Doll), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cffb40431Blood|r
-Activation: Restores |cffbe81f7300|r health to another hero. If your current health is lower, copy it.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 10200
@@ -71803,26 +71698,14 @@ STRING 11104
 A warrior can restore his health by attacking opponents.
 }
 
-STRING 11105
-// Buffs/Effects: B00L (), Bufftip (Tooltip)
-{
-|cff00ff00Air totem|r
-}
-
 STRING 11106
 // Buffs/Effects: B00L (), Buffubertip (Tooltip - Extended)
 {
 Magic resistance increased.
 }
 
-STRING 11107
-// Buffs/Effects: B00K (), Bufftip (Tooltip)
-{
-|cff00ff00Earth Totem|r
-}
-
 STRING 11108
-// Buffs/Effects: B00K (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B00B (), Buffubertip (Tooltip - Extended)
 {
 Armor increased.
 }
@@ -71930,7 +71813,7 @@ STRING 11125
 }
 
 STRING 11126
-// Buffs/Effects: B00B (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B005 (), Buffubertip (Tooltip - Extended)
 {
 Armor increased.
 }
@@ -72021,7 +71904,7 @@ STRING 11140
 }
 
 STRING 11141
-// Buffs/Effects: B005 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B000 (), Buffubertip (Tooltip - Extended)
 {
 Armor increased.
 }
@@ -72078,12 +71961,6 @@ STRING 11150
 // Buffs/Effects: B000 (), Bufftip (Tooltip)
 {
 |cff00ff00Tenacity|r
-}
-
-STRING 11151
-// Buffs/Effects: B000 (), Buffubertip (Tooltip - Extended)
-{
-Armor increased.
 }
 
 STRING 11152
@@ -72475,21 +72352,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.12.6T|r
-}
-
-STRING 11219
-// Items: I05W (Newborn Phoenix), Description (Description)
-{
-|cffbababcCommon|r
-When the hero takes fatal damage, instead of death, |cffcc0000corrupted|r, fully restores health and mana and becomes invulnerable for 10 seconds. Only works in battle.
-}
-
-STRING 11220
-// Items: I05W (Newborn Phoenix), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-When the hero takes fatal damage, instead of death, |cffcc0000corrupted|r, fully restores health and mana and becomes invulnerable for 10 seconds. Only works in battle.
+|cffbe81f7Boss Battle 1.12.7T|r
 }
 
 STRING 11221
@@ -73039,6 +72902,18 @@ STRING 11304
 (Spirit Journey)
 }
 
+STRING 11305
+// Items: I013 (Night Sage), Name (Name)
+{
+Night Sage
+}
+
+STRING 11306
+// Items: I013 (Night Sage), Tip (Tooltip - Basic)
+{
+Night Sage
+}
+
 STRING 11307
 // Abilities: A1DW (Runesmith: Carve Rune), Tip (Tooltip - Normal)
 {
@@ -73069,6 +72944,27 @@ STRING 11311
 Sacrificial Blade
 }
 
+STRING 11312
+// Items: I013 (Night Sage), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff7cfc00Nature|r
+Activation: Gives invulnerability. Restores |cffbe81f740|r health to the hero every second.
+|cffffcc00Duration:|r 5 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 11313
+// Items: I008 (Pig in a Poke), Name (Name)
+{
+Pig in a Poke
+}
+
+STRING 11314
+// Items: I008 (Pig in a Poke), Tip (Tooltip - Basic)
+{
+Pig in a Poke
+}
+
 STRING 11315
 // Abilities: A1E3 (Runesmith: Runic Link), Researchhotkey (Hotkey - Learn)
 {
@@ -73093,6 +72989,13 @@ STRING 11318
 Sacrificial Blade
 }
 
+STRING 11319
+// Items: I0DT (Breastplate), Description (Description)
+{
+|cff4169e1Rare|r
+The hero deals 15 additional damage from any source.
+}
+
 STRING 11320
 // Items: I00Q (Sacrificial Blade), Ubertip (Tooltip - Extended)
 {
@@ -73103,19 +73006,16 @@ Activation: Restore |cffbe81f7115|r mana.
 }
 
 STRING 11321
-// Items: I00B (Runestone Mandom), Description (Description)
+// Items: I0DT (Breastplate), Ubertip (Tooltip - Extended)
 {
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases armor by 5 and health by 500.
-|cffffffffDecreases attack speed by 25% and increases cooldown of abilities and items by 25%.|r
+|cff4169e1Rare|r
+The hero deals 15 additional damage from any source.
 }
 
 STRING 11322
-// Items: I00B (Runestone Mandom), Ubertip (Tooltip - Extended)
+// Items: I0D8 (Transforming Matter), Name (Name)
 {
-|cff4169e1Rare|r, |cff848484Rune|r
-Increases armor by 5 and health by 500.
-|cffffffffDecreases attack speed by 25% and increases cooldown of abilities and items by 25%.|r
+Transforming Matter
 }
 
 STRING 11323
@@ -73128,6 +73028,42 @@ STRING 11324
 // Abilities: A1DX (Runesmith: Carve Rune of the Rich), Name (Name)
 {
 Runesmith: Carve Rune of the Rich
+}
+
+STRING 11325
+// Items: I0D8 (Transforming Matter), Tip (Tooltip - Basic)
+{
+Transforming Matter
+}
+
+STRING 11326
+// Items: I0D0 (Plush Doll), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Activation: Restores |cffbe81f7300|r health to another hero. If your current health is lower, copy it.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
+STRING 11327
+// Items: I0D0 (Plush Doll), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Activation: Restores |cffbe81f7300|r health to another hero. If your current health is lower, copy it.
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 11328
+// Items: I0BQ (Disco Ball), Description (Description)
+{
+|cff4169e1Rare|r
+Gain 15 Attack Damage for each set type in the inventory.
+}
+
+STRING 11329
+// Items: I0BQ (Disco Ball), Name (Name)
+{
+Disco Ball
 }
 
 STRING 11330
@@ -73650,7 +73586,7 @@ When the hero deals 100 damage or restores 100 health at once, creates a chain h
 }
 
 STRING 11410
-// Items: IZ03 (Cheese), Name (Name)
+// Items: IV09 (Cheese), Name (Name)
 {
 Cheese
 }
@@ -73874,7 +73810,7 @@ STRING 11442
 }
 
 STRING 11443
-// Items: IZ03 (Cheese), Tip (Tooltip - Basic)
+// Items: IV09 (Cheese), Tip (Tooltip - Basic)
 {
 Cheese
 }
@@ -74483,6 +74419,12 @@ STRING 11540
 (Level 6)
 }
 
+STRING 11541
+// Items: I0BQ (Disco Ball), Tip (Tooltip - Basic)
+{
+Disco Ball
+}
+
 STRING 11542
 // Abilities: A0QG (Permanent Invisibility), EditorSuffix (Editor Suffix)
 {
@@ -74561,6 +74503,22 @@ STRING 11554
 (Orb of the Rolling Plains)
 }
 
+STRING 11555
+// Items: I0BQ (Disco Ball), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Gain 15 Attack Damage for each set type in the inventory.
+}
+
+STRING 11556
+// Items: I06E (Big Red Button), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Deals |cffbe81f7300|r damage to enemies in area for each empty slot in the inventory (at least 300).
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
 STRING 11557
 // Abilities: A19E (|cffffcc00Уровень 10:|r Angry Bob), Ubertip (Tooltip - Normal - Extended)
 {
@@ -74595,6 +74553,22 @@ Makes all nearby creatures invisible for 3 seconds. Restores |cffbe81f760/80/100
 |cffffcc00Cost:|r 100 mana.
 }
 
+STRING 11561
+// Items: I06E (Big Red Button), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Deals |cffbe81f7300|r damage to enemies in area for each empty slot in the inventory (at least 300).
+|cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 11562
+// Items: I043 (Radiance), Description (Description)
+{
+|cff4169e1Rare|r
+The first hero to fall in battle revives with 50% health and mana.
+|cff81f260[Random bonus]|r
+}
+
 STRING 11563
 // Abilities: A0H6 (War Stomp), EditorSuffix (Editor Suffix)
 {
@@ -74602,18 +74576,24 @@ STRING 11563
 }
 
 STRING 11564
-// Abilities: A0Y9 (|cffffcc00Уровень 8:|r Берсерк), Ubertip (Tooltip - Normal - Extended)
+// Items: I043 (Radiance), Ubertip (Tooltip - Extended)
 {
-- Ranged attacks.
-- Every 20 seconds, the boss introduces a random hero into insanity for 10 seconds.
-- |cff00cceeAt 75% health:|r The boss launches a glaive that flies between the heroes and deals |cffbe81f750|r damage every half second.
-- |cff00cceeAt 30% health:|r When attacking, restores 75% of the health of the damage done.
+|cff4169e1Rare|r
+The first hero to fall in battle revives with 50% health and mana.
+|cff81f260[Random bonus]|r
 }
 
 STRING 11565
 // Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
 {
 Moon Blinking, [|cffffcc00Level 1|r]
+}
+
+STRING 11566
+// Items: I02V (Book of Sacrifices), Description (Description)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Gain |cffbe81f720%|r Magic Damage Lifesteal.
 }
 
 STRING 11567
@@ -74710,6 +74690,13 @@ Creates a shield for all heroes that absorbs |cffbe81f7300|r damage. Grants an a
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 11580
+// Items: I02V (Book of Sacrifices), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cffb40431Blood|r
+Gain |cffbe81f720%|r Magic Damage Lifesteal.
+}
+
 STRING 11581
 // Abilities: A0HI (|cffffcc00Уровень 9:|r Ядовитая нечисть), Ubertip (Tooltip - Normal - Extended)
 {
@@ -74720,6 +74707,15 @@ Duration: 3 seconds.
 - |cff00cceeAt 50% health:|r The boss poisons all heroes, dealing |cffbe81f750|r damage every second, reducing attack and movement speed by 50%.
 |cffffcc00Duration:|r 60 seconds.
 - |cff00cceeAt 25% health:|r Increases magic resistance by another 30%.
+}
+
+STRING 11582
+// Items: I00F (Celestial Quartz), Description (Description)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Activation: Permanently increase mana by 20.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 100 mana.
 }
 
 STRING 11583
@@ -74756,6 +74752,14 @@ Summons a Forest Friend. You can summon up to 4 Forest Friends.
 |cffffcc00Cooldown:|r 18 seconds.
 }
 
+STRING 11588
+// Items: I00F (Celestial Quartz), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+Activation: Permanently increase mana by 20.
+|cffffcc00Cooldown:|r 30 seconds.
+}
+
 STRING 11589
 // Abilities: A0DF (|cffffcc00Уровень 10:|r Морской дикарь), Ubertip (Tooltip - Normal - Extended)
 {
@@ -74782,6 +74786,13 @@ STRING 11592
 // Abilities: A1JO ((т)Аура: Dizzy), Name (Name)
 {
 (т)Аура: Dizzy
+}
+
+STRING 11593
+// Items: I008 (Pig in a Poke), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Obtain all your artifact rewards (if there are enough space in your inventory).
 }
 
 STRING 11594
@@ -74815,11 +74826,31 @@ STRING 11597
 - |cff00cceeAt 30% health:|r Accelerates by 60 seconds.
 }
 
+STRING 11598
+// Items: I008 (Pig in a Poke), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Obtain all your artifact rewards (if there are enough space in your inventory).
+}
+
+STRING 11599
+// Items: IZ03 (Golden Cheese), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Refresh an Artifact Store with |cff4169e1Rare|r items. They keep the previous prices.
+}
+
 STRING 11600
 // Abilities: A0HW (Dryad: Call of Nature), Ubertip (Tooltip - Normal - Extended)
 {
 Summons a Forest Friend. You can summon up to 4 Forest Friends.
 |cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 11601
+// Items: IZ03 (Golden Cheese), Name (Name)
+{
+Golden Cheese
 }
 
 STRING 11602
@@ -74834,6 +74865,19 @@ STRING 11603
 {
 Makes all nearby creatures invisible for 3 seconds. Restores |cffbe81f7100|r mana to all targets (except caster). After the invisibility ends, target heroes increases Spell Power by 80% for 5 seconds.
 |cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 11604
+// Items: IZ03 (Golden Cheese), Tip (Tooltip - Basic)
+{
+Golden Cheese
+}
+
+STRING 11605
+// Items: IZ03 (Golden Cheese), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. Refresh an Artifact Store with |cff4169e1Rare|r items. They keep the previous prices.
 }
 
 STRING 11606
@@ -75852,6 +75896,13 @@ STRING 11757
 Energy Shield, [|cffffcc00Level 1|r]
 }
 
+STRING 11758
+// Abilities: A0AU (Набор "|cff7cfc00Природа|r"), Ubertip (Tooltip - Normal - Extended)
+{
+|cffffcc00Condition:|r Collect 3 artifacts from the set "|cff7cfc00Nature|r".
+|cffffcc00Reward:|r When any hero dies, they are resurrected with 50% health and mana. 2 charges per battle.
+}
+
 STRING 11759
 // Abilities: A184 (Прочее: Провокация (Банан)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -76837,15 +76888,6 @@ Deals |cffbe81f7220|r damage to all enemies in front of the hero and knocks them
 |cFF959697Does not work on immobile targets.|r
 }
 
-STRING 11898
-// Items: I06E (Big Red Button), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Deals |cffbe81f7300|r damage to enemies in area for each empty slot in the inventory (minimum 300).
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
 STRING 11899
 // Items: I06E (Big Red Button), Name (Name)
 {
@@ -76856,14 +76898,6 @@ STRING 11900
 // Items: I06E (Big Red Button), Tip (Tooltip - Basic)
 {
 Big Red Button
-}
-
-STRING 11901
-// Items: I06E (Big Red Button), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Deals |cffbe81f7300|r damage to enemies in area for each empty slot in the inventory (minimum 300).
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 11902
@@ -77825,18 +77859,6 @@ STRING 12041
 // Items: IV08 (Bag of Candies), Tip (Tooltip - Basic)
 {
 Bag of Candies
-}
-
-STRING 12042
-// Items: IV09 (Cheese), Name (Name)
-{
-Cheese
-}
-
-STRING 12043
-// Items: IV09 (Cheese), Tip (Tooltip - Basic)
-{
-Cheese
 }
 
 STRING 12044
@@ -79198,13 +79220,6 @@ STRING 12244
 You didn't kill anyone in this fight.
 }
 
-STRING 12245
-// Items: I0DT (Breastplate), Description (Description)
-{
-|cff4169e1Rare|r
-Any damage from your hero deals 15 more damage.
-}
-
 STRING 12246
 // Items: I0DT (Breastplate), Name (Name)
 {
@@ -79215,13 +79230,6 @@ STRING 12247
 // Items: I0DT (Breastplate), Tip (Tooltip - Basic)
 {
 Breastplate
-}
-
-STRING 12248
-// Items: I0DT (Breastplate), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Any damage from your hero deals 15 more damage.
 }
 
 STRING 12249

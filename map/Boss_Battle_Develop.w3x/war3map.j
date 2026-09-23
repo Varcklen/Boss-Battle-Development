@@ -81,9 +81,9 @@ constant boolean LIBRARY_ForgeSpecLib=true
 //endglobals from ForgeSpecLib
 //globals from Frames:
 constant boolean LIBRARY_Frames=true
-trigger Frames__TempTrigger= null
+trigger Frames___TempTrigger= null
         
-constant integer Frames__KEY_EXIT= StringHash("exit")
+constant integer Frames___KEY_EXIT= StringHash("exit")
 //endglobals from Frames
 //globals from HeroesTableDatabase:
 constant boolean LIBRARY_HeroesTableDatabase=true
@@ -138,7 +138,7 @@ integer array Arena_Runes
 //endglobals from LibDataItems
 //globals from Lightning:
 constant boolean LIBRARY_Lightning=true
-lightning Lightning__TempLightning= null
+lightning Lightning___TempLightning= null
 //endglobals from Lightning
 //globals from List:
 constant boolean LIBRARY_List=true
@@ -226,9 +226,9 @@ constant boolean LIBRARY_PvPConditions=true
 //endglobals from PvPConditions
 //globals from RandomHero:
 constant boolean LIBRARY_RandomHero=true
-constant integer RandomHero__ATTEMPTS_TO_PICK_RANDOM_HERO= 3
-// processed:         integer array RandomHero__Attempts_Used[PLAYERS_LIMIT_ARRAYS]
-unit RandomHero__Temp= null
+constant integer RandomHero___ATTEMPTS_TO_PICK_RANDOM_HERO= 3
+// processed:         integer array RandomHero___Attempts_Used[PLAYERS_LIMIT_ARRAYS]
+unit RandomHero___Temp= null
 //endglobals from RandomHero
 //globals from ReduceCooldown:
 constant boolean LIBRARY_ReduceCooldown=true
@@ -264,15 +264,15 @@ constant string SET_NAME_NATURE= "|cff7cfc00Nature|r"
 constant string SET_NAME_ALCHEMY= "|cfffe9a2eAlchemy|r"
 constant string SET_NAME_CRYSTAL= "|cff00cceeCrystal|r"
         
-constant integer SetCount__KEY_MECH= StringHash("mech")
-constant integer SetCount__KEY_WEAPON= StringHash("weap")
-constant integer SetCount__KEY_RING= StringHash("ring")
-constant integer SetCount__KEY_BLOOD= StringHash("blood")
-constant integer SetCount__KEY_RUNE= StringHash("rune")
-constant integer SetCount__KEY_MOON= StringHash("moon")
-constant integer SetCount__KEY_NATURE= StringHash("natu")
-constant integer SetCount__KEY_ALCHEMY= StringHash("alch")
-constant integer SetCount__KEY_CRYSTAL= StringHash("crys")
+constant integer SetCount___KEY_MECH= StringHash("mech")
+constant integer SetCount___KEY_WEAPON= StringHash("weap")
+constant integer SetCount___KEY_RING= StringHash("ring")
+constant integer SetCount___KEY_BLOOD= StringHash("blood")
+constant integer SetCount___KEY_RUNE= StringHash("rune")
+constant integer SetCount___KEY_MOON= StringHash("moon")
+constant integer SetCount___KEY_NATURE= StringHash("natu")
+constant integer SetCount___KEY_ALCHEMY= StringHash("alch")
+constant integer SetCount___KEY_CRYSTAL= StringHash("crys")
         
 real Event_MechAdded_Real
 integer Event_MechAdded_AddedMechs
@@ -285,7 +285,7 @@ constant boolean LIBRARY_SetRaritySpawnLib=true
 //endglobals from SetRaritySpawnLib
 //globals from SetStableToolLib:
 constant boolean LIBRARY_SetStableToolLib=true
-framehandle SetStableToolLib__description= null
+framehandle SetStableToolLib___description= null
 //endglobals from SetStableToolLib
 //globals from ShamanBallLib:
 constant boolean LIBRARY_ShamanBallLib=true
@@ -507,12 +507,12 @@ constant string RANDOM_TARGET_VULNERABLE= "vulnerable"
 constant string RANDOM_TARGET_CAN_MOVE= "notstand"
 constant string RANDOM_TARGET_NOT_PROVOKED= "notprovoked"
         
-constant integer RandomTargetLib__PROVOKE_TYPES_COUNT= 11
-constant integer RandomTargetLib__PROVOKE_TYPES_COUNT_ARRAYS= RandomTargetLib__PROVOKE_TYPES_COUNT + 1
+constant integer RandomTargetLib___PROVOKE_TYPES_COUNT= 11
+constant integer RandomTargetLib___PROVOKE_TYPES_COUNT_ARRAYS= RandomTargetLib___PROVOKE_TYPES_COUNT + 1
         
-// processed:         string array RandomTargetLib__RandomTargetTypes[RandomTargetLib__PROVOKE_TYPES_COUNT_ARRAYS]
+// processed:         string array RandomTargetLib___RandomTargetTypes[RandomTargetLib___PROVOKE_TYPES_COUNT_ARRAYS]
         
-unit RandomTargetLib__TempUnit= null
+unit RandomTargetLib___TempUnit= null
 //endglobals from RandomTargetLib
 //globals from SpellPower:
 constant boolean LIBRARY_SpellPower=true
@@ -627,7 +627,7 @@ constant integer POLYMORPH_SHEEP= 'n02L'
 constant integer POLYMORPH_RAT= 'n02N'
 constant integer POLYMORPH_FROG= 'n02M'
         
-constant string PolyLib__ANIMATION= "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageDeathCaster.mdl"
+constant string PolyLib___ANIMATION= "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageDeathCaster.mdl"
 //endglobals from PolyLib
 //globals from ShieldstLib:
 constant boolean LIBRARY_ShieldstLib=true
@@ -1302,9 +1302,6 @@ string gg_snd_Orc3
 string gg_snd_Forsaken1Calm
 string gg_snd_Race3
 trigger gg_trg_Templates= null
-trigger gg_trg_Untitled_Trigger_002= null
-trigger gg_trg_Untitled_Trigger_001= null
-trigger gg_trg_Untitled_Trigger_003= null
 trigger gg_trg_List= null
 trigger gg_trg_Text= null
 trigger gg_trg_Enum_TargetRelation= null
@@ -2771,6 +2768,7 @@ destructable gg_dest_DTg7_0088= null
 destructable gg_dest_LTg1_0396= null
 destructable gg_dest_LTg1_0395= null
 destructable gg_dest_LTg1_0180= null
+trigger gg_trg_Untitled_Trigger_001= null
 unit uret
 boolean RandomMode= false
 real Event_CooldownReset_Real
@@ -3016,9 +3014,9 @@ boolean IsModeUsed= false
 real Event_HeroChoose_Real= 0
 unit Event_HeroChoose_Hero= null
         
-integer HeroesChoise___tempPosition
-timer ManaReg___ManaRegTimer= null
-real ManaReg___manaPast= 0
+integer HeroesChoise__tempPosition
+timer ManaReg__ManaRegTimer= null
+real ManaReg__manaPast= 0
 constant integer PARAGON_PIECE_01= 'I085'
 constant integer PARAGON_PIECE_02= 'I08C'
 constant integer PARAGON_PIECE_03= 'I07O'
@@ -3031,20 +3029,20 @@ constant integer THIEF_PIECE_03= 'I0AA'
 constant integer THIEF_ARMOR= 'I0EI'
     
 constant string THIEF_ANIMATION= "Abilities\\Spells\\Human\\Resurrect\\ResurrectCaster.mdl"
-constant integer AncientSword___ID_ITEM= 'I02P'
-constant integer AncientSword___ID_ULTIMATE_WEAPON= 'I030'
-constant integer AncientSword___ULTIMATE_WEAPON_NUMBER= 8
+constant integer AncientSword__ID_ITEM= 'I02P'
+constant integer AncientSword__ID_ULTIMATE_WEAPON= 'I030'
+constant integer AncientSword__ULTIMATE_WEAPON_NUMBER= 8
         
-constant integer AncientSword___CHANCE= 5
-constant integer AncientSword___DAMAGE= 60
-constant real AncientSword___TICK= 0.04
-constant integer AncientSword___FLIGHT_LENGTH= 32
-constant integer AncientSword___AREA= 128
-constant integer AncientSword___SPEED= 44
+constant integer AncientSword__CHANCE= 5
+constant integer AncientSword__DAMAGE= 60
+constant real AncientSword__TICK= 0.04
+constant integer AncientSword__FLIGHT_LENGTH= 32
+constant integer AncientSword__AREA= 128
+constant integer AncientSword__SPEED= 44
         
-constant string AncientSword___WAVE_ANIMATION= "Abilities\\Spells\\Orc\\Shockwave\\ShockwaveMissile.mdl"
+constant string AncientSword__WAVE_ANIMATION= "Abilities\\Spells\\Orc\\Shockwave\\ShockwaveMissile.mdl"
         
-trigger AncientSword___Wave_Use= null
+trigger AncientSword__Wave_Use= null
 constant integer BoStaff___ID_ITEM= 'I0H8'
 constant integer BoStaff___ULT_WEAPON= 'I030'
 constant integer BoStaff___ULT_NUMBER= 20
@@ -3542,13 +3540,13 @@ constant integer KnightR__BUFF= 'B07D'
 constant string KnightR__ANIMATION= "Abilities\\Spells\\Undead\\VampiricAura\\VampiricAuraTarget.mdl"
         
 boolean KnightR__Loop= false
-constant integer BarbarianE___ID_ABILITY= 'A08F'
-constant real BarbarianE___RESOURCE_BONUS_FIRST_LEVEL= 0
-constant real BarbarianE___RESOURCE_BONUS_LEVEL_BONUS= 0.01
-constant integer BarbarianE___MINIMUM_RESOURCE_ADDED= 1
+constant integer BarbarianE__ID_ABILITY= 'A08F'
+constant real BarbarianE__RESOURCE_BONUS_FIRST_LEVEL= 0
+constant real BarbarianE__RESOURCE_BONUS_LEVEL_BONUS= 0.01
+constant integer BarbarianE__MINIMUM_RESOURCE_ADDED= 1
         
-constant string BarbarianE___ANIMATION_HEALTH= "Abilities\\Spells\\Human\\Heal\\HealTarget.mdl"
-constant string BarbarianE___ANIMATION_MANA= "Abilities\\Spells\\Undead\\ReplenishMana\\ReplenishManaCaster.mdl"
+constant string BarbarianE__ANIMATION_HEALTH= "Abilities\\Spells\\Human\\Heal\\HealTarget.mdl"
+constant string BarbarianE__ANIMATION_MANA= "Abilities\\Spells\\Undead\\ReplenishMana\\ReplenishManaCaster.mdl"
 constant real MARSHAL_W_DURATION= 15
 constant real MARSHAL_W_LIFETIME= 15
 constant integer MARSHAL_R_CHANCE= 15
@@ -4262,13 +4260,13 @@ integer si__point_I=0
 integer array si__point_V
 real array s__point_x
 real array s__point_y
-constant integer si__RandomTargetLib__ProvokeTypes=54
-integer si__RandomTargetLib__ProvokeTypes_F=0
-integer si__RandomTargetLib__ProvokeTypes_I=0
-integer array si__RandomTargetLib__ProvokeTypes_V
-boolean array s___RandomTargetLib__ProvokeTypes_isTypeActive
-constant integer s___RandomTargetLib__ProvokeTypes_isTypeActive_size=11
-integer array s__RandomTargetLib__ProvokeTypes_isTypeActive
+constant integer si__RandomTargetLib___ProvokeTypes=54
+integer si__RandomTargetLib___ProvokeTypes_F=0
+integer si__RandomTargetLib___ProvokeTypes_I=0
+integer array si__RandomTargetLib___ProvokeTypes_V
+boolean array s___RandomTargetLib___ProvokeTypes_isTypeActive
+constant integer s___RandomTargetLib___ProvokeTypes_isTypeActive_size=11
+integer array s__RandomTargetLib___ProvokeTypes_isTypeActive
 constant integer si__AbilityStack=56
 integer si__AbilityStack_F=0
 integer si__AbilityStack_I=0
@@ -4330,7 +4328,7 @@ trigger array s__DB_Trigger_Boss
 sound array s__Boss_Talk
 integer array s__DB_Items
 integer array s__DB_SetItems
-integer array s__RandomHero__Attempts_Used
+integer array s__RandomHero___Attempts_Used
 unit array s__Transport
 framehandle array s__AspectFrames__AspectButton
 framehandle array s__AspectFrames__BackdropAspect
@@ -4341,7 +4339,7 @@ integer array s__ChoosedAspect
 integer array s__Theme_Ability
 integer array s__Challenges
 integer array s__Database_Hero_Abilities
-string array s__RandomTargetLib__RandomTargetTypes
+string array s__RandomTargetLib___RandomTargetTypes
 string array s__JuleLib_Item_Name
 string array s__JuleLib_Item_Description
 framehandle array s__HeroesTable__heroButton
@@ -4569,32 +4567,32 @@ function s__AbilityStack_deallocate takes integer this returns nothing
     set si__AbilityStack_F=this
 endfunction
 
-//Generated allocator of RandomTargetLib__ProvokeTypes
-function s__RandomTargetLib__ProvokeTypes__allocate takes nothing returns integer
- local integer this=si__RandomTargetLib__ProvokeTypes_F
+//Generated allocator of RandomTargetLib___ProvokeTypes
+function s__RandomTargetLib___ProvokeTypes__allocate takes nothing returns integer
+ local integer this=si__RandomTargetLib___ProvokeTypes_F
     if (this!=0) then
-        set si__RandomTargetLib__ProvokeTypes_F=si__RandomTargetLib__ProvokeTypes_V[this]
+        set si__RandomTargetLib___ProvokeTypes_F=si__RandomTargetLib___ProvokeTypes_V[this]
     else
-        set si__RandomTargetLib__ProvokeTypes_I=si__RandomTargetLib__ProvokeTypes_I+1
-        set this=si__RandomTargetLib__ProvokeTypes_I
+        set si__RandomTargetLib___ProvokeTypes_I=si__RandomTargetLib___ProvokeTypes_I+1
+        set this=si__RandomTargetLib___ProvokeTypes_I
     endif
     if (this>743) then
         return 0
     endif
-    set s__RandomTargetLib__ProvokeTypes_isTypeActive[this]=(this-1)*11
-    set si__RandomTargetLib__ProvokeTypes_V[this]=-1
+    set s__RandomTargetLib___ProvokeTypes_isTypeActive[this]=(this-1)*11
+    set si__RandomTargetLib___ProvokeTypes_V[this]=-1
  return this
 endfunction
 
-//Generated destructor of RandomTargetLib__ProvokeTypes
-function s__RandomTargetLib__ProvokeTypes_deallocate takes integer this returns nothing
+//Generated destructor of RandomTargetLib___ProvokeTypes
+function s__RandomTargetLib___ProvokeTypes_deallocate takes integer this returns nothing
     if this==null then
         return
-    elseif (si__RandomTargetLib__ProvokeTypes_V[this]!=-1) then
+    elseif (si__RandomTargetLib___ProvokeTypes_V[this]!=-1) then
         return
     endif
-    set si__RandomTargetLib__ProvokeTypes_V[this]=si__RandomTargetLib__ProvokeTypes_F
-    set si__RandomTargetLib__ProvokeTypes_F=this
+    set si__RandomTargetLib___ProvokeTypes_V[this]=si__RandomTargetLib___ProvokeTypes_F
+    set si__RandomTargetLib___ProvokeTypes_F=this
 endfunction
 
 //Generated allocator of point
@@ -5752,8 +5750,8 @@ endfunction
 //library Frames:
 
 
-    function Frames__Exit takes nothing returns nothing
-        local framehandle frame= LoadFrameHandle(udg_hash, GetHandleId(BlzGetTriggerFrame()), Frames__KEY_EXIT)
+    function Frames___Exit takes nothing returns nothing
+        local framehandle frame= LoadFrameHandle(udg_hash, GetHandleId(BlzGetTriggerFrame()), Frames___KEY_EXIT)
         if GetLocalPlayer() == GetTriggerPlayer() then
             call BlzFrameSetVisible(frame, false)
         endif
@@ -5776,16 +5774,16 @@ endfunction
         set clickButton=BlzCreateFrameByType("GLUEBUTTON", "", background, "ScoreScreenTabButtonTemplate", 0)
         call BlzFrameSetSize(clickButton, 0.025, 0.025)
         call BlzFrameSetPoint(clickButton, FRAMEPOINT_CENTER, icon, FRAMEPOINT_CENTER, 0, 0)
-        call SaveFrameHandle(udg_hash, GetHandleId(clickButton), Frames__KEY_EXIT, background)
+        call SaveFrameHandle(udg_hash, GetHandleId(clickButton), Frames___KEY_EXIT, background)
         
-        set Frames__TempTrigger=CreateTrigger()
-        call BlzTriggerRegisterFrameEvent(Frames__TempTrigger, clickButton, FRAMEEVENT_CONTROL_CLICK)
-        call TriggerAddAction(Frames__TempTrigger, function Frames__Exit)
+        set Frames___TempTrigger=CreateTrigger()
+        call BlzTriggerRegisterFrameEvent(Frames___TempTrigger, clickButton, FRAMEEVENT_CONTROL_CLICK)
+        call TriggerAddAction(Frames___TempTrigger, function Frames___Exit)
         
         set icon=null
         set clickButton=null
         set background=null
-        return Frames__TempTrigger
+        return Frames___TempTrigger
     endfunction
 
 
@@ -6332,7 +6330,7 @@ endfunction
         return hasItem
     endfunction
 
-    function Inventory__SetModificators takes unit owner,item oldItem,item newItem returns nothing
+    function Inventory___SetModificators takes unit owner,item oldItem,item newItem returns nothing
         if SubString(BlzGetItemExtendedTooltip(oldItem), 0, 19) == "|cff00cceeChameleon" then
             call BlzSetItemExtendedTooltip(newItem, "|cff00cceeChameleon|r|n" + BlzGetItemExtendedTooltip(newItem)) // sadtwig
             //call BlzSetItemIconPath( newItem, "|cff00cceeChameleon|r|n" + BlzGetItemExtendedTooltip(newItem) )
@@ -6356,7 +6354,7 @@ endfunction
 
         call UnitRemoveItem(owner, oldItem)
         set bj_lastCreatedItem=CreateItem(newItem, GetUnitX(owner), GetUnitY(owner))
-        call Inventory__SetModificators(owner , oldItem , bj_lastCreatedItem)
+        call Inventory___SetModificators(owner , oldItem , bj_lastCreatedItem)
         call RemoveItem(oldItem)
         call UnitAddItem(owner, bj_lastCreatedItem)
         
@@ -6368,7 +6366,7 @@ endfunction
     function Inventory_ReplaceItem takes unit owner,item oldItem,item newItem returns nothing
         
         call UnitRemoveItem(owner, oldItem)
-        call Inventory__SetModificators(owner , oldItem , newItem)
+        call Inventory___SetModificators(owner , oldItem , newItem)
         call RemoveItem(oldItem)
         if IsItemOwned(newItem) == false then
             call UnitAddItem(owner, newItem)
@@ -8041,7 +8039,7 @@ endfunction
 //library Lightning:
 
 
-    function Lightning__End takes nothing returns nothing
+    function Lightning___End takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         call DestroyLightning(LoadLightningHandle(udg_hash, id, StringHash("light")))
         call FlushChildHashtable(udg_hash, id)
@@ -8050,15 +8048,15 @@ endfunction
     function Lightning_CreateLightning takes string lightningType,real xStart,real yStart,real zStart,real xEnd,real yEnd,real zEnd,real lifeTime returns lightning
         local integer id
     
-        set Lightning__TempLightning=AddLightningEx(lightningType, true, xStart, yStart, zStart, xEnd, yEnd, zEnd)
+        set Lightning___TempLightning=AddLightningEx(lightningType, true, xStart, yStart, zStart, xEnd, yEnd, zEnd)
                 
-        set id=GetHandleId(Lightning__TempLightning)
+        set id=GetHandleId(Lightning___TempLightning)
         call SaveTimerHandle(udg_hash, id, StringHash("light"), CreateTimer())
         set id=GetHandleId(LoadTimerHandle(udg_hash, id, StringHash("light")))
-        call SaveLightningHandle(udg_hash, id, StringHash("light"), Lightning__TempLightning)
-        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(Lightning__TempLightning), StringHash("light")), lifeTime, false, function Lightning__End)
+        call SaveLightningHandle(udg_hash, id, StringHash("light"), Lightning___TempLightning)
+        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(Lightning___TempLightning), StringHash("light")), lifeTime, false, function Lightning___End)
         
-        return Lightning__TempLightning
+        return Lightning___TempLightning
     endfunction
 
 
@@ -9118,37 +9116,37 @@ endfunction
 
 
     function RandomHero_IsCanPick takes player owner returns boolean
-        local boolean isCan= s__RandomHero__Attempts_Used[GetPlayerId(owner) + 1] < RandomHero__ATTEMPTS_TO_PICK_RANDOM_HERO
+        local boolean isCan= s__RandomHero___Attempts_Used[GetPlayerId(owner) + 1] < RandomHero___ATTEMPTS_TO_PICK_RANDOM_HERO
         
         set owner=null
         return isCan
     endfunction
     
     function RandomHero_IsCanPickByIndex takes integer playerIndex returns boolean
-        return s__RandomHero__Attempts_Used[playerIndex] < RandomHero__ATTEMPTS_TO_PICK_RANDOM_HERO
+        return s__RandomHero___Attempts_Used[playerIndex] < RandomHero___ATTEMPTS_TO_PICK_RANDOM_HERO
     endfunction
     
     function RandomHero_GetRandomHero takes player p returns unit
         local integer cyclA= 1
         local integer rand
         local integer i= GetPlayerId(p) + 1
-        set RandomHero__Temp=null
+        set RandomHero___Temp=null
         
         if udg_Boss_LvL == 2 then
-            set s__RandomHero__Attempts_Used[i]= 0
+            set s__RandomHero___Attempts_Used[i]= 0
         endif
 
         if RandomHero_IsCanPick(p) then
-            set s__RandomHero__Attempts_Used[i]= s__RandomHero__Attempts_Used[i] + 1
+            set s__RandomHero___Attempts_Used[i]= s__RandomHero___Attempts_Used[i] + 1
             if udg_Boss_LvL == 1 then
-                call DisplayTimedTextToPlayer(p, 0, 0, 10., "Attempts left: " + I2S(3 - s__RandomHero__Attempts_Used[i]))
+                call DisplayTimedTextToPlayer(p, 0, 0, 10., "Attempts left: " + I2S(3 - s__RandomHero___Attempts_Used[i]))
             endif
             loop
                 exitwhen cyclA > 1
                 set rand=GetRandomInt(1, udg_Database_InfoNumberHeroes)
                 if CountUnitsInGroup(GetUnitsOfTypeIdAll(udg_Database_Hero[rand])) == 0 and udg_UnitHeroLogic[rand] == false and s__IsBanned[rand] == false then
                     set udg_logic[8]=true
-                    set RandomHero__Temp=CreateUnit(p, udg_Database_Hero[rand], GetRectCenterX(gg_rct_HeroesTp), GetRectCenterY(gg_rct_HeroesTp), 270)
+                    set RandomHero___Temp=CreateUnit(p, udg_Database_Hero[rand], GetRectCenterX(gg_rct_HeroesTp), GetRectCenterY(gg_rct_HeroesTp), 270)
                 else
                     set cyclA=cyclA - 1
                 endif
@@ -9156,7 +9154,7 @@ endfunction
             endloop
         endif
         set p=null
-        return RandomHero__Temp
+        return RandomHero___Temp
     endfunction
     
 
@@ -9705,14 +9703,14 @@ endfunction
 //library SetCount:
 
 
-    function SetCount__SetMech takes unit u,integer addedMechs,integer index returns integer
+    function SetCount___SetMech takes unit u,integer addedMechs,integer index returns integer
         local integer unitIndex= GetHandleId(u)
-        local integer currentMech= LoadInteger(udg_hash, unitIndex, SetCount__KEY_MECH)
+        local integer currentMech= LoadInteger(udg_hash, unitIndex, SetCount___KEY_MECH)
         local integer oldMech= currentMech
         
         set currentMech=addedMechs
         
-        call SaveInteger(udg_hash, unitIndex, SetCount__KEY_MECH, currentMech)
+        call SaveInteger(udg_hash, unitIndex, SetCount___KEY_MECH, currentMech)
         call MultiSetValue(udg_multi , ( 3 * udg_Multiboard_Position[index] ) + 1 , 15 , I2S(currentMech))
         
         set Event_MechAdded_Hero=u
@@ -9737,7 +9735,7 @@ endfunction
         elseif setCount == SET_CRYSTAL then
             set udg_Set_Cristall_Number[unitId]=udg_Set_Cristall_Number[unitId] + numberToAdd
         elseif setCount == SET_MECH then
-            call SetCount__SetMech(hero , LoadInteger(udg_hash, GetHandleId(hero), SetCount__KEY_MECH) + numberToAdd , unitId)
+            call SetCount___SetMech(hero , LoadInteger(udg_hash, GetHandleId(hero), SetCount___KEY_MECH) + numberToAdd , unitId)
         elseif setCount == SET_MOON then
             set udg_Set_Moon_Number[unitId]=udg_Set_Moon_Number[unitId] + numberToAdd
         elseif setCount == SET_NATURE then
@@ -9763,7 +9761,7 @@ endfunction
         elseif setCount == SET_CRYSTAL then
             set udg_Set_Cristall_Number[unitId]=numberToSet
         elseif setCount == SET_MECH then
-            call SetCount__SetMech(hero , numberToSet , unitId)
+            call SetCount___SetMech(hero , numberToSet , unitId)
         elseif setCount == SET_MOON then
             set udg_Set_Moon_Number[unitId]=numberToSet
         elseif setCount == SET_NATURE then
@@ -9790,7 +9788,7 @@ endfunction
         elseif setCount == SET_CRYSTAL then
             set count=udg_Set_Cristall_Number[unitId]
         elseif setCount == SET_MECH then
-            set count=LoadInteger(udg_hash, GetHandleId(hero), SetCount__KEY_MECH)
+            set count=LoadInteger(udg_hash, GetHandleId(hero), SetCount___KEY_MECH)
         elseif setCount == SET_MOON then
             set count=udg_Set_Moon_Number[unitId]
         elseif setCount == SET_NATURE then
@@ -10040,15 +10038,15 @@ endfunction
         call BlzFrameSetSize(frame, 0.25, (0.05 + ( 0.0003 * StringLength((disc)) )) + 0.05) // INLINED!!
         call BlzFrameSetText(frame, name)
 
-        set SetStableToolLib__description=BlzCreateFrameByType("TEXT", "", tool, "StandartFrameTemplate", 0)
-        call BlzFrameSetPoint(SetStableToolLib__description, FRAMEPOINT_TOPLEFT, tool, FRAMEPOINT_TOPLEFT, 0.008, - 0.023)
-        call BlzFrameSetSize(SetStableToolLib__description, 0.25, (0.05 + ( 0.0003 * StringLength((disc)) )) + 0.05) // INLINED!!
-        call BlzFrameSetText(SetStableToolLib__description, disc)
+        set SetStableToolLib___description=BlzCreateFrameByType("TEXT", "", tool, "StandartFrameTemplate", 0)
+        call BlzFrameSetPoint(SetStableToolLib___description, FRAMEPOINT_TOPLEFT, tool, FRAMEPOINT_TOPLEFT, 0.008, - 0.023)
+        call BlzFrameSetSize(SetStableToolLib___description, 0.25, (0.05 + ( 0.0003 * StringLength((disc)) )) + 0.05) // INLINED!!
+        call BlzFrameSetText(SetStableToolLib___description, disc)
 
         set tool=null
         set frame=null
         set f=null
-        return SetStableToolLib__description
+        return SetStableToolLib___description
     endfunction
     
     function SetStableToolDescription takes framehandle f,string disc returns nothing
@@ -12873,51 +12871,51 @@ endfunction
 //library RandomTargetLib:
 
     
-    function RandomTargetLib__init takes nothing returns nothing
-        set s__RandomTargetLib__RandomTargetTypes[0]= RANDOM_TARGET_NOT_STUNNED
-        set s__RandomTargetLib__RandomTargetTypes[1]= RANDOM_TARGET_UNDEAD
-        set s__RandomTargetLib__RandomTargetTypes[2]= RANDOM_TARGET_ORGANIC
-        set s__RandomTargetLib__RandomTargetTypes[3]= RANDOM_TARGET_NOT_UNDEAD
-        set s__RandomTargetLib__RandomTargetTypes[4]= RANDOM_TARGET_NOT_CASTER
-        set s__RandomTargetLib__RandomTargetTypes[5]= RANDOM_TARGET_MINION
-        set s__RandomTargetLib__RandomTargetTypes[6]= RANDOM_TARGET_HERO
-        set s__RandomTargetLib__RandomTargetTypes[7]= RANDOM_TARGET_NOT_FULL_HEALTH
-        set s__RandomTargetLib__RandomTargetTypes[8]= RANDOM_TARGET_VULNERABLE
-        set s__RandomTargetLib__RandomTargetTypes[9]= RANDOM_TARGET_CAN_MOVE
-        set s__RandomTargetLib__RandomTargetTypes[10]= RANDOM_TARGET_NOT_PROVOKED
+    function RandomTargetLib___init takes nothing returns nothing
+        set s__RandomTargetLib___RandomTargetTypes[0]= RANDOM_TARGET_NOT_STUNNED
+        set s__RandomTargetLib___RandomTargetTypes[1]= RANDOM_TARGET_UNDEAD
+        set s__RandomTargetLib___RandomTargetTypes[2]= RANDOM_TARGET_ORGANIC
+        set s__RandomTargetLib___RandomTargetTypes[3]= RANDOM_TARGET_NOT_UNDEAD
+        set s__RandomTargetLib___RandomTargetTypes[4]= RANDOM_TARGET_NOT_CASTER
+        set s__RandomTargetLib___RandomTargetTypes[5]= RANDOM_TARGET_MINION
+        set s__RandomTargetLib___RandomTargetTypes[6]= RANDOM_TARGET_HERO
+        set s__RandomTargetLib___RandomTargetTypes[7]= RANDOM_TARGET_NOT_FULL_HEALTH
+        set s__RandomTargetLib___RandomTargetTypes[8]= RANDOM_TARGET_VULNERABLE
+        set s__RandomTargetLib___RandomTargetTypes[9]= RANDOM_TARGET_CAN_MOVE
+        set s__RandomTargetLib___RandomTargetTypes[10]= RANDOM_TARGET_NOT_PROVOKED
     endfunction
     
     
-    function RandomTargetLib__IsCanBeTarget takes unit caster,unit target,integer provokeTypes returns boolean
+    function RandomTargetLib___IsCanBeTarget takes unit caster,unit target,integer provokeTypes returns boolean
         local boolean isWork= true
     
-        if s___RandomTargetLib__ProvokeTypes_isTypeActive[s__RandomTargetLib__ProvokeTypes_isTypeActive[provokeTypes]] and IsUnitHasAbility(target , 'BPSE') then
+        if s___RandomTargetLib___ProvokeTypes_isTypeActive[s__RandomTargetLib___ProvokeTypes_isTypeActive[provokeTypes]] and IsUnitHasAbility(target , 'BPSE') then
             set isWork=false
-        elseif s___RandomTargetLib__ProvokeTypes_isTypeActive[s__RandomTargetLib__ProvokeTypes_isTypeActive[provokeTypes]+1] and IsUnitType(target, UNIT_TYPE_UNDEAD) == false then
+        elseif s___RandomTargetLib___ProvokeTypes_isTypeActive[s__RandomTargetLib___ProvokeTypes_isTypeActive[provokeTypes]+1] and IsUnitType(target, UNIT_TYPE_UNDEAD) == false then
             set isWork=false
-        elseif s___RandomTargetLib__ProvokeTypes_isTypeActive[s__RandomTargetLib__ProvokeTypes_isTypeActive[provokeTypes]+2] and IsUnitType(target, UNIT_TYPE_MECHANICAL) then
+        elseif s___RandomTargetLib___ProvokeTypes_isTypeActive[s__RandomTargetLib___ProvokeTypes_isTypeActive[provokeTypes]+2] and IsUnitType(target, UNIT_TYPE_MECHANICAL) then
             set isWork=false
-        elseif s___RandomTargetLib__ProvokeTypes_isTypeActive[s__RandomTargetLib__ProvokeTypes_isTypeActive[provokeTypes]+3] and IsUnitType(target, UNIT_TYPE_UNDEAD) == false then
+        elseif s___RandomTargetLib___ProvokeTypes_isTypeActive[s__RandomTargetLib___ProvokeTypes_isTypeActive[provokeTypes]+3] and IsUnitType(target, UNIT_TYPE_UNDEAD) == false then
             set isWork=false
-        elseif s___RandomTargetLib__ProvokeTypes_isTypeActive[s__RandomTargetLib__ProvokeTypes_isTypeActive[provokeTypes]+4] and caster == target then
+        elseif s___RandomTargetLib___ProvokeTypes_isTypeActive[s__RandomTargetLib___ProvokeTypes_isTypeActive[provokeTypes]+4] and caster == target then
             set isWork=false
-        elseif s___RandomTargetLib__ProvokeTypes_isTypeActive[s__RandomTargetLib__ProvokeTypes_isTypeActive[provokeTypes]+5] and ( IsUnitType(target, UNIT_TYPE_HERO) or IsUnitType(target, UNIT_TYPE_ANCIENT) ) then
+        elseif s___RandomTargetLib___ProvokeTypes_isTypeActive[s__RandomTargetLib___ProvokeTypes_isTypeActive[provokeTypes]+5] and ( IsUnitType(target, UNIT_TYPE_HERO) or IsUnitType(target, UNIT_TYPE_ANCIENT) ) then
             set isWork=false
-        elseif s___RandomTargetLib__ProvokeTypes_isTypeActive[s__RandomTargetLib__ProvokeTypes_isTypeActive[provokeTypes]+6] and IsUnitType(target, UNIT_TYPE_HERO) == false then
+        elseif s___RandomTargetLib___ProvokeTypes_isTypeActive[s__RandomTargetLib___ProvokeTypes_isTypeActive[provokeTypes]+6] and IsUnitType(target, UNIT_TYPE_HERO) == false then
             set isWork=false
-        elseif s___RandomTargetLib__ProvokeTypes_isTypeActive[s__RandomTargetLib__ProvokeTypes_isTypeActive[provokeTypes]+7] and IsUnitHealthIsFull(target) then
+        elseif s___RandomTargetLib___ProvokeTypes_isTypeActive[s__RandomTargetLib___ProvokeTypes_isTypeActive[provokeTypes]+7] and IsUnitHealthIsFull(target) then
             set isWork=false
-        elseif s___RandomTargetLib__ProvokeTypes_isTypeActive[s__RandomTargetLib__ProvokeTypes_isTypeActive[provokeTypes]+8] and IsUnitHasAbility(target , 'Avul') then
+        elseif s___RandomTargetLib___ProvokeTypes_isTypeActive[s__RandomTargetLib___ProvokeTypes_isTypeActive[provokeTypes]+8] and IsUnitHasAbility(target , 'Avul') then
             set isWork=false
-        elseif s___RandomTargetLib__ProvokeTypes_isTypeActive[s__RandomTargetLib__ProvokeTypes_isTypeActive[provokeTypes]+9] and GetUnitDefaultMoveSpeed(target) == 0 then
+        elseif s___RandomTargetLib___ProvokeTypes_isTypeActive[s__RandomTargetLib___ProvokeTypes_isTypeActive[provokeTypes]+9] and GetUnitDefaultMoveSpeed(target) == 0 then
             set isWork=false
-        elseif s___RandomTargetLib__ProvokeTypes_isTypeActive[s__RandomTargetLib__ProvokeTypes_isTypeActive[provokeTypes]+10] and IsUnitHasAbility(target , 'A09H') then
+        elseif s___RandomTargetLib___ProvokeTypes_isTypeActive[s__RandomTargetLib___ProvokeTypes_isTypeActive[provokeTypes]+10] and IsUnitHasAbility(target , 'A09H') then
             set isWork=false
         endif
         
         set caster=null
         set target=null
-        call s__RandomTargetLib__ProvokeTypes_deallocate(provokeTypes)
+        call s__RandomTargetLib___ProvokeTypes_deallocate(provokeTypes)
         return isWork
     endfunction
 
@@ -12928,7 +12926,7 @@ endfunction
         local group g= CreateGroup()
         local unit u
         local string array s
-        local integer provokeTypes= s__RandomTargetLib__ProvokeTypes__allocate()
+        local integer provokeTypes= s__RandomTargetLib___ProvokeTypes__allocate()
 
         if str != "ally" and str != "all" and str != "enemy" then
             call BJDebugMsg("An ability that was applied accidentally has an incorrect target. Please notify the developer about this.")
@@ -12946,10 +12944,10 @@ endfunction
             if s[i] != null and s[i] != "" then
                 set k=1
                 loop
-                    exitwhen k > RandomTargetLib__PROVOKE_TYPES_COUNT
-                    if s[i] == s__RandomTargetLib__RandomTargetTypes[k] then
-                        set s___RandomTargetLib__ProvokeTypes_isTypeActive[s__RandomTargetLib__ProvokeTypes_isTypeActive[provokeTypes]+k]=true
-                        set k=RandomTargetLib__PROVOKE_TYPES_COUNT
+                    exitwhen k > RandomTargetLib___PROVOKE_TYPES_COUNT
+                    if s[i] == s__RandomTargetLib___RandomTargetTypes[k] then
+                        set s___RandomTargetLib___ProvokeTypes_isTypeActive[s__RandomTargetLib___ProvokeTypes_isTypeActive[provokeTypes]+k]=true
+                        set k=RandomTargetLib___PROVOKE_TYPES_COUNT
                     endif
                     set k=k + 1
                 endloop
@@ -12961,15 +12959,15 @@ endfunction
         loop
             set u=FirstOfGroup(g)
             exitwhen u == null
-            if unitst(u , caster , str) and RandomTargetLib__IsCanBeTarget(caster , u , provokeTypes) then
+            if unitst(u , caster , str) and RandomTargetLib___IsCanBeTarget(caster , u , provokeTypes) then
                 call GroupAddUnit(utr, u)
             endif
             call GroupRemoveUnit(g, u)
         endloop
         
-        set RandomTargetLib__TempUnit=null
+        set RandomTargetLib___TempUnit=null
         if IsUnitGroupEmptyBJ(utr) == false then
-            set RandomTargetLib__TempUnit=GroupPickRandomUnit(utr)
+            set RandomTargetLib___TempUnit=GroupPickRandomUnit(utr)
         endif
 
         call GroupClear(g)
@@ -12980,7 +12978,7 @@ endfunction
         set g=null
         set utr=null
         set caster=null
-        return RandomTargetLib__TempUnit
+        return RandomTargetLib___TempUnit
     endfunction
 
 
@@ -15068,13 +15066,13 @@ endfunction
 //library PolyLib:
 
     
-    function PolyLib__EndPolymorph takes unit target returns nothing
+    function PolyLib___EndPolymorph takes unit target returns nothing
         local integer unitId= GetHandleId(target)
         local integer skin= LoadInteger(udg_hash, unitId, StringHash("polysk"))
         local real selectionScale= LoadReal(udg_hash, unitId, StringHash("polyc"))
 
         if IsUnitAlive(target) then
-            call PlaySpecialEffect(PolyLib__ANIMATION , target)
+            call PlaySpecialEffect(PolyLib___ANIMATION , target)
         endif
         call SetUnitSkin(target , skin)
         call BlzSetUnitRealFieldBJ(target, UNIT_RF_SELECTION_SCALE, selectionScale)
@@ -15096,7 +15094,7 @@ endfunction
 
         call SaveInteger(udg_hash, unitId, StringHash("poly"), h)
         if h <= 0 and IsUnitHasAbility(u , 'A1A0') then
-            call PolyLib__EndPolymorph(u)
+            call PolyLib___EndPolymorph(u)
         endif
         call FlushChildHashtable(udg_hash, id)
 
@@ -15141,24 +15139,24 @@ endfunction
         set target=null
     endfunction
 
-    function PolyLib__DeleteBuff_Conditions takes nothing returns boolean
+    function PolyLib___DeleteBuff_Conditions takes nothing returns boolean
         return IsUnitHasAbility(Event_DeleteBuff_Unit , 'A1A0')
     endfunction
     
-    function PolyLib__DeleteBuff takes nothing returns nothing
-        call PolyLib__EndPolymorph(Event_DeleteBuff_Unit)
+    function PolyLib___DeleteBuff takes nothing returns nothing
+        call PolyLib___EndPolymorph(Event_DeleteBuff_Unit)
     endfunction
     
-    function PolyLib__DeleteSilence takes nothing returns nothing
+    function PolyLib___DeleteSilence takes nothing returns nothing
         if IsUnitHasAbility(Event_DeleteBuff_Unit , 'BNsi') then
             call UnitRemoveAbility(Event_DeleteBuff_Unit, 'BNsi')
         endif
     endfunction
     
-    function PolyLib__init takes nothing returns nothing
+    function PolyLib___init takes nothing returns nothing
         //Poly can sometimes not delete and stay permanently, if its active:
         //call CreateEventTrigger( "Event_DeleteBuff_Real", function DeleteBuff, function DeleteBuff_Conditions )
-        call CreateEventTrigger("Event_DeleteBuff_Real" , function PolyLib__DeleteSilence , null)
+        call CreateEventTrigger("Event_DeleteBuff_Real" , function PolyLib___DeleteSilence , null)
     endfunction
 
 
@@ -16126,7 +16124,7 @@ endfunction
         set caster=null
     endfunction
 
-    function HealstLib__HealUnit takes unit caster,unit target,real r returns nothing
+    function HealstLib___HealUnit takes unit caster,unit target,real r returns nothing
         local integer i= GetPlayerId(GetOwningPlayer(caster)) + 1
         local integer cyclA= 1
         local integer id
@@ -16327,7 +16325,7 @@ endfunction
         local unit caster= LoadUnitHandle(udg_hash, id, StringHash("healc"))
         local real r= LoadReal(udg_hash, id, StringHash("heal"))
     
-        call HealstLib__HealUnit(caster , target , r)
+        call HealstLib___HealUnit(caster , target , r)
         call FlushChildHashtable(udg_hash, id)
     
         set caster=null
@@ -16345,7 +16343,7 @@ endfunction
             call SaveReal(udg_hash, id, StringHash("heal"), r)
             call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(caster), StringHash("heal")), 0.01, false, function EndHealTimer)
         else
-            call HealstLib__HealUnit(caster , target , r)
+            call HealstLib___HealUnit(caster , target , r)
         endif
         
         set caster=null
@@ -16527,7 +16525,7 @@ endfunction
 //library Repick:
 
     
-    function Repick___DeleteItems takes unit hero returns nothing
+    function Repick__DeleteItems takes unit hero returns nothing
         local integer i= 0
         local item it
         
@@ -16578,7 +16576,7 @@ endfunction
         endif
         
         call DelBuff(hero , false)
-        call Repick___DeleteItems(hero)
+        call Repick__DeleteItems(hero)
         call MultiSetIcon(udg_multi , ( udg_Multiboard_Position[index] * 3 ) - 1 , 3 , "ReplaceableTextures\\CommandButtons\\BTNSelectHeroOn.blp")
 
         set Event_HeroRepick_Hero=hero
@@ -17396,7 +17394,7 @@ endfunction
         if s__IsBanned[heroIndex] then
             //call BJDebugMsg("IsBanned")
             return false
-        elseif (s__RandomHero__Attempts_Used[(playerIndex)] < RandomHero__ATTEMPTS_TO_PICK_RANDOM_HERO) == false and isRandomPick then //Attempts_Used[playerIndex] < ATTEMPTS_TO_PICK_RANDOM_HERO // INLINED!!
+        elseif (s__RandomHero___Attempts_Used[(playerIndex)] < RandomHero___ATTEMPTS_TO_PICK_RANDOM_HERO) == false and isRandomPick then //Attempts_Used[playerIndex] < ATTEMPTS_TO_PICK_RANDOM_HERO // INLINED!!
             //call BJDebugMsg("no attemps")
             return false
         elseif heroId == 0 then
@@ -18462,7 +18460,7 @@ endfunction
 //library Mods ends
 //===========================================================================
 // 
-// |cffbe81f7Boss Battle 1.12.6T|r
+// |cffbe81f7Boss Battle 1.12.7T|r
 // 
 //   Warcraft III map script
 //   Generated by the Warcraft III World Editor
@@ -23823,31 +23821,14 @@ endfunction
 //===========================================================================
 // Trigger: Untitled Trigger 001
 //===========================================================================
-function Trig_Untitled_Trigger_001_Func001A takes nothing returns nothing
-endfunction
-
 function Trig_Untitled_Trigger_001_Actions takes nothing returns nothing
-    call ForGroupBJ(GetUnitsInRectOfPlayer(GetPlayableMapRect(), Player(0)), function Trig_Untitled_Trigger_001_Func001A)
+    call AddLightningLoc("DRAL", GetUnitLoc(GetTriggerUnit()), GetRectCenter(GetPlayableMapRect()))
 endfunction
 
 //===========================================================================
 function InitTrig_Untitled_Trigger_001 takes nothing returns nothing
     set gg_trg_Untitled_Trigger_001=CreateTrigger()
     call TriggerAddAction(gg_trg_Untitled_Trigger_001, function Trig_Untitled_Trigger_001_Actions)
-endfunction
-
-
-//===========================================================================
-// Trigger: Untitled Trigger 003
-//===========================================================================
-function Trig_Untitled_Trigger_003_Actions takes nothing returns nothing
-    call BlzSetSpecialEffectZ(GetLastCreatedEffectBJ(), 50.00)
-endfunction
-
-//===========================================================================
-function InitTrig_Untitled_Trigger_003 takes nothing returns nothing
-    set gg_trg_Untitled_Trigger_003=CreateTrigger()
-    call TriggerAddAction(gg_trg_Untitled_Trigger_003, function Trig_Untitled_Trigger_003_Actions)
 endfunction
 
 
@@ -35760,27 +35741,27 @@ endfunction
 
     
 
-    function HeroesChoise___Trig_HeroesChoise_Conditions takes nothing returns boolean
+    function HeroesChoise__Trig_HeroesChoise_Conditions takes nothing returns boolean
         return IsUnitType(GetEnteringUnit(), UNIT_TYPE_HERO) and udg_hero[GetPlayerId(GetOwningPlayer(GetEnteringUnit())) + 1] == null
     endfunction
     
-    function HeroesChoise___GetFirstPositon takes unit hero,integer index returns integer
+    function HeroesChoise__GetFirstPositon takes unit hero,integer index returns integer
         if udg_Boss_LvL > 1 then
             call SetHeroLevel(hero, GetHeroLevel(hero) + 1, true)
-            set s__FirstPosition_x[HeroesChoise___tempPosition]=GetLocationX(udg_point[index + 21])
-            set s__FirstPosition_y[HeroesChoise___tempPosition]=GetLocationY(udg_point[index + 21])
-            set s__FirstPosition_facing[HeroesChoise___tempPosition]=90
+            set s__FirstPosition_x[HeroesChoise__tempPosition]=GetLocationX(udg_point[index + 21])
+            set s__FirstPosition_y[HeroesChoise__tempPosition]=GetLocationY(udg_point[index + 21])
+            set s__FirstPosition_facing[HeroesChoise__tempPosition]=90
         else
-            set s__FirstPosition_x[HeroesChoise___tempPosition]=GetRectCenterX(gg_rct_HeroTp)
-            set s__FirstPosition_y[HeroesChoise___tempPosition]=GetRectCenterY(gg_rct_HeroTp)
-            set s__FirstPosition_facing[HeroesChoise___tempPosition]=270
+            set s__FirstPosition_x[HeroesChoise__tempPosition]=GetRectCenterX(gg_rct_HeroTp)
+            set s__FirstPosition_y[HeroesChoise__tempPosition]=GetRectCenterY(gg_rct_HeroTp)
+            set s__FirstPosition_facing[HeroesChoise__tempPosition]=270
         endif
     
         set hero=null
-        return HeroesChoise___tempPosition
+        return HeroesChoise__tempPosition
     endfunction
 
-    function HeroesChoise___SetClassNumber takes unit hero returns nothing
+    function HeroesChoise__SetClassNumber takes unit hero returns nothing
         local integer i= 1
         local integer iEnd
         local boolean isFind= false
@@ -35811,7 +35792,7 @@ endfunction
         set hero=null
     endfunction
     
-    function HeroesChoise___AddBonusItems takes unit hero,integer index returns nothing
+    function HeroesChoise__AddBonusItems takes unit hero,integer index returns nothing
         local integer unitType= GetUnitTypeId(hero)
     
         call UnitAddItem(hero, CreateItem('I054', GetUnitX(hero), GetUnitY(hero)))
@@ -35831,7 +35812,7 @@ endfunction
         set hero=null
     endfunction
     
-    function HeroesChoise___IsTimerResume takes nothing returns boolean
+    function HeroesChoise__IsTimerResume takes nothing returns boolean
         local integer i
         
         if IsSinglePlayer or udg_Boss_LvL == 1 then
@@ -35848,7 +35829,7 @@ endfunction
         return true
     endfunction
 
-    function HeroesChoise___HeroPicked takes nothing returns nothing
+    function HeroesChoise__HeroPicked takes nothing returns nothing
         local unit hero= Event_HeroPicked_Hero
         local player owner= Event_HeroPicked_Player
         local integer index= GetPlayerId(owner) + 1
@@ -35860,7 +35841,7 @@ endfunction
         set udg_UnitHeroLogic[heroKey]=true
         set udg_hero[index]=hero
         set s__ChoosedHero[index]= hero
-        set position=HeroesChoise___GetFirstPositon(hero , index)
+        set position=HeroesChoise__GetFirstPositon(hero , index)
         set udg_UnitHero[heroKey]=hero
         set udg_number[index + 100]=class + 1
         
@@ -35871,12 +35852,12 @@ endfunction
         call SetUnitOwner(hero, owner, true)
         call MMD_UpdateValueString("hero" , owner , GetUnitName(hero))
         call SetUnitUserData(hero, index)
-        call HeroesChoise___SetClassNumber(hero)
+        call HeroesChoise__SetClassNumber(hero)
         call GroupAddUnit(udg_otryad, hero)
         call GroupAddUnit(udg_heroinfo, hero)
         call FogModifierStop(udg_Visible[index])
-        call HeroesChoise___AddBonusItems(hero , index)
-        if HeroesChoise___IsTimerResume() then
+        call HeroesChoise__AddBonusItems(hero , index)
+        if HeroesChoise__IsTimerResume() then
             call ResumeTimer(udg_timer[1])
             call ResumeTimer(udg_timer[3])
         endif
@@ -35943,16 +35924,16 @@ endfunction
     endfunction
 
     //===========================================================================
-    function HeroesChoise___init takes nothing returns nothing
+    function HeroesChoise__init takes nothing returns nothing
         local integer i= 1
         loop
             exitwhen i > PLAYERS_LIMIT
             set s__ChoosedHero[i]= null
             set i=i + 1
         endloop
-        call CreateEventTrigger("Event_HeroPicked_Real" , function HeroesChoise___HeroPicked , null)
+        call CreateEventTrigger("Event_HeroPicked_Real" , function HeroesChoise__HeroPicked , null)
         
-        set HeroesChoise___tempPosition=s__FirstPosition__allocate()
+        set HeroesChoise__tempPosition=s__FirstPosition__allocate()
     endfunction
 
 // scope HeroesChoise ends
@@ -36837,7 +36818,7 @@ endfunction
 // scope ManaReg begins
 
 
-    function ManaReg___ShowText takes nothing returns nothing
+    function ManaReg__ShowText takes nothing returns nothing
         local unit hero= udg_hero[1]
         local real manaNow
         local real manaDeviation
@@ -36849,19 +36830,19 @@ endfunction
         endif
         //call BJDebugMsg("udg_hero[1] mana regen: " + R2S(BlzGetUnitRealField(hero, UNIT_RF_MANA_REGENERATION)) )
         set manaNow=GetUnitState(hero, UNIT_STATE_MANA)
-        set manaDeviation=manaNow - ManaReg___manaPast
+        set manaDeviation=manaNow - ManaReg__manaPast
         set manaReg=manaDeviation / 60
         if manaReg >= 0 then
             call BJDebugMsg("udg_hero[1] mana regen: " + R2S(manaReg))
         else
             call BJDebugMsg("Unknown. Mana is consumed.")
         endif
-        set ManaReg___manaPast=GetUnitState(hero, UNIT_STATE_MANA)
+        set ManaReg__manaPast=GetUnitState(hero, UNIT_STATE_MANA)
         
         set hero=null
     endfunction
 
-    function ManaReg___Trig_ManaReg_Actions takes nothing returns nothing
+    function ManaReg__Trig_ManaReg_Actions takes nothing returns nothing
         local unit hero= udg_hero[1]
         
         if hero == null then
@@ -36869,14 +36850,14 @@ endfunction
             return
         endif
         
-        if ManaReg___ManaRegTimer == null then
-            set ManaReg___ManaRegTimer=CreateTimer()
-            set ManaReg___manaPast=GetUnitState(hero, UNIT_STATE_MANA)
-            call TimerStart(ManaReg___ManaRegTimer, 1, true, function ManaReg___ShowText)
+        if ManaReg__ManaRegTimer == null then
+            set ManaReg__ManaRegTimer=CreateTimer()
+            set ManaReg__manaPast=GetUnitState(hero, UNIT_STATE_MANA)
+            call TimerStart(ManaReg__ManaRegTimer, 1, true, function ManaReg__ShowText)
             call BJDebugMsg("Mana regen enabled.")
         else
-            call DestroyTimer(ManaReg___ManaRegTimer)
-            set ManaReg___ManaRegTimer=null
+            call DestroyTimer(ManaReg__ManaRegTimer)
+            set ManaReg__ManaRegTimer=null
             call BJDebugMsg("Mana regen disabled.")
         endif
         
@@ -36884,11 +36865,11 @@ endfunction
     endfunction
 
     //===========================================================================
-    function ManaReg___init takes nothing returns nothing
+    function ManaReg__init takes nothing returns nothing
         set gg_trg_ManaReg=CreateTrigger()
         call DisableTrigger(gg_trg_ManaReg)
         call TriggerRegisterPlayerChatEvent(gg_trg_ManaReg, Player(0), "-manareg", false)
-        call TriggerAddAction(gg_trg_ManaReg, function ManaReg___Trig_ManaReg_Actions)
+        call TriggerAddAction(gg_trg_ManaReg, function ManaReg__Trig_ManaReg_Actions)
     endfunction
 
 // scope ManaReg ends
@@ -37197,9 +37178,9 @@ endfunction
     function Trig_Ancient_Sword_Conditions takes nothing returns boolean
         if udg_IsDamageSpell == true then
             return false
-        elseif not ( IsHeroHasItem(udg_DamageEventSource , AncientSword___ID_ITEM) or ( IsHeroHasItem(udg_DamageEventSource , AncientSword___ID_ULTIMATE_WEAPON) and udg_Set_Weapon_Logic[GetUnitUserData(udg_DamageEventSource) + AncientSword___ULTIMATE_WEAPON_NUMBER] ) ) then
+        elseif not ( IsHeroHasItem(udg_DamageEventSource , AncientSword__ID_ITEM) or ( IsHeroHasItem(udg_DamageEventSource , AncientSword__ID_ULTIMATE_WEAPON) and udg_Set_Weapon_Logic[GetUnitUserData(udg_DamageEventSource) + AncientSword__ULTIMATE_WEAPON_NUMBER] ) ) then
             return false
-        elseif (luckylogic((udg_DamageEventSource ) , ( AncientSword___CHANCE + GetUnitLevel(udg_DamageEventSource)) , 1 , 100)) == false then // INLINED!!
+        elseif (luckylogic((udg_DamageEventSource ) , ( AncientSword__CHANCE + GetUnitLevel(udg_DamageEventSource)) , 1 , 100)) == false then // INLINED!!
             return false
         endif
         return true
@@ -37207,7 +37188,7 @@ endfunction
     
     
     
-    function AncientSword___Use takes nothing returns nothing
+    function AncientSword__Use takes nothing returns nothing
         local unit caster= Event_WaveHit_Caster
         local unit target= Event_WaveHit_Target
         local real damage= LoadReal(udg_hash, GetHandleId(Event_WaveHit_Wave), StringHash("anss"))
@@ -37224,12 +37205,12 @@ endfunction
         local unit target= udg_DamageEventTarget
         local effect wave
         //local real yaw
-        local real damage= AncientSword___DAMAGE * GetUnitSpellPower(caster)
+        local real damage= AncientSword__DAMAGE * GetUnitSpellPower(caster)
         //local integer id
 
         
         
-        set wave=Wave_CreateWave(caster , GetUnitX(caster) , GetUnitY(caster) , GetUnitFacing(caster) , AncientSword___TICK , AncientSword___AREA , AncientSword___FLIGHT_LENGTH , AncientSword___SPEED , TARGET_ENEMY , WAVE_BASE_ANIMATION , AncientSword___Wave_Use , null)
+        set wave=Wave_CreateWave(caster , GetUnitX(caster) , GetUnitY(caster) , GetUnitFacing(caster) , AncientSword__TICK , AncientSword__AREA , AncientSword__FLIGHT_LENGTH , AncientSword__SPEED , TARGET_ENEMY , WAVE_BASE_ANIMATION , AncientSword__Wave_Use , null)
         call SaveReal(udg_hash, GetHandleId(wave), StringHash("anss"), damage)
         
         set wave=null
@@ -37238,11 +37219,11 @@ endfunction
     endfunction
 
     //===========================================================================
-    function AncientSword___init takes nothing returns nothing
+    function AncientSword__init takes nothing returns nothing
         call CreateEventTrigger("udg_AfterDamageEvent" , function Trig_Ancient_Sword_Actions , function Trig_Ancient_Sword_Conditions)
         
-        set AncientSword___Wave_Use=CreateTrigger()
-        call TriggerAddAction(AncientSword___Wave_Use, function AncientSword___Use)
+        set AncientSword__Wave_Use=CreateTrigger()
+        call TriggerAddAction(AncientSword__Wave_Use, function AncientSword__Use)
     endfunction
 // scope AncientSword ends
 
@@ -70850,28 +70831,28 @@ endfunction
 // scope BarbarianE begins
 
 
-    function BarbarianE___Trig_BarbarianE_Conditions takes nothing returns boolean
-         return udg_IsDamageSpell == false and IsUnitHasAbility(udg_DamageEventSource , BarbarianE___ID_ABILITY) and IsUnitEnemy(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget))
+    function BarbarianE__Trig_BarbarianE_Conditions takes nothing returns boolean
+         return udg_IsDamageSpell == false and IsUnitHasAbility(udg_DamageEventSource , BarbarianE__ID_ABILITY) and IsUnitEnemy(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget))
     endfunction
     
-    function BarbarianE___Trig_BarbarianE_Actions takes nothing returns nothing
-        local real percent= BarbarianE___RESOURCE_BONUS_FIRST_LEVEL + ( GetUnitAbilityLevel(udg_DamageEventSource, BarbarianE___ID_ABILITY) * BarbarianE___RESOURCE_BONUS_LEVEL_BONUS )
+    function BarbarianE__Trig_BarbarianE_Actions takes nothing returns nothing
+        local real percent= BarbarianE__RESOURCE_BONUS_FIRST_LEVEL + ( GetUnitAbilityLevel(udg_DamageEventSource, BarbarianE__ID_ABILITY) * BarbarianE__RESOURCE_BONUS_LEVEL_BONUS )
         local real heal
         
         if IsUnitManaIsFull(udg_DamageEventSource) then
-            set heal=RMaxBJ(BarbarianE___MINIMUM_RESOURCE_ADDED, GetUnitState(udg_DamageEventSource, UNIT_STATE_MAX_LIFE) * percent)
+            set heal=RMaxBJ(BarbarianE__MINIMUM_RESOURCE_ADDED, GetUnitState(udg_DamageEventSource, UNIT_STATE_MAX_LIFE) * percent)
             call healst(udg_DamageEventSource , null , heal)
-            call spectimeunit(udg_DamageEventSource , BarbarianE___ANIMATION_HEALTH , "origin" , 2)
+            call spectimeunit(udg_DamageEventSource , BarbarianE__ANIMATION_HEALTH , "origin" , 2)
         else
-            set heal=RMaxBJ(BarbarianE___MINIMUM_RESOURCE_ADDED, GetUnitState(udg_DamageEventSource, UNIT_STATE_MAX_MANA) * percent)
+            set heal=RMaxBJ(BarbarianE__MINIMUM_RESOURCE_ADDED, GetUnitState(udg_DamageEventSource, UNIT_STATE_MAX_MANA) * percent)
             call manast(udg_DamageEventSource , null , heal)
-            call spectimeunit(udg_DamageEventSource , BarbarianE___ANIMATION_MANA , "origin" , 2)
+            call spectimeunit(udg_DamageEventSource , BarbarianE__ANIMATION_MANA , "origin" , 2)
         endif
     endfunction
 
     //===========================================================================
-    function BarbarianE___init takes nothing returns nothing
-         call CreateEventTrigger("udg_AfterDamageEvent" , function BarbarianE___Trig_BarbarianE_Actions , function BarbarianE___Trig_BarbarianE_Conditions)
+    function BarbarianE__init takes nothing returns nothing
+         call CreateEventTrigger("udg_AfterDamageEvent" , function BarbarianE__Trig_BarbarianE_Actions , function BarbarianE__Trig_BarbarianE_Conditions)
     endfunction
 // scope BarbarianE ends
 //===========================================================================
@@ -108913,7 +108894,6 @@ endfunction
 //===========================================================================
 function InitCustomTriggers takes nothing returns nothing
     call InitTrig_Untitled_Trigger_001()
-    call InitTrig_Untitled_Trigger_003()
     //Function not found: call InitTrig_List()
     //Function not found: call InitTrig_Text()
     //Function not found: call InitTrig_Spd()
@@ -110506,7 +110486,7 @@ function main takes nothing returns nothing
     call CreateAllUnits()
     call InitBlizzard()
 
-call ExecuteFunc("jasshelper__initstructs24254578")
+call ExecuteFunc("jasshelper__initstructs31502843")
 call ExecuteFunc("Aspects__init")
 call ExecuteFunc("HeroesTableDatabase__init")
 call ExecuteFunc("MMD__init")
@@ -110516,9 +110496,9 @@ call ExecuteFunc("Tooltip__init")
 call ExecuteFunc("AspectFrames__init")
 call ExecuteFunc("ChallengeData__init")
 call ExecuteFunc("MetaEvents__init")
-call ExecuteFunc("RandomTargetLib__init")
+call ExecuteFunc("RandomTargetLib___init")
 call ExecuteFunc("SpellPower___init")
-call ExecuteFunc("PolyLib__init")
+call ExecuteFunc("PolyLib___init")
 call ExecuteFunc("HeroesTable__init")
 call BetterTriggerCheck___init()
 call TimerStart(CreateTimer(), 0.1, false, function Trig_BaseTooltip_Actions) // INLINED!!
@@ -110536,9 +110516,9 @@ call ExchangeReturn__init()
 call SplitShop__init()
 call SpecialsShop__init()
 call TimerStart(CreateTimer(), 0.05, false, function JuleFrame__Action) // INLINED!!
-call HeroesChoise___init()
-call ManaReg___init()
-call AncientSword___init()
+call HeroesChoise__init()
+call ManaReg__init()
+call AncientSword__init()
 call BoStaff___init()
 call CreateEventTrigger("udg_AfterDamageEvent" , function Trig_Bloody_Mary_Actions , function Trig_Bloody_Mary_Conditions) // INLINED!!
 call CreateEventTrigger("Event_ItemSplit_Real" , function ItemSplit , function ItemSplit_Conditions) // INLINED!!
@@ -110603,7 +110583,7 @@ call ArmsmasterQ__init()
 call ArmsmasterW__init()
 call ArmsmasterE__init()
 call KnightR__init()
-call CreateEventTrigger("udg_AfterDamageEvent" , function BarbarianE___Trig_BarbarianE_Actions , function BarbarianE___Trig_BarbarianE_Conditions) // INLINED!!
+call CreateEventTrigger("udg_AfterDamageEvent" , function BarbarianE__Trig_BarbarianE_Actions , function BarbarianE__Trig_BarbarianE_Conditions) // INLINED!!
 call MarshalE___Triggs()
 call ShadowArcherE___Triggs()
 call SamuraiW___Triggs()
@@ -110734,7 +110714,7 @@ function sa___prototype84_onRemovalBoss takes nothing returns boolean
     return true
 endfunction
 
-function jasshelper__initstructs24254578 takes nothing returns nothing
+function jasshelper__initstructs31502843 takes nothing returns nothing
     set st__AbilityFrame_SetNameAndDescription=CreateTrigger()
     call TriggerAddCondition(st__AbilityFrame_SetNameAndDescription,Condition( function sa__AbilityFrame_SetNameAndDescription))
     set st__MMD__QueueNode_onDestroy=CreateTrigger()

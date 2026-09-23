@@ -30,6 +30,20 @@ library MinionsLib requires Conditions
     function IsDummy takes unit unitToCheck returns boolean
     	return GetUnitAbilityLevel(unitToCheck, 'A1FY' ) > 0
     endfunction
+    
+    function IsBoss takes unit unitToCheck returns boolean
+		if IsUnitType( unitToCheck, UNIT_TYPE_ANCIENT) then
+    		return true
+		endif
+        return false
+    endfunction
+    
+    function IsHero takes unit unitToCheck returns boolean
+		if IsUnitType( unitToCheck, UNIT_TYPE_HERO) then
+    		return true
+		endif
+        return false
+    endfunction
 
 
 endlibrary
