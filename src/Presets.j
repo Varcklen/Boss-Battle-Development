@@ -49,4 +49,6 @@ endscope
 	
 	call IndicatorSystem_Create( indicatorType, x, y, area, duration, unit owner )
 	
+	call GetArenaSpawnLocation( unitLoc, SPAWN_RANGE, angle )
+	
 	

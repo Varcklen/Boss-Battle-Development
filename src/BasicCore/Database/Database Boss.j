@@ -189,10 +189,10 @@ library LibDataBoss
 	    set BossArenaChoise[8][6] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[9][1] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[9][2] = ARENA_TYPE_SMALL
-	    set BossArenaChoise[9][3] = ARENA_TYPE_BIG
+	    set BossArenaChoise[9][3] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[9][4] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[9][5] = ARENA_TYPE_BIG
-	    set BossArenaChoise[9][6] = ARENA_TYPE_BIG
+	    set BossArenaChoise[9][6] = ARENA_TYPE_SMALL
 	    set BossArenaChoise[10][1] = ARENA_TYPE_BIG
 	    set BossArenaChoise[10][2] = ARENA_TYPE_BIG
 	    set BossArenaChoise[10][3] = ARENA_TYPE_BIG
@@ -378,11 +378,12 @@ library LibDataBoss
 	    set DB_Trigger_Boss[8][54] = gg_trg_Aku4
 	    set DB_Trigger_Boss[8][55] = gg_trg_Aku5
 	    set DB_Trigger_Boss[8][56] = gg_trg_Aku6
-	    set DB_Trigger_Boss[9][1] = gg_trg_Heuz1
+	    set DB_Trigger_Boss[9][1] = Heuz1_Trigger1
 	    set DB_Trigger_Boss[9][2] = gg_trg_Heuz2
 	    set DB_Trigger_Boss[9][3] = gg_trg_Heuz3
 	    set DB_Trigger_Boss[9][4] = gg_trg_Heuz4
-	    set DB_Trigger_Boss[9][5] = gg_trg_Heuz5
+	    set DB_Trigger_Boss[9][5] = Heuz1_Trigger2
+	    set DB_Trigger_Boss[9][6] = Heuz5_Trigger
 	    set DB_Trigger_Boss[9][11] = gg_trg_Azgalor1
 	    set DB_Trigger_Boss[9][12] = gg_trg_Azgalor2
 	    set DB_Trigger_Boss[9][13] = gg_trg_Azgalor3

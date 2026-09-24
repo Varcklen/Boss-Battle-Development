@@ -3886,6 +3886,12 @@ STRING 615
 Ariel
 }
 
+STRING 616
+// Abilities: A0HI (|cffffcc00Уровень 9:|r Poisonous Evil), Name (Name)
+{
+|cffffcc00Уровень 9:|r Poisonous Evil
+}
+
 STRING 617
 // Units: N002 ((H) Druid of Nature), Propernames (Proper Names)
 {
@@ -7377,6 +7383,18 @@ After the hero's attack, ignores any damage received for 5 seconds.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 1139
+// Buffs/Effects: B02W (), Buffubertip (Tooltip - Extended)
+{
+Attack and movement speed reduced.
+}
+
+STRING 1140
+// Abilities: A0KX (|cffffcc00Уровень 9:|r Pyromancer), Name (Name)
+{
+|cffffcc00Уровень 9:|r Pyromancer
+}
+
 STRING 1141
 // Items: I083 (Gnomish Soulspin), Description (Description)
 {
@@ -8153,6 +8171,26 @@ When you take a |cfffe9a2enon-alchemy|r artifact, it turns into an artifact from
 |cff81f260[Random bonus]|r
 }
 
+STRING 1251
+// Abilities: A0KX (|cffffcc00Уровень 9:|r Pyromancer), Ubertip (Tooltip - Normal - Extended)
+{
+- Ranged attacks.
+- Every 12 seconds, it creates a firestorm that periodically deals |cffbe81f7150|r damage. Lasts 10 seconds.
+- |cff00cceeAt 90% health:|r Every 10 seconds, it summons a ring of fire-breathing phoenixes, each dealing |cffbe81f7225|r damage.
+- |cff00cceeAt 60% health:|r Summons a Small Phoenix. The Small Phoenix periodically attacks player units, dealing |cffbe81f780|r damage.
+- |cff00cceeAt 25% health:|r The boss begins casting a spell that lasts 12 seconds. Upon completion, it creates a firestorm across the entire arena that periodically deals |cffbe81f7200|r damage. It lasts for 25 seconds.
+}
+
+STRING 1252
+// Abilities: A0HI (|cffffcc00Уровень 9:|r Poisonous Evil), Ubertip (Tooltip - Normal - Extended)
+{
+- When any unit dies, boss deals |cffbe81f750|r damage to nearby player units.
+- The boss's attacks poison the target, periodically dealing |cffbe81f760|r damage. Lasts 3 seconds.
+- As it moves, the boss leaves behind a poisonous area that periodically deals |cffbe81f750|r damage and reduces Attack and Movement Speed by 30%.
+- |cff00cceeAt 85% and 35% health:|r Reduces magic damage taken by the boss by 30%.
+- |cff00cceeAt 50% health:|r The boss poisons all heroes, periodically dealing |cffbe81f750|r damage and reduces their Attack and Movement Speed by 50% for 60 seconds.
+}
+
 STRING 1253
 // Items: I0D8 (Transforming Matter), Ubertip (Tooltip - Extended)
 {
@@ -8295,6 +8333,12 @@ STRING 1272
 {
 |cff4169e1Rare|r, |cff848484Rune|r
 Reduces the cost of future artifacts in the artifact store by 20%. At least one artifact from it will be discounted. |cffffffffYour items not obtained from Artifact Store will be |cffC71585cursed|r.|r
+}
+
+STRING 1273
+// Abilities: A173 (|cffffcc00Уровень 9:|r Soul Fiend), Name (Name)
+{
+|cffffcc00Уровень 9:|r Soul Fiend
 }
 
 STRING 1274
@@ -8923,6 +8967,12 @@ STRING 1364
 |cff4169e1Rare|r, |cffb18904Mech|r
 Activation: Deals |cffbe81f7125|r damage to all enemies. Additionally deals 125 damage for each other |cffb18904Mech|r.
 |cffffcc00Cooldown:|r 45 seconds.
+}
+
+STRING 1365
+// Abilities: A173 (|cffffcc00Уровень 9:|r Soul Fiend), Tip (Tooltip - Normal)
+{
+Soul Fiend
 }
 
 STRING 1366
@@ -9587,6 +9637,21 @@ STRING 1466
 // Abilities: A1HA (Extra: Crystallization (Crystal Mimic)), Name (Name)
 {
 Extra: Crystallization (Crystal Mimic)
+}
+
+STRING 1467
+// Abilities: A173 (|cffffcc00Уровень 9:|r Soul Fiend), Ubertip (Tooltip - Normal - Extended)
+{
+- The boss increases Attack Damage by 5 with each attack.
+- Creates a Soul Well every 12 seconds. Within the Soul Well, player units periodically lose 10% of health, while boss units take 65% less damage.
+- |cff00cceeAt 70%, 50% and 30% health:|r Marks heroes. After 8 seconds, heroes with a health pool below 50% die, otherwise their health pool drops to 40%.
+- |cff00cceeAt 20% health:|r Reduces the Soul Well creation cooldown to 5 seconds.
+}
+
+STRING 1468
+// Buffs/Effects: B07F (), Bufftip (Tooltip)
+{
+|cff00ff00Feast of Souls|r
 }
 
 STRING 1469
@@ -10267,6 +10332,12 @@ STRING 1569
 Activation: |cffcc0000Corrupted|r. Deals |cffbe81f72000|r damage to an enemy. Only works in combat.
 }
 
+STRING 1570
+// Buffs/Effects: B07F (), Buffubertip (Tooltip - Extended)
+{
+Unit takes less damage.
+}
+
 STRING 1571
 // Items: I0B0 (Totem of Energy), Name (Name)
 {
@@ -10283,6 +10354,33 @@ STRING 1573
 // Items: I0DH (Piece of Cake), Name (Name)
 {
 Piece of Cake
+}
+
+STRING 1574
+// Abilities: A0DF (|cffffcc00Уровень 10:|r Sea Savage), Name (Name)
+{
+|cffffcc00Уровень 10:|r Sea Savage
+}
+
+STRING 1575
+// Abilities: A0DF (|cffffcc00Уровень 10:|r Sea Savage), Tip (Tooltip - Normal)
+{
+|cFFFE8A0ELAST BOSS:|r Sea Savage
+}
+
+STRING 1576
+// Abilities: A0DF (|cffffcc00Уровень 10:|r Sea Savage), Ubertip (Tooltip - Normal - Extended)
+{
+- Deals damage to an area.
+- Every second creates a slow sea wave, which deals |cffbe81f7200|r damage.
+- |cff00cceeAt 80% health:|r Increases attack speed by 30%. Summons lines from areas around the edges that gradually move to the other edge of the arena. Each area deals |cffbe81f7450|r damage.
+- |cff00cceeAt 30% health:|r Increases Attack Speed and Attack Damage by 35%.
+}
+
+STRING 1577
+// Abilities: A09K (|cffffcc00Уровень 10:|r Void Lord), Name (Name)
+{
+|cffffcc00Уровень 10:|r Void Lord
 }
 
 STRING 1578
@@ -10869,6 +10967,12 @@ STRING 1661
 // Items: I0BW (Hunger for Knowledge), Name (Name)
 {
 Hunger for Knowledge
+}
+
+STRING 1662
+// Abilities: A09K (|cffffcc00Уровень 10:|r Void Lord), Tip (Tooltip - Normal)
+{
+|cFFFE8A0ELAST BOSS:|r Void Lord
 }
 
 STRING 1663
@@ -12501,6 +12605,17 @@ STRING 1903
 // Abilities: A18Q (Attack speed (Offhand shooting)), Name (Name)
 {
 Attack speed (Offhand shooting)
+}
+
+STRING 1904
+// Abilities: A09K (|cffffcc00Уровень 10:|r Void Lord), Ubertip (Tooltip - Normal - Extended)
+{
+- Deals damage to an area.
+- Every 15 seconds, puts the hero into stasis after 2 second delay. This hero is inactive until the stasis is destroyed.
+- Every 7 seconds creates an area that explodes after 4 seconds, killing player minions. Affected heroes reduced movement speed by 80% for 5 seconds and lowers health to 10%.
+- |cff00cceeAt 50% health:|r Summons 20 copies of the boss and merges among them.
+- |cff00cceeAt 25% health:|r The boss puts a mark on each hero. After 10 seconds, the mark explodes, dealing |cffbe81f71500|r damage to the target. Deal a total of 1000 damage to the boss to remove the mark early.
+- |cff00cceeAt 10% health:|r Creates an area under each hero.
 }
 
 STRING 1905
@@ -14847,6 +14962,12 @@ STRING 2251
 When the hero attacks, there is a |cffd7df0115%|r chance to deal critical damage. Critical damage deals 75% more damage. Collect all 3 Bandit artifacts to unite them.
 }
 
+STRING 2252
+// Abilities: A0HG (|cffffcc00Уровень 3:|r Mistress of Pain), Name (Name)
+{
+|cffffcc00Уровень 3:|r Mistress of Pain
+}
+
 STRING 2253
 // Items: I069 (Medallion of Garithos), Name (Name)
 {
@@ -14857,6 +14978,12 @@ STRING 2254
 // Items: I069 (Medallion of Garithos), Tip (Tooltip - Basic)
 {
 Medallion of Garithos
+}
+
+STRING 2255
+// Abilities: A0HG (|cffffcc00Уровень 3:|r Mistress of Pain), Tip (Tooltip - Normal)
+{
+Mistress of Pain
 }
 
 STRING 2256
@@ -18147,6 +18274,18 @@ STRING 2745
 // Abilities: A069 (|cffffcc00Уровень 1:|r Murloc Chieftain), Name (Name)
 {
 |cffffcc00Уровень 1:|r Murloc Chieftain
+}
+
+STRING 2746
+// Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Ubertip (Tooltip - Normal - Extended)
+{
+- Ranged attacks.
+- Boss attack projectiles bounces to the nearest player unit.
+- Summons a crystal every 8 seconds. After 7 seconds, destroys the crystal to release the power of the Moon Priestess.
+- |cff00cceeAt 60% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall, dealing |cffbe81f560|r damage every 1.5 seconds until all the moon priestesses die.
+- |cff00cceeAt 40% health:|r Increases the attack speed of the boss and moon priestesses by 30%.
+- |cff00cceeAt 30% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall.
+- |cff00cceeAt 20% health:|r Summons 4 crystals.
 }
 
 STRING 2747
@@ -21623,7 +21762,7 @@ STRING 3288
 }
 
 STRING 3289
-// Abilities: A0HI (|cffffcc00Уровень 9:|r Ядовитая нечисть), Tip (Tooltip - Normal)
+// Abilities: A0HI (|cffffcc00Уровень 9:|r Poisonous Evil), Tip (Tooltip - Normal)
 {
 Poisonous Evil
 }
@@ -27740,18 +27879,6 @@ STRING 4251
 // Abilities: A174 (Artifact: Light of life), Name (Name)
 {
 Artifact: Light of life
-}
-
-STRING 4252
-// Abilities: A173 (|cffffcc00Уровень 9:|r Soulfiend), Name (Name)
-{
-|cffffcc00Уровень 9:|r Soulfiend
-}
-
-STRING 4253
-// Abilities: A173 (|cffffcc00Уровень 9:|r Soulfiend), Tip (Tooltip - Normal)
-{
-Soulfiend
 }
 
 STRING 4254
@@ -35963,17 +36090,6 @@ STRING 5519
 // Abilities: A0W4 (|cffffcc00Уровень 3:|r Маг-Трюкач), Tip (Tooltip - Normal)
 {
 Mage Stuntman
-}
-
-STRING 5520
-// Abilities: A09K (|cffffcc00Уровень 10:|r Владыка бездны), Ubertip (Tooltip - Normal - Extended)
-{
-- Deals damage to an area.
- Every 15 seconds immerses a random hero in stasis. For him to awaken, stasis must be destroyed.
-- Every 7 seconds creates a zone that explodes after 4 seconds, killing all enemy minions. Affected heroes have their movement speed reduced by 80% for 5 second and their health to 10%.
-- |cff00cceeAt 50% health:|r Summons 20 copies of itself and merges among them.
-- |cff00cceeAt 25% health:|r Imposes a mark on each hero that explodes after 10 seconds, inflicting |cffbe81f71000|r damage. The mark disappears if you move away from the boss.
-- |cff00cceeAt 10% health:|r Creates an area under each hero.
 }
 
 STRING 5521
@@ -46802,14 +46918,8 @@ STRING 7199
 Аура: Усиление
 }
 
-STRING 7200
-// Abilities: A0KX (|cffffcc00Уровень 9:|r Пиромант), Name (Name)
-{
-|cffffcc00Уровень 9:|r Пиромант
-}
-
 STRING 7201
-// Abilities: A0KX (|cffffcc00Уровень 9:|r Пиромант), Tip (Tooltip - Normal)
+// Abilities: A0KX (|cffffcc00Уровень 9:|r Pyromancer), Tip (Tooltip - Normal)
 {
 Pyromancer
 }
@@ -48789,15 +48899,6 @@ STRING 7505
 Chaos
 }
 
-STRING 7506
-// Abilities: A173 (|cffffcc00Уровень 9:|r Soulfiend), Ubertip (Tooltip - Normal - Extended)
-{
-- Each boss hit deals 5% more damage until the boss kills someone.
-- Every 12 seconds, creates a well of soul, in which enemies lose 10% of their maximum health every second, and bosses gain 100 armor and invulnerability to magic. The soul well disappears when the boss dies.
-- |cff00cceeAt 70%, 50% and 30% health:|r Marks heroes. After 8 seconds, heroes with a health pool below 50% die, otherwise their health pool drops to 40%.
-- |cff00cceeAt 20% health:|r Starts creating a soul well every 5 seconds.
-}
-
 STRING 7507
 // Abilities: A0IU (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -49969,12 +50070,6 @@ STRING 7687
 When the hero attacks, there is a |cffd7df018%|r chance to give the hero a Throwing Knife. If inventory is full, use it instead.
 }
 
-STRING 7688
-// Abilities: A0HI (|cffffcc00Уровень 9:|r Ядовитая нечисть), Name (Name)
-{
-|cffffcc00Уровень 9:|r Ядовитая нечисть
-}
-
 STRING 7689
 // Abilities: A1DN (Shepherds Sphere), Name (Name)
 {
@@ -50009,12 +50104,6 @@ STRING 7694
 // Buffs/Effects: B0BB (), Buffubertip (Tooltip - Extended)
 {
 You deal full damage to the Duelist.
-}
-
-STRING 7695
-// Abilities: A0HG (|cffffcc00Уровень 3:|r Succubus), Tip (Tooltip - Normal)
-{
-Succubus
 }
 
 STRING 7696
@@ -51433,14 +51522,8 @@ STRING 7921
 (Level 3)
 }
 
-STRING 7922
-// Abilities: A0HG (|cffffcc00Уровень 3:|r Succubus), Name (Name)
-{
-|cffffcc00Уровень 3:|r Succubus
-}
-
 STRING 7923
-// Abilities: A0HG (|cffffcc00Уровень 3:|r Succubus), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0HG (|cffffcc00Уровень 3:|r Mistress of Pain), Ubertip (Tooltip - Normal - Extended)
 {
 - Every 6 seconds, boss jumps on a random player unit, dealing |cffbe81f775|r damage and restoring |cffbe81f775|r health. Summons Mylady.
 - Mylady has a jump similar to the boss.
@@ -53651,18 +53734,6 @@ STRING 8268
 // Abilities: A0DG (Босс 10: Морской дикарь (Ускорение)), Name (Name)
 {
 Босс 10: Морской дикарь (Ускорение)
-}
-
-STRING 8269
-// Abilities: A0DF (|cffffcc00Уровень 10:|r Морской дикарь), Name (Name)
-{
-|cffffcc00Уровень 10:|r Морской дикарь
-}
-
-STRING 8270
-// Abilities: A0DF (|cffffcc00Уровень 10:|r Морской дикарь), Tip (Tooltip - Normal)
-{
-|cFFFE8A0ELAST BOSS:|r Sea savage
 }
 
 STRING 8271
@@ -57082,18 +57153,6 @@ STRING 8797
 Deals |cffbe81f719|r damage to the enemy every second. Stacks up to three times.
 |cffffcc00Duration:|r 15 seconds.
 |cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 8798
-// Abilities: A09K (|cffffcc00Уровень 10:|r Владыка бездны), Name (Name)
-{
-|cffffcc00Уровень 10:|r Владыка бездны
-}
-
-STRING 8799
-// Abilities: A09K (|cffffcc00Уровень 10:|r Владыка бездны), Tip (Tooltip - Normal)
-{
-|cFFFE8A0ELAST BOSS:|r Voidlord
 }
 
 STRING 8800
@@ -68732,18 +68791,6 @@ STRING 10615
 The hero will soon die or take significant damage.
 }
 
-STRING 10616
-// Buffs/Effects: B07F (), Bufftip (Tooltip)
-{
-|cff00ff00Feast of souls|r
-}
-
-STRING 10617
-// Buffs/Effects: B07F (), Buffubertip (Tooltip - Extended)
-{
-Increased armor. The warrior is immune to magic.
-}
-
 STRING 10618
 // Buffs/Effects: B07E (), Bufftip (Tooltip)
 {
@@ -69816,7 +69863,7 @@ STRING 10794
 }
 
 STRING 10795
-// Buffs/Effects: B04V (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B02Y (), Buffubertip (Tooltip - Extended)
 {
 Attack and movement speed reduced. Warrior is gradually losing health.
 }
@@ -70271,7 +70318,7 @@ STRING 10869
 }
 
 STRING 10870
-// Buffs/Effects: B03U (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B04V (), Buffubertip (Tooltip - Extended)
 {
 Attack and movement speed reduced.
 }
@@ -70674,12 +70721,6 @@ STRING 10936
 |cffff0000Evil venom|r
 }
 
-STRING 10937
-// Buffs/Effects: B02Y (), Buffubertip (Tooltip - Extended)
-{
-Attack and movement speed reduced. Warrior is gradually losing health.
-}
-
 STRING 10938
 // Buffs/Effects: B02X (), Bufftip (Tooltip)
 {
@@ -70701,7 +70742,7 @@ At the start of the battle, a random hero gains |cffbe81f7135|r shield. When thi
 }
 
 STRING 10941
-// Buffs/Effects: B02W (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B03U (), Buffubertip (Tooltip - Extended)
 {
 Attack and movement speed reduced.
 }
@@ -74672,17 +74713,6 @@ STRING 11577
 Call of Nature, [|cffffcc00Level %d|r]
 }
 
-STRING 11578
-// Abilities: A0KX (|cffffcc00Уровень 9:|r Пиромант), Ubertip (Tooltip - Normal - Extended)
-{
-- Ranged attacks.
-- Every 12 seconds, creates a huge firestorm that deals |cffbe81f775|r damage every second.
-- |cff00cceeAt 90% health:|r Every 10 seconds casts a spell, summoning 5 phoenixes, each of which deals 150 damage.
-- |cff00cceeAt 60% health:|r Summons a small phoenix. The small phoenix deals 8 damage to the nearest enemy every 0.1 seconds.
-- |cff00cceeAt 25% health:|r The boss teleports and starts casting a spell for 12 seconds. After 12 seconds, summon a firestorm throughout the arena, dealing |cffbe81f7200|r damage every second.
-|cffffcc00Duration:|r 15 seconds.
-}
-
 STRING 11579
 // Abilities: A00M (Legionary: Dragon Heart), Ubertip (Tooltip - Normal - Extended)
 {
@@ -74695,18 +74725,6 @@ STRING 11580
 {
 |cff4169e1Rare|r, |cffb40431Blood|r
 Gain |cffbe81f720%|r Magic Damage Lifesteal.
-}
-
-STRING 11581
-// Abilities: A0HI (|cffffcc00Уровень 9:|r Ядовитая нечисть), Ubertip (Tooltip - Normal - Extended)
-{
-- When someone dies, deals |cffbe81f750|r damage to all enemies.
-- When the boss attacks, poisons the target, dealing 50 damage every second.
-Duration: 3 seconds.
-- |cff00cceeAt 85% health:|r Increases magic resistance by 30%. Every 5 seconds creates a toxin-imposing area.
-- |cff00cceeAt 50% health:|r The boss poisons all heroes, dealing |cffbe81f750|r damage every second, reducing attack and movement speed by 50%.
-|cffffcc00Duration:|r 60 seconds.
-- |cff00cceeAt 25% health:|r Increases magic resistance by another 30%.
 }
 
 STRING 11582
@@ -74758,15 +74776,6 @@ STRING 11588
 |cff4169e1Rare|r, |cff00cceeCrystal|r
 Activation: Permanently increase mana by 20.
 |cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 11589
-// Abilities: A0DF (|cffffcc00Уровень 10:|r Морской дикарь), Ubertip (Tooltip - Normal - Extended)
-{
-- Deals damage to an area.
-- Every second creates a slow sea wave, which deals |cffbe81f7150|r damage.
-- |cff00cceeAt 80% health:|r Increases attack speed by 30%. Summons lines from areas around the edges that gradually move to the other edge of the arena. Each zone deals |cffbe81f7300|r damage.
-- |cff00cceeAt 30% health:|r Increases attack speed by 70%.
 }
 
 STRING 11590
@@ -80247,17 +80256,5 @@ STRING 12382
 // Abilities: A1JR (Item Immolation (Salamander)), Name (Name)
 {
 Item Immolation (Salamander)
-}
-
-STRING 12383
-// Abilities: A0HD (|cffffcc00Уровень 6:|r Лунная жрица), Ubertip (Tooltip - Normal - Extended)
-{
-- Ranged attacks.
-- Each boss projectile bounces to the nearest enemy (up to three times).
-- Summons a crystal every 8 seconds. After 7 seconds, destroys the crystal to release the power of the Moon Priestess.
-- |cff00cceeAt 60% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall, dealing |cffbe81f560|r damage every 1.5 seconds until all the moon priestesses die.
-- |cff00cceeAt 40% health:|r Increases the attack speed of the boss and moon priestesses by 30%.
-- |cff00cceeAt 30% health:|r Summons 4 moon priestesses. The boss is invulnerable and uses starfall.
-- |cff00cceeAt 20% health:|r Summons 4 crystals.
 }
 
