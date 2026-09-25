@@ -3910,6 +3910,12 @@ STRING 619
 Yoll
 }
 
+STRING 620
+// Abilities: A0VM (Босс 10: Вендиго (Аура, ск. движ)XXX), Name (Name)
+{
+Босс 10: Вендиго (Аура, ск. движ)XXX
+}
+
 STRING 621
 // Units: N000 ((D) Furbolg Chieftain), Propernames (Proper Names)
 {
@@ -7384,7 +7390,7 @@ After the hero's attack, ignores any damage received for 5 seconds.
 }
 
 STRING 1139
-// Buffs/Effects: B02W (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B09B (), Buffubertip (Tooltip - Extended)
 {
 Attack and movement speed reduced.
 }
@@ -8746,7 +8752,7 @@ Increases Health Regeneration by 5. While health is full, also increases Mana Re
 }
 
 STRING 1333
-// Abilities: A0SM (|cffffcc00Уровень 10:|r Рыцарь в странной броне), Tip (Tooltip - Normal)
+// Abilities: A0SM (|cffffcc00Уровень 10:|r Knight in Strange Armor), Tip (Tooltip - Normal)
 {
 |cFFFE8A0ELAST BOSS:|r Knight in Strange Armor
 }
@@ -10987,6 +10993,12 @@ STRING 1664
 Mooncloth
 }
 
+STRING 1665
+// Abilities: A0VL (Босс 10: Вендиго (Аура, ск. атаки)XXX), Name (Name)
+{
+Босс 10: Вендиго (Аура, ск. атаки)XXX
+}
+
 STRING 1666
 // Abilities: A16N (Maiden: Pacifism), Ubertip (Tooltip - Normal - Extended)
 {
@@ -11313,17 +11325,6 @@ STRING 1713
 // Items: I09A (Power Search), Name (Name)
 {
 Power Search
-}
-
-STRING 1714
-// Abilities: A0SM (|cffffcc00Уровень 10:|r Рыцарь в странной броне), Ubertip (Tooltip - Normal - Extended)
-{
-- Boss appears in the arena after 10 seconds and stuns enemies for 1 seconds.
-- Every 12 seconds, pushes enemies in front of him and deals |cffbe81f7400|r damage to them.
-- Every 10 seconds, it marks a random hero. After 3 seconds, shoots a fiery projectile at the marked hero that deals |cffbe81f7400|r damage.
-- Every 15 seconds, creates a zone under each hero that explodes after 3 seconds and deals |cffbe81f7500|r damage.
-- |cff00cceeAt 30%, 50% and 70% health:|r The boss is stunned and becomes invulnerable for 5 seconds. Reduces the cooldown of abilities by 20%. At this time, zones appear under the heroes, which explode after 2 seconds and deal |cffbe81f7200|r damage.
-- |cff00cceeAt 20% health:|r Stuns all nearby enemies for 3 seconds.
 }
 
 STRING 1715
@@ -18300,6 +18301,12 @@ STRING 2748
 Book of Sacrifices
 }
 
+STRING 2749
+// Abilities: A0VK (Босс 10: Вендиго (Аура, сброс кд)XXX), Name (Name)
+{
+Босс 10: Вендиго (Аура, сброс кд)XXX
+}
+
 STRING 2750
 // Items: I02U (Gold Coin), Description (Description)
 {
@@ -18893,6 +18900,18 @@ STRING 2837
 |cffC71585Cursed|r
 |cff4169e1Rare|r
 Activation: |cffcc0000Corrupted|r. Create a Book Seller in your room until the start of battle.
+}
+
+STRING 2838
+// Abilities: A0VJ (Босс 10: Вендиго (Аура, рес хп) XXX), Name (Name)
+{
+Босс 10: Вендиго (Аура, рес хп) XXX
+}
+
+STRING 2839
+// Abilities: A0VI (Босс 10: Вендиго (Аура, рес мп)XXX), Name (Name)
+{
+Босс 10: Вендиго (Аура, рес мп)XXX
 }
 
 STRING 2840
@@ -19691,6 +19710,12 @@ STRING 2960
 Dio
 }
 
+STRING 2961
+// Abilities: A0VH (|cffffcc00Уровень 10:|r Chronomonster), Name (Name)
+{
+|cffffcc00Уровень 10:|r Chronomonster
+}
+
 STRING 2962
 // Items: I01E (Rigged Dice Set), Name (Name)
 {
@@ -19988,6 +20013,23 @@ Activation: All heroes become invisible.
 Actions do not remove invisibility.
 |cffffcc00Duration:|r 3 seconds.
 |cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 3007
+// Abilities: A0VH (|cffffcc00Уровень 10:|r Chronomonster), Ubertip (Tooltip - Normal - Extended)
+{
+- Deals damage to an area.
+- Every 8 seconds, a random anomaly is created near the boss. When a hero steps on it, they receive a random positive bonus.
+- Every 5 seconds, a portal appears that spawns a random minion. They live for 60 seconds.
+- |cff00cceeAt 50% health:|r Returns heroes in time. Fully restores health. Summons 4 portals next to each hero.
+- |cff00cceeAt 25% health:|r Kills heroes. Mercilessly.
+- |cff00cceeAt 10% health:|r The boss flies into a rage, increasing Attack Speed ​​and Movement Speed ​​by 50%. The boss periodically restores |cffbe81f72%|r of its health over 10 seconds.
+}
+
+STRING 3008
+// Abilities: A0SM (|cffffcc00Уровень 10:|r Knight in Strange Armor), Name (Name)
+{
+|cffffcc00Уровень 10:|r Knight in Strange Armor
 }
 
 STRING 3009
@@ -20766,6 +20808,16 @@ STRING 3128
 {
 |cff4169e1Rare|r
 Activation: |cffcc0000Corrupted|r. Increases stats by 1. If the hero has at least 1 |cffb18904mech|r, replaces |cff60C445Unique|r into "Keen mind".
+}
+
+STRING 3129
+// Abilities: A0SM (|cffffcc00Уровень 10:|r Knight in Strange Armor), Ubertip (Tooltip - Normal - Extended)
+{
+- There is no boss in the arena. It appears after 6 seconds near a random hero, stunning player units nearby for 1 second.
+- Every 12 seconds, it knocks back player units in front of it, dealing |cffbe81f7400|r damage.
+- Marks a hero every 10 seconds. After 3 seconds, fires a projectile toward the marked hero, dealing |cffbe81f7400|r damage.
+- Every 15 seconds, it creates an area beneath each hero that detonates after 2 seconds, dealing |cffbe81f7500|r damage.
+- |cff00cceeAt 30%, 50% and 70% health:|r The boss falls to the ground for 5 seconds, reducing skill cooldowns by 20%. Periodically, it creates areas beneath the heroes that detonate after 1 second, dealing |cffbe81f7200|r damage.
 }
 
 STRING 3133
@@ -36503,44 +36555,8 @@ STRING 5585
 Аура: Хроноярость
 }
 
-STRING 5586
-// Abilities: A0VM (Босс 10: Вендиго (Аура, ск. движ)), Name (Name)
-{
-Босс 10: Вендиго (Аура, ск. движ)
-}
-
-STRING 5587
-// Abilities: A0VL (Босс 10: Вендиго (Аура, ск. атаки)), Name (Name)
-{
-Босс 10: Вендиго (Аура, ск. атаки)
-}
-
-STRING 5588
-// Abilities: A0VK (Босс 10: Вендиго (Аура, сброс кд)), Name (Name)
-{
-Босс 10: Вендиго (Аура, сброс кд)
-}
-
-STRING 5589
-// Abilities: A0VJ (Босс 10: Вендиго (Аура, рес хп)), Name (Name)
-{
-Босс 10: Вендиго (Аура, рес хп)
-}
-
-STRING 5590
-// Abilities: A0VI (Босс 10: Вендиго (Аура, рес мп)), Name (Name)
-{
-Босс 10: Вендиго (Аура, рес мп)
-}
-
-STRING 5591
-// Abilities: A0VH (|cffffcc00Уровень 10:|r Хрономонстр), Name (Name)
-{
-|cffffcc00Уровень 10:|r Хрономонстр
-}
-
 STRING 5592
-// Abilities: A0VH (|cffffcc00Уровень 10:|r Хрономонстр), Tip (Tooltip - Normal)
+// Abilities: A0VH (|cffffcc00Уровень 10:|r Chronomonster), Tip (Tooltip - Normal)
 {
 |cFFFE8A0ELAST BOSS:|r Chronomonster
 }
@@ -39629,12 +39645,6 @@ STRING 6060
 // Abilities: A0SN (Артефакт: Тотем Взгляда), Ubertip (Tooltip - Normal - Extended)
 {
 Создаёт зону, в которой все союзники восстанавливают |cffbe81f720|r здоровья, а противники получают урон. В этой зоне нельзя использовать способности.|n|cffffcc00Время жизни:|r 15 секунд.|n|cffffcc00Перезарядка:|r 24 секунды.
-}
-
-STRING 6061
-// Abilities: A0SM (|cffffcc00Уровень 10:|r Рыцарь в странной броне), Name (Name)
-{
-|cffffcc00Уровень 10:|r Рыцарь в странной броне
 }
 
 STRING 6062
@@ -67945,7 +67955,7 @@ STRING 10474
 }
 
 STRING 10475
-// Buffs/Effects: B09B (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B099 (), Buffubertip (Tooltip - Extended)
 {
 Attack and movement speed reduced.
 }
@@ -67969,7 +67979,7 @@ STRING 10478
 }
 
 STRING 10479
-// Buffs/Effects: B099 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B092 (), Buffubertip (Tooltip - Extended)
 {
 Attack and movement speed reduced.
 }
@@ -68053,7 +68063,7 @@ STRING 10492
 }
 
 STRING 10493
-// Buffs/Effects: B092 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B090 (), Buffubertip (Tooltip - Extended)
 {
 Attack and movement speed reduced.
 }
@@ -68077,7 +68087,7 @@ STRING 10496
 }
 
 STRING 10497
-// Buffs/Effects: B090 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B084 (), Buffubertip (Tooltip - Extended)
 {
 Attack and movement speed reduced.
 }
@@ -68492,7 +68502,7 @@ STRING 10565
 }
 
 STRING 10566
-// Buffs/Effects: B084 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B07J (), Buffubertip (Tooltip - Extended)
 {
 Attack and movement speed reduced.
 }
@@ -68750,7 +68760,7 @@ STRING 10608
 }
 
 STRING 10609
-// Buffs/Effects: B07J (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B064 (), Buffubertip (Tooltip - Extended)
 {
 Attack and movement speed reduced.
 }
@@ -69283,7 +69293,7 @@ STRING 10698
 }
 
 STRING 10699
-// Buffs/Effects: B064 (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B05L (), Buffubertip (Tooltip - Extended)
 {
 Attack and movement speed reduced.
 }
@@ -69537,7 +69547,7 @@ STRING 10740
 }
 
 STRING 10741
-// Buffs/Effects: B05L (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B04V (), Buffubertip (Tooltip - Extended)
 {
 Attack and movement speed reduced.
 }
@@ -70318,7 +70328,7 @@ STRING 10869
 }
 
 STRING 10870
-// Buffs/Effects: B04V (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B03U (), Buffubertip (Tooltip - Extended)
 {
 Attack and movement speed reduced.
 }
@@ -70742,7 +70752,7 @@ At the start of the battle, a random hero gains |cffbe81f7135|r shield. When thi
 }
 
 STRING 10941
-// Buffs/Effects: B03U (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B02W (), Buffubertip (Tooltip - Extended)
 {
 Attack and movement speed reduced.
 }
@@ -74688,17 +74698,6 @@ STRING 11574
 // Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
 {
 Moon Blinking, [|cffffcc00Level 3|r]
-}
-
-STRING 11575
-// Abilities: A0VH (|cffffcc00Уровень 10:|r Хрономонстр), Ubertip (Tooltip - Normal - Extended)
-{
-- Deals damage to an area.
-- Every 10 seconds, invokes a random unique chronomaly.
-|cffffcc00Life time:|r 20 seconds.
-- |cff00cceeAt 90% health:|r Every 5 seconds, summons a portal from which a random servant leaves.
-- |cff00cceeAt 50% health:|r Returns heroes in time. Fully restores health. Summons 4 portals next to each hero.
-- |cff00cceeAt 25% health:|r Kills heroes. Mercilessly.
 }
 
 STRING 11576

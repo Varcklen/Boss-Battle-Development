@@ -409,7 +409,7 @@ library LibDataBoss
 	    set DB_Trigger_Boss[9][54] = gg_trg_Soulfiend4
 	    set DB_Trigger_Boss[9][55] = gg_trg_Soulfiend5
 	    set DB_Trigger_Boss[10][1] = gg_trg_Warlock1
-	    set DB_Trigger_Boss[10][11] = gg_trg_Wendigo1
+	    set DB_Trigger_Boss[10][11] = Wendigo1_Trigger
 	    set DB_Trigger_Boss[10][12] = gg_trg_Wendigo2
 	    set DB_Trigger_Boss[10][13] = gg_trg_Wendigo3
 	    set DB_Trigger_Boss[10][14] = gg_trg_Wendigo4
@@ -436,7 +436,6 @@ library LibDataBoss
 	    set DB_Trigger_Boss[10][55] = gg_trg_Marine5
 	    set DB_Trigger_Boss[10][56] = gg_trg_Marine6
 	    set DB_Trigger_Boss[10][57] = gg_trg_Marine7
-	    set DB_Trigger_Boss[10][58] = gg_trg_Marine8
 	    
 	    // Bosses's Battlecry
 	    set Boss_Talk[1][1] = gg_snd_MurlocPissed2
