@@ -53,7 +53,7 @@ library ModeDatabase initializer init requires ModeClass
 		call Mode.create( 'A1CY', "CurseFirstBlood", false)
 		call Mode.create( 'A1CZ', "CurseConfusion", false)
 		call Mode.create( 'A1D1', "CurseRivalry", false)
-		call Mode.create( 'A0FX', "CurseDarkPortal", false)
+		call Mode.create( 'A0FX', "CurseGnollInvasion", false)
 		call Mode.create( 'A0FM', "CurseSlowness", false)
 		call Mode.create( 'A0GG', "CurseSuppression", false)
 		call Mode.create( 'A0H9', "CurseSuccumbing", false)

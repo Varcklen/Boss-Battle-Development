@@ -1,4 +1,4 @@
-scope BlessRuneMaking initializer init
+scope BlessRunecraft initializer init
 
 	globals
 		private trigger Trigger = null

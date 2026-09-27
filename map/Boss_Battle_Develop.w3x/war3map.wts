@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.12.7T|r
+|cffbe81f7Boss Battle 1.12.8T|r
 }
 
 STRING 2
@@ -846,9 +846,10 @@ King
 }
 
 STRING 127
-// Units: n04G (Great huckster Tom), Name (Name)
+// Items: I0D9 (Tarot Card: Wealth), Description (Description)
 {
-Great huckster Tom
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corruption.|r Transforms all |cffe96a1cnon-legendary|r artifacts in your inventory into |cffe96a1clegendary|r ones.
 }
 
 STRING 128
@@ -9271,31 +9272,31 @@ Runestone Lous
 }
 
 STRING 1410
-// Items: I0C4 (Golden statuette), Description (Description)
+// Abilities: A0SM (|cffffcc00Уровень 10:|r Knight in Strange Armor), Ubertip (Tooltip - Normal - Extended)
 {
-|cffe96a1cLegendary|r
-Every 5 seconds it gives 8 gold for each |cffe96a1clegendary|r artifact in the inventory.
-|cff81f260[Random bonus]|r
+- There is no boss in the arena. It appears after 6 seconds near a random hero, stunning player units nearby for 1 second.
+- Every 12 seconds, it knocks back player units in front of it, dealing |cffbe81f7400|r damage.
+- Marks a hero every 10 seconds. After 3 seconds, fires a projectile toward the marked hero, dealing |cffbe81f7400|r damage.
+- Every 15 seconds, it creates an area beneath each hero that detonates after 2 seconds, dealing |cffbe81f7500|r damage.
+- |cff00cceeAt 30%, 50% and 70% health:|r The boss falls to the ground for 5 seconds, reducing skill cooldowns by 20%. Periodically, it creates areas beneath the heroes that detonate after 0.75 seconds, dealing |cffbe81f7200|r damage.
 }
 
 STRING 1411
-// Items: I0C4 (Golden statuette), Name (Name)
+// Abilities: A0S5 (Снаряд: МорпехXXX), Name (Name)
 {
-Golden statuette
+Снаряд: МорпехXXX
 }
 
 STRING 1412
-// Items: I0C4 (Golden statuette), Tip (Tooltip - Basic)
+// Abilities: A0AK (Bless: Chronospeed), Tip (Tooltip - Normal)
 {
-Golden statuette
+|cff90EE90Bless:|r Chronospeed
 }
 
 STRING 1413
-// Items: I0C4 (Golden statuette), Ubertip (Tooltip - Extended)
+// Units: n04G (Great Huckster Tom), Name (Name)
 {
-|cffe96a1cLegendary|r
-Every 5 seconds it gives 8 gold for each |cffe96a1clegendary|r artifact in the inventory.
-|cff81f260[Random bonus]|r
+Great Huckster Tom
 }
 
 STRING 1414
@@ -10018,31 +10019,27 @@ Increases Health by 100 and Movement Speed by 15%. At the end of the battle, inc
 }
 
 STRING 1522
-// Items: I0BC (Tarot Card: Jule), Description (Description)
+// Abilities: A10R (Curse: Support), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Increases stats by 1.
-Refresh the assortment of Jule.
+Bosses begin each fight with a ghoul. They become stronger after boss fights.
 }
 
 STRING 1523
-// Items: I0BC (Tarot Card: Jule), Name (Name)
+// Abilities: A0FX (Curse: Gnoll Invasion), Name (Name)
 {
-Tarot Card: Jule
+Curse: Gnoll Invasion
 }
 
 STRING 1524
-// Items: I0BC (Tarot Card: Jule), Tip (Tooltip - Basic)
+// Abilities: A0FX (Curse: Gnoll Invasion), Tip (Tooltip - Normal)
 {
-Tarot Card: Jule
+|cffFF7F7FCurse:|r Gnoll Invasion
 }
 
 STRING 1525
-// Items: I0BC (Tarot Card: Jule), Ubertip (Tooltip - Extended)
+// Abilities: A0FX (Curse: Gnoll Invasion), Ubertip (Tooltip - Normal - Extended)
 {
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Increases stats by 1.
-Refresh the assortment of Jule.
+Summons a Gnoll Poacher every 20 seconds. They become stronger after boss fights.
 }
 
 STRING 1526
@@ -10462,9 +10459,10 @@ Blacksmith Craft
 }
 
 STRING 1589
-// Abilities: A0FW (Curse: Утомление (b8)), Ubertip (Tooltip - Normal - Extended)
+// Items: I0D9 (Tarot Card: Wealth), Ubertip (Tooltip - Extended)
 {
-Every 45 seconds of combat, a random hero becomes exhausted for 10 seconds. An exhausted hero restores half the usual amount of health and mana.
+|cffe96a1cLegendary|r
+Activation: |cffcc0000Corruption.|r Transforms all |cffe96a1cnon-legendary|r artifacts in your inventory into |cffe96a1clegendary|r ones.
 }
 
 STRING 1590
@@ -10665,16 +10663,6 @@ Increases attack speed of the next 14 attacks by 150%.
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
-STRING 1618
-// Items: I0AO (Faceless Spy), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: Summons a faceless spy, capable of turning into the minion.
-|cffffcc00Life time:|r 60 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
-|cffffcc00Cost:|r 75 mana.
-}
-
 STRING 1619
 // Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
 {
@@ -10691,15 +10679,6 @@ Deals |cffbe81f730|r damage per second to the enemy. When the effect ends, creat
 |cffffcc00Duration:|r 3 seconds.
 |cffffcc00Cooldown:|r 5 seconds.
 |cffffcc00Cost:|r 50 health.
-}
-
-STRING 1621
-// Items: I0AO (Faceless Spy), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: Summons a faceless spy, capable of turning into the minion.
-|cffffcc00Life time:|r 60 seconds.
-|cffffcc00Cooldown:|r 45 seconds.
 }
 
 STRING 1622
@@ -11250,9 +11229,14 @@ Rerolls cost 100 gold less. Receive 1 permanent Reroll.
 }
 
 STRING 1703
-// Abilities: A1HB (Blessing: Speciality), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0HF (|cffffcc00Уровень 5:|r Огромная гидра), Ubertip (Tooltip - Normal - Extended)
 {
-All heroes receive a random |cff8080ffSpecial|r (if they don't have it).
+- Ranged attacks.
+- Attacks deal area-of-effect damage.
+- The boss and the descendants do not cause Revenge.
+- Hydra health regen increased by 25.
+- After the death of the boss, creates 2 medium hydra.
+- After the death of the middle hydra, 5 small hydras are created.
 }
 
 STRING 1704
@@ -11325,6 +11309,14 @@ STRING 1713
 // Items: I09A (Power Search), Name (Name)
 {
 Power Search
+}
+
+STRING 1714
+// Items: I0C4 (Golden Statuette), Description (Description)
+{
+|cffe96a1cLegendary|r
+Every 5 seconds, gain 8 gold for each |cffe96a1cLegendary|r item in your inventory.
+|cff81f260[Random bonus]|r
 }
 
 STRING 1715
@@ -12163,9 +12155,11 @@ Blessing: Speciality
 }
 
 STRING 1839
-// Abilities: A1HB (Blessing: Speciality), Tip (Tooltip - Normal)
+// Abilities: A010 (Barbarian: Bloodlust), Researchubertip (Tooltip - Learn - Extended)
 {
-|cffffcc00Blessing:|r Speciality
+Kill a minion to restore health equal to |cffbe81f750%/75%/100%/125%/150%|r of the target's health. Increases Attack Damage by 15/20/25/30/35 for 16 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+|cffffcc00Cost:|r 30/35/40/45/50 mana.
 }
 
 STRING 1840
@@ -14471,9 +14465,10 @@ Curse: Support
 }
 
 STRING 2179
-// Abilities: A10R (Curse: Support), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A010 (Barbarian: Bloodlust), Ubertip (Tooltip - Normal - Extended)
 {
-Bosses begin each fight with a ghoul. Its stats increases after defeating the bosses.
+Kill a minion to restore health equal to |cffbe81f750%|r of the target's health. Increases Attack Damage by 15 for 16 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 2180
@@ -18230,9 +18225,10 @@ Activation: Increases the ally’s armor by 3. If the hero’s gold supply is 20
 }
 
 STRING 2738
-// Abilities: A0BA (Blessing: Злоба (g5)), Tip (Tooltip - Normal)
+// Abilities: A010 (Barbarian: Bloodlust), Ubertip (Tooltip - Normal - Extended)
 {
-|cffffcc00Blessing:|r Malice
+Kill a minion to restore health equal to |cffbe81f775%|r of the target's health. Increases Attack Damage by 20 for 16 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 2739
@@ -18248,9 +18244,10 @@ Omnipotent Ruby
 }
 
 STRING 2741
-// Abilities: A0BA (Blessing: Злоба (g5)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A010 (Barbarian: Bloodlust), Ubertip (Tooltip - Normal - Extended)
 {
-When the hero casts, permanently increases Spell Power by 0.1%.
+Kill a minion to restore health equal to |cffbe81f7100%|r of the target's health. Increases Attack Damage by 25 for 16 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 2742
@@ -18350,14 +18347,6 @@ STRING 2756
 {
 |cff4169e1Rare|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a mage artifact.
-}
-
-STRING 2757
-// Abilities: A010 (Barbarian: Bloodlust), Ubertip (Tooltip - Normal - Extended)
-{
-Kills a minion. Restores the hero |cffbe81f1125%|r of the target's health. If the target is |cffff1493undead|r, it increases the attack power of the hero by 30.
-|cffffcc00Duration:|r 16 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 2758
@@ -20015,15 +20004,23 @@ Actions do not remove invisibility.
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 3007
-// Abilities: A0VH (|cffffcc00Уровень 10:|r Chronomonster), Ubertip (Tooltip - Normal - Extended)
+STRING 3005
+// Items: I0C4 (Golden Statuette), Name (Name)
 {
-- Deals damage to an area.
-- Every 8 seconds, a random anomaly is created near the boss. When a hero steps on it, they receive a random positive bonus.
-- Every 5 seconds, a portal appears that spawns a random minion. They live for 60 seconds.
-- |cff00cceeAt 50% health:|r Returns heroes in time. Fully restores health. Summons 4 portals next to each hero.
-- |cff00cceeAt 25% health:|r Kills heroes. Mercilessly.
-- |cff00cceeAt 10% health:|r The boss flies into a rage, increasing Attack Speed ​​and Movement Speed ​​by 50%. The boss periodically restores |cffbe81f72%|r of its health over 10 seconds.
+Golden Statuette
+}
+
+STRING 3006
+// Items: I0C4 (Golden Statuette), Tip (Tooltip - Basic)
+{
+Golden Statuette
+}
+
+STRING 3007
+// Abilities: A010 (Barbarian: Bloodlust), Ubertip (Tooltip - Normal - Extended)
+{
+Kill a minion to restore health equal to |cffbe81f7125%|r of the target's health. Increases Attack Damage by 30 for 16 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 3008
@@ -20811,13 +20808,31 @@ Activation: |cffcc0000Corrupted|r. Increases stats by 1. If the hero has at leas
 }
 
 STRING 3129
-// Abilities: A0SM (|cffffcc00Уровень 10:|r Knight in Strange Armor), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A010 (Barbarian: Bloodlust), Ubertip (Tooltip - Normal - Extended)
 {
-- There is no boss in the arena. It appears after 6 seconds near a random hero, stunning player units nearby for 1 second.
-- Every 12 seconds, it knocks back player units in front of it, dealing |cffbe81f7400|r damage.
-- Marks a hero every 10 seconds. After 3 seconds, fires a projectile toward the marked hero, dealing |cffbe81f7400|r damage.
-- Every 15 seconds, it creates an area beneath each hero that detonates after 2 seconds, dealing |cffbe81f7500|r damage.
-- |cff00cceeAt 30%, 50% and 70% health:|r The boss falls to the ground for 5 seconds, reducing skill cooldowns by 20%. Periodically, it creates areas beneath the heroes that detonate after 1 second, dealing |cffbe81f7200|r damage.
+Kill a minion to restore health equal to |cffbe81f7150%|r of the target's health. Increases Attack Damage by 35 for 16 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 3130
+// Items: I0C4 (Golden Statuette), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Every 5 seconds, gain 8 gold for each |cffe96a1cLegendary|r item in your inventory.
+|cff81f260[Random bonus]|r
+}
+
+STRING 3131
+// Items: I0BC (Tarot Card: Three of Wands), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 1. Refreshes the Artifact Shop.
+}
+
+STRING 3132
+// Items: I0BC (Tarot Card: Three of Wands), Name (Name)
+{
+Tarot Card: Three of Wands
 }
 
 STRING 3133
@@ -21025,6 +21040,12 @@ STRING 3164
 {
 |cffbababcCommon|r
 Increases attack power by 15. Collect all 3 Knight artifacts to unite them.
+}
+
+STRING 3165
+// Items: I0BC (Tarot Card: Three of Wands), Tip (Tooltip - Basic)
+{
+Tarot Card: Three of Wands
 }
 
 STRING 3166
@@ -21423,9 +21444,13 @@ Teleports all enemies to the center of the area, reduces their armor by 4/5/6/7/
 }
 
 STRING 3226
-// Abilities: A1DJ (Blessing: Teamwork (g34)), Tip (Tooltip - Normal)
+// Items: I0AO (Faceless Spy), Description (Description)
 {
-|cffffcc00Blessing:|r Teamwork
+|cffbababcCommon|r
+Activation: Summon a Faceless Spy that can transform into a chosen minion.
+|cffffcc00Life time:|r 60 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 25 mana.
 }
 
 STRING 3227
@@ -21784,9 +21809,13 @@ Curse: Rivalry (b32)
 }
 
 STRING 3284
-// Abilities: A1D1 (Curse: Rivalry (b32)), Tip (Tooltip - Normal)
+// Items: I0AO (Faceless Spy), Ubertip (Tooltip - Extended)
 {
-|cffffcc00Curse:|r Rivalry
+|cffbababcCommon|r
+Activation: Summon a Faceless Spy that can transform into a chosen minion.
+|cffffcc00Life time:|r 60 seconds.
+|cffffcc00Cooldown:|r 45 seconds.
+|cffffcc00Cost:|r 25 mana.
 }
 
 STRING 3285
@@ -21808,9 +21837,9 @@ Curse: Confusion (b31)
 }
 
 STRING 3288
-// Abilities: A1CZ (Curse: Confusion (b31)), Tip (Tooltip - Normal)
+// Abilities: A11L (Прочее: Transformation), Name (Name)
 {
-|cffffcc00Curse:|r Confusion
+Прочее: Transformation
 }
 
 STRING 3289
@@ -21826,9 +21855,9 @@ Curse: First blood (b30)
 }
 
 STRING 3291
-// Abilities: A1CY (Curse: First blood (b30)), Tip (Tooltip - Normal)
+// Abilities: A11L (Прочее: Transformation), Tip (Tooltip - Normal)
 {
-|cffffcc00Curse:|r First blood
+Transformation
 }
 
 STRING 3292
@@ -22365,7 +22394,7 @@ Blood for Blood, [|cffffcc00Level %d|r]
 }
 
 STRING 3375
-// Abilities: A18S (Blessing: Foresight (g32)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A18S (Bless: Foresight (g32)), Ubertip (Tooltip - Normal - Extended)
 {
 +0.5 Health and Mana Regeneration.
 }
@@ -25356,19 +25385,13 @@ Moon Priestess
 }
 
 STRING 3851
-// Abilities: A19M (Blessing: Rune-making (g33)), Name (Name)
+// Abilities: A1K3 (.State: Cancel Movement), Name (Name)
 {
-Blessing: Rune-making (g33)
-}
-
-STRING 3852
-// Abilities: A19M (Blessing: Rune-making (g33)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Rune-making
+.State: Cancel Movement
 }
 
 STRING 3853
-// Abilities: A19M (Blessing: Rune-making (g33)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A19M (Blessing: Runecraft), Ubertip (Tooltip - Normal - Extended)
 {
 At the beginning of the battle, create 6 arena runes.
 }
@@ -25437,12 +25460,6 @@ STRING 3864
 // Abilities: A19K (Gun Master: Shelling), Tip (Tooltip - Normal)
 {
 Shelling, [|cffffcc00Level 5|r]
-}
-
-STRING 3865
-// Abilities: A1I6 (Curse: Debt), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Debt
 }
 
 STRING 3866
@@ -25750,20 +25767,6 @@ STRING 3907
 |cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r
 Increases |cff088a08Potion|r Spell Power by 35%.
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r a custom |cff088a08potion|r with 4 charges. |cFF959697(Current: Nothing)|r
-}
-
-STRING 3908
-// Items: I0D9 (Tarot Card: Wealth), Description (Description)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corruption.|r Transforms all |cffe96a1cnon-legendary|r items in your inventory into |cffe96a1clegendary|r artifacts.
-}
-
-STRING 3909
-// Items: I0D9 (Tarot Card: Wealth), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Activation: |cffcc0000Corruption.|r Transforms all |cffe96a1cnon-legendary|r items in your inventory into |cffe96a1clegendary|r artifacts.
 }
 
 STRING 3910
@@ -26433,18 +26436,6 @@ STRING 4010
 // Abilities: A18T (Stats (Cursed Amulet)), Name (Name)
 {
 Stats (Cursed Amulet)
-}
-
-STRING 4011
-// Abilities: A18S (Blessing: Foresight (g32)), Name (Name)
-{
-Blessing: Foresight (g32)
-}
-
-STRING 4012
-// Abilities: A18S (Blessing: Foresight (g32)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Foresight
 }
 
 STRING 4013
@@ -27626,6 +27617,19 @@ STRING 4199
 Stat: Dodge +1%
 }
 
+STRING 4200
+// Items: I0BC (Tarot Card: Three of Wands), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Increases stats by 1. Refreshes the Artifact Shop.
+}
+
+STRING 4201
+// Abilities: A1DJ (Blessing: Teamwork (g34)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Teamwork
+}
+
 STRING 4202
 // Abilities: A1FL (Stat: Cooldown -10%), Name (Name)
 {
@@ -27843,6 +27847,12 @@ STRING 4235
 Stat: Phy Damage Taken +100%
 }
 
+STRING 4236
+// Abilities: A1D1 (Curse: Rivalry (b32)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Rivalry
+}
+
 STRING 4237
 // Abilities: A17I (Книга заклинаний (Freeze Fire)), Name (Name)
 {
@@ -27931,6 +27941,18 @@ STRING 4251
 // Abilities: A174 (Artifact: Light of life), Name (Name)
 {
 Artifact: Light of life
+}
+
+STRING 4252
+// Abilities: A1CZ (Curse: Confusion (b31)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Confusion
+}
+
+STRING 4253
+// Abilities: A1CY (Curse: First blood (b30)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r First Blood
 }
 
 STRING 4254
@@ -30002,6 +30024,12 @@ STRING 4578
 Resolve, [|cffffcc00Level 5|r]
 }
 
+STRING 4579
+// Abilities: A19M (Blessing: Runecraft), Name (Name)
+{
+Blessing: Runecraft
+}
+
 STRING 4580
 // Abilities: A1HE (Arcanologist: Replenish), Tip (Tooltip - Normal)
 {
@@ -30104,12 +30132,6 @@ STRING 4595
 // Abilities: A14Q (Curse: Mistrust (b29)), Name (Name)
 {
 Curse: Mistrust (b29)
-}
-
-STRING 4596
-// Abilities: A14Q (Curse: Mistrust (b29)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Mistrust
 }
 
 STRING 4597
@@ -30231,12 +30253,6 @@ STRING 4613
 Curse: Electric Storm (b28)
 }
 
-STRING 4614
-// Abilities: A14O (Curse: Electric Storm (b28)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Electric Storm
-}
-
 STRING 4615
 // Abilities: A14O (Curse: Electric Storm (b28)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -30273,20 +30289,8 @@ STRING 4620
 Артефакт: Отчаяние льва
 }
 
-STRING 4621
-// Abilities: A14I (Blessing: Emotion suppression (g37)), Name (Name)
-{
-Blessing: Emotion suppression (g37)
-}
-
-STRING 4622
-// Abilities: A14I (Blessing: Emotion suppression (g37)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Emotion suppression
-}
-
 STRING 4623
-// Abilities: A14I (Blessing: Emotion suppression (g37)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A14I (Bless: Emotion Suppression), Ubertip (Tooltip - Normal - Extended)
 {
 Heroes take 10% less damage.
 }
@@ -30303,20 +30307,8 @@ STRING 4625
 Majestic mates
 }
 
-STRING 4626
-// Abilities: A14F (Blessing: Majestic mates (g36)), Name (Name)
-{
-Blessing: Majestic mates (g36)
-}
-
-STRING 4627
-// Abilities: A14F (Blessing: Majestic mates (g36)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Majestic mates
-}
-
 STRING 4628
-// Abilities: A14F (Blessing: Majestic mates (g36)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A14F (Blessing: Majestic Mates ), Ubertip (Tooltip - Normal - Extended)
 {
 Increases attack power of allied minions by 25%.
 }
@@ -31301,12 +31293,6 @@ STRING 4781
 Resonator
 }
 
-STRING 4782
-// Abilities: A00S (Blessing: Favorable events (g31)XXX), Name (Name)
-{
-Blessing: Favorable events (g31)XXX
-}
-
 STRING 4783
 // Items: I06J (Resonator), Tip (Tooltip - Basic)
 {
@@ -31323,12 +31309,6 @@ STRING 4785
 // Abilities: A118 (Blessing: Очищение (g23)XXX), Name (Name)
 {
 Blessing: Очищение (g23)XXX
-}
-
-STRING 4786
-// Abilities: A118 (Blessing: Очищение (g23)XXX), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Cutest
 }
 
 STRING 4787
@@ -32122,6 +32102,12 @@ STRING 4901
 Аура: Огонь в бутылке
 }
 
+STRING 4902
+// Abilities: A19M (Blessing: Runecraft), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Runecraft
+}
+
 STRING 4903
 // Abilities: A125 (MP/sec (Tear of Asha Extra)), Name (Name)
 {
@@ -32766,25 +32752,13 @@ MP (Mage Armor)
 }
 
 STRING 5000
-// Abilities: A11L (Прочее: Превращение), Hotkey (Hotkey - Normal)
+// Abilities: A11L (Прочее: Transformation), Hotkey (Hotkey - Normal)
 {
 D
 }
 
-STRING 5001
-// Abilities: A11L (Прочее: Превращение), Name (Name)
-{
-Прочее: Превращение
-}
-
-STRING 5002
-// Abilities: A11L (Прочее: Превращение), Tip (Tooltip - Normal)
-{
-Turning
-}
-
 STRING 5003
-// Abilities: A11L (Прочее: Превращение), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A11L (Прочее: Transformation), Ubertip (Tooltip - Normal - Extended)
 {
 Transforms the caster into a selected creature.
 }
@@ -32941,20 +32915,8 @@ STRING 5026
 MP (Orb of Nature)
 }
 
-STRING 5027
-// Abilities: A11B (Blessing: Reborn (g17)), Name (Name)
-{
-Blessing: Reborn (g17)
-}
-
-STRING 5028
-// Abilities: A11B (Blessing: Reborn (g17)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Reborn
-}
-
 STRING 5029
-// Abilities: A11B (Blessing: Reborn (g17)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A11B (Blessing: Reborn), Ubertip (Tooltip - Normal - Extended)
 {
 When any hero dies, deals |cffbe81f7300|r damage to all nearby enemies.
 }
@@ -32969,12 +32931,6 @@ STRING 5031
 // Abilities: A119 (Blessing: Purification), Name (Name)
 {
 Blessing: Purification
-}
-
-STRING 5032
-// Abilities: A119 (Blessing: Purification), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Purification
 }
 
 STRING 5033
@@ -33010,53 +32966,16 @@ STRING 5037
 Blessing: Кровопийцы (g24)
 }
 
-STRING 5038
-// Abilities: A117 (Blessing: Кровопийцы (g24)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Bloodsuckers
-}
-
-STRING 5039
-// Abilities: A117 (Blessing: Кровопийцы (g24)), Ubertip (Tooltip - Normal - Extended)
-{
-Physical attacks of the hero have |cffbe81f710%|r vampirism.
-}
-
 STRING 5040
 // Abilities: A116 (Blessing: Всеобличие (g19)), Name (Name)
 {
 Blessing: Всеобличие (g19)
 }
 
-STRING 5041
-// Abilities: A116 (Blessing: Всеобличие (g19)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Identity
-}
-
 STRING 5042
 // Abilities: A0HF (|cffffcc00Уровень 5:|r Огромная гидра), Tip (Tooltip - Normal)
 {
 Huge Hydra
-}
-
-STRING 5043
-// Abilities: A115 (Blessing: Второй шанс (g20)), Name (Name)
-{
-Blessing: Второй шанс (g20)
-}
-
-STRING 5044
-// Abilities: A115 (Blessing: Второй шанс (g20)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Second chance
-}
-
-STRING 5045
-// Abilities: A115 (Blessing: Второй шанс (g20)), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero's health is reduced to 20%, restores |cffbe81f720%|r of the maximum health.
-Works 1 time per battle.
 }
 
 STRING 5046
@@ -33083,12 +33002,6 @@ STRING 5049
 Blessing: Огненный дождь (g25)
 }
 
-STRING 5050
-// Abilities: A113 (Blessing: Огненный дождь (g25)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Fiery rain
-}
-
 STRING 5051
 // Abilities: A113 (Blessing: Огненный дождь (g25)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -33101,18 +33014,6 @@ STRING 5052
 Blessing: Сундуки (g26)
 }
 
-STRING 5053
-// Abilities: A112 (Blessing: Сундуки (g26)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Chests
-}
-
-STRING 5054
-// Abilities: A112 (Blessing: Сундуки (g26)), Ubertip (Tooltip - Normal - Extended)
-{
-At the beginning of each battle, creates chest. When the chest is destroyed, it gives a random bonus.
-}
-
 STRING 5055
 // Abilities: A111 (Armor (Beginner’s Luck)), Name (Name)
 {
@@ -33123,18 +33024,6 @@ STRING 5056
 // Abilities: A110 (Blessing: Везение (g18)), Name (Name)
 {
 Blessing: Везение (g18)
-}
-
-STRING 5057
-// Abilities: A110 (Blessing: Везение (g18)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Luck
-}
-
-STRING 5058
-// Abilities: A110 (Blessing: Везение (g18)), Ubertip (Tooltip - Normal - Extended)
-{
-Increases luck of all heroes by 10.
 }
 
 STRING 5059
@@ -33155,28 +33044,10 @@ STRING 5061
 Curse: Сила магии (b10)
 }
 
-STRING 5062
-// Abilities: A10X (Curse: Сила магии (b10)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r The power of magic
-}
-
-STRING 5063
-// Abilities: A10X (Curse: Сила магии (b10)), Ubertip (Tooltip - Normal - Extended)
-{
-Increases enemy spell power by 15% and enemy magic resistance by 10%.
-}
-
 STRING 5064
 // Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
 {
 Every 5th attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
-}
-
-STRING 5065
-// Abilities: A10W (Curse: Дефицит (b9)XXX), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Deficit
 }
 
 STRING 5066
@@ -33191,28 +33062,10 @@ STRING 5067
 Curse: Печать слабости (b13)
 }
 
-STRING 5068
-// Abilities: A10V (Curse: Печать слабости (b13)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Seal of weakness
-}
-
-STRING 5069
-// Abilities: A10V (Curse: Печать слабости (b13)), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces the effectiveness of received health and mana by 15%.
-}
-
 STRING 5070
 // Abilities: A10U (Curse: Переселение душ (b12)), Name (Name)
 {
 Curse: Переселение душ (b12)
-}
-
-STRING 5071
-// Abilities: A10U (Curse: Переселение душ (b12)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Reincarnation
 }
 
 STRING 5072
@@ -33225,12 +33078,6 @@ STRING 5073
 // Abilities: A10T (Curse: Ускорение (b11)), Name (Name)
 {
 Curse: Ускорение (b11)
-}
-
-STRING 5074
-// Abilities: A10T (Curse: Ускорение (b11)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Acceleration
 }
 
 STRING 5075
@@ -33254,12 +33101,6 @@ STRING 5077
 |cffffcc00Reward:|r Enhances |cffb18904mech|r bonuses X times. 
 }
 
-STRING 5078
-// Abilities: A10R (Curse: Support), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Support
-}
-
 STRING 5079
 // Abilities: A08A (Набор "|cff9001fdКольцо|r"), Ubertip (Tooltip - Normal - Extended)
 {
@@ -33271,12 +33112,6 @@ STRING 5080
 // Abilities: A10Q (Curse: Scatter (b15)), Name (Name)
 {
 Curse: Scatter (b15)
-}
-
-STRING 5081
-// Abilities: A10Q (Curse: Scatter (b15)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Scatter
 }
 
 STRING 5082
@@ -34773,12 +34608,6 @@ STRING 5311
 Curse: Seeker (b24)
 }
 
-STRING 5312
-// Abilities: A0YT (Curse: Seeker (b24)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Seeker
-}
-
 STRING 5313
 // Abilities: A0YT (Curse: Seeker (b24)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -36144,6 +35973,12 @@ STRING 5519
 Mage Stuntman
 }
 
+STRING 5520
+// Abilities: A18S (Bless: Foresight (g32)), Name (Name)
+{
+Bless: Foresight (g32)
+}
+
 STRING 5521
 // Abilities: A0W3 (Босс 2: Огр-Маг (Немота)), Name (Name)
 {
@@ -36553,6 +36388,42 @@ STRING 5585
 // Abilities: A0VN (Аура: Хроноярость), Name (Name)
 {
 Аура: Хроноярость
+}
+
+STRING 5586
+// Abilities: A18S (Bless: Foresight (g32)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Foresight
+}
+
+STRING 5587
+// Abilities: A14Q (Curse: Mistrust (b29)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Mistrust
+}
+
+STRING 5588
+// Abilities: A14O (Curse: Electric Storm (b28)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Electric Storm
+}
+
+STRING 5589
+// Abilities: A14I (Bless: Emotion Suppression), Name (Name)
+{
+Bless: Emotion Suppression
+}
+
+STRING 5590
+// Abilities: A14I (Bless: Emotion Suppression), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Emotion Suppression
+}
+
+STRING 5591
+// Abilities: A14F (Blessing: Majestic Mates ), Name (Name)
+{
+Blessing: Majestic Mates 
 }
 
 STRING 5592
@@ -39448,12 +39319,6 @@ STRING 6028
 Curse: Лень (b23)
 }
 
-STRING 6029
-// Abilities: A0T0 (Curse: Лень (b23)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Laziness
-}
-
 STRING 6030
 // Abilities: A0T0 (Curse: Лень (b23)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -39466,12 +39331,6 @@ STRING 6031
 Curse: Усердие (b22)
 }
 
-STRING 6032
-// Abilities: A0SZ (Curse: Усердие (b22)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Zeal
-}
-
 STRING 6033
 // Abilities: A0SZ (Curse: Усердие (b22)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -39482,18 +39341,6 @@ STRING 6034
 // Abilities: A0SY (Blessing: Дополнительная попытка (g30)), Name (Name)
 {
 Blessing: Дополнительная попытка (g30)
-}
-
-STRING 6035
-// Abilities: A0SY (Blessing: Дополнительная попытка (g30)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Extra try
-}
-
-STRING 6036
-// Abilities: A0SY (Blessing: Дополнительная попытка (g30)), Ubertip (Tooltip - Normal - Extended)
-{
-You gain +1 charge to your roll.
 }
 
 STRING 6037
@@ -39645,6 +39492,12 @@ STRING 6060
 // Abilities: A0SN (Артефакт: Тотем Взгляда), Ubertip (Tooltip - Normal - Extended)
 {
 Создаёт зону, в которой все союзники восстанавливают |cffbe81f720|r здоровья, а противники получают урон. В этой зоне нельзя использовать способности.|n|cffffcc00Время жизни:|r 15 секунд.|n|cffffcc00Перезарядка:|r 24 секунды.
+}
+
+STRING 6061
+// Abilities: A14F (Blessing: Majestic Mates ), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Majestic Mates
 }
 
 STRING 6062
@@ -40142,12 +39995,6 @@ STRING 6136
 // Abilities: A0S6 (Armor (Адаптация)), Name (Name)
 {
 Armor (Адаптация)
-}
-
-STRING 6137
-// Abilities: A0S5 (Снаряд: Морпех), Name (Name)
-{
-Снаряд: Морпех
 }
 
 STRING 6138
@@ -41608,12 +41455,6 @@ STRING 6367
 Blessing: Кошель (g7)
 }
 
-STRING 6368
-// Abilities: A0QL (Blessing: Кошель (g7)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Purse
-}
-
 STRING 6369
 // Abilities: A0QL (Blessing: Кошель (g7)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -41729,18 +41570,6 @@ STRING 6386
 Blessing: Добыча (g3)
 }
 
-STRING 6387
-// Abilities: A0QI (Blessing: Добыча (g3)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Production
-}
-
-STRING 6388
-// Abilities: A0QI (Blessing: Добыча (g3)), Ubertip (Tooltip - Normal - Extended)
-{
-All heroes receive artifact once.
-}
-
 STRING 6389
 // Abilities: A0OM (Artifact: Saronite bomb), Researchhotkey (Hotkey - Learn)
 {
@@ -41850,12 +41679,6 @@ STRING 6405
 Blessing: Оруженосец (g11)
 }
 
-STRING 6406
-// Abilities: A0QF (Blessing: Оруженосец (g11)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Squire
-}
-
 STRING 6407
 // Abilities: A0QF (Blessing: Оруженосец (g11)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -41866,12 +41689,6 @@ STRING 6408
 // Abilities: A0QE (Blessing: Торговля (g13)), Name (Name)
 {
 Blessing: Торговля (g13)
-}
-
-STRING 6409
-// Abilities: A0QE (Blessing: Торговля (g13)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Trade
 }
 
 STRING 6410
@@ -41898,18 +41715,6 @@ STRING 6412
 Blessing: Честь (g15)
 }
 
-STRING 6413
-// Abilities: A0QC (Blessing: Честь (g15)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Honor
-}
-
-STRING 6414
-// Abilities: A0QC (Blessing: Честь (g15)), Ubertip (Tooltip - Normal - Extended)
-{
-Increases attack power and spell power by 10%.
-}
-
 STRING 6415
 // Abilities: A0FN (Soulstealer: Debilitating Presence), Ubertip (Tooltip - Normal - Extended)
 {
@@ -41923,12 +41728,6 @@ STRING 6416
 // Items: I05K (Old Healer), Name (Name)
 {
 Old Healer
-}
-
-STRING 6417
-// Abilities: A0QA (Curse: Flame), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Flame
 }
 
 STRING 6418
@@ -41947,12 +41746,6 @@ STRING 6420
 // Abilities: A0Q8 (Blessing: Просветление (g12)), Name (Name)
 {
 Blessing: Просветление (g12)
-}
-
-STRING 6421
-// Abilities: A0Q8 (Blessing: Просветление (g12)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Enlightenment
 }
 
 STRING 6422
@@ -42724,12 +42517,6 @@ STRING 6539
 Curse: Контрудар (b21)
 }
 
-STRING 6540
-// Abilities: A0P5 (Curse: Контрудар (b21)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Counterstrike
-}
-
 STRING 6541
 // Abilities: A0P5 (Curse: Контрудар (b21)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -42777,12 +42564,6 @@ STRING 6548
 // Abilities: A0P1 (Blessing: Неожиданный поворот (g29)), Name (Name)
 {
 Blessing: Неожиданный поворот (g29)
-}
-
-STRING 6549
-// Abilities: A0P1 (Blessing: Неожиданный поворот (g29)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Plot twist
 }
 
 STRING 6550
@@ -43425,6 +43206,18 @@ STRING 6650
 // Abilities: A1HU (Аура: Ogre Magi Cast), Name (Name)
 {
 Аура: Ogre Magi Cast
+}
+
+STRING 6651
+// Abilities: A11B (Blessing: Reborn), Name (Name)
+{
+Blessing: Reborn
+}
+
+STRING 6652
+// Abilities: A11B (Blessing: Reborn), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Reborn
 }
 
 STRING 6653
@@ -44238,12 +44031,6 @@ STRING 6781
 Curse: Мусор (b20)
 }
 
-STRING 6782
-// Abilities: A0NL (Curse: Мусор (b20)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Trash
-}
-
 STRING 6783
 // Abilities: A0NL (Curse: Мусор (b20)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -44572,20 +44359,8 @@ Cancel "Black Sabbath". Attack and movement speed are normal, but you no longer 
 |cFF959697Can be activated during cooldown.|r
 }
 
-STRING 6834
-// Abilities: A0NF (Blessing: Laboratory equipment), Name (Name)
-{
-Blessing: Laboratory equipment
-}
-
-STRING 6835
-// Abilities: A0NF (Blessing: Laboratory equipment), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Laboratory equipment
-}
-
 STRING 6836
-// Abilities: A0NF (Blessing: Laboratory equipment), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0NF (Bless: Laboratory Equipment), Ubertip (Tooltip - Normal - Extended)
 {
 Increases spell power for |cff088a08potions|r and |cff60C445Unique|r, as well as the duration of buffs and debuffs by 25%.
 }
@@ -44726,12 +44501,6 @@ STRING 6858
 Deals |cffbe81f7300|r damage to all enemies nearby.
 |cffffcc00Cooldown:|r 5 seconds.
 |cffffcc00Cost:|r 80 health.
-}
-
-STRING 6859
-// Abilities: A0MY (Curse: Darkness), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Darkness
 }
 
 STRING 6860
@@ -45112,12 +44881,6 @@ STRING 6918
 // Abilities: A0MQ (Curse: Непоколебимость (b18)), Name (Name)
 {
 Curse: Непоколебимость (b18)
-}
-
-STRING 6919
-// Abilities: A0MQ (Curse: Непоколебимость (b18)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Steadfastness
 }
 
 STRING 6920
@@ -45557,20 +45320,8 @@ STRING 6986
 Мод17: Кольцо огня
 }
 
-STRING 6987
-// Abilities: A0M4 (Curse: Storm (b17)), Name (Name)
-{
-Curse: Storm (b17)
-}
-
-STRING 6988
-// Abilities: A0M4 (Curse: Storm (b17)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Storm
-}
-
 STRING 6989
-// Abilities: A0M4 (Curse: Storm (b17)), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0M4 (Curse: Thunder), Ubertip (Tooltip - Normal - Extended)
 {
 Thunderclouds are constantly moving around the arena, dealing 20 damage per second.
 }
@@ -45897,24 +45648,6 @@ STRING 7038
 Imposes a buff on an ally. When this effect ends, returns the target back in time (at the time the effect was applied).
 |cffffcc00Duration:|r 5 seconds.
 |cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 7039
-// Abilities: A0LW (Curse: Детонация (b16)), Name (Name)
-{
-Curse: Детонация (b16)
-}
-
-STRING 7040
-// Abilities: A0LW (Curse: Детонация (b16)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Detonation
-}
-
-STRING 7041
-// Abilities: A0LW (Curse: Детонация (b16)), Ubertip (Tooltip - Normal - Extended)
-{
-Every 10 seconds, an area appears that explodes after 4 seconds and deals damage equal to |cffbe81f720%|r health to creatures not controlled by bosses.
 }
 
 STRING 7042
@@ -46402,6 +46135,12 @@ STRING 7118
 Madness, [|cffffcc00Level 5|r]
 }
 
+STRING 7119
+// Abilities: A119 (Blessing: Purification), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Purification
+}
+
 STRING 7120
 // Abilities: A0LK (Lord of Chaos: Madness), Ubertip (Tooltip - Normal - Extended)
 {
@@ -46884,6 +46623,12 @@ STRING 7191
 Respite, [|cffffcc00Level 5|r]
 }
 
+STRING 7192
+// Abilities: A118 (Blessing: Очищение (g23)XXX), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Cutest
+}
+
 STRING 7193
 // Abilities: A041 (Босс 8: Вуду-Мастер (Водный тотем)XXX), Name (Name)
 {
@@ -46926,6 +46671,12 @@ STRING 7199
 // Abilities: A0KY (Аура: Усиление), Name (Name)
 {
 Аура: Усиление
+}
+
+STRING 7200
+// Abilities: A117 (Blessing: Кровопийцы (g24)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Bloodsuckers
 }
 
 STRING 7201
@@ -47244,12 +46995,6 @@ STRING 7248
 Curse: Wild Growth (b27)
 }
 
-STRING 7249
-// Abilities: A0KI (Curse: Wild Growth (b27)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Wild Growth
-}
-
 STRING 7250
 // Abilities: A0K4 (Vampire: True Form), Name (Name)
 {
@@ -47445,12 +47190,6 @@ STRING 7279
 // Abilities: A0KC (Ninja: Shadow Strike), Tip (Tooltip - Normal)
 {
 Shadow Strike, [|cffffcc00Level 5|r]
-}
-
-STRING 7280
-// Abilities: A1I1 (Blessing: Thirst for Knowledge), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Thirst for Knowledge
 }
 
 STRING 7281
@@ -47922,12 +47661,6 @@ STRING 7351
 // Abilities: A0JR (Curse: Anger (b26)), Name (Name)
 {
 Curse: Anger (b26)
-}
-
-STRING 7352
-// Abilities: A0JR (Curse: Anger (b26)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Anger
 }
 
 STRING 7353
@@ -48817,6 +48550,12 @@ STRING 7485
 Illusion, [|cffffcc00Level %d|r]
 }
 
+STRING 7486
+// Abilities: A117 (Blessing: Кровопийцы (g24)), Ubertip (Tooltip - Normal - Extended)
+{
+Your attacks have |cffbe81f710%|r Lifesteal.
+}
+
 STRING 7487
 // Abilities: A0IZ (Lord of Chaos: Illusions), Tip (Tooltip - Normal)
 {
@@ -48847,10 +48586,34 @@ STRING 7491
 Illusion, [|cffffcc00Level 5|r]
 }
 
+STRING 7492
+// Abilities: A116 (Blessing: Всеобличие (g19)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Identity
+}
+
+STRING 7493
+// Abilities: A116 (Blessing: Всеобличие (g19)), Ubertip (Tooltip - Normal - Extended)
+{
+|cff4169e1Rare|r artifacts appear 12% more frequently.
+}
+
+STRING 7494
+// Abilities: A115 (Blessing: Second Сhance), Name (Name)
+{
+Blessing: Second Сhance
+}
+
 STRING 7495
 // Abilities: A0GP (Босс 2: Благородный рыцарь (Рывок)XXX), Name (Name)
 {
 Босс 2: Благородный рыцарь (Рывок)XXX
+}
+
+STRING 7496
+// Abilities: A115 (Blessing: Second Сhance), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Second Сhance
 }
 
 STRING 7497
@@ -48907,6 +48670,12 @@ STRING 7505
 // Abilities: A0IV (Unique: Chaos (+)), Tip (Tooltip - Normal)
 {
 Chaos
+}
+
+STRING 7506
+// Abilities: A115 (Blessing: Second Сhance), Ubertip (Tooltip - Normal - Extended)
+{
+When the hero's health drops to 20% for the first time in a battle, restore |cffbe81f720%|r health.
 }
 
 STRING 7507
@@ -49159,18 +48928,6 @@ STRING 7545
 // Abilities: A0IG (Blessing: Revert (g35)), Name (Name)
 {
 Blessing: Revert (g35)
-}
-
-STRING 7546
-// Abilities: A0IG (Blessing: Revert (g35)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Revert
-}
-
-STRING 7547
-// Abilities: A0IG (Blessing: Revert (g35)), Ubertip (Tooltip - Normal - Extended)
-{
-The first two "Tomes of Oblivion" cost 150 gold less.
 }
 
 STRING 7548
@@ -50080,6 +49837,12 @@ STRING 7687
 When the hero attacks, there is a |cffd7df018%|r chance to give the hero a Throwing Knife. If inventory is full, use it instead.
 }
 
+STRING 7688
+// Abilities: A114 (Blessing: Замешательство (g22)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Sap
+}
+
 STRING 7689
 // Abilities: A1DN (Shepherds Sphere), Name (Name)
 {
@@ -50114,6 +49877,12 @@ STRING 7694
 // Buffs/Effects: B0BB (), Buffubertip (Tooltip - Extended)
 {
 You deal full damage to the Duelist.
+}
+
+STRING 7695
+// Abilities: A113 (Blessing: Огненный дождь (g25)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Fiery Rain
 }
 
 STRING 7696
@@ -50227,12 +49996,6 @@ Activation: Throw Billy at the enemy! The target will take |cffbe81f7500|r damag
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
-STRING 7713
-// Abilities: A0HA (Curse: Grave), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Grave
-}
-
 STRING 7714
 // Abilities: A0DC (Alchemist: Troll voodoo), Ubertip (Tooltip - Normal - Extended)
 {
@@ -50244,12 +50007,6 @@ STRING 7715
 {
 Spend up to half of your current mana. Restore |cffbe81f7500%|r of the consumed mana as health.
 |cffffcc00Cooldown:|r 12 seconds.
-}
-
-STRING 7716
-// Abilities: A0H9 (Curse: Succumbing), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Succumbing
 }
 
 STRING 7717
@@ -50472,12 +50229,6 @@ STRING 7750
 Soul Split, [|cffffcc00Level 5|r]
 }
 
-STRING 7751
-// Abilities: A0GU (Blessing: Triad (g34)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Triad
-}
-
 STRING 7752
 // Abilities: A0GU (Blessing: Triad (g34)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -50631,12 +50382,6 @@ STRING 7775
 Activation: |cffcc0000Corrupted|r. Gives 1 level.
 }
 
-STRING 7776
-// Abilities: A10T (Curse: Ускорение (b11)), Ubertip (Tooltip - Normal - Extended)
-{
-Battle Limit reduced by 60 seconds.
-}
-
 STRING 7777
 // Abilities: A0GP (Босс 2: Благородный рыцарь (Рывок)XXX), Tip (Tooltip - Normal)
 {
@@ -50699,25 +50444,6 @@ STRING 7786
 // Abilities: A0GH (Аура: Ослабление), Name (Name)
 {
 Аура: Ослабление
-}
-
-STRING 7787
-// Abilities: A0GG (Curse: Подавление (b5)), Name (Name)
-{
-Curse: Подавление (b5)
-}
-
-STRING 7788
-// Abilities: A0GG (Curse: Подавление (b5)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Suppression
-}
-
-STRING 7789
-// Abilities: A0GG (Curse: Подавление (b5)), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero's mana is reduced to 20%, burns all mana.
-Works 1 time per battle.
 }
 
 STRING 7790
@@ -50868,12 +50594,6 @@ STRING 7813
 Curse: Равенство (b7)
 }
 
-STRING 7814
-// Abilities: A0G9 (Curse: Равенство (b7)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Equality
-}
-
 STRING 7815
 // Abilities: A0G9 (Curse: Равенство (b7)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -50965,12 +50685,6 @@ STRING 7829
 Receive 2000 gold and Sticky Trash. Sticky Trash cannot be removed from your inventory by any means.
 }
 
-STRING 7830
-// Abilities: A0FY (Blessing: Saturation), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Saturation
-}
-
 STRING 7831
 // Items: IV22 (Almighty Beer), Ubertip (Tooltip - Extended)
 {
@@ -50978,34 +50692,10 @@ STRING 7831
 Receive 2000 gold and Sticky Trash. Sticky Trash cannot be removed from your inventory by any means.
 }
 
-STRING 7832
-// Abilities: A0FX (Curse: Dark portal (b1)), Name (Name)
-{
-Curse: Dark portal (b1)
-}
-
-STRING 7833
-// Abilities: A0FX (Curse: Dark portal (b1)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Dark portal
-}
-
-STRING 7834
-// Abilities: A0FX (Curse: Dark portal (b1)), Ubertip (Tooltip - Normal - Extended)
-{
-Every 20 seconds, all bosses teleport to a random hero and taunted for 4 seconds.
-}
-
 STRING 7835
 // Abilities: A0FW (Curse: Утомление (b8)), Name (Name)
 {
 Curse: Утомление (b8)
-}
-
-STRING 7836
-// Abilities: A0FW (Curse: Утомление (b8)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Fatigue
 }
 
 STRING 7837
@@ -51250,12 +50940,6 @@ STRING 7876
 Curse: Медлительность (b2)
 }
 
-STRING 7877
-// Abilities: A0FM (Curse: Медлительность (b2)), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Slowness
-}
-
 STRING 7878
 // Abilities: A0DC (Alchemist: Troll voodoo), Ubertip (Tooltip - Normal - Extended)
 {
@@ -51302,12 +50986,6 @@ STRING 7885
 // Abilities: A0FH (Blessing: Магия (g8)), Name (Name)
 {
 Blessing: Магия (g8)
-}
-
-STRING 7886
-// Abilities: A0FH (Blessing: Магия (g8)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Magic
 }
 
 STRING 7887
@@ -51530,6 +51208,12 @@ STRING 7921
 // Units: n01S (Mistress), EditorSuffix (Name - Editor Suffix)
 {
 (Level 3)
+}
+
+STRING 7922
+// Abilities: A112 (Blessing: Сундуки (g26)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Chests
 }
 
 STRING 7923
@@ -52847,6 +52531,12 @@ Every 8 seconds, restores |cffbe81f76%|r of maximum Health.
 |cff81f260[Random bonus]|r
 }
 
+STRING 8124
+// Abilities: A112 (Blessing: Сундуки (g26)), Ubertip (Tooltip - Normal - Extended)
+{
+At the start of the battle, it creates a chest. What could be inside it?
+}
+
 STRING 8125
 // Abilities: A0EE (Spell Book), EditorSuffix (Editor Suffix)
 {
@@ -52939,18 +52629,6 @@ STRING 8139
 // Abilities: A0E4 (Blessing: Жажда (g4)), Name (Name)
 {
 Blessing: Жажда (g4)
-}
-
-STRING 8140
-// Abilities: A0E4 (Blessing: Жажда (g4)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Thirst
-}
-
-STRING 8141
-// Abilities: A0E4 (Blessing: Жажда (g4)), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero uses an ability or item, restores |cffbe81f720|r health.
 }
 
 STRING 8142
@@ -53595,6 +53273,18 @@ Activation: Doubles the stats of an allied minion (do not stack).
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 8243
+// Abilities: A110 (Blessing: Везение (g18)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Luck
+}
+
+STRING 8244
+// Abilities: A110 (Blessing: Везение (g18)), Ubertip (Tooltip - Normal - Extended)
+{
+Gain 10 Luck.
+}
+
 STRING 8245
 // Abilities: A182 (Artifact: Chrysalis), Name (Name)
 {
@@ -53716,18 +53406,6 @@ STRING 8263
 Blessing: Избранный (g6)
 }
 
-STRING 8264
-// Abilities: A0DJ (Blessing: Избранный (g6)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r The chosen one
-}
-
-STRING 8265
-// Abilities: A0DJ (Blessing: Избранный (g6)), Ubertip (Tooltip - Normal - Extended)
-{
-At the beginning of the battle, increases the attack power and spell power of a random hero by 20%.
-}
-
 STRING 8266
 // Abilities: A0DI (Снаряд: Девятый вал), Name (Name)
 {
@@ -53744,6 +53422,18 @@ STRING 8268
 // Abilities: A0DG (Босс 10: Морской дикарь (Ускорение)), Name (Name)
 {
 Босс 10: Морской дикарь (Ускорение)
+}
+
+STRING 8269
+// Abilities: A10X (Curse: Сила магии (b10)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Power Magic
+}
+
+STRING 8270
+// Abilities: A10X (Curse: Сила магии (b10)), Ubertip (Tooltip - Normal - Extended)
+{
+Bosses and their minions gain 15% Spell Power and 10% Magic Resistance.
 }
 
 STRING 8271
@@ -54793,6 +54483,12 @@ Enters an ally into invisibility.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
+STRING 8436
+// Abilities: A10W (Curse: Дефицит (b9)XXX), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Deficit
+}
+
 STRING 8437
 // Abilities: A0C6 (Artifact: Orb of Light), Name (Name)
 {
@@ -55414,12 +55110,6 @@ STRING 8534
 // Abilities: A0BB (Blessing: Активация (g1)), Name (Name)
 {
 Blessing: Активация (g1)
-}
-
-STRING 8535
-// Abilities: A0BB (Blessing: Активация (g1)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Activation
 }
 
 STRING 8536
@@ -56185,12 +55875,6 @@ STRING 8648
 // Abilities: A075 (|cffffcc00Уровень 9:|r Reaper of Nightmares), Name (Name)
 {
 |cffffcc00Уровень 9:|r Reaper of Nightmares
-}
-
-STRING 8649
-// Abilities: A0AK (Bless: Chronospeed), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Chronospeed
 }
 
 STRING 8650
@@ -57163,6 +56847,18 @@ STRING 8797
 Deals |cffbe81f719|r damage to the enemy every second. Stacks up to three times.
 |cffffcc00Duration:|r 15 seconds.
 |cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 8798
+// Abilities: A10V (Curse: Печать слабости (b13)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Seal of Weakness
+}
+
+STRING 8799
+// Abilities: A10V (Curse: Печать слабости (b13)), Ubertip (Tooltip - Normal - Extended)
+{
+You receive 15% less health and mana.
 }
 
 STRING 8800
@@ -60382,6 +60078,12 @@ STRING 9302
 Босс 1: Электрошерст (Аура)
 }
 
+STRING 9303
+// Abilities: A10U (Curse: Переселение душ (b12)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Reincarnation
+}
+
 STRING 9304
 // Abilities: A070 (MP (Random bonus)), Name (Name)
 {
@@ -60593,6 +60295,12 @@ STRING 9337
 // Abilities: A06J (|cffffcc00Уровень 8:|r Вуду-Мастер), Name (Name)
 {
 |cffffcc00Уровень 8:|r Вуду-Мастер
+}
+
+STRING 9338
+// Abilities: A10T (Curse: Ускорение (b11)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Acceleration
 }
 
 STRING 9339
@@ -63096,12 +62804,6 @@ STRING 9721
 (т)Аура: Channel Energy (+)
 }
 
-STRING 9722
-// Abilities: A0FI (Blessing: Серьга Хаоса (g16)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Uniqueness
-}
-
 STRING 9723
 // Abilities: A04H (Усилитель 6: МонструозныйXXX), Tip (Tooltip - Normal)
 {
@@ -63496,6 +63198,12 @@ STRING 9778
 Treant
 }
 
+STRING 9779
+// Abilities: A10T (Curse: Ускорение (b11)), Ubertip (Tooltip - Normal - Extended)
+{
+Battle Limit reduced by 30 seconds.
+}
+
 STRING 9780
 // Abilities: A041 (Босс 8: Вуду-Мастер (Водный тотем)XXX), Tip (Tooltip - Normal)
 {
@@ -63506,6 +63214,12 @@ STRING 9781
 // Abilities: A041 (Босс 8: Вуду-Мастер (Водный тотем)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 Водный тотем
+}
+
+STRING 9782
+// Abilities: A10R (Curse: Support), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Support
 }
 
 STRING 9783
@@ -63887,19 +63601,6 @@ STRING 9840
 // Abilities: A03P (Blessing: Бессмертие (g2)), Name (Name)
 {
 Blessing: Бессмертие (g2)
-}
-
-STRING 9841
-// Abilities: A03P (Blessing: Бессмертие (g2)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Immortality
-}
-
-STRING 9842
-// Abilities: A03P (Blessing: Бессмертие (g2)), Ubertip (Tooltip - Normal - Extended)
-{
-You and your allies get the opportunity to resurrect one hero during each battle.
-
 }
 
 STRING 9843
@@ -65446,6 +65147,12 @@ Activation: Summons a ghoul for 35 seconds.
 |cffffcc00Cost:|r 90 health.
 }
 
+STRING 10081
+// Abilities: A10Q (Curse: Scatter (b15)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Scatter
+}
+
 STRING 10082
 // Items: I00P (Mana Crystal), Name (Name)
 {
@@ -66206,6 +65913,12 @@ STRING 10198
 Rush
 }
 
+STRING 10199
+// Abilities: A0YT (Curse: Seeker (b24)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Seeker
+}
+
 STRING 10200
 // Items: I01D (Twin Heart), Description (Description)
 {
@@ -66548,15 +66261,6 @@ STRING 10250
 Bloodlust, [|cffffcc00Level %d|r]
 }
 
-STRING 10251
-// Abilities: A010 (Barbarian: Bloodlust), Researchubertip (Tooltip - Learn - Extended)
-{
-Kills a minion. Restores the hero |cffbe81f750%/75%/100%/125%/150%|r of the target's health. If the target is |cffff1493undead|r, it increases the attack power of the hero by 15/20/25/30/35.
-|cffffcc00Duration:|r 16 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 30/35/40/45/50 mana.
-}
-
 STRING 10252
 // Abilities: A010 (Barbarian: Bloodlust), Tip (Tooltip - Normal)
 {
@@ -66587,42 +66291,10 @@ STRING 10256
 Bloodlust, [|cffffcc00Level 5|r]
 }
 
-STRING 10257
-// Abilities: A010 (Barbarian: Bloodlust), Ubertip (Tooltip - Normal - Extended)
-{
-Kills a minion. Restores the hero |cffbe81f750%|r of the target's health. If the target is |cffff1493undead|r, it increases the attack power of the hero by 15.
-|cffffcc00Duration:|r 16 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 10258
-// Abilities: A010 (Barbarian: Bloodlust), Ubertip (Tooltip - Normal - Extended)
-{
-Kills a minion. Restores the hero |cffbe81f775%|r of the target's health. If the target is |cffff1493undead|r, it increases the attack power of the hero by 20.
-|cffffcc00Duration:|r 16 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 10259
-// Abilities: A010 (Barbarian: Bloodlust), Ubertip (Tooltip - Normal - Extended)
-{
-Kills a minion. Restores the hero |cffbe81f7100%|r of the target's health. If the target is |cffff1493undead|r, it increases the attack power of the hero by 25.
-|cffffcc00Duration:|r 16 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
 STRING 10260
 // Abilities: A17J (Wicerd: Nah-ice! ), Ubertip (Tooltip - Normal - Extended)
 {
 Shoots an ice arrow at a targeted area, dealing |cffbe81f7260|r damage and freeze enemies. When it hits an enemy or a point, it splits, creating 3 ice arrows that fly to random points and do 2 times less damage.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 10261
-// Abilities: A010 (Barbarian: Bloodlust), Ubertip (Tooltip - Normal - Extended)
-{
-Kills a minion. Restores the hero |cffbe81f7150%|r of the target's health. If the target is |cffff1493undead|r, it increases the attack power of the hero by 35.
-|cffffcc00Duration:|r 16 seconds.
 |cffffcc00Cooldown:|r 10 seconds.
 }
 
@@ -66651,12 +66323,6 @@ STRING 10265
 Destroys an item.
 
 |cffffcc00Potions are destroyed for free.|r
-}
-
-STRING 10266
-// Abilities: A00W (Curse: Mystery (b25)XXX), Tip (Tooltip - Normal)
-{
-|cffffcc00Curse:|r Mystery
 }
 
 STRING 10267
@@ -66712,14 +66378,8 @@ Destroys an item.
 |cffffcc00Potions are destroyed for free.|r
 }
 
-STRING 10275
-// Abilities: A00S (Blessing: Favorable events (g31)XXX), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Favorable events
-}
-
 STRING 10276
-// Abilities: A00S (Blessing: Favorable events (g31)XXX), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A00S (Bless: Favorable events (g31)XXX), Ubertip (Tooltip - Normal - Extended)
 {
 Random events happen more often.
 }
@@ -67330,12 +66990,6 @@ STRING 10371
 // Abilities: A00A (Blessing: Некрозелья (g10)), Name (Name)
 {
 Blessing: Некрозелья (g10)
-}
-
-STRING 10372
-// Abilities: A00A (Blessing: Некрозелья (g10)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Necro potions
 }
 
 STRING 10373
@@ -68799,6 +68453,12 @@ STRING 10615
 // Buffs/Effects: B07G (), Buffubertip (Tooltip - Extended)
 {
 The hero will soon die or take significant damage.
+}
+
+STRING 10617
+// Abilities: A0T0 (Curse: Лень (b23)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Laziness
 }
 
 STRING 10618
@@ -70731,6 +70391,12 @@ STRING 10936
 |cffff0000Evil venom|r
 }
 
+STRING 10937
+// Abilities: A0SZ (Curse: Усердие (b22)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Zeal
+}
+
 STRING 10938
 // Buffs/Effects: B02X (), Bufftip (Tooltip)
 {
@@ -70948,7 +70614,7 @@ STRING 10972
 }
 
 STRING 10973
-// Buffs/Effects: B00J (), Buffubertip (Tooltip - Extended)
+// Buffs/Effects: B0B2 (), Buffubertip (Tooltip - Extended)
 {
 Movement speed increased.
 }
@@ -70981,12 +70647,6 @@ STRING 10978
 // Buffs/Effects: B02D (), Bufftip (Tooltip)
 {
 |cff00ff00Tenderness|r
-}
-
-STRING 10979
-// Buffs/Effects: B02D (), Buffubertip (Tooltip - Extended)
-{
-The warrior is touched.
 }
 
 STRING 10980
@@ -71749,28 +71409,28 @@ STRING 11104
 A warrior can restore his health by attacking opponents.
 }
 
+STRING 11105
+// Abilities: A0SY (Blessing: Дополнительная попытка (g30)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Extra Try
+}
+
 STRING 11106
 // Buffs/Effects: B00L (), Buffubertip (Tooltip - Extended)
 {
 Magic resistance increased.
 }
 
+STRING 11107
+// Abilities: A0SY (Blessing: Дополнительная попытка (g30)), Ubertip (Tooltip - Normal - Extended)
+{
+You can reroll your artifact rewards 1 more time.
+}
+
 STRING 11108
 // Buffs/Effects: B00B (), Buffubertip (Tooltip - Extended)
 {
 Armor increased.
-}
-
-STRING 11109
-// Buffs/Effects: B00J (), Bufftip (Tooltip)
-{
-|cff00ff00Acceleration|r
-}
-
-STRING 11110
-// Buffs/Effects: B0B2 (), Buffubertip (Tooltip - Extended)
-{
-Movement speed increased.
 }
 
 STRING 11111
@@ -72012,6 +71672,12 @@ STRING 11150
 // Buffs/Effects: B000 (), Bufftip (Tooltip)
 {
 |cff00ff00Tenacity|r
+}
+
+STRING 11151
+// Abilities: A0QL (Blessing: Кошель (g7)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Purse
 }
 
 STRING 11152
@@ -72403,7 +72069,19 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.12.7T|r
+|cffbe81f7Boss Battle 1.12.8T|r
+}
+
+STRING 11219
+// Abilities: A0QI (Blessing: Добыча (g3)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Production
+}
+
+STRING 11220
+// Abilities: A0QI (Blessing: Добыча (g3)), Ubertip (Tooltip - Normal - Extended)
+{
+All heroes receive a random artifact.
 }
 
 STRING 11221
@@ -72424,12 +72102,6 @@ Activation: Creates a copy of the allied minion.
 |cffffcc00Life time:|r 30 seconds.
 |cffffcc00Cooldown:|r 30 seconds.
 |cffffcc00Cost:|r 120 health.
-}
-
-STRING 11223
-// Abilities: A114 (Blessing: Замешательство (g22)), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r Sap
 }
 
 STRING 11224
@@ -73317,16 +72989,6 @@ STRING 11361
 // Buffs/Effects: B0AV (), EditorSuffix (Editor Suffix)
 {
 (Double Trouble)
-}
-
-STRING 11362
-// Abilities: A0HF (|cffffcc00Уровень 5:|r Огромная гидра), Ubertip (Tooltip - Normal - Extended)
-{
-- Ranged attacks.
-- The boss and the descendants do not cause Revenge.
-- Hydra health regen increased by 25.
-- After the death of the boss, creates 2 medium hydra.
-- After the death of the middle hydra, 5 small hydras are created.
 }
 
 STRING 11363
@@ -74700,6 +74362,12 @@ STRING 11574
 Moon Blinking, [|cffffcc00Level 3|r]
 }
 
+STRING 11575
+// Abilities: A0QF (Blessing: Оруженосец (g11)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Squire
+}
+
 STRING 11576
 // Abilities: A0EF (Keeper: Moon Blinking), Tip (Tooltip - Normal)
 {
@@ -74710,6 +74378,12 @@ STRING 11577
 // Abilities: A0HW (Dryad: Call of Nature), Researchtip (Tooltip - Learn)
 {
 Call of Nature, [|cffffcc00Level %d|r]
+}
+
+STRING 11578
+// Abilities: A0QE (Blessing: Торговля (g13)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Trade
 }
 
 STRING 11579
@@ -74724,6 +74398,12 @@ STRING 11580
 {
 |cff4169e1Rare|r, |cffb40431Blood|r
 Gain |cffbe81f720%|r Magic Damage Lifesteal.
+}
+
+STRING 11581
+// Abilities: A0QC (Blessing: Честь (g15)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Honor
 }
 
 STRING 11582
@@ -74775,6 +74455,12 @@ STRING 11588
 |cff4169e1Rare|r, |cff00cceeCrystal|r
 Activation: Permanently increase mana by 20.
 |cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 11589
+// Abilities: A0QC (Blessing: Честь (g15)), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Attack Damage and Spell Power by 10%.
 }
 
 STRING 11590
@@ -76662,6 +76348,18 @@ Increases Health by 75.
 When a Hero's ability is used, reduces the Attack of nearby enemies by 2. Cannot reduce bosses' attack below 40.
 }
 
+STRING 11863
+// Abilities: A0QA (Curse: Flame), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Flame
+}
+
+STRING 11864
+// Abilities: A0Q8 (Blessing: Просветление (g12)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Enlightenment
+}
+
 STRING 11865
 // Abilities: A1DS (Shepherd: Care), Ubertip (Tooltip - Normal - Extended)
 {
@@ -76896,6 +76594,12 @@ Deals |cffbe81f7220|r damage to all enemies in front of the hero and knocks them
 |cFF959697Does not work on immobile targets.|r
 }
 
+STRING 11898
+// Abilities: A0P5 (Curse: Контрудар (b21)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Counterstrike
+}
+
 STRING 11899
 // Items: I06E (Big Red Button), Name (Name)
 {
@@ -76906,6 +76610,12 @@ STRING 11900
 // Items: I06E (Big Red Button), Tip (Tooltip - Basic)
 {
 Big Red Button
+}
+
+STRING 11901
+// Abilities: A0P1 (Blessing: Неожиданный поворот (g29)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Plot Twist
 }
 
 STRING 11902
@@ -77214,12 +76924,6 @@ STRING 11946
 {
 |cffffcc00Increased likelihood of getting better artifacts.|r
 Increases the chance of encountering artifacts of |cffe96a1clegendary|r rarity by 1% and |cff4169e1rare|r by 4%.
-}
-
-STRING 11947
-// Abilities: A116 (Blessing: Всеобличие (g19)), Ubertip (Tooltip - Normal - Extended)
-{
-Increases the chance of |cff4169e1Rare|r artifacts appearing by 12%.
 }
 
 STRING 11948
@@ -77867,6 +77571,18 @@ STRING 12041
 // Items: IV08 (Bag of Candies), Tip (Tooltip - Basic)
 {
 Bag of Candies
+}
+
+STRING 12042
+// Abilities: A0NL (Curse: Мусор (b20)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Trash
+}
+
+STRING 12043
+// Abilities: A0NF (Bless: Laboratory Equipment), Name (Name)
+{
+Bless: Laboratory Equipment
 }
 
 STRING 12044
@@ -78855,6 +78571,12 @@ STRING 12189
 (Level 4)
 }
 
+STRING 12190
+// Abilities: A0NF (Bless: Laboratory Equipment), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Laboratory Equipment
+}
+
 STRING 12191
 // Units: h01N (Choptrouble), EditorSuffix (Name - Editor Suffix)
 {
@@ -78955,20 +78677,8 @@ STRING 12204
 Dark Sphere
 }
 
-STRING 12205
-// Abilities: A0MK (Blessing I Know a Guy), Name (Name)
-{
-Blessing I Know a Guy
-}
-
-STRING 12206
-// Abilities: A0MK (Blessing I Know a Guy), Tip (Tooltip - Normal)
-{
-|cffffcc00Blessing:|r I Know a Guy
-}
-
 STRING 12207
-// Abilities: A0MK (Blessing I Know a Guy), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0MK (Bless: I Know a Guy), Ubertip (Tooltip - Normal - Extended)
 {
 After defeating the boss, you can refresh the Artifact Shop for free.
 }
@@ -79228,6 +78938,12 @@ STRING 12244
 You didn't kill anyone in this fight.
 }
 
+STRING 12245
+// Abilities: A0MY (Curse: Darkness), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Darkness
+}
+
 STRING 12246
 // Items: I0DT (Breastplate), Name (Name)
 {
@@ -79238,6 +78954,12 @@ STRING 12247
 // Items: I0DT (Breastplate), Tip (Tooltip - Basic)
 {
 Breastplate
+}
+
+STRING 12248
+// Abilities: A0MQ (Curse: Непоколебимость (b18)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Steadfastness
 }
 
 STRING 12249
@@ -80227,6 +79949,12 @@ STRING 12377
 |cffffcc00Уровень 7:|r Дух рыцаря
 }
 
+STRING 12378
+// Abilities: A0MK (Bless: I Know a Guy), Name (Name)
+{
+Bless: I Know a Guy
+}
+
 STRING 12379
 // Abilities: A0JX (|cffffcc00Уровень 5:|r Саламандра), Ubertip (Tooltip - Normal - Extended)
 {
@@ -80251,9 +79979,278 @@ STRING 12380
 - |cff00cceeAt 40% health:|r Now creates 3 lines.
 }
 
+STRING 12381
+// Abilities: A0MK (Bless: I Know a Guy), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r I Know a Guy
+}
+
 STRING 12382
 // Abilities: A1JR (Item Immolation (Salamander)), Name (Name)
 {
 Item Immolation (Salamander)
+}
+
+STRING 12383
+// Abilities: A0M4 (Curse: Thunder), Name (Name)
+{
+Curse: Thunder
+}
+
+STRING 12384
+// Abilities: A0M4 (Curse: Thunder), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Thunder
+}
+
+STRING 12385
+// Abilities: A0LW (Curse: Detonation), Name (Name)
+{
+Curse: Detonation
+}
+
+STRING 12386
+// Abilities: A0LW (Curse: Detonation), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Detonation
+}
+
+STRING 12387
+// Abilities: A0LW (Curse: Detonation), Ubertip (Tooltip - Normal - Extended)
+{
+Every 12 seconds, it creates an area that detonates after 4 seconds, dealing damage equal to |cffbe81f720%|r of player units' health.
+}
+
+STRING 12388
+// Abilities: A0KI (Curse: Wild Growth (b27)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Wild Growth
+}
+
+STRING 12389
+// Abilities: A0JR (Curse: Anger (b26)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Anger
+}
+
+STRING 12390
+// Abilities: A0IG (Blessing: Revert (g35)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Revert
+}
+
+STRING 12391
+// Abilities: A0IG (Blessing: Revert (g35)), Ubertip (Tooltip - Normal - Extended)
+{
+Tomes of Oblivion costs 150 gold less. 2 charges.
+}
+
+STRING 12392
+// Abilities: A0HA (Curse: Grave), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Grave
+}
+
+STRING 12393
+// Abilities: A0H9 (Curse: Succumbing), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Succumbing
+}
+
+STRING 12394
+// Abilities: A0GU (Blessing: Triad (g34)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Triad
+}
+
+STRING 12395
+// Abilities: A0GG (Curse: Suppression), Name (Name)
+{
+Curse: Suppression
+}
+
+STRING 12396
+// Abilities: A0GG (Curse: Suppression), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Suppression
+}
+
+STRING 12397
+// Abilities: A0GG (Curse: Suppression), Ubertip (Tooltip - Normal - Extended)
+{
+When the hero's mana drops to 20% for the first time in the battle, burns it.
+}
+
+STRING 12398
+// Abilities: A0G9 (Curse: Равенство (b7)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Equality
+}
+
+STRING 12399
+// Abilities: A0FY (Blessing: Saturation), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Saturation
+}
+
+STRING 12401
+// Abilities: A0FW (Curse: Утомление (b8)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Fatigue
+}
+
+STRING 12402
+// Abilities: A0FW (Curse: Утомление (b8)), Ubertip (Tooltip - Normal - Extended)
+{
+Every 45 seconds, it Exhausts a random hero. An Exhausted hero restores 50% less health and mana.
+}
+
+STRING 12403
+// Abilities: A0FM (Curse: Медлительность (b2)), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Slowness
+}
+
+STRING 12404
+// Abilities: A0FI (Blessing: Серьга Хаоса (g16)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Uniqueness
+}
+
+STRING 12405
+// Abilities: A0FH (Blessing: Магия (g8)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Magic
+}
+
+STRING 12406
+// Abilities: A0E4 (Blessing: Жажда (g4)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Thirst
+}
+
+STRING 12407
+// Abilities: A0E4 (Blessing: Жажда (g4)), Ubertip (Tooltip - Normal - Extended)
+{
+On cast, restore |cffbe81f720|r Health.
+}
+
+STRING 12408
+// Abilities: A0DJ (Blessing: Избранный (g6)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r The Chosen One
+}
+
+STRING 12409
+// Abilities: A0DJ (Blessing: Избранный (g6)), Ubertip (Tooltip - Normal - Extended)
+{
+At the start of combat, a random hero is designated as the Chosen for that battle. The Chosen gains 20% Attack Damage and Spell Power.
+}
+
+STRING 12410
+// Abilities: A0BB (Blessing: Активация (g1)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Activation
+}
+
+STRING 12411
+// Abilities: A0BA (Blessing: Злоба (g5)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Malice
+}
+
+STRING 12412
+// Abilities: A0BA (Blessing: Злоба (g5)), Ubertip (Tooltip - Normal - Extended)
+{
+On cast, permanently increases Spell Power by 0.1%.
+}
+
+STRING 12413
+// Abilities: A03P (Blessing: Бессмертие (g2)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Immortality
+}
+
+STRING 12414
+// Abilities: A03P (Blessing: Бессмертие (g2)), Ubertip (Tooltip - Normal - Extended)
+{
+The first fallen hero in each battle revives with 50% health and mana.
+}
+
+STRING 12415
+// Abilities: A00W (Curse: Mystery (b25)XXX), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Mystery
+}
+
+STRING 12416
+// Abilities: A00S (Bless: Favorable events (g31)XXX), Name (Name)
+{
+Bless: Favorable events (g31)XXX
+}
+
+STRING 12417
+// Abilities: A00S (Bless: Favorable events (g31)XXX), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Favorable events
+}
+
+STRING 12418
+// Abilities: A00A (Blessing: Некрозелья (g10)), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Necro Potions
+}
+
+STRING 12419
+// Abilities: A1HB (Blessing: Speciality), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Speciality
+}
+
+STRING 12420
+// Abilities: A1HB (Blessing: Speciality), Ubertip (Tooltip - Normal - Extended)
+{
+All heroes receive a random |cff8080ffSpecial|r ability (if they don't have it).
+}
+
+STRING 12421
+// Abilities: A1I1 (Blessing: Thirst for Knowledge), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Thirst for Knowledge
+}
+
+STRING 12422
+// Abilities: A1I6 (Curse: Debt), Tip (Tooltip - Normal)
+{
+|cffFF7F7FCurse:|r Debt
+}
+
+STRING 12423
+// Buffs/Effects: B02D (), Buffubertip (Tooltip - Extended)
+{
+The unit is touched.
+}
+
+STRING 12424
+// Buffs/Effects: B00J (), Bufftip (Tooltip)
+{
+|cff00ff00Speed Up|r
+}
+
+STRING 12425
+// Buffs/Effects: B00J (), Buffubertip (Tooltip - Extended)
+{
+Movement speed is increased out of combat.
+}
+
+STRING 12426
+// Abilities: A0VH (|cffffcc00Уровень 10:|r Chronomonster), Ubertip (Tooltip - Normal - Extended)
+{
+- Attacks deal area-of-effect damage.
+- Every 8 seconds, a random anomaly is created near the boss. When a hero steps on it, they receive a random positive bonus.
+- Every 5 seconds, a portal appears that spawns a random minion. They live for 60 seconds.
+- |cff00cceeAt 50% health:|r Rewinds time to the start of the battle. Summons 4 portals near each hero.
+- |cff00cceeAt 25% health:|r Kills heroes. Mercilessly.
+- |cff00cceeAt 10% health:|r The boss is furious, periodically restoring |cffbe81f72%|r of its health. Lasts 10 seconds. Attack ​​and Movement Speed ​​increased by 50%. 
 }
 

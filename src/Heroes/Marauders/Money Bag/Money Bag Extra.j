@@ -69,6 +69,7 @@ scope MoneyBagExtra initializer init
 	    else
 	        call SetUnitPathing( target, true )
 	        call UnitRemoveAbility( target, 'A17U' )
+	        call UnitRemoveAbility( target, 'A1K3' )
 	    	call SaveUnitHandle( udg_hash, GetHandleId( caster ), StringHash( "mbgqtt" ), caster )
 	    	call DestroyLightning( ray )
 	    	if not( RectContainsUnit( udg_Boss_Rect, target) ) and udg_combatlogic[GetPlayerId(GetOwningPlayer( target )) + 1] then
@@ -92,6 +93,7 @@ scope MoneyBagExtra initializer init
 	
 		call SetUnitPathing( target, false )
 		call UnitAddAbility( target, 'A17U' )
+		call UnitAddAbility( target, 'A1K3' )
 	
 		set l = AddLightningEx("SPLK", true, GetUnitX(caster), GetUnitY(caster), GetUnitFlyHeight(caster) , GetUnitX(target), GetUnitY(target), GetUnitFlyHeight(target))
 	
@@ -122,6 +124,7 @@ scope MoneyBagExtra initializer init
 		set currentBindedUnit = LoadUnitHandle( udg_hash, GetHandleId( caster ), StringHash( "mbgqtt" ) )
 		set isTargetNotOldTarget = currentBindedUnit != target
 		call UnitRemoveAbility( currentBindedUnit, 'A17U' )
+		call UnitRemoveAbility( currentBindedUnit, 'A1K3' )
 	    call dummyspawn( caster, 1, 0, 0, 0 )
 		call SaveUnitHandle( udg_hash, GetHandleId( caster ), StringHash( "mbgqtt" ), bj_lastCreatedUnit )
 	    if currentBindedUnit != null then

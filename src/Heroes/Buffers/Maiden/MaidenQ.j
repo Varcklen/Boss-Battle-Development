@@ -63,6 +63,7 @@ function MaidenQMove takes nothing returns nothing
         call UnitRemoveAbility( caster, 'A01V' )
         call UnitRemoveAbility( caster, 'B08F' )
         call UnitRemoveAbility( target, 'A04V' )
+        call UnitRemoveAbility( caster, 'A1K3' )
     	call SaveUnitHandle( udg_hash, GetHandleId( caster ), StringHash( "mdnqtt" ), caster )
     	call DestroyLightning( l )
     	if not( RectContainsUnit( udg_Boss_Rect, caster) ) and udg_combatlogic[GetPlayerId(GetOwningPlayer( caster )) + 1] then
@@ -90,6 +91,7 @@ function MaidenQStart takes nothing returns nothing
     call UnitAddAbility( caster, 'A16J' )
     call UnitAddAbility( caster, 'A01V' )
     call UnitAddAbility( target, 'A04V' )
+    call UnitAddAbility( caster, 'A1K3' )
     call SetUnitAbilityLevel( target, 'A04V', lvl )
 
 	set l = AddLightningEx("HWPB", true, GetUnitX(caster), GetUnitY(caster), GetUnitFlyHeight(caster) , GetUnitX(target), GetUnitY(target), GetUnitFlyHeight(target))

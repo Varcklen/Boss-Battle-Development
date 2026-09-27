@@ -4,6 +4,10 @@ scope CurseDetonation initializer init
 		private trigger Trigger = null
 	endglobals
 	
+	private function condition takes nothing returns boolean
+		return ExtraArenaGeneral_IsPvPActive() == false
+	endfunction
+	
 	private function end takes nothing returns nothing
 	    local integer id = GetHandleId( GetExpiredTimer() )
 	    local unit dummy = LoadUnitHandle( udg_hash, id, StringHash( "curse_succumbing_end" ) )
@@ -42,7 +46,7 @@ scope CurseDetonation initializer init
 	        set bj_lastCreatedUnit = CreateUnit( Player(10), 'u000', GetUnitX( u ) + GetRandomReal(-300, 300), GetUnitY( u ) + GetRandomReal(-300, 300), 270 )
 	        call SetUnitScale(bj_lastCreatedUnit, 2.5, 2.5, 2.5 )
 	        call UnitAddAbility( bj_lastCreatedUnit, 'A136')
-	        
+
 	        call InvokeTimerWithUnit( bj_lastCreatedUnit, "curse_succumbing_end", 4, false, function end )
 	    endif
 	    
@@ -55,7 +59,7 @@ scope CurseDetonation initializer init
         	set timerUsed = CreateTimer()
             call SaveTimerHandle( udg_hash, 1, StringHash("curse_detonation"), timerUsed )
         endif
-        call TimerStart( timerUsed, 10, true, function cast )
+        call TimerStart( timerUsed, 12, true, function cast )
         
         set timerUsed = null
     endfunction
@@ -73,7 +77,7 @@ scope CurseDetonation initializer init
     endfunction
 	
 	private function init takes nothing returns nothing
-		set Trigger = CreateEventTrigger( "udg_FightStartGlobal_Real", function action, null )
+		set Trigger = CreateEventTrigger( "udg_FightStartGlobal_Real", function action, function condition )
 		call DisableTrigger( Trigger )
 	endfunction
 
