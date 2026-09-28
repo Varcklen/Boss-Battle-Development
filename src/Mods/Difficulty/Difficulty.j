@@ -58,11 +58,11 @@ library Difficulty initializer init requires Multiboard, SpellPower
 	    set udg_HardModBonus[4] = 'A07Q'
 	    
 	    set HardModAspd[0]=1.0
-	    set HardModAspd[1]=1.1
-	    set HardModAspd[2]=1.2
-	    set HardModAspd[3]=1.3
-	    set HardModAspd[4]=1.4
-	    set HardModAspd[5]=1.5
+	    set HardModAspd[1]=1.08
+	    set HardModAspd[2]=1.16
+	    set HardModAspd[3]=1.24
+	    set HardModAspd[4]=1.32
+	    set HardModAspd[5]=1.4
 	    /*set HardModAspd[6]=2.2
 	    set HardModAspd[7]=2.4
 	    set HardModAspd[8]=2.6

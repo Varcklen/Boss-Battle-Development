@@ -31,7 +31,6 @@ scope WicerdQ initializer init
 	    local boolean k = LoadBoolean( udg_hash, id, StringHash( "wcrq" ) )
 	    local integer cyclA
 	    local integer id1
-	    local real tim
 	
 	    call GroupEnumUnitsInRange( g, GetUnitX( dummy ), GetUnitY( dummy ), 150, null )
 	    loop
@@ -39,6 +38,7 @@ scope WicerdQ initializer init
 	        exitwhen u == null
 	        if unitst( u, caster, "enemy" ) and not( IsUnitInGroup( u, cnldmg ) ) then
 	            set l = true
+	            exitwhen true
 	        endif
 	        call GroupRemoveUnit(g,u)
 	    endloop
@@ -46,7 +46,6 @@ scope WicerdQ initializer init
 	    if not(l) and SquareRoot( IfX + IfY ) > 10 and GetUnitState( dummy, UNIT_STATE_LIFE) > 0.405 then
 	        call SetUnitPosition( dummy, NewX, NewY )
 	    else
-	        set tim = timebonus(caster, 10)
 	        call DestroyEffect( AddSpecialEffect( "Abilities\\Weapons\\FrostWyrmMissile\\FrostWyrmMissile.mdl", GetUnitX( dummy ), GetUnitY( dummy ) ) )
 	        call GroupEnumUnitsInRange( g, GetUnitX( dummy ), GetUnitY( dummy ), 200, null )
 	        loop
@@ -54,7 +53,7 @@ scope WicerdQ initializer init
 	            exitwhen u == null
 	            if unitst( u, caster, "enemy" ) then
 	                call GroupAddUnit( nodmg, u )
-	                call freezest( caster, u, tim, lvl )
+	                call WicerdFreeze_Cast( caster, u )
 	                call UnitDamageTarget( caster, u, dmg, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS )
 	            endif
 	            call GroupRemoveUnit(g,u)

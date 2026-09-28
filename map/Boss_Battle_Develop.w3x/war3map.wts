@@ -2843,15 +2843,6 @@ STRING 451
 Lye Insanios
 }
 
-STRING 452
-// Abilities: A135 (|cffffcc00Уровень 7:|r Goblin Shredder), Ubertip (Tooltip - Normal - Extended)
-{
-- Calls a huge airship that flies around the arena and scatters bombs. When the bomb touches the ground, deals |cffbe81f7125|r damage to nearby enemies.
-- Every 10 seconds, launches a saw at a random hero. The saw exists for 7 seconds and periodically deals |cffbe81f775|r damage.
-- |cff00cceeAt 60% health:|r The boss blows up the upper part of the arena, periodically dealing |cffbe81f7125|r damage for 25 seconds.
-- |cff00cceeAt 30% health:|r The boss blows up the lower part of the arena.
-}
-
 STRING 453
 // Units: O00L ((W) Overlord), Propernames (Proper Names)
 {
@@ -5428,14 +5419,6 @@ Increases attack power by 15% and health regeneration by 5.
 When you summon a minion, it gains the ability to restore |cffbe81f715|r health to the hero with the lowest health when attacking.
 }
 
-STRING 853
-// Abilities: A17O (Wicerd: Brain Freeze), Researchubertip (Tooltip - Learn - Extended)
-{
-Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f760/95/130/165/200|r damage instead and stuns them for 3 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-|cffffcc00Cost:|r 60 mana.
-}
-
 STRING 854
 // Items: I0FZ (Orb of the Foggy Swamp), Name (Name)
 {
@@ -5446,14 +5429,6 @@ STRING 855
 // Items: I0FZ (Orb of the Foggy Swamp), Tip (Tooltip - Basic)
 {
 Orb of the Foggy Swamp
-}
-
-STRING 856
-// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f760|r damage instead and stuns them for 3 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 857
@@ -10663,6 +10638,14 @@ Increases attack speed of the next 14 attacks by 150%.
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
+STRING 1618
+// Abilities: A17O (Wicerd: Brain Freeze), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f7100/140/180/220/260|r damage to enemies in a large area around the hero and freezes them. If they are already frozen, also stuns them for 3 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+|cffffcc00Cost:|r 60 mana.
+}
+
 STRING 1619
 // Abilities: A0JG (Wanderer: Impius Imperium), Ubertip (Tooltip - Normal - Extended)
 {
@@ -10679,6 +10662,13 @@ Deals |cffbe81f730|r damage per second to the enemy. When the effect ends, creat
 |cffffcc00Duration:|r 3 seconds.
 |cffffcc00Cooldown:|r 5 seconds.
 |cffffcc00Cost:|r 50 health.
+}
+
+STRING 1621
+// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7100|r damage to enemies in a large area around the hero and freezes them. If they are already frozen, also stuns them for 3 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 1622
@@ -11229,7 +11219,7 @@ Rerolls cost 100 gold less. Receive 1 permanent Reroll.
 }
 
 STRING 1703
-// Abilities: A0HF (|cffffcc00Уровень 5:|r Огромная гидра), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0HF (|cffffcc00Уровень 5:|r Huge Hydra), Ubertip (Tooltip - Normal - Extended)
 {
 - Ranged attacks.
 - Attacks deal area-of-effect damage.
@@ -12166,22 +12156,6 @@ STRING 1840
 // Items: I0FH (Fortune-Telling Ball), Tip (Tooltip - Basic)
 {
 Fortune-Telling Ball
-}
-
-STRING 1841
-// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f795|r damage instead and stuns them for 3 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
-STRING 1842
-// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f7130|r damage instead and stuns them for 3 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 1843
@@ -18349,6 +18323,13 @@ STRING 2756
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a mage artifact.
 }
 
+STRING 2757
+// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7140|r damage to enemies in a large area around the hero and freezes them. If they are already frozen, also stuns them for 3 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 2758
 // Abilities: A15J (Бонус: Dream Leaf), Name (Name)
 {
@@ -19814,22 +19795,6 @@ STRING 2977
 {
 |cffbababcCommon|r
 Increases the Armor of the owner and nearby allies by 5.
-}
-
-STRING 2978
-// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and increases the Movement Speed by 80%.
-|cffffcc00Duration:|r 4.5 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 2979
-// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and increases the Movement Speed by 80%.
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 2980
@@ -25390,6 +25355,13 @@ STRING 3851
 .State: Cancel Movement
 }
 
+STRING 3852
+// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7180|r damage to enemies in a large area around the hero and freezes them. If they are already frozen, also stuns them for 3 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
 STRING 3853
 // Abilities: A19M (Blessing: Runecraft), Ubertip (Tooltip - Normal - Extended)
 {
@@ -25460,6 +25432,13 @@ STRING 3864
 // Abilities: A19K (Gun Master: Shelling), Tip (Tooltip - Normal)
 {
 Shelling, [|cffffcc00Level 5|r]
+}
+
+STRING 3865
+// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7220|r damage to enemies in a large area around the hero and freezes them. If they are already frozen, also stuns them for 3 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 3866
@@ -25767,6 +25746,21 @@ STRING 3907
 |cffe96a1cLegendary|r, |cfffe9a2eAlchemy|r
 Increases |cff088a08Potion|r Spell Power by 35%.
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r a custom |cff088a08potion|r with 4 charges. |cFF959697(Current: Nothing)|r
+}
+
+STRING 3908
+// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7260|r damage to enemies in a large area around the hero and freezes them. If they are already frozen, also stuns them for 3 seconds.
+|cffffcc00Cooldown:|r 10 seconds.
+}
+
+STRING 3909
+// Abilities: A17M (Wicerd: Ice-olation), Researchubertip (Tooltip - Learn - Extended)
+{
+Deals |cffbe81f7150/200/250/300/350|r damage to the enemy and freezes them. If already frozen, stuns them for 2/2.5/3/3.5/4 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 60 mana.
 }
 
 STRING 3910
@@ -26323,26 +26317,10 @@ STRING 3992
 W
 }
 
-STRING 3993
-// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f7165|r damage instead and stuns them for 3 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
-}
-
 STRING 3994
 // Abilities: A192 (Swamp Treant: Mana), Tip (Tooltip - Normal)
 {
 Mana
-}
-
-STRING 3995
-// Abilities: A17O (Wicerd: Brain Freeze), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes enemies in a large area. If they are already frozen, it deals |cffbe81f7200|r damage instead and stuns them for 3 seconds.
-|cffffcc00Duration:|r 10 seconds.
-|cffffcc00Cooldown:|r 10 seconds.
 }
 
 STRING 3996
@@ -26369,25 +26347,10 @@ STRING 3999
 Q
 }
 
-STRING 4000
-// Abilities: A17M (Wicerd: Ice-olation), Researchubertip (Tooltip - Learn - Extended)
-{
-Freezes the target. If the target is already frozen, deals |cffbe81f7100/150/200/250/300|r damage and stuns for 2/2.5/3/3.5/4 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 60 mana.
-}
-
 STRING 4001
 // Abilities: A190 (Swamp Treant: Life), Tip (Tooltip - Normal)
 {
 Life
-}
-
-STRING 4002
-// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes the target. If the target is already frozen, deals |cffbe81f7100|r damage and stuns for 2 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 4003
@@ -26436,6 +26399,20 @@ STRING 4010
 // Abilities: A18T (Stats (Cursed Amulet)), Name (Name)
 {
 Stats (Cursed Amulet)
+}
+
+STRING 4011
+// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7150|r damage to the enemy and freezes them. If already frozen, stuns them for 2 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 4012
+// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7200|r damage to the enemy and freezes them. If already frozen, stuns them for 2.5 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 4013
@@ -27979,14 +27956,8 @@ STRING 4257
 Босс 9: Soulfiend (Аура)
 }
 
-STRING 4258
-// Abilities: A16Z (|cffffcc00Уровень 4:|r Начальник стражи), Name (Name)
-{
-|cffffcc00Уровень 4:|r Начальник стражи
-}
-
 STRING 4259
-// Abilities: A16Z (|cffffcc00Уровень 4:|r Начальник стражи), Tip (Tooltip - Normal)
+// Abilities: A16Z (|cffffcc00Уровень 4:|r Chief of the Guard), Tip (Tooltip - Normal)
 {
 Chief of the Guard
 }
@@ -30134,6 +30105,13 @@ STRING 4595
 Curse: Mistrust (b29)
 }
 
+STRING 4596
+// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7250|r damage to the enemy and freezes them. If already frozen, stuns them for 3 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 4597
 // Abilities: A14Q (Curse: Mistrust (b29)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -30253,10 +30231,11 @@ STRING 4613
 Curse: Electric Storm (b28)
 }
 
-STRING 4615
-// Abilities: A14O (Curse: Electric Storm (b28)), Ubertip (Tooltip - Normal - Extended)
+STRING 4614
+// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
 {
-Sometimes lightning bolts are created that appear for three seconds and deal |cffbe81f720%|r health on hit.
+Deals |cffbe81f7300|r damage to the enemy and freezes them. If already frozen, stuns them for 3.5 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 4616
@@ -30289,6 +30268,21 @@ STRING 4620
 Артефакт: Отчаяние льва
 }
 
+STRING 4621
+// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
+{
+Deals |cffbe81f7350|r damage to the enemy and freezes them. If already frozen, stuns them for 4 seconds.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 4622
+// Abilities: A0F1 (Ogre: Rampage), Researchubertip (Tooltip - Learn - Extended)
+{
+Enrage the hero for 25 seconds. Each subsequent attack hit deals 2%/3%/4%/5%/6% more damage.
+|cffffcc00Cooldown:|r 35 seconds.
+|cffffcc00Cost:|r 35 mana.
+}
+
 STRING 4623
 // Abilities: A14I (Bless: Emotion Suppression), Ubertip (Tooltip - Normal - Extended)
 {
@@ -30305,6 +30299,20 @@ STRING 4625
 // Abilities: A14G (Majestic mates), Name (Name)
 {
 Majestic mates
+}
+
+STRING 4626
+// Abilities: A0F1 (Ogre: Rampage), Ubertip (Tooltip - Normal - Extended)
+{
+Enrage the hero for 25 seconds. Each subsequent attack hit deals 2% more damage.
+|cffffcc00Cooldown:|r 35 seconds.
+}
+
+STRING 4627
+// Abilities: A0F1 (Ogre: Rampage), Ubertip (Tooltip - Normal - Extended)
+{
+Enrage the hero for 25 seconds. Each subsequent attack hit deals 3% more damage.
+|cffffcc00Cooldown:|r 35 seconds.
 }
 
 STRING 4628
@@ -31293,6 +31301,13 @@ STRING 4781
 Resonator
 }
 
+STRING 4782
+// Abilities: A0F1 (Ogre: Rampage), Ubertip (Tooltip - Normal - Extended)
+{
+Enrage the hero for 25 seconds. Each subsequent attack hit deals 4% more damage.
+|cffffcc00Cooldown:|r 35 seconds.
+}
+
 STRING 4783
 // Items: I06J (Resonator), Tip (Tooltip - Basic)
 {
@@ -31309,6 +31324,13 @@ STRING 4785
 // Abilities: A118 (Blessing: Очищение (g23)XXX), Name (Name)
 {
 Blessing: Очищение (g23)XXX
+}
+
+STRING 4786
+// Abilities: A0F1 (Ogre: Rampage), Ubertip (Tooltip - Normal - Extended)
+{
+Enrage the hero for 25 seconds. Each subsequent attack hit deals 5% more damage.
+|cffffcc00Cooldown:|r 35 seconds.
 }
 
 STRING 4787
@@ -32757,6 +32779,19 @@ STRING 5000
 D
 }
 
+STRING 5001
+// Abilities: A0F1 (Ogre: Rampage), Ubertip (Tooltip - Normal - Extended)
+{
+Enrage the hero for 25 seconds. Each subsequent attack hit deals 6% more damage.
+|cffffcc00Cooldown:|r 35 seconds.
+}
+
+STRING 5002
+// Abilities: A0EW (Ogre: Power Punch), Name (Name)
+{
+Ogre: Power Punch
+}
+
 STRING 5003
 // Abilities: A11L (Прочее: Transformation), Ubertip (Tooltip - Normal - Extended)
 {
@@ -32915,6 +32950,12 @@ STRING 5026
 MP (Orb of Nature)
 }
 
+STRING 5027
+// Abilities: A0EW (Ogre: Power Punch), Researchtip (Tooltip - Learn)
+{
+Power Punch, [|cffffcc00Level %d|r]
+}
+
 STRING 5029
 // Abilities: A11B (Blessing: Reborn), Ubertip (Tooltip - Normal - Extended)
 {
@@ -32931,6 +32972,12 @@ STRING 5031
 // Abilities: A119 (Blessing: Purification), Name (Name)
 {
 Blessing: Purification
+}
+
+STRING 5032
+// Abilities: A0EW (Ogre: Power Punch), Tip (Tooltip - Normal)
+{
+Power Punch, [|cffffcc00Level 1|r]
 }
 
 STRING 5033
@@ -32966,16 +33013,40 @@ STRING 5037
 Blessing: Кровопийцы (g24)
 }
 
+STRING 5038
+// Abilities: A0EW (Ogre: Power Punch), Tip (Tooltip - Normal)
+{
+Power Punch, [|cffffcc00Level 2|r]
+}
+
+STRING 5039
+// Abilities: A0EW (Ogre: Power Punch), Tip (Tooltip - Normal)
+{
+Power Punch, [|cffffcc00Level 3|r]
+}
+
 STRING 5040
 // Abilities: A116 (Blessing: Всеобличие (g19)), Name (Name)
 {
 Blessing: Всеобличие (g19)
 }
 
+STRING 5041
+// Abilities: A0EW (Ogre: Power Punch), Tip (Tooltip - Normal)
+{
+Power Punch, [|cffffcc00Level 4|r]
+}
+
 STRING 5042
-// Abilities: A0HF (|cffffcc00Уровень 5:|r Огромная гидра), Tip (Tooltip - Normal)
+// Abilities: A0HF (|cffffcc00Уровень 5:|r Huge Hydra), Tip (Tooltip - Normal)
 {
 Huge Hydra
+}
+
+STRING 5043
+// Abilities: A0EW (Ogre: Power Punch), Tip (Tooltip - Normal)
+{
+Power Punch, [|cffffcc00Level 5|r]
 }
 
 STRING 5046
@@ -33026,6 +33097,21 @@ STRING 5056
 Blessing: Везение (g18)
 }
 
+STRING 5057
+// Abilities: A0EU (Ogre: Earthquake), Researchubertip (Tooltip - Learn - Extended)
+{
+The hero strikes the ground, disorienting enemies for 30 seconds. Disoriented enemies attack 10% slower and take 15%/20%/25%/30%/35% more damage from attacks.
+|cffffcc00Cooldown:|r 20 seconds.
+|cffffcc00Cost:|r 45 mana.
+}
+
+STRING 5058
+// Abilities: A0EU (Ogre: Earthquake), Ubertip (Tooltip - Normal - Extended)
+{
+The hero strikes the ground, disorienting enemies for 30 seconds. Disoriented enemies attack 10% slower and take 15% more damage from attacks.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 5059
 // Abilities: A10Z (MP/sec (Tear of Asha)), Name (Name)
 {
@@ -33044,10 +33130,31 @@ STRING 5061
 Curse: Сила магии (b10)
 }
 
+STRING 5062
+// Abilities: A0EU (Ogre: Earthquake), Ubertip (Tooltip - Normal - Extended)
+{
+The hero strikes the ground, disorienting enemies for 30 seconds. Disoriented enemies attack 10% slower and take 20% more damage from attacks.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 5063
+// Abilities: A0EU (Ogre: Earthquake), Ubertip (Tooltip - Normal - Extended)
+{
+The hero strikes the ground, disorienting enemies for 30 seconds. Disoriented enemies attack 10% slower and take 25% more damage from attacks.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 5064
 // Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
 {
 Every 5th attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
+}
+
+STRING 5065
+// Abilities: A0EU (Ogre: Earthquake), Ubertip (Tooltip - Normal - Extended)
+{
+The hero strikes the ground, disorienting enemies for 30 seconds. Disoriented enemies attack 10% slower and take 30% more damage from attacks.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 5066
@@ -33062,10 +33169,32 @@ STRING 5067
 Curse: Печать слабости (b13)
 }
 
+STRING 5068
+// Abilities: A0EU (Ogre: Earthquake), Ubertip (Tooltip - Normal - Extended)
+{
+The hero strikes the ground, disorienting enemies for 30 seconds. Disoriented enemies attack 10% slower and take 35% more damage from attacks.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 5069
+// Abilities: A0ET (Ogre: Crush), Researchubertip (Tooltip - Learn - Extended)
+{
+Reduces the enemy's armor by 2/3/4/5/6 for 5 seconds. When you attack this target, deal an additional 40/55/70/85/100 damage and refresh the duration.
+|cffffcc00Cooldown:|r 15 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
 STRING 5070
 // Abilities: A10U (Curse: Переселение душ (b12)), Name (Name)
 {
 Curse: Переселение душ (b12)
+}
+
+STRING 5071
+// Abilities: A0ET (Ogre: Crush), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces the enemy's armor by 2 for 5 seconds. When you attack this target, deal an additional 40 damage and refresh the duration.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 5072
@@ -33078,6 +33207,13 @@ STRING 5073
 // Abilities: A10T (Curse: Ускорение (b11)), Name (Name)
 {
 Curse: Ускорение (b11)
+}
+
+STRING 5074
+// Abilities: A0ET (Ogre: Crush), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces the enemy's armor by 3 for 5 seconds. When you attack this target, deal an additional 55 damage and refresh the duration.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 5075
@@ -33101,6 +33237,13 @@ STRING 5077
 |cffffcc00Reward:|r Enhances |cffb18904mech|r bonuses X times. 
 }
 
+STRING 5078
+// Abilities: A0ET (Ogre: Crush), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces the enemy's armor by 4 for 5 seconds. When you attack this target, deal an additional 70 damage and refresh the duration.
+|cffffcc00Cooldown:|r 15 seconds.
+}
+
 STRING 5079
 // Abilities: A08A (Набор "|cff9001fdКольцо|r"), Ubertip (Tooltip - Normal - Extended)
 {
@@ -33112,6 +33255,13 @@ STRING 5080
 // Abilities: A10Q (Curse: Scatter (b15)), Name (Name)
 {
 Curse: Scatter (b15)
+}
+
+STRING 5081
+// Abilities: A0ET (Ogre: Crush), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces the enemy's armor by 5 for 5 seconds. When you attack this target, deal an additional 85 damage and refresh the duration.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 5082
@@ -34606,6 +34756,13 @@ STRING 5311
 // Abilities: A0YT (Curse: Seeker (b24)), Name (Name)
 {
 Curse: Seeker (b24)
+}
+
+STRING 5312
+// Abilities: A0ET (Ogre: Crush), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces the enemy's armor by 6 for 5 seconds. When you attack this target, deal an additional 100 damage and refresh the duration.
+|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 5313
@@ -37629,13 +37786,6 @@ STRING 5772
 Increases magic damage dealt by 100% of percent of missing health.
 }
 
-STRING 5773
-// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes the target. If the target is already frozen, deals |cffbe81f7150|r damage and stuns for 2.5 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
 STRING 5774
 // Abilities: A0TO (Harpy: Soul of the forest), Researchhotkey (Hotkey - Learn)
 {
@@ -39319,6 +39469,12 @@ STRING 6028
 Curse: Лень (b23)
 }
 
+STRING 6029
+// Abilities: A0E1 (Spell Book), EditorSuffix (Editor Suffix)
+{
+(Землетрясение)XXX
+}
+
 STRING 6030
 // Abilities: A0T0 (Curse: Лень (b23)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -39331,6 +39487,12 @@ STRING 6031
 Curse: Усердие (b22)
 }
 
+STRING 6032
+// Abilities: A0DR (Аура: ЗемлетрясениеXXX), Name (Name)
+{
+Аура: ЗемлетрясениеXXX
+}
+
 STRING 6033
 // Abilities: A0SZ (Curse: Усердие (b22)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -39341,6 +39503,18 @@ STRING 6034
 // Abilities: A0SY (Blessing: Дополнительная попытка (g30)), Name (Name)
 {
 Blessing: Дополнительная попытка (g30)
+}
+
+STRING 6035
+// Abilities: A1K4 ((т)Аура: Earthquake), Name (Name)
+{
+(т)Аура: Earthquake
+}
+
+STRING 6036
+// Abilities: A0EW (Ogre: Power Punch), Researchubertip (Tooltip - Learn - Extended)
+{
+Your attacks have a |cffd7df015%|r chance to stun the target for 0.5/0.75/1/1.25/1.5 seconds and deal an additional 100/150/200/250/300 damage.
 }
 
 STRING 6037
@@ -39995,6 +40169,12 @@ STRING 6136
 // Abilities: A0S6 (Armor (Адаптация)), Name (Name)
 {
 Armor (Адаптация)
+}
+
+STRING 6137
+// Abilities: A0EW (Ogre: Power Punch), Ubertip (Tooltip - Normal - Extended)
+{
+Your attacks have a |cffd7df015%|r chance to stun the target for 0.5 seconds and deal an additional 100 damage.
 }
 
 STRING 6138
@@ -41455,6 +41635,12 @@ STRING 6367
 Blessing: Кошель (g7)
 }
 
+STRING 6368
+// Abilities: A0EW (Ogre: Power Punch), Ubertip (Tooltip - Normal - Extended)
+{
+Your attacks have a |cffd7df015%|r chance to stun the target for 0.75 seconds and deal an additional 150 damage.
+}
+
 STRING 6369
 // Abilities: A0QL (Blessing: Кошель (g7)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -41570,6 +41756,18 @@ STRING 6386
 Blessing: Добыча (g3)
 }
 
+STRING 6387
+// Abilities: A0EW (Ogre: Power Punch), Ubertip (Tooltip - Normal - Extended)
+{
+Your attacks have a |cffd7df015%|r chance to stun the target for 1 second and deal an additional 200 damage.
+}
+
+STRING 6388
+// Abilities: A0EW (Ogre: Power Punch), Ubertip (Tooltip - Normal - Extended)
+{
+Your attacks have a |cffd7df015%|r chance to stun the target for 1.25 seconds and deal an additional 250 damage.
+}
+
 STRING 6389
 // Abilities: A0OM (Artifact: Saronite bomb), Researchhotkey (Hotkey - Learn)
 {
@@ -41679,6 +41877,12 @@ STRING 6405
 Blessing: Оруженосец (g11)
 }
 
+STRING 6406
+// Abilities: A0EW (Ogre: Power Punch), Ubertip (Tooltip - Normal - Extended)
+{
+Your attacks have a |cffd7df015%|r chance to stun the target for 1.5 seconds and deal an additional 300 damage.
+}
+
 STRING 6407
 // Abilities: A0QF (Blessing: Оруженосец (g11)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -41689,6 +41893,12 @@ STRING 6408
 // Abilities: A0QE (Blessing: Торговля (g13)), Name (Name)
 {
 Blessing: Торговля (g13)
+}
+
+STRING 6409
+// Abilities: A0ID (Archer: Shadow Vision), Name (Name)
+{
+Archer: Shadow Vision
 }
 
 STRING 6410
@@ -41715,6 +41925,18 @@ STRING 6412
 Blessing: Честь (g15)
 }
 
+STRING 6413
+// Abilities: A0ID (Archer: Shadow Vision), Researchtip (Tooltip - Learn)
+{
+Shadow Vision, [|cffffcc00Level %d|r]
+}
+
+STRING 6414
+// Abilities: A0ID (Archer: Shadow Vision), Researchubertip (Tooltip - Learn - Extended)
+{
+Increases Attack Damage by 2/3/4/5/6 every 2 seconds. Gain 50% more while invisible. The bonus is lost upon the hero's death.
+}
+
 STRING 6415
 // Abilities: A0FN (Soulstealer: Debilitating Presence), Ubertip (Tooltip - Normal - Extended)
 {
@@ -41728,6 +41950,12 @@ STRING 6416
 // Items: I05K (Old Healer), Name (Name)
 {
 Old Healer
+}
+
+STRING 6417
+// Abilities: A0ID (Archer: Shadow Vision), Tip (Tooltip - Normal)
+{
+Shadow Vision, [|cffffcc00Level 1|r]
 }
 
 STRING 6418
@@ -41746,6 +41974,12 @@ STRING 6420
 // Abilities: A0Q8 (Blessing: Просветление (g12)), Name (Name)
 {
 Blessing: Просветление (g12)
+}
+
+STRING 6421
+// Abilities: A0ID (Archer: Shadow Vision), Tip (Tooltip - Normal)
+{
+Shadow Vision, [|cffffcc00Level 2|r]
 }
 
 STRING 6422
@@ -42517,6 +42751,12 @@ STRING 6539
 Curse: Контрудар (b21)
 }
 
+STRING 6540
+// Abilities: A0ID (Archer: Shadow Vision), Tip (Tooltip - Normal)
+{
+Shadow Vision, [|cffffcc00Level 3|r]
+}
+
 STRING 6541
 // Abilities: A0P5 (Curse: Контрудар (b21)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -42564,6 +42804,12 @@ STRING 6548
 // Abilities: A0P1 (Blessing: Неожиданный поворот (g29)), Name (Name)
 {
 Blessing: Неожиданный поворот (g29)
+}
+
+STRING 6549
+// Abilities: A0ID (Archer: Shadow Vision), Tip (Tooltip - Normal)
+{
+Shadow Vision, [|cffffcc00Level 4|r]
 }
 
 STRING 6550
@@ -42773,17 +43019,6 @@ STRING 6583
 // Abilities: A0OP (|cffffcc00Уровень 1:|r Каменный голем), Name (Name)
 {
 |cffffcc00Уровень 1:|r Каменный голем
-}
-
-STRING 6584
-// Abilities: A16Z (|cffffcc00Уровень 4:|r Начальник стражи), Ubertip (Tooltip - Normal - Extended)
-{
-- Attacks silence the target for 3 seconds.
-- When any hero dies, restores |cffbe81f77%|r of health to the boss.
-- Every 12 seconds, creates a projectile that pursues a hero. After 3 seconds, the projectile explodes, draining |cffbe81f740%|r of mana and killing minions. The explosion does not affect the target being pursued.
-- Every 35 seconds, locks a random item in each hero's inventory. 
-- |cff00cceeAt 80%, 50% and 30% health:|r Removes all buffs from the boss and heroes.
-- |cff00cceeAt 35% health:|r Suppresses healing magic. Heroes cannot restore health.
 }
 
 STRING 6585
@@ -44031,6 +44266,12 @@ STRING 6781
 Curse: Мусор (b20)
 }
 
+STRING 6782
+// Abilities: A0ID (Archer: Shadow Vision), Tip (Tooltip - Normal)
+{
+Shadow Vision, [|cffffcc00Level 5|r]
+}
+
 STRING 6783
 // Abilities: A0NL (Curse: Мусор (b20)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -44359,6 +44600,18 @@ Cancel "Black Sabbath". Attack and movement speed are normal, but you no longer 
 |cFF959697Can be activated during cooldown.|r
 }
 
+STRING 6834
+// Abilities: A0ID (Archer: Shadow Vision), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Attack Damage by 2 every 2 seconds. Gain 50% more while invisible. The bonus is lost upon the hero's death.
+}
+
+STRING 6835
+// Abilities: A0ID (Archer: Shadow Vision), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Attack Damage by 3 every 2 seconds. Gain 50% more while invisible. The bonus is lost upon the hero's death.
+}
+
 STRING 6836
 // Abilities: A0NF (Bless: Laboratory Equipment), Ubertip (Tooltip - Normal - Extended)
 {
@@ -44501,6 +44754,12 @@ STRING 6858
 Deals |cffbe81f7300|r damage to all enemies nearby.
 |cffffcc00Cooldown:|r 5 seconds.
 |cffffcc00Cost:|r 80 health.
+}
+
+STRING 6859
+// Abilities: A0ID (Archer: Shadow Vision), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Attack Damage by 4 every 2 seconds. Gain 50% more while invisible. The bonus is lost upon the hero's death.
 }
 
 STRING 6860
@@ -44881,6 +45140,12 @@ STRING 6918
 // Abilities: A0MQ (Curse: Непоколебимость (b18)), Name (Name)
 {
 Curse: Непоколебимость (b18)
+}
+
+STRING 6919
+// Abilities: A0ID (Archer: Shadow Vision), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Attack Damage by 5 every 2 seconds. Gain 50% more while invisible. The bonus is lost upon the hero's death.
 }
 
 STRING 6920
@@ -45320,6 +45585,20 @@ STRING 6986
 Мод17: Кольцо огня
 }
 
+STRING 6987
+// Abilities: A0ID (Archer: Shadow Vision), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Attack Damage by 6 every 2 seconds. Gain 50% more while invisible. The bonus is lost upon the hero's death.
+}
+
+STRING 6988
+// Abilities: A0I6 (Archer: Sprint), Researchubertip (Tooltip - Learn - Extended)
+{
+The hero becomes invisible and increases Movement Speed by 80% for 3/4.5/6/7.5/9 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
 STRING 6989
 // Abilities: A0M4 (Curse: Thunder), Ubertip (Tooltip - Normal - Extended)
 {
@@ -45648,6 +45927,27 @@ STRING 7038
 Imposes a buff on an ally. When this effect ends, returns the target back in time (at the time the effect was applied).
 |cffffcc00Duration:|r 5 seconds.
 |cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 7039
+// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
+{
+The hero becomes invisible and increases Movement Speed by 80% for 3 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 7040
+// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
+{
+The hero becomes invisible and increases Movement Speed by 80% for 4.5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
+STRING 7041
+// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
+{
+The hero becomes invisible and increases Movement Speed by 80% for 6 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 7042
@@ -46419,7 +46719,7 @@ Activation: Kills your hero and resurrects it with 50% health and mana.
 }
 
 STRING 7161
-// Abilities: A0ID (Archer: Shadow), Researchhotkey (Hotkey - Learn)
+// Abilities: A0ID (Archer: Shadow Vision), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -46995,6 +47295,13 @@ STRING 7248
 Curse: Wild Growth (b27)
 }
 
+STRING 7249
+// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
+{
+The hero becomes invisible and increases Movement Speed by 80% for 7.5 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
+}
+
 STRING 7250
 // Abilities: A0K4 (Vampire: True Form), Name (Name)
 {
@@ -47190,6 +47497,13 @@ STRING 7279
 // Abilities: A0KC (Ninja: Shadow Strike), Tip (Tooltip - Normal)
 {
 Shadow Strike, [|cffffcc00Level 5|r]
+}
+
+STRING 7280
+// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
+{
+The hero becomes invisible and increases Movement Speed by 80% for 9 seconds.
+|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 7281
@@ -47657,10 +47971,10 @@ STRING 7350
 (Скарабей)
 }
 
-STRING 7351
-// Abilities: A0JR (Curse: Anger (b26)), Name (Name)
+STRING 7352
+// Abilities: A16Z (|cffffcc00Уровень 4:|r Chief of the Guard), Name (Name)
 {
-Curse: Anger (b26)
+|cffffcc00Уровень 4:|r Chief of the Guard
 }
 
 STRING 7353
@@ -48930,6 +49244,23 @@ STRING 7545
 Blessing: Revert (g35)
 }
 
+STRING 7546
+// Abilities: A16Z (|cffffcc00Уровень 4:|r Chief of the Guard), Ubertip (Tooltip - Normal - Extended)
+{
+- Attacks silence the target for 3 seconds.
+- When any hero dies, restores |cffbe81f77%|r of health to the boss.
+- Every 12 seconds, creates a projectile that pursues a hero. After 3 seconds, the projectile explodes, draining |cffbe81f740%|r of mana and killing minions. The explosion does not affect the target being pursued.
+- Every 35 seconds, locks a random item in each hero's inventory. 
+- |cff00cceeAt 80%, 50% and 30% health:|r Removes all buffs from the boss and heroes.
+- |cff00cceeAt 25% health:|r Suppresses healing magic. Heroes cannot restore health.
+}
+
+STRING 7547
+// Abilities: A0JR (Curse: Anger), Name (Name)
+{
+Curse: Anger
+}
+
 STRING 7548
 // Abilities: A0IF (Снаряд: Magic Trick), Name (Name)
 {
@@ -48942,22 +49273,10 @@ STRING 7549
 (т)Аура: Fool stack
 }
 
-STRING 7550
-// Abilities: A0ID (Archer: Shadow), Name (Name)
-{
-Archer: Shadow
-}
-
 STRING 7551
 // Abilities: A0FQ (Pyrolord: Pyromagic), Researchhotkey (Hotkey - Learn)
 {
 E
-}
-
-STRING 7552
-// Abilities: A0ID (Archer: Shadow), Researchtip (Tooltip - Learn)
-{
-Shadow, [|cffffcc00Level %d|r]
 }
 
 STRING 7553
@@ -48965,36 +49284,6 @@ STRING 7553
 {
 |cffbababcCommon|r, |cfffe9a2eAlchemy|r
 Reduces cooldowns by 10%. If all artifacts in your inventory belong to the |cfffe9a2eAlchemy|r set, reduces by an additional 25%.
-}
-
-STRING 7554
-// Abilities: A0ID (Archer: Shadow), Tip (Tooltip - Normal)
-{
-Shadow, [|cffffcc00Level 1|r]
-}
-
-STRING 7555
-// Abilities: A0ID (Archer: Shadow), Tip (Tooltip - Normal)
-{
-Shadow, [|cffffcc00Level 2|r]
-}
-
-STRING 7556
-// Abilities: A0ID (Archer: Shadow), Tip (Tooltip - Normal)
-{
-Shadow, [|cffffcc00Level 3|r]
-}
-
-STRING 7557
-// Abilities: A0ID (Archer: Shadow), Tip (Tooltip - Normal)
-{
-Shadow, [|cffffcc00Level 4|r]
-}
-
-STRING 7558
-// Abilities: A0ID (Archer: Shadow), Tip (Tooltip - Normal)
-{
-Shadow, [|cffffcc00Level 5|r]
 }
 
 STRING 7559
@@ -49996,6 +50285,12 @@ Activation: Throw Billy at the enemy! The target will take |cffbe81f7500|r damag
 |cffffcc00Cooldown:|r 30 seconds.
 }
 
+STRING 7713
+// Abilities: A0JR (Curse: Anger), Ubertip (Tooltip - Normal - Extended)
+{
+Increases Boss Attack Damage by 10%.
+}
+
 STRING 7714
 // Abilities: A0DC (Alchemist: Troll voodoo), Ubertip (Tooltip - Normal - Extended)
 {
@@ -50007,6 +50302,12 @@ STRING 7715
 {
 Spend up to half of your current mana. Restore |cffbe81f7500%|r of the consumed mana as health.
 |cffffcc00Cooldown:|r 12 seconds.
+}
+
+STRING 7716
+// Abilities: A14O (Curse: Electric Storm (b28)), Ubertip (Tooltip - Normal - Extended)
+{
+Every 15 seconds, 15 lightning bolts strike the arena with a 3-second delay, dealing ​​damage equal to |cffbe81f720%|r of players' units health.
 }
 
 STRING 7717
@@ -50229,6 +50530,15 @@ STRING 7750
 Soul Split, [|cffffcc00Level 5|r]
 }
 
+STRING 7751
+// Abilities: A135 (|cffffcc00Уровень 7:|r Goblin Shredder), Ubertip (Tooltip - Normal - Extended)
+{
+- Calls a huge airship that flies around the arena and scatters bombs. When the bomb touches the ground, deals |cffbe81f7125|r damage to nearby enemies.
+- Every 10 seconds, launches a saw at a random hero. The saw exists for 7 seconds and periodically deals |cffbe81f775|r damage.
+- |cff00cceeAt 70% health:|r The boss blows up the upper part of the arena, periodically dealing |cffbe81f7125|r damage for 15 seconds.
+- |cff00cceeAt 30% health:|r The boss blows up the lower part of the arena.
+}
+
 STRING 7752
 // Abilities: A0GU (Blessing: Triad (g34)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -50382,6 +50692,12 @@ STRING 7775
 Activation: |cffcc0000Corrupted|r. Gives 1 level.
 }
 
+STRING 7776
+// Abilities: A0HF (|cffffcc00Уровень 5:|r Huge Hydra), Name (Name)
+{
+|cffffcc00Уровень 5:|r Huge Hydra
+}
+
 STRING 7777
 // Abilities: A0GP (Босс 2: Благородный рыцарь (Рывок)XXX), Tip (Tooltip - Normal)
 {
@@ -50444,6 +50760,12 @@ STRING 7786
 // Abilities: A0GH (Аура: Ослабление), Name (Name)
 {
 Аура: Ослабление
+}
+
+STRING 7787
+// Abilities: A0GG (Curse: Suppression), Ubertip (Tooltip - Normal - Extended)
+{
+When the hero's mana drops to 15% for the first time in the battle, burns it.
 }
 
 STRING 7790
@@ -51188,7 +51510,7 @@ STRING 7918
 }
 
 STRING 7919
-// Abilities: A0EW (Ogre: There is power, no mind), Researchhotkey (Hotkey - Learn)
+// Abilities: A0EW (Ogre: Power Punch), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -51653,15 +51975,6 @@ STRING 7990
 Rampage, [|cffffcc00Level %d|r]
 }
 
-STRING 7991
-// Abilities: A0F1 (Ogre: Rampage), Researchubertip (Tooltip - Learn - Extended)
-{
-Throws your hero into a frenzy. Each hit increases attack power of your hero by 2%/3%/4%/5%/6%.
-|cffffcc00Duration:|r 25 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-|cffffcc00Cost:|r 35 mana.
-}
-
 STRING 7992
 // Abilities: A0F1 (Ogre: Rampage), Tip (Tooltip - Normal)
 {
@@ -51690,46 +52003,6 @@ STRING 7996
 // Abilities: A0F1 (Ogre: Rampage), Tip (Tooltip - Normal)
 {
 Rampage, [|cffffcc00Level 5|r]
-}
-
-STRING 7997
-// Abilities: A0F1 (Ogre: Rampage), Ubertip (Tooltip - Normal - Extended)
-{
-Throws your hero into a frenzy. Each hit increases attack power of your hero by 2%.
-|cffffcc00Duration:|r 25 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-}
-
-STRING 7998
-// Abilities: A0F1 (Ogre: Rampage), Ubertip (Tooltip - Normal - Extended)
-{
-Throws your hero into a frenzy. Each hit increases attack power of your hero by 3%.
-|cffffcc00Duration:|r 25 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-}
-
-STRING 7999
-// Abilities: A0F1 (Ogre: Rampage), Ubertip (Tooltip - Normal - Extended)
-{
-Throws your hero into a frenzy. Each hit increases attack power of your hero by 4%.
-|cffffcc00Duration:|r 25 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-}
-
-STRING 8000
-// Abilities: A0F1 (Ogre: Rampage), Ubertip (Tooltip - Normal - Extended)
-{
-Throws your hero into a frenzy. Each hit increases attack power of your hero by 5%.
-|cffffcc00Duration:|r 25 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-}
-
-STRING 8001
-// Abilities: A0F1 (Ogre: Rampage), Ubertip (Tooltip - Normal - Extended)
-{
-Throws your hero into a frenzy. Each hit increases attack power of your hero by 6%.
-|cffffcc00Duration:|r 25 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
 }
 
 STRING 8002
@@ -51834,88 +52107,10 @@ STRING 8018
 Воскрешение
 }
 
-STRING 8019
-// Abilities: A0EW (Ogre: There is power, no mind), Name (Name)
-{
-Ogre: There is power, no mind
-}
-
 STRING 8020
 // Abilities: A0D6 (Scarab: Strengthening), Researchhotkey (Hotkey - Learn)
 {
 E
-}
-
-STRING 8021
-// Abilities: A0EW (Ogre: There is power, no mind), Researchtip (Tooltip - Learn)
-{
-There is power, no mind, [|cffffcc00Level %d|r]
-}
-
-STRING 8022
-// Abilities: A0EW (Ogre: There is power, no mind), Researchubertip (Tooltip - Learn - Extended)
-{
-When your hero attacks, with a probability of |cffd7df011%/2%/3%/4%/5%|r, stuns target for 0.5/0.75/1/1.25/1.5 seconds and additionally deals 100/150/200/250/300 damage.
-}
-
-STRING 8023
-// Abilities: A0EW (Ogre: There is power, no mind), Tip (Tooltip - Normal)
-{
-There is power, no mind, [|cffffcc00Level 1|r]
-}
-
-STRING 8024
-// Abilities: A0EW (Ogre: There is power, no mind), Tip (Tooltip - Normal)
-{
-There is power, no mind, [|cffffcc00Level 2|r]
-}
-
-STRING 8025
-// Abilities: A0EW (Ogre: There is power, no mind), Tip (Tooltip - Normal)
-{
-There is power, no mind, [|cffffcc00Level 3|r]
-}
-
-STRING 8026
-// Abilities: A0EW (Ogre: There is power, no mind), Tip (Tooltip - Normal)
-{
-There is power, no mind, [|cffffcc00Level 4|r]
-}
-
-STRING 8027
-// Abilities: A0EW (Ogre: There is power, no mind), Tip (Tooltip - Normal)
-{
-There is power, no mind, [|cffffcc00Level 5|r]
-}
-
-STRING 8028
-// Abilities: A0EW (Ogre: There is power, no mind), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero attacks, with a probability of |cffd7df011%|r, stuns target for 0.5 seconds and additionally deals 100 damage.
-}
-
-STRING 8029
-// Abilities: A0EW (Ogre: There is power, no mind), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero attacks, with a probability of |cffd7df012%|r, stuns target for 0.75 seconds and additionally deals 150 damage.
-}
-
-STRING 8030
-// Abilities: A0EW (Ogre: There is power, no mind), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero attacks, with a probability of |cffd7df013%|r, stuns target for 1 seconds and additionally deals 200 damage.
-}
-
-STRING 8031
-// Abilities: A0EW (Ogre: There is power, no mind), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero attacks, with a probability of |cffd7df014%|r, stuns target for 1.25 seconds and additionally deals 250 damage.
-}
-
-STRING 8032
-// Abilities: A0EW (Ogre: There is power, no mind), Ubertip (Tooltip - Normal - Extended)
-{
-When your hero attacks, with a probability of |cffd7df015%|r, stuns target for 1.5 seconds and additionally deals 300 damage.
 }
 
 STRING 8033
@@ -51948,17 +52143,6 @@ STRING 8037
 Earthquake, [|cffffcc00Level %d|r]
 }
 
-STRING 8038
-// Abilities: A0EU (Ogre: Earthquake), Researchubertip (Tooltip - Learn - Extended)
-{
-Hero hits the ground, increasing the physical damage taken by enemies nearby by 10%/15%/20%/25%/30%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-|cffffcc00Cost:|r 35 mana.
-
-|cFF959697Increases range with each level.|r
-}
-
 STRING 8039
 // Abilities: A0EU (Ogre: Earthquake), Tip (Tooltip - Normal)
 {
@@ -51989,46 +52173,6 @@ STRING 8043
 Earthquake, [|cffffcc00Level 5|r]
 }
 
-STRING 8044
-// Abilities: A0EU (Ogre: Earthquake), Ubertip (Tooltip - Normal - Extended)
-{
-Hero hits the ground, increasing the physical damage taken by enemies nearby by 10%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 8045
-// Abilities: A0EU (Ogre: Earthquake), Ubertip (Tooltip - Normal - Extended)
-{
-Hero hits the ground, increasing the physical damage taken by enemies nearby by 15%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 8046
-// Abilities: A0EU (Ogre: Earthquake), Ubertip (Tooltip - Normal - Extended)
-{
-Hero hits the ground, increasing the physical damage taken by enemies nearby by 20%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 8047
-// Abilities: A0EU (Ogre: Earthquake), Ubertip (Tooltip - Normal - Extended)
-{
-Hero hits the ground, increasing the physical damage taken by enemies nearby by 25%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 8048
-// Abilities: A0EU (Ogre: Earthquake), Ubertip (Tooltip - Normal - Extended)
-{
-Hero hits the ground, increasing the physical damage taken by enemies nearby by 30%.
-|cffffcc00Duration:|r 30 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 8049
 // Abilities: A0DL (Soulstealer: Soul Latch), Hotkey (Hotkey - Normal)
 {
@@ -52051,15 +52195,6 @@ STRING 8052
 // Abilities: A0ET (Ogre: Crush), Researchtip (Tooltip - Learn)
 {
 Crush, [|cffffcc00Level %d|r]
-}
-
-STRING 8053
-// Abilities: A0ET (Ogre: Crush), Researchubertip (Tooltip - Learn - Extended)
-{
-Reduces enemy armor by 2/3/4/5/6. When your hero attacks this target, additionally deals 20/40/60/80/100 damage and refresh the effect.
-|cffffcc00Duration:|r 3 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-|cffffcc00Cost:|r 50 mana.
 }
 
 STRING 8054
@@ -52090,46 +52225,6 @@ STRING 8058
 // Abilities: A0ET (Ogre: Crush), Tip (Tooltip - Normal)
 {
 Crush, [|cffffcc00Level 5|r]
-}
-
-STRING 8059
-// Abilities: A0ET (Ogre: Crush), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by 2. When your hero attacks this target, additionally deals 20 damage and refresh the effect.
-|cffffcc00Duration:|r 3 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 8060
-// Abilities: A0ET (Ogre: Crush), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by 3. When your hero attacks this target, additionally deals 40 damage and refresh the effect.
-|cffffcc00Duration:|r 3 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 8061
-// Abilities: A0ET (Ogre: Crush), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by 4. When your hero attacks this target, additionally deals 60 damage and refresh the effect.
-|cffffcc00Duration:|r 3 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 8062
-// Abilities: A0ET (Ogre: Crush), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by 5. When your hero attacks this target, additionally deals 80 damage and refresh the effect.
-|cffffcc00Duration:|r 3 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 8063
-// Abilities: A0ET (Ogre: Crush), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by 6. When your hero attacks this target, additionally deals 100 damage and refresh the effect.
-|cffffcc00Duration:|r 3 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 8064
@@ -52739,12 +52834,6 @@ The hero is one with the moon. While the effect is active, each time the hero us
 |cffffcc00Cooldown:|r 35 seconds.
 }
 
-STRING 8158
-// Abilities: A0E1 (Spell Book), EditorSuffix (Editor Suffix)
-{
-(Землетрясение)
-}
-
 STRING 8159
 // Abilities: A0CW (Scarab: Revitalization), Hotkey (Hotkey - Normal)
 {
@@ -53180,12 +53269,6 @@ STRING 8227
 (Orb of Frost)
 }
 
-STRING 8228
-// Abilities: A0DR (Аура: Землетрясение), Name (Name)
-{
-Аура: Землетрясение
-}
-
 STRING 8229
 // Abilities: A0DQ (Аура: Сокрушение), Name (Name)
 {
@@ -53567,13 +53650,6 @@ STRING 8292
 // Abilities: A0D9 (Pet: Неуловимость), Ubertip (Tooltip - Normal - Extended)
 {
 Pet takes 50% less damage from magic.
-}
-
-STRING 8293
-// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes the target. If the target is already frozen, deals |cffbe81f7200|r damage and stuns for 3 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 8294
@@ -60614,20 +60690,6 @@ STRING 9383
 
 The hero terrifies units in front of them. It reduces enemies' Movement Speed by 50% for 5 seconds and periodically deals |cffbe81f770|r damage. Allies restore |cffbe81f711%|r of their health and mana.
 |cffffcc00Cooldown:|r 18 seconds.
-}
-
-STRING 9384
-// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes the target. If the target is already frozen, deals |cffbe81f7250|r damage and stuns for 3.5 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 9385
-// Abilities: A17M (Wicerd: Ice-olation), Ubertip (Tooltip - Normal - Extended)
-{
-Freezes the target. If the target is already frozen, deals |cffbe81f7300|r damage and stuns for 4 seconds.
-|cffffcc00Cooldown:|r 15 seconds.
 }
 
 STRING 9386
@@ -71851,13 +71913,6 @@ STRING 11178
 (Спринт)XXX
 }
 
-STRING 11179
-// Abilities: A0ID (Archer: Shadow), Researchubertip (Tooltip - Learn - Extended)
-{
-Every second the hero increases the attack power by 2/3/4/5/6. Gives twice as much attack while invisible.
-The effect disappears after dealing damage with an attack.
-}
-
 STRING 11180
 {
 |cffffffff|r
@@ -71888,18 +71943,6 @@ STRING 11185
 |cffffffff|r
 }
 
-STRING 11186
-// Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
-{
-Every second the hero increases the attack power by 2. Gives twice as much attack while invisible. The effect disappears after dealing damage with an attack.
-}
-
-STRING 11187
-// Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
-{
-Every second the hero increases the attack power by 3. Gives twice as much attack while invisible. The effect disappears after dealing damage with an attack.
-}
-
 STRING 11188
 // Abilities: A1DO (Shepherd: Lure), Ubertip (Tooltip - Normal - Extended)
 {
@@ -71919,41 +71962,6 @@ STRING 11190
 {
 Deals |cffbe81f7260|r damage to an enemy. Summons a sheep at the edge of the arena. Its stats are increased by 100%.
 |cffffcc00Cooldown:|r 15 seconds.
-}
-
-STRING 11191
-// Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
-{
-Every second the hero increases the attack power by 4. Gives twice as much attack while invisible. The effect disappears after dealing damage with an attack.
-}
-
-STRING 11192
-// Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
-{
-Every second the hero increases the attack power by 5. Gives twice as much attack while invisible. The effect disappears after dealing damage with an attack.
-}
-
-STRING 11193
-// Abilities: A0ID (Archer: Shadow), Ubertip (Tooltip - Normal - Extended)
-{
-Every second the hero increases the attack power by 6. Gives twice as much attack while invisible. The effect disappears after dealing damage with an attack.
-}
-
-STRING 11194
-// Abilities: A0I6 (Archer: Sprint), Researchubertip (Tooltip - Learn - Extended)
-{
-Enters the hero into invisibility and increases the Movement Speed by 80%.
-|cffffcc00Duration:|r 3/4.5/6/7.5/9 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
-STRING 11195
-// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and increases the Movement Speed by 80%.
-|cffffcc00Duration:|r 3 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 11196
@@ -73870,14 +73878,6 @@ STRING 11499
 (D) Scarab King
 }
 
-STRING 11500
-// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and increases the Movement Speed by 80%.
-|cffffcc00Duration:|r 7.5 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
-}
-
 STRING 11501
 // Units: h014 (Nightingale), EditorSuffix (Name - Editor Suffix)
 {
@@ -73900,14 +73900,6 @@ STRING 11504
 // Units: N05E ((E) Chronomancer), Name (Name)
 {
 (E) Chronomancer
-}
-
-STRING 11505
-// Abilities: A0I6 (Archer: Sprint), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and increases the Movement Speed by 80%.
-|cffffcc00Duration:|r 9 seconds.
-|cffffcc00Cooldown:|r 18 seconds.
 }
 
 STRING 11506
@@ -74112,12 +74104,6 @@ STRING 11537
 // Abilities: A0IA (Dryad Hawk: Vigilance), Name (Name)
 {
 Dryad Hawk: Vigilance
-}
-
-STRING 11538
-// Abilities: A0JR (Curse: Anger (b26)), Ubertip (Tooltip - Normal - Extended)
-{
-Increases Attack Damage of bosses by 15%.
 }
 
 STRING 11539
@@ -79937,12 +79923,6 @@ STRING 12375
 - |cff00cceeAt 25% health:|r After possession, summons 20 evil spirits. Each spirit is intangible and deals 15 damage every 0.35 seconds. They die along with the boss.
 }
 
-STRING 12376
-// Abilities: A0HF (|cffffcc00Уровень 5:|r Огромная гидра), Name (Name)
-{
-|cffffcc00Уровень 5:|r Огромная гидра
-}
-
 STRING 12377
 // Abilities: A06G (|cffffcc00Уровень 7:|r Дух рыцаря), Name (Name)
 {
@@ -80028,7 +80008,7 @@ STRING 12388
 }
 
 STRING 12389
-// Abilities: A0JR (Curse: Anger (b26)), Tip (Tooltip - Normal)
+// Abilities: A0JR (Curse: Anger), Tip (Tooltip - Normal)
 {
 |cffFF7F7FCurse:|r Anger
 }
@@ -80073,12 +80053,6 @@ STRING 12396
 // Abilities: A0GG (Curse: Suppression), Tip (Tooltip - Normal)
 {
 |cffFF7F7FCurse:|r Suppression
-}
-
-STRING 12397
-// Abilities: A0GG (Curse: Suppression), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero's mana drops to 20% for the first time in the battle, burns it.
 }
 
 STRING 12398

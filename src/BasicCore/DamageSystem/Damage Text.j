@@ -25,7 +25,7 @@ scope DamageText initializer init
 	
 	private function SetDamageText takes nothing returns nothing
 		local real textSize = GetTextSize(udg_DamageEventAmount)
-		local string damageText = I2S(R2I(udg_DamageEventAmount))
+		local string damageText = R2SI(udg_DamageEventAmount)
 		
         if udg_DamageEventType == udg_DamageTypeCriticalStrike then
             if udg_IsDamageSpell then

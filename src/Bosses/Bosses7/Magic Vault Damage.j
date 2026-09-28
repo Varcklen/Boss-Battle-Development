@@ -6,6 +6,7 @@ scope MagicVaultDamage initializer init
 	
 	private function action takes nothing returns nothing
 		set udg_DamageEventType = udg_DamageTypeIgnore
+		call textst( "|cf0FFCC00immune", udg_DamageEventTarget, 64, 90, 8, 1 )
 	endfunction
 
 	//===========================================================================

@@ -11,7 +11,7 @@ scope CurseSuppression initializer init
 	
 	    if combat(u, false , 0) == false then
 	        call DestroyTimer( GetExpiredTimer() )
-	    elseif r <= 0.2 and IsUnitAlive(u) then
+	    elseif r <= 0.15 and IsUnitAlive(u) then
 	        call SetUnitState( u, UNIT_STATE_MANA, 0 ) 
 	        call DestroyEffect( AddSpecialEffectTarget( "Objects\\Spawnmodels\\NightElf\\NECancelDeath\\NECancelDeath.mdl", u, "origin" ) )
 	        call DestroyTimer( GetExpiredTimer() )
