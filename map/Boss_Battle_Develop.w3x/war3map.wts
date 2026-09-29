@@ -2843,6 +2843,13 @@ STRING 451
 Lye Insanios
 }
 
+STRING 452
+// Items: I05B (Volcano Potion), Description (Description)
+{
+|cff088a08Potion|r
+Activation: Deals |cffbe81f7400|r damage to the enemy and stuns them for 2.5 seconds.
+}
+
 STRING 453
 // Units: O00L ((W) Overlord), Propernames (Proper Names)
 {
@@ -5419,6 +5426,13 @@ Increases attack power by 15% and health regeneration by 5.
 When you summon a minion, it gains the ability to restore |cffbe81f715|r health to the hero with the lowest health when attacking.
 }
 
+STRING 853
+// Items: I05B (Volcano Potion), Ubertip (Tooltip - Extended)
+{
+|cff088a08Potion|r
+Activation: Deals |cffbe81f7400|r damage to the enemy and stuns them for 2.5 seconds.
+}
+
 STRING 854
 // Items: I0FZ (Orb of the Foggy Swamp), Name (Name)
 {
@@ -5429,6 +5443,12 @@ STRING 855
 // Items: I0FZ (Orb of the Foggy Swamp), Tip (Tooltip - Basic)
 {
 Orb of the Foggy Swamp
+}
+
+STRING 856
+// Abilities: A161 (Mephistar: Bazaar of Mamon), Researchubertip (Tooltip - Learn - Extended)
+{
+The hero's attacks have a |cffd7df016%/10%/14%/18%/22%|r chance to cause the enemy target to explode, dealing |cffbe81f725/45/65/85/105|r damage to nearby enemies and restoring an equal amount of health to allied units. Each affected unit has a |cffd7df01chance|r to spawn a Gold Coin.
 }
 
 STRING 857
@@ -12156,6 +12176,18 @@ STRING 1840
 // Items: I0FH (Fortune-Telling Ball), Tip (Tooltip - Basic)
 {
 Fortune-Telling Ball
+}
+
+STRING 1841
+// Abilities: A161 (Mephistar: Bazaar of Mamon), Ubertip (Tooltip - Normal - Extended)
+{
+The hero's attacks have a |cffd7df016%|r chance to cause the enemy target to explode, dealing |cffbe81f725|r damage to nearby enemies and restoring an equal amount of health to allied units. Each affected unit has a |cffd7df01chance|r to spawn a Gold Coin.
+}
+
+STRING 1842
+// Abilities: A161 (Mephistar: Bazaar of Mamon), Ubertip (Tooltip - Normal - Extended)
+{
+The hero's attacks have a |cffd7df0110%|r chance to cause the enemy target to explode, dealing |cffbe81f745|r damage to nearby enemies and restoring an equal amount of health to allied units. Each affected unit has a |cffd7df01chance|r to spawn a Gold Coin.
 }
 
 STRING 1843
@@ -19797,6 +19829,18 @@ STRING 2977
 Increases the Armor of the owner and nearby allies by 5.
 }
 
+STRING 2978
+// Abilities: A161 (Mephistar: Bazaar of Mamon), Ubertip (Tooltip - Normal - Extended)
+{
+The hero's attacks have a |cffd7df0114%|r chance to cause the enemy target to explode, dealing |cffbe81f765|r damage to nearby enemies and restoring an equal amount of health to allied units. Each affected unit has a |cffd7df01chance|r to spawn a Gold Coin.
+}
+
+STRING 2979
+// Abilities: A161 (Mephistar: Bazaar of Mamon), Ubertip (Tooltip - Normal - Extended)
+{
+The hero's attacks have a |cffd7df0118%|r chance to cause the enemy target to explode, dealing |cffbe81f785|r damage to nearby enemies and restoring an equal amount of health to allied units. Each affected unit has a |cffd7df01chance|r to spawn a Gold Coin.
+}
+
 STRING 2980
 // Items: I09M (Idol of Sorrow), Description (Description)
 {
@@ -26317,10 +26361,27 @@ STRING 3992
 W
 }
 
+STRING 3993
+// Abilities: A161 (Mephistar: Bazaar of Mamon), Ubertip (Tooltip - Normal - Extended)
+{
+The hero's attacks have a |cffd7df0122%|r chance to cause the enemy target to explode, dealing |cffbe81f7105|r damage to nearby enemies and restoring an equal amount of health to allied units. Each affected unit has a |cffd7df01chance|r to spawn a Gold Coin.
+}
+
 STRING 3994
 // Abilities: A192 (Swamp Treant: Mana), Tip (Tooltip - Normal)
 {
 Mana
+}
+
+STRING 3995
+// Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ice Dragon), Ubertip (Tooltip - Normal - Extended)
+{
+- No attack.
+- Summons 4 Glaive Throwers at the edges of the arena.
+- Before dying, each Glaive Thrower shoots at the boss, dealing 8.5% of their health.
+- Every 6 seconds, summons Glaive Throwers to the arena.
+- Every 6 seconds, the boss launches ice shells at the heroes, dealing |cffbe81f7400|r damage after 2 seconds.
+- |cff00cceeAt 50% health:|r Reduces the movement speed of all heroes by 25% for 15 seconds.
 }
 
 STRING 3996
@@ -27681,20 +27742,6 @@ STRING 4213
 Increases Stats by 4. Can be dropped from the inventory.
 }
 
-STRING 4214
-// Items: I05B (Volcano Potion), Description (Description)
-{
-|cff088a08Potion|r
-Activation: Deals |cffbe81f7400|r damage to the enemy and stuns them for 1.5 seconds.
-}
-
-STRING 4215
-// Items: I05B (Volcano Potion), Ubertip (Tooltip - Extended)
-{
-|cff088a08Potion|r
-Activation: Deals |cffbe81f7400|r damage to the enemy and stuns them for 1.5 seconds.
-}
-
 STRING 4216
 // Items: I05A (Geyser Potion), Description (Description)
 {
@@ -28622,12 +28669,6 @@ STRING 4365
 Bazaar of Mamon, [|cffffcc00Level %d|r]
 }
 
-STRING 4366
-// Abilities: A161 (Mephistar: Bazaar of Mamon), Researchubertip (Tooltip - Learn - Extended)
-{
-When the hero attacks, with a probability of |cffd7df016%/10%/14%/18%/22%|r, a magical explosion is created at the target's location, which deals |cffbe81f725/45/65/85/105|r damage to nearby enemies and restores the same amount of health to nearby allies. Sometimes gold coins appear.
-}
-
 STRING 4367
 // Abilities: A161 (Mephistar: Bazaar of Mamon), Tip (Tooltip - Normal)
 {
@@ -28656,36 +28697,6 @@ STRING 4371
 // Abilities: A161 (Mephistar: Bazaar of Mamon), Tip (Tooltip - Normal)
 {
 Bazaar of Mamon, [|cffffcc00Level 5|r]
-}
-
-STRING 4372
-// Abilities: A161 (Mephistar: Bazaar of Mamon), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, with a probability of |cffd7df016%|r, a magical explosion is created at the target's location, which deals |cffbe81f725|r damage to nearby enemies and restores the same amount of health to nearby allies. Sometimes gold coins appear.
-}
-
-STRING 4373
-// Abilities: A161 (Mephistar: Bazaar of Mamon), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, with a probability of |cffd7df0110%|r, a magical explosion is created at the target's location, which deals |cffbe81f745|r damage to nearby enemies and restores the same amount of health to nearby allies. Sometimes gold coins appear.
-}
-
-STRING 4374
-// Abilities: A161 (Mephistar: Bazaar of Mamon), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, with a probability of |cffd7df0114%|r, a magical explosion is created at the target's location, which deals |cffbe81f765|r damage to nearby enemies and restores the same amount of health to nearby allies. Sometimes gold coins appear.
-}
-
-STRING 4375
-// Abilities: A161 (Mephistar: Bazaar of Mamon), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, with a probability of |cffd7df0118%|r, a magical explosion is created at the target's location, which deals |cffbe81f785|r damage to nearby enemies and restores the same amount of health to nearby allies. Sometimes gold coins appear.
-}
-
-STRING 4376
-// Abilities: A161 (Mephistar: Bazaar of Mamon), Ubertip (Tooltip - Normal - Extended)
-{
-When the hero attacks, with a probability of |cffd7df0122%|r, a magical explosion is created at the target's location, which deals |cffbe81f7105|r damage to nearby enemies and restores the same amount of health to nearby allies. Sometimes gold coins appear.
 }
 
 STRING 4377
@@ -51513,17 +51524,6 @@ STRING 7919
 // Abilities: A0EW (Ogre: Power Punch), Researchhotkey (Hotkey - Learn)
 {
 E
-}
-
-STRING 7920
-// Abilities: A0Y8 (|cffffcc00Уровень 7:|r Ice Dragon), Ubertip (Tooltip - Normal - Extended)
-{
-- No attack.
-- Summons 4 Glaive Throwers at the edges of the arena.
-- Before dying, each Glaive Thrower shoots at the boss, dealing 7.5% of their health.
-- Every 6 seconds, summons Glaive Throwers to the arena.
-- Every 6 seconds, the boss launches ice shells at the heroes, dealing |cffbe81f7400|r damage after 2 seconds.
-- |cff00cceeAt 50% health:|r Reduces the movement speed of all heroes by 25% for 15 seconds.
 }
 
 STRING 7921

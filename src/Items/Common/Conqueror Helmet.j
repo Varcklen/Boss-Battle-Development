@@ -7,15 +7,16 @@ scope ConquerorHelmet initializer init
 	endglobals
 	
     private function condition takes nothing returns boolean
-		return inv( udg_DamageEventTarget, ITEM_ID ) > 0 and udg_DamageEventAmount > GetUnitState( udg_DamageEventTarget, UNIT_STATE_MAX_LIFE) * MAX_HEALTH
+		return inv( BeforeAttack.TargetUnit, ITEM_ID ) > 0 and BeforeAttack.GetDataReal("damage") > GetUnitState( BeforeAttack.TargetUnit, UNIT_STATE_MAX_LIFE) * MAX_HEALTH
 	endfunction
 	
 	private function action takes nothing returns nothing
-		set udg_DamageEventAmount = GetUnitState( udg_DamageEventTarget, UNIT_STATE_MAX_LIFE) * MAX_HEALTH
+		local real newValue = GetUnitState( BeforeAttack.TargetUnit, UNIT_STATE_MAX_LIFE) * MAX_HEALTH
+		call BeforeAttack.SetDataReal("damage", newValue)
 	endfunction
 
 	private function init takes nothing returns nothing
-		call CreateEventTrigger( "udg_DamageEventAfterArmor", function action, function condition )
+		call BeforeAttack.AddListener(function action, function condition)
 	endfunction
 
 endscope

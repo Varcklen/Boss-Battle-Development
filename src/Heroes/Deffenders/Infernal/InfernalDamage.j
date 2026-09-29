@@ -14,7 +14,7 @@ scope InfernalDamage initializer init
 	
 	private function condition takes nothing returns boolean
 		//return (GetUnitAbilityLevel( udg_DamageEventTarget, ABILITY_ID) > 1)
-		return (GetUnitAbilityLevel( AfterDamageSysTarget, ABILITY_ID) > 1)
+		return (GetUnitAbilityLevel( udg_DamageEventTarget, ABILITY_ID) > 1)
 	endfunction
 	
 	private function reset_condition takes nothing returns boolean
@@ -24,8 +24,8 @@ scope InfernalDamage initializer init
 	private function action takes nothing returns nothing
 		//local unit u = udg_DamageEventTarget
 		//local real dmg = udg_DamageEventAmount
-		local unit u = AfterDamageSysTarget
-		local real dmg = AfterDamageSysAmount
+		local unit u = udg_DamageEventTarget
+		local real dmg = udg_DamageEventAmount
     	local integer id = GetHandleId(u)
     	local real dmgdone = LoadReal( udg_hash, id, StringHash( "infe" ) )
     	local real dmghp = LoadReal( udg_hash, id, StringHash( "infen" ) )
@@ -54,9 +54,8 @@ scope InfernalDamage initializer init
 	//===========================================================================
     private function init takes nothing returns nothing
         //call CreateEventTrigger( "udg_AfterDamageEvent", function action, function condition )
-        local trigger trig = CreateTrigger()
-        call CreateEventTrigger( "AfterDamageSysEvent", function action, function condition )
-		set trig = null
+        call CreateEventTrigger( "udg_DamageEvent", function action, function condition )
+        
         call CreateEventTrigger( "udg_FightStart_Real", function reset, function reset_condition )
     endfunction
 
