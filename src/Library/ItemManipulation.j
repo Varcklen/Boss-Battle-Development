@@ -1,4 +1,4 @@
-library ItemManipulation requires DeathLib
+library ItemManipulation requires DeathLib, TagSystem
 	//ItemManipulation_IsInventoryFull()
 	public function IsInventoryFull takes unit hero returns boolean
 		return UnitInventoryCount(hero) >= UnitInventorySize(hero)
@@ -45,5 +45,14 @@ library ItemManipulation requires DeathLib
 	public function IsLockable takes item itemToCheck returns boolean
 		return BlzGetItemAbility( itemToCheck, 'A1JS' ) != null
 	endfunction
+	
+	function IsPotion takes item itemCheck returns boolean
+        return TagSystem_CheckTagItem( itemCheck, TAG_POTION) //SubString(BlzGetItemExtendedTooltip(itemCheck), 0, 16) == "|cff088a08Potion"
+    endfunction
+
+    function IsPotionItemIsUsed takes nothing returns boolean
+    	return TagSystem_CheckTag( GetSpellAbilityId(), TAG_POTION)
+    endfunction
+    
 
 endlibrary

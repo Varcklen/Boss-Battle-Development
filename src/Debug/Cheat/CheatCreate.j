@@ -8,6 +8,8 @@ scope CheatCreate initializer init
 		local unit temp
 		local integer i
 		
+		call BJDebugMsg("Heroes created.")
+		
 	    set temp = CreateUnitAtLoc( Player(1), 'N00N', OffsetLocation(GetRectCenter(gg_rct_HeroTp), -120.00, 120.00), bj_UNIT_FACING )
 		//set udg_hero[2] = temp
 		call HeroesChoise_SetHero(temp, Player(1), 11, 2)

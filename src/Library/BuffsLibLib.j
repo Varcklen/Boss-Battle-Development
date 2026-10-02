@@ -1,4 +1,4 @@
-library BuffsLibLib requires Inventory, LuckylogicLib, UnitstLib, CombatLib, TextLib
+library BuffsLibLib requires Inventory, LuckylogicLib, UnitLib, CombatLib, TextLib
 
 	/*function BuffLogic takes nothing returns boolean
         local boolean l = true

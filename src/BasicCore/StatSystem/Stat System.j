@@ -76,16 +76,20 @@ library StatSystem initializer init requires HeroesTable
 		set statStruct.value = statStruct.value + ( value / 100.0 )
 	endfunction
 	
-	private function CheckUser takes player owner returns boolean
+	globals
+		private constant integer DB_STRING_HASH = StringHash("is_user_slot")
+	endglobals
+
+	/*private function CheckUser takes player owner returns boolean
 		if owner == null then
 			//call BJDebugMsg("owner == null")
 			return true
-		elseif IsUserSlot(owner) == false then
-			//call BJDebugMsg("IsUserSlot(owner) == false")
+		elseif LoadBoolean(udg_hash, GetHandleId(owner), DB_STRING_HASH ) == false then
+			call BJDebugMsg("IsUserSlot(owner) == false")
 			return true
 		endif
 		return false
-	endfunction
+	endfunction*/
 	
 	public function Get takes unit hero, integer statEnum returns real
 		local integer index
@@ -101,7 +105,7 @@ library StatSystem initializer init requires HeroesTable
 			return BASE_VALUE
 		endif
 		
-		if CheckUser(HeroesTable_GetHeroMainOwner(hero))/*GetPlayerController(GetOwningPlayer(hero)) != MAP_CONTROL_USER*//*IsUnitType( hero, UNIT_TYPE_HERO ) == false*/ then
+		if HeroesTable_GetHeroMainOwner(hero) == null/*GetPlayerController(GetOwningPlayer(hero)) != MAP_CONTROL_USER*//*IsUnitType( hero, UNIT_TYPE_HERO ) == false*/ then
 			call BJDebugMsg("Error! StatSystem - Get: Used unit's owner is not a user! Unit: " + GetUnitName(hero) + " Stat Type: " + I2S(statEnum) + " Player: " + GetPlayerName(HeroesTable_GetHeroMainOwner(hero)))
 			return BASE_VALUE
 		endif
@@ -120,6 +124,7 @@ library StatSystem initializer init requires HeroesTable
 		loop
 			exitwhen i >= PLAYERS_LIMIT
 			set playerUsed = Player(i)
+			//call SaveBoolean(udg_hash, GetHandleId(playerUsed), DB_STRING_HASH, true )
 			if GetPlayerSlotState(playerUsed) == PLAYER_SLOT_STATE_PLAYING then
 				set heroStats[i] = HeroStats.create()
 			endif

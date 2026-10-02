@@ -1,4 +1,4 @@
-library ModeUse requires Conditions
+library ModeUse
 
     globals
         Mode ModeTemp

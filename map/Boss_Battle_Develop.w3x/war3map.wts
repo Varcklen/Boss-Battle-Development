@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.12.8T|r
+|cffbe81f7Boss Battle 1.12.9T|r
 }
 
 STRING 2
@@ -1047,9 +1047,9 @@ STRING 158
 }
 
 STRING 159
-// Units: n036 (Milady), Name (Name)
+// Abilities: A0Y6 (|cffffcc00Уровень 4:|r Dark Warlock), Name (Name)
 {
-Milady
+|cffffcc00Уровень 4:|r Dark Warlock
 }
 
 STRING 160
@@ -4794,10 +4794,9 @@ Roll the Dice
 }
 
 STRING 758
-// Items: I0GN (Battlemaster), Description (Description)
+// Units: n036 (Maiden of Pain), Name (Name)
 {
-|cffffcc00Quest:|r Take 20,000 damage per game.
-|cffffcc00Reward:|r Battlemaster's Bulwark.
+Maiden of Pain
 }
 
 STRING 759
@@ -4813,10 +4812,13 @@ Battlemaster
 }
 
 STRING 761
-// Items: I0GN (Battlemaster), Ubertip (Tooltip - Extended)
+// Abilities: A0C4 (|cffffcc00Уровень 3:|r Illusionist), Ubertip (Tooltip - Normal - Extended)
 {
-|cffffcc00Quest:|r Take 20,000 damage per game.
-|cffffcc00Reward:|r Battlemaster's Bulwark.
+- Every 14 seconds creates 2 runes of stats. Is something wrong with them?
+- Every 5 seconds, creates 2 areas. Each of them explodes after 3 seconds. The danger one deals |cffbe81f7250|r damage, the friendly one restores |cffbe81f780|r health and |cffbe81f730|r mana.
+- |cff00cceeAt 80% health:|r After 3 seconds, swaps Health and Mana of all heroes. Repeat every 14 seconds.
+- |cff00cceeAt 60% health:|r Something is changing? Repeats every 17 seconds. The boss creates 2 more areas.
+- |cff00cceeAt 35% health:|r The boss creates 4 more areas.
 }
 
 STRING 762
@@ -5560,12 +5562,9 @@ Shepherd: Spirit Journey
 }
 
 STRING 873
-// Items: I0FU (Orb of Shadow), Description (Description)
+// Abilities: A0Y6 (|cffffcc00Уровень 4:|r Dark Warlock), Tip (Tooltip - Normal)
 {
-|cff4169e1Rare|r
-Increases attack power by 15%.
-When the hero attacks a minion, with a probability of |cffd7df018%|r, the target comes under your control.
-|cffffcc00Life time:|r 30 seconds.
+Dark Warlock
 }
 
 STRING 874
@@ -5581,12 +5580,11 @@ Orb of Shadow
 }
 
 STRING 876
-// Items: I0FU (Orb of Shadow), Ubertip (Tooltip - Extended)
+// Abilities: A0HG (|cffffcc00Уровень 3:|r Mistress of Pain), Ubertip (Tooltip - Normal - Extended)
 {
-|cff4169e1Rare|r
-Increases attack power by 15%.
-When the hero attacks a minion, with a probability of |cffd7df018%|r, the target comes under your control.
-|cffffcc00Life time:|r 30 seconds.
+- Every 6 seconds, boss jumps on a random player unit, dealing |cffbe81f760|r damage, restoring |cffbe81f760|r health and summons Maiden of Pain.
+- Maiden of Pain has a jump similar to the boss with 7~9 seconds cooldown.
+- |cff00cceeAt 50% and 25% health:|r The boss summons 2 Maidens of Pain near each hero.
 }
 
 STRING 877
@@ -8808,29 +8806,9 @@ Increases Attack Damage by 25. You deal 15% more damage to bosses. |cffffffffRed
 }
 
 STRING 1342
-// Items: I0CL (Crystal gift), Description (Description)
+// Abilities: A0C4 (|cffffcc00Уровень 3:|r Illusionist), Name (Name)
 {
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff00cCeecrystal|r.
-}
-
-STRING 1343
-// Items: I0CL (Crystal gift), Name (Name)
-{
-Crystal gift
-}
-
-STRING 1344
-// Items: I0CL (Crystal gift), Tip (Tooltip - Basic)
-{
-Crystal gift
-}
-
-STRING 1345
-// Items: I0CL (Crystal gift), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corruption|r. |cFFE16B90Forges|r an artifact from the set |cff00cCeecrystal|r.
+|cffffcc00Уровень 3:|r Illusionist
 }
 
 STRING 1346
@@ -9188,32 +9166,6 @@ STRING 1397
 {
 |cffbababcCommon|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff5858famoon|r, |cff7cfc00nature|r or |cff00cceecrystal|r.
-}
-
-STRING 1398
-// Items: I0C7 (Fortuneteller deck), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a tarot card twice |cFF959697(2/2)|r.
-}
-
-STRING 1399
-// Items: I0C7 (Fortuneteller deck), Name (Name)
-{
-Fortuneteller deck
-}
-
-STRING 1400
-// Items: I0C7 (Fortuneteller deck), Tip (Tooltip - Basic)
-{
-Fortuneteller deck
-}
-
-STRING 1401
-// Items: I0C7 (Fortuneteller deck), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a tarot card twice |cFF959697(2/2)|r.
 }
 
 STRING 1402
@@ -11196,14 +11148,6 @@ STRING 1696
 Cane of Khnum
 }
 
-STRING 1697
-// Items: I0DZ (Idol of Sin), Description (Description)
-{
-|cff4169e1Rare|r
-Your health-restoring abilities and items restore 150% more health. After healing, the target cannot restore health over time.
-|cffffcc00Duration:|r 2.5 seconds.
-}
-
 STRING 1698
 // Items: I0GG (Boom Box), Ubertip (Tooltip - Extended)
 {
@@ -11609,13 +11553,6 @@ STRING 1757
 Medved
 }
 
-STRING 1758
-// Items: I09P (Idol of Wrath), Description (Description)
-{
-|cff4169e1Rare|r
-Increases physical damage dealt and received by 100%.
-}
-
 STRING 1759
 // Items: I09P (Idol of Wrath), Name (Name)
 {
@@ -11626,13 +11563,6 @@ STRING 1760
 // Items: I09P (Idol of Wrath), Tip (Tooltip - Basic)
 {
 Idol of Wrath
-}
-
-STRING 1761
-// Items: I09P (Idol of Wrath), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases physical damage dealt and received by 100%.
 }
 
 STRING 1762
@@ -11743,14 +11673,6 @@ After 5 seconds of not using a hero ability, enter Withdrawal; while in that sta
 At the end of the round, gain 4 extra strength and agility if Defiance was fully successful.
 }
 
-STRING 1778
-// Items: I09K (Idol of Envy), Description (Description)
-{
-|cff4169e1Rare|r
-Increases magical damage dealt by 75%.
-When an allied hero dies, kills your hero.
-}
-
 STRING 1779
 // Items: I09K (Idol of Envy), Name (Name)
 {
@@ -11761,14 +11683,6 @@ STRING 1780
 // Items: I09K (Idol of Envy), Tip (Tooltip - Basic)
 {
 Idol of Envy
-}
-
-STRING 1781
-// Items: I09K (Idol of Envy), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases magical damage dealt by 75%.
-When an allied hero dies, kills your hero.
 }
 
 STRING 1782
@@ -11940,14 +11854,6 @@ STRING 1808
 Scientist Card
 }
 
-STRING 1809
-// Items: I0DZ (Idol of Sin), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Your health-restoring abilities and items restore 150% more health. After healing, the target cannot restore health over time.
-|cffffcc00Duration:|r 2.5 seconds.
-}
-
 STRING 1810
 // Items: I0B9 (Scholar's Gambit (Out of Pool)), Description (Description)
 {
@@ -11962,22 +11868,6 @@ STRING 1811
 Reduces damage taken by 20%.
 Activation: Target another hero to make them invulnerable for 10 seconds.
 |cffffcc00Cooldown:|r 30 seconds.
-}
-
-STRING 1812
-// Items: I09Q (Idol of Greed), Description (Description)
-{
-|cff4169e1Rare|r
-Increases health by 1250.
-Your hero takes pure damage instead of all heroes.
-}
-
-STRING 1813
-// Items: I09Q (Idol of Greed), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases health by 1250.
-Your hero takes pure damage instead of all heroes.
 }
 
 STRING 1814
@@ -12448,32 +12338,6 @@ STRING 1878
 Eternal Harvest
 }
 
-STRING 1879
-// Items: I08V (Teddy bear), Description (Description)
-{
-|cffbababcCommon|r
-When you summon a minion, it increases its attack power by 5. If it is a sheep, it also doubles its attack power and health.
-}
-
-STRING 1880
-// Items: I08V (Teddy bear), Name (Name)
-{
-Teddy bear
-}
-
-STRING 1881
-// Items: I08V (Teddy bear), Tip (Tooltip - Basic)
-{
-Teddy bear
-}
-
-STRING 1882
-// Items: I08V (Teddy bear), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-When you summon a minion, it increases its attack power by 5. If it is a sheep, it also doubles its attack power and health.
-}
-
 STRING 1883
 // Items: I04U (Strange Tail), Description (Description)
 {
@@ -12747,13 +12611,6 @@ STRING 1923
 Evil Necklace
 }
 
-STRING 1924
-// Items: I08J (Qute Eye), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Replaces your hero’s |cff60C445Unique|r with “Burning gaze".
-}
-
 STRING 1925
 // Items: I08J (Qute Eye), Name (Name)
 {
@@ -12764,13 +12621,6 @@ STRING 1926
 // Items: I08J (Qute Eye), Tip (Tooltip - Basic)
 {
 Qute Eye
-}
-
-STRING 1927
-// Items: I08J (Qute Eye), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. Replaces your hero’s |cff60C445Unique|r with “Burning gaze".
 }
 
 STRING 1928
@@ -13642,14 +13492,6 @@ Activation: Use the |cff5858faMoon|r set bonus.
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
-STRING 2056
-// Items: I07M (Twilight Phoenix), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Reduces the cooldown of the hero's abilities by 0.5 seconds every second while the hero is invisible.
-|cff81f260[Random bonus]|r
-}
-
 STRING 2057
 // Items: I07M (Twilight Phoenix), Name (Name)
 {
@@ -13660,14 +13502,6 @@ STRING 2058
 // Items: I07M (Twilight Phoenix), Tip (Tooltip - Basic)
 {
 Twilight Phoenix
-}
-
-STRING 2059
-// Items: I07M (Twilight Phoenix), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Reduces the cooldown of the hero's abilities by 0.5 seconds every second while the hero is invisible.
-|cff81f260[Random bonus]|r
 }
 
 STRING 2060
@@ -14175,13 +14009,6 @@ STRING 2135
 Refresh
 }
 
-STRING 2136
-// Items: I072 (Braccus Dex), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases armor by 10. At the end of the battle transforms.
-}
-
 STRING 2137
 // Items: I072 (Braccus Dex), Name (Name)
 {
@@ -14194,20 +14021,6 @@ STRING 2138
 Braccus Dex
 }
 
-STRING 2139
-// Items: I072 (Braccus Dex), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases armor by 10. At the end of the battle transforms.
-}
-
-STRING 2140
-// Items: I071 (Braccus Wex), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases spell power by 50%. At the end of the battle transforms.
-}
-
 STRING 2141
 // Items: I071 (Braccus Wex), Name (Name)
 {
@@ -14218,13 +14031,6 @@ STRING 2142
 // Items: I071 (Braccus Wex), Tip (Tooltip - Basic)
 {
 Braccus Wex
-}
-
-STRING 2143
-// Items: I071 (Braccus Wex), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases spell power by 50%. At the end of the battle transforms.
 }
 
 STRING 2144
@@ -14275,32 +14081,6 @@ STRING 2151
 {
 |cff4169e1Rare|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a bandit artifact.
-}
-
-STRING 2152
-// Items: I06Y (Mech gift), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cffb18904mech|r.
-}
-
-STRING 2153
-// Items: I06Y (Mech gift), Name (Name)
-{
-Mech gift
-}
-
-STRING 2154
-// Items: I06Y (Mech gift), Tip (Tooltip - Basic)
-{
-Mech gift
-}
-
-STRING 2155
-// Items: I06Y (Mech gift), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cffb18904mech|r.
 }
 
 STRING 2156
@@ -14644,32 +14424,6 @@ STRING 2203
 Increases Luck by 25. If you only have |cfffe9a2eAlchemy|r set artifacts in your inventory, increases Spell Power by 60%.
 }
 
-STRING 2204
-// Items: I06L (Toy train), Description (Description)
-{
-|cffbababcCommon|r
-At the beginning of each battle, increases the strength of the hero by 2.
-}
-
-STRING 2205
-// Items: I06L (Toy train), Name (Name)
-{
-Toy train
-}
-
-STRING 2206
-// Items: I06L (Toy train), Tip (Tooltip - Basic)
-{
-Toy train
-}
-
-STRING 2207
-// Items: I06L (Toy train), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-At the beginning of each battle, increases the strength of the hero by 2.
-}
-
 STRING 2208
 // Items: I0F7 (Submit a Coin), Name (Name)
 {
@@ -14824,13 +14578,6 @@ Increases a friendly hero's Intelligence by 15/20/25/30/35 until the end of the 
 |cffffcc00Cost:|r 60 mana.
 }
 
-STRING 2231
-// Items: I03X (Weapon Gift), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r an artifact from the |cff2d9995Weapon|r set.
-}
-
 STRING 2232
 // Items: I0EE (Midas Bracelet), Tip (Tooltip - Basic)
 {
@@ -14855,13 +14602,6 @@ STRING 2235
 Immovable Brigandine
 }
 
-STRING 2236
-// Items: I06D (Braccus Rex), Description (Description)
-{
-|cffe96a1cLegendary|r
-Increases attack power by 50. At the end of the battle transforms.
-}
-
 STRING 2237
 // Items: I06D (Braccus Rex), Name (Name)
 {
@@ -14872,13 +14612,6 @@ STRING 2238
 // Items: I06D (Braccus Rex), Tip (Tooltip - Basic)
 {
 Braccus Rex
-}
-
-STRING 2239
-// Items: I06D (Braccus Rex), Ubertip (Tooltip - Extended)
-{
-|cffe96a1cLegendary|r
-Increases attack power by 50. At the end of the battle transforms.
 }
 
 STRING 2240
@@ -15520,58 +15253,6 @@ STRING 2335
 Increases luck by 15.
 }
 
-STRING 2336
-// Items: I05O (Gift bag), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a gift.
-}
-
-STRING 2337
-// Items: I05O (Gift bag), Name (Name)
-{
-Gift bag
-}
-
-STRING 2338
-// Items: I05O (Gift bag), Tip (Tooltip - Basic)
-{
-Gift bag
-}
-
-STRING 2339
-// Items: I05O (Gift bag), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a gift.
-}
-
-STRING 2340
-// Items: I05N (Alchemy gift), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cfffe9a2ealchemy|r.
-}
-
-STRING 2341
-// Items: I05N (Alchemy gift), Name (Name)
-{
-Alchemy gift
-}
-
-STRING 2342
-// Items: I05N (Alchemy gift), Tip (Tooltip - Basic)
-{
-Alchemy gift
-}
-
-STRING 2343
-// Items: I05N (Alchemy gift), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cfffe9a2ealchemy|r.
-}
-
 STRING 2344
 // Abilities: A0T6 (Sludge Copy: Adaptation), Name (Name)
 {
@@ -15737,32 +15418,6 @@ STRING 2368
 // Abilities: A065 (Vampire: Blood Splash), Tip (Tooltip - Normal)
 {
 Blood Splash, [|cffffcc00Level 3|r]
-}
-
-STRING 2369
-// Items: I05G (Blood gift), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cffb40431blood|r.
-}
-
-STRING 2370
-// Items: I05G (Blood gift), Name (Name)
-{
-Blood gift
-}
-
-STRING 2371
-// Items: I05G (Blood gift), Tip (Tooltip - Basic)
-{
-Blood gift
-}
-
-STRING 2372
-// Items: I05G (Blood gift), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cffb40431blood|r.
 }
 
 STRING 2373
@@ -16184,13 +15839,6 @@ STRING 2439
 Cannot be split. 
 }
 
-STRING 2440
-// Items: I051 (Idol of Ridicule), Description (Description)
-{
-|cff4169e1Rare|r
-The hero takes 40% less physical damage, but gets 90% less gold from any sources.
-}
-
 STRING 2441
 // Items: I051 (Idol of Ridicule), Name (Name)
 {
@@ -16201,13 +15849,6 @@ STRING 2442
 // Items: I051 (Idol of Ridicule), Tip (Tooltip - Basic)
 {
 Idol of Ridicule
-}
-
-STRING 2443
-// Items: I051 (Idol of Ridicule), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-The hero takes 40% less physical damage, but gets 90% less gold from any sources.
 }
 
 STRING 2444
@@ -16345,13 +15986,6 @@ STRING 2463
 Moon Lamp
 }
 
-STRING 2464
-// Items: I04V (Nature gift), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff7cfc00nature|r.
-}
-
 STRING 2465
 // Items: I04V (Nature gift), Name (Name)
 {
@@ -16362,13 +15996,6 @@ STRING 2466
 // Items: I04V (Nature gift), Tip (Tooltip - Basic)
 {
 Nature gift
-}
-
-STRING 2467
-// Items: I04V (Nature gift), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff7cfc00nature|r.
 }
 
 STRING 2468
@@ -16543,58 +16170,6 @@ STRING 2493
 // Units: N039 ((E) Energy Ball), Name (Name)
 {
 (E) Energy Ball
-}
-
-STRING 2494
-// Items: I04N (Ring gift), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff9001fdring|r.
-}
-
-STRING 2495
-// Items: I04N (Ring gift), Name (Name)
-{
-Ring gift
-}
-
-STRING 2496
-// Items: I04N (Ring gift), Tip (Tooltip - Basic)
-{
-Ring gift
-}
-
-STRING 2497
-// Items: I04N (Ring gift), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff9001fdring|r.
-}
-
-STRING 2498
-// Items: I04M (Rune gift), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff848484rune|r.
-}
-
-STRING 2499
-// Items: I04M (Rune gift), Name (Name)
-{
-Rune gift
-}
-
-STRING 2500
-// Items: I04M (Rune gift), Tip (Tooltip - Basic)
-{
-Rune gift
-}
-
-STRING 2501
-// Items: I04M (Rune gift), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff848484rune|r.
 }
 
 STRING 2502
@@ -16830,13 +16405,6 @@ STRING 2536
 {
 |cffbababcCommon|r
 Increases attack power of non-hero allies by 35%.
-}
-
-STRING 2537
-// Items: I03X (Weapon Gift), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r an artifact from the |cff2d9995Weapon|r set.
 }
 
 STRING 2538
@@ -17454,32 +17022,6 @@ Every 31 seconds, if it is day, the hero uses Murder at Midnight (|cffffcc00Q|r)
 At night, each hero attack with a |cffd7df0170%|r chance increases agility by 1 until daytime.
 
 |cFF959697Blood for Blood prioritizes heroes, especially oneself.|r
-}
-
-STRING 2627
-// Items: I03Q (Moon gift), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff5858famoon|r.
-}
-
-STRING 2628
-// Items: I03Q (Moon gift), Name (Name)
-{
-Moon gift
-}
-
-STRING 2629
-// Items: I03Q (Moon gift), Tip (Tooltip - Basic)
-{
-Moon gift
-}
-
-STRING 2630
-// Items: I03Q (Moon gift), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff5858famoon|r.
 }
 
 STRING 2631
@@ -19980,39 +19522,6 @@ STRING 3000
 (Polar Bear)
 }
 
-STRING 3001
-// Items: I014 (Star dust), Description (Description)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Activation: All heroes become invisible.
-Actions do not remove invisibility.
-|cffffcc00Duration:|r 3 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-|cffffcc00Cost:|r 25 mana.
-}
-
-STRING 3002
-// Items: I014 (Star dust), Name (Name)
-{
-Star dust
-}
-
-STRING 3003
-// Items: I014 (Star dust), Tip (Tooltip - Basic)
-{
-Star dust
-}
-
-STRING 3004
-// Items: I014 (Star dust), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r, |cff5858faMoon|r
-Activation: All heroes become invisible.
-Actions do not remove invisibility.
-|cffffcc00Duration:|r 3 seconds.
-|cffffcc00Cooldown:|r 30 seconds.
-}
-
 STRING 3005
 // Items: I0C4 (Golden Statuette), Name (Name)
 {
@@ -20668,13 +20177,6 @@ STRING 3104
 MP (Natural Deselection)
 }
 
-STRING 3105
-// Items: I00E (Coal Gift), Description (Description)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cffcc0000corrupted|r artifact.
-}
-
 STRING 3106
 // Items: I00E (Coal Gift), Name (Name)
 {
@@ -20685,13 +20187,6 @@ STRING 3107
 // Items: I00E (Coal Gift), Tip (Tooltip - Basic)
 {
 Coal Gift
-}
-
-STRING 3108
-// Items: I00E (Coal Gift), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a |cffcc0000corrupted|r artifact.
 }
 
 STRING 3109
@@ -22196,16 +21691,6 @@ STRING 3342
 // Abilities: A1CS (The Plague: Neurotoxin), Researchtip (Tooltip - Learn)
 {
 Neurotoxin, [|cffffcc00Level %d|r]
-}
-
-STRING 3343
-// Abilities: A0C4 (|cffffcc00Уровень 3:|r Иллюзионистка), Ubertip (Tooltip - Normal - Extended)
-{
-- Every 14 seconds creates 2 runes of stats. They can be deceiving.
-- Every 5 seconds, creates 2 areas. Each of them explodes after 3 seconds. The danger one deals |cffbe81f7300|r damage, the friendly one restores |cffbe81f7100|r health and |cffbe81f730|r mana.
-- |cff00cceeAt 80% health:|r After 3 seconds, swaps Health and Mana of all heroes. Repeat every 12 seconds.
-- |cff00cceeAt 60% health:|r The boss creates 2 more areas. Changes the world. Repeats every 15 seconds.
-- |cff00cceeAt 35% health:|r The boss creates 4 more areas.
 }
 
 STRING 3344
@@ -26408,10 +25893,24 @@ STRING 3999
 Q
 }
 
+STRING 4000
+// Items: I0GN (Battlemaster), Description (Description)
+{
+|cffffcc00Quest:|r Take a total of 15,000 damage.
+|cffffcc00Reward:|r Battlemaster's Bulwark.
+}
+
 STRING 4001
 // Abilities: A190 (Swamp Treant: Life), Tip (Tooltip - Normal)
 {
 Life
+}
+
+STRING 4002
+// Items: I0GN (Battlemaster), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Quest:|r Take a total of 15,000 damage.
+|cffffcc00Reward:|r Battlemaster's Bulwark.
 }
 
 STRING 4003
@@ -27742,6 +27241,20 @@ STRING 4213
 Increases Stats by 4. Can be dropped from the inventory.
 }
 
+STRING 4214
+// Items: I0BQ (Disco Ball), Description (Description)
+{
+|cffbababcCommon|r
+Gain 15 Attack Damage for each set type in the inventory.
+}
+
+STRING 4215
+// Items: I0BQ (Disco Ball), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Gain 15 Attack Damage for each set type in the inventory.
+}
+
 STRING 4216
 // Items: I05A (Geyser Potion), Description (Description)
 {
@@ -28697,6 +28210,45 @@ STRING 4371
 // Abilities: A161 (Mephistar: Bazaar of Mamon), Tip (Tooltip - Normal)
 {
 Bazaar of Mamon, [|cffffcc00Level 5|r]
+}
+
+STRING 4372
+// Items: I051 (Idol of Ridicule), Description (Description)
+{
+|cff4169e1Rare|r
+You take 40% less damage from attacks and receive 90% less gold.
+}
+
+STRING 4373
+// Items: I051 (Idol of Ridicule), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+You take 40% less damage from attacks and receive 90% less gold.
+}
+
+STRING 4374
+// Items: I0FU (Orb of Shadow), Description (Description)
+{
+|cff4169e1Rare|r
+Increases Attack Damage by 15%.
+Attacks of each hero have an |cffd7df018%|r chance to turn the target to the attacker's side.
+|cffffcc00Life time:|r 30 seconds.
+}
+
+STRING 4375
+// Items: I0FU (Orb of Shadow), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Increases Attack Damage by 15%.
+Attacks of each hero have an |cffd7df018%|r chance to turn the target to the attacker's side.
+|cffffcc00Life time:|r 30 seconds.
+}
+
+STRING 4376
+// Items: I0DZ (Idol of Sin), Description (Description)
+{
+|cff4169e1Rare|r
+You restore 150% more health to friendly targets, but they cannot be healed for 2.5 seconds afterward.
 }
 
 STRING 4377
@@ -30247,6 +29799,13 @@ STRING 4614
 {
 Deals |cffbe81f7300|r damage to the enemy and freezes them. If already frozen, stuns them for 3.5 seconds.
 |cffffcc00Cooldown:|r 15 seconds.
+}
+
+STRING 4615
+// Items: I0DZ (Idol of Sin), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+You restore 150% more health to friendly targets, but they cannot be healed for 2.5 seconds afterward.
 }
 
 STRING 4616
@@ -32967,6 +32526,13 @@ STRING 5027
 Power Punch, [|cffffcc00Level %d|r]
 }
 
+STRING 5028
+// Items: I0CL (Crystal Gift), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cff00cCeeCrystal|r artifact.
+}
+
 STRING 5029
 // Abilities: A11B (Blessing: Reborn), Ubertip (Tooltip - Normal - Extended)
 {
@@ -33060,6 +32626,18 @@ STRING 5043
 Power Punch, [|cffffcc00Level 5|r]
 }
 
+STRING 5044
+// Items: I0CL (Crystal Gift), Name (Name)
+{
+Crystal Gift
+}
+
+STRING 5045
+// Items: I0CL (Crystal Gift), Tip (Tooltip - Basic)
+{
+Crystal Gift
+}
+
 STRING 5046
 // Abilities: A114 (Blessing: Замешательство (g22)), Name (Name)
 {
@@ -33084,6 +32662,13 @@ STRING 5049
 Blessing: Огненный дождь (g25)
 }
 
+STRING 5050
+// Items: I0CL (Crystal Gift), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cff00cCeeCrystal|r artifact.
+}
+
 STRING 5051
 // Abilities: A113 (Blessing: Огненный дождь (g25)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -33094,6 +32679,19 @@ STRING 5052
 // Abilities: A112 (Blessing: Сундуки (g26)), Name (Name)
 {
 Blessing: Сундуки (g26)
+}
+
+STRING 5053
+// Items: I0C7 (Fortuneteller Deck), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r a tarot card twice |cFF959697(2/2)|r.
+}
+
+STRING 5054
+// Items: I0C7 (Fortuneteller Deck), Name (Name)
+{
+Fortuneteller Deck
 }
 
 STRING 5055
@@ -35027,12 +34625,6 @@ STRING 5352
 // Abilities: A0B7 (Admiral: Fencing Master), Ubertip (Tooltip - Normal - Extended)
 {
 Every 3rd attack of the hero deals double |cffbe81f7magic damage|r to nearby enemies and gives 5 gold for each unit affected.
-}
-
-STRING 5353
-// Abilities: A0Y6 (|cffffcc00Уровень 4:|r Темный колдун), Name (Name)
-{
-|cffffcc00Уровень 4:|r Темный колдун
 }
 
 STRING 5354
@@ -37795,6 +37387,12 @@ STRING 5772
 // Abilities: A0UJ (Incarnation: Hollowed), Ubertip (Tooltip - Normal - Extended)
 {
 Increases magic damage dealt by 100% of percent of missing health.
+}
+
+STRING 5773
+// Items: I0C7 (Fortuneteller Deck), Tip (Tooltip - Basic)
+{
+Fortuneteller Deck
 }
 
 STRING 5774
@@ -43032,6 +42630,13 @@ STRING 6583
 |cffffcc00Уровень 1:|r Каменный голем
 }
 
+STRING 6584
+// Items: I0C7 (Fortuneteller Deck), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r a tarot card twice |cFF959697(2/2)|r.
+}
+
 STRING 6585
 // Items: I0ER (Orb of Volcano), Description (Description)
 {
@@ -47982,6 +47587,13 @@ STRING 7350
 (Скарабей)
 }
 
+STRING 7351
+// Items: I09Q (Idol of Greed), Description (Description)
+{
+|cff4169e1Rare|r
+Your damage has |cffbe81f780%|r lifesteal, which also heals allied heroes. You do not deal damage to bosses.
+}
+
 STRING 7352
 // Abilities: A16Z (|cffffcc00Уровень 4:|r Chief of the Guard), Name (Name)
 {
@@ -49284,10 +48896,24 @@ STRING 7549
 (т)Аура: Fool stack
 }
 
+STRING 7550
+// Items: I09Q (Idol of Greed), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Your damage has |cffbe81f780%|r lifesteal, which also heals allied heroes. You do not deal damage to bosses.
+}
+
 STRING 7551
 // Abilities: A0FQ (Pyrolord: Pyromagic), Researchhotkey (Hotkey - Learn)
 {
 E
+}
+
+STRING 7552
+// Items: I09P (Idol of Wrath), Description (Description)
+{
+|cff4169e1Rare|r
+Increases Attack Damage dealt and received by 100%.
 }
 
 STRING 7553
@@ -49295,6 +48921,40 @@ STRING 7553
 {
 |cffbababcCommon|r, |cfffe9a2eAlchemy|r
 Reduces cooldowns by 10%. If all artifacts in your inventory belong to the |cfffe9a2eAlchemy|r set, reduces by an additional 25%.
+}
+
+STRING 7554
+// Items: I09P (Idol of Wrath), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Increases Attack Damage dealt and received by 100%.
+}
+
+STRING 7555
+// Items: I09K (Idol of Envy), Description (Description)
+{
+|cff4169e1Rare|r
+Increases magical damage dealt by 75%. Your hero dies along with the other heroes.
+}
+
+STRING 7556
+// Items: I09K (Idol of Envy), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Increases magical damage dealt by 75%. Your hero dies along with the other heroes.
+}
+
+STRING 7557
+// Items: I08V (Teddy Bear), Description (Description)
+{
+|cffbababcCommon|r
+Summoned minions gain 5 Attack Damage. Sheep minions also have their stats doubled.
+}
+
+STRING 7558
+// Items: I08V (Teddy Bear), Name (Name)
+{
+Teddy Bear
 }
 
 STRING 7559
@@ -50779,6 +50439,19 @@ STRING 7787
 When the hero's mana drops to 15% for the first time in the battle, burns it.
 }
 
+STRING 7788
+// Items: I08V (Teddy Bear), Tip (Tooltip - Basic)
+{
+Teddy Bear
+}
+
+STRING 7789
+// Items: I08V (Teddy Bear), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Summoned minions gain 5 Attack Damage. Sheep minions also have their stats doubled.
+}
+
 STRING 7790
 // Abilities: A0GF (Unique: Curse), Hotkey (Hotkey - Normal)
 {
@@ -50927,6 +50600,13 @@ STRING 7813
 Curse: Равенство (b7)
 }
 
+STRING 7814
+// Items: I08J (Qute Eye), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Transforms |cff60C445Unique|r Ability into Burning Gaze.
+}
+
 STRING 7815
 // Abilities: A0G9 (Curse: Равенство (b7)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -51018,6 +50698,13 @@ STRING 7829
 Receive 2000 gold and Sticky Trash. Sticky Trash cannot be removed from your inventory by any means.
 }
 
+STRING 7830
+// Items: I08J (Qute Eye), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Transforms |cff60C445Unique|r Ability into Burning Gaze.
+}
+
 STRING 7831
 // Items: IV22 (Almighty Beer), Ubertip (Tooltip - Extended)
 {
@@ -51025,10 +50712,38 @@ STRING 7831
 Receive 2000 gold and Sticky Trash. Sticky Trash cannot be removed from your inventory by any means.
 }
 
+STRING 7832
+// Items: I072 (Braccus Dex), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases Armor by 10. At the end of the battle transforms.
+}
+
+STRING 7833
+// Items: I072 (Braccus Dex), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases Armor by 10. At the end of the battle transforms.
+}
+
+STRING 7834
+// Items: I071 (Braccus Wex), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases Spell Power by 50%. At the end of the battle transforms.
+}
+
 STRING 7835
 // Abilities: A0FW (Curse: Утомление (b8)), Name (Name)
 {
 Curse: Утомление (b8)
+}
+
+STRING 7836
+// Items: I071 (Braccus Wex), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases Spell Power by 50%. At the end of the battle transforms.
 }
 
 STRING 7837
@@ -51273,6 +50988,13 @@ STRING 7876
 Curse: Медлительность (b2)
 }
 
+STRING 7877
+// Items: I06Y (Mech Gift), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cffb18904Mech|r artifact.
+}
+
 STRING 7878
 // Abilities: A0DC (Alchemist: Troll voodoo), Ubertip (Tooltip - Normal - Extended)
 {
@@ -51319,6 +51041,12 @@ STRING 7885
 // Abilities: A0FH (Blessing: Магия (g8)), Name (Name)
 {
 Blessing: Магия (g8)
+}
+
+STRING 7886
+// Items: I06Y (Mech Gift), Name (Name)
+{
+Mech Gift
 }
 
 STRING 7887
@@ -51526,6 +51254,12 @@ STRING 7919
 E
 }
 
+STRING 7920
+// Items: I06Y (Mech Gift), Tip (Tooltip - Basic)
+{
+Mech Gift
+}
+
 STRING 7921
 // Units: n01S (Mistress), EditorSuffix (Name - Editor Suffix)
 {
@@ -51536,14 +51270,6 @@ STRING 7922
 // Abilities: A112 (Blessing: Сундуки (g26)), Tip (Tooltip - Normal)
 {
 |cff90EE90Bless:|r Chests
-}
-
-STRING 7923
-// Abilities: A0HG (|cffffcc00Уровень 3:|r Mistress of Pain), Ubertip (Tooltip - Normal - Extended)
-{
-- Every 6 seconds, boss jumps on a random player unit, dealing |cffbe81f775|r damage and restoring |cffbe81f775|r health. Summons Mylady.
-- Mylady has a jump similar to the boss.
-- |cff00cceeAt 50% and 25% health:|r The boss summons 2 Milady near each hero.
 }
 
 STRING 7924
@@ -51975,6 +51701,13 @@ STRING 7990
 Rampage, [|cffffcc00Level %d|r]
 }
 
+STRING 7991
+// Items: I06Y (Mech Gift), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cffb18904Mech|r artifact.
+}
+
 STRING 7992
 // Abilities: A0F1 (Ogre: Rampage), Tip (Tooltip - Normal)
 {
@@ -52003,6 +51736,39 @@ STRING 7996
 // Abilities: A0F1 (Ogre: Rampage), Tip (Tooltip - Normal)
 {
 Rampage, [|cffffcc00Level 5|r]
+}
+
+STRING 7997
+// Items: I06L (Toy Train), Description (Description)
+{
+|cffbababcCommon|r
+Increases Strength by 2 at the start of the battle.
+}
+
+STRING 7998
+// Items: I06L (Toy Train), Name (Name)
+{
+Toy Train
+}
+
+STRING 7999
+// Items: I06L (Toy Train), Tip (Tooltip - Basic)
+{
+Toy Train
+}
+
+STRING 8000
+// Items: I06L (Toy Train), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Increases Strength by 2 at the start of the battle.
+}
+
+STRING 8001
+// Items: I06D (Braccus Rex), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases Attack Damage by 50. At the end of the battle transforms.
 }
 
 STRING 8002
@@ -52107,10 +51873,95 @@ STRING 8018
 Воскрешение
 }
 
+STRING 8019
+// Items: I06D (Braccus Rex), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases Attack Damage by 50. At the end of the battle transforms.
+}
+
 STRING 8020
 // Abilities: A0D6 (Scarab: Strengthening), Researchhotkey (Hotkey - Learn)
 {
 E
+}
+
+STRING 8021
+// Items: I05O (Gift Bag), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the Gift.
+}
+
+STRING 8022
+// Items: I05O (Gift Bag), Name (Name)
+{
+Gift Bag
+}
+
+STRING 8023
+// Items: I05O (Gift Bag), Tip (Tooltip - Basic)
+{
+Gift Bag
+}
+
+STRING 8024
+// Items: I05O (Gift Bag), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the Gift.
+}
+
+STRING 8025
+// Items: I05N (Alchemy Gift), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cfffe9a2eAlchemy|r artifact.
+}
+
+STRING 8026
+// Items: I05N (Alchemy Gift), Name (Name)
+{
+Alchemy Gift
+}
+
+STRING 8027
+// Items: I05N (Alchemy Gift), Tip (Tooltip - Basic)
+{
+Alchemy Gift
+}
+
+STRING 8028
+// Items: I05N (Alchemy Gift), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cfffe9a2eAlchemy|r artifact.
+}
+
+STRING 8029
+// Items: I05G (Blood Gift), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cffb40431Blood|r artifact.
+}
+
+STRING 8030
+// Items: I05G (Blood Gift), Name (Name)
+{
+Blood Gift
+}
+
+STRING 8031
+// Items: I05G (Blood Gift), Tip (Tooltip - Basic)
+{
+Blood Gift
+}
+
+STRING 8032
+// Items: I05G (Blood Gift), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cffb40431Blood|r artifact.
 }
 
 STRING 8033
@@ -52143,6 +51994,13 @@ STRING 8037
 Earthquake, [|cffffcc00Level %d|r]
 }
 
+STRING 8038
+// Items: I04V (Nature gift), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cff7cfc00Nature|r artifact.
+}
+
 STRING 8039
 // Abilities: A0EU (Ogre: Earthquake), Tip (Tooltip - Normal)
 {
@@ -52173,6 +52031,39 @@ STRING 8043
 Earthquake, [|cffffcc00Level 5|r]
 }
 
+STRING 8044
+// Items: I04V (Nature gift), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cff7cfc00Nature|r artifact.
+}
+
+STRING 8045
+// Items: I04N (Ring Gift), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cff9001fdRing|r artifact.
+}
+
+STRING 8046
+// Items: I04N (Ring Gift), Name (Name)
+{
+Ring Gift
+}
+
+STRING 8047
+// Items: I04N (Ring Gift), Tip (Tooltip - Basic)
+{
+Ring Gift
+}
+
+STRING 8048
+// Items: I04N (Ring Gift), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cff9001fdRing|r artifact.
+}
+
 STRING 8049
 // Abilities: A0DL (Soulstealer: Soul Latch), Hotkey (Hotkey - Normal)
 {
@@ -52195,6 +52086,13 @@ STRING 8052
 // Abilities: A0ET (Ogre: Crush), Researchtip (Tooltip - Learn)
 {
 Crush, [|cffffcc00Level %d|r]
+}
+
+STRING 8053
+// Items: I04M (Rune Gift), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cff848484Rune|r artifact.
 }
 
 STRING 8054
@@ -52225,6 +52123,39 @@ STRING 8058
 // Abilities: A0ET (Ogre: Crush), Tip (Tooltip - Normal)
 {
 Crush, [|cffffcc00Level 5|r]
+}
+
+STRING 8059
+// Items: I04M (Rune Gift), Name (Name)
+{
+Rune Gift
+}
+
+STRING 8060
+// Items: I04M (Rune Gift), Tip (Tooltip - Basic)
+{
+Rune Gift
+}
+
+STRING 8061
+// Items: I04M (Rune Gift), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cff848484Rune|r artifact.
+}
+
+STRING 8062
+// Items: I03X (Weapon Gift), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cff2d9995Weapon|r artifact.
+}
+
+STRING 8063
+// Items: I03X (Weapon Gift), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cff2d9995Weapon|r artifact.
 }
 
 STRING 8064
@@ -52726,6 +52657,19 @@ STRING 8139
 Blessing: Жажда (g4)
 }
 
+STRING 8140
+// Items: I03Q (Moon Gift), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cff5858faMoon|r artifact.
+}
+
+STRING 8141
+// Items: I03Q (Moon Gift), Name (Name)
+{
+Moon Gift
+}
+
 STRING 8142
 // Abilities: A0E3 (Аура: Единение с луной), Name (Name)
 {
@@ -52832,6 +52776,12 @@ STRING 8157
 The hero is one with the moon. While the effect is active, each time the hero uses an ability or item, it restores |cffbe81f732|r mana.
 |cffffcc00Duration:|r 20 seconds.
 |cffffcc00Cooldown:|r 35 seconds.
+}
+
+STRING 8158
+// Items: I03Q (Moon Gift), Tip (Tooltip - Basic)
+{
+Moon Gift
 }
 
 STRING 8159
@@ -53269,6 +53219,13 @@ STRING 8227
 (Orb of Frost)
 }
 
+STRING 8228
+// Items: I03Q (Moon Gift), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cff5858faMoon|r artifact.
+}
+
 STRING 8229
 // Abilities: A0DQ (Аура: Сокрушение), Name (Name)
 {
@@ -53489,6 +53446,21 @@ STRING 8263
 Blessing: Избранный (g6)
 }
 
+STRING 8264
+// Items: I014 (Star Dust), Description (Description)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Activation: All heroes become invisible for 3 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
+|cffffcc00Cost:|r 25 mana.
+}
+
+STRING 8265
+// Items: I014 (Star Dust), Name (Name)
+{
+Star Dust
+}
+
 STRING 8266
 // Abilities: A0DI (Снаряд: Девятый вал), Name (Name)
 {
@@ -53650,6 +53622,12 @@ STRING 8292
 // Abilities: A0D9 (Pet: Неуловимость), Ubertip (Tooltip - Normal - Extended)
 {
 Pet takes 50% less damage from magic.
+}
+
+STRING 8293
+// Items: I014 (Star Dust), Tip (Tooltip - Basic)
+{
+Star Dust
 }
 
 STRING 8294
@@ -54589,14 +54567,8 @@ STRING 8440
 When called upon, deals |cffbe81f7500|r damage to all nearby enemies.
 }
 
-STRING 8441
-// Abilities: A0C4 (|cffffcc00Уровень 3:|r Иллюзионистка), Name (Name)
-{
-|cffffcc00Уровень 3:|r Иллюзионистка
-}
-
 STRING 8442
-// Abilities: A0C4 (|cffffcc00Уровень 3:|r Иллюзионистка), Tip (Tooltip - Normal)
+// Abilities: A0C4 (|cffffcc00Уровень 3:|r Illusionist), Tip (Tooltip - Normal)
 {
 Illusionist
 }
@@ -55186,6 +55158,14 @@ STRING 8534
 // Abilities: A0BB (Blessing: Активация (g1)), Name (Name)
 {
 Blessing: Активация (g1)
+}
+
+STRING 8535
+// Items: I014 (Star Dust), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+Activation: All heroes become invisible for 3 seconds.
+|cffffcc00Cooldown:|r 30 seconds.
 }
 
 STRING 8536
@@ -55951,6 +55931,13 @@ STRING 8648
 // Abilities: A075 (|cffffcc00Уровень 9:|r Reaper of Nightmares), Name (Name)
 {
 |cffffcc00Уровень 9:|r Reaper of Nightmares
+}
+
+STRING 8649
+// Items: I00E (Coal Gift), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cffcc0000Corrupted|r artifact.
 }
 
 STRING 8650
@@ -60692,6 +60679,20 @@ The hero terrifies units in front of them. It reduces enemies' Movement Speed by
 |cffffcc00Cooldown:|r 18 seconds.
 }
 
+STRING 9384
+// Items: I00E (Coal Gift), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: |cffcc0000Corrupted|r. |cFFE16B90Forge|r the |cffcc0000Corrupted|r artifact.
+}
+
+STRING 9385
+// Items: IZ04 (Eternal Harvest), Description (Description)
+{
+|cffbababcCommon|r, |cffb40431Blood|r, |cff7cfc00Nature|r
+If you defeat a boss and any of the heroes die during the battle, you'll receive a |cffb40431Blood|r or |cff7cfc00Nature|r item. The other will be offered as an Artifact Reward.
+}
+
 STRING 9386
 // Items: I07H (Philosopher's Potion), Ubertip (Tooltip - Extended)
 {
@@ -61870,20 +61871,6 @@ STRING 9565
 Get 350 gold.
 }
 
-STRING 9566
-// Items: IZ04 (Eternal Harvest), Description (Description)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
-If you defeat a boss and any of the heroes die during the battle, you'll receive a |cffb40431Blood|r or |cff7cfc00Nature|r item. The other will be offered as an Artifact Reward.
-}
-
-STRING 9567
-// Items: IZ04 (Eternal Harvest), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cffb40431Blood|r, |cff7cfc00Nature|r
-If you defeat a boss and any of the heroes die during the battle, you'll receive a |cffb40431Blood|r or |cff7cfc00Nature|r item. The other will be offered as an Artifact Reward.
-}
-
 STRING 9568
 // Abilities: A1CI (Lycanthrope: Beast of Gevaudan), Ubertip (Tooltip - Normal - Extended)
 {
@@ -62866,6 +62853,13 @@ STRING 9721
 (т)Аура: Channel Energy (+)
 }
 
+STRING 9722
+// Items: IZ04 (Eternal Harvest), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cffb40431Blood|r, |cff7cfc00Nature|r
+If you defeat a boss and any of the heroes die during the battle, you'll receive a |cffb40431Blood|r or |cff7cfc00Nature|r item. The other will be offered as an Artifact Reward.
+}
+
 STRING 9723
 // Abilities: A04H (Усилитель 6: МонструозныйXXX), Tip (Tooltip - Normal)
 {
@@ -63663,6 +63657,20 @@ STRING 9840
 // Abilities: A03P (Blessing: Бессмертие (g2)), Name (Name)
 {
 Blessing: Бессмертие (g2)
+}
+
+STRING 9841
+// Items: I0HG (Shining Crab), Description (Description)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+At the start of the battle, permanently gives +2% Spell Power for each |cff00cceeCrystal|r you have.
+}
+
+STRING 9842
+// Items: I0HG (Shining Crab), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff00cceeCrystal|r
+At the start of the battle, permanently gives +2% Spell Power for each |cff00cceeCrystal|r you have.
 }
 
 STRING 9843
@@ -66323,6 +66331,14 @@ STRING 10250
 Bloodlust, [|cffffcc00Level %d|r]
 }
 
+STRING 10251
+// Items: I07M (Twilight Phoenix), Description (Description)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+While the hero is invisible, periodically reduces the hero's ability cooldowns by 0.5 seconds.
+|cff81f260[Random bonus]|r
+}
+
 STRING 10252
 // Abilities: A010 (Barbarian: Bloodlust), Tip (Tooltip - Normal)
 {
@@ -66351,6 +66367,14 @@ STRING 10256
 // Abilities: A010 (Barbarian: Bloodlust), Tip (Tooltip - Normal)
 {
 Bloodlust, [|cffffcc00Level 5|r]
+}
+
+STRING 10257
+// Items: I07M (Twilight Phoenix), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r, |cff5858faMoon|r
+While the hero is invisible, periodically reduces the hero's ability cooldowns by 0.5 seconds.
+|cff81f260[Random bonus]|r
 }
 
 STRING 10260
@@ -72077,7 +72101,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.12.8T|r
+|cffbe81f7Boss Battle 1.12.9T|r
 }
 
 STRING 11219
@@ -72782,13 +72806,6 @@ STRING 11327
 |cff4169e1Rare|r, |cffb40431Blood|r
 Activation: Restores |cffbe81f7300|r health to another hero. If your current health is lower, copy it.
 |cffffcc00Cooldown:|r 45 seconds.
-}
-
-STRING 11328
-// Items: I0BQ (Disco Ball), Description (Description)
-{
-|cff4169e1Rare|r
-Gain 15 Attack Damage for each set type in the inventory.
 }
 
 STRING 11329
@@ -74202,13 +74219,6 @@ STRING 11554
 (Orb of the Rolling Plains)
 }
 
-STRING 11555
-// Items: I0BQ (Disco Ball), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Gain 15 Attack Damage for each set type in the inventory.
-}
-
 STRING 11556
 // Items: I06E (Big Red Button), Description (Description)
 {
@@ -75381,13 +75391,6 @@ At the start of the battle, get a copy of it (even if there is no space in the i
 Activation: |cffcc0000Corrupted|r. Restores |cffbe81f7300|r health and |cffbe81f7100|r mana.
 }
 
-STRING 11729
-// Items: I0HG (Shining Crab), Description (Description)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-At the start of the battle, gives +2% Spell Power for each |cff00cceeCrystal|r in the inventory.
-}
-
 STRING 11730
 // Items: I0HG (Shining Crab), Name (Name)
 {
@@ -75398,13 +75401,6 @@ STRING 11731
 // Items: I0HG (Shining Crab), Tip (Tooltip - Basic)
 {
 Shining Crab
-}
-
-STRING 11732
-// Items: I0HG (Shining Crab), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff00cceeCrystal|r
-At the start of the battle, gives +2% Spell Power for each |cff00cceeCrystal|r in the inventory.
 }
 
 STRING 11733
@@ -76933,12 +76929,6 @@ STRING 11950
 - |cff00cceeAt 80% health:|r Peons are called more often.
 - |cff00cceeAt 50% health:|r Peons are called more often.
 - |cff00cceeAt 20% health:|r Peons are called more often.
-}
-
-STRING 11951
-// Abilities: A0Y6 (|cffffcc00Уровень 4:|r Темный колдун), Tip (Tooltip - Normal)
-{
-Dark Sorcerer
 }
 
 STRING 11952
@@ -79857,7 +79847,7 @@ Command friendly idle minions to attack the target.
 }
 
 STRING 12369
-// Abilities: A0Y6 (|cffffcc00Уровень 4:|r Темный колдун), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0Y6 (|cffffcc00Уровень 4:|r Dark Warlock), Ubertip (Tooltip - Normal - Extended)
 {
 - Ranged attacks.
 - When your units cast, they lose 25 Health.
