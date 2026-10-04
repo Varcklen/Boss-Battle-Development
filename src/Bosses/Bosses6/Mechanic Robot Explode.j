@@ -4,7 +4,8 @@ scope MechanicRobotExplode initializer init
 		private constant integer DAMAGE = 300
 		private constant integer AREA = 300
 		private constant real DELAY = 1.5
-		private constant string ANIMATION = "Objects\\Spawnmodels\\Human\\HCancelDeath\\HCancelDeath.mdl"
+		private constant string EXPLOSION_ANIMATION = "Abilities\\Spells\\Other\\Incinerate\\FireLordDeathExplode.mdl"
+		private constant real ANIMATION_SIZE = AREA / 150
 	endglobals
 
 	private function condition takes nothing returns boolean
@@ -15,12 +16,22 @@ scope MechanicRobotExplode initializer init
         local integer id = GetHandleId( GetExpiredTimer( ) )
         local unit dummy = LoadUnitHandle(udg_hash, id, StringHash( "sheep_explode" ) )
         local effect model = LoadEffectHandle( udg_hash, id, StringHash("sheep_explode_model") )
+        local effect explosion
+        local location dummyLoc = GetUnitLoc(dummy)
 
-		call DestroyEffect( AddSpecialEffect( ANIMATION, GetUnitX( dummy ), GetUnitY( dummy ) ) )
+		set explosion = AddSpecialEffectLoc( EXPLOSION_ANIMATION, dummyLoc )
+		call BlzSetSpecialEffectScale( explosion, ANIMATION_SIZE )
+		call DestroyEffect( explosion )
+		
 	    call GroupAoE( dummy, GetUnitX( dummy ), GetUnitY( dummy ), DAMAGE, AREA, "enemy", null, null )
+	    
 	    call DestroyEffect( model )
+	    call RemoveUnit(dummy)
         call FlushChildHashtable( udg_hash, id )
         
+        call RemoveLocation(dummyLoc)
+        set dummyLoc = null
+        set explosion = null
         set model = null
         set dummy = null
     endfunction

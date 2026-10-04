@@ -2,25 +2,16 @@ scope CurseFatigue initializer init
 
 	globals
 		private trigger Trigger = null
+		
+		private constant integer COOLDOWN = 45
+		private constant integer DURATION = 10
 	endglobals
-
-	private function end takes nothing returns nothing
-	    local integer id = GetHandleId( GetExpiredTimer() )
-	    local unit target = LoadUnitHandle( udg_hash, id, StringHash( "curse_succumbing_end" ) )
-	    
-	    call UnitRemoveAbility( target, 'A0I5' )
-	    call UnitRemoveAbility( target, 'B03F' )
-	    call FlushChildHashtable( udg_hash, id )
-	    
-	    set target = null
-	endfunction
 
     private function AddDebuff takes unit target returns nothing
         call UnitAddAbility( target, 'A0I5' )
         call DestroyEffect( AddSpecialEffectTarget( "Abilities\\Spells\\Other\\HowlOfTerror\\HowlCaster.mdl", target, "origin") )
         call textst( "|c00FF6000 FATIGUE!", target, 64, 90, 15, 1.5 )
-
-        call InvokeTimerWithUnit( target, "curse_succumbing_end", 10, false, function end )
+        call bufallst( target, target, 'A0I5', 0, 0, 0, 0, 'B03F', "curse_succumbing_end", DURATION )
     endfunction
     
     private function cast takes nothing returns nothing
@@ -47,7 +38,7 @@ scope CurseFatigue initializer init
         	set timerUsed = CreateTimer()
             call SaveTimerHandle( udg_hash, 1, StringHash( "curse_fatigue" ), timerUsed )
         endif
-        call TimerStart( timerUsed, 45, true, function cast )
+        call TimerStart( timerUsed, COOLDOWN, true, function cast )
 	endfunction
 
 	//===========================================================================

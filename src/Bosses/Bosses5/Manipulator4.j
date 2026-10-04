@@ -12,7 +12,7 @@ scope Manipulator4 initializer init
 		
 		private constant real PERCENT_TO_BURN = 0.04
 		
-		private constant string EFFECT_MODEL = "war3mapImported\\Indicator_Aim_Thin.mdx"//"war3mapImported\\Spell Marker Gray.mdx"
+		private constant string EFFECT_MODEL = "war3mapImported\\Indicator_Aim_Circle.mdx"//"war3mapImported\\Spell Marker Gray.mdx"
 		private constant string AREA_BURN_ANIMATION = "Abilities\\Spells\\Undead\\DeathCoil\\DeathCoilSpecialArt.mdl"
 	endglobals
 

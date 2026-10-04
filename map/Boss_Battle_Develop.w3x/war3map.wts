@@ -7978,12 +7978,9 @@ Activation: Increases Luck by 100.
 }
 
 STRING 1222
-// Items: I0DF (Orb of Kel'Thuzad), Description (Description)
+// Abilities: A109 (Аура: Поле спокойствияXXX), Name (Name)
 {
-|cffe96a1cLegendary|r
-Increases armor by 8.
-When the hero attacks, slows down the target, reducing their attack and movement speed by 35%.
-|cffffcc00Duration:|r 4 seconds.
+Аура: Поле спокойствияXXX
 }
 
 STRING 1223
@@ -7999,12 +7996,14 @@ Orb of Kel'Thuzad
 }
 
 STRING 1225
-// Items: I0DF (Orb of Kel'Thuzad), Ubertip (Tooltip - Extended)
+// Items: I022 (Necromancer Pendant), Description (Description)
 {
-|cffe96a1cLegendary|r
-Increases armor by 8.
-When the hero attacks, slows down the target, reducing their attack and movement speed by 35%.
-|cffffcc00Duration:|r 4 seconds.
+|cffbababcCommon|r
+Kill 5 enemies to upgrade. Can be upgraded 5 times. |cFF959697(1/5)|r
+Activation: Summons a Skeleton Protector with the "Provocation" ability.
+|cffffcc00Life time:|r 40 seconds.
+|cffffcc00Cooldown:|r 60 seconds.
+|cffffcc00Cost:|r 50 mana.
 }
 
 STRING 1226
@@ -8811,6 +8810,24 @@ STRING 1342
 |cffffcc00Уровень 3:|r Illusionist
 }
 
+STRING 1343
+// Abilities: A0XV (|cffffcc00Уровень 1:|r Drunk Man), Name (Name)
+{
+|cffffcc00Уровень 1:|r Drunk Man
+}
+
+STRING 1344
+// Abilities: A0XV (|cffffcc00Уровень 1:|r Drunk Man), Tip (Tooltip - Normal)
+{
+Drunk Man
+}
+
+STRING 1345
+// Abilities: A0FW (Curse: Fatigue), Name (Name)
+{
+Curse: Fatigue
+}
+
 STRING 1346
 // Items: I0CK (Warrior's Belt), Description (Description)
 {
@@ -9166,6 +9183,34 @@ STRING 1397
 {
 |cffbababcCommon|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r an artifact from the set |cff5858famoon|r, |cff7cfc00nature|r or |cff00cceecrystal|r.
+}
+
+STRING 1398
+// Abilities: A0FW (Curse: Fatigue), Ubertip (Tooltip - Normal - Extended)
+{
+Every 45 seconds, it Exhausts a random hero for 10 seconds. An Exhausted hero restores 50% less health and mana.
+}
+
+STRING 1399
+// Items: I0DF (Orb of Kel'Thuzad), Description (Description)
+{
+|cffe96a1cLegendary|r
+Increases armor by 8.
+The hero's attacks reduce enemies' Attack and Movement Speed by 35% for 4 seconds.
+}
+
+STRING 1400
+// Items: I0DF (Orb of Kel'Thuzad), Ubertip (Tooltip - Extended)
+{
+|cffe96a1cLegendary|r
+Increases armor by 8.
+The hero's attacks reduce enemies' Attack and Movement Speed by 35% for 4 seconds.
+}
+
+STRING 1401
+// Abilities: A0HJ (|cffffcc00Уровень 8:|r Spider Queen), Name (Name)
+{
+|cffffcc00Уровень 8:|r Spider Queen
 }
 
 STRING 1402
@@ -11148,6 +11193,12 @@ STRING 1696
 Cane of Khnum
 }
 
+STRING 1697
+// Abilities: A14I (Bless: Feel No Pain), Name (Name)
+{
+Bless: Feel No Pain
+}
+
 STRING 1698
 // Items: I0GG (Boom Box), Ubertip (Tooltip - Extended)
 {
@@ -11553,6 +11604,12 @@ STRING 1757
 Medved
 }
 
+STRING 1758
+// Abilities: A14I (Bless: Feel No Pain), Tip (Tooltip - Normal)
+{
+|cff90EE90Bless:|r Feel No Pain
+}
+
 STRING 1759
 // Items: I09P (Idol of Wrath), Name (Name)
 {
@@ -11563,6 +11620,12 @@ STRING 1760
 // Items: I09P (Idol of Wrath), Tip (Tooltip - Basic)
 {
 Idol of Wrath
+}
+
+STRING 1761
+// Abilities: A022 (Mermaid: Turbid Waters), Name (Name)
+{
+Mermaid: Turbid Waters
 }
 
 STRING 1762
@@ -11673,6 +11736,12 @@ After 5 seconds of not using a hero ability, enter Withdrawal; while in that sta
 At the end of the round, gain 4 extra strength and agility if Defiance was fully successful.
 }
 
+STRING 1778
+// Abilities: A022 (Mermaid: Turbid Waters), Researchtip (Tooltip - Learn)
+{
+Turbid Waters, [|cffffcc00Level %d|r]
+}
+
 STRING 1779
 // Items: I09K (Idol of Envy), Name (Name)
 {
@@ -11683,6 +11752,12 @@ STRING 1780
 // Items: I09K (Idol of Envy), Tip (Tooltip - Basic)
 {
 Idol of Envy
+}
+
+STRING 1781
+// Items: I022 (Necromancer Pendant), Name (Name)
+{
+Necromancer Pendant
 }
 
 STRING 1782
@@ -11854,6 +11929,12 @@ STRING 1808
 Scientist Card
 }
 
+STRING 1809
+// Abilities: A022 (Mermaid: Turbid Waters), Tip (Tooltip - Normal)
+{
+Turbid Waters, [|cffffcc00Level 1|r]
+}
+
 STRING 1810
 // Items: I0B9 (Scholar's Gambit (Out of Pool)), Description (Description)
 {
@@ -11868,6 +11949,18 @@ STRING 1811
 Reduces damage taken by 20%.
 Activation: Target another hero to make them invulnerable for 10 seconds.
 |cffffcc00Cooldown:|r 30 seconds.
+}
+
+STRING 1812
+// Abilities: A022 (Mermaid: Turbid Waters), Tip (Tooltip - Normal)
+{
+Turbid Waters, [|cffffcc00Level 2|r]
+}
+
+STRING 1813
+// Abilities: A022 (Mermaid: Turbid Waters), Tip (Tooltip - Normal)
+{
+Turbid Waters, [|cffffcc00Level 3|r]
 }
 
 STRING 1814
@@ -12336,6 +12429,34 @@ STRING 1878
 // Items: IZ04 (Eternal Harvest), Tip (Tooltip - Basic)
 {
 Eternal Harvest
+}
+
+STRING 1879
+// Abilities: A022 (Mermaid: Turbid Waters), Tip (Tooltip - Normal)
+{
+Turbid Waters, [|cffffcc00Level 4|r]
+}
+
+STRING 1880
+// Abilities: A022 (Mermaid: Turbid Waters), Tip (Tooltip - Normal)
+{
+Turbid Waters, [|cffffcc00Level 5|r]
+}
+
+STRING 1881
+// Items: I022 (Necromancer Pendant), Tip (Tooltip - Basic)
+{
+Necromancer Pendant
+}
+
+STRING 1882
+// Items: I022 (Necromancer Pendant), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Kill 5 enemies to upgrade. Can be upgraded 5 times. |cFF959697(1/5)|r
+Activation: Summons a Skeleton Protector with the "Provocation" ability.
+|cffffcc00Life time:|r 40 seconds.
+|cffffcc00Cooldown:|r 60 seconds.
 }
 
 STRING 1883
@@ -13504,6 +13625,13 @@ STRING 2058
 Twilight Phoenix
 }
 
+STRING 2059
+// Abilities: A022 (Mermaid: Turbid Waters), Researchubertip (Tooltip - Learn - Extended)
+{
+Turns your hero invisible for 6 seconds. Periodically restores |cffbe81f72%/3.5%/5%/6.5%/8%|r health. Restoration ends upon leaving invisibility.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 2060
 // Abilities: A045 (|cffffcc00Amplifier:|r Mythical), Ubertip (Tooltip - Normal - Extended)
 {
@@ -14009,6 +14137,13 @@ STRING 2135
 Refresh
 }
 
+STRING 2136
+// Abilities: A022 (Mermaid: Turbid Waters), Ubertip (Tooltip - Normal - Extended)
+{
+Turns your hero invisible for 6 seconds. Periodically restores |cffbe81f72%|r health. Restoration ends upon leaving invisibility.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 2137
 // Items: I072 (Braccus Dex), Name (Name)
 {
@@ -14021,6 +14156,20 @@ STRING 2138
 Braccus Dex
 }
 
+STRING 2139
+// Abilities: A022 (Mermaid: Turbid Waters), Ubertip (Tooltip - Normal - Extended)
+{
+Turns your hero invisible for 6 seconds. Periodically restores |cffbe81f73.5%|r health. Restoration ends upon leaving invisibility.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
+STRING 2140
+// Abilities: A022 (Mermaid: Turbid Waters), Ubertip (Tooltip - Normal - Extended)
+{
+Turns your hero invisible for 6 seconds. Periodically restores |cffbe81f75%|r health. Restoration ends upon leaving invisibility.
+|cffffcc00Cooldown:|r 20 seconds.
+}
+
 STRING 2141
 // Items: I071 (Braccus Wex), Name (Name)
 {
@@ -14031,6 +14180,13 @@ STRING 2142
 // Items: I071 (Braccus Wex), Tip (Tooltip - Basic)
 {
 Braccus Wex
+}
+
+STRING 2143
+// Abilities: A022 (Mermaid: Turbid Waters), Ubertip (Tooltip - Normal - Extended)
+{
+Turns your hero invisible for 6 seconds. Periodically restores |cffbe81f76.5%|r health. Restoration ends upon leaving invisibility.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 2144
@@ -14081,6 +14237,13 @@ STRING 2151
 {
 |cff4169e1Rare|r
 Activation: |cffcc0000Corrupted|r. |cFFE16B90Forges|r a bandit artifact.
+}
+
+STRING 2152
+// Abilities: A022 (Mermaid: Turbid Waters), Ubertip (Tooltip - Normal - Extended)
+{
+Turns your hero invisible for 6 seconds. Periodically restores |cffbe81f78%|r health. Restoration ends upon leaving invisibility.
+|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 2156
@@ -14898,7 +15061,7 @@ Sapphire
 }
 
 STRING 2283
-// Abilities: A0XV (|cffffcc00Уровень 1:|r Пьяный мужик), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0XV (|cffffcc00Уровень 1:|r Drunk Man), Ubertip (Tooltip - Normal - Extended)
 {
 - Strong attacks.
 - Every 10 seconds, increases Attack Damage by 5.
@@ -18597,39 +18760,6 @@ STRING 2860
 Activation: Restores |cffbe81f7150|r Health to friendly units nearby. Increases the Attack of affected minions by 15%.
 |cffffcc00Cooldown:|r 20 seconds.
 |cffffcc00Cost:|r 35 mana.
-}
-
-STRING 2861
-// Items: I022 (Necromancer pendant), Description (Description)
-{
-|cffbababcCommon|r
-Kill 5 minions with your hero to upgrade this artifact. Improves up to five times. |cFF959697(1/5)|r
-Activation: Summons a Skeleton Protector with the "Provocation" ability.
-|cffffcc00Life time:|r 40 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
-STRING 2862
-// Items: I022 (Necromancer pendant), Name (Name)
-{
-Necromancer pendant
-}
-
-STRING 2863
-// Items: I022 (Necromancer pendant), Tip (Tooltip - Basic)
-{
-Necromancer pendant
-}
-
-STRING 2864
-// Items: I022 (Necromancer pendant), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Kill 5 minions with your hero to upgrade this artifact. Improves up to five times. |cFF959697(1/5)|r
-Activation: Summons a Skeleton Protector with the "Provocation" ability.
-|cffffcc00Life time:|r 40 seconds.
-|cffffcc00Cooldown:|r 60 seconds.
 }
 
 STRING 2865
@@ -29854,7 +29984,7 @@ Enrage the hero for 25 seconds. Each subsequent attack hit deals 2%/3%/4%/5%/6% 
 }
 
 STRING 4623
-// Abilities: A14I (Bless: Emotion Suppression), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A14I (Bless: Feel No Pain), Ubertip (Tooltip - Normal - Extended)
 {
 Heroes take 10% less damage.
 }
@@ -33385,12 +33515,6 @@ STRING 5161
 Аура: Взрывной выстрел
 }
 
-STRING 5162
-// Abilities: A109 (Аура: Поле спокойствия), Name (Name)
-{
-Аура: Поле спокойствия
-}
-
 STRING 5163
 // Abilities: A108 (Damage Reduction (Random bonus)), Name (Name)
 {
@@ -34722,18 +34846,6 @@ STRING 5369
 // Abilities: A1FT ((т)Аура: Horror (Boss Akama)), Name (Name)
 {
 (т)Аура: Horror (Boss Akama)
-}
-
-STRING 5370
-// Abilities: A0XV (|cffffcc00Уровень 1:|r Пьяный мужик), Name (Name)
-{
-|cffffcc00Уровень 1:|r Пьяный мужик
-}
-
-STRING 5371
-// Abilities: A0XV (|cffffcc00Уровень 1:|r Пьяный мужик), Tip (Tooltip - Normal)
-{
-Drunk man
 }
 
 STRING 5372
@@ -36166,18 +36278,6 @@ STRING 5588
 // Abilities: A14O (Curse: Electric Storm (b28)), Tip (Tooltip - Normal)
 {
 |cffFF7F7FCurse:|r Electric Storm
-}
-
-STRING 5589
-// Abilities: A14I (Bless: Emotion Suppression), Name (Name)
-{
-Bless: Emotion Suppression
-}
-
-STRING 5590
-// Abilities: A14I (Bless: Emotion Suppression), Tip (Tooltip - Normal)
-{
-|cff90EE90Bless:|r Emotion Suppression
 }
 
 STRING 5591
@@ -50733,12 +50833,6 @@ STRING 7834
 Increases Spell Power by 50%. At the end of the battle transforms.
 }
 
-STRING 7835
-// Abilities: A0FW (Curse: Утомление (b8)), Name (Name)
-{
-Curse: Утомление (b8)
-}
-
 STRING 7836
 // Items: I071 (Braccus Wex), Ubertip (Tooltip - Extended)
 {
@@ -56122,12 +56216,6 @@ STRING 8677
 Cocoon
 }
 
-STRING 8678
-// Abilities: A0HJ (|cffffcc00Уровень 8:|r Queen of Spiders), Name (Name)
-{
-|cffffcc00Уровень 8:|r Queen of Spiders
-}
-
 STRING 8679
 // Abilities: A12J (Adventurer: Ice Touch), Ubertip (Tooltip - Normal - Extended)
 {
@@ -56136,7 +56224,7 @@ Deals |cffbe81f7150|r damage to bosses (wherever they are). If there are no boss
 }
 
 STRING 8680
-// Abilities: A0HJ (|cffffcc00Уровень 8:|r Queen of Spiders), Ubertip (Tooltip - Normal - Extended)
+// Abilities: A0HJ (|cffffcc00Уровень 8:|r Spider Queen), Ubertip (Tooltip - Normal - Extended)
 {
 - When a hero or a cocoon dies, spawns 4 spiders.
 - Destroying the cocoon increases the boss's Attack Damage by 20%.
@@ -58510,7 +58598,7 @@ Set "|cff9001fdRing|r"
 }
 
 STRING 9049
-// Abilities: A0HJ (|cffffcc00Уровень 8:|r Queen of Spiders), Tip (Tooltip - Normal)
+// Abilities: A0HJ (|cffffcc00Уровень 8:|r Spider Queen), Tip (Tooltip - Normal)
 {
 Spider Queen
 }
@@ -62665,7 +62753,7 @@ Doctor: Unreachable
 }
 
 STRING 9692
-// Abilities: A022 (Mermaid: Turbid waters), Hotkey (Hotkey - Normal)
+// Abilities: A022 (Mermaid: Turbid Waters), Hotkey (Hotkey - Normal)
 {
 E
 }
@@ -63321,7 +63409,7 @@ Priestess: Tale of a Paw
 }
 
 STRING 9790
-// Abilities: A022 (Mermaid: Turbid waters), Researchhotkey (Hotkey - Learn)
+// Abilities: A022 (Mermaid: Turbid Waters), Researchhotkey (Hotkey - Learn)
 {
 E
 }
@@ -65147,58 +65235,16 @@ STRING 10069
 E
 }
 
-STRING 10070
-// Abilities: A022 (Mermaid: Turbid waters), Name (Name)
-{
-Mermaid: Turbid waters
-}
-
 STRING 10071
 // Abilities: A016 (Preacher: Aura of Light), Researchhotkey (Hotkey - Learn)
 {
 E
 }
 
-STRING 10072
-// Abilities: A022 (Mermaid: Turbid waters), Researchtip (Tooltip - Learn)
-{
-Turbid waters, [|cffffcc00Level %d|r]
-}
-
 STRING 10073
 // Abilities: A08E (Legionary: Flaming Crystal), Ubertip (Tooltip - Normal - Extended)
 {
 With a probability of |cffd7df0114%|r, after any action, gives your hero 1 ruby and restore |cffbe81f72%|r health and mana.
-}
-
-STRING 10074
-// Abilities: A022 (Mermaid: Turbid waters), Tip (Tooltip - Normal)
-{
-Turbid waters, [|cffffcc00Level 1|r]
-}
-
-STRING 10075
-// Abilities: A022 (Mermaid: Turbid waters), Tip (Tooltip - Normal)
-{
-Turbid waters, [|cffffcc00Level 2|r]
-}
-
-STRING 10076
-// Abilities: A022 (Mermaid: Turbid waters), Tip (Tooltip - Normal)
-{
-Turbid waters, [|cffffcc00Level 3|r]
-}
-
-STRING 10077
-// Abilities: A022 (Mermaid: Turbid waters), Tip (Tooltip - Normal)
-{
-Turbid waters, [|cffffcc00Level 4|r]
-}
-
-STRING 10078
-// Abilities: A022 (Mermaid: Turbid waters), Tip (Tooltip - Normal)
-{
-Turbid waters, [|cffffcc00Level 5|r]
 }
 
 STRING 10079
@@ -73937,14 +73983,6 @@ STRING 11508
 (Во тьмуXXX)
 }
 
-STRING 11509
-// Abilities: A022 (Mermaid: Turbid waters), Researchubertip (Tooltip - Learn - Extended)
-{
-Enters the hero into invisibility and restores |cffbe81f72%/3.5%/5%/6.5%/8%|r of your maximum health every second (while invisibility is in effect).
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
 STRING 11510
 // Units: N040 ((D) Furbolg Chieftain), Name (Name)
 {
@@ -74027,46 +74065,6 @@ STRING 11523
 // Units: N02T ((E) Peacelock), Name (Name)
 {
 (E) Peacelock
-}
-
-STRING 11524
-// Abilities: A022 (Mermaid: Turbid waters), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and restores |cffbe81f72%|r of your maximum health every second (while invisibility is in effect).
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 11525
-// Abilities: A022 (Mermaid: Turbid waters), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and restores |cffbe81f73.5%|r of your maximum health every second (while invisibility is in effect).
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 11526
-// Abilities: A022 (Mermaid: Turbid waters), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and restores |cffbe81f75%|r of your maximum health every second (while invisibility is in effect).
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 11527
-// Abilities: A022 (Mermaid: Turbid waters), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and restores |cffbe81f76.5%|r of your maximum health every second (while invisibility is in effect).
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 11528
-// Abilities: A022 (Mermaid: Turbid waters), Ubertip (Tooltip - Normal - Extended)
-{
-Enters the hero into invisibility and restores |cffbe81f78%|r of your maximum health every second (while invisibility is in effect).
-|cffffcc00Duration:|r 6 seconds.
-|cffffcc00Cooldown:|r 20 seconds.
 }
 
 STRING 11529
@@ -80058,15 +80056,9 @@ STRING 12399
 }
 
 STRING 12401
-// Abilities: A0FW (Curse: Утомление (b8)), Tip (Tooltip - Normal)
+// Abilities: A0FW (Curse: Fatigue), Tip (Tooltip - Normal)
 {
 |cffFF7F7FCurse:|r Fatigue
-}
-
-STRING 12402
-// Abilities: A0FW (Curse: Утомление (b8)), Ubertip (Tooltip - Normal - Extended)
-{
-Every 45 seconds, it Exhausts a random hero. An Exhausted hero restores 50% less health and mana.
 }
 
 STRING 12403

@@ -3,7 +3,7 @@ scope Heuz5 initializer init
 	globals
 		public trigger Trigger = null
 		
-		private constant real TICK_CHECK = 1
+		private constant real TICK_CHECK = 0.5
 		private constant real DAMAGE_TICK = 1
 		private constant integer RANGE_TO_NEW_AREA = 175
 		private constant integer BEHIND_RANGE = 75
@@ -24,17 +24,22 @@ scope Heuz5 initializer init
 	    local unit dummy = LoadUnitHandle( udg_hash, id, StringHash( "boss_heuz_area" ) )
 	    local unit boss = LoadUnitHandle( udg_hash, id, StringHash( "boss_heuz_area_boss" ) )
 	    local effect model
+	    local effect indicator
 	
 	    if IsUnitDead( boss ) or IsUnitDead( dummy ) or not( udg_fightmod[0] ) then
+	    	set indicator = LoadEffectHandle( udg_hash, id, StringHash( "boss_heuz_area_indicator" ) )
+	    	call DestroyEffect(indicator)
+	    	set indicator = null
 	    	set model = LoadEffectHandle( udg_hash, id, StringHash( "boss_heuz_area_model" ) )
 	    	call DestroyEffect(model)
+	    	set model = null
 	        call RemoveUnit(dummy)
 	        call DestroyTimer( GetExpiredTimer() )
 	    else
 	    	call GroupAoE( boss, GetUnitX( dummy ), GetUnitY( dummy ), DAMAGE, AREA_SIZE, "enemy", null, null )
 	    endif
 	    
-		set model = null
+		
 	    set dummy = null
 	    set boss = null
 	endfunction
@@ -43,12 +48,15 @@ scope Heuz5 initializer init
 		local integer id
 		local effect model
 		local unit dummy
+		local effect indicator
 		
 		//TEMP
 		//call IndicatorSystem_Create( INDICATOR_AIM, GetLocationX(spawnLoc), GetLocationY(spawnLoc), AREA_SIZE, 3, boss )
 	
 		set model = AddSpecialEffectLoc( AREA_MODEL, spawnLoc )
 		call BlzSetSpecialEffectScale( model, MODEL_SIZE )
+		
+		set indicator = IndicatorSystem_Create( INDICATOR_AIM, GetLocationX(spawnLoc), GetLocationY(spawnLoc), AREA_SIZE, 0, boss )
 		
 		set dummy = CreateUnitAtLoc( GetOwningPlayer( boss ), 'u000', spawnLoc, 270 )
 		//Requires to change area size manually in Object Editor!
@@ -57,6 +65,7 @@ scope Heuz5 initializer init
 		set id = InvokeTimerWithUnit( dummy, "boss_heuz_area", DAMAGE_TICK, true, function AreaDamage )
 		call SaveUnitHandle( udg_hash, id, StringHash( "boss_heuz_area_boss" ), boss )
 		call SaveEffectHandle( udg_hash, id, StringHash( "boss_heuz_area_model" ), model )
+		call SaveEffectHandle( udg_hash, id, StringHash( "boss_heuz_area_indicator" ), indicator )
         
         call RemoveLocation(spawnLoc)
 		set spawnLoc = null

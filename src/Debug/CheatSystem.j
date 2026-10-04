@@ -54,6 +54,7 @@ library CheatSystem initializer init requires Multiboard
 		call Cheat.create(CheatLuck_Trigger, "-luck", "Add 50 luck." )
 		call Cheat.create(CheatDamage_Trigger, "-damage", "Shows who and how much deals damage." )
 		call Cheat.create(CheatMultiplayer_Trigger, "-multiplayer", "Enable/Disable singleplayer mode." )
+		call Cheat.create(CheatIndicator_Trigger, "-indicator", "Creates indicators for 10 seconds in the hero[1] location." )
 	endfunction
 
 	public function IsCheatsEnabled takes nothing returns boolean

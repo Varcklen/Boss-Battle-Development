@@ -100,6 +100,7 @@ scope Golem4 initializer init
 	endfunction
 	
 	private function action takes nothing returns nothing
+		call DisableTrigger( GetTriggeringTrigger() )
 		call InvokeTimerWithUnit( udg_DamageEventTarget, "boss_golem_4", bosscast(COOLDOWN), true, function GolemAbility )
 	endfunction
 

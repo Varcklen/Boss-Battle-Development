@@ -6,10 +6,12 @@ library IndicatorSystem initializer init requires CommonTimer
 		private string STRING_HASH_STRING = "particle_delete"
 		private integer STRING_HASH = StringHash(STRING_HASH_STRING)
 		
-		constant integer INDICATOR_SKULL = 0
-		constant integer INDICATOR_AIM = 1
-		constant integer INDICATOR_WARNING = 2
-		constant integer INDICATOR_SAFE = 3
+		constant integer INDICATOR_SKULL 		= 0
+		constant integer INDICATOR_AIM 			= 1
+		constant integer INDICATOR_WARNING 		= 2
+		constant integer INDICATOR_SAFE 		= 3
+		constant integer INDICATOR_CIRCLE 		= 4
+		//constant integer INDICATOR_AIM_CIRCLE 	= 5
 		
 		private Indicator array Indicators
 		private integer Indicators_Max = 0
@@ -22,16 +24,18 @@ library IndicatorSystem initializer init requires CommonTimer
 		private string Path
 		readonly real BaseSize
 		readonly boolean HideImmediately
+		//readonly boolean playerColor
 		
-		private string PathAlt = null
-		private integer SizeAlt = 0
+		/*private string PathAlt = null
+		private integer SizeAlt = 0*/
 		
-		static method create takes real baseSize, boolean hideImmediately, string path returns thistype
+		static method create takes real baseSize, boolean hideImmediately, string path/*, boolean playerColor*/ returns thistype
 			local thistype p = thistype.allocate()
 			
 			set p.Path = path
 			set p.BaseSize = baseSize
 			set p.HideImmediately = hideImmediately
+			//set p.playerColor = playerColor
 			
 			set Indicators[Indicators_Max] = p
 			set Indicators_Max = Indicators_Max + 1
@@ -39,30 +43,35 @@ library IndicatorSystem initializer init requires CommonTimer
             return p
         endmethod
         
-        method SetAlt takes integer sizeAlt, string pathAlt returns nothing
+        /*method SetAlt takes integer sizeAlt, string pathAlt returns nothing
 			set .SizeAlt = sizeAlt
 			set .PathAlt = pathAlt
-        endmethod
+        endmethod*/
         
         method GetPath takes real size returns string
         	//call BJDebugMsg("size: " + R2S(size))
         	//call BJDebugMsg(".SizeAlt: " + R2S(.SizeAlt))
-			if .PathAlt != null and size >= .SizeAlt then
+			/*if .PathAlt != null and size >= .SizeAlt then
 				//call BJDebugMsg(".PathAlt: " + .PathAlt )
 				return .PathAlt
-			endif
+			endif*/
 			//call BJDebugMsg(".Path: " + .Path )
 			return .Path
         endmethod
 	endstruct
 	
+	/*Also Alarm.mdx is possible area to use, but need to use BlzSetSpecialEffectColor instead of BlzSetSpecialEffectColorByPlayer for it
+	*/
 	private function SetData takes nothing returns nothing
 		local Indicator indicator
-		call Indicator.create(1, false, "war3mapImported\\AuraOfDeath.mdx")
-		set indicator = Indicator.create(1,false, "war3mapImported\\Indicator_Aim.mdx")
-		call indicator.SetAlt( 150, "war3mapImported\\Indicator_Aim_Thin.mdx")
-		call Indicator.create(1.25, true, "war3mapImported\\BossColor.mdx")
-		call Indicator.create(2, true, "war3mapImported\\Magic_Aura_02.mdx")
+		/*INDICATOR_SKULL*/		call Indicator.create(1, false, "war3mapImported\\AuraOfDeath.mdx")
+		/*INDICATOR_AIM*/		call Indicator.create(2.4, false, "Skill_Indicator_Circle.mdx")
+								//set indicator = Indicator.create(1,false, "war3mapImported\\Indicator_Aim.mdx")
+								//call indicator.SetAlt( 150, "war3mapImported\\Indicator_Aim_Thin.mdx")
+		/*INDICATOR_WARNING*/	call Indicator.create(1.25, true, "war3mapImported\\BossColor.mdx")
+		/*INDICATOR_SAFE*/		call Indicator.create(2, true, "war3mapImported\\Magic_Aura_02.mdx")
+		/*INDICATOR_CIRCLE*/	//call Indicator.create(2, true, "Skill_Indicator_Circle.mdx")
+		/*INDICATOR_CIRCLE*/	call Indicator.create(1, false, "war3mapImported\\Indicator_Aim_Circle.mdx")
 	endfunction
 	
 	private function ClearParticles takes nothing returns nothing
@@ -108,7 +117,12 @@ library IndicatorSystem initializer init requires CommonTimer
 		set indicator = Indicators[indicatorType]
 		set temp_Effect = AddSpecialEffect( indicator.GetPath(area), x, y )
 		call BlzSetSpecialEffectScale( temp_Effect, area / 100 * indicator.BaseSize )
-		call BlzSetSpecialEffectColorByPlayer( temp_Effect, Player(12) ) //Red Color
+		
+		//if indicator.playerColor then
+			call BlzSetSpecialEffectColorByPlayer( temp_Effect, Player(12) ) //Red Color
+		/*else
+			call BlzSetSpecialEffectColor(temp_Effect, 255, 25, 25)
+		endif*/
 		
 		if duration > 0 then
 			set id = InvokeTimerWithEffect( temp_Effect, STRING_HASH_STRING, duration, false, function end )

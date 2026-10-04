@@ -18,6 +18,7 @@ scope RandomEventBoar initializer init
 	
 	    set newUnit = CreateUnitAtLoc( Player(4), BATTLE_BOAR, unitSpawn, GetRandomReal( 0, 360 ) )
 	    call DestroyEffect( AddSpecialEffectLoc( SPAWN_ANIMATION, unitSpawn ) )
+	    call RemoveGuardPosition(newUnit)
 
 	    call FlushChildHashtable( udg_hash, GetHandleId( GetExpiredTimer() ) )
 	    

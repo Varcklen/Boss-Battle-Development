@@ -7,7 +7,8 @@ library DangerArea requires CommonTimer, IndicatorSystem
 		private constant string STRING_HASH_STRING = "particle_delete"
 		private constant integer STRING_HASH = StringHash(STRING_HASH_STRING)
 		
-		private constant integer REVERSE_AREA_SIZE = 150
+		private constant integer REVERSE_AREA_SIZE = 125
+		private constant real GAP_MULTIPLIER = 1.5
 		
 		private effect array ReverseEffects[100][500]
 		private integer ReverseEffects_Max = 0
@@ -61,13 +62,13 @@ library DangerArea requires CommonTimer, IndicatorSystem
 				call BJDebugMsg("y: "+ R2S(y))*/
 				set point = Location( x, y )
 				if DistanceBetweenPoints(point, areaLoc ) > areaSize then
-					set ReverseEffects[UseIndex][ReverseEffects_Max] = IndicatorSystem_Create(INDICATOR_SKULL, x, y, REVERSE_AREA_SIZE, duration, null)
+					set ReverseEffects[UseIndex][ReverseEffects_Max] = IndicatorSystem_Create(INDICATOR_AIM, x, y, REVERSE_AREA_SIZE, duration, null)
 					set ReverseEffects_Max = ReverseEffects_Max + 1
 				endif 
 				call RemoveLocation(point)
-				set y = y - REVERSE_AREA_SIZE
+				set y = y - REVERSE_AREA_SIZE * GAP_MULTIPLIER
 			endloop
-			set x = x + REVERSE_AREA_SIZE
+			set x = x + REVERSE_AREA_SIZE * GAP_MULTIPLIER
 		endloop
 		/*call BJDebugMsg("=================")
 		call BJDebugMsg("xMax: "+ R2S(xMax))

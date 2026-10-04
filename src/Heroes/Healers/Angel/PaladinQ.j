@@ -19,6 +19,7 @@ function AngelQCast takes nothing returns nothing
     local real dmg = LoadReal( udg_hash, id, StringHash( "angq" ) )
     local real x = LoadReal( udg_hash, id, StringHash( "angqx" ) )
     local real y = LoadReal( udg_hash, id, StringHash( "angqy" ) )
+    local effect area
     
     call GroupEnumUnitsInRange( g, x, y, 250, null )
     loop
@@ -39,6 +40,9 @@ function AngelQCast takes nothing returns nothing
     if counter > 0 and GetUnitState( dummy, UNIT_STATE_LIFE) > 0.405 then
         call SaveInteger( udg_hash, id, StringHash( "angq" ), counter - 1 )
     else
+    	set area = LoadEffectHandle( udg_hash, id, StringHash( "angqe" ) )
+    	call DestroyEffect(area)
+    	set area = null
         call RemoveUnit( dummy )
         call FlushChildHashtable( udg_hash, id )
         call DestroyTimer( GetExpiredTimer() )
@@ -62,6 +66,7 @@ function Trig_AngelQ_Actions takes nothing returns nothing
     local real dist 
     local real angle 
     local real dmg
+    local effect area
     
     if CastLogic() then
         set caster = udg_Caster
@@ -89,14 +94,18 @@ function Trig_AngelQ_Actions takes nothing returns nothing
     if GetUnitAbilityLevel( caster, 'A0BU') < 5  then
         call UnitAddAbility( dummy, 'A0C0' )
     endif
-    call UnitAddAbility( dummy, 'A109' )
-    call SetUnitScale( dummy, 2,  2, 2 )
+    set area = AddSpecialEffect("war3mapImported\\Spell Marker Gray.mdx", x, y )
+    call BlzSetSpecialEffectColor(area, 255, 255, 0)
+    call BlzSetSpecialEffectScale(area, 2.5)
+    /*call UnitAddAbility( dummy, 'A109' )
+    call SetUnitScale( dummy, 2,  2, 2 )*/
      
     set id = GetHandleId( dummy ) 
     call SaveTimerHandle( udg_hash, id, StringHash( "angq" ), CreateTimer() )
 	set id = GetHandleId( LoadTimerHandle( udg_hash, id, StringHash( "angq" ) ) ) 
 	call SaveUnitHandle( udg_hash, id, StringHash( "angq" ), caster )
     call SaveUnitHandle( udg_hash, id, StringHash( "angq1" ), dummy )
+    call SaveEffectHandle( udg_hash, id, StringHash( "angqe" ), area )
     call SaveInteger( udg_hash, id, StringHash( "angq" ), 15 )
     call SaveInteger( udg_hash, id, StringHash( "angqlvl" ), lvl )
     call SaveReal( udg_hash, id, StringHash( "angq" ), dmg )
@@ -104,6 +113,7 @@ function Trig_AngelQ_Actions takes nothing returns nothing
     call SaveReal( udg_hash, id, StringHash( "angqy" ), y )
 	call TimerStart( LoadTimerHandle( udg_hash, GetHandleId( dummy ), StringHash( "angq" ) ), 1, true, function AngelQCast )
     
+    set area = null
     set dummy = null
     set caster = null
 endfunction

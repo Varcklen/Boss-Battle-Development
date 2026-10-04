@@ -10,11 +10,9 @@ scope PolarizedItem initializer init
 		return GetItemTypeId( GetManipulatedItem() ) == ITEM_ID
 	endfunction
 	
-	private function action takes nothing returns nothing
-		local unit caster = GetManipulatingUnit()
-	    local item locker = GetManipulatedItem()
-	    local item itemUsed = LoadItemHandle(udg_hash, GetHandleId( locker ), StringHash("locker_item") )
-	    local integer slot = -1
+	private function UnlockItem takes unit caster, item locker returns nothing
+		local item itemUsed = LoadItemHandle(udg_hash, GetHandleId( locker ), StringHash("locker_item") )
+		local integer slot = -1
 		local integer i
 		local integer iMax
 		
@@ -35,19 +33,39 @@ scope PolarizedItem initializer init
 		call UnitAddItem(caster, itemUsed )
 		call UnitDropItemSlot( caster, itemUsed, slot )
 		
+	    call RemoveItem(locker)
+	    
+	    set itemUsed = null
+	endfunction
+	
+	private function action takes nothing returns nothing
+		local unit caster = GetManipulatingUnit()
+	    local item locker = GetManipulatedItem()
+	    
+	    call UnlockItem(caster, locker)
 	    call DestroyEffect( AddSpecialEffect( ANIMATION, GetUnitX(caster), GetUnitY(caster) ) )
 	    call UnitDamageTarget( caster, caster, DAMAGE, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)
 	    
-	    call RemoveItem(locker)
+	    set caster = null
+	    set locker = null
+	endfunction
+	
+	//===========================================================================
+	private function OnBattleEnd takes nothing returns nothing
+	    local unit caster = BattleEnd.GetDataUnit("caster")
+	    local item locker = Trigger_GetItemUsed()
+	    
+	    call UnlockItem(caster, locker)
 	    
 	    set caster = null
 	    set locker = null
-	    set itemUsed = null
 	endfunction
 
 	//===========================================================================
     private function init takes nothing returns nothing
 		call CreateNativeEvent( EVENT_PLAYER_UNIT_USE_ITEM, function action, function condition )
+		
+		call RegisterDuplicatableItemTypeCustom( ITEM_ID, BattleEnd, function OnBattleEnd, null, null )
 	endfunction
 	
 endscope
