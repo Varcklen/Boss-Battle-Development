@@ -21,7 +21,7 @@ scope CheeseBonus initializer init
 		endif
 		
 		set modeName = BlzGetAbilityTooltip(mode.Info, 0)
-		set modeName = SubStringBJ(modeName, 23, StringLength(modeName))
+		set modeName = SubStringBJ(modeName, 20, StringLength(modeName))
 		
 		call ModeSystem_Enable(mode)
 		call DisplayTimedTextToForce( bj_FORCE_ALL_PLAYERS, MESSAGE_DURATION, udg_Player_Color[index] + GetPlayerName(user) + "|r has enabled the \"|cffffcc00" + modeName + "|r\" blessing." )

@@ -247,75 +247,39 @@ Gambler
 }
 
 STRING 32
-// Units: u01F (Dead commander), EditorSuffix (Name - Editor Suffix)
+// Units: u01F (Fallen Commander), EditorSuffix (Name - Editor Suffix)
 {
 (4)
 }
 
-STRING 33
-// Units: u01F (Dead commander), Name (Name)
-{
-Dead commander
-}
-
 STRING 34
-// Units: u01E (Dead commander), EditorSuffix (Name - Editor Suffix)
+// Units: u01E (Fallen Commander), EditorSuffix (Name - Editor Suffix)
 {
 (3)
 }
 
-STRING 35
-// Units: u01E (Dead commander), Name (Name)
-{
-Dead commander
-}
-
 STRING 36
-// Units: u01D (Dead commander), EditorSuffix (Name - Editor Suffix)
+// Units: u01D (Fallen Commander), EditorSuffix (Name - Editor Suffix)
 {
 (2)
 }
 
-STRING 37
-// Units: u01D (Dead commander), Name (Name)
-{
-Dead commander
-}
-
 STRING 38
-// Units: u01C (Dead commander), EditorSuffix (Name - Editor Suffix)
+// Units: u01C (Fallen Commander), EditorSuffix (Name - Editor Suffix)
 {
 (1)
 }
 
-STRING 39
-// Units: u01C (Dead commander), Name (Name)
-{
-Dead commander
-}
-
 STRING 40
-// Units: u01B (Dead commander), EditorSuffix (Name - Editor Suffix)
+// Units: u01B (Fallen Commander), EditorSuffix (Name - Editor Suffix)
 {
 (6)
 }
 
-STRING 41
-// Units: u01B (Dead commander), Name (Name)
-{
-Dead commander
-}
-
 STRING 42
-// Units: u01A (Dead commander), EditorSuffix (Name - Editor Suffix)
+// Units: u01A (Fallen Commander), EditorSuffix (Name - Editor Suffix)
 {
 (5)
-}
-
-STRING 43
-// Units: u01A (Dead commander), Name (Name)
-{
-Dead commander
 }
 
 STRING 44
@@ -415,39 +379,21 @@ STRING 59
 }
 
 STRING 60
-// Units: u00O (Explosive lump), EditorSuffix (Name - Editor Suffix)
+// Units: u00O (Explosive Lump), EditorSuffix (Name - Editor Suffix)
 {
 (6)
 }
 
-STRING 61
-// Units: u00O (Explosive lump), Name (Name)
-{
-Explosive lump
-}
-
 STRING 62
-// Units: u00N (Explosive lump), EditorSuffix (Name - Editor Suffix)
+// Units: u00N (Explosive Lump), EditorSuffix (Name - Editor Suffix)
 {
 (5)
 }
 
-STRING 63
-// Units: u00N (Explosive lump), Name (Name)
-{
-Explosive lump
-}
-
 STRING 64
-// Units: u00M (Explosive lump), EditorSuffix (Name - Editor Suffix)
+// Units: u00M (Explosive Lump), EditorSuffix (Name - Editor Suffix)
 {
 (4)
-}
-
-STRING 65
-// Units: u00M (Explosive lump), Name (Name)
-{
-Explosive lump
 }
 
 STRING 66
@@ -463,15 +409,9 @@ Skeleton Protector
 }
 
 STRING 68
-// Units: u00G (Explosive lump), EditorSuffix (Name - Editor Suffix)
+// Units: u00G (Explosive Lump), EditorSuffix (Name - Editor Suffix)
 {
 (3)
-}
-
-STRING 69
-// Units: u00G (Explosive lump), Name (Name)
-{
-Explosive lump
 }
 
 STRING 70
@@ -481,15 +421,9 @@ STRING 70
 }
 
 STRING 71
-// Units: u00E (Explosive lump), EditorSuffix (Name - Editor Suffix)
+// Units: u00E (Explosive Lump), EditorSuffix (Name - Editor Suffix)
 {
 (2)
-}
-
-STRING 72
-// Units: u00E (Explosive lump), Name (Name)
-{
-Explosive lump
 }
 
 STRING 73
@@ -517,15 +451,9 @@ STRING 76
 }
 
 STRING 77
-// Units: u009 (Explosive lump), EditorSuffix (Name - Editor Suffix)
+// Units: u009 (Explosive Lump), EditorSuffix (Name - Editor Suffix)
 {
 (1)
-}
-
-STRING 78
-// Units: u009 (Explosive lump), Name (Name)
-{
-Explosive lump
 }
 
 STRING 79
@@ -924,12 +852,6 @@ STRING 139
 Saramai
 }
 
-STRING 140
-// Units: n03U (Monster War), Name (Name)
-{
-Monster War
-}
-
 STRING 141
 // Units: n03T (Orc of War), Name (Name)
 {
@@ -1149,75 +1071,39 @@ Orange
 }
 
 STRING 176
-// Units: n027 (Dead archer), EditorSuffix (Name - Editor Suffix)
+// Units: n027 (Skeleton Archer), EditorSuffix (Name - Editor Suffix)
 {
 (6)
 }
 
-STRING 177
-// Units: n027 (Dead archer), Name (Name)
-{
-Dead archer
-}
-
 STRING 178
-// Units: n026 (Dead archer), EditorSuffix (Name - Editor Suffix)
+// Units: n026 (Skeleton Archer), EditorSuffix (Name - Editor Suffix)
 {
 (5)
 }
 
-STRING 179
-// Units: n026 (Dead archer), Name (Name)
-{
-Dead archer
-}
-
 STRING 180
-// Units: n025 (Dead archer), EditorSuffix (Name - Editor Suffix)
+// Units: n025 (Skeleton Archer), EditorSuffix (Name - Editor Suffix)
 {
 (4)
 }
 
-STRING 181
-// Units: n025 (Dead archer), Name (Name)
-{
-Dead archer
-}
-
 STRING 182
-// Units: n024 (Dead archer), EditorSuffix (Name - Editor Suffix)
+// Units: n024 (Skeleton Archer), EditorSuffix (Name - Editor Suffix)
 {
 (3)
 }
 
-STRING 183
-// Units: n024 (Dead archer), Name (Name)
-{
-Dead archer
-}
-
 STRING 184
-// Units: n023 (Dead archer), EditorSuffix (Name - Editor Suffix)
+// Units: n023 (Skeleton Archer), EditorSuffix (Name - Editor Suffix)
 {
 (2)
 }
 
-STRING 185
-// Units: n023 (Dead archer), Name (Name)
-{
-Dead archer
-}
-
 STRING 186
-// Units: n022 (Dead archer), EditorSuffix (Name - Editor Suffix)
+// Units: n022 (Skeleton Archer), EditorSuffix (Name - Editor Suffix)
 {
 (1)
-}
-
-STRING 187
-// Units: n022 (Dead archer), Name (Name)
-{
-Dead archer
 }
 
 STRING 188
@@ -6234,15 +6120,6 @@ STRING 973
 // Buffs/Effects: B0B7 (), Bufftip (Tooltip)
 {
 |cff00ff00Flycatcher|r
-}
-
-STRING 974
-// Abilities: A0Y9 (|cffffcc00Уровень 8:|r Berserk), Ubertip (Tooltip - Normal - Extended)
-{
-- Ranged attacks.
-- Creates a Frenzy Totem. The totem selects a random hero. After 8 seconds, the totem destroys itself and sends the target into a frenzy for 10 seconds. Repeats every 18 seconds.
-- |cff00cceeAt 75% health:|r The boss creates a glaive that bounces off heroes and bosses, continuously dealing |cffbe81f715|r damage.
-- |cff00cceeAt 30% health:|r The boss begins periodically regenerating |cffbe81f735|r Health.
 }
 
 STRING 975
@@ -12103,22 +11980,6 @@ STRING 1832
 Increases Armor by 3. Each |cff2d9995Weapon|r in your inventory increases Attack Damage by 4. With |cffd7df0120%|r probability, one of the rewards will be a |cff2d9995Weapon|r.
 }
 
-STRING 1833
-// Items: I09N (Idol of Gluttony), Description (Description)
-{
-|cff4169e1Rare|r
-Increases Movement and Attack Speed by 125%. 
-Healing effects do not work on the Hero.
-}
-
-STRING 1834
-// Items: I09N (Idol of Gluttony), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases Movement and Attack Speed by 125%. 
-Healing effects do not work on the Hero.
-}
-
 STRING 1835
 // Abilities: A09I (Armsmaster: Weapons Training), Ubertip (Tooltip - Normal - Extended)
 {
@@ -12732,6 +12593,12 @@ STRING 1923
 Evil Necklace
 }
 
+STRING 1924
+// Units: u01F (Fallen Commander), Name (Name)
+{
+Fallen Commander
+}
+
 STRING 1925
 // Items: I08J (Qute Eye), Name (Name)
 {
@@ -12742,6 +12609,12 @@ STRING 1926
 // Items: I08J (Qute Eye), Tip (Tooltip - Basic)
 {
 Qute Eye
+}
+
+STRING 1927
+// Units: u01E (Fallen Commander), Name (Name)
+{
+Fallen Commander
 }
 
 STRING 1928
@@ -13613,6 +13486,12 @@ Activation: Use the |cff5858faMoon|r set bonus.
 |cffffcc00Cooldown:|r 15 seconds.
 }
 
+STRING 2056
+// Units: u01D (Fallen Commander), Name (Name)
+{
+Fallen Commander
+}
+
 STRING 2057
 // Items: I07M (Twilight Phoenix), Name (Name)
 {
@@ -14246,6 +14125,24 @@ Turns your hero invisible for 6 seconds. Periodically restores |cffbe81f78%|r he
 |cffffcc00Cooldown:|r 20 seconds.
 }
 
+STRING 2153
+// Units: u01C (Fallen Commander), Name (Name)
+{
+Fallen Commander
+}
+
+STRING 2154
+// Units: u01B (Fallen Commander), Name (Name)
+{
+Fallen Commander
+}
+
+STRING 2155
+// Units: u01A (Fallen Commander), Name (Name)
+{
+Fallen Commander
+}
+
 STRING 2156
 // Abilities: A07Z (Outcast: Power Overwhelming), Ubertip (Tooltip - Normal - Extended)
 {
@@ -14587,6 +14484,30 @@ STRING 2203
 Increases Luck by 25. If you only have |cfffe9a2eAlchemy|r set artifacts in your inventory, increases Spell Power by 60%.
 }
 
+STRING 2204
+// Units: u00O (Explosive Lump), Name (Name)
+{
+Explosive Lump
+}
+
+STRING 2205
+// Units: u00N (Explosive Lump), Name (Name)
+{
+Explosive Lump
+}
+
+STRING 2206
+// Units: u00M (Explosive Lump), Name (Name)
+{
+Explosive Lump
+}
+
+STRING 2207
+// Units: u00G (Explosive Lump), Name (Name)
+{
+Explosive Lump
+}
+
 STRING 2208
 // Items: I0F7 (Submit a Coin), Name (Name)
 {
@@ -14741,6 +14662,12 @@ Increases a friendly hero's Intelligence by 15/20/25/30/35 until the end of the 
 |cffffcc00Cost:|r 60 mana.
 }
 
+STRING 2231
+// Units: u00E (Explosive Lump), Name (Name)
+{
+Explosive Lump
+}
+
 STRING 2232
 // Items: I0EE (Midas Bracelet), Tip (Tooltip - Basic)
 {
@@ -14765,6 +14692,12 @@ STRING 2235
 Immovable Brigandine
 }
 
+STRING 2236
+// Units: u009 (Explosive Lump), Name (Name)
+{
+Explosive Lump
+}
+
 STRING 2237
 // Items: I06D (Braccus Rex), Name (Name)
 {
@@ -14775,6 +14708,12 @@ STRING 2238
 // Items: I06D (Braccus Rex), Tip (Tooltip - Basic)
 {
 Braccus Rex
+}
+
+STRING 2239
+// Units: n03U (Monster of War), Name (Name)
+{
+Monster of War
 }
 
 STRING 2240
@@ -15416,6 +15355,68 @@ STRING 2335
 Increases luck by 15.
 }
 
+STRING 2336
+// Items: I09N (Idol of Gluttony), Description (Description)
+{
+|cff4169e1Rare|r
+Increases Movement and Attack Speed by 125%. 
+Healing effects do not work to the owner.
+}
+
+STRING 2337
+// Items: I09N (Idol of Gluttony), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Increases Movement and Attack Speed by 125%. 
+Healing effects do not work to the owner.
+}
+
+STRING 2338
+// Items: I02C (Tarot Card: Jester), Description (Description)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Destroys another item in the inventory and increases stats by 1.
+}
+
+STRING 2339
+// Items: I02C (Tarot Card: Jester), Ubertip (Tooltip - Extended)
+{
+|cffbababcCommon|r
+Activation: |cffcc0000Corrupted|r. Destroys another item in the inventory and increases stats by 1.
+}
+
+STRING 2340
+// Items: IV06 (Cold Milk), Description (Description)
+{
+|cffB614F0Starting Bonus|r
+Gives 2 items that allow you to destroy an item in your inventory and increase stats by 1.
+}
+
+STRING 2341
+// Items: IV06 (Cold Milk), Ubertip (Tooltip - Extended)
+{
+|cffB614F0Starting Bonus|r
+Gives 2 items that allow you to destroy an item in your inventory and increase stats by 1.
+}
+
+STRING 2342
+// Items: I0FU (Orb of Shadow), Description (Description)
+{
+|cff4169e1Rare|r
+Increases Attack Damage by 15%.
+Attacks of your hero have an |cffd7df018%|r chance to turn the target to the attacker's side.
+|cffffcc00Life time:|r 30 seconds.
+}
+
+STRING 2343
+// Items: I0FU (Orb of Shadow), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Increases Attack Damage by 15%.
+Attacks of your hero have an |cffd7df018%|r chance to turn the target to the attacker's side.
+|cffffcc00Life time:|r 30 seconds.
+}
+
 STRING 2344
 // Abilities: A0T6 (Sludge Copy: Adaptation), Name (Name)
 {
@@ -15581,6 +15582,43 @@ STRING 2368
 // Abilities: A065 (Vampire: Blood Splash), Tip (Tooltip - Normal)
 {
 Blood Splash, [|cffffcc00Level 3|r]
+}
+
+STRING 2369
+// Abilities: A0Y9 (|cffffcc00Уровень 8:|r Berserk), Ubertip (Tooltip - Normal - Extended)
+{
+- Ranged attacks.
+- Creates a Frenzy Totem. The totem selects a random hero. After 8 seconds, the totem destroys itself and sends the target into a frenzy for 10 seconds. Repeats every 16 seconds.
+- |cff00cceeAt 75% health:|r The boss creates a glaive that bounces off heroes and bosses, continuously dealing |cffbe81f715|r damage.
+- |cff00cceeAt 30% health:|r The boss begins periodically regenerating |cffbe81f735|r Health.
+}
+
+STRING 2370
+// Abilities: A075 (|cffffcc00Уровень 9:|r Reaper of Nightmares), Ubertip (Tooltip - Normal - Extended)
+{
+- Every 5 seconds creates a Shadow Sphere. If picked up, the hero will receive |cffbe81f7100|r damage and invulnerability to damaging spells for 5 seconds
+- Every 12 seconds, creates 3 areas that will explode after 3 seconds, causing |cffbe81f7600|r damage.
+- |cff00cceeAt 80% health:|r Labels a random hero. After 5 seconds, it explodes, dealing |cffbe81f71000|r damage.
+- |cff00cceeAt 70% health:|r Summons a Small Evil at the edge of the arena every 1.5 seconds. Small Evil has low health, 75 attack damage and high movement speed.
+- |cff00cceeAt 20% and 40% health:|r Labels each hero.
+}
+
+STRING 2371
+// Abilities: A19E (|cffffcc00Уровень 10:|r Angry Bob), Ubertip (Tooltip - Normal - Extended)
+{
+- Slow attack speed, strong attacks.
+- Deals damage to an area.
+- At the beginning of the battle, increases its attack speed by 100% for 20 seconds.
+- Opens portals along the edges of the arena, from which minions emerge every 13 seconds.
+- |cff00cceeAt 80% health:|r Every 15 seconds, the boss jumps up. Moments later, the boss lands under a random hero, deals |cffbe81f7500|r damage and stuns for 2.5 seconds.
+- |cff00cceeAt 50% health:|r Summons bosses for help. To end the battle, they also need to be defeated.
+- |cff00cceeAt 30% health:|r Increases its attack speed by 100%  for 60 seconds.
+}
+
+STRING 2372
+// Abilities: A09E (|cffffcc00Уровень 10:|r Rabbit), Name (Name)
+{
+|cffffcc00Уровень 10:|r Rabbit
 }
 
 STRING 2373
@@ -16002,6 +16040,16 @@ STRING 2439
 Cannot be split. 
 }
 
+STRING 2440
+// Abilities: A09E (|cffffcc00Уровень 10:|r Rabbit), Ubertip (Tooltip - Normal - Extended)
+{
+- Beats paws on the area.
+- Increases paw speed for a certain time. Then, calls friends to play.
+- |cff00cceeAt 90% health:|r Cheerfully jumps to the hero from time to time. Upon landing, smiles for everyone nearby.
+- |cff00cceeAt 50% health:|r Calls greater friends.
+- |cff00cceeAt 30% health:|r Increases paw speed for a certain times.
+}
+
 STRING 2441
 // Items: I051 (Idol of Ridicule), Name (Name)
 {
@@ -16012,6 +16060,16 @@ STRING 2442
 // Items: I051 (Idol of Ridicule), Tip (Tooltip - Basic)
 {
 Idol of Ridicule
+}
+
+STRING 2443
+// Abilities: A00J (|cffffcc00Уровень 4:|r Мастер клинков), Ubertip (Tooltip - Normal - Extended)
+{
+- Creates a flying glaive near each hero. They slowly follows the heroes. Each glaive periodically deals |cffbe81f725|r damage.
+- Every 8 seconds, jumps on a random enemy hero, deals |cffbe81f7175|r damage.
+- |cff00cceeAt 80% health:|r Creates a trap. Repeats every 6 seconds. If you go into it, it deals |cffbe81f7100|r damage and reduces the target’s movement speed by 80% for 5 seconds.
+- |cff00cceeAt 40% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
+- |cff00cceeAt 20% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
 }
 
 STRING 2444
@@ -18501,13 +18559,6 @@ STRING 2820
 Increases spell power by 10%. Collect all 3 Mage artifacts to unite them.
 }
 
-STRING 2821
-// Items: I02C (Tarot Card: Jester), Description (Description)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Destroys artifact in the inventory.
-}
-
 STRING 2822
 // Items: I02C (Tarot Card: Jester), Name (Name)
 {
@@ -18518,13 +18569,6 @@ STRING 2823
 // Items: I02C (Tarot Card: Jester), Tip (Tooltip - Basic)
 {
 Tarot Card: Jester
-}
-
-STRING 2824
-// Items: I02C (Tarot Card: Jester), Ubertip (Tooltip - Extended)
-{
-|cffbababcCommon|r
-Activation: |cffcc0000Corrupted|r. Destroys artifact in the inventory.
 }
 
 STRING 2825
@@ -20137,13 +20181,6 @@ STRING 3078
 // Items: I00L (Magical Wisp), Tip (Tooltip - Basic)
 {
 Magical wisp
-}
-
-STRING 3079
-// Items: IV06 (Cold Milk), Description (Description)
-{
-|cffB614F0Starting Bonus|r
-Gives 2 items that allow you to destroy an artifact in your inventory.
 }
 
 STRING 3080
@@ -28354,24 +28391,6 @@ STRING 4373
 {
 |cff4169e1Rare|r
 You take 40% less damage from attacks and receive 90% less gold.
-}
-
-STRING 4374
-// Items: I0FU (Orb of Shadow), Description (Description)
-{
-|cff4169e1Rare|r
-Increases Attack Damage by 15%.
-Attacks of each hero have an |cffd7df018%|r chance to turn the target to the attacker's side.
-|cffffcc00Life time:|r 30 seconds.
-}
-
-STRING 4375
-// Items: I0FU (Orb of Shadow), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Increases Attack Damage by 15%.
-Attacks of each hero have an |cffd7df018%|r chance to turn the target to the attacker's side.
-|cffffcc00Life time:|r 30 seconds.
 }
 
 STRING 4376
@@ -37039,13 +37058,6 @@ STRING 5703
 // Units: o00F (Pharaoh Billy), EditorSuffix (Name - Editor Suffix)
 {
 (Level 5)
-}
-
-STRING 5704
-// Items: IV06 (Cold Milk), Ubertip (Tooltip - Extended)
-{
-|cffB614F0Starting Bonus|r
-Gives 2 items that allow you to destroy an artifact in your inventory.
 }
 
 STRING 5705
@@ -56064,16 +56076,6 @@ STRING 8654
 Босс 2: Белый медведь (Сильный удар)
 }
 
-STRING 8655
-// Abilities: A075 (|cffffcc00Уровень 9:|r Reaper of Nightmares), Ubertip (Tooltip - Normal - Extended)
-{
-- Every 5 seconds creates a Shadow Sphere. If picked up, the hero will receive |cffbe81f7100|r damage and invulnerability to damaging spells for 5 seconds
-- Every 15 seconds, creates 3 areas that will explode after 3 seconds, causing |cffbe81f7600|r damage.
-- |cff00cceeAt 80% health:|r Labels a random hero. After 5 seconds, it explodes, dealing |cffbe81f71000|r damage.
-- |cff00cceeAt 70% health:|r Summons a Small Evil at the edge of the arena every 1.5 seconds. Small Evil has low health, 75 attack damage and high movement speed.
-- |cff00cceeAt 20% and 40% health:|r Labels each hero.
-}
-
 STRING 8656
 // Abilities: A0AI (Босс 2: Белый медведь (Сильный удар)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -57139,14 +57141,8 @@ STRING 8820
 Аура: Провокация
 }
 
-STRING 8821
-// Abilities: A09E (|cffffcc00Уровень 10:|r Кролик), Name (Name)
-{
-|cffffcc00Уровень 10:|r Кролик
-}
-
 STRING 8822
-// Abilities: A09E (|cffffcc00Уровень 10:|r Кролик), Tip (Tooltip - Normal)
+// Abilities: A09E (|cffffcc00Уровень 10:|r Rabbit), Tip (Tooltip - Normal)
 {
 |cFFFE8A0ELAST BOSS:|r Rabbit
 }
@@ -74226,18 +74222,6 @@ Activation: Deals |cffbe81f7300|r damage to enemies in area for each empty slot 
 |cffffcc00Cost:|r 50 mana.
 }
 
-STRING 11557
-// Abilities: A19E (|cffffcc00Уровень 10:|r Angry Bob), Ubertip (Tooltip - Normal - Extended)
-{
-- Slow attack speed, strong attacks.
-- Deals damage to an area.
-- At the beginning of the battle, increases its attack speed by 100% for 20 seconds.
-- Opens portals along the edges of the arena, from which minions emerge every 15 seconds.
-- |cff00cceeAt 80% health:|r Every 15 seconds, the boss jumps up. Moments later, the boss lands under a random hero, deals |cffbe81f7500|r damage and stuns for 2.5 seconds.
-- |cff00cceeAt 50% health:|r Summons bosses for help. To end the battle, they also need to be defeated.
-- |cff00cceeAt 30% health:|r Increases its attack speed by 100%  for 60 seconds.
-}
-
 STRING 11558
 // Abilities: A0EF (Keeper: Moon Blinking), Researchtip (Tooltip - Learn)
 {
@@ -74502,16 +74486,6 @@ STRING 11596
 {
 Makes all nearby creatures invisible for 3 seconds. Restores |cffbe81f780|r mana to all targets (except caster). After the invisibility ends, target heroes increases Spell Power by 60% for 5 seconds.
 |cffffcc00Cooldown:|r 20 seconds.
-}
-
-STRING 11597
-// Abilities: A09E (|cffffcc00Уровень 10:|r Кролик), Ubertip (Tooltip - Normal - Extended)
-{
-- Beats paws on the area.
-- Accelerates by 20 seconds. Then, calls friends to play.
-- |cff00cceeAt 90% health:|r Cheerfully jumps to the hero every 20 seconds. When he lands, touches everyone nearby for 2.5 seconds.
-- |cff00cceeAt 50% health:|r Calls great friends.
-- |cff00cceeAt 30% health:|r Accelerates by 60 seconds.
 }
 
 STRING 11598
@@ -79890,16 +79864,6 @@ STRING 12373
 - If it doesn't take damage, the boss focuses.
 - |cff00cceeAt 25% and 75% health:|r Summons 4 shadows. When the shadow approaches the boss, it dies, increases boss damage by 10% and creates a fiery explosion next to each hero.
 - |cff00cceeAt 50% health:|r A fiery explosion is created more often.
-}
-
-STRING 12374
-// Abilities: A00J (|cffffcc00Уровень 4:|r Мастер клинков), Ubertip (Tooltip - Normal - Extended)
-{
-- Creates flying glaives near to the heroes. They slowly follows the heroes. Each glaive periodically deals |cffbe81f725|r damage.
-- Every 8 seconds, jumps on a random enemy hero, deals |cffbe81f7175|r damage.
-- |cff00cceeAt 80% health:|r Creates a trap. Repeats every 6 seconds. If you go into it, it deals |cffbe81f7100|r damage and reduces the target’s movement speed by 80% for 5 seconds.
-- |cff00cceeAt 40% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
-- |cff00cceeAt 20% health:|r Kills all enemy minions and restores |cffbe81f760|r health for each killed minion.
 }
 
 STRING 12375
