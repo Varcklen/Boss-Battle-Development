@@ -2,29 +2,28 @@ scope GreyGuardQuest initializer init
 
 	globals
 		private constant integer COUNTER = 15
+		private constant integer ITEM_ID = 'I098'
+		private constant integer REWARD = 'I03G'
+		private constant integer HASH_KEY = StringHash( "grey_guard_quest" )
 	endglobals
 
 	private function condition takes nothing returns boolean
-	    return IsUnitInGroup(GetDyingUnit(), udg_Bosses)
+	    return IsBoss(GetDyingUnit()) and GetOwningPlayer(GetDyingUnit()) == Player(10) and GetUnitAbilityLevel( GetDyingUnit(), 'A1ID' ) == 0
 	endfunction
 	
 	private function Quest takes unit hero, integer index returns nothing
-		local integer id
-		local integer s
-	
-		set id = GetHandleId( hero )
-        set s = LoadInteger( udg_hash, id, StringHash( udg_QuestItemCode[3] ) ) + 1
-        call SaveInteger( udg_hash, id, StringHash( udg_QuestItemCode[3] ), s )
-        if s >= COUNTER then
-            call SetWidgetLife( GetItemOfTypeFromUnitBJ(hero, 'I098'), 0 )
-            set bj_lastCreatedItem = CreateItem( 'I03G', GetUnitX(hero), GetUnitY(hero))
-            call UnitAddItem(hero, bj_lastCreatedItem)
-            call textst( "|c00ffffff Fulfillment of will done!", hero, 64, GetRandomReal( 45, 135 ), 12, 1.5 )
-            call DestroyEffect( AddSpecialEffectTarget( "Abilities\\Spells\\Human\\ReviveHuman\\ReviveHuman.mdl", hero, "origin" ) )
-            set udg_QuestDone[index] = true
-        else
-            call QuestDiscription( hero, 'I098', s, COUNTER )
-        endif
+		local integer id = GetHandleId( hero )
+		local integer s = LoadInteger( udg_hash, id, HASH_KEY ) + 1
+		local item it = GetItemOfTypeFromUnitBJ(hero, ITEM_ID)
+        local string text
+
+        call SaveInteger( udg_hash, id, HASH_KEY, s )
+        
+        call Quest_QuestCondition( hero, ITEM_ID, REWARD, s, COUNTER )
+        set text = words( hero, BlzGetItemDescription(it), "|cFF959697(", ")|r", I2S(s) + "/" + I2S(COUNTER) )
+        call BlzSetItemExtendedTooltip( it, text )
+        
+        set it = null
 	endfunction
 	
 	private function action takes nothing returns nothing
@@ -35,7 +34,7 @@ scope GreyGuardQuest initializer init
 	    loop
 	        exitwhen i > 4
 	        set hero = udg_hero[i]
-	        if inv(hero, 'I098') > 0 and IsUnitAlive( hero ) then
+	        if inv(hero, ITEM_ID) > 0 and IsUnitAlive( hero ) then
 	            call Quest(hero, i)
 	        endif
 	        set i = i + 1

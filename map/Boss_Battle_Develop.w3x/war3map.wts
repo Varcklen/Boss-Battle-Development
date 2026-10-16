@@ -9,7 +9,7 @@
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.12.9T|r
+|cffbe81f7Boss Battle 1.12.10T|r
 }
 
 STRING 2
@@ -252,10 +252,29 @@ STRING 32
 (4)
 }
 
+STRING 33
+// Items: I050 (Sheep Mantle), Description (Description)
+{
+|cff4169e1Rare|r
+Activation: Transforms all nearby enemies into sheep for 3 seconds. Summon 2 sheep for each affected target.
+|cffffcc00Life time:|r 20 seconds.
+|cffffcc00Cooldown:|r 35 seconds.
+|cffffcc00Cost:|r 50 mana.
+}
+
 STRING 34
 // Units: u01E (Fallen Commander), EditorSuffix (Name - Editor Suffix)
 {
 (3)
+}
+
+STRING 35
+// Items: I050 (Sheep Mantle), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r
+Activation: Transforms all nearby enemies into sheep for 3 seconds. Summon 2 sheep for each affected target.
+|cffffcc00Life time:|r 20 seconds.
+|cffffcc00Cooldown:|r 35 seconds.
 }
 
 STRING 36
@@ -264,10 +283,22 @@ STRING 36
 (2)
 }
 
+STRING 37
+// Items: I04W (Heavy Ax), Name (Name)
+{
+Heavy Ax
+}
+
 STRING 38
 // Units: u01C (Fallen Commander), EditorSuffix (Name - Editor Suffix)
 {
 (1)
+}
+
+STRING 39
+// Items: I04W (Heavy Ax), Tip (Tooltip - Basic)
+{
+Heavy Ax
 }
 
 STRING 40
@@ -276,10 +307,24 @@ STRING 40
 (6)
 }
 
+STRING 41
+// Items: I02O (Brass Knuckles), Description (Description)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+Increases Attack Damage by 10. Your hero's attack has a |cffd7df0110%|r chance of creating a |cff088a08Potion|r in an empty inventory slot.
+}
+
 STRING 42
 // Units: u01A (Fallen Commander), EditorSuffix (Name - Editor Suffix)
 {
 (5)
+}
+
+STRING 43
+// Items: I02O (Brass Knuckles), Ubertip (Tooltip - Extended)
+{
+|cff4169e1Rare|r, |cff2d9995Weapon|r
+Increases Attack Damage by 10. Your hero's attack has a |cffd7df0110%|r chance of creating a |cff088a08Potion|r in an empty inventory slot.
 }
 
 STRING 44
@@ -382,6 +427,17 @@ STRING 60
 // Units: u00O (Explosive Lump), EditorSuffix (Name - Editor Suffix)
 {
 (6)
+}
+
+STRING 61
+// Abilities: A0HF (|cffffcc00Уровень 5:|r Huge Hydra), Ubertip (Tooltip - Normal - Extended)
+{
+- Ranged attacks.
+- Attacks deal area-of-effect damage.
+- The boss and the descendants do not cause Revenge.
+- All Hydras have +15 Health Regeneration.
+- After the death of the boss, creates 2 medium hydra.
+- After the death of the middle hydra, 5 small hydras are created.
 }
 
 STRING 62
@@ -11110,17 +11166,6 @@ STRING 1702
 Rerolls cost 100 gold less. Receive 1 permanent Reroll.
 }
 
-STRING 1703
-// Abilities: A0HF (|cffffcc00Уровень 5:|r Huge Hydra), Ubertip (Tooltip - Normal - Extended)
-{
-- Ranged attacks.
-- Attacks deal area-of-effect damage.
-- The boss and the descendants do not cause Revenge.
-- Hydra health regen increased by 25.
-- After the death of the boss, creates 2 medium hydra.
-- After the death of the middle hydra, 5 small hydras are created.
-}
-
 STRING 1704
 // Items: I0FH (Fortune-Telling Ball), Description (Description)
 {
@@ -16189,18 +16234,6 @@ STRING 2460
 Moon Lamp
 }
 
-STRING 2461
-// Items: I04W (Heavy ax), Name (Name)
-{
-Heavy ax
-}
-
-STRING 2462
-// Items: I04W (Heavy ax), Tip (Tooltip - Basic)
-{
-Heavy ax
-}
-
 STRING 2463
 // Items: I08B (Moon Lamp), Tip (Tooltip - Basic)
 {
@@ -19985,13 +20018,6 @@ STRING 3047
 Book of Darkness
 }
 
-STRING 3048
-// Items: I02O (Brass Knuckles), Description (Description)
-{
-|cff4169e1Rare|r, |cff2d9995Weapon|r
-Increases Attack Damage by 10. Each hero's attack has a |cffd7df0110%|r chance of creating a |cff088a08Potion|r in an empty inventory slot.
-}
-
 STRING 3049
 // Items: I02O (Brass Knuckles), Name (Name)
 {
@@ -20087,13 +20113,6 @@ STRING 3063
 // Abilities: A1F9 (Stat: Damage Dealt Bosses +30%), Name (Name)
 {
 Stat: Damage Dealt Bosses +30%
-}
-
-STRING 3064
-// Items: I02O (Brass Knuckles), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r, |cff2d9995Weapon|r
-Increases Attack Damage by 10. Each hero's attack has a |cffd7df0110%|r chance of creating a |cff088a08Potion|r in an empty inventory slot.
 }
 
 STRING 3065
@@ -26918,7 +26937,7 @@ Hero attacks have a |cffd7df0115%|r chance to increase Attack Speed by 10% for 1
 }
 
 STRING 4136
-// Items: I04W (Heavy ax), Description (Description)
+// Items: I04W (Heavy Ax), Description (Description)
 {
 |cffbababcCommon|r, |cff2d9995Weapon|r
 The hero's attacks have a |cffd7df0115%|r chance to deal 200% more damage.
@@ -26931,7 +26950,7 @@ W
 }
 
 STRING 4138
-// Items: I04W (Heavy ax), Ubertip (Tooltip - Extended)
+// Items: I04W (Heavy Ax), Ubertip (Tooltip - Extended)
 {
 |cffbababcCommon|r, |cff2d9995Weapon|r
 The hero's attacks have a |cffd7df0115%|r chance to deal 200% more damage.
@@ -72143,7 +72162,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.12.9T|r
+|cffbe81f7Boss Battle 1.12.10T|r
 }
 
 STRING 11219
@@ -79716,25 +79735,6 @@ STRING 12356
 |cffe96a1cLegendary|r
 At the start of combat, the hero becomes stronger. Damage dealt is increased by 100%, and damage taken is reduced by 50%.
 |cffffcc00Duration:|r 30 seconds.
-}
-
-STRING 12357
-// Items: I050 (Sheep Mantle), Description (Description)
-{
-|cff4169e1Rare|r
-Transforms all nearby enemies into sheep for 3 seconds. Summon 2 sheep for each affected target.
-|cffffcc00Life time:|r 20 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
-|cffffcc00Cost:|r 50 mana.
-}
-
-STRING 12358
-// Items: I050 (Sheep Mantle), Ubertip (Tooltip - Extended)
-{
-|cff4169e1Rare|r
-Transforms all nearby enemies into sheep for 3 seconds. Summon 2 sheep for each affected target.
-|cffffcc00Life time:|r 20 seconds.
-|cffffcc00Cooldown:|r 35 seconds.
 }
 
 STRING 12359
