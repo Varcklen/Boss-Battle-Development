@@ -446,10 +446,22 @@ STRING 62
 (5)
 }
 
+STRING 63
+// Units: N05J ((W) Keeper of the Great Tree), Name (Name)
+{
+(W) Keeper of the Great Tree
+}
+
 STRING 64
 // Units: u00M (Explosive Lump), EditorSuffix (Name - Editor Suffix)
 {
 (4)
+}
+
+STRING 65
+// Units: N05J ((W) Keeper of the Great Tree), Propernames (Proper Names)
+{
+Soren 
 }
 
 STRING 66
@@ -468,6 +480,12 @@ STRING 68
 // Units: u00G (Explosive Lump), EditorSuffix (Name - Editor Suffix)
 {
 (3)
+}
+
+STRING 69
+// Units: N05J ((W) Keeper of the Great Tree), EditorSuffix (Name - Editor Suffix)
+{
+(Skin1)
 }
 
 STRING 70

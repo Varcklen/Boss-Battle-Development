@@ -138,7 +138,7 @@ integer array Arena_Runes
 //endglobals from LibDataItems
 //globals from Lightning:
 constant boolean LIBRARY_Lightning=true
-lightning Lightning___TempLightning= null
+lightning Lightning__TempLightning= null
 //endglobals from Lightning
 //globals from List:
 constant boolean LIBRARY_List=true
@@ -211,9 +211,9 @@ constant integer Multiboard___NAME_SYMBOLS_LIMIT= 10
 //endglobals from Multiboard
 //globals from Other:
 constant boolean LIBRARY_Other=true
-constant integer Other___GLOW_NORMAL= 'A0D8'
-constant integer Other___GLOW_SMALL= 'A0UI'
-constant integer Other___GLOW_BIG= 'A062'
+constant integer Other__GLOW_NORMAL= 'A0D8'
+constant integer Other__GLOW_SMALL= 'A0UI'
+constant integer Other__GLOW_BIG= 'A062'
 //endglobals from Other
 //globals from OutcastLib:
 constant boolean LIBRARY_OutcastLib=true
@@ -353,7 +353,7 @@ unit Event_WaveHit_Caster
 unit Event_WaveHit_Target
 effect Event_WaveHit_Wave
         
-effect Wave___tempEffect= null
+effect Wave__tempEffect= null
 //endglobals from Wave
 //globals from AspectFrames:
 constant boolean LIBRARY_AspectFrames=true
@@ -627,7 +627,7 @@ constant integer POLYMORPH_SHEEP= 'n02L'
 constant integer POLYMORPH_RAT= 'n02N'
 constant integer POLYMORPH_FROG= 'n02M'
         
-constant string PolyLib___ANIMATION= "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageDeathCaster.mdl"
+constant string PolyLib__ANIMATION= "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageDeathCaster.mdl"
 //endglobals from PolyLib
 //globals from ShieldstLib:
 constant boolean LIBRARY_ShieldstLib=true
@@ -3018,9 +3018,9 @@ boolean IsModeUsed= false
 real Event_HeroChoose_Real= 0
 unit Event_HeroChoose_Hero= null
         
-integer HeroesChoise___tempPosition
-timer ManaReg___ManaRegTimer= null
-real ManaReg___manaPast= 0
+integer HeroesChoise__tempPosition
+timer ManaReg__ManaRegTimer= null
+real ManaReg__manaPast= 0
 constant integer PARAGON_PIECE_01= 'I085'
 constant integer PARAGON_PIECE_02= 'I08C'
 constant integer PARAGON_PIECE_03= 'I07O'
@@ -3033,20 +3033,20 @@ constant integer THIEF_PIECE_03= 'I0AA'
 constant integer THIEF_ARMOR= 'I0EI'
     
 constant string THIEF_ANIMATION= "Abilities\\Spells\\Human\\Resurrect\\ResurrectCaster.mdl"
-constant integer AncientSword___ID_ITEM= 'I02P'
-constant integer AncientSword___ID_ULTIMATE_WEAPON= 'I030'
-constant integer AncientSword___ULTIMATE_WEAPON_NUMBER= 8
+constant integer AncientSword__ID_ITEM= 'I02P'
+constant integer AncientSword__ID_ULTIMATE_WEAPON= 'I030'
+constant integer AncientSword__ULTIMATE_WEAPON_NUMBER= 8
         
-constant integer AncientSword___CHANCE= 5
-constant integer AncientSword___DAMAGE= 60
-constant real AncientSword___TICK= 0.04
-constant integer AncientSword___FLIGHT_LENGTH= 32
-constant integer AncientSword___AREA= 128
-constant integer AncientSword___SPEED= 44
+constant integer AncientSword__CHANCE= 5
+constant integer AncientSword__DAMAGE= 60
+constant real AncientSword__TICK= 0.04
+constant integer AncientSword__FLIGHT_LENGTH= 32
+constant integer AncientSword__AREA= 128
+constant integer AncientSword__SPEED= 44
         
-constant string AncientSword___WAVE_ANIMATION= "Abilities\\Spells\\Orc\\Shockwave\\ShockwaveMissile.mdl"
+constant string AncientSword__WAVE_ANIMATION= "Abilities\\Spells\\Orc\\Shockwave\\ShockwaveMissile.mdl"
         
-trigger AncientSword___Wave_Use= null
+trigger AncientSword__Wave_Use= null
 constant integer BoStaff__ID_ITEM= 'I0H8'
 constant integer BoStaff__ULT_WEAPON= 'I030'
 constant integer BoStaff__ULT_NUMBER= 20
@@ -3166,81 +3166,81 @@ constant integer CloudHorn__SPAWN_MIN= 20
 constant integer CloudHorn__SPAWN_MAX= 30
         
 constant string CloudHorn__ANIMATION= "Abilities\\Spells\\Other\\Silence\\SilenceAreaBirth.mdl"
-constant integer BraccusWex___BRACCUS_WEX_SPELL_POWER_BONUS= 50
+constant integer BraccusWex__BRACCUS_WEX_SPELL_POWER_BONUS= 50
 constant integer THIEF_ARMOR_CHANCE= 30
 constant integer THIEF_ARMOR_GOLD= 30
-constant integer AlchemistsStone___ID_ALCHEMISTS_STONE_ITEM= 'I0GY'
+constant integer AlchemistsStone__ID_ALCHEMISTS_STONE_ITEM= 'I0GY'
         
-constant integer AlchemistsStone___ALCHEMISTS_STONE_BONUS_POTION_SPELL_POWER= 50
-constant integer AlchemistsStone___ALCHEMISTS_STONE_BONUS_CHARGES= 3
+constant integer AlchemistsStone__ALCHEMISTS_STONE_BONUS_POTION_SPELL_POWER= 50
+constant integer AlchemistsStone__ALCHEMISTS_STONE_BONUS_CHARGES= 3
         
-constant integer AlchemistsStone___ALCHEMISTS_STONE_FIRE= 'I0GZ'
-constant integer AlchemistsStone___ALCHEMISTS_STONE_EARTH= 'I0H0'
-constant integer AlchemistsStone___ALCHEMISTS_STONE_WATER= 'I0H1'
+constant integer AlchemistsStone__ALCHEMISTS_STONE_FIRE= 'I0GZ'
+constant integer AlchemistsStone__ALCHEMISTS_STONE_EARTH= 'I0H0'
+constant integer AlchemistsStone__ALCHEMISTS_STONE_WATER= 'I0H1'
         
 // processed:         integer array Alchemists_Stone_Potions[9]
-constant integer ChameleonEye___ID_ITEM= 'I0FI'
+constant integer ChameleonEye__ID_ITEM= 'I0FI'
     
-constant string ChameleonEye___ANIMATION= "Abilities\\Spells\\Human\\MarkOfChaos\\MarkOfChaosDone.mdl"
-constant integer Felweed___ID_ITEM= 'I0CO'
+constant string ChameleonEye__ANIMATION= "Abilities\\Spells\\Human\\MarkOfChaos\\MarkOfChaosDone.mdl"
+constant integer Felweed__ID_ITEM= 'I0CO'
         
-constant integer Felweed___AREA= 600
+constant integer Felweed__AREA= 600
         
-constant string Felweed___ANIMATION= "Abilities\\Spells\\NightElf\\EntanglingRoots\\EntanglingRootsTarget.mdl"
+constant string Felweed__ANIMATION= "Abilities\\Spells\\NightElf\\EntanglingRoots\\EntanglingRootsTarget.mdl"
         
-boolean Felweed___IsActive= false
-constant integer SuperSeven___ID_ABILITY= 'AZ05'
-constant integer SuperSeven___ID_ITEM= 'IZ01'
-constant integer SuperSeven___MULTIPLIER= 2
-constant integer SuperSeven___CAP= 100000
+boolean Felweed__IsActive= false
+constant integer SuperSeven__ID_ABILITY= 'AZ05'
+constant integer SuperSeven__ID_ITEM= 'IZ01'
+constant integer SuperSeven__MULTIPLIER= 2
+constant integer SuperSeven__CAP= 100000
         
-constant integer SlippersOfMadness___ID_ITEM= 'I01L'
-constant integer SlippersOfMadness___BONUS_MIN= - 10
-constant integer SlippersOfMadness___BONUS_MAX= 10
-constant integer HungryLeech___ID_ITEM= 'I0DG'
-boolean HungryLeech___isLoop= false
+constant integer SlippersOfMadness__ID_ITEM= 'I01L'
+constant integer SlippersOfMadness__BONUS_MIN= - 10
+constant integer SlippersOfMadness__BONUS_MAX= 10
+constant integer HungryLeech__ID_ITEM= 'I0DG'
+boolean HungryLeech__isLoop= false
 constant integer BATTLEMASTER_REQUIRES= 20000
-constant integer BattlemasterBulwark___ID_ITEM= 'I0GO'
-constant real BattlemasterBulwark___BATTLEMASTER_BULWARK_SHIELD_BONUS= 0.4
+constant integer BattlemasterBulwark__ID_ITEM= 'I0GO'
+constant real BattlemasterBulwark__BATTLEMASTER_BULWARK_SHIELD_BONUS= 0.4
 constant integer PACIFIST_REQUIRES= 4
 // processed:     integer array Enlightenment_SpellPower[5]
     
 constant integer ENLIGMENT_SPELL_POWER_BONUS= 3
-constant integer CharizardQuest___ID_QUEST_ITEM= 'I09A'
-constant integer CharizardQuest___ID_REWARD_ITEM= 'I03I'
+constant integer CharizardQuest__ID_QUEST_ITEM= 'I09A'
+constant integer CharizardQuest__ID_REWARD_ITEM= 'I03I'
         
-constant integer CharizardQuest___ITEMS_NEEDED= 12
-constant integer CharizardQuest___ITEMS_NEEDED_ARRAYS= CharizardQuest___ITEMS_NEEDED + 1
+constant integer CharizardQuest__ITEMS_NEEDED= 12
+constant integer CharizardQuest__ITEMS_NEEDED_ARRAYS= CharizardQuest__ITEMS_NEEDED + 1
         
-// processed:         string array CharizardQuest___RarityColors[3]
-// processed:         itemtype array CharizardQuest___checkedItemType[3]
-// processed:         boolean array CharizardQuest___isConditionActive[CharizardQuest___ITEMS_NEEDED_ARRAYS]
-constant integer OrbCenarius___ID_ITEM= 'I0F1'
+// processed:         string array CharizardQuest__RarityColors[3]
+// processed:         itemtype array CharizardQuest__checkedItemType[3]
+// processed:         boolean array CharizardQuest__isConditionActive[CharizardQuest__ITEMS_NEEDED_ARRAYS]
+constant integer OrbCenarius__ID_ITEM= 'I0F1'
         
-constant integer OrbCenarius___DURATION= 5
-constant integer OrbCenarius___TICK= 1
-constant real OrbCenarius___HEAL_EFFECTIVENESS= 0.1
+constant integer OrbCenarius__DURATION= 5
+constant integer OrbCenarius__TICK= 1
+constant real OrbCenarius__HEAL_EFFECTIVENESS= 0.1
         
-constant integer OrbCenarius___EFFECT= 'A12H'
-constant integer OrbCenarius___BUFF= 'B09F'
+constant integer OrbCenarius__EFFECT= 'A12H'
+constant integer OrbCenarius__BUFF= 'B09F'
         
-boolean OrbCenarius___IsFromOrbOfCenarius= false
-constant integer OrbRollingPlains___ID_ITEM= 'I0FP'
+boolean OrbCenarius__IsFromOrbOfCenarius= false
+constant integer OrbRollingPlains__ID_ITEM= 'I0FP'
 
-constant integer OrbRollingPlains___COUNT_NEEDED= 100
-constant integer OrbRollingPlains___JUMPS_LIMIT= 4
-constant integer OrbRollingPlains___HEAL= 100
-constant integer OrbRollingPlains___AREA_FIRST_JUMP= 600
-constant integer OrbRollingPlains___AREA_JUMP= 400
-constant integer OrbRollingPlains___LIGHTNING_LIFE_TIME= 1
+constant integer OrbRollingPlains__COUNT_NEEDED= 100
+constant integer OrbRollingPlains__JUMPS_LIMIT= 4
+constant integer OrbRollingPlains__HEAL= 100
+constant integer OrbRollingPlains__AREA_FIRST_JUMP= 600
+constant integer OrbRollingPlains__AREA_JUMP= 400
+constant integer OrbRollingPlains__LIGHTNING_LIFE_TIME= 1
         
-boolean OrbRollingPlains___IsLoop= false
-constant integer OrbFrozenThundra___ID_ITEM= 'I0F5'
-boolean OrbFrozenThundra___isLoop= false
+boolean OrbRollingPlains__IsLoop= false
+constant integer OrbFrozenThundra__ID_ITEM= 'I0F5'
+boolean OrbFrozenThundra__isLoop= false
         
-constant integer OrbFrozenThundra___HEALTH_PERCENT_NEEDED= 40
-constant integer OrbFrozenThundra___COOLDOWN= 60
-constant string OrbFrozenThundra___ANIMATION= "Abilities\\Spells\\Human\\ReviveHuman\\ReviveHuman.mdl"
+constant integer OrbFrozenThundra__HEALTH_PERCENT_NEEDED= 40
+constant integer OrbFrozenThundra__COOLDOWN= 60
+constant string OrbFrozenThundra__ANIMATION= "Abilities\\Spells\\Human\\ReviveHuman\\ReviveHuman.mdl"
 constant integer DEVILFLAME_POTION_DAMAGE= 750
     
 constant string DEVILFLAME_POTION_ANIMATION= "Abilities\\Spells\\Other\\Incinerate\\FireLordDeathExplode.mdl"
@@ -3571,50 +3571,50 @@ constant integer SAMURAI_R_DURATION_FIRST_LEVEL= 2
 constant integer SAMURAI_R_DURATION_LEVEL_BONUS= 2
     
 constant integer SAMURAI_R_DURATION_BONUS_ALTERNATIVE= 2
-constant integer GunMasterR__ID_ABILITY= 'A19K'
+constant integer GunMasterR___ID_ABILITY= 'A19K'
         
-constant integer GunMasterR__DAMAGE_FIRST_LEVEL= 52
-constant integer GunMasterR__DAMAGE_LEVEL_BONUS= 12
-constant integer GunMasterR__ZONE_SIZE= 250
-constant integer GunMasterR__AREA= 175
-constant integer GunMasterR__LIFE_TIME= 10
+constant integer GunMasterR___DAMAGE_FIRST_LEVEL= 52
+constant integer GunMasterR___DAMAGE_LEVEL_BONUS= 12
+constant integer GunMasterR___ZONE_SIZE= 250
+constant integer GunMasterR___AREA= 175
+constant integer GunMasterR___LIFE_TIME= 10
         
-constant real GunMasterR__TICK= 0.5
+constant real GunMasterR___TICK= 0.5
         
-constant string GunMasterR__EXPLODE_ANIMATION= "Abilities\\Spells\\Other\\Incinerate\\FireLordDeathExplode.mdl"
-constant string GunMasterR__ZONE_ANIMATION= "war3mapImported\\Spell Marker Gray.mdx"
-constant integer GamblerE__ID_ABILITY= 'A10M'
-constant integer GamblerE__ID_ABILITY_ALT= 'A11T'
+constant string GunMasterR___EXPLODE_ANIMATION= "Abilities\\Spells\\Other\\Incinerate\\FireLordDeathExplode.mdl"
+constant string GunMasterR___ZONE_ANIMATION= "war3mapImported\\Spell Marker Gray.mdx"
+constant integer GamblerE___ID_ABILITY= 'A10M'
+constant integer GamblerE___ID_ABILITY_ALT= 'A11T'
         
-constant integer GamblerE__CHANCE= 30
+constant integer GamblerE___CHANCE= 30
         
-constant integer GamblerE__MANA_FIRST_LEVEL= 15
-constant integer GamblerE__MANA_LEVEL_BONUS= 4
+constant integer GamblerE___MANA_FIRST_LEVEL= 15
+constant integer GamblerE___MANA_LEVEL_BONUS= 4
         
-constant integer GamblerE__HEALTH_FIRST_LEVEL= 13
-constant integer GamblerE__HEALTH_LEVEL_BONUS= 13
+constant integer GamblerE___HEALTH_FIRST_LEVEL= 13
+constant integer GamblerE___HEALTH_LEVEL_BONUS= 13
         
-constant integer GamblerE__GOLD_FIRST_LEVEL= 0
-constant integer GamblerE__GOLD_LEVEL_BONUS= 7
+constant integer GamblerE___GOLD_FIRST_LEVEL= 0
+constant integer GamblerE___GOLD_LEVEL_BONUS= 7
         
-constant integer GamblerE__STUN_FIRST_LEVEL= 0
-constant real GamblerE__STUN_LEVEL_BONUS= 0.25
+constant integer GamblerE___STUN_FIRST_LEVEL= 0
+constant real GamblerE___STUN_LEVEL_BONUS= 0.25
         
-constant integer GamblerE__EFFECT= 'A11H'
-constant integer GamblerE__BUFF= 'B06R'
-constant integer GamblerE__DURATION= 10
+constant integer GamblerE___EFFECT= 'A11H'
+constant integer GamblerE___BUFF= 'B06R'
+constant integer GamblerE___DURATION= 10
         
-constant string GamblerE__ANIMATION= "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageDeathCaster.mdl"
-constant integer GamblerR__ID_ABILITY= 'A11J'
+constant string GamblerE___ANIMATION= "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageDeathCaster.mdl"
+constant integer GamblerR___ID_ABILITY= 'A11J'
         
-constant integer GamblerR__LUCK_BONUS= 100
-constant integer GamblerR__DURATION_FIRST_LEVEL= 8
-constant integer GamblerR__DURATION_LEVEL_BONUS= 2
+constant integer GamblerR___LUCK_BONUS= 100
+constant integer GamblerR___DURATION_FIRST_LEVEL= 8
+constant integer GamblerR___DURATION_LEVEL_BONUS= 2
         
-constant integer GamblerR__EFFECT= 'A11Q'
-constant integer GamblerR__BUFF= 'B06S'
+constant integer GamblerR___EFFECT= 'A11Q'
+constant integer GamblerR___BUFF= 'B06S'
         
-constant string GamblerR__ANIMATION= "Abilities\\Spells\\Human\\Slow\\SlowCaster.mdl"
+constant string GamblerR___ANIMATION= "Abilities\\Spells\\Human\\Slow\\SlowCaster.mdl"
 constant integer MONEY_BAG_Q_X_DEVIATION= - 150
 constant integer MONEY_BAG_Q_Y_DEVIATION= 150
     
@@ -3624,21 +3624,21 @@ constant integer MONEY_BAG_Q_DAMAGE_FIRST_LEVEL_BONUS= 100
 constant real MONEY_BAG_Q_AOE= 400
 constant integer MONEY_BAG_R_MONEY_MULTIPLIER= 7
 constant real BERRY_DEALER_R_BANANA_LIFE_TIME= 60
-constant integer DealerE__ID_ABILITY= 'A188'
+constant integer DealerE___ID_ABILITY= 'A188'
         
-constant integer DealerE__CHANCE_FIRST_LEVEL= 1
-constant integer DealerE__CHANCE_LEVEL_BONUS= 4
+constant integer DealerE___CHANCE_FIRST_LEVEL= 1
+constant integer DealerE___CHANCE_LEVEL_BONUS= 4
         
-constant integer DealerE__BANANA_SPAWN_SCATTER_ALTERNATIVE= 300
+constant integer DealerE___BANANA_SPAWN_SCATTER_ALTERNATIVE= 300
         
-constant string DealerE__ANIMATION= "war3mapImported\\TimeUpheaval.mdx"
-constant integer BananaDeath__ID_BANANA= 'o01B'
+constant string DealerE___ANIMATION= "war3mapImported\\TimeUpheaval.mdx"
+constant integer BananaDeath___ID_BANANA= 'o01B'
         
-constant real BananaDeath__GOLD_TO_HERO_ALTERNATIVE_03= 0.55
-constant real BananaDeath__GOLD_TO_OTHERS_ALTERNATIVE_03= 0.25
+constant real BananaDeath___GOLD_TO_HERO_ALTERNATIVE_03= 0.55
+constant real BananaDeath___GOLD_TO_OTHERS_ALTERNATIVE_03= 0.25
         
-constant integer BananaDeath__HEAL= 100
-constant integer BananaDeath__GOLD= 25
+constant integer BananaDeath___HEAL= 100
+constant integer BananaDeath___GOLD= 25
 constant real MEAT_WAGON_W_DURATION= 20
 constant real MEAT_WAGON_R_GOLD_DISCOUNT= 0.8
 framehandle array mephbut
@@ -3660,116 +3660,116 @@ constant real MEPHISTAR_E_RING_DURATION= 20
 constant real MEPHISTAR_E_WEAPON_DURATION= 5
 constant integer MEPHISTAR_R_DAMAGE_FIST_LEVEL= 5
 constant integer MEPHISTAR_R_DAMAGE_LEVEL_BONUS= 20
-constant integer RunesmithQ__ID_ABILITY= 'A1E4'
-constant string RunesmithQ__ID_HASH_TS= "runesmith_ts"
-constant string RunesmithQ__EFFECT= "Abilities\\Spells\\Human\\Thunderclap\\ThunderClapCaster.mdl"
-constant string RunesmithQHit__ID_HASH_TS= "runesmith_ts"
-constant string RunesmithQHit__EFFECT= "Abilities\\Spells\\Other\\Charm\\CharmTarget.mdl"
-constant real RunesmithQHit__STUN_PER_CHARGE= 1.0
-constant integer RunesmithW__ID_ABILITY= 'A1E5'
-constant integer RunesmithW__ID_ABILITY_ETHEREAL= 'A1E7'
-constant integer RunesmithW__ID_ODO= 'O01Z'
-constant integer RunesmithW__ID_DECOY= 'h017'
-constant string RunesmithW__ID_HASH_DECOY= "runesmith_decoy"
-constant string RunesmithW__ID_HASH_DECOY_SUMMON= "runesmith_decoy_summon"
-constant real RunesmithW__DECOY_BASE_RATE= 0.5
-constant real RunesmithW__DECOY_RATE_PER_LVL= 0.1
-constant real RunesmithW__DURATION= 20.0
-constant string RunesmithW__SPAWN_EFFECT= "Units\\NightElf\\Wisp\\WispExplode.mdl"
-constant integer RunesmithWDeath__ID_DECOY= 'h017'
-constant string RunesmithWDeath__ID_HASH_DECOY= "runesmith_decoy"
-constant integer RunesmithE__ID_ABILITY= 'A1E3'
-constant integer RunesmithE__ID_RUNE_LG= 'I03O'
-constant integer RunesmithE__ID_RUNE_RC= 'I03K'
-constant integer RunesmithE__ID_RUNE_SH= 'I03N'
-constant integer RunesmithE__ID_RUNE_EM= 'I03P'
-constant integer RunesmithE__ID_RUNE_ST= 'I03M'
-constant integer RunesmithE__ID_RUNE_IL= 'I03L'
-constant string RunesmithE__ID_HASH_GAINED_GOLD= "runesmith_gained_gold"
-constant string RunesmithE__ID_HASH_GAINED_HPR= "runesmith_gained_hpr"
-constant string RunesmithE__ID_HASH_GAINED_SP= "runesmith_gained_sp"
-constant string RunesmithE__ID_HASH_GAINED_HP= "runesmith_gained_hp"
-constant string RunesmithE__ID_HASH_GAINED_AP= "runesmith_gained_ap"
-constant string RunesmithE__ID_HASH_GAINED_STATS= "runesmith_gained_stats"
-constant string RunesmithE__ID_HASH_TMP_AR= "runesmith_tmp_ar"
-constant real RunesmithE__LG_REGEN_BOOST= 0.5
-constant real RunesmithE__SH_ARMOR_BOOST= 1.0
-constant real RunesmithE__ST_SP_BOOST= 1.0
-constant integer RunesmithE__EM_CDR= 5
-constant string RunesmithEFightEnd__ID_HASH_TMP_AR= "runesmith_tmp_ar"
-constant string RunesmithEFightEnd__ID_HASH_TS= "runesmith_ts"
-constant integer RunesmithEFightEnd__ID_ABILITY_ETHEREAL= 'A1E7'
-constant integer RunesmithR__ID_ABILITY= 'A1DW'
-constant integer RunesmithR__ID_ABILITY_LG= 'A1DQ'
-constant integer RunesmithR__ID_RUNE_LG= 'I03O'
-constant integer RunesmithR__ID_ABILITY_RC= 'A1DX'
-constant integer RunesmithR__ID_RUNE_RC= 'I03K'
-constant integer RunesmithR__ID_ABILITY_SH= 'A1DZ'
-constant integer RunesmithR__ID_RUNE_SH= 'I03N'
-constant integer RunesmithR__ID_ABILITY_EM= 'A1E1'
-constant integer RunesmithR__ID_RUNE_EM= 'I03P'
-constant integer RunesmithR__ID_ABILITY_ST= 'A1E0'
-constant integer RunesmithR__ID_RUNE_ST= 'I03M'
-constant integer RunesmithR__ID_ABILITY_IL= 'A1E2'
-constant integer RunesmithR__ID_RUNE_IL= 'I03L'
-constant integer RunesmithR__ID_DEGEN= 'A1DY'
-constant integer RunesmithR__ID_ROCK= 'o020'
-constant string RunesmithR__ID_HASH_CARVE= "runesmith_carve"
-constant string RunesmithR__ID_HASH_CARVE_TARGET= "runesmith_carve_target"
-constant string RunesmithR__ID_HASH_CARVE_ORIGIN_ABILITY= "runesmith_carve_origin_ability"
-constant integer RunesmithR__DEGEN= 1
-constant real RunesmithR__CARVE_TIME= 10.0
-constant string RunesmithR__SPAWN_EFFECT= "Abilities\\Spells\\Human\\ManaFlare\\ManaFlareBoltImpact.mdl"
-constant string RunesmithR__CARVE_EFFECT= "Abilities\\Spells\\NightElf\\ManaBurn\\ManaBurnTarget.mdl"
-constant integer RunesmithRDeath__ID_ROCK= 'o020'
-constant string RunesmithRDeath__ID_HASH_CARVE= "runesmith_carve"
-constant string RunesmithRDeath__ID_HASH_CARVE_TARGET= "runesmith_carve_target"
-constant string RunesmithRDeath__ID_HASH_CARVE_ORIGIN_ABILITY= "runesmith_carve_origin_ability"
-constant integer RunesmithRocks__ID_ABILITY= 'A1DW'
-constant integer RunesmithRocks__ID_ROCK= 'o020'
-constant string RunesmithRocks__ID_HASH_ROCK_TIMER= "runesmith_rocks"
-constant string RunesmithRocks__ID_HASH_ROCK_SOURCE= "runesmith_rocks_source"
-constant real RunesmithRocks__ROCK_CD= 9.0
-constant string RunesmithRocks__SPAWN_EFFECT= "Abilities\\Spells\\NightElf\\Blink\\BlinkCaster.mdl"
-constant integer ElementalQ__ID_ABILITY= 'A0J6'
+constant integer RunesmithQ___ID_ABILITY= 'A1E4'
+constant string RunesmithQ___ID_HASH_TS= "runesmith_ts"
+constant string RunesmithQ___EFFECT= "Abilities\\Spells\\Human\\Thunderclap\\ThunderClapCaster.mdl"
+constant string RunesmithQHit___ID_HASH_TS= "runesmith_ts"
+constant string RunesmithQHit___EFFECT= "Abilities\\Spells\\Other\\Charm\\CharmTarget.mdl"
+constant real RunesmithQHit___STUN_PER_CHARGE= 1.0
+constant integer RunesmithW___ID_ABILITY= 'A1E5'
+constant integer RunesmithW___ID_ABILITY_ETHEREAL= 'A1E7'
+constant integer RunesmithW___ID_ODO= 'O01Z'
+constant integer RunesmithW___ID_DECOY= 'h017'
+constant string RunesmithW___ID_HASH_DECOY= "runesmith_decoy"
+constant string RunesmithW___ID_HASH_DECOY_SUMMON= "runesmith_decoy_summon"
+constant real RunesmithW___DECOY_BASE_RATE= 0.5
+constant real RunesmithW___DECOY_RATE_PER_LVL= 0.1
+constant real RunesmithW___DURATION= 20.0
+constant string RunesmithW___SPAWN_EFFECT= "Units\\NightElf\\Wisp\\WispExplode.mdl"
+constant integer RunesmithWDeath___ID_DECOY= 'h017'
+constant string RunesmithWDeath___ID_HASH_DECOY= "runesmith_decoy"
+constant integer RunesmithE___ID_ABILITY= 'A1E3'
+constant integer RunesmithE___ID_RUNE_LG= 'I03O'
+constant integer RunesmithE___ID_RUNE_RC= 'I03K'
+constant integer RunesmithE___ID_RUNE_SH= 'I03N'
+constant integer RunesmithE___ID_RUNE_EM= 'I03P'
+constant integer RunesmithE___ID_RUNE_ST= 'I03M'
+constant integer RunesmithE___ID_RUNE_IL= 'I03L'
+constant string RunesmithE___ID_HASH_GAINED_GOLD= "runesmith_gained_gold"
+constant string RunesmithE___ID_HASH_GAINED_HPR= "runesmith_gained_hpr"
+constant string RunesmithE___ID_HASH_GAINED_SP= "runesmith_gained_sp"
+constant string RunesmithE___ID_HASH_GAINED_HP= "runesmith_gained_hp"
+constant string RunesmithE___ID_HASH_GAINED_AP= "runesmith_gained_ap"
+constant string RunesmithE___ID_HASH_GAINED_STATS= "runesmith_gained_stats"
+constant string RunesmithE___ID_HASH_TMP_AR= "runesmith_tmp_ar"
+constant real RunesmithE___LG_REGEN_BOOST= 0.5
+constant real RunesmithE___SH_ARMOR_BOOST= 1.0
+constant real RunesmithE___ST_SP_BOOST= 1.0
+constant integer RunesmithE___EM_CDR= 5
+constant string RunesmithEFightEnd___ID_HASH_TMP_AR= "runesmith_tmp_ar"
+constant string RunesmithEFightEnd___ID_HASH_TS= "runesmith_ts"
+constant integer RunesmithEFightEnd___ID_ABILITY_ETHEREAL= 'A1E7'
+constant integer RunesmithR___ID_ABILITY= 'A1DW'
+constant integer RunesmithR___ID_ABILITY_LG= 'A1DQ'
+constant integer RunesmithR___ID_RUNE_LG= 'I03O'
+constant integer RunesmithR___ID_ABILITY_RC= 'A1DX'
+constant integer RunesmithR___ID_RUNE_RC= 'I03K'
+constant integer RunesmithR___ID_ABILITY_SH= 'A1DZ'
+constant integer RunesmithR___ID_RUNE_SH= 'I03N'
+constant integer RunesmithR___ID_ABILITY_EM= 'A1E1'
+constant integer RunesmithR___ID_RUNE_EM= 'I03P'
+constant integer RunesmithR___ID_ABILITY_ST= 'A1E0'
+constant integer RunesmithR___ID_RUNE_ST= 'I03M'
+constant integer RunesmithR___ID_ABILITY_IL= 'A1E2'
+constant integer RunesmithR___ID_RUNE_IL= 'I03L'
+constant integer RunesmithR___ID_DEGEN= 'A1DY'
+constant integer RunesmithR___ID_ROCK= 'o020'
+constant string RunesmithR___ID_HASH_CARVE= "runesmith_carve"
+constant string RunesmithR___ID_HASH_CARVE_TARGET= "runesmith_carve_target"
+constant string RunesmithR___ID_HASH_CARVE_ORIGIN_ABILITY= "runesmith_carve_origin_ability"
+constant integer RunesmithR___DEGEN= 1
+constant real RunesmithR___CARVE_TIME= 10.0
+constant string RunesmithR___SPAWN_EFFECT= "Abilities\\Spells\\Human\\ManaFlare\\ManaFlareBoltImpact.mdl"
+constant string RunesmithR___CARVE_EFFECT= "Abilities\\Spells\\NightElf\\ManaBurn\\ManaBurnTarget.mdl"
+constant integer RunesmithRDeath___ID_ROCK= 'o020'
+constant string RunesmithRDeath___ID_HASH_CARVE= "runesmith_carve"
+constant string RunesmithRDeath___ID_HASH_CARVE_TARGET= "runesmith_carve_target"
+constant string RunesmithRDeath___ID_HASH_CARVE_ORIGIN_ABILITY= "runesmith_carve_origin_ability"
+constant integer RunesmithRocks___ID_ABILITY= 'A1DW'
+constant integer RunesmithRocks___ID_ROCK= 'o020'
+constant string RunesmithRocks___ID_HASH_ROCK_TIMER= "runesmith_rocks"
+constant string RunesmithRocks___ID_HASH_ROCK_SOURCE= "runesmith_rocks_source"
+constant real RunesmithRocks___ROCK_CD= 9.0
+constant string RunesmithRocks___SPAWN_EFFECT= "Abilities\\Spells\\NightElf\\Blink\\BlinkCaster.mdl"
+constant integer ElementalQ___ID_ABILITY= 'A0J6'
         
-constant integer ElementalQ__DURATION= 15
-constant integer ElementalQ__TICK= 1
-constant integer ElementalQ__AREA= 325
-constant integer ElementalQ__DAMAGE_FIRST_LEVEL= 12
-constant integer ElementalQ__DAMAGE_LEVEL_BONUS= 4
-constant real ElementalQ__VENOM_BONUS_FIRST_LEVEL= 0.25
-constant real ElementalQ__VENOM_BONUS_LEVEL_BONUS= 0.15
+constant integer ElementalQ___DURATION= 15
+constant integer ElementalQ___TICK= 1
+constant integer ElementalQ___AREA= 325
+constant integer ElementalQ___DAMAGE_FIRST_LEVEL= 12
+constant integer ElementalQ___DAMAGE_LEVEL_BONUS= 4
+constant real ElementalQ___VENOM_BONUS_FIRST_LEVEL= 0.25
+constant real ElementalQ___VENOM_BONUS_LEVEL_BONUS= 0.15
         
-constant real ElementalQ__VENOS_EXTRA_BONUS_ALTERNATIVE= 2.5
+constant real ElementalQ___VENOS_EXTRA_BONUS_ALTERNATIVE= 2.5
         
-constant integer ElementalQ__EFFECT= 'A0K8'
-constant integer ElementalQ__BUFF= 'B07Q'
+constant integer ElementalQ___EFFECT= 'A0K8'
+constant integer ElementalQ___BUFF= 'B07Q'
         
-constant string ElementalQ__ANIMATION= "Abilities\\Spells\\Undead\\DeathCoil\\DeathCoilSpecialArt.mdl"
-constant integer ElementalE__ID_ABILITY= 'A0LP'
+constant string ElementalQ___ANIMATION= "Abilities\\Spells\\Undead\\DeathCoil\\DeathCoilSpecialArt.mdl"
+constant integer ElementalE___ID_ABILITY= 'A0LP'
         
-constant real ElementalE__BONUS_DAMAGE_FIRST_LEVEL= 0.05
-constant real ElementalE__BONUS_DAMAGE_LEVEL_BONUS= 0.1
-constant real ElementalE__BONUS_HEAL_FIRST_LEVEL= 0.05
-constant real ElementalE__BONUS_HEAL_LEVEL_BONUS= 0.1
+constant real ElementalE___BONUS_DAMAGE_FIRST_LEVEL= 0.05
+constant real ElementalE___BONUS_DAMAGE_LEVEL_BONUS= 0.1
+constant real ElementalE___BONUS_HEAL_FIRST_LEVEL= 0.05
+constant real ElementalE___BONUS_HEAL_LEVEL_BONUS= 0.1
         
-constant integer ElementalE__EXTRA_BONUS_DAMAGE_ALTERNATIVE= 2
-constant integer ElementalE__EXTRA_BONUS_HEAL_ALTERNATIVE= 2
-constant integer ElementalR__ID_ABILITY= 'A0KG'
+constant integer ElementalE___EXTRA_BONUS_DAMAGE_ALTERNATIVE= 2
+constant integer ElementalE___EXTRA_BONUS_HEAL_ALTERNATIVE= 2
+constant integer ElementalR___ID_ABILITY= 'A0KG'
         
-constant integer ElementalR__DURATION= 20
-constant real ElementalR__DAMAGE_BONUS_FIRST_LEVEL= 0.06
-constant real ElementalR__DAMAGE_BONUS_LEVEL_BONUS= 0.06
-constant real ElementalR__MAGIC_DAMAGE_BONUS_FIRST_LEVEL= 0.06
-constant real ElementalR__MAGIC_DAMAGE_BONUS_LEVEL_BONUS= 0.06
+constant integer ElementalR___DURATION= 20
+constant real ElementalR___DAMAGE_BONUS_FIRST_LEVEL= 0.06
+constant real ElementalR___DAMAGE_BONUS_LEVEL_BONUS= 0.06
+constant real ElementalR___MAGIC_DAMAGE_BONUS_FIRST_LEVEL= 0.06
+constant real ElementalR___MAGIC_DAMAGE_BONUS_LEVEL_BONUS= 0.06
         
-constant integer ElementalR__EXTRA_DAMAGE_BONUS_ALTERNATIVE= 2
+constant integer ElementalR___EXTRA_DAMAGE_BONUS_ALTERNATIVE= 2
         
-constant integer ElementalR__EFFECT= 'A0LO'
-constant integer ElementalR__BUFF= 'B07R'
+constant integer ElementalR___EFFECT= 'A0LO'
+constant integer ElementalR___BUFF= 'B07R'
         
-constant string ElementalR__ANIMATION= "Abilities\\Spells\\Undead\\UnholyFrenzyAOE\\UnholyFrenzyAOETarget.mdl"
+constant string ElementalR___ANIMATION= "Abilities\\Spells\\Undead\\UnholyFrenzyAOE\\UnholyFrenzyAOETarget.mdl"
 constant integer BardQ__ID_ABILITY= 'A1AL'
         
 constant integer BardQ__EFFECT= 'A1AM'
@@ -4195,8 +4195,8 @@ constant integer AbominationExplosion___ABILITY_ID= 'A0D0'
 constant integer AbominationExplosion___DAMAGE_INITIAL= 75
 constant integer AbominationExplosion___DAMAGE_PER_ROUND= 25
 constant real AbominationExplosion___RADIUS= 250
-constant integer PAStart__BATTLE_TIME= 120
-constant integer PAStart__BUTTON_COOLDOWN= 3
+constant integer PAStart___BATTLE_TIME= 120
+constant integer PAStart___BUTTON_COOLDOWN= 3
 constant integer OverloadArena_GOLD_INITIAL_FIRST= 60
 constant integer OverloadArena_GOLD_INITIAL_SECOND= 120
 constant integer OverloadArena_GOLD_EXTRA_PER_KILL= 5
@@ -4398,9 +4398,9 @@ integer array s__LastForgeItems
 integer array s__Zuma__Zuma_Damage
 integer array s__Alchemists_Stone_Potions
 integer array s__Enlightenment_SpellPower
-string array s__CharizardQuest___RarityColors
-itemtype array s__CharizardQuest___checkedItemType
-boolean array s__CharizardQuest___isConditionActive
+string array s__CharizardQuest__RarityColors
+itemtype array s__CharizardQuest__checkedItemType
+boolean array s__CharizardQuest__isConditionActive
 integer array s__Multicast_Bonus
 integer array s__BardQ__Bonuses
 string array s__BardQ__Bonuses_String
@@ -4908,43 +4908,43 @@ endfunction
 //library Aspects:
 
 
-    function Aspects___SetAspect takes integer index,integer abilityOne,integer abilityTwo,integer abilityThree returns nothing
+    function Aspects__SetAspect takes integer index,integer abilityOne,integer abilityTwo,integer abilityThree returns nothing
         set s__IsHeroCanUseAspect[index]= true
         set s__Aspect[(index)*(4)+1]= abilityOne
         set s__Aspect[(index)*(4)+2]= abilityTwo
         set s__Aspect[(index)*(4)+3]= abilityThree
     endfunction
 
-    function Aspects___init takes nothing returns nothing
+    function Aspects__init takes nothing returns nothing
         //Beorn Patriarch
-        call Aspects___SetAspect(7 , 'A0WG' , 'A0X3' , 'A0X4')
+        call Aspects__SetAspect(7 , 'A0WG' , 'A0X3' , 'A0X4')
         
         //Druid-Naturalist
-        call Aspects___SetAspect(10 , 'A0TR' , 'A0TS' , 'A0P8')
+        call Aspects__SetAspect(10 , 'A0TR' , 'A0TS' , 'A0P8')
         
         //Samurai
-        call Aspects___SetAspect(32 , 'A0V9' , 'A0VY' , 'A0TT')
+        call Aspects__SetAspect(32 , 'A0V9' , 'A0VY' , 'A0TT')
         
         //Berry Dealer
-        call Aspects___SetAspect(36 , 'A1CF' , 'A1CG' , 'A1CE')
+        call Aspects__SetAspect(36 , 'A1CF' , 'A1CG' , 'A1CE')
         
         //Toxic Elemental
-        call Aspects___SetAspect(56 , 'A1CB' , 'A1CC' , 'A1CD')
+        call Aspects__SetAspect(56 , 'A1CB' , 'A1CC' , 'A1CD')
         
         //Armsmaster
-        call Aspects___SetAspect(63 , 'A16B' , 'A16A' , 'A16C')
+        call Aspects__SetAspect(63 , 'A16B' , 'A16A' , 'A16C')
         
         //Wanderer
-        call Aspects___SetAspect(67 , 'A16E' , 'A16F' , 'A16D')
+        call Aspects__SetAspect(67 , 'A16E' , 'A16F' , 'A16D')
         
         //Bard
-        call Aspects___SetAspect(70 , 'A1B5' , 'A1C0' , 'A1C1')
+        call Aspects__SetAspect(70 , 'A1B5' , 'A1C0' , 'A1C1')
         
         //Ent
-        call Aspects___SetAspect(74 , 'A1DF' , 'A1DD' , 'A1DE')
+        call Aspects__SetAspect(74 , 'A1DF' , 'A1DD' , 'A1DE')
         
         //Lycanthrope
-        call Aspects___SetAspect(75 , 'A1DB' , 'A1DA' , 'A1DC')
+        call Aspects__SetAspect(75 , 'A1DB' , 'A1DA' , 'A1DC')
     endfunction
 
     function Aspects_IsHeroCanUseAspects takes unit hero returns boolean
@@ -6334,7 +6334,7 @@ endfunction
         return hasItem
     endfunction
 
-    function Inventory___SetModificators takes unit owner,item oldItem,item newItem returns nothing
+    function Inventory__SetModificators takes unit owner,item oldItem,item newItem returns nothing
         if SubString(BlzGetItemExtendedTooltip(oldItem), 0, 19) == "|cff00cceeChameleon" then
             call BlzSetItemExtendedTooltip(newItem, "|cff00cceeChameleon|r|n" + BlzGetItemExtendedTooltip(newItem)) // sadtwig
             //call BlzSetItemIconPath( newItem, "|cff00cceeChameleon|r|n" + BlzGetItemExtendedTooltip(newItem) )
@@ -6358,7 +6358,7 @@ endfunction
 
         call UnitRemoveItem(owner, oldItem)
         set bj_lastCreatedItem=CreateItem(newItem, GetUnitX(owner), GetUnitY(owner))
-        call Inventory___SetModificators(owner , oldItem , bj_lastCreatedItem)
+        call Inventory__SetModificators(owner , oldItem , bj_lastCreatedItem)
         call RemoveItem(oldItem)
         call UnitAddItem(owner, bj_lastCreatedItem)
         
@@ -6370,7 +6370,7 @@ endfunction
     function Inventory_ReplaceItem takes unit owner,item oldItem,item newItem returns nothing
         
         call UnitRemoveItem(owner, oldItem)
-        call Inventory___SetModificators(owner , oldItem , newItem)
+        call Inventory__SetModificators(owner , oldItem , newItem)
         call RemoveItem(oldItem)
         if IsItemOwned(newItem) == false then
             call UnitAddItem(owner, newItem)
@@ -8043,7 +8043,7 @@ endfunction
 //library Lightning:
 
 
-    function Lightning___End takes nothing returns nothing
+    function Lightning__End takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         call DestroyLightning(LoadLightningHandle(udg_hash, id, StringHash("light")))
         call FlushChildHashtable(udg_hash, id)
@@ -8052,15 +8052,15 @@ endfunction
     function Lightning_CreateLightning takes string lightningType,real xStart,real yStart,real zStart,real xEnd,real yEnd,real zEnd,real lifeTime returns lightning
         local integer id
     
-        set Lightning___TempLightning=AddLightningEx(lightningType, true, xStart, yStart, zStart, xEnd, yEnd, zEnd)
+        set Lightning__TempLightning=AddLightningEx(lightningType, true, xStart, yStart, zStart, xEnd, yEnd, zEnd)
                 
-        set id=GetHandleId(Lightning___TempLightning)
+        set id=GetHandleId(Lightning__TempLightning)
         call SaveTimerHandle(udg_hash, id, StringHash("light"), CreateTimer())
         set id=GetHandleId(LoadTimerHandle(udg_hash, id, StringHash("light")))
-        call SaveLightningHandle(udg_hash, id, StringHash("light"), Lightning___TempLightning)
-        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(Lightning___TempLightning), StringHash("light")), lifeTime, false, function Lightning___End)
+        call SaveLightningHandle(udg_hash, id, StringHash("light"), Lightning__TempLightning)
+        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(Lightning__TempLightning), StringHash("light")), lifeTime, false, function Lightning__End)
         
-        return Lightning___TempLightning
+        return Lightning__TempLightning
     endfunction
 
 
@@ -8996,7 +8996,7 @@ endfunction
 //library Other:
 
     
-    function Other___Refresh takes unit whichUnit,integer skinId returns nothing
+    function Other__Refresh takes unit whichUnit,integer skinId returns nothing
         call UnitRemoveAbility(whichUnit, skinId)
         call UnitAddAbility(whichUnit, skinId)
         set whichUnit=null
@@ -9005,12 +9005,12 @@ endfunction
     function SetUnitSkin takes unit whichUnit,integer skinId returns nothing
         call BlzSetUnitSkin(whichUnit, skinId)
             
-        if IsUnitHasAbility(whichUnit , Other___GLOW_NORMAL) then
-            call Other___Refresh(whichUnit , Other___GLOW_NORMAL)
-        elseif IsUnitHasAbility(whichUnit , Other___GLOW_SMALL) then
-            call Other___Refresh(whichUnit , Other___GLOW_SMALL)
-        elseif IsUnitHasAbility(whichUnit , Other___GLOW_BIG) then
-            call Other___Refresh(whichUnit , Other___GLOW_BIG)
+        if IsUnitHasAbility(whichUnit , Other__GLOW_NORMAL) then
+            call Other__Refresh(whichUnit , Other__GLOW_NORMAL)
+        elseif IsUnitHasAbility(whichUnit , Other__GLOW_SMALL) then
+            call Other__Refresh(whichUnit , Other__GLOW_SMALL)
+        elseif IsUnitHasAbility(whichUnit , Other__GLOW_BIG) then
+            call Other__Refresh(whichUnit , Other__GLOW_BIG)
         endif
         
         set whichUnit=null
@@ -10331,7 +10331,7 @@ endfunction
 //library TextLib ends
 //library TimePlayLib:
 
-    function TimePlayLib___bufend takes nothing returns nothing
+    function TimePlayLib__bufend takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local string str= LoadStr(udg_hash, id, 1)
         local integer g= StringHash(str)
@@ -10362,7 +10362,7 @@ endfunction
         call SaveStr(udg_hash, id, 1, str)
         call SaveInteger(udg_hash, id, StringHash(str + "1"), sp)
         call SaveInteger(udg_hash, id, StringHash(str + "2"), bf)
-        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(target), g), h, false, function TimePlayLib___bufend)
+        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(target), g), h, false, function TimePlayLib__bufend)
         
         set caster=null
         set target=null
@@ -10490,7 +10490,7 @@ endfunction
 //library Wave:
 
     
-    function Wave___AddGroupCount takes group waveGroup,boolean isAdded returns nothing
+    function Wave__AddGroupCount takes group waveGroup,boolean isAdded returns nothing
         local integer count
         local integer add= - 1
         
@@ -10513,11 +10513,11 @@ endfunction
         set waveGroup=null
     endfunction
 
-    function Wave___End takes integer id,effect wave returns nothing
+    function Wave__End takes integer id,effect wave returns nothing
         local group nodmg= LoadGroupHandle(udg_hash, id, StringHash("waveg"))
         local group waveGroup= LoadGroupHandle(udg_hash, id, StringHash("wavewg"))
     
-        call Wave___AddGroupCount(waveGroup , false)
+        call Wave__AddGroupCount(waveGroup , false)
         call DestroyEffect(wave)
         call GroupClear(nodmg)
         call DestroyGroup(nodmg)
@@ -10525,7 +10525,7 @@ endfunction
         set wave=null
     endfunction
     
-    function Wave___DealDamage takes integer id,effect wave returns nothing
+    function Wave__DealDamage takes integer id,effect wave returns nothing
         local unit mainer= LoadUnitHandle(udg_hash, id, StringHash("wavem"))
         local group nodmg= LoadGroupHandle(udg_hash, id, StringHash("waveg"))
         local group waveGroup= LoadGroupHandle(udg_hash, id, StringHash("wavewg"))
@@ -10562,7 +10562,7 @@ endfunction
         set waveGroup=null
     endfunction
     
-    function Wave___ChangePosition takes integer id,effect wave returns nothing
+    function Wave__ChangePosition takes integer id,effect wave returns nothing
         local real speed= LoadReal(udg_hash, id, StringHash("waves"))
         local real yaw= LoadReal(udg_hash, id, StringHash("wavey"))
         local integer newPoint= 0
@@ -10574,19 +10574,19 @@ endfunction
         set wave=null
     endfunction
 
-    function Wave___WaveUse takes nothing returns nothing
+    function Wave__WaveUse takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local integer counter= LoadInteger(udg_hash, id, StringHash("wave")) + 1
         local effect wave= LoadEffectHandle(udg_hash, id, StringHash("wave"))
         local integer range= LoadInteger(udg_hash, id, StringHash("waver"))
         
         if counter >= range or wave == null then
-            call Wave___End(id , wave)
+            call Wave__End(id , wave)
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
         else
-            call Wave___ChangePosition(id , wave)
-            call Wave___DealDamage(id , wave)
+            call Wave__ChangePosition(id , wave)
+            call Wave__DealDamage(id , wave)
             call SaveInteger(udg_hash, id, StringHash("wave"), counter)
         endif
         
@@ -10610,11 +10610,11 @@ endfunction
             return null
         endif
         
-        set Wave___tempEffect=AddSpecialEffect(waveAnimation, x, y)
+        set Wave__tempEffect=AddSpecialEffect(waveAnimation, x, y)
         set yaw=Deg2Rad(angle)
-        call BlzSetSpecialEffectYaw(Wave___tempEffect, yaw)
+        call BlzSetSpecialEffectYaw(Wave__tempEffect, yaw)
         
-        set id=InvokeTimerWithEffect(Wave___tempEffect , "wave" , tick , true , function Wave___WaveUse)
+        set id=InvokeTimerWithEffect(Wave__tempEffect , "wave" , tick , true , function Wave__WaveUse)
         call SaveUnitHandle(udg_hash, id, StringHash("wavem"), mainer)
         call SaveReal(udg_hash, id, StringHash("wavey"), yaw)
         call SaveReal(udg_hash, id, StringHash("waves"), speed)
@@ -10625,13 +10625,13 @@ endfunction
         call SaveTriggerHandle(udg_hash, id, StringHash("wavet"), usedTrigger)
         if waveGroup != null then
             call SaveGroupHandle(udg_hash, id, StringHash("wavewg"), waveGroup)
-            call Wave___AddGroupCount(waveGroup , true)
+            call Wave__AddGroupCount(waveGroup , true)
         endif
     
         set mainer=null
         set waveGroup=null
         set nodmg=null
-        return Wave___tempEffect
+        return Wave__tempEffect
     endfunction
 
 //library Wave ends
@@ -15070,13 +15070,13 @@ endfunction
 //library PolyLib:
 
     
-    function PolyLib___EndPolymorph takes unit target returns nothing
+    function PolyLib__EndPolymorph takes unit target returns nothing
         local integer unitId= GetHandleId(target)
         local integer skin= LoadInteger(udg_hash, unitId, StringHash("polysk"))
         local real selectionScale= LoadReal(udg_hash, unitId, StringHash("polyc"))
 
         if IsUnitAlive(target) then
-            call PlaySpecialEffect(PolyLib___ANIMATION , target)
+            call PlaySpecialEffect(PolyLib__ANIMATION , target)
         endif
         call SetUnitSkin(target , skin)
         call BlzSetUnitRealFieldBJ(target, UNIT_RF_SELECTION_SCALE, selectionScale)
@@ -15098,7 +15098,7 @@ endfunction
 
         call SaveInteger(udg_hash, unitId, StringHash("poly"), h)
         if h <= 0 and IsUnitHasAbility(u , 'A1A0') then
-            call PolyLib___EndPolymorph(u)
+            call PolyLib__EndPolymorph(u)
         endif
         call FlushChildHashtable(udg_hash, id)
 
@@ -15143,24 +15143,24 @@ endfunction
         set target=null
     endfunction
 
-    function PolyLib___DeleteBuff_Conditions takes nothing returns boolean
+    function PolyLib__DeleteBuff_Conditions takes nothing returns boolean
         return IsUnitHasAbility(Event_DeleteBuff_Unit , 'A1A0')
     endfunction
     
-    function PolyLib___DeleteBuff takes nothing returns nothing
-        call PolyLib___EndPolymorph(Event_DeleteBuff_Unit)
+    function PolyLib__DeleteBuff takes nothing returns nothing
+        call PolyLib__EndPolymorph(Event_DeleteBuff_Unit)
     endfunction
     
-    function PolyLib___DeleteSilence takes nothing returns nothing
+    function PolyLib__DeleteSilence takes nothing returns nothing
         if IsUnitHasAbility(Event_DeleteBuff_Unit , 'BNsi') then
             call UnitRemoveAbility(Event_DeleteBuff_Unit, 'BNsi')
         endif
     endfunction
     
-    function PolyLib___init takes nothing returns nothing
+    function PolyLib__init takes nothing returns nothing
         //Poly can sometimes not delete and stay permanently, if its active:
         //call CreateEventTrigger( "Event_DeleteBuff_Real", function DeleteBuff, function DeleteBuff_Conditions )
-        call CreateEventTrigger("Event_DeleteBuff_Real" , function PolyLib___DeleteSilence , null)
+        call CreateEventTrigger("Event_DeleteBuff_Real" , function PolyLib__DeleteSilence , null)
     endfunction
 
 
@@ -16128,7 +16128,7 @@ endfunction
         set caster=null
     endfunction
 
-    function HealstLib___HealUnit takes unit caster,unit target,real r returns nothing
+    function HealstLib__HealUnit takes unit caster,unit target,real r returns nothing
         local integer i= GetPlayerId(GetOwningPlayer(caster)) + 1
         local integer cyclA= 1
         local integer id
@@ -16329,7 +16329,7 @@ endfunction
         local unit caster= LoadUnitHandle(udg_hash, id, StringHash("healc"))
         local real r= LoadReal(udg_hash, id, StringHash("heal"))
     
-        call HealstLib___HealUnit(caster , target , r)
+        call HealstLib__HealUnit(caster , target , r)
         call FlushChildHashtable(udg_hash, id)
     
         set caster=null
@@ -16347,7 +16347,7 @@ endfunction
             call SaveReal(udg_hash, id, StringHash("heal"), r)
             call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(caster), StringHash("heal")), 0.01, false, function EndHealTimer)
         else
-            call HealstLib___HealUnit(caster , target , r)
+            call HealstLib__HealUnit(caster , target , r)
         endif
         
         set caster=null
@@ -16529,7 +16529,7 @@ endfunction
 //library Repick:
 
     
-    function Repick___DeleteItems takes unit hero returns nothing
+    function Repick__DeleteItems takes unit hero returns nothing
         local integer i= 0
         local item it
         
@@ -16580,7 +16580,7 @@ endfunction
         endif
         
         call DelBuff(hero , false)
-        call Repick___DeleteItems(hero)
+        call Repick__DeleteItems(hero)
         call MultiSetIcon(udg_multi , ( udg_Multiboard_Position[index] * 3 ) - 1 , 3 , "ReplaceableTextures\\CommandButtons\\BTNSelectHeroOn.blp")
 
         set Event_HeroRepick_Hero=hero
@@ -25089,7 +25089,7 @@ endfunction
         return i
     endfunction
     
-    function PlayerLeave___DeleteItems takes unit hero returns nothing
+    function PlayerLeave__DeleteItems takes unit hero returns nothing
         local integer i= 0
         local item it
         
@@ -25156,7 +25156,7 @@ endfunction
             set udg_BossAT=0.2
         endif
 
-        call PlayerLeave___DeleteItems(udg_hero[i])
+        call PlayerLeave__DeleteItems(udg_hero[i])
 
         set udg_Heroes_Amount=- 1
         set cyclA=0
@@ -35785,27 +35785,27 @@ endfunction
 
     
 
-    function HeroesChoise___Trig_HeroesChoise_Conditions takes nothing returns boolean
+    function HeroesChoise__Trig_HeroesChoise_Conditions takes nothing returns boolean
         return IsUnitType(GetEnteringUnit(), UNIT_TYPE_HERO) and udg_hero[GetPlayerId(GetOwningPlayer(GetEnteringUnit())) + 1] == null
     endfunction
     
-    function HeroesChoise___GetFirstPositon takes unit hero,integer index returns integer
+    function HeroesChoise__GetFirstPositon takes unit hero,integer index returns integer
         if udg_Boss_LvL > 1 then
             call SetHeroLevel(hero, GetHeroLevel(hero) + 1, true)
-            set s__FirstPosition_x[HeroesChoise___tempPosition]=GetLocationX(udg_point[index + 21])
-            set s__FirstPosition_y[HeroesChoise___tempPosition]=GetLocationY(udg_point[index + 21])
-            set s__FirstPosition_facing[HeroesChoise___tempPosition]=90
+            set s__FirstPosition_x[HeroesChoise__tempPosition]=GetLocationX(udg_point[index + 21])
+            set s__FirstPosition_y[HeroesChoise__tempPosition]=GetLocationY(udg_point[index + 21])
+            set s__FirstPosition_facing[HeroesChoise__tempPosition]=90
         else
-            set s__FirstPosition_x[HeroesChoise___tempPosition]=GetRectCenterX(gg_rct_HeroTp)
-            set s__FirstPosition_y[HeroesChoise___tempPosition]=GetRectCenterY(gg_rct_HeroTp)
-            set s__FirstPosition_facing[HeroesChoise___tempPosition]=270
+            set s__FirstPosition_x[HeroesChoise__tempPosition]=GetRectCenterX(gg_rct_HeroTp)
+            set s__FirstPosition_y[HeroesChoise__tempPosition]=GetRectCenterY(gg_rct_HeroTp)
+            set s__FirstPosition_facing[HeroesChoise__tempPosition]=270
         endif
     
         set hero=null
-        return HeroesChoise___tempPosition
+        return HeroesChoise__tempPosition
     endfunction
 
-    function HeroesChoise___SetClassNumber takes unit hero returns nothing
+    function HeroesChoise__SetClassNumber takes unit hero returns nothing
         local integer i= 1
         local integer iEnd
         local boolean isFind= false
@@ -35836,7 +35836,7 @@ endfunction
         set hero=null
     endfunction
     
-    function HeroesChoise___AddBonusItems takes unit hero,integer index returns nothing
+    function HeroesChoise__AddBonusItems takes unit hero,integer index returns nothing
         local integer unitType= GetUnitTypeId(hero)
     
         call UnitAddItem(hero, CreateItem('I054', GetUnitX(hero), GetUnitY(hero)))
@@ -35856,7 +35856,7 @@ endfunction
         set hero=null
     endfunction
     
-    function HeroesChoise___IsTimerResume takes nothing returns boolean
+    function HeroesChoise__IsTimerResume takes nothing returns boolean
         local integer i
         
         if IsSinglePlayer or udg_Boss_LvL == 1 then
@@ -35873,7 +35873,7 @@ endfunction
         return true
     endfunction
 
-    function HeroesChoise___HeroPicked takes nothing returns nothing
+    function HeroesChoise__HeroPicked takes nothing returns nothing
         local unit hero= Event_HeroPicked_Hero
         local player owner= Event_HeroPicked_Player
         local integer index= GetPlayerId(owner) + 1
@@ -35885,7 +35885,7 @@ endfunction
         set udg_UnitHeroLogic[heroKey]=true
         set udg_hero[index]=hero
         set s__ChoosedHero[index]= hero
-        set position=HeroesChoise___GetFirstPositon(hero , index)
+        set position=HeroesChoise__GetFirstPositon(hero , index)
         set udg_UnitHero[heroKey]=hero
         set udg_number[index + 100]=class + 1
         
@@ -35896,12 +35896,12 @@ endfunction
         call SetUnitOwner(hero, owner, true)
         call MMD_UpdateValueString("hero" , owner , GetUnitName(hero))
         call SetUnitUserData(hero, index)
-        call HeroesChoise___SetClassNumber(hero)
+        call HeroesChoise__SetClassNumber(hero)
         call GroupAddUnit(udg_otryad, hero)
         call GroupAddUnit(udg_heroinfo, hero)
         call FogModifierStop(udg_Visible[index])
-        call HeroesChoise___AddBonusItems(hero , index)
-        if HeroesChoise___IsTimerResume() then
+        call HeroesChoise__AddBonusItems(hero , index)
+        if HeroesChoise__IsTimerResume() then
             call ResumeTimer(udg_timer[1])
             call ResumeTimer(udg_timer[3])
         endif
@@ -35968,16 +35968,16 @@ endfunction
     endfunction
 
     //===========================================================================
-    function HeroesChoise___init takes nothing returns nothing
+    function HeroesChoise__init takes nothing returns nothing
         local integer i= 1
         loop
             exitwhen i > PLAYERS_LIMIT
             set s__ChoosedHero[i]= null
             set i=i + 1
         endloop
-        call CreateEventTrigger("Event_HeroPicked_Real" , function HeroesChoise___HeroPicked , null)
+        call CreateEventTrigger("Event_HeroPicked_Real" , function HeroesChoise__HeroPicked , null)
         
-        set HeroesChoise___tempPosition=s__FirstPosition__allocate()
+        set HeroesChoise__tempPosition=s__FirstPosition__allocate()
     endfunction
 
 // scope HeroesChoise ends
@@ -36862,7 +36862,7 @@ endfunction
 // scope ManaReg begins
 
 
-    function ManaReg___ShowText takes nothing returns nothing
+    function ManaReg__ShowText takes nothing returns nothing
         local unit hero= udg_hero[1]
         local real manaNow
         local real manaDeviation
@@ -36874,19 +36874,19 @@ endfunction
         endif
         //call BJDebugMsg("udg_hero[1] mana regen: " + R2S(BlzGetUnitRealField(hero, UNIT_RF_MANA_REGENERATION)) )
         set manaNow=GetUnitState(hero, UNIT_STATE_MANA)
-        set manaDeviation=manaNow - ManaReg___manaPast
+        set manaDeviation=manaNow - ManaReg__manaPast
         set manaReg=manaDeviation / 60
         if manaReg >= 0 then
             call BJDebugMsg("udg_hero[1] mana regen: " + R2S(manaReg))
         else
             call BJDebugMsg("Unknown. Mana is consumed.")
         endif
-        set ManaReg___manaPast=GetUnitState(hero, UNIT_STATE_MANA)
+        set ManaReg__manaPast=GetUnitState(hero, UNIT_STATE_MANA)
         
         set hero=null
     endfunction
 
-    function ManaReg___Trig_ManaReg_Actions takes nothing returns nothing
+    function ManaReg__Trig_ManaReg_Actions takes nothing returns nothing
         local unit hero= udg_hero[1]
         
         if hero == null then
@@ -36894,14 +36894,14 @@ endfunction
             return
         endif
         
-        if ManaReg___ManaRegTimer == null then
-            set ManaReg___ManaRegTimer=CreateTimer()
-            set ManaReg___manaPast=GetUnitState(hero, UNIT_STATE_MANA)
-            call TimerStart(ManaReg___ManaRegTimer, 1, true, function ManaReg___ShowText)
+        if ManaReg__ManaRegTimer == null then
+            set ManaReg__ManaRegTimer=CreateTimer()
+            set ManaReg__manaPast=GetUnitState(hero, UNIT_STATE_MANA)
+            call TimerStart(ManaReg__ManaRegTimer, 1, true, function ManaReg__ShowText)
             call BJDebugMsg("Mana regen enabled.")
         else
-            call DestroyTimer(ManaReg___ManaRegTimer)
-            set ManaReg___ManaRegTimer=null
+            call DestroyTimer(ManaReg__ManaRegTimer)
+            set ManaReg__ManaRegTimer=null
             call BJDebugMsg("Mana regen disabled.")
         endif
         
@@ -36909,11 +36909,11 @@ endfunction
     endfunction
 
     //===========================================================================
-    function ManaReg___init takes nothing returns nothing
+    function ManaReg__init takes nothing returns nothing
         set gg_trg_ManaReg=CreateTrigger()
         call DisableTrigger(gg_trg_ManaReg)
         call TriggerRegisterPlayerChatEvent(gg_trg_ManaReg, Player(0), "-manareg", false)
-        call TriggerAddAction(gg_trg_ManaReg, function ManaReg___Trig_ManaReg_Actions)
+        call TriggerAddAction(gg_trg_ManaReg, function ManaReg__Trig_ManaReg_Actions)
     endfunction
 
 // scope ManaReg ends
@@ -37222,9 +37222,9 @@ endfunction
     function Trig_Ancient_Sword_Conditions takes nothing returns boolean
         if udg_IsDamageSpell == true then
             return false
-        elseif not ( IsHeroHasItem(udg_DamageEventSource , AncientSword___ID_ITEM) or ( IsHeroHasItem(udg_DamageEventSource , AncientSword___ID_ULTIMATE_WEAPON) and udg_Set_Weapon_Logic[GetUnitUserData(udg_DamageEventSource) + AncientSword___ULTIMATE_WEAPON_NUMBER] ) ) then
+        elseif not ( IsHeroHasItem(udg_DamageEventSource , AncientSword__ID_ITEM) or ( IsHeroHasItem(udg_DamageEventSource , AncientSword__ID_ULTIMATE_WEAPON) and udg_Set_Weapon_Logic[GetUnitUserData(udg_DamageEventSource) + AncientSword__ULTIMATE_WEAPON_NUMBER] ) ) then
             return false
-        elseif (luckylogic((udg_DamageEventSource ) , ( AncientSword___CHANCE + GetUnitLevel(udg_DamageEventSource)) , 1 , 100)) == false then // INLINED!!
+        elseif (luckylogic((udg_DamageEventSource ) , ( AncientSword__CHANCE + GetUnitLevel(udg_DamageEventSource)) , 1 , 100)) == false then // INLINED!!
             return false
         endif
         return true
@@ -37232,7 +37232,7 @@ endfunction
     
     
     
-    function AncientSword___Use takes nothing returns nothing
+    function AncientSword__Use takes nothing returns nothing
         local unit caster= Event_WaveHit_Caster
         local unit target= Event_WaveHit_Target
         local real damage= LoadReal(udg_hash, GetHandleId(Event_WaveHit_Wave), StringHash("anss"))
@@ -37249,12 +37249,12 @@ endfunction
         local unit target= udg_DamageEventTarget
         local effect wave
         //local real yaw
-        local real damage= AncientSword___DAMAGE * GetUnitSpellPower(caster)
+        local real damage= AncientSword__DAMAGE * GetUnitSpellPower(caster)
         //local integer id
 
         
         
-        set wave=Wave_CreateWave(caster , GetUnitX(caster) , GetUnitY(caster) , GetUnitFacing(caster) , AncientSword___TICK , AncientSword___AREA , AncientSword___FLIGHT_LENGTH , AncientSword___SPEED , TARGET_ENEMY , WAVE_BASE_ANIMATION , AncientSword___Wave_Use , null)
+        set wave=Wave_CreateWave(caster , GetUnitX(caster) , GetUnitY(caster) , GetUnitFacing(caster) , AncientSword__TICK , AncientSword__AREA , AncientSword__FLIGHT_LENGTH , AncientSword__SPEED , TARGET_ENEMY , WAVE_BASE_ANIMATION , AncientSword__Wave_Use , null)
         call SaveReal(udg_hash, GetHandleId(wave), StringHash("anss"), damage)
         
         set wave=null
@@ -37263,11 +37263,11 @@ endfunction
     endfunction
 
     //===========================================================================
-    function AncientSword___init takes nothing returns nothing
+    function AncientSword__init takes nothing returns nothing
         call CreateEventTrigger("udg_AfterDamageEvent" , function Trig_Ancient_Sword_Actions , function Trig_Ancient_Sword_Conditions)
         
-        set AncientSword___Wave_Use=CreateTrigger()
-        call TriggerAddAction(AncientSword___Wave_Use, function AncientSword___Use)
+        set AncientSword__Wave_Use=CreateTrigger()
+        call TriggerAddAction(AncientSword__Wave_Use, function AncientSword__Use)
     endfunction
 // scope AncientSword ends
 
@@ -52945,31 +52945,31 @@ function InitTrig_Pandoras_Box takes nothing returns nothing
 endfunction
 
 // scope PandorasBoxInvul begins
-    function PandorasBoxInvul___AddInvul takes nothing returns nothing
+    function PandorasBoxInvul__AddInvul takes nothing returns nothing
         call UnitAddAbility(GetEnteringUnit(), 'A0A2')
     endfunction
     
-    function PandorasBoxInvul___RemoveInvul takes nothing returns nothing
+    function PandorasBoxInvul__RemoveInvul takes nothing returns nothing
         call UnitRemoveAbility(GetLeavingUnit(), 'A0A2')
     endfunction
     
-    function PandorasBoxInvul___RemoveInvulStartFight takes nothing returns nothing
+    function PandorasBoxInvul__RemoveInvulStartFight takes nothing returns nothing
         call UnitRemoveAbility(udg_FightStart_Unit, 'A0A2')
     endfunction
 
-    function PandorasBoxInvul___Triggs takes nothing returns nothing
+    function PandorasBoxInvul__Triggs takes nothing returns nothing
         local trigger trig= CreateTrigger()
         call TriggerRegisterEnterRectSimple(trig, gg_rct_Vision5)
-        call TriggerAddAction(trig, function PandorasBoxInvul___AddInvul)
+        call TriggerAddAction(trig, function PandorasBoxInvul__AddInvul)
         
         set trig=CreateTrigger()
         call TriggerRegisterLeaveRectSimple(trig, gg_rct_Vision5)
-        call TriggerAddAction(trig, function PandorasBoxInvul___RemoveInvul)
+        call TriggerAddAction(trig, function PandorasBoxInvul__RemoveInvul)
         
         set trig=CreateTrigger()
         call TriggerRegisterLeaveRectSimple(trig, gg_rct_Vision5)
         call TriggerRegisterVariableEvent(trig, "udg_FightStart_Real", EQUAL, 1.00)
-        call TriggerAddAction(trig, function PandorasBoxInvul___RemoveInvulStartFight)
+        call TriggerAddAction(trig, function PandorasBoxInvul__RemoveInvulStartFight)
         
         set trig=null
     endfunction
@@ -53145,28 +53145,28 @@ endfunction
 //===========================================================================
 // scope BraccusWex begins
 
-    function BraccusWex___Conditions takes nothing returns boolean
+    function BraccusWex__Conditions takes nothing returns boolean
         return GetItemTypeId(GetManipulatedItem()) == 'I071'
     endfunction
 
-    function BraccusWex___PickUp takes nothing returns nothing
-        call spdst(GetManipulatingUnit() , BraccusWex___BRACCUS_WEX_SPELL_POWER_BONUS)
+    function BraccusWex__PickUp takes nothing returns nothing
+        call spdst(GetManipulatingUnit() , BraccusWex__BRACCUS_WEX_SPELL_POWER_BONUS)
     endfunction
     
-    function BraccusWex___Drop takes nothing returns nothing
-        call spdst(GetManipulatingUnit() , - BraccusWex___BRACCUS_WEX_SPELL_POWER_BONUS)
+    function BraccusWex__Drop takes nothing returns nothing
+        call spdst(GetManipulatingUnit() , - BraccusWex__BRACCUS_WEX_SPELL_POWER_BONUS)
     endfunction
 
-    function BraccusWex___Triggs takes nothing returns nothing
+    function BraccusWex__Triggs takes nothing returns nothing
         local trigger trig= CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(trig, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-        call TriggerAddCondition(trig, Condition(function BraccusWex___Conditions))
-        call TriggerAddAction(trig, function BraccusWex___PickUp)
+        call TriggerAddCondition(trig, Condition(function BraccusWex__Conditions))
+        call TriggerAddAction(trig, function BraccusWex__PickUp)
         
         set trig=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(trig, EVENT_PLAYER_UNIT_DROP_ITEM)
-        call TriggerAddCondition(trig, Condition(function BraccusWex___Conditions))
-        call TriggerAddAction(trig, function BraccusWex___Drop)
+        call TriggerAddCondition(trig, Condition(function BraccusWex__Conditions))
+        call TriggerAddAction(trig, function BraccusWex__Drop)
         
         set trig=null
     endfunction
@@ -53302,7 +53302,7 @@ endfunction
 // scope AlchemistsStone begins
 
     
-    function AlchemistsStone___SetPotions takes nothing returns nothing
+    function AlchemistsStone__SetPotions takes nothing returns nothing
         set s__Alchemists_Stone_Potions[0]= 0
         set s__Alchemists_Stone_Potions[1]= 0
         set s__Alchemists_Stone_Potions[2]= 'I0H4'
@@ -53314,32 +53314,32 @@ endfunction
         set s__Alchemists_Stone_Potions[8]= 'I0H6'
     endfunction
 
-    function AlchemistsStone___Conditions takes nothing returns boolean
-        return GetItemTypeId(GetManipulatedItem()) == AlchemistsStone___ID_ALCHEMISTS_STONE_ITEM
+    function AlchemistsStone__Conditions takes nothing returns boolean
+        return GetItemTypeId(GetManipulatedItem()) == AlchemistsStone__ID_ALCHEMISTS_STONE_ITEM
     endfunction
 
-    function AlchemistsStone___GetItem takes unit caster,integer element1,integer element2 returns nothing
+    function AlchemistsStone__GetItem takes unit caster,integer element1,integer element2 returns nothing
         local integer potion= 0
         local item it
         
-        if element1 == AlchemistsStone___ALCHEMISTS_STONE_FIRE then
+        if element1 == AlchemistsStone__ALCHEMISTS_STONE_FIRE then
             set potion=potion + 1
-        elseif element1 == AlchemistsStone___ALCHEMISTS_STONE_EARTH then
+        elseif element1 == AlchemistsStone__ALCHEMISTS_STONE_EARTH then
            set potion=potion + 2
-        elseif element1 == AlchemistsStone___ALCHEMISTS_STONE_WATER then
+        elseif element1 == AlchemistsStone__ALCHEMISTS_STONE_WATER then
             set potion=potion + 4
         endif
-        if element2 == AlchemistsStone___ALCHEMISTS_STONE_FIRE then
+        if element2 == AlchemistsStone__ALCHEMISTS_STONE_FIRE then
             set potion=potion + 1
-        elseif element2 == AlchemistsStone___ALCHEMISTS_STONE_EARTH then
+        elseif element2 == AlchemistsStone__ALCHEMISTS_STONE_EARTH then
            set potion=potion + 2
-        elseif element2 == AlchemistsStone___ALCHEMISTS_STONE_WATER then
+        elseif element2 == AlchemistsStone__ALCHEMISTS_STONE_WATER then
             set potion=potion + 4
         endif
         
         set it=CreateItem(s__Alchemists_Stone_Potions[potion], GetUnitX(caster), GetUnitY(caster))
         call UnitAddItem(caster, it)
-        call BlzSetItemIntegerFieldBJ(it, ITEM_IF_NUMBER_OF_CHARGES, AlchemistsStone___ALCHEMISTS_STONE_BONUS_CHARGES)
+        call BlzSetItemIntegerFieldBJ(it, ITEM_IF_NUMBER_OF_CHARGES, AlchemistsStone__ALCHEMISTS_STONE_BONUS_CHARGES)
         call UnitRemoveItem(caster, it)
         call UnitAddItem(caster, it)
     
@@ -53348,23 +53348,23 @@ endfunction
     endfunction
 
     function Trig_Alchemists_Stone_Actions takes nothing returns nothing
-        call forge(GetManipulatingUnit() , GetManipulatedItem() , AlchemistsStone___ALCHEMISTS_STONE_FIRE , AlchemistsStone___ALCHEMISTS_STONE_EARTH , AlchemistsStone___ALCHEMISTS_STONE_WATER , false)
+        call forge(GetManipulatingUnit() , GetManipulatedItem() , AlchemistsStone__ALCHEMISTS_STONE_FIRE , AlchemistsStone__ALCHEMISTS_STONE_EARTH , AlchemistsStone__ALCHEMISTS_STONE_WATER , false)
     endfunction
     
-    function AlchemistsStone___Add takes nothing returns nothing
-        call SpellPotionUnit(GetManipulatingUnit() , AlchemistsStone___ALCHEMISTS_STONE_BONUS_POTION_SPELL_POWER)
+    function AlchemistsStone__Add takes nothing returns nothing
+        call SpellPotionUnit(GetManipulatingUnit() , AlchemistsStone__ALCHEMISTS_STONE_BONUS_POTION_SPELL_POWER)
     endfunction
     
-    function AlchemistsStone___Remove takes nothing returns nothing
-        call SpellPotionUnit(GetManipulatingUnit() , - AlchemistsStone___ALCHEMISTS_STONE_BONUS_POTION_SPELL_POWER)
+    function AlchemistsStone__Remove takes nothing returns nothing
+        call SpellPotionUnit(GetManipulatingUnit() , - AlchemistsStone__ALCHEMISTS_STONE_BONUS_POTION_SPELL_POWER)
     endfunction
     
-    function AlchemistsStone___BeforeForge_Conditions takes nothing returns boolean
+    function AlchemistsStone__BeforeForge_Conditions takes nothing returns boolean
         local integer forgetItemId= GetItemTypeId(Event_BeforeForge_ForgedItem)
-        return forgetItemId == AlchemistsStone___ID_ALCHEMISTS_STONE_ITEM and IsHeroHasItem(Event_BeforeForge_Hero , forgetItemId)
+        return forgetItemId == AlchemistsStone__ID_ALCHEMISTS_STONE_ITEM and IsHeroHasItem(Event_BeforeForge_Hero , forgetItemId)
     endfunction
     
-    function AlchemistsStone___Forge takes unit caster,item it returns nothing
+    function AlchemistsStone__Forge takes unit caster,item it returns nothing
         local integer id= GetHandleId(it)
         //local integer count = LoadInteger( udg_hash, id, StringHash( "alhst" ) )
         local integer element1= LoadInteger(udg_hash, id, StringHash("alhst1"))
@@ -53374,7 +53374,7 @@ endfunction
             //call RemoveItem(it)
             call stazisst(caster , it)
             if UnitInventoryCount(caster) < 6 then
-                call AlchemistsStone___GetItem(caster , element1 , element2)
+                call AlchemistsStone__GetItem(caster , element1 , element2)
             endif
         endif
         
@@ -53382,14 +53382,14 @@ endfunction
         set it=null
     endfunction
     
-    function AlchemistsStone___ChangeTooltip takes unit hero,item it,integer newItem returns nothing
+    function AlchemistsStone__ChangeTooltip takes unit hero,item it,integer newItem returns nothing
         local string newDiscription= ""
         
-        if newItem == AlchemistsStone___ALCHEMISTS_STONE_FIRE then
+        if newItem == AlchemistsStone__ALCHEMISTS_STONE_FIRE then
             set newDiscription="Fire"
-        elseif newItem == AlchemistsStone___ALCHEMISTS_STONE_EARTH then
+        elseif newItem == AlchemistsStone__ALCHEMISTS_STONE_EARTH then
             set newDiscription="Earth"
-        elseif newItem == AlchemistsStone___ALCHEMISTS_STONE_WATER then
+        elseif newItem == AlchemistsStone__ALCHEMISTS_STONE_WATER then
             set newDiscription="Water"
         endif
         
@@ -53400,7 +53400,7 @@ endfunction
         set it=null
     endfunction
     
-    function AlchemistsStone___BeforeForge takes nothing returns nothing
+    function AlchemistsStone__BeforeForge takes nothing returns nothing
         local integer id= GetHandleId(Event_BeforeForge_ForgedItem)
         local integer count= LoadInteger(udg_hash, id, StringHash("alhst")) + 1
         
@@ -53410,42 +53410,42 @@ endfunction
             call SaveInteger(udg_hash, id, StringHash("alhst2"), Event_BeforeForge_NewItem)
         endif
         call SaveInteger(udg_hash, id, StringHash("alhst"), count)
-        call AlchemistsStone___ChangeTooltip(Event_BeforeForge_Hero , Event_BeforeForge_ForgedItem , Event_BeforeForge_NewItem)
+        call AlchemistsStone__ChangeTooltip(Event_BeforeForge_Hero , Event_BeforeForge_ForgedItem , Event_BeforeForge_NewItem)
         
-        call AlchemistsStone___Forge(Event_BeforeForge_Hero , Event_BeforeForge_ForgedItem)
+        call AlchemistsStone__Forge(Event_BeforeForge_Hero , Event_BeforeForge_ForgedItem)
     endfunction
     
-    function AlchemistsStone___AfterForge_Conditions takes nothing returns boolean
-        return Event_AfterForge_ForgedItem == AlchemistsStone___ID_ALCHEMISTS_STONE_ITEM and IsHeroHasItem(Event_AfterForge_Hero , Event_AfterForge_ForgedItem)
+    function AlchemistsStone__AfterForge_Conditions takes nothing returns boolean
+        return Event_AfterForge_ForgedItem == AlchemistsStone__ID_ALCHEMISTS_STONE_ITEM and IsHeroHasItem(Event_AfterForge_Hero , Event_AfterForge_ForgedItem)
     endfunction
     
-    function AlchemistsStone___AfterForge takes nothing returns nothing
-        call forge(Event_AfterForge_Hero , Event_AfterForge_ForgedItem_Item , AlchemistsStone___ALCHEMISTS_STONE_FIRE , AlchemistsStone___ALCHEMISTS_STONE_EARTH , AlchemistsStone___ALCHEMISTS_STONE_WATER , false)
+    function AlchemistsStone__AfterForge takes nothing returns nothing
+        call forge(Event_AfterForge_Hero , Event_AfterForge_ForgedItem_Item , AlchemistsStone__ALCHEMISTS_STONE_FIRE , AlchemistsStone__ALCHEMISTS_STONE_EARTH , AlchemistsStone__ALCHEMISTS_STONE_WATER , false)
     endfunction
     
     //===========================================================================
-    function AlchemistsStone___init takes nothing returns nothing
+    function AlchemistsStone__init takes nothing returns nothing
         local trigger trig
     
         set trig=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(trig, EVENT_PLAYER_UNIT_USE_ITEM)
-        call TriggerAddCondition(trig, Condition(function AlchemistsStone___Conditions))
+        call TriggerAddCondition(trig, Condition(function AlchemistsStone__Conditions))
         call TriggerAddAction(trig, function Trig_Alchemists_Stone_Actions)
         
         set trig=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(trig, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-        call TriggerAddCondition(trig, Condition(function AlchemistsStone___Conditions))
-        call TriggerAddAction(trig, function AlchemistsStone___Add)
+        call TriggerAddCondition(trig, Condition(function AlchemistsStone__Conditions))
+        call TriggerAddAction(trig, function AlchemistsStone__Add)
         
         set trig=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(trig, EVENT_PLAYER_UNIT_DROP_ITEM)
-        call TriggerAddCondition(trig, Condition(function AlchemistsStone___Conditions))
-        call TriggerAddAction(trig, function AlchemistsStone___Remove)
+        call TriggerAddCondition(trig, Condition(function AlchemistsStone__Conditions))
+        call TriggerAddAction(trig, function AlchemistsStone__Remove)
         
-        call CreateEventTrigger("Event_BeforeForge_Real" , function AlchemistsStone___BeforeForge , function AlchemistsStone___BeforeForge_Conditions)
-        call CreateEventTrigger("Event_AfterForge_Real" , function AlchemistsStone___AfterForge , function AlchemistsStone___AfterForge_Conditions)
+        call CreateEventTrigger("Event_BeforeForge_Real" , function AlchemistsStone__BeforeForge , function AlchemistsStone__BeforeForge_Conditions)
+        call CreateEventTrigger("Event_AfterForge_Real" , function AlchemistsStone__AfterForge , function AlchemistsStone__AfterForge_Conditions)
 
-        call AlchemistsStone___SetPotions()
+        call AlchemistsStone__SetPotions()
         set trig=null
     endfunction
 
@@ -53457,16 +53457,16 @@ endfunction
 
 
     function Trig_Chameleon_Eye_Conditions takes nothing returns boolean
-        return IsHeroHasItem(GetSpellAbilityUnit() , ChameleonEye___ID_ITEM) and combat(GetSpellAbilityUnit() , false , 0) and Uniques_Logic(GetSpellAbilityId())
+        return IsHeroHasItem(GetSpellAbilityUnit() , ChameleonEye__ID_ITEM) and combat(GetSpellAbilityUnit() , false , 0) and Uniques_Logic(GetSpellAbilityId())
     endfunction
     
-    function ChameleonEye___Replace takes nothing returns nothing
+    function ChameleonEye__Replace takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local unit hero= LoadUnitHandle(udg_hash, id, StringHash("chml"))
         local real time= BlzGetUnitAbilityCooldownRemaining(hero, udg_Ability_Uniq[GetUnitUserData(hero)])
         local integer newUniq
 
-        call PlaySpecialEffect(ChameleonEye___ANIMATION , hero)
+        call PlaySpecialEffect(ChameleonEye__ANIMATION , hero)
         set newUniq=NewUniques(hero , udg_DB_Hero_SpecAbAkt[GetRandomInt(1, udg_Database_NumberItems[24])])
         call BlzStartUnitAbilityCooldown(hero, newUniq, time)
         
@@ -53474,11 +53474,11 @@ endfunction
     endfunction
 
     function Trig_Chameleon_Eye_Actions takes nothing returns nothing
-        call InvokeTimerWithUnit(GetSpellAbilityUnit() , "chml" , 0.01 , false , function ChameleonEye___Replace)
+        call InvokeTimerWithUnit(GetSpellAbilityUnit() , "chml" , 0.01 , false , function ChameleonEye__Replace)
     endfunction
 
     //===========================================================================
-    function ChameleonEye___init takes nothing returns nothing
+    function ChameleonEye__init takes nothing returns nothing
         set gg_trg_Chameleon_Eye=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_Chameleon_Eye, EVENT_PLAYER_UNIT_SPELL_EFFECT)
         call TriggerAddCondition(gg_trg_Chameleon_Eye, Condition(function Trig_Chameleon_Eye_Conditions))
@@ -53493,16 +53493,16 @@ endfunction
 // scope Felweed begins
 
 
-    function Felweed___DealDamage takes nothing returns nothing
+    function Felweed__DealDamage takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local unit target= LoadUnitHandle(udg_hash, id, StringHash("flwd"))
         local unit caster= LoadUnitHandle(udg_hash, id, StringHash("flwdc"))
         local real damage= LoadReal(udg_hash, id, StringHash("flwd"))
 
-        call DestroyEffect(AddSpecialEffectTarget(Felweed___ANIMATION, target, "origin"))
-        set Felweed___IsActive=true
+        call DestroyEffect(AddSpecialEffectTarget(Felweed__ANIMATION, target, "origin"))
+        set Felweed__IsActive=true
         call UnitTakeDamage(caster , target , damage , DAMAGE_TYPE_MAGIC)
-        set Felweed___IsActive=false
+        set Felweed__IsActive=false
         call FlushChildHashtable(udg_hash, id)
 
         set caster=null
@@ -53510,7 +53510,7 @@ endfunction
     endfunction
 
     function AfterHeal_Conditions takes nothing returns boolean
-        return IsHeroHasItem(Event_AfterHeal_Target , Felweed___ID_ITEM) and Felweed___IsActive == false
+        return IsHeroHasItem(Event_AfterHeal_Target , Felweed__ID_ITEM) and Felweed__IsActive == false
     endfunction
     
     function AfterHeal takes nothing returns nothing
@@ -53518,9 +53518,9 @@ endfunction
         local unit target
         local integer id
     
-        set target=randomtarget(Event_AfterHeal_Target , Felweed___AREA , "enemy" , "" , "" , "" , "")
+        set target=randomtarget(Event_AfterHeal_Target , Felweed__AREA , "enemy" , "" , "" , "" , "")
         if target != null then
-            set id=InvokeTimerWithUnit(target , "flwd" , 0.01 , false , function Felweed___DealDamage)
+            set id=InvokeTimerWithUnit(target , "flwd" , 0.01 , false , function Felweed__DealDamage)
             call SaveUnitHandle(udg_hash, id, StringHash("flwdc"), caster)
             call SaveReal(udg_hash, id, StringHash("flwd"), Event_AfterHeal_Heal)
         endif
@@ -53530,7 +53530,7 @@ endfunction
     endfunction
 
     //===========================================================================
-    function Felweed___init takes nothing returns nothing
+    function Felweed__init takes nothing returns nothing
         call CreateEventTrigger("Event_AfterHeal_Real" , function AfterHeal , function AfterHeal_Conditions)
     endfunction
 // scope Felweed ends
@@ -53543,7 +53543,7 @@ endfunction
 
 
     function Trig_SuperSeven_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == SuperSeven___ID_ABILITY
+        return GetSpellAbilityId() == SuperSeven__ID_ABILITY
     endfunction
 
 function Trig_SuperSeven_Actions takes nothing returns nothing
@@ -53559,7 +53559,7 @@ function Trig_SuperSeven_Actions takes nothing returns nothing
     elseif RandomLogic() then
         set caster=udg_Caster
         set target=randomtarget(caster , 900 , "enemy" , "" , "" , "" , "")
-        call textst(udg_string[0] + GetObjectName(SuperSeven___ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
+        call textst(udg_string[0] + GetObjectName(SuperSeven__ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
         if target == null then
             set caster=null
             return
@@ -53570,21 +53570,21 @@ function Trig_SuperSeven_Actions takes nothing returns nothing
     endif
     set cyclAEnd=0
     if udg_hero[1] != null then
-    set cyclAEnd=cyclAEnd + inv(udg_hero[1] , SuperSeven___ID_ITEM)
+    set cyclAEnd=cyclAEnd + inv(udg_hero[1] , SuperSeven__ID_ITEM)
     endif
     if udg_hero[2] != null then
-    set cyclAEnd=cyclAEnd + inv(udg_hero[2] , SuperSeven___ID_ITEM)
+    set cyclAEnd=cyclAEnd + inv(udg_hero[2] , SuperSeven__ID_ITEM)
     endif
     if udg_hero[3] != null then
-    set cyclAEnd=cyclAEnd + inv(udg_hero[3] , SuperSeven___ID_ITEM)
+    set cyclAEnd=cyclAEnd + inv(udg_hero[3] , SuperSeven__ID_ITEM)
     endif
     if udg_hero[4] != null then
-    set cyclAEnd=cyclAEnd + inv(udg_hero[4] , SuperSeven___ID_ITEM)
+    set cyclAEnd=cyclAEnd + inv(udg_hero[4] , SuperSeven__ID_ITEM)
     endif
     loop
         exitwhen cyclA > cyclAEnd
-        set pwr=pwr * SuperSeven___MULTIPLIER
-        if pwr > SuperSeven___CAP then
+        set pwr=pwr * SuperSeven__MULTIPLIER
+        if pwr > SuperSeven__CAP then
             set cyclA=cyclAEnd
         endif
         set cyclA=cyclA + 1
@@ -53624,11 +53624,11 @@ endfunction
 // scope SlippersOfMadness begins
     
     
-    function SlippersOfMadness___Trig_Slippers_of_Madness_Conditions takes nothing returns boolean
-        return IsHeroHasItem(udg_FightEnd_Unit , SlippersOfMadness___ID_ITEM) and udg_fightmod[3] == false
+    function SlippersOfMadness__Trig_Slippers_of_Madness_Conditions takes nothing returns boolean
+        return IsHeroHasItem(udg_FightEnd_Unit , SlippersOfMadness__ID_ITEM) and udg_fightmod[3] == false
     endfunction
     
-    function SlippersOfMadness___GetExtraText takes integer rand returns string
+    function SlippersOfMadness__GetExtraText takes integer rand returns string
         if rand >= 0 then
             return "+"
         else
@@ -53636,7 +53636,7 @@ endfunction
         endif
     endfunction
 
-    function SlippersOfMadness___Trig_Slippers_of_Madness_Actions takes nothing returns nothing
+    function SlippersOfMadness__Trig_Slippers_of_Madness_Actions takes nothing returns nothing
         local unit hero= udg_FightEnd_Unit
         local integer rand
         local integer i
@@ -53645,16 +53645,16 @@ endfunction
         set i=1
         loop
             exitwhen i > 3
-            set rand=IMinBJ(GetRandomInt(SlippersOfMadness___BONUS_MIN + GetUnitLuck(hero), SlippersOfMadness___BONUS_MAX), SlippersOfMadness___BONUS_MAX)
+            set rand=IMinBJ(GetRandomInt(SlippersOfMadness__BONUS_MIN + GetUnitLuck(hero), SlippersOfMadness__BONUS_MAX), SlippersOfMadness__BONUS_MAX)
             if i == 1 then
                 call statst(hero , rand , 0 , 0 , 68 , true)
-                call textst("|c00FF2020 " + SlippersOfMadness___GetExtraText(rand) + I2S(rand) + " strength" , hero , 64 , 30 , 10 , 2.5)
+                call textst("|c00FF2020 " + SlippersOfMadness__GetExtraText(rand) + I2S(rand) + " strength" , hero , 64 , 30 , 10 , 2.5)
             elseif i == 2 then
                 call statst(hero , 0 , rand , 0 , 72 , true)
-                call textst("|c0020FF20 " + SlippersOfMadness___GetExtraText(rand) + I2S(rand) + " agility" , hero , 64 , 150 , 10 , 2.5)
+                call textst("|c0020FF20 " + SlippersOfMadness__GetExtraText(rand) + I2S(rand) + " agility" , hero , 64 , 150 , 10 , 2.5)
             elseif i == 3 then
                 call statst(hero , 0 , 0 , rand , 76 , true)
-                call textst("|c002020FF " + SlippersOfMadness___GetExtraText(rand) + I2S(rand) + " intelligence" , hero , 64 , 270 , 10 , 2.5)
+                call textst("|c002020FF " + SlippersOfMadness__GetExtraText(rand) + I2S(rand) + " intelligence" , hero , 64 , 270 , 10 , 2.5)
             endif
             set i=i + 1
         endloop
@@ -53663,11 +53663,11 @@ endfunction
     endfunction
 
     //===========================================================================
-    function SlippersOfMadness___init takes nothing returns nothing
+    function SlippersOfMadness__init takes nothing returns nothing
         set gg_trg_Slippers_of_Madness=CreateTrigger()
         call TriggerRegisterVariableEvent(gg_trg_Slippers_of_Madness, "udg_FightEnd_Real", EQUAL, 1.00)
-        call TriggerAddCondition(gg_trg_Slippers_of_Madness, Condition(function SlippersOfMadness___Trig_Slippers_of_Madness_Conditions))
-        call TriggerAddAction(gg_trg_Slippers_of_Madness, function SlippersOfMadness___Trig_Slippers_of_Madness_Actions)
+        call TriggerAddCondition(gg_trg_Slippers_of_Madness, Condition(function SlippersOfMadness__Trig_Slippers_of_Madness_Conditions))
+        call TriggerAddAction(gg_trg_Slippers_of_Madness, function SlippersOfMadness__Trig_Slippers_of_Madness_Actions)
     endfunction
 
 // scope SlippersOfMadness ends
@@ -53677,19 +53677,19 @@ endfunction
 // scope HungryLeech begins
 
 
-    function HungryLeech___AfterHeal_Conditions takes nothing returns boolean
-        return IsHeroHasItem(Event_AfterHeal_Target , HungryLeech___ID_ITEM) and Event_AfterHeal_Target != Event_AfterHeal_Caster and HungryLeech___isLoop == false
+    function HungryLeech__AfterHeal_Conditions takes nothing returns boolean
+        return IsHeroHasItem(Event_AfterHeal_Target , HungryLeech__ID_ITEM) and Event_AfterHeal_Target != Event_AfterHeal_Caster and HungryLeech__isLoop == false
     endfunction
     
-    function HungryLeech___AfterHeal takes nothing returns nothing
-        set HungryLeech___isLoop=true
+    function HungryLeech__AfterHeal takes nothing returns nothing
+        set HungryLeech__isLoop=true
         call healst(Event_AfterHeal_Target , Event_AfterHeal_Caster , Event_AfterHeal_Heal)
-        set HungryLeech___isLoop=false
+        set HungryLeech__isLoop=false
     endfunction
 
     //===========================================================================
-    function HungryLeech___init takes nothing returns nothing
-        call CreateEventTrigger("Event_AfterHeal_Real" , function HungryLeech___AfterHeal , function HungryLeech___AfterHeal_Conditions)
+    function HungryLeech__init takes nothing returns nothing
+        call CreateEventTrigger("Event_AfterHeal_Real" , function HungryLeech__AfterHeal , function HungryLeech__AfterHeal_Conditions)
     endfunction
 // scope HungryLeech ends
 //===========================================================================
@@ -54450,21 +54450,21 @@ endfunction
 // scope BattlemasterBulwark begins
 
 
-    function BattlemasterBulwark___AfterDamageEvent_Conditions takes nothing returns boolean
-        return IsHeroHasItem(s__ChoosedHero[GetPlayerId(GetOwningPlayer(udg_DamageEventSource)) + 1] , BattlemasterBulwark___ID_ITEM) and ( GetUnitTypeId(udg_DamageEventSource) == 'u000' or IsUnitType(udg_DamageEventSource, UNIT_TYPE_HERO) )
+    function BattlemasterBulwark__AfterDamageEvent_Conditions takes nothing returns boolean
+        return IsHeroHasItem(s__ChoosedHero[GetPlayerId(GetOwningPlayer(udg_DamageEventSource)) + 1] , BattlemasterBulwark__ID_ITEM) and ( GetUnitTypeId(udg_DamageEventSource) == 'u000' or IsUnitType(udg_DamageEventSource, UNIT_TYPE_HERO) )
     endfunction
 
-    function BattlemasterBulwark___AfterDamageEvent takes nothing returns nothing
+    function BattlemasterBulwark__AfterDamageEvent takes nothing returns nothing
         local unit hero= s__ChoosedHero[GetPlayerId(GetOwningPlayer(udg_DamageEventSource)) + 1]
         
-        call shield(hero , hero , udg_DamageEventAmount * BattlemasterBulwark___BATTLEMASTER_BULWARK_SHIELD_BONUS , 60)
+        call shield(hero , hero , udg_DamageEventAmount * BattlemasterBulwark__BATTLEMASTER_BULWARK_SHIELD_BONUS , 60)
         
         set hero=null
     endfunction
 
     //===========================================================================
-    function BattlemasterBulwark___init takes nothing returns nothing
-        call CreateEventTrigger("udg_AfterDamageEvent" , function BattlemasterBulwark___AfterDamageEvent , function BattlemasterBulwark___AfterDamageEvent_Conditions)
+    function BattlemasterBulwark__init takes nothing returns nothing
+        call CreateEventTrigger("udg_AfterDamageEvent" , function BattlemasterBulwark__AfterDamageEvent , function BattlemasterBulwark__AfterDamageEvent_Conditions)
     endfunction
 
 // scope BattlemasterBulwark ends
@@ -54547,11 +54547,11 @@ function InitTrig_Enlightenment takes nothing returns nothing
 endfunction
 
 // scope Enlightenment begins
-    function Enlightenment___Func_Condition takes nothing returns boolean
+    function Enlightenment__Func_Condition takes nothing returns boolean
         return s__Enlightenment_SpellPower[GetUnitUserData(udg_FightEnd_Unit)] > 0
     endfunction
     
-    function Enlightenment___Action takes nothing returns nothing
+    function Enlightenment__Action takes nothing returns nothing
         local unit hero= udg_FightEnd_Unit
         local integer index= GetUnitUserData(hero)
 
@@ -54561,14 +54561,14 @@ endfunction
         set hero=null
     endfunction
 
-    function Enlightenment___init takes nothing returns nothing
+    function Enlightenment__init takes nothing returns nothing
         local integer i= 1
         loop
             exitwhen i > 4
             set s__Enlightenment_SpellPower[i]= 0
             set i=i + 1
         endloop
-        call CreateEventTrigger("udg_FightEnd_Real" , function Enlightenment___Action , function Enlightenment___Func_Condition)
+        call CreateEventTrigger("udg_FightEnd_Real" , function Enlightenment__Action , function Enlightenment__Func_Condition)
     endfunction
 // scope Enlightenment ends
 //===========================================================================
@@ -54577,11 +54577,11 @@ endfunction
 // scope CharizardQuest begins
 
 
-    function CharizardQuest___ItemSplit_Conditions takes nothing returns boolean
-        return IsHeroHasItem(Event_ItemSplit_Hero , CharizardQuest___ID_QUEST_ITEM)
+    function CharizardQuest__ItemSplit_Conditions takes nothing returns boolean
+        return IsHeroHasItem(Event_ItemSplit_Hero , CharizardQuest__ID_QUEST_ITEM)
     endfunction
     
-    function CharizardQuest___ItemSplit takes nothing returns nothing
+    function CharizardQuest__ItemSplit takes nothing returns nothing
         local unit caster= Event_ItemSplit_Hero
         local item splittedItem= Event_ItemSplit_Item
         local itemtype itemType= GetItemType(splittedItem)
@@ -54591,10 +54591,10 @@ endfunction
         set i=1
         loop
             exitwhen i > udg_DB_AllSet
-            if s__CharizardQuest___isConditionActive[i] == false then
+            if s__CharizardQuest__isConditionActive[i] == false then
                 if SetCount_CheckItemSet(splittedItem , i) then
-                    set s__CharizardQuest___isConditionActive[i]= true
-                    call ChangeToolCurrentItem(caster , CharizardQuest___ID_QUEST_ITEM , udg_DB_Set_Color[i] , "|cff000000")
+                    set s__CharizardQuest__isConditionActive[i]= true
+                    call ChangeToolCurrentItem(caster , CharizardQuest__ID_QUEST_ITEM , udg_DB_Set_Color[i] , "|cff000000")
                 endif
             endif
             set i=i + 1
@@ -54603,9 +54603,9 @@ endfunction
         set i=0
         loop
             exitwhen i > 2
-            if s__CharizardQuest___isConditionActive[10 + i] == false and itemType == s__CharizardQuest___checkedItemType[i] then
-                set s__CharizardQuest___isConditionActive[10 + i]= true
-                call ChangeToolCurrentItem(caster , CharizardQuest___ID_QUEST_ITEM , s__CharizardQuest___RarityColors[i] , "|cff000000")
+            if s__CharizardQuest__isConditionActive[10 + i] == false and itemType == s__CharizardQuest__checkedItemType[i] then
+                set s__CharizardQuest__isConditionActive[10 + i]= true
+                call ChangeToolCurrentItem(caster , CharizardQuest__ID_QUEST_ITEM , s__CharizardQuest__RarityColors[i] , "|cff000000")
             endif
             set i=i + 1
         endloop
@@ -54613,14 +54613,14 @@ endfunction
         set i=1
         set j=0
         loop
-            exitwhen i > CharizardQuest___ITEMS_NEEDED
-            if s__CharizardQuest___isConditionActive[i] == true then
+            exitwhen i > CharizardQuest__ITEMS_NEEDED
+            if s__CharizardQuest__isConditionActive[i] == true then
                 set j=j + 1
             endif
             set i=i + 1
         endloop
         
-        call Quest_QuestCondition(caster , CharizardQuest___ID_QUEST_ITEM , CharizardQuest___ID_REWARD_ITEM , j , CharizardQuest___ITEMS_NEEDED)
+        call Quest_QuestCondition(caster , CharizardQuest__ID_QUEST_ITEM , CharizardQuest__ID_REWARD_ITEM , j , CharizardQuest__ITEMS_NEEDED)
         
         set caster=null
         set splittedItem=null
@@ -54628,16 +54628,16 @@ endfunction
     endfunction
 
     //===========================================================================
-    function CharizardQuest___init takes nothing returns nothing
-        call CreateEventTrigger("Event_ItemSplit_Real" , function CharizardQuest___ItemSplit , function CharizardQuest___ItemSplit_Conditions)
+    function CharizardQuest__init takes nothing returns nothing
+        call CreateEventTrigger("Event_ItemSplit_Real" , function CharizardQuest__ItemSplit , function CharizardQuest__ItemSplit_Conditions)
         
-        set s__CharizardQuest___RarityColors[0]= "|cffbababc"
-        set s__CharizardQuest___RarityColors[1]= "|cff4169e1"
-        set s__CharizardQuest___RarityColors[2]= "|cffe96a1c"
+        set s__CharizardQuest__RarityColors[0]= "|cffbababc"
+        set s__CharizardQuest__RarityColors[1]= "|cff4169e1"
+        set s__CharizardQuest__RarityColors[2]= "|cffe96a1c"
         
-        set s__CharizardQuest___checkedItemType[0]= ITEM_TYPE_PERMANENT
-        set s__CharizardQuest___checkedItemType[1]= ITEM_TYPE_CAMPAIGN
-        set s__CharizardQuest___checkedItemType[2]= ITEM_TYPE_ARTIFACT
+        set s__CharizardQuest__checkedItemType[0]= ITEM_TYPE_PERMANENT
+        set s__CharizardQuest__checkedItemType[1]= ITEM_TYPE_CAMPAIGN
+        set s__CharizardQuest__checkedItemType[2]= ITEM_TYPE_ARTIFACT
     endfunction
 // scope CharizardQuest ends
 //===========================================================================
@@ -55998,19 +55998,19 @@ endfunction
 // scope OrbCenarius begins
 
 
-    function OrbCenarius___OrbCenariusCast takes nothing returns nothing
+    function OrbCenarius__OrbCenariusCast takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local real heal= LoadReal(udg_hash, id, StringHash("orbnc"))
         local unit caster= LoadUnitHandle(udg_hash, id, StringHash("orbncc"))
         local unit target= LoadUnitHandle(udg_hash, id, StringHash("orbnc"))
         
-        if IsUnitAlive(target) and IsUnitHasAbility(target , OrbCenarius___EFFECT) then
-            set OrbCenarius___IsFromOrbOfCenarius=true
+        if IsUnitAlive(target) and IsUnitHasAbility(target , OrbCenarius__EFFECT) then
+            set OrbCenarius__IsFromOrbOfCenarius=true
             call healst(caster , target , heal)
-            set OrbCenarius___IsFromOrbOfCenarius=false
+            set OrbCenarius__IsFromOrbOfCenarius=false
         else
-            call UnitRemoveAbility(target, OrbCenarius___EFFECT)
-            call UnitRemoveAbility(target, OrbCenarius___BUFF)
+            call UnitRemoveAbility(target, OrbCenarius__EFFECT)
+            call UnitRemoveAbility(target, OrbCenarius__BUFF)
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
         endif
@@ -56019,20 +56019,20 @@ endfunction
         set target=null
     endfunction
 
-    function OrbCenarius___AfterHeal_Conditions takes nothing returns boolean
-        return IsHeroHasItem(Event_AfterHeal_Caster , OrbCenarius___ID_ITEM) and OrbCenarius___IsFromOrbOfCenarius == false
+    function OrbCenarius__AfterHeal_Conditions takes nothing returns boolean
+        return IsHeroHasItem(Event_AfterHeal_Caster , OrbCenarius__ID_ITEM) and OrbCenarius__IsFromOrbOfCenarius == false
     endfunction
     
-    function OrbCenarius___AfterHeal takes nothing returns nothing
+    function OrbCenarius__AfterHeal takes nothing returns nothing
         local unit caster= Event_AfterHeal_Caster
         local unit target= Event_AfterHeal_Target
-        local real heal= Event_AfterHeal_Heal * OrbCenarius___HEAL_EFFECTIVENESS
-        local real duration= timebonus(caster , OrbCenarius___DURATION)
+        local real heal= Event_AfterHeal_Heal * OrbCenarius__HEAL_EFFECTIVENESS
+        local real duration= timebonus(caster , OrbCenarius__DURATION)
         local integer id
     
-        call bufallst(caster , target , OrbCenarius___EFFECT , 0 , 0 , 0 , 0 , OrbCenarius___BUFF , "orbn" , duration)
+        call bufallst(caster , target , OrbCenarius__EFFECT , 0 , 0 , 0 , 0 , OrbCenarius__BUFF , "orbn" , duration)
         
-        set id=InvokeTimerWithUnit(target , "orbnc" , OrbCenarius___TICK , true , function OrbCenarius___OrbCenariusCast)
+        set id=InvokeTimerWithUnit(target , "orbnc" , OrbCenarius__TICK , true , function OrbCenarius__OrbCenariusCast)
         call SaveUnitHandle(udg_hash, id, StringHash("orbncc"), caster)
         call SaveReal(udg_hash, id, StringHash("orbnc"), heal)
         
@@ -56041,17 +56041,17 @@ endfunction
     endfunction
     
     //Delete buff
-    function OrbCenarius___DeleteBuff_Conditions takes nothing returns boolean
-        return IsUnitHasAbility(Event_DeleteBuff_Unit , OrbCenarius___EFFECT)
+    function OrbCenarius__DeleteBuff_Conditions takes nothing returns boolean
+        return IsUnitHasAbility(Event_DeleteBuff_Unit , OrbCenarius__EFFECT)
     endfunction
     
-    function OrbCenarius___DeleteBuff takes nothing returns nothing
-        call RemoveEffect(Event_DeleteBuff_Unit , OrbCenarius___EFFECT , OrbCenarius___BUFF)
+    function OrbCenarius__DeleteBuff takes nothing returns nothing
+        call RemoveEffect(Event_DeleteBuff_Unit , OrbCenarius__EFFECT , OrbCenarius__BUFF)
     endfunction
     
-    function OrbCenarius___init takes nothing returns nothing
-        call CreateEventTrigger("Event_AfterHeal_Real" , function OrbCenarius___AfterHeal , function OrbCenarius___AfterHeal_Conditions)
-        call CreateEventTrigger("Event_DeleteBuff_Real" , function OrbCenarius___DeleteBuff , function OrbCenarius___DeleteBuff_Conditions)
+    function OrbCenarius__init takes nothing returns nothing
+        call CreateEventTrigger("Event_AfterHeal_Real" , function OrbCenarius__AfterHeal , function OrbCenarius__AfterHeal_Conditions)
+        call CreateEventTrigger("Event_DeleteBuff_Real" , function OrbCenarius__DeleteBuff , function OrbCenarius__DeleteBuff_Conditions)
     endfunction
 
 // scope OrbCenarius ends
@@ -56061,12 +56061,12 @@ endfunction
 // scope OrbRollingPlains begins
 
 
-    function OrbRollingPlains___AddPotencialTargets takes unit caster,unit target,group potencialTarget,group affected returns nothing
+    function OrbRollingPlains__AddPotencialTargets takes unit caster,unit target,group potencialTarget,group affected returns nothing
         local group g= CreateGroup()
         local unit u
     
         call GroupClear(potencialTarget)
-        call GroupEnumUnitsInRange(g, GetUnitX(target), GetUnitY(target), OrbRollingPlains___AREA_JUMP, null)
+        call GroupEnumUnitsInRange(g, GetUnitX(target), GetUnitY(target), OrbRollingPlains__AREA_JUMP, null)
         loop
             set u=FirstOfGroup(g)
             exitwhen u == null
@@ -56084,25 +56084,25 @@ endfunction
         set u=null
     endfunction
 
-    function OrbRollingPlains___ChainHeal takes unit caster returns nothing
+    function OrbRollingPlains__ChainHeal takes unit caster returns nothing
         local unit target
         local unit lastunit
         local group potencialTarget= CreateGroup()
         local group affected= CreateGroup()
         local integer i
         
-        set target=randomtarget(caster , OrbRollingPlains___AREA_FIRST_JUMP , TARGET_ALLY , RANDOM_TARGET_NOT_FULL_HEALTH , "" , "" , "")
+        set target=randomtarget(caster , OrbRollingPlains__AREA_FIRST_JUMP , TARGET_ALLY , RANDOM_TARGET_NOT_FULL_HEALTH , "" , "" , "")
         
         if target != null then
             set lastunit=caster
             set i=1
             loop
-                call Lightning_CreateLightning("HWPB" , GetUnitX(lastunit) , GetUnitY(lastunit) , GetUnitFlyHeight(lastunit) + 50 , GetUnitX(target) , GetUnitY(target) , GetUnitFlyHeight(target) + 50 , OrbRollingPlains___LIGHTNING_LIFE_TIME)
+                call Lightning_CreateLightning("HWPB" , GetUnitX(lastunit) , GetUnitY(lastunit) , GetUnitFlyHeight(lastunit) + 50 , GetUnitX(target) , GetUnitY(target) , GetUnitFlyHeight(target) + 50 , OrbRollingPlains__LIGHTNING_LIFE_TIME)
                 
-                call healst(caster , target , OrbRollingPlains___HEAL)
+                call healst(caster , target , OrbRollingPlains__HEAL)
                 
-                call OrbRollingPlains___AddPotencialTargets(caster , target , potencialTarget , affected)
-                exitwhen i >= OrbRollingPlains___JUMPS_LIMIT or IsUnitGroupEmptyBJ(potencialTarget)
+                call OrbRollingPlains__AddPotencialTargets(caster , target , potencialTarget , affected)
+                exitwhen i >= OrbRollingPlains__JUMPS_LIMIT or IsUnitGroupEmptyBJ(potencialTarget)
                 set lastunit=target
                 set target=GroupPickRandomUnit(potencialTarget)
                 call GroupAddUnit(affected, target)
@@ -56123,31 +56123,31 @@ endfunction
 
 
     //Damage Trigger
-    function OrbRollingPlains___AfterDamageEvent_Conditions takes nothing returns boolean
-        return IsHeroHasItem(udg_DamageEventSource , OrbRollingPlains___ID_ITEM) and udg_DamageEventAmount >= OrbRollingPlains___COUNT_NEEDED and OrbRollingPlains___IsLoop == false
+    function OrbRollingPlains__AfterDamageEvent_Conditions takes nothing returns boolean
+        return IsHeroHasItem(udg_DamageEventSource , OrbRollingPlains__ID_ITEM) and udg_DamageEventAmount >= OrbRollingPlains__COUNT_NEEDED and OrbRollingPlains__IsLoop == false
     endfunction
     
-    function OrbRollingPlains___AfterDamageEvent takes nothing returns nothing
-        set OrbRollingPlains___IsLoop=true
-        call OrbRollingPlains___ChainHeal(udg_DamageEventSource)
-        set OrbRollingPlains___IsLoop=false
+    function OrbRollingPlains__AfterDamageEvent takes nothing returns nothing
+        set OrbRollingPlains__IsLoop=true
+        call OrbRollingPlains__ChainHeal(udg_DamageEventSource)
+        set OrbRollingPlains__IsLoop=false
     endfunction
 
 
     //Heal Trigger
-    function OrbRollingPlains___AfterHeal_Conditions takes nothing returns boolean
-        return IsHeroHasItem(Event_AfterHeal_Caster , OrbRollingPlains___ID_ITEM) and Event_AfterHeal_Heal >= OrbRollingPlains___COUNT_NEEDED and OrbRollingPlains___IsLoop == false
+    function OrbRollingPlains__AfterHeal_Conditions takes nothing returns boolean
+        return IsHeroHasItem(Event_AfterHeal_Caster , OrbRollingPlains__ID_ITEM) and Event_AfterHeal_Heal >= OrbRollingPlains__COUNT_NEEDED and OrbRollingPlains__IsLoop == false
     endfunction
     
-    function OrbRollingPlains___AfterHeal takes nothing returns nothing
-        set OrbRollingPlains___IsLoop=true
-        call OrbRollingPlains___ChainHeal(Event_AfterHeal_Caster)
-        set OrbRollingPlains___IsLoop=false
+    function OrbRollingPlains__AfterHeal takes nothing returns nothing
+        set OrbRollingPlains__IsLoop=true
+        call OrbRollingPlains__ChainHeal(Event_AfterHeal_Caster)
+        set OrbRollingPlains__IsLoop=false
     endfunction
     
-    function OrbRollingPlains___init takes nothing returns nothing
-        call CreateEventTrigger("Event_AfterHeal_Real" , function OrbRollingPlains___AfterHeal , function OrbRollingPlains___AfterHeal_Conditions)
-        call CreateEventTrigger("udg_AfterDamageEvent" , function OrbRollingPlains___AfterDamageEvent , function OrbRollingPlains___AfterDamageEvent_Conditions)
+    function OrbRollingPlains__init takes nothing returns nothing
+        call CreateEventTrigger("Event_AfterHeal_Real" , function OrbRollingPlains__AfterHeal , function OrbRollingPlains__AfterHeal_Conditions)
+        call CreateEventTrigger("udg_AfterDamageEvent" , function OrbRollingPlains__AfterDamageEvent , function OrbRollingPlains__AfterDamageEvent_Conditions)
     endfunction
 
 // scope OrbRollingPlains ends
@@ -56157,14 +56157,14 @@ endfunction
 // scope OrbFrozenThundra begins
 
 
-    function OrbFrozenThundra___AfterHeal_Conditions takes nothing returns boolean
-        if IsHeroHasItem(Event_AfterHeal_Caster , OrbFrozenThundra___ID_ITEM) == false then
+    function OrbFrozenThundra__AfterHeal_Conditions takes nothing returns boolean
+        if IsHeroHasItem(Event_AfterHeal_Caster , OrbFrozenThundra__ID_ITEM) == false then
             return false
-        elseif GetHealthPercent(Event_AfterHeal_Target) - Event_AfterHeal_Heal > OrbFrozenThundra___HEALTH_PERCENT_NEEDED then
+        elseif GetHealthPercent(Event_AfterHeal_Target) - Event_AfterHeal_Heal > OrbFrozenThundra__HEALTH_PERCENT_NEEDED then
             return false
         elseif LoadBoolean(udg_hash, GetHandleId(Event_AfterHeal_Caster), StringHash("orbth")) then
             return false
-        elseif OrbFrozenThundra___isLoop then
+        elseif OrbFrozenThundra__isLoop then
             return false
         elseif IsUnitType(Event_AfterHeal_Target, UNIT_TYPE_HERO) == false then
             return false
@@ -56182,27 +56182,27 @@ endfunction
         set u=null
     endfunction    
     
-    function OrbFrozenThundra___AfterHeal takes nothing returns nothing
+    function OrbFrozenThundra__AfterHeal takes nothing returns nothing
         local unit caster= Event_AfterHeal_Caster
         local unit target= Event_AfterHeal_Target
         
         call SaveBoolean(udg_hash, GetHandleId(caster), StringHash("orbth"), true)
-        call BlzStartUnitAbilityCooldown(caster, 'A15D', OrbFrozenThundra___COOLDOWN)
+        call BlzStartUnitAbilityCooldown(caster, 'A15D', OrbFrozenThundra__COOLDOWN)
         
-        call PlaySpecialEffect(OrbFrozenThundra___ANIMATION , target)
-        set OrbFrozenThundra___isLoop=true
+        call PlaySpecialEffect(OrbFrozenThundra__ANIMATION , target)
+        set OrbFrozenThundra__isLoop=true
         call healst(caster , target , GetUnitState(target, UNIT_STATE_MAX_LIFE))
-        set OrbFrozenThundra___isLoop=false
+        set OrbFrozenThundra__isLoop=false
         
-        call InvokeTimerWithUnit(caster , "orbth" , OrbFrozenThundra___COOLDOWN , false , function OrbThundraEnd)
+        call InvokeTimerWithUnit(caster , "orbth" , OrbFrozenThundra__COOLDOWN , false , function OrbThundraEnd)
     
         set caster=null
         set target=null
     endfunction
 
     //===========================================================================
-    function OrbFrozenThundra___init takes nothing returns nothing
-        call CreateEventTrigger("Event_AfterHeal_Real" , function OrbFrozenThundra___AfterHeal , function OrbFrozenThundra___AfterHeal_Conditions)
+    function OrbFrozenThundra__init takes nothing returns nothing
+        call CreateEventTrigger("Event_AfterHeal_Real" , function OrbFrozenThundra__AfterHeal , function OrbFrozenThundra__AfterHeal_Conditions)
     endfunction
 // scope OrbFrozenThundra ends
 //===========================================================================
@@ -75024,10 +75024,10 @@ endfunction
 
 
     function Trig_GunMasterR_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == GunMasterR__ID_ABILITY
+        return GetSpellAbilityId() == GunMasterR___ID_ABILITY
     endfunction
 
-    function GunMasterR__DealDamage takes effect zone,integer id returns nothing
+    function GunMasterR___DealDamage takes effect zone,integer id returns nothing
         local unit caster= LoadUnitHandle(udg_hash, id, StringHash("codrc"))
         local real dmg= LoadReal(udg_hash, id, StringHash("codrdmg"))
         local group g= CreateGroup()
@@ -75035,10 +75035,10 @@ endfunction
         local real x
         local real y
 
-        set x=Math_GetRandomX(BlzGetLocalSpecialEffectX(zone) , GunMasterR__ZONE_SIZE)
-        set y=Math_GetRandomY(BlzGetLocalSpecialEffectY(zone) , GunMasterR__ZONE_SIZE)
-        call DestroyEffect(AddSpecialEffect(GunMasterR__EXPLODE_ANIMATION, x, y))
-        call GroupEnumUnitsInRange(g, x, y, GunMasterR__AREA, null)
+        set x=Math_GetRandomX(BlzGetLocalSpecialEffectX(zone) , GunMasterR___ZONE_SIZE)
+        set y=Math_GetRandomY(BlzGetLocalSpecialEffectY(zone) , GunMasterR___ZONE_SIZE)
+        call DestroyEffect(AddSpecialEffect(GunMasterR___EXPLODE_ANIMATION, x, y))
+        call GroupEnumUnitsInRange(g, x, y, GunMasterR___AREA, null)
         loop
             set u=FirstOfGroup(g)
             exitwhen u == null
@@ -75066,23 +75066,23 @@ endfunction
             call FlushChildHashtable(udg_hash, id)
             call DestroyTimer(GetExpiredTimer())
         else
-            call GunMasterR__DealDamage(zone , id)
+            call GunMasterR___DealDamage(zone , id)
             call SaveInteger(udg_hash, id, StringHash("codr"), count)
         endif
         
         set zone=null
     endfunction
     
-    function GunMasterR__SpawnZone takes unit caster,real x,real y,integer level returns nothing
-        local real damage= GunMasterR__DAMAGE_FIRST_LEVEL + ( GunMasterR__DAMAGE_LEVEL_BONUS * level )
+    function GunMasterR___SpawnZone takes unit caster,real x,real y,integer level returns nothing
+        local real damage= GunMasterR___DAMAGE_FIRST_LEVEL + ( GunMasterR___DAMAGE_LEVEL_BONUS * level )
         local integer id
         local effect zone
-        local integer count= R2I(GunMasterR__LIFE_TIME / GunMasterR__TICK)
+        local integer count= R2I(GunMasterR___LIFE_TIME / GunMasterR___TICK)
         
-        set zone=AddSpecialEffect(GunMasterR__ZONE_ANIMATION, x, y)
-        call BlzSetSpecialEffectScale(zone, GunMasterR__ZONE_SIZE / 100)
+        set zone=AddSpecialEffect(GunMasterR___ZONE_ANIMATION, x, y)
+        call BlzSetSpecialEffectScale(zone, GunMasterR___ZONE_SIZE / 100)
         
-        set id=InvokeTimerWithEffect(zone , "codr" , GunMasterR__TICK , true , function GunMasterRCast)
+        set id=InvokeTimerWithEffect(zone , "codr" , GunMasterR___TICK , true , function GunMasterRCast)
         call SaveReal(udg_hash, id, StringHash("codrdmg"), damage)
         call SaveInteger(udg_hash, id, StringHash("codr"), count)
         call SaveUnitHandle(udg_hash, id, StringHash("codrc"), caster)
@@ -75107,7 +75107,7 @@ endfunction
             set lvl=udg_Level
             set x=GetUnitX(caster) + GetRandomReal(- 650, 650)
             set y=GetUnitY(caster) + GetRandomReal(- 650, 650)
-            call textst(udg_string[0] + GetObjectName(GunMasterR__ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
+            call textst(udg_string[0] + GetObjectName(GunMasterR___ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
         else
             set caster=GetSpellAbilityUnit()
             set lvl=GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())
@@ -75115,12 +75115,12 @@ endfunction
             set y=GetLocationY(GetSpellTargetLoc())
         endif
         
-        call GunMasterR__SpawnZone(caster , x , y , lvl)
+        call GunMasterR___SpawnZone(caster , x , y , lvl)
         set caster=null
     endfunction
 
     //===========================================================================
-    function GunMasterR__init takes nothing returns nothing
+    function GunMasterR___init takes nothing returns nothing
         set gg_trg_GunMasterR=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_GunMasterR, EVENT_PLAYER_UNIT_SPELL_EFFECT)
         call TriggerAddCondition(gg_trg_GunMasterR, Condition(function Trig_GunMasterR_Conditions))
@@ -76020,20 +76020,20 @@ endfunction
 // scope GamblerE begins
 
 
-    function GamblerE__DamageModifierEvent_Conditions takes nothing returns boolean
+    function GamblerE___DamageModifierEvent_Conditions takes nothing returns boolean
         if udg_IsDamageSpell then
             return false
-        elseif IsUnitHasAbility(udg_DamageEventSource , GamblerE__ID_ABILITY) == false and IsUnitHasAbility(udg_DamageEventSource , GamblerE__ID_ABILITY_ALT) == false then
+        elseif IsUnitHasAbility(udg_DamageEventSource , GamblerE___ID_ABILITY) == false and IsUnitHasAbility(udg_DamageEventSource , GamblerE___ID_ABILITY_ALT) == false then
             return false
         elseif IsUnitAlly(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget)) then
             return false
-        elseif (luckylogic((udg_DamageEventSource ) , ( GamblerE__CHANCE) , 1 , 100)) == false then // INLINED!!
+        elseif (luckylogic((udg_DamageEventSource ) , ( GamblerE___CHANCE) , 1 , 100)) == false then // INLINED!!
             return false
         endif
         return true
     endfunction
 
-    function GamblerE__DamageModifierEvent takes nothing returns nothing
+    function GamblerE___DamageModifierEvent takes nothing returns nothing
         local unit caster= udg_DamageEventSource
         local unit target= udg_DamageEventTarget
         local integer lvl
@@ -76041,31 +76041,31 @@ endfunction
         local integer id
         local integer p
 
-        if IsUnitHasAbility(caster , GamblerE__ID_ABILITY_ALT) then
+        if IsUnitHasAbility(caster , GamblerE___ID_ABILITY_ALT) then
             set lvl=LoadInteger(udg_hash, GetHandleId(caster), StringHash("gmbwe"))
         else
-            set lvl=GetUnitAbilityLevel(caster, GamblerE__ID_ABILITY)
+            set lvl=GetUnitAbilityLevel(caster, GamblerE___ID_ABILITY)
         endif
         
-        call PlaySpecialEffect(GamblerE__ANIMATION , caster)
+        call PlaySpecialEffect(GamblerE___ANIMATION , caster)
         if rand == 1 then
-            set p=GamblerE__MANA_FIRST_LEVEL + ( GamblerE__MANA_LEVEL_BONUS * lvl )
+            set p=GamblerE___MANA_FIRST_LEVEL + ( GamblerE___MANA_LEVEL_BONUS * lvl )
             call manast(caster , null , p)
             call textst("|c002020FF +" + I2S(p) + " mana" , caster , 64 , 90 , 10 , 1)
         elseif rand == 2 then
-            set p=GamblerE__HEALTH_FIRST_LEVEL + ( GamblerE__HEALTH_LEVEL_BONUS * lvl )
+            set p=GamblerE___HEALTH_FIRST_LEVEL + ( GamblerE___HEALTH_LEVEL_BONUS * lvl )
             call healst(caster , null , p)
             call textst("|c0020FF20 +" + I2S(p) + " health" , caster , 64 , 90 , 10 , 1)
         elseif rand == 3 and combat(caster , false , 0) and not ( udg_fightmod[3] ) then
-            set p=GamblerE__GOLD_FIRST_LEVEL + ( GamblerE__GOLD_LEVEL_BONUS * lvl )
+            set p=GamblerE___GOLD_FIRST_LEVEL + ( GamblerE___GOLD_LEVEL_BONUS * lvl )
             call moneyst(caster , p)
             call textst("|cFFFFFC01 +" + I2S(p) + " gold" , caster , 64 , 90 , 10 , 1)
         elseif rand == 4 then
-            call UnitStun(caster , target , GamblerE__STUN_FIRST_LEVEL + ( GamblerE__STUN_LEVEL_BONUS * lvl ))
+            call UnitStun(caster , target , GamblerE___STUN_FIRST_LEVEL + ( GamblerE___STUN_LEVEL_BONUS * lvl ))
             call textst("|cFF7EBFF1stun" , caster , 64 , 90 , 10 , 1)
         elseif rand == 5 then
-            call bufst(caster , target , GamblerE__EFFECT , GamblerE__BUFF , "gmbe" , GamblerE__DURATION)
-            call debuffst(caster , target , null , 1 , GamblerE__DURATION)
+            call bufst(caster , target , GamblerE___EFFECT , GamblerE___BUFF , "gmbe" , GamblerE___DURATION)
+            call debuffst(caster , target , null , 1 , GamblerE___DURATION)
             call textst("armor" , caster , 64 , 90 , 10 , 1)
         endif
         
@@ -76074,8 +76074,8 @@ endfunction
     endfunction
 
     //===========================================================================
-    function GamblerE__init takes nothing returns nothing
-        call CreateEventTrigger("udg_DamageModifierEvent" , function GamblerE__DamageModifierEvent , function GamblerE__DamageModifierEvent_Conditions)
+    function GamblerE___init takes nothing returns nothing
+        call CreateEventTrigger("udg_DamageModifierEvent" , function GamblerE___DamageModifierEvent , function GamblerE___DamageModifierEvent_Conditions)
     endfunction
     
 // scope GamblerE ends
@@ -76086,7 +76086,7 @@ endfunction
 
 
     function Trig_GamblerR_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == GamblerR__ID_ABILITY and combat(GetSpellAbilityUnit() , true , GetSpellAbilityId()) and not ( udg_fightmod[3] )
+        return GetSpellAbilityId() == GamblerR___ID_ABILITY and combat(GetSpellAbilityUnit() , true , GetSpellAbilityId()) and not ( udg_fightmod[3] )
     endfunction
 
     function GamblerRCast takes nothing returns nothing
@@ -76095,8 +76095,8 @@ endfunction
         local integer luckBonus= LoadInteger(udg_hash, GetHandleId(u), StringHash("gmbr"))
         
         call luckyst(u , - luckBonus)
-        call UnitRemoveAbility(u, GamblerR__EFFECT)
-        call UnitRemoveAbility(u, GamblerR__BUFF)
+        call UnitRemoveAbility(u, GamblerR___EFFECT)
+        call UnitRemoveAbility(u, GamblerR___BUFF)
         
         call RemoveSavedInteger(udg_hash, GetHandleId(u), StringHash("gmbr"))
         call FlushChildHashtable(udg_hash, id)
@@ -76117,21 +76117,21 @@ endfunction
         elseif RandomLogic() then
             set caster=udg_Caster
             set lvl=udg_Level
-            call textst(udg_string[0] + GetObjectName(GamblerR__ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
-            set t=GamblerR__DURATION_FIRST_LEVEL + ( GamblerR__DURATION_LEVEL_BONUS * lvl )
+            call textst(udg_string[0] + GetObjectName(GamblerR___ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
+            set t=GamblerR___DURATION_FIRST_LEVEL + ( GamblerR___DURATION_LEVEL_BONUS * lvl )
         else
             set caster=GetSpellAbilityUnit()
             set lvl=GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())
-            set t=GamblerR__DURATION_FIRST_LEVEL + ( GamblerR__DURATION_LEVEL_BONUS * lvl )
+            set t=GamblerR___DURATION_FIRST_LEVEL + ( GamblerR___DURATION_LEVEL_BONUS * lvl )
         endif
         set t=timebonus(caster , t)
 
         if IsUnitType(caster, UNIT_TYPE_HERO) then
-            call luckyst(caster , GamblerR__LUCK_BONUS)
-            set isum=LoadInteger(udg_hash, GetHandleId(caster), StringHash("gmbr")) + GamblerR__LUCK_BONUS
+            call luckyst(caster , GamblerR___LUCK_BONUS)
+            set isum=LoadInteger(udg_hash, GetHandleId(caster), StringHash("gmbr")) + GamblerR___LUCK_BONUS
             
-            call UnitAddAbility(caster, GamblerR__EFFECT)
-            call DestroyEffect(AddSpecialEffectTarget(GamblerR__ANIMATION, caster, "overhead"))
+            call UnitAddAbility(caster, GamblerR___EFFECT)
+            call DestroyEffect(AddSpecialEffectTarget(GamblerR___ANIMATION, caster, "overhead"))
             
             call InvokeTimerWithUnit(caster , "gmbr" , t , false , function GamblerRCast)
             call SaveInteger(udg_hash, GetHandleId(caster), StringHash("gmbr"), isum)
@@ -76142,30 +76142,30 @@ endfunction
         set caster=null
     endfunction
     
-    function GamblerR__DeleteBuff_Conditions takes nothing returns boolean
-        return GetUnitAbilityLevel(Event_DeleteBuff_Unit, GamblerR__EFFECT) > 0
+    function GamblerR___DeleteBuff_Conditions takes nothing returns boolean
+        return GetUnitAbilityLevel(Event_DeleteBuff_Unit, GamblerR___EFFECT) > 0
     endfunction
     
-    function GamblerR__DeleteBuff takes nothing returns nothing
+    function GamblerR___DeleteBuff takes nothing returns nothing
         local unit hero= Event_DeleteBuff_Unit
         local integer luckBonus= LoadInteger(udg_hash, GetHandleId(hero), StringHash("gmbr"))
 
         call luckyst(hero , - luckBonus)
-        call UnitRemoveAbility(hero, GamblerR__EFFECT)
-        call UnitRemoveAbility(hero, GamblerR__BUFF)
+        call UnitRemoveAbility(hero, GamblerR___EFFECT)
+        call UnitRemoveAbility(hero, GamblerR___BUFF)
         call RemoveSavedInteger(udg_hash, GetHandleId(hero), StringHash("gmbr"))
         
         set hero=null
     endfunction
 
     //===========================================================================
-    function GamblerR__init takes nothing returns nothing
+    function GamblerR___init takes nothing returns nothing
         set gg_trg_GamblerR=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_GamblerR, EVENT_PLAYER_UNIT_SPELL_EFFECT)
         call TriggerAddCondition(gg_trg_GamblerR, Condition(function Trig_GamblerR_Conditions))
         call TriggerAddAction(gg_trg_GamblerR, function Trig_GamblerR_Actions)
         
-        call CreateEventTrigger("Event_DeleteBuff_Real" , function GamblerR__DeleteBuff , function GamblerR__DeleteBuff_Conditions)
+        call CreateEventTrigger("Event_DeleteBuff_Real" , function GamblerR___DeleteBuff , function GamblerR___DeleteBuff_Conditions)
     endfunction
 
 // scope GamblerR ends
@@ -76733,25 +76733,25 @@ endfunction
 
 
     function Trig_DealerE_Conditions takes nothing returns boolean
-        if IsUnitHasAbility(GetSpellAbilityUnit() , DealerE__ID_ABILITY) == false then
+        if IsUnitHasAbility(GetSpellAbilityUnit() , DealerE___ID_ABILITY) == false then
             return false
         elseif combat(GetSpellAbilityUnit() , false , 0) == false then
             return false
-        elseif (luckylogic((GetSpellAbilityUnit() ) , ( DealerE__CHANCE_FIRST_LEVEL + ( DealerE__CHANCE_LEVEL_BONUS * GetUnitAbilityLevel(GetSpellAbilityUnit(), DealerE__ID_ABILITY) )) , 1 , 100)) == false then // INLINED!!
+        elseif (luckylogic((GetSpellAbilityUnit() ) , ( DealerE___CHANCE_FIRST_LEVEL + ( DealerE___CHANCE_LEVEL_BONUS * GetUnitAbilityLevel(GetSpellAbilityUnit(), DealerE___ID_ABILITY) )) , 1 , 100)) == false then // INLINED!!
             return false
         endif
         return true
     endfunction
 
-    function DealerE__Alternative takes unit caster returns nothing
-        call SpawnBanana(caster , Math_GetRandomX(GetUnitX(caster) , DealerE__BANANA_SPAWN_SCATTER_ALTERNATIVE) , Math_GetRandomY(GetUnitY(caster) , DealerE__BANANA_SPAWN_SCATTER_ALTERNATIVE))
+    function DealerE___Alternative takes unit caster returns nothing
+        call SpawnBanana(caster , Math_GetRandomX(GetUnitX(caster) , DealerE___BANANA_SPAWN_SCATTER_ALTERNATIVE) , Math_GetRandomY(GetUnitY(caster) , DealerE___BANANA_SPAWN_SCATTER_ALTERNATIVE))
         
         set caster=null
     endfunction
     
-    function DealerE__Main takes unit caster,unit target returns nothing
+    function DealerE___Main takes unit caster,unit target returns nothing
     
-        call PlaySpecialEffect(DealerE__ANIMATION , caster)
+        call PlaySpecialEffect(DealerE___ANIMATION , caster)
         set udg_CastLogic=true
         set udg_Caster=caster
         set udg_Target=target
@@ -76768,9 +76768,9 @@ endfunction
         local unit hero= GetSpellAbilityUnit()
         
         if Aspects_IsHeroAspectActive(hero , ASPECT_02) then
-            call DealerE__Alternative(hero)
+            call DealerE___Alternative(hero)
         else
-            call DealerE__Main(hero , GetSpellTargetUnit())
+            call DealerE___Main(hero , GetSpellTargetUnit())
         endif
         
         set hero=null
@@ -76837,10 +76837,10 @@ endfunction
 
 
     function Trig_BananaDeath_Conditions takes nothing returns boolean
-        return GetUnitTypeId(GetDyingUnit()) == BananaDeath__ID_BANANA
+        return GetUnitTypeId(GetDyingUnit()) == BananaDeath___ID_BANANA
     endfunction
     
-    function BananaDeath__BananaBonus takes unit hero,unit target,real heal,real gold returns nothing
+    function BananaDeath___BananaBonus takes unit hero,unit target,real heal,real gold returns nothing
         call healst(hero , target , heal)
         if combat(target , false , 0) and udg_fightmod[3] == false and gold > 0 then
             call moneyst(target , R2I(gold * GetUnitSpellPower(hero)))
@@ -76850,14 +76850,14 @@ endfunction
         set target=null
     endfunction
         
-    function BananaDeath__Alternative_01 takes unit hero returns nothing
+    function BananaDeath___Alternative_01 takes unit hero returns nothing
         local integer i
         
         set i=1
         loop
             exitwhen i > PLAYERS_LIMIT
             if unitst(udg_hero[i] , hero , TARGET_ALLY) then
-                call BananaDeath__BananaBonus(hero , udg_hero[i] , BananaDeath__HEAL , 0)
+                call BananaDeath___BananaBonus(hero , udg_hero[i] , BananaDeath___HEAL , 0)
             endif
             set i=i + 1
         endloop
@@ -76865,9 +76865,9 @@ endfunction
         set hero=null
     endfunction
     
-    function BananaDeath__Alternative_03 takes unit hero,unit killer returns nothing
-        local integer goldToHero= R2I(BananaDeath__GOLD * BananaDeath__GOLD_TO_HERO_ALTERNATIVE_03)
-        local integer goldToOthers= R2I(BananaDeath__GOLD * BananaDeath__GOLD_TO_OTHERS_ALTERNATIVE_03)
+    function BananaDeath___Alternative_03 takes unit hero,unit killer returns nothing
+        local integer goldToHero= R2I(BananaDeath___GOLD * BananaDeath___GOLD_TO_HERO_ALTERNATIVE_03)
+        local integer goldToOthers= R2I(BananaDeath___GOLD * BananaDeath___GOLD_TO_OTHERS_ALTERNATIVE_03)
         local integer i= 0
     
         if hero != killer and IsUnitType(killer, UNIT_TYPE_HERO) and unitst(killer , hero , TARGET_ALLY) and killer != null then
@@ -76875,23 +76875,23 @@ endfunction
             loop
                 exitwhen i > PLAYERS_LIMIT
                 if hero == udg_hero[i] then
-                    call BananaDeath__BananaBonus(hero , hero , BananaDeath__HEAL , goldToHero)
+                    call BananaDeath___BananaBonus(hero , hero , BananaDeath___HEAL , goldToHero)
                 elseif unitst(udg_hero[i] , hero , TARGET_ALLY) then
-                    call BananaDeath__BananaBonus(hero , udg_hero[i] , BananaDeath__HEAL , goldToOthers)
+                    call BananaDeath___BananaBonus(hero , udg_hero[i] , BananaDeath___HEAL , goldToOthers)
                 endif
                 set i=i + 1
             endloop
         elseif IsUnitAlive(hero) then
-            call BananaDeath__BananaBonus(hero , hero , BananaDeath__HEAL , goldToHero)
+            call BananaDeath___BananaBonus(hero , hero , BananaDeath___HEAL , goldToHero)
         endif
     
         set hero=null
         set killer=null
     endfunction
     
-    function BananaDeath__Main takes unit hero returns nothing
+    function BananaDeath___Main takes unit hero returns nothing
         if IsUnitAlive(hero) then
-            call BananaDeath__BananaBonus(hero , hero , BananaDeath__HEAL , BananaDeath__GOLD)
+            call BananaDeath___BananaBonus(hero , hero , BananaDeath___HEAL , BananaDeath___GOLD)
         endif
         
         set hero=null
@@ -76901,18 +76901,18 @@ endfunction
         local unit ownerHero= udg_hero[GetPlayerId(GetOwningPlayer(GetDyingUnit())) + 1]
         
         if Aspects_IsHeroAspectActive(ownerHero , ASPECT_01) then
-            call BananaDeath__Alternative_01(ownerHero)
+            call BananaDeath___Alternative_01(ownerHero)
         elseif Aspects_IsHeroAspectActive(ownerHero , ASPECT_03) then
-            call BananaDeath__Alternative_03(ownerHero , GetKillingUnit())
+            call BananaDeath___Alternative_03(ownerHero , GetKillingUnit())
         else
-            call BananaDeath__Main(ownerHero)
+            call BananaDeath___Main(ownerHero)
         endif
 
         set ownerHero=null
     endfunction
 
     //===========================================================================
-    function BananaDeath__init takes nothing returns nothing
+    function BananaDeath___init takes nothing returns nothing
         set gg_trg_BananaDeath=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_BananaDeath, EVENT_PLAYER_UNIT_DEATH)
         call TriggerAddCondition(gg_trg_BananaDeath, Condition(function Trig_BananaDeath_Conditions))
@@ -77428,7 +77428,7 @@ endfunction
         return GetSpellAbilityId() == 'A14P'
     endfunction
 
-    function MephistarQ__SummonNewUnit takes unit caster,integer lvl returns nothing
+    function MephistarQ___SummonNewUnit takes unit caster,integer lvl returns nothing
         local unit newUnit
         local real sp
     
@@ -77474,7 +77474,7 @@ endfunction
             call h__RemoveUnit(oldpet)
         endif
 
-        call MephistarQ__SummonNewUnit(caster , lvl)
+        call MephistarQ___SummonNewUnit(caster , lvl)
 
         set caster=null
         set oldpet=null
@@ -77953,8 +77953,8 @@ endfunction
 // scope RunesmithQ begins
 
     
-    function RunesmithQ__Trig_RunesmithQ_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == RunesmithQ__ID_ABILITY and combat(GetSpellAbilityUnit() , true , GetSpellAbilityId())
+    function RunesmithQ___Trig_RunesmithQ_Conditions takes nothing returns boolean
+        return GetSpellAbilityId() == RunesmithQ___ID_ABILITY and combat(GetSpellAbilityUnit() , true , GetSpellAbilityId())
     endfunction
     
     function Trig_RunesmithQ_Actions takes nothing returns nothing
@@ -77968,19 +77968,19 @@ endfunction
         elseif RandomLogic() then
             set caster=udg_Caster
             set lvl=udg_Level
-            call textst(udg_string[0] + GetObjectName(RunesmithQ__ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
+            call textst(udg_string[0] + GetObjectName(RunesmithQ___ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
         else
             set caster=GetSpellAbilityUnit()
             set lvl=GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())
         endif
         
-        set charge=LoadInteger(udg_hash, GetHandleId(caster), StringHash(RunesmithQ__ID_HASH_TS))
+        set charge=LoadInteger(udg_hash, GetHandleId(caster), StringHash(RunesmithQ___ID_HASH_TS))
         
         if charge < lvl then
             set charge=charge + 1
-            call SaveInteger(udg_hash, GetHandleId(caster), StringHash(RunesmithQ__ID_HASH_TS), charge)
+            call SaveInteger(udg_hash, GetHandleId(caster), StringHash(RunesmithQ___ID_HASH_TS), charge)
             call textst("|c00fEBA0E" + I2S(charge) , caster , 64 , 90 , 10 , 1)
-            call DestroyEffect(AddSpecialEffectTarget(RunesmithQ__EFFECT, caster, "origin"))
+            call DestroyEffect(AddSpecialEffectTarget(RunesmithQ___EFFECT, caster, "origin"))
         else
             call textst("|c00fEBA0EMAX" , caster , 64 , 90 , 10 , 1)
         endif
@@ -77989,10 +77989,10 @@ endfunction
     endfunction
 
     //===========================================================================
-    function RunesmithQ__init takes nothing returns nothing
+    function RunesmithQ___init takes nothing returns nothing
         set gg_trg_RunesmithQ=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_RunesmithQ, EVENT_PLAYER_UNIT_SPELL_EFFECT)
-        call TriggerAddCondition(gg_trg_RunesmithQ, Condition(function RunesmithQ__Trig_RunesmithQ_Conditions))
+        call TriggerAddCondition(gg_trg_RunesmithQ, Condition(function RunesmithQ___Trig_RunesmithQ_Conditions))
         call TriggerAddAction(gg_trg_RunesmithQ, function Trig_RunesmithQ_Actions)
     endfunction
     
@@ -78003,23 +78003,23 @@ endfunction
 // scope RunesmithQHit begins
 
     
-    function RunesmithQHit__Trig_RunesmithQHit_Conditions takes nothing returns boolean
-        return udg_IsDamageSpell == false and LoadInteger(udg_hash, GetHandleId(udg_DamageEventSource), StringHash(RunesmithQHit__ID_HASH_TS)) > 0
+    function RunesmithQHit___Trig_RunesmithQHit_Conditions takes nothing returns boolean
+        return udg_IsDamageSpell == false and LoadInteger(udg_hash, GetHandleId(udg_DamageEventSource), StringHash(RunesmithQHit___ID_HASH_TS)) > 0
     endfunction
     
     function Trig_RunesmithQHit_Actions takes nothing returns nothing
-        local integer charge= LoadInteger(udg_hash, GetHandleId(udg_DamageEventSource), StringHash(RunesmithQHit__ID_HASH_TS))
+        local integer charge= LoadInteger(udg_hash, GetHandleId(udg_DamageEventSource), StringHash(RunesmithQHit___ID_HASH_TS))
         local integer dmg= ( 1 + charge ) * BlzGetUnitWeaponIntegerField(udg_DamageEventSource, UNIT_WEAPON_IF_ATTACK_DAMAGE_BASE, 0)
      
-        call DestroyEffect(AddSpecialEffectTarget(RunesmithQHit__EFFECT, udg_DamageEventTarget, "origin"))
+        call DestroyEffect(AddSpecialEffectTarget(RunesmithQHit___EFFECT, udg_DamageEventTarget, "origin"))
         call UnitStun(udg_DamageEventSource , udg_DamageEventTarget , I2R(charge))
-        call SaveInteger(udg_hash, GetHandleId(udg_DamageEventSource), StringHash(RunesmithQHit__ID_HASH_TS), 0)
+        call SaveInteger(udg_hash, GetHandleId(udg_DamageEventSource), StringHash(RunesmithQHit___ID_HASH_TS), 0)
         call UnitDamageTarget(udg_DamageEventSource, udg_DamageEventTarget, dmg, true, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)
     endfunction
 
     //===========================================================================
-    function RunesmithQHit__init takes nothing returns nothing
-        call CreateEventTrigger("udg_AfterDamageEvent" , function Trig_RunesmithQHit_Actions , function RunesmithQHit__Trig_RunesmithQHit_Conditions)
+    function RunesmithQHit___init takes nothing returns nothing
+        call CreateEventTrigger("udg_AfterDamageEvent" , function Trig_RunesmithQHit_Actions , function RunesmithQHit___Trig_RunesmithQHit_Conditions)
     endfunction
     
 // scope RunesmithQHit ends
@@ -78029,21 +78029,21 @@ endfunction
 // scope RunesmithW begins
 
     
-    function RunesmithW__Trig_RunesmithW_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == RunesmithW__ID_ABILITY and combat(GetSpellAbilityUnit() , true , GetSpellAbilityId())
+    function RunesmithW___Trig_RunesmithW_Conditions takes nothing returns boolean
+        return GetSpellAbilityId() == RunesmithW___ID_ABILITY and combat(GetSpellAbilityUnit() , true , GetSpellAbilityId())
     endfunction
     
     function RunesmithW_Cancel takes unit u returns nothing
-        call UnitRemoveAbilityBJ(RunesmithW__ID_ABILITY_ETHEREAL, u)
-        call RemoveSavedHandle(udg_hash, GetHandleId(LoadUnitHandle(udg_hash, GetHandleId(u), StringHash(RunesmithW__ID_HASH_DECOY_SUMMON))), StringHash(RunesmithW__ID_HASH_DECOY))
-        call KillUnit(LoadUnitHandle(udg_hash, GetHandleId(u), StringHash(RunesmithW__ID_HASH_DECOY_SUMMON)))
-        call RemoveSavedHandle(udg_hash, GetHandleId(u), StringHash(RunesmithW__ID_HASH_DECOY_SUMMON))
-        call RemoveSavedHandle(udg_hash, GetHandleId(LoadTimerHandle(udg_hash, GetHandleId(u), StringHash(RunesmithW__ID_HASH_DECOY))), StringHash(RunesmithW__ID_HASH_DECOY))
-        call DestroyTimer(LoadTimerHandle(udg_hash, GetHandleId(u), StringHash(RunesmithW__ID_HASH_DECOY)))
+        call UnitRemoveAbilityBJ(RunesmithW___ID_ABILITY_ETHEREAL, u)
+        call RemoveSavedHandle(udg_hash, GetHandleId(LoadUnitHandle(udg_hash, GetHandleId(u), StringHash(RunesmithW___ID_HASH_DECOY_SUMMON))), StringHash(RunesmithW___ID_HASH_DECOY))
+        call KillUnit(LoadUnitHandle(udg_hash, GetHandleId(u), StringHash(RunesmithW___ID_HASH_DECOY_SUMMON)))
+        call RemoveSavedHandle(udg_hash, GetHandleId(u), StringHash(RunesmithW___ID_HASH_DECOY_SUMMON))
+        call RemoveSavedHandle(udg_hash, GetHandleId(LoadTimerHandle(udg_hash, GetHandleId(u), StringHash(RunesmithW___ID_HASH_DECOY))), StringHash(RunesmithW___ID_HASH_DECOY))
+        call DestroyTimer(LoadTimerHandle(udg_hash, GetHandleId(u), StringHash(RunesmithW___ID_HASH_DECOY)))
     endfunction
     
-    function RunesmithW__RunesmithW_End takes nothing returns nothing
-        call RunesmithW_Cancel(LoadUnitHandle(udg_hash, GetHandleId(GetExpiredTimer()), StringHash(RunesmithW__ID_HASH_DECOY)))
+    function RunesmithW___RunesmithW_End takes nothing returns nothing
+        call RunesmithW_Cancel(LoadUnitHandle(udg_hash, GetHandleId(GetExpiredTimer()), StringHash(RunesmithW___ID_HASH_DECOY)))
     endfunction
     
     function Trig_RunesmithW_Actions takes nothing returns nothing
@@ -78064,42 +78064,42 @@ endfunction
             set lvl=GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())
         endif
         
-        set t=timebonus(caster , RunesmithW__DURATION)
-        set rate=RunesmithW__DECOY_BASE_RATE + ( RunesmithW__DECOY_RATE_PER_LVL * lvl )
+        set t=timebonus(caster , RunesmithW___DURATION)
+        set rate=RunesmithW___DECOY_BASE_RATE + ( RunesmithW___DECOY_RATE_PER_LVL * lvl )
         
-        if GetUnitAbilityLevel(caster, RunesmithW__ID_ABILITY_ETHEREAL) > 0 then
+        if GetUnitAbilityLevel(caster, RunesmithW___ID_ABILITY_ETHEREAL) > 0 then
             call RunesmithW_Cancel(caster)
         endif
         
-        call SetPlayerAbilityAvailableBJ(false, RunesmithW__ID_ABILITY_ETHEREAL, GetOwningPlayer(caster))
-        call UnitAddAbilityBJ(RunesmithW__ID_ABILITY_ETHEREAL, caster)
-        set bj_lastCreatedUnit=CreateUnit(GetOwningPlayer(caster), RunesmithW__ID_DECOY, GetUnitX(caster), GetUnitY(caster), GetUnitFacing(caster))
+        call SetPlayerAbilityAvailableBJ(false, RunesmithW___ID_ABILITY_ETHEREAL, GetOwningPlayer(caster))
+        call UnitAddAbilityBJ(RunesmithW___ID_ABILITY_ETHEREAL, caster)
+        set bj_lastCreatedUnit=CreateUnit(GetOwningPlayer(caster), RunesmithW___ID_DECOY, GetUnitX(caster), GetUnitY(caster), GetUnitFacing(caster))
         call BlzSetUnitMaxHP(bj_lastCreatedUnit, R2I(BlzGetUnitMaxHP(caster) * rate))
         call BlzSetUnitArmor(bj_lastCreatedUnit, R2I(BlzGetUnitArmor(caster) * rate))
         call BlzSetUnitRealFieldBJ(bj_lastCreatedUnit, UNIT_RF_HIT_POINTS_REGENERATION_RATE, ( BlzGetUnitRealField(caster, UNIT_RF_HIT_POINTS_REGENERATION_RATE) * rate ))
         call SetUnitLifeBJ(bj_lastCreatedUnit, GetUnitState(caster, UNIT_STATE_LIFE) * rate)
         call BlzSetUnitBaseDamage(bj_lastCreatedUnit, R2I(GetUnitDamage(caster) * rate) - GetUnitAvgDiceDamage(caster), 0)
-        call DestroyEffect(AddSpecialEffectTarget(RunesmithW__SPAWN_EFFECT, bj_lastCreatedUnit, "origin"))
+        call DestroyEffect(AddSpecialEffectTarget(RunesmithW___SPAWN_EFFECT, bj_lastCreatedUnit, "origin"))
         call UnitApplyTimedLife(bj_lastCreatedUnit, 'BTLF', t)
         call SetUnitAnimation(bj_lastCreatedUnit, "morph")
         call AddUnitAnimationPropertiesBJ(true, "alternate", bj_lastCreatedUnit)
         
-        if LoadTimerHandle(udg_hash, GetHandleId(caster), StringHash(RunesmithW__ID_HASH_DECOY)) == null then
-            call SaveTimerHandle(udg_hash, GetHandleId(caster), StringHash(RunesmithW__ID_HASH_DECOY), CreateTimer())
+        if LoadTimerHandle(udg_hash, GetHandleId(caster), StringHash(RunesmithW___ID_HASH_DECOY)) == null then
+            call SaveTimerHandle(udg_hash, GetHandleId(caster), StringHash(RunesmithW___ID_HASH_DECOY), CreateTimer())
         endif
-        call SaveUnitHandle(udg_hash, GetHandleId(LoadTimerHandle(udg_hash, GetHandleId(caster), StringHash(RunesmithW__ID_HASH_DECOY))), StringHash(RunesmithW__ID_HASH_DECOY), caster)
-        call SaveUnitHandle(udg_hash, GetHandleId(caster), StringHash(RunesmithW__ID_HASH_DECOY_SUMMON), bj_lastCreatedUnit)
-        call SaveUnitHandle(udg_hash, GetHandleId(bj_lastCreatedUnit), StringHash(RunesmithW__ID_HASH_DECOY), caster)
-        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(caster), StringHash(RunesmithW__ID_HASH_DECOY)), t, false, function RunesmithW__RunesmithW_End)
+        call SaveUnitHandle(udg_hash, GetHandleId(LoadTimerHandle(udg_hash, GetHandleId(caster), StringHash(RunesmithW___ID_HASH_DECOY))), StringHash(RunesmithW___ID_HASH_DECOY), caster)
+        call SaveUnitHandle(udg_hash, GetHandleId(caster), StringHash(RunesmithW___ID_HASH_DECOY_SUMMON), bj_lastCreatedUnit)
+        call SaveUnitHandle(udg_hash, GetHandleId(bj_lastCreatedUnit), StringHash(RunesmithW___ID_HASH_DECOY), caster)
+        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(caster), StringHash(RunesmithW___ID_HASH_DECOY)), t, false, function RunesmithW___RunesmithW_End)
         
         set caster=null
     endfunction
 
     //===========================================================================
-    function RunesmithW__init takes nothing returns nothing
+    function RunesmithW___init takes nothing returns nothing
         set gg_trg_RunesmithW=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_RunesmithW, EVENT_PLAYER_UNIT_SPELL_EFFECT)
-        call TriggerAddCondition(gg_trg_RunesmithW, Condition(function RunesmithW__Trig_RunesmithW_Conditions))
+        call TriggerAddCondition(gg_trg_RunesmithW, Condition(function RunesmithW___Trig_RunesmithW_Conditions))
         call TriggerAddAction(gg_trg_RunesmithW, function Trig_RunesmithW_Actions)
     endfunction
     
@@ -78111,15 +78111,15 @@ endfunction
 
     
     function Trig_RunesmithWDeath_Conditions takes nothing returns boolean
-        return GetUnitTypeId(GetDyingUnit()) == RunesmithWDeath__ID_DECOY
+        return GetUnitTypeId(GetDyingUnit()) == RunesmithWDeath___ID_DECOY
     endfunction
 
     function Trig_RunesmithWDeath_Actions takes nothing returns nothing
-        call RunesmithW_Cancel(LoadUnitHandle(udg_hash, GetHandleId(GetDyingUnit()), StringHash(RunesmithWDeath__ID_HASH_DECOY)))
+        call RunesmithW_Cancel(LoadUnitHandle(udg_hash, GetHandleId(GetDyingUnit()), StringHash(RunesmithWDeath___ID_HASH_DECOY)))
     endfunction
 
     //===========================================================================
-    function RunesmithWDeath__init takes nothing returns nothing
+    function RunesmithWDeath___init takes nothing returns nothing
         set gg_trg_RunesmithWDeath=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_RunesmithWDeath, EVENT_PLAYER_UNIT_DEATH)
         call TriggerAddCondition(gg_trg_RunesmithWDeath, Condition(function Trig_RunesmithWDeath_Conditions))
@@ -78137,76 +78137,76 @@ endfunction
 // scope RunesmithE begins
 
     
-    function RunesmithE__Trig_RunesmithE_Conditions takes nothing returns boolean
-        return not ( udg_fightmod[3] ) and GetUnitAbilityLevel(GetManipulatingUnit(), RunesmithE__ID_ABILITY) > 0 and ( GetItemTypeId(GetManipulatedItem()) == RunesmithE__ID_RUNE_LG or GetItemTypeId(GetManipulatedItem()) == RunesmithE__ID_RUNE_RC or GetItemTypeId(GetManipulatedItem()) == RunesmithE__ID_RUNE_SH or GetItemTypeId(GetManipulatedItem()) == RunesmithE__ID_RUNE_EM or GetItemTypeId(GetManipulatedItem()) == RunesmithE__ID_RUNE_ST or GetItemTypeId(GetManipulatedItem()) == RunesmithE__ID_RUNE_IL )
+    function RunesmithE___Trig_RunesmithE_Conditions takes nothing returns boolean
+        return not ( udg_fightmod[3] ) and GetUnitAbilityLevel(GetManipulatingUnit(), RunesmithE___ID_ABILITY) > 0 and ( GetItemTypeId(GetManipulatedItem()) == RunesmithE___ID_RUNE_LG or GetItemTypeId(GetManipulatedItem()) == RunesmithE___ID_RUNE_RC or GetItemTypeId(GetManipulatedItem()) == RunesmithE___ID_RUNE_SH or GetItemTypeId(GetManipulatedItem()) == RunesmithE___ID_RUNE_EM or GetItemTypeId(GetManipulatedItem()) == RunesmithE___ID_RUNE_ST or GetItemTypeId(GetManipulatedItem()) == RunesmithE___ID_RUNE_IL )
     endfunction
 
-    function RunesmithE__giveRC takes nothing returns nothing
-        local real gold_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_GAINED_GOLD))
+    function RunesmithE___giveRC takes nothing returns nothing
+        local real gold_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_GAINED_GOLD))
         set gold_gained=gold_gained + 50
-        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_GAINED_GOLD), gold_gained)
+        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_GAINED_GOLD), gold_gained)
         call moneyst(GetEnumUnit() , 50)
     endfunction
     
-    function RunesmithE__addRegen takes nothing returns nothing
-        local real hpr_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_GAINED_HPR))
-        set hpr_gained=hpr_gained + RunesmithE__LG_REGEN_BOOST
-        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_GAINED_HPR), hpr_gained)
-        call BlzSetUnitRealFieldBJ(GetEnumUnit(), UNIT_RF_HIT_POINTS_REGENERATION_RATE, ( BlzGetUnitRealField(GetEnumUnit(), UNIT_RF_HIT_POINTS_REGENERATION_RATE) + RunesmithE__LG_REGEN_BOOST ))
+    function RunesmithE___addRegen takes nothing returns nothing
+        local real hpr_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_GAINED_HPR))
+        set hpr_gained=hpr_gained + RunesmithE___LG_REGEN_BOOST
+        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_GAINED_HPR), hpr_gained)
+        call BlzSetUnitRealFieldBJ(GetEnumUnit(), UNIT_RF_HIT_POINTS_REGENERATION_RATE, ( BlzGetUnitRealField(GetEnumUnit(), UNIT_RF_HIT_POINTS_REGENERATION_RATE) + RunesmithE___LG_REGEN_BOOST ))
         set bj_lastCreatedUnit=CreateUnit(GetOwningPlayer(GetEnumUnit()), 'u000', GetUnitX(GetEnumUnit()), GetUnitY(GetEnumUnit()) + 100, 270)
-        call textst("|c00FF9696 +" + R2SW(RunesmithE__LG_REGEN_BOOST, 1, 1) + " regen" , bj_lastCreatedUnit , 64 , 90 , 10 , 1)
+        call textst("|c00FF9696 +" + R2SW(RunesmithE___LG_REGEN_BOOST, 1, 1) + " regen" , bj_lastCreatedUnit , 64 , 90 , 10 , 1)
         call h__RemoveUnit(bj_lastCreatedUnit)
     endfunction
     
-    function RunesmithE__giveSH takes nothing returns nothing
-        local real hp_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_GAINED_HP))
+    function RunesmithE___giveSH takes nothing returns nothing
+        local real hp_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_GAINED_HP))
         set hp_gained=hp_gained + 25
-        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_GAINED_HP), hp_gained)
+        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_GAINED_HP), hp_gained)
         call BlzSetUnitMaxHP(GetEnumUnit(), BlzGetUnitMaxHP(GetEnumUnit()) + 25)
         call textst("|c0020FF20 +25 health" , GetEnumUnit() , 64 , 90 , 10 , 1)
     endfunction
 
-    function RunesmithE__addTmpArmor takes nothing returns nothing
-        local real ar_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_TMP_AR))
-        set ar_gained=ar_gained + RunesmithE__SH_ARMOR_BOOST
-        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_TMP_AR), ar_gained)
-        call BlzSetUnitArmor(GetEnumUnit(), BlzGetUnitArmor(GetEnumUnit()) + RunesmithE__SH_ARMOR_BOOST)
+    function RunesmithE___addTmpArmor takes nothing returns nothing
+        local real ar_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_TMP_AR))
+        set ar_gained=ar_gained + RunesmithE___SH_ARMOR_BOOST
+        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_TMP_AR), ar_gained)
+        call BlzSetUnitArmor(GetEnumUnit(), BlzGetUnitArmor(GetEnumUnit()) + RunesmithE___SH_ARMOR_BOOST)
     endfunction
     
-    function RunesmithE__reduceCds takes nothing returns nothing
-        call UnitReduceCooldown(GetEnumUnit() , RunesmithE__EM_CDR)
+    function RunesmithE___reduceCds takes nothing returns nothing
+        call UnitReduceCooldown(GetEnumUnit() , RunesmithE___EM_CDR)
         set bj_lastCreatedUnit=CreateUnit(GetOwningPlayer(GetEnumUnit()), 'u000', GetUnitX(GetEnumUnit()), GetUnitY(GetEnumUnit()) + 100, 270)
-        call textst("|c00540081 -" + I2S(RunesmithE__EM_CDR) + " cd" , bj_lastCreatedUnit , 64 , 90 , 10 , 1)
+        call textst("|c00540081 -" + I2S(RunesmithE___EM_CDR) + " cd" , bj_lastCreatedUnit , 64 , 90 , 10 , 1)
         call h__RemoveUnit(bj_lastCreatedUnit)
         
     endfunction
     
-    function RunesmithE__addSP takes nothing returns nothing
-        local real sp_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_GAINED_SP))
-        set sp_gained=sp_gained + RunesmithE__ST_SP_BOOST
-        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_GAINED_SP), sp_gained)
-        call spdst(GetEnumUnit() , RunesmithE__ST_SP_BOOST)
+    function RunesmithE___addSP takes nothing returns nothing
+        local real sp_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_GAINED_SP))
+        set sp_gained=sp_gained + RunesmithE___ST_SP_BOOST
+        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_GAINED_SP), sp_gained)
+        call spdst(GetEnumUnit() , RunesmithE___ST_SP_BOOST)
         set bj_lastCreatedUnit=CreateUnit(GetOwningPlayer(GetEnumUnit()), 'u000', GetUnitX(GetEnumUnit()), GetUnitY(GetEnumUnit()) + 100, 270)
-        call textst("|cFF7EBFF1 +" + R2SW(RunesmithE__ST_SP_BOOST, 1, 1) + " spell power" , bj_lastCreatedUnit , 64 , 90 , 10 , 1)
+        call textst("|cFF7EBFF1 +" + R2SW(RunesmithE___ST_SP_BOOST, 1, 1) + " spell power" , bj_lastCreatedUnit , 64 , 90 , 10 , 1)
         call h__RemoveUnit(bj_lastCreatedUnit)
     endfunction
     
-    function RunesmithE__giveST takes nothing returns nothing
-        local real ap_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_GAINED_AP))
+    function RunesmithE___giveST takes nothing returns nothing
+        local real ap_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_GAINED_AP))
         set ap_gained=ap_gained + 1
-        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_GAINED_HP), ap_gained)
+        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_GAINED_HP), ap_gained)
         call BlzSetUnitBaseDamage(GetEnumUnit(), BlzGetUnitBaseDamage(GetEnumUnit(), 0) + 1, 0)
         call textst("|c00FF2020 +1 attack" , GetEnumUnit() , 64 , 90 , 10 , 1)
     endfunction
     
-    function RunesmithE__giveIL takes nothing returns nothing
-        local real stats_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_GAINED_STATS))
+    function RunesmithE___giveIL takes nothing returns nothing
+        local real stats_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_GAINED_STATS))
         set stats_gained=stats_gained + 1
-        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_GAINED_STATS), stats_gained)
+        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_GAINED_STATS), stats_gained)
         call RandomStat(GetEnumUnit() , 1 , 0 , true)
     endfunction
     
-    function RunesmithE__RandomStat2 takes unit caster,integer i,integer data,boolean l returns nothing
+    function RunesmithE___RandomStat2 takes unit caster,integer i,integer data,boolean l returns nothing
         local integer rand
         local integer r= data
         set rand=GetRandomInt(1, 3)
@@ -78231,41 +78231,41 @@ endfunction
         set caster=null
     endfunction
     
-    function RunesmithE__giveIL2 takes nothing returns nothing
-        local real stats_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_GAINED_STATS))
+    function RunesmithE___giveIL2 takes nothing returns nothing
+        local real stats_gained= LoadReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_GAINED_STATS))
         set stats_gained=stats_gained + 1
-        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE__ID_HASH_GAINED_STATS), stats_gained)
-        call RunesmithE__RandomStat2(GetEnumUnit() , 1 , 0 , true)
+        call SaveReal(udg_hash, GetHandleId(GetEnumUnit()), StringHash(RunesmithE___ID_HASH_GAINED_STATS), stats_gained)
+        call RunesmithE___RandomStat2(GetEnumUnit() , 1 , 0 , true)
     endfunction
     
     function Trig_RunesmithE_Actions takes nothing returns nothing
         local unit source= GetManipulatingUnit()
         local group others= CreateGroup()
-        local integer lvl= GetUnitAbilityLevel(source, RunesmithE__ID_ABILITY)
+        local integer lvl= GetUnitAbilityLevel(source, RunesmithE___ID_ABILITY)
         
         call GroupAddGroup(udg_otryad, others)
         call GroupRemoveUnit(others, source)
         
-        if GetItemTypeId(GetManipulatedItem()) == RunesmithE__ID_RUNE_RC then
-            call ForGroupBJ(others, function RunesmithE__giveRC)
-        elseif lvl > 0 and GetItemTypeId(GetManipulatedItem()) == RunesmithE__ID_RUNE_LG then
-            call ForGroupBJ(udg_otryad, function RunesmithE__addRegen)
-        elseif GetItemTypeId(GetManipulatedItem()) == RunesmithE__ID_RUNE_SH then
-            call ForGroupBJ(others, function RunesmithE__giveSH)
+        if GetItemTypeId(GetManipulatedItem()) == RunesmithE___ID_RUNE_RC then
+            call ForGroupBJ(others, function RunesmithE___giveRC)
+        elseif lvl > 0 and GetItemTypeId(GetManipulatedItem()) == RunesmithE___ID_RUNE_LG then
+            call ForGroupBJ(udg_otryad, function RunesmithE___addRegen)
+        elseif GetItemTypeId(GetManipulatedItem()) == RunesmithE___ID_RUNE_SH then
+            call ForGroupBJ(others, function RunesmithE___giveSH)
             if lvl > 1 then
-                call ForGroupBJ(udg_otryad, function RunesmithE__addTmpArmor)
+                call ForGroupBJ(udg_otryad, function RunesmithE___addTmpArmor)
             endif
-        elseif lvl > 2 and GetItemTypeId(GetManipulatedItem()) == RunesmithE__ID_RUNE_EM then
-            call ForGroupBJ(udg_otryad, function RunesmithE__reduceCds)
-        elseif GetItemTypeId(GetManipulatedItem()) == RunesmithE__ID_RUNE_ST then
-            call ForGroupBJ(others, function RunesmithE__giveST)
+        elseif lvl > 2 and GetItemTypeId(GetManipulatedItem()) == RunesmithE___ID_RUNE_EM then
+            call ForGroupBJ(udg_otryad, function RunesmithE___reduceCds)
+        elseif GetItemTypeId(GetManipulatedItem()) == RunesmithE___ID_RUNE_ST then
+            call ForGroupBJ(others, function RunesmithE___giveST)
             if lvl > 3 then
-                call ForGroupBJ(udg_otryad, function RunesmithE__addSP)
+                call ForGroupBJ(udg_otryad, function RunesmithE___addSP)
             endif
-        elseif GetItemTypeId(GetManipulatedItem()) == RunesmithE__ID_RUNE_IL then
-            call ForGroupBJ(others, function RunesmithE__giveIL)
+        elseif GetItemTypeId(GetManipulatedItem()) == RunesmithE___ID_RUNE_IL then
+            call ForGroupBJ(others, function RunesmithE___giveIL)
             if lvl > 4 then
-                call ForGroupBJ(udg_otryad, function RunesmithE__giveIL2)
+                call ForGroupBJ(udg_otryad, function RunesmithE___giveIL2)
             endif
         endif
         
@@ -78275,10 +78275,10 @@ endfunction
     endfunction
 
     //===========================================================================
-    function RunesmithE__init takes nothing returns nothing
+    function RunesmithE___init takes nothing returns nothing
         set gg_trg_RunesmithE=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_RunesmithE, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-        call TriggerAddCondition(gg_trg_RunesmithE, Condition(function RunesmithE__Trig_RunesmithE_Conditions))
+        call TriggerAddCondition(gg_trg_RunesmithE, Condition(function RunesmithE___Trig_RunesmithE_Conditions))
         call TriggerAddAction(gg_trg_RunesmithE, function Trig_RunesmithE_Actions)
     endfunction
     
@@ -78296,27 +78296,27 @@ endfunction
     endfunction
 
     function Trig_RunesmithEFightEnd_Actions takes nothing returns nothing
-        local real ar_gained= LoadReal(udg_hash, GetHandleId(udg_FightEnd_Unit), StringHash(RunesmithEFightEnd__ID_HASH_TMP_AR))
-        local integer charge= LoadInteger(udg_hash, GetHandleId(udg_DamageEventSource), StringHash(RunesmithEFightEnd__ID_HASH_TS))
+        local real ar_gained= LoadReal(udg_hash, GetHandleId(udg_FightEnd_Unit), StringHash(RunesmithEFightEnd___ID_HASH_TMP_AR))
+        local integer charge= LoadInteger(udg_hash, GetHandleId(udg_DamageEventSource), StringHash(RunesmithEFightEnd___ID_HASH_TS))
         
         if ar_gained > 0 then
             call BlzSetUnitArmor(udg_FightEnd_Unit, BlzGetUnitArmor(udg_FightEnd_Unit) - ar_gained)
             set ar_gained=0
-            call SaveReal(udg_hash, GetHandleId(udg_FightEnd_Unit), StringHash(RunesmithEFightEnd__ID_HASH_TMP_AR), ar_gained)
+            call SaveReal(udg_hash, GetHandleId(udg_FightEnd_Unit), StringHash(RunesmithEFightEnd___ID_HASH_TMP_AR), ar_gained)
         endif
         
-        if GetUnitAbilityLevel(udg_FightEnd_Unit, RunesmithEFightEnd__ID_ABILITY_ETHEREAL) > 0 then
+        if GetUnitAbilityLevel(udg_FightEnd_Unit, RunesmithEFightEnd___ID_ABILITY_ETHEREAL) > 0 then
             call RunesmithW_Cancel(udg_FightEnd_Unit)
         endif
         
         if charge > 0 then
-            call SaveInteger(udg_hash, GetHandleId(udg_DamageEventSource), StringHash(RunesmithEFightEnd__ID_HASH_TS), 0)
+            call SaveInteger(udg_hash, GetHandleId(udg_DamageEventSource), StringHash(RunesmithEFightEnd___ID_HASH_TS), 0)
         endif
         
     endfunction
 
     //===========================================================================
-    function RunesmithEFightEnd__init takes nothing returns nothing
+    function RunesmithEFightEnd___init takes nothing returns nothing
         set gg_trg_RunesmithEFightEnd=CreateTrigger()
         call TriggerRegisterVariableEvent(gg_trg_RunesmithEFightEnd, "udg_FightEnd_Real", EQUAL, 1.00)
         call TriggerAddCondition(gg_trg_RunesmithEFightEnd, Condition(function Trig_RunesmithEFightEnd_Conditions))
@@ -78331,33 +78331,33 @@ endfunction
 
     
     function Trig_RunesmithR_Conditions takes nothing returns boolean
-        return ( GetSpellAbilityId() == RunesmithR__ID_ABILITY_LG or GetSpellAbilityId() == RunesmithR__ID_ABILITY_RC or GetSpellAbilityId() == RunesmithR__ID_ABILITY_SH or GetSpellAbilityId() == RunesmithR__ID_ABILITY_EM or GetSpellAbilityId() == RunesmithR__ID_ABILITY_ST or GetSpellAbilityId() == RunesmithR__ID_ABILITY_IL ) and GetUnitTypeId(GetSpellTargetUnit()) == RunesmithR__ID_ROCK and GetUnitAbilityLevel(GetSpellTargetUnit(), RunesmithR__ID_DEGEN) == 0
+        return ( GetSpellAbilityId() == RunesmithR___ID_ABILITY_LG or GetSpellAbilityId() == RunesmithR___ID_ABILITY_RC or GetSpellAbilityId() == RunesmithR___ID_ABILITY_SH or GetSpellAbilityId() == RunesmithR___ID_ABILITY_EM or GetSpellAbilityId() == RunesmithR___ID_ABILITY_ST or GetSpellAbilityId() == RunesmithR___ID_ABILITY_IL ) and GetUnitTypeId(GetSpellTargetUnit()) == RunesmithR___ID_ROCK and GetUnitAbilityLevel(GetSpellTargetUnit(), RunesmithR___ID_DEGEN) == 0
     endfunction
     
     function RunesmithRCarveAction takes integer id,unit target,integer ability_id returns nothing
         local integer item_id
         
-        if ability_id == RunesmithR__ID_ABILITY_LG then
-            set item_id=RunesmithR__ID_RUNE_LG
-        elseif ability_id == RunesmithR__ID_ABILITY_RC then
-            set item_id=RunesmithR__ID_RUNE_RC
-        elseif ability_id == RunesmithR__ID_ABILITY_SH then
-            set item_id=RunesmithR__ID_RUNE_SH
-        elseif ability_id == RunesmithR__ID_ABILITY_EM then
-            set item_id=RunesmithR__ID_RUNE_EM
-        elseif ability_id == RunesmithR__ID_ABILITY_ST then
-            set item_id=RunesmithR__ID_RUNE_ST
-        elseif ability_id == RunesmithR__ID_ABILITY_IL then
-            set item_id=RunesmithR__ID_RUNE_IL
+        if ability_id == RunesmithR___ID_ABILITY_LG then
+            set item_id=RunesmithR___ID_RUNE_LG
+        elseif ability_id == RunesmithR___ID_ABILITY_RC then
+            set item_id=RunesmithR___ID_RUNE_RC
+        elseif ability_id == RunesmithR___ID_ABILITY_SH then
+            set item_id=RunesmithR___ID_RUNE_SH
+        elseif ability_id == RunesmithR___ID_ABILITY_EM then
+            set item_id=RunesmithR___ID_RUNE_EM
+        elseif ability_id == RunesmithR___ID_ABILITY_ST then
+            set item_id=RunesmithR___ID_RUNE_ST
+        elseif ability_id == RunesmithR___ID_ABILITY_IL then
+            set item_id=RunesmithR___ID_RUNE_IL
         endif
         
         call CreateItemLoc(item_id, GetUnitLoc(target))
-        call DestroyEffect(AddSpecialEffectLoc(RunesmithR__SPAWN_EFFECT, GetUnitLoc(target)))
+        call DestroyEffect(AddSpecialEffectLoc(RunesmithR___SPAWN_EFFECT, GetUnitLoc(target)))
         
-        call RemoveSavedHandle(udg_hash, id, StringHash(RunesmithR__ID_HASH_CARVE_TARGET))
-        call RemoveSavedInteger(udg_hash, id, StringHash(RunesmithR__ID_HASH_CARVE_ORIGIN_ABILITY))
-        call DestroyTimer(LoadTimerHandle(udg_hash, GetHandleId(target), StringHash(RunesmithR__ID_HASH_CARVE)))
-        call RemoveSavedHandle(udg_hash, GetHandleId(target), StringHash(RunesmithR__ID_HASH_CARVE))
+        call RemoveSavedHandle(udg_hash, id, StringHash(RunesmithR___ID_HASH_CARVE_TARGET))
+        call RemoveSavedInteger(udg_hash, id, StringHash(RunesmithR___ID_HASH_CARVE_ORIGIN_ABILITY))
+        call DestroyTimer(LoadTimerHandle(udg_hash, GetHandleId(target), StringHash(RunesmithR___ID_HASH_CARVE)))
+        call RemoveSavedHandle(udg_hash, GetHandleId(target), StringHash(RunesmithR___ID_HASH_CARVE))
         
         call h__RemoveUnit(target)
         
@@ -78365,8 +78365,8 @@ endfunction
 
     function RunesmithREnd takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
-        local unit target= LoadUnitHandle(udg_hash, id, StringHash(RunesmithR__ID_HASH_CARVE_TARGET))
-        local integer ability_id= LoadInteger(udg_hash, id, StringHash(RunesmithR__ID_HASH_CARVE_ORIGIN_ABILITY))
+        local unit target= LoadUnitHandle(udg_hash, id, StringHash(RunesmithR___ID_HASH_CARVE_TARGET))
+        local integer ability_id= LoadInteger(udg_hash, id, StringHash(RunesmithR___ID_HASH_CARVE_ORIGIN_ABILITY))
         
         call RunesmithRCarveAction(id , target , ability_id)
         
@@ -78378,20 +78378,20 @@ endfunction
         local integer id
         
         set target=GetSpellTargetUnit()
-        call UnitAddAbility(target, RunesmithR__ID_DEGEN)
-        if LoadTimerHandle(udg_hash, GetHandleId(target), StringHash(RunesmithR__ID_HASH_CARVE)) == null then
-            call SaveTimerHandle(udg_hash, GetHandleId(target), StringHash(RunesmithR__ID_HASH_CARVE), CreateTimer())
+        call UnitAddAbility(target, RunesmithR___ID_DEGEN)
+        if LoadTimerHandle(udg_hash, GetHandleId(target), StringHash(RunesmithR___ID_HASH_CARVE)) == null then
+            call SaveTimerHandle(udg_hash, GetHandleId(target), StringHash(RunesmithR___ID_HASH_CARVE), CreateTimer())
         endif
-        set id=GetHandleId(LoadTimerHandle(udg_hash, GetHandleId(target), StringHash(RunesmithR__ID_HASH_CARVE)))
-        call SaveUnitHandle(udg_hash, id, StringHash(RunesmithR__ID_HASH_CARVE_TARGET), target)
-        call SaveInteger(udg_hash, id, StringHash(RunesmithR__ID_HASH_CARVE_ORIGIN_ABILITY), GetSpellAbilityId())
-        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(target), StringHash(RunesmithR__ID_HASH_CARVE)), RunesmithR__CARVE_TIME, false, function RunesmithREnd)
-        call DestroyEffect(AddSpecialEffectLoc(RunesmithR__CARVE_EFFECT, GetUnitLoc(target)))
+        set id=GetHandleId(LoadTimerHandle(udg_hash, GetHandleId(target), StringHash(RunesmithR___ID_HASH_CARVE)))
+        call SaveUnitHandle(udg_hash, id, StringHash(RunesmithR___ID_HASH_CARVE_TARGET), target)
+        call SaveInteger(udg_hash, id, StringHash(RunesmithR___ID_HASH_CARVE_ORIGIN_ABILITY), GetSpellAbilityId())
+        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(target), StringHash(RunesmithR___ID_HASH_CARVE)), RunesmithR___CARVE_TIME, false, function RunesmithREnd)
+        call DestroyEffect(AddSpecialEffectLoc(RunesmithR___CARVE_EFFECT, GetUnitLoc(target)))
         set target=null
     endfunction
 
     //===========================================================================
-    function RunesmithR__init takes nothing returns nothing
+    function RunesmithR___init takes nothing returns nothing
         set gg_trg_RunesmithR=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_RunesmithR, EVENT_PLAYER_UNIT_SPELL_EFFECT)
         call TriggerAddCondition(gg_trg_RunesmithR, Condition(function Trig_RunesmithR_Conditions))
@@ -78406,13 +78406,13 @@ endfunction
 
     
     function Trig_RunesmithRDeath_Conditions takes nothing returns boolean
-        return GetUnitTypeId(GetDyingUnit()) == RunesmithRDeath__ID_ROCK
+        return GetUnitTypeId(GetDyingUnit()) == RunesmithRDeath___ID_ROCK
     endfunction
 
     function Trig_RunesmithRDeath_Actions takes nothing returns nothing
         local unit target= GetDyingUnit()
-        local integer id= GetHandleId(LoadTimerHandle(udg_hash, GetHandleId(target), StringHash(RunesmithRDeath__ID_HASH_CARVE)))
-        local integer ability_id= LoadInteger(udg_hash, id, StringHash(RunesmithRDeath__ID_HASH_CARVE_ORIGIN_ABILITY))
+        local integer id= GetHandleId(LoadTimerHandle(udg_hash, GetHandleId(target), StringHash(RunesmithRDeath___ID_HASH_CARVE)))
+        local integer ability_id= LoadInteger(udg_hash, id, StringHash(RunesmithRDeath___ID_HASH_CARVE_ORIGIN_ABILITY))
         
         if not ( id == null ) and not ( ability_id == null ) then
             call RunesmithRCarveAction(id , target , ability_id)
@@ -78422,7 +78422,7 @@ endfunction
     endfunction
 
     //===========================================================================
-    function RunesmithRDeath__init takes nothing returns nothing
+    function RunesmithRDeath___init takes nothing returns nothing
         set gg_trg_RunesmithRDeath=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_RunesmithRDeath, EVENT_PLAYER_UNIT_DEATH)
         call TriggerAddCondition(gg_trg_RunesmithRDeath, Condition(function Trig_RunesmithRDeath_Conditions))
@@ -78437,16 +78437,16 @@ endfunction
 
     
     function Trig_RunesmithRocks_Conditions takes nothing returns boolean
-        return GetLearnedSkill() == RunesmithRocks__ID_ABILITY and GetUnitAbilityLevel(GetLearningUnit(), RunesmithRocks__ID_ABILITY) == 1
+        return GetLearnedSkill() == RunesmithRocks___ID_ABILITY and GetUnitAbilityLevel(GetLearningUnit(), RunesmithRocks___ID_ABILITY) == 1
     endfunction
 
     function SpawnRocks takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
-        local unit source= LoadUnitHandle(udg_hash, id, StringHash(RunesmithRocks__ID_HASH_ROCK_SOURCE))
+        local unit source= LoadUnitHandle(udg_hash, id, StringHash(RunesmithRocks___ID_HASH_ROCK_SOURCE))
 
         if udg_combatlogic[GetPlayerId(GetOwningPlayer(source)) + 1] and not ( udg_fightmod[3] ) then
-            set bj_lastCreatedUnit=CreateUnit(GetOwningPlayer(source), RunesmithRocks__ID_ROCK, GetRandomReal(GetRectMinX(udg_Boss_Rect), GetRectMaxX(udg_Boss_Rect)), GetRandomReal(GetRectMinY(udg_Boss_Rect), GetRectMaxY(udg_Boss_Rect)), GetRandomReal(0, 360))
-            call DestroyEffect(AddSpecialEffectLoc(RunesmithRocks__SPAWN_EFFECT, GetUnitLoc(bj_lastCreatedUnit)))
+            set bj_lastCreatedUnit=CreateUnit(GetOwningPlayer(source), RunesmithRocks___ID_ROCK, GetRandomReal(GetRectMinX(udg_Boss_Rect), GetRectMaxX(udg_Boss_Rect)), GetRandomReal(GetRectMinY(udg_Boss_Rect), GetRectMaxY(udg_Boss_Rect)), GetRandomReal(0, 360))
+            call DestroyEffect(AddSpecialEffectLoc(RunesmithRocks___SPAWN_EFFECT, GetUnitLoc(bj_lastCreatedUnit)))
         endif
         
         set source=null
@@ -78459,18 +78459,18 @@ endfunction
         set learner=GetLearningUnit()
         
         //periodic timer with spawn rocks
-        if LoadTimerHandle(udg_hash, GetHandleId(learner), StringHash(RunesmithRocks__ID_HASH_ROCK_TIMER)) == null then
-            call SaveTimerHandle(udg_hash, GetHandleId(learner), StringHash(RunesmithRocks__ID_HASH_ROCK_TIMER), CreateTimer())
+        if LoadTimerHandle(udg_hash, GetHandleId(learner), StringHash(RunesmithRocks___ID_HASH_ROCK_TIMER)) == null then
+            call SaveTimerHandle(udg_hash, GetHandleId(learner), StringHash(RunesmithRocks___ID_HASH_ROCK_TIMER), CreateTimer())
         endif
-        set id=GetHandleId(LoadTimerHandle(udg_hash, GetHandleId(learner), StringHash(RunesmithRocks__ID_HASH_ROCK_TIMER)))
-        call SaveUnitHandle(udg_hash, id, StringHash(RunesmithRocks__ID_HASH_ROCK_SOURCE), learner)
-        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(learner), StringHash(RunesmithRocks__ID_HASH_ROCK_TIMER)), RunesmithRocks__ROCK_CD, true, function SpawnRocks)
+        set id=GetHandleId(LoadTimerHandle(udg_hash, GetHandleId(learner), StringHash(RunesmithRocks___ID_HASH_ROCK_TIMER)))
+        call SaveUnitHandle(udg_hash, id, StringHash(RunesmithRocks___ID_HASH_ROCK_SOURCE), learner)
+        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(learner), StringHash(RunesmithRocks___ID_HASH_ROCK_TIMER)), RunesmithRocks___ROCK_CD, true, function SpawnRocks)
         
         set learner=null
     endfunction
 
     //===========================================================================
-    function RunesmithRocks__init takes nothing returns nothing
+    function RunesmithRocks___init takes nothing returns nothing
         set gg_trg_RunesmithRocks=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_RunesmithRocks, EVENT_PLAYER_HERO_SKILL)
         call TriggerAddCondition(gg_trg_RunesmithRocks, Condition(function Trig_RunesmithRocks_Conditions))
@@ -80191,7 +80191,7 @@ endfunction
 
 
     function Trig_ElementalQ_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == ElementalQ__ID_ABILITY
+        return GetSpellAbilityId() == ElementalQ___ID_ABILITY
     endfunction
 
     function ElementalQCast takes nothing returns nothing
@@ -80200,7 +80200,7 @@ endfunction
         local unit target= LoadUnitHandle(udg_hash, id, StringHash("eleq"))
         local unit caster= LoadUnitHandle(udg_hash, id, StringHash("eleqc"))
         
-        if IsUnitAlive(target) and IsUnitHasAbility(target , ElementalQ__EFFECT) then
+        if IsUnitAlive(target) and IsUnitHasAbility(target , ElementalQ___EFFECT) then
             if IsUnitHasAbility(target , 'B07R') and Aspects_IsHeroAspectActive(caster , ASPECT_03) == false then
                 call healst(caster , target , damage)
             else
@@ -80216,19 +80216,19 @@ endfunction
         set target=null
     endfunction
     
-    function ElementalQ__Alternative takes unit caster,real x,real y,real venomBonus,real duration returns nothing
+    function ElementalQ___Alternative takes unit caster,real x,real y,real venomBonus,real duration returns nothing
         local group g= CreateGroup()
         local unit u
 
-        set venomBonus=venomBonus * ElementalQ__VENOS_EXTRA_BONUS_ALTERNATIVE
-        call GroupEnumUnitsInRange(g, x, y, ElementalQ__AREA, null)
+        set venomBonus=venomBonus * ElementalQ___VENOS_EXTRA_BONUS_ALTERNATIVE
+        call GroupEnumUnitsInRange(g, x, y, ElementalQ___AREA, null)
         loop
             set u=FirstOfGroup(g)
             exitwhen u == null
             if unitst(u , caster , TARGET_ALL) then
-                call PlaySpecialEffect(ElementalQ__ANIMATION , u)
+                call PlaySpecialEffect(ElementalQ___ANIMATION , u)
                 call SaveReal(udg_hash, GetHandleId(u), StringHash("eleqv"), venomBonus)
-                call bufst(caster , u , ElementalQ__EFFECT , ElementalQ__BUFF , "eleq1" , duration)
+                call bufst(caster , u , ElementalQ___EFFECT , ElementalQ___BUFF , "eleq1" , duration)
                 call debuffst(caster , u , null , 1 , duration)
             endif
             call GroupRemoveUnit(g, u)
@@ -80241,24 +80241,24 @@ endfunction
         set caster=null
     endfunction
     
-    function ElementalQ__Main takes unit caster,real x,real y,real damage,real venomBonus,real duration returns nothing
+    function ElementalQ___Main takes unit caster,real x,real y,real damage,real venomBonus,real duration returns nothing
         local group g= CreateGroup()
         local unit u
         local integer id
     
-        call GroupEnumUnitsInRange(g, x, y, ElementalQ__AREA, null)
+        call GroupEnumUnitsInRange(g, x, y, ElementalQ___AREA, null)
         loop
             set u=FirstOfGroup(g)
             exitwhen u == null
             if unitst(u , caster , TARGET_ALL) then
-                call PlaySpecialEffect(ElementalQ__ANIMATION , u)
-                if GetUnitAbilityLevel(u, ElementalQ__EFFECT) == 0 then
-                    set id=InvokeTimerWithUnit(u , "eleq" , ElementalQ__TICK , true , function ElementalQCast)
+                call PlaySpecialEffect(ElementalQ___ANIMATION , u)
+                if GetUnitAbilityLevel(u, ElementalQ___EFFECT) == 0 then
+                    set id=InvokeTimerWithUnit(u , "eleq" , ElementalQ___TICK , true , function ElementalQCast)
                     call SaveUnitHandle(udg_hash, id, StringHash("eleqc"), caster)
                     call SaveReal(udg_hash, id, StringHash("eleq"), damage)
                 endif
                 call SaveReal(udg_hash, GetHandleId(u), StringHash("eleqv"), venomBonus)
-                call bufst(caster , u , ElementalQ__EFFECT , ElementalQ__BUFF , "eleq1" , duration)
+                call bufst(caster , u , ElementalQ___EFFECT , ElementalQ___BUFF , "eleq1" , duration)
                 call debuffst(caster , u , null , 1 , duration)
             endif
             call GroupRemoveUnit(g, u)
@@ -80291,50 +80291,50 @@ endfunction
             set lvl=udg_Level
             set x=GetUnitX(caster) + GetRandomReal(- 650, 650)
             set y=GetUnitY(caster) + GetRandomReal(- 650, 650)
-            call textst(udg_string[0] + GetObjectName(ElementalQ__ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
-            set t=ElementalQ__DURATION
+            call textst(udg_string[0] + GetObjectName(ElementalQ___ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
+            set t=ElementalQ___DURATION
         else
             set caster=GetSpellAbilityUnit()
             set lvl=GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())
             set x=GetLocationX(GetSpellTargetLoc())
             set y=GetLocationY(GetSpellTargetLoc())
-            set t=ElementalQ__DURATION
+            set t=ElementalQ___DURATION
         endif
         
         set t=timebonus(caster , t)
-        set dmg=( ElementalQ__DAMAGE_FIRST_LEVEL + ( ElementalQ__DAMAGE_LEVEL_BONUS * lvl ) ) * GetUnitSpellPower(caster)
-        set venomBonus=ElementalQ__VENOM_BONUS_FIRST_LEVEL + ( ElementalQ__VENOM_BONUS_LEVEL_BONUS * lvl )
+        set dmg=( ElementalQ___DAMAGE_FIRST_LEVEL + ( ElementalQ___DAMAGE_LEVEL_BONUS * lvl ) ) * GetUnitSpellPower(caster)
+        set venomBonus=ElementalQ___VENOM_BONUS_FIRST_LEVEL + ( ElementalQ___VENOM_BONUS_LEVEL_BONUS * lvl )
 
         if Aspects_IsHeroAspectActive(caster , ASPECT_01) then
-            call ElementalQ__Alternative(caster , x , y , venomBonus , t)
+            call ElementalQ___Alternative(caster , x , y , venomBonus , t)
         else
-            call ElementalQ__Main(caster , x , y , dmg , venomBonus , t)
+            call ElementalQ___Main(caster , x , y , dmg , venomBonus , t)
         endif
         
         set caster=null
     endfunction
     
-    function ElementalQ__DeleteBuff_Conditions takes nothing returns boolean
-        return IsUnitHasAbility(Event_DeleteBuff_Unit , ElementalQ__EFFECT)
+    function ElementalQ___DeleteBuff_Conditions takes nothing returns boolean
+        return IsUnitHasAbility(Event_DeleteBuff_Unit , ElementalQ___EFFECT)
     endfunction
     
-    function ElementalQ__DeleteBuff takes nothing returns nothing
+    function ElementalQ___DeleteBuff takes nothing returns nothing
         local unit hero= Event_DeleteBuff_Unit
 
-        call UnitRemoveAbility(hero, ElementalQ__EFFECT)
-        call UnitRemoveAbility(hero, ElementalQ__BUFF)
+        call UnitRemoveAbility(hero, ElementalQ___EFFECT)
+        call UnitRemoveAbility(hero, ElementalQ___BUFF)
         
         set hero=null
     endfunction
 
     //===========================================================================
-    function ElementalQ__init takes nothing returns nothing
+    function ElementalQ___init takes nothing returns nothing
         set gg_trg_ElementalQ=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_ElementalQ, EVENT_PLAYER_UNIT_SPELL_EFFECT)
         call TriggerAddCondition(gg_trg_ElementalQ, Condition(function Trig_ElementalQ_Conditions))
         call TriggerAddAction(gg_trg_ElementalQ, function Trig_ElementalQ_Actions)
         
-        call CreateEventTrigger("Event_DeleteBuff_Real" , function ElementalQ__DeleteBuff , function ElementalQ__DeleteBuff_Conditions)
+        call CreateEventTrigger("Event_DeleteBuff_Real" , function ElementalQ___DeleteBuff , function ElementalQ___DeleteBuff_Conditions)
     endfunction
 
 // scope ElementalQ ends
@@ -80415,26 +80415,26 @@ endfunction
 // scope ElementalE begins
 
 
-    function ElementalE__OnDamageChange_Conditions takes nothing returns boolean
-        return udg_IsDamageSpell == false and GetUnitAbilityLevel(udg_DamageEventSource, ElementalE__ID_ABILITY) > 0
+    function ElementalE___OnDamageChange_Conditions takes nothing returns boolean
+        return udg_IsDamageSpell == false and GetUnitAbilityLevel(udg_DamageEventSource, ElementalE___ID_ABILITY) > 0
     endfunction
 
-    function ElementalE__Alternative takes real bonusDamage returns nothing
-        set bonusDamage=bonusDamage * ElementalE__EXTRA_BONUS_DAMAGE_ALTERNATIVE
+    function ElementalE___Alternative takes real bonusDamage returns nothing
+        set bonusDamage=bonusDamage * ElementalE___EXTRA_BONUS_DAMAGE_ALTERNATIVE
         set udg_DamageEventAmount=udg_DamageEventAmount + ( Event_OnDamageChange_StaticDamage * bonusDamage )
     endfunction
     
-    function ElementalE__Main takes real bonusDamage returns nothing
+    function ElementalE___Main takes real bonusDamage returns nothing
         set udg_DamageEventAmount=udg_DamageEventAmount + ( Event_OnDamageChange_StaticDamage * bonusDamage )
     endfunction
 
-    function ElementalE__OnDamageChange takes nothing returns nothing
+    function ElementalE___OnDamageChange takes nothing returns nothing
         local unit hero= udg_DamageEventSource
-        local integer level= GetUnitAbilityLevel(hero, ElementalE__ID_ABILITY)
-        local real bonusDamage= ElementalE__BONUS_DAMAGE_FIRST_LEVEL + ( level * ElementalE__BONUS_DAMAGE_LEVEL_BONUS )
+        local integer level= GetUnitAbilityLevel(hero, ElementalE___ID_ABILITY)
+        local real bonusDamage= ElementalE___BONUS_DAMAGE_FIRST_LEVEL + ( level * ElementalE___BONUS_DAMAGE_LEVEL_BONUS )
         
         if Aspects_IsHeroAspectActive(hero , ASPECT_02) then
-            call ElementalE__Alternative(bonusDamage)
+            call ElementalE___Alternative(bonusDamage)
         else
             set udg_DamageEventAmount=udg_DamageEventAmount + ( Event_OnDamageChange_StaticDamage * ((bonusDamage)*1.0) ) // INLINED!!
         endif
@@ -80442,26 +80442,26 @@ endfunction
         set hero=null
     endfunction
     
-    function ElementalE__OnHealChange_Conditions takes nothing returns boolean
-        return IsUnitHasAbility(Event_OnHealChange_Target , ElementalE__ID_ABILITY) and Event_OnHealChange_Caster != Event_OnHealChange_Target
+    function ElementalE___OnHealChange_Conditions takes nothing returns boolean
+        return IsUnitHasAbility(Event_OnHealChange_Target , ElementalE___ID_ABILITY) and Event_OnHealChange_Caster != Event_OnHealChange_Target
     endfunction
     
-    function ElementalE__Alternative_Heal takes real bonusHeal returns nothing
-        set bonusHeal=bonusHeal * ElementalE__EXTRA_BONUS_HEAL_ALTERNATIVE
+    function ElementalE___Alternative_Heal takes real bonusHeal returns nothing
+        set bonusHeal=bonusHeal * ElementalE___EXTRA_BONUS_HEAL_ALTERNATIVE
         set Event_OnHealChange_Heal=Event_OnHealChange_Heal - ( Event_OnHealChange_StaticHeal * bonusHeal )
     endfunction
     
-    function ElementalE__Main_Heal takes real bonusHeal returns nothing
+    function ElementalE___Main_Heal takes real bonusHeal returns nothing
         set Event_OnHealChange_Heal=Event_OnHealChange_Heal - ( Event_OnHealChange_StaticHeal * bonusHeal )
     endfunction
     
-    function ElementalE__OnHealChange takes nothing returns nothing
+    function ElementalE___OnHealChange takes nothing returns nothing
         local unit hero= Event_OnHealChange_Target
-        local integer level= GetUnitAbilityLevel(hero, ElementalE__ID_ABILITY)
-        local real bonusHeal= ElementalE__BONUS_HEAL_FIRST_LEVEL + ( level * ElementalE__BONUS_HEAL_LEVEL_BONUS )
+        local integer level= GetUnitAbilityLevel(hero, ElementalE___ID_ABILITY)
+        local real bonusHeal= ElementalE___BONUS_HEAL_FIRST_LEVEL + ( level * ElementalE___BONUS_HEAL_LEVEL_BONUS )
         
         if Aspects_IsHeroAspectActive(hero , ASPECT_02) then
-            call ElementalE__Alternative_Heal(bonusHeal)
+            call ElementalE___Alternative_Heal(bonusHeal)
         else
             set Event_OnHealChange_Heal=Event_OnHealChange_Heal - ( Event_OnHealChange_StaticHeal * ((bonusHeal)*1.0) ) // INLINED!!
         endif
@@ -80470,9 +80470,9 @@ endfunction
     endfunction
     
     //===========================================================================
-    function ElementalE__init takes nothing returns nothing
-        call CreateEventTrigger("Event_OnDamageChange_Real" , function ElementalE__OnDamageChange , function ElementalE__OnDamageChange_Conditions)
-        call CreateEventTrigger("Event_OnHealChange_Real" , function ElementalE__OnHealChange , function ElementalE__OnHealChange_Conditions)
+    function ElementalE___init takes nothing returns nothing
+        call CreateEventTrigger("Event_OnDamageChange_Real" , function ElementalE___OnDamageChange , function ElementalE___OnDamageChange_Conditions)
+        call CreateEventTrigger("Event_OnHealChange_Real" , function ElementalE___OnHealChange , function ElementalE___OnHealChange_Conditions)
     endfunction
 // scope ElementalE ends
 
@@ -80483,27 +80483,27 @@ endfunction
 
 
     function Trig_ElementalR_Conditions takes nothing returns boolean
-        return GetSpellAbilityId() == ElementalR__ID_ABILITY
+        return GetSpellAbilityId() == ElementalR___ID_ABILITY
     endfunction
 
     function ElementalRCast takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local unit target= LoadUnitHandle(udg_hash, id, StringHash("elemr"))
          
-        call UnitRemoveAbility(target, ElementalR__EFFECT)
-        call UnitRemoveAbility(target, ElementalR__BUFF)
+        call UnitRemoveAbility(target, ElementalR___EFFECT)
+        call UnitRemoveAbility(target, ElementalR___BUFF)
         call FlushChildHashtable(udg_hash, id)
 
         set target=null
     endfunction
     
-    function ElementalR__AddEffect takes unit caster,unit target,real duration,real damageBonus,real magicDamageBonus returns nothing
+    function ElementalR___AddEffect takes unit caster,unit target,real duration,real damageBonus,real magicDamageBonus returns nothing
         local integer targetId= GetHandleId(target)
         
-        call bufallst(caster , target , ElementalR__EFFECT , 0 , 0 , 0 , 0 , ElementalR__BUFF , "elemr" , duration)
+        call bufallst(caster , target , ElementalR___EFFECT , 0 , 0 , 0 , 0 , ElementalR___BUFF , "elemr" , duration)
         call SaveReal(udg_hash, targetId, StringHash("elemrd"), damageBonus)
         call SaveReal(udg_hash, targetId, StringHash("elemrm"), magicDamageBonus)
-        call PlaySpecialEffect(ElementalR__ANIMATION , target)
+        call PlaySpecialEffect(ElementalR___ANIMATION , target)
 
         call effst(caster , target , null , 1 , duration)
         
@@ -80511,15 +80511,15 @@ endfunction
         set target=null
     endfunction
     
-    function ElementalR__Alternative takes unit caster,unit target,real duration,real damageBonus,real magicDamageBonus returns nothing
-        set damageBonus=damageBonus * ElementalR__EXTRA_DAMAGE_BONUS_ALTERNATIVE
-        call ElementalR__AddEffect(caster , target , duration , damageBonus , magicDamageBonus)
-        call ElementalR__AddEffect(caster , caster , duration , damageBonus , magicDamageBonus)
+    function ElementalR___Alternative takes unit caster,unit target,real duration,real damageBonus,real magicDamageBonus returns nothing
+        set damageBonus=damageBonus * ElementalR___EXTRA_DAMAGE_BONUS_ALTERNATIVE
+        call ElementalR___AddEffect(caster , target , duration , damageBonus , magicDamageBonus)
+        call ElementalR___AddEffect(caster , caster , duration , damageBonus , magicDamageBonus)
     endfunction
     
-    function ElementalR__Main takes unit caster,unit target,real duration,real damageBonus,real magicDamageBonus returns nothing
-        call ElementalR__AddEffect(caster , target , duration , damageBonus , magicDamageBonus)
-        call ElementalR__AddEffect(caster , caster , duration , damageBonus , magicDamageBonus)
+    function ElementalR___Main takes unit caster,unit target,real duration,real damageBonus,real magicDamageBonus returns nothing
+        call ElementalR___AddEffect(caster , target , duration , damageBonus , magicDamageBonus)
+        call ElementalR___AddEffect(caster , caster , duration , damageBonus , magicDamageBonus)
     endfunction
 
     function Trig_ElementalR_Actions takes nothing returns nothing
@@ -80539,8 +80539,8 @@ endfunction
             set caster=udg_Caster
             set target=randomtarget(caster , 900 , "ally" , "hero" , "" , "" , "")
             set lvl=udg_Level
-            call textst(udg_string[0] + GetObjectName(ElementalR__ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
-            set t=ElementalR__DURATION
+            call textst(udg_string[0] + GetObjectName(ElementalR___ID_ABILITY) , caster , 64 , 90 , 10 , 1.5)
+            set t=ElementalR___DURATION
             if target == null then
                 set caster=null
                 return
@@ -80549,40 +80549,40 @@ endfunction
             set caster=GetSpellAbilityUnit()
             set target=GetSpellTargetUnit()
             set lvl=GetUnitAbilityLevel(GetSpellAbilityUnit(), GetSpellAbilityId())
-            set t=ElementalR__DURATION
+            set t=ElementalR___DURATION
         endif
         
-        set damageBonus=ElementalR__DAMAGE_BONUS_FIRST_LEVEL + ( ElementalR__DAMAGE_BONUS_LEVEL_BONUS * lvl )
-        set magicDamageBonus=ElementalR__MAGIC_DAMAGE_BONUS_FIRST_LEVEL + ( ElementalR__MAGIC_DAMAGE_BONUS_LEVEL_BONUS * lvl )
+        set damageBonus=ElementalR___DAMAGE_BONUS_FIRST_LEVEL + ( ElementalR___DAMAGE_BONUS_LEVEL_BONUS * lvl )
+        set magicDamageBonus=ElementalR___MAGIC_DAMAGE_BONUS_FIRST_LEVEL + ( ElementalR___MAGIC_DAMAGE_BONUS_LEVEL_BONUS * lvl )
         
         if Aspects_IsHeroAspectActive(caster , ASPECT_03) then
-        call ElementalR__Alternative(caster , target , t , damageBonus , magicDamageBonus)
+        call ElementalR___Alternative(caster , target , t , damageBonus , magicDamageBonus)
         else
-            call ElementalR__Main(caster , target , t , damageBonus , magicDamageBonus)
+            call ElementalR___Main(caster , target , t , damageBonus , magicDamageBonus)
         endif
 
         set caster=null
         set target=null
     endfunction
     
-    function ElementalR__DeleteBuff_Conditions takes nothing returns boolean
-        return GetUnitAbilityLevel(Event_DeleteBuff_Unit, ElementalR__EFFECT) > 0
+    function ElementalR___DeleteBuff_Conditions takes nothing returns boolean
+        return GetUnitAbilityLevel(Event_DeleteBuff_Unit, ElementalR___EFFECT) > 0
     endfunction
     
-    function ElementalR__DeleteBuff takes nothing returns nothing
+    function ElementalR___DeleteBuff takes nothing returns nothing
         local unit hero= Event_DeleteBuff_Unit
 
-        call UnitRemoveAbility(hero, ElementalR__EFFECT)
-        call UnitRemoveAbility(hero, ElementalR__BUFF)
+        call UnitRemoveAbility(hero, ElementalR___EFFECT)
+        call UnitRemoveAbility(hero, ElementalR___BUFF)
         
         set hero=null
     endfunction
         
-    function ElementalR__OnDamageChange_Magical_Conditions takes nothing returns boolean
-        return udg_IsDamageSpell and GetUnitAbilityLevel(udg_DamageEventTarget, ElementalR__EFFECT) > 0
+    function ElementalR___OnDamageChange_Magical_Conditions takes nothing returns boolean
+        return udg_IsDamageSpell and GetUnitAbilityLevel(udg_DamageEventTarget, ElementalR___EFFECT) > 0
     endfunction
 
-    function ElementalR__OnDamageChange_Magical takes nothing returns nothing
+    function ElementalR___OnDamageChange_Magical takes nothing returns nothing
         local unit hero= udg_DamageEventTarget
         local real magicDamageBonus= LoadReal(udg_hash, GetHandleId(hero), StringHash("elemrm"))
         
@@ -80591,11 +80591,11 @@ endfunction
         set hero=null
     endfunction
     
-    function ElementalR__OnDamageChange_Conditions takes nothing returns boolean
-        return GetUnitAbilityLevel(udg_DamageEventSource, ElementalR__EFFECT) > 0
+    function ElementalR___OnDamageChange_Conditions takes nothing returns boolean
+        return GetUnitAbilityLevel(udg_DamageEventSource, ElementalR___EFFECT) > 0
     endfunction
 
-    function ElementalR__OnDamageChange takes nothing returns nothing
+    function ElementalR___OnDamageChange takes nothing returns nothing
         local unit hero= udg_DamageEventSource
         local real damageBonus= LoadReal(udg_hash, GetHandleId(hero), StringHash("elemrd"))
         
@@ -80605,15 +80605,15 @@ endfunction
     endfunction
 
     //===========================================================================
-    function ElementalR__init takes nothing returns nothing
+    function ElementalR___init takes nothing returns nothing
         set gg_trg_ElementalR=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_ElementalR, EVENT_PLAYER_UNIT_SPELL_EFFECT)
         call TriggerAddCondition(gg_trg_ElementalR, Condition(function Trig_ElementalR_Conditions))
         call TriggerAddAction(gg_trg_ElementalR, function Trig_ElementalR_Actions)
         
-        call CreateEventTrigger("Event_DeleteBuff_Real" , function ElementalR__DeleteBuff , function ElementalR__DeleteBuff_Conditions)
-        call CreateEventTrigger("Event_OnDamageChange_Real" , function ElementalR__OnDamageChange_Magical , function ElementalR__OnDamageChange_Magical_Conditions)
-        call CreateEventTrigger("Event_OnDamageChange_Real" , function ElementalR__OnDamageChange , function ElementalR__OnDamageChange_Conditions)
+        call CreateEventTrigger("Event_DeleteBuff_Real" , function ElementalR___DeleteBuff , function ElementalR___DeleteBuff_Conditions)
+        call CreateEventTrigger("Event_OnDamageChange_Real" , function ElementalR___OnDamageChange_Magical , function ElementalR___OnDamageChange_Magical_Conditions)
+        call CreateEventTrigger("Event_OnDamageChange_Real" , function ElementalR___OnDamageChange , function ElementalR___OnDamageChange_Conditions)
     endfunction
     
 // scope ElementalR ends
@@ -107700,7 +107700,7 @@ endfunction
 // scope PAStart begins
 
 
-    function PAStart__PA_TimerEnd takes nothing returns nothing
+    function PAStart___PA_TimerEnd takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
     
         if udg_fightmod[3] then
@@ -107712,7 +107712,7 @@ endfunction
         call FlushChildHashtable(udg_hash, id)
     endfunction
     
-    function PAStart__BattleStart takes integer playerIndex,integer opponentIndex returns nothing
+    function PAStart___BattleStart takes integer playerIndex,integer opponentIndex returns nothing
         local integer id
         local integer i
 
@@ -107738,7 +107738,7 @@ endfunction
         if LoadTimerHandle(udg_hash, id, StringHash("PA")) == null then
             call SaveTimerHandle(udg_hash, id, StringHash("PA"), CreateTimer())
         endif
-        call TimerStart(LoadTimerHandle(udg_hash, id, StringHash("PA")), PAStart__BATTLE_TIME, false, function PAStart__PA_TimerEnd)
+        call TimerStart(LoadTimerHandle(udg_hash, id, StringHash("PA")), PAStart___BATTLE_TIME, false, function PAStart___PA_TimerEnd)
 
         set bj_lastCreatedTimerDialog=CreateTimerDialog(LoadTimerHandle(udg_hash, GetHandleId(gg_unit_h00A_0034), StringHash("PA")))
         call TimerDialogSetTitle(bj_lastCreatedTimerDialog, "End of battle:")
@@ -107760,7 +107760,7 @@ endfunction
         endloop
     endfunction
     
-    function PAStart__WaitForBattle takes player pl,integer playerIndex returns nothing
+    function PAStart___WaitForBattle takes player pl,integer playerIndex returns nothing
         if GetLocalPlayer() == pl then
             call BlzFrameSetTexture(pvpbk, "ReplaceableTextures\\CommandButtons\\BTNCancel.blp", 0, true)
         endif
@@ -107769,7 +107769,7 @@ endfunction
         set pl=null
     endfunction
     
-    function PAStart__Use takes player mainPlayer,integer playerIndex returns nothing
+    function PAStart___Use takes player mainPlayer,integer playerIndex returns nothing
         local integer i
         local integer opponentIndex= - 1
         local player opponent= null
@@ -107786,16 +107786,16 @@ endfunction
         endloop
     
         if GetPlayerSlotState(mainPlayer) == PLAYER_SLOT_STATE_PLAYING and GetPlayerSlotState(opponent) == PLAYER_SLOT_STATE_PLAYING and udg_logic[36 + playerIndex] and udg_logic[36 + opponentIndex] then
-            call PAStart__BattleStart(playerIndex , opponentIndex)
+            call PAStart___BattleStart(playerIndex , opponentIndex)
         else
-            call PAStart__WaitForBattle(mainPlayer , playerIndex)
+            call PAStart___WaitForBattle(mainPlayer , playerIndex)
         endif
         
         set mainPlayer=null
         set opponent=null
     endfunction
     
-    function PAStart__End_Cooldown takes nothing returns nothing
+    function PAStart___End_Cooldown takes nothing returns nothing
         local integer id= GetHandleId(GetExpiredTimer())
         local player pl= LoadPlayerHandle(udg_hash, id, StringHash("cool"))
     
@@ -107807,7 +107807,7 @@ endfunction
         set pl=null
     endfunction
     
-    function PAStart__Cancel takes player pl,integer playerIndex returns nothing
+    function PAStart___Cancel takes player pl,integer playerIndex returns nothing
         local integer id
 
         if GetLocalPlayer() == pl then
@@ -107824,27 +107824,27 @@ endfunction
         endif
         set id=GetHandleId(LoadTimerHandle(udg_hash, id, StringHash("cool")))
         call SavePlayerHandle(udg_hash, id, StringHash("cool"), pl)
-        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(pl), StringHash("cool")), PAStart__BUTTON_COOLDOWN, false, function PAStart__End_Cooldown)
+        call TimerStart(LoadTimerHandle(udg_hash, GetHandleId(pl), StringHash("cool")), PAStart___BUTTON_COOLDOWN, false, function PAStart___End_Cooldown)
         
         set pl=null
     endfunction
 
-    function PAStart__PvPButtonClicked takes nothing returns nothing
+    function PAStart___PvPButtonClicked takes nothing returns nothing
         local player pl= Event_PvPButtonClicked_Player
         local integer i= GetPlayerId(pl) + 1
 
         if udg_logic[36 + i] == false then
-            call PAStart__Use(pl , i)
+            call PAStart___Use(pl , i)
         else
-            call PAStart__Cancel(pl , i)
+            call PAStart___Cancel(pl , i)
         endif
 
         set pl=null
     endfunction
 
     //===========================================================================
-    function PAStart__init takes nothing returns nothing
-        call CreateEventTrigger("Event_PvPButtonClicked_Real" , function PAStart__PvPButtonClicked , null)
+    function PAStart___init takes nothing returns nothing
+        call CreateEventTrigger("Event_PvPButtonClicked_Real" , function PAStart___PvPButtonClicked , null)
     endfunction
 // scope PAStart ends
 
@@ -108158,7 +108158,7 @@ endfunction
     endfunction
 
     //===========================================================================
-    function OverloadArena__init takes nothing returns nothing
+    function OverloadArena___init takes nothing returns nothing
         set gg_trg_AL_StartWork=CreateTrigger()
         call TriggerAddAction(gg_trg_AL_StartWork, function Trig_AL_StartWork_Actions)
     endfunction
@@ -108172,11 +108172,11 @@ endfunction
 //===========================================================================
 // scope MoneyAL begins
 
-    function MoneyAL__Trig_AL_Money_Conditions takes nothing returns boolean
+    function MoneyAL___Trig_AL_Money_Conditions takes nothing returns boolean
         return udg_fightmod[4] and GetOwningPlayer(GetDyingUnit()) == Player(10) and IsUnitInGroup(GetDyingUnit(), udg_Bosses)
     endfunction
     
-    function MoneyAL__UnitCheck takes unit u returns boolean
+    function MoneyAL___UnitCheck takes unit u returns boolean
         local integer unitType= GetUnitTypeId(u)
         if unitType == 'h01D' then
             return false
@@ -108205,12 +108205,12 @@ endfunction
         return true
     endfunction
 
-    function MoneyAL__Trig_AL_Money_Actions takes nothing returns nothing
+    function MoneyAL___Trig_AL_Money_Actions takes nothing returns nothing
         local integer i
         local real money= udg_number[9]
         
         call BossKill_Actions_on_u(GetDyingUnit()) // also removes u from udg_Bosses
-        if MoneyAL__UnitCheck(GetDyingUnit()) then
+        if MoneyAL___UnitCheck(GetDyingUnit()) then
             if udg_number[9] < OverloadArena_GOLD_CAP then
                 set udg_number[9]=udg_number[9] + OverloadArena_GOLD_EXTRA_PER_KILL
             endif
@@ -108230,11 +108230,11 @@ endfunction
     endfunction
 
     //===========================================================================
-    function MoneyAL__init takes nothing returns nothing
+    function MoneyAL___init takes nothing returns nothing
         set gg_trg_AL_Money=CreateTrigger()
         call TriggerRegisterAnyUnitEventBJ(gg_trg_AL_Money, EVENT_PLAYER_UNIT_DEATH)
-        call TriggerAddCondition(gg_trg_AL_Money, Condition(function MoneyAL__Trig_AL_Money_Conditions))
-        call TriggerAddAction(gg_trg_AL_Money, function MoneyAL__Trig_AL_Money_Actions)
+        call TriggerAddCondition(gg_trg_AL_Money, Condition(function MoneyAL___Trig_AL_Money_Conditions))
+        call TriggerAddAction(gg_trg_AL_Money, function MoneyAL___Trig_AL_Money_Actions)
     endfunction
 
 // scope MoneyAL ends
@@ -108244,7 +108244,7 @@ endfunction
 // scope ArenaLordsEnd begins
 
 
-    function ArenaLordsEnd__EndBattle takes nothing returns nothing
+    function ArenaLordsEnd___EndBattle takes nothing returns nothing
         local group g= CreateGroup()
         local unit u
     
@@ -108287,13 +108287,13 @@ endfunction
         call GroupAddUnit(udg_DeadHero, died)
         set udg_Heroes_Deaths=udg_Heroes_Deaths + 1
         if udg_Heroes_Deaths == udg_Heroes_Amount then
-            call ArenaLordsEnd__EndBattle()
+            call ArenaLordsEnd___EndBattle()
         endif
         
         set died=null
     endfunction
     
-    function ArenaLordsEnd__IsLastBossKilled takes nothing returns boolean
+    function ArenaLordsEnd___IsLastBossKilled takes nothing returns boolean
         if udg_fightmod[4] == false then
             return false
         elseif GetUnitTypeId(GetDyingUnit()) == 'n00F' then
@@ -108304,12 +108304,12 @@ endfunction
         return false
     endfunction
     
-    function ArenaLordsEnd__BossKilled takes nothing returns nothing
-        call ArenaLordsEnd__EndBattle()
+    function ArenaLordsEnd___BossKilled takes nothing returns nothing
+        call ArenaLordsEnd___EndBattle()
     endfunction
 
     //===========================================================================
-    function ArenaLordsEnd__init takes nothing returns nothing
+    function ArenaLordsEnd___init takes nothing returns nothing
         set gg_trg_AL_End=CreateTrigger()
         call DisableTrigger(gg_trg_AL_End)
         call TriggerRegisterAnyUnitEventBJ(gg_trg_AL_End, EVENT_PLAYER_UNIT_DEATH)
@@ -108319,8 +108319,8 @@ endfunction
         set ArenaLordsEnd_LastBossKilled=CreateTrigger()
         call DisableTrigger(ArenaLordsEnd_LastBossKilled)
         call TriggerRegisterAnyUnitEventBJ(ArenaLordsEnd_LastBossKilled, EVENT_PLAYER_UNIT_DEATH)
-        call TriggerAddCondition(ArenaLordsEnd_LastBossKilled, Condition(function ArenaLordsEnd__IsLastBossKilled))
-        call TriggerAddAction(ArenaLordsEnd_LastBossKilled, function ArenaLordsEnd__BossKilled)
+        call TriggerAddCondition(ArenaLordsEnd_LastBossKilled, Condition(function ArenaLordsEnd___IsLastBossKilled))
+        call TriggerAddAction(ArenaLordsEnd_LastBossKilled, function ArenaLordsEnd___BossKilled)
     endfunction
 
 // scope ArenaLordsEnd ends
@@ -110532,8 +110532,8 @@ function main takes nothing returns nothing
     call CreateAllUnits()
     call InitBlizzard()
 
-call ExecuteFunc("jasshelper__initstructs16304359")
-call ExecuteFunc("Aspects___init")
+call ExecuteFunc("jasshelper__initstructs25068734")
+call ExecuteFunc("Aspects__init")
 call ExecuteFunc("HeroesTableDatabase___init")
 call ExecuteFunc("MMD___init")
 call ExecuteFunc("Math__init")
@@ -110544,7 +110544,7 @@ call ExecuteFunc("ChallengeData___init")
 call ExecuteFunc("MetaEvents___init")
 call ExecuteFunc("RandomTargetLib__init")
 call ExecuteFunc("SpellPower__init")
-call ExecuteFunc("PolyLib___init")
+call ExecuteFunc("PolyLib__init")
 call ExecuteFunc("HeroesTable___init")
 call BetterTriggerCheck__init()
 call TimerStart(CreateTimer(), 0.1, false, function Trig_BaseTooltip_Actions) // INLINED!!
@@ -110562,9 +110562,9 @@ call ExchangeReturn___init()
 call SplitShop___init()
 call SpecialsShop___init()
 call TimerStart(CreateTimer(), 0.05, false, function JuleFrame___Action) // INLINED!!
-call HeroesChoise___init()
-call ManaReg___init()
-call AncientSword___init()
+call HeroesChoise__init()
+call ManaReg__init()
+call AncientSword__init()
 call BoStaff__init()
 call CreateEventTrigger("udg_AfterDamageEvent" , function Trig_Bloody_Mary_Actions , function Trig_Bloody_Mary_Conditions) // INLINED!!
 call CreateEventTrigger("Event_ItemSplit_Real" , function ItemSplit , function ItemSplit_Conditions) // INLINED!!
@@ -110588,19 +110588,19 @@ call Zuma__init()
 call GoldenLamp__Triggs()
 call SuperbotLeg__init()
 call CloudHorn__init()
-call PandorasBoxInvul___Triggs()
-call BraccusWex___Triggs()
-call AlchemistsStone___init()
-call ChameleonEye___init()
+call PandorasBoxInvul__Triggs()
+call BraccusWex__Triggs()
+call AlchemistsStone__init()
+call ChameleonEye__init()
 call CreateEventTrigger("Event_AfterHeal_Real" , function AfterHeal , function AfterHeal_Conditions) // INLINED!!
-call SlippersOfMadness___init()
-call CreateEventTrigger("Event_AfterHeal_Real" , function HungryLeech___AfterHeal , function HungryLeech___AfterHeal_Conditions) // INLINED!!
-call CreateEventTrigger("udg_AfterDamageEvent" , function BattlemasterBulwark___AfterDamageEvent , function BattlemasterBulwark___AfterDamageEvent_Conditions) // INLINED!!
-call Enlightenment___init()
-call CharizardQuest___init()
-call OrbCenarius___init()
-call OrbRollingPlains___init()
-call CreateEventTrigger("Event_AfterHeal_Real" , function OrbFrozenThundra___AfterHeal , function OrbFrozenThundra___AfterHeal_Conditions) // INLINED!!
+call SlippersOfMadness__init()
+call CreateEventTrigger("Event_AfterHeal_Real" , function HungryLeech__AfterHeal , function HungryLeech__AfterHeal_Conditions) // INLINED!!
+call CreateEventTrigger("udg_AfterDamageEvent" , function BattlemasterBulwark__AfterDamageEvent , function BattlemasterBulwark__AfterDamageEvent_Conditions) // INLINED!!
+call Enlightenment__init()
+call CharizardQuest__init()
+call OrbCenarius__init()
+call OrbRollingPlains__init()
+call CreateEventTrigger("Event_AfterHeal_Real" , function OrbFrozenThundra__AfterHeal , function OrbFrozenThundra__AfterHeal_Conditions) // INLINED!!
 call CreateEventTrigger("udg_AfterDamageEvent" , function BloodSet___AfterDamageEvent , function BloodSet___AfterDamageEvent_Conditions) // INLINED!!
 call FinancialVein___Triggs()
 call Noiselessness___Triggs()
@@ -110634,22 +110634,22 @@ call MarshalE___Triggs()
 call ShadowArcherE___Triggs()
 call SamuraiW___Triggs()
 call SamuraiR___init()
-call GunMasterR__init()
-call CreateEventTrigger("udg_DamageModifierEvent" , function GamblerE__DamageModifierEvent , function GamblerE__DamageModifierEvent_Conditions) // INLINED!!
-call GamblerR__init()
-call BananaDeath__init()
-call RunesmithQ__init()
-call CreateEventTrigger("udg_AfterDamageEvent" , function Trig_RunesmithQHit_Actions , function RunesmithQHit__Trig_RunesmithQHit_Conditions) // INLINED!!
-call RunesmithW__init()
-call RunesmithWDeath__init()
-call RunesmithE__init()
-call RunesmithEFightEnd__init()
-call RunesmithR__init()
-call RunesmithRDeath__init()
-call RunesmithRocks__init()
-call ElementalQ__init()
-call ElementalE__init()
-call ElementalR__init()
+call GunMasterR___init()
+call CreateEventTrigger("udg_DamageModifierEvent" , function GamblerE___DamageModifierEvent , function GamblerE___DamageModifierEvent_Conditions) // INLINED!!
+call GamblerR___init()
+call BananaDeath___init()
+call RunesmithQ___init()
+call CreateEventTrigger("udg_AfterDamageEvent" , function Trig_RunesmithQHit_Actions , function RunesmithQHit___Trig_RunesmithQHit_Conditions) // INLINED!!
+call RunesmithW___init()
+call RunesmithWDeath___init()
+call RunesmithE___init()
+call RunesmithEFightEnd___init()
+call RunesmithR___init()
+call RunesmithRDeath___init()
+call RunesmithRocks___init()
+call ElementalQ___init()
+call ElementalE___init()
+call ElementalR___init()
 call BardQ__init()
 call BardW__init()
 call BardR__init()
@@ -110689,10 +110689,10 @@ call BossAku1___init()
 call IADatabase___init()
 call InfiniteArena___init()
 call AbominationExplosion___init()
-call CreateEventTrigger("Event_PvPButtonClicked_Real" , function PAStart__PvPButtonClicked , null) // INLINED!!
-call OverloadArena__init()
-call MoneyAL__init()
-call ArenaLordsEnd__init()
+call CreateEventTrigger("Event_PvPButtonClicked_Real" , function PAStart___PvPButtonClicked , null) // INLINED!!
+call OverloadArena___init()
+call MoneyAL___init()
+call ArenaLordsEnd___init()
 
     call InitGlobals()
     call InitCustomTriggers()
@@ -110760,7 +110760,7 @@ function sa___prototype84_onRemovalBoss takes nothing returns boolean
     return true
 endfunction
 
-function jasshelper__initstructs16304359 takes nothing returns nothing
+function jasshelper__initstructs25068734 takes nothing returns nothing
     set st__AbilityFrame_SetNameAndDescription=CreateTrigger()
     call TriggerAddCondition(st__AbilityFrame_SetNameAndDescription,Condition( function sa__AbilityFrame_SetNameAndDescription))
     set st__MMD___QueueNode_onDestroy=CreateTrigger()

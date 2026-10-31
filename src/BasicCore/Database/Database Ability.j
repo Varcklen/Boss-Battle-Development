@@ -74,7 +74,7 @@ library LibDataAbilities requires LibDataItems
 	    set udg_Database_Hero[62] = 'N054'	//	Sun King
 	    set udg_Database_Hero[63] = 'N055'	//	Armsmaster
 	    set udg_Database_Hero[64] = 'N057'	//	jester
-	    set udg_Database_Hero[65] = 'N05A'	//	Kotgt
+	    set udg_Database_Hero[65] = 'N05A'	//	Keeper of the Great Tree
 	    set udg_Database_Hero[66] = 'N02G'	//	Cat
 	    set udg_Database_Hero[67] = 'N02H'	//	Wanderer
 	    set udg_Database_Hero[68] = 'N02K'	//	Gun Master

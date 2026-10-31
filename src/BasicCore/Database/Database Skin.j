@@ -169,6 +169,11 @@ scope Skins
         set skinlvl[63][1] = 6
         set skiniconBTN[63][1] = "war3mapImported\\BTNskilarmsmaster1.blp"
         set skiniconDIS[63][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNskilarmsmaster1.blp"
+        //Keeper of the Great Tree
+        set skinmodel[65][1] = 'N05J'
+        set skinlvl[65][1] = 8
+        set skiniconBTN[65][1] = "war3mapImported\\BTNOwlScout.blp"
+        set skiniconDIS[65][1] = "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNOwlScout.blp"
         //===============
         set skinmodel[67][1] = 'N02I'
         set skinlvl[67][1] = 20
