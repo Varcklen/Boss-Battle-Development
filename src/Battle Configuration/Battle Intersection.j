@@ -39,11 +39,8 @@ library BattleIntersection requires BuffDeleteLib, BattleStart, BattleEnd
 	    set u = null
 	    set g = null
     endfunction
-
-    private function PlayerAction takes unit hero, player owner, integer index, integer battleType returns nothing
-    	local group g = CreateGroup()
-	    local unit u
     
+    private function PlayerAction takes unit hero, player owner, integer index, integer battleType returns nothing
     	call ShowUnitShow( hero )
 
         if ExtraArenaGeneral_IsPvPActive() and ExtraArenaGeneral_IsPvPFighter(hero) == false then
@@ -58,45 +55,13 @@ library BattleIntersection requires BuffDeleteLib, BattleStart, BattleEnd
         call IssueImmediateOrder( hero, "stop" )
         call DelBuff( hero, true )
         call SetUnitOwner( hero, owner, true )
-        
-        /*if LoadUnitHandle( udg_hash, GetHandleId( LoadTimerHandle( udg_hash, GetHandleId( hero ), StringHash( "mad" ) ) ), StringHash( "mad" ) ) == hero then
-            call DestroyTimer( LoadTimerHandle( udg_hash, GetHandleId( hero ), StringHash( "mad" ) ) )
-            call FlushChildHashtable( udg_hash, GetHandleId( LoadTimerHandle( udg_hash, GetHandleId( hero ), StringHash( "mad" ) ) ) )
-        endif*/
-        /*if LoadUnitHandle( udg_hash, GetHandleId( LoadTimerHandle( udg_hash, GetHandleId( hero ), StringHash( "sheepmad" ) ) ), StringHash( "sheepmad" ) ) == hero then
-            call DestroyTimer( LoadTimerHandle( udg_hash, GetHandleId( hero ), StringHash( "sheepmad" ) ) )
-            call FlushChildHashtable( udg_hash, GetHandleId( LoadTimerHandle( udg_hash, GetHandleId( hero ), StringHash( "sheepmad" ) ) ) )
-        endif*/
-        
-        set bj_livingPlayerUnitsTypeId = 'u000'
-        call GroupEnumUnitsOfPlayer(g, owner, filterLivingPlayerUnitsOfTypeId)
-        loop
-            set u = FirstOfGroup(g)
-            exitwhen u == null
-            call RemoveUnit( u )
-            call GroupRemoveUnit(g,u)
-        endloop
-        
-        call GroupEnumUnitsOfPlayer(g, owner, null )
-        loop
-            set u = FirstOfGroup(g)
-            exitwhen u == null
-            if not( IsUnitType( u, UNIT_TYPE_HERO) ) and not( IsUnitType( u, UNIT_TYPE_STRUCTURE) ) and GetUnitAbilityLevel( u, 'A1ER') == 0 then
-                call RemoveUnit( u )
-            endif
-            call GroupRemoveUnit(g,u)
-        endloop
-        
+
         if battleType == BATTLE_TYPE_INFINITE_ARENA or battleType == BATTLE_TYPE_OVERLORD_ARENA or battleType == BATTLE_TYPE_RESSURECTION then
             set Event_EndOfLostBattle_Hero = hero
             set Event_EndOfLostBattle_Real = 0.00
             set Event_EndOfLostBattle_Real = 1.00
             set Event_EndOfLostBattle_Real = 0.00
         endif
-        
-        call DestroyGroup( g )
-	    set u = null
-	    set g = null
     endfunction
 
 	private function BetweenEnd takes nothing returns nothing
@@ -191,7 +156,7 @@ library BattleIntersection requires BuffDeleteLib, BattleStart, BattleEnd
                 call UnitResetCooldown( hero )
                 call IssueImmediateOrder( hero, "stop" )
             endif
-            
+
             set Event_BetweenUnit_Index = index
 	        set Event_BetweenUnit_Hero = hero
 	        set Event_BetweenUnit = 1

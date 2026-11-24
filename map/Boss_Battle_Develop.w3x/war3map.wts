@@ -3,13 +3,11 @@
 |cffffcc00Boss Battle|r - an exciting competition of players against bosses and their minions in the genre |cffffcc00HeroArena|r with elements of games of the genre |cffffcc00RogueLike|r.
 |cffffcc00Discord:|r discordapp.com/invite/jCv9CcQnwN;
 |cffffcc00Discord.Me:|r discord.me/bbwc3.
-
-|cffffcc00Attention!|r This is a test version and may contain bugs.
 }
 
 STRING 1
 {
-|cffbe81f7Boss Battle 1.12.11T|r
+|cffbe81f7Boss Battle 1.13.1|r
 }
 
 STRING 2
@@ -447,7 +445,7 @@ STRING 62
 }
 
 STRING 63
-// Units: N05J ((W) Keeper of the Great Tree), Name (Name)
+// Units: N05A ((W) Keeper of the Great Tree), Name (Name)
 {
 (W) Keeper of the Great Tree
 }
@@ -459,7 +457,7 @@ STRING 64
 }
 
 STRING 65
-// Units: N05J ((W) Keeper of the Great Tree), Propernames (Proper Names)
+// Units: N05A ((W) Keeper of the Great Tree), Propernames (Proper Names)
 {
 Soren 
 }
@@ -483,7 +481,7 @@ STRING 68
 }
 
 STRING 69
-// Units: N05J ((W) Keeper of the Great Tree), EditorSuffix (Name - Editor Suffix)
+// Units: O01U (Shoggoth), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2362,7 +2360,7 @@ Kruger
 }
 
 STRING 380
-// Units: O01U (Shoggoth), EditorSuffix (Name - Editor Suffix)
+// Units: O01S (Miracle alchemist), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2380,7 +2378,7 @@ Azathot
 }
 
 STRING 383
-// Units: O01S (Miracle alchemist), EditorSuffix (Name - Editor Suffix)
+// Units: O01P (Commander), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2398,7 +2396,7 @@ Lye Insanios
 }
 
 STRING 386
-// Units: O01P (Commander), EditorSuffix (Name - Editor Suffix)
+// Units: O01H (Admiral), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2452,7 +2450,7 @@ Kappa
 }
 
 STRING 395
-// Units: O01H (Admiral), EditorSuffix (Name - Editor Suffix)
+// Units: O01G (Adventurer), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2550,7 +2548,7 @@ Gothik
 }
 
 STRING 410
-// Units: O01G (Adventurer), EditorSuffix (Name - Editor Suffix)
+// Units: O01E (Dryad), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2568,7 +2566,7 @@ Crusoe Robinson
 }
 
 STRING 413
-// Units: O01E (Dryad), EditorSuffix (Name - Editor Suffix)
+// Units: O01D (Monk), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2586,7 +2584,7 @@ Bartholomew
 }
 
 STRING 416
-// Units: O01D (Monk), EditorSuffix (Name - Editor Suffix)
+// Units: N056 (Armsmaster), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2604,7 +2602,7 @@ Elisia
 }
 
 STRING 419
-// Units: N056 (Armsmaster), EditorSuffix (Name - Editor Suffix)
+// Units: N051 (Metal Mage), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2908,7 +2906,7 @@ Wild Hunt
 }
 
 STRING 469
-// Units: N05A ((W) Keeper of the Great Tree), Propernames (Proper Names)
+// Units: N05J ((W) Keeper of the Great Tree), Propernames (Proper Names)
 {
 Soren 
 }
@@ -2926,7 +2924,7 @@ Shenanigan
 }
 
 STRING 472
-// Units: N051 (Metal Mage), EditorSuffix (Name - Editor Suffix)
+// Units: N04Z (Mentor), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -2986,7 +2984,7 @@ Oakisle
 }
 
 STRING 482
-// Units: N04Z (Mentor), EditorSuffix (Name - Editor Suffix)
+// Units: N04Y (Barbarian), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3022,7 +3020,7 @@ Minos
 }
 
 STRING 488
-// Units: N04Y (Barbarian), EditorSuffix (Name - Editor Suffix)
+// Units: N04V (Preacher of the light), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3040,7 +3038,7 @@ Yoda
 }
 
 STRING 491
-// Units: N04V (Preacher of the light), EditorSuffix (Name - Editor Suffix)
+// Units: N04U (Harpy), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3085,7 +3083,7 @@ Gaemon
 }
 
 STRING 498
-// Units: N04U (Harpy), EditorSuffix (Name - Editor Suffix)
+// Units: N04R (Minotaur), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3103,7 +3101,7 @@ Samael
 }
 
 STRING 501
-// Units: N04R (Minotaur), EditorSuffix (Name - Editor Suffix)
+// Units: N04Q (Samurai), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3139,7 +3137,7 @@ Bob the Growing
 }
 
 STRING 507
-// Units: N04Q (Samurai), EditorSuffix (Name - Editor Suffix)
+// Units: N03D (Incarnation of the Void), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3157,7 +3155,7 @@ Minos
 }
 
 STRING 510
-// Units: N03D (Incarnation of the Void), EditorSuffix (Name - Editor Suffix)
+// Units: N03A (Combat ogre), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3356,7 +3354,7 @@ Furrih Atero
 }
 
 STRING 540
-// Units: N03A (Combat ogre), EditorSuffix (Name - Editor Suffix)
+// Units: N034 (Grim ninja), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3410,7 +3408,7 @@ Sans
 }
 
 STRING 549
-// Units: N034 (Grim ninja), EditorSuffix (Name - Editor Suffix)
+// Units: N033 (Pyrolord), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3452,7 +3450,7 @@ Night fury
 }
 
 STRING 556
-// Units: N033 (Pyrolord), EditorSuffix (Name - Editor Suffix)
+// Units: N016 (Scarab King), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3473,7 +3471,7 @@ Shinobi
 }
 
 STRING 559
-// Units: N016 (Scarab King), EditorSuffix (Name - Editor Suffix)
+// Units: H025 (Sludge), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3737,7 +3735,7 @@ Beechbone
 }
 
 STRING 600
-// Units: H025 (Sludge), EditorSuffix (Name - Editor Suffix)
+// Units: H024 (Bone knight), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3882,7 +3880,7 @@ Medved
 }
 
 STRING 622
-// Units: H024 (Bone knight), EditorSuffix (Name - Editor Suffix)
+// Units: O022 (Toxic Elemental), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -3900,7 +3898,7 @@ Slimey
 }
 
 STRING 625
-// Units: O022 (Toxic Elemental), EditorSuffix (Name - Editor Suffix)
+// Units: N05E ((E) Chronomancer), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -4232,7 +4230,7 @@ STRING 676
 }
 
 STRING 677
-// Units: N05E ((E) Chronomancer), EditorSuffix (Name - Editor Suffix)
+// Units: N05F ((R) Vampire), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -18791,7 +18789,7 @@ Buy Exile Item
 }
 
 STRING 2851
-// Units: N05F ((R) Vampire), EditorSuffix (Name - Editor Suffix)
+// Units: N05G ((A) Shadow Archer), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -19628,7 +19626,7 @@ Mecha Chicken W.T.I.I.
 }
 
 STRING 2983
-// Units: N05G ((A) Shadow Archer), EditorSuffix (Name - Editor Suffix)
+// Units: N05J ((W) Keeper of the Great Tree), EditorSuffix (Name - Editor Suffix)
 {
 (Skin1)
 }
@@ -72180,7 +72178,7 @@ By Varcklen
 
 STRING 11218
 {
-|cffbe81f7Boss Battle 1.12.11T|r
+|cffbe81f7Boss Battle 1.13.1|r
 }
 
 STRING 11219
@@ -73756,7 +73754,7 @@ STRING 11463
 }
 
 STRING 11464
-// Units: N05A ((W) Keeper of the Great Tree), Name (Name)
+// Units: N05J ((W) Keeper of the Great Tree), Name (Name)
 {
 (W) Keeper of the Great Tree
 }
